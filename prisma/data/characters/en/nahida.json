@@ -1,0 +1,62 @@
+{
+  "name": "nahida",
+  "rarity": 5,
+  "vision": "Dendro",
+  "weapon": "Catalyst",
+  "nation": "Sumeru",
+  "birthday": "0000-10-27",
+  "releaseDate": "2022-11-02",
+  "title": "Wisdom Incarnate",
+  "description": "The youngest of the Seven, Nahida bears the gnosis of Dendro and the dreams of the sages of Sumeru.",
+  "affiliation": "Sumeru Akademiya",
+  "constellation": "Sapientia Oromasdis",
+  "passiveTalents": [
+    {
+      "unlock": "Unlocked at Ascension 1",
+      "name": "Compassion Illuminated",
+      "description": "When unleashing Illusory Heart, the Shrine of Maya will gain the following effects based on the elemental types of the other party members."
+    },
+    {
+      "unlock": "Unlocked at Ascension 4",
+      "name": "Awakening Elucidated",
+      "description": "Each point of Nahida's Elemental Mastery beyond 200 will grant 0.1% Bonus DMG and 0.03% CRIT Rate to Tri-Karma Purification from All Schemes to Know."
+    },
+    {
+      "unlock": "Unlocked Automatically",
+      "name": "On All Things Meditated",
+      "description": "Nahida can use All Schemes to Know to interact with some harvestable items within a fixed AoE. This skill may be triggered even when Nahida is not the active character."
+    }
+  ],
+  "constellations": [
+    {
+      "level": 1,
+      "name": "The Seed of Stored Knowledge",
+      "description": "The Shrine of Maya will last 6s longer."
+    },
+    {
+      "level": 2,
+      "name": "The Root of All Fullness",
+      "description": "Opponents that are marked by Seeds of Skandha applied by Nahida herself will be affected by the following: Burning, Bloom, Hyperbloom, and Burgeon Reaction DMG they receive is increased by 40%."
+    },
+    {
+      "level": 3,
+      "name": "The Shoot of Conscious Attainment",
+      "description": "Increases the Level of All Schemes to Know by 3. Maximum upgrade level is 15."
+    },
+    {
+      "level": 4,
+      "name": "The Stem of Manifest Inference",
+      "description": "When 1/2/3/4 (or more) nearby opponents are affected by All Schemes to Know's Seeds of Skandha, Nahida's Elemental Mastery will be increased by 100/120/140/160."
+    },
+    {
+      "level": 5,
+      "name": "The Leaves of Enlightening Speech",
+      "description": "Increases the Level of Illusory Heart by 3. Maximum upgrade level is 15."
+    },
+    {
+      "level": 6,
+      "name": "The Fruit of Reason's Culmination",
+      "description": "When Nahida hits an opponent affected by All Schemes to Know's Seeds of Skandha with Tri-Karma Purification: Karmic Oblivion from All Schemes to Know, the DMG dealt is based on 200% of Nahida's ATK and 400% of her Elemental Mastery."
+    }
+  ]
+}

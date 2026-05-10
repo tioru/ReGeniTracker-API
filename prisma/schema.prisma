@@ -1,13 +1,225 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Get a free hosted Postgres database in seconds: `npx create-db`
-
-generator client {
-  provider = "prisma-client"
-  output   = "../generated/prisma"
-}
-
 datasource db {
   provider = "postgresql"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Character {
+  id                 Int                    @id @default(autoincrement())
+  name               String                 @unique
+  rarity             Int
+  vision             String
+  weapon             String
+  nation             String
+  birthday           DateTime?
+  releaseDate        DateTime?
+  translations       CharacterTranslation[]
+  ascensionMaterials AscensionMaterial[]
+  normalAttacks      NormalAttack[]
+  elementalSkills    ElementalSkill[]
+  elementalBursts    ElementalBurst[]
+  passiveTalents     PassiveTalent[]
+  ascensionTalents   AscensionTalent[]
+  additionalTalents  AdditionalTalent[]
+  constellations     Constellation[]
+}
+
+model CharacterTranslation {
+  id            Int       @id @default(autoincrement())
+  lang          String
+  title         String?
+  description   String?
+  affiliation   String?
+  constellation String?
+  character     Character @relation(fields: [characterId], references: [id])
+  characterId   Int
+
+  @@unique([characterId, lang])
+}
+
+model AscensionMaterial {
+  id          Int                     @id @default(autoincrement())
+  level       String
+  character   Character               @relation(fields: [characterId], references: [id])
+  characterId Int
+  items       AscensionMaterialItem[]
+}
+
+model AscensionMaterialItem {
+  id                  Int               @id @default(autoincrement())
+  value               String
+  ascensionMaterial   AscensionMaterial @relation(fields: [ascensionMaterialId], references: [id])
+  ascensionMaterialId Int
+  material            Material          @relation(fields: [materialId], references: [id])
+  materialId          Int
+}
+
+model Material {
+  id                 Int                   @id @default(autoincrement())
+  name               String                @unique
+  rarity             Int?
+  category           String[]
+  translations       MaterialTranslation[]
+  sources            MaterialSource[]
+  ascensionMaterials AscensionMaterialItem[]
+}
+
+model MaterialTranslation {
+  id          Int      @id @default(autoincrement())
+  lang        String
+  name        String
+  description String?
+  material    Material @relation(fields: [materialId], references: [id])
+  materialId  Int
+
+  @@unique([materialId, lang])
+}
+
+model MaterialSource {
+  id         Int      @id @default(autoincrement())
+  type       String
+  name       String
+  material   Material @relation(fields: [materialId], references: [id])
+  materialId Int
+}
+
+model NormalAttack {
+  id               Int                       @id @default(autoincrement())
+  unlock           String?
+  upgrades         Json?
+  attributeScaling Json?
+  character        Character                 @relation(fields: [characterId], references: [id])
+  characterId      Int
+  translations     NormalAttackTranslation[]
+}
+
+model NormalAttackTranslation {
+  id             Int          @id @default(autoincrement())
+  lang           String
+  name           String
+  description    String?
+  normalAttack   NormalAttack @relation(fields: [normalAttackId], references: [id])
+  normalAttackId Int
+
+  @@unique([normalAttackId, lang])
+}
+
+model ElementalSkill {
+  id               Int                         @id @default(autoincrement())
+  unlock           String?
+  upgrades         Json?
+  attributeScaling Json?
+  character        Character                   @relation(fields: [characterId], references: [id])
+  characterId      Int
+  translations     ElementalSkillTranslation[]
+}
+
+model ElementalSkillTranslation {
+  id               Int            @id @default(autoincrement())
+  lang             String
+  name             String
+  description      String?
+  elementalSkill   ElementalSkill @relation(fields: [elementalSkillId], references: [id])
+  elementalSkillId Int
+
+  @@unique([elementalSkillId, lang])
+}
+
+model ElementalBurst {
+  id               Int                         @id @default(autoincrement())
+  unlock           String?
+  upgrades         Json?
+  attributeScaling Json?
+  character        Character                   @relation(fields: [characterId], references: [id])
+  characterId      Int
+  translations     ElementalBurstTranslation[]
+}
+
+model ElementalBurstTranslation {
+  id               Int            @id @default(autoincrement())
+  lang             String
+  name             String
+  description      String?
+  elementalBurst   ElementalBurst @relation(fields: [elementalBurstId], references: [id])
+  elementalBurstId Int
+
+  @@unique([elementalBurstId, lang])
+}
+
+model PassiveTalent {
+  id           Int                        @id @default(autoincrement())
+  unlock       String?
+  character    Character                  @relation(fields: [characterId], references: [id])
+  characterId  Int
+  translations PassiveTalentTranslation[]
+}
+
+model PassiveTalentTranslation {
+  id              Int           @id @default(autoincrement())
+  lang            String
+  name            String
+  description     String?
+  passiveTalent   PassiveTalent @relation(fields: [passiveTalentId], references: [id])
+  passiveTalentId Int
+
+  @@unique([passiveTalentId, lang])
+}
+
+model AscensionTalent {
+  id           Int                          @id @default(autoincrement())
+  unlock       String?
+  character    Character                    @relation(fields: [characterId], references: [id])
+  characterId  Int
+  translations AscensionTalentTranslation[]
+}
+
+model AscensionTalentTranslation {
+  id                Int             @id @default(autoincrement())
+  lang              String
+  name              String
+  description       String?
+  ascensionTalent   AscensionTalent @relation(fields: [ascensionTalentId], references: [id])
+  ascensionTalentId Int
+
+  @@unique([ascensionTalentId, lang])
+}
+
+model AdditionalTalent {
+  id           Int                           @id @default(autoincrement())
+  unlock       String?
+  character    Character                     @relation(fields: [characterId], references: [id])
+  characterId  Int
+  translations AdditionalTalentTranslation[]
+}
+
+model AdditionalTalentTranslation {
+  id                 Int              @id @default(autoincrement())
+  lang               String
+  name               String
+  description        String?
+  additionalTalent   AdditionalTalent @relation(fields: [additionalTalentId], references: [id])
+  additionalTalentId Int
+
+  @@unique([additionalTalentId, lang])
+}
+
+model Constellation {
+  id           Int                        @id @default(autoincrement())
+  level        Int
+  character    Character                  @relation(fields: [characterId], references: [id])
+  characterId  Int
+  translations ConstellationTranslation[]
+}
+
+model ConstellationTranslation {
+  id              Int           @id @default(autoincrement())
+  lang            String
+  name            String
+  description     String?
+  constellation   Constellation @relation(fields: [constellationId], references: [id])
+  constellationId Int
+
+  @@unique([constellationId, lang])
 }

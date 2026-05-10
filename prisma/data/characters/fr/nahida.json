@@ -1,0 +1,54 @@
+{
+  "name": "nahida",
+  "rarity": 5,
+  "vision": "DENDRO",
+  "weapon": "CATALYST",
+  "nation": "SUMERU",
+  "birthday": "2000-10-27",
+  "releaseDate": "2022-11-02",
+  "title": "Incarnation de la Sagesse",
+  "description": "Une oiselle en cage isolée dans les profondeurs du Sanctuaire de Surasthana qui ne peut voir le monde que dans ses rêves.",
+  "affiliation": "Ville de Sumeru",
+  "constellation": "Sapientia Oromasdis",
+  "gnosis": "DENDRO",
+  "passiveTalents": [
+    {
+      "name": "Illumination de la compassion",
+      "description": "Lors du déclenchement du Cœur illusoire, le Sanctuaire de Maya obtient des effets supplémentaires selon les types élémentaires des autres membres du groupe."
+    },
+    {
+      "name": "Éveil élucidé",
+      "description": "Chaque point de Maîtrise élémentaire de Nahida au-delà de 200 accorde 0,1% de DGT bonus et 0,03% de Taux CRIT à la Purification Tri-Karma de Tous les stratagèmes."
+    },
+    {
+      "name": "Méditation sur toutes choses",
+      "description": "Nahida peut utiliser Tous les stratagèmes pour interagir avec certains objets récoltables dans une zone fixe, même lorsqu'elle n'est pas le personnage actif."
+    }
+  ],
+  "constellations": [
+    {
+      "name": "La Graine du Savoir Accumulé",
+      "description": "Le Sanctuaire de Maya dure 6s de plus."
+    },
+    {
+      "name": "La Racine de Toute Plénitude",
+      "description": "Les ennemis marqués par les Graines de Skandha de Nahida subissent 40% de DGT supplémentaires des réactions Embrasement, Floraison, Hyperfloraison et Déflagration."
+    },
+    {
+      "name": "La Pousse de l'Éveil Conscient",
+      "description": "Augmente le niveau de Tous les stratagèmes de 3. Niveau maximum : 15."
+    },
+    {
+      "name": "La Tige de l'Inférence Manifeste",
+      "description": "Lorsque 1/2/3/4 ennemis ou plus sont affectés par les Graines de Skandha, la Maîtrise élémentaire de Nahida augmente de 100/120/140/160."
+    },
+    {
+      "name": "Les Feuilles du Discours Éclairé",
+      "description": "Augmente le niveau du Cœur illusoire de 3. Niveau maximum : 15."
+    },
+    {
+      "name": "Le Fruit de l'Aboutissement de la Raison",
+      "description": "Lorsque Nahida frappe un ennemi affecté par les Graines de Skandha avec la Purification Tri-Karma, les DGT infligés sont basés sur 200% de son ATQ et 400% de sa Maîtrise élémentaire."
+    }
+  ]
+}
