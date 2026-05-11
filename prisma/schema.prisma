@@ -96,14 +96,22 @@ model NormalAttack {
 }
 
 model NormalAttackTranslation {
-  id             Int          @id @default(autoincrement())
+  id             Int                          @id @default(autoincrement())
   lang           String
   name           String
-  description    String?
-  normalAttack   NormalAttack @relation(fields: [normalAttackId], references: [id])
+  normalAttack   NormalAttack                 @relation(fields: [normalAttackId], references: [id])
   normalAttackId Int
+  description    NormalAttackDescription[]
 
   @@unique([normalAttackId, lang])
+}
+
+model NormalAttackDescription {
+  id                      Int                    @id @default(autoincrement())
+  title                   String
+  description             String
+  normalAttackTranslation NormalAttackTranslation @relation(fields: [translationId], references: [id])
+  translationId           Int
 }
 
 model ElementalSkill {
@@ -117,14 +125,22 @@ model ElementalSkill {
 }
 
 model ElementalSkillTranslation {
-  id               Int            @id @default(autoincrement())
+  id               Int                        @id @default(autoincrement())
   lang             String
   name             String
-  description      String?
-  elementalSkill   ElementalSkill @relation(fields: [elementalSkillId], references: [id])
+  elementalSkill   ElementalSkill             @relation(fields: [elementalSkillId], references: [id])
   elementalSkillId Int
+  descriptions     ElementalSkillDescription[]
 
   @@unique([elementalSkillId, lang])
+}
+
+model ElementalSkillDescription {
+  id            Int                       @id @default(autoincrement())
+  title         String
+  description   String
+  translation   ElementalSkillTranslation @relation(fields: [translationId], references: [id])
+  translationId Int
 }
 
 model ElementalBurst {
@@ -141,11 +157,19 @@ model ElementalBurstTranslation {
   id               Int            @id @default(autoincrement())
   lang             String
   name             String
-  description      String?
+  description      ElementalBurstDescription[]
   elementalBurst   ElementalBurst @relation(fields: [elementalBurstId], references: [id])
   elementalBurstId Int
 
   @@unique([elementalBurstId, lang])
+}
+
+model ElementalBurstDescription {
+  id            Int                       @id @default(autoincrement())
+  title         String
+  description   String
+  translation   ElementalBurstTranslation @relation(fields: [translationId], references: [id])
+  translationId Int
 }
 
 model PassiveTalent {
@@ -160,7 +184,7 @@ model PassiveTalentTranslation {
   id              Int           @id @default(autoincrement())
   lang            String
   name            String
-  description     String?
+  description     String[]
   passiveTalent   PassiveTalent @relation(fields: [passiveTalentId], references: [id])
   passiveTalentId Int
 
@@ -179,7 +203,7 @@ model AscensionTalentTranslation {
   id                Int             @id @default(autoincrement())
   lang              String
   name              String
-  description       String?
+  description       String[]
   ascensionTalent   AscensionTalent @relation(fields: [ascensionTalentId], references: [id])
   ascensionTalentId Int
 
@@ -195,14 +219,22 @@ model AdditionalTalent {
 }
 
 model AdditionalTalentTranslation {
-  id                 Int              @id @default(autoincrement())
+  id                 Int                          @id @default(autoincrement())
   lang               String
   name               String
-  description        String?
-  additionalTalent   AdditionalTalent @relation(fields: [additionalTalentId], references: [id])
+  additionalTalent   AdditionalTalent             @relation(fields: [additionalTalentId], references: [id])
   additionalTalentId Int
+  descriptions       AdditionalTalentDescription[]
 
   @@unique([additionalTalentId, lang])
+}
+
+model AdditionalTalentDescription {
+  id            Int                         @id @default(autoincrement())
+  title         String
+  description   String
+  translation   AdditionalTalentTranslation @relation(fields: [translationId], references: [id])
+  translationId Int
 }
 
 model Constellation {
@@ -217,7 +249,7 @@ model ConstellationTranslation {
   id              Int           @id @default(autoincrement())
   lang            String
   name            String
-  description     String?
+  description     String[]
   constellation   Constellation @relation(fields: [constellationId], references: [id])
   constellationId Int
 
