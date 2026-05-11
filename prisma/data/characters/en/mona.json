@@ -17,597 +17,597 @@
   ],
   "levels": {
     "1" : {
-      "BASE_HP": 810,
-      "BASE_DEF": 51,
-      "BASE_ATK": 22,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 810,
+      "baseDef": 51,
+      "baseAtk": 22,
+      "energyRecharge": "0%"
     },
     "2" : {
-      "BASE_HP": 878,
-      "BASE_DEF": 55,
-      "BASE_ATK": 24,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 878,
+      "baseDef": 55,
+      "baseAtk": 24,
+      "energyRecharge": "0%"
     },
     "3" : {
-      "BASE_HP": 945,
-      "BASE_DEF": 59,
-      "BASE_ATK": 26,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 945,
+      "baseDef": 59,
+      "baseAtk": 26,
+      "energyRecharge": "0%"
     },
     "4" : {
-      "BASE_HP": 1013,
-      "BASE_DEF": 64,
-      "BASE_ATK": 28,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1013,
+      "baseDef": 64,
+      "baseAtk": 28,
+      "energyRecharge": "0%"
     },
     "5" : {
-      "BASE_HP": 1080,
-      "BASE_DEF": 68,
-      "BASE_ATK": 30,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1080,
+      "baseDef": 68,
+      "baseAtk": 30,
+      "energyRecharge": "0%"
     },
     "6" : {
-      "BASE_HP": 1148,
-      "BASE_DEF": 72,
-      "BASE_ATK": 32,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1148,
+      "baseDef": 72,
+      "baseAtk": 32,
+      "energyRecharge": "0%"
     },
     "7" : {
-      "BASE_HP": 1215,
-      "BASE_DEF": 76,
-      "BASE_ATK": 34,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1215,
+      "baseDef": 76,
+      "baseAtk": 34,
+      "energyRecharge": "0%"
     },
     "8" : {
-      "BASE_HP": 1284,
-      "BASE_DEF": 81,
-      "BASE_ATK": 35,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1284,
+      "baseDef": 81,
+      "baseAtk": 35,
+      "energyRecharge": "0%"
     },
     "9" : {
-      "BASE_HP": 1352,
-      "BASE_DEF": 85,
-      "BASE_ATK": 37,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1352,
+      "baseDef": 85,
+      "baseAtk": 37,
+      "energyRecharge": "0%"
     },
     "10" : {
-      "BASE_HP": 1419,
-      "BASE_DEF": 89,
-      "BASE_ATK": 39,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1419,
+      "baseDef": 89,
+      "baseAtk": 39,
+      "energyRecharge": "0%"
     },
     "11" : {
-      "BASE_HP": 1487,
-      "BASE_DEF": 93,
-      "BASE_ATK": 41,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1487,
+      "baseDef": 93,
+      "baseAtk": 41,
+      "energyRecharge": "0%"
     },
     "12" : {
-      "BASE_HP": 1555,
-      "BASE_DEF": 98,
-      "BASE_ATK": 43,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1555,
+      "baseDef": 98,
+      "baseAtk": 43,
+      "energyRecharge": "0%"
     },
     "13" : {
-      "BASE_HP": 1623,
-      "BASE_DEF": 102,
-      "BASE_ATK": 45,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1623,
+      "baseDef": 102,
+      "baseAtk": 45,
+      "energyRecharge": "0%"
     },
     "14" : {
-      "BASE_HP": 1692,
-      "BASE_DEF": 106,
-      "BASE_ATK": 47,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1692,
+      "baseDef": 106,
+      "baseAtk": 47,
+      "energyRecharge": "0%"
     },
     "15" : {
-      "BASE_HP": 1760,
-      "BASE_DEF": 110,
-      "BASE_ATK": 49,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1760,
+      "baseDef": 110,
+      "baseAtk": 49,
+      "energyRecharge": "0%"
     },
     "16" : {
-      "BASE_HP": 1828,
-      "BASE_DEF": 115,
-      "BASE_ATK": 50,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1828,
+      "baseDef": 115,
+      "baseAtk": 50,
+      "energyRecharge": "0%"
     },
     "17" : {
-      "BASE_HP": 1897,
-      "BASE_DEF": 119,
-      "BASE_ATK": 52,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1897,
+      "baseDef": 119,
+      "baseAtk": 52,
+      "energyRecharge": "0%"
     },
     "18" : {
-      "BASE_HP": 1965,
-      "BASE_DEF": 123,
-      "BASE_ATK": 54,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 1965,
+      "baseDef": 123,
+      "baseAtk": 54,
+      "energyRecharge": "0%"
     },
     "19" : {
-      "BASE_HP": 2034,
-      "BASE_DEF": 128,
-      "BASE_ATK": 56,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 2034,
+      "baseDef": 128,
+      "baseAtk": 56,
+      "energyRecharge": "0%"
     },
     "20" : {
-      "BASE_HP": 2102,
-      "BASE_DEF": 132,
-      "BASE_ATK": 58,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 2102,
+      "baseDef": 132,
+      "baseAtk": 58,
+      "energyRecharge": "0%"
     },
     "20_ASC" : {
-      "BASE_HP": 2797,
-      "BASE_DEF": 176,
-      "BASE_ATK": 77,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 2797,
+      "baseDef": 176,
+      "baseAtk": 77,
+      "energyRecharge": "0%"
     },
     "21" : {
-      "BASE_HP": 2866,
-      "BASE_DEF": 180,
-      "BASE_ATK": 79,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 2866,
+      "baseDef": 180,
+      "baseAtk": 79,
+      "energyRecharge": "0%"
     },
     "22" : {
-      "BASE_HP": 2935,
-      "BASE_DEF": 184,
-      "BASE_ATK": 81,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 2935,
+      "baseDef": 184,
+      "baseAtk": 81,
+      "energyRecharge": "0%"
     },
     "23" : {
-      "BASE_HP": 3003,
-      "BASE_DEF": 188,
-      "BASE_ATK": 83,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3003,
+      "baseDef": 188,
+      "baseAtk": 83,
+      "energyRecharge": "0%"
     },
     "24" : {
-      "BASE_HP": 3072,
-      "BASE_DEF": 193,
-      "BASE_ATK": 85,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3072,
+      "baseDef": 193,
+      "baseAtk": 85,
+      "energyRecharge": "0%"
     },
     "25" : {
-      "BASE_HP": 3141,
-      "BASE_DEF": 197,
-      "BASE_ATK": 87,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3141,
+      "baseDef": 197,
+      "baseAtk": 87,
+      "energyRecharge": "0%"
     },
     "26" : {
-      "BASE_HP": 3211,
-      "BASE_DEF": 202,
-      "BASE_ATK": 89,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3211,
+      "baseDef": 202,
+      "baseAtk": 89,
+      "energyRecharge": "0%"
     },
     "27" : {
-      "BASE_HP": 3280,
-      "BASE_DEF": 206,
-      "BASE_ATK": 90,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3280,
+      "baseDef": 206,
+      "baseAtk": 90,
+      "energyRecharge": "0%"
     },
     "28" : {
-      "BASE_HP": 3349,
-      "BASE_DEF": 210,
-      "BASE_ATK": 92,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3349,
+      "baseDef": 210,
+      "baseAtk": 92,
+      "energyRecharge": "0%"
     },
     "29" : {
-      "BASE_HP": 3418,
-      "BASE_DEF": 215,
-      "BASE_ATK": 94,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3418,
+      "baseDef": 215,
+      "baseAtk": 94,
+      "energyRecharge": "0%"
     },
     "30" : {
-      "BASE_HP": 3487,
-      "BASE_DEF": 219,
-      "BASE_ATK": 96,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3487,
+      "baseDef": 219,
+      "baseAtk": 96,
+      "energyRecharge": "0%"
     },
     "31" : {
-      "BASE_HP": 3557,
-      "BASE_DEF": 223,
-      "BASE_ATK": 98,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3557,
+      "baseDef": 223,
+      "baseAtk": 98,
+      "energyRecharge": "0%"
     },
     "32" : {
-      "BASE_HP": 3627,
-      "BASE_DEF": 228,
-      "BASE_ATK": 100,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3627,
+      "baseDef": 228,
+      "baseAtk": 100,
+      "energyRecharge": "0%"
     },
     "33" : {
-      "BASE_HP": 3696,
-      "BASE_DEF": 232,
-      "BASE_ATK": 102,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3696,
+      "baseDef": 232,
+      "baseAtk": 102,
+      "energyRecharge": "0%"
     },
     "34" : {
-      "BASE_HP": 3765,
-      "BASE_DEF": 236,
-      "BASE_ATK": 104,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3765,
+      "baseDef": 236,
+      "baseAtk": 104,
+      "energyRecharge": "0%"
     },
     "35" : {
-      "BASE_HP": 3835,
-      "BASE_DEF": 241,
-      "BASE_ATK": 106,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3835,
+      "baseDef": 241,
+      "baseAtk": 106,
+      "energyRecharge": "0%"
     },
     "36" : {
-      "BASE_HP": 3905,
-      "BASE_DEF": 245,
-      "BASE_ATK": 108,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3905,
+      "baseDef": 245,
+      "baseAtk": 108,
+      "energyRecharge": "0%"
     },
     "37" : {
-      "BASE_HP": 3975,
-      "BASE_DEF": 249,
-      "BASE_ATK": 110,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 3975,
+      "baseDef": 249,
+      "baseAtk": 110,
+      "energyRecharge": "0%"
     },
     "38" : {
-      "BASE_HP": 4045,
-      "BASE_DEF": 254,
-      "BASE_ATK": 112,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 4045,
+      "baseDef": 254,
+      "baseAtk": 112,
+      "energyRecharge": "0%"
     },
     "39" : {
-      "BASE_HP": 4114,
-      "BASE_DEF": 258,
-      "BASE_ATK": 113,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 4114,
+      "baseDef": 258,
+      "baseAtk": 113,
+      "energyRecharge": "0%"
     },
     "40" : {
-      "BASE_HP": 4185,
-      "BASE_DEF": 263,
-      "BASE_ATK": 115,
-      "ENERGY_RECHARGE": "0%"
+      "baseHp": 4185,
+      "baseDef": 263,
+      "baseAtk": 115,
+      "energyRecharge": "0%"
     },
     "40_ASC" : {
-      "BASE_HP": 4678,
-      "BASE_DEF": 294,
-      "BASE_ATK": 129,
-      "ENERGY_RECHARGE": "8%"
+      "baseHp": 4678,
+      "baseDef": 294,
+      "baseAtk": 129,
+      "energyRecharge": "8%"
     },
     "41" : {
-      "BASE_HP": 4748,
-      "BASE_DEF": 298,
-      "BASE_ATK": 131,
-      "ENERGY_RECHARGE": "8%"
+      "baseHp": 4748,
+      "baseDef": 298,
+      "baseAtk": 131,
+      "energyRecharge": "8%"
     },
     "42" : {
-      "BASE_HP": 4819,
-      "BASE_DEF": 302,
-      "BASE_ATK": 133,
-      "ENERGY_RECHARGE": "8%"
+      "baseHp": 4819,
+      "baseDef": 302,
+      "baseAtk": 133,
+      "energyRecharge": "8%"
     },
     "43" : {
-      "BASE_HP": 4889,
-      "BASE_DEF": 307,
-      "BASE_ATK": 135,
-      "ENERGY_RECHARGE": "8%"
+      "baseHp": 4889,
+      "baseDef": 307,
+      "baseAtk": 135,
+      "energyRecharge": "8%"
     },
     "44" : {
-      "BASE_HP": 4959,
-      "BASE_DEF": 311,
-      "BASE_ATK": 137,
-      "ENERGY_RECHARGE": "8%"
+      "baseHp": 4959,
+      "baseDef": 311,
+      "baseAtk": 137,
+      "energyRecharge": "8%"
     },
     "45" : {
-      "BASE_HP": 5029,
-      "BASE_DEF": 316,
-      "BASE_ATK": 139,
-      "ENERGY_RECHARGE": "8%"
+      "baseHp": 5029,
+      "baseDef": 316,
+      "baseAtk": 139,
+      "energyRecharge": "8%"
     },
     "46" : {
-      "BASE_HP": 5100,
-      "BASE_DEF": 320,
-      "BASE_ATK": 141,
-      "ENERGY_RECHARGE": "8%"
+      "baseHp": 5100,
+      "baseDef": 320,
+      "baseAtk": 141,
+      "energyRecharge": "8%"
     },
     "47" : {
-      "BASE_HP": 5170,
-      "BASE_DEF": 324,
-      "BASE_ATK": 143,
-      "ENERGY_RECHARGE": "8%"
+      "baseHp": 5170,
+      "baseDef": 324,
+      "baseAtk": 143,
+      "energyRecharge": "8%"
     },
     "48" : {
-      "BASE_HP": 5241,
-      "BASE_DEF": 329,
-      "BASE_ATK": 145,
-      "ENERGY_RECHARGE": "8%"
+      "baseHp": 5241,
+      "baseDef": 329,
+      "baseAtk": 145,
+      "energyRecharge": "8%"
     },
     "49" : {
-      "BASE_HP": 5312,
-      "BASE_DEF": 333,
-      "BASE_ATK": 146,
-      "ENERGY_RECHARGE": "8%"
+      "baseHp": 5312,
+      "baseDef": 333,
+      "baseAtk": 146,
+      "energyRecharge": "8%"
     },
     "50" : {
-      "BASE_HP": 5383,
-      "BASE_DEF": 338,
-      "BASE_ATK": 148,
-      "ENERGY_RECHARGE": "8%"
+      "baseHp": 5383,
+      "baseDef": 338,
+      "baseAtk": 148,
+      "energyRecharge": "8%"
     },
     "50_ASC" : {
-      "BASE_HP": 6041,
-      "BASE_DEF": 379,
-      "BASE_ATK": 167,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 6041,
+      "baseDef": 379,
+      "baseAtk": 167,
+      "energyRecharge": "16%"
     },
     "51" : {
-      "BASE_HP": 6111,
-      "BASE_DEF": 384,
-      "BASE_ATK": 169,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 6111,
+      "baseDef": 384,
+      "baseAtk": 169,
+      "energyRecharge": "16%"
     },
     "52" : {
-      "BASE_HP": 6183,
-      "BASE_DEF": 388,
-      "BASE_ATK": 170,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 6183,
+      "baseDef": 388,
+      "baseAtk": 170,
+      "energyRecharge": "16%"
     },
     "53" : {
-      "BASE_HP": 6253,
-      "BASE_DEF": 392,
-      "BASE_ATK": 172,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 6253,
+      "baseDef": 392,
+      "baseAtk": 172,
+      "energyRecharge": "16%"
     },
     "54" : {
-      "BASE_HP": 6324,
-      "BASE_DEF": 397,
-      "BASE_ATK": 174,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 6324,
+      "baseDef": 397,
+      "baseAtk": 174,
+      "energyRecharge": "16%"
     },
     "55" : {
-      "BASE_HP": 6396,
-      "BASE_DEF": 401,
-      "BASE_ATK": 176,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 6396,
+      "baseDef": 401,
+      "baseAtk": 176,
+      "energyRecharge": "16%"
     },
     "56" : {
-      "BASE_HP": 6467,
-      "BASE_DEF": 406,
-      "BASE_ATK": 178,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 6467,
+      "baseDef": 406,
+      "baseAtk": 178,
+      "energyRecharge": "16%"
     },
     "57" : {
-      "BASE_HP": 6538,
-      "BASE_DEF": 410,
-      "BASE_ATK": 180,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 6538,
+      "baseDef": 410,
+      "baseAtk": 180,
+      "energyRecharge": "16%"
     },
     "58" : {
-      "BASE_HP": 6610,
-      "BASE_DEF": 415,
-      "BASE_ATK": 182,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 6610,
+      "baseDef": 415,
+      "baseAtk": 182,
+      "energyRecharge": "16%"
     },
     "59" : {
-      "BASE_HP": 6681,
-      "BASE_DEF": 419,
-      "BASE_ATK": 184,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 6681,
+      "baseDef": 419,
+      "baseAtk": 184,
+      "energyRecharge": "16%"
     },
     "60" : {
-      "BASE_HP": 6752,
-      "BASE_DEF": 424,
-      "BASE_ATK": 186,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 6752,
+      "baseDef": 424,
+      "baseAtk": 186,
+      "energyRecharge": "16%"
     },
     "60_ASC" : {
-      "BASE_HP": 7246,
-      "BASE_DEF": 455,
-      "BASE_ATK": 200,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 7246,
+      "baseDef": 455,
+      "baseAtk": 200,
+      "energyRecharge": "16%"
     },
     "61" : {
-      "BASE_HP": 7317,
-      "BASE_DEF": 459,
-      "BASE_ATK": 202,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 7317,
+      "baseDef": 459,
+      "baseAtk": 202,
+      "energyRecharge": "16%"
     },
     "62" : {
-      "BASE_HP": 7389,
-      "BASE_DEF": 464,
-      "BASE_ATK": 204,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 7389,
+      "baseDef": 464,
+      "baseAtk": 204,
+      "energyRecharge": "16%"
     },
     "63" : {
-      "BASE_HP": 7461,
-      "BASE_DEF": 468,
-      "BASE_ATK": 206,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 7461,
+      "baseDef": 468,
+      "baseAtk": 206,
+      "energyRecharge": "16%"
     },
     "64" : {
-      "BASE_HP": 7532,
-      "BASE_DEF": 473,
-      "BASE_ATK": 208,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 7532,
+      "baseDef": 473,
+      "baseAtk": 208,
+      "energyRecharge": "16%"
     },
     "65" : {
-      "BASE_HP": 7604,
-      "BASE_DEF": 477,
-      "BASE_ATK": 210,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 7604,
+      "baseDef": 477,
+      "baseAtk": 210,
+      "energyRecharge": "16%"
     },
     "66" : {
-      "BASE_HP": 7676,
-      "BASE_DEF": 482,
-      "BASE_ATK": 212,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 7676,
+      "baseDef": 482,
+      "baseAtk": 212,
+      "energyRecharge": "16%"
     },
     "67" : {
-      "BASE_HP": 7748,
-      "BASE_DEF": 486,
-      "BASE_ATK": 214,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 7748,
+      "baseDef": 486,
+      "baseAtk": 214,
+      "energyRecharge": "16%"
     },
     "68" : {
-      "BASE_HP": 7820,
-      "BASE_DEF": 491,
-      "BASE_ATK": 216,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 7820,
+      "baseDef": 491,
+      "baseAtk": 216,
+      "energyRecharge": "16%"
     },
     "69" : {
-      "BASE_HP": 7892,
-      "BASE_DEF": 495,
-      "BASE_ATK": 218,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 7892,
+      "baseDef": 495,
+      "baseAtk": 218,
+      "energyRecharge": "16%"
     },
     "70" : {
-      "BASE_HP": 7964,
-      "BASE_DEF": 500,
-      "BASE_ATK": 220,
-      "ENERGY_RECHARGE": "16%"
+      "baseHp": 7964,
+      "baseDef": 500,
+      "baseAtk": 220,
+      "energyRecharge": "16%"
     },
     "70_ASC" : {
-      "BASE_HP": 8458,
-      "BASE_DEF": 531,
-      "BASE_ATK": 233,
-      "ENERGY_RECHARGE": "24%"
+      "baseHp": 8458,
+      "baseDef": 531,
+      "baseAtk": 233,
+      "energyRecharge": "24%"
     },
     "71" : {
-      "BASE_HP": 8530,
-      "BASE_DEF": 535,
-      "BASE_ATK": 235,
-      "ENERGY_RECHARGE": "24%"
+      "baseHp": 8530,
+      "baseDef": 535,
+      "baseAtk": 235,
+      "energyRecharge": "24%"
     },
     "72" : {
-      "BASE_HP": 8603,
-      "BASE_DEF": 540,
-      "BASE_ATK": 237,
-      "ENERGY_RECHARGE": "24%"
+      "baseHp": 8603,
+      "baseDef": 540,
+      "baseAtk": 237,
+      "energyRecharge": "24%"
     },
     "73" : {
-      "BASE_HP": 8675,
-      "BASE_DEF": 544,
-      "BASE_ATK": 239,
-      "ENERGY_RECHARGE": "24%"
+      "baseHp": 8675,
+      "baseDef": 544,
+      "baseAtk": 239,
+      "energyRecharge": "24%"
     },
     "74" : {
-      "BASE_HP": 8747,
-      "BASE_DEF": 549,
-      "BASE_ATK": 241,
-      "ENERGY_RECHARGE": "24%"
+      "baseHp": 8747,
+      "baseDef": 549,
+      "baseAtk": 241,
+      "energyRecharge": "24%"
     },
     "75" : {
-      "BASE_HP": 8820,
-      "BASE_DEF": 554,
-      "BASE_ATK": 243,
-      "ENERGY_RECHARGE": "24%"
+      "baseHp": 8820,
+      "baseDef": 554,
+      "baseAtk": 243,
+      "energyRecharge": "24%"
     },
     "76" : {
-      "BASE_HP": 8892,
-      "BASE_DEF": 558,
-      "BASE_ATK": 245,
-      "ENERGY_RECHARGE": "24%"
+      "baseHp": 8892,
+      "baseDef": 558,
+      "baseAtk": 245,
+      "energyRecharge": "24%"
     },
     "77" : {
-      "BASE_HP": 8965,
-      "BASE_DEF": 563,
-      "BASE_ATK": 247,
-      "ENERGY_RECHARGE": "24%"
+      "baseHp": 8965,
+      "baseDef": 563,
+      "baseAtk": 247,
+      "energyRecharge": "24%"
     },
     "78" : {
-      "BASE_HP": 9038,
-      "BASE_DEF": 567,
-      "BASE_ATK": 249,
-      "ENERGY_RECHARGE": "24%"
+      "baseHp": 9038,
+      "baseDef": 567,
+      "baseAtk": 249,
+      "energyRecharge": "24%"
     },
     "79" : {
-      "BASE_HP": 9111,
-      "BASE_DEF": 572,
-      "BASE_ATK": 251,
-      "ENERGY_RECHARGE": "24%"
+      "baseHp": 9111,
+      "baseDef": 572,
+      "baseAtk": 251,
+      "energyRecharge": "24%"
     },
     "80" : {
-      "BASE_HP": 9184,
-      "BASE_DEF": 576,
-      "BASE_ATK": 253,
-      "ENERGY_RECHARGE": "24%"
+      "baseHp": 9184,
+      "baseDef": 576,
+      "baseAtk": 253,
+      "energyRecharge": "24%"
     },
     "80_ASC" : {
-      "BASE_HP": 9677,
-      "BASE_DEF": 607,
-      "BASE_ATK": 267,
-      "ENERGY_RECHARGE": "32%"
+      "baseHp": 9677,
+      "baseDef": 607,
+      "baseAtk": 267,
+      "energyRecharge": "32%"
     },
     "81" : {
-      "BASE_HP": 9750,
-      "BASE_DEF": 612,
-      "BASE_ATK": 269,
-      "ENERGY_RECHARGE": "32%"
+      "baseHp": 9750,
+      "baseDef": 612,
+      "baseAtk": 269,
+      "energyRecharge": "32%"
     },
     "82" : {
-      "BASE_HP": 9823,
-      "BASE_DEF": 617,
-      "BASE_ATK": 271,
-      "ENERGY_RECHARGE": "32%"
+      "baseHp": 9823,
+      "baseDef": 617,
+      "baseAtk": 271,
+      "energyRecharge": "32%"
     },
     "83" : {
-      "BASE_HP": 9896,
-      "BASE_DEF": 621,
-      "BASE_ATK": 273,
-      "ENERGY_RECHARGE": "32%"
+      "baseHp": 9896,
+      "baseDef": 621,
+      "baseAtk": 273,
+      "energyRecharge": "32%"
     },
     "84" : {
-      "BASE_HP": 9969,
-      "BASE_DEF": 626,
-      "BASE_ATK": 275,
-      "ENERGY_RECHARGE": "32%"
+      "baseHp": 9969,
+      "baseDef": 626,
+      "baseAtk": 275,
+      "energyRecharge": "32%"
     },
     "85" : {
-      "BASE_HP": 10042,
-      "BASE_DEF": 630,
-      "BASE_ATK": 277,
-      "ENERGY_RECHARGE": "32%"
+      "baseHp": 10042,
+      "baseDef": 630,
+      "baseAtk": 277,
+      "energyRecharge": "32%"
     },
     "86" : {
-      "BASE_HP": 10116,
-      "BASE_DEF": 635,
-      "BASE_ATK": 279,
-      "ENERGY_RECHARGE": "32%"
+      "baseHp": 10116,
+      "baseDef": 635,
+      "baseAtk": 279,
+      "energyRecharge": "32%"
     },
     "87" : {
-      "BASE_HP": 10189,
-      "BASE_DEF": 639,
-      "BASE_ATK": 281,
-      "ENERGY_RECHARGE": "32%"
+      "baseHp": 10189,
+      "baseDef": 639,
+      "baseAtk": 281,
+      "energyRecharge": "32%"
     },
     "88" : {
-      "BASE_HP": 10262,
-      "BASE_DEF": 644,
-      "BASE_ATK": 283,
-      "ENERGY_RECHARGE": "32%"
+      "baseHp": 10262,
+      "baseDef": 644,
+      "baseAtk": 283,
+      "energyRecharge": "32%"
     },
     "89" : {
-      "BASE_HP": 10336,
-      "BASE_DEF": 649,
-      "BASE_ATK": 285,
-      "ENERGY_RECHARGE": "32%"
+      "baseHp": 10336,
+      "baseDef": 649,
+      "baseAtk": 285,
+      "energyRecharge": "32%"
     },
     "90" : {
-      "BASE_HP": 10409,
-      "BASE_DEF": 653,
-      "BASE_ATK": 287,
-      "ENERGY_RECHARGE": "32%"
+      "baseHp": 10409,
+      "baseDef": 653,
+      "baseAtk": 287,
+      "energyRecharge": "32%"
     },
     "95" : {
-      "BASE_HP": 10779,
-      "BASE_DEF": 676,
-      "BASE_ATK": 319,
-      "ENERGY_RECHARGE": "32%"
+      "baseHp": 10779,
+      "baseDef": 676,
+      "baseAtk": 319,
+      "energyRecharge": "32%"
     },
     "100" : {
-      "BASE_HP": 11149,
-      "BASE_DEF": 700,
-      "BASE_ATK": 352,
-      "ENERGY_RECHARGE": "32%"
+      "baseHp": 11149,
+      "baseDef": 700,
+      "baseAtk": 352,
+      "energyRecharge": "32%"
     }
   },
   "ascensionMaterials": [
     {
-      "level": "level20",
+      "level": 20,
       "materials": [
           { "name": "Varunada Lazurite Sliver", "value": 1 },
           { "name": "Philanemo Mushroom", "value": 3 },
@@ -616,7 +616,7 @@
       ]
     },
     {
-      "level": "level40",
+      "level": 40,
       "materials": [
           { "name": "Varunada Lazurite Fragment", "value": 3 },
           { "name": "Cleansing Heart", "value": 2 },
@@ -626,7 +626,7 @@
       ]
     },
     {
-      "level": "level50",
+      "level": 50,
       "materials": [
           { "name": "Varunada Lazurite Fragment", "value": 6 },
           { "name": "Cleansing Heart", "value": 4 },
@@ -636,7 +636,7 @@
       ]
     },
     {
-      "level": "level60",
+      "level": 60,
       "materials": [
           { "name": "Varunada Lazurite Chunk", "value": 3 },
           { "name": "Cleansing Heart", "value": 8 },
@@ -646,7 +646,7 @@
       ]
     },
     {
-      "level": "level70",
+      "level": 70,
       "materials": [
           { "name": "Varunada Lazurite Chunk", "value": 6 },
           { "name": "Cleansing Heart", "value": 12 },
@@ -656,7 +656,7 @@
       ]
     },
     {
-      "level": "level80",
+      "level": 80,
       "materials": [
           { "name": "Varunada Lazurite Gemstone", "value": 6 },
           { "name": "Cleansing Heart", "value": 20 },
@@ -666,13 +666,13 @@
       ]
     },
     {
-      "level": "level95",
+      "level": 95,
       "materials": [
           { "name": "Masterless Stella Fortuna", "value": 1 }
       ]
     },
     {
-      "level": "level100",
+      "level": 100,
       "materials": [
           { "name": "Masterless Stella Fortuna", "value": 2 }
       ]
@@ -680,7 +680,7 @@
   ],
   "normalAttacks": [
     {
-      "unlock": "Unlocked by default",
+      "unlock": "DEFAULT_UNLOCK",
       "name": "Ripple of Fate",
       "descriptions": [
         {"title": "Normal Attack", "description": "Performs up to 4 water splash attacks that deal Hydro DMG."},
@@ -701,7 +701,7 @@
   ],
   "elementalSkills": [
     {
-      "unlock": "Unlocked by default",
+      "unlock": "DEFAULT_UNLOCK",
       "name": "Mirror Reflection of Doom",
       "note" : "Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.",
       "descriptions": [
@@ -718,7 +718,7 @@
   ],
   "passiveTalents": [
     {
-      "unlock": "Unlocked at Ascension 1",
+      "unlock": "ASCENSION_1_UNLOCK",
       "name": "Illusory Torrent",
       "note" : "This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...",
       "descriptions": [
@@ -730,7 +730,7 @@
       ]
     },
     {
-      "unlock": "Unlocked by default",
+      "unlock": "DEFAULT_UNLOCK",
       "name": "Principium of Astrology",
       "descriptions": [ 
         { "title": null, "description": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of crafting the materials used."}
@@ -740,7 +740,7 @@
   ],
   "elementalBursts": [
     {
-      "unlock": "Unlocked by Default",
+      "unlock": "DEFAULT_UNLOCK",
       "name": "Stellaris Phantasm",
       "note" : "It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.",
       "descriptions": [
@@ -760,23 +760,23 @@
   ],
   "ascensionTalents": [ 
     {
-      "unlock": "Unlocked at Ascension 1",
+      "unlock": "ASCENSION_1_UNLOCK",
       "name": "\"Come 'n' Get Me, Hag!\"",
       "descriptions": [
         { "title": null, "description": "After she has used Illusory Torrent for 2s, if there are any opponents nearby, Mona will automatically create a Phantom. A Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom." }
       ]
     },
     {
-      "unlock": "Unlocked at Ascension 4",
+      "unlock": "ASCENSION_4_UNLOCK",
       "name": "Waterborne Destiny",
       "descriptions": [
-        { "title": null, "description": "Increases Mona's Hydro DMG Bonus by a degree equivalent to 20% of her ENERGY_RECHARGE rate." }
+        { "title": null, "description": "Increases Mona's Hydro DMG Bonus by a degree equivalent to 20% of her energyRecharge rate." }
       ]
     }
   ],
   "additionalTalents" : [
     {
-      "unlock": "Unlocked when the relevant \"Witch's Homework\" quest is completed",
+      "unlock": "WITCH_HOMEWORK_UNLOCK",
       "name": "Witch's Eve Rite: Genesis of Starsigns",
       "descriptions": [
         { "title": null, "description": "After completing Witch's Homework: Of Untested Insight, Mona will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters." },
