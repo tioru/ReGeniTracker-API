@@ -17,828 +17,828 @@
   ],
   "levels": {
     "1" : {
-      "base HP": 810,
-      "base DEF": 51,
-      "base ATK": 22,
-      "Energy Recharge": "0%"
+      "BASE_HP": 810,
+      "BASE_DEF": 51,
+      "BASE_ATK": 22,
+      "ENERGY_RECHARGE": "0%"
     },
     "2" : {
-      "base HP": 878,
-      "base DEF": 55,
-      "base ATK": 24,
-      "Energy Recharge": "0%"
+      "BASE_HP": 878,
+      "BASE_DEF": 55,
+      "BASE_ATK": 24,
+      "ENERGY_RECHARGE": "0%"
     },
     "3" : {
-      "base HP": 945,
-      "base DEF": 59,
-      "base ATK": 26,
-      "Energy Recharge": "0%"
+      "BASE_HP": 945,
+      "BASE_DEF": 59,
+      "BASE_ATK": 26,
+      "ENERGY_RECHARGE": "0%"
     },
     "4" : {
-      "base HP": 1013,
-      "base DEF": 64,
-      "base ATK": 28,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1013,
+      "BASE_DEF": 64,
+      "BASE_ATK": 28,
+      "ENERGY_RECHARGE": "0%"
     },
     "5" : {
-      "base HP": 1080,
-      "base DEF": 68,
-      "base ATK": 30,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1080,
+      "BASE_DEF": 68,
+      "BASE_ATK": 30,
+      "ENERGY_RECHARGE": "0%"
     },
     "6" : {
-      "base HP": 1148,
-      "base DEF": 72,
-      "base ATK": 32,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1148,
+      "BASE_DEF": 72,
+      "BASE_ATK": 32,
+      "ENERGY_RECHARGE": "0%"
     },
     "7" : {
-      "base HP": 1215,
-      "base DEF": 76,
-      "base ATK": 34,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1215,
+      "BASE_DEF": 76,
+      "BASE_ATK": 34,
+      "ENERGY_RECHARGE": "0%"
     },
     "8" : {
-      "base HP": 1284,
-      "base DEF": 81,
-      "base ATK": 35,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1284,
+      "BASE_DEF": 81,
+      "BASE_ATK": 35,
+      "ENERGY_RECHARGE": "0%"
     },
     "9" : {
-      "base HP": 1352,
-      "base DEF": 85,
-      "base ATK": 37,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1352,
+      "BASE_DEF": 85,
+      "BASE_ATK": 37,
+      "ENERGY_RECHARGE": "0%"
     },
     "10" : {
-      "base HP": 1419,
-      "base DEF": 89,
-      "base ATK": 39,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1419,
+      "BASE_DEF": 89,
+      "BASE_ATK": 39,
+      "ENERGY_RECHARGE": "0%"
     },
     "11" : {
-      "base HP": 1487,
-      "base DEF": 93,
-      "base ATK": 41,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1487,
+      "BASE_DEF": 93,
+      "BASE_ATK": 41,
+      "ENERGY_RECHARGE": "0%"
     },
     "12" : {
-      "base HP": 1555,
-      "base DEF": 98,
-      "base ATK": 43,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1555,
+      "BASE_DEF": 98,
+      "BASE_ATK": 43,
+      "ENERGY_RECHARGE": "0%"
     },
     "13" : {
-      "base HP": 1623,
-      "base DEF": 102,
-      "base ATK": 45,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1623,
+      "BASE_DEF": 102,
+      "BASE_ATK": 45,
+      "ENERGY_RECHARGE": "0%"
     },
     "14" : {
-      "base HP": 1692,
-      "base DEF": 106,
-      "base ATK": 47,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1692,
+      "BASE_DEF": 106,
+      "BASE_ATK": 47,
+      "ENERGY_RECHARGE": "0%"
     },
     "15" : {
-      "base HP": 1760,
-      "base DEF": 110,
-      "base ATK": 49,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1760,
+      "BASE_DEF": 110,
+      "BASE_ATK": 49,
+      "ENERGY_RECHARGE": "0%"
     },
     "16" : {
-      "base HP": 1828,
-      "base DEF": 115,
-      "base ATK": 50,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1828,
+      "BASE_DEF": 115,
+      "BASE_ATK": 50,
+      "ENERGY_RECHARGE": "0%"
     },
     "17" : {
-      "base HP": 1897,
-      "base DEF": 119,
-      "base ATK": 52,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1897,
+      "BASE_DEF": 119,
+      "BASE_ATK": 52,
+      "ENERGY_RECHARGE": "0%"
     },
     "18" : {
-      "base HP": 1965,
-      "base DEF": 123,
-      "base ATK": 54,
-      "Energy Recharge": "0%"
+      "BASE_HP": 1965,
+      "BASE_DEF": 123,
+      "BASE_ATK": 54,
+      "ENERGY_RECHARGE": "0%"
     },
     "19" : {
-      "base HP": 2034,
-      "base DEF": 128,
-      "base ATK": 56,
-      "Energy Recharge": "0%"
+      "BASE_HP": 2034,
+      "BASE_DEF": 128,
+      "BASE_ATK": 56,
+      "ENERGY_RECHARGE": "0%"
     },
     "20" : {
-      "base HP": 2102,
-      "base DEF": 132,
-      "base ATK": 58,
-      "Energy Recharge": "0%"
+      "BASE_HP": 2102,
+      "BASE_DEF": 132,
+      "BASE_ATK": 58,
+      "ENERGY_RECHARGE": "0%"
     },
     "20_ASC" : {
-      "base HP": 2797,
-      "base DEF": 176,
-      "base ATK": 77,
-      "Energy Recharge": "0%"
+      "BASE_HP": 2797,
+      "BASE_DEF": 176,
+      "BASE_ATK": 77,
+      "ENERGY_RECHARGE": "0%"
     },
     "21" : {
-      "base HP": 2866,
-      "base DEF": 180,
-      "base ATK": 79,
-      "Energy Recharge": "0%"
+      "BASE_HP": 2866,
+      "BASE_DEF": 180,
+      "BASE_ATK": 79,
+      "ENERGY_RECHARGE": "0%"
     },
     "22" : {
-      "base HP": 2935,
-      "base DEF": 184,
-      "base ATK": 81,
-      "Energy Recharge": "0%"
+      "BASE_HP": 2935,
+      "BASE_DEF": 184,
+      "BASE_ATK": 81,
+      "ENERGY_RECHARGE": "0%"
     },
     "23" : {
-      "base HP": 3003,
-      "base DEF": 188,
-      "base ATK": 83,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3003,
+      "BASE_DEF": 188,
+      "BASE_ATK": 83,
+      "ENERGY_RECHARGE": "0%"
     },
     "24" : {
-      "base HP": 3072,
-      "base DEF": 193,
-      "base ATK": 85,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3072,
+      "BASE_DEF": 193,
+      "BASE_ATK": 85,
+      "ENERGY_RECHARGE": "0%"
     },
     "25" : {
-      "base HP": 3141,
-      "base DEF": 197,
-      "base ATK": 87,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3141,
+      "BASE_DEF": 197,
+      "BASE_ATK": 87,
+      "ENERGY_RECHARGE": "0%"
     },
     "26" : {
-      "base HP": 3211,
-      "base DEF": 202,
-      "base ATK": 89,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3211,
+      "BASE_DEF": 202,
+      "BASE_ATK": 89,
+      "ENERGY_RECHARGE": "0%"
     },
     "27" : {
-      "base HP": 3280,
-      "base DEF": 206,
-      "base ATK": 90,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3280,
+      "BASE_DEF": 206,
+      "BASE_ATK": 90,
+      "ENERGY_RECHARGE": "0%"
     },
     "28" : {
-      "base HP": 3349,
-      "base DEF": 210,
-      "base ATK": 92,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3349,
+      "BASE_DEF": 210,
+      "BASE_ATK": 92,
+      "ENERGY_RECHARGE": "0%"
     },
     "29" : {
-      "base HP": 3418,
-      "base DEF": 215,
-      "base ATK": 94,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3418,
+      "BASE_DEF": 215,
+      "BASE_ATK": 94,
+      "ENERGY_RECHARGE": "0%"
     },
     "30" : {
-      "base HP": 3487,
-      "base DEF": 219,
-      "base ATK": 96,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3487,
+      "BASE_DEF": 219,
+      "BASE_ATK": 96,
+      "ENERGY_RECHARGE": "0%"
     },
     "31" : {
-      "base HP": 3557,
-      "base DEF": 223,
-      "base ATK": 98,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3557,
+      "BASE_DEF": 223,
+      "BASE_ATK": 98,
+      "ENERGY_RECHARGE": "0%"
     },
     "32" : {
-      "base HP": 3627,
-      "base DEF": 228,
-      "base ATK": 100,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3627,
+      "BASE_DEF": 228,
+      "BASE_ATK": 100,
+      "ENERGY_RECHARGE": "0%"
     },
     "33" : {
-      "base HP": 3696,
-      "base DEF": 232,
-      "base ATK": 102,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3696,
+      "BASE_DEF": 232,
+      "BASE_ATK": 102,
+      "ENERGY_RECHARGE": "0%"
     },
     "34" : {
-      "base HP": 3765,
-      "base DEF": 236,
-      "base ATK": 104,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3765,
+      "BASE_DEF": 236,
+      "BASE_ATK": 104,
+      "ENERGY_RECHARGE": "0%"
     },
     "35" : {
-      "base HP": 3835,
-      "base DEF": 241,
-      "base ATK": 106,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3835,
+      "BASE_DEF": 241,
+      "BASE_ATK": 106,
+      "ENERGY_RECHARGE": "0%"
     },
     "36" : {
-      "base HP": 3905,
-      "base DEF": 245,
-      "base ATK": 108,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3905,
+      "BASE_DEF": 245,
+      "BASE_ATK": 108,
+      "ENERGY_RECHARGE": "0%"
     },
     "37" : {
-      "base HP": 3975,
-      "base DEF": 249,
-      "base ATK": 110,
-      "Energy Recharge": "0%"
+      "BASE_HP": 3975,
+      "BASE_DEF": 249,
+      "BASE_ATK": 110,
+      "ENERGY_RECHARGE": "0%"
     },
     "38" : {
-      "base HP": 4045,
-      "base DEF": 254,
-      "base ATK": 112,
-      "Energy Recharge": "0%"
+      "BASE_HP": 4045,
+      "BASE_DEF": 254,
+      "BASE_ATK": 112,
+      "ENERGY_RECHARGE": "0%"
     },
     "39" : {
-      "base HP": 4114,
-      "base DEF": 258,
-      "base ATK": 113,
-      "Energy Recharge": "0%"
+      "BASE_HP": 4114,
+      "BASE_DEF": 258,
+      "BASE_ATK": 113,
+      "ENERGY_RECHARGE": "0%"
     },
     "40" : {
-      "base HP": 4185,
-      "base DEF": 263,
-      "base ATK": 115,
-      "Energy Recharge": "0%"
+      "BASE_HP": 4185,
+      "BASE_DEF": 263,
+      "BASE_ATK": 115,
+      "ENERGY_RECHARGE": "0%"
     },
     "40_ASC" : {
-      "base HP": 4678,
-      "base DEF": 294,
-      "base ATK": 129,
-      "Energy Recharge": "8%"
+      "BASE_HP": 4678,
+      "BASE_DEF": 294,
+      "BASE_ATK": 129,
+      "ENERGY_RECHARGE": "8%"
     },
     "41" : {
-      "base HP": 4748,
-      "base DEF": 298,
-      "base ATK": 131,
-      "Energy Recharge": "8%"
+      "BASE_HP": 4748,
+      "BASE_DEF": 298,
+      "BASE_ATK": 131,
+      "ENERGY_RECHARGE": "8%"
     },
     "42" : {
-      "base HP": 4819,
-      "base DEF": 302,
-      "base ATK": 133,
-      "Energy Recharge": "8%"
+      "BASE_HP": 4819,
+      "BASE_DEF": 302,
+      "BASE_ATK": 133,
+      "ENERGY_RECHARGE": "8%"
     },
     "43" : {
-      "base HP": 4889,
-      "base DEF": 307,
-      "base ATK": 135,
-      "Energy Recharge": "8%"
+      "BASE_HP": 4889,
+      "BASE_DEF": 307,
+      "BASE_ATK": 135,
+      "ENERGY_RECHARGE": "8%"
     },
     "44" : {
-      "base HP": 4959,
-      "base DEF": 311,
-      "base ATK": 137,
-      "Energy Recharge": "8%"
+      "BASE_HP": 4959,
+      "BASE_DEF": 311,
+      "BASE_ATK": 137,
+      "ENERGY_RECHARGE": "8%"
     },
     "45" : {
-      "base HP": 5029,
-      "base DEF": 316,
-      "base ATK": 139,
-      "Energy Recharge": "8%"
+      "BASE_HP": 5029,
+      "BASE_DEF": 316,
+      "BASE_ATK": 139,
+      "ENERGY_RECHARGE": "8%"
     },
     "46" : {
-      "base HP": 5100,
-      "base DEF": 320,
-      "base ATK": 141,
-      "Energy Recharge": "8%"
+      "BASE_HP": 5100,
+      "BASE_DEF": 320,
+      "BASE_ATK": 141,
+      "ENERGY_RECHARGE": "8%"
     },
     "47" : {
-      "base HP": 5170,
-      "base DEF": 324,
-      "base ATK": 143,
-      "Energy Recharge": "8%"
+      "BASE_HP": 5170,
+      "BASE_DEF": 324,
+      "BASE_ATK": 143,
+      "ENERGY_RECHARGE": "8%"
     },
     "48" : {
-      "base HP": 5241,
-      "base DEF": 329,
-      "base ATK": 145,
-      "Energy Recharge": "8%"
+      "BASE_HP": 5241,
+      "BASE_DEF": 329,
+      "BASE_ATK": 145,
+      "ENERGY_RECHARGE": "8%"
     },
     "49" : {
-      "base HP": 5312,
-      "base DEF": 333,
-      "base ATK": 146,
-      "Energy Recharge": "8%"
+      "BASE_HP": 5312,
+      "BASE_DEF": 333,
+      "BASE_ATK": 146,
+      "ENERGY_RECHARGE": "8%"
     },
     "50" : {
-      "base HP": 5383,
-      "base DEF": 338,
-      "base ATK": 148,
-      "Energy Recharge": "8%"
+      "BASE_HP": 5383,
+      "BASE_DEF": 338,
+      "BASE_ATK": 148,
+      "ENERGY_RECHARGE": "8%"
     },
     "50_ASC" : {
-      "base HP": 6041,
-      "base DEF": 379,
-      "base ATK": 167,
-      "Energy Recharge": "16%"
+      "BASE_HP": 6041,
+      "BASE_DEF": 379,
+      "BASE_ATK": 167,
+      "ENERGY_RECHARGE": "16%"
     },
     "51" : {
-      "base HP": 6111,
-      "base DEF": 384,
-      "base ATK": 169,
-      "Energy Recharge": "16%"
+      "BASE_HP": 6111,
+      "BASE_DEF": 384,
+      "BASE_ATK": 169,
+      "ENERGY_RECHARGE": "16%"
     },
     "52" : {
-      "base HP": 6183,
-      "base DEF": 388,
-      "base ATK": 170,
-      "Energy Recharge": "16%"
+      "BASE_HP": 6183,
+      "BASE_DEF": 388,
+      "BASE_ATK": 170,
+      "ENERGY_RECHARGE": "16%"
     },
     "53" : {
-      "base HP": 6253,
-      "base DEF": 392,
-      "base ATK": 172,
-      "Energy Recharge": "16%"
+      "BASE_HP": 6253,
+      "BASE_DEF": 392,
+      "BASE_ATK": 172,
+      "ENERGY_RECHARGE": "16%"
     },
     "54" : {
-      "base HP": 6324,
-      "base DEF": 397,
-      "base ATK": 174,
-      "Energy Recharge": "16%"
+      "BASE_HP": 6324,
+      "BASE_DEF": 397,
+      "BASE_ATK": 174,
+      "ENERGY_RECHARGE": "16%"
     },
     "55" : {
-      "base HP": 6396,
-      "base DEF": 401,
-      "base ATK": 176,
-      "Energy Recharge": "16%"
+      "BASE_HP": 6396,
+      "BASE_DEF": 401,
+      "BASE_ATK": 176,
+      "ENERGY_RECHARGE": "16%"
     },
     "56" : {
-      "base HP": 6467,
-      "base DEF": 406,
-      "base ATK": 178,
-      "Energy Recharge": "16%"
+      "BASE_HP": 6467,
+      "BASE_DEF": 406,
+      "BASE_ATK": 178,
+      "ENERGY_RECHARGE": "16%"
     },
     "57" : {
-      "base HP": 6538,
-      "base DEF": 410,
-      "base ATK": 180,
-      "Energy Recharge": "16%"
+      "BASE_HP": 6538,
+      "BASE_DEF": 410,
+      "BASE_ATK": 180,
+      "ENERGY_RECHARGE": "16%"
     },
     "58" : {
-      "base HP": 6610,
-      "base DEF": 415,
-      "base ATK": 182,
-      "Energy Recharge": "16%"
+      "BASE_HP": 6610,
+      "BASE_DEF": 415,
+      "BASE_ATK": 182,
+      "ENERGY_RECHARGE": "16%"
     },
     "59" : {
-      "base HP": 6681,
-      "base DEF": 419,
-      "base ATK": 184,
-      "Energy Recharge": "16%"
+      "BASE_HP": 6681,
+      "BASE_DEF": 419,
+      "BASE_ATK": 184,
+      "ENERGY_RECHARGE": "16%"
     },
     "60" : {
-      "base HP": 6752,
-      "base DEF": 424,
-      "base ATK": 186,
-      "Energy Recharge": "16%"
+      "BASE_HP": 6752,
+      "BASE_DEF": 424,
+      "BASE_ATK": 186,
+      "ENERGY_RECHARGE": "16%"
     },
     "60_ASC" : {
-      "base HP": 7246,
-      "base DEF": 455,
-      "base ATK": 200,
-      "Energy Recharge": "16%"
+      "BASE_HP": 7246,
+      "BASE_DEF": 455,
+      "BASE_ATK": 200,
+      "ENERGY_RECHARGE": "16%"
     },
     "61" : {
-      "base HP": 7317,
-      "base DEF": 459,
-      "base ATK": 202,
-      "Energy Recharge": "16%"
+      "BASE_HP": 7317,
+      "BASE_DEF": 459,
+      "BASE_ATK": 202,
+      "ENERGY_RECHARGE": "16%"
     },
     "62" : {
-      "base HP": 7389,
-      "base DEF": 464,
-      "base ATK": 204,
-      "Energy Recharge": "16%"
+      "BASE_HP": 7389,
+      "BASE_DEF": 464,
+      "BASE_ATK": 204,
+      "ENERGY_RECHARGE": "16%"
     },
     "63" : {
-      "base HP": 7461,
-      "base DEF": 468,
-      "base ATK": 206,
-      "Energy Recharge": "16%"
+      "BASE_HP": 7461,
+      "BASE_DEF": 468,
+      "BASE_ATK": 206,
+      "ENERGY_RECHARGE": "16%"
     },
     "64" : {
-      "base HP": 7532,
-      "base DEF": 473,
-      "base ATK": 208,
-      "Energy Recharge": "16%"
+      "BASE_HP": 7532,
+      "BASE_DEF": 473,
+      "BASE_ATK": 208,
+      "ENERGY_RECHARGE": "16%"
     },
     "65" : {
-      "base HP": 7604,
-      "base DEF": 477,
-      "base ATK": 210,
-      "Energy Recharge": "16%"
+      "BASE_HP": 7604,
+      "BASE_DEF": 477,
+      "BASE_ATK": 210,
+      "ENERGY_RECHARGE": "16%"
     },
     "66" : {
-      "base HP": 7676,
-      "base DEF": 482,
-      "base ATK": 212,
-      "Energy Recharge": "16%"
+      "BASE_HP": 7676,
+      "BASE_DEF": 482,
+      "BASE_ATK": 212,
+      "ENERGY_RECHARGE": "16%"
     },
     "67" : {
-      "base HP": 7748,
-      "base DEF": 486,
-      "base ATK": 214,
-      "Energy Recharge": "16%"
+      "BASE_HP": 7748,
+      "BASE_DEF": 486,
+      "BASE_ATK": 214,
+      "ENERGY_RECHARGE": "16%"
     },
     "68" : {
-      "base HP": 7820,
-      "base DEF": 491,
-      "base ATK": 216,
-      "Energy Recharge": "16%"
+      "BASE_HP": 7820,
+      "BASE_DEF": 491,
+      "BASE_ATK": 216,
+      "ENERGY_RECHARGE": "16%"
     },
     "69" : {
-      "base HP": 7892,
-      "base DEF": 495,
-      "base ATK": 218,
-      "Energy Recharge": "16%"
+      "BASE_HP": 7892,
+      "BASE_DEF": 495,
+      "BASE_ATK": 218,
+      "ENERGY_RECHARGE": "16%"
     },
     "70" : {
-      "base HP": 7964,
-      "base DEF": 500,
-      "base ATK": 220,
-      "Energy Recharge": "16%"
+      "BASE_HP": 7964,
+      "BASE_DEF": 500,
+      "BASE_ATK": 220,
+      "ENERGY_RECHARGE": "16%"
     },
     "70_ASC" : {
-      "base HP": 8458,
-      "base DEF": 531,
-      "base ATK": 233,
-      "Energy Recharge": "24%"
+      "BASE_HP": 8458,
+      "BASE_DEF": 531,
+      "BASE_ATK": 233,
+      "ENERGY_RECHARGE": "24%"
     },
     "71" : {
-      "base HP": 8530,
-      "base DEF": 535,
-      "base ATK": 235,
-      "Energy Recharge": "24%"
+      "BASE_HP": 8530,
+      "BASE_DEF": 535,
+      "BASE_ATK": 235,
+      "ENERGY_RECHARGE": "24%"
     },
     "72" : {
-      "base HP": 8603,
-      "base DEF": 540,
-      "base ATK": 237,
-      "Energy Recharge": "24%"
+      "BASE_HP": 8603,
+      "BASE_DEF": 540,
+      "BASE_ATK": 237,
+      "ENERGY_RECHARGE": "24%"
     },
     "73" : {
-      "base HP": 8675,
-      "base DEF": 544,
-      "base ATK": 239,
-      "Energy Recharge": "24%"
+      "BASE_HP": 8675,
+      "BASE_DEF": 544,
+      "BASE_ATK": 239,
+      "ENERGY_RECHARGE": "24%"
     },
     "74" : {
-      "base HP": 8747,
-      "base DEF": 549,
-      "base ATK": 241,
-      "Energy Recharge": "24%"
+      "BASE_HP": 8747,
+      "BASE_DEF": 549,
+      "BASE_ATK": 241,
+      "ENERGY_RECHARGE": "24%"
     },
     "75" : {
-      "base HP": 8820,
-      "base DEF": 554,
-      "base ATK": 243,
-      "Energy Recharge": "24%"
+      "BASE_HP": 8820,
+      "BASE_DEF": 554,
+      "BASE_ATK": 243,
+      "ENERGY_RECHARGE": "24%"
     },
     "76" : {
-      "base HP": 8892,
-      "base DEF": 558,
-      "base ATK": 245,
-      "Energy Recharge": "24%"
+      "BASE_HP": 8892,
+      "BASE_DEF": 558,
+      "BASE_ATK": 245,
+      "ENERGY_RECHARGE": "24%"
     },
     "77" : {
-      "base HP": 8965,
-      "base DEF": 563,
-      "base ATK": 247,
-      "Energy Recharge": "24%"
+      "BASE_HP": 8965,
+      "BASE_DEF": 563,
+      "BASE_ATK": 247,
+      "ENERGY_RECHARGE": "24%"
     },
     "78" : {
-      "base HP": 9038,
-      "base DEF": 567,
-      "base ATK": 249,
-      "Energy Recharge": "24%"
+      "BASE_HP": 9038,
+      "BASE_DEF": 567,
+      "BASE_ATK": 249,
+      "ENERGY_RECHARGE": "24%"
     },
     "79" : {
-      "base HP": 9111,
-      "base DEF": 572,
-      "base ATK": 251,
-      "Energy Recharge": "24%"
+      "BASE_HP": 9111,
+      "BASE_DEF": 572,
+      "BASE_ATK": 251,
+      "ENERGY_RECHARGE": "24%"
     },
     "80" : {
-      "base HP": 9184,
-      "base DEF": 576,
-      "base ATK": 253,
-      "Energy Recharge": "24%"
+      "BASE_HP": 9184,
+      "BASE_DEF": 576,
+      "BASE_ATK": 253,
+      "ENERGY_RECHARGE": "24%"
     },
     "80_ASC" : {
-      "base HP": 9677,
-      "base DEF": 607,
-      "base ATK": 267,
-      "Energy Recharge": "32%"
+      "BASE_HP": 9677,
+      "BASE_DEF": 607,
+      "BASE_ATK": 267,
+      "ENERGY_RECHARGE": "32%"
     },
     "81" : {
-      "base HP": 9750,
-      "base DEF": 612,
-      "base ATK": 269,
-      "Energy Recharge": "32%"
+      "BASE_HP": 9750,
+      "BASE_DEF": 612,
+      "BASE_ATK": 269,
+      "ENERGY_RECHARGE": "32%"
     },
     "82" : {
-      "base HP": 9823,
-      "base DEF": 617,
-      "base ATK": 271,
-      "Energy Recharge": "32%"
+      "BASE_HP": 9823,
+      "BASE_DEF": 617,
+      "BASE_ATK": 271,
+      "ENERGY_RECHARGE": "32%"
     },
     "83" : {
-      "base HP": 9896,
-      "base DEF": 621,
-      "base ATK": 273,
-      "Energy Recharge": "32%"
+      "BASE_HP": 9896,
+      "BASE_DEF": 621,
+      "BASE_ATK": 273,
+      "ENERGY_RECHARGE": "32%"
     },
     "84" : {
-      "base HP": 9969,
-      "base DEF": 626,
-      "base ATK": 275,
-      "Energy Recharge": "32%"
+      "BASE_HP": 9969,
+      "BASE_DEF": 626,
+      "BASE_ATK": 275,
+      "ENERGY_RECHARGE": "32%"
     },
     "85" : {
-      "base HP": 10042,
-      "base DEF": 630,
-      "base ATK": 277,
-      "Energy Recharge": "32%"
+      "BASE_HP": 10042,
+      "BASE_DEF": 630,
+      "BASE_ATK": 277,
+      "ENERGY_RECHARGE": "32%"
     },
     "86" : {
-      "base HP": 10116,
-      "base DEF": 635,
-      "base ATK": 279,
-      "Energy Recharge": "32%"
+      "BASE_HP": 10116,
+      "BASE_DEF": 635,
+      "BASE_ATK": 279,
+      "ENERGY_RECHARGE": "32%"
     },
     "87" : {
-      "base HP": 10189,
-      "base DEF": 639,
-      "base ATK": 281,
-      "Energy Recharge": "32%"
+      "BASE_HP": 10189,
+      "BASE_DEF": 639,
+      "BASE_ATK": 281,
+      "ENERGY_RECHARGE": "32%"
     },
     "88" : {
-      "base HP": 10262,
-      "base DEF": 644,
-      "base ATK": 283,
-      "Energy Recharge": "32%"
+      "BASE_HP": 10262,
+      "BASE_DEF": 644,
+      "BASE_ATK": 283,
+      "ENERGY_RECHARGE": "32%"
     },
     "89" : {
-      "base HP": 10336,
-      "base DEF": 649,
-      "base ATK": 285,
-      "Energy Recharge": "32%"
+      "BASE_HP": 10336,
+      "BASE_DEF": 649,
+      "BASE_ATK": 285,
+      "ENERGY_RECHARGE": "32%"
     },
     "90" : {
-      "base HP": 10409,
-      "base DEF": 653,
-      "base ATK": 287,
-      "Energy Recharge": "32%"
+      "BASE_HP": 10409,
+      "BASE_DEF": 653,
+      "BASE_ATK": 287,
+      "ENERGY_RECHARGE": "32%"
     },
     "95" : {
-      "base HP": 10779,
-      "base DEF": 676,
-      "base ATK": 319,
-      "Energy Recharge": "32%"
+      "BASE_HP": 10779,
+      "BASE_DEF": 676,
+      "BASE_ATK": 319,
+      "ENERGY_RECHARGE": "32%"
     },
     "100" : {
-      "base HP": 11149,
-      "base DEF": 700,
-      "base ATK": 352,
-      "Energy Recharge": "32%"
+      "BASE_HP": 11149,
+      "BASE_DEF": 700,
+      "BASE_ATK": 352,
+      "ENERGY_RECHARGE": "32%"
     }
   },
   "ascensionMaterials": [
     {
-      "level": "level20",
+      "level": 20,
       "materials": [
-          { "name": "Varunada Lazurite Sliver", "value": 1 },
-          { "name": "Philanemo Mushroom", "value": 3 },
-          { "name": "Whopperflower Nectar", "value": 3 },
+          { "name": "Éclat de lazurite varunada", "value": 1 },
+          { "name": "Champignon anémophile", "value": 3 },
+          { "name": "Nectar de Fleur mensongère", "value": 3 },
           { "name": "Mora", "value": 20000 }
       ]
     },
     {
-      "level": "level40",
+      "level": 40,
       "materials": [
-          { "name": "Varunada Lazurite Fragment", "value": 3 },
-          { "name": "Cleansing Heart", "value": 2 },
-          { "name": "Philanemo Mushroom", "value": 10 },
-          { "name": "Whopperflower Nectar", "value": 15 },
+          { "name": "Fragment de lazurite varunada", "value": 3 },
+          { "name": "Cœur d'eau pur", "value": 2 },
+          { "name": "Champignon anémophile", "value": 10 },
+          { "name": "Nectar de Fleur mensongère", "value": 15 },
           { "name": "Mora", "value": 40000 }
       ]
     },
     {
-      "level": "level50",
+      "level": 50,
       "materials": [
-          { "name": "Varunada Lazurite Fragment", "value": 6 },
-          { "name": "Cleansing Heart", "value": 4 },
-          { "name": "Philanemo Mushroom", "value": 20 },
-          { "name": "Shimmering Nectar", "value": 12 },
+          { "name": "Fragment de lazurite varunada", "value": 6 },
+          { "name": "Cœur d'eau pur", "value": 4 },
+          { "name": "Champignon anémophile", "value": 20 },
+          { "name": "Nectar miroitant", "value": 12 },
           { "name": "Mora", "value": 60000 }
       ]
     },
     {
-      "level": "level60",
+      "level": 60,
       "materials": [
-          { "name": "Varunada Lazurite Chunk", "value": 3 },
-          { "name": "Cleansing Heart", "value": 8 },
-          { "name": "Philanemo Mushroom", "value": 30 },
-          { "name": "Shimmering Nectar", "value": 18 },
+          { "name": "Morceau de lazurite varunada", "value": 3 },
+          { "name": "Cœur d'eau pur", "value": 8 },
+          { "name": "Champignon anémophile", "value": 30 },
+          { "name": "Nectar miroitant", "value": 18 },
           { "name": "Mora", "value": 80000 }
       ]
     },
     {
-      "level": "level70",
+      "level": 70,
       "materials": [
-          { "name": "Varunada Lazurite Chunk", "value": 6 },
-          { "name": "Cleansing Heart", "value": 12 },
-          { "name": "Philanemo Mushroom", "value": 45 },
-          { "name": "Energy Nectar", "value": 12 },
+          { "name": "Morceau de lazurite varunada", "value": 6 },
+          { "name": "Cœur d'eau pur", "value": 12 },
+          { "name": "Champignon anémophile", "value": 45 },
+          { "name": "Nectar élémentaire", "value": 12 },
           { "name": "Mora", "value": 100000 }
       ]
     },
     {
-      "level": "level80",
+      "level": 80,
       "materials": [
-          { "name": "Varunada Lazurite Gemstone", "value": 6 },
-          { "name": "Cleansing Heart", "value": 20 },
-          { "name": "Philanemo Mushroom", "value": 60 },
-          { "name": "Energy Nectar", "value": 24 },
+          { "name": "Pierre de lazurite varunada", "value": 6 },
+          { "name": "Cœur d'eau pur", "value": 20 },
+          { "name": "Champignon anémophile", "value": 60 },
+          { "name": "Nectar élémentaire", "value": 24 },
           { "name": "Mora", "value": 120000 }
       ]
     },
     {
-      "level": "level95",
+      "level": 95,
       "materials": [
-          { "name": "Masterless Stella Fortuna", "value": 1 }
+          { "name": "Stella Fortuna orpheline", "value": 1 }
       ]
     },
     {
-      "level": "level100",
+      "level": 100,
       "materials": [
-          { "name": "Masterless Stella Fortuna", "value": 2 }
+        { "name": "Stella Fortuna orpheline", "value": 2 }
       ]
     }
   ],
   "normalAttacks": [
     {
-      "unlock": "Unlocked by default",
-      "name": "Ripple of Fate",
+      "unlock": "DEFAULT_UNLOCK",
+      "name": "Ondes du destin",
       "descriptions": [
-        {"title": "Normal Attack", "description": "Performs up to 4 water splash attacks that deal Hydro DMG."},
-        {"title": "Charged Attack", "description": "Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time."},
-        {"title": "Plunging Attack", "description": "Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."}
+        {"title": "Attaque normal", "description": "Enchaîne jusqu'à 4 attaques d'eau qui infligent des DGT Hydro."},
+        {"title": "Attaque chargée", "description": "Consomme de l'endurance pour infliger des DGT Hydro de zone après un court délai."},
+        {"title": "Attaque plongeante", "description": "Plonge depuis les airs en concentrant ses pouvoirs Hydro, infligeant des DGT aux ennemis en chemin et des DGT Hydro de zone à l'impact."}
       ],
       "upgrades": [
-        { "name": "1-Hit DMG", "values": ["37.6%", "40.4%", "43.2%", "47.0%", "49.8%", "52.6%", "56.4%", "60.2%", "63.9%", "67.7%", "71.44%"] },
-        { "name": "2-Hit DMG", "values": ["36.0%", "38.7%", "41.4%", "45.0%", "47.7%", "50.4%", "54.0%", "57.6%", "61.2%", "64.8%", "68.4%"] },
-        { "name": "3-Hit DMG", "values": ["44.8%", "48.2%", "51.5%", "56.0%", "59.4%", "62.7%", "67.2%", "71.7%", "76.2%", "80.6%", "85.1%"] },
-        { "name": "4-Hit DMG", "values": ["56.2%", "60.4%", "64.6%", "70.2%", "74.4%", "78.6%", "84.2%", "89.9%", "95.5%", "101.1%", "106.7%"] },
-        { "name": "Charged Attack DMG", "values": ["150%", "161%", "172%", "187%", "198%", "210%", "225%", "240%", "255%", "269%", "285%"] },
-        { "name": "Charged Attack Stamina Cost", "values": ["50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0"] },
-        { "name": "Plunge DMG", "values": ["56.8%", "61.5%", "66.1%", "72.7%", "77.3%", "82.6%", "89.9%", "97.1%", "104.4%", "112.3%", "120.3%"] },
-        { "name": "Low/High Plunge DMG", "values": ["114%/142%", "123%/153%", "132%/165%", "145%/182%", "155%/193%", "165%/206%", "180%/224%", "194%/243%", "209%/261%", "225%/281%", "240%/300%"] }
+        { "name": "DGT 1er coup", "values": ["37.6%", "40.4%", "43.2%", "47.0%", "49.8%", "52.6%", "56.4%", "60.2%", "63.9%", "67.7%", "71.44%"] },
+        { "name": "DGT 2e coup", "values": ["36.0%", "38.7%", "41.4%", "45.0%", "47.7%", "50.4%", "54.0%", "57.6%", "61.2%", "64.8%", "68.4%"] },
+        { "name": "DGT 3e coup", "values": ["44.8%", "48.2%", "51.5%", "56.0%", "59.4%", "62.7%", "67.2%", "71.7%", "76.2%", "80.6%", "85.1%"] },
+        { "name": "DGT 4e coup", "values": ["56.2%", "60.4%", "64.6%", "70.2%", "74.4%", "78.6%", "84.2%", "89.9%", "95.5%", "101.1%", "106.7%"] },
+        { "name": "DGT attaque chargée", "values": ["150%", "161%", "172%", "187%", "198%", "210%", "225%", "240%", "255%", "269%", "285%"] },
+        { "name": "Coût d'endurance attaque chargée", "values": ["50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0"] },
+        { "name": "DGT durant la chute", "values": ["56.8%", "61.5%", "66.1%", "72.7%", "77.3%", "82.6%", "89.9%", "97.1%", "104.4%", "112.3%", "120.3%"] },
+        { "name": "DGT chute basse/élevée", "values": ["114%/142%", "123%/153%", "132%/165%", "145%/182%", "155%/193%", "165%/206%", "180%/224%", "194%/243%", "209%/261%", "225%/281%", "240%/300%"] }
       ]
     }
   ],
   "elementalSkills": [
     {
-      "unlock": "Unlocked by default",
-      "name": "Mirror Reflection of Doom",
-      "note" : "Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.",
+      "unlock": "DEFAULT_UNLOCK",
+      "name": "Mirage aqueux",
+      "note" : "Les astromanciens les plus doués ont toujours rêvé de pouvoir créer un sosie d'eux-mêmes pour pouvoir faire face au danger, mais Mona est sans doute la première à avoir réalisé ce tour de main.",
       "descriptions": [
-        {"title": null, "description": "Creates an illusory Phantom of Fate from coalesced waterspouts."},
-        {"title": "Phantom", "description": "Has the following special properties: - Continuously taunts nearby opponents, attracting their fire. - Continuously deals Hydro DMG to nearby opponents. - When its duration expires, the Phantom explodes, dealing AoE Hydro DMG."},
-        {"title": "Hold", "description": "Utilizes water currents to move backwards swiftly before conjuring a Phantom. \nOnly one Phantom created by Mirror Reflection of Doom can exist at any time."}
+        {"title": null, "description": "Mona invoque un mirage du destin créé à partir de projections aqueuses."},
+        {"title": "Mirage", "description": "Le mirage a les effets suivants : - Nargue les ennemis proches et attire leur attention. - Inflige des DGT Hydro continus aux ennemis proches. - Lorsque le mirage prend fin, il explose et inflige des DGT Hydro de zone."},
+        {"title": "Appui long", "description": "Mona utilise la puissance de l'eau pour se propulser rapidement en arrière et invoque un mirage du destin. Il ne peut exister qu'un seul mirage à la fois."}
       ],
       "upgrades": [
-        { "name": "DoT", "values": ["32.0%", "34.4%", "36.8%", "40.0%", "42.4%", "44.8%", "48.0%", "51.2%", "54.4%", "57.6%", "60.8%", "64.0%", "68.0%", "72.0%"] },
-        { "name": "Explosion DMG", "values": ["133%", "143%", "153%", "166%", "176%", "186%", "199%", "212%", "226%", "239%", "252%", "266%", "282%", "299%"] },
-        { "name": "CD", "values": ["12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s"] }
+        { "name": "DGT continus", "values": ["32.0%", "34.4%", "36.8%", "40.0%", "42.4%", "44.8%", "48.0%", "51.2%", "54.4%", "57.6%", "60.8%", "64.0%", "68.0%", "72.0%"] },
+        { "name": "DGT explosion", "values": ["133%", "143%", "153%", "166%", "176%", "186%", "199%", "212%", "226%", "239%", "252%", "266%", "282%", "299%"] },
+        { "name": "Temps de recharge", "values": ["12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s"] }
       ]
     }
   ],
   "passiveTalents": [
     {
-      "unlock": "Unlocked at Ascension 1",
-      "name": "Illusory Torrent",
-      "note" : "This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...",
+      "unlock": "ASCENSION_1_UNLOCK",
+      "name": "Vicissitude",
+      "note" : "Voici une technique que Mona est capable d'effectuer, mais pas son maître. Ce n'est pas comme si cette dernière souhaitait apprendre quoi que ce soit au sujet de l'œil divin Hydro...",
       "descriptions": [
-        {"title": "Alternate Sprint", "description" : "Mona cloaks herself within the water's flow, consuming Stamina to move rapidly. \nWhen under the effect of Illusory Torrent, Mona can move at high speed on water Applies the Wet status to nearby opponents when she reappears."}
+        {"title": "Sprint alternatif", "description" : "Mona consomme de l'endurance pour se déplacer aussi vite qu'un torrent sous la forme d'un courant d'eau. \nDans l'état Vicissitude, Mona peut se déplacer rapidement sur l'eau. À la fin de l'état, Mona trempe les ennemis proches lorsqu'elle réapparaît."}
       ],
       "attributes" : [
-        { "name": "Activation Stamina Consumption", "value": "10.00" },
-        { "name": "Stamina Drain", "value": "15.00/s" }
+        { "name": "Coût d'endurance (activation)", "value": "10.00 pts" },
+        { "name": "Coût d'endurance (durée)", "value": "15.00 pts/s" }
       ]
     },
     {
-      "unlock": "Unlocked by default",
-      "name": "Principium of Astrology",
+      "unlock": "DEFAULT_UNLOCK",
+      "name": "Principes d'astromancie",
       "descriptions": [ 
-        { "title": null, "description": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of crafting the materials used."}
+        { "title": null, "description": "Lorsque vous fabriquez un matériau d'élévation d'arme, il y a 25 % de chances qu'une partie des matières premières vous soit rendue."}
       ],
       "attributes": []
     }
   ],
   "elementalBursts": [
     {
-      "unlock": "Unlocked by Default",
-      "name": "Stellaris Phantasm",
-      "note" : "It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.",
+      "unlock": "DEFAULT_UNLOCK",
+      "name": "Voie divine",
+      "note" : "C'est lorsque le regard des dieux dessina les étoiles que la notion de « destin » naquit.",
       "descriptions": [
-        { "title": null, "description": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE." },
-        { "title": "Illusory Bubble", "description": "Traps opponents inside a pocket of destiny and also makes them Wet. Renders weaker opponents immobile. When an opponent affected by Illusory Bubble sustains DMG, it has the following effects: - Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it. - Removes the Illusory Bubble, dealing Hydro DMG in the process." },
-        { "title": "Omen", "description": "During its duration, increases DMG taken by opponents." }
+        { "title": null, "description": "Mona invoque des vagues chatoyantes pour créer un reflet du ciel étoilé, infligeant l'état Bulle nocturne aux ennemis dans un large rayon." },
+        { "title": "Bulle nocturne", "description": "Emprisonne les ennemis, et les trempe. Les ennemis les plus faibles sont immobilisés. Lorsqu'un ennemi emprisonné subit des DGT, il subit également les effets suivants : - Un présage est appliqué à l'ennemi, qui subit alors une augmentation de DGT, y compris de l'attaque l'ayant provoqué. - L'effet Bulle nocturne disparaît, et inflige des DGT Hydro supplémentaires." },
+        { "title": "Présage", "description": "Le présage augmente les DGT subis par l'ennemi tant qu'il est actif." }
       ],
       "upgrades": [
-        { "name": "Illusory Bubble Duration", "values": ["8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s"] },
-        { "name": "Illusory Bubble Explosion DMG", "values": ["442%", "476%", "509%", "553%", "586%", "619%", "664%", "708%", "752%", "796%", "841%", "885%", "940%", "995%"] },
-        { "name": "DMG Bonus", "values": ["42%", "44%", "46%", "48%", "50%", "52%", "54%", "56%", "58%", "60%", "60%", "60%", "60%", "60%"] },
-        { "name": "Omen Duration", "values": ["4s", "4s", "4s", "4.5s", "4.5s", "4.5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s"] },
-        { "name": "CD", "values": ["15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s"] },
-        { "name": "Energy Cost", "values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"] }
+        { "name": "Durée Bulle nocturne", "values": ["8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s"] },
+        { "name": "DGT Bulle nocturne", "values": ["442%", "476%", "509%", "553%", "586%", "619%", "664%", "708%", "752%", "796%", "841%", "885%", "940%", "995%"] },
+        { "name": "Bonus de DGT", "values": ["42%", "44%", "46%", "48%", "50%", "52%", "54%", "56%", "58%", "60%", "60%", "60%", "60%", "60%"] },
+        { "name": "Durée du présage", "values": ["4s", "4s", "4s", "4.5s", "4.5s", "4.5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s"] },
+        { "name": "Temps de recharge", "values": ["15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s"] },
+        { "name": "Énergie élémentaire", "values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"] }
       ]
     }
   ],
   "ascensionTalents": [ 
     {
-      "unlock": "Unlocked at Ascension 1",
-      "name": "\"Come 'n' Get Me, Hag!\"",
+      "unlock": "ASCENSION_1_UNLOCK",
+      "name": "Leurre du fatum",
       "descriptions": [
-        { "title": null, "description": "After she has used Illusory Torrent for 2s, if there are any opponents nearby, Mona will automatically create a Phantom. A Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom." }
+        { "title": null, "description": "Entrer dans l'état Vicissitude invoque automatiquement un mirage après 2 s en cas de présence d'ennemis proches. Le mirage ainsi invoqué dure 2 s, et ses DGT d'explosion sont équivalents à 50 % des DGT de Mirage aqueux." }
       ]
     },
     {
-      "unlock": "Unlocked at Ascension 4",
+      "unlock": "ASCENSION_4_UNLOCK",
       "name": "Waterborne Destiny",
       "descriptions": [
-        { "title": null, "description": "Increases Mona's Hydro DMG Bonus by a degree equivalent to 20% of her Energy Recharge rate." }
+        { "title": null, "description": "Confère à Mona un bonus de DGT Hydro équivalant à 20 % de sa recharge d'énergie." }
       ]
     }
   ],
   "additionalTalents" : [
     {
-      "unlock": "Unlocked when the relevant \"Witch's Homework\" quest is completed",
-      "name": "Witch's Eve Rite: Genesis of Starsigns",
+      "unlock": "WITCH_HOMEWORK_UNLOCK",
+      "name": "Veillée de la sorcière : Genèse des signes stellaires",
       "descriptions": [
-        { "title": null, "description": "After completing Witch's Homework: Of Untested Insight, Mona will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters." },
-        { "title": "Hexerei: Secret Rite", "description": "When Mona's Normal Attacks or Charged Attacks hit an opponent, she gains 1 stack of Astral Glow of Mercury, for 8s. Max 3 stacks. This effect can grant at most one stack every 0.1s. When other party members trigger a Vaporize reaction on an enemy, all Astral Glow of Mercury stacks are consumed. Each stack consumed increases the damage of that Vaporize reaction by 5%. Additionally, when Mona's Normal Attacks or Charged Attacks hit an opponent, the enemy's Omen duration is extended by 2s. This effect can trigger at most once every 0.5s, and can extend the Omen by up to 8s through this method." }
+        { "title": null, "description": "Après avoir terminé le devoir de la sorcière « De perspicacité inconnue », Mona devient un personnage héxère. Si l'équipe contient au moins 2 personnages héxères, elle bénéficie de l'effet Hexerei : Rituel secret qui améliore les personnages héxères." },
+        { "title": "Hexerei : Rituel secret", "description": "Lorsqu'une attaque normale ou chargée de Mona touche un ennemi, elle obtient un cumul de lueur astrale de Mercure pendant 8 s, cet effet pouvant être obtenu une fois toutes les 0,1 s de cette manière et pouvant se cumuler 3 fois maximum. Lorsqu'un autre personnage de votre équipe déclenche une réaction d'Évaporation sur un ennemi, tous les cumuls de lueur astrale de Mercure sont consommés pour augmenter les DGT de cette réaction de 5 % par cumul consommé. De plus, lorsqu'une attaque normale ou chargée de Mona touche un ennemi, le présage de ce dernier est prolongé de 2 s. Cet effet peut être déclenché une fois toutes les 0,5 s, un présage pouvant être prolongé d'un maximum de 8 s de cette manière." }
       ]
     }
   ],
   "constellations": [
     {
       "level": 1,
-      "name": "Prophecy of Submersion",
+      "name": "Prophétie immersive",
       "descriptions": [
-        {"title": null, "description": "When any of your own party members hits an opponent affected by an Omen, the effects of Hydro-related Elemental Reactions are enhanced for 8s: - Electro-Charged DMG increases by 15%, Lunar-Charged DMG increases by 15%, Vaporize DMG increases by 15%, Hydro Swirl DMG increases by 15%, Lunar-Crystallize DMG increases by 15%. - Frozen duration is extended by 15%." }
+        {"title": null, "description": "Les effets des réactions liées à l'élément Hydro sont renforcés pendant 8 s lorsqu'une attaque de vos personnages dans l'équipe touche un ennemi marqué par un présage : - Les DGT d'Électrocution, de Sélénocution, d'Évaporation, de Dispersion Hydro et de Sélénocristallisation augmentent de 15 %. - La durée de Gel augmente de 15 %." }
       ],
       "hexereiBuffDescriptions": [
-        {"title": null, "description": "When any of your own party members hits an opponent affected by an Omen, the effects of Hydro-related Elemental Reactions are enhanced for 8s: - Electro-Charged DMG increases by 15%, Lunar-Charged DMG increases by 15%, Vaporize DMG increases by 15%, Hydro Swirl DMG increases by 15%, Lunar-Crystallize DMG increases by 15%. - Frozen duration is extended by 15%. \nAdditionally, when your off-field party members trigger the above effect, the DMG Bonus to the above Hydro-related Elemental Reactions is enhanced to 160% of its original effect." }
+        {"title": null, "description": "Les effets des réactions liées à l'élément Hydro sont renforcés pendant 8 s lorsqu'une attaque de vos personnages dans l'équipe touche un ennemi marqué par un présage : - Les DGT d'Électrocution, de Sélénocution, d'Évaporation, de Dispersion Hydro et de Sélénocristallisation augmentent de 15 %. - La durée de Gel augmente de 15 %. \nDe plus, lorsqu'un personnage de l'équipe n'étant pas déployé déclenche cet effet, l'augmentation des DGT passe à 160 % de son effet d'origine." }
       ]
     },
     {
       "level": 2,
-      "name": "Lunar Chain",
+      "name": "Chaîne lunaire",
       "descriptions": [
-        {"title": null, "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack. This effect can only occur once every 5s." }
+        {"title": null, "description": "Les attaques normales ont 20 % de chances d'être suivies par une attaque chargée. Cet effet peut être déclenché une fois toutes les 5 s." }
       ],
       "hexereiBuffDescriptions": [
-        {"title": null, "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack. Additionally, within 5s after Mona unleashes her Elemental Burst Stellaris Phantasm, her next Normal Attack that hits an enemy will automatically trigger a Charged Attack. The aforementioned Charged Attack effect can only occur once every 5s. When Mona's Charged Attack hits an opponent, all nearby party members will have their Elemental Mastery increased by 80 for 12s." }
+        {"title": null, "description": "Les attaques normales ont 20 % de chances d'être suivies par une attaque chargée. De plus, pendant 5 s après que Mona utilise son déchaînement élémentaire Voie divine, la prochaine attaque normale qui touche un ennemi déclenche automatiquement une attaque chargée. Une telle attaque chargée automatique peut être déclenchée une fois toutes les 5 s. Lorsqu'une attaque chargée de Mona touche un ennemi, la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente de 80 pts pendant 12 s." }
       ]
     },
     {
       "level": 3,
-      "name": "Restless revolution",
+      "name": "Révolution éternelle",
       "descriptions": [
-        {"title" : null, "description": "Increases the Level of Stellaris Phantasm by 3. Maximum upgrade level is 15." }
+        {"title" : null, "description": "Niveau d'aptitude Voie divine +3. Niveau max : 15" }
       ],
       "hexereiBuffDescriptions": []
     },
     {
       "level": 4,
-      "name": "Prophecy of Oblivion",
+      "name": "Prophétie de la fin",
       "descriptions": [
-        {"title": null, "description": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%." }
+        {"title": null, "description": "Augmente le taux CRIT de 15 % lorsque vos personnages dans l'équipe attaquent un ennemi marqué par un présage." }
       ],
       "hexereiBuffDescriptions": [
-        {"title": null, "description": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%. When any Hexerei party member attacks an opponent affected by an Omen, their CRIT DMG is increased by 15%." }
+        {"title": null, "description": "Augmente le taux CRIT de 15 % lorsque vos personnages dans l'équipe attaquent un ennemi marqué par un présage. Lorsqu'un personnage héxère de l'équipe attaque un ennemi marqué par un présage, ses DGT CRIT augmentent de 15 %." }
       ]
     },
     {
       "level": 5,
-      "name": "Mockery of Fortuna",
+      "name": "Un tour du destin",
       "descriptions": [
-        {"title": null, "description": "Increases the Level of Mirror Reflection of Doom by 3. Maximum upgrade level is 15." }
+        {"title": null, "description": "Niveau d'aptitude Mirage aqueux +3. Niveau max : 15" }
       ],
       "hexereiBuffDescriptions": []
     },
     {
       "level": 6,
-      "name": "Rethorics of Calamitas",
+      "name": "Réthorique de l'adversité",
       "descriptions": [
-        {"title": null, "description": "Upon entering Illusory Torrent, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement. A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s." }
+        {"title": null, "description": "Dans l'état Vicissitude, Mona obtient un bonus de 60 % de DGT pour sa prochaine attaque chargée à chaque seconde passée à se déplacer. Cet effet peut être cumulé 3 fois maximum (bonus de 180 %) et dure 8 s." }
       ],
       "hexereiBuffDescriptions": [
-        {"title": null, "description": "While Mona is the active character, while she is in the Illusory Torrent state or there are opponents affected by an Omen nearby, she gains a 60% increase to the DMG of her next Charged Attack per second. A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s. Additionally, the DMG Mona's Charged Attacks deal to opponents affected by an Omen will be increased to 200% of the original DMG." }
+        {"title": null, "description": "Lorsque Mona est sur le champ de bataille, si elle est dans l'état Vicissitude ou si un ou plusieurs ennemis marqués par un présage sont à proximité, elle obtient un bonus de 60 % de DGT pour sa prochaine attaque chargée à chaque seconde, cet effet pouvant être cumulé 3 fois maximum (bonus de 180 %) et durant 8 s. De plus, les DGT infligés par les attaques chargées de Mona aux ennemis marqués par un présage augmentent à une valeur équivalant à 200 % des DGT d'origine." }
       ]
     }
   ]
