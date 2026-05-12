@@ -1,0 +1,76 @@
+{
+  "name": "Varunada Lazurite Sliver",
+  "rarity": 3,
+  "categories": [
+    "VARUNADA_LAZURITE",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension material. \"My ideals have no stains.\"",
+  "sources": [
+    { "type": "boss", "name": "Oceanid" },
+    { "type": "boss", "name": "Frostnight Herra" },
+    { "type": "boss", "name": "Aeonblight Drake" },
+    { "type": "boss", "name": "Secret Source Automaton: Overseer Device" },
+    { "type": "boss", "name": "Solitary Suanni" },
+    { "type": "boss", "name": "Hydro Tulpa" },
+    { "type": "boss", "name": "Hydro Hypostasis" },
+    { "type": "boss", "name": "Primo Geovishap" },
+    { "type": "boss", "name": "Iniquitous Baptist" },
+    { "type": "weeklyBoss", "name": "All-Devouring Narwhal" },
+    { "type": "weeklyBoss", "name": "The Doctor" },
+    { "type": "weeklyBoss", "name": "Shouki no Kami, the Prodigal" },
+    { "type": "weeklyBoss", "name": "Childe" },
+    { "type": "weeklyBoss", "name": "Azhadaha" },
+    { "type": "weeklyBoss", "name": "The Game Before The Gate" },
+    { "type": "weeklyBoss", "name": "Stormterror" },
+    { "type": "ALCHEMY", "recipes": [
+      { "subtype" : "CRAFTING", "ingredients": [
+        { "item": "Va­ru­na­da La­zu­rite Sliver", "quantity": 3 },
+        { "item": "Mora", "quantity": 300 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Ag­ni­dus A­gate Fragment", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 3 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Nagadus Emerald Fragment", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 3 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Vajrada Amethyst Fragment", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 3 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Vayuda Turquoise Fragment", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 3 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Shivada Jade Fragment", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 3 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Prithiva Topaz Fragment", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 3 }
+      ] }
+    ]}
+  ],
+  "usedByCharacters" : [
+    "Aino",
+    "Barbara",
+    "Candace",
+    "Columbina",
+    "Dahlia",
+    "Furina",
+    "Kamisato Ayato",
+    "Mona",
+    "Mualani",
+    "Neuvilette",
+    "Nilou",
+    "Sangonomiya Kokomi",
+    "Sigewinne",
+    "Tartaglia",
+    "Xingqiu",
+    "Yelan"
+  ],
+  "sellers": []
+}

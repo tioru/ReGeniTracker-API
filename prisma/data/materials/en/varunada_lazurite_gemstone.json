@@ -1,0 +1,76 @@
+{
+  "name": "Varunada Lazurite Gemstone",
+  "rarity": 5,
+  "categories": [
+    "VARUNADA_LAZURITE",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension material. \"My ideals have no stains. I must correct you. People here bear no sins in the eyes of the gods... Only laws and the Tribunal can judge someone. They can judge even me. So praise my magnificence and purity.\"",
+  "sources": [
+    { "type": "boss", "name": "Oceanid" },
+    { "type": "boss", "name": "Frostnight Herra" },
+    { "type": "boss", "name": "Aeonblight Drake" },
+    { "type": "boss", "name": "Secret Source Automaton: Overseer Device" },
+    { "type": "boss", "name": "Solitary Suanni" },
+    { "type": "boss", "name": "Hydro Tulpa" },
+    { "type": "boss", "name": "Hydro Hypostasis" },
+    { "type": "boss", "name": "Primo Geovishap" },
+    { "type": "boss", "name": "Iniquitous Baptist" },
+    { "type": "weeklyBoss", "name": "All-Devouring Narwhal" },
+    { "type": "weeklyBoss", "name": "The Doctor" },
+    { "type": "weeklyBoss", "name": "Shouki no Kami, the Prodigal" },
+    { "type": "weeklyBoss", "name": "Childe" },
+    { "type": "weeklyBoss", "name": "Azhadaha" },
+    { "type": "weeklyBoss", "name": "The Game Before The Gate" },
+    { "type": "weeklyBoss", "name": "Stormterror" },
+    { "type": "ALCHEMY", "recipes": [
+      { "subtype" : "CRAFTING", "ingredients": [
+        { "item": "Va­ru­na­da La­zu­rite Chunk", "quantity": 3 },
+        { "item": "Mora", "quantity": 2700 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Ag­ni­dus A­gate Gem­stone", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 27 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Nagadus Emerald Gemstone", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 27 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Vajrada Amethyst Gemstone", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 27 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Vayuda Turquoise Gemstone", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 27 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Shivada Jade Gemstone", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 27 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Prithiva Topaz Gemstone", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 27 }
+      ] }
+    ]}
+  ],
+  "usedByCharacters" : [
+    "Aino",
+    "Barbara",
+    "Candace",
+    "Columbina",
+    "Dahlia",
+    "Furina",
+    "Kamisato Ayato",
+    "Mona",
+    "Mualani",
+    "Neuvilette",
+    "Nilou",
+    "Sangonomiya Kokomi",
+    "Sigewinne",
+    "Tartaglia",
+    "Xingqiu",
+    "Yelan"
+  ],
+  "sellers": []
+}

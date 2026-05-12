@@ -23,4 +23,18 @@ export class AssetsController {
     }
     throw new NotFoundException(`Asset ${file} not found for character ${name}`);
   }
+
+  @Get('materials/:file')
+  getMaterialAsset(
+    @Param('file') file: string,
+    @Res() res: Response,
+  ) {
+    for (const ext of EXTENSIONS) {
+      const filePath = path.join(ASSETS_DIR, 'materials', `${file}.${ext}`);
+      if (fs.existsSync(filePath)) {
+        return res.sendFile(filePath);
+      }
+    }
+    throw new NotFoundException(`Asset ${file} not found for material`);
+  }
 }

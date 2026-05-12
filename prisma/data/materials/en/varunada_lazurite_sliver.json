@@ -1,0 +1,75 @@
+{
+  "name": "Varunada Lazurite Sliver",
+  "rarity": 2,
+  "categories": [
+    "VARUNADA_LAZURITE",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension Material.",
+  "sources": [
+    { "type": "boss", "name": "Oceanid" },
+    { "type": "boss", "name": "Frostnight Herra" },
+    { "type": "boss", "name": "Aeonblight Drake" },
+    { "type": "boss", "name": "Secret Source Automaton: Overseer Device" },
+    { "type": "boss", "name": "Solitary Suanni" },
+    { "type": "boss", "name": "Hydro Tulpa" },
+    { "type": "boss", "name": "Hydro Hypostasis" },
+    { "type": "boss", "name": "Primo Geovishap" },
+    { "type": "boss", "name": "Iniquitous Baptist" },
+    { "type": "weeklyBoss", "name": "All-Devouring Narwhal" },
+    { "type": "weeklyBoss", "name": "The Doctor" },
+    { "type": "weeklyBoss", "name": "Shouki no Kami, the Prodigal" },
+    { "type": "weeklyBoss", "name": "Childe" },
+    { "type": "weeklyBoss", "name": "Azhadaha" },
+    { "type": "weeklyBoss", "name": "The Game Before The Gate" },
+    { "type": "weeklyBoss", "name": "Stormterror" },
+    { "type": "ALCHEMY", "recipes": [
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Ag­ni­dus A­gate Sliver", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 1 }
+      ] },
+      { "subtype" : "CONVERTING", "result_quantity": 1, "ingredients": [
+        { "item": "Nagadus Emerald Sliver", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 1 }
+      ] },
+      { "subtype" : "CONVERTING", "result_quantity": 1, "ingredients": [
+        { "item": "Vajrada Amethyst Sliver", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 1 }
+      ] },
+      { "subtype" : "CONVERTING", "result_quantity": 1, "ingredients": [
+        { "item": "Vayuda Turquoise Sliver", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 1 }
+      ] },
+      { "subtype" : "CONVERTING", "result_quantity": 1, "ingredients": [
+        { "item": "Shivada Jade Sliver", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 1 }
+      ] },
+      { "subtype" : "CONVERTING", "result_quantity": 1, "ingredients": [
+        { "item": "Prithiva Topaz Sliver", "quantity": 1 },
+        { "item": "Dust of Azote", "quantity": 1 }
+      ] }
+    ]}
+  ],
+  "usedByCharacters" : [
+    "Aino",
+    "Barbara",
+    "Candace",
+    "Columbina",
+    "Dahlia",
+    "Furina",
+    "Kamisato Ayato",
+    "Mona",
+    "Mualani",
+    "Neuvilette",
+    "Nilou",
+    "Sangonomiya Kokomi",
+    "Sigewinne",
+    "Tartaglia",
+    "Xingqiu",
+    "Yelan"
+  ],
+  "sellers" : [
+    { "name": "Marjorie", "currency": "Sigil", "cost": 10, "stock": 6 },
+    { "name": "Xingxi", "currency": "Sigil", "cost": 10, "stock": 12 }
+  ]
+}

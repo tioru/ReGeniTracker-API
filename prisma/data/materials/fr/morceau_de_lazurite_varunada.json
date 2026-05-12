@@ -1,0 +1,76 @@
+{
+  "name": "Morceau de lazurite varunada",
+  "rarity": 4,
+  "categories": [
+    "VARUNADA_LAZURITE",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Matériau d'élévation de personnage. « Mes idéaux sont purs. » « Je me dois de te corriger : personne ici n'est impur aux yeux des dieux... »",
+  "sources": [
+    { "type": "BOSS", "name": "Océanide" },
+    { "type": "BOSS", "name": "Herra de la nuit glaciale" },
+    { "type": "BOSS", "name": "Dragon cataclysmique" },
+    { "type": "BOSS", "name": "Automate de source secrète : Surveillant" },
+    { "type": "BOSS", "name": "Suanni solitaire" },
+    { "type": "BOSS", "name": "Tulpa Hydro" },
+    { "type": "BOSS", "name": "Hypostase Hydro" },
+    { "type": "BOSS", "name": "Géosaure antique" },
+    { "type": "BOSS", "name": "Lustrateur inique" },
+    { "type": "WEEKLY_BOSS", "name": "Narval stellavore" },
+    { "type": "WEEKLY_BOSS", "name": "Dottore" },
+    { "type": "WEEKLY_BOSS", "name": "Shouki no Kami, le prodige" },
+    { "type": "WEEKLY_BOSS", "name": "Tartaglia" },
+    { "type": "WEEKLY_BOSS", "name": "Azhadaha" },
+    { "type": "WEEKLY_BOSS", "name": "Jeu d'échecs devant la porte" },
+    { "type": "WEEKLY_BOSS", "name": "Stormterror" },
+    { "type": "ALCHEMY", "recipes": [
+      { "subtype" : "CRAFTING", "ingredients": [
+        { "item": "Fragment de lazurite varunada", "quantity": 3 },
+        { "item": "Mora", "quantity": 900 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Morceau d'agate agnidus", "quantity": 1 },
+        { "item": "Poudre d'azote", "quantity": 9 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Morceau d'émeraude nagadus", "quantity": 1 },
+        { "item": "Poudre d'azote", "quantity": 9 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Morceau d'améthyste vajrada", "quantity": 1 },
+        { "item": "Poudre d'azote", "quantity": 9 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Morceau de turquoise vayuda", "quantity": 1 },
+        { "item": "Poudre d'azote", "quantity": 9 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Morceau de jade shivada", "quantity": 1 },
+        { "item": "Poudre d'azote", "quantity": 9 }
+      ] },
+      { "subtype" : "CONVERTING", "ingredients": [
+        { "item": "Morceau de topaze prithiva", "quantity": 1 },
+        { "item": "Poudre d'azote", "quantity": 9 }
+      ] }
+    ]}
+  ],
+  "usedByCharacters" : [
+    "Aino",
+    "Barbara",
+    "Candace",
+    "Columbina",
+    "Dahlia",
+    "Furina",
+    "Kamisato Ayato",
+    "Mona",
+    "Mualani",
+    "Neuvilette",
+    "Nilou",
+    "Sangonomiya Kokomi",
+    "Sigewinne",
+    "Tartaglia",
+    "Xingqiu",
+    "Yelan"
+  ],
+  "sellers" : []
+}
