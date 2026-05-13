@@ -1,0 +1,60 @@
+{
+  "name": "Nectar de Fleur mensongère",
+  "rarity": 1,
+  "categories": [],
+  "description": "Nectar extrait du pistil d'une Fleur mensongère. Il contient des traces d'éléments. Son goût rappelle celui de la fleur sucrante.",
+  "sources": [
+    { 
+      "type": "COMMON_ENNEMI", "names": [
+        "Fleur mensongère Pyro",
+        "Fleur mensongère Cryo",
+        "Fleur mensongère Électro"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Nectar miroitant"
+  ],
+  "usedByCharacters" : {
+    "ascension": [
+      "Furina",
+      "Ganyu",
+      "Hu Tao",
+      "Keqing",
+      "Lan Yan",
+      "Mona",
+      "Sayu",
+      "Shenhe",
+      "Sucrose"
+    ],
+    "talent": [
+      "Furina",
+      "Ganyu",
+      "Hu Tao",
+      "Keqing",
+      "Lan Yan",
+      "Mona",
+      "Sayu",
+      "Shenhe",
+      "Sucrose"
+    ]
+  },
+  "usedByWeapons": [
+    "Étouffeur de calamités",
+    "Élégie de Lumidouce",
+    "Ballade des fjords",
+    "Arc de guerre de Rochenoire",
+    "Scion de la victoire",
+    "Arc de chasse de Favonius",
+    "Fruit du permafrost",
+    "Piqûre de fer",
+    "Clou soutenant les montagnes",
+    "Ossature du dragon",
+    "Perle solaire",
+    "Épée-horloge",
+    "Ode aux alizées",
+    "Ombre ferreuse",
+    "Hallebarde"
+  ],
+  "sellers": []
+}

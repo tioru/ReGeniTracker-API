@@ -1,32 +1,21 @@
 {
-  "name": "Varunada Lazurite Sliver",
+  "name": "Nagadus Emerald Sliver",
   "rarity": 2,
   "categories": [
-    "VARUNADA_LAZURITE",
+    "NAGADUS_EMERALD",
     "ASCENSION_GEMS"
   ],
-  "description": "Character Ascension Material.",
+  "description": "Character Ascension material.",
   "sources": [
     { "type": "BOSS", "minimumLevel": 1, "names": [
-        "Oceanid", 
-        "Frostnight Herra", 
-        "Aeonblight Drake", 
-        "Secret Source Automaton: Overseer Device",
-        "Solitary Suanni",
-        "Hydro Tulpa",
-        "Hydro Hypostasis",
-        "Primo Geovishap",
-        "Iniquitous Baptist"
+        "Dendro Hypostasis", 
+        "Jadeplume Terrorshroom", 
+        "Kongamato", 
+        "Radiant Moonfly"
       ]
     },
     { "type": "WEEKLY_BOSS", "minimumLevel": 1, "names": [
-        "All-Devouring Narwhal",
-        "The Doctor",
-        "Shouki no Kami, the Prodigal",
-        "Childe",
-        "Azhadaha",
-        "The Game Before The Gate",
-        "Stormterror"
+        "Guardian of Apep's Oasis"
       ]
     },
     { "type": "ALCHEMY", "recipes": [
@@ -35,7 +24,7 @@
         { "item": "Dust of Azote", "quantity": 1 }
       ] },
       { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Nagadus Emerald Sliver", "quantity": 1 },
+        { "item": "Varunada Lazurite Sliver", "quantity": 1 },
         { "item": "Dust of Azote", "quantity": 1 }
       ] },
       { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
@@ -58,37 +47,30 @@
   ],
   "usedIn": [
     "Agnidus Agate Sliver",
-    "Nagadus Emerald Sliver",
     "Prithiva Topaz Sliver",
     "Shivada Jade Sliver",
     "Vajrada Amethyst Sliver",
+    "Varunada Lazurite Sliver",
     "Vayuda Turquoise Sliver",
-    "Varunada Lazurite Fragment"
+    "Nagadus Emerald Fragment"
   ],
   "usedByCharacters": {
     "ascension": [
-      "Aino",
-      "Barbara",
-      "Candace",
-      "Columbina",
-      "Dahlia",
-      "Furina",
-      "Kamisato Ayato",
-      "Mona",
-      "Mualani",
-      "Neuvilette",
-      "Nilou",
-      "Sangonomiya Kokomi",
-      "Sigewinne",
-      "Tartaglia",
-      "Xingqiu",
-      "Yelan"
+      "Al­hai­tham",
+      "Baizhu",
+      "Collei",
+      "Emilie",
+      "Kaveh",
+      "Kinich",
+      "Kirara",
+      "Lauma",
+      "Nahida",
+      "Nefer",
+      "Tighnari",
+      "Yaoyao"
     ],
     "talent": []
   },
   "usedByWeapons": [],
-  "sellers" : [
-    { "name": "Marjorie", "currency": "Sigil", "cost": 10, "stock": 6, "restock": "NEVER" },
-    { "name": "Xingxi", "currency": "Sigil", "cost": 10, "stock": 12, "restock": "NEVER" }
-  ]
+  "sellers": []
 }

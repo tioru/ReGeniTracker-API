@@ -1,37 +1,26 @@
 {
-  "name": "Pierre de lazurite varunada",
+  "name": "Pierre d'émeraude nagadus",
   "rarity": 5,
   "categories": [
-    "VARUNADA_LAZURITE",
+    "NAGADUS_EMERALD",
     "ASCENSION_GEMS"
   ],
-  "description": "Matériau d'élévation de personnage. « Mes idéaux sont purs. » « Je me dois de te corriger : personne ici n'est impur aux yeux des dieux, et seuls les lois et le tribunal peuvent déclarer un jugement. » « Ils peuvent même me juger. Louez donc ma grandeur et ma pureté. »",
+  "description": "Matériau d'élévation de personnage. « J'ai fait un très long rêve... » « Il y avait des gens qui se tenaient la main et dansaient en cercle : des sages et des simples d'esprit, des danseuses et des guerriers, des marionnettes et des statues de divinités... » « Ces gens qui dansaient ensemble étaient une représentation de l'univers. Vivre a toujours été une fin, et la sagesse, le moyen d'y parvenir. »",
   "sources": [
     { "type": "BOSS", "minimumLevel": 75, "names": [
-        "Océanide",
-        "Herra de la nuit glaciale",
-        "Dragon cataclysmique",
-        "Automate de source secrète : Surveillant",
-        "Suanni solitaire",
-        "Tulpa Hydro",
-        "Hypostase Hydro",
-        "Géosaure antique",
-        "Lustrateur inique"
+        "Champieffroi panaché",
+        "Hypostase Dendro",
+        "Lunillon radieux",
+        "Roi yumkasaure glouton de la montagne"
       ] 
     },
     { "type": "WEEKLY_BOSS", "minimumLevel": 75, "names": [
-        "Narval stellavore",
-        "Dottore",
-        "Shouki no Kami, le prodige",
-        "Tartaglia",
-        "Azhadaha",
-        "Jeu d'échecs devant la porte",
-        "Stormterror"
+        "Garde de l'oasis d'Apep"
       ] 
     },
     { "type": "ALCHEMY", "recipes": [
       { "subtype" : "CRAFTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Morceau de lazurite varunada", "quantity": 3 },
+        { "item": "Morceau d'émeraude nagadus", "quantity": 3 },
         { "item": "Mora", "quantity": 2700 }
       ] },
       { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
@@ -39,7 +28,7 @@
         { "item": "Poudre d'azote", "quantity": 27 }
       ] },
       { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Pierre d'émeraude nagadus", "quantity": 1 },
+        { "item": "Pierre de lazurite varunada", "quantity": 1 },
         { "item": "Poudre d'azote", "quantity": 27 }
       ] },
       { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
@@ -63,29 +52,25 @@
   "usedIn": [
     "Pierre d'agate agnidus",
     "Pierre d'améthyste vajrada",
-    "Pierre d'émeraude nagadus",
     "Pierre de jade shivada",
+    "Pierre de lazurite varunada",
     "Pierre de topaze prithiva",
     "Pierre de turquoise vayuda"
   ],
   "usedByCharacters": {
     "ascension": [
-      "Aino",
-      "Barbara",
-      "Candace",
-      "Columbina",
-      "Dahlia",
-      "Furina",
-      "Kamisato Ayato",
-      "Mona",
-      "Mualani",
-      "Neuvilette",
-      "Nilou",
-      "Sangonomiya Kokomi",
-      "Sigewinne",
-      "Tartaglia",
-      "Xingqiu",
-      "Yelan"
+      "Al­hai­tham",
+      "Baizhu",
+      "Collei",
+      "Emilie",
+      "Kaveh",
+      "Kinich",
+      "Kirara",
+      "Lauma",
+      "Nahida",
+      "Nefer",
+      "Tighnari",
+      "Yaoyao"
     ],
     "talent": []
   },

@@ -1,37 +1,26 @@
 {
-  "name": "Fragment de lazurite varunada",
+  "name": "Fragment d'émeraude nagadus",
   "rarity": 3,
   "categories": [
-    "VARUNADA_LAZURITE",
+    "NAGADUS_EMERALD",
     "ASCENSION_GEMS"
   ],
-  "description": "Matériau d'élévation de personnage. « Mes idéaux sont purs. »",
+  "description": "Matériau d'élévation de personnage. « J'ai fait un très long rêve... »",
   "sources": [
     { "type": "BOSS", "minimumLevel": 40, "names": [
-        "Océanide",
-        "Herra de la nuit glaciale",
-        "Dragon cataclysmique",
-        "Automate de source secrète : Surveillant",
-        "Suanni solitaire",
-        "Tulpa Hydro",
-        "Hypostase Hydro",
-        "Géosaure antique",
-        "Lustrateur inique"
+        "Champieffroi panaché",
+        "Hypostase Dendro",
+        "Lunillon radieux",
+        "Roi yumkasaure glouton de la montagne"
       ] 
     },
     { "type": "WEEKLY_BOSS", "minimumLevel": 40, "names": [
-        "Narval stellavore",
-        "Dottore",
-        "Shouki no Kami, le prodige",
-        "Tartaglia",
-        "Azhadaha",
-        "Jeu d'échecs devant la porte",
-        "Stormterror"
+        "Garde de l'oasis d'Apep"
       ] 
     },
     { "type": "ALCHEMY", "recipes": [
       { "subtype" : "CRAFTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Éclat de lazurite varunada", "quantity": 3 },
+        { "item": "Éclat d'émeraude nagadus", "quantity": 3 },
         { "item": "Mora", "quantity": 300 }
       ] },
       { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
@@ -39,7 +28,7 @@
         { "item": "Poudre d'azote", "quantity": 3 }
       ] },
       { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Fragment d'émeraude nagadus", "quantity": 1 },
+        { "item": "Fragment de lazurite varunada", "quantity": 1 },
         { "item": "Poudre d'azote", "quantity": 3 }
       ] },
       { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
@@ -63,30 +52,26 @@
   "usedIn": [
     "Fragment d'agate agnidus",
     "Fragment d'améthyste vajrada",
-    "Fragment d'émeraude nagadus",
     "Fragment de jade shivada",
+    "Fragment de lazurite varunada",
     "Fragment de topaze prithiva",
     "Fragment de turquoise vayuda",
-    "Morceau de lazurite varunada"
+    "Morceau d'émeraude nagadus"
   ],
-  "usedByCharacters" : {
+  "usedByCharacters": {
     "ascension": [
-      "Aino",
-      "Barbara",
-      "Candace",
-      "Columbina",
-      "Dahlia",
-      "Furina",
-      "Kamisato Ayato",
-      "Mona",
-      "Mualani",
-      "Neuvilette",
-      "Nilou",
-      "Sangonomiya Kokomi",
-      "Sigewinne",
-      "Tartaglia",
-      "Xingqiu",
-      "Yelan"
+      "Al­hai­tham",
+      "Baizhu",
+      "Collei",
+      "Emilie",
+      "Kaveh",
+      "Kinich",
+      "Kirara",
+      "Lauma",
+      "Nahida",
+      "Nefer",
+      "Tighnari",
+      "Yaoyao"
     ],
     "talent": []
   },
