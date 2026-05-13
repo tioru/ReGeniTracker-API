@@ -345,7 +345,7 @@ model TalentUpgrade {
 }
 
 // ── Enums ─────────────────────────────────────────────────────────────────────
-
+// ─ Characters ────────────────────────────────────────────────────────────────
 enum ObtainingTypes {
   STANDARD_WISHES
   CHRONICLED_WISHES
@@ -361,4 +361,10 @@ enum UnlockTypes {
   ASCENSION_5_UNLOCK
   ASCENSION_6_UNLOCK
   WITCH_HOMEWORK_UNLOCK
+}
+// ─ Materials ────────────────────────────────────────────────────────────────
+enum MaterialCategories {
+  NAGADUS_EMERALD
+  VARUNADA_LAZURITE
+  ASCENSION_GEMS
 }
