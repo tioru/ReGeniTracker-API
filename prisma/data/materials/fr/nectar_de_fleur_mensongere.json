@@ -5,7 +5,7 @@
   "description": "Nectar extrait du pistil d'une Fleur mensongère. Il contient des traces d'éléments. Son goût rappelle celui de la fleur sucrante.",
   "sources": [
     { 
-      "type": "COMMON_ENNEMI", "names": [
+      "type": "COMMON_ENNEMI", "minimumLevel": 1, "names": [
         "Fleur mensongère Pyro",
         "Fleur mensongère Cryo",
         "Fleur mensongère Électro"
