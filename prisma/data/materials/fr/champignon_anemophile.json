@@ -1,0 +1,23 @@
+{
+  "name": "Champignon anémophile",
+  "rarity": 1,
+  "categories": [],
+  "description": "Un champignon qui grandit sous les caresses de la brise. Il prospère comme le vent qui souffle toujours, nourrissant la vie.",
+  "sources": [],
+  "usedIn": [
+    "Détecteur de trésors Anémo"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Barbara",
+      "Klee",
+      "Mona"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    { "name": "Babak", "currency": "Mora", "cost": 1000, "stock": 5, "restock": "3_DAYS" },
+    { "name": "Chloris", "currency": "Mora", "cost": 1000, "stock": 5, "restock": "3_DAYS" }
+  ]
+}

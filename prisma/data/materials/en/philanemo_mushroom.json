@@ -1,0 +1,23 @@
+{
+  "name": "Philanemo Mushroom",
+  "rarity": 1,
+  "categories": [],
+  "description": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
+  "sources": [],
+  "usedIn": [
+    "Anemo Treasure Compass"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Barbara",
+      "Klee",
+      "Mona"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    { "name": "Babak", "currency": "Mora", "cost": 1000, "stock": 5, "restock": "3_DAYS" },
+    { "name": "Chloris", "currency": "Mora", "cost": 1000, "stock": 5, "restock": "3_DAYS" }
+  ]
+}

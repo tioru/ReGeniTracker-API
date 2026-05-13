@@ -1,0 +1,60 @@
+{
+  "name": "Whopperflower Nectar",
+  "rarity": 2,
+  "categories": [],
+  "description": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elemental energy. The taste of the nectar has a hint of Sweet Flower in it.",
+  "sources": [
+    { 
+      "type": "COMMON_ENNEMI", "names": [
+        "Pyro Whopperflower",
+        "Cryo Whopperflower",
+        "Electro Whopperflower"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Shimmering Nectar"
+  ],
+  "usedByCharacters" : {
+    "ascension": [
+      "Furina",
+      "Ganyu",
+      "Hu Tao",
+      "Keqing",
+      "Lan Yan",
+      "Mona",
+      "Sayu",
+      "Shenhe",
+      "Sucrose"
+    ],
+    "talent": [
+      "Furina",
+      "Ganyu",
+      "Hu Tao",
+      "Keqing",
+      "Lan Yan",
+      "Mona",
+      "Sayu",
+      "Shenhe",
+      "Sucrose"
+    ]
+  },
+  "usedByWeapons": [
+    "Ca­lam­i­ty Quel­ler",
+    "Lu­mi­douce El­e­gy",
+    "Bal­lad of the Fjords",
+    "Black­cliff War­bow",
+    "Death­match",
+    "Favonius War­bow",
+    "Frost­bear­er",
+    "Iron St­ing",
+    "Mountain-Bracing Bolt",
+    "Serpent Spine",
+    "Solar Pearl",
+    "The Bell",
+    "Windblume Ode",
+    "Ferrous Shadow",
+    "Halberd"
+  ],
+  "sellers": []
+}
