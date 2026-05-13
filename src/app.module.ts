@@ -6,6 +6,7 @@ import { PrismaModule } from './prisma/prisma.module';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { join } from 'node:path';
 import { AssetsModule } from './assets/assets.module';
+import { MaterialsModule } from './materials/materials.module';
 
 @Module({
   imports: [
@@ -16,6 +17,7 @@ import { AssetsModule } from './assets/assets.module';
       serveRoot: '/assets',
     }),
     AssetsModule,
+    MaterialsModule,
   ],
   controllers: [AppController],
   providers: [AppService],

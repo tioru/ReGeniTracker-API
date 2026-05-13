@@ -118,11 +118,11 @@ function mapConstellation(constellation: any, lang: string) {
 export class CharactersService {
   constructor(private readonly prisma: PrismaService) {}
 
-  async findAll(lang: string) {
+  async findAll(lang: string): Promise<string[]> {
     const characters = await this.prisma.character.findMany({
       select: { name: true },
     });
-    return characters.map(c => c.name);
+    return characters.map(c => c.name).sort((a, b) => a.localeCompare(b));
   }
 
   async findOne(name: string, lang: string) {

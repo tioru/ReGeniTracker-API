@@ -199,7 +199,7 @@ async function seedCharacter(prisma: PrismaClient, enData: CharacterData, transl
       const material = await prisma.material.upsert({
         where: { name: mat.name },
         update: {},
-        create: { name: mat.name, category: [] },
+        create: { name: mat.name, categories: [] },
       });
 
       await prisma.ascensionMaterialItem.create({

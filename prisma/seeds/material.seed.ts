@@ -1,6 +1,13 @@
-import fs from "node:fs";
-import path from "node:path";
-import { PrismaClient } from "@prisma/client";
+import fs from "fs";
+import path from "path";
+import {
+  PrismaClient,
+  MaterialCategories,
+  MaterialSourceTypes,
+  AlchemySubTypes,
+  RestockType,
+  CharacterMaterialType,
+} from "@prisma/client";
 
 // ---------------------------------------------------------------------------
 // Types miroir du JSON source
@@ -18,7 +25,7 @@ interface AlchemyRecipeJson {
 }
 
 interface MaterialSourceJson {
-  type: "BOSS" | "WEEKLY_BOSS" | "ALCHEMY";
+  type: string;
   minimumLevel?: number;
   names?: string[];
   recipes?: AlchemyRecipeJson[];
@@ -48,24 +55,74 @@ interface MaterialJson {
 }
 
 // ---------------------------------------------------------------------------
-// Helpers
+// Chargement des fichiers
+// Structure attendue :
+//   data/materials/
+//     nagadus_emerald_chunk/
+//       en.json
+//       fr.json   (optionnel)
+//     ...
 // ---------------------------------------------------------------------------
 
-const MATERIALS_DIR = path.resolve(__dirname, "../data/materials");
+const DATA_DIR = path.resolve(__dirname, "../data/materials");
 
-function loadMaterialFiles(): MaterialJson[] {
-  if (!fs.existsSync(MATERIALS_DIR)) {
-    console.warn(`⚠️  Dossier introuvable : ${MATERIALS_DIR}`);
+function loadAllMaterials(): { en: MaterialJson; fr?: MaterialJson }[] {
+  if (!fs.existsSync(DATA_DIR)) {
+    console.warn(`⚠️  Dossier introuvable : ${DATA_DIR}`);
     return [];
   }
 
   return fs
-    .readdirSync(MATERIALS_DIR)
-    .filter((f) => f.endsWith(".json"))
-    .map((f) => {
-      const raw = fs.readFileSync(path.join(MATERIALS_DIR, f), "utf-8");
-      return JSON.parse(raw) as MaterialJson;
+    .readdirSync(DATA_DIR)
+    .filter((entry) =>
+      fs.statSync(path.join(DATA_DIR, entry)).isDirectory()
+    )
+    .map((dir) => {
+      const enPath = path.join(DATA_DIR, dir, "en.json");
+      const frPath = path.join(DATA_DIR, dir, "fr.json");
+
+      if (!fs.existsSync(enPath)) {
+        console.warn(`⚠️  Fichier EN manquant pour : ${dir}`);
+        return null;
+      }
+
+      return {
+        en: JSON.parse(fs.readFileSync(enPath, "utf-8")) as MaterialJson,
+        fr: fs.existsSync(frPath)
+          ? (JSON.parse(fs.readFileSync(frPath, "utf-8")) as MaterialJson)
+          : undefined,
+      };
+    })
+    .filter((m): m is { en: MaterialJson; fr: MaterialJson | undefined } => m !== null);
+}
+
+// ---------------------------------------------------------------------------
+// Suppression en cascade des sources (ingrédients → recettes → sources)
+// ---------------------------------------------------------------------------
+
+async function deleteSourcesForMaterial(
+  prisma: PrismaClient,
+  materialId: number,
+): Promise<void> {
+  const alchemySources = await prisma.materialSource.findMany({
+    where: { materialId, type: "ALCHEMY" as MaterialSourceTypes },
+    include: { recipes: { select: { id: true } } },
+  });
+
+  const recipeIds = alchemySources.flatMap((s) => s.recipes.map((r) => r.id));
+
+  if (recipeIds.length > 0) {
+    await prisma.recipeIngredient.deleteMany({
+      where: { recipeId: { in: recipeIds } },
     });
+    await prisma.alchemyRecipe.deleteMany({
+      where: { id: { in: recipeIds } },
+    });
+  }
+
+  await prisma.materialSource.deleteMany({
+    where: { materialId },
+  });
 }
 
 // ---------------------------------------------------------------------------
@@ -73,50 +130,78 @@ function loadMaterialFiles(): MaterialJson[] {
 // ---------------------------------------------------------------------------
 
 export async function seedMaterials(prisma: PrismaClient): Promise<void> {
-  const materials = loadMaterialFiles();
+  const materials = loadAllMaterials();
 
   if (materials.length === 0) {
-    console.log("ℹ️  Aucun fichier material trouvé, seed ignoré.");
+    console.log("ℹ️  Aucun matériau trouvé, seed ignoré.");
     return;
   }
 
   console.log(`🌱 Seeding ${materials.length} material(s)…`);
 
-  for (const mat of materials) {
-    console.log(`  → ${mat.name}`);
+  for (const { en: enData, fr: frData } of materials) {
+    console.log(`  → ${enData.name}`);
 
     // ------------------------------------------------------------------
-    // 1. Upsert du Material racine
+    // 1. Upsert du Material racine (données canoniques depuis EN)
     // ------------------------------------------------------------------
-    await prisma.material.upsert({
-      where: { name: mat.name },
+    const material = await prisma.material.upsert({
+      where: { name: enData.name },
       update: {
-        rarity: mat.rarity,
-        categories: mat.categories,
-        description: mat.description,
+        rarity: enData.rarity,
+        categories: enData.categories as MaterialCategories[],
       },
       create: {
-        name: mat.name,
-        rarity: mat.rarity,
-        categories: mat.categories,
-        description: mat.description,
+        name: enData.name,
+        rarity: enData.rarity,
+        categories: enData.categories as MaterialCategories[],
       },
     });
 
     // ------------------------------------------------------------------
-    // 2. Sources  (delete + recreate pour rester idempotent)
+    // 2. Traductions (upsert par lang)
     // ------------------------------------------------------------------
-    await prisma.materialSource.deleteMany({
-      where: { materialName: mat.name },
+    await prisma.materialTranslation.upsert({
+      where: { materialId_lang: { materialId: material.id, lang: "en" } },
+      update: {
+        name: enData.name,
+        description: enData.description ?? null,
+      },
+      create: {
+        materialId: material.id,
+        lang: "en",
+        name: enData.name,
+        description: enData.description ?? null,
+      },
     });
 
-    for (const source of mat.sources) {
+    if (frData) {
+      await prisma.materialTranslation.upsert({
+        where: { materialId_lang: { materialId: material.id, lang: "fr" } },
+        update: {
+          name: frData.name,
+          description: frData.description ?? null,
+        },
+        create: {
+          materialId: material.id,
+          lang: "fr",
+          name: frData.name,
+          description: frData.description ?? null,
+        },
+      });
+    }
+
+    // ------------------------------------------------------------------
+    // 3. Sources (suppression en cascade + recreate)
+    // ------------------------------------------------------------------
+    await deleteSourcesForMaterial(prisma, material.id);
+
+    for (const source of enData.sources) {
       if (source.type === "ALCHEMY") {
-        // Source alchimie : on crée la source puis ses recettes
         const createdSource = await prisma.materialSource.create({
           data: {
-            materialName: mat.name,
-            type: source.type,
+            materialId: material.id,
+            type: source.type as MaterialSourceTypes,
             minimumLevel: source.minimumLevel ?? null,
             names: [],
           },
@@ -126,7 +211,7 @@ export async function seedMaterials(prisma: PrismaClient): Promise<void> {
           await prisma.alchemyRecipe.create({
             data: {
               sourceId: createdSource.id,
-              subtype: recipe.subtype,
+              subtype: recipe.subtype as AlchemySubTypes,
               resultQuantity: recipe.resultQuantity,
               ingredients: {
                 create: recipe.ingredients.map((ing) => ({
@@ -138,11 +223,10 @@ export async function seedMaterials(prisma: PrismaClient): Promise<void> {
           });
         }
       } else {
-        // Source BOSS / WEEKLY_BOSS
         await prisma.materialSource.create({
           data: {
-            materialName: mat.name,
-            type: source.type,
+            materialId: material.id,
+            type: source.type as MaterialSourceTypes,
             minimumLevel: source.minimumLevel ?? null,
             names: source.names ?? [],
           },
@@ -151,65 +235,61 @@ export async function seedMaterials(prisma: PrismaClient): Promise<void> {
     }
 
     // ------------------------------------------------------------------
-    // 3. Sellers  (delete + recreate)
+    // 4. Sellers (delete + recreate)
     // ------------------------------------------------------------------
     await prisma.materialSeller.deleteMany({
-      where: { materialName: mat.name },
+      where: { materialId: material.id },
     });
 
-    for (const seller of mat.sellers) {
+    for (const seller of enData.sellers) {
       await prisma.materialSeller.create({
         data: {
-          materialName: mat.name,
+          materialId: material.id,
           name: seller.name,
           currency: seller.currency,
           cost: seller.cost,
           stock: seller.stock,
-          restock: seller.restock,
+          restock: seller.restock as RestockType,
         },
       });
     }
 
     // ------------------------------------------------------------------
-    // 4. MaterialUse – objets craftés à partir de ce matériau
-    //    (référence par itemName, pas de FK)
+    // 5. MaterialUse (delete + recreate)
     // ------------------------------------------------------------------
     await prisma.materialUse.deleteMany({
-      where: { materialName: mat.name },
+      where: { materialId: material.id },
     });
 
-    for (const itemName of mat.usedIn) {
+    for (const itemName of enData.usedIn) {
       await prisma.materialUse.create({
-        data: {
-          materialName: mat.name,
-          itemName,
-        },
+        data: { materialId: material.id, itemName },
       });
     }
 
     // ------------------------------------------------------------------
-    // 5. CharacterMaterialUse – personnages utilisant ce matériau
+    // 6. CharacterMaterialUse (delete + recreate)
     // ------------------------------------------------------------------
     await prisma.characterMaterialUse.deleteMany({
-      where: { materialName: mat.name },
+      where: { materialId: material.id },
     });
 
-    for (const characterName of mat.usedByCharacters.ascension) {
+    for (const characterName of enData.usedByCharacters.ascension) {
       await prisma.characterMaterialUse.create({
         data: {
-          materialName: mat.name,
+          materialId: material.id,
           characterName,
-          type: "ASCENSION",
+          type: "ASCENSION" as CharacterMaterialType,
         },
       });
     }
 
-    for (const characterName of mat.usedByCharacters.talent) {
+    for (const characterName of enData.usedByCharacters.talent) {
       await prisma.characterMaterialUse.create({
         data: {
-          materialName: mat.name,
+          materialId: material.id,
           characterName,
-          type: "TALENT",
+          type: "TALENT" as CharacterMaterialType,
         },
       });
     }

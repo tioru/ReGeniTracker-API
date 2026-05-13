@@ -26,6 +26,7 @@ model Character {
   ascensionTalents   AscensionTalent[]
   additionalTalents  AdditionalTalent[]
   constellations     Constellation[]
+  materialUses CharacterMaterialUse[]
 }
 
 model CharacterLevel {
@@ -68,35 +69,6 @@ model AscensionMaterialItem {
   ascensionMaterialId Int
   material            Material          @relation(fields: [materialId], references: [id])
   materialId          Int
-}
-
-model Material {
-  id                 Int                     @id @default(autoincrement())
-  name               String                  @unique
-  rarity             Int?
-  category           String[]
-  translations       MaterialTranslation[]
-  sources            MaterialSource[]
-  ascensionMaterials AscensionMaterialItem[]
-}
-
-model MaterialTranslation {
-  id          Int      @id @default(autoincrement())
-  lang        String
-  name        String
-  description String?
-  material    Material @relation(fields: [materialId], references: [id])
-  materialId  Int
-
-  @@unique([materialId, lang])
-}
-
-model MaterialSource {
-  id         Int      @id @default(autoincrement())
-  type       String
-  name       String
-  material   Material @relation(fields: [materialId], references: [id])
-  materialId Int
 }
 
 // ── Normal Attack ─────────────────────────────────────────────────────────────
@@ -344,6 +316,126 @@ model TalentUpgrade {
   elementalBurst   ElementalBurst? @relation(fields: [elementalBurstId], references: [id])
 }
 
+// ── Material ──────────────────────────────────────────────────────────────────
+
+model Material {
+  id                 Int                     @id @default(autoincrement())
+  name               String                  @unique
+  rarity             Int?
+  categories         MaterialCategories[]
+  translations       MaterialTranslation[]
+  sources            MaterialSource[]
+  sellers            MaterialSeller[]
+  usedIn             MaterialUse[]
+  usedByCharacters   CharacterMaterialUse[]
+  ascensionMaterials AscensionMaterialItem[]
+}
+
+model MaterialTranslation {
+  id          Int      @id @default(autoincrement())
+  lang        String
+  name        String
+  description String?
+  material    Material @relation(fields: [materialId], references: [id])
+  materialId  Int
+
+  @@unique([materialId, lang])
+}
+
+model MaterialSource {
+  id           Int                        @id @default(autoincrement())
+  type         MaterialSourceTypes
+  minimumLevel Int?
+  recipes      AlchemyRecipe[]
+  translations MaterialSourceTranslation[]
+  material     Material                   @relation(fields: [materialId], references: [id])
+  materialId   Int
+}
+
+model MaterialSourceTranslation {
+  id       Int            @id @default(autoincrement())
+  lang     String
+  names    String[]
+  source   MaterialSource @relation(fields: [sourceId], references: [id])
+  sourceId Int
+
+  @@unique([sourceId, lang])
+}
+
+model AlchemyRecipe {
+  id             Int                        @id @default(autoincrement())
+  subtype        AlchemySubTypes
+  resultQuantity Int
+  ingredients    RecipeIngredient[]
+  source         MaterialSource             @relation(fields: [sourceId], references: [id])
+  sourceId       Int
+}
+
+model RecipeIngredient {
+  id           Int                          @id @default(autoincrement())
+  quantity     Int
+  translations RecipeIngredientTranslation[]
+  recipe       AlchemyRecipe                @relation(fields: [recipeId], references: [id])
+  recipeId     Int
+}
+
+model RecipeIngredientTranslation {
+  id           Int              @id @default(autoincrement())
+  lang         String
+  item         String
+  ingredient   RecipeIngredient @relation(fields: [ingredientId], references: [id])
+  ingredientId Int
+
+  @@unique([ingredientId, lang])
+}
+
+model MaterialSeller {
+  id           Int                       @id @default(autoincrement())
+  cost         Int
+  stock        Int
+  restock      RestockType
+  translations MaterialSellerTranslation[]
+  material     Material                  @relation(fields: [materialId], references: [id])
+  materialId   Int
+}
+
+model MaterialSellerTranslation {
+  id       Int            @id @default(autoincrement())
+  lang     String
+  name     String
+  currency String
+  seller   MaterialSeller @relation(fields: [sellerId], references: [id])
+  sellerId Int
+
+  @@unique([sellerId, lang])
+}
+
+model MaterialUse {
+  id           Int                    @id @default(autoincrement())
+  translations MaterialUseTranslation[]
+  material     Material               @relation(fields: [materialId], references: [id])
+  materialId   Int
+}
+
+model MaterialUseTranslation {
+  id       Int         @id @default(autoincrement())
+  lang     String
+  itemName String
+  use      MaterialUse @relation(fields: [useId], references: [id])
+  useId    Int
+
+  @@unique([useId, lang])
+}
+
+model CharacterMaterialUse {
+  id          Int                   @id @default(autoincrement())
+  type        CharacterMaterialType
+  material    Material              @relation(fields: [materialId], references: [id])
+  materialId  Int
+  character   Character             @relation(fields: [characterId], references: [id])
+  characterId Int
+}
+
 // ── Enums ─────────────────────────────────────────────────────────────────────
 // ─ Characters ────────────────────────────────────────────────────────────────
 enum ObtainingTypes {
@@ -362,9 +454,35 @@ enum UnlockTypes {
   ASCENSION_6_UNLOCK
   WITCH_HOMEWORK_UNLOCK
 }
-// ─ Materials ────────────────────────────────────────────────────────────────
+
+// ─ Materials ─────────────────────────────────────────────────────────────────
 enum MaterialCategories {
   NAGADUS_EMERALD
   VARUNADA_LAZURITE
   ASCENSION_GEMS
+  // … ajoute ici les autres catégories de tes JSON
+}
+
+enum MaterialSourceTypes {
+  COMMON_ENEMY
+  BOSS
+  WEEKLY_BOSS
+  ALCHEMY
+}
+
+enum AlchemySubTypes {
+  CRAFTING
+  CONVERTING
+}
+
+enum RestockType {
+  NEVER
+  WEEKLY
+  MONTHLY
+  THREE_DAYS
+}
+
+enum CharacterMaterialType {
+  ASCENSION
+  TALENT
 }
