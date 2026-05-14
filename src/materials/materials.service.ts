@@ -1,7 +1,5 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
-import { Material, MaterialSource, AlchemyRecipe, RecipeIngredient, MaterialSeller, MaterialTranslation, MaterialUse, CharacterMaterialUse,
-} from '@prisma/client';
 
 // ---------------------------------------------------------------------------
 // Types de sortie (miroir du JSON source)
@@ -48,82 +46,125 @@ type MaterialOut = {
 };
 
 // ---------------------------------------------------------------------------
-// Types Prisma avec includes
+// Include Prisma
 // ---------------------------------------------------------------------------
 
-type MaterialSourceWithRecipes = MaterialSource & {
-  recipes: (AlchemyRecipe & {
-    ingredients: RecipeIngredient[];
-  })[];
-};
+const MATERIAL_INCLUDE = {
+  translations: true,
+  sources: {
+    include: {
+      translations: true,
+      recipes: {
+        include: {
+          ingredients: {
+            include: {
+              translations: true,
+            },
+          },
+        },
+      },
+    },
+  },
+  sellers: {
+    include: {
+      translations: true,
+    },
+  },
+  usedIn: {
+    include: {
+      translations: true,
+    },
+  },
+  usedByCharacters: {
+    include: {
+      character: {
+        include: {
+          translations: true,
+        },
+      },
+    },
+  },
+} as const;
 
-type MaterialFull = Material & {
-  translations: MaterialTranslation[];
-  sources: MaterialSourceWithRecipes[];
-  sellers: MaterialSeller[];
-  usedIn: MaterialUse[];
-  usedByCharacters: CharacterMaterialUse[];
-};
+// ---------------------------------------------------------------------------
+// Helpers
+// ---------------------------------------------------------------------------
+
+function pickLang<T extends { lang: string }>(
+  items: T[],
+  lang: string,
+): any {
+  return items.find((t) => t.lang === lang) ?? items[0];
+}
 
 // ---------------------------------------------------------------------------
 // Mappers
 // ---------------------------------------------------------------------------
 
-function pickTranslation(
-  translations: MaterialTranslation[],
-  lang: string,
-): MaterialTranslation | undefined {
-  return translations.find((t) => t.lang === lang) ?? translations[0];
-}
-
-function mapSource(source: MaterialSourceWithRecipes): MaterialSourceOut {
-  if (source.type === 'ALCHEMY') {
-    return {
-      type: source.type,
-      minimumLevel: source.minimumLevel,
-      recipes: source.recipes.map((recipe) => ({
-        subtype: recipe.subtype,
-        resultQuantity: recipe.resultQuantity,
-        ingredients: recipe.ingredients.map((ing) => ({
-          item: ing.item,
-          quantity: ing.quantity,
-        })),
-      })),
-    };
-  }
-
-  return {
-    type: source.type,
-    minimumLevel: source.minimumLevel,
-    names: source.names,
-  };
-}
-
-function mapMaterial(material: MaterialFull, lang: string): MaterialOut {
-  const translation = pickTranslation(material.translations, lang);
+function mapMaterial(material: any, lang: string): MaterialOut {
+  const translation = pickLang(material.translations, lang);
 
   return {
     name: translation?.name ?? material.name,
     rarity: material.rarity,
     categories: material.categories,
     description: translation?.description ?? null,
-    sources: material.sources.map(mapSource),
-    usedIn: material.usedIn.map((u) => u.itemName),
+    sources: material.sources.map((source: any) => mapSource(source, lang)),
+    usedIn: material.usedIn.map((use: any) => {
+      const t = pickLang(use.translations, lang);
+      return t?.itemName ?? '';
+    }),
     usedByCharacters: {
       ascension: material.usedByCharacters
-        .filter((u) => u.type === 'ASCENSION')
-        .map((u) => u.characterName),
+        .filter((u: any) => u.type === 'ASCENSION')
+        .map((u: any) => {
+          const t = pickLang(u.character.translations, lang);
+          return t?.name ?? u.character.name;
+        }),
       talent: material.usedByCharacters
-        .filter((u) => u.type === 'TALENT')
-        .map((u) => u.characterName),
+        .filter((u: any) => u.type === 'TALENT')
+        .map((u: any) => {
+          const t = pickLang(u.character.translations, lang);
+          return t?.name ?? u.character.name;
+        }),
     },
-    sellers: material.sellers.map((s) => ({
-      name: s.name,
-      currency: s.currency,
-      cost: s.cost,
-      stock: s.stock,
-      restock: s.restock,
-    })),
+    sellers: material.sellers.map((seller: any) => {
+      const t = pickLang(seller.translations, lang);
+      return {
+        name: t?.name ?? '',
+        currency: t?.currency ?? '',
+        cost: seller.cost,
+        stock: seller.stock,
+        restock: seller.restock,
+      };
+    }),
+  };
+}
+
+function mapSource(source: any, lang: string): MaterialSourceOut {
+  if (source.type === 'ALCHEMY') {
+    return {
+      type: source.type,
+      minimumLevel: source.minimumLevel,
+      recipes: source.recipes.map((recipe: any) => ({
+        subtype: recipe.subtype,
+        resultQuantity: recipe.resultQuantity,
+        ingredients: recipe.ingredients.map((ing: any) => {
+          const t = pickLang(ing.translations, lang);
+          return {
+            item: t?.item ?? '',
+            quantity: ing.quantity,
+          };
+        }),
+      })),
+    };
+  }
+
+  const t = pickLang(source.translations, lang);
+  return {
+    type: source.type,
+    minimumLevel: source.minimumLevel,
+    names: t?.names ?? [],
   };
 }
 
@@ -131,46 +172,28 @@ function mapMaterial(material: MaterialFull, lang: string): MaterialOut {
 // Service
 // ---------------------------------------------------------------------------
 
-const MATERIAL_INCLUDE = {
-  translations: true,
-  sources: {
-    include: {
-      recipes: {
-        include: {
-          ingredients: true,
-        },
-      },
-    },
-  },
-  sellers: true,
-  usedIn: true,
-  usedByCharacters: true,
-} as const;
-
 @Injectable()
 export class MaterialsService {
   constructor(private readonly prisma: PrismaService) {}
 
-  async findAll(lang: string): Promise<string[]> {
+  async findAll(lang: string): Promise<MaterialOut[]> {
     const materials = await this.prisma.material.findMany({
-      select: { name: true },
+      include: MATERIAL_INCLUDE,
     });
-    return materials.map((m) => m.name).sort((a, b) => a.localeCompare(b));
+
+    return materials.map((m) => mapMaterial(m, lang));
   }
 
   async findOne(name: string, lang: string): Promise<MaterialOut | null> {
     const material = await this.prisma.material.findFirst({
       where: {
-        name: {
-          equals: name,
-          mode: 'insensitive',
-        },
+        name: { equals: name, mode: 'insensitive' },
       },
       include: MATERIAL_INCLUDE,
     });
-  
+
     if (!material) return null;
-  
-    return mapMaterial(material as MaterialFull, lang);
+
+    return mapMaterial(material, lang);
   }
 }

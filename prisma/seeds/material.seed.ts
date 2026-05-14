@@ -56,17 +56,18 @@ interface MaterialJson {
 
 // ---------------------------------------------------------------------------
 // Chargement des fichiers
-// Structure attendue :
-//   data/materials/
+// Structure :
+//   prisma/data/materials/
 //     nagadus_emerald_chunk/
 //       en.json
-//       fr.json   (optionnel)
-//     ...
+//       fr.json  (optionnel)
 // ---------------------------------------------------------------------------
 
 const DATA_DIR = path.resolve(__dirname, "../data/materials");
+const LANGS = ["en", "fr"] as const;
+type Lang = (typeof LANGS)[number];
 
-function loadAllMaterials(): { en: MaterialJson; fr?: MaterialJson }[] {
+function loadAllMaterials(): { en: MaterialJson; fr: MaterialJson | undefined }[] {
   if (!fs.existsSync(DATA_DIR)) {
     console.warn(`⚠️  Dossier introuvable : ${DATA_DIR}`);
     return [];
@@ -74,9 +75,7 @@ function loadAllMaterials(): { en: MaterialJson; fr?: MaterialJson }[] {
 
   return fs
     .readdirSync(DATA_DIR)
-    .filter((entry) =>
-      fs.statSync(path.join(DATA_DIR, entry)).isDirectory()
-    )
+    .filter((entry) => fs.statSync(path.join(DATA_DIR, entry)).isDirectory())
     .map((dir) => {
       const enPath = path.join(DATA_DIR, dir, "en.json");
       const frPath = path.join(DATA_DIR, dir, "fr.json");
@@ -97,7 +96,7 @@ function loadAllMaterials(): { en: MaterialJson; fr?: MaterialJson }[] {
 }
 
 // ---------------------------------------------------------------------------
-// Suppression en cascade des sources (ingrédients → recettes → sources)
+// Suppression en cascade des sources
 // ---------------------------------------------------------------------------
 
 async function deleteSourcesForMaterial(
@@ -112,6 +111,9 @@ async function deleteSourcesForMaterial(
   const recipeIds = alchemySources.flatMap((s) => s.recipes.map((r) => r.id));
 
   if (recipeIds.length > 0) {
+    await prisma.recipeIngredientTranslation.deleteMany({
+      where: { ingredient: { recipeId: { in: recipeIds } } },
+    });
     await prisma.recipeIngredient.deleteMany({
       where: { recipeId: { in: recipeIds } },
     });
@@ -120,9 +122,22 @@ async function deleteSourcesForMaterial(
     });
   }
 
-  await prisma.materialSource.deleteMany({
-    where: { materialId },
+  await prisma.materialSourceTranslation.deleteMany({
+    where: { source: { materialId } },
   });
+  await prisma.materialSource.deleteMany({ where: { materialId } });
+}
+
+// ---------------------------------------------------------------------------
+// Helpers pour récupérer la donnée traduite ou fallback EN
+// ---------------------------------------------------------------------------
+
+function getLang(
+  enData: MaterialJson,
+  frData: MaterialJson | undefined,
+  lang: Lang,
+): MaterialJson {
+  return lang === "fr" && frData ? frData : enData;
 }
 
 // ---------------------------------------------------------------------------
@@ -143,7 +158,7 @@ export async function seedMaterials(prisma: PrismaClient): Promise<void> {
     console.log(`  → ${enData.name}`);
 
     // ------------------------------------------------------------------
-    // 1. Upsert du Material racine (données canoniques depuis EN)
+    // 1. Upsert Material racine (données canoniques EN)
     // ------------------------------------------------------------------
     const material = await prisma.material.upsert({
       where: { name: enData.name },
@@ -159,137 +174,207 @@ export async function seedMaterials(prisma: PrismaClient): Promise<void> {
     });
 
     // ------------------------------------------------------------------
-    // 2. Traductions (upsert par lang)
+    // 2. MaterialTranslation (name + description)
     // ------------------------------------------------------------------
-    await prisma.materialTranslation.upsert({
-      where: { materialId_lang: { materialId: material.id, lang: "en" } },
-      update: {
-        name: enData.name,
-        description: enData.description ?? null,
-      },
-      create: {
-        materialId: material.id,
-        lang: "en",
-        name: enData.name,
-        description: enData.description ?? null,
-      },
-    });
-
-    if (frData) {
+    for (const lang of LANGS) {
+      const t = getLang(enData, frData, lang);
       await prisma.materialTranslation.upsert({
-        where: { materialId_lang: { materialId: material.id, lang: "fr" } },
-        update: {
-          name: frData.name,
-          description: frData.description ?? null,
-        },
+        where: { materialId_lang: { materialId: material.id, lang } },
+        update: { name: t.name, description: t.description ?? null },
         create: {
           materialId: material.id,
-          lang: "fr",
-          name: frData.name,
-          description: frData.description ?? null,
+          lang,
+          name: t.name,
+          description: t.description ?? null,
         },
       });
     }
 
     // ------------------------------------------------------------------
-    // 3. Sources (suppression en cascade + recreate)
+    // 3. Sources + traductions (suppression en cascade + recreate)
     // ------------------------------------------------------------------
     await deleteSourcesForMaterial(prisma, material.id);
 
-    for (const source of enData.sources) {
-      if (source.type === "ALCHEMY") {
+    for (let si = 0; si < enData.sources.length; si++) {
+      const enSource = enData.sources[si];
+      const frSource = frData?.sources[si];
+
+      if (enSource.type === "ALCHEMY") {
         const createdSource = await prisma.materialSource.create({
           data: {
             materialId: material.id,
-            type: source.type as MaterialSourceTypes,
-            minimumLevel: source.minimumLevel ?? null,
-            names: [],
+            type: enSource.type as MaterialSourceTypes,
+            minimumLevel: enSource.minimumLevel ?? null,
           },
         });
 
-        for (const recipe of source.recipes ?? []) {
-          await prisma.alchemyRecipe.create({
+        // Pas de traduction pour ALCHEMY (pas de names)
+
+        for (let ri = 0; ri < (enSource.recipes ?? []).length; ri++) {
+          const enRecipe = enSource.recipes![ri];
+
+          const createdRecipe = await prisma.alchemyRecipe.create({
             data: {
               sourceId: createdSource.id,
-              subtype: recipe.subtype as AlchemySubTypes,
-              resultQuantity: recipe.resultQuantity,
-              ingredients: {
-                create: recipe.ingredients.map((ing) => ({
-                  item: ing.item,
-                  quantity: ing.quantity,
-                })),
+              subtype: enRecipe.subtype as AlchemySubTypes,
+              resultQuantity: enRecipe.resultQuantity,
+            },
+          });
+
+          for (let ii = 0; ii < enRecipe.ingredients.length; ii++) {
+            const enIng = enRecipe.ingredients[ii];
+            const frIng = frData?.sources[si]?.recipes?.[ri]?.ingredients[ii];
+
+            const createdIngredient = await prisma.recipeIngredient.create({
+              data: {
+                recipeId: createdRecipe.id,
+                quantity: enIng.quantity,
               },
+            });
+
+            for (const lang of LANGS) {
+              const item = lang === "fr" && frIng ? frIng.item : enIng.item;
+              await prisma.recipeIngredientTranslation.create({
+                data: {
+                  ingredientId: createdIngredient.id,
+                  lang,
+                  item,
+                },
+              });
+            }
+          }
+        }
+      } else {
+        // BOSS / WEEKLY_BOSS
+        const createdSource = await prisma.materialSource.create({
+          data: {
+            materialId: material.id,
+            type: enSource.type as MaterialSourceTypes,
+            minimumLevel: enSource.minimumLevel ?? null,
+          },
+        });
+
+        for (const lang of LANGS) {
+          const names =
+            lang === "fr" && frSource?.names
+              ? frSource.names
+              : (enSource.names ?? []);
+
+          await prisma.materialSourceTranslation.create({
+            data: {
+              sourceId: createdSource.id,
+              lang,
+              names,
             },
           });
         }
-      } else {
-        await prisma.materialSource.create({
+      }
+    }
+
+    // ------------------------------------------------------------------
+    // 4. Sellers + traductions
+    // ------------------------------------------------------------------
+    const existingSellers = await prisma.materialSeller.findMany({
+      where: { materialId: material.id },
+      select: { id: true },
+    });
+    const sellerIds = existingSellers.map((s) => s.id);
+    if (sellerIds.length > 0) {
+      await prisma.materialSellerTranslation.deleteMany({
+        where: { sellerId: { in: sellerIds } },
+      });
+      await prisma.materialSeller.deleteMany({
+        where: { id: { in: sellerIds } },
+      });
+    }
+
+    for (let si = 0; si < enData.sellers.length; si++) {
+      const enSeller = enData.sellers[si];
+      const frSeller = frData?.sellers[si];
+
+      const createdSeller = await prisma.materialSeller.create({
+        data: {
+          materialId: material.id,
+          cost: enSeller.cost,
+          stock: enSeller.stock,
+          restock: enSeller.restock as RestockType,
+        },
+      });
+
+      for (const lang of LANGS) {
+        const s = lang === "fr" && frSeller ? frSeller : enSeller;
+        await prisma.materialSellerTranslation.create({
           data: {
-            materialId: material.id,
-            type: source.type as MaterialSourceTypes,
-            minimumLevel: source.minimumLevel ?? null,
-            names: source.names ?? [],
+            sellerId: createdSeller.id,
+            lang,
+            name: s.name,
+            currency: s.currency,
           },
         });
       }
     }
 
     // ------------------------------------------------------------------
-    // 4. Sellers (delete + recreate)
+    // 5. MaterialUse + traductions
     // ------------------------------------------------------------------
-    await prisma.materialSeller.deleteMany({
+    const existingUses = await prisma.materialUse.findMany({
       where: { materialId: material.id },
+      select: { id: true },
     });
-
-    for (const seller of enData.sellers) {
-      await prisma.materialSeller.create({
-        data: {
-          materialId: material.id,
-          name: seller.name,
-          currency: seller.currency,
-          cost: seller.cost,
-          stock: seller.stock,
-          restock: seller.restock as RestockType,
-        },
+    const useIds = existingUses.map((u) => u.id);
+    if (useIds.length > 0) {
+      await prisma.materialUseTranslation.deleteMany({
+        where: { useId: { in: useIds } },
+      });
+      await prisma.materialUse.deleteMany({
+        where: { id: { in: useIds } },
       });
     }
 
-    // ------------------------------------------------------------------
-    // 5. MaterialUse (delete + recreate)
-    // ------------------------------------------------------------------
-    await prisma.materialUse.deleteMany({
-      where: { materialId: material.id },
-    });
+    for (let ui = 0; ui < enData.usedIn.length; ui++) {
+      const enItem = enData.usedIn[ui];
+      const frItem = frData?.usedIn[ui];
 
-    for (const itemName of enData.usedIn) {
-      await prisma.materialUse.create({
-        data: { materialId: material.id, itemName },
+      const createdUse = await prisma.materialUse.create({
+        data: { materialId: material.id },
       });
+
+      for (const lang of LANGS) {
+        const itemName = lang === "fr" && frItem ? frItem : enItem;
+        await prisma.materialUseTranslation.create({
+          data: { useId: createdUse.id, lang, itemName },
+        });
+      }
     }
 
     // ------------------------------------------------------------------
-    // 6. CharacterMaterialUse (delete + recreate)
+    // 6. CharacterMaterialUse (FK vers Character)
     // ------------------------------------------------------------------
     await prisma.characterMaterialUse.deleteMany({
       where: { materialId: material.id },
     });
 
-    for (const characterName of enData.usedByCharacters.ascension) {
-      await prisma.characterMaterialUse.create({
-        data: {
-          materialId: material.id,
-          characterName,
-          type: "ASCENSION" as CharacterMaterialType,
-        },
-      });
-    }
+    const allCharacterNames = [
+      ...enData.usedByCharacters.ascension.map((n) => ({ name: n, type: "ASCENSION" as CharacterMaterialType })),
+      ...enData.usedByCharacters.talent.map((n) => ({ name: n, type: "TALENT" as CharacterMaterialType })),
+    ];
 
-    for (const characterName of enData.usedByCharacters.talent) {
+    for (const { name, type } of allCharacterNames) {
+      const character = await prisma.character.findUnique({
+        where: { name },
+        select: { id: true },
+      });
+
+      if (!character) {
+        console.warn(`    ⚠️  Personnage introuvable : ${name}`);
+        continue;
+      }
+
       await prisma.characterMaterialUse.create({
         data: {
           materialId: material.id,
-          characterName,
-          type: "TALENT" as CharacterMaterialType,
+          characterId: character.id,
+          type,
         },
       });
     }
