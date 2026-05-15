@@ -1,6 +1,0 @@
-export enum UnlockTypes {
-    DEFAULT_UNLOCK,
-    ASCENSION_1_UNLOCK,
-    ASCENSION_4_UNLOCK,
-    WITCH_HOMEWORK_UNLOCK
-}
