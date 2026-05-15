@@ -609,72 +609,72 @@
     {
       "level": 20,
       "materials": [
-          { "name": "Éclat de lazurite varunada", "value": 1 },
-          { "name": "Champignon anémophile", "value": 3 },
-          { "name": "Nectar de Fleur mensongère", "value": 3 },
-          { "name": "Mora", "value": 20000 }
+        { "name": "Éclat de lazurite varunada", "quantity": 1 },
+        { "name": "Champignon anémophile", "quantity": 3 },
+        { "name": "Nectar de Fleur mensongère", "quantity": 3 },
+        { "name": "Mora", "quantity": 20000 }
       ]
     },
     {
       "level": 40,
       "materials": [
-          { "name": "Fragment de lazurite varunada", "value": 3 },
-          { "name": "Cœur d'eau pur", "value": 2 },
-          { "name": "Champignon anémophile", "value": 10 },
-          { "name": "Nectar de Fleur mensongère", "value": 15 },
-          { "name": "Mora", "value": 40000 }
+        { "name": "Fragment de lazurite varunada", "quantity": 3 },
+        { "name": "Cœur d'eau pur", "quantity": 2 },
+        { "name": "Champignon anémophile", "quantity": 10 },
+        { "name": "Nectar de Fleur mensongère", "quantity": 15 },
+        { "name": "Mora", "quantity": 40000 }
       ]
     },
     {
       "level": 50,
       "materials": [
-          { "name": "Fragment de lazurite varunada", "value": 6 },
-          { "name": "Cœur d'eau pur", "value": 4 },
-          { "name": "Champignon anémophile", "value": 20 },
-          { "name": "Nectar miroitant", "value": 12 },
-          { "name": "Mora", "value": 60000 }
+        { "name": "Fragment de lazurite varunada", "quantity": 6 },
+        { "name": "Cœur d'eau pur", "quantity": 4 },
+        { "name": "Champignon anémophile", "quantity": 20 },
+        { "name": "Nectar miroitant", "quantity": 12 },
+        { "name": "Mora", "quantity": 60000 }
       ]
     },
     {
       "level": 60,
       "materials": [
-          { "name": "Morceau de lazurite varunada", "value": 3 },
-          { "name": "Cœur d'eau pur", "value": 8 },
-          { "name": "Champignon anémophile", "value": 30 },
-          { "name": "Nectar miroitant", "value": 18 },
-          { "name": "Mora", "value": 80000 }
+        { "name": "Morceau de lazurite varunada", "quantity": 3 },
+        { "name": "Cœur d'eau pur", "quantity": 8 },
+        { "name": "Champignon anémophile", "quantity": 30 },
+        { "name": "Nectar miroitant", "quantity": 18 },
+        { "name": "Mora", "quantity": 80000 }
       ]
     },
     {
       "level": 70,
       "materials": [
-          { "name": "Morceau de lazurite varunada", "value": 6 },
-          { "name": "Cœur d'eau pur", "value": 12 },
-          { "name": "Champignon anémophile", "value": 45 },
-          { "name": "Nectar élémentaire", "value": 12 },
-          { "name": "Mora", "value": 100000 }
+        { "name": "Morceau de lazurite varunada", "quantity": 6 },
+        { "name": "Cœur d'eau pur", "quantity": 12 },
+        { "name": "Champignon anémophile", "quantity": 45 },
+        { "name": "Nectar élémentaire", "quantity": 12 },
+        { "name": "Mora", "quantity": 100000 }
       ]
     },
     {
       "level": 80,
       "materials": [
-          { "name": "Pierre de lazurite varunada", "value": 6 },
-          { "name": "Cœur d'eau pur", "value": 20 },
-          { "name": "Champignon anémophile", "value": 60 },
-          { "name": "Nectar élémentaire", "value": 24 },
-          { "name": "Mora", "value": 120000 }
+        { "name": "Pierre de lazurite varunada", "quantity": 6 },
+        { "name": "Cœur d'eau pur", "quantity": 20 },
+        { "name": "Champignon anémophile", "quantity": 60 },
+        { "name": "Nectar élémentaire", "quantity": 24 },
+        { "name": "Mora", "quantity": 120000 }
       ]
     },
     {
       "level": 95,
       "materials": [
-          { "name": "Stella Fortuna orpheline", "value": 1 }
+        { "name": "Stella Fortuna orpheline", "quantity": 1 }
       ]
     },
     {
       "level": 100,
       "materials": [
-        { "name": "Stella Fortuna orpheline", "value": 2 }
+        { "name": "Stella Fortuna orpheline", "quantity": 2 }
       ]
     }
   ],
@@ -789,27 +789,27 @@
       "level": 1,
       "name": "Prophétie immersive",
       "descriptions": [
-        {"title": null, "description": "Les effets des réactions liées à l'élément Hydro sont renforcés pendant 8 s lorsqu'une attaque de vos personnages dans l'équipe touche un ennemi marqué par un présage : - Les DGT d'Électrocution, de Sélénocution, d'Évaporation, de Dispersion Hydro et de Sélénocristallisation augmentent de 15 %. - La durée de Gel augmente de 15 %." }
+        { "title": null, "description": "Les effets des réactions liées à l'élément Hydro sont renforcés pendant 8 s lorsqu'une attaque de vos personnages dans l'équipe touche un ennemi marqué par un présage : - Les DGT d'Électrocution, de Sélénocution, d'Évaporation, de Dispersion Hydro et de Sélénocristallisation augmentent de 15 %. - La durée de Gel augmente de 15 %." }
       ],
       "hexereiBuffDescriptions": [
-        {"title": null, "description": "Les effets des réactions liées à l'élément Hydro sont renforcés pendant 8 s lorsqu'une attaque de vos personnages dans l'équipe touche un ennemi marqué par un présage : - Les DGT d'Électrocution, de Sélénocution, d'Évaporation, de Dispersion Hydro et de Sélénocristallisation augmentent de 15 %. - La durée de Gel augmente de 15 %. \nDe plus, lorsqu'un personnage de l'équipe n'étant pas déployé déclenche cet effet, l'augmentation des DGT passe à 160 % de son effet d'origine." }
+        { "title": null, "description": "Les effets des réactions liées à l'élément Hydro sont renforcés pendant 8 s lorsqu'une attaque de vos personnages dans l'équipe touche un ennemi marqué par un présage : - Les DGT d'Électrocution, de Sélénocution, d'Évaporation, de Dispersion Hydro et de Sélénocristallisation augmentent de 15 %. - La durée de Gel augmente de 15 %. \nDe plus, lorsqu'un personnage de l'équipe n'étant pas déployé déclenche cet effet, l'augmentation des DGT passe à 160 % de son effet d'origine." }
       ]
     },
     {
       "level": 2,
       "name": "Chaîne lunaire",
       "descriptions": [
-        {"title": null, "description": "Les attaques normales ont 20 % de chances d'être suivies par une attaque chargée. Cet effet peut être déclenché une fois toutes les 5 s." }
+        { "title": null, "description": "Les attaques normales ont 20 % de chances d'être suivies par une attaque chargée. Cet effet peut être déclenché une fois toutes les 5 s." }
       ],
       "hexereiBuffDescriptions": [
-        {"title": null, "description": "Les attaques normales ont 20 % de chances d'être suivies par une attaque chargée. De plus, pendant 5 s après que Mona utilise son déchaînement élémentaire Voie divine, la prochaine attaque normale qui touche un ennemi déclenche automatiquement une attaque chargée. Une telle attaque chargée automatique peut être déclenchée une fois toutes les 5 s. Lorsqu'une attaque chargée de Mona touche un ennemi, la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente de 80 pts pendant 12 s." }
+        { "title": null, "description": "Les attaques normales ont 20 % de chances d'être suivies par une attaque chargée. De plus, pendant 5 s après que Mona utilise son déchaînement élémentaire Voie divine, la prochaine attaque normale qui touche un ennemi déclenche automatiquement une attaque chargée. Une telle attaque chargée automatique peut être déclenchée une fois toutes les 5 s. Lorsqu'une attaque chargée de Mona touche un ennemi, la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente de 80 pts pendant 12 s." }
       ]
     },
     {
       "level": 3,
       "name": "Révolution éternelle",
       "descriptions": [
-        {"title" : null, "description": "Niveau d'aptitude Voie divine +3. Niveau max : 15" }
+        { "title": null, "description": "Niveau d'aptitude Voie divine +3. Niveau max : 15" }
       ],
       "hexereiBuffDescriptions": []
     },
@@ -817,17 +817,17 @@
       "level": 4,
       "name": "Prophétie de la fin",
       "descriptions": [
-        {"title": null, "description": "Augmente le taux CRIT de 15 % lorsque vos personnages dans l'équipe attaquent un ennemi marqué par un présage." }
+        { "title": null, "description": "Augmente le taux CRIT de 15 % lorsque vos personnages dans l'équipe attaquent un ennemi marqué par un présage." }
       ],
       "hexereiBuffDescriptions": [
-        {"title": null, "description": "Augmente le taux CRIT de 15 % lorsque vos personnages dans l'équipe attaquent un ennemi marqué par un présage. Lorsqu'un personnage héxère de l'équipe attaque un ennemi marqué par un présage, ses DGT CRIT augmentent de 15 %." }
+        { "title": null, "description": "Augmente le taux CRIT de 15 % lorsque vos personnages dans l'équipe attaquent un ennemi marqué par un présage. Lorsqu'un personnage héxère de l'équipe attaque un ennemi marqué par un présage, ses DGT CRIT augmentent de 15 %." }
       ]
     },
     {
       "level": 5,
       "name": "Un tour du destin",
       "descriptions": [
-        {"title": null, "description": "Niveau d'aptitude Mirage aqueux +3. Niveau max : 15" }
+        { "title": null, "description": "Niveau d'aptitude Mirage aqueux +3. Niveau max : 15" }
       ],
       "hexereiBuffDescriptions": []
     },
@@ -835,10 +835,10 @@
       "level": 6,
       "name": "Réthorique de l'adversité",
       "descriptions": [
-        {"title": null, "description": "Dans l'état Vicissitude, Mona obtient un bonus de 60 % de DGT pour sa prochaine attaque chargée à chaque seconde passée à se déplacer. Cet effet peut être cumulé 3 fois maximum (bonus de 180 %) et dure 8 s." }
+        { "title": null, "description": "Dans l'état Vicissitude, Mona obtient un bonus de 60 % de DGT pour sa prochaine attaque chargée à chaque seconde passée à se déplacer. Cet effet peut être cumulé 3 fois maximum (bonus de 180 %) et dure 8 s." }
       ],
       "hexereiBuffDescriptions": [
-        {"title": null, "description": "Lorsque Mona est sur le champ de bataille, si elle est dans l'état Vicissitude ou si un ou plusieurs ennemis marqués par un présage sont à proximité, elle obtient un bonus de 60 % de DGT pour sa prochaine attaque chargée à chaque seconde, cet effet pouvant être cumulé 3 fois maximum (bonus de 180 %) et durant 8 s. De plus, les DGT infligés par les attaques chargées de Mona aux ennemis marqués par un présage augmentent à une valeur équivalant à 200 % des DGT d'origine." }
+        { "title": null, "description": "Lorsque Mona est sur le champ de bataille, si elle est dans l'état Vicissitude ou si un ou plusieurs ennemis marqués par un présage sont à proximité, elle obtient un bonus de 60 % de DGT pour sa prochaine attaque chargée à chaque seconde, cet effet pouvant être cumulé 3 fois maximum (bonus de 180 %) et durant 8 s. De plus, les DGT infligés par les attaques chargées de Mona aux ennemis marqués par un présage augmentent à une valeur équivalant à 200 % des DGT d'origine." }
       ]
     }
   ]

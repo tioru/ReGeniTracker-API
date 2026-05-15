@@ -42,7 +42,7 @@ model CharacterLevel {
 
 model CharacterTranslation {
   id            Int       @id @default(autoincrement())
-  lang          String
+  language      String
   title         String?
   description   String?
   affiliation   String?
@@ -51,7 +51,7 @@ model CharacterTranslation {
   character     Character @relation(fields: [characterId], references: [id])
   characterId   Int
 
-  @@unique([characterId, lang])
+  @@unique([characterId, language])
 }
 
 model AscensionMaterial {
@@ -64,7 +64,7 @@ model AscensionMaterial {
 
 model AscensionMaterialItem {
   id                  Int               @id @default(autoincrement())
-  value               Int
+  quantity               Int
   ascensionMaterial   AscensionMaterial @relation(fields: [ascensionMaterialId], references: [id])
   ascensionMaterialId Int
   material            Material          @relation(fields: [materialId], references: [id])
@@ -84,14 +84,14 @@ model NormalAttack {
 
 model NormalAttackTranslation {
   id             Int                       @id @default(autoincrement())
-  lang           String
+  language           String
   name           String
   note           String?
   normalAttack   NormalAttack              @relation(fields: [normalAttackId], references: [id])
   normalAttackId Int
   descriptions   NormalAttackDescription[]
 
-  @@unique([normalAttackId, lang])
+  @@unique([normalAttackId, language])
 }
 
 model NormalAttackDescription {
@@ -115,14 +115,14 @@ model ElementalSkill {
 
 model ElementalSkillTranslation {
   id               Int                         @id @default(autoincrement())
-  lang             String
+  language             String
   name             String
   note             String?
   elementalSkill   ElementalSkill              @relation(fields: [elementalSkillId], references: [id])
   elementalSkillId Int
   descriptions     ElementalSkillDescription[]
 
-  @@unique([elementalSkillId, lang])
+  @@unique([elementalSkillId, language])
 }
 
 model ElementalSkillDescription {
@@ -146,14 +146,14 @@ model ElementalBurst {
 
 model ElementalBurstTranslation {
   id               Int                         @id @default(autoincrement())
-  lang             String
+  language             String
   name             String
   note             String?
   elementalBurst   ElementalBurst              @relation(fields: [elementalBurstId], references: [id])
   elementalBurstId Int
   descriptions     ElementalBurstDescription[]
 
-  @@unique([elementalBurstId, lang])
+  @@unique([elementalBurstId, language])
 }
 
 model ElementalBurstDescription {
@@ -177,14 +177,14 @@ model PassiveTalent {
 
 model PassiveTalentTranslation {
   id              Int                      @id @default(autoincrement())
-  lang            String
+  language            String
   name            String
   note            String?
   passiveTalent   PassiveTalent            @relation(fields: [passiveTalentId], references: [id])
   passiveTalentId Int
   descriptions    PassiveTalentDescription[]
 
-  @@unique([passiveTalentId, lang])
+  @@unique([passiveTalentId, language])
 }
 
 model PassiveTalentDescription {
@@ -215,13 +215,13 @@ model AscensionTalent {
 
 model AscensionTalentTranslation {
   id                Int                        @id @default(autoincrement())
-  lang              String
+  language              String
   name              String
   ascensionTalent   AscensionTalent            @relation(fields: [ascensionTalentId], references: [id])
   ascensionTalentId Int
   descriptions      AscensionTalentDescription[]
 
-  @@unique([ascensionTalentId, lang])
+  @@unique([ascensionTalentId, language])
 }
 
 model AscensionTalentDescription {
@@ -244,13 +244,13 @@ model AdditionalTalent {
 
 model AdditionalTalentTranslation {
   id                 Int                           @id @default(autoincrement())
-  lang               String
+  language               String
   name               String
   additionalTalent   AdditionalTalent              @relation(fields: [additionalTalentId], references: [id])
   additionalTalentId Int
   descriptions       AdditionalTalentDescription[]
 
-  @@unique([additionalTalentId, lang])
+  @@unique([additionalTalentId, language])
 }
 
 model AdditionalTalentDescription {
@@ -273,14 +273,14 @@ model Constellation {
 
 model ConstellationTranslation {
   id                      Int                               @id @default(autoincrement())
-  lang                    String
+  language                    String
   name                    String
   constellation           Constellation                     @relation(fields: [constellationId], references: [id])
   constellationId         Int
   descriptions            ConstellationDescription[]
   hexereiBuffDescriptions ConstellationHexereiDescription[] @relation("hexerei")
 
-  @@unique([constellationId, lang])
+  @@unique([constellationId, language])
 }
 
 model ConstellationDescription {
@@ -333,13 +333,13 @@ model Material {
 
 model MaterialTranslation {
   id          Int      @id @default(autoincrement())
-  lang        String
+  language        String
   name        String
   description String?
   material    Material @relation(fields: [materialId], references: [id])
   materialId  Int
 
-  @@unique([materialId, lang])
+  @@unique([materialId, language])
 }
 
 model MaterialSource {
@@ -354,12 +354,12 @@ model MaterialSource {
 
 model MaterialSourceTranslation {
   id       Int            @id @default(autoincrement())
-  lang     String
+  language     String
   names    String[]
   source   MaterialSource @relation(fields: [sourceId], references: [id])
   sourceId Int
 
-  @@unique([sourceId, lang])
+  @@unique([sourceId, language])
 }
 
 model AlchemyRecipe {
@@ -381,12 +381,12 @@ model RecipeIngredient {
 
 model RecipeIngredientTranslation {
   id           Int              @id @default(autoincrement())
-  lang         String
+  language         String
   item         String
   ingredient   RecipeIngredient @relation(fields: [ingredientId], references: [id])
   ingredientId Int
 
-  @@unique([ingredientId, lang])
+  @@unique([ingredientId, language])
 }
 
 model MaterialSeller {
@@ -401,13 +401,13 @@ model MaterialSeller {
 
 model MaterialSellerTranslation {
   id       Int            @id @default(autoincrement())
-  lang     String
+  language     String
   name     String
   currency String
   seller   MaterialSeller @relation(fields: [sellerId], references: [id])
   sellerId Int
 
-  @@unique([sellerId, lang])
+  @@unique([sellerId, language])
 }
 
 model MaterialUse {
@@ -419,12 +419,12 @@ model MaterialUse {
 
 model MaterialUseTranslation {
   id       Int         @id @default(autoincrement())
-  lang     String
+  language     String
   itemName String
   use      MaterialUse @relation(fields: [useId], references: [id])
   useId    Int
 
-  @@unique([useId, lang])
+  @@unique([useId, language])
 }
 
 model CharacterMaterialUse {

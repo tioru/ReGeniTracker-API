@@ -609,72 +609,72 @@
     {
       "level": 20,
       "materials": [
-          { "name": "Varunada Lazurite Sliver", "value": 1 },
-          { "name": "Philanemo Mushroom", "value": 3 },
-          { "name": "Whopperflower Nectar", "value": 3 },
-          { "name": "Mora", "value": 20000 }
+          { "name": "Varunada Lazurite Sliver", "quantity": 1 },
+          { "name": "Philanemo Mushroom", "quantity": 3 },
+          { "name": "Whopperflower Nectar", "quantity": 3 },
+          { "name": "Mora", "quantity": 20000 }
       ]
     },
     {
       "level": 40,
       "materials": [
-          { "name": "Varunada Lazurite Fragment", "value": 3 },
-          { "name": "Cleansing Heart", "value": 2 },
-          { "name": "Philanemo Mushroom", "value": 10 },
-          { "name": "Whopperflower Nectar", "value": 15 },
-          { "name": "Mora", "value": 40000 }
+          { "name": "Varunada Lazurite Fragment", "quantity": 3 },
+          { "name": "Cleansing Heart", "quantity": 2 },
+          { "name": "Philanemo Mushroom", "quantity": 10 },
+          { "name": "Whopperflower Nectar", "quantity": 15 },
+          { "name": "Mora", "quantity": 40000 }
       ]
     },
     {
       "level": 50,
       "materials": [
-          { "name": "Varunada Lazurite Fragment", "value": 6 },
-          { "name": "Cleansing Heart", "value": 4 },
-          { "name": "Philanemo Mushroom", "value": 20 },
-          { "name": "Shimmering Nectar", "value": 12 },
-          { "name": "Mora", "value": 60000 }
+          { "name": "Varunada Lazurite Fragment", "quantity": 6 },
+          { "name": "Cleansing Heart", "quantity": 4 },
+          { "name": "Philanemo Mushroom", "quantity": 20 },
+          { "name": "Shimmering Nectar", "quantity": 12 },
+          { "name": "Mora", "quantity": 60000 }
       ]
     },
     {
       "level": 60,
       "materials": [
-          { "name": "Varunada Lazurite Chunk", "value": 3 },
-          { "name": "Cleansing Heart", "value": 8 },
-          { "name": "Philanemo Mushroom", "value": 30 },
-          { "name": "Shimmering Nectar", "value": 18 },
-          { "name": "Mora", "value": 80000 }
+          { "name": "Varunada Lazurite Chunk", "quantity": 3 },
+          { "name": "Cleansing Heart", "quantity": 8 },
+          { "name": "Philanemo Mushroom", "quantity": 30 },
+          { "name": "Shimmering Nectar", "quantity": 18 },
+          { "name": "Mora", "quantity": 80000 }
       ]
     },
     {
       "level": 70,
       "materials": [
-          { "name": "Varunada Lazurite Chunk", "value": 6 },
-          { "name": "Cleansing Heart", "value": 12 },
-          { "name": "Philanemo Mushroom", "value": 45 },
-          { "name": "Energy Nectar", "value": 12 },
-          { "name": "Mora", "value": 100000 }
+          { "name": "Varunada Lazurite Chunk", "quantity": 6 },
+          { "name": "Cleansing Heart", "quantity": 12 },
+          { "name": "Philanemo Mushroom", "quantity": 45 },
+          { "name": "Energy Nectar", "quantity": 12 },
+          { "name": "Mora", "quantity": 100000 }
       ]
     },
     {
       "level": 80,
       "materials": [
-          { "name": "Varunada Lazurite Gemstone", "value": 6 },
-          { "name": "Cleansing Heart", "value": 20 },
-          { "name": "Philanemo Mushroom", "value": 60 },
-          { "name": "Energy Nectar", "value": 24 },
-          { "name": "Mora", "value": 120000 }
+          { "name": "Varunada Lazurite Gemstone", "quantity": 6 },
+          { "name": "Cleansing Heart", "quantity": 20 },
+          { "name": "Philanemo Mushroom", "quantity": 60 },
+          { "name": "Energy Nectar", "quantity": 24 },
+          { "name": "Mora", "quantity": 120000 }
       ]
     },
     {
       "level": 95,
       "materials": [
-          { "name": "Masterless Stella Fortuna", "value": 1 }
+          { "name": "Masterless Stella Fortuna", "quantity": 1 }
       ]
     },
     {
       "level": 100,
       "materials": [
-          { "name": "Masterless Stella Fortuna", "value": 2 }
+          { "name": "Masterless Stella Fortuna", "quantity": 2 }
       ]
     }
   ],
