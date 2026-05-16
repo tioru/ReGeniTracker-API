@@ -1,4 +1,4 @@
-export interface UpgradeItem {
+export interface UpgradeItemData {
   name: string;
   values: string[];
 }

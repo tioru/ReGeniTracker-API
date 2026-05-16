@@ -1,77 +1,20 @@
-import fs from "fs";
-import path from "path";
-import {
-  PrismaClient,
-  MaterialCategories,
-  MaterialSourceTypes,
-  AlchemySubTypes,
-  RestockType,
-  CharacterMaterialType,
-} from "@prisma/client";
+import fs from "node:fs";
+import path from "node:path";
+import { PrismaClient } from "@prisma/client";
+import { fileURLToPath } from 'node:url';
 
-// ---------------------------------------------------------------------------
-// Types miroir du JSON source
-// ---------------------------------------------------------------------------
+export const DEFAULT_LANG = 'en';
 
-interface RecipeIngredientJson {
-  item: string;
-  quantity: number;
-}
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-interface AlchemyRecipeJson {
-  subtype: string;
-  resultQuantity: number;
-  ingredients: RecipeIngredientJson[];
-}
-
-interface MaterialSourceJson {
-  type: string;
-  minimumLevel?: number;
-  names?: string[];
-  recipes?: AlchemyRecipeJson[];
-}
-
-interface MaterialSellerJson {
-  name: string;
-  currency: string;
-  cost: number;
-  stock: number;
-  restock: string;
-}
-
-interface MaterialJson {
-  name: string;
-  rarity: number;
-  categories: string[];
-  description: string;
-  sources: MaterialSourceJson[];
-  usedIn: string[];
-  usedByCharacters: {
-    ascension: string[];
-    talent: string[];
-  };
-  usedByWeapons: string[];
-  sellers: MaterialSellerJson[];
-}
-
-// ---------------------------------------------------------------------------
-// Chargement des fichiers
-// Structure :
-//   prisma/data/materials/
-//     nagadus_emerald_chunk/
-//       en.json
-//       fr.json  (optionnel)
-// ---------------------------------------------------------------------------
-
-const DATA_DIR = path.resolve(__dirname, "../data/materials");
-const LANGS = ["en", "fr"] as const;
-type Lang = (typeof LANGS)[number];
-
-function loadAllMaterials(): { en: MaterialJson; fr: MaterialJson | undefined }[] {
-  if (!fs.existsSync(DATA_DIR)) {
-    console.warn(`⚠️  Dossier introuvable : ${DATA_DIR}`);
-    return [];
-  }
+export async function loadAllMaterials(prisma: PrismaClient) : Promise<void> {
+  const materialHelperImpl = new MaterialHelperImpl();
+  
+  const charactersDir = path.resolve(__dirname, '../data/characters');
+  const characterNames : string[] = fs.readdirSync(path.resolve(charactersDir, DEFAULT_LANG)).map((file : string) =>
+    path.basename(file, '.json'),
+  );
 
   return fs
     .readdirSync(DATA_DIR)
@@ -126,18 +69,6 @@ async function deleteSourcesForMaterial(
     where: { source: { materialId } },
   });
   await prisma.materialSource.deleteMany({ where: { materialId } });
-}
-
-// ---------------------------------------------------------------------------
-// Helpers pour récupérer la donnée traduite ou fallback EN
-// ---------------------------------------------------------------------------
-
-function getLang(
-  enData: MaterialJson,
-  frData: MaterialJson | undefined,
-  lang: Lang,
-): MaterialJson {
-  return lang === "fr" && frData ? frData : enData;
 }
 
 // ---------------------------------------------------------------------------

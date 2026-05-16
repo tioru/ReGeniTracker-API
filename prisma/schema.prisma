@@ -64,7 +64,7 @@ model AscensionMaterial {
 
 model AscensionMaterialItem {
   id                  Int               @id @default(autoincrement())
-  quantity               Int
+  quantity            Int
   ascensionMaterial   AscensionMaterial @relation(fields: [ascensionMaterialId], references: [id])
   ascensionMaterialId Int
   material            Material          @relation(fields: [materialId], references: [id])
@@ -84,9 +84,8 @@ model NormalAttack {
 
 model NormalAttackTranslation {
   id             Int                       @id @default(autoincrement())
-  language           String
+  language       String
   name           String
-  note           String?
   normalAttack   NormalAttack              @relation(fields: [normalAttackId], references: [id])
   normalAttackId Int
   descriptions   NormalAttackDescription[]
@@ -115,9 +114,9 @@ model ElementalSkill {
 
 model ElementalSkillTranslation {
   id               Int                         @id @default(autoincrement())
-  language             String
+  language         String
   name             String
-  note             String?
+  note             String
   elementalSkill   ElementalSkill              @relation(fields: [elementalSkillId], references: [id])
   elementalSkillId Int
   descriptions     ElementalSkillDescription[]
@@ -146,9 +145,9 @@ model ElementalBurst {
 
 model ElementalBurstTranslation {
   id               Int                         @id @default(autoincrement())
-  language             String
+  language         String
   name             String
-  note             String?
+  note             String
   elementalBurst   ElementalBurst              @relation(fields: [elementalBurstId], references: [id])
   elementalBurstId Int
   descriptions     ElementalBurstDescription[]
@@ -177,7 +176,7 @@ model PassiveTalent {
 
 model PassiveTalentTranslation {
   id              Int                      @id @default(autoincrement())
-  language            String
+  language        String
   name            String
   note            String?
   passiveTalent   PassiveTalent            @relation(fields: [passiveTalentId], references: [id])
@@ -215,7 +214,7 @@ model AscensionTalent {
 
 model AscensionTalentTranslation {
   id                Int                        @id @default(autoincrement())
-  language              String
+  language          String
   name              String
   ascensionTalent   AscensionTalent            @relation(fields: [ascensionTalentId], references: [id])
   ascensionTalentId Int
@@ -244,7 +243,7 @@ model AdditionalTalent {
 
 model AdditionalTalentTranslation {
   id                 Int                           @id @default(autoincrement())
-  language               String
+  language           String
   name               String
   additionalTalent   AdditionalTalent              @relation(fields: [additionalTalentId], references: [id])
   additionalTalentId Int
@@ -273,7 +272,7 @@ model Constellation {
 
 model ConstellationTranslation {
   id                      Int                               @id @default(autoincrement())
-  language                    String
+  language                String
   name                    String
   constellation           Constellation                     @relation(fields: [constellationId], references: [id])
   constellationId         Int
@@ -328,12 +327,12 @@ model Material {
   sellers            MaterialSeller[]
   usedIn             MaterialUse[]
   usedByCharacters   CharacterMaterialUse[]
-  ascensionMaterials AscensionMaterialItem[]
+  ascensionMaterials AscensionMaterial[]
 }
 
 model MaterialTranslation {
   id          Int      @id @default(autoincrement())
-  language        String
+  language    String
   name        String
   description String?
   material    Material @relation(fields: [materialId], references: [id])
@@ -354,7 +353,7 @@ model MaterialSource {
 
 model MaterialSourceTranslation {
   id       Int            @id @default(autoincrement())
-  language     String
+  language String
   names    String[]
   source   MaterialSource @relation(fields: [sourceId], references: [id])
   sourceId Int
@@ -381,7 +380,7 @@ model RecipeIngredient {
 
 model RecipeIngredientTranslation {
   id           Int              @id @default(autoincrement())
-  language         String
+  language     String
   item         String
   ingredient   RecipeIngredient @relation(fields: [ingredientId], references: [id])
   ingredientId Int
@@ -401,7 +400,7 @@ model MaterialSeller {
 
 model MaterialSellerTranslation {
   id       Int            @id @default(autoincrement())
-  language     String
+  language String
   name     String
   currency String
   seller   MaterialSeller @relation(fields: [sellerId], references: [id])
@@ -419,7 +418,7 @@ model MaterialUse {
 
 model MaterialUseTranslation {
   id       Int         @id @default(autoincrement())
-  language     String
+  language String
   itemName String
   use      MaterialUse @relation(fields: [useId], references: [id])
   useId    Int
@@ -460,7 +459,6 @@ enum MaterialCategories {
   NAGADUS_EMERALD
   VARUNADA_LAZURITE
   ASCENSION_GEMS
-  // … ajoute ici les autres catégories de tes JSON
 }
 
 enum MaterialSourceTypes {

@@ -1,4 +1,4 @@
-export interface MaterialItem {
+export interface MaterialItemData {
   name: string;
   value: number;
 }

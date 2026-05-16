@@ -1,6 +1,6 @@
 import { UnlockTypes } from "@prisma/client";
 
-export interface AscensionTalent {
+export interface AscensionTalentData {
     unlock: UnlockTypes;
     name: string;
     descriptions: {

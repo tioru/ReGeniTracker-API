@@ -1,8 +1,9 @@
 import { UnlockTypes } from "@prisma/client";
 
-export interface ElementalSkill {
+export interface ElementalSkillData {
     unlock: UnlockTypes;
     name: string;
+    note: string;
     descriptions: {
         title: string | null;
         description: string;

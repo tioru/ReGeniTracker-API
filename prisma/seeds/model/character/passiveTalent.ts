@@ -1,6 +1,6 @@
 import { UnlockTypes } from "@prisma/client";
 
-export interface PassiveTalent {
+export interface PassiveTalentData {
     unlock: UnlockTypes;
     name: string;
     descriptions: {

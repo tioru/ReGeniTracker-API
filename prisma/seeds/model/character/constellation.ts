@@ -1,4 +1,4 @@
-export interface Constellation {
+export interface ConstellationData {
     level: number;
     name: string;
     descriptions: {

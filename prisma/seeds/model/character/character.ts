@@ -1,12 +1,12 @@
 import { ObtainingTypes } from '@prisma/client';
 import { AscensionMaterialData } from './ascensionMaterial';
 import { NormalAttackData } from './normalAttack';
-import { ElementalSkill as ElementalSkillData } from './elementalSkill';
-import { ElementalBurst as ElementalBurstData } from './elementalBurst';
-import { PassiveTalent as PassiveTalentData } from './passiveTalent';
-import { AscensionTalent as AscensionTalentData } from './ascensionTalent';
-import { AdditionalTalent as AdditionalTalentData } from './additionalTalent';
-import { Constellation as ConstellationData } from './constellation';
+import { ElementalSkillData } from './elementalSkill';
+import { ElementalBurstData } from './elementalBurst';
+import { PassiveTalentData } from './passiveTalent';
+import { AscensionTalentData } from './ascensionTalent';
+import { AdditionalTalentData } from './additionalTalent';
+import { ConstellationData } from './constellation';
 import { LevelData } from './level';
 
 export interface CharacterData {
