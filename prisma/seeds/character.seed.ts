@@ -1,8 +1,8 @@
 import { PrismaClient } from '@prisma/client';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import { CharacterHelperImpl } from './helper/character/characterHelperImpl';
 import { fileURLToPath } from 'node:url';
+import { CharacterHelperImpl } from './helper/character/characterHelperImpl';
 import { CharacterData } from './model/character/character';
 
 export const DEFAULT_LANG = 'en';
@@ -21,7 +21,7 @@ export async function seedCharacters(prisma: PrismaClient) : Promise<void> {
   for (const characterName of characterNames) {
     const enCharacterData = characterHelperImpl.loadJson(`../data/characters/${DEFAULT_LANG}/${characterName}.json`);
     const translations: { language: string; characterData: CharacterData }[] = [{ language: DEFAULT_LANG, characterData: enCharacterData }];
-    const languages = fs.readdirSync(charactersDir).filter((language) => language !== DEFAULT_LANG);
+    const languages = fs.readdirSync(charactersDir).filter((language: string) => language !== DEFAULT_LANG);
 
     for (const language of languages) {
       const filePath = `../data/characters/${language}/${characterName}.json`;

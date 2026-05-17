@@ -1,9 +1,9 @@
 import { CharacterHelper } from "./characterHelper";
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import { DescriptionItemData } from "../../model/character/descriptionItem";
 import { ObtainingTypes, PrismaClient } from "@prisma/client";
 import { CharacterData } from "../../model/character/character";
+import { DescriptionItemData } from "../../model/character/DescriptionItem";
 
 export const BUFFER_ENCODING = 'utf-8';
 
@@ -24,7 +24,7 @@ export class CharacterHelperImpl implements CharacterHelper {
     return items.map((descriptions) => ({ title: descriptions.title ?? null, description: descriptions.description }));
   }
 
-  public async upsertCharacter(prisma: PrismaClient, characterData: CharacterData) : Promise<{id: number; name: string; rarity: number; vision: string; weapon: string; nation: string; birthday: Date | null; releaseDate: Date | null; obtaining: ObtainingTypes[];}> {
+  public async upsertCharacter(prisma: PrismaClient, characterData: CharacterData) : Promise<{id: number; name: string; rarity: number; vision: string; weapon: string; nation: string; birthday: Date | null; releaseDate: Date | null; obtaining: ObtainingTypes[]}> {
       return await prisma.character.upsert({
         where: { name: characterData.name },
         update: {
@@ -379,7 +379,7 @@ export class CharacterHelperImpl implements CharacterHelper {
     console.log(`Character upserted (id: ${character.id})`);
 
     await this.upsertCharacterTranslations(prisma, character.id , translations);
-    console.log(`CharacterTranslations upserted (${translations.map((t) => t.language).join(', ')})`);
+    console.log(`CharacterTranslations upserted (${translations.map((translation) => translation.language).join(', ')})`);
       
     await this.characterLevelsRecreate(prisma, character.id, translations[0].characterData);
     console.log(`CharacterLevels recreated (${Object.keys(translations[0].characterData.levels).length} niveaux)`);

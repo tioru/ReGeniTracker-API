@@ -1,12 +1,12 @@
 import { ObtainingTypes, PrismaClient } from "@prisma/client";
 import { CharacterData } from "../../model/character/character";
-import { DescriptionItem } from "../../model/character/descriptionItem";
+import { DescriptionItemData } from "../../model/character/DescriptionItem";
 
 export interface CharacterHelper {
     loadJson(filePath: string): CharacterData;
     parseDate(value?: string): Date | null;
-    buildDescriptions(items: DescriptionItem[]) : DescriptionItem[];
-    upsertCharacter(prisma: PrismaClient, characterData: CharacterData) : Promise<{id: number; name: string; rarity: number; vision: string; weapon: string; nation: string; birthday: Date | null; releaseDate: Date | null; obtaining: ObtainingTypes[];}>;
+    buildDescriptions(items: DescriptionItemData[]): DescriptionItemData[];
+    upsertCharacter(prisma: PrismaClient, characterData: CharacterData) : Promise<{id: number; name: string; rarity: number; vision: string; weapon: string; nation: string; birthday: Date | null; releaseDate: Date | null; obtaining: ObtainingTypes[]}>;
     upsertCharacterTranslations(prisma: PrismaClient, characterId: number, translations:{ language: string; characterData: CharacterData}[]): Promise<void>;
     characterLevelsRecreate(prisma: PrismaClient, characterId: number, characterData: CharacterData): Promise<void>;
     ascensionMaterialsRecreate(prisma: PrismaClient, characterId: number, characterData: CharacterData): Promise<void>;
