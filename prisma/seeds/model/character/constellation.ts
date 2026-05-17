@@ -1,10 +1,9 @@
+import { DescriptionData } from "./description";
+
 export interface ConstellationData {
     level: number;
     name: string;
-    descriptions: {
-        title: string | null;
-        description: string;
-    }[];
+    descriptions: DescriptionData[];
     hexereiBuffDescriptions: {
         title: string | null;
         description: string;

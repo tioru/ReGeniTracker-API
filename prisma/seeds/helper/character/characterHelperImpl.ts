@@ -1,15 +1,13 @@
 import { CharacterHelper } from "./characterHelper";
 import * as fs from 'node:fs';
-import * as path from 'node:path';
 import { ObtainingTypes, PrismaClient } from "@prisma/client";
 import { CharacterData } from "../../model/character/character";
-import { DescriptionItemData } from "../../model/character/DescriptionItem";
+import { DescriptionData } from "../../model/character/description";
 
 export const BUFFER_ENCODING = 'utf-8';
 
 export class CharacterHelperImpl implements CharacterHelper {
-  public loadJson(filePath: string): CharacterData {
-    const fullPath = path.resolve(__dirname, filePath);
+  public loadJson(fullPath: string): CharacterData {
     return JSON.parse(fs.readFileSync(fullPath, BUFFER_ENCODING)) as CharacterData;
   }
 
@@ -20,7 +18,7 @@ export class CharacterHelperImpl implements CharacterHelper {
         return Number.isNaN(date.getTime()) ? null : date;
   }
 
-  public buildDescriptions(items: DescriptionItemData[]): DescriptionItemData[] {
+  public buildDescriptions(items: DescriptionData[]): DescriptionData[] {
     return items.map((descriptions) => ({ title: descriptions.title ?? null, description: descriptions.description }));
   }
 

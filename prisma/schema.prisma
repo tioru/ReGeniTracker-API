@@ -327,7 +327,7 @@ model Material {
   sellers            MaterialSeller[]
   usedIn             MaterialUse[]
   usedByCharacters   CharacterMaterialUse[]
-  ascensionMaterials AscensionMaterial[]
+  ascensionMaterials AscensionMaterialItem[]
 }
 
 model MaterialTranslation {

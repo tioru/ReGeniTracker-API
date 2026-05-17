@@ -1,4 +1,4 @@
-export interface DescriptionItemData {
+export interface DescriptionData {
   title: string | null;
   description: string;
 }

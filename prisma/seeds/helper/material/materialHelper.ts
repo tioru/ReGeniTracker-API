@@ -9,6 +9,6 @@ export interface MaterialHelper {
   sourcesRecreate(prisma: PrismaClient, materialId: number, translations: { language: string; materialData: MaterialData }[]): Promise<void>;
   sellersRecreate(prisma: PrismaClient, materialId: number, translations: { language: string; materialData: MaterialData }[]): Promise<void>;
   usedInRecreate(prisma: PrismaClient, materialId: number, translations: { language: string; materialData: MaterialData }[]): Promise<void>;
-  characterUsesRecreate(prisma: PrismaClient, materialId: number, enData: MaterialData): Promise<void>;
+  characterUsesRecreate(prisma: PrismaClient, materialId: number, translations: { language: string; materialData: MaterialData }[]): Promise<void>;
   seedMaterial(prisma: PrismaClient, translations: { language: string; materialData: MaterialData }[]): Promise<void>;
 }
