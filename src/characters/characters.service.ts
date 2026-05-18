@@ -1,10 +1,67 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
+import { CharacterTranslation, Prisma } from '@prisma/client';
+
+type CharacterWithRelations = Prisma.CharacterGetPayload<{
+  include: {
+    translations: true,
+    levels: true,
+    ascensionMaterials: {
+      include: {
+        items: { include: { material: true } },
+      },
+    },
+    normalAttacks: {
+      include: {
+        translations: { include: { descriptions: true } },
+        upgrades: true,
+      },
+    },
+    elementalSkills: {
+      include: {
+        translations: { include: { descriptions: true } },
+        upgrades: true,
+      },
+    },
+    elementalBursts: {
+      include: {
+        translations: { include: { descriptions: true } },
+        upgrades: true,
+      },
+    },
+    passiveTalents: {
+      include: {
+        translations: { include: { descriptions: true } },
+        attributes: true,
+      },
+    },
+    ascensionTalents: {
+      include: {
+        translations: { include: { descriptions: true } },
+      },
+    },
+    additionalTalents: {
+      include: {
+        translations: { include: { descriptions: true } },
+      },
+    },
+    constellations: {
+      include: {
+        translations: {
+          include: {
+            descriptions: true,
+            hexereiBuffDescriptions: true,
+          },
+        },
+      },
+    },
+  }
+}>;
 
 // ── Helpers ────────────────────────────────────────────────────────────────────
 
-function pickTranslation(translations: any[], lang: string): any {
-  return translations.find((t: any) => t.lang === lang);
+function pickTranslation(translations: CharacterTranslation[], language: string): CharacterTranslation | null {
+  return translations.find((translation: CharacterTranslation) => translation.language === language) ?? null;
 }
 
 function mapDescriptions(items: { title: string | null; description: string }[]) {
@@ -13,45 +70,53 @@ function mapDescriptions(items: { title: string | null; description: string }[])
 
 // ── Mappers ────────────────────────────────────────────────────────────────────
 
-function mapCharacter(raw: any, lang: string) {
-  const t = pickTranslation(raw.translations, lang);
+function mapCharacter(characterWithRelations: CharacterWithRelations, language: string) : CharacterWithRelations {
+  const pickedTranslation = pickTranslation(characterWithRelations.translations, language);
+
+  if (!pickedTranslation) {
+    throw new NotFoundException(`Language not found for "${characterWithRelations.name}"`);
+  }
 
   return {
-    name:         raw.name,
-    rarity:       raw.rarity,
-    vision:       raw.vision,
-    weapon:       raw.weapon,
-    nation:       raw.nation,
-    birthday:     raw.birthday,
-    releaseDate:  raw.releaseDate,
-    obtaining:    raw.obtaining,
+    name:         characterWithRelations.name,
+    rarity:       characterWithRelations.rarity,
+    vision:       characterWithRelations.vision,
+    weapon:       characterWithRelations.weapon,
+    nation:       characterWithRelations.nation,
+    birthday:     characterWithRelations.birthday,
+    releaseDate:  characterWithRelations.releaseDate,
+    obtaining:    characterWithRelations.obtaining,
     // Champs traduits
-    title:        t?.title ?? null,
-    description:  t?.description ?? null,
-    affiliation:  t?.affiliation ?? null,
-    constellation: t?.constellation ?? null,
-    specialDish: t?.specialDish ?? null,
+    title:        pickedTranslation?.title ?? null,
+    description:  pickedTranslation?.description ?? null,
+    affiliation:  pickedTranslation?.affiliation ?? null,
+    constellation: pickedTranslation?.constellation ?? null,
+    specialDish: pickedTranslation?.specialDish ?? null,
     // Relations
-    levels:              mapLevels(raw.levels),
-    ascensionMaterials:  mapAscensionMaterials(raw.ascensionMaterials),
-    normalAttacks:       raw.normalAttacks.map((x: any) => mapTalentWithUpgrades(x, lang)),
-    elementalSkills:     raw.elementalSkills.map((x: any) => mapTalentWithUpgrades(x, lang)),
-    elementalBursts:     raw.elementalBursts.map((x: any) => mapTalentWithUpgrades(x, lang)),
-    passiveTalents:      raw.passiveTalents.map((x: any) => mapPassiveTalent(x, lang)),
-    ascensionTalents:    raw.ascensionTalents.map((x: any) => mapSimpleTalent(x, lang)),
-    additionalTalents:   raw.additionalTalents.map((x: any) => mapSimpleTalent(x, lang)),
-    constellations:      raw.constellations.map((x: any) => mapConstellation(x, lang)),
+    levels:              mapLevels(characterWithRelations.levels),
+    ascensionMaterials:  mapAscensionMaterials(characterWithRelations.ascensionMaterials),
+    normalAttacks:       characterWithRelations.normalAttacks.map((x: any) => mapTalentWithUpgrades(x, language)),
+    elementalSkills:     characterWithRelations.elementalSkills.map((x: any) => mapTalentWithUpgrades(x, language)),
+    elementalBursts:     characterWithRelations.elementalBursts.map((x: any) => mapTalentWithUpgrades(x, language)),
+    passiveTalents:      characterWithRelations.passiveTalents.map((x: any) => mapPassiveTalent(x, language)),
+    ascensionTalents:    characterWithRelations.ascensionTalents.map((x: any) => mapSimpleTalent(x, language)),
+    additionalTalents:   characterWithRelations.additionalTalents.map((x: any) => mapSimpleTalent(x, language)),
+    constellations:      characterWithRelations.constellations.map((x: any) => mapConstellation(x, language)),
   };
 }
 
-function mapLevels(levels: any[]) {
+function mapLevels(levels: CharacterWithRelations["levels"]) {
   return Object.fromEntries(
-    levels.map(l => [l.level, {
-      baseHp:        l.baseHp,
-      baseDef:       l.baseDef,
-      baseAtk:       l.baseAtk,
-      energyRecharge: l.energyRecharge,
-    }])
+    levels.map(level => 
+      [ level.level, 
+        {
+          baseHp:        level.baseHp,
+          baseDef:       level.baseDef,
+          baseAtk:       level.baseAtk,
+          energyRecharge: level.energyRecharge,
+        }
+      ]
+    )
   );
 }
 
@@ -60,13 +125,13 @@ function mapAscensionMaterials(ascMats: any[]) {
     level:     a.level,
     materials: a.items.map((i: any) => ({
       name:  i.material.name,
-      value: i.value,
+      quantity: i.quantity,
     })),
   }));
 }
 
-function mapTalentWithUpgrades(talent: any, lang: string) {
-  const t = pickTranslation(talent.translations, lang);
+function mapTalentWithUpgrades(talent: any, language: string) {
+  const t = pickTranslation(talent.translations, language);
   return {
     unlock:       talent.unlock ?? null,
     name:         t?.name ?? null,
@@ -79,8 +144,8 @@ function mapTalentWithUpgrades(talent: any, lang: string) {
   };
 }
 
-function mapPassiveTalent(talent: any, lang: string) {
-  const t = pickTranslation(talent.translations, lang);
+function mapPassiveTalent(talent: any, language: string) {
+  const t = pickTranslation(talent.translations, language);
   return {
     unlock:       talent.unlock ?? null,
     name:         t?.name ?? null,
@@ -93,8 +158,8 @@ function mapPassiveTalent(talent: any, lang: string) {
   };
 }
 
-function mapSimpleTalent(talent: any, lang: string) {
-  const t = pickTranslation(talent.translations, lang);
+function mapSimpleTalent(talent: any, language: string) {
+  const t = pickTranslation(talent.translations, language);
   return {
     unlock:       talent.unlock ?? null,
     name:         t?.name ?? null,
@@ -102,8 +167,8 @@ function mapSimpleTalent(talent: any, lang: string) {
   };
 }
 
-function mapConstellation(constellation: any, lang: string) {
-  const t = pickTranslation(constellation.translations, lang);
+function mapConstellation(constellation: any, language: string) {
+  const t = pickTranslation(constellation.translations, language);
   return {
     level:                  constellation.level,
     name:                   t?.name ?? null,
@@ -118,15 +183,15 @@ function mapConstellation(constellation: any, lang: string) {
 export class CharactersService {
   constructor(private readonly prisma: PrismaService) {}
 
-  async findAll(lang: string): Promise<string[]> {
+  async findAll(): Promise<string[]> {
     const characters = await this.prisma.character.findMany({
       select: { name: true },
     });
-    return characters.map(c => c.name).sort((a, b) => a.localeCompare(b));
+    return characters.map(character => character.name).sort((a, b) => a.localeCompare(b));
   }
 
-  async findOne(name: string, lang: string) {
-    const raw = await this.prisma.character.findUnique({
+  async findOne(name: string, language: string) {
+    const character : CharacterWithRelations | null = await this.prisma.character.findUnique({
       where: { name },
       include: {
         translations: true,
@@ -183,8 +248,10 @@ export class CharactersService {
       },
     });
 
-    if (!raw) throw new NotFoundException(`Character "${name}" not found`);
+    if (!character) {
+      throw new NotFoundException(`"${name}" not found`);
+    }
 
-    return mapCharacter(raw, lang);
+    return mapCharacter(character, language);
   }
 }

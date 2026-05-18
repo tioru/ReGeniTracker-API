@@ -23,7 +23,7 @@ export async function seedCharacters(prisma: PrismaClient) : Promise<void> {
       const filePath = `../data/characters/${language}/${characterName}.json`;
       const fullPath = path.resolve(__dirname, filePath);
       if (fs.existsSync(fullPath)) {
-        translations.push({ language: language, characterData: characterHelperImpl.loadJson(path.resolve(charactersDir, DEFAULT_LANG, `${characterName}.json`)) });
+        translations.push({ language: language, characterData: characterHelperImpl.loadJson(path.resolve(charactersDir, language, `${characterName}.json`)) });
       }
     }
 

@@ -1,19 +1,21 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { CharactersService } from './characters.service';
 
+const DEFAULT_LANG = "en"
+
 @Controller('characters')
 export class CharactersController {
   constructor(private readonly charactersService: CharactersService) {}
 
   @Get()
-  findAll(@Query('lang') lang: string = 'en') {
-    return this.charactersService.findAll(lang);
+  findAll() {
+    return this.charactersService.findAll();
   }
 
   @Get(':name')
   findOne(
     @Param('name') name: string,
-    @Query('lang') lang: string = 'en'
+    @Query('lang') lang: string = DEFAULT_LANG
   ) {
     return this.charactersService.findOne(name, lang);
   }

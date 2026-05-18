@@ -97,16 +97,16 @@ export class CharacterHelperImpl implements CharacterHelper {
         data: { level: ascension.level, characterId: characterId },
       });
         
-      for (const mat of ascension.materials) {
+      for (const materialData of ascension.materials) {
         const material = await prisma.material.upsert({
-          where: { name: mat.name },
+          where: { name: materialData.name },
           update: {},
-          create: { name: mat.name, categories: [] },
+          create: { name: materialData.name, categories: [] },
         });
           
         await prisma.ascensionMaterialItem.create({
           data: {
-            quantity: mat.quantity,
+            quantity: materialData.quantity,
             ascensionMaterialId: ascensionMaterial.id,
             materialId: material.id,
           },
