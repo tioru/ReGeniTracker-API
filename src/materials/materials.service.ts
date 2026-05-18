@@ -90,46 +90,46 @@ const MATERIAL_INCLUDE = {
 // Helpers
 // ---------------------------------------------------------------------------
 
-function pickLang<T extends { lang: string }>(
+function pickLanguage<T extends { language: string }>(
   items: T[],
-  lang: string,
+  language: string,
 ): any {
-  return items.find((t) => t.lang === lang) ?? items[0];
+  return items.find((t) => t.language === language) ?? items[0];
 }
 
 // ---------------------------------------------------------------------------
 // Mappers
 // ---------------------------------------------------------------------------
 
-function mapMaterial(material: any, lang: string): MaterialOut {
-  const translation = pickLang(material.translations, lang);
+function mapMaterial(material: any, language: string): MaterialOut {
+  const translation = pickLanguage(material.translations, language);
 
   return {
     name: translation?.name ?? material.name,
     rarity: material.rarity,
     categories: material.categories,
     description: translation?.description ?? null,
-    sources: material.sources.map((source: any) => mapSource(source, lang)),
+    sources: material.sources.map((source: any) => mapSource(source, language)),
     usedIn: material.usedIn.map((use: any) => {
-      const t = pickLang(use.translations, lang);
+      const t = pickLanguage(use.translations, language);
       return t?.itemName ?? '';
     }),
     usedByCharacters: {
       ascension: material.usedByCharacters
         .filter((u: any) => u.type === 'ASCENSION')
         .map((u: any) => {
-          const t = pickLang(u.character.translations, lang);
+          const t = pickLanguage(u.character.translations, language);
           return t?.name ?? u.character.name;
         }),
       talent: material.usedByCharacters
         .filter((u: any) => u.type === 'TALENT')
         .map((u: any) => {
-          const t = pickLang(u.character.translations, lang);
+          const t = pickLanguage(u.character.translations, language);
           return t?.name ?? u.character.name;
         }),
     },
     sellers: material.sellers.map((seller: any) => {
-      const t = pickLang(seller.translations, lang);
+      const t = pickLanguage(seller.translations, language);
       return {
         name: t?.name ?? '',
         currency: t?.currency ?? '',
@@ -141,7 +141,7 @@ function mapMaterial(material: any, lang: string): MaterialOut {
   };
 }
 
-function mapSource(source: any, lang: string): MaterialSourceOut {
+function mapSource(source: any, language: string): MaterialSourceOut {
   if (source.type === 'ALCHEMY') {
     return {
       type: source.type,
@@ -150,7 +150,7 @@ function mapSource(source: any, lang: string): MaterialSourceOut {
         subtype: recipe.subtype,
         resultQuantity: recipe.resultQuantity,
         ingredients: recipe.ingredients.map((ing: any) => {
-          const t = pickLang(ing.translations, lang);
+          const t = pickLanguage(ing.translations, language);
           return {
             item: t?.item ?? '',
             quantity: ing.quantity,
@@ -160,7 +160,7 @@ function mapSource(source: any, lang: string): MaterialSourceOut {
     };
   }
 
-  const t = pickLang(source.translations, lang);
+  const t = pickLanguage(source.translations, language);
   return {
     type: source.type,
     minimumLevel: source.minimumLevel,
@@ -176,24 +176,26 @@ function mapSource(source: any, lang: string): MaterialSourceOut {
 export class MaterialsService {
   constructor(private readonly prisma: PrismaService) {}
 
-  async findAll(lang: string): Promise<MaterialOut[]> {
+  async findAll(language: string): Promise<MaterialOut[]> {
     const materials = await this.prisma.material.findMany({
       include: MATERIAL_INCLUDE,
     });
 
-    return materials.map((m) => mapMaterial(m, lang));
+    return materials.map((m) => mapMaterial(m, language));
   }
 
-  async findOne(name: string, lang: string): Promise<MaterialOut | null> {
+  async findOne(name: string, language: string): Promise<MaterialOut | null> {
+    const normalizedName = name.replace(/_/g, ' ');
+    
     const material = await this.prisma.material.findFirst({
       where: {
-        name: { equals: name, mode: 'insensitive' },
+        name: { equals: normalizedName , mode: 'insensitive' },
       },
       include: MATERIAL_INCLUDE,
     });
 
     if (!material) return null;
 
-    return mapMaterial(material, lang);
+    return mapMaterial(material, language);
   }
 }
