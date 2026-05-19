@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
-import { CharacterTranslation, Prisma } from '@prisma/client';
+import { CharacterTranslation, ConstellationTranslation, Prisma } from '@prisma/client';
 
 type CharacterWithRelations = Prisma.CharacterGetPayload<{
   include: {
@@ -60,8 +60,8 @@ type CharacterWithRelations = Prisma.CharacterGetPayload<{
 
 // ── Helpers ────────────────────────────────────────────────────────────────────
 
-function pickTranslation(translations: CharacterTranslation[], language: string): CharacterTranslation | null {
-  return translations.find((translation: CharacterTranslation) => translation.language === language) ?? null;
+function pickTranslation(translations: any[], language: string): any {
+  return translations.find((translation: any) => translation.language === language) ?? null;
 }
 
 function mapDescriptions(items: { title: string | null; description: string }[]) {
@@ -87,11 +87,11 @@ function mapCharacter(characterWithRelations: CharacterWithRelations, language: 
     releaseDate:  characterWithRelations.releaseDate,
     obtaining:    characterWithRelations.obtaining,
     // Champs traduits
-    title:        pickedTranslation?.title ?? null,
-    description:  pickedTranslation?.description ?? null,
-    affiliation:  pickedTranslation?.affiliation ?? null,
-    constellation: pickedTranslation?.constellation ?? null,
-    specialDish: pickedTranslation?.specialDish ?? null,
+    title:        pickedTranslation.title,
+    description:  pickedTranslation.description,
+    affiliation:  pickedTranslation.affiliation,
+    constellation: pickedTranslation.constellation,
+    specialDish: pickedTranslation.specialDish,
     // Relations
     levels:              mapLevels(characterWithRelations.levels),
     ascensionMaterials:  mapAscensionMaterials(characterWithRelations.ascensionMaterials),
@@ -120,12 +120,12 @@ function mapLevels(levels: CharacterWithRelations["levels"]) {
   );
 }
 
-function mapAscensionMaterials(ascMats: any[]) {
-  return ascMats.map(a => ({
-    level:     a.level,
-    materials: a.items.map((i: any) => ({
-      name:  i.material.name,
-      quantity: i.quantity,
+function mapAscensionMaterials(ascensionMaterials: CharacterWithRelations["ascensionMaterials"]) {
+  return ascensionMaterials.map(ascensionMaterial => ({
+    level:     ascensionMaterial.level,
+    materials: ascensionMaterial.items.map((item: any) => ({
+      name:  item.material.name,
+      quantity: item.quantity,
     })),
   }));
 }
@@ -252,6 +252,10 @@ export class CharactersService {
       throw new NotFoundException(`"${name}" not found`);
     }
 
-    return mapCharacter(character, language);
+    try {
+      return mapCharacter(character, language);
+    } catch (e: any) {
+      console.error(e)
+    }
   }
 }

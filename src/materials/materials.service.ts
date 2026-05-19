@@ -176,12 +176,11 @@ function mapSource(source: any, language: string): MaterialSourceOut {
 export class MaterialsService {
   constructor(private readonly prisma: PrismaService) {}
 
-  async findAll(language: string): Promise<MaterialOut[]> {
+  async findAll(): Promise<MaterialOut[]> {
     const materials = await this.prisma.material.findMany({
-      include: MATERIAL_INCLUDE,
+      select: {name: true}
     });
-
-    return materials.map((m) => mapMaterial(m, language));
+    return materials.map(material => material.name).sort((a, b) => a.localeCompare(b));
   }
 
   async findOne(name: string, language: string): Promise<MaterialOut | null> {

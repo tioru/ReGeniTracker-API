@@ -1,7 +1,7 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { CharactersService } from './characters.service';
 
-const DEFAULT_LANG = "en"
+const DEFAULT_LANG = "en";
 
 @Controller('characters')
 export class CharactersController {
@@ -17,6 +17,10 @@ export class CharactersController {
     @Param('name') name: string,
     @Query('lang') lang: string = DEFAULT_LANG
   ) {
-    return this.charactersService.findOne(name, lang);
+    try {
+      return this.charactersService.findOne(name, lang);
+    } catch (e: any) {
+      console.error(e)
+    }
   }
 }
