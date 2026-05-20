@@ -1,6 +1,9 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
-import { CharacterTranslation, ConstellationTranslation, Prisma } from '@prisma/client';
+import { Prisma, NormalAttack } from '@prisma/client';
+import { CharacterOut } from './model/character';
+import { NormalAttackOut } from './model/normalAttack';
+import { UpgradeItemOut } from './model/upgradeItem';
 
 type CharacterWithRelations = Prisma.CharacterGetPayload<{
   include: {
@@ -65,12 +68,12 @@ function pickTranslation(translations: any[], language: string): any {
 }
 
 function mapDescriptions(items: { title: string | null; description: string }[]) {
-  return items.map(d => ({ title: d.title, description: d.description }));
+  return items.map(description => ({ title: description.title, description: description.description }));
 }
 
 // ── Mappers ────────────────────────────────────────────────────────────────────
 
-function mapCharacter(characterWithRelations: CharacterWithRelations, language: string) : CharacterWithRelations {
+function mapCharacter(characterWithRelations: CharacterWithRelations, language: string) : CharacterOut {
   const pickedTranslation = pickTranslation(characterWithRelations.translations, language);
 
   if (!pickedTranslation) {
@@ -95,7 +98,7 @@ function mapCharacter(characterWithRelations: CharacterWithRelations, language: 
     // Relations
     levels:              mapLevels(characterWithRelations.levels),
     ascensionMaterials:  mapAscensionMaterials(characterWithRelations.ascensionMaterials),
-    normalAttacks:       characterWithRelations.normalAttacks.map((x: any) => mapTalentWithUpgrades(x, language)),
+    normalAttacks:       characterWithRelations.normalAttacks.map((x: NormalAttack) => mapNormalAttack(x, language)),
     elementalSkills:     characterWithRelations.elementalSkills.map((x: any) => mapTalentWithUpgrades(x, language)),
     elementalBursts:     characterWithRelations.elementalBursts.map((x: any) => mapTalentWithUpgrades(x, language)),
     passiveTalents:      characterWithRelations.passiveTalents.map((x: any) => mapPassiveTalent(x, language)),
@@ -105,7 +108,7 @@ function mapCharacter(characterWithRelations: CharacterWithRelations, language: 
   };
 }
 
-function mapLevels(levels: CharacterWithRelations["levels"]) {
+function mapLevels(levels: CharacterWithRelations["levels"]) : CharacterOut["levels"] {
   return Object.fromEntries(
     levels.map(level => 
       [ level.level, 
@@ -120,7 +123,7 @@ function mapLevels(levels: CharacterWithRelations["levels"]) {
   );
 }
 
-function mapAscensionMaterials(ascensionMaterials: CharacterWithRelations["ascensionMaterials"]) {
+function mapAscensionMaterials(ascensionMaterials: CharacterWithRelations["ascensionMaterials"]) : CharacterOut["ascensionMaterials"] {
   return ascensionMaterials.map(ascensionMaterial => ({
     level:     ascensionMaterial.level,
     materials: ascensionMaterial.items.map((item: any) => ({
@@ -142,6 +145,20 @@ function mapTalentWithUpgrades(talent: any, language: string) {
       values: u.values,
     })),
   };
+}
+
+function mapNormalAttack(normalAttack: any, language: string) : NormalAttackOut {
+  const pickedTranslation = pickTranslation(normalAttack.translations, language);
+
+  return {
+    unlock: normalAttack.unlock,
+    name: pickedTranslation.name,
+    descriptions: mapDescriptions(pickedTranslation.descriptions),
+    upgrades: normalAttack.upgrades.map((upgrade : UpgradeItemOut) => ({
+      name:   upgrade.name,
+      values: upgrade.values,
+    }))
+  }
 }
 
 function mapPassiveTalent(talent: any, language: string) {
@@ -190,7 +207,7 @@ export class CharactersService {
     return characters.map(character => character.name).sort((a, b) => a.localeCompare(b));
   }
 
-  async findOne(name: string, language: string) {
+  async findOne(name: string, language: string) : Promise<CharacterOut | undefined> {
     const character : CharacterWithRelations | null = await this.prisma.character.findUnique({
       where: { name },
       include: {

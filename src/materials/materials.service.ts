@@ -149,11 +149,11 @@ function mapSource(source: any, language: string): MaterialSourceOut {
       recipes: source.recipes.map((recipe: any) => ({
         subtype: recipe.subtype,
         resultQuantity: recipe.resultQuantity,
-        ingredients: recipe.ingredients.map((ing: any) => {
-          const t = pickLanguage(ing.translations, language);
+        ingredients: recipe.ingredients.map((inggredient: any) => {
+          const t = pickLanguage(inggredient.translations, language);
           return {
             item: t?.item ?? '',
-            quantity: ing.quantity,
+            quantity: inggredient.quantity,
           };
         }),
       })),
@@ -176,7 +176,7 @@ function mapSource(source: any, language: string): MaterialSourceOut {
 export class MaterialsService {
   constructor(private readonly prisma: PrismaService) {}
 
-  async findAll(): Promise<MaterialOut[]> {
+  async findAll(): Promise<string[]> {
     const materials = await this.prisma.material.findMany({
       select: {name: true}
     });
