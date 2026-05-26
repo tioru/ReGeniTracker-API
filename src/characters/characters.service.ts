@@ -69,6 +69,10 @@ type CharacterWithRelations = Prisma.CharacterGetPayload<{
   }
 }>;
 
+type AscensionMaterialWithRelations = CharacterWithRelations['ascensionMaterials'][number];
+type AscensionMaterialWithRelationsItem = AscensionMaterialWithRelations['items'][number];
+type NormalAttackWithRelations = CharacterWithRelations["normalAttacks"][number];
+
 // ── Helpers ────────────────────────────────────────────────────────────────────
 
 function pickTranslation(translations: any[], language: string): any {
@@ -106,7 +110,7 @@ function mapCharacter(characterWithRelations: CharacterWithRelations, language: 
     // Relations
     levels:              mapLevels(characterWithRelations.levels),
     ascensionMaterials:  mapAscensionMaterials(characterWithRelations.ascensionMaterials),
-    normalAttacks:       characterWithRelations.normalAttacks.map((normalAttack: NormalAttack) => mapNormalAttack(normalAttack, language)),
+    normalAttacks:       characterWithRelations.normalAttacks.map((normalAttackWithRelations: NormalAttackWithRelations) => mapNormalAttack(normalAttackWithRelations, language)),
     elementalSkills:     characterWithRelations.elementalSkills.map((elementalSkill: ElementalSkill) => mapElementalSkill(elementalSkill, language)),
     elementalBursts:     characterWithRelations.elementalBursts.map((elementalBurst: ElementalBurst) => mapElementalBurst(elementalBurst, language)),
     passiveTalents:      characterWithRelations.passiveTalents.map((passiveTalent: PassiveTalent) => mapPassiveTalent(passiveTalent, language)),
@@ -131,30 +135,28 @@ function mapLevels(levels: CharacterWithRelations["levels"]) : CharacterOut["lev
   );
 }
 
-function mapAscensionMaterials(ascensionMaterials: AscensionMaterial[]) : AscensionMaterialOut[] {
-  type AscensionMaterialItem = CharacterWithRelations['ascensionMaterials'][number]['items'][number];
-
-  return ascensionMaterials.map((ascensionMaterial : AscensionMaterial) => ({
+function mapAscensionMaterials(ascensionMaterials: AscensionMaterialWithRelations[]) : AscensionMaterialOut[] {
+  return ascensionMaterials.map((ascensionMaterial : AscensionMaterialWithRelations) => ({
     level:     ascensionMaterial.level,
-    materials: ascensionMaterial.materials.map((material: {name: string, quantity: number}) => ({
-      name: material.name,
-      quantity: material.quantity
+    materials: ascensionMaterial.items.map((item: AscensionMaterialWithRelationsItem) => ({
+      name: item.material.name,
+      quantity: item.quantity
     })),
   }));
 }
 
-function mapNormalAttack(normalAttack: NormalAttack, language: string) : NormalAttackOut {
-  const pickedTranslation = pickTranslation(normalAttack.translations, language);
+function mapNormalAttack(normalAttackWithRelations: NormalAttackWithRelations, language: string) : NormalAttackOut {
+  const pickedTranslation = pickTranslation(normalAttackWithRelations.translations, language);
 
   return {
-    unlock: normalAttack.unlock,
+    unlock: normalAttackWithRelations.unlock,
     name: pickedTranslation.name,
     descriptions: mapDescriptions(pickedTranslation.descriptions),
-    upgrades: normalAttack.upgrades.map((upgrade : UpgradeItemOut) => ({
+    upgrades: normalAttackWithRelations.upgrades.map((upgrade : UpgradeItemOut) => ({
       name:   upgrade.name,
       values: upgrade.values,
     }))
-  } as NormalAttackOut;
+  };
 }
 
 function mapElementalSkill(elementalSkill: ElementalSkill, language: string) : ElementalSkillOut {
@@ -169,7 +171,7 @@ function mapElementalSkill(elementalSkill: ElementalSkill, language: string) : E
       name:   upgrade.name,
       values: upgrade.values,
     }))
-  } as ElementalSkillOut;
+  };
 }
 
 function mapElementalBurst(elementalBurst: ElementalBurst, language: string) : ElementalBurstOut {
@@ -184,7 +186,7 @@ function mapElementalBurst(elementalBurst: ElementalBurst, language: string) : E
       name:   upgrade.name,
       values: upgrade.values,
     }))
-  } as ElementalBurstOut;
+  };
 }
 
 function mapPassiveTalent(passiveTalent: PassiveTalent, language: string) : PassiveTalentOut {
@@ -198,7 +200,7 @@ function mapPassiveTalent(passiveTalent: PassiveTalent, language: string) : Pass
       name:   attribute.name,
       value: attribute.value,
     }))
-  } as PassiveTalentOut;
+  };
 }
 
 function mapAscensionTalent(ascensionTalent: AscensionTalent, language: string) : AscensionTalentOut {
@@ -208,7 +210,7 @@ function mapAscensionTalent(ascensionTalent: AscensionTalent, language: string) 
     unlock:       ascensionTalent.unlock,
     name:         pickedTranslation.name,
     descriptions: mapDescriptions(pickedTranslation.descriptions),
-  } as AscensionTalentOut;
+  };
 }
 
 function mapAdditionalTalent(additionalTalent: AdditionalTalent, language: string) : AdditionalTalentOut {
@@ -218,7 +220,7 @@ function mapAdditionalTalent(additionalTalent: AdditionalTalent, language: strin
     unlock:       additionalTalent.unlock,
     name:         pickedTranslation.name,
     descriptions: mapDescriptions(pickedTranslation.descriptions),
-  } as AdditionalTalentOut;
+  };
 }
 
 function mapConstellation(constellation: Constellation, language: string) : ConstellationOut {
@@ -229,7 +231,7 @@ function mapConstellation(constellation: Constellation, language: string) : Cons
     name:                   pickedTranslation.name,
     descriptions:           mapDescriptions(pickedTranslation.descriptions),
     hexereiBuffDescriptions: mapDescriptions(pickedTranslation.hexereiBuffDescriptions),
-  } as ConstellationOut;
+  };
 }
 
 // ── Service ────────────────────────────────────────────────────────────────────
