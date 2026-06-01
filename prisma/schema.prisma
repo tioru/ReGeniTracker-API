@@ -195,11 +195,23 @@ model PassiveTalentDescription {
 }
 
 model PassiveTalentAttribute {
-  id            Int           @id @default(autoincrement())
-  name          String
-  value         String
-  passiveTalent PassiveTalent @relation(fields: [passiveTalentId], references: [id])
+  id              Int                              @id @default(autoincrement())
+  name            String
+  value           String
+  passiveTalent   PassiveTalent                   @relation(fields: [passiveTalentId], references: [id])
   passiveTalentId Int
+  translations    PassiveTalentAttributeTranslation[]
+}
+
+model PassiveTalentAttributeTranslation {
+  id          Int                    @id @default(autoincrement())
+  language    String
+  name        String
+  value       String
+  attribute   PassiveTalentAttribute @relation(fields: [attributeId], references: [id])
+  attributeId Int
+
+  @@unique([attributeId, language])
 }
 
 // ── Ascension Talent ──────────────────────────────────────────────────────────

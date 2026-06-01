@@ -3,7 +3,7 @@ import { DescriptionOut } from "./description";
 import { UpgradeItemOut } from "./upgradeItem";
 
 export interface ElementalBurstOut {
-    unlock: UnlockTypes;
+    unlock: UnlockTypes | null;
     name: string;
     note: string;
     descriptions: DescriptionOut[];

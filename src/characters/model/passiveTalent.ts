@@ -3,7 +3,7 @@ import { DescriptionOut } from "./description";
 import { AttributeItemOut } from "./attributeItem";
 
 export interface PassiveTalentOut {
-    unlock: UnlockTypes;
+    unlock: UnlockTypes| null;
     name: string;
     descriptions: DescriptionOut[];
     attributes: AttributeItemOut[];
