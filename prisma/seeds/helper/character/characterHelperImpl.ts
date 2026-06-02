@@ -239,6 +239,14 @@ export class CharacterHelperImpl implements CharacterHelper {
     await prisma.passiveTalentTranslation.deleteMany({
       where: { passiveTalent: { characterId: characterId } },
     });
+
+    const passiveTalentIds = await prisma.passiveTalent.findMany({ where: {characterId}, select: {id: true} })
+      .then((result) => result.map((passiveTalent) => passiveTalent.id));
+
+    await prisma.passiveTalentAttributeTranslation.deleteMany({
+      where: { attribute: { passiveTalentId: {in: passiveTalentIds} } }
+    });
+
     await prisma.passiveTalentAttribute.deleteMany({
       where: { passiveTalentId: { in: await prisma.passiveTalent.findMany({ where: { characterId: characterId }, select: { id: true } }).then((r) => r.map((passiveTalent) => passiveTalent.id)) } },
     });
@@ -258,15 +266,28 @@ export class CharacterHelperImpl implements CharacterHelper {
         
       for (const { language, characterData } of translations) {
         const passiveTalentData = characterData.passiveTalents?.[i];
-        const translation = await prisma.passiveTalentTranslation.create({
+        const passiveTalentTranslation = await prisma.passiveTalentTranslation.create({
           data: { language: language, name: passiveTalentData.name ?? null, passiveTalentId: passiveTalent.id },
         });
         await prisma.passiveTalentDescription.createMany({
           data: this.buildDescriptions(passiveTalentData.descriptions).map((description) => ({
             ...description,
-            translationId: translation.id,
+            translationId: passiveTalentTranslation.id,
           })),
         });
+
+        for (const passiveTalentAttribute of passiveTalentData.attributes) {
+          const passiveTalentAttributeTranslation = await prisma.passiveTalentAttributeTranslation.create({
+            data: { language: language, name: passiveTalentAttribute.name, value: passiveTalentAttribute.value , attributeId: },
+          });
+          await prisma.passiveTalentDescription.createMany({
+            data: this.buildDescriptions(passiveTalentData.descriptions).map((description) => ({
+              ...description,
+              translationId: passiveTalentAttributeTranslation.id,
+            })),
+          });
+        }
+        
       }
     }
   }
