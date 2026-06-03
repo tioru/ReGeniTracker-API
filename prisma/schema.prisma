@@ -196,8 +196,6 @@ model PassiveTalentDescription {
 
 model PassiveTalentAttribute {
   id              Int                              @id @default(autoincrement())
-  name            String
-  value           String
   passiveTalent   PassiveTalent                   @relation(fields: [passiveTalentId], references: [id])
   passiveTalentId Int
   translations    PassiveTalentAttributeTranslation[]
@@ -314,8 +312,8 @@ model ConstellationHexereiDescription {
 
 model TalentUpgrade {
   id               Int            @id @default(autoincrement())
-  name             String
   values           String[]
+  translations     TalentUpgradeTranslation[]
 
   normalAttackId   Int?
   normalAttack     NormalAttack?  @relation(fields: [normalAttackId], references: [id])
@@ -325,6 +323,16 @@ model TalentUpgrade {
 
   elementalBurstId Int?
   elementalBurst   ElementalBurst? @relation(fields: [elementalBurstId], references: [id])
+}
+
+model TalentUpgradeTranslation {
+  id        Int           @id @default(autoincrement())
+  language  String
+  name      String
+  upgrade   TalentUpgrade @relation(fields: [upgradeId], references: [id])
+  upgradeId Int
+
+  @@unique([upgradeId, language])
 }
 
 // ── Material ──────────────────────────────────────────────────────────────────

@@ -5,6 +5,7 @@ import { CharacterData } from "../../model/character/character";
 import { DescriptionData } from "../../model/character/description";
 
 export const BUFFER_ENCODING = 'utf-8';
+const ENGLISH_INDEX = 0;
 
 export class CharacterHelperImpl implements CharacterHelper {
   public loadJson(fullPath: string): CharacterData {
@@ -12,10 +13,10 @@ export class CharacterHelperImpl implements CharacterHelper {
   }
 
   public parseDate(value?: string): Date | null {
-        if (!value) return null;
-        const normalized = value.startsWith('0000-') ? `1900-${value.slice(5)}` : value;
-        const date = new Date(normalized);
-        return Number.isNaN(date.getTime()) ? null : date;
+    if (!value) return null;
+    const normalized = value.startsWith('0000-') ? `1900-${value.slice(5)}` : value;
+    const date = new Date(normalized);
+    return Number.isNaN(date.getTime()) ? null : date;
   }
 
   public buildDescriptions(items: DescriptionData[]): DescriptionData[] {
@@ -23,28 +24,28 @@ export class CharacterHelperImpl implements CharacterHelper {
   }
 
   public async upsertCharacter(prisma: PrismaClient, characterData: CharacterData) : Promise<{id: number; name: string; rarity: number; vision: string; weapon: string; nation: string; birthday: Date | null; releaseDate: Date | null; obtaining: ObtainingTypes[]}> {
-      return await prisma.character.upsert({
-        where: { name: characterData.name },
-        update: {
-          rarity: characterData.rarity,
-          vision: characterData.vision,
-          weapon: characterData.weapon,
-          nation: characterData.nation,
-          birthday: this.parseDate(characterData.birthday),
-          releaseDate: this.parseDate(characterData.releaseDate),
-          obtaining: characterData.obtaining,
-        },
-        create: {
-          name: characterData.name,
-          rarity: characterData.rarity,
-          vision: characterData.vision,
-          weapon: characterData.weapon,
-          nation: characterData.nation,
-          birthday: this.parseDate(characterData.birthday),
-          releaseDate: this.parseDate(characterData.releaseDate),
-          obtaining: characterData.obtaining,
-        },
-      });
+    return await prisma.character.upsert({
+      where: { name: characterData.name },
+      update: {
+        rarity: characterData.rarity,
+        vision: characterData.vision,
+        weapon: characterData.weapon,
+        nation: characterData.nation,
+        birthday: this.parseDate(characterData.birthday),
+        releaseDate: this.parseDate(characterData.releaseDate),
+        obtaining: characterData.obtaining,
+      },
+      create: {
+        name: characterData.name,
+        rarity: characterData.rarity,
+        vision: characterData.vision,
+        weapon: characterData.weapon,
+        nation: characterData.nation,
+        birthday: this.parseDate(characterData.birthday),
+        releaseDate: this.parseDate(characterData.releaseDate),
+        obtaining: characterData.obtaining,
+      },
+    });
   }
 
   public async upsertCharacterTranslations(prisma: PrismaClient, characterId: number, translations:{ language: string; characterData: CharacterData}[]): Promise<void> {
@@ -122,21 +123,46 @@ export class CharacterHelperImpl implements CharacterHelper {
     await prisma.normalAttackTranslation.deleteMany({
       where: { normalAttack: { characterId: characterId } },
     });
+
+    const upgradeIds = await prisma.talentUpgrade.findMany({
+      where: { normalAttackId: { not: null }, normalAttack: { characterId: characterId } },
+      select: { id: true },
+    }).then((result) => result.map((upgrade) => upgrade.id));
+
+    if (upgradeIds.length > 0) {
+      await prisma.talentUpgradeTranslation.deleteMany({
+        where: { upgradeId: { in: upgradeIds } },
+      });
+    }
+
     await prisma.talentUpgrade.deleteMany({
       where: { normalAttackId: { not: null }, normalAttack: { characterId: characterId } },
     });
     await prisma.normalAttack.deleteMany({ where: { characterId: characterId } });
       
-    for (let i = 0; i < translations[0].characterData.normalAttacks.length; i++) {
-      const normalAttackData = translations[0].characterData.normalAttacks[i];
+    for (let i = 0; i < translations[ENGLISH_INDEX].characterData.normalAttacks.length; i++) {
+      const normalAttackData = translations[ENGLISH_INDEX].characterData.normalAttacks[i];
       const normalAttack = await prisma.normalAttack.create({
         data: { unlock: normalAttackData.unlock, characterId: characterId },
       });
         
-      for (const upgrade of normalAttackData.upgrades) {
-        await prisma.talentUpgrade.create({
-          data: { name: upgrade.name, values: upgrade.values, normalAttackId: normalAttack.id },
+      for (let ui = 0; ui > normalAttackData.upgrades.length; ui++){
+        const upgradeItemData = normalAttackData.upgrades[ui];
+
+        const createdUpgrade = await prisma.talentUpgrade.create({
+          data: { values: upgradeItemData.values, normalAttackId: normalAttack.id },
         });
+
+        for (const { language, characterData } of translations) {
+          const upgrade = characterData.normalAttacks?.[i]?.upgrades?.[ui];
+          await prisma.talentUpgradeTranslation.create({
+            data: {
+              upgradeId: createdUpgrade.id,
+              language,
+              name: upgrade?.name ?? upgradeItemData.name,
+            },
+          });
+        }
       }
         
       for (const { language, characterData } of translations) {
@@ -166,8 +192,8 @@ export class CharacterHelperImpl implements CharacterHelper {
     });
     await prisma.elementalSkill.deleteMany({ where: { characterId: characterId } });
       
-    for (let i = 0; i < translations[0].characterData.elementalSkills.length; i++) {
-      const elementalSkillData = translations[0].characterData.elementalSkills[i];
+    for (let i = 0; i < translations[ENGLISH_INDEX].characterData.elementalSkills.length; i++) {
+      const elementalSkillData = translations[ENGLISH_INDEX].characterData.elementalSkills[i];
       const elementalSkill = await prisma.elementalSkill.create({
         data: { unlock: elementalSkillData.unlock, characterId: characterId },
       });
@@ -205,8 +231,8 @@ export class CharacterHelperImpl implements CharacterHelper {
     });
     await prisma.elementalBurst.deleteMany({ where: { characterId: characterId } });
       
-    for (let i = 0; i < translations[0].characterData.elementalBursts.length; i++) {
-      const elementalBurstData = translations[0].characterData.elementalBursts[i];
+    for (let i = 0; i < translations[ENGLISH_INDEX].characterData.elementalBursts.length; i++) {
+      const elementalBurstData = translations[ENGLISH_INDEX].characterData.elementalBursts[i];
       const elementalBurst = await prisma.elementalBurst.create({
         data: { unlock: elementalBurstData.unlock, characterId: characterId },
       });
@@ -240,8 +266,7 @@ export class CharacterHelperImpl implements CharacterHelper {
       where: { passiveTalent: { characterId: characterId } },
     });
 
-    const passiveTalentIds = await prisma.passiveTalent.findMany({ where: {characterId}, select: {id: true} })
-      .then((result) => result.map((passiveTalent) => passiveTalent.id));
+    const passiveTalentIds = await prisma.passiveTalent.findMany({ where: {characterId}, select: {id: true} }).then((result) => result.map((passiveTalent) => passiveTalent.id));
 
     await prisma.passiveTalentAttributeTranslation.deleteMany({
       where: { attribute: { passiveTalentId: {in: passiveTalentIds} } }
@@ -252,42 +277,45 @@ export class CharacterHelperImpl implements CharacterHelper {
     });
     await prisma.passiveTalent.deleteMany({ where: { characterId: characterId } });
       
-    for (let i = 0; i < translations[0].characterData.passiveTalents.length; i++) {
-      const passiveTalentData = translations[0].characterData.passiveTalents[i];
+    for (let i = 0; i < translations[ENGLISH_INDEX].characterData.passiveTalents.length; i++) {
+      const passiveTalentData = translations[ENGLISH_INDEX].characterData.passiveTalents[i];
       const passiveTalent = await prisma.passiveTalent.create({
         data: {
           unlock: passiveTalentData.unlock,
-          characterId: characterId,
-          attributes: {
-            create: (passiveTalentData.attributes).map((attribute) => ({ name: attribute.name, value: attribute.value })),
-          },
+          characterId: characterId
         },
       });
         
+      for (let ai = 0; ai < passiveTalentData.attributes.length; ai++) {
+        const createdAttribute = await prisma.passiveTalentAttribute.create({
+          data: { passiveTalentId: passiveTalent.id },
+        });
+
+        for (const { language, characterData } of translations) {
+          const attribute = characterData.passiveTalents?.[i]?.attributes?.[ai];
+          const attributeData = passiveTalentData.attributes[ai];
+          await prisma.passiveTalentAttributeTranslation.create({
+            data: {
+              attributeId: createdAttribute.id,
+              language,
+              name: attribute?.name ?? attributeData.name,
+              value: attribute?.value ?? attributeData.value,
+            },
+          });
+        }
+      }
+
       for (const { language, characterData } of translations) {
         const passiveTalentData = characterData.passiveTalents?.[i];
-        const passiveTalentTranslation = await prisma.passiveTalentTranslation.create({
-          data: { language: language, name: passiveTalentData.name ?? null, passiveTalentId: passiveTalent.id },
+        const translation = await prisma.passiveTalentTranslation.create({
+          data: { language, name: passiveTalentData.name ?? null, passiveTalentId: passiveTalent.id },
         });
         await prisma.passiveTalentDescription.createMany({
           data: this.buildDescriptions(passiveTalentData.descriptions).map((description) => ({
             ...description,
-            translationId: passiveTalentTranslation.id,
+            translationId: translation.id,
           })),
         });
-
-        for (const passiveTalentAttribute of passiveTalentData.attributes) {
-          const passiveTalentAttributeTranslation = await prisma.passiveTalentAttributeTranslation.create({
-            data: { language: language, name: passiveTalentAttribute.name, value: passiveTalentAttribute.value , attributeId: },
-          });
-          await prisma.passiveTalentDescription.createMany({
-            data: this.buildDescriptions(passiveTalentData.descriptions).map((description) => ({
-              ...description,
-              translationId: passiveTalentAttributeTranslation.id,
-            })),
-          });
-        }
-        
       }
     }
   }
@@ -301,8 +329,8 @@ export class CharacterHelperImpl implements CharacterHelper {
     });
     await prisma.ascensionTalent.deleteMany({ where: { characterId: characterId } });
       
-    for (let i = 0; i < translations[0].characterData.ascensionTalents.length; i++) {
-      const ascensionTalentData = translations[0].characterData.ascensionTalents[i];
+    for (let i = 0; i < translations[ENGLISH_INDEX].characterData.ascensionTalents.length; i++) {
+      const ascensionTalentData = translations[ENGLISH_INDEX].characterData.ascensionTalents[i];
       const ascensionTalent = await prisma.ascensionTalent.create({
         data: { unlock: ascensionTalentData.unlock, characterId: characterId },
       });
@@ -331,8 +359,8 @@ export class CharacterHelperImpl implements CharacterHelper {
     });
     await prisma.additionalTalent.deleteMany({ where: { characterId: characterId } });
     
-    for (let i = 0; i < translations[0].characterData.additionalTalents.length; i++) {
-      const additionalTalentData = translations[0].characterData.additionalTalents[i];
+    for (let i = 0; i < translations[ENGLISH_INDEX].characterData.additionalTalents.length; i++) {
+      const additionalTalentData = translations[ENGLISH_INDEX].characterData.additionalTalents[i];
       const additionalTalent = await prisma.additionalTalent.create({
         data: { unlock: additionalTalentData.unlock, characterId: characterId },
       });
@@ -364,8 +392,8 @@ export class CharacterHelperImpl implements CharacterHelper {
     });
     await prisma.constellation.deleteMany({ where: { characterId: characterId } });
       
-    for (let i = 0; i < translations[0].characterData.constellations.length; i++) {
-      const constellationData = translations[0].characterData.constellations[i];
+    for (let i = 0; i < translations[ENGLISH_INDEX].characterData.constellations.length; i++) {
+      const constellationData = translations[ENGLISH_INDEX].characterData.constellations[i];
       const constellation = await prisma.constellation.create({
         data: { level: constellationData.level, characterId: characterId },
       });
@@ -394,17 +422,17 @@ export class CharacterHelperImpl implements CharacterHelper {
   }
 
   public async seedCharacter(prisma: PrismaClient, translations: { language: string; characterData: CharacterData }[]): Promise<void> {
-    const character = await this.upsertCharacter(prisma, translations[0].characterData);
+    const character = await this.upsertCharacter(prisma, translations[ENGLISH_INDEX].characterData);
     console.log(`Character upserted (id: ${character.id})`);
 
     await this.upsertCharacterTranslations(prisma, character.id , translations);
     console.log(`CharacterTranslations upserted (${translations.map((translation) => translation.language).join(', ')})`);
       
-    await this.characterLevelsRecreate(prisma, character.id, translations[0].characterData);
-    console.log(`CharacterLevels recreated (${Object.keys(translations[0].characterData.levels).length} niveaux)`);
+    await this.characterLevelsRecreate(prisma, character.id, translations[ENGLISH_INDEX].characterData);
+    console.log(`CharacterLevels recreated (${Object.keys(translations[ENGLISH_INDEX].characterData.levels).length} niveaux)`);
       
-    await this.ascensionMaterialsRecreate(prisma, character.id, translations[0].characterData);
-    console.log(`AscensionMaterials recreated (${translations[0].characterData.ascensionMaterials.length} paliers)`);
+    await this.ascensionMaterialsRecreate(prisma, character.id, translations[ENGLISH_INDEX].characterData);
+    console.log(`AscensionMaterials recreated (${translations[ENGLISH_INDEX].characterData.ascensionMaterials.length} paliers)`);
       
     await this.normalAttacksRecreate(prisma, character.id, translations);
     console.log(`NormalAttacks recreated`);
