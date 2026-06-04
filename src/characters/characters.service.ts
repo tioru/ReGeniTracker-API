@@ -3,11 +3,9 @@ import { PrismaService } from '../prisma/prisma.service';
 import { Prisma, UnlockTypes } from '@prisma/client';
 import { CharacterOut } from './model/character';
 import { NormalAttackOut } from './model/normalAttack';
-import { UpgradeItemOut } from './model/upgradeItem';
 import { ElementalSkillOut } from './model/elementalSkill';
 import { ElementalBurstOut } from './model/elementalBurst';
 import { PassiveTalentOut } from './model/passiveTalent';
-import { AttributeItemOut } from './model/attributeItem';
 import { AscensionMaterialOut } from './model/ascensionMaterial';
 import { AscensionTalentOut } from './model/ascensionTalent';
 import { AdditionalTalentOut } from './model/additionalTalent';
@@ -19,31 +17,47 @@ type CharacterWithRelations = Prisma.CharacterGetPayload<{
     levels: true,
     ascensionMaterials: {
       include: {
-        items: { include: { material: true } },
+        items: { 
+          include: { 
+            material: {
+              include: {
+                translations: true
+              },
+            },
+          },
+        },
       },
     },
     normalAttacks: {
       include: {
         translations: { include: { descriptions: true } },
-        upgrades: true,
+        upgrades: {
+          include: { translations: true },
+        },
       },
     },
     elementalSkills: {
       include: {
         translations: { include: { descriptions: true } },
-        upgrades: true,
+        upgrades: {
+          include: { translations: true },
+        },
       },
     },
     elementalBursts: {
       include: {
         translations: { include: { descriptions: true } },
-        upgrades: true,
+        upgrades: {
+          include: { translations: true },
+        },
       },
     },
     passiveTalents: {
       include: {
         translations: { include: { descriptions: true } },
-        attributes: true,
+        attributes: {
+          include: { translations: true },
+        },
       },
     },
     ascensionTalents: {
@@ -121,7 +135,7 @@ function mapCharacter(characterWithRelations: CharacterWithRelations, language: 
     specialDish: pickedTranslation.specialDish,
     // Relations
     levels:              mapLevels(characterWithRelations.levels),
-    ascensionMaterials:  mapAscensionMaterials(characterWithRelations.ascensionMaterials),
+    ascensionMaterials:  mapAscensionMaterials(characterWithRelations.ascensionMaterials, language),
     normalAttacks:       characterWithRelations.normalAttacks.map((normalAttackWithRelations: NormalAttackWithRelations) => mapNormalAttack(normalAttackWithRelations, language)),
     elementalSkills:     characterWithRelations.elementalSkills.map((elementalSkill: ElementalSkillWithRelations) => mapElementalSkill(elementalSkill, language)),
     elementalBursts:     characterWithRelations.elementalBursts.map((elementalBurst: ElementalBurstWithRelations) => mapElementalBurst(elementalBurst, language)),
@@ -147,13 +161,16 @@ function mapLevels(levels: LevelsWithRelations) : CharacterOut["levels"] {
   );
 }
 
-function mapAscensionMaterials(ascensionMaterialsWithRelations: AscensionMaterialWithRelations[]) : AscensionMaterialOut[] {
+function mapAscensionMaterials(ascensionMaterialsWithRelations: AscensionMaterialWithRelations[], language: string) : AscensionMaterialOut[] {
   return ascensionMaterialsWithRelations.map((ascensionMaterialWithRelations : AscensionMaterialWithRelations) => ({
     level:     ascensionMaterialWithRelations.level,
-    materials: ascensionMaterialWithRelations.items.map((item: AscensionMaterialWithRelationsItem) => ({
-      name: item.material.name,
-      quantity: item.quantity
-    })),
+    materials: ascensionMaterialWithRelations.items.map((item: AscensionMaterialWithRelationsItem) => {
+      const t = pickTranslation(item.material.translations, language);
+      return {
+        name: t?.name ?? item.material.name,
+        quantity: item.quantity,
+      };
+    }),
   }));
 }
 
@@ -164,10 +181,13 @@ function mapNormalAttack(normalAttackWithRelations: NormalAttackWithRelations, l
     unlock: mapUnlockType(normalAttackWithRelations.unlock),
     name: pickedTranslation.name,
     descriptions: mapDescriptions(pickedTranslation.descriptions),
-    upgrades: normalAttackWithRelations.upgrades.map((upgrade : UpgradeItemOut) => ({
-      name:   upgrade.name,
-      values: upgrade.values,
-    }))
+    upgrades: normalAttackWithRelations.upgrades.map((upgrade) => {
+      const t = pickTranslation(upgrade.translations, language);
+      return {
+        name: t?.name ?? '',
+        values: upgrade.values,
+      };
+    }),
   } satisfies NormalAttackOut;
 }
 
@@ -179,10 +199,13 @@ function mapElementalSkill(elementalSkillWithRelations: ElementalSkillWithRelati
     name: pickedTranslation.name,
     note: pickedTranslation.note,
     descriptions: mapDescriptions(pickedTranslation.descriptions),
-    upgrades: elementalSkillWithRelations.upgrades.map((upgrade : UpgradeItemOut) => ({
-      name:   upgrade.name,
-      values: upgrade.values,
-    }))
+    upgrades: elementalSkillWithRelations.upgrades.map((upgrade) => {
+      const t = pickTranslation(upgrade.translations, language);
+      return {
+        name: t?.name ?? '',
+        values: upgrade.values,
+      };
+    }),
   } satisfies ElementalSkillOut;
 }
 
@@ -194,10 +217,13 @@ function mapElementalBurst(elementalBurstWithRelations: ElementalBurstWithRelati
     name: pickedTranslation.name,
     note: pickedTranslation.note,
     descriptions: mapDescriptions(pickedTranslation.descriptions),
-    upgrades: elementalBurstWithRelations.upgrades.map((upgrade : UpgradeItemOut) => ({
-      name:   upgrade.name,
-      values: upgrade.values,
-    }))
+    upgrades: elementalBurstWithRelations.upgrades.map((upgrade) => {
+      const t = pickTranslation(upgrade.translations, language);
+      return {
+        name: t?.name ?? '',
+        values: upgrade.values,
+      };
+    }),
   } satisfies ElementalBurstOut;
 }
 
@@ -208,10 +234,13 @@ function mapPassiveTalent(passiveTalentWithRelations: PassiveTalentWithRelations
     unlock: mapUnlockType(passiveTalentWithRelations.unlock),
     name: pickedTranslation.name,
     descriptions: mapDescriptions(pickedTranslation.descriptions),
-    attributes: passiveTalentWithRelations.attributes.map((attribute : AttributeItemOut) => ({
-      name:   attribute.name,
-      value: attribute.value,
-    }))
+    attributes: passiveTalentWithRelations.attributes.map((attribute) => {
+      const t = pickTranslation(attribute.translations, language);
+      return {
+        name: t?.name ?? '',
+        value: t?.value ?? '',
+      };
+    }),
   } satisfies PassiveTalentOut;
 }
 
@@ -267,31 +296,47 @@ export class CharactersService {
         levels: true,
         ascensionMaterials: {
           include: {
-            items: { include: { material: true } },
+            items: { 
+              include: { 
+                material: {
+                  include: {
+                    translations: true
+                  },
+                },
+              },
+            },
           },
         },
         normalAttacks: {
           include: {
             translations: { include: { descriptions: true } },
-            upgrades: true,
+            upgrades: {
+              include: { translations: true },
+            },
           },
         },
         elementalSkills: {
           include: {
             translations: { include: { descriptions: true } },
-            upgrades: true,
+            upgrades: {
+              include: { translations: true },
+            },
           },
         },
         elementalBursts: {
           include: {
             translations: { include: { descriptions: true } },
-            upgrades: true,
+            upgrades: {
+              include: { translations: true },
+            },
           },
         },
         passiveTalents: {
           include: {
             translations: { include: { descriptions: true } },
-            attributes: true,
+            attributes: {
+              include: { translations: true },
+            },
           },
         },
         ascensionTalents: {

@@ -146,7 +146,7 @@ export class CharacterHelperImpl implements CharacterHelper {
         data: { unlock: normalAttackData.unlock, characterId: characterId },
       });
         
-      for (let ui = 0; ui > normalAttackData.upgrades.length; ui++){
+      for (let ui = 0; ui < normalAttackData.upgrades.length; ui++){
         const upgradeItemData = normalAttackData.upgrades[ui];
 
         const createdUpgrade = await prisma.talentUpgrade.create({
@@ -187,6 +187,18 @@ export class CharacterHelperImpl implements CharacterHelper {
     await prisma.elementalSkillTranslation.deleteMany({
       where: { elementalSkill: { characterId: characterId } },
     });
+
+    const upgradeIds = await prisma.talentUpgrade.findMany({
+      where: { elementalSkillId: { not: null }, elementalSkill: { characterId: characterId } },
+      select: { id : true },
+    }).then((result) => result.map((upgrade) => upgrade.id));
+
+    if (upgradeIds.length > 0) {
+      await prisma.talentUpgradeTranslation.deleteMany({
+        where: { upgradeId: { in: upgradeIds } },
+      });
+    }
+
     await prisma.talentUpgrade.deleteMany({
       where: { elementalSkillId: { not: null }, elementalSkill: { characterId: characterId } },
     });
@@ -198,10 +210,23 @@ export class CharacterHelperImpl implements CharacterHelper {
         data: { unlock: elementalSkillData.unlock, characterId: characterId },
       });
         
-      for (const upgrade of elementalSkillData.upgrades) {
-        await prisma.talentUpgrade.create({
-          data: { name: upgrade.name, values: upgrade.values, elementalSkillId: elementalSkill.id },
+      for (let ui = 0; ui < elementalSkillData.upgrades.length; ui++){
+        const upgradeItemData = elementalSkillData.upgrades[ui];
+
+        const createdUpgrade = await prisma.talentUpgrade.create({
+          data: { values: upgradeItemData.values, elementalSkillId: elementalSkill.id },
         });
+
+        for (const { language, characterData } of translations) {
+          const upgrade = characterData.elementalSkills?.[i]?.upgrades?.[ui];
+          await prisma.talentUpgradeTranslation.create({
+            data: {
+              upgradeId: createdUpgrade.id,
+              language,
+              name: upgrade?.name ?? upgradeItemData.name,
+            },
+          });
+        }
       }
         
       for (const { language, characterData } of translations) {
@@ -226,6 +251,18 @@ export class CharacterHelperImpl implements CharacterHelper {
     await prisma.elementalBurstTranslation.deleteMany({
       where: { elementalBurst: { characterId: characterId } },
     });
+
+    const upgradeIds = await prisma.talentUpgrade.findMany({
+      where: { elementalBurstId: { not: null }, elementalBurst: { characterId: characterId } },
+      select: { id : true },
+    }).then((result) => result.map((upgrade) => upgrade.id));
+
+    if (upgradeIds.length > 0) {
+      await prisma.talentUpgradeTranslation.deleteMany({
+        where: { upgradeId: { in: upgradeIds } },
+      });
+    }
+
     await prisma.talentUpgrade.deleteMany({
       where: { elementalBurstId: { not: null }, elementalBurst: { characterId: characterId } },
     });
@@ -237,10 +274,23 @@ export class CharacterHelperImpl implements CharacterHelper {
         data: { unlock: elementalBurstData.unlock, characterId: characterId },
       });
       
-      for (const upgrade of elementalBurstData.upgrades) {
-        await prisma.talentUpgrade.create({
-          data: { name: upgrade.name, values: upgrade.values, elementalBurstId: elementalBurst.id },
+      for (let ui = 0; ui < elementalBurstData.upgrades.length; ui++) {
+        const upgradeItemData = elementalBurstData.upgrades[ui];
+
+        const createdUpgrade = await prisma.talentUpgrade.create({
+          data: { values: upgradeItemData.values, elementalBurstId: elementalBurst.id },
         });
+
+        for (const { language, characterData } of translations) {
+          const upgrade = characterData.elementalBursts?.[i]?.upgrades?.[ui];
+          await prisma.talentUpgradeTranslation.create({
+            data: {
+              upgradeId: createdUpgrade.id,
+              language,
+              name: upgrade?.name ?? upgradeItemData.name,
+            },
+          });
+        }
       }
         
       for (const { language, characterData } of translations) {
