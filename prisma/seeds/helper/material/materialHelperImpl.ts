@@ -11,7 +11,7 @@ export class MaterialHelperImpl implements MaterialHelper {
         return JSON.parse(fs.readFileSync(fullPath, BUFFER_ENCODING)) as MaterialData;
     }
 
-    public async upsertMaterial(prisma: PrismaClient, materialData: MaterialData) : Promise<{id: number; name: string; rarity: number | null; categories: MaterialCategories[];}>{
+    public async upsertMaterial(prisma: PrismaClient, materialData: MaterialData) : Promise<{id: number; name: string; rarity: number | null; categories: MaterialCategories[]}>{
         return prisma.material.upsert({
             where: { name: materialData.name },
             update: {
@@ -26,7 +26,7 @@ export class MaterialHelperImpl implements MaterialHelper {
         });
     }
 
-    public async upsertMaterialTranslations(prisma: PrismaClient, materialId: number, translations: { language: string; materialData: MaterialData }[],): Promise<void> {
+    public async upsertMaterialTranslations(prisma: PrismaClient, materialId: number, translations: { language: string; materialData: MaterialData }[]): Promise<void> {
         for (const { language, materialData } of translations) {
           await prisma.materialTranslation.upsert({
             where: { materialId_language: { materialId: materialId, language: language } },
