@@ -28,15 +28,21 @@
         "Traveler"
     ],
     "mapExtansion": [
-      "Mondstadt"
+      "Mondstadt",
+      "Liyue"
     ],
     "newWeapons": [
         "Hunter's Bow",
         "Dull Blade",
-        ""
+        "Beginner's Protector"
     ],
     "newBosses": [
-        ""
+        "Anemo Hypostasis",
+        "Electro Hypostasis",
+        "Geo Hypostasis",
+        "Pyro Regisvine",
+        "Cryo Regisvine",
+        "Oceanid"
     ],
     "banners" : {
         "characters": [
@@ -44,16 +50,182 @@
             "Sparkling Steps"
         ],
         "weapons": [
-
+            ""
         ]
     },
     "events" : [
-        ""
+        "Fate Foretold",
+        "Barbara's Shining Debut",
+        "Spiral Abyss Event - People's Choice",
+        "Seize the Day",
+        "Elemental Crucible",
+        "Marvelous Merchandise"
     ],
-    "newQuests" : [
-        ""
-    ],
+    "newQuests" : {
+        "ARCHON_QUESTS" :  {
+            "PROLOGUE" : {
+                "ACT" : {
+                    "1" : "The Outlander Who Caught the Wind",
+                    "2" : "For a Tomorrow Without Tears",
+                    "3" : "Song of the Dragon and Freedom"
+                }
+            },
+            "CHAPTER" : {
+                "1" : {
+                    "ACT" : {
+                        "1" : "Of the Land Amidst Monoliths",
+                        "2" : "Farewell, Archaic Lord"
+                    }
+                }
+            }
+        },
+        "STORY_QUESTS" : [
+            { 
+                "Pavo Ocellus Chapter" : {
+                    "ACT" : {
+                        "1" : "Secret Pirate Treasure"
+                    }
+                }
+            },
+            {
+                "Lepus Chapter" : {
+                    "ACT" : {
+                        "1" : "Wild, Courage, and Wings"
+                    }
+                }
+            },
+            { 
+                "Trulla Chapter" : {
+                    "ACT" : {
+                        "1" : "Mondstadt Gastronomy Trip"
+                    }
+                }
+            },
+            { 
+                "Tempus Fugit Chapter" : {
+                    "ACT" : {
+                        "1" : "Troublesome Work"
+                    }
+                }
+            },
+            { 
+                "Noctua Chapter" : {
+                    "ACT" : {
+                        "1" : "Darknight Hero's Alibi"
+                    }
+                }
+            },
+            { 
+                "Lupus Minor Chapter" : {
+                    "ACT" : {
+                        "1" : "The Meaning Of Lupical"
+                    }
+                }
+            },
+            { 
+                "Fabulae Textile Chapter" : {
+                    "ACT" : {
+                        "1" : "Bookworm Swordsman"
+                    }
+                }
+            },
+            { 
+                "Trifolium Chapter" : {
+                    "ACT" : {
+                        "1" : "True Treasure"
+                    }
+                }
+            },
+            { 
+                "Leo Minor Chapter" : {
+                    "ACT" : {
+                        "1" : "Master's Day Off"
+                    }
+                }
+            },
+            { 
+                "Carmen Dei Chapter" : {
+                    "ACT" : {
+                        "1" : "Should You Be Trapped in a Windless Land"
+                    }
+                }
+            },
+            { 
+                "Astrolabos Chapter" : {
+                    "ACT" : {
+                        "1" : "Beyond This World's Stars"
+                    }
+                }
+            }
+        ],
+        "WORLD_QUESTS" : [
+            "...What Do Adventurers Do Again ?",
+            "Adventure Rank Ascension 1",
+            "Adventure Rank Ascension 2",
+            "Adventure Rank Ascension 3",
+            "Adventure Rank Ascension 4",
+            "A Fine Opportunity",
+            "A Little Game",
+            "A Lone Ship In Guyun",
+            "A Provisional Arrangement",
+            "A Quiet Day in Liyue Harbor",
+            "After the Storm",
+            "An Adeptal Summons",
+            "And This Treasure Goes To...",
+            "Big Business",
+            "Blackcliff Woes",
+            "Book in the Woods",
+            "Break the Sword Cemetery Seal",
+            "Busy Adventurers' Guild",
+            "Cleanup At Dawn",
+            "Collector of Anemo Sigils",
+            "Equivalent Exchange",
+            "Every Day a New Adventure",
+            "Flighty Flora... and Flora",
+            "In the Aftermath",
+            "Lingering Malady",
+            "Luhua Landscape",
+            "Mondstadt and its Archon",
+            "New Horizons of Adventure",
+            "Nine Pillars of Peace",
+            "Not to be Missed",
+            "Old Tastes Die Hard",
+            "Overstretched",
+            "Pressing Deadlines",
+            "Question and Answer",
+            "Scent on the Wind"
+        ]
+    },
     "newArtifacts": [
-        ""
+        "Initiate",
+        "Adventurer",
+        "Lucky Dog",
+        "Traveling Doctor",
+        "Resolution of Sojourner",
+        "Tiny Miracle",
+        "Berserker",
+        "Instructor",
+        "The Exile",
+        "Defender's Will",
+        "Brave Heart",
+        "Martial Artist",
+        "Gambler",
+        "Scholar",
+        "Prayers of Wisdom",
+        "Prayers of Destiny",
+        "Prayers of Illumination",
+        "Prayers of Springtime",
+        "Gladiator's Finale",
+        "Wanderers' Troupe",
+        "Noblesses Oblige",
+        "Bloodstained Chivalry",
+        "Maiden Beloved",
+        "Viridescent Venerer",
+        "Archaic Petra",
+        "Retraicing Bolide",
+        "Thundersoother",
+        "Thundering Fury",
+        "Lavawalker",
+        "Crimson Witch of Flames"
     ]
 }
