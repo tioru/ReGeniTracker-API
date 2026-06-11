@@ -27,7 +27,7 @@
         "Qiqi",
         "Traveler"
     ],
-    "mapExtansion": [
+    "mapExpansion": [
       "Mondstadt",
       "Liyue"
     ],
@@ -62,103 +62,105 @@
         "Marvelous Merchandise"
     ],
     "newQuests" : {
-        "ARCHON_QUESTS" :  {
-            "PROLOGUE" : {
-                "ACT" : {
-                    "1" : "The Outlander Who Caught the Wind",
-                    "2" : "For a Tomorrow Without Tears",
-                    "3" : "Song of the Dragon and Freedom"
-                }
-            },
-            "CHAPTER" : {
-                "1" : {
-                    "ACT" : {
-                        "1" : "Of the Land Amidst Monoliths",
-                        "2" : "Farewell, Archaic Lord"
-                    }
-                }
-            }
-        },
-        "STORY_QUESTS" : [
-            { 
-                "Pavo Ocellus Chapter" : {
-                    "ACT" : {
-                        "1" : "Secret Pirate Treasure"
-                    }
-                }
+        "archonQuests" :  [
+            {
+                "chapter": "prologue",
+                "chapterName": "Prologue",
+                "acts": [
+                    { "act": 1, "name": "The Outlander Who Caught the Wind" },
+                    { "act": 2, "name": "For a Tomorrow Without Tears" },
+                    { "act": 3, "name": "Song of the Dragon and Freedom" }
+                ]
             },
             {
-                "Lepus Chapter" : {
-                    "ACT" : {
-                        "1" : "Wild, Courage, and Wings"
-                    }
-                }
-            },
-            { 
-                "Trulla Chapter" : {
-                    "ACT" : {
-                        "1" : "Mondstadt Gastronomy Trip"
-                    }
-                }
-            },
-            { 
-                "Tempus Fugit Chapter" : {
-                    "ACT" : {
-                        "1" : "Troublesome Work"
-                    }
-                }
-            },
-            { 
-                "Noctua Chapter" : {
-                    "ACT" : {
-                        "1" : "Darknight Hero's Alibi"
-                    }
-                }
-            },
-            { 
-                "Lupus Minor Chapter" : {
-                    "ACT" : {
-                        "1" : "The Meaning Of Lupical"
-                    }
-                }
-            },
-            { 
-                "Fabulae Textile Chapter" : {
-                    "ACT" : {
-                        "1" : "Bookworm Swordsman"
-                    }
-                }
-            },
-            { 
-                "Trifolium Chapter" : {
-                    "ACT" : {
-                        "1" : "True Treasure"
-                    }
-                }
-            },
-            { 
-                "Leo Minor Chapter" : {
-                    "ACT" : {
-                        "1" : "Master's Day Off"
-                    }
-                }
-            },
-            { 
-                "Carmen Dei Chapter" : {
-                    "ACT" : {
-                        "1" : "Should You Be Trapped in a Windless Land"
-                    }
-                }
-            },
-            { 
-                "Astrolabos Chapter" : {
-                    "ACT" : {
-                        "1" : "Beyond This World's Stars"
-                    }
-                }
+                "chapter": "1",
+                "chapterName": "Chapter I",
+                "acts": [
+                    { "act": 1, "name": "Of the Land Amidst Monoliths" },
+                    { "act": 2, "name": "Farewell, Archaic Lord" }
+                ]
             }
         ],
-        "WORLD_QUESTS" : [
+        "storyQuests" : [
+            {
+                "chapter": "Pavo Ocellus Chapter",
+                "character": "Kaeya",
+                "acts": [
+                    { "act": 1, "name": "Secret Pirate Treasure" }
+                ]
+            },
+            {
+                "chapter": "Lepus Chapter",
+                "character": "Amber",
+                "acts": [
+                    { "act": 1, "name": "Wild, Courage, and Wings" }
+                ]
+            },
+            {
+                "chapter": "Trulla Chapter",
+                "character": "Xiangling",
+                "acts": [
+                    { "act": 1, "name": "Mondstadt Gastronomy Trip" }
+                ]
+            },
+            {
+                "chapter": "Tempus Fugit Chapter",
+                "character": "Lisa",
+                "acts": [
+                    { "act": 1, "name": "Troublesome Work" }
+                ]
+            },
+            {
+                "chapter": "Noctua Chapter",
+                "character": "Diluc",
+                "acts": [
+                    { "act": 1, "name": "Darknight Hero's Alibi" }
+                ]
+            },
+            {
+                "chapter": "Lupus Minor Chapter",
+                "character": "Razor",
+                "acts": [
+                    { "act": 1, "name": "The Meaning Of Lupical" }
+                ]
+            },
+            {
+                "chapter": "Fabulae Textile Chapter",
+                "character": "Xingqiu",
+                "acts": [
+                    { "act": 1, "name": "Bookworm Swordsman" }
+                ]
+            },
+            {
+                "chapter": "Trifolium Chapter",
+                "character": "Klee",
+                "acts": [
+                    { "act": 1, "name": "True Treasure" }
+                ]
+            },
+            {
+                "chapter": "Leo Minor Chapter",
+                "character": "Jean",
+                "acts": [
+                    { "act": 1, "name": "Master's Day Off" }
+                ]
+            },
+            {
+                "chapter": "Carmen Dei Chapter",
+                "character": "Venti",
+                "acts": [
+                    { "act": 1, "name": "Should You Be Trapped in a Windless Land" }
+                ]
+            },
+            {
+                "chapter": "Astrolabos Chapter",
+                "character": "Mona",
+                "acts": [
+                    { "act": 1, "name": "Beyond This World's Stars" }
+                ]
+            }
+        ],
+        "worldQuests" : [
             "...What Do Adventurers Do Again ?",
             "Adventure Rank Ascension 1",
             "Adventure Rank Ascension 2",
@@ -249,7 +251,7 @@
         "Maiden Beloved",
         "Viridescent Venerer",
         "Archaic Petra",
-        "Retraicing Bolide",
+        "Retracing Bolide",
         "Thundersoother",
         "Thundering Fury",
         "Lavawalker",
