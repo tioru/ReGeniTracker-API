@@ -16,53 +16,61 @@
             "Favonius Lance"
         ]
     },
-    "characters": [
-        "Barbara",
-        "Beidou",
-        "Bennett",
-        "Chongyun",
-        "Fischl",
-        "Ningguang",
-        "Noelle",
-        "Razor",
-        "Sucrose",
-        "Xiangling",
-        "Xingqiu"
-    ],
-    "otherWeapons": [
-        "Lost Prayer to the Sacred Winds",
-        "Primordial Jade Winged-Spear",
-        "Skyward Atlas",
-        "Skyward Blade",
-        "Skyward Harp",
-        "Skyward Pride",
-        "Skyward Spine",
-        "Wolf's Gravestone",
-        "Dragon's Bane",
-        "Eye of Perception",
-        "Favonius Codex",
-        "Favonius Greatsword",
-        "Favonius Sword",
-        "Favonius Warbow",
-        "Lion's Roar",
-        "Rainslasher",
-        "Rust",
-        "Sacrificial Bow",
-        "Sacrificial Fragments",
-        "Sacrificial Greatsword",
-        "Sacrificial Sword",
-        "Black Tassel",
-        "Bloodtainted Greatsword",
-        "Cool Steel",
-        "Debate Club",
-        "Emerald Orb",
-        "Ferrous Shadow",
-        "Harbinger of Dawn",
-        "Magic Guide",
-        "Raven Bow",
-        "Sharpshooter's Oath",
-        "Skyrider Sword",
-        "Slingshot",
-        "Thrilling Tales of Dragon Slayers"
-    ]
+    "characters": {
+        "featured4Star" : [
+            "Barbara",
+            "Beidou",
+            "Bennett",
+            "Chongyun",
+            "Fischl",
+            "Ningguang",
+            "Noelle",
+            "Razor",
+            "Sucrose",
+            "Xiangling",
+            "Xingqiu"
+        ]
+    },
+    "otherWeapons": {
+        "featured5Star" : [
+            "Lost Prayer to the Sacred Winds",
+            "Primordial Jade Winged-Spear",
+            "Skyward Atlas",
+            "Skyward Blade",
+            "Skyward Harp",
+            "Skyward Pride",
+            "Skyward Spine",
+            "Wolf's Gravestone"
+        ],
+        "featured4Star" : [
+            "Dragon's Bane",
+            "Eye of Perception",
+            "Favonius Codex",
+            "Favonius Greatsword",
+            "Favonius Sword",
+            "Favonius Warbow",
+            "Lion's Roar",
+            "Rainslasher",
+            "Rust",
+            "Sacrificial Bow",
+            "Sacrificial Fragments",
+            "Sacrificial Greatsword",
+            "Sacrificial Sword"
+        ],
+        "featured3Star" : [
+            "Black Tassel",
+            "Bloodtainted Greatsword",
+            "Cool Steel",
+            "Debate Club",
+            "Emerald Orb",
+            "Ferrous Shadow",
+            "Harbinger of Dawn",
+            "Magic Guide",
+            "Raven Bow",
+            "Sharpshooter's Oath",
+            "Skyrider Sword",
+            "Slingshot",
+            "Thrilling Tales of Dragon Slayers"
+        ]
+    }
 }
