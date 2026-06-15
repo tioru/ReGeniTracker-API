@@ -27,6 +27,7 @@ model Character {
   additionalTalents  AdditionalTalent[]
   constellations     Constellation[]
   materialUses CharacterMaterialUse[]
+  banners BannerCharacter[]
 }
 
 model CharacterLevel {
@@ -455,6 +456,75 @@ model CharacterMaterialUse {
   characterId Int
 }
 
+// ── Weapon ──────────────────────────────────────────────────────────────────
+
+model Weapon {
+  id           Int                  @id @default(autoincrement())
+  name         String               @unique
+  rarity       Int
+  type         WeaponTypes
+  translations WeaponTranslation[]
+  banners      BannerWeapon[]
+}
+
+model WeaponTranslation {
+  id          Int      @id @default(autoincrement())
+  language    String
+  name        String
+  description String?
+  weapon      Weapon   @relation(fields: [weaponId], references: [id])
+  weaponId    Int
+
+  @@unique([weaponId, language])
+}
+
+// ── Banner ──────────────────────────────────────────────────────────────────
+
+model Banner {
+  id          Int               @id @default(autoincrement())
+  name        String
+  type        BannerTypes
+  releaseDate DateTime
+  endDate     DateTime
+  translations BannerTranslation[]
+  characters  BannerCharacter[]
+  weapons     BannerWeapon[]
+}
+
+model BannerCharacter {
+  id          Int           @id @default(autoincrement())
+  rarity      Int
+  role        FeaturedRoles
+  banner      Banner        @relation(fields: [bannerId], references: [id])
+  bannerId    Int
+  character   Character     @relation(fields: [characterId], references: [id])
+  characterId Int
+
+  @@unique([bannerId, characterId])
+}
+
+model BannerWeapon {
+  id        Int           @id @default(autoincrement())
+  rarity    Int
+  role      FeaturedRoles
+  banner    Banner        @relation(fields: [bannerId], references: [id])
+  bannerId  Int
+  weapon    Weapon        @relation(fields: [weaponId], references: [id])
+  weaponId  Int
+
+  @@unique([bannerId, weaponId])
+}
+
+model BannerTranslation {
+  id       Int    @id @default(autoincrement())
+  language String
+  name     String
+  banner   Banner @relation(fields: [bannerId], references: [id])
+  bannerId Int
+
+  @@unique([bannerId, language])
+}
+
 // ── Enums ─────────────────────────────────────────────────────────────────────
 // ─ Characters ────────────────────────────────────────────────────────────────
 enum ObtainingTypes {
@@ -503,4 +573,26 @@ enum RestockType {
 enum CharacterMaterialType {
   ASCENSION
   TALENT
+}
+
+// ─ Weapon ─────────────────────────────────────────────────────────────────
+
+enum WeaponTypes {
+  SWORD
+  CLAYMORE
+  POLEARM
+  BOW
+  CATALYST
+}
+
+// ─ Banner ─────────────────────────────────────────────────────────────────
+
+enum BannerTypes {
+  CHARACTER
+  WEAPON
+}
+
+enum FeaturedRoles {
+  BOOSTED
+  OTHER
 }

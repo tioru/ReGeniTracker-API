@@ -11,6 +11,8 @@ const prisma = new PrismaClient({ adapter });
 async function main() {
   await seedMaterials(prisma);  // en premier — les personnages en dépendent
   await seedCharacters(prisma);
+  await seedWeapons(prisma);    // avant banners — les bannières référencent Weapon.name
+  await seedBanners(prisma);
 }
 
 main()
