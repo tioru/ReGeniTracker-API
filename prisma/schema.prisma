@@ -541,6 +541,8 @@ model Banner {
   translations BannerTranslation[]
   characters  BannerCharacter[]
   weapons     BannerWeapon[]
+
+  @@unique([name, releaseDate])
 }
 
 model BannerCharacter {

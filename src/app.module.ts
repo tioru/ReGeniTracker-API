@@ -7,6 +7,7 @@ import { ServeStaticModule } from '@nestjs/serve-static';
 import { join } from 'node:path';
 import { AssetsModule } from './assets/assets.module';
 import { MaterialsModule } from './materials/materials.module';
+import { WeaponsModule } from './weapons/weapons.module';
 
 @Module({
   imports: [
@@ -18,6 +19,7 @@ import { MaterialsModule } from './materials/materials.module';
     }),
     AssetsModule,
     MaterialsModule,
+    WeaponsModule,
   ],
   controllers: [AppController],
   providers: [AppService],

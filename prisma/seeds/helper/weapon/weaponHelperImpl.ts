@@ -1,4 +1,5 @@
-import { PrismaClient } from "@prisma/client";
+import * as fs from 'node:fs';
+import { PrismaClient, WeaponTypes } from "@prisma/client";
 import { WeaponHelper } from "./weaponHelper";
 import { WeaponData } from "../../model/weapon/weapon";
 
@@ -6,8 +7,142 @@ export const BUFFER_ENCODING = 'utf-8';
 const ENGLISH_INDEX = 0;
 
 export class WeaponHelperImpl implements WeaponHelper {
-    loadJson(filePath: string) {
-        throw new Error("Method not implemented.");
+    loadJson(fullPath: string): WeaponData {
+        return JSON.parse(fs.readFileSync(fullPath, BUFFER_ENCODING)) as WeaponData;
+    }
+
+    public async upsertWeapon(prisma: PrismaClient, weaponData: WeaponData): Promise<{ id: number; name: string; rarity: number; type: WeaponTypes }> {
+        return prisma.weapon.upsert({
+            where: { name: weaponData.name },
+            update: {
+                rarity: weaponData.rarity,
+                type: weaponData.type,
+                releaseDate: weaponData.releaseDate ? new Date(weaponData.releaseDate) : null,
+            },
+            create: {
+                name: weaponData.name,
+                rarity: weaponData.rarity,
+                type: weaponData.type,
+                releaseDate: weaponData.releaseDate ? new Date(weaponData.releaseDate) : null,
+            }
+        });
+    }
+
+    public async upsertWeaponTranslations(prisma: PrismaClient, weaponId: number, translations: { language: string; weaponData: WeaponData }[]): Promise<void> {
+        for (const { language, weaponData } of translations) {
+            await prisma.weaponTranslation.upsert({
+                where: { weaponId_language: { weaponId, language } },
+                update: {
+                    name: weaponData.name,
+                    description: weaponData.description ?? null,
+                    history: weaponData.history ?? null,
+                },
+                create: {
+                    weaponId,
+                    language,
+                    name: weaponData.name,
+                    description: weaponData.description ?? null,
+                    history: weaponData.history ?? null,
+                },
+            });
+        }
+    }
+
+    public async levelsRecreate(prisma: PrismaClient, weaponId: number, weaponData: WeaponData): Promise<void> {
+        await prisma.weaponLevel.deleteMany({ where: { weaponId } });
+
+        const levels = Object.entries(weaponData.levels).map(([level, levelData]) => ({
+            weaponId,
+            level,
+            baseAtk: levelData.baseAtk,
+        }));
+
+        await prisma.weaponLevel.createMany({ data: levels });
+    }
+
+    public async ascensionMaterialsRecreate(prisma: PrismaClient, weaponId: number, translations: { language: string; weaponData: WeaponData }[]): Promise<void> {
+        const existing = await prisma.weaponAscensionMaterial.findMany({
+          where: { weaponId },
+          select: { id: true },
+        });
+        const ascensionIds = existing.map((ascension) => ascension.id);
+
+        if (ascensionIds.length > 0) {
+          await prisma.weaponAscensionMaterialItem.deleteMany({
+            where: { ascensionMaterialId: { in: ascensionIds } },
+          });
+          await prisma.weaponAscensionMaterial.deleteMany({ where: { id: { in: ascensionIds } } });
+        }
+
+        const enAscensionMaterials = translations[ENGLISH_INDEX].weaponData.ascensionMaterials;
+
+        for (const enAscension of enAscensionMaterials) {
+            const createdAscension = await prisma.weaponAscensionMaterial.create({
+                data: { weaponId, level: enAscension.level },
+            });
+
+            for (const enItem of enAscension.materials) {
+                const material = await prisma.material.findUnique({
+                    where: { name: enItem.name },
+                    select: { id: true },
+                });
+
+                if (!material) {
+                    console.warn(`⚠️  Matériau introuvable : ${enItem.name}`);
+                    continue;
+                }
+
+                await prisma.weaponAscensionMaterialItem.create({
+                    data: {
+                        ascensionMaterialId: createdAscension.id,
+                        materialId: material.id,
+                        quantity: enItem.quantity,
+                    },
+                });
+            }
+        }
+    }
+
+    public async sellersRecreate(prisma: PrismaClient, weaponId: number, translations: { language: string; weaponData: WeaponData }[]): Promise<void> {
+        const existingSellers = await prisma.weaponSeller.findMany({
+            where: { weaponId },
+            select: { id: true },
+        });
+        const sellerIds = existingSellers.map((seller) => seller.id);
+
+        if (sellerIds.length > 0) {
+            await prisma.weaponSellerTranslation.deleteMany({
+                where: { sellerId: { in: sellerIds } },
+            });
+            await prisma.weaponSeller.deleteMany({ where: { id: { in: sellerIds } } });
+        }
+
+        const enWeaponData = translations[ENGLISH_INDEX].weaponData;
+
+        for (let sellerIndex = 0; sellerIndex < enWeaponData.sellers.length; sellerIndex++) {
+            const enSeller = enWeaponData.sellers[sellerIndex];
+
+            const createdSeller = await prisma.weaponSeller.create({
+                data: {
+                    weaponId,
+                    cost: enSeller.cost,
+                    stock: enSeller.stock,
+                    restock: enSeller.restock,
+                },
+            });
+
+            for (const { language, weaponData } of translations) {
+                const seller = weaponData.sellers[sellerIndex] ?? enSeller;
+                await prisma.weaponSellerTranslation.create({
+                    data: {
+                        sellerId: createdSeller.id,
+                        language,
+                        name: seller.name,
+                        currency: seller.currency,
+                    },
+                });
+            }
+        }
     }
 
     public async seedWeapon( prisma: PrismaClient, translations: { language: string; weaponData: WeaponData }[]): Promise<void> {

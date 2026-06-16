@@ -1,15 +1,15 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { Prisma, UnlockTypes } from '@prisma/client';
-import { CharacterOut } from './model/character';
-import { NormalAttackOut } from './model/normalAttack';
-import { ElementalSkillOut } from './model/elementalSkill';
-import { ElementalBurstOut } from './model/elementalBurst';
-import { PassiveTalentOut } from './model/passiveTalent';
-import { AscensionMaterialOut } from './model/ascensionMaterial';
-import { AscensionTalentOut } from './model/ascensionTalent';
-import { AdditionalTalentOut } from './model/additionalTalent';
-import { ConstellationOut } from './model/constellation';
+import { CharacterOut } from '../model/out/character/character';
+import { NormalAttackOut } from '../model/out/character/normalAttack';
+import { ElementalSkillOut } from '../model/out/character/elementalSkill';
+import { ElementalBurstOut } from '../model/out/character/elementalBurst';
+import { PassiveTalentOut } from '../model/out/character/passiveTalent';
+import { AscensionMaterialOut } from '../model/out/character/ascensionMaterial';
+import { AscensionTalentOut } from '../model/out/character/ascensionTalent';
+import { AdditionalTalentOut } from '../model/out/character/additionalTalent';
+import { ConstellationOut } from '../model/out/character/constellation';
 
 type CharacterWithRelations = Prisma.CharacterGetPayload<{
   include: {
@@ -165,9 +165,9 @@ function mapAscensionMaterials(ascensionMaterialsWithRelations: AscensionMateria
   return ascensionMaterialsWithRelations.map((ascensionMaterialWithRelations : AscensionMaterialWithRelations) => ({
     level:     ascensionMaterialWithRelations.level,
     materials: ascensionMaterialWithRelations.items.map((item: AscensionMaterialWithRelationsItem) => {
-      const t = pickTranslation(item.material.translations, language);
+      const translation = pickTranslation(item.material.translations, language);
       return {
-        name: t?.name ?? item.material.name,
+        name: translation?.name ?? item.material.name,
         quantity: item.quantity,
       };
     }),
@@ -182,9 +182,9 @@ function mapNormalAttack(normalAttackWithRelations: NormalAttackWithRelations, l
     name: pickedTranslation.name,
     descriptions: mapDescriptions(pickedTranslation.descriptions),
     upgrades: normalAttackWithRelations.upgrades.map((upgrade) => {
-      const t = pickTranslation(upgrade.translations, language);
+      const translation = pickTranslation(upgrade.translations, language);
       return {
-        name: t?.name ?? '',
+        name: translation?.name ?? '',
         values: upgrade.values,
       };
     }),
@@ -200,9 +200,9 @@ function mapElementalSkill(elementalSkillWithRelations: ElementalSkillWithRelati
     note: pickedTranslation.note,
     descriptions: mapDescriptions(pickedTranslation.descriptions),
     upgrades: elementalSkillWithRelations.upgrades.map((upgrade) => {
-      const t = pickTranslation(upgrade.translations, language);
+      const translation = pickTranslation(upgrade.translations, language);
       return {
-        name: t?.name ?? '',
+        name: translation?.name ?? '',
         values: upgrade.values,
       };
     }),
@@ -218,9 +218,9 @@ function mapElementalBurst(elementalBurstWithRelations: ElementalBurstWithRelati
     note: pickedTranslation.note,
     descriptions: mapDescriptions(pickedTranslation.descriptions),
     upgrades: elementalBurstWithRelations.upgrades.map((upgrade) => {
-      const t = pickTranslation(upgrade.translations, language);
+      const translation = pickTranslation(upgrade.translations, language);
       return {
-        name: t?.name ?? '',
+        name: translation?.name ?? '',
         values: upgrade.values,
       };
     }),
@@ -235,10 +235,10 @@ function mapPassiveTalent(passiveTalentWithRelations: PassiveTalentWithRelations
     name: pickedTranslation.name,
     descriptions: mapDescriptions(pickedTranslation.descriptions),
     attributes: passiveTalentWithRelations.attributes.map((attribute) => {
-      const t = pickTranslation(attribute.translations, language);
+      const translation = pickTranslation(attribute.translations, language);
       return {
-        name: t?.name ?? '',
-        value: t?.value ?? '',
+        name: translation?.name ?? '',
+        value: translation?.value ?? '',
       };
     }),
   } satisfies PassiveTalentOut;
@@ -368,8 +368,8 @@ export class CharactersService {
 
     try {
       return mapCharacter(character, language);
-    } catch (e: any) {
-      console.error(e)
+    } catch (error: any) {
+      console.error(error);
     }
   }
 }

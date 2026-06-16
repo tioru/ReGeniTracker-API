@@ -17,10 +17,6 @@ export class CharactersController {
     @Param('name') name: string,
     @Query('lang') lang: string = DEFAULT_LANG
   ) {
-    try {
-      return this.charactersService.findOne(name, lang);
-    } catch (e: any) {
-      console.error(e)
-    }
+    return this.charactersService.findOne(name, lang);
   }
 }

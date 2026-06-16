@@ -14,7 +14,7 @@ export class MaterialsController {
   
   @Get(':name')
   findOne(
-    @Param('name') name: string,
+    @Param('name') name: string,  
     @Query('lang') language: string = DEFAULT_LANG
   ) {
     return this.materialsService.findOne(name, language);

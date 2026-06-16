@@ -1,176 +1,128 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
+import { CharacterMaterialType, Prisma } from '@prisma/client';
+import { MaterialOut } from '../model/out/material/material';
+import { MaterialSourceOut } from '../model/out/material/materialSource';
+import { MaterialSellerOut } from '../model/out/material/seller';
 
-// ---------------------------------------------------------------------------
-// Types de sortie (miroir du JSON source)
-// ---------------------------------------------------------------------------
-
-type RecipeIngredientOut = {
-  item: string;
-  quantity: number;
-};
-
-type AlchemyRecipeOut = {
-  subtype: string;
-  resultQuantity: number;
-  ingredients: RecipeIngredientOut[];
-};
-
-type MaterialSourceOut = {
-  type: string;
-  minimumLevel?: number | null;
-  names?: string[];
-  recipes?: AlchemyRecipeOut[];
-};
-
-type MaterialSellerOut = {
-  name: string;
-  currency: string;
-  cost: number;
-  stock: number;
-  restock: string;
-};
-
-type MaterialOut = {
-  name: string;
-  rarity: number | null;
-  categories: string[];
-  description: string | null;
-  sources: MaterialSourceOut[];
-  usedIn: string[];
-  usedByCharacters: {
-    ascension: string[];
-    talent: string[];
-  };
-  sellers: MaterialSellerOut[];
-};
-
-// ---------------------------------------------------------------------------
-// Include Prisma
-// ---------------------------------------------------------------------------
-
-const MATERIAL_INCLUDE = {
-  translations: true,
-  sources: {
-    include: {
-      translations: true,
-      recipes: {
-        include: {
-          ingredients: {
-            include: {
-              translations: true,
+type MaterialWithRelations = Prisma.MaterialGetPayload<{
+  include: {
+    translations: true,
+    sources: {
+      include: {
+        translations: true,
+        recipes: {
+          include: {
+            ingredients: {
+              include: { translations: true },
             },
           },
         },
       },
     },
-  },
-  sellers: {
-    include: {
-      translations: true,
+    sellers: {
+      include: { translations: true },
     },
-  },
-  usedIn: {
-    include: {
-      translations: true,
+    usedIn: {
+      include: { translations: true },
     },
-  },
-  usedByCharacters: {
-    include: {
-      character: {
-        include: {
-          translations: true,
+    usedByCharacters: {
+      include: {
+        character: {
+          include: { translations: true },
         },
       },
     },
-  },
-} as const;
+  };
+}>;
 
-// ---------------------------------------------------------------------------
-// Helpers
-// ---------------------------------------------------------------------------
+type SourceWithRelations = MaterialWithRelations['sources'][number];
+type SellerWithRelations = MaterialWithRelations['sellers'][number];
+type UsedInWithRelations = MaterialWithRelations['usedIn'][number];
+type UsedByCharacterWithRelations = MaterialWithRelations['usedByCharacters'][number];
 
-function pickLanguage<T extends { language: string }>(
-  items: T[],
-  language: string,
-): any {
-  return items.find((t) => t.language === language) ?? items[0];
+// ── Helpers ────────────────────────────────────────────────────────────────────
+
+function pickTranslation(translations: any[], language: string): any {
+  return translations.find((translation: any) => translation.language === language) ?? null;
 }
 
-// ---------------------------------------------------------------------------
-// Mappers
-// ---------------------------------------------------------------------------
+// ── Mappers ────────────────────────────────────────────────────────────────────
 
-function mapMaterial(material: any, language: string): MaterialOut {
-  const translation = pickLanguage(material.translations, language);
+function mapMaterial(materialWithRelations: MaterialWithRelations, language: string): MaterialOut {
+  const pickedTranslation = pickTranslation(materialWithRelations.translations, language);
+
+  if (!pickedTranslation) {
+    throw new NotFoundException(`Language not found for "${materialWithRelations.name}"`);
+  }
 
   return {
-    name: translation?.name ?? material.name,
-    rarity: material.rarity,
-    categories: material.categories,
-    description: translation?.description ?? null,
-    sources: material.sources.map((source: any) => mapSource(source, language)),
-    usedIn: material.usedIn.map((use: any) => {
-      const t = pickLanguage(use.translations, language);
-      return t?.itemName ?? '';
+    name: materialWithRelations.name,
+    rarity: materialWithRelations.rarity,
+    categories: materialWithRelations.categories,
+    description: pickedTranslation.description,
+    sources: materialWithRelations.sources.map((source: SourceWithRelations) => mapSource(source, language)),
+    usedIn: materialWithRelations.usedIn.map((use: UsedInWithRelations) => {
+      const translation = pickTranslation(use.translations, language);
+      return translation?.itemName ?? '';
     }),
     usedByCharacters: {
-      ascension: material.usedByCharacters
-        .filter((u: any) => u.type === 'ASCENSION')
-        .map((u: any) => {
-          const t = pickLanguage(u.character.translations, language);
-          return t?.name ?? u.character.name;
+      ascension: materialWithRelations.usedByCharacters
+        .filter((use: UsedByCharacterWithRelations) => use.type === CharacterMaterialType.ASCENSION)
+        .map((use: UsedByCharacterWithRelations) => {
+          const translation = pickTranslation(use.character.translations, language);
+          return translation?.name ?? use.character.name;
         }),
-      talent: material.usedByCharacters
-        .filter((u: any) => u.type === 'TALENT')
-        .map((u: any) => {
-          const t = pickLanguage(u.character.translations, language);
-          return t?.name ?? u.character.name;
+      talent: materialWithRelations.usedByCharacters
+        .filter((use: UsedByCharacterWithRelations) => use.type === CharacterMaterialType.TALENT)
+        .map((use: UsedByCharacterWithRelations) => {
+          const translation = pickTranslation(use.character.translations, language);
+          return translation?.name ?? use.character.name;
         }),
     },
-    sellers: material.sellers.map((seller: any) => {
-      const t = pickLanguage(seller.translations, language);
-      return {
-        name: t?.name ?? '',
-        currency: t?.currency ?? '',
-        cost: seller.cost,
-        stock: seller.stock,
-        restock: seller.restock,
-      };
-    }),
+    sellers: materialWithRelations.sellers.map((seller: SellerWithRelations) => mapSeller(seller, language)),
   };
 }
 
-function mapSource(source: any, language: string): MaterialSourceOut {
-  if (source.type === 'ALCHEMY') {
+function mapSource(sourceWithRelations: SourceWithRelations, language: string): MaterialSourceOut {
+  if (sourceWithRelations.type === 'ALCHEMY') {
     return {
-      type: source.type,
-      minimumLevel: source.minimumLevel,
-      recipes: source.recipes.map((recipe: any) => ({
+      type: sourceWithRelations.type,
+      minimumLevel: sourceWithRelations.minimumLevel,
+      recipes: sourceWithRelations.recipes.map((recipe) => ({
         subtype: recipe.subtype,
         resultQuantity: recipe.resultQuantity,
-        ingredients: recipe.ingredients.map((inggredient: any) => {
-          const t = pickLanguage(inggredient.translations, language);
+        ingredients: recipe.ingredients.map((ingredient) => {
+          const translation = pickTranslation(ingredient.translations, language);
           return {
-            item: t?.item ?? '',
-            quantity: inggredient.quantity,
+            item: translation?.item ?? '',
+            quantity: ingredient.quantity,
           };
         }),
       })),
-    };
+    } satisfies MaterialSourceOut;
   }
 
-  const t = pickLanguage(source.translations, language);
+  const translation = pickTranslation(sourceWithRelations.translations, language);
   return {
-    type: source.type,
-    minimumLevel: source.minimumLevel,
-    names: t?.names ?? [],
-  };
+    type: sourceWithRelations.type,
+    minimumLevel: sourceWithRelations.minimumLevel,
+    names: translation?.names ?? [],
+  } satisfies MaterialSourceOut;
 }
 
-// ---------------------------------------------------------------------------
-// Service
-// ---------------------------------------------------------------------------
+function mapSeller(sellerWithRelations: SellerWithRelations, language: string): MaterialSellerOut {
+  const translation = pickTranslation(sellerWithRelations.translations, language);
+  return {
+    name: translation?.name ?? '',
+    currency: translation?.currency ?? '',
+    cost: sellerWithRelations.cost,
+    stock: sellerWithRelations.stock,
+    restock: sellerWithRelations.restock,
+  } satisfies MaterialSellerOut;
+}
+
+// ── Service ────────────────────────────────────────────────────────────────────
 
 @Injectable()
 export class MaterialsService {
@@ -178,23 +130,52 @@ export class MaterialsService {
 
   async findAll(): Promise<string[]> {
     const materials = await this.prisma.material.findMany({
-      select: {name: true}
+      select: { name: true },
     });
-    return materials.map(material => material.name).sort((a, b) => a.localeCompare(b));
+    return materials.map((material) => material.name).sort((a: string, b: string) => a.localeCompare(b));
   }
 
-  async findOne(name: string, language: string): Promise<MaterialOut | null> {
-    const normalizedName = name.replace(/_/g, ' ');
-    
-    const material = await this.prisma.material.findFirst({
-      where: {
-        name: { equals: normalizedName , mode: 'insensitive' },
+  async findOne(name: string, language: string): Promise<MaterialOut | undefined> {
+    const material: MaterialWithRelations | null = await this.prisma.material.findUnique({
+      where: { name },
+      include: {
+        translations: true,
+        sources: {
+          include: {
+            translations: true,
+            recipes: {
+              include: {
+                ingredients: {
+                  include: { translations: true },
+                },
+              },
+            },
+          },
+        },
+        sellers: {
+          include: { translations: true },
+        },
+        usedIn: {
+          include: { translations: true },
+        },
+        usedByCharacters: {
+          include: {
+            character: {
+              include: { translations: true },
+            },
+          },
+        },
       },
-      include: MATERIAL_INCLUDE,
     });
 
-    if (!material) return null;
+    if (!material) {
+      throw new NotFoundException(`"${name}" not found`);
+    }
 
-    return mapMaterial(material, language);
+    try {
+      return mapMaterial(material, language);
+    } catch (error: any) {
+      console.error(error);
+    }
   }
 }
