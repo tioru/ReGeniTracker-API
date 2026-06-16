@@ -1,5 +1,5 @@
 import { ObtainingTypes } from '@prisma/client';
-import { AscensionMaterialData } from './ascensionMaterial';
+import { CharacterAscensionMaterialData } from './characterAscensionMaterial';
 import { NormalAttackData } from './normalAttack';
 import { ElementalSkillData } from './elementalSkill';
 import { ElementalBurstData } from './elementalBurst';
@@ -7,7 +7,7 @@ import { PassiveTalentData } from './passiveTalent';
 import { AscensionTalentData } from './ascensionTalent';
 import { AdditionalTalentData } from './additionalTalent';
 import { ConstellationData } from './constellation';
-import { LevelData } from './level';
+import { CharacterLevelData } from './level';
 
 export interface CharacterData {
   name: string;
@@ -23,8 +23,8 @@ export interface CharacterData {
   description: string;
   affiliation: string;
   constellation: string;
-  levels: Record<string, LevelData>;
-  ascensionMaterials: AscensionMaterialData[];
+  levels: Record<string, CharacterLevelData>;
+  ascensionMaterials: CharacterAscensionMaterialData[];
   normalAttacks: NormalAttackData[];
   elementalSkills: ElementalSkillData[];
   elementalBursts: ElementalBurstData[];

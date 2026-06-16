@@ -349,6 +349,7 @@ model Material {
   usedIn             MaterialUse[]
   usedByCharacters   CharacterMaterialUse[]
   ascensionMaterials AscensionMaterialItem[]
+  weaponAscensionMaterials WeaponAscensionMaterialItem[]
 }
 
 model MaterialTranslation {
@@ -459,12 +460,16 @@ model CharacterMaterialUse {
 // ── Weapon ──────────────────────────────────────────────────────────────────
 
 model Weapon {
-  id           Int                  @id @default(autoincrement())
-  name         String               @unique
-  rarity       Int
-  type         WeaponTypes
-  translations WeaponTranslation[]
-  banners      BannerWeapon[]
+  id                 Int                  @id @default(autoincrement())
+  name               String               @unique
+  rarity             Int
+  type               WeaponTypes
+  releaseDate        DateTime?
+  translations       WeaponTranslation[]
+  levels             WeaponLevel[]
+  ascensionMaterials WeaponAscensionMaterial[]
+  sellers            WeaponSeller[]
+  banners            BannerWeapon[]
 }
 
 model WeaponTranslation {
@@ -472,10 +477,57 @@ model WeaponTranslation {
   language    String
   name        String
   description String?
+  history     String?
   weapon      Weapon   @relation(fields: [weaponId], references: [id])
   weaponId    Int
 
   @@unique([weaponId, language])
+}
+
+model WeaponLevel {
+  id       Int    @id @default(autoincrement())
+  level    String // "1", "2", ..., "20_ASC", "21"...
+  baseAtk  Int
+  weapon   Weapon @relation(fields: [weaponId], references: [id])
+  weaponId Int
+}
+
+model WeaponAscensionMaterial {
+  id       Int                           @id @default(autoincrement())
+  level    Int
+  weapon   Weapon                        @relation(fields: [weaponId], references: [id])
+  weaponId Int
+  items    WeaponAscensionMaterialItem[]
+}
+
+model WeaponAscensionMaterialItem {
+  id                        Int                     @id @default(autoincrement())
+  quantity                  Int
+  ascensionMaterial         WeaponAscensionMaterial @relation(fields: [ascensionMaterialId], references: [id])
+  ascensionMaterialId       Int
+  material                  Material                @relation(fields: [materialId], references: [id])
+  materialId                Int
+}
+
+model WeaponSeller {
+  id           Int                       @id @default(autoincrement())
+  cost         Int
+  stock        Int
+  restock      RestockType
+  translations WeaponSellerTranslation[]
+  weapon       Weapon                    @relation(fields: [weaponId], references: [id])
+  weaponId     Int
+}
+
+model WeaponSellerTranslation {
+  id       Int          @id @default(autoincrement())
+  language String
+  name     String
+  currency String
+  seller   WeaponSeller @relation(fields: [sellerId], references: [id])
+  sellerId Int
+
+  @@unique([sellerId, language])
 }
 
 // ── Banner ──────────────────────────────────────────────────────────────────
@@ -565,6 +617,7 @@ enum AlchemySubTypes {
 
 enum RestockType {
   NEVER
+  DAILY
   WEEKLY
   MONTHLY
   THREE_DAYS

@@ -1,4 +1,4 @@
-export interface LevelData {
+export interface CharacterLevelData {
     baseHp: number; 
     baseDef: number; 
     baseAtk: number; 
