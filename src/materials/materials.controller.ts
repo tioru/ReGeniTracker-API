@@ -17,6 +17,10 @@ export class MaterialsController {
     @Param('name') name: string,  
     @Query('lang') language: string = DEFAULT_LANG
   ) {
-    return this.materialsService.findOne(name, language);
+    try {
+      return this.materialsService.findOne(name, language);
+    } catch (error: any) {
+      console.error(error);
+    }
   }
 }

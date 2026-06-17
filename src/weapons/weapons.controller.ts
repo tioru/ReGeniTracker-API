@@ -1,7 +1,7 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { WeaponsService } from './weapons.service';
 
-const DEFAULT_LANG = 'en';
+const DEFAULT_LANG = "en";
 
 @Controller('weapons')
 export class WeaponsController {
@@ -17,6 +17,10 @@ export class WeaponsController {
     @Param('name') name: string, 
     @Query('lang') lang: string = DEFAULT_LANG
   ) {
-    return this.weaponsService.findOne(name, lang);
+    try {
+      return this.weaponsService.findOne(name, lang);
+    } catch (error: any) {
+      console.error(error);
+    }
   }
 }

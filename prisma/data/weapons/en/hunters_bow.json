@@ -4,7 +4,7 @@
     "rarity": 1,
     "releaseDate": "2020-09-28",
     "sellers" : [
-      { "name": "Schulz", "currency": "Mora", "cost": 300, "stock": 1, "restock": "DAYLY" }
+      { "name": "Schulz", "currency": "Mora", "cost": 300, "stock": 1, "restock": "DAILY" }
     ],
     "ascensionMaterials": [
         {
@@ -35,7 +35,7 @@
             ]
         },
         {
-            "level": 50,
+            "level": 60,
             "materials": [
               { "name": "Croc fendu du Loup boréal", "quantity": 2 },
               { "name": "Feuilles mortes des lignes énergétiques", "quantity": 4 },

@@ -8,6 +8,9 @@ import { join } from 'node:path';
 import { AssetsModule } from './assets/assets.module';
 import { MaterialsModule } from './materials/materials.module';
 import { WeaponsModule } from './weapons/weapons.module';
+import { BannersController } from './banners/banners.controller';
+import { BannersService } from './banners/banners.service';
+import { BannersModule } from './banners/banners.module';
 
 @Module({
   imports: [
@@ -20,8 +23,9 @@ import { WeaponsModule } from './weapons/weapons.module';
     AssetsModule,
     MaterialsModule,
     WeaponsModule,
+    BannersModule,
   ],
-  controllers: [AppController],
-  providers: [AppService],
+  controllers: [AppController, BannersController],
+  providers: [AppService, BannersService],
 })
 export class AppModule {}

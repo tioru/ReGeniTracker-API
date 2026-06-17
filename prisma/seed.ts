@@ -4,6 +4,7 @@ import * as pg from 'pg';
 import { seedCharacters } from './seeds/character.seed';
 import { seedMaterials } from './seeds/material.seed';
 import { seedWeapons } from './seeds/weapon.seed';
+import { seedBanners } from './seeds/banner.seed';
 
 const pool = new pg.Pool({ connectionString: process.env.DATABASE_URL });
 const adapter = new PrismaPg(pool);

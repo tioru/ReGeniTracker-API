@@ -60,13 +60,6 @@ export class BannerHelperImpl implements BannerHelper {
         this.compareEntryLists(reference.weapons, other.weapons, language, reference.name, 'weapons');
     } 
 
-    // ── Helpers privés ────────────────────────────────────────────────────
-
-    private async findExistingBannerId(prisma: PrismaClient, name: string): Promise<number | null> {
-        const existing = await prisma.banner.findFirst({ where: { name }, select: { id: true } });
-        return existing?.id ?? null;
-    }
-
     private async charactersRecreate(prisma: PrismaClient, bannerId: number, entries: NormalizedEntryData[]): Promise<void> {
         await prisma.bannerCharacter.deleteMany({ where: { bannerId } });
 
@@ -150,7 +143,6 @@ export class BannerHelperImpl implements BannerHelper {
         const refData = translations[ENGLISH_INDEX].bannerData;
         const reference = this.normalize(refData);
 
-        // Vérification croisée avec les autres langues (lecture seule)
         for (let i = 0; i < translations.length; i++) {
             if (i === ENGLISH_INDEX) continue;
             const { language, bannerData } = translations[i];
@@ -159,10 +151,9 @@ export class BannerHelperImpl implements BannerHelper {
         }
 
         const banner = await prisma.banner.upsert({
-            where: { id: await this.findExistingBannerId(prisma, reference.name) ?? -1 },
+            where: { name_releaseDate: { name: reference.name, releaseDate: reference.releaseDate } },
             update: {
                 type: reference.type,
-                releaseDate: reference.releaseDate,
                 endDate: reference.endDate,
             },
             create: {
