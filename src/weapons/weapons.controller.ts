@@ -8,17 +8,21 @@ export class WeaponsController {
   constructor(private readonly weaponsService: WeaponsService) {}
 
   @Get()
-  findAll() {
-    return this.weaponsService.findAll();
+  async findAll() {
+    try {
+      return await this.weaponsService.findAll();
+    } catch (error: any) {      
+      console.error(error);
+    }
   }
 
   @Get(':name')
-  findOne(
+  async findOne(
     @Param('name') name: string, 
     @Query('lang') lang: string = DEFAULT_LANG
   ) {
     try {
-      return this.weaponsService.findOne(name, lang);
+      return await this.weaponsService.findOne(name, lang);
     } catch (error: any) {
       console.error(error);
     }

@@ -8,17 +8,21 @@ export class BannersController {
     constructor(private readonly bannersService: BannersService) {}
 
     @Get()
-    findAll() {
-        return this.bannersService.findAll();
+    async findAll() {
+        try {
+            return await this.bannersService.findAll();
+        } catch (error: any) {
+            console.error(error);
+        }
     }
 
     @Get(':name')
-    findOne(
+    async findOne(
         @Param('name') name: string, 
         @Query('lang') lang: string = DEFAULT_LANG
     ) {
         try {
-            return this.bannersService.findOne(name, lang);
+            return await this.bannersService.findOne(name, lang);
         } catch (error: any) {
             console.error(error);
         }

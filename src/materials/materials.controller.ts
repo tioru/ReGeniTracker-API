@@ -8,17 +8,21 @@ export class MaterialsController {
   constructor(private readonly materialsService: MaterialsService) {}
 
   @Get()
-  findAll() {
-    return this.materialsService.findAll();
+  async findAll() {
+    try {
+      return await this.materialsService.findAll();
+    } catch (error: any) {
+      console.error(error);
+    }
   }
   
   @Get(':name')
-  findOne(
+  async findOne(
     @Param('name') name: string,  
     @Query('lang') language: string = DEFAULT_LANG
   ) {
     try {
-      return this.materialsService.findOne(name, language);
+      return await this.materialsService.findOne(name, language);
     } catch (error: any) {
       console.error(error);
     }

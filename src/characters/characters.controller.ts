@@ -8,17 +8,21 @@ export class CharactersController {
   constructor(private readonly charactersService: CharactersService) {}
 
   @Get()
-  findAll() {
-    return this.charactersService.findAll();
+  async findAll() {
+    try {
+      return await this.charactersService.findAll();
+    } catch (error: any) {
+      console.error(error);
+    }
   }
 
   @Get(':name')
-  findOne(
+  async findOne(
     @Param('name') name: string,
     @Query('lang') lang: string = DEFAULT_LANG
   ) {
     try {
-      return this.charactersService.findOne(name, lang);
+      return await this.charactersService.findOne(name, lang);
     } catch (error: any) {
       console.error(error);
     } 
