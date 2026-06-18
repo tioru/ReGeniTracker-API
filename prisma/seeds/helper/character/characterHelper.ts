@@ -1,6 +1,6 @@
 import { ObtainingTypes, PrismaClient } from "@prisma/client";
-import { CharacterData } from "../../model/character/character";
-import { DescriptionData } from "../../model/character/description";
+import { CharacterData } from "../../../../src/model/data/character/character";
+import { DescriptionData } from "../../../../src/model/data/character/description";
 
 export interface CharacterHelper {
     loadJson(filePath: string): CharacterData;

@@ -1,7 +1,7 @@
 import * as fs from 'node:fs';
 import { PrismaClient, WeaponTypes } from "@prisma/client";
 import { WeaponHelper } from "./weaponHelper";
-import { WeaponData } from "../../model/weapon/weapon";
+import { WeaponData } from "../../../../src/model/data/weapon/weapon";
 
 export const BUFFER_ENCODING = 'utf-8';
 const ENGLISH_INDEX = 0;

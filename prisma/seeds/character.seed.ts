@@ -2,7 +2,7 @@ import { PrismaClient } from '@prisma/client';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { CharacterHelperImpl } from './helper/character/characterHelperImpl';
-import { CharacterData } from './model/character/character';
+import { CharacterData } from '../../src/model/data/character/character';
 import { CharacterHelper } from './helper/character/characterHelper';
 
 export const DEFAULT_LANG = 'en';

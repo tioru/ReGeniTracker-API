@@ -1,11 +1,11 @@
 import * as fs from 'node:fs';
 import { PrismaClient } from '@prisma/client';
 import { BannerHelper } from './bannerHelper';
-import { BannerData } from '../../model/banner/banner';
-import { NormalizedBannerData } from '../../model/banner/normalizedBanner';
-import { NormalizedEntryData } from '../../model/banner/normalizedEntry';
-import { WeaponRaritySplitData } from '../../model/banner/weaponRaritySplit';
-import { CharacterRaritySplitData } from '../../model/banner/characterRaritySplit';
+import { BannerData } from '../../../../src/model/data/banner/banner';
+import { NormalizedBannerData } from '../../../../src/model/data/banner/normalizedBanner';
+import { NormalizedEntryData } from '../../../../src/model/data/banner/normalizedEntry';
+import { WeaponRaritySplitData } from '../../../../src/model/data/banner/weaponRaritySplit';
+import { CharacterRaritySplitData } from '../../../../src/model/data/banner/characterRaritySplit';
 
 export const BUFFER_ENCODING = 'utf-8';
 const ENGLISH_INDEX = 0;

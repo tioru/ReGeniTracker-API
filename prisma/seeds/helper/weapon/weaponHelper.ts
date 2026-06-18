@@ -1,5 +1,5 @@
 import { PrismaClient, WeaponTypes } from "@prisma/client";
-import { WeaponData } from "../../model/weapon/weapon";
+import { WeaponData } from "../../../../src/model/data/weapon/weapon";
 
 export interface WeaponHelper {
     loadJson(filePath: string): WeaponData;

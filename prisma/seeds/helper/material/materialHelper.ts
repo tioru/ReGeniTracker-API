@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-import { MaterialData } from "../../model/material/material";
+import { MaterialData } from "../../../../src/model/data/material/material";
 
 export interface MaterialHelper {
   loadJson(filePath: string): MaterialData;

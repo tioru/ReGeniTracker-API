@@ -2,7 +2,7 @@ import * as fs from "node:fs";
 import * as path from "node:path";
 import { PrismaClient } from "@prisma/client";
 import { MaterialHelperImpl } from "./helper/material/materialHelperImpl";
-import { MaterialData } from "./model/material/material";
+import { MaterialData } from "../../src/model/data/material/material";
 import { MaterialHelper } from "./helper/material/materialHelper";
 
 const DEFAULT_LANG = "en";

@@ -3,7 +3,7 @@ import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { BannerHelper } from './helper/banner/bannerHelper';
 import { BannerHelperImpl } from './helper/banner/bannerHelperImpl';
-import { BannerData } from './model/banner/banner';
+import { BannerData } from '../../src/model/data/banner/banner';
 
 export const DEFAULT_LANG = 'en';
 const BANNERS_DIR = "../data/banners";

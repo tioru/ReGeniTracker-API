@@ -3,7 +3,7 @@ import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { WeaponHelper } from './helper/weapon/weaponHelper';
 import { WeaponHelperImpl } from './helper/weapon/weaponHelperImpl';
-import { WeaponData } from './model/weapon/weapon';
+import { WeaponData } from '../../src/model/data/weapon/weapon';
 
 export const DEFAULT_LANG = 'en';
 const WEAPONS_DIR = "../data/weapons";

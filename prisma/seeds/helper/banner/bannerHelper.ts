@@ -1,6 +1,6 @@
 import { PrismaClient } from "@prisma/client";
-import { BannerData } from "../../model/banner/banner";
-import { NormalizedBannerData } from "../../model/banner/normalizedBanner";
+import { BannerData } from "../../../../src/model/data/banner/banner";
+import { NormalizedBannerData } from "../../../../src/model/data/banner/normalizedBanner";
 
 export interface BannerHelper {  
     loadJson(filePath: string): BannerData;

@@ -1,6 +1,6 @@
 import * as fs from 'node:fs';
 import { MaterialHelper } from "./materialHelper";
-import { MaterialData } from "../../model/material/material";
+import { MaterialData } from "../../../../src/model/data/material/material";
 import { CharacterMaterialType, MaterialCategories, MaterialSourceTypes, PrismaClient } from "@prisma/client";
 
 const BUFFER_ENCODING = 'utf-8';
