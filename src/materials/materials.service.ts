@@ -4,50 +4,14 @@ import { CharacterMaterialType, Prisma } from '@prisma/client';
 import { MaterialOut } from '../model/out/material/material';
 import { MaterialSourceOut } from '../model/out/material/materialSource';
 import { MaterialSellerOut } from '../model/out/material/seller';
+import { pickTranslation } from '../common';
 
-type MaterialWithRelations = Prisma.MaterialGetPayload<{
-  include: {
-    translations: true,
-    sources: {
-      include: {
-        translations: true,
-        recipes: {
-          include: {
-            ingredients: {
-              include: { translations: true },
-            },
-          },
-        },
-      },
-    },
-    sellers: {
-      include: { translations: true },
-    },
-    usedIn: {
-      include: { translations: true },
-    },
-    usedByCharacters: {
-      include: {
-        character: {
-          include: { translations: true },
-        },
-      },
-    },
-  };
-}>;
+
 
 type SourceWithRelations = MaterialWithRelations['sources'][number];
 type SellerWithRelations = MaterialWithRelations['sellers'][number];
 type UsedInWithRelations = MaterialWithRelations['usedIn'][number];
 type UsedByCharacterWithRelations = MaterialWithRelations['usedByCharacters'][number];
-
-// ── Helpers ────────────────────────────────────────────────────────────────────
-
-function pickTranslation(translations: any[], language: string): any {
-  return translations.find((translation: any) => translation.language === language) ?? null;
-}
-
-// ── Mappers ────────────────────────────────────────────────────────────────────
 
 function mapMaterial(materialWithRelations: MaterialWithRelations, language: string): MaterialOut {
   const pickedTranslation = pickTranslation(materialWithRelations.translations, language);

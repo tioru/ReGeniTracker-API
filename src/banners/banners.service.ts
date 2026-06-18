@@ -4,31 +4,14 @@ import { CharacterRaritySplitOut } from '../model/out/banner/characterRaritySpli
 import { WeaponRaritySplitOut } from '../model/out/banner/weaponRaritySplit';
 import { BannerOut } from '../model/out/banner/banner';
 import { PrismaService } from '../prisma/prisma.service';
+import { pickTranslation } from '../common';
 
-type BannerWithRelations = Prisma.BannerGetPayload<{
-  include: {
-    translations: true,
-    characters: {
-      include: {
-        character: { include: { translations: true } },
-      },
-    },
-    weapons: {
-      include: {
-        weapon: { include: { translations: true } },
-      },
-    },
-  };
-}>;
+
 
 type BannerCharacterWithRelations = BannerWithRelations['characters'][number];
 type BannerWeaponWithRelations = BannerWithRelations['weapons'][number];
 
 // ── Helpers ────────────────────────────────────────────────────────────────────
-
-function pickTranslation(translations: any[], language: string): any {
-    return translations.find((translation: any) => translation.language === language) ?? null;
-}
 
 function emptyCharacterSplit(): CharacterRaritySplitOut {
     return { featured5Star: [], featured4Star: [], featured3Star: [] };

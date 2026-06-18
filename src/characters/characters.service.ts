@@ -10,78 +10,10 @@ import { AscensionMaterialOut } from '../model/out/character/ascensionMaterial';
 import { AscensionTalentOut } from '../model/out/character/ascensionTalent';
 import { AdditionalTalentOut } from '../model/out/character/additionalTalent';
 import { ConstellationOut } from '../model/out/character/constellation';
+import { pickTranslation } from '../common';
+import { ENGLISH_INDEX } from '../../constants';
 
-type CharacterWithRelations = Prisma.CharacterGetPayload<{
-  include: {
-    translations: true,
-    levels: true,
-    ascensionMaterials: {
-      include: {
-        items: { 
-          include: { 
-            material: {
-              include: {
-                translations: true
-              },
-            },
-          },
-        },
-      },
-    },
-    normalAttacks: {
-      include: {
-        translations: { include: { descriptions: true } },
-        upgrades: {
-          include: { translations: true },
-        },
-      },
-    },
-    elementalSkills: {
-      include: {
-        translations: { include: { descriptions: true } },
-        upgrades: {
-          include: { translations: true },
-        },
-      },
-    },
-    elementalBursts: {
-      include: {
-        translations: { include: { descriptions: true } },
-        upgrades: {
-          include: { translations: true },
-        },
-      },
-    },
-    passiveTalents: {
-      include: {
-        translations: { include: { descriptions: true } },
-        attributes: {
-          include: { translations: true },
-        },
-      },
-    },
-    ascensionTalents: {
-      include: {
-        translations: { include: { descriptions: true } },
-      },
-    },
-    additionalTalents: {
-      include: {
-        translations: { include: { descriptions: true } },
-      },
-    },
-    constellations: {
-      include: {
-        translations: {
-          include: {
-            descriptions: true,
-            hexereiBuffDescriptions: true,
-          },
-        },
-      },
-    },
-  }
-}>;
+
 
 type AscensionMaterialWithRelations = CharacterWithRelations['ascensionMaterials'][number];
 type AscensionMaterialWithRelationsItem = AscensionMaterialWithRelations['items'][number];
@@ -95,10 +27,6 @@ type AdditionalTalentWithRelations = CharacterWithRelations["additionalTalents"]
 type ConstellationWithRelations = CharacterWithRelations["constellations"][number];
 
 // ── Helpers ────────────────────────────────────────────────────────────────────
-
-function pickTranslation(translations: any[], language: string): any {
-  return translations.find((translation: any) => translation.language === language) ?? null;
-}
 
 function mapDescriptions(items: { title: string | null; description: string }[]) {
   return items.map(description => ({ title: description.title, description: description.description }));
@@ -177,10 +105,14 @@ function mapAscensionMaterials(ascensionMaterialsWithRelations: AscensionMateria
 function mapNormalAttack(normalAttackWithRelations: NormalAttackWithRelations, language: string) : NormalAttackOut {
   const pickedTranslation = pickTranslation(normalAttackWithRelations.translations, language);
 
+  if (!pickedTranslation) {
+    console.warn(`⚠️  Missing translation (${language}) for normal attack ${normalAttackWithRelations.translations[ENGLISH_INDEX].name}`);
+  }
+
   return {
     unlock: mapUnlockType(normalAttackWithRelations.unlock),
-    name: pickedTranslation.name,
-    descriptions: mapDescriptions(pickedTranslation.descriptions),
+    name: pickedTranslation?.name ?? '',
+    descriptions: mapDescriptions(pickedTranslation?.descriptions ?? []),
     upgrades: normalAttackWithRelations.upgrades.map((upgrade) => {
       const translation = pickTranslation(upgrade.translations, language);
       return {
@@ -194,11 +126,15 @@ function mapNormalAttack(normalAttackWithRelations: NormalAttackWithRelations, l
 function mapElementalSkill(elementalSkillWithRelations: ElementalSkillWithRelations, language: string) : ElementalSkillOut {
   const pickedTranslation = pickTranslation(elementalSkillWithRelations.translations, language);
 
+  if (!pickedTranslation) {
+    console.warn(`⚠️  Missing translation (${language}) for elemental skill ${elementalSkillWithRelations.translations[ENGLISH_INDEX].name}`);
+  }
+
   return {
     unlock: mapUnlockType(elementalSkillWithRelations.unlock),
-    name: pickedTranslation.name,
-    note: pickedTranslation.note,
-    descriptions: mapDescriptions(pickedTranslation.descriptions),
+    name: pickedTranslation?.name ?? '',
+    note: pickedTranslation?.note ?? '',
+    descriptions: mapDescriptions(pickedTranslation?.descriptions ?? []),
     upgrades: elementalSkillWithRelations.upgrades.map((upgrade) => {
       const translation = pickTranslation(upgrade.translations, language);
       return {
@@ -212,11 +148,15 @@ function mapElementalSkill(elementalSkillWithRelations: ElementalSkillWithRelati
 function mapElementalBurst(elementalBurstWithRelations: ElementalBurstWithRelations, language: string) : ElementalBurstOut {
   const pickedTranslation = pickTranslation(elementalBurstWithRelations.translations, language);
 
+  if (!pickedTranslation) {
+    console.warn(`⚠️  Missing translation (${language}) for elemental burst ${elementalBurstWithRelations.translations[ENGLISH_INDEX].name}`);
+  }
+
   return {
     unlock: mapUnlockType(elementalBurstWithRelations.unlock),
-    name: pickedTranslation.name,
-    note: pickedTranslation.note,
-    descriptions: mapDescriptions(pickedTranslation.descriptions),
+    name: pickedTranslation?.name ?? '',
+    note: pickedTranslation?.note ?? '',
+    descriptions: mapDescriptions(pickedTranslation?.descriptions ?? []),
     upgrades: elementalBurstWithRelations.upgrades.map((upgrade) => {
       const translation = pickTranslation(upgrade.translations, language);
       return {
@@ -230,10 +170,14 @@ function mapElementalBurst(elementalBurstWithRelations: ElementalBurstWithRelati
 function mapPassiveTalent(passiveTalentWithRelations: PassiveTalentWithRelations, language: string) : PassiveTalentOut {
   const pickedTranslation = pickTranslation(passiveTalentWithRelations.translations, language);
 
+  if (!pickedTranslation) {
+    console.warn(`⚠️  Missing translation (${language}) for passive talent ${passiveTalentWithRelations.translations[ENGLISH_INDEX].name}`);
+  }
+
   return {
     unlock: mapUnlockType(passiveTalentWithRelations.unlock),
-    name: pickedTranslation.name,
-    descriptions: mapDescriptions(pickedTranslation.descriptions),
+    name: pickedTranslation?.name ?? '',
+    descriptions: mapDescriptions(pickedTranslation?.descriptions ?? []),
     attributes: passiveTalentWithRelations.attributes.map((attribute) => {
       const translation = pickTranslation(attribute.translations, language);
       return {
@@ -247,31 +191,43 @@ function mapPassiveTalent(passiveTalentWithRelations: PassiveTalentWithRelations
 function mapAscensionTalent(ascensionTalentWithRelations: AscensionTalentWithRelations, language: string) : AscensionTalentOut {
   const pickedTranslation = pickTranslation(ascensionTalentWithRelations.translations, language);
   
+  if (!pickedTranslation) {
+    console.warn(`⚠️  Missing translation (${language}) for ascension talent ${ascensionTalentWithRelations.translations[ENGLISH_INDEX].name}`);
+  }
+
   return {
     unlock: mapUnlockType(ascensionTalentWithRelations.unlock),
-    name: pickedTranslation.name,
-    descriptions: mapDescriptions(pickedTranslation.descriptions),
+    name: pickedTranslation?.name ?? '',
+    descriptions: mapDescriptions(pickedTranslation?.descriptions ?? []),
   } satisfies AscensionTalentOut;
 }
 
 function mapAdditionalTalent(additionalTalentWithRelations: AdditionalTalentWithRelations, language: string) : AdditionalTalentOut {
   const pickedTranslation = pickTranslation(additionalTalentWithRelations.translations, language);
   
+  if (!pickedTranslation) {
+    console.warn(`⚠️  Missing translation (${language}) for additional talent ${additionalTalentWithRelations.translations[ENGLISH_INDEX].name}`);
+  }
+
   return {
     unlock: mapUnlockType(additionalTalentWithRelations.unlock),
-    name: pickedTranslation.name,
-    descriptions: mapDescriptions(pickedTranslation.descriptions),
+    name: pickedTranslation?.name ?? '',
+    descriptions: mapDescriptions(pickedTranslation?.descriptions ?? []),
   } satisfies AdditionalTalentOut;
 }
 
 function mapConstellation(constellationWithRelations: ConstellationWithRelations, language: string) : ConstellationOut {
   const pickedTranslation = pickTranslation(constellationWithRelations.translations, language);
 
+  if (!pickedTranslation) {
+    console.warn(`⚠️  Missing translation (${language}) for constellation ${constellationWithRelations.translations[ENGLISH_INDEX].name}`);
+  }
+
   return {
     level: constellationWithRelations.level,
-    name: pickedTranslation.name,
-    descriptions: mapDescriptions(pickedTranslation.descriptions),
-    hexereiBuffDescriptions: mapDescriptions(pickedTranslation.hexereiBuffDescriptions),
+    name: pickedTranslation?.name ?? '',
+    descriptions: mapDescriptions(pickedTranslation?.descriptions ?? []),
+    hexereiBuffDescriptions: mapDescriptions(pickedTranslation?.hexereiBuffDescriptions ?? []),
   } satisfies ConstellationOut;
 }
 

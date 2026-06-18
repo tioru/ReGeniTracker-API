@@ -4,8 +4,8 @@ import * as path from 'node:path';
 import { BannerHelper } from './helper/banner/bannerHelper';
 import { BannerHelperImpl } from './helper/banner/bannerHelperImpl';
 import { BannerData } from '../../src/model/data/banner/banner';
+import { DEFAULT_LANG } from '../../constants';
 
-export const DEFAULT_LANG = 'en';
 const BANNERS_DIR = "../data/banners";
 const BANNER_SUBDIRS = ['characters', 'weapons'];
 

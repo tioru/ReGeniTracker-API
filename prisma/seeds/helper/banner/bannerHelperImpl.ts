@@ -6,9 +6,7 @@ import { NormalizedBannerData } from '../../../../src/model/data/banner/normaliz
 import { NormalizedEntryData } from '../../../../src/model/data/banner/normalizedEntry';
 import { WeaponRaritySplitData } from '../../../../src/model/data/banner/weaponRaritySplit';
 import { CharacterRaritySplitData } from '../../../../src/model/data/banner/characterRaritySplit';
-
-export const BUFFER_ENCODING = 'utf-8';
-const ENGLISH_INDEX = 0;
+import { BUFFER_ENCODING, ENGLISH_INDEX } from '../../../../constants';
 
 const RARITY_MAP: Record<string, number> = {
   featured3Star: 3,

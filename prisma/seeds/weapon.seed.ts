@@ -4,8 +4,8 @@ import * as path from 'node:path';
 import { WeaponHelper } from './helper/weapon/weaponHelper';
 import { WeaponHelperImpl } from './helper/weapon/weaponHelperImpl';
 import { WeaponData } from '../../src/model/data/weapon/weapon';
+import { DEFAULT_LANG } from '../../constants';
 
-export const DEFAULT_LANG = 'en';
 const WEAPONS_DIR = "../data/weapons";
 
 export async function seedWeapons(prisma: PrismaClient) : Promise<void> {

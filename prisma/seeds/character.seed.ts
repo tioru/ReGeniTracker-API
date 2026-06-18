@@ -4,8 +4,9 @@ import * as path from 'node:path';
 import { CharacterHelperImpl } from './helper/character/characterHelperImpl';
 import { CharacterData } from '../../src/model/data/character/character';
 import { CharacterHelper } from './helper/character/characterHelper';
+import { DEFAULT_LANG } from './weapon.seed';
 
-export const DEFAULT_LANG = 'en';
+
 const CHARACTERS_DIR = "../data/characters";
 
 export async function seedCharacters(prisma: PrismaClient) : Promise<void> {

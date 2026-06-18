@@ -3,9 +3,7 @@ import * as fs from 'node:fs';
 import { ObtainingTypes, PrismaClient } from "@prisma/client";
 import { CharacterData } from "../../../../src/model/data/character/character";
 import { DescriptionData } from "../../../../src/model/data/character/description";
-
-export const BUFFER_ENCODING = 'utf-8';
-const ENGLISH_INDEX = 0;
+import { BUFFER_ENCODING, ENGLISH_INDEX } from "../../../../constants";
 
 export class CharacterHelperImpl implements CharacterHelper {
   public loadJson(fullPath: string): CharacterData {

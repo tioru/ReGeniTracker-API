@@ -2,9 +2,9 @@ import * as fs from 'node:fs';
 import { PrismaClient, WeaponTypes } from "@prisma/client";
 import { WeaponHelper } from "./weaponHelper";
 import { WeaponData } from "../../../../src/model/data/weapon/weapon";
+import { BUFFER_ENCODING, ENGLISH_INDEX } from '../../../../constants';
 
-export const BUFFER_ENCODING = 'utf-8';
-const ENGLISH_INDEX = 0;
+
 
 export class WeaponHelperImpl implements WeaponHelper {
     loadJson(fullPath: string): WeaponData {

@@ -2,9 +2,7 @@ import * as fs from 'node:fs';
 import { MaterialHelper } from "./materialHelper";
 import { MaterialData } from "../../../../src/model/data/material/material";
 import { CharacterMaterialType, MaterialCategories, MaterialSourceTypes, PrismaClient } from "@prisma/client";
-
-const BUFFER_ENCODING = 'utf-8';
-const ENGLISH_INDEX = 0;
+import { BUFFER_ENCODING, ENGLISH_INDEX } from '../../../../constants';
 
 export class MaterialHelperImpl implements MaterialHelper {
     public loadJson(fullPath: string): MaterialData {

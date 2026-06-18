@@ -44,6 +44,7 @@ model CharacterLevel {
 model CharacterTranslation {
   id            Int       @id @default(autoincrement())
   language      String
+  name          String?
   title         String?
   description   String?
   affiliation   String?
