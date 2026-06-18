@@ -4,8 +4,8 @@ import { PrismaClient } from "@prisma/client";
 import { MaterialHelperImpl } from "./helper/material/materialHelperImpl";
 import { MaterialData } from "../../src/model/data/material/material";
 import { MaterialHelper } from "./helper/material/materialHelper";
+import { DEFAULT_LANG } from "../../constants";
 
-const DEFAULT_LANG = "en";
 const MATERIALS_DIR = "../data/materials";
 
 export async function seedMaterials(prisma: PrismaClient): Promise<void> {

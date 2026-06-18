@@ -1,6 +1,6 @@
 import { pickTranslation } from "../../common";
 import { WeaponAscensionMaterialOut } from "../../model/out/weapon/ascensionMaterial";
-import { WeaponWithRelations } from "../weapons.service";
+import { WeaponWithRelations } from "../../model/withRelations/weapon";
 
 type AscensionMaterialWithRelations = WeaponWithRelations['ascensionMaterials'][number];
 type AscensionMaterialWithRelationsItem = AscensionMaterialWithRelations['items'][number];

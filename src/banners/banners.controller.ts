@@ -1,7 +1,6 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { BannersService } from './banners.service';
-
-const DEFAULT_LANG = "en";
+import { DEFAULT_LANG } from '../../constants';
 
 @Controller('banners')
 export class BannersController {

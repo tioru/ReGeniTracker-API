@@ -1,6 +1,6 @@
 import { pickTranslation } from "../../common";
 import { WeaponSellerOut } from "../../model/out/weapon/seller";
-import { WeaponWithRelations } from "../weapons.service";
+import { WeaponWithRelations } from "../../model/withRelations/weapon";
 
 type SellerWithRelations = WeaponWithRelations['sellers'][number];
 

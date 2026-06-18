@@ -1,7 +1,6 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { MaterialsService } from './materials.service';
-
-const DEFAULT_LANG = "en";
+import { DEFAULT_LANG } from '../../constants';
 
 @Controller('materials')
 export class MaterialsController {

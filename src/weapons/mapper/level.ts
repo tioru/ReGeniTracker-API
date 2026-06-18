@@ -1,5 +1,5 @@
 import { WeaponOut } from "../../model/out/weapon/weapon";
-import { WeaponWithRelations } from "../weapons.service";
+import { WeaponWithRelations } from "../../model/withRelations/weapon";
 
 type LevelsWithRelations = WeaponWithRelations['levels'];
 

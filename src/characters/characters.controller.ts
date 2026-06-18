@@ -1,7 +1,6 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { CharactersService } from './characters.service';
-
-const DEFAULT_LANG = "en";
+import { DEFAULT_LANG } from '../../constants';
 
 @Controller('characters')
 export class CharactersController {

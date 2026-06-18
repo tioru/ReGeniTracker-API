@@ -1,7 +1,6 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { WeaponsService } from './weapons.service';
-
-const DEFAULT_LANG = "en";
+import { DEFAULT_LANG } from '../../constants';
 
 @Controller('weapons')
 export class WeaponsController {
