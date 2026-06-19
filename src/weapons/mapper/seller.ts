@@ -13,6 +13,6 @@ export function mapSellers(sellersWithRelations: SellerWithRelations[], language
             cost: sellerWithRelations.cost,
             stock: sellerWithRelations.stock,
             restock: sellerWithRelations.restock,
-        };
+        } satisfies WeaponSellerOut;
     });
 }

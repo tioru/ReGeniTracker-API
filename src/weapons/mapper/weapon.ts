@@ -23,5 +23,5 @@ export function mapWeapon(weaponWithRelations: WeaponWithRelations, language: st
         levels: mapLevels(weaponWithRelations.levels),
         ascensionMaterials: mapAscensionMaterials(weaponWithRelations.ascensionMaterials, language),
         sellers: mapSellers(weaponWithRelations.sellers, language),
-    };
+    } satisfies WeaponOut;
 }

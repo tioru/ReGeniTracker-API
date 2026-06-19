@@ -1,6 +1,6 @@
 import { pickTranslation } from "../../common";
 import { AscensionMaterialOut } from "../../model/out/character/ascensionMaterial";
-import { CharacterWithRelations } from "../../model/withRelations/characters";
+import { CharacterWithRelations } from "../../model/withRelations/character";
 
 type AscensionMaterialWithRelations = CharacterWithRelations['ascensionMaterials'][number];
 type AscensionMaterialWithRelationsItem = AscensionMaterialWithRelations['items'][number];

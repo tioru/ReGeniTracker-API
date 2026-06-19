@@ -1,5 +1,5 @@
 import { CharacterOut } from "../../model/out/character/character";
-import { CharacterWithRelations } from "../../model/withRelations/characters";
+import { CharacterWithRelations } from "../../model/withRelations/character";
 
 type LevelsWithRelations = CharacterWithRelations["levels"];
 

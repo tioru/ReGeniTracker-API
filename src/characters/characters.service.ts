@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { CharacterOut } from '../model/out/character/character';
-import { CharacterWithRelations } from '../model/withRelations/characters';
+import { CHARACTER_INCLUDE, CharacterWithRelations } from '../model/withRelations/character';
 import { mapCharacter } from './mapper/character';
 
 @Injectable()
@@ -16,77 +16,13 @@ export class CharactersService {
   }
 
   async findOne(name: string, language: string) : Promise<CharacterOut | undefined> {
-    const character : CharacterWithRelations | null = await this.prisma.character.findUnique({
-      where: { name },
-      include: {
-        translations: true,
-        levels: true,
-        ascensionMaterials: {
-          include: {
-            items: { 
-              include: { 
-                material: {
-                  include: {
-                    translations: true
-                  },
-                },
-              },
-            },
-          },
-        },
-        normalAttacks: {
-          include: {
-            translations: { include: { descriptions: true } },
-            upgrades: {
-              include: { translations: true },
-            },
-          },
-        },
-        elementalSkills: {
-          include: {
-            translations: { include: { descriptions: true } },
-            upgrades: {
-              include: { translations: true },
-            },
-          },
-        },
-        elementalBursts: {
-          include: {
-            translations: { include: { descriptions: true } },
-            upgrades: {
-              include: { translations: true },
-            },
-          },
-        },
-        passiveTalents: {
-          include: {
-            translations: { include: { descriptions: true } },
-            attributes: {
-              include: { translations: true },
-            },
-          },
-        },
-        ascensionTalents: {
-          include: {
-            translations: { include: { descriptions: true } },
-          },
-        },
-        additionalTalents: {
-          include: {
-            translations: { include: { descriptions: true } },
-          },
-        },
-        constellations: {
-          include: {
-            translations: {
-              include: {
-                descriptions: true,
-                hexereiBuffDescriptions: true,
-              },
-            },
-          },
-        },
+    const normalizedName = name.replace(/_/g, ' ');
+
+    const character : CharacterWithRelations | null = await this.prisma.character.findFirst({
+      where: {
+        name: { equals: normalizedName, mode: 'insensitive' },
       },
+      include: CHARACTER_INCLUDE,
     });
 
     if (!character) {

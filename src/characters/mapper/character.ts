@@ -1,7 +1,7 @@
 import { NotFoundException } from "@nestjs/common";
 import { pickTranslation } from "../../common";
 import { CharacterOut } from "../../model/out/character/character";
-import { CharacterWithRelations } from "../../model/withRelations/characters";
+import { CharacterWithRelations } from "../../model/withRelations/character";
 import { mapLevels } from "./level";
 import { UnlockTypes } from "@prisma/client";
 import { mapAdditionalTalent } from "./additionalTalent";

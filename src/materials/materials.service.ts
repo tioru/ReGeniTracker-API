@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { MaterialOut } from '../model/out/material/material';
-import { MaterialWithRelations } from '../model/withRelations/material';
+import { MATERIAL_INCLUDE, MaterialWithRelations } from '../model/withRelations/material';
 import { mapMaterial } from './mapper/material';
 
 @Injectable()
@@ -16,36 +16,11 @@ export class MaterialsService {
   }
 
   async findOne(name: string, language: string): Promise<MaterialOut | undefined> {
-    const material: MaterialWithRelations | null = await this.prisma.material.findUnique({
-      where: { name },
-      include: {
-        translations: true,
-        sources: {
-          include: {
-            translations: true,
-            recipes: {
-              include: {
-                ingredients: {
-                  include: { translations: true },
-                },
-              },
-            },
-          },
-        },
-        sellers: {
-          include: { translations: true },
-        },
-        usedIn: {
-          include: { translations: true },
-        },
-        usedByCharacters: {
-          include: {
-            character: {
-              include: { translations: true },
-            },
-          },
-        },
+    const material: MaterialWithRelations | null = await this.prisma.material.findFirst({
+      where: {
+        name: { equals: name, mode: 'insensitive' },
       },
+      include: MATERIAL_INCLUDE,
     });
 
     if (!material) {

@@ -2,7 +2,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { WeaponOut } from '../model/out/weapon/weapon';
 import { PrismaService } from '../prisma/prisma.service';
 import { mapWeapon } from './mapper/weapon';
-import { WeaponWithRelations } from '../model/withRelations/weapon';
+import { WEAPON_INCLUDE, WeaponWithRelations } from '../model/withRelations/weapon';
 
 @Injectable()
 export class WeaponsService {
@@ -16,28 +16,13 @@ export class WeaponsService {
     }
 
     async findOne(name: string, language: string): Promise<WeaponOut | undefined> {
-        const weapon: WeaponWithRelations | null = await this.prisma.weapon.findUnique({
-            where: { name },
-            include: {
-                translations: true,
-                levels: true,
-                ascensionMaterials: {
-                    include: {
-                        items: {
-                            include: {
-                                material: {
-                                    include: {
-                                        translations: true,
-                                    },
-                                },
-                            },
-                        },
-                    },
-                },
-                sellers: {
-                    include: { translations: true },
-                },
+        const normalizedName = name.replace(/_/g, ' ');
+
+        const weapon: WeaponWithRelations | null = await this.prisma.weapon.findFirst({
+            where: {
+                name: { equals: normalizedName, mode: 'insensitive' },
             },
+            include: WEAPON_INCLUDE
         });
 
         if (!weapon) {
