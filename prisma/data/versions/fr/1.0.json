@@ -25,11 +25,28 @@
         "Keqing",
         "Mona",
         "Qiqi",
-        "Traveler"
+        "Voyageur"
     ],
     "mapExpansion": [
-      "Mondstadt",
-      "Liyue"
+      {
+            "mainRegion": "Mondstadt",
+            "subRegion": [
+                "Montagnes de Brillecouronne",
+                "Colline sifflante",
+                "Vallée Tombétoile",
+                "Hauts du Mornevent"
+            ]
+        },
+        {
+            "mainRegion": "Liyue",
+            "subRegion": [
+               "Sources de Jade",
+               "Lisha",
+               "Forêt de jade",
+               "Estuaire Qiongji",
+               "Mer de nuages"
+            ]
+        }
     ],
     "newWeapons": {
         "1Star": [
@@ -131,11 +148,11 @@
         ]
     },
     "newBosses": [
-        "Anemo Hypostasis",
-        "Electro Hypostasis",
-        "Geo Hypostasis",
-        "Pyro Regisvine",
-        "Cryo Regisvine",
+        "Hypostase Anémo",
+        "Hypostase Électro",
+        "Hypostase Géo",
+        "Arbre enflammé",
+        "Arbre congelé",
         "Oceanid"
     ],
     "banners" : {
@@ -144,16 +161,16 @@
             "Foulées étincelantes"
         ],
         "weapons": [
-            "Epitome Invocation"
+            "Incarnation divine"
         ]
     },
     "events" : [
-        "Fate Foretold",
-        "Barbara's Shining Debut",
-        "Spiral Abyss Event - People's Choice",
-        "Seize the Day",
-        "Elemental Crucible",
-        "Marvelous Merchandise"
+        "Prédestination",
+        "Barbara entre en scène",
+        "Voix du peuple",
+        "Instant Présent",
+        "Fourneau élémentaire",
+        "Merveilleuses marchandises"
     ],
     "newQuests" : {
         "archonQuests" :  [
@@ -161,26 +178,26 @@
                 "chapter": "prologue",
                 "chapterName": "Prologue",
                 "acts": [
-                    { "act": 1, "name": "The Outlander Who Caught the Wind" },
-                    { "act": 2, "name": "For a Tomorrow Without Tears" },
-                    { "act": 3, "name": "Song of the Dragon and Freedom" }
+                    { "act": 1, "name": "Le voyageur qui attrapa le vent" },
+                    { "act": 2, "name": "Pour un avenir sans larmes" },
+                    { "act": 3, "name": "Chanson du dragon et de la liberté" }
                 ]
             },
             {
                 "chapter": "1",
-                "chapterName": "Chapter I",
+                "chapterName": "Chapitre I",
                 "acts": [
-                    { "act": 1, "name": "Of the Land Amidst Monoliths" },
-                    { "act": 2, "name": "Farewell, Archaic Lord" }
+                    { "act": 1, "name": "La terre mystique aux mille rochers" },
+                    { "act": 2, "name": "Adieu à l'Exuvia" }
                 ]
             }
         ],
         "storyQuests" : [
             {
-                "chapter": "Pavo Ocellus Chapter",
+                "chapter": "Pavo Ocellus",
                 "character": "Kaeya",
                 "acts": [
-                    { "act": 1, "name": "Secret Pirate Treasure" }
+                    { "act": 1, "name": "Trésor secret de pirate" }
                 ]
             },
             {
@@ -381,5 +398,25 @@
         "Eye of the Storm",
         "Geovishap Hatchling",
         "Whopperflowers"
+    ],
+    "newDomains": [
+        "Lagunes et montagnes",
+        "Au-dessus des nuages",
+        "Palais secret de la Formule Zhou",
+        "Jardin estival",
+        "Vallée de la réminiscence",
+        "Pépinière de cécilias",
+        "Palais secret de Lianshan",
+        "Gorge de l'oubli",
+        "Manoir Taishan",
+        "Ruines abandonnées",
+        "Chemin sinueux",
+        "Porte du Faucon",
+        "Palais secret de Guizang",
+        "Temple du Faucon",
+        "Temple du Lion",
+        "Temple du Loup",
+        "Pénétrer dans l'Antre de Stormterror",
+        "Profondeurs spiralées"
     ]
 }

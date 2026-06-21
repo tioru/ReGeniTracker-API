@@ -10,36 +10,36 @@
         {
             "level": 20,
             "materials": [
-              { "name": "Dent de lait du Loup boréal", "quantity": 1 },
-              { "name": "Branche morte des lignes énergétiques", "quantity": 1 },
-              { "name": "Insigne des Pilleurs", "quantity": 1 },
+              { "name": "Boreal Wolf's Milk Tooth", "quantity": 1 },
+              { "name": "Dead Ley Line Branch", "quantity": 1 },
+              { "name": "Treasure Hoarder Insignia", "quantity": 1 },
               { "name": "Mora", "quantity": 0 }
             ]
         },
         {
             "level": 40,
             "materials": [
-              { "name": "Croc brisé du Loup boréal", "quantity": 1 },
-              { "name": "Branche morte des lignes énergétiques", "quantity": 4 },
-              { "name": "Insigne des Pilleurs", "quantity": 2 },
+              { "name": "Boreal Wolf's Cracked Tooth", "quantity": 1 },
+              { "name": "Dead Ley Line Branch", "quantity": 4 },
+              { "name": "Treasure Hoarder Insignia", "quantity": 2 },
               { "name": "Mora", "quantity": 5000 }
             ]
         },
         {
             "level": 50,
             "materials": [
-              { "name": "Croc brisé du Loup boréal", "quantity": 2 },
-              { "name": "Feuilles mortes des lignes énergétiques", "quantity": 2 },
-              { "name": "Insigne de corbeau en argent", "quantity": 2 },
+              { "name": "Boreal Wolf's Cracked Tooth", "quantity": 2 },
+              { "name": "Dead Ley Line Leaves", "quantity": 2 },
+              { "name": "Silver Raven Insignia", "quantity": 2 },
               { "name": "Mora", "quantity": 5000 }
             ]
         },
         {
             "level": 60,
             "materials": [
-              { "name": "Croc fendu du Loup boréal", "quantity": 2 },
-              { "name": "Feuilles mortes des lignes énergétiques", "quantity": 4 },
-              { "name": "Insigne de corbeau en argent", "quantity": 3 },
+              { "name": "Boreal Wolf's Broken Fang", "quantity": 2 },
+              { "name": "Dead Ley Line Leaves", "quantity": 4 },
+              { "name": "Silver Raven Insignia", "quantity": 3 },
               { "name": "Mora", "quantity": 10000 }
             ]
         }
@@ -268,6 +268,6 @@
             "baseAtk": 185
         }
     },
-    "description" : "La musique jouée par les chasseurs combine deux mélodies : la tension de l'arc et le sifflement des flèches.",
-    "history" : "La légende raconte qu'à Mondstadt passa autrefois un barde itinérant qui jouait sa musique sur la corde des arcs. Ou plutôt, il serait plus exact de dire que le musicien errant utilisait les cordes de son instrument pour tirer des flèches. Mais ce n'est là qu'une ancienne légende..."
+    "description" : "A hunter's music consists of but two sounds: the twang of the bowstring and the whoosh of soaring arrows.",
+    "history" : "Legend has it that Mondstadt once played host to one who made music on bowstrings— Or perhaps it might be more fitting to say that this wandering musician used an instrument's strings to fire arrows. But this is naught but an old folk legend."
 }

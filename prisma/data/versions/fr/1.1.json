@@ -1,0 +1,91 @@
+{
+    "number": "1.1",
+    "name": "Une étoile en approche",
+    "releaseDate": "2020-11-11",
+    "endDate": "2020-12-23",
+    "newCharacters": [
+        "Tartaglia",
+        "Diona",
+        "Zhongli",
+        "Xinyan"
+    ],
+    "mapExpansion": [
+
+    ],
+    "newWeapons": {
+        "4Star": [
+            "Lance de chasse royale"
+        ],
+        "5Star": [
+            "Chaînes mortelles",
+            "Perceur prismatique",
+            "Lame brute"
+        ]
+    },
+    "newBosses": [
+        "Tartaglia"
+    ],
+    "banners" : {
+        "characters": [
+            "Adieux au Nord",
+            "Monts et marchés"
+        ],
+        "weapons": [
+            "Incarnation divine"
+        ]
+    },
+    "events" : [
+        "Astres évanouis",
+        "Hymne fervent",
+        "Défi de planage",
+        "Servir chaud"
+    ],
+    "newQuests" : {
+        "archonQuests" :  [
+            {
+                "chapter": "1",
+                "chapterName": "Chapter I",
+                "acts": [
+                    { "act": 3, "name": "Une étoile en approche" }
+                ]
+            }
+        ],
+        "storyQuests" : [
+            {
+                "chapter": "Monoceros Caeli Chapter",
+                "character": "Tartaglia",
+                "acts": [
+                    { "act": 1, "name": "Mighty Cyclops' Adventure!" }
+                ]
+            },
+            {
+                "chapter": "Historia Antiqua Chapter",
+                "character": "Zhongli",
+                "acts": [
+                    { "act": 1, "name": "Sal Flore" }
+                ]
+            }
+        ],
+        "worldQuests" : [
+            "Affaires de la Guilde des aventuriers",
+            "Necessary Procedures",
+            "Words Worth Their Weight in Mora",
+            "Changchang's Little Friend",
+            "The Secret of Nantianmen",
+            "An Ode to Yonder City",
+            "Endless Research",
+            "Chevalier de Mondstadt",
+            "L'art de miner",
+            "Ministry Missions"
+        ]
+    },
+    "newArtifacts": [
+        
+    ],
+    "newMonsters": [
+        "Brutocollinus étrange"
+    ],
+    "newDomains": [
+        "Entrer dans la Chambre d'Or"
+    ]
+}

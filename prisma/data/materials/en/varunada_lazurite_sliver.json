@@ -7,7 +7,8 @@
   ],
   "description": "Character Ascension Material.",
   "sources": [
-    { "type": "BOSS", "minimumLevel": 1, "names": [
+    { 
+      "type": "BOSS", "minimumLevel": 1, "names": [
         "Oceanid", 
         "Frostnight Herra", 
         "Aeonblight Drake", 
@@ -19,7 +20,8 @@
         "Iniquitous Baptist"
       ]
     },
-    { "type": "WEEKLY_BOSS", "minimumLevel": 1, "names": [
+    { 
+      "type": "WEEKLY_BOSS", "minimumLevel": 1, "names": [
         "All-Devouring Narwhal",
         "The Doctor",
         "Shouki no Kami, the Prodigal",
@@ -88,7 +90,7 @@
   },
   "usedByWeapons": [],
   "sellers" : [
-    { "name": "Marjorie", "currency": "Sigil", "cost": 10, "stock": 6, "restock": "NEVER" },
-    { "name": "Xingxi", "currency": "Sigil", "cost": 10, "stock": 12, "restock": "NEVER" }
+    { "name": "Marjorie", "currency": "Anemo Sigil", "cost": 10, "stock": 6, "restock": "NEVER" },
+    { "name": "Xingxi", "currency": "Anemo Sigil", "cost": 10, "stock": 12, "restock": "NEVER" }
   ]
 }

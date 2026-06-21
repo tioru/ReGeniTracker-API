@@ -28,8 +28,25 @@
         "Traveler"
     ],
     "mapExpansion": [
-      "Mondstadt",
-      "Liyue"
+        {
+            "mainRegion": "Mondstadt",
+            "subRegion": [
+                "Brightcrown Mountains",
+                "Galesong Hill",
+                "Starfell Valley",
+                "Windwail Highland"
+            ]
+        },
+        {
+            "mainRegion": "Liyue",
+            "subRegion": [
+               "Bishui Plain",
+               "Lisha",
+               "Minlin",
+               "Qiongji Estuary",
+               "Sea of Clouds"
+            ]
+        }
     ],
     "newWeapons": {
         "1Star": [
@@ -136,7 +153,7 @@
         "Geo Hypostasis",
         "Pyro Regisvine",
         "Cryo Regisvine",
-        "Oceanid"
+        "Rhodeia of Loch"
     ],
     "banners" : {
         "characters": [
@@ -381,5 +398,25 @@
         "Eye of the Storm",
         "Geovishap Hatchling",
         "Whopperflowers"
+    ],
+    "newDomains": [
+        "Clear Pool and Mountain Cavern",
+        "Domain of Guyun",
+        "Hidden Palace of Zhou Formula",
+        "Midsummer Courtyard",
+        "Valley of Remembrance",
+        "Cecilia Garden",
+        "Hidden Palace of Lianshan Formula",
+        "Forsaken Rift",
+        "Taishan Mansion",
+        "Domain of Forsaken Ruins",
+        "Domain of the Wayward Path",
+        "Eagle's Gate",
+        "Hidden Palace of Guizang Formula",
+        "Temple of the Falcon",
+        "Temple of the Lion",
+        "Temple of the Wolf",
+        "Confront Stormterror",
+        "Spiral Abyss"
     ]
 }
