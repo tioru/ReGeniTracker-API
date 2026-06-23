@@ -1,0 +1,64 @@
+{
+  "number": "1.5",
+  "name": "Beneath the Light of Jadeite",
+  "releaseDate": "2021-04-28",
+  "endDate": "2021-06-09",
+  "newCharacters": ["Eula", "Yanfei"],
+  "mapExpansion": [],
+  "newWeapons": {
+    "4Star": [
+      "The Alley Flash",
+      "Alley Hunter",
+      "Wine and Song",
+      "Windblume Ode"
+    ],
+    "5Star": ["Elegy for the End"]
+  },
+  "newBosses": ["Azhdaha"],
+  "banners": {
+    "characters": ["Gentry of Hermitage", "Born of Ocean Swell"],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "Energy Amplifier Initiation",
+    "Battlefront: Misty Dungeon",
+    "Windtrace",
+    "Mimi Tomo",
+    "Overflowing Mastery"
+  ],
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Historia Antiqua Chapter",
+        "character": "Zhongli",
+        "acts": [{ "act": 1, "name": "No Mere Stone" }]
+      },
+      {
+        "chapter": "Aphros Delos Chapter",
+        "character": "Eula",
+        "acts": [
+          { "act": 1, "name": "The Spindrift Shall Never Return to the Sea" }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "A Teapot to Call Home: Part I",
+      "A Teapot to Call Home: Part II",
+      "When the Trail Goes Cold"
+    ],
+    "hangoutQuests": [
+      {
+        "character": "Noelle",
+        "acts": [{ "act": 2, "name": "Knightly Exam Prep" }]
+      },
+      {
+        "character": "Diona",
+        "acts": [{ "act": 1, "name": "The Cat and the Cocktail" }]
+      }
+    ]
+  },
+  "newArtifacts": ["Tenacity of the Millelith", "Pale Flame"],
+  "newMonsters": ["Cryo Hypostasis", "Abyss Lector: Violet Lightning"],
+  "newDomains": ["Ridge Watch", "Beneath the Dragon-Queller"]
+}

@@ -1,0 +1,62 @@
+{
+  "number": "1.4",
+  "name": "Invitation of Windblume",
+  "releaseDate": "2021-03-17",
+  "endDate": "2021-04-28",
+  "newCharacters": ["Rosaria"],
+  "mapExpansion": [],
+  "newWeapons": {
+    "4Star": [
+      "The Alley Flash",
+      "Alley Hunter",
+      "Wine and Song",
+      "Windblume Ode"
+    ],
+    "5Star": ["Elegy for the End"]
+  },
+  "newBosses": ["Primo Geovishap"],
+  "banners": {
+    "characters": ["Ballad in Goblets", "Farewell of Snezhnaya"],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "Invitation of Windblume",
+    "Wishful Drops",
+    "Contending Tides",
+    "Hangout Events",
+    "Marvelous Merchandise",
+    "Outland Gastronomy"
+  ],
+  "newQuests": {
+    "archonQuests": [
+      {
+        "chapter": "1",
+        "chapterName": "Chapter IV",
+        "acts": [{ "act": 4, "name": "We Will Be Reunited" }]
+      }
+    ],
+    "storyQuests": [],
+    "worldQuests": [],
+    "hangoutQuests": [
+      {
+        "character": "Barbara",
+        "acts": [{ "act": 1, "name": "Wellspring of Healing" }]
+      },
+      {
+        "character": "Bennett",
+        "acts": [{ "act": 1, "name": "Fantastic Voyage" }]
+      },
+      {
+        "character": "Chongyun",
+        "acts": [{ "act": 1, "name": "Signs of Evil" }]
+      },
+      {
+        "character": "Noelle",
+        "acts": [{ "act": 1, "name": "Chivalric Training" }]
+      }
+    ]
+  },
+  "newArtifacts": [],
+  "newMonsters": ["Abyss Herald: Wicked Torrents"],
+  "newDomains": []
+}

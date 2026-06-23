@@ -1,0 +1,54 @@
+{
+  "number": "1.3",
+  "name": "All That Glitters",
+  "releaseDate": "2021-02-03",
+  "endDate": "2021-03-17",
+  "newCharacters": ["Xiao", "Hu Tao"],
+  "mapExpansion": [],
+  "newWeapons": {
+    "4Star": ["Lithic Spear", "Lithic Blade"],
+    "5Star": ["Primordial Jade Cutter", "Staff of Homa"]
+  },
+  "newBosses": ["Primo Geovishap"],
+  "banners": {
+    "characters": [
+      "Invitation to Mundane Life",
+      "Dance of Lanterns",
+      "Moment of Bloom"
+    ],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "Lantern Rite",
+    "May Fortune Find You",
+    "Stand by Me",
+    "Ley Line Overflow",
+    "Five Flushes of Fortune",
+    "Vishaps and Where to Find Them",
+    "Night Sky's Grace"
+  ],
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Alatus Chapter",
+        "character": "Xiao",
+        "acts": [{ "act": 1, "name": "Butterfly's Dream" }]
+      },
+      {
+        "chapter": "Papilio Charontis Chapter",
+        "character": "Hu Tao",
+        "acts": [{ "act": 1, "name": "Yet the Butterfly Flutters Away" }]
+      }
+    ],
+    "worldQuests": [
+      "Bough Keeper: Dainsleif",
+      "No Restoring This Past Land of Beauty",
+      "Perfect Shot",
+      "Tianqiu Treasure Trail"
+    ]
+  },
+  "newArtifacts": [],
+  "newMonsters": ["Geovishap"],
+  "newDomains": []
+}

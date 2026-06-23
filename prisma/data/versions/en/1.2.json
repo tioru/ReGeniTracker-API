@@ -1,0 +1,73 @@
+{
+  "number": "1.2",
+  "name": "The Chalk Prince and the Dragon",
+  "releaseDate": "2020-12-23",
+  "endDate": "2021-02-03",
+  "newCharacters": ["Albedo", "Ganyu"],
+  "mapExpansion": [
+    {
+      "mainRegion": "Dragonspine",
+      "subRegion": []
+    }
+  ],
+  "newWeapons": {
+    "4Star": [
+      "Festering Desire",
+      "Snow-Tombed Starsilver",
+      "Dragonspine Spear",
+      "Frostbearer"
+    ],
+    "5Star": ["Summit Shaper"]
+  },
+  "newBosses": [],
+  "banners": {
+    "characters": ["Secretum Secretorum", "Adrift in the Harbor"],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "The Chalk Prince and the Dragon",
+    "Lost Riches",
+    "Hypostatic Symphony",
+    "Marvelous Merchandise"
+  ],
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Princeps Cretaceus Chapter",
+        "character": "Albedo",
+        "acts": [{ "act": 1, "name": "Traveler Observation Report" }]
+      },
+      {
+        "chapter": "Sinae Unicornis Chapter",
+        "character": "Ganyu",
+        "acts": [{ "act": 1, "name": "Sea of Clouds, Sea of People" }]
+      }
+    ],
+    "worldQuests": [
+      "In the Mountains",
+      "The Festering Fang",
+      "The Great Mountain Survey",
+      "The Great Mountain Survey II",
+      "A Land Entombed",
+      "Lost in the Snow",
+      "Low-Temperature Warning",
+      "Ah, Fresh Meat!",
+      "Return of the Jade Chamber?",
+      "Fishing for Jade",
+      "Snapshots"
+    ]
+  },
+  "newArtifacts": ["Blizzard Strayer", "Heart of Depth"],
+  "newMonsters": [
+    "Cryo Samachurl",
+    "Ice Shield Hilichurl Guard",
+    "Cryo Hilichurl Grenadier",
+    "Ice Shieldwall Mitachurl",
+    "Frostarm Lawachurl",
+    "Fatui Cryo Cicin Mage",
+    "Cryo Cicin",
+    "Ruin Grader"
+  ],
+  "newDomains": ["Peak of Vindagnyr"]
+}
