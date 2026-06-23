@@ -1,13 +1,13 @@
 {
   "name": "Pierre de lazurite varunada",
   "rarity": 5,
-  "categories": [
-    "VARUNADA_LAZURITE",
-    "ASCENSION_GEMS"
-  ],
+  "categories": ["VARUNADA_LAZURITE", "ASCENSION_GEMS"],
   "description": "Matériau d'élévation de personnage. « Mes idéaux sont purs. » « Je me dois de te corriger : personne ici n'est impur aux yeux des dieux, et seuls les lois et le tribunal peuvent déclarer un jugement. » « Ils peuvent même me juger. Louez donc ma grandeur et ma pureté. »",
   "sources": [
-    { "type": "BOSS", "minimumLevel": 75, "names": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 75,
+      "names": [
         "Océanide",
         "Herra de la nuit glaciale",
         "Dragon cataclysmique",
@@ -17,9 +17,12 @@
         "Hypostase Hydro",
         "Géosaure antique",
         "Lustrateur inique"
-      ] 
+      ]
     },
-    { "type": "WEEKLY_BOSS", "minimumLevel": 75, "names": [
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 75,
+      "names": [
         "Narval stellavore",
         "Dottore",
         "Shouki no Kami, le prodige",
@@ -27,38 +30,69 @@
         "Azhadaha",
         "Jeu d'échecs devant la porte",
         "Stormterror"
-      ] 
+      ]
     },
-    { "type": "ALCHEMY", "recipes": [
-      { "subtype" : "CRAFTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Morceau de lazurite varunada", "quantity": 3 },
-        { "item": "Mora", "quantity": 2700 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Pierre d'agate agnidus", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 27 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Pierre d'émeraude nagadus", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 27 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Pierre d'améthyste vajrada", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 27 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Pierre de turquoise vayuda", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 27 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Pierre de jade shivada", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 27 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Pierre de topaze prithiva", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 27 }
-      ] }
-    ]}
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Morceau de lazurite varunada", "quantity": 3 },
+            { "item": "Mora", "quantity": 2700 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Pierre d'agate agnidus", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 27 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Pierre d'émeraude nagadus", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 27 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Pierre d'améthyste vajrada", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 27 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Pierre de turquoise vayuda", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 27 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Pierre de jade shivada", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 27 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Pierre de topaze prithiva", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 27 }
+          ]
+        }
+      ]
+    }
   ],
   "usedIn": [
     "Pierre d'agate agnidus",

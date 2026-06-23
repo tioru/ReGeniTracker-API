@@ -11,594 +11,591 @@
   "affiliation": "Mondstadt",
   "constellation": "Astrolabos",
   "specialDish": "Der Weisheit Letzter Schluss (Life)",
-  "obtaining": [
-    "STANDARD_WISHES",
-    "CHRONICLED_WISHES"
-  ],
+  "obtaining": ["STANDARD_WISHES", "CHRONICLED_WISHES"],
   "levels": {
-    "1" : {
+    "1": {
       "baseHp": 810,
       "baseDef": 51,
       "baseAtk": 22,
       "energyRecharge": "0%"
     },
-    "2" : {
+    "2": {
       "baseHp": 878,
       "baseDef": 55,
       "baseAtk": 24,
       "energyRecharge": "0%"
     },
-    "3" : {
+    "3": {
       "baseHp": 945,
       "baseDef": 59,
       "baseAtk": 26,
       "energyRecharge": "0%"
     },
-    "4" : {
+    "4": {
       "baseHp": 1013,
       "baseDef": 64,
       "baseAtk": 28,
       "energyRecharge": "0%"
     },
-    "5" : {
+    "5": {
       "baseHp": 1080,
       "baseDef": 68,
       "baseAtk": 30,
       "energyRecharge": "0%"
     },
-    "6" : {
+    "6": {
       "baseHp": 1148,
       "baseDef": 72,
       "baseAtk": 32,
       "energyRecharge": "0%"
     },
-    "7" : {
+    "7": {
       "baseHp": 1215,
       "baseDef": 76,
       "baseAtk": 34,
       "energyRecharge": "0%"
     },
-    "8" : {
+    "8": {
       "baseHp": 1284,
       "baseDef": 81,
       "baseAtk": 35,
       "energyRecharge": "0%"
     },
-    "9" : {
+    "9": {
       "baseHp": 1352,
       "baseDef": 85,
       "baseAtk": 37,
       "energyRecharge": "0%"
     },
-    "10" : {
+    "10": {
       "baseHp": 1419,
       "baseDef": 89,
       "baseAtk": 39,
       "energyRecharge": "0%"
     },
-    "11" : {
+    "11": {
       "baseHp": 1487,
       "baseDef": 93,
       "baseAtk": 41,
       "energyRecharge": "0%"
     },
-    "12" : {
+    "12": {
       "baseHp": 1555,
       "baseDef": 98,
       "baseAtk": 43,
       "energyRecharge": "0%"
     },
-    "13" : {
+    "13": {
       "baseHp": 1623,
       "baseDef": 102,
       "baseAtk": 45,
       "energyRecharge": "0%"
     },
-    "14" : {
+    "14": {
       "baseHp": 1692,
       "baseDef": 106,
       "baseAtk": 47,
       "energyRecharge": "0%"
     },
-    "15" : {
+    "15": {
       "baseHp": 1760,
       "baseDef": 110,
       "baseAtk": 49,
       "energyRecharge": "0%"
     },
-    "16" : {
+    "16": {
       "baseHp": 1828,
       "baseDef": 115,
       "baseAtk": 50,
       "energyRecharge": "0%"
     },
-    "17" : {
+    "17": {
       "baseHp": 1897,
       "baseDef": 119,
       "baseAtk": 52,
       "energyRecharge": "0%"
     },
-    "18" : {
+    "18": {
       "baseHp": 1965,
       "baseDef": 123,
       "baseAtk": 54,
       "energyRecharge": "0%"
     },
-    "19" : {
+    "19": {
       "baseHp": 2034,
       "baseDef": 128,
       "baseAtk": 56,
       "energyRecharge": "0%"
     },
-    "20" : {
+    "20": {
       "baseHp": 2102,
       "baseDef": 132,
       "baseAtk": 58,
       "energyRecharge": "0%"
     },
-    "20_ASC" : {
+    "20_ASC": {
       "baseHp": 2797,
       "baseDef": 176,
       "baseAtk": 77,
       "energyRecharge": "0%"
     },
-    "21" : {
+    "21": {
       "baseHp": 2866,
       "baseDef": 180,
       "baseAtk": 79,
       "energyRecharge": "0%"
     },
-    "22" : {
+    "22": {
       "baseHp": 2935,
       "baseDef": 184,
       "baseAtk": 81,
       "energyRecharge": "0%"
     },
-    "23" : {
+    "23": {
       "baseHp": 3003,
       "baseDef": 188,
       "baseAtk": 83,
       "energyRecharge": "0%"
     },
-    "24" : {
+    "24": {
       "baseHp": 3072,
       "baseDef": 193,
       "baseAtk": 85,
       "energyRecharge": "0%"
     },
-    "25" : {
+    "25": {
       "baseHp": 3141,
       "baseDef": 197,
       "baseAtk": 87,
       "energyRecharge": "0%"
     },
-    "26" : {
+    "26": {
       "baseHp": 3211,
       "baseDef": 202,
       "baseAtk": 89,
       "energyRecharge": "0%"
     },
-    "27" : {
+    "27": {
       "baseHp": 3280,
       "baseDef": 206,
       "baseAtk": 90,
       "energyRecharge": "0%"
     },
-    "28" : {
+    "28": {
       "baseHp": 3349,
       "baseDef": 210,
       "baseAtk": 92,
       "energyRecharge": "0%"
     },
-    "29" : {
+    "29": {
       "baseHp": 3418,
       "baseDef": 215,
       "baseAtk": 94,
       "energyRecharge": "0%"
     },
-    "30" : {
+    "30": {
       "baseHp": 3487,
       "baseDef": 219,
       "baseAtk": 96,
       "energyRecharge": "0%"
     },
-    "31" : {
+    "31": {
       "baseHp": 3557,
       "baseDef": 223,
       "baseAtk": 98,
       "energyRecharge": "0%"
     },
-    "32" : {
+    "32": {
       "baseHp": 3627,
       "baseDef": 228,
       "baseAtk": 100,
       "energyRecharge": "0%"
     },
-    "33" : {
+    "33": {
       "baseHp": 3696,
       "baseDef": 232,
       "baseAtk": 102,
       "energyRecharge": "0%"
     },
-    "34" : {
+    "34": {
       "baseHp": 3765,
       "baseDef": 236,
       "baseAtk": 104,
       "energyRecharge": "0%"
     },
-    "35" : {
+    "35": {
       "baseHp": 3835,
       "baseDef": 241,
       "baseAtk": 106,
       "energyRecharge": "0%"
     },
-    "36" : {
+    "36": {
       "baseHp": 3905,
       "baseDef": 245,
       "baseAtk": 108,
       "energyRecharge": "0%"
     },
-    "37" : {
+    "37": {
       "baseHp": 3975,
       "baseDef": 249,
       "baseAtk": 110,
       "energyRecharge": "0%"
     },
-    "38" : {
+    "38": {
       "baseHp": 4045,
       "baseDef": 254,
       "baseAtk": 112,
       "energyRecharge": "0%"
     },
-    "39" : {
+    "39": {
       "baseHp": 4114,
       "baseDef": 258,
       "baseAtk": 113,
       "energyRecharge": "0%"
     },
-    "40" : {
+    "40": {
       "baseHp": 4185,
       "baseDef": 263,
       "baseAtk": 115,
       "energyRecharge": "0%"
     },
-    "40_ASC" : {
+    "40_ASC": {
       "baseHp": 4678,
       "baseDef": 294,
       "baseAtk": 129,
       "energyRecharge": "8%"
     },
-    "41" : {
+    "41": {
       "baseHp": 4748,
       "baseDef": 298,
       "baseAtk": 131,
       "energyRecharge": "8%"
     },
-    "42" : {
+    "42": {
       "baseHp": 4819,
       "baseDef": 302,
       "baseAtk": 133,
       "energyRecharge": "8%"
     },
-    "43" : {
+    "43": {
       "baseHp": 4889,
       "baseDef": 307,
       "baseAtk": 135,
       "energyRecharge": "8%"
     },
-    "44" : {
+    "44": {
       "baseHp": 4959,
       "baseDef": 311,
       "baseAtk": 137,
       "energyRecharge": "8%"
     },
-    "45" : {
+    "45": {
       "baseHp": 5029,
       "baseDef": 316,
       "baseAtk": 139,
       "energyRecharge": "8%"
     },
-    "46" : {
+    "46": {
       "baseHp": 5100,
       "baseDef": 320,
       "baseAtk": 141,
       "energyRecharge": "8%"
     },
-    "47" : {
+    "47": {
       "baseHp": 5170,
       "baseDef": 324,
       "baseAtk": 143,
       "energyRecharge": "8%"
     },
-    "48" : {
+    "48": {
       "baseHp": 5241,
       "baseDef": 329,
       "baseAtk": 145,
       "energyRecharge": "8%"
     },
-    "49" : {
+    "49": {
       "baseHp": 5312,
       "baseDef": 333,
       "baseAtk": 146,
       "energyRecharge": "8%"
     },
-    "50" : {
+    "50": {
       "baseHp": 5383,
       "baseDef": 338,
       "baseAtk": 148,
       "energyRecharge": "8%"
     },
-    "50_ASC" : {
+    "50_ASC": {
       "baseHp": 6041,
       "baseDef": 379,
       "baseAtk": 167,
       "energyRecharge": "16%"
     },
-    "51" : {
+    "51": {
       "baseHp": 6111,
       "baseDef": 384,
       "baseAtk": 169,
       "energyRecharge": "16%"
     },
-    "52" : {
+    "52": {
       "baseHp": 6183,
       "baseDef": 388,
       "baseAtk": 170,
       "energyRecharge": "16%"
     },
-    "53" : {
+    "53": {
       "baseHp": 6253,
       "baseDef": 392,
       "baseAtk": 172,
       "energyRecharge": "16%"
     },
-    "54" : {
+    "54": {
       "baseHp": 6324,
       "baseDef": 397,
       "baseAtk": 174,
       "energyRecharge": "16%"
     },
-    "55" : {
+    "55": {
       "baseHp": 6396,
       "baseDef": 401,
       "baseAtk": 176,
       "energyRecharge": "16%"
     },
-    "56" : {
+    "56": {
       "baseHp": 6467,
       "baseDef": 406,
       "baseAtk": 178,
       "energyRecharge": "16%"
     },
-    "57" : {
+    "57": {
       "baseHp": 6538,
       "baseDef": 410,
       "baseAtk": 180,
       "energyRecharge": "16%"
     },
-    "58" : {
+    "58": {
       "baseHp": 6610,
       "baseDef": 415,
       "baseAtk": 182,
       "energyRecharge": "16%"
     },
-    "59" : {
+    "59": {
       "baseHp": 6681,
       "baseDef": 419,
       "baseAtk": 184,
       "energyRecharge": "16%"
     },
-    "60" : {
+    "60": {
       "baseHp": 6752,
       "baseDef": 424,
       "baseAtk": 186,
       "energyRecharge": "16%"
     },
-    "60_ASC" : {
+    "60_ASC": {
       "baseHp": 7246,
       "baseDef": 455,
       "baseAtk": 200,
       "energyRecharge": "16%"
     },
-    "61" : {
+    "61": {
       "baseHp": 7317,
       "baseDef": 459,
       "baseAtk": 202,
       "energyRecharge": "16%"
     },
-    "62" : {
+    "62": {
       "baseHp": 7389,
       "baseDef": 464,
       "baseAtk": 204,
       "energyRecharge": "16%"
     },
-    "63" : {
+    "63": {
       "baseHp": 7461,
       "baseDef": 468,
       "baseAtk": 206,
       "energyRecharge": "16%"
     },
-    "64" : {
+    "64": {
       "baseHp": 7532,
       "baseDef": 473,
       "baseAtk": 208,
       "energyRecharge": "16%"
     },
-    "65" : {
+    "65": {
       "baseHp": 7604,
       "baseDef": 477,
       "baseAtk": 210,
       "energyRecharge": "16%"
     },
-    "66" : {
+    "66": {
       "baseHp": 7676,
       "baseDef": 482,
       "baseAtk": 212,
       "energyRecharge": "16%"
     },
-    "67" : {
+    "67": {
       "baseHp": 7748,
       "baseDef": 486,
       "baseAtk": 214,
       "energyRecharge": "16%"
     },
-    "68" : {
+    "68": {
       "baseHp": 7820,
       "baseDef": 491,
       "baseAtk": 216,
       "energyRecharge": "16%"
     },
-    "69" : {
+    "69": {
       "baseHp": 7892,
       "baseDef": 495,
       "baseAtk": 218,
       "energyRecharge": "16%"
     },
-    "70" : {
+    "70": {
       "baseHp": 7964,
       "baseDef": 500,
       "baseAtk": 220,
       "energyRecharge": "16%"
     },
-    "70_ASC" : {
+    "70_ASC": {
       "baseHp": 8458,
       "baseDef": 531,
       "baseAtk": 233,
       "energyRecharge": "24%"
     },
-    "71" : {
+    "71": {
       "baseHp": 8530,
       "baseDef": 535,
       "baseAtk": 235,
       "energyRecharge": "24%"
     },
-    "72" : {
+    "72": {
       "baseHp": 8603,
       "baseDef": 540,
       "baseAtk": 237,
       "energyRecharge": "24%"
     },
-    "73" : {
+    "73": {
       "baseHp": 8675,
       "baseDef": 544,
       "baseAtk": 239,
       "energyRecharge": "24%"
     },
-    "74" : {
+    "74": {
       "baseHp": 8747,
       "baseDef": 549,
       "baseAtk": 241,
       "energyRecharge": "24%"
     },
-    "75" : {
+    "75": {
       "baseHp": 8820,
       "baseDef": 554,
       "baseAtk": 243,
       "energyRecharge": "24%"
     },
-    "76" : {
+    "76": {
       "baseHp": 8892,
       "baseDef": 558,
       "baseAtk": 245,
       "energyRecharge": "24%"
     },
-    "77" : {
+    "77": {
       "baseHp": 8965,
       "baseDef": 563,
       "baseAtk": 247,
       "energyRecharge": "24%"
     },
-    "78" : {
+    "78": {
       "baseHp": 9038,
       "baseDef": 567,
       "baseAtk": 249,
       "energyRecharge": "24%"
     },
-    "79" : {
+    "79": {
       "baseHp": 9111,
       "baseDef": 572,
       "baseAtk": 251,
       "energyRecharge": "24%"
     },
-    "80" : {
+    "80": {
       "baseHp": 9184,
       "baseDef": 576,
       "baseAtk": 253,
       "energyRecharge": "24%"
     },
-    "80_ASC" : {
+    "80_ASC": {
       "baseHp": 9677,
       "baseDef": 607,
       "baseAtk": 267,
       "energyRecharge": "32%"
     },
-    "81" : {
+    "81": {
       "baseHp": 9750,
       "baseDef": 612,
       "baseAtk": 269,
       "energyRecharge": "32%"
     },
-    "82" : {
+    "82": {
       "baseHp": 9823,
       "baseDef": 617,
       "baseAtk": 271,
       "energyRecharge": "32%"
     },
-    "83" : {
+    "83": {
       "baseHp": 9896,
       "baseDef": 621,
       "baseAtk": 273,
       "energyRecharge": "32%"
     },
-    "84" : {
+    "84": {
       "baseHp": 9969,
       "baseDef": 626,
       "baseAtk": 275,
       "energyRecharge": "32%"
     },
-    "85" : {
+    "85": {
       "baseHp": 10042,
       "baseDef": 630,
       "baseAtk": 277,
       "energyRecharge": "32%"
     },
-    "86" : {
+    "86": {
       "baseHp": 10116,
       "baseDef": 635,
       "baseAtk": 279,
       "energyRecharge": "32%"
     },
-    "87" : {
+    "87": {
       "baseHp": 10189,
       "baseDef": 639,
       "baseAtk": 281,
       "energyRecharge": "32%"
     },
-    "88" : {
+    "88": {
       "baseHp": 10262,
       "baseDef": 644,
       "baseAtk": 283,
       "energyRecharge": "32%"
     },
-    "89" : {
+    "89": {
       "baseHp": 10336,
       "baseDef": 649,
       "baseAtk": 285,
       "energyRecharge": "32%"
     },
-    "90" : {
+    "90": {
       "baseHp": 10409,
       "baseDef": 653,
       "baseAtk": 287,
       "energyRecharge": "32%"
     },
-    "95" : {
+    "95": {
       "baseHp": 10779,
       "baseDef": 676,
       "baseAtk": 319,
       "energyRecharge": "32%"
     },
-    "100" : {
+    "100": {
       "baseHp": 11149,
       "baseDef": 700,
       "baseAtk": 352,
@@ -667,15 +664,11 @@
     },
     {
       "level": 95,
-      "materials": [
-        { "name": "Masterless Stella Fortuna", "quantity": 1 }
-      ]
+      "materials": [{ "name": "Masterless Stella Fortuna", "quantity": 1 }]
     },
     {
       "level": 100,
-      "materials": [
-        { "name": "Masterless Stella Fortuna", "quantity": 2 }
-      ]
+      "materials": [{ "name": "Masterless Stella Fortuna", "quantity": 2 }]
     }
   ],
   "normalAttacks": [
@@ -683,19 +676,148 @@
       "unlock": "DEFAULT_UNLOCK",
       "name": "Ripple of Fate",
       "descriptions": [
-        {"title": "Normal Attack", "description": "Performs up to 4 water splash attacks that deal Hydro DMG."},
-        {"title": "Charged Attack", "description": "Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time."},
-        {"title": "Plunging Attack", "description": "Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."}
+        {
+          "title": "Normal Attack",
+          "description": "Performs up to 4 water splash attacks that deal Hydro DMG."
+        },
+        {
+          "title": "Charged Attack",
+          "description": "Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time."
+        },
+        {
+          "title": "Plunging Attack",
+          "description": "Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."
+        }
       ],
       "upgrades": [
-        { "name": "1-Hit DMG", "values": ["37.6%", "40.4%", "43.2%", "47.0%", "49.8%", "52.6%", "56.4%", "60.2%", "63.9%", "67.7%", "71.44%"] },
-        { "name": "2-Hit DMG", "values": ["36.0%", "38.7%", "41.4%", "45.0%", "47.7%", "50.4%", "54.0%", "57.6%", "61.2%", "64.8%", "68.4%"] },
-        { "name": "3-Hit DMG", "values": ["44.8%", "48.2%", "51.5%", "56.0%", "59.4%", "62.7%", "67.2%", "71.7%", "76.2%", "80.6%", "85.1%"] },
-        { "name": "4-Hit DMG", "values": ["56.2%", "60.4%", "64.6%", "70.2%", "74.4%", "78.6%", "84.2%", "89.9%", "95.5%", "101.1%", "106.7%"] },
-        { "name": "Charged Attack DMG", "values": ["150%", "161%", "172%", "187%", "198%", "210%", "225%", "240%", "255%", "269%", "285%"] },
-        { "name": "Charged Attack Stamina Cost", "values": ["50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0", "50.0"] },
-        { "name": "Plunge DMG", "values": ["56.8%", "61.5%", "66.1%", "72.7%", "77.3%", "82.6%", "89.9%", "97.1%", "104.4%", "112.3%", "120.3%"] },
-        { "name": "Low/High Plunge DMG", "values": ["114%/142%", "123%/153%", "132%/165%", "145%/182%", "155%/193%", "165%/206%", "180%/224%", "194%/243%", "209%/261%", "225%/281%", "240%/300%"] }
+        {
+          "name": "1-Hit DMG",
+          "values": [
+            "37.6%",
+            "40.4%",
+            "43.2%",
+            "47.0%",
+            "49.8%",
+            "52.6%",
+            "56.4%",
+            "60.2%",
+            "63.9%",
+            "67.7%",
+            "71.44%"
+          ]
+        },
+        {
+          "name": "2-Hit DMG",
+          "values": [
+            "36.0%",
+            "38.7%",
+            "41.4%",
+            "45.0%",
+            "47.7%",
+            "50.4%",
+            "54.0%",
+            "57.6%",
+            "61.2%",
+            "64.8%",
+            "68.4%"
+          ]
+        },
+        {
+          "name": "3-Hit DMG",
+          "values": [
+            "44.8%",
+            "48.2%",
+            "51.5%",
+            "56.0%",
+            "59.4%",
+            "62.7%",
+            "67.2%",
+            "71.7%",
+            "76.2%",
+            "80.6%",
+            "85.1%"
+          ]
+        },
+        {
+          "name": "4-Hit DMG",
+          "values": [
+            "56.2%",
+            "60.4%",
+            "64.6%",
+            "70.2%",
+            "74.4%",
+            "78.6%",
+            "84.2%",
+            "89.9%",
+            "95.5%",
+            "101.1%",
+            "106.7%"
+          ]
+        },
+        {
+          "name": "Charged Attack DMG",
+          "values": [
+            "150%",
+            "161%",
+            "172%",
+            "187%",
+            "198%",
+            "210%",
+            "225%",
+            "240%",
+            "255%",
+            "269%",
+            "285%"
+          ]
+        },
+        {
+          "name": "Charged Attack Stamina Cost",
+          "values": [
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0"
+          ]
+        },
+        {
+          "name": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%"
+          ]
+        },
+        {
+          "name": "Low/High Plunge DMG",
+          "values": [
+            "114%/142%",
+            "123%/153%",
+            "132%/165%",
+            "145%/182%",
+            "155%/193%",
+            "165%/206%",
+            "180%/224%",
+            "194%/243%",
+            "209%/261%",
+            "225%/281%",
+            "240%/300%"
+          ]
+        }
       ]
     }
   ],
@@ -703,16 +825,79 @@
     {
       "unlock": "DEFAULT_UNLOCK",
       "name": "Mirror Reflection of Doom",
-      "note" : "Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.",
+      "note": "Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.",
       "descriptions": [
-        {"title": null, "description": "Creates an illusory Phantom of Fate from coalesced waterspouts."},
-        {"title": "Phantom", "description": "Has the following special properties: - Continuously taunts nearby opponents, attracting their fire. - Continuously deals Hydro DMG to nearby opponents. - When its duration expires, the Phantom explodes, dealing AoE Hydro DMG."},
-        {"title": "Hold", "description": "Utilizes water currents to move backwards swiftly before conjuring a Phantom. \nOnly one Phantom created by Mirror Reflection of Doom can exist at any time."}
+        {
+          "title": null,
+          "description": "Creates an illusory Phantom of Fate from coalesced waterspouts."
+        },
+        {
+          "title": "Phantom",
+          "description": "Has the following special properties: - Continuously taunts nearby opponents, attracting their fire. - Continuously deals Hydro DMG to nearby opponents. - When its duration expires, the Phantom explodes, dealing AoE Hydro DMG."
+        },
+        {
+          "title": "Hold",
+          "description": "Utilizes water currents to move backwards swiftly before conjuring a Phantom. \nOnly one Phantom created by Mirror Reflection of Doom can exist at any time."
+        }
       ],
       "upgrades": [
-        { "name": "DoT", "values": ["32.0%", "34.4%", "36.8%", "40.0%", "42.4%", "44.8%", "48.0%", "51.2%", "54.4%", "57.6%", "60.8%", "64.0%", "68.0%", "72.0%"] },
-        { "name": "Explosion DMG", "values": ["133%", "143%", "153%", "166%", "176%", "186%", "199%", "212%", "226%", "239%", "252%", "266%", "282%", "299%"] },
-        { "name": "CD", "values": ["12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s", "12.0s"] }
+        {
+          "name": "DoT",
+          "values": [
+            "32.0%",
+            "34.4%",
+            "36.8%",
+            "40.0%",
+            "42.4%",
+            "44.8%",
+            "48.0%",
+            "51.2%",
+            "54.4%",
+            "57.6%",
+            "60.8%",
+            "64.0%",
+            "68.0%",
+            "72.0%"
+          ]
+        },
+        {
+          "name": "Explosion DMG",
+          "values": [
+            "133%",
+            "143%",
+            "153%",
+            "166%",
+            "176%",
+            "186%",
+            "199%",
+            "212%",
+            "226%",
+            "239%",
+            "252%",
+            "266%",
+            "282%",
+            "299%"
+          ]
+        },
+        {
+          "name": "CD",
+          "values": [
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s"
+          ]
+        }
       ]
     }
   ],
@@ -720,11 +905,14 @@
     {
       "unlock": "ASCENSION_1_UNLOCK",
       "name": "Illusory Torrent",
-      "note" : "This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...",
+      "note": "This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...",
       "descriptions": [
-        {"title": "Alternate Sprint", "description" : "Mona cloaks herself within the water's flow, consuming Stamina to move rapidly. \nWhen under the effect of Illusory Torrent, Mona can move at high speed on water Applies the Wet status to nearby opponents when she reappears."}
+        {
+          "title": "Alternate Sprint",
+          "description": "Mona cloaks herself within the water's flow, consuming Stamina to move rapidly. \nWhen under the effect of Illusory Torrent, Mona can move at high speed on water Applies the Wet status to nearby opponents when she reappears."
+        }
       ],
-      "attributes" : [
+      "attributes": [
         { "name": "Activation Stamina Consumption", "value": "10.00" },
         { "name": "Stamina Drain", "value": "15.00/s" }
       ]
@@ -732,8 +920,11 @@
     {
       "unlock": "DEFAULT_UNLOCK",
       "name": "Principium of Astrology",
-      "descriptions": [ 
-        { "title": null, "description": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of crafting the materials used."}
+      "descriptions": [
+        {
+          "title": null,
+          "description": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of crafting the materials used."
+        }
       ],
       "attributes": []
     }
@@ -742,45 +933,174 @@
     {
       "unlock": "DEFAULT_UNLOCK",
       "name": "Stellaris Phantasm",
-      "note" : "It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.",
+      "note": "It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.",
       "descriptions": [
-        { "title": null, "description": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE." },
-        { "title": "Illusory Bubble", "description": "Traps opponents inside a pocket of destiny and also makes them Wet. Renders weaker opponents immobile. When an opponent affected by Illusory Bubble sustains DMG, it has the following effects: - Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it. - Removes the Illusory Bubble, dealing Hydro DMG in the process." },
-        { "title": "Omen", "description": "During its duration, increases DMG taken by opponents." }
+        {
+          "title": null,
+          "description": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE."
+        },
+        {
+          "title": "Illusory Bubble",
+          "description": "Traps opponents inside a pocket of destiny and also makes them Wet. Renders weaker opponents immobile. When an opponent affected by Illusory Bubble sustains DMG, it has the following effects: - Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it. - Removes the Illusory Bubble, dealing Hydro DMG in the process."
+        },
+        {
+          "title": "Omen",
+          "description": "During its duration, increases DMG taken by opponents."
+        }
       ],
       "upgrades": [
-        { "name": "Illusory Bubble Duration", "values": ["8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s"] },
-        { "name": "Illusory Bubble Explosion DMG", "values": ["442%", "476%", "509%", "553%", "586%", "619%", "664%", "708%", "752%", "796%", "841%", "885%", "940%", "995%"] },
-        { "name": "DMG Bonus", "values": ["42%", "44%", "46%", "48%", "50%", "52%", "54%", "56%", "58%", "60%", "60%", "60%", "60%", "60%"] },
-        { "name": "Omen Duration", "values": ["4s", "4s", "4s", "4.5s", "4.5s", "4.5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s"] },
-        { "name": "CD", "values": ["15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s", "15s"] },
-        { "name": "Energy Cost", "values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"] }
+        {
+          "name": "Illusory Bubble Duration",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        },
+        {
+          "name": "Illusory Bubble Explosion DMG",
+          "values": [
+            "442%",
+            "476%",
+            "509%",
+            "553%",
+            "586%",
+            "619%",
+            "664%",
+            "708%",
+            "752%",
+            "796%",
+            "841%",
+            "885%",
+            "940%",
+            "995%"
+          ]
+        },
+        {
+          "name": "DMG Bonus",
+          "values": [
+            "42%",
+            "44%",
+            "46%",
+            "48%",
+            "50%",
+            "52%",
+            "54%",
+            "56%",
+            "58%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%"
+          ]
+        },
+        {
+          "name": "Omen Duration",
+          "values": [
+            "4s",
+            "4s",
+            "4s",
+            "4.5s",
+            "4.5s",
+            "4.5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "name": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "name": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
       ]
     }
   ],
-  "ascensionTalents": [ 
+  "ascensionTalents": [
     {
       "unlock": "ASCENSION_1_UNLOCK",
       "name": "\"Come 'n' Get Me, Hag!\"",
       "descriptions": [
-        { "title": null, "description": "After she has used Illusory Torrent for 2s, if there are any opponents nearby, Mona will automatically create a Phantom. A Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom." }
+        {
+          "title": null,
+          "description": "After she has used Illusory Torrent for 2s, if there are any opponents nearby, Mona will automatically create a Phantom. A Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom."
+        }
       ]
     },
     {
       "unlock": "ASCENSION_4_UNLOCK",
       "name": "Waterborne Destiny",
       "descriptions": [
-        { "title": null, "description": "Increases Mona's Hydro DMG Bonus by a degree equivalent to 20% of her energyRecharge rate." }
+        {
+          "title": null,
+          "description": "Increases Mona's Hydro DMG Bonus by a degree equivalent to 20% of her energyRecharge rate."
+        }
       ]
     }
   ],
-  "additionalTalents" : [
+  "additionalTalents": [
     {
       "unlock": "WITCH_HOMEWORK_UNLOCK",
       "name": "Witch's Eve Rite: Genesis of Starsigns",
       "descriptions": [
-        { "title": null, "description": "After completing Witch's Homework: Of Untested Insight, Mona will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters." },
-        { "title": "Hexerei: Secret Rite", "description": "When Mona's Normal Attacks or Charged Attacks hit an opponent, she gains 1 stack of Astral Glow of Mercury, for 8s. Max 3 stacks. This effect can grant at most one stack every 0.1s. When other party members trigger a Vaporize reaction on an enemy, all Astral Glow of Mercury stacks are consumed. Each stack consumed increases the damage of that Vaporize reaction by 5%. Additionally, when Mona's Normal Attacks or Charged Attacks hit an opponent, the enemy's Omen duration is extended by 2s. This effect can trigger at most once every 0.5s, and can extend the Omen by up to 8s through this method." }
+        {
+          "title": null,
+          "description": "After completing Witch's Homework: Of Untested Insight, Mona will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters."
+        },
+        {
+          "title": "Hexerei: Secret Rite",
+          "description": "When Mona's Normal Attacks or Charged Attacks hit an opponent, she gains 1 stack of Astral Glow of Mercury, for 8s. Max 3 stacks. This effect can grant at most one stack every 0.1s. When other party members trigger a Vaporize reaction on an enemy, all Astral Glow of Mercury stacks are consumed. Each stack consumed increases the damage of that Vaporize reaction by 5%. Additionally, when Mona's Normal Attacks or Charged Attacks hit an opponent, the enemy's Omen duration is extended by 2s. This effect can trigger at most once every 0.5s, and can extend the Omen by up to 8s through this method."
+        }
       ]
     }
   ],
@@ -789,27 +1109,42 @@
       "level": 1,
       "name": "Prophecy of Submersion",
       "descriptions": [
-        {"title": null, "description": "When any of your own party members hits an opponent affected by an Omen, the effects of Hydro-related Elemental Reactions are enhanced for 8s: - Electro-Charged DMG increases by 15%, Lunar-Charged DMG increases by 15%, Vaporize DMG increases by 15%, Hydro Swirl DMG increases by 15%, Lunar-Crystallize DMG increases by 15%. - Frozen duration is extended by 15%." }
+        {
+          "title": null,
+          "description": "When any of your own party members hits an opponent affected by an Omen, the effects of Hydro-related Elemental Reactions are enhanced for 8s: - Electro-Charged DMG increases by 15%, Lunar-Charged DMG increases by 15%, Vaporize DMG increases by 15%, Hydro Swirl DMG increases by 15%, Lunar-Crystallize DMG increases by 15%. - Frozen duration is extended by 15%."
+        }
       ],
       "hexereiBuffDescriptions": [
-        {"title": null, "description": "When any of your own party members hits an opponent affected by an Omen, the effects of Hydro-related Elemental Reactions are enhanced for 8s: - Electro-Charged DMG increases by 15%, Lunar-Charged DMG increases by 15%, Vaporize DMG increases by 15%, Hydro Swirl DMG increases by 15%, Lunar-Crystallize DMG increases by 15%. - Frozen duration is extended by 15%. \nAdditionally, when your off-field party members trigger the above effect, the DMG Bonus to the above Hydro-related Elemental Reactions is enhanced to 160% of its original effect." }
+        {
+          "title": null,
+          "description": "When any of your own party members hits an opponent affected by an Omen, the effects of Hydro-related Elemental Reactions are enhanced for 8s: - Electro-Charged DMG increases by 15%, Lunar-Charged DMG increases by 15%, Vaporize DMG increases by 15%, Hydro Swirl DMG increases by 15%, Lunar-Crystallize DMG increases by 15%. - Frozen duration is extended by 15%. \nAdditionally, when your off-field party members trigger the above effect, the DMG Bonus to the above Hydro-related Elemental Reactions is enhanced to 160% of its original effect."
+        }
       ]
     },
     {
       "level": 2,
       "name": "Lunar Chain",
       "descriptions": [
-        {"title": null, "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack. This effect can only occur once every 5s." }
+        {
+          "title": null,
+          "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack. This effect can only occur once every 5s."
+        }
       ],
       "hexereiBuffDescriptions": [
-        {"title": null, "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack. Additionally, within 5s after Mona unleashes her Elemental Burst Stellaris Phantasm, her next Normal Attack that hits an enemy will automatically trigger a Charged Attack. The aforementioned Charged Attack effect can only occur once every 5s. When Mona's Charged Attack hits an opponent, all nearby party members will have their Elemental Mastery increased by 80 for 12s." }
+        {
+          "title": null,
+          "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack. Additionally, within 5s after Mona unleashes her Elemental Burst Stellaris Phantasm, her next Normal Attack that hits an enemy will automatically trigger a Charged Attack. The aforementioned Charged Attack effect can only occur once every 5s. When Mona's Charged Attack hits an opponent, all nearby party members will have their Elemental Mastery increased by 80 for 12s."
+        }
       ]
     },
     {
       "level": 3,
       "name": "Restless revolution",
       "descriptions": [
-        {"title" : null, "description": "Increases the Level of Stellaris Phantasm by 3. Maximum upgrade level is 15." }
+        {
+          "title": null,
+          "description": "Increases the Level of Stellaris Phantasm by 3. Maximum upgrade level is 15."
+        }
       ],
       "hexereiBuffDescriptions": []
     },
@@ -817,17 +1152,26 @@
       "level": 4,
       "name": "Prophecy of Oblivion",
       "descriptions": [
-        {"title": null, "description": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%." }
+        {
+          "title": null,
+          "description": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%."
+        }
       ],
       "hexereiBuffDescriptions": [
-        {"title": null, "description": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%. When any Hexerei party member attacks an opponent affected by an Omen, their CRIT DMG is increased by 15%." }
+        {
+          "title": null,
+          "description": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%. When any Hexerei party member attacks an opponent affected by an Omen, their CRIT DMG is increased by 15%."
+        }
       ]
     },
     {
       "level": 5,
       "name": "Mockery of Fortuna",
       "descriptions": [
-        {"title": null, "description": "Increases the Level of Mirror Reflection of Doom by 3. Maximum upgrade level is 15." }
+        {
+          "title": null,
+          "description": "Increases the Level of Mirror Reflection of Doom by 3. Maximum upgrade level is 15."
+        }
       ],
       "hexereiBuffDescriptions": []
     },
@@ -835,10 +1179,16 @@
       "level": 6,
       "name": "Rethorics of Calamitas",
       "descriptions": [
-        {"title": null, "description": "Upon entering Illusory Torrent, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement. A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s." }
+        {
+          "title": null,
+          "description": "Upon entering Illusory Torrent, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement. A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s."
+        }
       ],
       "hexereiBuffDescriptions": [
-        {"title": null, "description": "While Mona is the active character, while she is in the Illusory Torrent state or there are opponents affected by an Omen nearby, she gains a 60% increase to the DMG of her next Charged Attack per second. A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s. Additionally, the DMG Mona's Charged Attacks deal to opponents affected by an Omen will be increased to 200% of the original DMG." }
+        {
+          "title": null,
+          "description": "While Mona is the active character, while she is in the Illusory Torrent state or there are opponents affected by an Omen nearby, she gains a 60% increase to the DMG of her next Charged Attack per second. A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s. Additionally, the DMG Mona's Charged Attacks deal to opponents affected by an Omen will be increased to 200% of the original DMG."
+        }
       ]
     }
   ]

@@ -1,16 +1,16 @@
 {
   "name": "Varunada Lazurite Fragment",
   "rarity": 3,
-  "categories": [
-    "VARUNADA_LAZURITE",
-    "ASCENSION_GEMS"
-  ],
+  "categories": ["VARUNADA_LAZURITE", "ASCENSION_GEMS"],
   "description": "Character Ascension material. \"My ideals have no stains.\"",
   "sources": [
-    { "type": "BOSS", "minimumLevel": 40, "names": [
-        "Oceanid", 
-        "Frostnight Herra", 
-        "Aeonblight Drake", 
+    {
+      "type": "BOSS",
+      "minimumLevel": 40,
+      "names": [
+        "Oceanid",
+        "Frostnight Herra",
+        "Aeonblight Drake",
         "Secret Source Automaton: Overseer Device",
         "Solitary Suanni",
         "Hydro Tulpa",
@@ -19,7 +19,10 @@
         "Iniquitous Baptist"
       ]
     },
-    { "type": "WEEKLY_BOSS", "minimumLevel": 40, "names": [
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 40,
+      "names": [
         "All-Devouring Narwhal",
         "The Doctor",
         "Shouki no Kami, the Prodigal",
@@ -29,36 +32,67 @@
         "Stormterror"
       ]
     },
-    { "type": "ALCHEMY", "recipes": [
-      { "subtype" : "CRAFTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Va­ru­na­da La­zu­rite Sliver", "quantity": 3 },
-        { "item": "Mora", "quantity": 300 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Ag­ni­dus A­gate Fragment", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Nagadus Emerald Fragment", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Vajrada Amethyst Fragment", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Vayuda Turquoise Fragment", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Shivada Jade Fragment", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Prithiva Topaz Fragment", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 3 }
-      ] }
-    ]}
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Va­ru­na­da La­zu­rite Sliver", "quantity": 3 },
+            { "item": "Mora", "quantity": 300 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Ag­ni­dus A­gate Fragment", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Nagadus Emerald Fragment", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Vajrada Amethyst Fragment", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Vayuda Turquoise Fragment", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Shivada Jade Fragment", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Prithiva Topaz Fragment", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 3 }
+          ]
+        }
+      ]
+    }
   ],
   "usedIn": [
     "Agnidus Agate Fragment",
@@ -69,7 +103,7 @@
     "Vayuda Turquoise Fragment",
     "Varunada Lazurite Chunk"
   ],
-  "usedByCharacters" : {
+  "usedByCharacters": {
     "ascension": [
       "Aino",
       "Barbara",

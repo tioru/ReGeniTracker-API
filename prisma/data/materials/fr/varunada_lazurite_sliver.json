@@ -1,13 +1,13 @@
 {
   "name": "Éclat de lazurite varunada",
   "rarity": 2,
-  "categories": [
-    "VARUNADA_LAZURITE",
-    "ASCENSION_GEMS"
-  ],
+  "categories": ["VARUNADA_LAZURITE", "ASCENSION_GEMS"],
   "description": "Matériau d'élévation de personnage.",
   "sources": [
-    { "type": "BOSS", "minimumLevel": 1, "names": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 1,
+      "names": [
         "Océanide",
         "Herra de la nuit glaciale",
         "Dragon cataclysmique",
@@ -17,9 +17,12 @@
         "Hypostase Hydro",
         "Géosaure antique",
         "Lustrateur inique"
-      ] 
+      ]
     },
-    { "type": "WEEKLY_BOSS", "minimumLevel": 1, "names": [
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 1,
+      "names": [
         "Narval stellavore",
         "Dottore",
         "Shouki no Kami, le prodige",
@@ -27,34 +30,61 @@
         "Azhadaha",
         "Jeu d'échecs devant la porte",
         "Stormterror"
-      ] 
+      ]
     },
-    { "type": "ALCHEMY", "recipes": [
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Éclat d'agate agnidus", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Éclat d'émeraude nagadus", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Éclat d'améthyste vajrada", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Éclat de turquoise vayuda", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Éclat de jade shivada", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Éclat de topaze prithiva", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 1 }
-      ] }
-    ]}
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Éclat d'agate agnidus", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Éclat d'émeraude nagadus", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Éclat d'améthyste vajrada", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Éclat de turquoise vayuda", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Éclat de jade shivada", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Éclat de topaze prithiva", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 1 }
+          ]
+        }
+      ]
+    }
   ],
   "usedIn": [
     "Éclat d'agate agnidus",
@@ -87,8 +117,20 @@
     "talent": []
   },
   "usedByWeapons": [],
-  "sellers" : [
-    { "name": "Marjorie", "currency": "Sceau Anémo", "cost": 10, "stock": 6, "restock": "NEVER" },
-    { "name": "Xingxi", "currency": "Sceau Anémo", "cost": 10, "stock": 12, "restock": "NEVER" }
+  "sellers": [
+    {
+      "name": "Marjorie",
+      "currency": "Sceau Anémo",
+      "cost": 10,
+      "stock": 6,
+      "restock": "NEVER"
+    },
+    {
+      "name": "Xingxi",
+      "currency": "Sceau Anémo",
+      "cost": 10,
+      "stock": 12,
+      "restock": "NEVER"
+    }
   ]
 }

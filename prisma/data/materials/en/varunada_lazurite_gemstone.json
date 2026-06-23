@@ -1,16 +1,16 @@
 {
   "name": "Varunada Lazurite Gemstone",
   "rarity": 5,
-  "categories": [
-    "VARUNADA_LAZURITE",
-    "ASCENSION_GEMS"
-  ],
+  "categories": ["VARUNADA_LAZURITE", "ASCENSION_GEMS"],
   "description": "Character Ascension material. \"My ideals have no stains. \nI must correct you. People here bear no sins in the eyes of the gods... Only laws and the Tribunal can judge someone. They can judge even me. So praise my magnificence and purity.\"",
   "sources": [
-    { "type": "BOSS", "minimumLevel": 75, "names": [
-        "Oceanid", 
-        "Frostnight Herra", 
-        "Aeonblight Drake", 
+    {
+      "type": "BOSS",
+      "minimumLevel": 75,
+      "names": [
+        "Oceanid",
+        "Frostnight Herra",
+        "Aeonblight Drake",
         "Secret Source Automaton: Overseer Device",
         "Solitary Suanni",
         "Hydro Tulpa",
@@ -19,7 +19,10 @@
         "Iniquitous Baptist"
       ]
     },
-    { "type": "WEEKLY_BOSS", "minimumLevel": 75, "names": [
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 75,
+      "names": [
         "All-Devouring Narwhal",
         "The Doctor",
         "Shouki no Kami, the Prodigal",
@@ -29,36 +32,67 @@
         "Stormterror"
       ]
     },
-    { "type": "ALCHEMY", "recipes": [
-      { "subtype" : "CRAFTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Va­ru­na­da La­zu­rite Chunk", "quantity": 3 },
-        { "item": "Mora", "quantity": 2700 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Ag­ni­dus A­gate Gem­stone", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 27 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Nagadus Emerald Gemstone", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 27 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Vajrada Amethyst Gemstone", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 27 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Vayuda Turquoise Gemstone", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 27 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Shivada Jade Gemstone", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 27 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Prithiva Topaz Gemstone", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 27 }
-      ] }
-    ]}
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Va­ru­na­da La­zu­rite Chunk", "quantity": 3 },
+            { "item": "Mora", "quantity": 2700 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Ag­ni­dus A­gate Gem­stone", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 27 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Nagadus Emerald Gemstone", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 27 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Vajrada Amethyst Gemstone", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 27 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Vayuda Turquoise Gemstone", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 27 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Shivada Jade Gemstone", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 27 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Prithiva Topaz Gemstone", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 27 }
+          ]
+        }
+      ]
+    }
   ],
   "usedIn": [
     "Agnidus Agate Gemstone",

@@ -4,18 +4,18 @@
   "categories": [],
   "description": "Nectar extrait du pistil d'une Fleur mensongère. Il contient des traces d'éléments. Son goût rappelle celui de la fleur sucrante.",
   "sources": [
-    { 
-      "type": "COMMON_ENEMY", "minimumLevel": 1, "names": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
         "Fleur mensongère Pyro",
         "Fleur mensongère Cryo",
         "Fleur mensongère Électro"
       ]
     }
   ],
-  "usedIn": [
-    "Nectar miroitant"
-  ],
-  "usedByCharacters" : {
+  "usedIn": ["Nectar miroitant"],
+  "usedByCharacters": {
     "ascension": [
       "Furina",
       "Ganyu",

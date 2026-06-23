@@ -1,13 +1,13 @@
 {
   "name": "Fragment de lazurite varunada",
   "rarity": 3,
-  "categories": [
-    "VARUNADA_LAZURITE",
-    "ASCENSION_GEMS"
-  ],
+  "categories": ["VARUNADA_LAZURITE", "ASCENSION_GEMS"],
   "description": "Matériau d'élévation de personnage. « Mes idéaux sont purs. »",
   "sources": [
-    { "type": "BOSS", "minimumLevel": 40, "names": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 40,
+      "names": [
         "Océanide",
         "Herra de la nuit glaciale",
         "Dragon cataclysmique",
@@ -17,9 +17,12 @@
         "Hypostase Hydro",
         "Géosaure antique",
         "Lustrateur inique"
-      ] 
+      ]
     },
-    { "type": "WEEKLY_BOSS", "minimumLevel": 40, "names": [
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 40,
+      "names": [
         "Narval stellavore",
         "Dottore",
         "Shouki no Kami, le prodige",
@@ -27,38 +30,69 @@
         "Azhadaha",
         "Jeu d'échecs devant la porte",
         "Stormterror"
-      ] 
+      ]
     },
-    { "type": "ALCHEMY", "recipes": [
-      { "subtype" : "CRAFTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Éclat de lazurite varunada", "quantity": 3 },
-        { "item": "Mora", "quantity": 300 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Fragment d'agate agnidus", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Fragment d'émeraude nagadus", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Fragment d'améthyste vajrada", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Fragment de turquoise vayuda", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Fragment de jade shivada", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Fragment de topaze prithiva", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 3 }
-      ] }
-    ]}
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Éclat de lazurite varunada", "quantity": 3 },
+            { "item": "Mora", "quantity": 300 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Fragment d'agate agnidus", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Fragment d'émeraude nagadus", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Fragment d'améthyste vajrada", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Fragment de turquoise vayuda", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Fragment de jade shivada", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Fragment de topaze prithiva", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 3 }
+          ]
+        }
+      ]
+    }
   ],
   "usedIn": [
     "Fragment d'agate agnidus",
@@ -69,7 +103,7 @@
     "Fragment de turquoise vayuda",
     "Morceau de lazurite varunada"
   ],
-  "usedByCharacters" : {
+  "usedByCharacters": {
     "ascension": [
       "Aino",
       "Barbara",

@@ -1,53 +1,85 @@
 {
   "name": "Morceau d'émeraude nagadus",
   "rarity": 4,
-  "categories": [
-    "NAGADUS_EMERALD",
-    "ASCENSION_GEMS"
-  ],
+  "categories": ["NAGADUS_EMERALD", "ASCENSION_GEMS"],
   "description": "Matériau d'élévation de personnage. « J'ai fait un très long rêve... » « Il y avait des gens qui se tenaient la main et dansaient en cercle : des sages et des simples d'esprit, des danseuses et des guerriers, des marionnettes et des statues de divinités... »",
   "sources": [
-    { "type": "BOSS", "minimumLevel": 60, "names": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 60,
+      "names": [
         "Champieffroi panaché",
         "Hypostase Dendro",
         "Lunillon radieux",
         "Roi yumkasaure glouton de la montagne"
-      ] 
+      ]
     },
-    { "type": "WEEKLY_BOSS", "minimumLevel": 60, "names": [
-        "Garde de l'oasis d'Apep"
-      ] 
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 60,
+      "names": ["Garde de l'oasis d'Apep"]
     },
-    { "type": "ALCHEMY", "recipes": [
-      { "subtype" : "CRAFTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Fragment d'émeraude nagadus", "quantity": 3 },
-        { "item": "Mora", "quantity": 900 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Morceau d'agate agnidus", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 9 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Morceau de lazurite varunada", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 9 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Morceau d'améthyste vajrada", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 9 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Morceau de turquoise vayuda", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 9 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Morceau de jade shivada", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 9 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Morceau de topaze prithiva", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 9 }
-      ] }
-    ]}
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Fragment d'émeraude nagadus", "quantity": 3 },
+            { "item": "Mora", "quantity": 900 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Morceau d'agate agnidus", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 9 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Morceau de lazurite varunada", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 9 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Morceau d'améthyste vajrada", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 9 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Morceau de turquoise vayuda", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 9 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Morceau de jade shivada", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 9 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Morceau de topaze prithiva", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 9 }
+          ]
+        }
+      ]
+    }
   ],
   "usedIn": [
     "Morceau d'agate agnidus",

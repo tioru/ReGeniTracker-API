@@ -1,16 +1,16 @@
 {
   "name": "Varunada Lazurite Chunk",
   "rarity": 4,
-  "categories": [
-    "VARUNADA_LAZURITE",
-    "ASCENSION_GEMS"
-  ],
+  "categories": ["VARUNADA_LAZURITE", "ASCENSION_GEMS"],
   "description": "Character Ascension material. \"My ideals have no stains.\nI must correct you. People here bear no sins in the eyes of the gods...\"",
   "sources": [
-    { "type": "BOSS", "minimumLevel": 60, "names": [
-        "Oceanid", 
-        "Frostnight Herra", 
-        "Aeonblight Drake", 
+    {
+      "type": "BOSS",
+      "minimumLevel": 60,
+      "names": [
+        "Oceanid",
+        "Frostnight Herra",
+        "Aeonblight Drake",
         "Secret Source Automaton: Overseer Device",
         "Solitary Suanni",
         "Hydro Tulpa",
@@ -19,7 +19,10 @@
         "Iniquitous Baptist"
       ]
     },
-    { "type": "WEEKLY_BOSS", "minimumLevel": 60, "names": [
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 60,
+      "names": [
         "All-Devouring Narwhal",
         "The Doctor",
         "Shouki no Kami, the Prodigal",
@@ -29,36 +32,67 @@
         "Stormterror"
       ]
     },
-    { "type": "ALCHEMY", "recipes": [
-      { "subtype" : "CRAFTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Va­ru­na­da La­zu­rite Fragment", "quantity": 3 },
-        { "item": "Mora", "quantity": 900 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Ag­ni­dus A­gate Chunk", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 9 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Nagadus Emerald Chunk", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 9 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Vajrada Amethyst Chunk", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 9 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Vayuda Turquoise Chunk", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 9 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Shivada Jade Chunk", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 9 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Prithiva Topaz Chunk", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 9 }
-      ] }
-    ]}
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Va­ru­na­da La­zu­rite Fragment", "quantity": 3 },
+            { "item": "Mora", "quantity": 900 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Ag­ni­dus A­gate Chunk", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 9 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Nagadus Emerald Chunk", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 9 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Vajrada Amethyst Chunk", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 9 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Vayuda Turquoise Chunk", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 9 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Shivada Jade Chunk", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 9 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Prithiva Topaz Chunk", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 9 }
+          ]
+        }
+      ]
+    }
   ],
   "usedIn": [
     "Agnidus Agate Chunk",

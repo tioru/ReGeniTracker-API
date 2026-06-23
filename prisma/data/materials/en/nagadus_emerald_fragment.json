@@ -1,53 +1,85 @@
 {
   "name": "Nagadus Emerald Fragment",
   "rarity": 3,
-  "categories": [
-    "NAGADUS_EMERALD",
-    "ASCENSION_GEMS"
-  ],
+  "categories": ["NAGADUS_EMERALD", "ASCENSION_GEMS"],
   "description": "Character Ascension material. \"I had a very, very long dream...\"",
   "sources": [
-    { "type": "BOSS", "minimumLevel": 40, "names": [
-        "Dendro Hypostasis", 
-        "Jadeplume Terrorshroom", 
-        "Kongamato", 
+    {
+      "type": "BOSS",
+      "minimumLevel": 40,
+      "names": [
+        "Dendro Hypostasis",
+        "Jadeplume Terrorshroom",
+        "Kongamato",
         "Radiant Moonfly"
       ]
     },
-    { "type": "WEEKLY_BOSS", "minimumLevel": 40, "names": [
-        "Guardian of Apep's Oasis"
-      ]
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 40,
+      "names": ["Guardian of Apep's Oasis"]
     },
-    { "type": "ALCHEMY", "recipes": [
-      { "subtype" : "CRAFTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Na­ga­dus Em­er­ald Sliver", "quantity": 3 },
-        { "item": "Mora", "quantity": 300 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Ag­ni­dus A­gate Fragment", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Varunada Lazurite Fragment", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Vajrada Amethyst Fragment", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Vayuda Turquoise Fragment", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Shivada Jade Fragment", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 3 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Prithiva Topaz Fragment", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 3 }
-      ] }
-    ]}
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Na­ga­dus Em­er­ald Sliver", "quantity": 3 },
+            { "item": "Mora", "quantity": 300 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Ag­ni­dus A­gate Fragment", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Varunada Lazurite Fragment", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Vajrada Amethyst Fragment", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Vayuda Turquoise Fragment", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Shivada Jade Fragment", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 3 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Prithiva Topaz Fragment", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 3 }
+          ]
+        }
+      ]
+    }
   ],
   "usedIn": [
     "Agnidus Agate Fragment",

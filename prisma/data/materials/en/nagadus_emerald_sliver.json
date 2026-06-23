@@ -1,49 +1,77 @@
 {
   "name": "Nagadus Emerald Sliver",
   "rarity": 2,
-  "categories": [
-    "NAGADUS_EMERALD",
-    "ASCENSION_GEMS"
-  ],
+  "categories": ["NAGADUS_EMERALD", "ASCENSION_GEMS"],
   "description": "Character Ascension material.",
   "sources": [
-    { "type": "BOSS", "minimumLevel": 1, "names": [
-        "Dendro Hypostasis", 
-        "Jadeplume Terrorshroom", 
-        "Kongamato", 
+    {
+      "type": "BOSS",
+      "minimumLevel": 1,
+      "names": [
+        "Dendro Hypostasis",
+        "Jadeplume Terrorshroom",
+        "Kongamato",
         "Radiant Moonfly"
       ]
     },
-    { "type": "WEEKLY_BOSS", "minimumLevel": 1, "names": [
-        "Guardian of Apep's Oasis"
-      ]
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 1,
+      "names": ["Guardian of Apep's Oasis"]
     },
-    { "type": "ALCHEMY", "recipes": [
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Ag­ni­dus A­gate Sliver", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Varunada Lazurite Sliver", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Vajrada Amethyst Sliver", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Vayuda Turquoise Sliver", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Shivada Jade Sliver", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Prithiva Topaz Sliver", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 1 }
-      ] }
-    ]}
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Ag­ni­dus A­gate Sliver", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Varunada Lazurite Sliver", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Vajrada Amethyst Sliver", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Vayuda Turquoise Sliver", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Shivada Jade Sliver", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Prithiva Topaz Sliver", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 1 }
+          ]
+        }
+      ]
+    }
   ],
   "usedIn": [
     "Agnidus Agate Sliver",

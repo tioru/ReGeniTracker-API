@@ -1,64 +1,64 @@
 {
-    "name": "Boreal Wolf's Cracked Tooth",
-    "rarity": 3,
-    "categories": [
-
-    ],
-    "description": "Andrius' wolf pack is its blessed honor guard, and even the milk teeth of a wolf cub possess great potential. In the past, the gods had the responsibility to love all people. Andrius was therefore quite unusual in that he became leader of the wolves, while only welcoming abandoned babies and wanderers when it came to humans.",
-    "sources": [
-        { 
-            "type": "DOMAIN",
-            "domain": "Cecilia Garden",
-            "rotation": "Submerged Valley",
-            "minimumLevel": 1 
-        },
-        {
-            "type": "PARAMETRIC_TRANSFORMER"
-        },
-        { "type": "ALCHEMY", "recipes": [
-            { "subtype" : "CRAFTING", "resultQuantity": 1, "ingredients": [
-                    { "item": "Boreal Wolf's Milk Tooth", "quantity": 3 },
-                    { "item": "Mora", "quantity": 125 }
-                ] 
-            }
-        ]}
-    ],
-    "usedIn": [
-        "Boreal Wolf's Broken Fang"
-    ],
-    "usedByCharacters": {
-        "ascension": [],
-        "talent": []
+  "name": "Boreal Wolf's Cracked Tooth",
+  "rarity": 3,
+  "categories": [],
+  "description": "Andrius' wolf pack is its blessed honor guard, and even the milk teeth of a wolf cub possess great potential. In the past, the gods had the responsibility to love all people. Andrius was therefore quite unusual in that he became leader of the wolves, while only welcoming abandoned babies and wanderers when it came to humans.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cecilia Garden",
+      "rotation": "Submerged Valley",
+      "minimumLevel": 1
     },
-    "usedByWeapons": [
-        "Elegy for the End",
-        "Gest of the Mighty Wolf",
-        "Sky­ward At­las",
-        "Sky­ward Blade",
-        "Sky­ward Harp",
-        "Sky­ward Pride",
-        "Bal­lad of the Bound­less Blue",
-        "Death­match",
-        "Do­do­co Tales",
-        "Drag­on­spine Spear",
-        "Mis­sive Wind­spear",
-        "Sac­ri­fi­cial Bow",
-        "Sac­ri­fi­cial Great­sword",
-        "Sword of De­scen­sion",
-        "The Black Sword",
-        "The Flute",
-        "The Widsith",
-        "Wine and Song",
-        "Blood­stained Great­sword",
-        "Harbinger of Dawn",
-        "Sharpshooter's Oath",
-        "Thrilling Tales of Dragon Slayers",
-        "Old Merc's Pal",
-        "Seasoned Hunter's Bow",
-        "Hunter's Bow",
-        "Wast­er Great­sword"
-    ],
-    "sellers": [
-        { "name": "Marjorie", "currency": "Anemo Sigil" }
-    ]
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Boreal Wolf's Milk Tooth", "quantity": 3 },
+            { "item": "Mora", "quantity": 125 }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": ["Boreal Wolf's Broken Fang"],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Elegy for the End",
+    "Gest of the Mighty Wolf",
+    "Sky­ward At­las",
+    "Sky­ward Blade",
+    "Sky­ward Harp",
+    "Sky­ward Pride",
+    "Bal­lad of the Bound­less Blue",
+    "Death­match",
+    "Do­do­co Tales",
+    "Drag­on­spine Spear",
+    "Mis­sive Wind­spear",
+    "Sac­ri­fi­cial Bow",
+    "Sac­ri­fi­cial Great­sword",
+    "Sword of De­scen­sion",
+    "The Black Sword",
+    "The Flute",
+    "The Widsith",
+    "Wine and Song",
+    "Blood­stained Great­sword",
+    "Harbinger of Dawn",
+    "Sharpshooter's Oath",
+    "Thrilling Tales of Dragon Slayers",
+    "Old Merc's Pal",
+    "Seasoned Hunter's Bow",
+    "Hunter's Bow",
+    "Wast­er Great­sword"
+  ],
+  "sellers": [{ "name": "Marjorie", "currency": "Anemo Sigil" }]
 }

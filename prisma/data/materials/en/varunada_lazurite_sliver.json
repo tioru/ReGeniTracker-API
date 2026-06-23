@@ -1,17 +1,16 @@
 {
   "name": "Varunada Lazurite Sliver",
   "rarity": 2,
-  "categories": [
-    "VARUNADA_LAZURITE",
-    "ASCENSION_GEMS"
-  ],
+  "categories": ["VARUNADA_LAZURITE", "ASCENSION_GEMS"],
   "description": "Character Ascension Material.",
   "sources": [
-    { 
-      "type": "BOSS", "minimumLevel": 1, "names": [
-        "Oceanid", 
-        "Frostnight Herra", 
-        "Aeonblight Drake", 
+    {
+      "type": "BOSS",
+      "minimumLevel": 1,
+      "names": [
+        "Oceanid",
+        "Frostnight Herra",
+        "Aeonblight Drake",
         "Secret Source Automaton: Overseer Device",
         "Solitary Suanni",
         "Hydro Tulpa",
@@ -20,8 +19,10 @@
         "Iniquitous Baptist"
       ]
     },
-    { 
-      "type": "WEEKLY_BOSS", "minimumLevel": 1, "names": [
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 1,
+      "names": [
         "All-Devouring Narwhal",
         "The Doctor",
         "Shouki no Kami, the Prodigal",
@@ -31,32 +32,59 @@
         "Stormterror"
       ]
     },
-    { "type": "ALCHEMY", "recipes": [
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Ag­ni­dus A­gate Sliver", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Nagadus Emerald Sliver", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Vajrada Amethyst Sliver", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Vayuda Turquoise Sliver", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Shivada Jade Sliver", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Prithiva Topaz Sliver", "quantity": 1 },
-        { "item": "Dust of Azote", "quantity": 1 }
-      ] }
-    ]}
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Ag­ni­dus A­gate Sliver", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Nagadus Emerald Sliver", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Vajrada Amethyst Sliver", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Vayuda Turquoise Sliver", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Shivada Jade Sliver", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Prithiva Topaz Sliver", "quantity": 1 },
+            { "item": "Dust of Azote", "quantity": 1 }
+          ]
+        }
+      ]
+    }
   ],
   "usedIn": [
     "Agnidus Agate Sliver",
@@ -89,8 +117,20 @@
     "talent": []
   },
   "usedByWeapons": [],
-  "sellers" : [
-    { "name": "Marjorie", "currency": "Anemo Sigil", "cost": 10, "stock": 6, "restock": "NEVER" },
-    { "name": "Xingxi", "currency": "Anemo Sigil", "cost": 10, "stock": 12, "restock": "NEVER" }
+  "sellers": [
+    {
+      "name": "Marjorie",
+      "currency": "Anemo Sigil",
+      "cost": 10,
+      "stock": 6,
+      "restock": "NEVER"
+    },
+    {
+      "name": "Xingxi",
+      "currency": "Anemo Sigil",
+      "cost": 10,
+      "stock": 12,
+      "restock": "NEVER"
+    }
   ]
 }

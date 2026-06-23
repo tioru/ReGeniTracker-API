@@ -1,49 +1,77 @@
 {
   "name": "Éclat d'émeraude nagadus",
   "rarity": 2,
-  "categories": [
-    "NAGADUS_EMERALD",
-    "ASCENSION_GEMS"
-  ],
+  "categories": ["NAGADUS_EMERALD", "ASCENSION_GEMS"],
   "description": "Matériau d'élévation de personnage.",
   "sources": [
-    { "type": "BOSS", "minimumLevel": 1, "names": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 1,
+      "names": [
         "Champieffroi panaché",
         "Hypostase Dendro",
         "Lunillon radieux",
         "Roi yumkasaure glouton de la montagne"
-      ] 
+      ]
     },
-    { "type": "WEEKLY_BOSS", "minimumLevel": 1, "names": [
-        "Garde de l'oasis d'Apep"
-      ] 
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 1,
+      "names": ["Garde de l'oasis d'Apep"]
     },
-    { "type": "ALCHEMY", "recipes": [
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Éclat d'agate agnidus", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Éclat de lazurite varunada", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Éclat d'améthyste vajrada", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Éclat de turquoise vayuda", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Éclat de jade shivada", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 1 }
-      ] },
-      { "subtype" : "CONVERTING", "resultQuantity": 1, "ingredients": [
-        { "item": "Éclat de topaze prithiva", "quantity": 1 },
-        { "item": "Poudre d'azote", "quantity": 1 }
-      ] }
-    ]}
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Éclat d'agate agnidus", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Éclat de lazurite varunada", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Éclat d'améthyste vajrada", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Éclat de turquoise vayuda", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Éclat de jade shivada", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 1 }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            { "item": "Éclat de topaze prithiva", "quantity": 1 },
+            { "item": "Poudre d'azote", "quantity": 1 }
+          ]
+        }
+      ]
+    }
   ],
   "usedIn": [
     "Éclat d'agate agnidus",
