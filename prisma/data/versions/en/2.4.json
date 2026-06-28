@@ -1,0 +1,83 @@
+{
+  "number": "2.4",
+  "name": "Fleeting Colors in Flight",
+  "releaseDate": "2022-01-05",
+  "endDate": "2022-02-16",
+  "newCharacters": ["Shenhe", "Yun Jin"],
+  "mapExpansion": [
+    {
+      "mainRegion": "Enkanomiya",
+      "subRegion": []
+    }
+  ],
+  "newWeapons": {
+    "4Star": [],
+    "5Star": ["Calamity Queller"]
+  },
+  "newBosses": ["Golden Wolflord"],
+  "banners": {
+    "characters": [
+      "The Transcendent One Returns",
+      "Invitation to Mundane Life",
+      "Gentry of Hermitage",
+      "Adrift in the Harbor"
+    ],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "Fleeting Colors in Flight",
+    "Prosperous Partnerships",
+    "May Fortune Find You",
+    "Flowing Lights and Colors",
+    "A Study in Potions",
+    "Eight Locales Over Mountains and Seas",
+    "Windtrace"
+  ],
+  "newQuests": {
+    "archonQuests": [
+      {
+        "chapter": "",
+        "chapterName": "Interlude Chapter",
+        "acts": [{ "act": 1, "name": "The Crane Returns on the Wind" }]
+      }
+    ],
+    "storyQuests": [],
+    "worldQuests": [
+      "The Still Water's Flow",
+      "A Glimpse Into the Pale Night",
+      "Hereafter: The Trail of Pervases",
+      "Hereafter: All is Well",
+      "Hereafter: Return to the Mountains",
+      "The Phaethons' Syrtos",
+      "Lotus Eater",
+      "Collection of Dragons and Snakes",
+      "Antigonus",
+      "Date's Challenge",
+      "Tricolor File"
+    ],
+    "hangoutQuests": [
+      {
+        "character": "Ningguang",
+        "acts": [{ "act": 1, "name": "The Jade Chamber's Returning Guest" }]
+      },
+      {
+        "character": "Yun Jin",
+        "acts": [{ "act": 1, "name": "A Song That Knows Grace" }]
+      }
+    ],
+    "limitedTimeWorldQuests": []
+  },
+  "newArtifacts": ["Husk of Opulent Dreams", "Ocean-Hued Clam"],
+  "newMonsters": [
+    "Abyss Lector: Fathomless Flames",
+    "Cryo Specter",
+    "Electro Specter",
+    "Pyro Specter",
+    "Primordial Bathysmal Vishap",
+    "Rimebiter Bathysmal Vishap",
+    "Bolteater Bathysmal Vishap",
+    "Coral Defenders"
+  ],
+  "newDomains": ["Slumbering Court"],
+  "newLimitedTimeArea": []
+}

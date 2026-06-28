@@ -1,0 +1,58 @@
+{
+  "number": "2.2",
+  "name": "Floating World Under the Moonlight",
+  "releaseDate": "2021-10-13",
+  "endDate": "2021-11-24",
+  "newCharacters": ["Thoma", "Aloy"],
+  "mapExpansion": [
+    {
+      "mainRegion": "Inazuma",
+      "subRegion": ["Tsurumi Island"]
+    }
+  ],
+  "newWeapons": {
+    "4Star": ["Wavebreaker's Fin", "Akuoumaru", "Mouun's Moon"],
+    "5Star": ["Polar Star"]
+  },
+  "newBosses": ["La Signora", "Hydro Hypostasis", "Thunder Manifestation"],
+  "banners": {
+    "characters": ["Farewell of Snezhnaya", "Moment of Bloom"],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "Labyrinth Warriors",
+    "Shadow of the Ancients",
+    "Tuned to the World's Sounds",
+    "Dreams of Bloom",
+    "Ley Line Overflow"
+  ],
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [],
+    "worldQuests": [
+      "Through the Mists",
+      "The Saga of Mr. Forgetful",
+      "Clean House"
+    ],
+    "hangoutQuests": [
+      {
+        "character": "Sayu",
+        "acts": [{ "act": 1, "name": "Yoohoo Art: Seichou no Jutsu" }]
+      },
+      {
+        "character": "Thoma",
+        "acts": [{ "act": 1, "name": "A Housekeeper's Daily Chores" }]
+      }
+    ],
+    "limitedTimeWorldQuests": []
+  },
+  "newArtifacts": [],
+  "newMonsters": [
+    "Rockfond Rifthound Whelp",
+    "Rockfond Rifthound",
+    "Thundercraven Rifthound Whelp",
+    "Thundercraven Rifthound"
+  ],
+  "newDomains": ["Moshiri Kara"],
+  "newLimitedTimeArea": []
+}

@@ -1,0 +1,76 @@
+{
+  "number": "2.1",
+  "name": "Floating World Under the Moonlight",
+  "releaseDate": "2021-09-01",
+  "endDate": "2021-10-13",
+  "newCharacters": [
+    "Raiden Shogun",
+    "Sangonomiya Kokomi",
+    "Kujou Sara",
+    "Aloy"
+  ],
+  "mapExpansion": [
+    {
+      "mainRegion": "Inazuma",
+      "subRegion": ["Watatsumi Island", "Seirai Island"]
+    }
+  ],
+  "newWeapons": {
+    "4Star": ["Luxurious Sea-Lord", "\"The Catch\"", "Predator"],
+    "5Star": ["Engulfing Lightning", "Everlasting Moonglow"]
+  },
+  "newBosses": ["La Signora", "Hydro Hypostasis", "Thunder Manifestation"],
+  "banners": {
+    "characters": ["Reign of Serenity", "Drifting Luminescence"],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "Moonlight Merriment",
+    "Passage of Clouds and Stars",
+    "Hyakunin Ikki",
+    "Lunar Realm",
+    "Spectral Secrets"
+  ],
+  "newQuests": {
+    "archonQuests": [
+      {
+        "chapter": "2",
+        "chapterName": "Chapter II",
+        "acts": [{ "act": 3, "name": "Omnipresence Over Mortals" }]
+      }
+    ],
+    "storyQuests": [
+      {
+        "chapter": "Imperatrix Umbrosa Chapter",
+        "character": "Raiden Shogun",
+        "acts": [{ "act": 1, "name": "Reflections of Mortality" }]
+      },
+      {
+        "chapter": "Dracaena Somnolenta Chapter",
+        "character": "Sangonomiya Kokomi",
+        "acts": [
+          { "act": 1, "name": "Warriors' Dreams Like Spring Grass Renewing" }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "The Moon-Bathed Deep",
+      "Divine Plant of the Depths",
+      "Solitary Sea-Beast",
+      "Seirai Stormchasers",
+      "Relics of Seirai",
+      "Reminiscence of Seirai",
+      "Neko Is a Cat",
+      "Storytelling Method",
+      "Fertilizer... Salesperson?",
+      "The Narukami Trail",
+      "Exploding Population"
+    ],
+    "hangoutQuests": [],
+    "limitedTimeWorldQuests": []
+  },
+  "newArtifacts": [],
+  "newMonsters": [],
+  "newDomains": ["Narukami Island: Tenshukaku", "Palace in a Pool"],
+  "newLimitedTimeArea": []
+}

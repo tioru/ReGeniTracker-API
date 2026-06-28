@@ -1,0 +1,60 @@
+{
+  "number": "2.3",
+  "name": "Shadows Amidst Snowstorms",
+  "releaseDate": "2021-11-24",
+  "endDate": "2022-01-05",
+  "newCharacters": ["Arataki Itto", "Gorou"],
+  "mapExpansion": [],
+  "newWeapons": {
+    "4Star": ["Cinnabar Spindle"],
+    "5Star": ["Redhorn Stonethresher"]
+  },
+  "newBosses": ["Golden Wolflord"],
+  "banners": {
+    "characters": [
+      "Secretum Secretorum",
+      "Born of Ocean Swell",
+      "Oni's Royale"
+    ],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "Shadows Amidst Snowstorms",
+    "Bantan Sango Case Files: The Warrior Dog",
+    "Misty Dungeon: Realm of Light",
+    "Energy Amplifier Fruition",
+    "Marvelous Merchandise"
+  ],
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Taurus Iracundus Chapter",
+        "character": "Arataki Itto",
+        "acts": [{ "act": 1, "name": "Rise Up, Golden Soul" }]
+      }
+    ],
+    "worldQuests": [
+      "Omni-Ubiquity Net",
+      "Snowy Silhouette: Hope",
+      "Snowy Silhouette: Reunion"
+    ],
+    "hangoutQuests": [
+      {
+        "character": "Gorou",
+        "acts": [
+          { "act": 1, "name": "The Canine General's Special Operations" }
+        ]
+      },
+      {
+        "character": "Beidou",
+        "acts": [{ "act": 1, "name": "When the Crux Shines Bright" }]
+      }
+    ],
+    "limitedTimeWorldQuests": []
+  },
+  "newArtifacts": ["Husk of Opulent Dreams", "Ocean-Hued Clam"],
+  "newMonsters": [],
+  "newDomains": ["Slumbering Court"],
+  "newLimitedTimeArea": []
+}
