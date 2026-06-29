@@ -1,0 +1,69 @@
+{
+  "number": "2.6",
+  "name": "Zephyr of the Violet Garden",
+  "releaseDate": "2022-03-30",
+  "endDate": "2022-05-31",
+  "newCharacters": ["Kamisato Ayato"],
+  "mapExpansion": [
+    {
+      "mainRegion": "The Chasm",
+      "subRegion": []
+    }
+  ],
+  "newWeapons": {
+    "5Star": ["Haran Geppaku Futsu"]
+  },
+  "newBosses": ["Ruin Serpent"],
+  "banners": {
+    "characters": ["Azure Excursion", "Ballad in Goblets", "The Heron's Court"],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "Hues of the Violet Garden",
+    "Outside the Canvas, Inside the Lens",
+    "Vibro-Crystal Research",
+    "Ley Line Overflow",
+    "Marvelous Merchandise",
+    "Spices From the West",
+    "Overflowing Mastery"
+  ],
+  "newQuests": {
+    "archonQuests": [
+      {
+        "chapter": "2",
+        "chapterName": "Chapter II",
+        "acts": [{ "act": 4, "name": "Requiem of the Echoing Depths" }]
+      }
+    ],
+    "storyQuests": [
+      {
+        "chapter": "Cypressus Custos Chapter",
+        "character": "Kamisato Ayato",
+        "acts": [{ "act": 1, "name": "The Firmiana Leaf Falls" }]
+      }
+    ],
+    "worldQuests": [
+      "The Chams Delvers",
+      "Stolen, by the Rightful Owner",
+      "Undetected Infiltration",
+      "A Cliff-Side Hero's Past",
+      "The Milennial Mountain's",
+      "Says He Who Seeks Stone",
+      "Dimming Mushroom's Call for Help",
+      "A Company Vanishing Into the Deep",
+      "Valor's Afterglow",
+      "Lost in a Foreign Land",
+      "Mycological Investigation in The Chasm",
+      "Hydrological Investigation in The Chasm",
+      "Paleontological Investigation in The Chasm",
+      "The Chasm's Bounty",
+      "The Missing Miner"
+    ],
+    "hangoutQuests": [],
+    "limitedTimeWorldQuests": []
+  },
+  "newArtifacts": ["Vermillion Hereafter", "Echoes of an Offering"],
+  "newMonsters": ["Black Serpent Knight: Windcutter", "Floating Hydro Fungus"],
+  "newDomains": ["The Lost Valley"],
+  "newLimitedTimeArea": []
+}

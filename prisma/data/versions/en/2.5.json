@@ -1,0 +1,54 @@
+{
+  "number": "2.5",
+  "name": "When the Sakura Bloom",
+  "releaseDate": "2022-02-16",
+  "endDate": "2022-03-30",
+  "newCharacters": ["Yae Miko"],
+  "mapExpansion": [],
+  "newWeapons": {
+    "4Star": ["Othsworn Eye"],
+    "5Star": ["Kagura's Verity"]
+  },
+  "newBosses": ["Magatsu Mitake Narukami no Mikoto"],
+  "banners": {
+    "characters": [
+      "Everbloom Violet",
+      "Reign of Serenity",
+      "Drifting Luminescence"
+    ],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "Three Realms Gateway Offering",
+    "Divine Ingenuity",
+    "Of Drink A-Dreaming",
+    "Hyakunin Ikki",
+    "Overflowing Mastery"
+  ],
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Imperatrix Umbrosa Chapter",
+        "character": "Raiden SHogun",
+        "acts": [{ "act": 2, "name": "Transient Dreams" }]
+      },
+      {
+        "chapter": "Divina Vulpes Chapter",
+        "character": "Yae Miko",
+        "acts": [{ "act": 1, "name": "The Great Narukami Offering" }]
+      }
+    ],
+    "worldQuests": [],
+    "hangoutQuests": [],
+    "limitedTimeWorldQuests": []
+  },
+  "newArtifacts": ["Husk of Opulent Dreams", "Ocean-Hued Clam"],
+  "newMonsters": [
+    "Shadowy Husk: Standard Bearer",
+    "Shadowy Husk: Line Breaker",
+    "Shadowy Husk: Defender"
+  ],
+  "newDomains": ["End of the Oneiric Euthymia"],
+  "newLimitedTimeArea": []
+}
