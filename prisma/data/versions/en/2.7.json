@@ -1,0 +1,59 @@
+{
+  "number": "2.7",
+  "name": "Hidden Dreams in the Depths",
+  "releaseDate": "2022-05-31",
+  "endDate": "2022-07-13",
+  "newCharacters": ["Yelan", "Kuki Shinobu"],
+  "mapExpansion": [],
+  "newWeapons": {
+    "4Star": ["Fading Twilight"],
+    "5Star": ["Aqua Simulacra"]
+  },
+  "newBosses": [],
+  "banners": {
+    "characters": [
+      "Discerner of Enigmas",
+      "Invitation to Mundane",
+      "Oni's Royale"
+    ],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "Perilous Trail",
+    "A Muddy Bizarre Adventure",
+    "The Almighty Arataki Great and Glorious Drumalong Festival",
+    "Core of the Apparatus"
+  ],
+  "newQuests": {
+    "archonQuests": [
+      {
+        "chapter": "",
+        "chapterName": "Interlude Chapter",
+        "acts": [{ "act": 2, "name": "Perilous Trail" }]
+      }
+    ],
+    "storyQuests": [
+      {
+        "chapter": "Umbrabilis Orchis Chapter",
+        "character": "Yelan",
+        "acts": [{ "act": 1, "name": "Calculated Gambit" }]
+      }
+    ],
+    "worldQuests": [
+      "On the Stage, Behind the Stage",
+      "The Tales Behind the Fan",
+      "Garcia's Paean"
+    ],
+    "hangoutQuests": [
+      {
+        "character": "Kuki Shinobu",
+        "acts": [{ "act": 1, "name": "The Gang's Daily Deeds" }]
+      }
+    ],
+    "limitedTimeWorldQuests": []
+  },
+  "newArtifacts": [],
+  "newMonsters": [],
+  "newDomains": [],
+  "newLimitedTimeArea": []
+}

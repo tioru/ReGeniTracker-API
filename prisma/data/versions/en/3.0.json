@@ -1,0 +1,141 @@
+{
+  "number": "3.0",
+  "name": "The Morn a Thousand Roses Brings",
+  "releaseDate": "2022-08-24",
+  "endDate": "2022-09-28",
+  "newCharacters": ["Tighnari", "Collei", "Dori"],
+  "mapExpansion": [
+    {
+      "mainRegion": "Sumeru",
+      "subRegion": [
+        "Avidya Forest",
+        "Lokapala Jungle",
+        "Ardravi Valley",
+        "Ashavan Realm",
+        "Vissudha Field",
+        "Vanarana",
+        "Lost Nursery"
+      ]
+    }
+  ],
+  "newWeapons": {
+    "4Star": [
+      "End of the Line",
+      "King's Squire",
+      "Sapwood Blade",
+      "Moonpiercer",
+      "Forest Regalia",
+      "Fruit of Fulfillment"
+    ],
+    "5Star": ["Hun­ter's Path"]
+  },
+  "newBosses": ["Ruin Serpent"],
+  "banners": {
+    "characters": [
+      "Viridescent Vigil",
+      "Viridescent Vigil",
+      "Adrift in the Harbor",
+      "Drifting Luminescence"
+    ],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "Graven Innocence",
+    "Fayz Trials",
+    "Tablet Analytics",
+    "Lost Riches",
+    "Ley Line Overflow"
+  ],
+  "newQuests": {
+    "archonQuests": [
+      {
+        "chapter": "3",
+        "chapterName": "Chapter III",
+        "acts": [
+          { "act": 1, "name": "Through Mists of Smoke and Forests Dark" },
+          { "act": 2, "name": "The Morn a Thousand Roses Brings" }
+        ]
+      }
+    ],
+    "storyQuests": [
+      {
+        "chapter": "Vulpes Zerda Chapter",
+        "character": "Tighnari",
+        "acts": [{ "act": 1, "name": "The Unanswerable Problems" }]
+      }
+    ],
+    "worldQuests": [
+      "Aranaga's Memory",
+      "Aranakin's Old Friend",
+      "Aragaru's Drawing",
+      "Memory's Final Chapter",
+      "Courage Is in the Heart",
+      "Legends of the Stone Lock",
+      "Giving Flowers",
+      "Gourmet Supremos: Within Our Duties",
+      "The Price",
+      "Adventure Takes Courage!",
+      "Garcia's Paean: A Gift of Compatibility",
+      "The Path of Papers",
+      "For a Dream I Tarry",
+      "Cost-Effective Hook",
+      "Even Beasts Stumble",
+      "Treasure of Wisdom: A New Plan",
+      "Aranyaka",
+      "Until Vana is Healed",
+      "Vimana Agama",
+      "Varuna Gatha",
+      "Agnihotra Sutra",
+      "An Unwavering Culinary Dream",
+      "The Foolish Fatuus",
+      "A Short Encounter with a Rare Bird",
+      "Where Are the Fierce Creatures?",
+      "Corps of Thirty Recruitment",
+      "Static Views",
+      "Static Views, Part 2",
+      "Trees and Dreams"
+    ],
+    "hangoutQuests": [
+      {
+        "character": "Shikanoin Heizou",
+        "acts": [{ "act": 1, "name": "Trap 'Em by Storm" }]
+      }
+    ],
+    "limitedTimeWorldQuests": []
+  },
+  "newArtifacts": ["Deepwood Memories", "Gilded Dreams"],
+  "newMonsters": [
+    "Electro Regisvine",
+    "Jadeplume Terrorshroom",
+    "Floating Dendro Fungus",
+    "Whirling Electro Fungus",
+    "Whirling Cryo Fungus",
+    "Stretchy Pyro Fungus",
+    "Stretchy Anemo Fungus",
+    "Stretchy Geo Fungus",
+    "Grounded Hydroshroom",
+    "Winged Dendroshroom",
+    "Winged Cryoshroom",
+    "Eremite Axe Vanguard",
+    "Eremite Crossbow",
+    "Eremite Ravenbeak Halberdier",
+    "Eremite Linebreaker",
+    "Eremite Sword-Dancer",
+    "Eremite Desert Clearwater",
+    "Eremite Sunfrost",
+    "Eremite Daythunder",
+    "Ruin Drake: Earthguard",
+    "Ruin Drake: Skywatch",
+    "Dendro Specter"
+  ],
+  "newDomains": [
+    "Tower of Abject Pride",
+    "Steeple of Ignorance",
+    "Spire of Solitary Enlightenment",
+    "Under the Umbrella's Shade",
+    "Fragment of Childhood Dreams",
+    "The Coordinates of Sun and Rain",
+    "The Dark Valley"
+  ],
+  "newLimitedTimeArea": ["Golden Apple Archipelago"]
+}
