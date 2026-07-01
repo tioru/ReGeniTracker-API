@@ -1,0 +1,93 @@
+{
+  "number": "3.1",
+  "name": "King Deshret and the Three Magi",
+  "releaseDate": "2022-09-28",
+  "endDate": "2022-11-02",
+  "newCharacters": ["Cyno", "Nilou", "Candace"],
+  "mapExpansion": [
+    {
+      "mainRegion": "Great Red Sand",
+      "subRegion": [
+        "Hypostyle Desert",
+        "Land of Lower Setekh",
+        "Land of Upper Setekh"
+      ]
+    }
+  ],
+  "newWeapons": {
+    "4Star": ["Xipho's Moonlight", "Makhaira Aquamarine", "Wandering Evenstar", "Missive Windspear"],
+    "5Star": ["Key of Khaj-Nisut", "Staff of the Scarlet Sands"]
+  },
+  "newBosses": [
+    "Aeonblight Drake",
+    "Algorithm of Semi-Intransient Matrix of Overseer Network"
+  ],
+  "banners": {
+    "characters": ["Twilight Arbiter", "Ballad in Goblets", "Twirling Lotus", "Secretum Secretorum"],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "Of Ballad and Brews",
+    "Wind Chaser",
+    "Star-Seeker's Sojourn",
+    "Hyakunin Ikki",
+    "Path of Gleaming Jade",
+    "Of Travels and Treasures: A Thank-You Gift",
+    "Curtain of Leaves - Spiral Abyss Challenge"
+  ],
+  "newQuests": {
+    "archonQuests": [
+      {
+        "chapter": "3",
+        "chapterName": "Chapter III",
+        "acts": [
+          { "act": 3, "name": "Dreams, Emptiness, Deception" },
+          { "act": 4, "name": "King Deshret and the Three Magi" }
+        ]
+      }
+    ],
+    "storyQuests": [
+      {
+        "chapter": "Lupus Aureus Chapter",
+        "character": "Cyno",
+        "acts": [{ "act": 1, "name": "Sands of Solitude" }]
+      },
+      {
+        "chapter": "Lotos Somno Chapter",
+        "character": "Nilou",
+        "acts": [{ "act": 1, "name": "To the Wise" }]
+      }
+    ],
+    "worldQuests": [
+      "Golden Slumber",
+      "Old Notes and New Friends",
+      "Afratu's Dilemma",
+      "The Exile",
+      "A Gifted Rose",
+      "Join the Eremites and Embrace a Wonderful New Life!",
+      "Blooming Sands",
+      "Gourmet Supremos: Within Our Duties",
+      "Gourmet Supremos: Cleanup"
+    ],
+    "hangoutQuests": [],
+    "limitedTimeWorldQuests": []
+  },
+  "newArtifacts": [],
+  "newMonsters": [
+    "Primal Construct: Prospector",
+    "Primal Construct: Repulsor",
+    "Primal Construct: Reshaper",
+    "Eremite Galehunter",
+    "Eremite Stone Enchanter",
+    "Floating Anemo Fungus",
+    "Whirling Pyro Fungus",
+    "Stretchy Electro Fungus",
+    "Grounded Geoshroom"
+  ],
+  "newDomains": [
+    "Garden of Endless Pillars",
+    "Red Desert Threshold",
+    "Altar of Mirages"
+  ],
+  "newLimitedTimeArea": []
+}
