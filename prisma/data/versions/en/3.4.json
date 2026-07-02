@@ -1,0 +1,83 @@
+{
+  "number": "3.4",
+  "name": "The Exquisite Night Chimes",
+  "releaseDate": "2023-01-18",
+  "endDate": "2023-03-01",
+  "newCharacters": ["Alhaitham", "Yaoyao"],
+  "mapExpansion": [
+    {
+      "mainRegion": "Desert of Hadramaveth",
+      "subRegion": [
+        "Tanit Camps",
+        "Debris of Panjvahe",
+        "Dunes of Steel",
+        "Mt. Damavand",
+        "Passage of Ghouls",
+        "Qusayr Al-Inkhida'",
+        "The Sands of Al-Azif",
+        "The Sands of Three Canals",
+        "Safhe Shatranj",
+        "Wadi Al-Majuj",
+        "Wounded Shin Valley"
+      ]
+    }
+  ],
+  "newWeapons": {
+    "5Star": ["Light of Foliar Incision"]
+  },
+  "newBosses": ["Setekh Wenut"],
+  "banners": {
+    "characters": [
+      "Caution in Confidence",
+      "Invitation to Mundane Life",
+      "Moment of Bloom",
+      "Discerner of Enigmas"
+    ],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "The Exquisite Night Chimes",
+    "Iridescent Splendor",
+    "Almighty Arataki Extraordinary and Exhilarating Extreme Beetle Brawl",
+    "Warrior's Spirit",
+    "Second Blooming",
+    "Overflowing Mastery"
+  ],
+  "newQuests": {
+    "archonQuests": [
+      {
+        "chapter": "",
+        "chapterName": "Interlude Chapter",
+        "acts": [{ "act": 2, "name": "Inversion of Genesis" }]
+      }
+    ],
+    "storyQuests": [
+      {
+        "chapter": "Vultur Volans Chapter",
+        "character": "Alhaitham",
+        "acts": [{ "act": 1, "name": "The Illusions of the Mob" }]
+      }
+    ],
+    "worldQuests": [
+      "Apocalypse Lost Quest Chain",
+      "Her Foes Rage Like Great Waters...",
+      "Rejoice With Me, for What Was Lost Is Now Found",
+      "Tadhla the Falcon",
+      "The Dirge of Bilqis",
+      "\"The Falcon's Hunt\"",
+      "The Fallen Falcon"
+    ],
+    "hangoutQuests": [],
+    "limitedTimeWorldQuests": []
+  },
+  "newArtifacts": ["Desert Pavilion Chronicle", "Flower of Paradise Lost"],
+  "newEnnemies": [
+    "Consecrated Red Vulture",
+    "Consecrated Scorpion",
+    "Consecrated Flying Serpent",
+    "Eremite Scorching Loremaster",
+    "Eremite Floral Ring-Dancer"
+  ],
+  "newDomains": ["Fane of Panjvahe", "City of the Deceased"],
+  "newLimitedTimeArea": []
+}

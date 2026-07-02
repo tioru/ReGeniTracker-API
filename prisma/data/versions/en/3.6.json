@@ -1,0 +1,78 @@
+{
+  "number": "3.6",
+  "name": "A Parade of Providence",
+  "releaseDate": "2023-04-12",
+  "endDate": "2023-05-24",
+  "newCharacters": ["Baizhu", "Kaveh"],
+  "mapExpansion": [
+    {
+      "mainRegion": "Girdle of the Sands",
+      "subRegion": ["Gavireh Lajavard", "Realm of Farakhkert"]
+    }
+  ],
+  "newWeapons": {
+    "5Star": ["Jadefall's Splendor"]
+  },
+  "newBosses": ["Guardian of Apep's Oasis", "Iniquitous Baptist"],
+  "banners": {
+    "characters": [
+      "The Moongrass' Enlightenment",
+      "Twirling Lotus",
+      "Immaculate Pulse",
+      "Adrift in the Harbor"
+    ],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "A Parade of Providence",
+    "Fulminating Sandstorm",
+    "Brewing Developments",
+    "Overflowing Mastery",
+    "The Recollector's Path"
+  ],
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Lagenaria Chapter",
+        "character": "Baizhu",
+        "acts": [{ "act": 1, "name": "The Heart of Healing" }]
+      },
+      {
+        "chapter": "Sapientia Oromasdis Chapter",
+        "character": "Nahida",
+        "acts": [{ "act": 1, "name": "Homecoming" }]
+      }
+    ],
+    "worldQuests": [
+      "An Artist Adrift",
+      "Another Home There May Yet Be",
+      "Heart of Amrita",
+      "Khvarena of Good and Evil",
+      "Lightcall Resonance",
+      "Monumental Study",
+      "Pale Fire"
+    ],
+    "hangoutQuests": [
+      {
+        "character": "Layla",
+        "acts": [{ "act": 1, "name": "Ever Silent Stars" }]
+      }
+    ],
+    "limitedTimeWorldQuests": []
+  },
+  "newArtifacts": ["Nymph's Dream", "Vourukasha's Glow"],
+  "newEnnemies": [
+    "Anemo Hilichurl Rogue",
+    "Hydro Hilichurl Rogue",
+    "Consecrated Fanged Beast",
+    "Consecrated Horned Crocodile"
+  ],
+  "newDomains": [
+    "Molten Iron Fortress",
+    "Somalata Inland Sea",
+    "Purification Spring",
+    "The Realm of Beginnings"
+  ],
+  "newLimitedTimeArea": []
+}

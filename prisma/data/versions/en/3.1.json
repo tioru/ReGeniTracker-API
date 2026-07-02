@@ -15,7 +15,12 @@
     }
   ],
   "newWeapons": {
-    "4Star": ["Xipho's Moonlight", "Makhaira Aquamarine", "Wandering Evenstar", "Missive Windspear"],
+    "4Star": [
+      "Xipho's Moonlight",
+      "Makhaira Aquamarine",
+      "Wandering Evenstar",
+      "Missive Windspear"
+    ],
     "5Star": ["Key of Khaj-Nisut", "Staff of the Scarlet Sands"]
   },
   "newBosses": [
@@ -23,7 +28,12 @@
     "Algorithm of Semi-Intransient Matrix of Overseer Network"
   ],
   "banners": {
-    "characters": ["Twilight Arbiter", "Ballad in Goblets", "Twirling Lotus", "Secretum Secretorum"],
+    "characters": [
+      "Twilight Arbiter",
+      "Ballad in Goblets",
+      "Twirling Lotus",
+      "Secretum Secretorum"
+    ],
     "weapons": ["Epitome Invocation"]
   },
   "events": [
@@ -73,7 +83,7 @@
     "limitedTimeWorldQuests": []
   },
   "newArtifacts": [],
-  "newMonsters": [
+  "newEnnemies": [
     "Primal Construct: Prospector",
     "Primal Construct: Repulsor",
     "Primal Construct: Reshaper",

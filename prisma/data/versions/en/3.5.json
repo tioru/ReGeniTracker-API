@@ -1,0 +1,60 @@
+{
+  "number": "3.5",
+  "name": "Windblume's Breath",
+  "releaseDate": "2023-03-01",
+  "endDate": "2023-04-12",
+  "newCharacters": ["Dehya", "Mika"],
+  "mapExpansion": [],
+  "newWeapons": {
+    "4Star": ["Mailed Flower"],
+    "5Star": ["Beacon of the Reed Sea"]
+  },
+  "newBosses": ["Setekh Wenut"],
+  "banners": {
+    "characters": [
+      "Auric Blaze",
+      "Twilight Arbiter",
+      "The Heron's Court",
+      "The Transcendent One"
+    ],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "Windblume's Breath",
+    "Spices from the West: Northerly Search",
+    "Fungus Mechanicus",
+    "Vibro-Crystal Verification",
+    "Ley Line Overflow"
+  ],
+  "newQuests": {
+    "archonQuests": [
+      {
+        "chapter": "3",
+        "chapterName": "Chapter III",
+        "acts": [{ "act": 6, "name": "Caribert" }]
+      }
+    ],
+    "storyQuests": [
+      {
+        "chapter": "Mantichora Chapter",
+        "character": "Dehya",
+        "acts": [{ "act": 1, "name": "Lionsblood" }]
+      }
+    ],
+    "worldQuests": [],
+    "hangoutQuests": [
+      {
+        "character": "Faruzan",
+        "acts": [{ "act": 1, "name": "A Confounding Conundrum" }]
+      }
+    ],
+    "limitedTimeWorldQuests": []
+  },
+  "newArtifacts": ["Desert Pavilion Chronicle", "Flower of Paradise Lost"],
+  "newEnnemies": [
+    "Abyss Herald: Frost Fall",
+    "Black Serpent Knight: Rockbreaker Ax"
+  ],
+  "newDomains": [],
+  "newLimitedTimeArea": []
+}
