@@ -9,7 +9,6 @@
     "4Star": ["Lithic Spear", "Lithic Blade"],
     "5Star": ["Primordial Jade Cutter", "Staff of Homa"]
   },
-  "newBosses": ["Primo Geovishap"],
   "banners": {
     "characters": [
       "Invitation to Mundane Life",
@@ -49,6 +48,13 @@
     ]
   },
   "newArtifacts": [],
-  "newEnnemies": ["Geovishap"],
+  "newEnnemies": {
+    "common": [],
+    "elite": ["Geovishap"],
+    "boss": {
+      "normal": ["Primo Geovishap"],
+      "weekly": []
+    }
+  },
   "newDomains": []
 }

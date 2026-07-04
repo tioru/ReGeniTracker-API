@@ -9,21 +9,42 @@ const OUTPUT_DIR = path.resolve(__dirname, '../prisma/data/versions/en');
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
+type EnemyCategory =
+  | 'common'
+  | 'elite'
+  | 'normalBoss'
+  | 'weeklyBoss'
+  | 'unknown';
+
+interface MapExpansion {
+  mainRegion: string;
+  subRegion: string[];
+}
+
+interface EnemiesData {
+  common: string[];
+  elite: string[];
+  boss: {
+    normal: string[];
+    weekly: string[];
+  };
+}
+
 interface VersionData {
   number: string;
   name: string;
   releaseDate: string;
   endDate: string;
+  mapExpansion: MapExpansion[];
   newCharacters: string[];
   newWeapons: Partial<
     Record<'1Star' | '2Star' | '3Star' | '4Star' | '5Star', string[]>
   >;
-  newBosses: string[];
   banners: { characters: string[]; weapons: string[] };
   events: string[];
   newDomains: string[];
   newArtifacts: string[];
-  newEnnemies: string[];
+  newEnnemies: EnemiesData;
   newQuests: {
     archonQuests: {
       chapter: string;
@@ -45,11 +66,11 @@ interface VersionData {
 
 // ── API ───────────────────────────────────────────────────────────────────────
 
-async function fetchWikitext(versionNumber: string): Promise<string> {
+async function fetchPageWikitext(pageTitle: string): Promise<string> {
   const response = await axios.get(API_URL, {
     params: {
       action: 'query',
-      titles: `Version/${versionNumber}`,
+      titles: pageTitle, // ← titre brut, sans préfixe
       prop: 'revisions',
       rvprop: 'content',
       rvslots: 'main',
@@ -68,6 +89,28 @@ async function fetchWikitext(versionNumber: string): Promise<string> {
   const content = pages[0]?.revisions?.[0]?.slots?.main?.content;
   if (!content) throw new Error('No content found');
   return content;
+}
+
+async function fetchWikitext(versionNumber: string): Promise<string> {
+  return fetchPageWikitext(`Version/${versionNumber}`);
+}
+
+async function fetchEnemyType(enemyName: string): Promise<EnemyCategory> {
+  try {
+    const wikitext = await fetchPageWikitext(enemyName.replace(/ /g, '_'));
+    const match = wikitext.match(/\|type\s*=\s*([^\n|]+)/);
+    if (!match) return 'unknown';
+
+    const type = match[1].trim().toLowerCase();
+
+    if (type.includes('weekly boss')) return 'weeklyBoss';
+    if (type.includes('normal boss')) return 'normalBoss';
+    if (type.includes('elite')) return 'elite';
+    if (type.includes('common')) return 'common';
+    return 'unknown';
+  } catch {
+    return 'unknown';
+  }
 }
 
 // ── Nettoyage wikitext ────────────────────────────────────────────────────────
@@ -113,6 +156,32 @@ function extractSubsection(wikitext: string, label: string): string {
   return match ? match[1] : '';
 }
 
+function extractMonsterNames(section: string): string[] {
+  const names: string[] = [];
+  const lines = section.split('\n').filter((l) => /^\*+\s/.test(l));
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const depth = (line.match(/^\*+/) ?? [''])[0].length;
+    const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''))
+      .replace(/\s*\(Boss\)\s*/i, '')
+      .trim();
+    if (!clean) continue;
+
+    if (depth === 1) {
+      const nextLine = lines[i + 1] ?? '';
+      const nextDepth = (nextLine.match(/^\*+/) ?? [''])[0].length;
+      if (nextDepth === 2) continue; // label de groupe, ignore
+      names.push(clean);
+    } else if (depth === 2) {
+      names.push(clean);
+    }
+    // depth >= 3 ignoré
+  }
+
+  return names;
+}
+
 // ── Template parser ───────────────────────────────────────────────────────────
 
 function parseTemplate(wikitext: string): {
@@ -129,6 +198,62 @@ function parseTemplate(wikitext: string): {
     date: get('date'),
     next: get('next'),
   };
+}
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+
+async function classifyEnnemies(ennemies: string[]): Promise<EnemiesData> {
+  const result: EnemiesData = {
+    common: [],
+    elite: [],
+    boss: {
+      normal: [],
+      weekly: [],
+    },
+  };
+
+  for (const ennemy of ennemies) {
+    const category = await fetchEnemyType(ennemy);
+    console.log(`  "${ennemy}" → ${category}`);
+
+    switch (category) {
+      case 'common':
+        result.common.push(ennemy);
+        break;
+      case 'elite':
+        result.elite.push(ennemy);
+        break;
+      case 'normalBoss':
+        result.boss.normal.push(ennemy);
+        break;
+      case 'weeklyBoss':
+        result.boss.weekly.push(ennemy);
+        break;
+      default:
+        // Type inconnu ou page introuvable — met dans common par défaut
+        console.warn(`⚠️  Type inconnu pour "${ennemy}", classé en common`);
+        result.common.push(ennemy);
+    }
+
+    await new Promise((r) => setTimeout(r, 300));
+  }
+
+  return result;
+}
+
+function mergeWeapons(
+  a: VersionData['newWeapons'],
+  b: VersionData['newWeapons'],
+): VersionData['newWeapons'] {
+  const result = { ...a };
+  for (const [key, names] of Object.entries(b) as [
+    keyof typeof b,
+    string[],
+  ][]) {
+    if (!result[key]) result[key] = [];
+    result[key] = [...result[key]!, ...names];
+  }
+  return result;
 }
 
 // ── Parsers ───────────────────────────────────────────────────────────────────
@@ -162,19 +287,24 @@ function parseWeapons(section: string): VersionData['newWeapons'] {
     '5': '5Star',
   };
 
+  // Prend TOUS les niveaux (1 et 2) qui contiennent un pattern de rareté
   section
     .split('\n')
-    .filter((line) => /^\*{1}\s/.test(line))
+    .filter((line) => /^\*+\s/.test(line))
     .forEach((line) => {
       const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
-      const rarityMatch = clean.match(/\((\d)-Star/);
-      if (!rarityMatch) return;
+
+      // Supporte "(X-Star ...)", "X-Star ...", "X-Star Forgeable ..."
+      const rarityMatch = clean.match(/[\[(]?(\d)-Star/);
+      if (!rarityMatch) return; // ligne sans rareté = label de groupe, on ignore
 
       const rarityKey = rarityMap[rarityMatch[1]];
       if (!rarityKey) return;
 
-      const nameMatch = clean.match(/^([^(]+)\s*\(/);
+      // Nom = tout ce qui précède le pattern de rareté
+      const nameMatch = clean.match(/^([^(]+?)\s*(?:\(?\d-Star|\d-Star)/);
       const name = nameMatch ? nameMatch[1].trim() : clean;
+      if (!name) return;
 
       if (!weapons[rarityKey]) weapons[rarityKey] = [];
       weapons[rarityKey]!.push(name);
@@ -183,17 +313,21 @@ function parseWeapons(section: string): VersionData['newWeapons'] {
   return weapons;
 }
 
+// 1. Bannières : nettoyer les lignes [[File:...]] avant de parser
 function parseBanners(section: string): VersionData['banners'] {
-  const banners: VersionData['banners'] = { characters: [], weapons: [] };
+  const banners: VersionData['banners'] = {
+    characters: [],
+    weapons: ['Epitome Invocation'],
+  };
 
+  // Filtre uniquement les lignes ** (niveau 2) et ignore les [[File:...]]
   section
     .split('\n')
-    .filter((line) => /^\*{2}\s/.test(line)) // seulement niveau 2 (**) = les vraies bannières
+    .filter((line) => /^\*{2}\s/.test(line) && !line.includes('[[File:'))
     .forEach((line) => {
       const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
       if (!clean) return;
 
-      // Retire le personnage entre parenthèses "(Dehya)" à la fin
       const bannerName = clean.replace(/\s*\([^)]+\)\s*$/, '').trim();
       if (!bannerName) return;
 
@@ -241,103 +375,295 @@ function chapterToKey(chapterName: string): string {
     : chapterName.toLowerCase().replace(/\s+/g, '_');
 }
 
-function parseArchonQuests(
-  section: string,
-): VersionData['newQuests']['archonQuests'] {
-  const result: VersionData['newQuests']['archonQuests'] = [];
+// 2. Quêtes : tout parser depuis la section "New Quests" en vrac
+// en distinguant archon/story/hangout/world par le contenu de chaque ligne
+function parseQuests(section: string): VersionData['newQuests'] {
+  const result: VersionData['newQuests'] = {
+    archonQuests: [],
+    storyQuests: [],
+    worldQuests: [],
+    hangoutQuests: [],
+  };
 
-  section
-    .split('\n')
-    .filter((line) => /^\*+\s/.test(line))
-    .forEach((line) => {
-      const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
-      if (!clean) return;
+  const lines = section.split('\n').filter((l) => /^\*+\s/.test(l));
 
-      // Format: "Archon Quest Chapter III: Act III - Dreams, Emptiness, Deception"
-      // ou: "Interlude Chapter: Act I - The Crane Returns on the Wind"
-      const match = clean.match(
-        /(?:Archon Quest\s+)?(.+(?:Chapter\s+[IVX\d]+|Prologue|Interlude Chapter).*):\s*Act\s+([IVX\d]+)\s*[-–]\s*(.+)/i,
+  let currentChapterName = '';
+  let currentSection = '';
+
+  for (const line of lines) {
+    const depth = (line.match(/^\*+/) ?? [''])[0].length;
+    const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
+    if (!clean) continue;
+
+    // ── Détection des labels de section (niveau 1) ────────────────────────────
+    if (depth === 1) {
+      const lower = clean.toLowerCase();
+      if (lower.includes('archon quest')) {
+        currentSection = 'archon';
+        currentChapterName = '';
+        continue;
+      }
+      if (lower.includes('story quest')) {
+        currentSection = 'story';
+        currentChapterName = '';
+        continue;
+      }
+      if (lower.includes('world quest')) {
+        currentSection = 'world';
+        currentChapterName = '';
+        continue;
+      }
+      if (lower.includes('hangout')) {
+        currentSection = 'hangout';
+        currentChapterName = '';
+        continue;
+      }
+    }
+
+    // ── Format inline (3.5 et versions récentes) ──────────────────────────────
+
+    // Archon Quest inline : "Archon Quest Chapter III: Act VI - Caribert"
+    const archonInlineMatch = clean.match(
+      /(?:Archon Quest\s+)?(.+(?:Chapter\s+[IVX\d]+|Prologue|Interlude Chapter).*):\s*Act\s+([IVX\d]+)\s*[-–]\s*(.+)/i,
+    );
+    if (archonInlineMatch) {
+      const chapterName = archonInlineMatch[1]
+        .replace(/^Archon Quest\s+/i, '')
+        .trim();
+      const actNum = romanToInt(archonInlineMatch[2]);
+      const actName = archonInlineMatch[3].replace(/\(.*?\)/g, '').trim();
+
+      let chapter = result.archonQuests.find(
+        (q) => q.chapterName === chapterName,
       );
-      if (!match) return;
-
-      const chapterName = match[1].trim();
-      const actNum = romanToInt(match[2]);
-      const actName = match[3].replace(/\(.*?\)/g, '').trim();
-
-      let chapter = result.find((q) => q.chapterName === chapterName);
       if (!chapter) {
         chapter = { chapter: chapterToKey(chapterName), chapterName, acts: [] };
-        result.push(chapter);
+        result.archonQuests.push(chapter);
       }
       chapter.acts.push({ act: actNum, name: actName });
-    });
+      continue;
+    }
+
+    // Story Quest inline : "Story Quest Xxx Chapter: Act I - Name (Character)"
+    const storyInlineMatch = clean.match(
+      /(?:Story Quest\s+)?([^:]+Chapter):\s*Act\s+([IVX\d]+)\s*[-–]\s*([^(]+)\(([^)]+)\)/i,
+    );
+    if (storyInlineMatch) {
+      const chapter = storyInlineMatch[1].trim();
+      const actNum = romanToInt(storyInlineMatch[2]);
+      const actName = storyInlineMatch[3].trim();
+      const character = storyInlineMatch[4].trim();
+
+      let existing = result.storyQuests.find((q) => q.chapter === chapter);
+      if (!existing) {
+        existing = { chapter, character, acts: [] };
+        result.storyQuests.push(existing);
+      }
+      existing.acts.push({ act: actNum, name: actName });
+      continue;
+    }
+
+    // Hangout Quest inline (niveau >= 2) : "Faruzan: Act I - A Confounding Conundrum"
+    if (depth >= 2 && currentSection !== 'world') {
+      const hangoutInlineMatch = clean.match(
+        /^([^:]+):\s*Act\s+([IVX\d]+)\s*[-–]\s*(.+)/i,
+      );
+      if (hangoutInlineMatch && !hangoutInlineMatch[1].match(/Chapter/i)) {
+        const character = hangoutInlineMatch[1].trim();
+        const actNum = romanToInt(hangoutInlineMatch[2]);
+        const actName = hangoutInlineMatch[3].trim();
+
+        let existing = result.hangoutQuests.find(
+          (q) => q.character === character,
+        );
+        if (!existing) {
+          existing = { character, acts: [] };
+          result.hangoutQuests.push(existing);
+        }
+        existing.acts.push({ act: actNum, name: actName });
+        continue;
+      }
+    }
+
+    // ── Format imbriqué version 2.0 ───────────────────────────────────────────
+
+    // Niveau 1 section archon : "* Archon Quests Chapter II" (chapitre inline au niveau 1)
+    if (depth === 1 && currentSection === 'archon') {
+      const chapterInlineMatch = clean.match(
+        /Archon Quests?\s+(Chapter\s+[IVX\d]+|Prologue|Interlude Chapter)/i,
+      );
+      if (chapterInlineMatch) {
+        currentChapterName = chapterInlineMatch[1].trim();
+        continue;
+      }
+    }
+
+    // Niveau 2 section archon format 2.0 : "** Act I: Name" (deux-points, sans tiret)
+    if (depth === 2 && currentSection === 'archon' && currentChapterName) {
+      const actColonMatch = clean.match(/Act\s+([IVX\d]+):\s*(.+)/i);
+      if (actColonMatch) {
+        const actNum = romanToInt(actColonMatch[1]);
+        const actName = actColonMatch[2].replace(/\(.*?\)/g, '').trim();
+
+        let chapter = result.archonQuests.find(
+          (q) => q.chapterName === currentChapterName,
+        );
+        if (!chapter) {
+          chapter = {
+            chapter: chapterToKey(currentChapterName),
+            chapterName: currentChapterName,
+            acts: [],
+          };
+          result.archonQuests.push(chapter);
+        }
+        chapter.acts.push({ act: actNum, name: actName });
+        continue;
+      }
+    }
+
+    // ── Format imbriqué version 3.0 ───────────────────────────────────────────
+
+    // Niveau 2 section archon : "** Chapter III" (chapitre seul)
+    if (depth === 2 && currentSection === 'archon') {
+      if (clean.match(/^(?:Chapter\s+[IVX\d]+|Prologue|Interlude Chapter)/i)) {
+        currentChapterName = clean.trim();
+        continue;
+      }
+    }
+
+    // Niveau 3 section archon : "*** Act I - Name"
+    if (depth === 3 && currentSection === 'archon' && currentChapterName) {
+      const actMatch = clean.match(/Act\s+([IVX\d]+)\s*[-–]\s*(.+)/i);
+      if (actMatch) {
+        const actNum = romanToInt(actMatch[1]);
+        const actName = actMatch[2].replace(/\(.*?\)/g, '').trim();
+
+        let chapter = result.archonQuests.find(
+          (q) => q.chapterName === currentChapterName,
+        );
+        if (!chapter) {
+          chapter = {
+            chapter: chapterToKey(currentChapterName),
+            chapterName: currentChapterName,
+            acts: [],
+          };
+          result.archonQuests.push(chapter);
+        }
+        chapter.acts.push({ act: actNum, name: actName });
+        continue;
+      }
+    }
+
+    // ── World Quests ──────────────────────────────────────────────────────────
+
+    // Niveau 2 section world : world quests (premier niveau de quête)
+    if (depth === 2 && currentSection === 'world') {
+      if (
+        !clean.match(/Act\s+[IVX\d]+\s*[-–]/i) &&
+        !clean.match(/^Part\s+[IVX\d]+:/i)
+      ) {
+        const questName = clean.replace(/\s*\([^)]+\)\s*$/, '').trim();
+        if (questName) result.worldQuests.push(questName);
+      }
+      continue;
+    }
+
+    // ── Hangout Quests ────────────────────────────────────────────────────────
+
+    // Niveau 2 section hangout : "** Character: Act I - Name"
+    if (depth === 2 && currentSection === 'hangout') {
+      const hangoutMatch = clean.match(
+        /^([^:]+):\s*Act\s+([IVX\d]+)\s*[-–]\s*(.+)/i,
+      );
+      if (hangoutMatch) {
+        const character = hangoutMatch[1].trim();
+        const actNum = romanToInt(hangoutMatch[2]);
+        const actName = hangoutMatch[3].trim();
+
+        let existing = result.hangoutQuests.find(
+          (q) => q.character === character,
+        );
+        if (!existing) {
+          existing = { character, acts: [] };
+          result.hangoutQuests.push(existing);
+        }
+        existing.acts.push({ act: actNum, name: actName });
+      }
+      continue;
+    }
+
+    // ── Fallback : world quest niveau 1 sans section explicite ────────────────
+    if (
+      depth === 1 &&
+      currentSection === '' &&
+      !clean.match(/Act\s+[IVX\d]+\s*[-–]/i) &&
+      !clean.match(/(?:Archon|Story|Hangout)\s+(?:Quest|Event)/i)
+    ) {
+      result.worldQuests.push(clean);
+    }
+  }
 
   return result;
 }
 
-function parseStoryQuests(
-  section: string,
-): VersionData['newQuests']['storyQuests'] {
-  const result: VersionData['newQuests']['storyQuests'] = [];
+function parseMapExpansion(section: string): MapExpansion[] {
+  const result: MapExpansion[] = [];
+  let current: MapExpansion | null = null;
 
   section
     .split('\n')
     .filter((line) => /^\*+\s/.test(line))
     .forEach((line) => {
+      const depth = (line.match(/^\*+/) ?? [''])[0].length;
       const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
       if (!clean) return;
 
-      // Format: "Story Quest Mantichora Chapter: Act I - Lionsblood (Dehya)"
-      const match = clean.match(
-        /(?:Story Quest\s+)?([^:]+Chapter):\s*Act\s+([IVX\d]+)\s*[-–]\s*([^(]+)\(([^)]+)\)/i,
-      );
-      if (!match) return;
-
-      const chapter = match[1].trim();
-      const actNum = romanToInt(match[2]);
-      const actName = match[3].trim();
-      const character = match[4].trim();
-
-      let existing = result.find((q) => q.chapter === chapter);
-      if (!existing) {
-        existing = { chapter, character, acts: [] };
-        result.push(existing);
+      if (depth === 1) {
+        const regionName = clean.replace(/\s+with.*$/i, '').trim(); // retire " with the following Areas:"
+        current = { mainRegion: regionName, subRegion: [] };
+        result.push(current);
+      } else if (depth === 2 && current) {
+        // Sous-région
+        current.subRegion.push(clean);
       }
-      existing.acts.push({ act: actNum, name: actName });
     });
 
   return result;
 }
 
-function parseHangoutQuests(
-  section: string,
-): VersionData['newQuests']['hangoutQuests'] {
-  const result: VersionData['newQuests']['hangoutQuests'] = [];
+function parseDomains(section: string): string[] {
+  const domains: string[] = [];
 
-  section
-    .split('\n')
-    .filter((line) => /^\*{2}\s/.test(line)) // niveau 2 seulement
-    .forEach((line) => {
-      const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
-      if (!clean) return;
+  section.split('\n').forEach((line) => {
+    const depth = (line.match(/^\*+/) ?? [''])[0].length;
+    if (!line.match(/^\*+\s/)) return;
 
-      // Format: "Faruzan: Act I - A Confounding Conundrum"
-      const match = clean.match(/^([^:]+):\s*Act\s+([IVX\d]+)\s*[-–]\s*(.+)/i);
-      if (!match) return;
+    const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''))
+      .replace(/\s*\([^)]+\)\s*$/, '') // retire les suffixes (One-Time Domain), etc.
+      .trim();
 
-      const character = match[1].trim();
-      const actNum = romanToInt(match[2]);
-      const actName = match[3].trim();
+    if (!clean) return;
 
-      let existing = result.find((q) => q.character === character);
-      if (!existing) {
-        existing = { character, acts: [] };
-        result.push(existing);
+    if (depth === 1) {
+      // Format "Domain of Forgery: Court of Flowing Sand" → garder seulement "Court of Flowing Sand"
+      const colonMatch = clean.match(
+        /^(?:Domain of [^:]+|One-Time Domains?):\s*(.+)/i,
+      );
+      if (colonMatch) {
+        domains.push(colonMatch[1].trim());
+        return;
       }
-      existing.acts.push({ act: actNum, name: actName });
-    });
+      // Ignore les labels purs comme "One-Time Domains" (sans contenu après ":")
+      if (clean.match(/^(?:Domain of [^:]+|One-Time Domains?)$/i)) return;
 
-  return result;
+      domains.push(clean);
+    } else if (depth === 2) {
+      // Sous-domaines (One-Time Domains en 2.0)
+      domains.push(clean);
+    }
+  });
+
+  return domains;
 }
 
 // ── Scraper principal ─────────────────────────────────────────────────────────
@@ -352,7 +678,6 @@ async function scrapeVersion(versionNumber: string): Promise<VersionData> {
   let endDate = '';
   if (next) {
     try {
-      console.log(`Fetching next version (${next}) for endDate...`);
       const nextWikitext = await fetchWikitext(next);
       const { date: nextDate } = parseTemplate(nextWikitext);
       endDate = nextDate;
@@ -364,31 +689,12 @@ async function scrapeVersion(versionNumber: string): Promise<VersionData> {
 
   const newContentSection = extractMainSection(wikitext, 'New Content');
 
-  // Sous-sections quêtes séparées
-  const archonSection = extractSubsection(newContentSection, 'Archon Quests');
-  const storySection = extractSubsection(newContentSection, 'Story Quests');
-  const worldSection = extractSubsection(newContentSection, 'World Quests');
-  const hangoutSection = extractSubsection(newContentSection, 'Hangout Events');
-
-  console.log('--- DEBUG ---');
-  console.log('newContentSection length:', newContentSection.length);
-  console.log(
-    'Event Wishes section:',
-    extractSubsection(newContentSection, 'Event Wishes').slice(0, 300),
+  // Classification des monstres en boss / monstres normaux
+  const allEnnemies = extractMonsterNames(
+    extractSubsection(newContentSection, 'New Monsters'),
   );
-  console.log(
-    'Archon Quests section:',
-    extractSubsection(newContentSection, 'Archon Quests').slice(0, 300),
-  );
-  console.log(
-    'Story Quests section:',
-    extractSubsection(newContentSection, 'Story Quests').slice(0, 300),
-  );
-  console.log(
-    'World Quests section:',
-    extractSubsection(newContentSection, 'World Quests').slice(0, 300),
-  );
-  console.log('--- END DEBUG ---');
+  console.log(`Classifying ${allEnnemies.length} monsters...`);
+  const ennemies = await classifyEnnemies(allEnnemies);
 
   return {
     number: versionNumber,
@@ -398,29 +704,31 @@ async function scrapeVersion(versionNumber: string): Promise<VersionData> {
     newCharacters: parseCharacters(
       extractSubsection(newContentSection, 'New Characters'),
     ),
-    newWeapons: parseWeapons(
-      extractSubsection(newContentSection, 'New Weapons'),
+    mapExpansion: parseMapExpansion(
+      extractSubsection(newContentSection, 'New Region') ||
+        extractSubsection(newContentSection, 'New Regions') ||
+        extractSubsection(newContentSection, 'New Areas'),
     ),
-    newBosses: [], // non distinguable automatiquement — à compléter manuellement si besoin
+    newWeapons: mergeWeapons(
+      parseWeapons(extractSubsection(newContentSection, 'New Weapons')),
+      parseWeapons(
+        extractSubsection(newContentSection, 'New Forgeable Weapons'),
+      ),
+    ),
     banners: parseBanners(extractSubsection(newContentSection, 'Event Wishes')),
-    events: parseSimpleList(extractSubsection(newContentSection, 'New Events')),
-    newDomains: parseSimpleList(
+    events: parseSimpleList(
+      extractSubsection(newContentSection, 'New Events'),
+    ).map((e) => e.replace(/\s*\(Permanent\)\s*$/i, '').trim()),
+    newDomains: parseDomains(
       extractSubsection(newContentSection, 'New Domains'),
-    ).map(cleanDomainName),
+    ),
     newArtifacts: parseSimpleList(
       extractSubsection(newContentSection, 'New Artifact Sets'),
     ).concat(
       parseSimpleList(extractSubsection(newContentSection, 'New Artifacts')),
     ),
-    newEnnemies: parseSimpleList(
-      extractSubsection(newContentSection, 'New Monsters'),
-    ),
-    newQuests: {
-      archonQuests: parseArchonQuests(archonSection),
-      storyQuests: parseStoryQuests(storySection),
-      worldQuests: parseSimpleList(worldSection),
-      hangoutQuests: parseHangoutQuests(hangoutSection),
-    },
+    newEnnemies: ennemies,
+    newQuests: parseQuests(extractSubsection(newContentSection, 'New Quests')),
   };
 }
 
@@ -443,7 +751,7 @@ async function main() {
   for (const version of versions) {
     try {
       const data = await scrapeVersion(version);
-      const filePath = path.join(OUTPUT_DIR, `${version}.json`);
+      const filePath = path.join(OUTPUT_DIR, `${version}_generated.json`);
       fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
       console.log(`✅ Version ${version} → ${filePath}`);
       await new Promise((r) => setTimeout(r, 1500));

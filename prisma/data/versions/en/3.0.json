@@ -33,7 +33,7 @@
   "banners": {
     "characters": [
       "Viridescent Vigil",
-      "Viridescent Vigil",
+      "Gentry of Hermitage",
       "Adrift in the Harbor",
       "Drifting Luminescence"
     ],
@@ -95,12 +95,7 @@
       "Static Views, Part 2",
       "Trees and Dreams"
     ],
-    "hangoutQuests": [
-      {
-        "character": "Shikanoin Heizou",
-        "acts": [{ "act": 1, "name": "Trap 'Em by Storm" }]
-      }
-    ],
+    "hangoutQuests": [],
     "limitedTimeWorldQuests": []
   },
   "newArtifacts": ["Deepwood Memories", "Gilded Dreams"],
@@ -137,5 +132,5 @@
     "The Coordinates of Sun and Rain",
     "The Dark Valley"
   ],
-  "newLimitedTimeArea": ["Golden Apple Archipelago"]
+  "newLimitedTimeArea": []
 }

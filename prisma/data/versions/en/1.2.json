@@ -6,8 +6,8 @@
   "newCharacters": ["Albedo", "Ganyu"],
   "mapExpansion": [
     {
-      "mainRegion": "Dragonspine",
-      "subRegion": []
+      "mainRegion": "Mondstadt",
+      "subRegion": ["Dragonspine"]
     }
   ],
   "newWeapons": {
@@ -56,18 +56,33 @@
       "Return of the Jade Chamber?",
       "Fishing for Jade",
       "Snapshots"
+    ],
+    "commissionQuests": [
+      "Floral Fresh",
+      "Fresh Flora",
+      "Emergency Supplies",
+      "Only Half-Frozen",
+      "Eat It While It's Hot"
     ]
   },
   "newArtifacts": ["Blizzard Strayer", "Heart of Depth"],
-  "newEnnemies": [
-    "Cryo Samachurl",
-    "Ice Shield Hilichurl Guard",
-    "Cryo Hilichurl Grenadier",
-    "Ice Shieldwall Mitachurl",
-    "Frostarm Lawachurl",
-    "Fatui Cryo Cicin Mage",
-    "Cryo Cicin",
-    "Ruin Grader"
-  ],
+  "newEnnemies": {
+    "common": [
+      "Cryo Samachurl",
+      "Ice Shield Hilichurl Guard",
+      "Cryo Hilichurl Grenadier",
+      "Cryo Cicin"
+    ],
+    "elite": [
+      "Ice Shieldwall Mitachurl",
+      "Frostarm Lawachurl",
+      "Fatui Cryo Cicin Mage",
+      "Ruin Grader"
+    ],
+    "boss": {
+      "normal": [],
+      "weekly": []
+    }
+  },
   "newDomains": ["Peak of Vindagnyr"]
 }

@@ -147,14 +147,6 @@
       "Skyward Atlas"
     ]
   },
-  "newBosses": [
-    "Anemo Hypostasis",
-    "Electro Hypostasis",
-    "Geo Hypostasis",
-    "Pyro Regisvine",
-    "Cryo Regisvine",
-    "Rhodeia of Loch"
-  ],
   "banners": {
     "characters": ["Ballad in Goblets", "Sparkling Steps"],
     "weapons": ["Epitome Invocation"]
@@ -343,37 +335,82 @@
     "Lavawalker",
     "Crimson Witch of Flames"
   ],
-  "newEnnemies": [
-    "Hilichurl",
-    "Hilichurl Fighter",
-    "Hilichurl Shooter",
-    "Hilichurl Berserker",
-    "Hilichurl Grenadier",
-    "Anemo Samachurl",
-    "Pyro Hilichurl Shooter",
-    "Cryo Hilichurl Shooter",
-    "Electro Hilichurl Shooter",
-    "Dendro Samachurl",
-    "Geo Samachurl",
-    "Hydro Samachurl",
-    "Electro Cicin",
-    "Hydro Cicin",
-    "Slimes",
-    "Treasure Hoarders",
-    "Wooden Shield Hilichurl Guard",
-    "Rock Shield Hilichurl Guard",
-    "Wooden Shieldwall Mitachurl",
-    "Blazing Axe Mitachurl",
-    "Rock Shieldwall Mitachurl",
-    "Fatui Skirmishers",
-    "Fatui Electro Cicin Mage",
-    "Fatui Pyro Agent",
-    "Ruin Guard",
-    "Ruin Hunter",
-    "Eye of the Storm",
-    "Geovishap Hatchling",
-    "Whopperflowers"
-  ],
+  "newEnnemies": {
+    "common": [
+      "Hilichurl",
+      "Hilichurl Fighter",
+      "Hilichurl Shooter",
+      "Hilichurl Berserker",
+      "Hilichurl Grenadier",
+      "Anemo Samachurl",
+      "Pyro Hilichurl Shooter",
+      "Cryo Hilichurl Shooter",
+      "Electro Hilichurl Shooter",
+      "Dendro Samachurl",
+      "Geo Samachurl",
+      "Hydro Samachurl",
+      "Electro Cicin",
+      "Hydro Cicin",
+      "Anemo Slime",
+      "Cryo Slime",
+      "Dendro Slime",
+      "Electro Slime",
+      "Geo Slime",
+      "Hydro Slime",
+      "Pyro Slime",
+      "Large Anemo Slime",
+      "Large Cryo Slime",
+      "Large Dendro Slime",
+      "Large Electro Slime",
+      "Mutant Electro Slime",
+      "Large Geo Slime",
+      "Large Hydro Slime",
+      "Large Pyro Slime",
+      "Wooden Shield Hilichurl Guard",
+      "Rock Shield Hilichurl Guard",
+      "Blazing Axe Mitachurl",
+      "Rock Shieldwall Mitachurl",
+      "Treasure Hoarders: Scout",
+      "Treasure Hoarders: Marksman",
+      "Treasure Hoarders: Seaman",
+      "Treasure Hoarders: Handyman",
+      "Treasure Hoarders: Crusher",
+      "Treasure Hoarders: Gravedigger ",
+      "Treasure Hoarders: Pugilist",
+      "Treasure Hoarders: Cryo Potioneer",
+      "Treasure Hoarders: Electro Potioneer",
+      "Treasure Hoarders: Hydro Potioneer",
+      "Treasure Hoarders: Pyro Potioneer",
+      "Fatui Skirmisher - Geochanter Bracer",
+      "Fatui Skirmisher - Pyroslinger Bracer",
+      "Fatui Skirmisher - Cryogunner Legionnaire",
+      "Fatui Skirmisher - Hydrogunner Legionnaire",
+      "Fatui Skirmisher - Anemoboxer Vanguard",
+      "Fatui Skirmisher - Electrohammer Vanguard",
+      "Cryo Whopperflower",
+      "Pyro Whopperflower"
+    ],
+    "elite": [
+      "Wooden Shieldwall Mitachurl",
+      "Fatui Electro Cicin Mage",
+      "Fatui Pyro Agent",
+      "Ruin Guard",
+      "Ruin Hunter",
+      "Eye of the Storm",
+      "Geovishap Hatchling"
+    ],
+    "boss": {
+      "normal": [
+        "Anemo Hypostasis",
+        "Electro Hypostasis",
+        "Geo Hypostasis",
+        "Pyro Regisvine",
+        "Cryo Regisvine",
+        "Rhodeia of Loch"
+      ],
+      "weekly": []
+    }
+  },
   "newDomains": [
     "Clear Pool and Mountain Cavern",
     "Domain of Guyun",
@@ -393,5 +430,15 @@
     "Temple of the Wolf",
     "Confront Stormterror",
     "Spiral Abyss"
-  ]
+  ],
+  "newAchievements": {
+    "category": "Wonders of the World",
+    "achievements": [
+      "Overlooking View",
+      "The Remains of the Gale",
+      "\"Seeds of Stories, Brought by the Wind...\"",
+      "Unswerving",
+      "..."
+    ]
+  }
 }

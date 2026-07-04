@@ -9,7 +9,6 @@
     "4Star": ["Royal Spear"],
     "5Star": ["Memory of Dust", "Vortex Vanquisher", "The Unforged"]
   },
-  "newBosses": ["Childe"],
   "banners": {
     "characters": ["Farewell of Snezhnaya", "Gentry of Hermitage"],
     "weapons": ["Epitome Invocation"]
@@ -54,6 +53,13 @@
     ]
   },
   "newArtifacts": [],
-  "newEnnemies": ["Unusual Hilichurl"],
+  "newEnnemies": {
+    "common": ["Unusual Hilichurl"],
+    "elite": [],
+    "boss": {
+      "normal": [],
+      "weekly": ["Childe"]
+    }
+  },
   "newDomains": ["Enter the Golden House"]
 }

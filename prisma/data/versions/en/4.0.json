@@ -1,0 +1,155 @@
+{
+  "number": "4.0",
+  "name": "As Light Rain Falls Without Reason",
+  "releaseDate": "2023-08-16",
+  "endDate": "2023-09-27",
+  "newCharacters": ["Lyney", "Lynette", "Freminet"],
+  "mapExpansion": [
+    {
+      "mainRegion": "Fontaine",
+      "subRegion": [
+        "Belleau Region",
+        "Beryl Region",
+        "Court of Fontaine Region"
+      ]
+    }
+  ],
+  "newWeapons": {
+    "5Star": ["The First Great Magic"],
+    "4Star": [
+      "Finale of the Deep",
+      "Tidal Shadow",
+      "Rightful Reward",
+      "Flowing Purity",
+      "Song of Stillness",
+      "Wolf-Fang",
+      "Talking Stick",
+      "Ballad of the Fjords",
+      "Sacrificial Jade",
+      "Scion of the Blazing Sun",
+      "Fleuve Cendre Ferryman"
+    ]
+  },
+  "newBosses": ["Emperor of Fire and Iron", "Icewind Suite"],
+  "banners": {
+    "characters": [
+      "Conjuring Chiaroscuro",
+      "Discerner of Enigmas",
+      "Gentry of Hermitage",
+      "Farewell of Snezhnaya"
+    ],
+    "weapons": ["Epitome Invocation"]
+  },
+  "events": [
+    "Mega Meka Melee",
+    "Relic Records: Creations of the Hydro Nation",
+    "Studies in Light and Shadow: A Fontaine of Enchantment",
+    "Verdict of Blades",
+    "Ley Line Overflow",
+    "The Curtain Never Falls on Magic",
+    "Primordial Waters"
+  ],
+  "newDomains": [
+    "Denouement of Sin",
+    "Echoes of the Deep Tides",
+    "Pale Forgotten Glory"
+  ],
+  "newArtifacts": ["Golden Troupe", "Marechaussee Hunter"],
+  "newQuests": {
+    "archonQuests": [
+      {
+        "chapter": "4",
+        "chapterName": "Chapter IV",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Prelude of Blancheur and Noirceur"
+          },
+          {
+            "act": 2,
+            "name": "As Light Rain Falls Without Reason"
+          }
+        ]
+      }
+    ],
+    "storyQuests": [
+      {
+        "chapter": "Felis Fuscus Chapter",
+        "character": "Lyney",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Forgotten Thief"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "Ann of the Narzissenkreuz",
+      "Ancient Colors",
+      "\"Hey, This Isn't Pumpkin Soup...\"",
+      "A Certain Notice",
+      "A Certain Trifle",
+      "A Certain Stamp",
+      "A Fontainian Message",
+      "Another Horizon of Adventure",
+      "Aqueous Tidemarks",
+      "Book of Esoteric Revelations",
+      "Danger Lurks Everywhere in Fontaine",
+      "Echoes of the Ancient World",
+      "Fishing Game",
+      "Good Stuff, but Terrible Taste",
+      "Good Stuff, but Terrible Taste",
+      "Good Stuff, but Terrible Taste",
+      "Good Stuff, but Terrible Taste",
+      "Good Stuff, but Terrible Taste",
+      "Good Stuff, but Terrible Taste — Continued",
+      "In Expert Company? (I)",
+      "In Expert Company? (II)",
+      "Semi-Automatic Forging",
+      "Steambird Interview",
+      "Strange Stone Chronicle (Part 1)",
+      "Strange Stone Chronicle (Part 2)",
+      "Strange Stone Chronicle (Part 3)",
+      "Still Mouthwatering!",
+      "The Final Question",
+      "The Fountain Flows Again",
+      "The Lone Phantom Sail",
+      "The Three Primary Colors of the Solar Corona",
+      "Truly Mouthwatering!",
+      "Unfinished Story",
+      "Upon a Flowery Field of Grass",
+      "Were It So Easy"
+    ],
+    "hangoutQuests": []
+  },
+  "newEnnemies": [
+    "Recon Log Mek",
+    "Arithmetic Enhancer Mek",
+    "Underwater Survey Mek",
+    "Underwater Patrol Mek",
+    "Geological Survey Mek",
+    "Nimble Harvester Mek",
+    "Area Alert Mek",
+    "Assault Specialist Mek",
+    "Suppression Specialist Mek",
+    "Annihilation Specialist Mek",
+    "Construction Specialist Mek",
+    "Blubberbeast",
+    "Hunter's Ray",
+    "Armored Crab",
+    "Hat Jellyfish",
+    "Bubbly Seahorse",
+    "Ball Octopus",
+    "Angelic Sea Hare",
+    "Sternshield Crab",
+    "Bubbler Seahorse",
+    "Cherubic Sea Hare",
+    "Water-Splitting Phantasm",
+    "Water-Spouting Phantasm",
+    "Overgrown Breacher Primus",
+    "Large Overgrown Breacher Primus",
+    "Shatterstone Breacher Primus",
+    "Large Shatterstone Breacher Primus"
+  ]
+}
