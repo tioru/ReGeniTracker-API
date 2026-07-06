@@ -1,0 +1,14 @@
+{
+  "title": "CREDE TENEBRIS",
+  "description": "Open the secret chamber in the ruins.",
+  "category": "Wonders of the World",
+  "hidden": true,
+  "releaseVersion": "2.6",
+  "reward": {
+    "item": "Primogem",
+    "quantity": 5
+  },
+  "type": "Exploration",
+  "requirements": "Complete Locked Gate in the Nameless Ruins.",
+  "tier": 1
+}

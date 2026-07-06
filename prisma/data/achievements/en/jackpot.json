@@ -1,0 +1,14 @@
+{
+  "title": "Jackpot",
+  "description": "Use the Kamuijima Cannon to reveal a treasure trove.",
+  "category": "Wonders of the World",
+  "hidden": true,
+  "releaseVersion": "2.0",
+  "reward": {
+    "item": "Primogem",
+    "quantity": 5
+  },
+  "type": "Exploration",
+  "requirements": "Fire the southern-most cannon in the Kannazuka region towards the Shakkei Pavilion domain, with an elevation of 2 notches.",
+  "tier": 1
+}

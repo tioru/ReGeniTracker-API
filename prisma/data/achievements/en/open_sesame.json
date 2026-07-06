@@ -1,0 +1,14 @@
+{
+  "title": "Open Sesame!",
+  "description": "Use the secret code to enter the Fatui's hidden encampment",
+  "category": "Wonders of the World",
+  "hidden": true,
+  "releaseVersion": "3.0",
+  "reward": {
+    "item": "Primogem",
+    "quantity": 5
+  },
+  "type": "Quest",
+  "requirements": "Complete The Foolish Fatuus.",
+  "tier": 1
+}

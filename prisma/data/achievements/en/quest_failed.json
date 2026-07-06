@@ -1,0 +1,14 @@
+{
+  "title": "QUEST FAILED",
+  "description": "Lost track of a Bounty target.",
+  "category": "Wonders of the World",
+  "hidden": true,
+  "releaseVersion": "1.1",
+  "reward": {
+    "item": "Primogem",
+    "quantity": 5
+  },
+  "type": "Exploration",
+  "requirements": "Run out of time during a Bounty.",
+  "tier": 1
+}

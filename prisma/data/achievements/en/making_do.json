@@ -1,0 +1,14 @@
+{
+  "title": "Making Do",
+  "description": "Only bring materials for a training dummy to Herman.",
+  "category": "Wonders of the World",
+  "hidden": true,
+  "releaseVersion": "1.0",
+  "reward": {
+    "item": "Primogem",
+    "quantity": 5
+  },
+  "type": "Commission",
+  "requirements": "Destroy the dummy in The Limitations of an Adventurer.",
+  "tier": 1
+}

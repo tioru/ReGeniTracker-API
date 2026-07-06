@@ -1,0 +1,14 @@
+{
+  "title": "Scourge of the Battlefield",
+  "description": "Fetch a good price for a treasure found in an ancient ruin...",
+  "category": "Wonders of the World",
+  "hidden": true,
+  "releaseVersion": "1.0",
+  "reward": {
+    "item": "Primogem",
+    "quantity": 5
+  },
+  "type": "Quest",
+  "requirements": "Complete Nine Pillars of Peace.",
+  "tier": 1
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Shining in the Mire",
+  "description": "Use the power of Khvarena to destroy the Gray Crystals for the first time.",
+  "category": "Wonders of the World",
+  "hidden": true,
+  "releaseVersion": "3.6",
+  "reward": {
+    "item": "Primogem",
+    "quantity": 5
+  },
+  "type": "Exploration",
+  "requirements": "Use a Farrwick to dispel a Gray Crystal.",
+  "tier": 1
+}

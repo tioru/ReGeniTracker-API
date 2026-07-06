@@ -1,0 +1,14 @@
+{
+  "title": "Penalty",
+  "description": "There are places where one cannot simply dig Pyro Slimes out of the ground...",
+  "category": "Wonders of the World",
+  "hidden": true,
+  "releaseVersion": "1.3",
+  "reward": {
+    "item": "Primogem",
+    "quantity": 5
+  },
+  "type": "Exploration",
+  "requirements": "Make a Hilichurl Grenadier attempt to dig out a Pyro Slime in the water.",
+  "tier": 1
+}

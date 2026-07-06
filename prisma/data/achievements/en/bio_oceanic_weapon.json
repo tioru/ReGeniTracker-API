@@ -1,0 +1,14 @@
+{
+  "title": "Bio-Oceanic Weapon",
+  "description": "Be hit by a certain animal created by the Hydro Hypostasis...",
+  "category": "Wonders of the World",
+  "hidden": true,
+  "releaseVersion": "2.1",
+  "reward": {
+    "item": "Primogem",
+    "quantity": 5
+  },
+  "type": "Boss",
+  "requirements": "Get hit by Hydro Hypostasis' \"Dolphin Dive\" attack.",
+  "tier": 1
+}

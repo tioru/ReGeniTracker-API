@@ -1,0 +1,14 @@
+{
+  "title": "A Cat's Gift",
+  "description": "Feed the kittens on Seirai Island and gain their affection.",
+  "category": "Wonders of the World",
+  "hidden": true,
+  "releaseVersion": "2.1",
+  "reward": {
+    "item": "Primogem",
+    "quantity": 5
+  },
+  "type": "Exploration",
+  "requirements": "Complete The Cat's Affection.",
+  "tier": 1
+}

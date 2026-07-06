@@ -1,0 +1,14 @@
+{
+  "title": "Vamadha-Go-Round",
+  "description": "Turn every Vamadha that holds a hidden treasure chest.",
+  "category": "Wonders of the World",
+  "hidden": true,
+  "releaseVersion": "3.0",
+  "reward": {
+    "item": "Primogem",
+    "quantity": 5
+  },
+  "type": "Exploration",
+  "requirements": "Open two chests inside Vamadha.",
+  "tier": 1
+}

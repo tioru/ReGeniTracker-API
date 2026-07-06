@@ -1,0 +1,14 @@
+{
+  "title": "Sea of Puzzles",
+  "description": "Unlock one series of mechanisms on Seirai Island",
+  "category": "Wonders of the World",
+  "hidden": true,
+  "releaseVersion": "2.1",
+  "reward": {
+    "item": "Primogem",
+    "quantity": 5
+  },
+  "type": "Exploration",
+  "requirements": "Complete all 4 Light-Up Tile Puzzles around Seirai Island, does not count those inside \"Seiraimaru\"",
+  "tier": 1
+}

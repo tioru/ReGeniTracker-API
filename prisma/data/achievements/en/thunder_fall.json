@@ -1,0 +1,14 @@
+{
+  "title": "Thunder Fall",
+  "description": "Defeat a Thunder Manifestation while it is in flight.",
+  "category": "Wonders of the World",
+  "hidden": true,
+  "releaseVersion": "2.1",
+  "reward": {
+    "item": "Primogem",
+    "quantity": 5
+  },
+  "type": "Boss",
+  "requirements": "Defeat Thunder Manifestation while it is performing either \"Dive Bomb\" or \"Torrential Descent\".",
+  "tier": 1
+}

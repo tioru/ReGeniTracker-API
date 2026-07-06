@@ -1,0 +1,14 @@
+{
+  "title": "Force Field Erosion",
+  "description": "Destroy the Electro Hypostasis' barrier.",
+  "category": "Wonders of the World",
+  "hidden": true,
+  "releaseVersion": "1.4",
+  "reward": {
+    "item": "Primogem",
+    "quantity": 5
+  },
+  "type": "Boss",
+  "requirements": "Use Elemental Reactions to destroy the barrier created by the Electro Hypostasis.",
+  "tier": 1
+}
