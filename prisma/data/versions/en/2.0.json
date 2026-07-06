@@ -3,19 +3,11 @@
   "name": "The Immovable God and the Eternal Euthymia",
   "releaseDate": "2021-07-21",
   "endDate": "2021-09-01",
-  "newCharacters": [
-    "Kamisato Ayaka",
-    "Yoimiya",
-    "Sayu"
-  ],
+  "newCharacters": ["Kamisato Ayaka", "Yoimiya", "Sayu"],
   "mapExpansion": [
     {
       "mainRegion": "Inazuma",
-      "subRegion": [
-        "Narukami Island",
-        "Kannazuka",
-        "Yashiori Island"
-      ]
+      "subRegion": ["Narukami Island", "Kannazuka", "Yashiori Island"]
     }
   ],
   "newWeapons": {
@@ -26,23 +18,11 @@
       "Katsuragikiri Nagamasa",
       "Hakushin Ring"
     ],
-    "5Star": [
-      "Thundering Pulse",
-      "Mistsplitter Reforged"
-    ]
+    "5Star": ["Thundering Pulse", "Mistsplitter Reforged"]
   },
-  "newBosses": [
-    "Pyro Hypostasis",
-    "Perpetual Mechanical Array"
-  ],
   "banners": {
-    "characters": [
-      "The Heron's Court",
-      "Tapestry of Golden Flames"
-    ],
-    "weapons": [
-      "Epitome Invocation"
-    ]
+    "characters": ["The Heron's Court", "Tapestry of Golden Flames"],
+    "weapons": ["Epitome Invocation"]
   },
   "events": [
     "Thunder Sojourn",
@@ -122,21 +102,32 @@
     "limitedTimeWorldQuests": []
   },
   "newArtifacts": [],
-  "newEnnemies": [
-    "Mirror Maiden",
-    "Kairagi: Fiery Might",
-    "Kairagi: Dancing Thunder",
-    "Nobushi: Hitsukeban",
-    "Nobushi: Jintouban",
-    "Nobushi: Kikouban",
-    "Ruin Sentinel",
-    "Electro Hilichurl Grenadier",
-    "Electro Samachurl",
-    "Crackling Axe Mitachurl",
-    "Electro Abyss Mage",
-    "Thunderhelm Lawachurl",
-    "Electro Whopperflower"
-  ],
+  "newEnnemies": {
+    "common": [
+      "Kairagi: Fiery Might",
+      "Kairagi: Dancing Thunder",
+      "Nobushi: Hitsukeban",
+      "Nobushi: Jintouban",
+      "Nobushi: Kikouban",
+      "Electro Hilichurl Grenadier",
+      "Electro Samachurl",
+      "Electro Whopperflower"
+    ],
+    "elite": [
+      "Mirror Maiden",
+      "Crackling Axe Mitachurl",
+      "Electro Abyss Mage",
+      "Thunderhelm Lawachurl",
+      "Ruin Cruiser",
+      "Ruin Defender",
+      "Ruin Destroyer",
+      "Ruin Scout"
+    ],
+    "boss": {
+      "normal": ["Pyro Hypostasis", "Perpetual Mechanical Array"],
+      "weekly": []
+    }
+  },
   "newDomains": [
     "Court of Flowing Sand",
     "Violet Court",

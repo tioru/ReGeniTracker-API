@@ -3,30 +3,15 @@
   "name": "Midsummer Island Adventure",
   "releaseDate": "2021-06-09",
   "endDate": "2021-07-21",
-  "newCharacters": [
-    "Kaedehara Kazuha"
-  ],
+  "newCharacters": ["Kaedehara Kazuha"],
   "mapExpansion": [],
   "newWeapons": {
-    "4Star": [
-      "Mitternachts Waltz",
-      "Dodoco Tales"
-    ],
-    "5Star": [
-      "Freedom-Sworn"
-    ]
+    "4Star": ["Mitternachts Waltz", "Dodoco Tales"],
+    "5Star": ["Freedom-Sworn"]
   },
-  "newBosses": [
-    "Maguu Kenki"
-  ],
   "banners": {
-    "characters": [
-      "Sparkling Steps",
-      "Leaves in the Wind"
-    ],
-    "weapons": [
-      "Epitome Invocation"
-    ]
+    "characters": ["Sparkling Steps", "Leaves in the Wind"],
+    "weapons": ["Epitome Invocation"]
   },
   "events": [
     "Midsummer Island Adventure",
@@ -49,9 +34,7 @@
       }
     ],
     "storyQuests": [],
-    "worldQuests": [
-      "A Dish Beyond Mortal Ken"
-    ],
+    "worldQuests": ["A Dish Beyond Mortal Ken"],
     "hangoutQuests": [],
     "limitedTimeWorldQuests": [
       "They Who Hear the Sea",
@@ -65,14 +48,16 @@
     ]
   },
   "newArtifacts": [],
-  "newEnnemies": [
-    "Cryo Hypostasis",
-    "Abyss Lector: Violet Lightning"
-  ],
+  "newEnnemies": {
+    "common": [],
+    "elite": [],
+    "boss": {
+      "normal": ["Maguu Kenki"],
+      "weekly": []
+    }
+  },
   "newDomains": [],
-  "newLimitedTimeArea": [
-    "Golden Apple Archipelago"
-  ],
+  "newLimitedTimeArea": ["Golden Apple Archipelago"],
   "newAchievements": [
     {
       "category": "Wonders of the World",

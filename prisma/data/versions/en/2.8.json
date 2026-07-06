@@ -3,26 +3,18 @@
   "name": "Summer Fantasia",
   "releaseDate": "2022-07-13",
   "endDate": "2022-08-24",
-  "newCharacters": [
-    "Shikanoin Heizou"
-  ],
+  "newCharacters": ["Shikanoin Heizou"],
   "mapExpansion": [],
   "newWeapons": {
-    "4Star": [
-      "Kagotsurube Isshin",
-      "Prized Isshin Blade"
-    ]
+    "4Star": ["Kagotsurube Isshin", "Prized Isshin Blade"]
   },
-  "newBosses": [],
   "banners": {
     "characters": [
       "Leaves in the Wind",
       "Sparkling Steps",
       "Tapestry of Golden Flames"
     ],
-    "weapons": [
-      "Epitome Invocation"
-    ]
+    "weapons": ["Epitome Invocation"]
   },
   "events": [
     "Summertime Odyssey",
@@ -45,9 +37,7 @@
         ]
       }
     ],
-    "worldQuests": [
-      "Film Notes"
-    ],
+    "worldQuests": ["Film Notes"],
     "hangoutQuests": [
       {
         "character": "Shikanoin Heizou",
@@ -72,11 +62,16 @@
     ]
   },
   "newArtifacts": [],
-  "newEnnemies": [],
+  "newEnnemies": {
+    "common": [],
+    "elite": [],
+    "boss": {
+      "normal": [],
+      "weekly": []
+    }
+  },
   "newDomains": [],
-  "newLimitedTimeArea": [
-    "Golden Apple Archipelago"
-  ],
+  "newLimitedTimeArea": ["Golden Apple Archipelago"],
   "newAchievements": [
     {
       "category": "Memories of the Heart",

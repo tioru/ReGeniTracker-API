@@ -3,31 +3,19 @@
   "name": "Shadows Amidst Snowstorms",
   "releaseDate": "2021-11-24",
   "endDate": "2022-01-05",
-  "newCharacters": [
-    "Arataki Itto",
-    "Gorou"
-  ],
+  "newCharacters": ["Arataki Itto", "Gorou"],
   "mapExpansion": [],
   "newWeapons": {
-    "4Star": [
-      "Cinnabar Spindle"
-    ],
-    "5Star": [
-      "Redhorn Stonethresher"
-    ]
+    "4Star": ["Cinnabar Spindle"],
+    "5Star": ["Redhorn Stonethresher"]
   },
-  "newBosses": [
-    "Golden Wolflord"
-  ],
   "banners": {
     "characters": [
       "Secretum Secretorum",
       "Born of Ocean Swell",
       "Oni's Royale"
     ],
-    "weapons": [
-      "Epitome Invocation"
-    ]
+    "weapons": ["Epitome Invocation"]
   },
   "events": [
     "Shadows Amidst Snowstorms",
@@ -77,14 +65,16 @@
     ],
     "limitedTimeWorldQuests": []
   },
-  "newArtifacts": [
-    "Husk of Opulent Dreams",
-    "Ocean-Hued Clam"
-  ],
-  "newEnnemies": [],
-  "newDomains": [
-    "Slumbering Court"
-  ],
+  "newArtifacts": ["Husk of Opulent Dreams", "Ocean-Hued Clam"],
+  "newEnnemies": {
+    "common": [],
+    "elite": [],
+    "boss": {
+      "normal": ["Golden Wolflord"],
+      "weekly": []
+    }
+  },
+  "newDomains": ["Slumbering Court"],
   "newLimitedTimeArea": [],
   "newAchievements": [
     {

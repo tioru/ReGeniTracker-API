@@ -3,9 +3,7 @@
   "name": "Zephyr of the Violet Garden",
   "releaseDate": "2022-03-30",
   "endDate": "2022-05-31",
-  "newCharacters": [
-    "Kamisato Ayato"
-  ],
+  "newCharacters": ["Kamisato Ayato"],
   "mapExpansion": [
     {
       "mainRegion": "The Chasm",
@@ -13,22 +11,11 @@
     }
   ],
   "newWeapons": {
-    "5Star": [
-      "Haran Geppaku Futsu"
-    ]
+    "5Star": ["Haran Geppaku Futsu"]
   },
-  "newBosses": [
-    "Ruin Serpent"
-  ],
   "banners": {
-    "characters": [
-      "Azure Excursion",
-      "Ballad in Goblets",
-      "The Heron's Court"
-    ],
-    "weapons": [
-      "Epitome Invocation"
-    ]
+    "characters": ["Azure Excursion", "Ballad in Goblets", "The Heron's Court"],
+    "weapons": ["Epitome Invocation"]
   },
   "events": [
     "Hues of the Violet Garden",
@@ -84,17 +71,16 @@
     "hangoutQuests": [],
     "limitedTimeWorldQuests": []
   },
-  "newArtifacts": [
-    "Vermillion Hereafter",
-    "Echoes of an Offering"
-  ],
-  "newEnnemies": [
-    "Black Serpent Knight: Windcutter",
-    "Floating Hydro Fungus"
-  ],
-  "newDomains": [
-    "The Lost Valley"
-  ],
+  "newArtifacts": ["Vermillion Hereafter", "Echoes of an Offering"],
+  "newEnnemies": {
+    "common": ["Floating Hydro Fungus"],
+    "elite": ["Black Serpent Knight: Windcutter"],
+    "boss": {
+      "normal": ["Ruin Serpent"],
+      "weekly": []
+    }
+  },
+  "newDomains": ["The Lost Valley"],
   "newLimitedTimeArea": [],
   "newAchievements": [
     {

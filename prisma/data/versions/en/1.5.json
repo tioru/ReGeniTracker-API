@@ -3,10 +3,7 @@
   "name": "Beneath the Light of Jadeite",
   "releaseDate": "2021-04-28",
   "endDate": "2021-06-09",
-  "newCharacters": [
-    "Eula",
-    "Yanfei"
-  ],
+  "newCharacters": ["Eula", "Yanfei"],
   "mapExpansion": [],
   "newWeapons": {
     "4Star": [
@@ -15,21 +12,11 @@
       "Wine and Song",
       "Windblume Ode"
     ],
-    "5Star": [
-      "Elegy for the End"
-    ]
+    "5Star": ["Elegy for the End"]
   },
-  "newBosses": [
-    "Azhdaha"
-  ],
   "banners": {
-    "characters": [
-      "Gentry of Hermitage",
-      "Born of Ocean Swell"
-    ],
-    "weapons": [
-      "Epitome Invocation"
-    ]
+    "characters": ["Gentry of Hermitage", "Born of Ocean Swell"],
+    "weapons": ["Epitome Invocation"]
   },
   "events": [
     "Energy Amplifier Initiation",
@@ -88,18 +75,16 @@
       }
     ]
   },
-  "newArtifacts": [
-    "Tenacity of the Millelith",
-    "Pale Flame"
-  ],
-  "newEnnemies": [
-    "Cryo Hypostasis",
-    "Abyss Lector: Violet Lightning"
-  ],
-  "newDomains": [
-    "Ridge Watch",
-    "Beneath the Dragon-Queller"
-  ],
+  "newArtifacts": ["Tenacity of the Millelith", "Pale Flame"],
+  "newEnnemies": {
+    "common": [],
+    "elite": ["Abyss Lector: Violet Lightning"],
+    "boss": {
+      "normal": ["Cryo Hypostasis"],
+      "weekly": ["Azhdaha"]
+    }
+  },
+  "newDomains": ["Ridge Watch", "Beneath the Dragon-Queller"],
   "newAchievements": [
     {
       "category": "Wonders of the World",

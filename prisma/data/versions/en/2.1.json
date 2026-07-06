@@ -12,36 +12,17 @@
   "mapExpansion": [
     {
       "mainRegion": "Inazuma",
-      "subRegion": [
-        "Watatsumi Island",
-        "Seirai Island"
-      ]
+      "subRegion": ["Watatsumi Island", "Seirai Island"]
     }
   ],
   "newWeapons": {
-    "4Star": [
-      "Luxurious Sea-Lord",
-      "\"The Catch\"",
-      "Predator"
-    ],
-    "5Star": [
-      "Engulfing Lightning",
-      "Everlasting Moonglow"
-    ]
+    "4Star": ["Luxurious Sea-Lord", "\"The Catch\"", "Predator"],
+    "5Star": ["Engulfing Lightning", "Everlasting Moonglow"]
   },
-  "newBosses": [
-    "La Signora",
-    "Hydro Hypostasis",
-    "Thunder Manifestation"
-  ],
+  "newBosses": ["La Signora", "Hydro Hypostasis", "Thunder Manifestation"],
   "banners": {
-    "characters": [
-      "Reign of Serenity",
-      "Drifting Luminescence"
-    ],
-    "weapons": [
-      "Epitome Invocation"
-    ]
+    "characters": ["Reign of Serenity", "Drifting Luminescence"],
+    "weapons": ["Epitome Invocation"]
   },
   "events": [
     "Moonlight Merriment",
@@ -102,11 +83,15 @@
     "limitedTimeWorldQuests": []
   },
   "newArtifacts": [],
-  "newEnnemies": [],
-  "newDomains": [
-    "Narukami Island: Tenshukaku",
-    "Palace in a Pool"
-  ],
+  "newEnnemies": {
+    "common": ["Anemo Specter", "Geo Specter", "Hydro Specter"],
+    "elite": [],
+    "boss": {
+      "normal": ["Hydro Hypostasis", "Thunder Manifestation"],
+      "weekly": ["La Signora"]
+    }
+  },
+  "newDomains": ["Narukami Island: Tenshukaku", "Palace in a Pool"],
   "newLimitedTimeArea": [],
   "newAchievements": [
     {

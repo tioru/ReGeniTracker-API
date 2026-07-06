@@ -3,10 +3,7 @@
   "name": "Fleeting Colors in Flight",
   "releaseDate": "2022-01-05",
   "endDate": "2022-02-16",
-  "newCharacters": [
-    "Shenhe",
-    "Yun Jin"
-  ],
+  "newCharacters": ["Shenhe", "Yun Jin"],
   "mapExpansion": [
     {
       "mainRegion": "Enkanomiya",
@@ -14,13 +11,8 @@
     }
   ],
   "newWeapons": {
-    "5Star": [
-      "Calamity Queller"
-    ]
+    "5Star": ["Calamity Queller"]
   },
-  "newBosses": [
-    "Golden Wolflord"
-  ],
   "banners": {
     "characters": [
       "The Transcendent One Returns",
@@ -28,9 +20,7 @@
       "Gentry of Hermitage",
       "Adrift in the Harbor"
     ],
-    "weapons": [
-      "Epitome Invocation"
-    ]
+    "weapons": ["Epitome Invocation"]
   },
   "events": [
     "Fleeting Colors in Flight",
@@ -90,23 +80,17 @@
     ],
     "limitedTimeWorldQuests": []
   },
-  "newArtifacts": [
-    "Husk of Opulent Dreams",
-    "Ocean-Hued Clam"
-  ],
-  "newEnnemies": [
-    "Abyss Lector: Fathomless Flames",
-    "Cryo Specter",
-    "Electro Specter",
-    "Pyro Specter",
-    "Primordial Bathysmal Vishap",
-    "Rimebiter Bathysmal Vishap",
-    "Bolteater Bathysmal Vishap",
-    "Coral Defenders"
-  ],
-  "newDomains": [
-    "Slumbering Court"
-  ],
+  "newArtifacts": ["Husk of Opulent Dreams", "Ocean-Hued Clam"],
+  "newEnnemies": {
+    "common": ["Cryo Specter", "Electro Specter", "Pyro Specter"],
+    "elite": ["Abyss Lector: Fathomless Flames", "Primordial Bathysmal Vishap"],
+    "special": ["Rimebiter Bathysmal Vishap", "Bolteater Bathysmal Vishap"],
+    "boss": {
+      "normal": ["Coral Defenders"],
+      "weekly": []
+    }
+  },
+  "newDomains": ["Slumbering Court"],
   "newLimitedTimeArea": [],
   "newAchievements": [
     {
