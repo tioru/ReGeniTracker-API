@@ -14,7 +14,9 @@
       "Drifting Luminescence",
       "From Ashes Reborn"
     ],
-    "weapons": ["Epitome Invocation"]
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Secret Summer Paradise",
@@ -27,11 +29,19 @@
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
-    "worldQuests": ["Purbiruni's Commandment", "Recollections of a Fontainian"],
+    "worldQuests": [
+      "Purbiruni's Commandment",
+      "Recollections of a Fontainian"
+    ],
     "hangoutQuests": [
       {
         "character": "Kaeya",
-        "acts": [{ "act": 1, "name": "Shenanigans and Sweet Wine" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Shenanigans and Sweet Wine"
+          }
+        ]
       }
     ],
     "limitedTimeWorldQuests": [
@@ -44,5 +54,17 @@
   "newArtifacts": [],
   "newEnnemies": [],
   "newDomains": [],
-  "newLimitedTimeArea": ["Veluriyam Mirage"]
+  "newLimitedTimeArea": [
+    "Veluriyam Mirage"
+  ],
+  "newAchievements": [
+    {
+      "category": "Memories of the Heart",
+      "achievements": [
+        "Make Merry",
+        "Lucky Coin",
+        "Shh... Listen!"
+      ]
+    }
+  ]
 }

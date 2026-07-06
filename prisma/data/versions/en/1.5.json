@@ -3,7 +3,10 @@
   "name": "Beneath the Light of Jadeite",
   "releaseDate": "2021-04-28",
   "endDate": "2021-06-09",
-  "newCharacters": ["Eula", "Yanfei"],
+  "newCharacters": [
+    "Eula",
+    "Yanfei"
+  ],
   "mapExpansion": [],
   "newWeapons": {
     "4Star": [
@@ -12,12 +15,21 @@
       "Wine and Song",
       "Windblume Ode"
     ],
-    "5Star": ["Elegy for the End"]
+    "5Star": [
+      "Elegy for the End"
+    ]
   },
-  "newBosses": ["Azhdaha"],
+  "newBosses": [
+    "Azhdaha"
+  ],
   "banners": {
-    "characters": ["Gentry of Hermitage", "Born of Ocean Swell"],
-    "weapons": ["Epitome Invocation"]
+    "characters": [
+      "Gentry of Hermitage",
+      "Born of Ocean Swell"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Energy Amplifier Initiation",
@@ -32,13 +44,21 @@
       {
         "chapter": "Historia Antiqua Chapter",
         "character": "Zhongli",
-        "acts": [{ "act": 1, "name": "No Mere Stone" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "No Mere Stone"
+          }
+        ]
       },
       {
         "chapter": "Aphros Delos Chapter",
         "character": "Eula",
         "acts": [
-          { "act": 1, "name": "The Spindrift Shall Never Return to the Sea" }
+          {
+            "act": 1,
+            "name": "The Spindrift Shall Never Return to the Sea"
+          }
         ]
       }
     ],
@@ -50,15 +70,85 @@
     "hangoutQuests": [
       {
         "character": "Noelle",
-        "acts": [{ "act": 2, "name": "Knightly Exam Prep" }]
+        "acts": [
+          {
+            "act": 2,
+            "name": "Knightly Exam Prep"
+          }
+        ]
       },
       {
         "character": "Diona",
-        "acts": [{ "act": 1, "name": "The Cat and the Cocktail" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Cat and the Cocktail"
+          }
+        ]
       }
     ]
   },
-  "newArtifacts": ["Tenacity of the Millelith", "Pale Flame"],
-  "newEnnemies": ["Cryo Hypostasis", "Abyss Lector: Violet Lightning"],
-  "newDomains": ["Ridge Watch", "Beneath the Dragon-Queller"]
+  "newArtifacts": [
+    "Tenacity of the Millelith",
+    "Pale Flame"
+  ],
+  "newEnnemies": [
+    "Cryo Hypostasis",
+    "Abyss Lector: Violet Lightning"
+  ],
+  "newDomains": [
+    "Ridge Watch",
+    "Beneath the Dragon-Queller"
+  ],
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "\"...A Single Night's Work\"",
+        "\"Knee-Deep Snow...\"",
+        "Sternest of Souls"
+      ]
+    },
+    {
+      "category": "Memories of the Heart",
+      "achievements": [
+        "But There's a Catch...",
+        "Diona Special, Stirred, Not Shaken",
+        "Invulnerable Maid-Knight",
+        "Kitten Queen",
+        "Mondstadt's Note-Taker General",
+        "Stress Relief"
+      ]
+    },
+    {
+      "category": "A Realm Beyond: Series I",
+      "achievements": [
+        "Color It In (Tier 1)",
+        "Color It In (Tier 2)",
+        "Color It In (Tier 3)",
+        "Friend of the Realm (Tier 1)",
+        "Friend of the Realm (Tier 2)",
+        "Friend of the Realm (Tier 3)",
+        "High Adeptal Energy Readings Ahead (Tier 1)",
+        "High Adeptal Energy Readings Ahead (Tier 2)",
+        "High Adeptal Energy Readings Ahead (Tier 3)",
+        "If I Were a Rich Man (Tier 1)",
+        "If I Were a Rich Man (Tier 2)",
+        "If I Were a Rich Man (Tier 3)",
+        "My... Territory (Tier 1)",
+        "My... Territory (Tier 2)",
+        "My... Territory (Tier 3)",
+        "Not Just a Small Bench (Tier 1)",
+        "Not Just a Small Bench (Tier 2)",
+        "Not Just a Small Bench (Tier 3)",
+        "Precision Modeling (Tier 1)",
+        "Precision Modeling (Tier 2)",
+        "Precision Modeling (Tier 3)",
+        "Realm Sans Frontières",
+        "T—T—T—Timberhochwandi (Tier 1)",
+        "T—T—T—Timberhochwandi (Tier 2)",
+        "T—T—T—Timberhochwandi (Tier 3)"
+      ]
+    }
+  ]
 }

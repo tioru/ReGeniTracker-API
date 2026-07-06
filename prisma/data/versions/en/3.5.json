@@ -3,11 +3,18 @@
   "name": "Windblume's Breath",
   "releaseDate": "2023-03-01",
   "endDate": "2023-04-12",
-  "newCharacters": ["Dehya", "Mika"],
+  "newCharacters": [
+    "Dehya",
+    "Mika"
+  ],
   "mapExpansion": [],
   "newWeapons": {
-    "4Star": ["Mailed Flower"],
-    "5Star": ["Beacon of the Reed Sea"]
+    "4Star": [
+      "Mailed Flower"
+    ],
+    "5Star": [
+      "Beacon of the Reed Sea"
+    ]
   },
   "newBosses": [],
   "banners": {
@@ -17,7 +24,9 @@
       "The Heron's Court",
       "The Transcendent One Returns"
     ],
-    "weapons": ["Epitome Invocation"]
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Windblume's Breath",
@@ -31,21 +40,36 @@
       {
         "chapter": "3",
         "chapterName": "Chapter III",
-        "acts": [{ "act": 6, "name": "Caribert" }]
+        "acts": [
+          {
+            "act": 6,
+            "name": "Caribert"
+          }
+        ]
       }
     ],
     "storyQuests": [
       {
         "chapter": "Mantichora Chapter",
         "character": "Dehya",
-        "acts": [{ "act": 1, "name": "Lionsblood" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Lionsblood"
+          }
+        ]
       }
     ],
     "worldQuests": [],
     "hangoutQuests": [
       {
         "character": "Faruzan",
-        "acts": [{ "act": 1, "name": "A Confounding Conundrum" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "A Confounding Conundrum"
+          }
+        ]
       }
     ],
     "limitedTimeWorldQuests": []
@@ -56,5 +80,24 @@
     "Black Serpent Knight: Rockbreaker Ax"
   ],
   "newDomains": [],
-  "newLimitedTimeArea": []
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "Caribert",
+        "Star-Crossed Night",
+        "The Far Side of Fate",
+        "The Sickness Unto Near-Death"
+      ]
+    },
+    {
+      "category": "Memories of the Heart",
+      "achievements": [
+        "Mechanics: From Beginner to...?",
+        "Optimal Solution",
+        "To You in a Hundred Years"
+      ]
+    }
+  ]
 }

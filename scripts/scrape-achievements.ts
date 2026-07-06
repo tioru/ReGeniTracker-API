@@ -8,7 +8,7 @@ const API_URL = 'https://genshin-impact.fandom.com/api.php';
 const OUTPUT_DIR = path.resolve(__dirname, '../prisma/data/achievements/en');
 const CACHE_PATH = path.resolve(
   __dirname,
-  '../prisma/data/achievements-raw-cache.json',
+  './cache/achievements-raw-cache.json',
 );
 
 interface RawAchievement {

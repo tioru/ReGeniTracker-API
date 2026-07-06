@@ -3,7 +3,10 @@
   "name": "Fleeting Colors in Flight",
   "releaseDate": "2022-01-05",
   "endDate": "2022-02-16",
-  "newCharacters": ["Shenhe", "Yun Jin"],
+  "newCharacters": [
+    "Shenhe",
+    "Yun Jin"
+  ],
   "mapExpansion": [
     {
       "mainRegion": "Enkanomiya",
@@ -11,9 +14,13 @@
     }
   ],
   "newWeapons": {
-    "5Star": ["Calamity Queller"]
+    "5Star": [
+      "Calamity Queller"
+    ]
   },
-  "newBosses": ["Golden Wolflord"],
+  "newBosses": [
+    "Golden Wolflord"
+  ],
   "banners": {
     "characters": [
       "The Transcendent One Returns",
@@ -21,7 +28,9 @@
       "Gentry of Hermitage",
       "Adrift in the Harbor"
     ],
-    "weapons": ["Epitome Invocation"]
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Fleeting Colors in Flight",
@@ -37,7 +46,12 @@
       {
         "chapter": "",
         "chapterName": "Interlude Chapter",
-        "acts": [{ "act": 1, "name": "The Crane Returns on the Wind" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Crane Returns on the Wind"
+          }
+        ]
       }
     ],
     "storyQuests": [],
@@ -57,16 +71,29 @@
     "hangoutQuests": [
       {
         "character": "Ningguang",
-        "acts": [{ "act": 1, "name": "The Jade Chamber's Returning Guest" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Jade Chamber's Returning Guest"
+          }
+        ]
       },
       {
         "character": "Yun Jin",
-        "acts": [{ "act": 1, "name": "A Song That Knows Grace" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "A Song That Knows Grace"
+          }
+        ]
       }
     ],
     "limitedTimeWorldQuests": []
   },
-  "newArtifacts": ["Husk of Opulent Dreams", "Ocean-Hued Clam"],
+  "newArtifacts": [
+    "Husk of Opulent Dreams",
+    "Ocean-Hued Clam"
+  ],
   "newEnnemies": [
     "Abyss Lector: Fathomless Flames",
     "Cryo Specter",
@@ -77,6 +104,65 @@
     "Bolteater Bathysmal Vishap",
     "Coral Defenders"
   ],
-  "newDomains": ["Slumbering Court"],
-  "newLimitedTimeArea": []
+  "newDomains": [
+    "Slumbering Court"
+  ],
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "\"Extensive And Meticulous\"",
+        "\"All is Well\"",
+        "\"Maybe Get Yourself a More Social Hobby...\"",
+        "\"If Tokoyo Ookami Knew of This...\"",
+        "\"The Eel in Winter Sought\"",
+        "\"Unmatched Throughout Tokoyo\"",
+        "\"What Difference Does This Make?\"",
+        "A Former Dream",
+        "Anna's Adventures",
+        "Flowing Sunfire, Also Known as Marishi",
+        "Light and Dark, Dusk and Dawn",
+        "Majesty of the Deep",
+        "N-Thousand Leagues Under the Sea",
+        "Of Sun and Moon",
+        "One Key for Each Lock",
+        "Prelude to the Journey",
+        "Rise of the Jade Chamber",
+        "SHUUMATSU GAIDEN",
+        "Step Right Up!",
+        "The Children of God Shall Dance",
+        "The Crane Returns on the Wind",
+        "The Ill-Starred Legacy of Iwakura"
+      ]
+    },
+    {
+      "category": "The Light of Day",
+      "achievements": [
+        "\"...You Do Not Know the Night...\"",
+        "Fire Rat's Robe, Dragon-Head Pearl, Sacred Offering Bowl, and...",
+        "Hesperus' Boons (Tier 1)",
+        "Hesperus' Boons (Tier 2)",
+        "Hesperus' Boons (Tier 3)",
+        "Kairos' Constancy (Tier 1)",
+        "Kairos' Constancy (Tier 2)",
+        "Kairos' Constancy (Tier 3)",
+        "Phosphoros' Guidance (Tier 1)",
+        "Phosphoros' Guidance (Tier 2)",
+        "Phosphoros' Guidance (Tier 3)",
+        "The Highest Authority in the Land"
+      ]
+    },
+    {
+      "category": "Memories of the Heart",
+      "achievements": [
+        "A Strict Master Trains a Talented Pupil",
+        "Megrez's Companion Star",
+        "May This Moment Be Made to Last",
+        "Overprotectiveness",
+        "The Lingering Song",
+        "You've Got to Have Reserves"
+      ]
+    }
+  ]
 }

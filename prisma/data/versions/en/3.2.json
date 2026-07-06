@@ -3,12 +3,20 @@
   "name": "Akasha Pulses, the Kalpa Flame Rises",
   "releaseDate": "2022-11-02",
   "endDate": "2022-12-07",
-  "newCharacters": ["Nahida", "Layla"],
+  "newCharacters": [
+    "Nahida",
+    "Layla"
+  ],
   "mapExpansion": [],
   "newWeapons": {
-    "5Star": ["A Thousand Floating Dreams"]
+    "5Star": [
+      "A Thousand Floating Dreams"
+    ]
   },
-  "newBosses": ["Dendro Hypostasis", "Everlasting Lord of Arcane Wisdom"],
+  "newBosses": [
+    "Dendro Hypostasis",
+    "Everlasting Lord of Arcane Wisdom"
+  ],
   "banners": {
     "characters": [
       "The Moongrass' Enlightenment",
@@ -16,7 +24,9 @@
       "Everbloom Violet",
       "Farewell of Snezhnaya"
     ],
-    "weapons": ["Epitome Invocation"]
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Fabulous Fungus Frenzy",
@@ -30,14 +40,24 @@
       {
         "chapter": "3",
         "chapterName": "Chapter III",
-        "acts": [{ "act": 5, "name": "Akasha Pulses, the Kalpa Flame Rises" }]
+        "acts": [
+          {
+            "act": 5,
+            "name": "Akasha Pulses, the Kalpa Flame Rises"
+          }
+        ]
       }
     ],
     "storyQuests": [
       {
         "chapter": "Sapientia Oromasdis Chapter",
         "character": "Nahida",
-        "acts": [{ "act": 1, "name": "Lingering Warmth" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Lingering Warmth"
+          }
+        ]
       }
     ],
     "worldQuests": [
@@ -50,5 +70,21 @@
   "newArtifacts": [],
   "newEnnemies": [],
   "newDomains": [],
-  "newLimitedTimeArea": []
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "...I'm Sorry, Sir, But You're Ineligible",
+        "Akasha Pulses, the Kalpa Flame Rises",
+        "Causality of Birth and Extinction",
+        "Eremitis ne credite",
+        "It All Comes Tumbling Down",
+        "Records of the Fall",
+        "The Longest Day",
+        "The Marvelous Uses of Nitrogen Fixation",
+        "Victory Road"
+      ]
+    }
+  ]
 }

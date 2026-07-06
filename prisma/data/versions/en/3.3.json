@@ -3,13 +3,23 @@
   "name": "All Senses Clear, All Existence Void",
   "releaseDate": "2022-12-07",
   "endDate": "2023-01-18",
-  "newCharacters": ["Wanderer", "Faruzan"],
+  "newCharacters": [
+    "Wanderer",
+    "Faruzan"
+  ],
   "mapExpansion": [],
   "newWeapons": {
-    "4Star": ["Toukabou Shigure"],
-    "5Star": ["Tulaytullah's Remembrance"]
+    "4Star": [
+      "Toukabou Shigure"
+    ],
+    "5Star": [
+      "Tulaytullah's Remembrance"
+    ]
   },
-  "newBosses": ["Dendro Hypostasis", "Everlasting Lord of Arcane Wisdom"],
+  "newBosses": [
+    "Dendro Hypostasis",
+    "Everlasting Lord of Arcane Wisdom"
+  ],
   "banners": {
     "characters": [
       "From Ashes Reborn",
@@ -17,7 +27,9 @@
       "Reign of Serenity",
       "Azure Excursion"
     ],
-    "weapons": ["Epitome Invocation"]
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Akitsu Kimodameshi",
@@ -31,7 +43,12 @@
       {
         "chapter": "",
         "chapterName": "Interlude Chapter",
-        "acts": [{ "act": 2, "name": "Inversion of Genesis" }]
+        "acts": [
+          {
+            "act": 2,
+            "name": "Inversion of Genesis"
+          }
+        ]
       }
     ],
     "storyQuests": [],
@@ -45,8 +62,59 @@
     "hangoutQuests": [],
     "limitedTimeWorldQuests": []
   },
-  "newArtifacts": ["Desert Pavilion Chronicle", "Flower of Paradise Lost"],
+  "newArtifacts": [
+    "Desert Pavilion Chronicle",
+    "Flower of Paradise Lost"
+  ],
   "newEnnemies": [],
-  "newDomains": ["City of Gold"],
-  "newLimitedTimeArea": []
+  "newDomains": [
+    "City of Gold"
+  ],
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Genius Invokation TCG (Achievement)",
+      "achievements": [
+        "\"Well, Let's See It, Partner...\" (Tier 1)",
+        "\"Well, Let's See It, Partner...\" (Tier 2)",
+        "\"Well, Let's See It, Partner...\" (Tier 3)",
+        "A Candle in the Wind? (Tier 1)",
+        "A Candle in the Wind? (Tier 2)",
+        "A Candle in the Wind? (Tier 3)",
+        "A Riotous Response (Tier 1)",
+        "A Riotous Response (Tier 2)",
+        "A Riotous Response (Tier 3)",
+        "Attack! Attack! Attack! (Tier 1)",
+        "Attack! Attack! Attack! (Tier 2)",
+        "Attack! Attack! Attack! (Tier 3)",
+        "Chaos Divided (Tier 1)",
+        "Chaos Divided (Tier 2)",
+        "Chaos Divided (Tier 3)",
+        "Legendary High Roller (Tier 1)",
+        "Legendary High Roller (Tier 2)",
+        "Legendary High Roller (Tier 3)",
+        "Miniaturized Dice-Shaker (Tier 1)",
+        "Miniaturized Dice-Shaker (Tier 2)",
+        "Miniaturized Dice-Shaker (Tier 3)",
+        "Visible, Yet Invisible",
+        "Victory at Hand (Tier 1)",
+        "Victory at Hand (Tier 2)",
+        "Victory at Hand (Tier 3)",
+        "Win-Loss Ratio"
+      ]
+    },
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "A Lingering Fragrance",
+        "Echoes of History",
+        "Inversion of Genesis",
+        "Me, Myself, But Not I",
+        "Mystery of Tatarasuna",
+        "Parinama: Fox, Cat, Bird, and Monster",
+        "Swordseeker",
+        "To Walk The Horizon...?"
+      ]
+    }
+  ]
 }

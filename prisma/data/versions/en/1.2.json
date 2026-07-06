@@ -3,11 +3,16 @@
   "name": "The Chalk Prince and the Dragon",
   "releaseDate": "2020-12-23",
   "endDate": "2021-02-03",
-  "newCharacters": ["Albedo", "Ganyu"],
+  "newCharacters": [
+    "Albedo",
+    "Ganyu"
+  ],
   "mapExpansion": [
     {
       "mainRegion": "Mondstadt",
-      "subRegion": ["Dragonspine"]
+      "subRegion": [
+        "Dragonspine"
+      ]
     }
   ],
   "newWeapons": {
@@ -17,12 +22,19 @@
       "Dragonspine Spear",
       "Frostbearer"
     ],
-    "5Star": ["Summit Shaper"]
+    "5Star": [
+      "Summit Shaper"
+    ]
   },
   "newBosses": [],
   "banners": {
-    "characters": ["Secretum Secretorum", "Adrift in the Harbor"],
-    "weapons": ["Epitome Invocation"]
+    "characters": [
+      "Secretum Secretorum",
+      "Adrift in the Harbor"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "The Chalk Prince and the Dragon",
@@ -36,12 +48,22 @@
       {
         "chapter": "Princeps Cretaceus Chapter",
         "character": "Albedo",
-        "acts": [{ "act": 1, "name": "Traveler Observation Report" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Traveler Observation Report"
+          }
+        ]
       },
       {
         "chapter": "Sinae Unicornis Chapter",
         "character": "Ganyu",
-        "acts": [{ "act": 1, "name": "Sea of Clouds, Sea of People" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Sea of Clouds, Sea of People"
+          }
+        ]
       }
     ],
     "worldQuests": [
@@ -65,7 +87,10 @@
       "Eat It While It's Hot"
     ]
   },
-  "newArtifacts": ["Blizzard Strayer", "Heart of Depth"],
+  "newArtifacts": [
+    "Blizzard Strayer",
+    "Heart of Depth"
+  ],
   "newEnnemies": {
     "common": [
       "Cryo Samachurl",
@@ -84,5 +109,60 @@
       "weekly": []
     }
   },
-  "newDomains": ["Peak of Vindagnyr"]
+  "newDomains": [
+    "Peak of Vindagnyr"
+  ],
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "\"Dear Daddy...\"",
+        "Chill Out!",
+        "Glacial Steel",
+        "Futile Endeavor",
+        "Glutton for Goulash",
+        "Priest, Princess, and Scribe",
+        "Prodigal Son's Return",
+        "Snow-Stored History",
+        "Sky High",
+        "The Bleak Midwinter",
+        "The Hunter Becomes the Hunted",
+        "Towering Achievement",
+        "Untellable Tale",
+        "Wrath of the Gods",
+        "Winter Wonderland"
+      ]
+    },
+    {
+      "category": "Challenger: Series III",
+      "achievements": [
+        "\"Rosebud...\"",
+        "...The Harder They Fall",
+        "Assassin of Kings",
+        "Chilly-Churl",
+        "David and Goliath",
+        "No Ice for Me, Thanks",
+        "Tear Down This Wall!",
+        "Turnover"
+      ]
+    },
+    {
+      "category": "Visitors on the Icy Mountain",
+      "achievements": [
+        "Continental Explorer: Dragonspine",
+        "Dragonspear",
+        "Mountain of Treasure (Tier 1)",
+        "Mountain of Treasure (Tier 2)",
+        "Mountain of Treasure (Tier 3)",
+        "Peak Hopper",
+        "Seelie in the Snow (Tier 1)",
+        "Seelie in the Snow (Tier 2)",
+        "Seelie in the Snow (Tier 3)",
+        "Scarlet Sprouts (Tier 1)",
+        "Scarlet Sprouts (Tier 2)",
+        "Scarlet Sprouts (Tier 3)",
+        "Skyfrost Nail"
+      ]
+    }
+  ]
 }

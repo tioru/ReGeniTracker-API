@@ -3,7 +3,11 @@
   "name": "The Morn a Thousand Roses Brings",
   "releaseDate": "2022-08-24",
   "endDate": "2022-09-28",
-  "newCharacters": ["Tighnari", "Collei", "Dori"],
+  "newCharacters": [
+    "Tighnari",
+    "Collei",
+    "Dori"
+  ],
   "mapExpansion": [
     {
       "mainRegion": "Sumeru",
@@ -27,7 +31,9 @@
       "Forest Regalia",
       "Fruit of Fulfillment"
     ],
-    "5Star": ["Hun­ter's Path"]
+    "5Star": [
+      "Hun­ter's Path"
+    ]
   },
   "newBosses": [],
   "banners": {
@@ -37,7 +43,9 @@
       "Adrift in the Harbor",
       "Drifting Luminescence"
     ],
-    "weapons": ["Epitome Invocation"]
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Graven Innocence",
@@ -52,8 +60,14 @@
         "chapter": "3",
         "chapterName": "Chapter III",
         "acts": [
-          { "act": 1, "name": "Through Mists of Smoke and Forests Dark" },
-          { "act": 2, "name": "The Morn a Thousand Roses Brings" }
+          {
+            "act": 1,
+            "name": "Through Mists of Smoke and Forests Dark"
+          },
+          {
+            "act": 2,
+            "name": "The Morn a Thousand Roses Brings"
+          }
         ]
       }
     ],
@@ -61,7 +75,12 @@
       {
         "chapter": "Vulpes Zerda Chapter",
         "character": "Tighnari",
-        "acts": [{ "act": 1, "name": "The Unanswerable Problems" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Unanswerable Problems"
+          }
+        ]
       }
     ],
     "worldQuests": [
@@ -98,7 +117,10 @@
     "hangoutQuests": [],
     "limitedTimeWorldQuests": []
   },
-  "newArtifacts": ["Deepwood Memories", "Gilded Dreams"],
+  "newArtifacts": [
+    "Deepwood Memories",
+    "Gilded Dreams"
+  ],
   "newEnnemies": [
     "Electro Regisvine",
     "Jadeplume Terrorshroom",
@@ -132,5 +154,124 @@
     "The Coordinates of Sun and Rain",
     "The Dark Valley"
   ],
-  "newLimitedTimeArea": []
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "\"Get Over Here!\"",
+        "\"Han Always Shoots First...\"",
+        "\"I've Got It! I've Got It!\"",
+        "\"It's My Job.\"",
+        "...Let Me Fade With Memory",
+        "A Leisurely Journey",
+        "A Conversation with the Treasure Chest Owner",
+        "A Once-Emerald Nursery",
+        "A Walnut Tree Amidst the Gardens",
+        "All Dreams Must End With an Awakening",
+        "Aha! What's on the Hook?",
+        "Answer Time",
+        "As the Lion Searched for Courage...",
+        "Call of the Nameless City",
+        "Catch Me-ow if You Can!",
+        "Date of Departure",
+        "Even Paimon Wouldn't Eat That!",
+        "Ever an Outcast in the Forest",
+        "Eternal Sustenance",
+        "Explorer",
+        "For Meritorious Service",
+        "Glittering Melody",
+        "In the Name of Anfortas",
+        "Kara's Child",
+        "Kalimi's Fungus",
+        "Master Chef: Vanarana",
+        "Nature's Infinite Wit",
+        "Music of the Forest",
+        "Now Let Time Resume",
+        "Oh, Frabjous Day!",
+        "Non-Obligatory Request",
+        "Perched Between Dream and Reality",
+        "Open Sesame!",
+        "Opportunistic Gain",
+        "Portal of Marvels",
+        "Please Play Safely",
+        "Relaxation Therapy",
+        "Scholarly in Sumeru",
+        "Song of Night and Dawn",
+        "Sumeru Monster Ecology Survey",
+        "Summit of Wisdom",
+        "Swift as the Wind",
+        "The Flavor of Déjà Vu",
+        "The End of Annihilation",
+        "The Bitter Fruit of Dreams",
+        "The Jasmines Whisper, the Pomegranates Are Glad",
+        "The Lengthy Reunion",
+        "The Merchant and the Gate of Knowledge",
+        "The House of Canned Time",
+        "The Morn a Thousand Roses Brings",
+        "The Rain Seeps Into the Soil",
+        "The Tale of the Forest",
+        "The Rule of Three",
+        "The Sky is Vast; The Earth...",
+        "The Random Circumstances of a Rose's Blooming",
+        "The Ship Has It",
+        "Through Mists of Smoke and Forests Dark",
+        "Though to the Earth I May Return...",
+        "They Enter the Flow",
+        "Three Strikes",
+        "Voice of Akasha",
+        "Vamadha-Go-Round",
+        "Walking with Water and Wind",
+        "Up by the Roots",
+        "When Autumn and Dew Meet",
+        "When the Dreams Bloom",
+        "Weather Control Activated",
+        "When Wealth Comes A-Knockin'",
+        "Where Have You Gone, My Dream?",
+        "What's the Matter?"
+      ]
+    },
+    {
+      "category": "Sumeru: The Rainforest of Lore",
+      "achievements": [
+        "Adventurer of the Shimmering Woods (Tier 1)",
+        "Adventurer of the Shimmering Woods (Tier 2)",
+        "Adventurer of the Shimmering Woods (Tier 3)",
+        "Continental Explorer: Sumeru Boscage",
+        "Culmination of the Great Dream",
+        "Fluorescent Bloom",
+        "Forest Roamer",
+        "Sanctuary Pilgrim: Sumeru Boscage",
+        "The Forest Will Remember",
+        "Treasure Hunter of the Shimmering Woods (Tier 1)",
+        "Treasure Hunter of the Shimmering Woods (Tier 2)",
+        "Treasure Hunter of the Shimmering Woods (Tier 3)",
+        "Woodland Guide (Tier 1)",
+        "Woodland Guide (Tier 2)",
+        "Woodland Guide (Tier 3)"
+      ]
+    },
+    {
+      "category": "Mortal Travails: Series III",
+      "achievements": [
+        "Bright as a Flame",
+        "Farris' Journey",
+        "Reminiscence of Gurabad",
+        "The Essence of Flora"
+      ]
+    },
+    {
+      "category": "Meetings in Outrealm: Series III",
+      "achievements": [
+        "Brave the Lightning's Glow...",
+        "Dashing Through the Snow... and the Flames",
+        "Electric Shock Hazard",
+        "I'm a Flexitarian",
+        "Our Hearts as One",
+        "Surpassing the Ancients' Wisdom",
+        "The Whisperer in Darkness",
+        "Water, Basically"
+      ]
+    }
+  ]
 }

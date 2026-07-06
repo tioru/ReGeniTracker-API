@@ -12,17 +12,36 @@
   "mapExpansion": [
     {
       "mainRegion": "Inazuma",
-      "subRegion": ["Watatsumi Island", "Seirai Island"]
+      "subRegion": [
+        "Watatsumi Island",
+        "Seirai Island"
+      ]
     }
   ],
   "newWeapons": {
-    "4Star": ["Luxurious Sea-Lord", "\"The Catch\"", "Predator"],
-    "5Star": ["Engulfing Lightning", "Everlasting Moonglow"]
+    "4Star": [
+      "Luxurious Sea-Lord",
+      "\"The Catch\"",
+      "Predator"
+    ],
+    "5Star": [
+      "Engulfing Lightning",
+      "Everlasting Moonglow"
+    ]
   },
-  "newBosses": ["La Signora", "Hydro Hypostasis", "Thunder Manifestation"],
+  "newBosses": [
+    "La Signora",
+    "Hydro Hypostasis",
+    "Thunder Manifestation"
+  ],
   "banners": {
-    "characters": ["Reign of Serenity", "Drifting Luminescence"],
-    "weapons": ["Epitome Invocation"]
+    "characters": [
+      "Reign of Serenity",
+      "Drifting Luminescence"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Moonlight Merriment",
@@ -36,20 +55,33 @@
       {
         "chapter": "2",
         "chapterName": "Chapter II",
-        "acts": [{ "act": 3, "name": "Omnipresence Over Mortals" }]
+        "acts": [
+          {
+            "act": 3,
+            "name": "Omnipresence Over Mortals"
+          }
+        ]
       }
     ],
     "storyQuests": [
       {
         "chapter": "Imperatrix Umbrosa Chapter",
         "character": "Raiden Shogun",
-        "acts": [{ "act": 1, "name": "Reflections of Mortality" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Reflections of Mortality"
+          }
+        ]
       },
       {
         "chapter": "Dracaena Somnolenta Chapter",
         "character": "Sangonomiya Kokomi",
         "acts": [
-          { "act": 1, "name": "Warriors' Dreams Like Spring Grass Renewing" }
+          {
+            "act": 1,
+            "name": "Warriors' Dreams Like Spring Grass Renewing"
+          }
         ]
       }
     ],
@@ -71,6 +103,85 @@
   },
   "newArtifacts": [],
   "newEnnemies": [],
-  "newDomains": ["Narukami Island: Tenshukaku", "Palace in a Pool"],
-  "newLimitedTimeArea": []
+  "newDomains": [
+    "Narukami Island: Tenshukaku",
+    "Palace in a Pool"
+  ],
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Teyvat Fishing Guide: Series I",
+      "achievements": [
+        "\"Do you need a fishtank to go with that?\"",
+        "\"Call Me Ishmael.\"",
+        "A Right Proper Angler",
+        "Amateurs Hammer Nails Into Hooks",
+        "Ding Ding Ding! (Tier 1)",
+        "Ding Ding Ding! (Tier 2)",
+        "Ding Ding Ding! (Tier 3)",
+        "Fishy Motive",
+        "Into the Waters",
+        "Intermission",
+        "Stabilizer",
+        "Yon Mirror'd Moon, Broken"
+      ]
+    },
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "\"Oh, so That's How You Fish...\"",
+        "\"I am a cat named Neko.\"",
+        "\"That's What They Call a Getaway!\"",
+        "A Distant Sea Shepherd's Treasure",
+        "A Cat's Gift",
+        "A Mermaid's Tale",
+        "As You Wish",
+        "Bio-Oceanic Weapon",
+        "Cat in the Clouds",
+        "Davy Jones' Locker",
+        "Dry Clean",
+        "Duel Before the Throne",
+        "Fantabulous Firework Fiesta",
+        "Great Amakumo Peak",
+        "Her and Her Cat",
+        "Icy Rivers, Crimson Witch",
+        "It Has to Be Treasure",
+        "Love and Non-Communication",
+        "Long John Silver",
+        "On the Other Side of Homesickness",
+        "Omnipresence Over Mortals",
+        "Palace in a Pool",
+        "Sea of Puzzles",
+        "Tales of Monstrous Madness",
+        "SWORDFISH II",
+        "The Stranding of the Beagle",
+        "Thunder Fall",
+        "This and That...",
+        "Though Their Wishes Be Like Morning Dew...",
+        "Their Wishes",
+        "Today, This Seal — Tomorrow, Watatsumi Island!",
+        "Well, At Least It Ended"
+      ]
+    },
+    {
+      "category": "Inazuma: The Islands of Thunder and Eternity - Series II",
+      "achievements": [
+        "Continental Explorer: Land of Surging Thunder (II)",
+        "Lights Will Guide You Home (II)",
+        "Lightning-Riding Treasure Hunter (II) (Tier 1)",
+        "Lightning-Riding Treasure Hunter (II) (Tier 2)",
+        "Lightning-Riding Treasure Hunter (II) (Tier 3)",
+        "Lightning-Riding Adventurer (II) (Tier 1)",
+        "Lightning-Riding Adventurer (II) (Tier 2)",
+        "Lightning-Riding Adventurer (II) (Tier 3)",
+        "Naku Weed Whacker (II) (Tier 1)",
+        "Naku Weed Whacker (II) (Tier 2)",
+        "Naku Weed Whacker (II) (Tier 3)",
+        "Sanctuary Pilgrim: Inazuma Tenryou (II)",
+        "Seirai Stormchasers",
+        "The Same Moonlight",
+        "Thunderbolting Across the Land (II)"
+      ]
+    }
+  ]
 }

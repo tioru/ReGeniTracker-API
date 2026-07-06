@@ -3,7 +3,11 @@
   "name": "King Deshret and the Three Magi",
   "releaseDate": "2022-09-28",
   "endDate": "2022-11-02",
-  "newCharacters": ["Cyno", "Nilou", "Candace"],
+  "newCharacters": [
+    "Cyno",
+    "Nilou",
+    "Candace"
+  ],
   "mapExpansion": [
     {
       "mainRegion": "Great Red Sand",
@@ -21,7 +25,10 @@
       "Wandering Evenstar",
       "Missive Windspear"
     ],
-    "5Star": ["Key of Khaj-Nisut", "Staff of the Scarlet Sands"]
+    "5Star": [
+      "Key of Khaj-Nisut",
+      "Staff of the Scarlet Sands"
+    ]
   },
   "newBosses": [
     "Aeonblight Drake",
@@ -34,7 +41,9 @@
       "Twirling Lotus",
       "Secretum Secretorum"
     ],
-    "weapons": ["Epitome Invocation"]
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Of Ballad and Brews",
@@ -51,8 +60,14 @@
         "chapter": "3",
         "chapterName": "Chapter III",
         "acts": [
-          { "act": 3, "name": "Dreams, Emptiness, Deception" },
-          { "act": 4, "name": "King Deshret and the Three Magi" }
+          {
+            "act": 3,
+            "name": "Dreams, Emptiness, Deception"
+          },
+          {
+            "act": 4,
+            "name": "King Deshret and the Three Magi"
+          }
         ]
       }
     ],
@@ -60,12 +75,22 @@
       {
         "chapter": "Lupus Aureus Chapter",
         "character": "Cyno",
-        "acts": [{ "act": 1, "name": "Sands of Solitude" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Sands of Solitude"
+          }
+        ]
       },
       {
         "chapter": "Lotos Somno Chapter",
         "character": "Nilou",
-        "acts": [{ "act": 1, "name": "To the Wise" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "To the Wise"
+          }
+        ]
       }
     ],
     "worldQuests": [
@@ -99,5 +124,94 @@
     "Red Desert Threshold",
     "Altar of Mirages"
   ],
-  "newLimitedTimeArea": []
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Elemental Specialist: Series II",
+      "achievements": [
+        "Active Camouflage",
+        "Grassy Blasty, Sparks 'n' Splash (Tier 1)",
+        "Grassy Blasty, Sparks 'n' Splash (Tier 2)",
+        "Grassy Blasty, Sparks 'n' Splash (Tier 3)",
+        "Hyperblooming Circus (Tier 1)",
+        "Hyperblooming Circus (Tier 2)",
+        "Hyperblooming Circus (Tier 3)"
+      ]
+    },
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "A Well-Trained Archaeologist",
+        "Before My Time",
+        "Beyond the Shadow of Time",
+        "Close Encounters of the Which Kind?",
+        "Create, Swap, Store, and Use",
+        "Desert Raider",
+        "Doctor's Handwriting",
+        "Don't Blame the Mora!",
+        "Drifting in the Wind",
+        "Dreams, Emptiness, Deception",
+        "Establishing a Beachhead",
+        "Engraved",
+        "Encore!",
+        "Exploration in the Desert",
+        "Fata Morgana",
+        "How Do You Write The Excavation Report?",
+        "King Deshret and the Three Magi",
+        "Nanomachines, Son!",
+        "One Flew Over the Sick Men's Rest",
+        "One Step Too Far",
+        "Reclining on Top of the World",
+        "Scarlet Reign's Great Red Sand",
+        "The Amazing Pyramid",
+        "Stop It, Mr. Robot!",
+        "The Breakthrough",
+        "The End of the Corridor",
+        "The Invisible Hand",
+        "The Illusory City",
+        "The God Gazes Back",
+        "The King of Four Lands",
+        "The Soul Transposed",
+        "The Straight Path",
+        "The Path To Enlightenment",
+        "Thinking Like a Vahumana Scholar",
+        "Triumph of the Imagination",
+        "Walk Like King Deshret's People",
+        "What Does This Button Do?",
+        "What's the Password?",
+        "When the Dark Sun Passes"
+      ]
+    },
+    {
+      "category": "Sumeru: The Gilded Desert - Series I",
+      "achievements": [
+        "Continental Explorer: Dune Dreams (I)",
+        "Over Sandstorms and Mirages (I)",
+        "Quicksand Treasure Hunter (I) (Tier 1)",
+        "Quicksand Treasure Hunter (I) (Tier 2)",
+        "Quicksand Treasure Hunter (I) (Tier 3)",
+        "Quicksand Adventurer (I) (Tier 1)",
+        "Quicksand Adventurer (I) (Tier 2)",
+        "Quicksand Adventurer (I) (Tier 3)",
+        "Sanctuary Pilgrim: Dune Dreams (I)",
+        "Slumber, the Brother Of...",
+        "The Desert Will Guide You Home (I) (Tier 1)",
+        "The Desert Will Guide You Home (I) (Tier 2)",
+        "The Desert Will Guide You Home (I) (Tier 3)"
+      ]
+    },
+    {
+      "category": "Challenger: Series VI",
+      "achievements": [
+        "Daisy, Daisy",
+        "Dragonslayer",
+        "I Can't Take It Anymore!",
+        "Resistance is Futile!",
+        "System Shock",
+        "The Mad Flower at the End of the Road",
+        "The Smell of Grilled Mushrooms in the Morning",
+        "Victory is a Mindset"
+      ]
+    }
+  ]
 }

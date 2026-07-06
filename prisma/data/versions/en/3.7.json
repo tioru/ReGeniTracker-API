@@ -3,10 +3,14 @@
   "name": "Duel! The Summoners' Summit!",
   "releaseDate": "2023-05-24",
   "endDate": "2023-07-05",
-  "newCharacters": ["Kirara"],
+  "newCharacters": [
+    "Kirara"
+  ],
   "mapExpansion": [],
   "newWeapons": {
-    "4Star": ["Ibis Piercer"]
+    "4Star": [
+      "Ibis Piercer"
+    ]
   },
   "newBosses": [],
   "banners": {
@@ -16,7 +20,9 @@
       "Leaves in the Wind",
       "Caution in Confidence"
     ],
-    "weapons": ["Epitome Invocation"]
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Duel! The Summoners' Summit!",
@@ -31,14 +37,26 @@
       {
         "chapter": "Carassius Auratus Chapter",
         "character": "Yoimiya",
-        "acts": [{ "act": 2, "name": "Star-Pickers' Passage" }]
+        "acts": [
+          {
+            "act": 2,
+            "name": "Star-Pickers' Passage"
+          }
+        ]
       }
     ],
-    "worldQuests": ["A Guest From Liyue"],
+    "worldQuests": [
+      "A Guest From Liyue"
+    ],
     "hangoutQuests": [
       {
         "character": "Kaveh",
-        "acts": [{ "act": 1, "name": "The Pendulum of Weal and Woe" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Pendulum of Weal and Woe"
+          }
+        ]
       }
     ],
     "limitedTimeWorldQuests": []
@@ -46,5 +64,15 @@
   "newArtifacts": [],
   "newEnnemies": [],
   "newDomains": [],
-  "newLimitedTimeArea": []
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Memories of the Heart",
+      "achievements": [
+        "Art and Life",
+        "An Architect's Romanticism",
+        "School Days"
+      ]
+    }
+  ]
 }

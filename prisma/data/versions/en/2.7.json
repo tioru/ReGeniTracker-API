@@ -3,11 +3,18 @@
   "name": "Hidden Dreams in the Depths",
   "releaseDate": "2022-05-31",
   "endDate": "2022-07-13",
-  "newCharacters": ["Yelan", "Kuki Shinobu"],
+  "newCharacters": [
+    "Yelan",
+    "Kuki Shinobu"
+  ],
   "mapExpansion": [],
   "newWeapons": {
-    "4Star": ["Fading Twilight"],
-    "5Star": ["Aqua Simulacra"]
+    "4Star": [
+      "Fading Twilight"
+    ],
+    "5Star": [
+      "Aqua Simulacra"
+    ]
   },
   "newBosses": [],
   "banners": {
@@ -16,7 +23,9 @@
       "Invitation to Mundane",
       "Oni's Royale"
     ],
-    "weapons": ["Epitome Invocation"]
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Perilous Trail",
@@ -29,14 +38,24 @@
       {
         "chapter": "",
         "chapterName": "Interlude Chapter",
-        "acts": [{ "act": 2, "name": "Perilous Trail" }]
+        "acts": [
+          {
+            "act": 2,
+            "name": "Perilous Trail"
+          }
+        ]
       }
     ],
     "storyQuests": [
       {
         "chapter": "Umbrabilis Orchis Chapter",
         "character": "Yelan",
-        "acts": [{ "act": 1, "name": "Calculated Gambit" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Calculated Gambit"
+          }
+        ]
       }
     ],
     "worldQuests": [
@@ -47,7 +66,12 @@
     "hangoutQuests": [
       {
         "character": "Kuki Shinobu",
-        "acts": [{ "act": 1, "name": "The Gang's Daily Deeds" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Gang's Daily Deeds"
+          }
+        ]
       }
     ],
     "limitedTimeWorldQuests": []
@@ -55,5 +79,23 @@
   "newArtifacts": [],
   "newEnnemies": [],
   "newDomains": [],
-  "newLimitedTimeArea": []
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Memories of the Heart",
+      "achievements": [
+        "\"Upstairs...\"",
+        "Arataki Gang Chief Advisor",
+        "One More Look!"
+      ]
+    },
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "Layers of Fear",
+        "No Way Home",
+        "Of Heart and Soul"
+      ]
+    }
+  ]
 }

@@ -3,7 +3,10 @@
   "name": "The Exquisite Night Chimes",
   "releaseDate": "2023-01-18",
   "endDate": "2023-03-01",
-  "newCharacters": ["Alhaitham", "Yaoyao"],
+  "newCharacters": [
+    "Alhaitham",
+    "Yaoyao"
+  ],
   "mapExpansion": [
     {
       "mainRegion": "Desert of Hadramaveth",
@@ -23,9 +26,13 @@
     }
   ],
   "newWeapons": {
-    "5Star": ["Light of Foliar Incision"]
+    "5Star": [
+      "Light of Foliar Incision"
+    ]
   },
-  "newBosses": ["Setekh Wenut"],
+  "newBosses": [
+    "Setekh Wenut"
+  ],
   "banners": {
     "characters": [
       "Caution in Confidence",
@@ -33,7 +40,9 @@
       "Moment of Bloom",
       "Discerner of Enigmas"
     ],
-    "weapons": ["Epitome Invocation"]
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "The Exquisite Night Chimes",
@@ -48,14 +57,24 @@
       {
         "chapter": "",
         "chapterName": "Interlude Chapter",
-        "acts": [{ "act": 2, "name": "Inversion of Genesis" }]
+        "acts": [
+          {
+            "act": 2,
+            "name": "Inversion of Genesis"
+          }
+        ]
       }
     ],
     "storyQuests": [
       {
         "chapter": "Vultur Volans Chapter",
         "character": "Alhaitham",
-        "acts": [{ "act": 1, "name": "The Illusions of the Mob" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Illusions of the Mob"
+          }
+        ]
       }
     ],
     "worldQuests": [
@@ -78,6 +97,56 @@
     "Eremite Scorching Loremaster",
     "Eremite Floral Ring-Dancer"
   ],
-  "newDomains": ["Fane of Panjvahe", "City of the Deceased"],
-  "newLimitedTimeArea": []
+  "newDomains": [
+    "Fane of Panjvahe",
+    "City of the Deceased"
+  ],
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "\"...Shew the Kingdoms Thy Shame.\"",
+        "\"...For She Shall Surely Requite.\"",
+        "\"It's Only an Eternity of Servitude!\"",
+        "\"I Hate 'Em Myself!\"",
+        "\"If They Had Known the Unseen...\"",
+        "\"Isn't Life Wondrous?\"",
+        "A Very Long Engagement",
+        "Didn't Even Need a Manual...",
+        "Flat Out",
+        "From Soil You Are, and to the Sand You Shall Return...",
+        "Genesis of the Rift",
+        "He Who Controls the Spice...",
+        "Hunter's Mercy",
+        "In Her Full Glory...",
+        "La Luna Rossa",
+        "On a Magic Carpet Ride",
+        "Parvezravan Khwarrah",
+        "The Ancient Orchard and Spring",
+        "The Loveless Tarantula",
+        "The Silent, Dreamless Paradise",
+        "The Perfect Sandstorm",
+        "The Nameless City's Past"
+      ]
+    },
+    {
+      "category": "Sumeru: The Gilded Desert - Series II",
+      "achievements": [
+        "Continental Explorer: Dune Dreams (II)",
+        "Over Sandstorms and Mirages (II)",
+        "Quicksand Treasure Hunter (II) (Tier 1)",
+        "Quicksand Treasure Hunter (II) (Tier 2)",
+        "Quicksand Adventurer (II) (Tier 1)",
+        "Quicksand Adventurer (II) (Tier 2)",
+        "Quicksand Adventurer (II) (Tier 3)",
+        "Quicksand Treasure Hunter (II) (Tier 3)",
+        "Sanctuary Pilgrim: Dune Dreams (II)",
+        "The Dirge of Bilqis",
+        "The Desert Will Guide You Home (II) (Tier 1)",
+        "The Desert Will Guide You Home (II) (Tier 3)",
+        "The Desert Will Guide You Home (II) (Tier 2)"
+      ]
+    }
+  ]
 }

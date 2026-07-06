@@ -3,21 +3,41 @@
   "name": "Floating World Under the Moonlight",
   "releaseDate": "2021-10-13",
   "endDate": "2021-11-24",
-  "newCharacters": ["Thoma", "Aloy"],
+  "newCharacters": [
+    "Thoma",
+    "Aloy"
+  ],
   "mapExpansion": [
     {
       "mainRegion": "Inazuma",
-      "subRegion": ["Tsurumi Island"]
+      "subRegion": [
+        "Tsurumi Island"
+      ]
     }
   ],
   "newWeapons": {
-    "4Star": ["Wavebreaker's Fin", "Akuoumaru", "Mouun's Moon"],
-    "5Star": ["Polar Star"]
+    "4Star": [
+      "Wavebreaker's Fin",
+      "Akuoumaru",
+      "Mouun's Moon"
+    ],
+    "5Star": [
+      "Polar Star"
+    ]
   },
-  "newBosses": ["La Signora", "Hydro Hypostasis", "Thunder Manifestation"],
+  "newBosses": [
+    "La Signora",
+    "Hydro Hypostasis",
+    "Thunder Manifestation"
+  ],
   "banners": {
-    "characters": ["Farewell of Snezhnaya", "Moment of Bloom"],
-    "weapons": ["Epitome Invocation"]
+    "characters": [
+      "Farewell of Snezhnaya",
+      "Moment of Bloom"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Labyrinth Warriors",
@@ -37,11 +57,21 @@
     "hangoutQuests": [
       {
         "character": "Sayu",
-        "acts": [{ "act": 1, "name": "Yoohoo Art: Seichou no Jutsu" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Yoohoo Art: Seichou no Jutsu"
+          }
+        ]
       },
       {
         "character": "Thoma",
-        "acts": [{ "act": 1, "name": "A Housekeeper's Daily Chores" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "A Housekeeper's Daily Chores"
+          }
+        ]
       }
     ],
     "limitedTimeWorldQuests": []
@@ -53,6 +83,58 @@
     "Thundercraven Rifthound Whelp",
     "Thundercraven Rifthound"
   ],
-  "newDomains": ["Moshiri Kara"],
-  "newLimitedTimeArea": []
+  "newDomains": [
+    "Moshiri Kara"
+  ],
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "\"Lovely Sights, Further Than the Eye Can See\"",
+        "\"My Life as an Adventurer\"",
+        "\"P—Paimon ate it...\"",
+        "A Tale of Two Cities",
+        "Across the Misty River",
+        "Editorial Opinion",
+        "Guessing Game",
+        "Is There But One Truth...?",
+        "Light Up the Fog",
+        "Nihil Sub Caligine Novum",
+        "Moshiri Kara",
+        "Seven Letters",
+        "Thunderbird's Lineage",
+        "Traverse the Fog Door",
+        "White's Illusion"
+      ]
+    },
+    {
+      "category": "The Chronicles of the Sea of Fog",
+      "achievements": [
+        "Continental Explorer: Tsurumi Island",
+        "Fog's Edge",
+        "Flashes in the Night",
+        "Foggy Guidance",
+        "Lost Treasure Hunter (Tier 1)",
+        "Lost Treasure Hunter (Tier 2)",
+        "Lost Treasure Hunter (Tier 3)",
+        "Lost Adventurer (Tier 1)",
+        "Lost Adventurer (Tier 2)",
+        "Lost Adventurer (Tier 3)",
+        "Sanctuary Pilgrim: Tsurumi Island",
+        "Thunder Is Forever"
+      ]
+    },
+    {
+      "category": "Memories of the Heart",
+      "achievements": [
+        "Dish Effect: Mobility Decreased",
+        "Everyone's Happy",
+        "From the Sea Never Returning",
+        "Housekeeper Extraordinaire",
+        "Mujina-Class Ninja",
+        "Taller by Half"
+      ]
+    }
+  ]
 }

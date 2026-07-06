@@ -3,11 +3,19 @@
   "name": "The Immovable God and the Eternal Euthymia",
   "releaseDate": "2021-07-21",
   "endDate": "2021-09-01",
-  "newCharacters": ["Kamisato Ayaka", "Yoimiya", "Sayu"],
+  "newCharacters": [
+    "Kamisato Ayaka",
+    "Yoimiya",
+    "Sayu"
+  ],
   "mapExpansion": [
     {
       "mainRegion": "Inazuma",
-      "subRegion": ["Narukami Island", "Kannazuka", "Yashiori Island"]
+      "subRegion": [
+        "Narukami Island",
+        "Kannazuka",
+        "Yashiori Island"
+      ]
     }
   ],
   "newWeapons": {
@@ -18,12 +26,23 @@
       "Katsuragikiri Nagamasa",
       "Hakushin Ring"
     ],
-    "5Star": ["Thundering Pulse", "Mistsplitter Reforged"]
+    "5Star": [
+      "Thundering Pulse",
+      "Mistsplitter Reforged"
+    ]
   },
-  "newBosses": ["Pyro Hypostasis", "Perpetual Mechanical Array"],
+  "newBosses": [
+    "Pyro Hypostasis",
+    "Perpetual Mechanical Array"
+  ],
   "banners": {
-    "characters": ["The Heron's Court", "Tapestry of Golden Flames"],
-    "weapons": ["Epitome Invocation"]
+    "characters": [
+      "The Heron's Court",
+      "Tapestry of Golden Flames"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Thunder Sojourn",
@@ -38,8 +57,14 @@
         "chapter": "2",
         "chapterName": "Chapter II",
         "acts": [
-          { "act": 1, "name": "The Immovable God and the Eternal Euthymia" },
-          { "act": 2, "name": "Stillness, the Sublimation of Shadow" }
+          {
+            "act": 1,
+            "name": "The Immovable God and the Eternal Euthymia"
+          },
+          {
+            "act": 2,
+            "name": "Stillness, the Sublimation of Shadow"
+          }
         ]
       }
     ],
@@ -48,13 +73,21 @@
         "chapter": "Grus Nivis Chapter",
         "character": "Kamisato Ayaka",
         "acts": [
-          { "act": 1, "name": "The Whispers of the Crane and the White Rabbit" }
+          {
+            "act": 1,
+            "name": "The Whispers of the Crane and the White Rabbit"
+          }
         ]
       },
       {
         "chapter": "Carassius Auratus Chapter",
         "character": "Yoimiya",
-        "acts": [{ "act": 1, "name": "Dreamlike Timelessness" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Dreamlike Timelessness"
+          }
+        ]
       }
     ],
     "worldQuests": [
@@ -112,5 +145,145 @@
     "Shakkei Pavilion",
     "Formation Estate"
   ],
-  "newLimitedTimeArea": []
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "\"Kujirai Art, Temari Jutsu\"",
+        "\"Sorry for the Trouble!\"",
+        "A Hollow Soul",
+        "...And I Would Walk 3,000 More",
+        "A Doctor's Odyssey",
+        "A Question of Diet",
+        "Blade of Tatara",
+        "Burned Yourself, Did You?",
+        "Boom Shaka-Laka, More Boom-Shaka-Laka",
+        "Core Breakthrough",
+        "Could All Uninvolved Machinery Please Leave Immediately?",
+        "Fine, I'll Do It Myself",
+        "Fight Fire With Fire",
+        "Hidden in Plain Sight",
+        "Hello...! Anyone in here...?",
+        "Guess Who?",
+        "Hiiragi Sanjuuro",
+        "Illustrious in Inazuma",
+        "If I Run Fast Enough...",
+        "I Hear Thunder...",
+        "Iwakura Out",
+        "Jackpot",
+        "In This Solemn Matter Let No One Interfere!",
+        "Jailhouse Fiesta",
+        "Just My Luck...",
+        "Knock Knock",
+        "Kannazuka Battle Plan",
+        "Liyue Ichiban",
+        "Meal For Two",
+        "Oh, the Humanity!",
+        "Omamori, Justice, Number One",
+        "Oowazamono",
+        "Paimon's Lucky Day!",
+        "Rise and Shrine",
+        "Rest in Peace",
+        "Ride the Lightning",
+        "Samurice",
+        "Samurai Gourmet",
+        "Revolutionary Outlander",
+        "Second Blooming",
+        "Shocking... Positively Shocking",
+        "Smells like Animal Spirit!",
+        "Temari for Life",
+        "Thank You, Come Again",
+        "Stillness, the Sublimation of Shadow",
+        "The Aspirations of All",
+        "The Immovable God and the Eternal Euthymia",
+        "The Princess Behind the Curtain",
+        "They Shall Not Grow Old",
+        "Through the Storm",
+        "To Brave the Lightning's Glow",
+        "Underground... Overrated?",
+        "Yamada Go's Wooden Mallet",
+        "Who Let the Dogs Out",
+        "You Can't Help Your Feelings",
+        "Why We Fight",
+        "You Should Start A Doushin Dojo"
+      ]
+    },
+    {
+      "category": "Challenger: Series IV",
+      "achievements": [
+        "...Geovishap, Solarvishap, Lunarvishap...",
+        "Did My Hand Fall From My Wrist?",
+        "Geo Elemental Reaction?",
+        "I'll Skip the Spa, Thanks",
+        "It's Quiet... Too Quiet...",
+        "Puppet Show-Off",
+        "The Battle of Narukami Island",
+        "The Finishing Touch",
+        "Totaled Totem"
+      ]
+    },
+    {
+      "category": "Meetings in Outrealm: Series II",
+      "achievements": [
+        "A Delusion's Abilities Don't Decide a Battle's Outcome",
+        "Blast from the Past",
+        "Moving Mountains",
+        "No Strings Attached, Anymore",
+        "Operation Bonfire",
+        "Put on Ice",
+        "The Not-So-Perpetual Mechanical Array"
+      ]
+    },
+    {
+      "category": "Inazuma: The Islands of Thunder and Eternity - Series I",
+      "achievements": [
+        "Continental Explorer: Land of Surging Thunder (I)",
+        "Divine Roots",
+        "Eternal Thunder",
+        "Echo of Fury",
+        "Lightning-Riding Adventurer (I) (Tier 1)",
+        "Lightning-Riding Adventurer (I) (Tier 2)",
+        "Lightning-Riding Adventurer (I) (Tier 3)",
+        "Lights Will Guide You Home (I) (Tier 1)",
+        "Lights Will Guide You Home (I) (Tier 2)",
+        "Lights Will Guide You Home (I) (Tier 3)",
+        "Lightning-Riding Treasure Hunter (I) (Tier 1)",
+        "Lightning-Riding Treasure Hunter (I) (Tier 2)",
+        "Lightning-Riding Treasure Hunter (I) (Tier 3)",
+        "Naku Weed Whacker (I) (Tier 1)",
+        "Naku Weed Whacker (I) (Tier 2)",
+        "Naku Weed Whacker (I) (Tier 3)",
+        "Sanctuary Pilgrim: Inazuma Tenryou (I)",
+        "Spring Cleaning",
+        "Tatara Tales",
+        "Thunderbolting Across the Land (I)"
+      ]
+    },
+    {
+      "category": "Mortal Travails: Series II",
+      "achievements": [
+        "Eternal Youth",
+        "Hilichurlian Studies Expert",
+        "Land of Dandelions",
+        "True Friendship Takes Sacrifice",
+        "Unlimited Power!"
+      ]
+    },
+    {
+      "category": "A Realm Beyond: Series III",
+      "achievements": [
+        "Just Like a Game of Chess",
+        "My Blooming Abode (Tier 1)",
+        "My Blooming Abode (Tier 2)",
+        "My Blooming Abode (Tier 3)",
+        "Stop! Gather Time. (Tier 1)",
+        "Stop! Gather Time. (Tier 2)",
+        "Stop! Gather Time. (Tier 3)",
+        "We're Going to Need More Crops! (Tier 1)",
+        "We're Going to Need More Crops! (Tier 2)",
+        "We're Going to Need More Crops! (Tier 3)"
+      ]
+    }
+  ]
 }

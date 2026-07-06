@@ -3,11 +3,20 @@
   "name": "All That Glitters",
   "releaseDate": "2021-02-03",
   "endDate": "2021-03-17",
-  "newCharacters": ["Xiao", "Hu Tao"],
+  "newCharacters": [
+    "Xiao",
+    "Hu Tao"
+  ],
   "mapExpansion": [],
   "newWeapons": {
-    "4Star": ["Lithic Spear", "Lithic Blade"],
-    "5Star": ["Primordial Jade Cutter", "Staff of Homa"]
+    "4Star": [
+      "Lithic Spear",
+      "Lithic Blade"
+    ],
+    "5Star": [
+      "Primordial Jade Cutter",
+      "Staff of Homa"
+    ]
   },
   "banners": {
     "characters": [
@@ -15,7 +24,9 @@
       "Dance of Lanterns",
       "Moment of Bloom"
     ],
-    "weapons": ["Epitome Invocation"]
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Lantern Rite",
@@ -32,12 +43,22 @@
       {
         "chapter": "Alatus Chapter",
         "character": "Xiao",
-        "acts": [{ "act": 1, "name": "Butterfly's Dream" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Butterfly's Dream"
+          }
+        ]
       },
       {
         "chapter": "Papilio Charontis Chapter",
         "character": "Hu Tao",
-        "acts": [{ "act": 1, "name": "Yet the Butterfly Flutters Away" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Yet the Butterfly Flutters Away"
+          }
+        ]
       }
     ],
     "worldQuests": [
@@ -50,11 +71,37 @@
   "newArtifacts": [],
   "newEnnemies": {
     "common": [],
-    "elite": ["Geovishap"],
+    "elite": [
+      "Geovishap"
+    ],
     "boss": {
-      "normal": ["Primo Geovishap"],
+      "normal": [
+        "Primo Geovishap"
+      ],
       "weekly": []
     }
   },
-  "newDomains": []
+  "newDomains": [],
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "\"...Lizard-Spock\"",
+        "\"...Till Debt Do Us Part\"",
+        "\"Melting... Away...\"",
+        "A House Ill-Founded",
+        "And You Call Yourself One of the Four Winds",
+        "Back With the Wind",
+        "Core Meltdown",
+        "Deflection!",
+        "Gears of Destiny",
+        "Knockout",
+        "None Stand Secure",
+        "Penalty",
+        "Transmutation Nuclide",
+        "Touch and Go",
+        "You Can Have Those Back!"
+      ]
+    }
+  ]
 }

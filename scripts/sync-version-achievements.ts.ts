@@ -56,7 +56,6 @@ async function fetchBatch(cmcontinue?: string): Promise<{
     // Extrait le nom de la page (titre de l'achievement)
     const name = page.title
       .replace(/\s*\(Achievement\)\s*$/i, '') // retire "(Achievement)"
-      .replace(/\s*\(Tier \d+\)\s*$/i, '') // retire "(Tier 1)", "(Tier 2)"
       .trim();
 
     // Extrait la catégorie depuis |category = ...

@@ -3,10 +3,15 @@
   "name": "Summer Fantasia",
   "releaseDate": "2022-07-13",
   "endDate": "2022-08-24",
-  "newCharacters": ["Shikanoin Heizou"],
+  "newCharacters": [
+    "Shikanoin Heizou"
+  ],
   "mapExpansion": [],
   "newWeapons": {
-    "4Star": ["Kagotsurube Isshin", "Prized Isshin Blade"]
+    "4Star": [
+      "Kagotsurube Isshin",
+      "Prized Isshin Blade"
+    ]
   },
   "newBosses": [],
   "banners": {
@@ -15,7 +20,9 @@
       "Sparkling Steps",
       "Tapestry of Golden Flames"
     ],
-    "weapons": ["Epitome Invocation"]
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Summertime Odyssey",
@@ -30,14 +37,26 @@
       {
         "chapter": "Acer Palmatum Chapter",
         "character": "Kaedehara Kazuha",
-        "acts": [{ "act": 1, "name": "A Strange and Friendless Road" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "A Strange and Friendless Road"
+          }
+        ]
       }
     ],
-    "worldQuests": ["Film Notes"],
+    "worldQuests": [
+      "Film Notes"
+    ],
     "hangoutQuests": [
       {
         "character": "Shikanoin Heizou",
-        "acts": [{ "act": 1, "name": "Trap 'Em by Storm" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Trap 'Em by Storm"
+          }
+        ]
       }
     ],
     "limitedTimeWorldQuests": [
@@ -55,5 +74,17 @@
   "newArtifacts": [],
   "newEnnemies": [],
   "newDomains": [],
-  "newLimitedTimeArea": ["Golden Apple Archipelago"]
+  "newLimitedTimeArea": [
+    "Golden Apple Archipelago"
+  ],
+  "newAchievements": [
+    {
+      "category": "Memories of the Heart",
+      "achievements": [
+        "An Ideal Detective Am I",
+        "Sangonomiya Supplications",
+        "You Thought We Were For Real, Eh?"
+      ]
+    }
+  ]
 }

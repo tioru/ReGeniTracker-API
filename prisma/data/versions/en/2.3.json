@@ -3,20 +3,31 @@
   "name": "Shadows Amidst Snowstorms",
   "releaseDate": "2021-11-24",
   "endDate": "2022-01-05",
-  "newCharacters": ["Arataki Itto", "Gorou"],
+  "newCharacters": [
+    "Arataki Itto",
+    "Gorou"
+  ],
   "mapExpansion": [],
   "newWeapons": {
-    "4Star": ["Cinnabar Spindle"],
-    "5Star": ["Redhorn Stonethresher"]
+    "4Star": [
+      "Cinnabar Spindle"
+    ],
+    "5Star": [
+      "Redhorn Stonethresher"
+    ]
   },
-  "newBosses": ["Golden Wolflord"],
+  "newBosses": [
+    "Golden Wolflord"
+  ],
   "banners": {
     "characters": [
       "Secretum Secretorum",
       "Born of Ocean Swell",
       "Oni's Royale"
     ],
-    "weapons": ["Epitome Invocation"]
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Shadows Amidst Snowstorms",
@@ -31,7 +42,12 @@
       {
         "chapter": "Taurus Iracundus Chapter",
         "character": "Arataki Itto",
-        "acts": [{ "act": 1, "name": "Rise Up, Golden Soul" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Rise Up, Golden Soul"
+          }
+        ]
       }
     ],
     "worldQuests": [
@@ -43,18 +59,54 @@
       {
         "character": "Gorou",
         "acts": [
-          { "act": 1, "name": "The Canine General's Special Operations" }
+          {
+            "act": 1,
+            "name": "The Canine General's Special Operations"
+          }
         ]
       },
       {
         "character": "Beidou",
-        "acts": [{ "act": 1, "name": "When the Crux Shines Bright" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "When the Crux Shines Bright"
+          }
+        ]
       }
     ],
     "limitedTimeWorldQuests": []
   },
-  "newArtifacts": ["Husk of Opulent Dreams", "Ocean-Hued Clam"],
+  "newArtifacts": [
+    "Husk of Opulent Dreams",
+    "Ocean-Hued Clam"
+  ],
   "newEnnemies": [],
-  "newDomains": ["Slumbering Court"],
-  "newLimitedTimeArea": []
+  "newDomains": [
+    "Slumbering Court"
+  ],
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "\"Not Flyin' Away This Time!\"",
+        "The Net Closes In",
+        "Zoo Tycoon (Tier 1)",
+        "Zoo Tycoon (Tier 2)",
+        "Zoo Tycoon (Tier 3)"
+      ]
+    },
+    {
+      "category": "Memories of the Heart",
+      "achievements": [
+        "Changing Times",
+        "General of Watatsumi",
+        "Guyun Buyers' Club",
+        "Honorary Crux Member",
+        "To Tell or Not to Tell, That Is the Question",
+        "Wine Unburdens"
+      ]
+    }
+  ]
 }

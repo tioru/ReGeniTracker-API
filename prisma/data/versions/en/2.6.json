@@ -3,7 +3,9 @@
   "name": "Zephyr of the Violet Garden",
   "releaseDate": "2022-03-30",
   "endDate": "2022-05-31",
-  "newCharacters": ["Kamisato Ayato"],
+  "newCharacters": [
+    "Kamisato Ayato"
+  ],
   "mapExpansion": [
     {
       "mainRegion": "The Chasm",
@@ -11,12 +13,22 @@
     }
   ],
   "newWeapons": {
-    "5Star": ["Haran Geppaku Futsu"]
+    "5Star": [
+      "Haran Geppaku Futsu"
+    ]
   },
-  "newBosses": ["Ruin Serpent"],
+  "newBosses": [
+    "Ruin Serpent"
+  ],
   "banners": {
-    "characters": ["Azure Excursion", "Ballad in Goblets", "The Heron's Court"],
-    "weapons": ["Epitome Invocation"]
+    "characters": [
+      "Azure Excursion",
+      "Ballad in Goblets",
+      "The Heron's Court"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Hues of the Violet Garden",
@@ -32,14 +44,24 @@
       {
         "chapter": "2",
         "chapterName": "Chapter II",
-        "acts": [{ "act": 4, "name": "Requiem of the Echoing Depths" }]
+        "acts": [
+          {
+            "act": 4,
+            "name": "Requiem of the Echoing Depths"
+          }
+        ]
       }
     ],
     "storyQuests": [
       {
         "chapter": "Cypressus Custos Chapter",
         "character": "Kamisato Ayato",
-        "acts": [{ "act": 1, "name": "The Firmiana Leaf Falls" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Firmiana Leaf Falls"
+          }
+        ]
       }
     ],
     "worldQuests": [
@@ -62,8 +84,87 @@
     "hangoutQuests": [],
     "limitedTimeWorldQuests": []
   },
-  "newArtifacts": ["Vermillion Hereafter", "Echoes of an Offering"],
-  "newEnnemies": ["Black Serpent Knight: Windcutter", "Floating Hydro Fungus"],
-  "newDomains": ["The Lost Valley"],
-  "newLimitedTimeArea": []
+  "newArtifacts": [
+    "Vermillion Hereafter",
+    "Echoes of an Offering"
+  ],
+  "newEnnemies": [
+    "Black Serpent Knight: Windcutter",
+    "Floating Hydro Fungus"
+  ],
+  "newDomains": [
+    "The Lost Valley"
+  ],
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "\"All We Need Is Some Firewood and Some Vinegar...\"",
+        "\"...Smells Like Asphalt.\"",
+        "Birth Pains of the Dark Fog",
+        "CREDE TENEBRIS",
+        "Ding Ding Ding, We Have a Winner! Again!",
+        "Den of Thieves",
+        "If Not Us, Then Who?",
+        "It's Yesterday Once More (Tier 1)",
+        "It's Yesterday Once More (Tier 2)",
+        "It's Yesterday Once More (Tier 3)",
+        "Jack of No Trades",
+        "Light Up the Dark",
+        "Maintain Safety Distance",
+        "May Glory Go With You",
+        "Of the Human Heart Many Essays Written",
+        "Not for Long-Term Consumption",
+        "People of the Valley of Life",
+        "Overflowing Light",
+        "The Alchemistake",
+        "The Beautiful and Damned",
+        "The Chasm Mining Records",
+        "The Lost Valley",
+        "The Mushroom That Asks Too Much",
+        "The Millelith Shall Never Be Moved",
+        "The Nine-Word Rumor",
+        "The Will to Live and the Depths of Lamentation",
+        "The Tome of Taliesin",
+        "Valor's Afterglow",
+        "When One Gazes Into the Abyss...",
+        "Well Done, Stierlitz!",
+        "Yet the Darkness Did Not Overcome It..."
+      ]
+    },
+    {
+      "category": "Chasmlighter",
+      "achievements": [
+        "\"When the Seal Is Broken...\"",
+        "Arch-Illuminator",
+        "Chasm Conqueror",
+        "Chasm Treasure Hunter (Tier 1)",
+        "Chasm Treasure Hunter (Tier 2)",
+        "Chasm Treasure Hunter (Tier 3)",
+        "Chasm Adventurer (Tier 1)",
+        "Chasm Adventurer (Tier 2)",
+        "Chasm Adventurer (Tier 3)",
+        "Exploration Underway",
+        "Gorge Guide (Tier 1)",
+        "Gorge Guide (Tier 2)",
+        "Gorge Guide (Tier 3)",
+        "Into the Depths",
+        "Perilous Plunge"
+      ]
+    },
+    {
+      "category": "Challenger: Series V",
+      "achievements": [
+        "Death Proof",
+        "Electric Escape",
+        "Moment of Destruction",
+        "Ouroboros",
+        "Salt for My Foes, and Water for Me",
+        "Radio Silence",
+        "Swimming Prohibited",
+        "The Fraught Return"
+      ]
+    }
+  ]
 }

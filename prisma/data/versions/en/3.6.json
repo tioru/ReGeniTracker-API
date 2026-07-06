@@ -3,17 +3,28 @@
   "name": "A Parade of Providence",
   "releaseDate": "2023-04-12",
   "endDate": "2023-05-24",
-  "newCharacters": ["Baizhu", "Kaveh"],
+  "newCharacters": [
+    "Baizhu",
+    "Kaveh"
+  ],
   "mapExpansion": [
     {
       "mainRegion": "Girdle of the Sands",
-      "subRegion": ["Gavireh Lajavard", "Realm of Farakhkert"]
+      "subRegion": [
+        "Gavireh Lajavard",
+        "Realm of Farakhkert"
+      ]
     }
   ],
   "newWeapons": {
-    "5Star": ["Jadefall's Splendor"]
+    "5Star": [
+      "Jadefall's Splendor"
+    ]
   },
-  "newBosses": ["Guardian of Apep's Oasis", "Iniquitous Baptist"],
+  "newBosses": [
+    "Guardian of Apep's Oasis",
+    "Iniquitous Baptist"
+  ],
   "banners": {
     "characters": [
       "The Moongrass' Enlightenment",
@@ -21,7 +32,9 @@
       "Immaculate Pulse",
       "Adrift in the Harbor"
     ],
-    "weapons": ["Epitome Invocation"]
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "A Parade of Providence",
@@ -36,12 +49,22 @@
       {
         "chapter": "Lagenaria Chapter",
         "character": "Baizhu",
-        "acts": [{ "act": 1, "name": "The Heart of Healing" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Heart of Healing"
+          }
+        ]
       },
       {
         "chapter": "Sapientia Oromasdis Chapter",
         "character": "Nahida",
-        "acts": [{ "act": 1, "name": "Homecoming" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Homecoming"
+          }
+        ]
       }
     ],
     "worldQuests": [
@@ -56,12 +79,20 @@
     "hangoutQuests": [
       {
         "character": "Layla",
-        "acts": [{ "act": 1, "name": "Ever Silent Stars" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Ever Silent Stars"
+          }
+        ]
       }
     ],
     "limitedTimeWorldQuests": []
   },
-  "newArtifacts": ["Nymph's Dream", "Vourukasha's Glow"],
+  "newArtifacts": [
+    "Nymph's Dream",
+    "Vourukasha's Glow"
+  ],
   "newEnnemies": [
     "Anemo Hilichurl Rogue",
     "Hydro Hilichurl Rogue",
@@ -74,5 +105,79 @@
     "Purification Spring",
     "The Realm of Beginnings"
   ],
-  "newLimitedTimeArea": []
+  "newLimitedTimeArea": [],
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "\"...Abandon All Hope, Ye Who Enter Here.\"",
+        "\"This Mystery Is Solved!\"",
+        "A Fascinating Journey",
+        "A Rope Over an Abyss",
+        "Behold My Righteous Strike!",
+        "Bifröst",
+        "Beneath the Fog",
+        "Fabricator-General",
+        "Hic Pulso",
+        "Homeward-Bound Spirits",
+        "Like a Morning Sun Coming Out of Gloomy Mountains",
+        "Principia Arithmetica",
+        "Seven Dish Dance",
+        "Soaring in the Skies of Sary-Ozek",
+        "Shining in the Mire",
+        "The Camel, the Lion, and the Child",
+        "The Day of Tirgan",
+        "The Brave Shall Not Falter",
+        "The Sea of Fertility",
+        "The Tree on the Hill",
+        "Trial of Haft-Vádí",
+        "Vyakarana of the Birds",
+        "Use the Force, Sorush",
+        "When You Say Nothing at All",
+        "When the Red Scarf Transforms Into a Bird in Flight...",
+        "Where the Light Touches",
+        "Whose Descendant Are You, and What's Your Name?"
+      ]
+    },
+    {
+      "category": "Challenger: Series VII",
+      "achievements": [
+        "...It's Payback Time",
+        "Back for More",
+        "Despite the Barrier Between Us...",
+        "Like Hopscotch?",
+        "Like the Sun's Passage",
+        "Now That's What You Call the Four Winds!",
+        "Proof by Exhaustion",
+        "Refusal of Thorns"
+      ]
+    },
+    {
+      "category": "Blessed Hamada",
+      "achievements": [
+        "Alkanet Amrita",
+        "Badlands Treasure Hunter (Tier 1)",
+        "Badlands Treasure Hunter (Tier 2)",
+        "Badlands Treasure Hunter (Tier 3)",
+        "Badlands Adventurer (Tier 1)",
+        "Badlands Adventurer (Tier 2)",
+        "Badlands Adventurer (Tier 3)",
+        "Continental Explorer: Blessed Hamada",
+        "Descending Into the Depths of Desolation",
+        "Dune Guide (Tier 1)",
+        "Dune Guide (Tier 2)",
+        "Dune Guide (Tier 3)",
+        "Khvarena of Good and Evil",
+        "Sanctuary Pilgrim: Blessed Hamada"
+      ]
+    },
+    {
+      "category": "Memories of the Heart",
+      "achievements": [
+        "Secret of Seelie and the Star-Lit Sky",
+        "She's Already Tense",
+        "The Name Is Layla"
+      ]
+    }
+  ]
 }

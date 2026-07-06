@@ -3,7 +3,9 @@
   "name": "Invitation of Windblume",
   "releaseDate": "2021-03-17",
   "endDate": "2021-04-28",
-  "newCharacters": ["Rosaria"],
+  "newCharacters": [
+    "Rosaria"
+  ],
   "mapExpansion": [],
   "newWeapons": {
     "4Star": [
@@ -12,12 +14,21 @@
       "Wine and Song",
       "Windblume Ode"
     ],
-    "5Star": ["Elegy for the End"]
+    "5Star": [
+      "Elegy for the End"
+    ]
   },
-  "newBosses": ["Primo Geovishap"],
+  "newBosses": [
+    "Primo Geovishap"
+  ],
   "banners": {
-    "characters": ["Ballad in Goblets", "Farewell of Snezhnaya"],
-    "weapons": ["Epitome Invocation"]
+    "characters": [
+      "Ballad in Goblets",
+      "Farewell of Snezhnaya"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Invitation of Windblume",
@@ -32,7 +43,12 @@
       {
         "chapter": "1",
         "chapterName": "Chapter IV",
-        "acts": [{ "act": 4, "name": "We Will Be Reunited" }]
+        "acts": [
+          {
+            "act": 4,
+            "name": "We Will Be Reunited"
+          }
+        ]
       }
     ],
     "storyQuests": [],
@@ -40,23 +56,76 @@
     "hangoutQuests": [
       {
         "character": "Barbara",
-        "acts": [{ "act": 1, "name": "Wellspring of Healing" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Wellspring of Healing"
+          }
+        ]
       },
       {
         "character": "Bennett",
-        "acts": [{ "act": 1, "name": "Fantastic Voyage" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Fantastic Voyage"
+          }
+        ]
       },
       {
         "character": "Chongyun",
-        "acts": [{ "act": 1, "name": "Signs of Evil" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Signs of Evil"
+          }
+        ]
       },
       {
         "character": "Noelle",
-        "acts": [{ "act": 1, "name": "Chivalric Training" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Chivalric Training"
+          }
+        ]
       }
     ]
   },
   "newArtifacts": [],
-  "newEnnemies": ["Abyss Herald: Wicked Torrents"],
-  "newDomains": []
+  "newEnnemies": [
+    "Abyss Herald: Wicked Torrents"
+  ],
+  "newDomains": [],
+  "newAchievements": [
+    {
+      "category": "Memories of the Heart",
+      "achievements": [
+        "\"...For I Am Duty Bound\"",
+        "A Line That May Be Crossed",
+        "A Maid of Strength and Virtue",
+        "A World Known Only Unto Roses",
+        "Archaic Lord of Lightning and Blitz",
+        "An Idol's Last Line of Defense",
+        "Behold, Mine Evil-Espying Eye!",
+        "Fantastic Voyage: Prologue",
+        "Evil Is Banished",
+        "Mondstadt's Spiciest Surprise",
+        "Red Hot Chili Popsicles",
+        "The Power of Luck"
+      ]
+    },
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "...You could hear Paimon all along, couldn't you?",
+        "Force Field Erosion",
+        "Sneering at the Power of the Gods",
+        "Silence, You Raving Lunatic",
+        "The Bandit, the Lunatic, and the Pitch-Black Enigma",
+        "Where Fate Comes to a Crossroads",
+        "We Will Be Reunited"
+      ]
+    }
+  ]
 }
