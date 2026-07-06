@@ -3,15 +3,31 @@
   "name": "A New Star Approaches",
   "releaseDate": "2020-11-11",
   "endDate": "2020-12-23",
-  "newCharacters": ["Tartaglia", "Diona", "Zhongli", "Xinyan"],
+  "newCharacters": [
+    "Tartaglia",
+    "Diona",
+    "Zhongli",
+    "Xinyan"
+  ],
   "mapExpansion": [],
   "newWeapons": {
-    "4Star": ["Royal Spear"],
-    "5Star": ["Memory of Dust", "Vortex Vanquisher", "The Unforged"]
+    "4Star": [
+      "Royal Spear"
+    ],
+    "5Star": [
+      "Memory of Dust",
+      "Vortex Vanquisher",
+      "The Unforged"
+    ]
   },
   "banners": {
-    "characters": ["Farewell of Snezhnaya", "Gentry of Hermitage"],
-    "weapons": ["Epitome Invocation"]
+    "characters": [
+      "Farewell of Snezhnaya",
+      "Gentry of Hermitage"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Unreconciled Stars",
@@ -24,19 +40,34 @@
       {
         "chapter": "1",
         "chapterName": "Chapter I",
-        "acts": [{ "act": 3, "name": "A New Star Approaches" }]
+        "acts": [
+          {
+            "act": 3,
+            "name": "A New Star Approaches"
+          }
+        ]
       }
     ],
     "storyQuests": [
       {
         "chapter": "Monoceros Caeli Chapter",
         "character": "Tartaglia",
-        "acts": [{ "act": 1, "name": "Mighty Cyclops' Adventure!" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Mighty Cyclops' Adventure!"
+          }
+        ]
       },
       {
         "chapter": "Historia Antiqua Chapter",
         "character": "Zhongli",
-        "acts": [{ "act": 1, "name": "Sal Flore" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Sal Flore"
+          }
+        ]
       }
     ],
     "worldQuests": [
@@ -54,12 +85,60 @@
   },
   "newArtifacts": [],
   "newEnnemies": {
-    "common": ["Unusual Hilichurl"],
+    "common": [
+      "Unusual Hilichurl"
+    ],
     "elite": [],
     "boss": {
       "normal": [],
-      "weekly": ["Childe"]
+      "weekly": [
+        "Childe"
+      ]
     }
   },
-  "newDomains": ["Enter the Golden House"]
+  "newDomains": [
+    "Enter the Golden House"
+  ],
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "\"Take That, You Overblown Mist Flower!\"",
+        "\"That Was Blooming Hot\"",
+        "A New Star Approaches",
+        "Derailed",
+        "Final Farewell",
+        "Friends the World Over",
+        "Hero-in-Training",
+        "Hero-in-Training",
+        "Hero-in-Training",
+        "Icing on the Slime",
+        "I'll Let You Off... This Time",
+        "Legend in Liyue",
+        "Lily Loves Music",
+        "Megastar in Mondstadt",
+        "Outlander Vs. Outlander",
+        "QUEST FAILED",
+        "QUEST CLEAR",
+        "QUEST CLEAR",
+        "QUEST CLEAR",
+        "Sky's the Limit"
+      ]
+    },
+    {
+      "category": "Challenger: Series II",
+      "achievements": [
+        "...Well, That Was Strange",
+        "...Well, That Was Strange",
+        "...Well, That Was Strange",
+        "Dip, Duck, Dive, Dodge, Defeat",
+        "Extreme Gardening",
+        "Gardener Extraordinaire",
+        "Geronimo!",
+        "Hydro Hunter",
+        "Shield Me From the World",
+        "Vicious Circle"
+      ]
+    }
+  ]
 }

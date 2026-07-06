@@ -148,8 +148,13 @@
     ]
   },
   "banners": {
-    "characters": ["Ballad in Goblets", "Sparkling Steps"],
-    "weapons": ["Epitome Invocation"]
+    "characters": [
+      "Ballad in Goblets",
+      "Sparkling Steps"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
   },
   "events": [
     "Fate Foretold",
@@ -165,17 +170,32 @@
         "chapter": "prologue",
         "chapterName": "Prologue",
         "acts": [
-          { "act": 1, "name": "The Outlander Who Caught the Wind" },
-          { "act": 2, "name": "For a Tomorrow Without Tears" },
-          { "act": 3, "name": "Song of the Dragon and Freedom" }
+          {
+            "act": 1,
+            "name": "The Outlander Who Caught the Wind"
+          },
+          {
+            "act": 2,
+            "name": "For a Tomorrow Without Tears"
+          },
+          {
+            "act": 3,
+            "name": "Song of the Dragon and Freedom"
+          }
         ]
       },
       {
         "chapter": "1",
         "chapterName": "Chapter I",
         "acts": [
-          { "act": 1, "name": "Of the Land Amidst Monoliths" },
-          { "act": 2, "name": "Farewell, Archaic Lord" }
+          {
+            "act": 1,
+            "name": "Of the Land Amidst Monoliths"
+          },
+          {
+            "act": 2,
+            "name": "Farewell, Archaic Lord"
+          }
         ]
       }
     ],
@@ -183,59 +203,112 @@
       {
         "chapter": "Pavo Ocellus Chapter",
         "character": "Kaeya",
-        "acts": [{ "act": 1, "name": "Secret Pirate Treasure" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Secret Pirate Treasure"
+          }
+        ]
       },
       {
         "chapter": "Lepus Chapter",
         "character": "Amber",
-        "acts": [{ "act": 1, "name": "Wild, Courage, and Wings" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Wild, Courage, and Wings"
+          }
+        ]
       },
       {
         "chapter": "Trulla Chapter",
         "character": "Xiangling",
-        "acts": [{ "act": 1, "name": "Mondstadt Gastronomy Trip" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Mondstadt Gastronomy Trip"
+          }
+        ]
       },
       {
         "chapter": "Tempus Fugit Chapter",
         "character": "Lisa",
-        "acts": [{ "act": 1, "name": "Troublesome Work" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Troublesome Work"
+          }
+        ]
       },
       {
         "chapter": "Noctua Chapter",
         "character": "Diluc",
-        "acts": [{ "act": 1, "name": "Darknight Hero's Alibi" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Darknight Hero's Alibi"
+          }
+        ]
       },
       {
         "chapter": "Lupus Minor Chapter",
         "character": "Razor",
-        "acts": [{ "act": 1, "name": "The Meaning Of Lupical" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Meaning Of Lupical"
+          }
+        ]
       },
       {
         "chapter": "Fabulae Textile Chapter",
         "character": "Xingqiu",
-        "acts": [{ "act": 1, "name": "Bookworm Swordsman" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Bookworm Swordsman"
+          }
+        ]
       },
       {
         "chapter": "Trifolium Chapter",
         "character": "Klee",
-        "acts": [{ "act": 1, "name": "True Treasure" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "True Treasure"
+          }
+        ]
       },
       {
         "chapter": "Leo Minor Chapter",
         "character": "Jean",
-        "acts": [{ "act": 1, "name": "Master's Day Off" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Master's Day Off"
+          }
+        ]
       },
       {
         "chapter": "Carmen Dei Chapter",
         "character": "Venti",
         "acts": [
-          { "act": 1, "name": "Should You Be Trapped in a Windless Land" }
+          {
+            "act": 1,
+            "name": "Should You Be Trapped in a Windless Land"
+          }
         ]
       },
       {
         "chapter": "Astrolabos Chapter",
         "character": "Mona",
-        "acts": [{ "act": 1, "name": "Beyond This World's Stars" }]
+        "acts": [
+          {
+            "act": 1,
+            "name": "Beyond This World's Stars"
+          }
+        ]
       }
     ],
     "worldQuests": [
@@ -431,14 +504,257 @@
     "Confront Stormterror",
     "Spiral Abyss"
   ],
-  "newAchievements": {
-    "category": "Wonders of the World",
-    "achievements": [
-      "Overlooking View",
-      "The Remains of the Gale",
-      "\"Seeds of Stories, Brought by the Wind...\"",
-      "Unswerving",
-      "..."
-    ]
-  }
+  "newAchievements": [
+    {
+      "category": "Wonders of the World",
+      "achievements": [
+        "\"...Not indicative of final product\"",
+        "\"...Anyone can be a gourmet.\"",
+        "\"If you put your heart into it...\"",
+        "\"That's one big Crystalfly\"",
+        "\"Seeds of Stories, Brought by the Wind...\"",
+        "...Or a New Storm?",
+        "A Nourishing Friendship",
+        "All's Well That Ends Well",
+        "Beloved of the Anemo Archon",
+        "Beginner's Luck",
+        "Cecilia Garden",
+        "Boared to Death",
+        "Bon Appétit",
+        "Crouching Dragon, Hidden Chi",
+        "Dolorous Stroke",
+        "Fantastic Four",
+        "Farewell, Archaic Lord",
+        "Golden Gliding License",
+        "For a Tomorrow Without Tears",
+        "For the Love of Godwin",
+        "Get Your Own Emergency Food!",
+        "Hidden Palace of Guizang Formula",
+        "Hidden Palace of Zhou Formula",
+        "Hilichurl Champion",
+        "Initiating Warp Drive!",
+        "It's the Same As Having Wings",
+        "It's Bigger on the Inside",
+        "In the Name of Favonius",
+        "Interview With a Bygone God",
+        "Juggernaut",
+        "Knights and Their Knotty Issues",
+        "Level Up",
+        "Let the Wind Lead (Wonders of the World)",
+        "Knighthood Excellence",
+        "Love Is All Around",
+        "Making Do",
+        "Marvelous Medicine",
+        "Of the Land Amidst Monoliths",
+        "Nothing to Lose But Time",
+        "Overlooking View",
+        "Outlandish Behavior",
+        "Open to Interpretation",
+        "Quick As Lightning",
+        "Pirates! Argh!",
+        "Poet Vs. Paycheck",
+        "Purveyor of Punishment",
+        "Purveyor of Punishment",
+        "Purveyor of Punishment",
+        "Respecting Cultural Heritage",
+        "Ready Player Zero",
+        "Scholarly Pretensions",
+        "Scourge of the Battlefield",
+        "Shadow Over Luhua Pool",
+        "Song of the Dragon and Freedom",
+        "Silly-Billy Churlish Ghoul",
+        "That Smells Divine",
+        "Taking Responsibility for Your Actions",
+        "The Best Sword in the Cemetery",
+        "The Bigger They Are...",
+        "The End of the Beginning",
+        "The Long Goodbye",
+        "The Remains of the Gale",
+        "The PRISM Program",
+        "The Outlander Who Caught the Wind",
+        "Through Pass",
+        "Ticked, Tacked, and Towed",
+        "This Novel Is Amazing!",
+        "Trees Should Blend Their Roots and Shade, for That Is Where the Home Is Made",
+        "Unswerving",
+        "Winds Change Their Course"
+      ]
+    },
+    {
+      "category": "Olah!: Series I",
+      "achievements": [
+        "...Odomu?",
+        "Yo dala?"
+      ]
+    },
+    {
+      "category": "Meetings in Outrealm: Series I",
+      "achievements": [
+        "...And Still Smiling!",
+        "A Fish Called Rhodeia",
+        "I Came, I Saw, I Conquered",
+        "I Came, I Saw, I Conquered",
+        "I Came, I Saw, I Conquered",
+        "Just Me and You, the Sky So Blue, and Almost Getting Killed by a Cryo Regisvine",
+        "That's One Big Crystalfly",
+        "This Is Fine",
+        "You Have to Hit the Pillars",
+        "Wolf Pact",
+        "You Came, You Saw, We Co-Oped",
+        "You Came, You Saw, We Co-Oped",
+        "You Came, You Saw, We Co-Oped"
+      ]
+    },
+    {
+      "category": "Elemental Specialist: Series I",
+      "achievements": [
+        "A Little Less Shocking Than Love at First Sight",
+        "A Little Less Shocking Than Love at First Sight",
+        "A Little Less Shocking Than Love at First Sight",
+        "Cool It!",
+        "Cool It!",
+        "Cool It!",
+        "Go With the Wind!",
+        "Go With the Wind!",
+        "Go With the Wind!",
+        "Melt You Down Like Ice Cream",
+        "Melt You Down Like Ice Cream",
+        "Melt You Down Like Ice Cream",
+        "Performance May Decline in Low Temperatures",
+        "Performance May Decline in Low Temperatures",
+        "Performance May Decline in Low Temperatures",
+        "Season's Greetings",
+        "Season's Greetings",
+        "Season's Greetings",
+        "The Art of War",
+        "The Art of War",
+        "The Art of War"
+      ]
+    },
+    {
+      "category": "Domains and Spiral Abyss: Series I",
+      "achievements": [
+        "Abyssal Crusader",
+        "Down to Dodge",
+        "Down to Dodge",
+        "Down We Go",
+        "Down We Go",
+        "Down We Go",
+        "Down to Dodge",
+        "My Precious"
+      ]
+    },
+    {
+      "category": "Challenger: Series I",
+      "achievements": [
+        "Are Plasma Globes Still in Fashion?",
+        "Blazing Dadaupa",
+        "Full Metal What Now?",
+        "Rhythm Tengoku"
+      ]
+    },
+    {
+      "category": "Mondstadt: The City of Wind and Song",
+      "achievements": [
+        "Brush of a Thousand Winds",
+        "Continental Explorer: Mondstadt",
+        "Guiding Wind",
+        "Guiding Wind",
+        "Guiding Wind",
+        "Let the Wind Lead (Mondstadt: The City of Wind and Song)",
+        "Sanctuary Pilgrim: Mondstadt",
+        "Wind-Chasing Treasure Hunter",
+        "Wind-Chasing Treasure Hunter",
+        "Wind-Chasing Treasure Hunter",
+        "Wind-Chasing Adventurer",
+        "Wind-Chasing Adventurer",
+        "Wind-Chasing Adventurer"
+      ]
+    },
+    {
+      "category": "The Hero's Journey",
+      "achievements": [
+        "Bounty of the Earth",
+        "Bounty of the Earth",
+        "Bounty of the Earth",
+        "Echoing Song",
+        "Hero's Gift",
+        "Hitherto Unknown",
+        "Hitherto Unknown",
+        "Hitherto Unknown",
+        "Legendary Treasure",
+        "Onward and Upward",
+        "Onward and Upward",
+        "Onward and Upward",
+        "Sacred Canto",
+        "Re-Armed, Re-Forged",
+        "Re-Armed, Re-Forged",
+        "Re-Armed, Re-Forged"
+      ]
+    },
+    {
+      "category": "Liyue: The Harbor of Stone and Contracts",
+      "achievements": [
+        "Continental Explorer: Liyue",
+        "Lithic Guide",
+        "Lithic Guide",
+        "Lithic Guide",
+        "Rock-Steady Treasure Hunter",
+        "Rock-Steady Treasure Hunter",
+        "Rock-Steady Treasure Hunter",
+        "Rock-Steady Adventurer",
+        "Rock-Steady Adventurer",
+        "Rock-Steady Adventurer",
+        "Sanctuary Pilgrim: Liyue",
+        "Surveyor of Stone",
+        "Unmovable Mountain"
+      ]
+    },
+    {
+      "category": "Marksmanship",
+      "achievements": [
+        "Der Freischütz",
+        "Master Sniper",
+        "Nothing Special, Just Practice"
+      ]
+    },
+    {
+      "category": "Stone Harbor's Nostalgia: Series I",
+      "achievements": [
+        "Geo Archon Anecdotes",
+        "Friends, Travelers, Lend Me Your Ears...",
+        "Once Upon a Time..."
+      ]
+    },
+    {
+      "category": "Mortal Travails: Series I",
+      "achievements": [
+        "Of Mountains High",
+        "Spring, White Horse and Moonlight",
+        "The Divine Halberd Mocks the Heavens",
+        "The Drunkard and the Wolf",
+        "The Voice of Flowing Water",
+        "The Wind and The Star Traveler"
+      ]
+    },
+    {
+      "category": "Snezhnaya Does Not Believe in Tears: Series I",
+      "achievements": [
+        "Perfectionist",
+        "Telling It How It Is"
+      ]
+    },
+    {
+      "category": "The Art of Adventure",
+      "achievements": [
+        "Star Chef",
+        "Star Chef",
+        "Star Chef",
+        "Taking Shape",
+        "Survival Expert",
+        "Survival Expert",
+        "Survival Expert"
+      ]
+    }
+  ]
 }
