@@ -1,42 +1,63 @@
 {
-  "name": "Sparkling Steps",
-  "type": "character",
-  "boostedCharacters": {
-    "featured5Star": "Klee",
-    "featured4Star": ["Xingqiu", "Noelle", "Sucrose"]
+  "name": "Epitome Invocation",
+  "type": "weapon",
+  "releaseDate": "2020-12-23",
+  "endDate": "2021-01-12",
+  "boostedWeapons": {
+    "featured5Star": [
+      "Summit Shaper",
+      "Skyward Atlas"
+    ],
+    "featured4Star": [
+      "Favonius Sword",
+      "Favonius Greatsword",
+      "Favonius Lance",
+      "Sacrificial Fragments",
+      "The Stringless"
+    ]
   },
-  "otherCharacters": {
-    "featured5Star": ["Diluc", "Keqing", "Mona", "Qiqi", "Jean"],
+  "characters": {
     "featured4Star": [
       "Barbara",
       "Beidou",
       "Bennett",
       "Chongyun",
+      "Diona",
       "Fischl",
       "Ningguang",
+      "Noelle",
       "Razor",
-      "Xiangling"
+      "Sucrose",
+      "Xiangling",
+      "Xingqiu",
+      "Xinyan"
     ]
   },
-  "weapons": {
+  "otherWeapons": {
+    "featured5Star": [
+      "Amos' Bow",
+      "Aquila Favonia",
+      "Lost Prayer to the Sacred Winds",
+      "Primordial Jade Winged-Spear",
+      "Skyward Blade",
+      "Skyward Harp",
+      "Skyward Pride",
+      "Skyward Spine",
+      "Wolf's Gravestone"
+    ],
     "featured4Star": [
+      "Rust",
       "Dragon's Bane",
       "Eye of Perception",
       "Favonius Codex",
-      "Favonius Greatsword",
-      "Favonius Lance",
-      "Favonius Sword",
       "Favonius Warbow",
       "Lion's Roar",
       "Rainslasher",
-      "Rust",
       "Sacrificial Bow",
-      "Sacrificial Fragments",
       "Sacrificial Greatsword",
       "Sacrificial Sword",
       "The Bell",
       "The Flute",
-      "The Stringless",
       "The Widsith"
     ],
     "featured3Star": [
@@ -54,7 +75,5 @@
       "Slingshot",
       "Thrilling Tales of Dragon Slayers"
     ]
-  },
-  "releaseDate": "2020-10-20",
-  "endDate": "2020-11-10"
+  }
 }

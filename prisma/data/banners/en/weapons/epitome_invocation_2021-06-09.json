@@ -1,16 +1,19 @@
 {
   "name": "Epitome Invocation",
   "type": "weapon",
-  "releaseDate": "2020-09-28",
-  "endDate": "2020-10-18",
+  "releaseDate": "2021-06-09",
+  "endDate": "2021-06-29",
   "boostedWeapons": {
-    "featured5Star": ["Aquila Favonia", "Amos' Bow"],
+    "featured5Star": [
+      "Skyward Pride",
+      "Lost Prayer to the Sacred Winds"
+    ],
     "featured4Star": [
-      "The Flute",
+      "Mitternachts Waltz",
+      "Lion's Roar",
       "The Bell",
-      "The Widsith",
-      "The Stringless",
-      "Favonius Lance"
+      "Favonius Lance",
+      "The Widsith"
     ]
   },
   "characters": {
@@ -19,23 +22,27 @@
       "Beidou",
       "Bennett",
       "Chongyun",
+      "Diona",
       "Fischl",
       "Ningguang",
       "Noelle",
       "Razor",
+      "Rosaria",
       "Sucrose",
       "Xiangling",
-      "Xingqiu"
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei"
     ]
   },
   "otherWeapons": {
     "featured5Star": [
-      "Lost Prayer to the Sacred Winds",
+      "Amos' Bow",
+      "Aquila Favonia",
       "Primordial Jade Winged-Spear",
       "Skyward Atlas",
       "Skyward Blade",
       "Skyward Harp",
-      "Skyward Pride",
       "Skyward Spine",
       "Wolf's Gravestone"
     ],
@@ -46,13 +53,14 @@
       "Favonius Greatsword",
       "Favonius Sword",
       "Favonius Warbow",
-      "Lion's Roar",
       "Rainslasher",
       "Rust",
       "Sacrificial Bow",
       "Sacrificial Fragments",
       "Sacrificial Greatsword",
-      "Sacrificial Sword"
+      "Sacrificial Sword",
+      "The Flute",
+      "The Stringless"
     ],
     "featured3Star": [
       "Black Tassel",
