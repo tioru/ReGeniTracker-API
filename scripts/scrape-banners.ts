@@ -3,8 +3,17 @@ import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
-const API_URL = 'https://genshin-impact.fandom.com/api.php';
-const OUTPUT_DIR = path.resolve(__dirname, '../prisma/data/banners/en');
+const API_URLS: Record<string, string> = {
+  en: 'https://genshin-impact.fandom.com/api.php',
+  fr: 'https://fr.genshin-impact.fandom.com/api.php',
+  de: 'https://de.genshin-impact.fandom.com/api.php',
+  es: 'https://es.genshin-impact.fandom.com/api.php',
+  zh: 'https://genshin-impact.fandom.com/zh/api.php',
+};
+
+const OUTPUT_DIR = path.resolve(__dirname, '../prisma/data/banners');
+
+// ── Types ─────────────────────────────────────────────────────────────────────
 
 interface CharacterBannerData {
   name: string;
@@ -96,8 +105,14 @@ type BannerData =
   | StandardBannerData
   | NoviceBannerData;
 
-async function fetchPageWikitext(pageTitle: string): Promise<string> {
-  const response = await axios.get(API_URL, {
+// ── API ───────────────────────────────────────────────────────────────────────
+
+function getApiUrl(lang: string): string {
+  return API_URLS[lang] ?? API_URLS['en'];
+}
+
+async function fetchPageWikitext(pageTitle: string, lang: string): Promise<string> {
+  const response = await axios.get(getApiUrl(lang), {
     params: {
       action: 'query',
       titles: pageTitle,
@@ -122,15 +137,13 @@ async function fetchPageWikitext(pageTitle: string): Promise<string> {
   return content;
 }
 
-async function fetchAllOccurrencesViaPrefix(
-  seriesName: string,
-): Promise<string[]> {
+async function fetchAllOccurrencesViaPrefix(seriesName: string, lang: string): Promise<string[]> {
   const prefix = `${seriesName}/`;
   const titles: string[] = [];
   let apcontinue: string | undefined = undefined;
 
   do {
-    const response: any = await axios.get(API_URL, {
+    const response: any = await axios.get(getApiUrl(lang), {
       params: {
         action: 'query',
         list: 'allpages',
@@ -162,12 +175,12 @@ async function fetchAllOccurrencesViaPrefix(
   return titles;
 }
 
-async function fetchAllBannerOccurrencesFromCategory(): Promise<string[]> {
+async function fetchAllBannerOccurrencesFromCategory(lang: string): Promise<string[]> {
   const titles: string[] = [];
   let cmcontinue: string | undefined = undefined;
 
   do {
-    const response: any = await axios.get(API_URL, {
+    const response: any = await axios.get(getApiUrl(lang), {
       params: {
         action: 'query',
         list: 'categorymembers',
@@ -202,6 +215,8 @@ async function fetchAllBannerOccurrencesFromCategory(): Promise<string[]> {
   return [...new Set(titles)];
 }
 
+// ── Parsers ───────────────────────────────────────────────────────────────────
+
 function splitSemicolon(value: string): string[] {
   return value
     .split(';')
@@ -214,10 +229,7 @@ function extractWishParam(wikitext: string, param: string): string {
   return match ? match[1].trim() : '';
 }
 
-function extractDates(wikitext: string): {
-  releaseDate: string;
-  endDate: string;
-} {
+function extractDates(wikitext: string): { releaseDate: string; endDate: string } {
   const startMatch = wikitext.match(/\|time_start\s*=\s*(\d{4}-\d{2}-\d{2})/);
   const endMatch = wikitext.match(/\|time_end\s*=\s*(\d{4}-\d{2}-\d{2})/);
   return {
@@ -237,53 +249,33 @@ function extractBannerName(wikitext: string, pageTitle: string): string {
   return pageTitle.replace(/\/[\d-]+$/, '').replace(/_/g, ' ');
 }
 
-function parseCharacterBanner(
-  wikitext: string,
-  pageTitle: string,
-): CharacterBannerData {
+function parseCharacterBanner(wikitext: string, pageTitle: string): CharacterBannerData {
   const { releaseDate, endDate } = extractDates(wikitext);
   const name = extractBannerName(wikitext, pageTitle);
-
-  const char5F = extractWishParam(wikitext, 'character_5_F');
-  const char4F = extractWishParam(wikitext, 'character_4_F');
-  const char5 = extractWishParam(wikitext, 'character_5');
-  const char4 = extractWishParam(wikitext, 'character_4');
-  const weap4 = extractWishParam(wikitext, 'weapon_4');
-  const weap3 = extractWishParam(wikitext, 'weapon_3');
 
   return {
     name,
     type: 'character',
     boostedCharacters: {
-      featured5Star: char5F,
-      featured4Star: splitSemicolon(char4F),
+      featured5Star: extractWishParam(wikitext, 'character_5_F'),
+      featured4Star: splitSemicolon(extractWishParam(wikitext, 'character_4_F')),
     },
     otherCharacters: {
-      featured5Star: splitSemicolon(char5),
-      featured4Star: splitSemicolon(char4),
+      featured5Star: splitSemicolon(extractWishParam(wikitext, 'character_5')),
+      featured4Star: splitSemicolon(extractWishParam(wikitext, 'character_4')),
     },
     weapons: {
-      featured4Star: splitSemicolon(weap4),
-      featured3Star: splitSemicolon(weap3),
+      featured4Star: splitSemicolon(extractWishParam(wikitext, 'weapon_4')),
+      featured3Star: splitSemicolon(extractWishParam(wikitext, 'weapon_3')),
     },
     releaseDate,
     endDate,
   };
 }
 
-function parseWeaponBanner(
-  wikitext: string,
-  pageTitle: string,
-): WeaponBannerData {
+function parseWeaponBanner(wikitext: string, pageTitle: string): WeaponBannerData {
   const { releaseDate, endDate } = extractDates(wikitext);
   const name = extractBannerName(wikitext, pageTitle);
-
-  const weap5F = extractWishParam(wikitext, 'weapon_5_F');
-  const weap4F = extractWishParam(wikitext, 'weapon_4_F');
-  const weap5 = extractWishParam(wikitext, 'weapon_5');
-  const weap4 = extractWishParam(wikitext, 'weapon_4');
-  const weap3 = extractWishParam(wikitext, 'weapon_3');
-  const char4 = extractWishParam(wikitext, 'character_4');
 
   return {
     name,
@@ -291,16 +283,16 @@ function parseWeaponBanner(
     releaseDate,
     endDate,
     boostedWeapons: {
-      featured5Star: splitSemicolon(weap5F),
-      featured4Star: splitSemicolon(weap4F),
+      featured5Star: splitSemicolon(extractWishParam(wikitext, 'weapon_5_F')),
+      featured4Star: splitSemicolon(extractWishParam(wikitext, 'weapon_4_F')),
     },
     characters: {
-      featured4Star: splitSemicolon(char4),
+      featured4Star: splitSemicolon(extractWishParam(wikitext, 'character_4')),
     },
     otherWeapons: {
-      featured5Star: splitSemicolon(weap5),
-      featured4Star: splitSemicolon(weap4),
-      featured3Star: splitSemicolon(weap3),
+      featured5Star: splitSemicolon(extractWishParam(wikitext, 'weapon_5')),
+      featured4Star: splitSemicolon(extractWishParam(wikitext, 'weapon_4')),
+      featured3Star: splitSemicolon(extractWishParam(wikitext, 'weapon_3')),
     },
   };
 }
@@ -313,96 +305,65 @@ function parseChronicledBanner(
   const { releaseDate, endDate } = extractDates(wikitext);
   const name = extractBannerName(wikitext, pageTitle);
 
-  const char5 = extractWishParam(wikitext, 'character_5');
-  const char4 = extractWishParam(wikitext, 'character_4');
-  const weap5 = extractWishParam(wikitext, 'weapon_5');
-  const weap4 = extractWishParam(wikitext, 'weapon_4');
-  const weap3 = extractWishParam(wikitext, 'weapon_3');
-
   return {
     name,
     type: 'chronicled',
     mechanic,
     characters: {
-      featured5Star: splitSemicolon(char5),
-      featured4Star: splitSemicolon(char4),
+      featured5Star: splitSemicolon(extractWishParam(wikitext, 'character_5')),
+      featured4Star: splitSemicolon(extractWishParam(wikitext, 'character_4')),
     },
     weapons: {
-      featured5Star: splitSemicolon(weap5),
-      featured4Star: splitSemicolon(weap4),
-      featured3Star: splitSemicolon(weap3),
+      featured5Star: splitSemicolon(extractWishParam(wikitext, 'weapon_5')),
+      featured4Star: splitSemicolon(extractWishParam(wikitext, 'weapon_4')),
+      featured3Star: splitSemicolon(extractWishParam(wikitext, 'weapon_3')),
     },
     releaseDate,
     endDate,
   };
 }
 
-function parseStandardBanner(
-  wikitext: string,
-  pageTitle: string,
-): StandardBannerData {
+function parseStandardBanner(wikitext: string, pageTitle: string): StandardBannerData {
   const startMatch = wikitext.match(/\|time_start\s*=\s*(\d{4}-\d{2}-\d{2})/);
-  const releaseDate = startMatch ? startMatch[1] : '';
   const name = extractBannerName(wikitext, pageTitle);
-
-  const char5 = extractWishParam(wikitext, 'character_5');
-  const char4 = extractWishParam(wikitext, 'character_4');
-  const weap5 = extractWishParam(wikitext, 'weapon_5');
-  const weap4 = extractWishParam(wikitext, 'weapon_4');
-  const weap3 = extractWishParam(wikitext, 'weapon_3');
 
   return {
     name,
     type: 'standard',
     characters: {
-      featured5Star: splitSemicolon(char5),
-      featured4Star: splitSemicolon(char4),
+      featured5Star: splitSemicolon(extractWishParam(wikitext, 'character_5')),
+      featured4Star: splitSemicolon(extractWishParam(wikitext, 'character_4')),
     },
     weapons: {
-      featured5Star: splitSemicolon(weap5),
-      featured4Star: splitSemicolon(weap4),
-      featured3Star: splitSemicolon(weap3),
+      featured5Star: splitSemicolon(extractWishParam(wikitext, 'weapon_5')),
+      featured4Star: splitSemicolon(extractWishParam(wikitext, 'weapon_4')),
+      featured3Star: splitSemicolon(extractWishParam(wikitext, 'weapon_3')),
     },
-    releaseDate,
+    releaseDate: startMatch ? startMatch[1] : '',
   };
 }
 
-function parseNoviceBanner(
-  wikitext: string,
-  pageTitle: string,
-): NoviceBannerData {
+function parseNoviceBanner(wikitext: string, pageTitle: string): NoviceBannerData {
   const startMatch = wikitext.match(/\|time_start\s*=\s*(\d{4}-\d{2}-\d{2})/);
-  const releaseDate = startMatch ? startMatch[1] : '';
   const name = extractBannerName(wikitext, pageTitle);
-
-  const char5 = extractWishParam(wikitext, 'character_5');
-  const char4 = extractWishParam(wikitext, 'character_4');
-  const weap3 = extractWishParam(wikitext, 'weapon_3');
 
   return {
     name,
     type: 'novice',
     characters: {
-      featured5Star: splitSemicolon(char5),
-      featured4Star: splitSemicolon(char4),
+      featured5Star: splitSemicolon(extractWishParam(wikitext, 'character_5')),
+      featured4Star: splitSemicolon(extractWishParam(wikitext, 'character_4')),
     },
     weapons: {
-      featured3Star: splitSemicolon(weap3),
+      featured3Star: splitSemicolon(extractWishParam(wikitext, 'weapon_3')),
     },
-    releaseDate,
+    releaseDate: startMatch ? startMatch[1] : '',
   };
 }
 
 function detectBannerType(
   wikitext: string,
-):
-  | 'character'
-  | 'weapon'
-  | 'chronicled'
-  | 'lightrace'
-  | 'standard'
-  | 'novice'
-  | 'unknown' {
+): 'character' | 'weapon' | 'chronicled' | 'lightrace' | 'standard' | 'novice' | 'unknown' {
   const typeMatch = wikitext.match(/\|type\s*=\s*([^\n|]+)/);
   if (!typeMatch) return 'unknown';
   const type = typeMatch[1].trim().toLowerCase();
@@ -415,6 +376,8 @@ function detectBannerType(
   return 'unknown';
 }
 
+// ── Filename ──────────────────────────────────────────────────────────────────
+
 function toFilename(name: string, releaseDate: string): string {
   const slug = name
     .toLowerCase()
@@ -424,24 +387,24 @@ function toFilename(name: string, releaseDate: string): string {
   return `${slug}_${releaseDate}.json`;
 }
 
-async function scrapeBannerOccurrence(
-  pageTitle: string,
-): Promise<BannerData | null> {
-  const wikitext = await fetchPageWikitext(pageTitle);
+// ── Scrape ────────────────────────────────────────────────────────────────────
+
+async function scrapeBannerOccurrence(pageTitle: string, lang: string): Promise<BannerData | null> {
+  const wikitext = await fetchPageWikitext(pageTitle, lang);
   const type = detectBannerType(wikitext);
 
   if (type === 'character') return parseCharacterBanner(wikitext, pageTitle);
   if (type === 'weapon') return parseWeaponBanner(wikitext, pageTitle);
-  if (type === 'chronicled')
-    return parseChronicledBanner(wikitext, pageTitle, 'chronicled');
-  if (type === 'lightrace')
-    return parseChronicledBanner(wikitext, pageTitle, 'lightrace');
+  if (type === 'chronicled') return parseChronicledBanner(wikitext, pageTitle, 'chronicled');
+  if (type === 'lightrace') return parseChronicledBanner(wikitext, pageTitle, 'lightrace');
   if (type === 'standard') return parseStandardBanner(wikitext, pageTitle);
   if (type === 'novice') return parseNoviceBanner(wikitext, pageTitle);
   return null;
 }
 
-function saveBanner(data: BannerData) {
+// ── Save ──────────────────────────────────────────────────────────────────────
+
+function saveBanner(data: BannerData, lang: string) {
   const subdirName =
     data.type === 'character'
       ? 'characters'
@@ -449,9 +412,11 @@ function saveBanner(data: BannerData) {
         ? 'weapons'
         : data.type === 'chronicled'
           ? 'unusual'
-          : 'standard';
+          : data.type === 'novice'
+            ? 'novice'
+            : 'standard';
 
-  const subdir = path.join(OUTPUT_DIR, subdirName);
+  const subdir = path.join(OUTPUT_DIR, lang, subdirName);
   if (!fs.existsSync(subdir)) fs.mkdirSync(subdir, { recursive: true });
 
   const filename =
@@ -463,89 +428,106 @@ function saveBanner(data: BannerData) {
           .replace(/^_|_$/g, '')}.json`
       : toFilename(
           data.name,
-          (
-            data as
-              | CharacterBannerData
-              | WeaponBannerData
-              | ChronicledBannerData
-          ).releaseDate,
+          (data as CharacterBannerData | WeaponBannerData | ChronicledBannerData).releaseDate,
         );
 
   const filePath = path.join(subdir, filename);
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
-  console.log(`  ✅ ${subdirName}/${filename}`);
+  console.log(`  ✅ ${lang}/${subdirName}/${filename}`);
+}
+
+// ── Main ──────────────────────────────────────────────────────────────────────
+
+function printUsage() {
+  console.error('Usage:');
+  console.error(
+    '  Occurrence unique   : npx ts-node ... scrape-banners.ts "Ballad in Goblets/2020-09-28" en',
+  );
+  console.error(
+    '  Toute une série     : npx ts-node ... scrape-banners.ts --all "Ballad_in_Goblets" en',
+  );
+  console.error(
+    '  Toutes les bannières: npx ts-node ... scrape-banners.ts --everything en',
+  );
 }
 
 async function main() {
   const args = process.argv.slice(2);
 
-  if (args.length === 0) {
-    console.error('Usage:');
-    console.error(
-      '  Occurrence unique   : npx ts-node ... scrape-banners.ts "Ballad in Goblets/2020-09-28"',
-    );
-    console.error(
-      '  Toute une série     : npx ts-node ... scrape-banners.ts --all "Ballad_in_Goblets"',
-    );
-    console.error(
-      '  Plusieurs séries    : npx ts-node ... scrape-banners.ts --all "Ballad_in_Goblets" "Epitome_Invocation"',
-    );
+  const lang = args[args.length - 1];
+
+  if (args.length < 2 || !lang || !API_URLS[lang]) {
+    printUsage();
+    console.error(`\nLangues disponibles : ${Object.keys(API_URLS).join(', ')}`);
     process.exit(1);
   }
 
+  // ── --everything ──────────────────────────────────────────────────────────
   if (args[0] === '--everything') {
-    console.log(
-      '\nDiscovering all banner occurrences via Category:Wish_Banners...',
-    );
-    const occurrences = await fetchAllBannerOccurrencesFromCategory();
+    console.log(`\nDiscovering all banner occurrences via Category:Wish_Banners [${lang}]...`);
+    const occurrences = await fetchAllBannerOccurrencesFromCategory(lang);
     console.log(`Found ${occurrences.length} occurrences`);
 
     for (const occurrence of occurrences) {
       try {
         console.log(`  Scraping ${occurrence}...`);
-        const data = await scrapeBannerOccurrence(occurrence);
-        if (data) saveBanner(data);
+        const data = await scrapeBannerOccurrence(occurrence, lang);
+        if (data) saveBanner(data, lang);
         else console.log(`  ⏭️  Skipped (standard or unknown type)`);
       } catch (err: any) {
         console.error(`  ❌ ${occurrence}: ${err.message}`);
       }
       await new Promise((r) => setTimeout(r, 500));
     }
-
     return;
   }
 
-  const fetchAll = args[0] === '--all';
-  const targets = fetchAll ? args.slice(1) : args;
+  // ── --all <série> ─────────────────────────────────────────────────────────
+  if (args[0] === '--all') {
+    // args = ['--all', 'Ballad_in_Goblets', 'en']  → séries = args[1..-2]
+    const series = args.slice(1, -1);
 
-  for (const target of targets) {
-    if (fetchAll) {
-      console.log(`\nFetching all occurrences of ${target}...`);
-      const occurrences = await fetchAllOccurrencesViaPrefix(target);
+    if (series.length === 0) {
+      console.error('Erreur : --all requiert au moins un nom de série.');
+      printUsage();
+      process.exit(1);
+    }
+
+    for (const seriesName of series) {
+      console.log(`\nFetching all occurrences of ${seriesName} [${lang}]...`);
+      const occurrences = await fetchAllOccurrencesViaPrefix(seriesName, lang);
       console.log(`Found ${occurrences.length} occurrences`);
 
       for (const occurrence of occurrences) {
         try {
           console.log(`  Scraping ${occurrence}...`);
-          const data = await scrapeBannerOccurrence(occurrence);
-          if (data) saveBanner(data);
+          const data = await scrapeBannerOccurrence(occurrence, lang);
+          if (data) saveBanner(data, lang);
           else console.log(`  ⏭️  Skipped (standard or unknown type)`);
         } catch (err: any) {
           console.error(`  ❌ ${occurrence}: ${err.message}`);
         }
         await new Promise((r) => setTimeout(r, 500));
       }
-    } else {
-      try {
-        console.log(`Scraping ${target}...`);
-        const data = await scrapeBannerOccurrence(target);
-        if (data) saveBanner(data);
-        else console.log('⏭️  Skipped');
-      } catch (err: any) {
-        console.error(`❌ ${target}: ${err.message}`);
-      }
-    }
 
+      await new Promise((r) => setTimeout(r, 1000));
+    }
+    return;
+  }
+
+  // ── Occurrence(s) unique(s) ───────────────────────────────────────────────
+  // args = ['Ballad in Goblets/2020-09-28', 'en']  → targets = args[0..-2]
+  const targets = args.slice(0, -1);
+
+  for (const target of targets) {
+    try {
+      console.log(`Scraping ${target} [${lang}]...`);
+      const data = await scrapeBannerOccurrence(target, lang);
+      if (data) saveBanner(data, lang);
+      else console.log('⏭️  Skipped');
+    } catch (err: any) {
+      console.error(`❌ ${target}: ${err.message}`);
+    }
     await new Promise((r) => setTimeout(r, 1000));
   }
 }
