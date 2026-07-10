@@ -2,21 +2,33 @@ import axios from 'axios';
 import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import * as cheerio from 'cheerio';
 
 const API_URLS: Record<string, string> = {
   en: 'https://genshin-impact.fandom.com/api.php',
-  fr: 'https://genshin-impact.fandom.com/fr/api.php', // ← doit être comme ça, pas fr.genshin-impact...
+  fr: 'https://genshin-impact.fandom.com/fr/api.php',
   de: 'https://de.genshin-impact.fandom.com/api.php',
   es: 'https://es.genshin-impact.fandom.com/api.php',
   zh: 'https://genshin-impact.fandom.com/zh/api.php',
 };
 
+// Langues dont le pipeline de scraping est réellement implémenté à ce jour.
+// de/es/zh ont encore leurs URLs mais pas de logique de parsing dédiée.
+const IMPLEMENTED_LANGS = new Set(['en', 'fr']);
+
 const OUTPUT_DIR = path.resolve(__dirname, '../prisma/data/banners');
 
 const BANNER_CATEGORY: Record<string, string> = {
   en: 'Category:Wish_Banners',
-  fr: 'Catégorie:Image_Bannière',
-  // de, es, zh à découvrir avec la même méthode (prop=categories sur un fichier bannière connu)
+};
+
+// Le wiki FR sépare les bannières armes et personnages dans deux catégories
+// de fichiers distinctes, avec des conventions de nommage différentes :
+// - Armes      : "Nom Date.png"          → date exploitable directement
+// - Personnages: "Bannière Nom N.png"    → juste un numéro de série, pas de date
+const BANNER_CATEGORIES_FR = {
+  weapon: 'Catégorie:Image_Bannière',
+  character: 'Catégorie:Image Bannière personnage',
 };
 
 function getBannerCategory(lang: string): string {
@@ -115,16 +127,17 @@ type BannerData =
   | StandardBannerData
   | NoviceBannerData;
 
-// ── API ───────────────────────────────────────────────────────────────────────
+// ── HTTP ──────────────────────────────────────────────────────────────────────
 
 function getApiUrl(lang: string): string {
   return API_URLS[lang] ?? API_URLS['en'];
 }
 
-async function fetchPageWikitext(
-  pageTitle: string,
-  lang: string,
-): Promise<string> {
+function createHttpsAgent(): https.Agent {
+  return new https.Agent({ keepAlive: true });
+}
+
+async function fetchPageWikitext(pageTitle: string, lang: string): Promise<string> {
   const response = await axios.get(getApiUrl(lang), {
     params: {
       action: 'query',
@@ -150,13 +163,35 @@ async function fetchPageWikitext(
   return content;
 }
 
-async function fetchAllOccurrencesViaPrefix(
-  seriesName: string,
-  lang: string,
-): Promise<string[]> {
+async function fetchRenderedHtml(pageTitle: string, lang: string): Promise<string> {
+  const response = await axios.get(getApiUrl(lang), {
+    params: {
+      action: 'parse',
+      page: pageTitle,
+      prop: 'text',
+      format: 'json',
+      formatversion: '2',
+    },
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)',
+      Accept: 'application/json',
+    },
+    httpsAgent: createHttpsAgent(),
+  });
+
+  const html = response.data?.parse?.text;
+  if (!html) throw new Error('No rendered HTML found');
+  return html;
+}
+
+// Format de date accepté dans les titres de page : AAAA-MM-JJ (en) ou JJ.MM.AAAA (fr)
+const PAGE_DATE_PATTERN = String.raw`(\d{4}-\d{2}-\d{2}|\d{2}\.\d{2}\.\d{4})`;
+
+async function fetchAllOccurrencesViaPrefix(seriesName: string, lang: string): Promise<string[]> {
   const prefix = `${seriesName}/`;
   const titles: string[] = [];
   let apcontinue: string | undefined = undefined;
+  const dateRegex = new RegExp(`\\/${PAGE_DATE_PATTERN}$`);
 
   do {
     const response: any = await axios.get(getApiUrl(lang), {
@@ -181,7 +216,7 @@ async function fetchAllOccurrencesViaPrefix(
     titles.push(
       ...pages
         .map((p: { title: string }) => p.title)
-        .filter((title: string) => /\/\d{4}-\d{2}-\d{2}$/.test(title)),
+        .filter((title: string) => dateRegex.test(title)),
     );
 
     apcontinue = response.data?.continue?.apcontinue;
@@ -191,9 +226,7 @@ async function fetchAllOccurrencesViaPrefix(
   return titles;
 }
 
-async function fetchAllBannerOccurrencesFromCategory(
-  lang: string,
-): Promise<string[]> {
+async function fetchCategoryFileMembers(categoryTitle: string, lang: string): Promise<string[]> {
   const titles: string[] = [];
   let cmcontinue: string | undefined = undefined;
 
@@ -202,7 +235,7 @@ async function fetchAllBannerOccurrencesFromCategory(
       params: {
         action: 'query',
         list: 'categorymembers',
-        cmtitle: getBannerCategory(lang), // ← remplace le "Category:Wish_Banners" en dur
+        cmtitle: categoryTitle,
         cmnamespace: '6',
         cmlimit: 'max',
         ...(cmcontinue ? { cmcontinue } : {}),
@@ -217,25 +250,68 @@ async function fetchAllBannerOccurrencesFromCategory(
     });
 
     const members = response.data?.query?.categorymembers ?? [];
-
-    for (const member of members) {
-      const match = member.title.match(
-        /^[^:]+:(.+) (\d{4}-\d{2}-\d{2}|\d{2}\.\d{2}\.\d{4})\.png$/,
-      );
-      if (match) {
-        const [, name, date] = match;
-        titles.push(`${name}/${date}`);
-      }
-    }
+    titles.push(...members.map((m: { title: string }) => m.title));
 
     cmcontinue = response.data?.continue?.cmcontinue;
     if (cmcontinue) await new Promise((r) => setTimeout(r, 300));
   } while (cmcontinue);
 
+  return titles;
+}
+
+// Catégorie unique, fichiers "Nom Date.png" → occurrences directes (schéma EN).
+async function fetchAllBannerOccurrencesFromCategory(lang: string): Promise<string[]> {
+  const fileTitles = await fetchCategoryFileMembers(getBannerCategory(lang), lang);
+  const fileRegex = new RegExp(`^[^:]+:(.+) ${PAGE_DATE_PATTERN}\\.png$`);
+  const titles: string[] = [];
+
+  for (const title of fileTitles) {
+    const match = title.match(fileRegex);
+    if (match) {
+      const [, name, date] = match;
+      titles.push(`${name}/${date}`);
+    }
+  }
+
   return [...new Set(titles)];
 }
 
-// ── Parsers ───────────────────────────────────────────────────────────────────
+// Schéma FR : deux catégories, deux stratégies.
+async function fetchAllBannerOccurrencesFr(lang: string): Promise<string[]> {
+  const occurrences: string[] = [];
+
+  // Armes : "Fichier:Nom JJ.MM.AAAA.png" → occurrence directe.
+  const weaponFileTitles = await fetchCategoryFileMembers(BANNER_CATEGORIES_FR.weapon, lang);
+  const weaponFileRegex = new RegExp(`^[^:]+:(.+) ${PAGE_DATE_PATTERN}\\.png$`);
+  for (const title of weaponFileTitles) {
+    const match = title.match(weaponFileRegex);
+    if (match) {
+      const [, name, date] = match;
+      occurrences.push(`${name}/${date}`);
+    }
+  }
+
+  // Personnages : "Fichier:Bannière Nom N.png" → juste le nom de série, pas de
+  // date. On récupère le nom, puis on élargit chaque série via allpages
+  // (fetchAllOccurrencesViaPrefix) pour obtenir ses vraies occurrences datées.
+  const characterFileTitles = await fetchCategoryFileMembers(BANNER_CATEGORIES_FR.character, lang);
+  const characterNameRegex = /^[^:]+:Bannière (.+) \d+\.png$/;
+  const seriesNames = new Set<string>();
+  for (const title of characterFileTitles) {
+    const match = title.match(characterNameRegex);
+    if (match) seriesNames.add(match[1].trim());
+  }
+
+  for (const seriesName of seriesNames) {
+    const seriesOccurrences = await fetchAllOccurrencesViaPrefix(seriesName, lang);
+    occurrences.push(...seriesOccurrences);
+    await new Promise((r) => setTimeout(r, 300));
+  }
+
+  return [...new Set(occurrences)];
+}
+
+// ── Utilitaires communs ─────────────────────────────────────────────────────
 
 function splitSemicolon(value: string): string[] {
   return value
@@ -244,15 +320,32 @@ function splitSemicolon(value: string): string[] {
     .filter(Boolean);
 }
 
+function slugify(name: string): string {
+  return name
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '') // supprime les diacritiques (é→e, à→a, ç→c...)
+    .replace(/œ/gi, 'oe')
+    .replace(/æ/gi, 'ae')
+    .replace(/['']/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '_')
+    .replace(/^_|_$/g, '');
+}
+
+function toFilename(name: string, releaseDate: string): string {
+  return `${slugify(name)}_${releaseDate}.json`;
+}
+
+// ══════════════════════════════════════════════════════════════════════════
+// ── EN — parsing par paramètres wikitext (|type=, |character_5_F=, etc.) ───
+// ══════════════════════════════════════════════════════════════════════════
+
 function extractWishParam(wikitext: string, param: string): string {
   const match = wikitext.match(new RegExp(`\\|\\s*${param}\\s*=\\s*([^\n|]+)`));
   return match ? match[1].trim() : '';
 }
 
-function extractDates(wikitext: string): {
-  releaseDate: string;
-  endDate: string;
-} {
+function extractDatesEn(wikitext: string): { releaseDate: string; endDate: string } {
   const startMatch = wikitext.match(/\|time_start\s*=\s*(\d{4}-\d{2}-\d{2})/);
   const endMatch = wikitext.match(/\|time_end\s*=\s*(\d{4}-\d{2}-\d{2})/);
   return {
@@ -261,7 +354,7 @@ function extractDates(wikitext: string): {
   };
 }
 
-function extractBannerName(wikitext: string, pageTitle: string): string {
+function extractBannerNameEn(wikitext: string, pageTitle: string): string {
   const nameMatch = wikitext.match(/\|name\s*=\s*([^\n|]+)/);
   if (nameMatch) {
     return nameMatch[1]
@@ -269,24 +362,19 @@ function extractBannerName(wikitext: string, pageTitle: string): string {
       .replace(/\s+\d{4}-\d{2}-\d{2}$/, '')
       .trim();
   }
-  return pageTitle.replace(/\/[\d-]+$/, '').replace(/_/g, ' ');
+  return pageTitle.replace(/\/[\d.\-]+$/, '').replace(/_/g, ' ');
 }
 
-function parseCharacterBanner(
-  wikitext: string,
-  pageTitle: string,
-): CharacterBannerData {
-  const { releaseDate, endDate } = extractDates(wikitext);
-  const name = extractBannerName(wikitext, pageTitle);
+function parseCharacterBannerEn(wikitext: string, pageTitle: string): CharacterBannerData {
+  const { releaseDate, endDate } = extractDatesEn(wikitext);
+  const name = extractBannerNameEn(wikitext, pageTitle);
 
   return {
     name,
     type: 'character',
     boostedCharacters: {
       featured5Star: extractWishParam(wikitext, 'character_5_F'),
-      featured4Star: splitSemicolon(
-        extractWishParam(wikitext, 'character_4_F'),
-      ),
+      featured4Star: splitSemicolon(extractWishParam(wikitext, 'character_4_F')),
     },
     otherCharacters: {
       featured5Star: splitSemicolon(extractWishParam(wikitext, 'character_5')),
@@ -301,12 +389,9 @@ function parseCharacterBanner(
   };
 }
 
-function parseWeaponBanner(
-  wikitext: string,
-  pageTitle: string,
-): WeaponBannerData {
-  const { releaseDate, endDate } = extractDates(wikitext);
-  const name = extractBannerName(wikitext, pageTitle);
+function parseWeaponBannerEn(wikitext: string, pageTitle: string): WeaponBannerData {
+  const { releaseDate, endDate } = extractDatesEn(wikitext);
+  const name = extractBannerNameEn(wikitext, pageTitle);
 
   return {
     name,
@@ -328,13 +413,13 @@ function parseWeaponBanner(
   };
 }
 
-function parseChronicledBanner(
+function parseChronicledBannerEn(
   wikitext: string,
   pageTitle: string,
   mechanic: 'chronicled' | 'lightrace',
 ): ChronicledBannerData {
-  const { releaseDate, endDate } = extractDates(wikitext);
-  const name = extractBannerName(wikitext, pageTitle);
+  const { releaseDate, endDate } = extractDatesEn(wikitext);
+  const name = extractBannerNameEn(wikitext, pageTitle);
 
   return {
     name,
@@ -354,12 +439,9 @@ function parseChronicledBanner(
   };
 }
 
-function parseStandardBanner(
-  wikitext: string,
-  pageTitle: string,
-): StandardBannerData {
+function parseStandardBannerEn(wikitext: string, pageTitle: string): StandardBannerData {
   const startMatch = wikitext.match(/\|time_start\s*=\s*(\d{4}-\d{2}-\d{2})/);
-  const name = extractBannerName(wikitext, pageTitle);
+  const name = extractBannerNameEn(wikitext, pageTitle);
 
   return {
     name,
@@ -377,12 +459,9 @@ function parseStandardBanner(
   };
 }
 
-function parseNoviceBanner(
-  wikitext: string,
-  pageTitle: string,
-): NoviceBannerData {
+function parseNoviceBannerEn(wikitext: string, pageTitle: string): NoviceBannerData {
   const startMatch = wikitext.match(/\|time_start\s*=\s*(\d{4}-\d{2}-\d{2})/);
-  const name = extractBannerName(wikitext, pageTitle);
+  const name = extractBannerNameEn(wikitext, pageTitle);
 
   return {
     name,
@@ -398,16 +477,9 @@ function parseNoviceBanner(
   };
 }
 
-function detectBannerType(
+function detectBannerTypeEn(
   wikitext: string,
-):
-  | 'character'
-  | 'weapon'
-  | 'chronicled'
-  | 'lightrace'
-  | 'standard'
-  | 'novice'
-  | 'unknown' {
+): 'character' | 'weapon' | 'chronicled' | 'lightrace' | 'standard' | 'novice' | 'unknown' {
   const typeMatch = wikitext.match(/\|type\s*=\s*([^\n|]+)/);
   if (!typeMatch) return 'unknown';
   const type = typeMatch[1].trim().toLowerCase();
@@ -420,35 +492,214 @@ function detectBannerType(
   return 'unknown';
 }
 
-// ── Filename ──────────────────────────────────────────────────────────────────
+async function scrapeBannerOccurrenceEn(pageTitle: string, lang: string): Promise<BannerData | null> {
+  const wikitext = await fetchPageWikitext(pageTitle, lang);
+  const type = detectBannerTypeEn(wikitext);
 
-function toFilename(name: string, releaseDate: string): string {
-  const slug = name
-    .toLowerCase()
-    .replace(/['']/g, '')
-    .replace(/[^a-z0-9]+/g, '_')
-    .replace(/^_|_$/g, '');
-  return `${slug}_${releaseDate}.json`;
+  if (type === 'character') return parseCharacterBannerEn(wikitext, pageTitle);
+  if (type === 'weapon') return parseWeaponBannerEn(wikitext, pageTitle);
+  if (type === 'chronicled') return parseChronicledBannerEn(wikitext, pageTitle, 'chronicled');
+  if (type === 'lightrace') return parseChronicledBannerEn(wikitext, pageTitle, 'lightrace');
+  if (type === 'standard') return parseStandardBannerEn(wikitext, pageTitle);
+  if (type === 'novice') return parseNoviceBannerEn(wikitext, pageTitle);
+  return null;
 }
 
-// ── Scrape ────────────────────────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════
+// ── FR — parsing par HTML rendu (le wikitext ne contient pas de données) ───
+// ══════════════════════════════════════════════════════════════════════════
+//
+// Le wiki FR pilote ses bannières via un template Lua sans paramètres
+// exploitables dans le wikitext source. On récupère donc le HTML rendu de
+// la section "Obtention" et on en extrait les cartes personnage/arme via
+// leurs classes CSS (card-rare-5/4/3, card-caption, card-text).
+//
+// Actuellement implémenté : bannières "character" et "weapon".
+// TODO : chronicled/lightrace, standard, novice — vérifier les intitulés de
+// section HTML correspondants avant d'ajouter leur support (voir la
+// conversation de mise au point pour la méthode : action=expandtemplates
+// sur {{Bannière}} avec le titre d'une occurrence connue de chaque type).
 
-async function scrapeBannerOccurrence(
-  pageTitle: string,
-  lang: string,
-): Promise<BannerData | null> {
+interface HtmlItem {
+  name: string;
+  rarity: number;
+}
+
+function parseCardContainer($: ReturnType<typeof cheerio.load>, $el: any): HtmlItem | null {
+  const rarityClass = $el.find('.giw-card-image').attr('class') ?? '';
+  const rarityMatch = rarityClass.match(/card-rare-(\d)/);
+  const rarity = rarityMatch ? parseInt(rarityMatch[1], 10) : 0;
+  const caption = $el.find('.card-caption').first().text().trim();
+  const cardText = $el.find('.card-text').first().text().trim();
+  const name = (caption || cardText).replace(/^[—]$/, '').trim();
+  return name ? { name, rarity } : null;
+}
+
+// Certaines sections ("... au taux augmenté") contiennent du HTML invalide :
+// des <div class="card-container"> directement enfants de <table>, sans
+// <tr><td>. Les navigateurs (et cheerio, qui suit les mêmes règles HTML5)
+// "foster-parentent" ces <div> : ils sont déplacés juste AVANT la <table>
+// dans l'arbre DOM plutôt que d'y rester comme enfants. Du coup le <h3>
+// n'est plus forcément suivi d'une <table> — il peut être suivi directement
+// par ces <div> échappées. On parcourt donc tous les frères suivants jusqu'au
+// prochain <h3>, et on cherche les .card-container partout dans cette plage,
+// qu'ils soient nus ou nichés dans une table.
+function parseBannerSectionsFr(html: string): Record<string, HtmlItem[]> {
+  const $: ReturnType<typeof cheerio.load> = cheerio.load(html);
+  const sections: Record<string, HtmlItem[]> = {};
+
+  $('h3').each((_, h3) => {
+    const heading = $(h3).text().trim();
+    const items: HtmlItem[] = [];
+    let node = $(h3).next();
+
+    while (node.length && node.get(0)?.tagName?.toLowerCase() !== 'h3') {
+      const containers = node.hasClass('card-container') ? node : node.find('.card-container');
+      containers.each((_, el) => {
+        const item = parseCardContainer($, $(el));
+        if (item) items.push(item);
+      });
+      node = node.next();
+    }
+
+    sections[heading] = items;
+  });
+
+  return sections;
+}
+
+function detectBannerTypeFromHtmlFr(
+  sections: Record<string, HtmlItem[]>,
+): 'character' | 'weapon' | 'unknown' {
+  if ('Personnages au taux augmenté' in sections) return 'character';
+  if ('Armes au taux augmenté' in sections) return 'weapon';
+  return 'unknown';
+}
+
+const onlyRarity = (items: HtmlItem[], rarity: number) =>
+  items.filter((i) => i.rarity === rarity).map((i) => i.name);
+
+const FR_MONTHS: Record<string, string> = {
+  janvier: '01',
+  février: '02',
+  mars: '03',
+  avril: '04',
+  mai: '05',
+  juin: '06',
+  juillet: '07',
+  août: '08',
+  septembre: '09',
+  octobre: '10',
+  novembre: '11',
+  décembre: '12',
+};
+
+function parseFrenchDate(text: string): string | null {
+  const match = text.match(/(\d{1,2})(?:er)?\s+(\p{L}+)\s+(\d{4})/u);
+  if (!match) return null;
+  const [, day, monthName, year] = match;
+  const month = FR_MONTHS[monthName.toLowerCase()];
+  if (!month) return null;
+  return `${year}-${month}-${day.padStart(2, '0')}`;
+}
+
+function extractDatesFr(wikitext: string): { releaseDate: string; endDate: string } {
+  const dureeMatch = wikitext.match(/==\s*Durée\s*==([\s\S]*?)(?:\n==|$)/);
+  // Le wikitext contient parfois du HTML brut, ex: "1<sup>er</sup> janvier 2025"
+  // pour l'ordinal du 1er du mois. Sans ce nettoyage, la regex de date ne
+  // matche jamais ce cas précis (le tag scinde "1" et "er"), et on se
+  // retrouve à prendre la date de fin comme date de sortie par erreur.
+  const dureeText = (dureeMatch ? dureeMatch[1] : '').replace(/<[^>]+>/g, '');
+  const dates = [...dureeText.matchAll(/\d{1,2}(?:er)?\s+\p{L}+\s+\d{4}/gu)]
+    .map((m) => parseFrenchDate(m[0]))
+    .filter((d): d is string => d !== null);
+  return { releaseDate: dates[0] ?? '', endDate: dates[1] ?? '' };
+}
+
+function extractBannerNameFr(pageTitle: string): string {
+  // Pas de |name= exploitable en FR : on dérive du titre de page.
+  return pageTitle.replace(/\/[\d.\-]+$/, '').replace(/_/g, ' ');
+}
+
+function buildCharacterBannerFromHtmlFr(
+  sections: Record<string, HtmlItem[]>,
+  name: string,
+  releaseDate: string,
+  endDate: string,
+): CharacterBannerData {
+  const boosted = sections['Personnages au taux augmenté'] ?? [];
+  const other = sections['Autres personnages'] ?? [];
+  const weapons = sections['Armes'] ?? [];
+  return {
+    name,
+    type: 'character',
+    boostedCharacters: {
+      featured5Star: onlyRarity(boosted, 5)[0] ?? '',
+      featured4Star: onlyRarity(boosted, 4),
+    },
+    otherCharacters: {
+      featured5Star: onlyRarity(other, 5),
+      featured4Star: onlyRarity(other, 4),
+    },
+    weapons: {
+      featured4Star: onlyRarity(weapons, 4),
+      featured3Star: onlyRarity(weapons, 3),
+    },
+    releaseDate,
+    endDate,
+  };
+}
+
+function buildWeaponBannerFromHtmlFr(
+  sections: Record<string, HtmlItem[]>,
+  name: string,
+  releaseDate: string,
+  endDate: string,
+): WeaponBannerData {
+  const boosted = sections['Armes au taux augmenté'] ?? [];
+  const characters = sections['Personnages'] ?? [];
+  const other = sections['Autres armes'] ?? [];
+  return {
+    name,
+    type: 'weapon',
+    releaseDate,
+    endDate,
+    boostedWeapons: {
+      featured5Star: onlyRarity(boosted, 5),
+      featured4Star: onlyRarity(boosted, 4),
+    },
+    characters: {
+      featured4Star: onlyRarity(characters, 4),
+    },
+    otherWeapons: {
+      featured5Star: onlyRarity(other, 5),
+      featured4Star: onlyRarity(other, 4),
+      featured3Star: onlyRarity(other, 3),
+    },
+  };
+}
+
+async function scrapeBannerOccurrenceFr(pageTitle: string, lang: string): Promise<BannerData | null> {
   const wikitext = await fetchPageWikitext(pageTitle, lang);
-  const type = detectBannerType(wikitext);
+  const html = await fetchRenderedHtml(pageTitle, lang);
+  const sections = parseBannerSectionsFr(html);
+  const type = detectBannerTypeFromHtmlFr(sections);
 
-  if (type === 'character') return parseCharacterBanner(wikitext, pageTitle);
-  if (type === 'weapon') return parseWeaponBanner(wikitext, pageTitle);
-  if (type === 'chronicled')
-    return parseChronicledBanner(wikitext, pageTitle, 'chronicled');
-  if (type === 'lightrace')
-    return parseChronicledBanner(wikitext, pageTitle, 'lightrace');
-  if (type === 'standard') return parseStandardBanner(wikitext, pageTitle);
-  if (type === 'novice') return parseNoviceBanner(wikitext, pageTitle);
-  return null;
+  if (type === 'unknown') return null;
+
+  const { releaseDate, endDate } = extractDatesFr(wikitext);
+  const name = extractBannerNameFr(pageTitle);
+
+  if (type === 'character') return buildCharacterBannerFromHtmlFr(sections, name, releaseDate, endDate);
+  return buildWeaponBannerFromHtmlFr(sections, name, releaseDate, endDate);
+}
+
+// ── Routeur par langue ────────────────────────────────────────────────────────
+
+async function scrapeBannerOccurrence(pageTitle: string, lang: string): Promise<BannerData | null> {
+  if (lang === 'fr') return scrapeBannerOccurrenceFr(pageTitle, lang);
+  // en (et pour l'instant de/es/zh, non testés) utilisent le pipeline wikitext.
+  return scrapeBannerOccurrenceEn(pageTitle, lang);
 }
 
 // ── Save ──────────────────────────────────────────────────────────────────────
@@ -470,19 +721,10 @@ function saveBanner(data: BannerData, lang: string) {
 
   const filename =
     data.type === 'standard' || data.type === 'novice'
-      ? `${data.name
-          .toLowerCase()
-          .replace(/['']/g, '')
-          .replace(/[^a-z0-9]+/g, '_')
-          .replace(/^_|_$/g, '')}.json`
+      ? `${slugify(data.name)}.json`
       : toFilename(
           data.name,
-          (
-            data as
-              | CharacterBannerData
-              | WeaponBannerData
-              | ChronicledBannerData
-          ).releaseDate,
+          (data as CharacterBannerData | WeaponBannerData | ChronicledBannerData).releaseDate,
         );
 
   const filePath = path.join(subdir, filename);
@@ -500,9 +742,7 @@ function printUsage() {
   console.error(
     '  Toute une série     : npx ts-node ... scrape-banners.ts --all "Ballad_in_Goblets" en',
   );
-  console.error(
-    '  Toutes les bannières: npx ts-node ... scrape-banners.ts --everything en',
-  );
+  console.error('  Toutes les bannières: npx ts-node ... scrape-banners.ts --everything en');
 }
 
 async function main() {
@@ -512,18 +752,21 @@ async function main() {
 
   if (args.length < 2 || !lang || !API_URLS[lang]) {
     printUsage();
-    console.error(
-      `\nLangues disponibles : ${Object.keys(API_URLS).join(', ')}`,
-    );
+    console.error(`\nLangues disponibles : ${Object.keys(API_URLS).join(', ')}`);
     process.exit(1);
+  }
+
+  if (!IMPLEMENTED_LANGS.has(lang)) {
+    console.error(
+      `\n⚠️  Le pipeline de parsing pour "${lang}" n'est pas encore implémenté (seuls en/fr le sont). Le scraping risque de tout skipper.`,
+    );
   }
 
   // ── --everything ──────────────────────────────────────────────────────────
   if (args[0] === '--everything') {
-    console.log(
-      `\nDiscovering all banner occurrences via Category:Wish_Banners [${lang}]...`,
-    );
-    const occurrences = await fetchAllBannerOccurrencesFromCategory(lang);
+    console.log(`\nDiscovering all banner occurrences [${lang}]...`);
+    const occurrences =
+      lang === 'fr' ? await fetchAllBannerOccurrencesFr(lang) : await fetchAllBannerOccurrencesFromCategory(lang);
     console.log(`Found ${occurrences.length} occurrences`);
 
     for (const occurrence of occurrences) {
@@ -591,7 +834,3 @@ async function main() {
 }
 
 main();
-
-function createHttpsAgent(): https.Agent {
-  return new https.Agent({ keepAlive: true });
-}
