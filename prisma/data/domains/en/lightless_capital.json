@@ -1,0 +1,259 @@
+{
+  "name": "Lightless Capital",
+  "domainType": "Domain of Mastery",
+  "location": {
+    "mainLocation": "Nod-Krai",
+    "subLocation": "Lempo Isle"
+  },
+  "description": "Hundreds of years ago, Nod-Krai too experienced a golden age, where adventurers and treasure hunters gathered in droves at the prosperous city that bore the weight of humanity's arrogant dreams, its steel sinews and iron bones reflecting industrial and technological glory at the very edge of the world. Then calamity descended, and objects both living and not were dragged equally into the darkness, while past vibrance and opulence were buried by the ruthless march of time.",
+  "recommendedElements": ["Hydro", "Electro"],
+  "releaseVersion": "Luna I",
+  "rewards": {
+    "monday": {
+      "name": "Fallen City",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Teachings of Moonlight"
+        },
+        {
+          "quality": 3,
+          "name": "Guide to Moonlight"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophies of Moonlight"
+        }
+      ]
+    },
+    "tueday": {
+      "name": "Shadowed Legacy",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Teachings of Elysium"
+        },
+        {
+          "quality": 3,
+          "name": "Guide to Elysium"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophies of Elysium"
+        }
+      ]
+    },
+    "wednesday": {
+      "name": "Overturned Roost",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Teachings of Vagrancy"
+        },
+        {
+          "quality": 3,
+          "name": "Guide to Vagrancy"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophies of Vagrancy"
+        }
+      ]
+    }
+  },
+  "levels": [
+    {
+      "level": 1,
+      "name": "Lightless Capital I",
+      "description": "Defeat 7 opponent(s) within 300 second(s)",
+      "teamLevelRecommanded": 38,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1000
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "enemies": [
+            {
+              "name": "Oprichniki Line Trooper",
+              "number": 2,
+              "level": 38
+            },
+            {
+              "name": "Oprichniki Vanguard",
+              "number": 2,
+              "level": 38
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "enemies": [
+            {
+              "name": "Oprichniki Vanguard",
+              "number": 2,
+              "level": 38
+            },
+            {
+              "name": "Oprichniki Fireblade Shock Trooper",
+              "number": 1,
+              "level": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Lightless Capital II",
+      "description": "Defeat 7 opponent(s) within 300 second(s)",
+      "teamLevelRecommanded": 54,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1800
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "enemies": [
+            {
+              "name": "Oprichniki Line Trooper",
+              "number": 2,
+              "level": 54
+            },
+            {
+              "name": "Oprichniki Vanguard",
+              "number": 2,
+              "level": 54
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "enemies": [
+            {
+              "name": "Oprichniki Vanguard",
+              "number": 2,
+              "level": 54
+            },
+            {
+              "name": "Oprichniki Fireblade Shock Trooper",
+              "number": 1,
+              "level": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Lightless Capital III",
+      "description": "Defeat 7 opponent(s) within 300 second(s)",
+      "teamLevelRecommanded": 71,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2050
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "enemies": [
+            {
+              "name": "Oprichniki Line Trooper",
+              "number": 2,
+              "level": 71
+            },
+            {
+              "name": "Oprichniki Vanguard",
+              "number": 2,
+              "level": 71
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "enemies": [
+            {
+              "name": "Oprichniki Vanguard",
+              "number": 2,
+              "level": 71
+            },
+            {
+              "name": "Oprichniki Fireblade Shock Trooper",
+              "number": 1,
+              "level": 71
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Lightless Capital IV",
+      "description": "Defeat 3 opponent(s) within 300 second(s)",
+      "teamLevelRecommanded": 88,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2375
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "enemies": [
+            {
+              "name": "Cutting Edge Fire Support Ground Effect Landcruiser",
+              "number": 1,
+              "level": 88
+            },
+            {
+              "name": "Oprichniki Hailstorm Cannoneer",
+              "number": 2,
+              "level": 88
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
