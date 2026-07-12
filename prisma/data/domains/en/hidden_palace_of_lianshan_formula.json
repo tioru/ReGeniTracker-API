@@ -1,0 +1,296 @@
+{
+  "name": "Hidden Palace of Lianshan Formula",
+  "domainType": "Domain of Forgery",
+  "location": {
+    "mainLocation": "Liyue",
+    "subLocation": "Qiongji Estuary"
+  },
+  "description": "The operation of the Lianshan Formula created endless thunderstorms within the bowels of the mountain. It is said that the rumbling sounds of thunder that one hears outside the domain's gates call out to the curious souls.",
+  "recommendedElements": [
+    "Cryo"
+  ],
+  "releaseVersion": "1.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Thundercloud",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Luminous Sands from Guyun"
+        },
+        {
+          "quality": 3,
+          "name": "Lustrous Stone from Guyun"
+        },
+        {
+          "quality": 4,
+          "name": "Relic from Guyun"
+        },
+        {
+          "quality": 5,
+          "name": "Divine Body from Guyun"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Thundering Ruins",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Mist Veiled Lead Elixir"
+        },
+        {
+          "quality": 3,
+          "name": "Mist Veiled Mercury Elixir"
+        },
+        {
+          "quality": 4,
+          "name": "Mist Veiled Gold Elixir"
+        },
+        {
+          "quality": 5,
+          "name": "Mist Veiled Primo Elixir"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Trial Grounds of Thunder",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Grain of Aerosiderite"
+        },
+        {
+          "quality": 3,
+          "name": "Piece of Aerosiderite"
+        },
+        {
+          "quality": 4,
+          "name": "Bit of Aerosiderite"
+        },
+        {
+          "quality": 5,
+          "name": "Chunk of Aerosiderite"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Hidden Palace of Lianshan Formula I",
+      "teamLevelRecommanded": 15,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1125
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 10
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 20 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Electro Slime",
+              "number": 15,
+              "level": 15
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 20 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Electro Slime",
+              "number": 3,
+              "level": 15
+            },
+            {
+              "name": "Large Electro Slime",
+              "number": 1,
+              "level": 15
+            },
+            {
+              "name": "Mutant Electro Slime",
+              "number": 1,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Hidden Palace of Lianshan Formula II",
+      "teamLevelRecommanded": 36,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1550
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 16 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Electro Slime",
+              "number": 7,
+              "level": 36
+            },
+            {
+              "name": "Large Electro Slime",
+              "number": 3,
+              "level": 36
+            },
+            {
+              "name": "Mutant Electro Slime",
+              "number": 3,
+              "level": 36
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 16 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Large Electro Slime",
+              "number": 2,
+              "level": 36
+            },
+            {
+              "name": "Mutant Electro Slime",
+              "number": 1,
+              "level": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Hidden Palace of Lianshan Formula III",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 10 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Large Electro Slime",
+              "number": 6,
+              "level": 59
+            },
+            {
+              "name": "Mutant Electro Slime",
+              "number": 3,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 10 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Fatui Electro Cicin Mage",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Hidden Palace of Lianshan Formula IV",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 8 opponents within 480 seconds.",
+          "enemies": [
+            {
+              "name": "Large Electro Slime",
+              "number": 4,
+              "level": 80
+            },
+            {
+              "name": "Mutant Electro Slime",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Fatui Electro Cicin Mage",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

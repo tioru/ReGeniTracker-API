@@ -1,0 +1,305 @@
+{
+  "name": "Court of Flowing Sand",
+  "domainType": "Domain of Forgery",
+  "location": {
+    "mainLocation": "Inazuma",
+    "subLocation": "Narukami Island"
+  },
+  "description": "They say that in antediluvian times now lost to history, there was once a foolish ruler who dreamed of building a high garden in honor of the white sacred tree over the primordial sands. Now, dead silence fills the kingdom built on sand, but the obsessions of the past remain.",
+  "recommendedElements": [
+    "Geo",
+    "Cryo"
+  ],
+  "releaseVersion": "2.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Sunken Sands",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Coral Branch of a Distant Sea"
+        },
+        {
+          "quality": 3,
+          "name": "Jeweled Branch of a Distant Sea"
+        },
+        {
+          "quality": 4,
+          "name": "Jade Branch of a Distant Sea"
+        },
+        {
+          "quality": 5,
+          "name": "Golden Branch of a Distant Sea"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Altar of Sands",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Narukami's Wisdom"
+        },
+        {
+          "quality": 3,
+          "name": "Narukami's Joy"
+        },
+        {
+          "quality": 4,
+          "name": "Narukami's Affection"
+        },
+        {
+          "quality": 5,
+          "name": "Narukami's Valor"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Sand Burial",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Mask of the Wicked Lieutenant"
+        },
+        {
+          "quality": 3,
+          "name": "Mask of the Tiger's Bite"
+        },
+        {
+          "quality": 4,
+          "name": "Mask of the One-Horned"
+        },
+        {
+          "quality": 5,
+          "name": "Mask of the Kijin"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Court of Flowing Sand I",
+      "teamLevelRecommanded": 15,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1125
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 10
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 18 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 10,
+              "level": 15
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 1,
+              "level": 15
+            },
+            {
+              "name": "Pyro Slime",
+              "number": 5,
+              "level": 15
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 15
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Court of Flowing Sand II",
+      "teamLevelRecommanded": 36,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1550
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 10 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Large Hydro Slime",
+              "number": 4,
+              "level": 36
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 1,
+              "level": 36
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 4,
+              "level": 36
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Court of Flowing Sand III",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 8 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Large Hydro Slime",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 3,
+              "level": 59
+            },
+            {
+              "name": "Hydro Abyss Mage",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Pyro Abyss Mage",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Court of Flowing Sand IV",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 12 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Large Electro Slime",
+              "number": 5,
+              "level": 80
+            },
+            {
+              "name": "Mutant Electro Slime/",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Electro Hilichurl Grenadier",
+              "number": 3,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 12 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Crackling Axe Mitachurl",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Crackling Axe Mitachurl",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

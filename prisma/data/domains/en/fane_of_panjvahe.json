@@ -1,0 +1,84 @@
+{
+  "name": "Fane of Panjvahe",
+  "domainType": "One-Time",
+  "location": {
+    "mainLocation": "Sumeru",
+    "subLocation": "Desert of Hadramaveth"
+  },
+  "description": "The significance of oases lies in the embrace of the desert. The oasis dwellers have never been oblivious to this. Thus did the ancestors in Gurabad build the hermitage for the Lord of Desert. Through the sandstorm-shrouded past and present, this hermitage has become an asylum for countless desert dwellers, among whom are some bandits as well...",
+  "recommendedElements": [
+    "Dendro",
+    "Electro"
+  ],
+  "releaseVersion": "3.4",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Fane of Panjvahe I",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 12 opponent(s)",
+          "enemies": [
+            {
+              "name": "Primal Construct: Prospector",
+              "number": 1
+            },
+            {
+              "name": "Primal Construct: Reshaper",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 12 opponent(s)",
+          "enemies": [
+            {
+              "name": "Eremite Desert Clearwater",
+              "number": 1
+            },
+            {
+              "name": "Eremite Daythunder",
+              "number": 1
+            },
+            {
+              "name": "Eremite Crossbow",
+              "number": 2
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "Defeat 12 opponent(s)",
+          "enemies": [
+            {
+              "name": "Primal Construct: Repulsor",
+              "number": 2
+            },
+            {
+              "name": "Primal Construct: Reshaper",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 4,
+          "description": "Defeat 12 opponent(s)",
+          "enemies": [
+            {
+              "name": "Eremite Crossbow",
+              "number": 2
+            },
+            {
+              "name": "Eremite Galehunter",
+              "number": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

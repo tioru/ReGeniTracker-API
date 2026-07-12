@@ -1,16 +1,18 @@
 {
-  "name": "Lightless Capital",
-  "domainType": "Domain of Mastery",
+  "name": "Ancient Watchtower",
+  "domainType": "Domain of Forgery",
   "location": {
-    "mainLocation": "Nod-Krai",
-    "subLocation": "Lempo Isle"
+    "mainLocation": "Natlan",
+    "subLocation": "Coatepec Mountain"
   },
-  "description": "Hundreds of years ago, Nod-Krai too experienced a golden age, where adventurers and treasure hunters gathered in droves at the prosperous city that bore the weight of humanity's arrogant dreams, its steel sinews and iron bones reflecting industrial and technological glory at the very edge of the world. Then calamity descended, and objects both living and not were dragged equally into the darkness, while past vibrance and opulence were buried by the ruthless march of time.",
+  "description": "Legend has it that in ancient times, the colossal beasts that roamed the land had a civilization of their own. After exploring the entirety of the land and surrounding sea, they built these structures in an attempt to cast their gaze upon the even wider world beyond. But these wise beasts have long since vanished, and in the present, no one now knows the true purpose of this place.",
   "recommendedElements": [
     "Hydro",
-    "Electro"
+    "Electro",
+    "Pyro",
+    "Cryo"
   ],
-  "releaseVersion": "Luna I",
+  "releaseVersion": "5.0",
   "rewards": [
     {
       "days": [
@@ -18,19 +20,23 @@
         "thursday",
         "sunday"
       ],
-      "name": "Fallen City",
+      "name": "Scrying Shadows",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Moonlight"
+          "name": "Blazing Sacrificial Heart's Terror"
         },
         {
           "quality": 3,
-          "name": "Guide to Moonlight"
+          "name": "Blazing Sacrificial Heart's Hesitance"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Moonlight"
+          "name": "Blazing Sacrificial Heart's Resolve"
+        },
+        {
+          "quality": 5,
+          "name": "Blazing Sacrificial Heart's Splendor"
         }
       ]
     },
@@ -40,19 +46,23 @@
         "friday",
         "sunday"
       ],
-      "name": "Shadowed Legacy",
+      "name": "Attentive Observation",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Elysium"
+          "name": "Delirious Decadence of the Sacred Lord"
         },
         {
           "quality": 3,
-          "name": "Guide to Elysium"
+          "name": "Delirious Desolation of the Sacred Lord"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Elysium"
+          "name": "Delirious Demeanor of the Sacred Lord"
+        },
+        {
+          "quality": 5,
+          "name": "Delirious Divinity of the Sacred Lord"
         }
       ]
     },
@@ -62,19 +72,23 @@
         "saturday",
         "sunday"
       ],
-      "name": "Overturned Roost",
+      "name": "Estimation",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Vagrancy"
+          "name": "Night-Wind's Mystic Consideration"
         },
         {
           "quality": 3,
-          "name": "Guide to Vagrancy"
+          "name": "Night-Wind's Mystic Premonition"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Vagrancy"
+          "name": "Night-Wind's Mystic Augury"
+        },
+        {
+          "quality": 5,
+          "name": "Night-Wind's Mystic Revelation"
         }
       ]
     }
@@ -82,8 +96,8 @@
   "levels": [
     {
       "level": 1,
-      "name": "Lightless Capital I",
-      "teamLevelRecommanded": 38,
+      "name": "Ancient Watchtower I",
+      "teamLevelRecommanded": 15,
       "rewards": [
         {
           "name": "Adventure EXP",
@@ -91,11 +105,11 @@
         },
         {
           "name": "Mora",
-          "quantity": 1575
+          "quantity": 1125
         },
         {
           "name": "Companionship EXP",
-          "quantity": 15
+          "quantity": 10
         }
       ],
       "waves": [
@@ -104,14 +118,9 @@
           "description": "Defeat 7 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
-              "number": 2,
-              "level": 38
-            },
-            {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 38
+              "name": "Yumkasaur Whelp",
+              "number": 4,
+              "level": 15
             }
           ]
         },
@@ -120,14 +129,14 @@
           "description": "Defeat 7 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 38
+              "name": "Yumkasaurus",
+              "number": 1,
+              "level": 15
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
-              "level": 38
+              "name": "Yumkasaur Whelp",
+              "number": 2,
+              "level": 15
             }
           ]
         }
@@ -135,8 +144,8 @@
     },
     {
       "level": 2,
-      "name": "Lightless Capital II",
-      "teamLevelRecommanded": 54,
+      "name": "Ancient Watchtower II",
+      "teamLevelRecommanded": 36,
       "rewards": [
         {
           "name": "Adventure EXP",
@@ -144,7 +153,7 @@
         },
         {
           "name": "Mora",
-          "quantity": 1800
+          "quantity": 1550
         },
         {
           "name": "Companionship EXP",
@@ -157,14 +166,14 @@
           "description": "Defeat 7 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
+              "name": "Swiftstep Seeker",
               "number": 2,
-              "level": 54
+              "level": 36
             },
             {
-              "name": "Oprichniki Vanguard",
+              "name": "Swiftstep Armed Courier",
               "number": 2,
-              "level": 54
+              "level": 36
             }
           ]
         },
@@ -173,14 +182,14 @@
           "description": "Defeat 7 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 54
+              "name": "Yumkasaurus Warrior: Whirling Leaves",
+              "number": 1,
+              "level": 36
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
-              "level": 54
+              "name": "Swiftstep Storm Scout",
+              "number": 2,
+              "level": 36
             }
           ]
         }
@@ -188,8 +197,8 @@
     },
     {
       "level": 3,
-      "name": "Lightless Capital III",
-      "teamLevelRecommanded": 71,
+      "name": "Ancient Watchtower III",
+      "teamLevelRecommanded": 59,
       "rewards": [
         {
           "name": "Adventure EXP",
@@ -197,43 +206,43 @@
         },
         {
           "name": "Mora",
-          "quantity": 2050
+          "quantity": 1850
         },
         {
           "name": "Companionship EXP",
-          "quantity": 20
+          "quantity": 15
         }
       ],
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
-              "number": 2,
-              "level": 71
+              "name": "Swiftstep Seeker",
+              "number": 1,
+              "level": 59
             },
             {
-              "name": "Oprichniki Vanguard",
+              "name": "Yumkasaur Whelp",
               "number": 2,
-              "level": 71
+              "level": 59
             }
           ]
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 71
+              "name": "Yumkasaurus Warrior: Flowing Skyfire",
+              "number": 1,
+              "level": 59
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
-              "level": 71
+              "name": "Yumkasaurus",
+              "number": 2,
+              "level": 59
             }
           ]
         }
@@ -241,8 +250,8 @@
     },
     {
       "level": 4,
-      "name": "Lightless Capital IV",
-      "teamLevelRecommanded": 88,
+      "name": "Ancient Watchtower IV",
+      "teamLevelRecommanded": 80,
       "rewards": [
         {
           "name": "Adventure EXP",
@@ -250,7 +259,7 @@
         },
         {
           "name": "Mora",
-          "quantity": 2375
+          "quantity": 2200
         },
         {
           "name": "Companionship EXP",
@@ -260,17 +269,12 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 3 opponent(s) within 300 second(s)",
+          "description": "Defeat 1 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Cutting Edge Fire Support Ground Effect Landcruiser",
+              "name": "Secret Source Automaton: Hunter-Seeker",
               "number": 1,
-              "level": 88
-            },
-            {
-              "name": "Oprichniki Hailstorm Cannoneer",
-              "number": 2,
-              "level": 88
+              "level": 80
             }
           ]
         }

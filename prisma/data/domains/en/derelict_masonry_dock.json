@@ -1,0 +1,205 @@
+{
+  "name": "Derelict Masonry Dock",
+  "domainType": "Domain of Blessing",
+  "location": {
+    "mainLocation": "Natlan",
+    "subLocation": "Atocpan"
+  },
+  "description": "An environment incomprehensible to the inhabitants of today's lands, one where ash-gray mechanisms driven by golden runes replaced the toil of flesh, effortlessly bringing brilliance and imagination to life above pools of flame. After this era was ended by tyrannical outsiders, the once-powerful race stagnated in their submission. Now, the only visitors left to this place are mourners of a bygone era.",
+  "recommendedElements": [
+    "Anemo",
+    "Electro",
+    "Hydro",
+    "Dendro"
+  ],
+  "releaseVersion": "5.5",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Derelict Masonry Dock I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Tatankasaur Whelp",
+              "number": 3,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Tatankasaur Whelp",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Tatankasaurus",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Derelict Masonry Dock II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Ferocious Warrior: Human Ram",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Ferocious Warrior: Wrestler",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Ferocious Warrior: Grappler",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Tatankasaurus Warrior: Skybreaker",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Derelict Masonry Dock III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Ferocious Warrior: Human Ram",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Tatankasaurus Warrior: Skybreaker",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Tatankasaurus Warrior: Spiritlight Chaser",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Tatankasaurus Warrior: Skybreaker",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Derelict Masonry Dock IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 1 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Furnace Shell Mountain Weasel",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

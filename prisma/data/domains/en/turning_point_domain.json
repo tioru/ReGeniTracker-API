@@ -1,0 +1,183 @@
+{
+  "name": "Turning Point (Domain)",
+  "domainType": "Quest Domain",
+  "location": {
+    "mainLocation": "Liyue",
+    "subLocation": "Sea of Clouds"
+  },
+  "description": "",
+  "recommendedElements": [],
+  "releaseVersion": "",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Turning Point (Domain) I",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
+              "number": 1
+            },
+            {
+              "name": "Fatui Skirmisher - Anemoboxer Vanguard",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Fatui Skirmisher - Pyroslinger Bracer",
+              "number": 2
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Fatui Skirmisher - Geochanter Bracer",
+              "number": 1
+            },
+            {
+              "name": "Fatui Skirmisher - Anemoboxer Vanguard",
+              "number": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Turning Point (Domain) II",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Fatui Skirmisher - Electrohammer Vanguard",
+              "number": 2
+            },
+            {
+              "name": "Fatui Skirmisher - Anemoboxer Vanguard",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+              "number": 1
+            },
+            {
+              "name": "Fatui Skirmisher - Anemoboxer Vanguard",
+              "number": 1
+            },
+            {
+              "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Fatui Skirmisher - Electrohammer Vanguard",
+              "number": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Turning Point (Domain) III",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Fatui Skirmisher - Pyroslinger Bracer",
+              "number": 1
+            },
+            {
+              "name": "Fatui Skirmisher - Geochanter Bracer",
+              "number": 1
+            },
+            {
+              "name": "Fatui Electro Cicin Mage",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Fatui Skirmisher - Electrohammer Vanguard",
+              "number": 2
+            },
+            {
+              "name": "Fatui Electro Cicin Mage",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
+              "number": 1
+            },
+            {
+              "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+              "number": 1
+            },
+            {
+              "name": "Fatui Electro Cicin Mage",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 4,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Fatui Skirmisher - Anemoboxer Vanguard",
+              "number": 1
+            },
+            {
+              "name": "Fatui Skirmisher - Electrohammer Vanguard",
+              "number": 1
+            },
+            {
+              "name": "Fatui Electro Cicin Mage",
+              "number": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

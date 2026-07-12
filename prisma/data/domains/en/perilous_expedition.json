@@ -1,0 +1,177 @@
+{
+  "name": "Perilous Expedition",
+  "domainType": "Event",
+  "location": {
+    "mainLocation": "Sumeru",
+    "subLocation": "Avidya Forest"
+  },
+  "description": "It is a place beyond ordinary exploration, a valley concealed behind complex terrain, a deserted dead end. No one knows what lies within or what dangers forebode. However, in order to prevent others from accidentally wandering in here, mapping this place out is an act of considerable value.",
+  "recommendedElements": [],
+  "releaseVersion": "3.8",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Perilous Expedition I",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Eremite Daythunder",
+              "number": 2
+            },
+            {
+              "name": "Eremite Crossbow",
+              "number": 1
+            },
+            {
+              "name": "Eremite Ravenbeak Halberdier",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Eremite Sunfrost",
+              "number": 2
+            },
+            {
+              "name": "Eremite Linebreaker",
+              "number": 1
+            },
+            {
+              "name": "Eremite Crossbow",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Eremite Desert Clearwater{danger=1}",
+              "number": 1
+            },
+            {
+              "name": "Eremite Daythunder{danger=1}",
+              "number": 1
+            },
+            {
+              "name": "Eremite Crossbow",
+              "number": 1
+            },
+            {
+              "name": "Eremite Ravenbeak Halberdier",
+              "number": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Perilous Expedition II",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Cryo Hilichurl Shooter",
+              "number": 2
+            },
+            {
+              "name": "Ice Shield Hilichurl Guard",
+              "number": 2
+            },
+            {
+              "name": "Hilichurl Berserker",
+              "number": 2
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Cryo Abyss Mage",
+              "number": 1
+            },
+            {
+              "name": "Ice Shieldwall Mitachurl",
+              "number": 2
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Cryo Abyss Mage",
+              "number": 1
+            },
+            {
+              "name": "Ice Shieldwall Mitachurl{danger=1}",
+              "number": 1
+            },
+            {
+              "name": "Cryo Samachurl",
+              "number": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Perilous Expedition III",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Large Hydro Slime",
+              "number": 2
+            },
+            {
+              "name": "Large Electro Slime",
+              "number": 2
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Geovishap (Hydro){danger=1}",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Geovishap (Electro){danger=1}",
+              "number": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

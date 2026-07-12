@@ -1,0 +1,310 @@
+{
+  "name": "Echoes of the Deep Tides",
+  "domainType": "Domain of Forgery",
+  "location": {
+    "mainLocation": "Fontaine",
+    "subLocation": "Court of Fontaine Region"
+  },
+  "description": "Legend speaks of a time in the distant past, when the Sovereign of the Waters had not yet returned from confinement, there was another God King who dreamed of building a prosperous empire out of harmonious music atop the waves. But the great ambition of building a utopia failed to come to fruition, and the arrogance of humanity sunk into their depths along with their pride. The golden melodies long silent, only the cold music of the tides still echoes upon the remains of their grand altars.",
+  "recommendedElements": [
+    "Hydro",
+    "Pyro",
+    "Cryo",
+    "Anemo"
+  ],
+  "releaseVersion": "4.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Robotic Ruse",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Fragment of an Ancient Chord"
+        },
+        {
+          "quality": 3,
+          "name": "Chapter of an Ancient Chord"
+        },
+        {
+          "quality": 4,
+          "name": "Movement of an Ancient Chord"
+        },
+        {
+          "quality": 5,
+          "name": "Echo of an Ancient Chord"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Artisanship",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Dross of Pure Sacred Dewdrop"
+        },
+        {
+          "quality": 3,
+          "name": "Sublimation of Pure Sacred Dewdrop"
+        },
+        {
+          "quality": 4,
+          "name": "Spring of Pure Sacred Dewdrop"
+        },
+        {
+          "quality": 5,
+          "name": "Essence of Pure Sacred Dewdrop"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Curious Contraptions",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Broken Goblet of the Pristine Sea"
+        },
+        {
+          "quality": 3,
+          "name": "Wine Goblet of the Pristine Sea"
+        },
+        {
+          "quality": 4,
+          "name": "Silver Goblet of the Pristine Sea"
+        },
+        {
+          "quality": 5,
+          "name": "Golden Goblet of the Pristine Sea"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Echoes of the Deep Tides I",
+      "teamLevelRecommanded": 15,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1125
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 10
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Treasure Hoarders: Scout",
+              "number": 2,
+              "level": 15
+            },
+            {
+              "name": "Recon Log Mek - Pneuma",
+              "number": 1,
+              "level": 15
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Treasure Hoarders: Hydro Potioneer",
+              "number": 1,
+              "level": 15
+            },
+            {
+              "name": "Recon Log Mek - Pneuma",
+              "number": 2,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Echoes of the Deep Tides II",
+      "teamLevelRecommanded": 36,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1550
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Treasure Hoarders: Scout",
+              "number": 2,
+              "level": 36
+            },
+            {
+              "name": "Geological Survey Mek - Pneuma",
+              "number": 2,
+              "level": 36
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Treasure Hoarders: Hydro Potioneer",
+              "number": 2,
+              "level": 36
+            },
+            {
+              "name": "Construction Specialist Mek - Pneuma",
+              "number": 1,
+              "level": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Echoes of the Deep Tides III",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Fatui Pyro Agent",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Recon Log Mek - Pneuma",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Fatui Electro Cicin Mage",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Assault Specialist Mek - Pneuma",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Echoes of the Deep Tides IV",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Treasure Hoarders: Hydro Potioneer",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Assault Specialist Mek - Pneuma",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Fatui Pyro Agent",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Annihilation Specialist Mek - Pneuma",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

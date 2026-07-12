@@ -1,16 +1,15 @@
 {
-  "name": "Lightless Capital",
+  "name": "Violet Court",
   "domainType": "Domain of Mastery",
   "location": {
-    "mainLocation": "Nod-Krai",
-    "subLocation": "Lempo Isle"
+    "mainLocation": "Inazuma",
+    "subLocation": "Kannazuka"
   },
-  "description": "Hundreds of years ago, Nod-Krai too experienced a golden age, where adventurers and treasure hunters gathered in droves at the prosperous city that bore the weight of humanity's arrogant dreams, its steel sinews and iron bones reflecting industrial and technological glory at the very edge of the world. Then calamity descended, and objects both living and not were dragged equally into the darkness, while past vibrance and opulence were buried by the ruthless march of time.",
+  "description": "Sometime in the ancient past, the mountains rose higher than the skies, and the earth was larger than heaven's dome. But one day, the mirror shattered, and the oceans arose. In these legends, this caused the court of the primeval sakura to become sundered from the other islands.",
   "recommendedElements": [
-    "Hydro",
     "Electro"
   ],
-  "releaseVersion": "Luna I",
+  "releaseVersion": "2.0",
   "rewards": [
     {
       "days": [
@@ -18,19 +17,19 @@
         "thursday",
         "sunday"
       ],
-      "name": "Fallen City",
+      "name": "Reign of Violet",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Moonlight"
+          "name": "Teachings of Transience"
         },
         {
           "quality": 3,
-          "name": "Guide to Moonlight"
+          "name": "Guide to Transience"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Moonlight"
+          "name": "Philosophies of Transience"
         }
       ]
     },
@@ -40,19 +39,19 @@
         "friday",
         "sunday"
       ],
-      "name": "Shadowed Legacy",
+      "name": "Thundering Valley",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Elysium"
+          "name": "Teachings of Elegance"
         },
         {
           "quality": 3,
-          "name": "Guide to Elysium"
+          "name": "Guide to Elegance"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Elysium"
+          "name": "Philosophies of Elegance"
         }
       ]
     },
@@ -62,19 +61,19 @@
         "saturday",
         "sunday"
       ],
-      "name": "Overturned Roost",
+      "name": "Vine-Infested Ruins",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Vagrancy"
+          "name": "Teachings of Light"
         },
         {
           "quality": 3,
-          "name": "Guide to Vagrancy"
+          "name": "Guide to Light"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Vagrancy"
+          "name": "Philosophies of Light"
         }
       ]
     }
@@ -82,7 +81,7 @@
   "levels": [
     {
       "level": 1,
-      "name": "Lightless Capital I",
+      "name": "Violet Court I",
       "teamLevelRecommanded": 38,
       "rewards": [
         {
@@ -101,31 +100,31 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 10 enemies in less than 6:00 minutes",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
-              "number": 2,
+              "name": "Hilichurl",
+              "number": 3,
               "level": 38
             },
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Electro Hilichurl Grenadier",
+              "number": 3,
               "level": 38
             }
           ]
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 10 enemies in less than 6:00 minutes",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Electro Hilichurl Shooter",
+              "number": 3,
               "level": 38
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
+              "name": "Crackling Axe Mitachurl",
               "number": 1,
               "level": 38
             }
@@ -135,7 +134,7 @@
     },
     {
       "level": 2,
-      "name": "Lightless Capital II",
+      "name": "Violet Court II",
       "teamLevelRecommanded": 54,
       "rewards": [
         {
@@ -154,15 +153,20 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 8 enemies in less than 6:00 minutes",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
+              "name": "Nobushi: Jintouban",
               "number": 2,
               "level": 54
             },
             {
-              "name": "Oprichniki Vanguard",
+              "name": "Treasure Hoarders: Pyro Potioneer",
+              "number": 1,
+              "level": 54
+            },
+            {
+              "name": "Treasure Hoarders: Electro Potioneer",
               "number": 2,
               "level": 54
             }
@@ -170,16 +174,16 @@
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 8 enemies in less than 6:00 minutes",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Nobushi: Hitsukeban",
+              "number": 1,
               "level": 54
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
+              "name": "Nobushi: Kikouban",
+              "number": 2,
               "level": 54
             }
           ]
@@ -188,7 +192,7 @@
     },
     {
       "level": 3,
-      "name": "Lightless Capital III",
+      "name": "Violet Court III",
       "teamLevelRecommanded": 71,
       "rewards": [
         {
@@ -207,31 +211,36 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 10 enemies in less than 6:00 minutes",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
+              "name": "Nobushi: Hitsukeban",
               "number": 2,
               "level": 71
             },
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Nobushi: Kikouban",
+              "number": 1,
+              "level": 71
+            },
+            {
+              "name": "Treasure Hoarders: Pyro Potioneer",
+              "number": 3,
               "level": 71
             }
           ]
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 10 enemies in less than 6:00 minutes",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Treasure Hoarders: Electro Potioneer",
+              "number": 3,
               "level": 71
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
+              "name": "Kairagi: Fiery Might/",
               "number": 1,
               "level": 71
             }
@@ -241,7 +250,7 @@
     },
     {
       "level": 4,
-      "name": "Lightless Capital IV",
+      "name": "Violet Court IV",
       "teamLevelRecommanded": 88,
       "rewards": [
         {
@@ -260,16 +269,21 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 3 opponent(s) within 300 second(s)",
+          "description": "Defeat 8 enemies in less than 6:00 minutes",
           "enemies": [
             {
-              "name": "Cutting Edge Fire Support Ground Effect Landcruiser",
+              "name": "Treasure Hoarders: Cryo Potioneer",
+              "number": 6,
+              "level": 88
+            },
+            {
+              "name": "Kairagi: Fiery Might",
               "number": 1,
               "level": 88
             },
             {
-              "name": "Oprichniki Hailstorm Cannoneer",
-              "number": 2,
+              "name": "Kairagi: Dancing Thunder",
+              "number": 1,
               "level": 88
             }
           ]

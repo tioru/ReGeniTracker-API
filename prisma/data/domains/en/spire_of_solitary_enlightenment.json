@@ -1,0 +1,266 @@
+{
+  "name": "Spire of Solitary Enlightenment",
+  "domainType": "Domain of Blessing",
+  "location": {
+    "mainLocation": "Sumeru",
+    "subLocation": "Avidya Forest"
+  },
+  "description": "In ancient times, this was a great and beautiful place, seemingly made to bless the children of humanity. But the arrow of heaven would descend, making mountains out of flat land and burying the ancient capitol beneath the hills.",
+  "recommendedElements": [
+    "Electro",
+    "Cryo",
+    "Hydro"
+  ],
+  "releaseVersion": "3.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Spire of Solitary Enlightenment I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 8 opponent(s) within 360 second(s)",
+          "enemies": [
+            {
+              "name": "Eremite Crossbow",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Eremite Sword-Dancer",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Eremite Ravenbeak Halberdier",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 8 opponent(s) within 360 second(s)",
+          "enemies": [
+            {
+              "name": "Eremite Crossbow",
+              "number": 3,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "Defeat 8 opponent(s) within 360 second(s)",
+          "enemies": [
+            {
+              "name": "Eremite Sunfrost",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Spire of Solitary Enlightenment II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 11 opponent(s) within 360 second(s)",
+          "enemies": [
+            {
+              "name": "Eremite Crossbow",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Eremite Sword-Dancer",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Eremite Axe Vanguard",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 11 opponent(s) within 360 second(s)",
+          "enemies": [
+            {
+              "name": "Eremite Crossbow",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Eremite Daythunder",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "Defeat 11 opponent(s) within 360 second(s)",
+          "enemies": [
+            {
+              "name": "Eremite Sword-Dancer",
+              "number": 1,
+              "level": 69
+            },
+            {
+              "name": "Eremite Axe Vanguard",
+              "number": 1,
+              "level": 69
+            },
+            {
+              "name": "Eremite Desert Clearwater",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Spire of Solitary Enlightenment III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) within 360 second(s)",
+          "enemies": [
+            {
+              "name": "Eremite Daythunder",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Eremite Crossbow",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Eremite Linebreaker",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Eremite Ravenbeak Halberdier",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) within 360 second(s)",
+          "enemies": [
+            {
+              "name": "Eremite Desert Clearwater",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Eremite Sunfrost",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Spire of Solitary Enlightenment IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 3 opponent(s) within 360 second(s)",
+          "enemies": [
+            {
+              "name": "Eremite Daythunder/",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Eremite Desert Clearwater",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Eremite Sunfrost",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

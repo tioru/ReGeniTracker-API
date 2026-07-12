@@ -1,0 +1,221 @@
+{
+  "name": "Moonchild's Treasures",
+  "domainType": "Domain of Blessing",
+  "location": {
+    "mainLocation": "Nod-Krai",
+    "subLocation": "Ashveil Peak"
+  },
+  "description": "In an age long forgotten by those who now dwell beneath the moon, the descendants of the far north once raised a tower upon this land. To the followers of the morning star, it served as a sign of their resolve to resist the decree of fate and the will of the gods, and it bore witness to a dream that once shone with radiant brilliance before the sky-fire reduced it to ash. Within this place, the priests of the Moonchildren concealed the last sparks of an ancient civilization's splendor and its long-lost miracles. Their hope was that, when the light of the Welkin Moon at last returned to the earth, it would lead the wandering and displaced back to their former paradise. Yet when the tower fell and its sacred Mekhaneikos were carried off by those with ill intent, the last generations of that distant era let even their hope fade from memory, and they drifted into the shadow of ignorance and confusion. Now, only the owls that remain among these ruins give voice to the dream that time has buried, lamenting what once was and what has long since been forgotten.",
+  "recommendedElements": [
+    "Hydro",
+    "Geo",
+    "Electro",
+    "Dendro"
+  ],
+  "releaseVersion": "Luna IV",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Moonchild's Treasures I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Oprichniki Vanguard",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Force Recon Storm Landcruiser",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Oprichniki Fireblade Shock Trooper",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Force Recon Ground Effect Landcruiser",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Moonchild's Treasures II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Oprichniki Vanguard",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Force Recon Storm Landcruiser",
+              "number": 2,
+              "level": 69
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Oprichniki Fireblade Shock Trooper",
+              "number": 1,
+              "level": 69
+            },
+            {
+              "name": "Force Recon Ground Effect Landcruiser",
+              "number": 2,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Moonchild's Treasures III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Oprichniki Vanguard",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Force Recon Storm Landcruiser",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Oprichniki Fireblade Shock Trooper",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Force Recon Ground Effect Landcruiser",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Moonchild's Treasures IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Fisher of Hidden Depths",
+              "number": 3,
+              "level": 90
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Fisher of Hidden Depths",
+              "number": 3,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

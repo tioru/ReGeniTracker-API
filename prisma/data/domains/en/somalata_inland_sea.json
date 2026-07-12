@@ -1,0 +1,65 @@
+{
+  "name": "Somalata Inland Sea",
+  "domainType": "One-Time",
+  "location": {
+    "mainLocation": "Sumeru",
+    "subLocation": "Realm of Farakhkert"
+  },
+  "description": "The fragrant sea underneath the desert is still as luxuriant today as it has always been. Nobody knows when the marvelous sentient Fungi moved in and became part of the ecology of the underground ocean.",
+  "recommendedElements": [
+    "Hydro"
+  ],
+  "releaseVersion": "3.6",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Somalata Inland Sea I",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat all enemies",
+          "enemies": [
+            {
+              "name": "Stretchy Electro Fungus",
+              "number": 2
+            },
+            {
+              "name": "Floating Dendro Fungus",
+              "number": 1
+            },
+            {
+              "name": "Grounded Geoshroom",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat all enemies",
+          "enemies": [
+            {
+              "name": "Floating Anemo Fungus",
+              "number": 2
+            },
+            {
+              "name": "Winged Dendroshroom",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "Defeat all enemies",
+          "enemies": [
+            {
+              "name": "Consecrated Horned Crocodile",
+              "number": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

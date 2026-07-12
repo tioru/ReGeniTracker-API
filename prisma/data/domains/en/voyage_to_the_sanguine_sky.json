@@ -1,0 +1,43 @@
+{
+  "name": "Voyage to the Sanguine Sky",
+  "domainType": "Level",
+  "location": {
+    "mainLocation": "Liyue",
+    "subLocation": "Qiongji Estuary"
+  },
+  "description": "This is the Realm of Clouds. Guizhong, its former ruler, acquired several ancient and evil artifacts during her research into mechanics. The adepti created this realm to contain them.",
+  "recommendedElements": [
+    "Pyro",
+    "Electro",
+    "Cryo",
+    "Anemo"
+  ],
+  "releaseVersion": "1.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Voyage to the Sanguine Sky I",
+      "teamLevelRecommanded": 60,
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat all enemies.",
+          "enemies": [
+            {
+              "name": "Ruin Guard",
+              "number": 2,
+              "level": 60
+            },
+            {
+              "name": "Ruin Hunter",
+              "number": 1,
+              "level": 60
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "name": "Frostladen Machinery",
+  "domainType": "Domain of Blessing",
+  "location": {
+    "mainLocation": "Nod-Krai",
+    "subLocation": "Paha Isle"
+  },
+  "description": "Many sacrifices were made, many obstacles overcome, and many such colossal machines were constructed and then abandoned, all for the sake of ever grander visions. Today, now that this greater goal seems so close at hand, this once-rumbling experimental outpost has come to the end of its service. Its colossal devices have fallen into slumber, leaving behind naught but cold silence.",
+  "recommendedElements": [
+    "Dendro",
+    "Electro",
+    "Hydro"
+  ],
+  "releaseVersion": "Luna I",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Frostladen Machinery I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) in 300 seconds",
+          "enemies": [
+            {
+              "name": "Oprichniki Bombardier",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Oprichniki Medic",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) in 300 seconds",
+          "enemies": [
+            {
+              "name": "Oprichniki Grenadier",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Cutting Edge All-Purpose Scout Landcruiser",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Frostladen Machinery II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) in 300 seconds",
+          "enemies": [
+            {
+              "name": "Oprichniki Bombardier",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Oprichniki Medic",
+              "number": 2,
+              "level": 69
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) in 300 seconds",
+          "enemies": [
+            {
+              "name": "Oprichniki Grenadier",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Cutting Edge All-Purpose Scout Landcruiser",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Frostladen Machinery III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 2 opponent(s) in 300 seconds",
+          "enemies": [
+            {
+              "name": "Wilderness Exile",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Frostladen Machinery IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 1 opponent(s) in 300 seconds",
+          "enemies": [
+            {
+              "name": "Wilderness Hunter",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

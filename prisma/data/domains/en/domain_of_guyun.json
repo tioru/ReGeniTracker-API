@@ -1,0 +1,329 @@
+{
+  "name": "Domain of Guyun",
+  "domainType": "Domain of Blessing",
+  "location": {
+    "mainLocation": "Liyue",
+    "subLocation": "Sea of Clouds"
+  },
+  "description": "Delusions and disappointments of an ancient ambition to lead humanity are gathered here. It refuses to give up on its lofty ambitions, though it is for now consigned to fester in the cavernous depths of Guyun.",
+  "recommendedElements": [
+    "Electro"
+  ],
+  "releaseVersion": "1.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Domain of Guyun I",
+      "teamLevelRecommanded": 34,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1525
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 28 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 21,
+              "level": 34
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 1,
+              "level": 34
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 28 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 5,
+              "level": 34
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 1,
+              "level": 34
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Domain of Guyun II",
+      "teamLevelRecommanded": 47,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1700
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 22 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Pyro Slime",
+              "number": 5,
+              "level": 47
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 22 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Pyro Slime",
+              "number": 6,
+              "level": 47
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "Defeat 22 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 2,
+              "level": 47
+            }
+          ]
+        },
+        {
+          "wave": 4,
+          "description": "Defeat 22 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 2,
+              "level": 47
+            },
+            {
+              "name": "Pyro Slime",
+              "number": 4,
+              "level": 47
+            }
+          ]
+        },
+        {
+          "wave": 5,
+          "description": "Defeat 22 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 47
+            },
+            {
+              "name": "Pyro Slime",
+              "number": 2,
+              "level": 47
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Domain of Guyun III",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 20 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Cryo Slime",
+              "number": 15,
+              "level": 59
+            },
+            {
+              "name": "Large Cryo Slime",
+              "number": 4,
+              "level": 59
+            },
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Domain of Guyun IV",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 20 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 5,
+              "level": 69
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 6,
+              "level": 69
+            },
+            {
+              "name": "Hilichurl Fighter",
+              "number": 6,
+              "level": 69
+            },
+            {
+              "name": "Hydro Samachurl",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Hydro Abyss Mage",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Domain of Guyun V",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 1 opponent(s) within 120 seconds",
+          "enemies": [
+            {
+              "name": "Ruin Guard",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Domain of Guyun VI",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 3 opponent(s) within 420 seconds",
+          "enemies": [
+            {
+              "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Fatui Skirmisher - Electrohammer Vanguard",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 3 opponent(s) within 420 seconds",
+          "enemies": [
+            {
+              "name": "Ruin Guard",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

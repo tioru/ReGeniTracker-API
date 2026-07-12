@@ -1,0 +1,219 @@
+{
+  "name": "City of Gold",
+  "domainType": "Domain of Blessing",
+  "location": {
+    "mainLocation": "Sumeru",
+    "subLocation": "Land of Lower Setekh"
+  },
+  "description": "This stronghold, once protected by seven mighty battlements, crumbled overnight when King Deshret fell and an age of chaos ensued. Where gold-eyed warriors once stood guard over watchtowers of gilded luster, now, only a desiccated temple built upon sundered rocks remains, more akin to a tomb for an age of radiance long lost.",
+  "recommendedElements": [
+    "Anemo"
+  ],
+  "releaseVersion": "3.3",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "City of Gold I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 12 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 3,
+              "level": 59
+            },
+            {
+              "name": "Pyro Slime",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Stretchy Pyro Fungus",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Cryo Slime",
+              "number": 4,
+              "level": 59
+            },
+            {
+              "name": "Large Electro Slime",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "City of Gold II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 12 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 69
+            },
+            {
+              "name": "Cryo Slime",
+              "number": 4,
+              "level": 69
+            },
+            {
+              "name": "Pyro Slime",
+              "number": 4,
+              "level": 69
+            },
+            {
+              "name": "Whirling Electro Fungus",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Winged Cryoshroom",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "City of Gold III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Grounded Geoshroom",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Grounded Hydroshroom",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "City of Gold IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 8 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 2,
+              "level": 90
+            },
+            {
+              "name": "Grounded Hydroshroom",
+              "number": 2,
+              "level": 90
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 2,
+              "level": 90
+            },
+            {
+              "name": "Grounded Geoshroom",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Winged Cryoshroom",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

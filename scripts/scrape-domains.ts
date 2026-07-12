@@ -11,142 +11,67 @@ const CACHE_PATH = path.resolve(__dirname, './cache/domains-raw-cache.json');
 // ─────────────────────────────────────────────────────────────────────────────
 // NOTE
 //
-// Les templates {{Domain Levels/Mastery}}, {{Domain Levels/Forgery}} et
-// {{Domain Levels/Blessing}} ne sont PAS paramétrés par domaine : ce sont des
-// tableaux génériques et fixes (AR / Party Level / Adventure EXP / Mora /
-// Companionship EXP) identiques pour tous les domaines d'un même type. Ils
-// sont donc codés en dur ci-dessous (REWARD_TABLES) plutôt que scrapés.
+// Confirmé sur 3 domaines réels (Lightless Capital/Mastery, Lost Mooncourt/
+// Forgery, Frostladen Machinery/Blessing) : Mora / Adventure EXP /
+// Companionship EXP dépendent uniquement du "team level" (recLevel), PAS du
+// type de domaine. Ex: recLevel=59 donne Mora=1850 / CompanionshipEXP=15
+// aussi bien pour un domaine Forgery que Blessing. On utilise donc une seule
+// table indexée par partyLevel plutôt que 3 tables séparées par type.
+//
+// requiredAR / recLevel sont normalement présents directement sur la page du
+// domaine (contrairement à ce qu'on pensait au départ) — Lightless Capital,
+// où requiredAR est mis en commentaire HTML, est une exception, pas la norme.
 //
 // Les données spécifiques à chaque domaine (cibles + vagues d'ennemis)
 // viennent du template {{Domain Enemies}} présent sur la page du domaine,
 // au format "Nom*quantité" séparé par ";" (ennemis d'une vague) et "//"
 // (vagues d'un même niveau).
 //
-// Trounce Domains : pas de données de référence pour l'instant (structure
-// probablement différente, à confirmer avec un exemple concret).
+// Trounce Domains (ex: Beneath the Dragon-Queller) ont une structure
+// complètement différente ({{Weekly Boss Rewards}}, pas de vagues
+// d'ennemis) : le script les laisse volontairement avec rewards/levels
+// vides plutôt que de deviner une structure incorrecte. À compléter
+// séparément si besoin.
 // ─────────────────────────────────────────────────────────────────────────────
 
 interface LevelReward {
-  ar: number;
-  partyLevel: number;
   adventureExp: number;
   mora: number;
   companionshipExp: number;
 }
 
-// Tableaux génériques extraits des templates Domain Levels/{Mastery,Forgery}.
-// Chaque domaine de ce type utilise exactement ces 4 paliers, dans l'ordre.
-const REWARD_TABLES: Record<'Mastery' | 'Forgery', LevelReward[]> = {
-  Mastery: [
-    {
-      ar: 27,
-      partyLevel: 38,
-      adventureExp: 100,
-      mora: 1575,
-      companionshipExp: 15,
-    },
-    {
-      ar: 28,
-      partyLevel: 54,
-      adventureExp: 100,
-      mora: 1800,
-      companionshipExp: 15,
-    },
-    {
-      ar: 36,
-      partyLevel: 71,
-      adventureExp: 100,
-      mora: 2050,
-      companionshipExp: 20,
-    },
-    {
-      ar: 45,
-      partyLevel: 88,
-      adventureExp: 100,
-      mora: 2375,
-      companionshipExp: 20,
-    },
-  ],
-  Forgery: [
-    {
-      ar: 16,
-      partyLevel: 15,
-      adventureExp: 100,
-      mora: 1125,
-      companionshipExp: 10,
-    },
-    {
-      ar: 21,
-      partyLevel: 36,
-      adventureExp: 100,
-      mora: 1550,
-      companionshipExp: 15,
-    },
-    {
-      ar: 30,
-      partyLevel: 59,
-      adventureExp: 100,
-      mora: 1850,
-      companionshipExp: 15,
-    },
-    {
-      ar: 40,
-      partyLevel: 80,
-      adventureExp: 100,
-      mora: 2200,
-      companionshipExp: 20,
-    },
-  ],
+// Table combinée, indexée par team/party level, construite à partir des 3
+// domaines de référence ci-dessus. Si un nouveau domaine utilise un
+// partyLevel absent d'ici, getRewardForPartyLevel renverra undefined et un
+// avertissement sera loggé — il suffit alors d'ajouter la ligne manquante.
+const PARTY_LEVEL_REWARDS: Record<number, LevelReward> = {
+  15: { adventureExp: 100, mora: 1125, companionshipExp: 10 },
+  34: { adventureExp: 100, mora: 1525, companionshipExp: 15 },
+  36: { adventureExp: 100, mora: 1550, companionshipExp: 15 },
+  38: { adventureExp: 100, mora: 1575, companionshipExp: 15 },
+  47: { adventureExp: 100, mora: 1700, companionshipExp: 15 },
+  54: { adventureExp: 100, mora: 1800, companionshipExp: 15 },
+  59: { adventureExp: 100, mora: 1850, companionshipExp: 15 },
+  69: { adventureExp: 100, mora: 2025, companionshipExp: 20 },
+  71: { adventureExp: 100, mora: 2050, companionshipExp: 20 },
+  80: { adventureExp: 100, mora: 2200, companionshipExp: 20 },
+  88: { adventureExp: 100, mora: 2375, companionshipExp: 20 },
+  90: { adventureExp: 100, mora: 2525, companionshipExp: 20 },
 };
 
-// Domain Levels/Blessing a jusqu'à 6 paliers (I à VI) ; certains domaines de
-// Blessing n'en utilisent qu'une partie (les N derniers, alignés sur le
-// palier VI qui est toujours présent). On aligne donc par la fin de ce
-// tableau selon le nombre réel de niveaux trouvés via {{Domain Enemies}}.
-const BLESSING_REWARD_TABLE: LevelReward[] = [
-  {
-    ar: 22,
-    partyLevel: 34,
-    adventureExp: 100,
-    mora: 1525,
-    companionshipExp: 15,
-  },
-  {
-    ar: 25,
-    partyLevel: 47,
-    adventureExp: 100,
-    mora: 1700,
-    companionshipExp: 15,
-  },
-  {
-    ar: 30,
-    partyLevel: 59,
-    adventureExp: 100,
-    mora: 1850,
-    companionshipExp: 15,
-  },
-  {
-    ar: 35,
-    partyLevel: 69,
-    adventureExp: 100,
-    mora: 2025,
-    companionshipExp: 20,
-  },
-  {
-    ar: 40,
-    partyLevel: 80,
-    adventureExp: 100,
-    mora: 2200,
-    companionshipExp: 20,
-  },
-  {
-    ar: 45,
-    partyLevel: 90,
-    adventureExp: 100,
-    mora: 2525,
-    companionshipExp: 20,
-  },
-];
+function getRewardForPartyLevel(
+  partyLevel: number | undefined,
+  context: string, // ex: "Forsaken Rift (niveau II)" — pour tracer facilement la source du warning
+): LevelReward | undefined {
+  if (partyLevel === undefined) return undefined;
+  const reward = PARTY_LEVEL_REWARDS[partyLevel];
+  if (!reward) {
+    console.warn(
+      `⚠️  Aucune récompense connue pour partyLevel=${partyLevel} (${context}). Ajoute une entrée dans PARTY_LEVEL_REWARDS.`,
+    );
+  }
+  return reward;
+}
 
 interface RawEnemy {
   name: string;
@@ -154,8 +79,16 @@ interface RawEnemy {
 }
 
 interface RawLevel {
-  target: string; // ex: "Defeat 7 opponent(s) within 300 second(s)"
+  targets: string[]; // un segment par vague (généralement identique pour toutes, mais peut différer, ex: vague normale + vague boss)
   waves: RawEnemy[][]; // une entrée par vague
+}
+
+interface RawRotation {
+  baseDays: string[]; // ["monday", "thursday"], ["tuesday", "friday"] ou ["wednesday", "saturday"]
+  name: string;
+  // quality -> nom complet du matériau (déjà donné entier par le wiki,
+  // ex: "Teachings of Moonlight" ou "Artful Device Fragment")
+  materialsByQuality: Record<number, string>;
 }
 
 interface RawDomain {
@@ -168,14 +101,7 @@ interface RawDomain {
   recommendedElements: string[];
   recLevels: number[]; // "recLevel" splitté par "/", un par palier
   releaseVersion: string;
-  rewardsByWeekday: Record<
-    string,
-    {
-      name: string;
-      // quality -> nom du matériau (2 = Teachings/basique, 3 = Guide, 4 = Philosophies, 5 = éventuel palier 5★)
-      materialsByQuality: Record<number, string>;
-    }
-  >;
+  rotations: RawRotation[]; // 0 à 3 rotations (les domaines n'ayant pas de {{Domain by Weekday}} en ont 0)
   levels: RawLevel[];
 }
 
@@ -217,6 +143,7 @@ function parseInfoboxFields(block: string): Record<string, string> {
 function cleanWikitext(text: string): string {
   if (!text) return '';
   return text
+    .replace(/<!--[\s\S]*?-->/g, '') // commentaires HTML (ex: |requiredAR = <!-- 27/28/36/45 -->)
     .replace(/\[\[([^\]|]*)\|([^\]]*)\]\]/g, '$2')
     .replace(/\[\[([^\]]*)\]\]/g, '$1')
     .replace(/'''''/g, '')
@@ -282,19 +209,23 @@ function domainTypeLabel(rawType: string): string {
 // Champs attendus (cf. Genshin Impact Wiki:Domain Pages Guide) :
 // mon-name, mon-2, mon-3, mon-4, mon-5, tue-name, tue-2, ... wed-name, wed-2, ...
 // (mon-2/mon-3/mon-4 = qualité 2/3/4 ; mon-5 optionnel pour les domaines 5★)
-function parseWeekdayRewards(content: string): RawDomain['rewardsByWeekday'] {
+//
+// Chaque rotation (mon/tue/wed) couvre en réalité 2 jours (le contenu du wiki
+// mon-* s'applique aussi bien le lundi que le jeudi, etc.) : on l'encode
+// directement dans baseDays plutôt que de dupliquer 2x la même donnée.
+function parseRotations(content: string): RawRotation[] {
   const block = extractBracedBlock(content, '{{Domain by Weekday');
-  const result: RawDomain['rewardsByWeekday'] = {};
+  const result: RawRotation[] = [];
   if (!block) return result;
 
   const fields = parseInfoboxFields(block);
-  const days: Record<string, string> = {
-    mon: 'monday',
-    tue: 'tuesday',
-    wed: 'wednesday',
+  const days: Record<string, string[]> = {
+    mon: ['monday', 'thursday'],
+    tue: ['tuesday', 'friday'],
+    wed: ['wednesday', 'saturday'],
   };
 
-  for (const [prefix, dayName] of Object.entries(days)) {
+  for (const [prefix, baseDays] of Object.entries(days)) {
     const name = fields[`${prefix}-name`];
     if (!name) continue;
 
@@ -304,10 +235,11 @@ function parseWeekdayRewards(content: string): RawDomain['rewardsByWeekday'] {
       if (value) materialsByQuality[quality] = cleanWikitext(value);
     }
 
-    result[dayName] = {
+    result.push({
+      baseDays,
       name: cleanWikitext(name),
       materialsByQuality,
-    };
+    });
   }
 
   return result;
@@ -346,31 +278,28 @@ function parseLevels(content: string): RawLevel[] {
     const enemies = fields[`enemies${i}`];
     if (!target && !enemies) break; // plus de palier au-delà de i-1
 
-    levels.push({
-      target: cleanWikitext(target ?? ''),
-      waves: enemies ? parseEnemiesString(enemies) : [],
-    });
+    const waves = enemies ? parseEnemiesString(enemies) : [];
+
+    // La cible peut contenir plusieurs segments séparés par "//" (un par
+    // vague, ex: Cecilia Garden IV = vague normale + vague "boss" avec un
+    // objectif différent). Si un seul segment est présent, on le réutilise
+    // pour toutes les vagues (cas le plus courant).
+    const targetSegments = (target ?? '')
+      .split('//')
+      .map((t) => cleanWikitext(t))
+      .filter(Boolean);
+    const targets =
+      targetSegments.length > 0
+        ? waves.map(
+            (_, idx) =>
+              targetSegments[idx] ?? targetSegments[targetSegments.length - 1],
+          )
+        : [];
+
+    levels.push({ targets, waves });
   }
 
   return levels;
-}
-
-// Associe à chaque palier (1-based) sa ligne de récompenses génériques,
-// selon le type de domaine. Pour Blessing, on aligne par la fin du tableau
-// des 6 paliers max (les domaines à moins de 6 paliers sautent les premiers).
-function getRewardForLevel(
-  domainTypeRaw: string,
-  levelIndex: number, // 1-based
-  totalLevels: number,
-): LevelReward | undefined {
-  const type = domainTypeRaw.trim().toLowerCase();
-  if (type === 'mastery') return REWARD_TABLES.Mastery[levelIndex - 1];
-  if (type === 'forgery') return REWARD_TABLES.Forgery[levelIndex - 1];
-  if (type === 'blessing') {
-    const offset = BLESSING_REWARD_TABLE.length - totalLevels;
-    return BLESSING_REWARD_TABLE[offset + levelIndex - 1];
-  }
-  return undefined; // Trounce / autres: pas de table de référence pour l'instant
 }
 
 // ── API ───────────────────────────────────────────────────────────────────────
@@ -426,7 +355,7 @@ async function fetchBatch(gcmcontinue?: string): Promise<{
         .map((v) => parseInt(v.trim(), 10))
         .filter((v) => !Number.isNaN(v)),
       releaseVersion: version,
-      rewardsByWeekday: parseWeekdayRewards(content),
+      rotations: parseRotations(content),
       levels: parseLevels(content),
     });
   }
@@ -477,47 +406,39 @@ function writeDomainFiles(domains: RawDomain[], versionFilter?: string[]) {
   // Nom des paliers de qualité pour les récompenses hebdomadaires (Talent Books).
   // Pour d'autres types de domaines (Weapon Ascension Materials, Artifacts),
   // ces libellés ne s'appliquent pas forcément — à adapter si besoin.
-  const QUALITY_PREFIX: Record<number, string> = {
-    2: 'Teachings of',
-    3: 'Guide to',
-    4: 'Philosophies of',
-  };
-
   let written = 0;
   for (const domain of filtered) {
     const filename = `${slugify(domain.title)}.json`;
-    const totalLevels = domain.levels.length;
 
-    const rewardsByDay: Record<string, unknown> = {};
-    for (const [day, info] of Object.entries(domain.rewardsByWeekday)) {
-      rewardsByDay[day] = {
-        name: info.name,
-        reward: Object.entries(info.materialsByQuality).map(
-          ([quality, materialName]) => ({
-            quality: Number(quality),
-            // Si materialName est déjà un nom complet (ex: "Teachings of Moonlight"),
-            // on le garde tel quel ; sinon on préfixe avec le libellé de qualité.
-            name: /^(teachings of|guide to|philosophies of)/i.test(materialName)
-              ? materialName
-              : `${QUALITY_PREFIX[Number(quality)] ?? ''} ${materialName}`.trim(),
-          }),
-        ),
-      };
-    }
+    // Chaque rotation est active ses 2 jours de base + le dimanche (règle du
+    // jeu : le dimanche, TOUS les jeux de matériaux sont disponibles en même
+    // temps). Encodé ici plutôt que dupliqué : "sunday" apparaît dans les 3
+    // rotations sans qu'on ait à créer une 4e entrée séparée.
+    const rewards = domain.rotations.map((rotation) => ({
+      days: [...rotation.baseDays, 'sunday'],
+      name: rotation.name,
+      // Les valeurs du wiki sont déjà les noms complets des matériaux
+      // (ex: "Teachings of Moonlight", "Artful Device Fragment") : pas de
+      // préfixage à faire, contrairement à ce qu'on pensait au départ.
+      reward: Object.entries(rotation.materialsByQuality).map(
+        ([quality, materialName]) => ({
+          quality: Number(quality),
+          name: materialName,
+        }),
+      ),
+    }));
 
     const levels = domain.levels.map((level, idx) => {
       const levelIndex = idx + 1;
       const teamLevelRecommanded = domain.recLevels[idx];
-      const reward = getRewardForLevel(
-        domain.domainTypeRaw,
-        levelIndex,
-        totalLevels,
+      const reward = getRewardForPartyLevel(
+        teamLevelRecommanded,
+        `${domain.title} ${toRoman(levelIndex)}`,
       );
 
       return {
         level: levelIndex,
         name: `${domain.title} ${toRoman(levelIndex)}`,
-        description: level.target,
         teamLevelRecommanded,
         rewards: reward
           ? [
@@ -525,9 +446,14 @@ function writeDomainFiles(domains: RawDomain[], versionFilter?: string[]) {
               { name: 'Mora', quantity: reward.mora },
               { name: 'Companionship EXP', quantity: reward.companionshipExp },
             ]
-          : [], // type de domaine sans table de référence (ex: Trounce) → à compléter
+          : [], // partyLevel absent de PARTY_LEVEL_REWARDS → table à compléter (voir warning console)
+        // La description (objectif) est propre à chaque vague : la plupart
+        // des niveaux n'ont qu'une vague donc ça revient au même que avant,
+        // mais certains niveaux (ex: Cecilia Garden IV) ont un objectif
+        // différent par vague (vague normale puis vague "boss").
         waves: level.waves.map((wave, waveIdx) => ({
           wave: waveIdx + 1,
+          description: level.targets[waveIdx] ?? '',
           enemies: wave.map((enemy) => ({
             name: enemy.name,
             number: enemy.number,
@@ -547,7 +473,7 @@ function writeDomainFiles(domains: RawDomain[], versionFilter?: string[]) {
       description: domain.description,
       recommendedElements: domain.recommendedElements,
       releaseVersion: domain.releaseVersion,
-      rewards: rewardsByDay,
+      rewards,
       levels,
     };
 

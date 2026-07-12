@@ -1,0 +1,61 @@
+{
+  "name": "Red Desert Threshold",
+  "domainType": "One-Time",
+  "location": {
+    "mainLocation": "Sumeru",
+    "subLocation": "Land of Lower Setekh"
+  },
+  "description": "Legend has it that were once a prince who was exiled by his father and imprisoned in this jail. The bronze revelation first emerged here in this lonely, forgotten place where there is neither day nor night.",
+  "recommendedElements": [
+    "Dendro"
+  ],
+  "releaseVersion": "3.1",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Red Desert Threshold I",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat all enemies",
+          "enemies": [
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 1
+            },
+            {
+              "name": "Wooden Shieldwall Mitachurl",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat all enemies",
+          "enemies": [
+            {
+              "name": "Geovishap",
+              "number": 2
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "Defeat all enemies",
+          "enemies": [
+            {
+              "name": "Thunderhelm Lawachurl",
+              "number": 1
+            },
+            {
+              "name": "Stonehide Lawachurl",
+              "number": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

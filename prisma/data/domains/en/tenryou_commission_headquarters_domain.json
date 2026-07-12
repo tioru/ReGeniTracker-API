@@ -1,0 +1,73 @@
+{
+  "name": "Tenryou Commission Headquarters (Domain)",
+  "domainType": "Quest Domain",
+  "location": {
+    "mainLocation": "Inazuma",
+    "subLocation": "Narukami Island"
+  },
+  "description": "",
+  "recommendedElements": [],
+  "releaseVersion": "2.1",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Tenryou Commission Headquarters (Domain) I",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat the Tenryou Commission Guards",
+          "enemies": [
+            {
+              "name": "Shogunate Infantry",
+              "number": 4,
+              "level": 90
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat the Tenryou Commission Guard reinforcements",
+          "enemies": [
+            {
+              "name": "Shogunate Infantry",
+              "number": 6,
+              "level": 90
+            },
+            {
+              "name": "Shogunate Infantry Captain",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "Defeat the Internal Affairs Head",
+          "enemies": [
+            {
+              "name": "Yoriki Samurai",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

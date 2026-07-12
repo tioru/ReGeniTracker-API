@@ -1,16 +1,15 @@
 {
-  "name": "Lightless Capital",
+  "name": "Forsaken Rift",
   "domainType": "Domain of Mastery",
   "location": {
-    "mainLocation": "Nod-Krai",
-    "subLocation": "Lempo Isle"
+    "mainLocation": "Mondstadt",
+    "subLocation": "Windwail Highland"
   },
-  "description": "Hundreds of years ago, Nod-Krai too experienced a golden age, where adventurers and treasure hunters gathered in droves at the prosperous city that bore the weight of humanity's arrogant dreams, its steel sinews and iron bones reflecting industrial and technological glory at the very edge of the world. Then calamity descended, and objects both living and not were dragged equally into the darkness, while past vibrance and opulence were buried by the ruthless march of time.",
+  "description": "It is said in ancient times, people would venture into the valley to seek out the ancient tree on the altar. They would whisper their secrets into the tree hole, relieving themselves of the burden of keeping the secrets to themselves. The Forsaken Rift is filled with long-forgotten secrets.",
   "recommendedElements": [
-    "Hydro",
-    "Electro"
+    "Pyro"
   ],
-  "releaseVersion": "Luna I",
+  "releaseVersion": "1.0",
   "rewards": [
     {
       "days": [
@@ -18,19 +17,19 @@
         "thursday",
         "sunday"
       ],
-      "name": "Fallen City",
+      "name": "Frosted Altar",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Moonlight"
+          "name": "Teachings of Freedom"
         },
         {
           "quality": 3,
-          "name": "Guide to Moonlight"
+          "name": "Guide to Freedom"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Moonlight"
+          "name": "Philosophies of Freedom"
         }
       ]
     },
@@ -40,19 +39,19 @@
         "friday",
         "sunday"
       ],
-      "name": "Shadowed Legacy",
+      "name": "Frozen Abyss",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Elysium"
+          "name": "Teachings of Resistance"
         },
         {
           "quality": 3,
-          "name": "Guide to Elysium"
+          "name": "Guide to Resistance"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Elysium"
+          "name": "Philosophies of Resistance"
         }
       ]
     },
@@ -62,19 +61,19 @@
         "saturday",
         "sunday"
       ],
-      "name": "Overturned Roost",
+      "name": "Realm of Slumber",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Vagrancy"
+          "name": "Teachings of Ballad"
         },
         {
           "quality": 3,
-          "name": "Guide to Vagrancy"
+          "name": "Guide to Ballad"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Vagrancy"
+          "name": "Philosophies of Ballad"
         }
       ]
     }
@@ -82,7 +81,7 @@
   "levels": [
     {
       "level": 1,
-      "name": "Lightless Capital I",
+      "name": "Forsaken Rift I",
       "teamLevelRecommanded": 38,
       "rewards": [
         {
@@ -101,32 +100,16 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 18 opponents within 360 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
-              "number": 2,
+              "name": "Cryo Slime",
+              "number": 15,
               "level": 38
             },
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 38
-            }
-          ]
-        },
-        {
-          "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
-          "enemies": [
-            {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 38
-            },
-            {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
+              "name": "Large Cryo Slime",
+              "number": 3,
               "level": 38
             }
           ]
@@ -135,7 +118,7 @@
     },
     {
       "level": 2,
-      "name": "Lightless Capital II",
+      "name": "Forsaken Rift II",
       "teamLevelRecommanded": 54,
       "rewards": [
         {
@@ -154,32 +137,21 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 20 opponents within 360 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
-              "number": 2,
+              "name": "Hilichurl Fighter",
+              "number": 7,
               "level": 54
             },
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 54
-            }
-          ]
-        },
-        {
-          "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
-          "enemies": [
-            {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Cryo Slime",
+              "number": 10,
               "level": 54
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
+              "name": "Large Cryo Slime",
+              "number": 3,
               "level": 54
             }
           ]
@@ -188,7 +160,7 @@
     },
     {
       "level": 3,
-      "name": "Lightless Capital III",
+      "name": "Forsaken Rift III",
       "teamLevelRecommanded": 71,
       "rewards": [
         {
@@ -207,15 +179,15 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 8 opponents within 360 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
-              "number": 2,
+              "name": "Cryo Slime",
+              "number": 3,
               "level": 71
             },
             {
-              "name": "Oprichniki Vanguard",
+              "name": "Large Cryo Slime",
               "number": 2,
               "level": 71
             }
@@ -223,16 +195,11 @@
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 8 opponents within 360 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 71
-            },
-            {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
+              "name": "Large Cryo Slime",
+              "number": 3,
               "level": 71
             }
           ]
@@ -241,7 +208,7 @@
     },
     {
       "level": 4,
-      "name": "Lightless Capital IV",
+      "name": "Forsaken Rift IV",
       "teamLevelRecommanded": 88,
       "rewards": [
         {
@@ -260,16 +227,33 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 3 opponent(s) within 300 second(s)",
+          "description": "Defeat 8 opponents within 480 seconds.",
           "enemies": [
             {
-              "name": "Cutting Edge Fire Support Ground Effect Landcruiser",
-              "number": 1,
+              "name": "Large Cryo Slime",
+              "number": 3,
               "level": 88
-            },
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 8 opponents within 480 seconds.",
+          "enemies": [
             {
-              "name": "Oprichniki Hailstorm Cannoneer",
+              "name": "Large Cryo Slime",
               "number": 2,
+              "level": 88
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "Defeat 8 opponents within 480 seconds.",
+          "enemies": [
+            {
+              "name": "Cryo Abyss Mage",
+              "number": 1,
               "level": 88
             }
           ]

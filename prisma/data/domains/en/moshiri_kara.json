@@ -1,0 +1,54 @@
+{
+  "name": "Moshiri Kara",
+  "domainType": "One-Time",
+  "location": {
+    "mainLocation": "Inazuma",
+    "subLocation": "Tsurumi Island"
+  },
+  "description": "A mansion that was set up somewhere outside the Sea of Fog. No one knows who built this place, but it seems clear that it is now nothing but a den of ravenous wolves.",
+  "recommendedElements": [
+    "Electro",
+    "Geo"
+  ],
+  "releaseVersion": "2.2",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Moshiri Kara I",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 22 opponents.",
+          "enemies": [
+            {
+              "name": "Thundercraven Rifthound Whelp",
+              "number": 7
+            },
+            {
+              "name": "Thundercraven Rifthound",
+              "number": 2
+            },
+            {
+              "name": "Rockfond Rifthound Whelp",
+              "number": 7
+            },
+            {
+              "name": "Rockfond Rifthound",
+              "number": 2
+            },
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 2
+            },
+            {
+              "name": "Rock Shieldwall Mitachurl",
+              "number": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

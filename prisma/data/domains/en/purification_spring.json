@@ -1,0 +1,44 @@
+{
+  "name": "Purification Spring",
+  "domainType": "One-Time",
+  "location": {
+    "mainLocation": "Sumeru",
+    "subLocation": "Realm of Farakhkert"
+  },
+  "description": "A water body said to be able to wash off all filth and connect to the sea within the earth. Perhaps because of the many similar scents and memories, it is still inhabited by monsters that devoured the remains of greater life forms.",
+  "recommendedElements": [
+    "Dendro",
+    "Hydro"
+  ],
+  "releaseVersion": "3.6",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Purification Spring I",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat all enemies",
+          "enemies": [
+            {
+              "name": "Consecrated Fanged Beast",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat all enemies",
+          "enemies": [
+            {
+              "name": "Consecrated Horned Crocodile",
+              "number": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

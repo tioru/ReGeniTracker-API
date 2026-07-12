@@ -1,0 +1,259 @@
+{
+  "name": "Cecilia Garden",
+  "domainType": "Domain of Forgery",
+  "location": {
+    "mainLocation": "Mondstadt",
+    "subLocation": "Windwail Highland"
+  },
+  "description": "The Cecilia flowers that only grow on high cliffs once bloomed in the greenhouses here. The ancient civilization that once enjoyed the scent of the Cecilia was lost, and so too was the sea of white flowers.",
+  "recommendedElements": [
+    "Electro"
+  ],
+  "releaseVersion": "1.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "City of Reflections",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Tile of Decarabian's Tower"
+        },
+        {
+          "quality": 3,
+          "name": "Debris of Decarabian's City"
+        },
+        {
+          "quality": 4,
+          "name": "Fragment of Decarabian's Epic"
+        },
+        {
+          "quality": 5,
+          "name": "Scattered Piece of Decarabian's Dream"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Submerged Valley",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Boreal Wolf's Milk Tooth"
+        },
+        {
+          "quality": 3,
+          "name": "Boreal Wolf's Cracked Tooth"
+        },
+        {
+          "quality": 4,
+          "name": "Boreal Wolf's Broken Fang"
+        },
+        {
+          "quality": 5,
+          "name": "Boreal Wolf's Nostalgia"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Ruins of Thirsting Capital",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Fetters of the Dandelion Gladiator"
+        },
+        {
+          "quality": 3,
+          "name": "Chains of the Dandelion Gladiator"
+        },
+        {
+          "quality": 4,
+          "name": "Shackles of the Dandelion Gladiator"
+        },
+        {
+          "quality": 5,
+          "name": "Dream of the Dandelion Gladiator"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Cecilia Garden I",
+      "teamLevelRecommanded": 15,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1125
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 10
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 20 enemies. Time between kills cannot exceed 20 seconds.",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 19,
+              "level": 15
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 1,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Cecilia Garden II",
+      "teamLevelRecommanded": 36,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1550
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 23 enemies. Time between kills cannot exceed 25 seconds.",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 12,
+              "level": 36
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 3,
+              "level": 36
+            },
+            {
+              "name": "Hilichurl Fighter",
+              "number": 8,
+              "level": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Cecilia Garden III",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 22 enemies. Time between kills cannot exceed 50 seconds.",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 13,
+              "level": 59
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 6,
+              "level": 59
+            },
+            {
+              "name": "Hydro Samachurl",
+              "number": 3,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Cecilia Garden IV",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 8 enemies. Time between kills cannot exceed 40 seconds.",
+          "enemies": [
+            {
+              "name": "Large Hydro Slime",
+              "number": 8,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 2 enemies. Time between kills cannot exceed 80 seconds.",
+          "enemies": [
+            {
+              "name": "Fatui Pyro Agent",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

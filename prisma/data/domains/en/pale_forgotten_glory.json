@@ -1,16 +1,19 @@
 {
-  "name": "Lightless Capital",
+  "name": "Pale Forgotten Glory",
   "domainType": "Domain of Mastery",
   "location": {
-    "mainLocation": "Nod-Krai",
-    "subLocation": "Lempo Isle"
+    "mainLocation": "Fontaine",
+    "subLocation": "Court of Fontaine Region"
   },
-  "description": "Hundreds of years ago, Nod-Krai too experienced a golden age, where adventurers and treasure hunters gathered in droves at the prosperous city that bore the weight of humanity's arrogant dreams, its steel sinews and iron bones reflecting industrial and technological glory at the very edge of the world. Then calamity descended, and objects both living and not were dragged equally into the darkness, while past vibrance and opulence were buried by the ruthless march of time.",
+  "description": "In the past, the great white armada that traversed the seas was Fontaine's supreme pride and glory, for the Mistress of Rivers and Oceans blessed her people with the authority and wish to conquer all the waters of the world. However, this lofty ambition was insufficient to overcome the laws of fate.<br>To this day, on the brass masts are inscribed the words: \"I have conquered the waves of the four seas.\"",
   "recommendedElements": [
+    "Geo",
     "Hydro",
+    "Pyro",
+    "Cryo",
     "Electro"
   ],
-  "releaseVersion": "Luna I",
+  "releaseVersion": "4.0",
   "rewards": [
     {
       "days": [
@@ -18,19 +21,19 @@
         "thursday",
         "sunday"
       ],
-      "name": "Fallen City",
+      "name": "Rhyming Rhythm",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Moonlight"
+          "name": "Teachings of Equity"
         },
         {
           "quality": 3,
-          "name": "Guide to Moonlight"
+          "name": "Guide to Equity"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Moonlight"
+          "name": "Philosophies of Equity"
         }
       ]
     },
@@ -40,19 +43,19 @@
         "friday",
         "sunday"
       ],
-      "name": "Shadowed Legacy",
+      "name": "Admonishing Engraving",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Elysium"
+          "name": "Teachings of Justice"
         },
         {
           "quality": 3,
-          "name": "Guide to Elysium"
+          "name": "Guide to Justice"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Elysium"
+          "name": "Philosophies of Justice"
         }
       ]
     },
@@ -62,19 +65,19 @@
         "saturday",
         "sunday"
       ],
-      "name": "Overturned Roost",
+      "name": "Chiming Recitation",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Vagrancy"
+          "name": "Teachings of Order"
         },
         {
           "quality": 3,
-          "name": "Guide to Vagrancy"
+          "name": "Guide to Order"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Vagrancy"
+          "name": "Philosophies of Order"
         }
       ]
     }
@@ -82,7 +85,7 @@
   "levels": [
     {
       "level": 1,
-      "name": "Lightless Capital I",
+      "name": "Pale Forgotten Glory I",
       "teamLevelRecommanded": 38,
       "rewards": [
         {
@@ -101,15 +104,10 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 3 enemies in 300 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
-              "number": 2,
-              "level": 38
-            },
-            {
-              "name": "Oprichniki Vanguard",
+              "name": "Shatterstone Breacher Primus",
               "number": 2,
               "level": 38
             }
@@ -117,15 +115,10 @@
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 3 enemies in 300 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 38
-            },
-            {
-              "name": "Oprichniki Fireblade Shock Trooper",
+              "name": "Large Shatterstone Breacher Primus",
               "number": 1,
               "level": 38
             }
@@ -135,7 +128,7 @@
     },
     {
       "level": 2,
-      "name": "Lightless Capital II",
+      "name": "Pale Forgotten Glory II",
       "teamLevelRecommanded": 54,
       "rewards": [
         {
@@ -154,31 +147,21 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 4 enemies in 300 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
-              "number": 2,
-              "level": 54
-            },
-            {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Overgrown Breacher Primus",
+              "number": 3,
               "level": 54
             }
           ]
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 4 enemies in 300 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 54
-            },
-            {
-              "name": "Oprichniki Fireblade Shock Trooper",
+              "name": "Large Overgrown Breacher Primus",
               "number": 1,
               "level": 54
             }
@@ -188,7 +171,7 @@
     },
     {
       "level": 3,
-      "name": "Lightless Capital III",
+      "name": "Pale Forgotten Glory III",
       "teamLevelRecommanded": 71,
       "rewards": [
         {
@@ -207,32 +190,11 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 2 enemies in 300 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
+              "name": "Large Shatterstone Breacher Primus",
               "number": 2,
-              "level": 71
-            },
-            {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 71
-            }
-          ]
-        },
-        {
-          "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
-          "enemies": [
-            {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 71
-            },
-            {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
               "level": 71
             }
           ]
@@ -241,7 +203,7 @@
     },
     {
       "level": 4,
-      "name": "Lightless Capital IV",
+      "name": "Pale Forgotten Glory IV",
       "teamLevelRecommanded": 88,
       "rewards": [
         {
@@ -260,15 +222,10 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 3 opponent(s) within 300 second(s)",
+          "description": "Defeat 2 enemies in 300 seconds.",
           "enemies": [
             {
-              "name": "Cutting Edge Fire Support Ground Effect Landcruiser",
-              "number": 1,
-              "level": 88
-            },
-            {
-              "name": "Oprichniki Hailstorm Cannoneer",
+              "name": "Large Overgrown Breacher Primus",
               "number": 2,
               "level": 88
             }

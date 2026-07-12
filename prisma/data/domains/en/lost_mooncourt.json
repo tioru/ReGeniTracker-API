@@ -1,14 +1,16 @@
 {
-  "name": "Lightless Capital",
-  "domainType": "Domain of Mastery",
+  "name": "Lost Mooncourt",
+  "domainType": "Domain of Forgery",
   "location": {
     "mainLocation": "Nod-Krai",
-    "subLocation": "Lempo Isle"
+    "subLocation": "Hiisi Island"
   },
-  "description": "Hundreds of years ago, Nod-Krai too experienced a golden age, where adventurers and treasure hunters gathered in droves at the prosperous city that bore the weight of humanity's arrogant dreams, its steel sinews and iron bones reflecting industrial and technological glory at the very edge of the world. Then calamity descended, and objects both living and not were dragged equally into the darkness, while past vibrance and opulence were buried by the ruthless march of time.",
+  "description": "There was a time when the moon did not rise in solitude as it does today. In those days, three moons caressed the earth with their silver light, and the lunar people knew the secrets of the lunar phases, being able to predict the tidal ebb and flow. Whatever they gently touched with their fingers would surge with moonlit might. Yet in the waning days, the moonlight dimmed, and the people, defenseless and leaderless, were scattered. Legend has it that the Frostmoon Scions constructed a lunar court in the border realms, summoning lost moonlight back to them. Today, that reflected light has disappeared from this forsaken altar. Where it once flowed through these stone carvings, there is now only frozen silence. Yet secrets unveiled in that quietude, perhaps the echoes of ancient oaths, still swirl about within the labyrinth of time.",
   "recommendedElements": [
+    "Dendro",
     "Hydro",
-    "Electro"
+    "Electro",
+    "Pyro"
   ],
   "releaseVersion": "Luna I",
   "rewards": [
@@ -18,19 +20,23 @@
         "thursday",
         "sunday"
       ],
-      "name": "Fallen City",
+      "name": "Radiant Splendor",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Moonlight"
+          "name": "Artful Device Fragment"
         },
         {
           "quality": 3,
-          "name": "Guide to Moonlight"
+          "name": "Artful Device Replica"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Moonlight"
+          "name": "Artful Device Inheritance"
+        },
+        {
+          "quality": 5,
+          "name": "Artful Device Wish"
         }
       ]
     },
@@ -40,19 +46,23 @@
         "friday",
         "sunday"
       ],
-      "name": "Shadowed Legacy",
+      "name": "Prayers Sung",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Elysium"
+          "name": "Ember of Long Night Flint"
         },
         {
           "quality": 3,
-          "name": "Guide to Elysium"
+          "name": "Afterglow of Long Night Flint"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Elysium"
+          "name": "Flare of Long Night Flint"
+        },
+        {
+          "quality": 5,
+          "name": "Blaze of Long Night Flint"
         }
       ]
     },
@@ -62,19 +72,23 @@
         "saturday",
         "sunday"
       ],
-      "name": "Overturned Roost",
+      "name": "Lunar Oblation",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Vagrancy"
+          "name": "Sundered Glory of the Far-North Scions"
         },
         {
           "quality": 3,
-          "name": "Guide to Vagrancy"
+          "name": "Unyielding Delusion of the Far-North Scions"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Vagrancy"
+          "name": "Oblation of the Far-North Scions"
+        },
+        {
+          "quality": 5,
+          "name": "Aureate Radiance of the Far-North Scions"
         }
       ]
     }
@@ -82,8 +96,8 @@
   "levels": [
     {
       "level": 1,
-      "name": "Lightless Capital I",
-      "teamLevelRecommanded": 38,
+      "name": "Lost Mooncourt I",
+      "teamLevelRecommanded": 15,
       "rewards": [
         {
           "name": "Adventure EXP",
@@ -91,11 +105,11 @@
         },
         {
           "name": "Mora",
-          "quantity": 1575
+          "quantity": 1125
         },
         {
           "name": "Companionship EXP",
-          "quantity": 15
+          "quantity": 10
         }
       ],
       "waves": [
@@ -106,12 +120,12 @@
             {
               "name": "Oprichniki Line Trooper",
               "number": 2,
-              "level": 38
+              "level": 15
             },
             {
-              "name": "Oprichniki Vanguard",
+              "name": "Oprichniki Medic",
               "number": 2,
-              "level": 38
+              "level": 15
             }
           ]
         },
@@ -120,14 +134,14 @@
           "description": "Defeat 7 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 38
+              "name": "Oprichniki Thunderblitz Gvardiya",
+              "number": 1,
+              "level": 15
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
-              "level": 38
+              "name": "Oprichniki Medic",
+              "number": 2,
+              "level": 15
             }
           ]
         }
@@ -135,8 +149,8 @@
     },
     {
       "level": 2,
-      "name": "Lightless Capital II",
-      "teamLevelRecommanded": 54,
+      "name": "Lost Mooncourt II",
+      "teamLevelRecommanded": 36,
       "rewards": [
         {
           "name": "Adventure EXP",
@@ -144,7 +158,7 @@
         },
         {
           "name": "Mora",
-          "quantity": 1800
+          "quantity": 1550
         },
         {
           "name": "Companionship EXP",
@@ -159,12 +173,12 @@
             {
               "name": "Oprichniki Line Trooper",
               "number": 2,
-              "level": 54
+              "level": 36
             },
             {
-              "name": "Oprichniki Vanguard",
+              "name": "Oprichniki Medic",
               "number": 2,
-              "level": 54
+              "level": 36
             }
           ]
         },
@@ -173,14 +187,14 @@
           "description": "Defeat 7 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 54
+              "name": "Oprichniki Thunderblitz Gvardiya",
+              "number": 1,
+              "level": 36
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
-              "level": 54
+              "name": "Oprichniki Medic",
+              "number": 2,
+              "level": 36
             }
           ]
         }
@@ -188,8 +202,8 @@
     },
     {
       "level": 3,
-      "name": "Lightless Capital III",
-      "teamLevelRecommanded": 71,
+      "name": "Lost Mooncourt III",
+      "teamLevelRecommanded": 59,
       "rewards": [
         {
           "name": "Adventure EXP",
@@ -197,11 +211,11 @@
         },
         {
           "name": "Mora",
-          "quantity": 2050
+          "quantity": 1850
         },
         {
           "name": "Companionship EXP",
-          "quantity": 20
+          "quantity": 15
         }
       ],
       "waves": [
@@ -212,12 +226,12 @@
             {
               "name": "Oprichniki Line Trooper",
               "number": 2,
-              "level": 71
+              "level": 59
             },
             {
-              "name": "Oprichniki Vanguard",
+              "name": "Oprichniki Medic",
               "number": 2,
-              "level": 71
+              "level": 59
             }
           ]
         },
@@ -226,14 +240,14 @@
           "description": "Defeat 7 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
-              "level": 71
+              "name": "Oprichniki Thunderblitz Gvardiya",
+              "number": 1,
+              "level": 59
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
-              "level": 71
+              "name": "Oprichniki Medic",
+              "number": 2,
+              "level": 59
             }
           ]
         }
@@ -241,8 +255,8 @@
     },
     {
       "level": 4,
-      "name": "Lightless Capital IV",
-      "teamLevelRecommanded": 88,
+      "name": "Lost Mooncourt IV",
+      "teamLevelRecommanded": 80,
       "rewards": [
         {
           "name": "Adventure EXP",
@@ -250,7 +264,7 @@
         },
         {
           "name": "Mora",
-          "quantity": 2375
+          "quantity": 2200
         },
         {
           "name": "Companionship EXP",
@@ -260,17 +274,12 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 3 opponent(s) within 300 second(s)",
+          "description": "Defeat 2 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Cutting Edge Fire Support Ground Effect Landcruiser",
-              "number": 1,
-              "level": 88
-            },
-            {
-              "name": "Oprichniki Hailstorm Cannoneer",
+              "name": "Cutting Edge All-Purpose Storm Landcruiser",
               "number": 2,
-              "level": 88
+              "level": 80
             }
           ]
         }

@@ -1,16 +1,17 @@
 {
-  "name": "Lightless Capital",
+  "name": "Taishan Mansion",
   "domainType": "Domain of Mastery",
   "location": {
-    "mainLocation": "Nod-Krai",
-    "subLocation": "Lempo Isle"
+    "mainLocation": "Liyue",
+    "subLocation": "Minlin"
   },
-  "description": "Hundreds of years ago, Nod-Krai too experienced a golden age, where adventurers and treasure hunters gathered in droves at the prosperous city that bore the weight of humanity's arrogant dreams, its steel sinews and iron bones reflecting industrial and technological glory at the very edge of the world. Then calamity descended, and objects both living and not were dragged equally into the darkness, while past vibrance and opulence were buried by the ruthless march of time.",
+  "description": "Once, people who sought the path of the adepti had to pass the trials of heavens and earth. Taishan Mansion served as the trial of \"earth.\" Now that the adepti have long departed from this realm, Taishan Mansion has also turned into a common treasure trove.",
   "recommendedElements": [
     "Hydro",
+    "Cryo",
     "Electro"
   ],
-  "releaseVersion": "Luna I",
+  "releaseVersion": "1.0",
   "rewards": [
     {
       "days": [
@@ -18,19 +19,19 @@
         "thursday",
         "sunday"
       ],
-      "name": "Fallen City",
+      "name": "Altar of Flames",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Moonlight"
+          "name": "Teachings of Prosperity"
         },
         {
           "quality": 3,
-          "name": "Guide to Moonlight"
+          "name": "Guide to Prosperity"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Moonlight"
+          "name": "Philosophies of Prosperity"
         }
       ]
     },
@@ -40,19 +41,19 @@
         "friday",
         "sunday"
       ],
-      "name": "Shadowed Legacy",
+      "name": "Heart of the Flames",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Elysium"
+          "name": "Teachings of Diligence"
         },
         {
           "quality": 3,
-          "name": "Guide to Elysium"
+          "name": "Guide to Diligence"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Elysium"
+          "name": "Philosophies of Diligence"
         }
       ]
     },
@@ -62,19 +63,19 @@
         "saturday",
         "sunday"
       ],
-      "name": "Overturned Roost",
+      "name": "Circle of Embers",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Vagrancy"
+          "name": "Teachings of Gold"
         },
         {
           "quality": 3,
-          "name": "Guide to Vagrancy"
+          "name": "Guide to Gold"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Vagrancy"
+          "name": "Philosophies of Gold"
         }
       ]
     }
@@ -82,7 +83,7 @@
   "levels": [
     {
       "level": 1,
-      "name": "Lightless Capital I",
+      "name": "Taishan Mansion I",
       "teamLevelRecommanded": 38,
       "rewards": [
         {
@@ -101,32 +102,32 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 20 opponents within 360 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
-              "number": 2,
+              "name": "Large Pyro Slime",
+              "number": 10,
               "level": 38
             },
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Pyro Slime",
+              "number": 5,
               "level": 38
             }
           ]
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 20 opponents within 360 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Large Pyro Slime",
+              "number": 1,
               "level": 38
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
+              "name": "Pyro Slime",
+              "number": 4,
               "level": 38
             }
           ]
@@ -135,7 +136,7 @@
     },
     {
       "level": 2,
-      "name": "Lightless Capital II",
+      "name": "Taishan Mansion II",
       "teamLevelRecommanded": 54,
       "rewards": [
         {
@@ -154,31 +155,36 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 12 opponents within 360 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
-              "number": 2,
+              "name": "Large Pyro Slime",
+              "number": 3,
               "level": 54
             },
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 54
+            },
+            {
+              "name": "Pyro Slime",
+              "number": 6,
               "level": 54
             }
           ]
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 12 opponents within 360 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Large Pyro Slime",
+              "number": 1,
               "level": 54
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
+              "name": "Large Pyro Slime",
               "number": 1,
               "level": 54
             }
@@ -188,7 +194,7 @@
     },
     {
       "level": 3,
-      "name": "Lightless Capital III",
+      "name": "Taishan Mansion III",
       "teamLevelRecommanded": 71,
       "rewards": [
         {
@@ -207,32 +213,27 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 8 opponents within 360 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
-              "number": 2,
+              "name": "Large Pyro Slime",
+              "number": 5,
               "level": 71
             },
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Large Pyro Slime",
+              "number": 1,
               "level": 71
             }
           ]
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 8 opponents within 360 seconds.",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
+              "name": "Large Pyro Slime",
               "number": 2,
-              "level": 71
-            },
-            {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
               "level": 71
             }
           ]
@@ -241,7 +242,7 @@
     },
     {
       "level": 4,
-      "name": "Lightless Capital IV",
+      "name": "Taishan Mansion IV",
       "teamLevelRecommanded": 88,
       "rewards": [
         {
@@ -260,16 +261,27 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 3 opponent(s) within 300 second(s)",
+          "description": "Defeat 4 opponents within 480 seconds.",
           "enemies": [
             {
-              "name": "Cutting Edge Fire Support Ground Effect Landcruiser",
+              "name": "Blazing Axe Mitachurl",
+              "number": 2,
+              "level": 88
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 4 opponents within 480 seconds.",
+          "enemies": [
+            {
+              "name": "Fatui Pyro Agent",
               "number": 1,
               "level": 88
             },
             {
-              "name": "Oprichniki Hailstorm Cannoneer",
-              "number": 2,
+              "name": "Fatui Pyro Agent",
+              "number": 1,
               "level": 88
             }
           ]

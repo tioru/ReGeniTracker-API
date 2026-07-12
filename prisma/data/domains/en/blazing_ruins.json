@@ -1,16 +1,18 @@
 {
-  "name": "Lightless Capital",
+  "name": "Blazing Ruins",
   "domainType": "Domain of Mastery",
   "location": {
-    "mainLocation": "Nod-Krai",
-    "subLocation": "Lempo Isle"
+    "mainLocation": "Natlan",
+    "subLocation": "Coatepec Mountain"
   },
-  "description": "Hundreds of years ago, Nod-Krai too experienced a golden age, where adventurers and treasure hunters gathered in droves at the prosperous city that bore the weight of humanity's arrogant dreams, its steel sinews and iron bones reflecting industrial and technological glory at the very edge of the world. Then calamity descended, and objects both living and not were dragged equally into the darkness, while past vibrance and opulence were buried by the ruthless march of time.",
+  "description": "In that era, when people had yet to attain true mastery of the flames, there were sages in all corners of the world who pondered the fire and sought to fathom its mysteries. It is said that these ruins are all that is left of what was once a ring-shaped ceremonial site. Here, these sages attempted to perfect the rituals required to transform phlogiston. Among the heroes who later followed the mighty one into the belly of the volcano, there were several who once trained in this place.",
   "recommendedElements": [
-    "Hydro",
-    "Electro"
+    "Dendro",
+    "Electro",
+    "Anemo",
+    "Hydro"
   ],
-  "releaseVersion": "Luna I",
+  "releaseVersion": "5.0",
   "rewards": [
     {
       "days": [
@@ -18,19 +20,19 @@
         "thursday",
         "sunday"
       ],
-      "name": "Fallen City",
+      "name": "Sublime Turning",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Moonlight"
+          "name": "Teachings of Contention"
         },
         {
           "quality": 3,
-          "name": "Guide to Moonlight"
+          "name": "Guide to Contention"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Moonlight"
+          "name": "Philosophies of Contention"
         }
       ]
     },
@@ -40,19 +42,19 @@
         "friday",
         "sunday"
       ],
-      "name": "Shadowed Legacy",
+      "name": "Myriad Illusions",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Elysium"
+          "name": "Teachings of Kindling"
         },
         {
           "quality": 3,
-          "name": "Guide to Elysium"
+          "name": "Guide to Kindling"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Elysium"
+          "name": "Philosophies of Kindling"
         }
       ]
     },
@@ -62,19 +64,19 @@
         "saturday",
         "sunday"
       ],
-      "name": "Overturned Roost",
+      "name": "Return",
       "reward": [
         {
           "quality": 2,
-          "name": "Teachings of Vagrancy"
+          "name": "Teachings of Conflict"
         },
         {
           "quality": 3,
-          "name": "Guide to Vagrancy"
+          "name": "Guide to Conflict"
         },
         {
           "quality": 4,
-          "name": "Philosophies of Vagrancy"
+          "name": "Philosophies of Conflict"
         }
       ]
     }
@@ -82,7 +84,7 @@
   "levels": [
     {
       "level": 1,
-      "name": "Lightless Capital I",
+      "name": "Blazing Ruins I",
       "teamLevelRecommanded": 38,
       "rewards": [
         {
@@ -104,13 +106,8 @@
           "description": "Defeat 7 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
-              "number": 2,
-              "level": 38
-            },
-            {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Tepetlisaur Whelp",
+              "number": 4,
               "level": 38
             }
           ]
@@ -120,13 +117,13 @@
           "description": "Defeat 7 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Tepetlisaurus",
+              "number": 1,
               "level": 38
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
+              "name": "Tepetlisaur Whelp",
+              "number": 2,
               "level": 38
             }
           ]
@@ -135,7 +132,7 @@
     },
     {
       "level": 2,
-      "name": "Lightless Capital II",
+      "name": "Blazing Ruins II",
       "teamLevelRecommanded": 54,
       "rewards": [
         {
@@ -157,12 +154,12 @@
           "description": "Defeat 7 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
+              "name": "Forged Sand Interrogator",
               "number": 2,
               "level": 54
             },
             {
-              "name": "Oprichniki Vanguard",
+              "name": "Forged Sand Shieldbreaker",
               "number": 2,
               "level": 54
             }
@@ -173,13 +170,13 @@
           "description": "Defeat 7 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Tepetlisaurus Warrior: Shard Striker",
+              "number": 1,
               "level": 54
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
+              "name": "Forged Sand Javelineer",
+              "number": 2,
               "level": 54
             }
           ]
@@ -188,7 +185,7 @@
     },
     {
       "level": 3,
-      "name": "Lightless Capital III",
+      "name": "Blazing Ruins III",
       "teamLevelRecommanded": 71,
       "rewards": [
         {
@@ -207,15 +204,15 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
-              "number": 2,
+              "name": "Forged Sand Interrogator",
+              "number": 1,
               "level": 71
             },
             {
-              "name": "Oprichniki Vanguard",
+              "name": "Tepetlisaur Whelp",
               "number": 2,
               "level": 71
             }
@@ -223,16 +220,16 @@
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Vanguard",
-              "number": 2,
+              "name": "Tepetlisaurus Warrior: Rockbreaker Blade",
+              "number": 1,
               "level": 71
             },
             {
-              "name": "Oprichniki Fireblade Shock Trooper",
-              "number": 1,
+              "name": "Tepetlisaurus",
+              "number": 2,
               "level": 71
             }
           ]
@@ -241,7 +238,7 @@
     },
     {
       "level": 4,
-      "name": "Lightless Capital IV",
+      "name": "Blazing Ruins IV",
       "teamLevelRecommanded": 88,
       "rewards": [
         {
@@ -260,15 +257,10 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 3 opponent(s) within 300 second(s)",
+          "description": "Defeat 2 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Cutting Edge Fire Support Ground Effect Landcruiser",
-              "number": 1,
-              "level": 88
-            },
-            {
-              "name": "Oprichniki Hailstorm Cannoneer",
+              "name": "Fluid Avatar of Lava",
               "number": 2,
               "level": 88
             }

@@ -1,0 +1,203 @@
+{
+  "name": "Hidden Palace of Zhou Formula",
+  "domainType": "Domain of Blessing",
+  "location": {
+    "mainLocation": "Liyue",
+    "subLocation": "Bishui Plain"
+  },
+  "description": "There is a secret ritual that can conceal one gate out of eight, cutting off the route for evil to escape. This ritual was performed here long ago, sealing demons within this labyrinth. Rumor has it that the Method to fit Pillars with Zhou Formula presently seals an evil Chi.",
+  "recommendedElements": [
+    "Hydro"
+  ],
+  "releaseVersion": "1.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Hidden Palace of Zhou Formula I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 20 opponent(s)<br>Protect the target from being destroyed",
+          "enemies": [
+            {
+              "name": "Pyro Slime",
+              "number": 13,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 20 opponent(s)<br>Protect the target from being destroyed",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 7,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Hidden Palace of Zhou Formula II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 360 second(s)",
+          "enemies": [
+            {
+              "name": "Hilichurl Berserker",
+              "number": 4,
+              "level": 69
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 360 second(s)",
+          "enemies": [
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 2,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Hidden Palace of Zhou Formula III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 10 opponent(s) / Complete this challenge within 360 second(s)",
+          "enemies": [
+            {
+              "name": "Hilichurl Fighter",
+              "number": 5,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 10 opponent(s) / Complete this challenge within 360 second(s)",
+          "enemies": [
+            {
+              "name": "Hilichurl Fighter",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Hilichurl Berserker",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Hidden Palace of Zhou Formula IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "Adventure EXP",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "Companionship EXP",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat all opponents within 60 seconds<br>Additional time will be gained after each kill",
+          "enemies": [
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 2,
+              "level": 90
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat all opponents within 60 seconds<br>Additional time will be gained after each kill",
+          "enemies": [
+            {
+              "name": "Dendro Samachurl",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Pyro Abyss Mage",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

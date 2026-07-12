@@ -1,0 +1,95 @@
+{
+  "name": "Altar of Mirages",
+  "domainType": "One-Time",
+  "location": {
+    "mainLocation": "Sumeru",
+    "subLocation": "Hypostyle Desert"
+  },
+  "description": "The Jinn once used this place as a free theater and a paradise without sorrow or care. The people of the desert wastes also once used this place as a ritual site to remember the ages long past...<br>But all these joys and sorrows, like a false mirage, would disappear amidst the flow of the Ley Lines.",
+  "recommendedElements": [
+    "Dendro"
+  ],
+  "releaseVersion": "3.1",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Altar of Mirages I",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 18 opponent(s)",
+          "enemies": [
+            {
+              "name": "Eremite Linebreaker",
+              "number": 2
+            },
+            {
+              "name": "Eremite Ravenbeak Halberdier",
+              "number": 1
+            },
+            {
+              "name": "Eremite Sword-Dancer",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 18 opponent(s)",
+          "enemies": [
+            {
+              "name": "Eremite Crossbow",
+              "number": 3
+            },
+            {
+              "name": "Eremite Sunfrost",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "Defeat 18 opponent(s)",
+          "enemies": [
+            {
+              "name": "Eremite Linebreaker",
+              "number": 2
+            },
+            {
+              "name": "Eremite Crossbow",
+              "number": 2
+            },
+            {
+              "name": "Eremite Desert Clearwater",
+              "number": 1
+            },
+            {
+              "name": "Eremite Daythunder",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 4,
+          "description": "Defeat 18 opponent(s)",
+          "enemies": [
+            {
+              "name": "Eremite Crossbow",
+              "number": 2
+            },
+            {
+              "name": "Eremite Galehunter",
+              "number": 1
+            },
+            {
+              "name": "Eremite Stone Enchanter",
+              "number": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
