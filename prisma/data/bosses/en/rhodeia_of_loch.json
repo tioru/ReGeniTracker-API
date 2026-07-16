@@ -1,0 +1,33 @@
+{
+  "name": "Rhodeia of Loch",
+  "title": "Oceanid of Qingce",
+  "type": "Normal Boss",
+  "family": "Elemental Lifeforms",
+  "group": "",
+  "location": {
+    "region": "Liyue",
+    "area": "Bishui Plain",
+    "subArea": "Wuwang Hill"
+  },
+  "damageTypes": [
+    "Hydro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Summoning"
+  ],
+  "variants": [],
+  "drops": [
+    "Cleansing Heart"
+  ],
+  "artifactSets": [
+    "Adventurer",
+    "Berserker",
+    "The Exile",
+    "Prayers for Destiny"
+  ],
+  "ascensionGems": [
+    "Varunada Lazurite"
+  ],
+  "releaseVersion": "1.0"
+}

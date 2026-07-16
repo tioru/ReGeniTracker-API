@@ -1,0 +1,32 @@
+{
+  "name": "Perpetual Mechanical Array",
+  "title": "Perpetual Resonance SI/Ald",
+  "type": "Normal Boss",
+  "family": "Automatons",
+  "group": "Ruin Sentinels",
+  "location": {
+    "region": "Inazuma",
+    "area": "Narukami Island",
+    "subArea": "Araumi"
+  },
+  "damageTypes": [],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Invincibility Frames"
+  ],
+  "variants": [],
+  "drops": [
+    "Perpetual Heart"
+  ],
+  "artifactSets": [
+    "Lucky Dog",
+    "Berserker",
+    "The Exile",
+    "Prayers to Springtime"
+  ],
+  "ascensionGems": [
+    "Prithiva Topaz",
+    "Shivada Jade"
+  ],
+  "releaseVersion": "2.0"
+}

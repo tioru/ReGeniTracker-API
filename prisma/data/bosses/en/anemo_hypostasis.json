@@ -1,0 +1,39 @@
+{
+  "name": "Anemo Hypostasis",
+  "title": "Beth",
+  "type": "Normal Boss",
+  "family": "Elemental Lifeforms",
+  "group": "Hypostases",
+  "location": {
+    "region": "Mondstadt",
+    "area": "Starfell Valley",
+    "subArea": "Stormbearer Mountains"
+  },
+  "damageTypes": [
+    "Anemo"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Healing",
+    "Vacuum Field",
+    "Elemental Absorption",
+    "Invincibility Frames",
+    "Energy Generation",
+    "Teleport"
+  ],
+  "variants": [
+    "Pure Anemo Hypostasis"
+  ],
+  "drops": [
+    "Hurricane Seed"
+  ],
+  "artifactSets": [
+    "Lucky Dog",
+    "Berserker",
+    "Instructor"
+  ],
+  "ascensionGems": [
+    "Vayuda Turquoise"
+  ],
+  "releaseVersion": "1.0"
+}

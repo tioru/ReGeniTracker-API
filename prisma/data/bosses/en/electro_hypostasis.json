@@ -1,0 +1,38 @@
+{
+  "name": "Electro Hypostasis",
+  "title": "Aleph",
+  "type": "Normal Boss",
+  "family": "Elemental Lifeforms",
+  "group": "Hypostases",
+  "location": {
+    "region": "Mondstadt",
+    "area": "Galesong Hill",
+    "subArea": "Cape Oath"
+  },
+  "damageTypes": [
+    "Electro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Healing",
+    "Invincibility Frames",
+    "Energy Generation",
+    "Teleport"
+  ],
+  "variants": [
+    "Pure Electro Hypostasis"
+  ],
+  "drops": [
+    "Lightning Prism"
+  ],
+  "artifactSets": [
+    "Traveling Doctor",
+    "Instructor",
+    "The Exile",
+    "Prayers for Wisdom"
+  ],
+  "ascensionGems": [
+    "Vajrada Amethyst"
+  ],
+  "releaseVersion": "1.0"
+}

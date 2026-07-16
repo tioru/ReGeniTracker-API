@@ -1,0 +1,33 @@
+{
+  "name": "Lava Dragon Statue",
+  "title": "Stone-Hearted Final Form of Flowing Flame",
+  "type": "Normal Boss",
+  "family": "Mystical Beasts",
+  "group": "Avatar of Lava",
+  "location": {
+    "region": "Natlan",
+    "area": "Atocpan",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Physical",
+    "Pyro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Fury"
+  ],
+  "variants": [],
+  "drops": [
+    "Sparkless Statue Core"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "The Exile",
+    "Adventurer"
+  ],
+  "ascensionGems": [
+    "Agnidus Agate"
+  ],
+  "releaseVersion": "5.5"
+}

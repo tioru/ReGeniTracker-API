@@ -1,0 +1,34 @@
+{
+  "name": "Andrius",
+  "title": "Dominator of Wolves",
+  "type": "Weekly Boss",
+  "family": "Enemies of Note",
+  "group": "",
+  "location": {
+    "region": "Mondstadt",
+    "area": "Windwail Highland",
+    "subArea": "Wolvendom"
+  },
+  "damageTypes": [
+    "Anemo",
+    "Cryo"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Pushing Vacuum Field",
+    "Energy Generation"
+  ],
+  "variants": [],
+  "drops": [
+    "Tail of Boreas",
+    "Ring of Boreas",
+    "Spirit Locket of Boreas"
+  ],
+  "artifactSets": [],
+  "ascensionGems": [
+    "Shivada Jade",
+    "Agnidus Agate",
+    "Prithiva Topaz"
+  ],
+  "releaseVersion": "1.0"
+}

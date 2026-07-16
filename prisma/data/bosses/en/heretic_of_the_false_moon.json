@@ -1,0 +1,31 @@
+{
+  "name": "Heretic of the False Moon",
+  "title": "Il Dottore",
+  "type": "Weekly Boss",
+  "family": "Enemies of Note",
+  "group": "",
+  "location": {
+    "region": "",
+    "area": "",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Physical",
+    "Cryo",
+    "Electro",
+    "Hydro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Energy Drain"
+  ],
+  "variants": [],
+  "drops": [
+    "Mask of the Virtuous Doctor",
+    "Madman's Restraint",
+    "Elixir of the Heretic"
+  ],
+  "artifactSets": [],
+  "ascensionGems": [],
+  "releaseVersion": "Luna IV"
+}

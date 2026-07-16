@@ -1,0 +1,35 @@
+{
+  "name": "Setekh Wenut",
+  "title": "The Last Prince of the Sands",
+  "type": "Normal Boss",
+  "family": "Mystical Beasts",
+  "group": "",
+  "location": {
+    "region": "Sumeru",
+    "area": "Desert of Hadramaveth",
+    "subArea": "Wenut Tunnels"
+  },
+  "damageTypes": [
+    "Physical",
+    "Anemo"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Teleport"
+  ],
+  "variants": [
+    "Wenut: Abnormal Turbulence"
+  ],
+  "drops": [
+    "Pseudo-Stamens"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "Instructor",
+    "Lucky Dog"
+  ],
+  "ascensionGems": [
+    "Vayuda Turquoise"
+  ],
+  "releaseVersion": "3.4"
+}

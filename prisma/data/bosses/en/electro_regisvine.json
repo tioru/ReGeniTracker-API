@@ -1,0 +1,31 @@
+{
+  "name": "Electro Regisvine",
+  "title": "Giant Sparksurge Calamus;Mournful Rumbleflower;Thunderous Blast Bloom",
+  "type": "Normal Boss",
+  "family": "Mystical Beasts",
+  "group": "Regisvines",
+  "location": {
+    "region": "Sumeru",
+    "area": "Lokapala Jungle",
+    "subArea": "Mawtiyima Forest"
+  },
+  "damageTypes": [
+    "Electro"
+  ],
+  "hasWeakPoint": true,
+  "abilities": [],
+  "variants": [],
+  "drops": [
+    "Thunderclap Fruitcore"
+  ],
+  "artifactSets": [
+    "Traveling Doctor",
+    "Instructor",
+    "The Exile",
+    "Prayers for Wisdom"
+  ],
+  "ascensionGems": [
+    "Vajrada Amethyst"
+  ],
+  "releaseVersion": "3.0"
+}

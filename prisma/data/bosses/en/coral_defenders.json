@@ -1,0 +1,41 @@
+{
+  "name": "Coral Defenders",
+  "title": "Bathysmal Vishap Herd",
+  "type": "Normal Boss",
+  "family": "Mystical Beasts",
+  "group": "Bathysmal Vishaps",
+  "location": {
+    "region": "Inazuma",
+    "area": "Enkanomiya",
+    "subArea": "Dainichi Mikoshi"
+  },
+  "damageTypes": [
+    "Physical",
+    "Cryo",
+    "Electro"
+  ],
+  "hasWeakPoint": true,
+  "abilities": [
+    "Invincibility Frames",
+    "Energy Drain",
+    "HP Loss"
+  ],
+  "variants": [
+    "Booming Bathysmal Vishap Herd",
+    "The Call of Ice and Thunder"
+  ],
+  "drops": [
+    "Dragonheir's False Fin"
+  ],
+  "artifactSets": [
+    "Lucky Dog",
+    "The Exile",
+    "Berserker",
+    "Prayers to Springtime"
+  ],
+  "ascensionGems": [
+    "Shivada Jade",
+    "Vajrada Amethyst"
+  ],
+  "releaseVersion": "2.4"
+}

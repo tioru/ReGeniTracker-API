@@ -1,0 +1,36 @@
+{
+  "name": "Cryo Hypostasis",
+  "title": "Daleth",
+  "type": "Normal Boss",
+  "family": "Elemental Lifeforms",
+  "group": "Hypostases",
+  "location": {
+    "region": "Mondstadt",
+    "area": "Dragonspine",
+    "subArea": "Entombed City - Outskirts"
+  },
+  "damageTypes": [
+    "Cryo"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Healing",
+    "Shield",
+    "Invincibility Frames",
+    "Teleport"
+  ],
+  "variants": [],
+  "drops": [
+    "Crystalline Bloom"
+  ],
+  "artifactSets": [
+    "Lucky Dog",
+    "Berserker",
+    "The Exile",
+    "Prayers to Springtime"
+  ],
+  "ascensionGems": [
+    "Shivada Jade"
+  ],
+  "releaseVersion": "1.5"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Geo Hypostasis",
+  "title": "Gimel",
+  "type": "Normal Boss",
+  "family": "Elemental Lifeforms",
+  "group": "Hypostases",
+  "location": {
+    "region": "Liyue",
+    "area": "Sea of Clouds",
+    "subArea": "Guyun Stone Forest"
+  },
+  "damageTypes": [
+    "Geo"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Geo Construct",
+    "Healing",
+    "Invincibility Frames",
+    "Teleport",
+    "Energy Generation"
+  ],
+  "variants": [
+    "Pure Geo Hypostasis"
+  ],
+  "drops": [
+    "Basalt Pillar"
+  ],
+  "artifactSets": [
+    "Traveling Doctor",
+    "Instructor",
+    "The Exile"
+  ],
+  "ascensionGems": [
+    "Prithiva Topaz"
+  ],
+  "releaseVersion": "1.0"
+}

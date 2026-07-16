@@ -1,0 +1,33 @@
+{
+  "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+  "title": "Tomb Guard of the Desert King",
+  "type": "Normal Boss",
+  "family": "Automatons",
+  "group": "Primal Constructs",
+  "location": {
+    "region": "Sumeru",
+    "area": "Hypostyle Desert",
+    "subArea": "The Dune of Elusion"
+  },
+  "damageTypes": [
+    "Physical"
+  ],
+  "hasWeakPoint": true,
+  "abilities": [
+    "Energy Generation"
+  ],
+  "variants": [],
+  "drops": [
+    "Light Guiding Tetrahedron"
+  ],
+  "artifactSets": [
+    "Adventurer",
+    "Berserker",
+    "Instructor"
+  ],
+  "ascensionGems": [
+    "Agnidus Agate",
+    "Vayuda Turquoise"
+  ],
+  "releaseVersion": "3.1"
+}

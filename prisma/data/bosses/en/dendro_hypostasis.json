@@ -1,0 +1,33 @@
+{
+  "name": "Dendro Hypostasis",
+  "title": "Zayin",
+  "type": "Normal Boss",
+  "family": "Elemental Lifeforms",
+  "group": "Hypostases",
+  "location": {
+    "region": "Sumeru",
+    "area": "Land of Lower Setekh",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Dendro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Healing",
+    "Teleport"
+  ],
+  "variants": [],
+  "drops": [
+    "Quelled Creeper"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "Instructor",
+    "Adventurer"
+  ],
+  "ascensionGems": [
+    "Nagadus Emerald"
+  ],
+  "releaseVersion": "3.2"
+}

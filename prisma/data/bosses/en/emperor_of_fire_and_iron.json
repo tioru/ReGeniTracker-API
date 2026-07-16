@@ -1,0 +1,33 @@
+{
+  "name": "Emperor of Fire and Iron",
+  "title": "Searing Tide Pulsing Beneath the Mountains",
+  "type": "Normal Boss",
+  "family": "Mystical Beasts",
+  "group": "Fontemer Aberrants",
+  "location": {
+    "region": "Fontaine",
+    "area": "Belleau Region",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Physical",
+    "Pyro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [],
+  "variants": [
+    "Tyrant of Fire and Iron"
+  ],
+  "drops": [
+    "Emperor's Resolution"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "Instructor",
+    "Adventurer"
+  ],
+  "ascensionGems": [
+    "Agnidus Agate"
+  ],
+  "releaseVersion": "4.0"
+}

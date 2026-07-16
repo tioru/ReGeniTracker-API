@@ -1,0 +1,37 @@
+{
+  "name": "Golden Wolflord",
+  "title": "Nameless King of the Rift",
+  "type": "Normal Boss",
+  "family": "The Abyss",
+  "group": "Riftwolves",
+  "location": {
+    "region": "Inazuma",
+    "area": "Tsurumi Island",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Physical",
+    "Geo"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Shield",
+    "Corrosion",
+    "Pushing Vacuum Field"
+  ],
+  "variants": [
+    "Abyss-Corroded Golden Wolflord"
+  ],
+  "drops": [
+    "Riftborn Regalia"
+  ],
+  "artifactSets": [
+    "Traveling Doctor",
+    "Instructor",
+    "The Exile"
+  ],
+  "ascensionGems": [
+    "Prithiva Topaz"
+  ],
+  "releaseVersion": "2.3"
+}

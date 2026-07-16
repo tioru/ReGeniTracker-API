@@ -1,0 +1,49 @@
+{
+  "name": "Primo Geovishap",
+  "title": "Geo Dragon Who Once Raged With the King;Long-Slumbering Earthshaker Dragon",
+  "type": "Normal Boss",
+  "family": "Mystical Beasts",
+  "group": "Vishaps",
+  "location": {
+    "region": "Liyue",
+    "area": "Minlin",
+    "subArea": "Tianqiu Valley"
+  },
+  "damageTypes": [
+    "Geo",
+    "Cryo",
+    "Pyro",
+    "Electro",
+    "Hydro"
+  ],
+  "hasWeakPoint": true,
+  "abilities": [
+    "Invincibility Frames",
+    "Elemental Conversion",
+    "Self HP Loss"
+  ],
+  "variants": [
+    "Revived Primo Geovishap",
+    "Wintry Primo Geovishap"
+  ],
+  "drops": [
+    "Juvenile Jade"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "Instructor",
+    "The Exile",
+    "Prayers for Wisdom",
+    "Prayers to Springtime",
+    "Prayers for Illumination",
+    "Prayers for Destiny"
+  ],
+  "ascensionGems": [
+    "Prithiva Topaz",
+    "Vajrada Amethyst",
+    "Shivada Jade",
+    "Agnidus Agate",
+    "Varunada Lazurite"
+  ],
+  "releaseVersion": "1.3"
+}

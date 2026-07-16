@@ -1,0 +1,36 @@
+{
+  "name": "The Open-Eyed",
+  "title": "World-Watch Sentry",
+  "type": "Normal Boss",
+  "family": "",
+  "group": "Automatons",
+  "location": {
+    "region": "Mondstadt",
+    "area": "Windrest Peak",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Geo",
+    "Hydro",
+    "Cryo",
+    "Pyro",
+    "Electro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Fury"
+  ],
+  "variants": [],
+  "drops": [
+    "Plume of the Fallen Watcher"
+  ],
+  "artifactSets": [
+    "Instructor",
+    "The Exile",
+    "Traveling Doctor"
+  ],
+  "ascensionGems": [
+    "Prithiva Topaz"
+  ],
+  "releaseVersion": "Luna VI"
+}

@@ -1,0 +1,1899 @@
+[
+  {
+    "pageTitle": "Electro Hypostasis",
+    "name": "Electro Hypostasis",
+    "title": "Aleph",
+    "type": "Normal Bosses",
+    "family": "Elemental Lifeforms",
+    "group": "Hypostases",
+    "region": "Mondstadt",
+    "area": "Galesong Hill",
+    "subArea": "Cape Oath",
+    "damageTypes": [
+      "Electro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Healing",
+      "Invincibility Frames",
+      "Energy Generation",
+      "Teleport"
+    ],
+    "variants": [
+      "Pure Electro Hypostasis"
+    ],
+    "drops": [
+      "Lightning Prism"
+    ],
+    "artifactSets": [
+      "Traveling Doctor",
+      "Instructor",
+      "The Exile",
+      "Prayers for Wisdom"
+    ],
+    "ascensionGems": [
+      "Vajrada Amethyst"
+    ],
+    "releaseVersion": "1.0"
+  },
+  {
+    "pageTitle": "Anemo Hypostasis",
+    "name": "Anemo Hypostasis",
+    "title": "Beth",
+    "type": "Normal Bosses",
+    "family": "Elemental Lifeforms",
+    "group": "Hypostases",
+    "region": "Mondstadt",
+    "area": "Starfell Valley",
+    "subArea": "Stormbearer Mountains",
+    "damageTypes": [
+      "Anemo"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Healing",
+      "Vacuum Field",
+      "Elemental Absorption",
+      "Invincibility Frames",
+      "Energy Generation",
+      "Teleport"
+    ],
+    "variants": [
+      "Pure Anemo Hypostasis"
+    ],
+    "drops": [
+      "Hurricane Seed"
+    ],
+    "artifactSets": [
+      "Lucky Dog",
+      "Berserker",
+      "Instructor"
+    ],
+    "ascensionGems": [
+      "Vayuda Turquoise"
+    ],
+    "releaseVersion": "1.0"
+  },
+  {
+    "pageTitle": "Geo Hypostasis",
+    "name": "Geo Hypostasis",
+    "title": "Gimel",
+    "type": "Normal Bosses",
+    "family": "Elemental Lifeforms",
+    "group": "Hypostases",
+    "region": "Liyue",
+    "area": "Sea of Clouds",
+    "subArea": "Guyun Stone Forest",
+    "damageTypes": [
+      "Geo"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Geo Construct",
+      "Healing",
+      "Invincibility Frames",
+      "Teleport",
+      "Energy Generation"
+    ],
+    "variants": [
+      "Pure Geo Hypostasis"
+    ],
+    "drops": [
+      "Basalt Pillar"
+    ],
+    "artifactSets": [
+      "Traveling Doctor",
+      "Instructor",
+      "The Exile"
+    ],
+    "ascensionGems": [
+      "Prithiva Topaz"
+    ],
+    "releaseVersion": "1.0"
+  },
+  {
+    "pageTitle": "Pyro Regisvine",
+    "name": "Pyro Regisvine",
+    "title": "Giant Everblaze Calamus;Flickering Blaze Bloom;Raging Fireflower",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "Regisvines",
+    "region": "Liyue",
+    "area": "Minlin",
+    "subArea": "Cuijue Slope",
+    "damageTypes": [
+      "Pyro"
+    ],
+    "hasWeakPoint": true,
+    "abilities": [
+      "Shield"
+    ],
+    "variants": [
+      "Sky-Searing Pyro Regisvine"
+    ],
+    "drops": [
+      "Everflame Seed"
+    ],
+    "artifactSets": [
+      "Adventurer",
+      "Berserker",
+      "Instructor",
+      "Prayers for Illumination"
+    ],
+    "ascensionGems": [
+      "Agnidus Agate"
+    ],
+    "releaseVersion": "1.0"
+  },
+  {
+    "pageTitle": "Cryo Regisvine",
+    "name": "Cryo Regisvine",
+    "title": "Giant Frostbreath Calamus;Evercold Iceflower;Silent Frost Bloom",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "Regisvines",
+    "region": "Mondstadt",
+    "area": "Starfell Valley",
+    "subArea": "",
+    "damageTypes": [
+      "Cryo"
+    ],
+    "hasWeakPoint": true,
+    "abilities": [
+      "Shield"
+    ],
+    "variants": [
+      "Resurgent Cryo Regisvine"
+    ],
+    "drops": [
+      "Hoarfrost Core"
+    ],
+    "artifactSets": [
+      "Lucky Dog",
+      "Berserker",
+      "The Exile",
+      "Prayers to Springtime"
+    ],
+    "ascensionGems": [
+      "Shivada Jade"
+    ],
+    "releaseVersion": "1.0"
+  },
+  {
+    "pageTitle": "Rhodeia of Loch",
+    "name": "Rhodeia of Loch",
+    "title": "Oceanid of Qingce",
+    "type": "Normal Bosses",
+    "family": "Elemental Lifeforms",
+    "group": "",
+    "region": "Liyue",
+    "area": "Bishui Plain",
+    "subArea": "Wuwang Hill",
+    "damageTypes": [
+      "Hydro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Summoning"
+    ],
+    "variants": [],
+    "drops": [
+      "Cleansing Heart"
+    ],
+    "artifactSets": [
+      "Adventurer",
+      "Berserker",
+      "The Exile",
+      "Prayers for Destiny"
+    ],
+    "ascensionGems": [
+      "Varunada Lazurite"
+    ],
+    "releaseVersion": "1.0"
+  },
+  {
+    "pageTitle": "Primo Geovishap",
+    "name": "Primo Geovishap",
+    "title": "Geo Dragon Who Once Raged With the King;Long-Slumbering Earthshaker Dragon",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "Vishaps",
+    "region": "Liyue",
+    "area": "Minlin",
+    "subArea": "Tianqiu Valley",
+    "damageTypes": [
+      "Geo",
+      "Cryo",
+      "Pyro",
+      "Electro",
+      "Hydro"
+    ],
+    "hasWeakPoint": true,
+    "abilities": [
+      "Invincibility Frames",
+      "Elemental Conversion",
+      "Self HP Loss"
+    ],
+    "variants": [
+      "Revived Primo Geovishap",
+      "Wintry Primo Geovishap"
+    ],
+    "drops": [
+      "Juvenile Jade"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "Instructor",
+      "The Exile",
+      "Prayers for Wisdom",
+      "Prayers to Springtime",
+      "Prayers for Illumination",
+      "Prayers for Destiny"
+    ],
+    "ascensionGems": [
+      "Prithiva Topaz",
+      "Vajrada Amethyst",
+      "Shivada Jade",
+      "Agnidus Agate",
+      "Varunada Lazurite"
+    ],
+    "releaseVersion": "1.3"
+  },
+  {
+    "pageTitle": "Cryo Hypostasis",
+    "name": "Cryo Hypostasis",
+    "title": "Daleth",
+    "type": "Normal Bosses",
+    "family": "Elemental Lifeforms",
+    "group": "Hypostases",
+    "region": "Mondstadt",
+    "area": "Dragonspine",
+    "subArea": "Entombed City - Outskirts",
+    "damageTypes": [
+      "Cryo"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Healing",
+      "Shield",
+      "Invincibility Frames",
+      "Teleport"
+    ],
+    "variants": [],
+    "drops": [
+      "Crystalline Bloom"
+    ],
+    "artifactSets": [
+      "Lucky Dog",
+      "Berserker",
+      "The Exile",
+      "Prayers to Springtime"
+    ],
+    "ascensionGems": [
+      "Shivada Jade"
+    ],
+    "releaseVersion": "1.5"
+  },
+  {
+    "pageTitle": "Maguu Kenki",
+    "name": "Maguu Kenki",
+    "title": "Ingenious Machine: Marionette Swordmaster",
+    "type": "Normal Bosses",
+    "family": "Automatons",
+    "group": "",
+    "region": "Inazuma",
+    "area": "Yashiori Island",
+    "subArea": "Serpent's Head",
+    "damageTypes": [
+      "Physical",
+      "Anemo",
+      "Cryo"
+    ],
+    "hasWeakPoint": true,
+    "abilities": [
+      "Vacuum Field",
+      "Invincibility Frames",
+      "Elemental Conversion"
+    ],
+    "variants": [
+      "Maguu Kenki: Lone Gale",
+      "Maguu Kenki: Galloping Frost",
+      "Maguu Kenki: Mask of Terror",
+      "Machine Marionette: Heart of the Blade"
+    ],
+    "drops": [
+      "Marionette Core"
+    ],
+    "artifactSets": [
+      "Lucky Dog",
+      "Instructor",
+      "Berserker"
+    ],
+    "ascensionGems": [
+      "Vayuda Turquoise",
+      "Shivada Jade"
+    ],
+    "releaseVersion": "1.6"
+  },
+  {
+    "pageTitle": "Pyro Hypostasis",
+    "name": "Pyro Hypostasis",
+    "title": "Ayin",
+    "type": "Normal Bosses",
+    "family": "Elemental Lifeforms",
+    "group": "Hypostases",
+    "region": "Inazuma",
+    "area": "Kannazuka",
+    "subArea": "",
+    "damageTypes": [
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Healing",
+      "Shield",
+      "Invincibility Frames",
+      "Fury"
+    ],
+    "variants": [],
+    "drops": [
+      "Smoldering Pearl"
+    ],
+    "artifactSets": [
+      "Adventurer",
+      "Instructor",
+      "Berserker",
+      "Prayers for Illumination"
+    ],
+    "ascensionGems": [
+      "Agnidus Agate"
+    ],
+    "releaseVersion": "2.0"
+  },
+  {
+    "pageTitle": "Perpetual Mechanical Array",
+    "name": "Perpetual Mechanical Array",
+    "title": "Perpetual Resonance SI/Ald",
+    "type": "Normal Bosses",
+    "family": "Automatons",
+    "group": "Ruin Sentinels",
+    "region": "Inazuma",
+    "area": "Narukami Island",
+    "subArea": "Araumi",
+    "damageTypes": [],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Invincibility Frames"
+    ],
+    "variants": [],
+    "drops": [
+      "Perpetual Heart"
+    ],
+    "artifactSets": [
+      "Lucky Dog",
+      "Berserker",
+      "The Exile",
+      "Prayers to Springtime"
+    ],
+    "ascensionGems": [
+      "Prithiva Topaz",
+      "Shivada Jade"
+    ],
+    "releaseVersion": "2.0"
+  },
+  {
+    "pageTitle": "Hydro Hypostasis",
+    "name": "Hydro Hypostasis",
+    "title": "He",
+    "type": "Normal Bosses",
+    "family": "Elemental Lifeforms",
+    "group": "Hypostases",
+    "region": "Inazuma",
+    "area": "Watatsumi Island",
+    "subArea": "",
+    "damageTypes": [
+      "Hydro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Healing",
+      "Invincibility Frames",
+      "Pushing Vacuum Field"
+    ],
+    "variants": [],
+    "drops": [
+      "Dew of Repudiation"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "Instructor",
+      "The Exile",
+      "Prayers for Destiny"
+    ],
+    "ascensionGems": [
+      "Varunada Lazurite"
+    ],
+    "releaseVersion": "2.1"
+  },
+  {
+    "pageTitle": "Thunder Manifestation",
+    "name": "Thunder Manifestation",
+    "title": "Raging Thunder of Amakumo Peak",
+    "type": "Normal Bosses",
+    "family": "Elemental Lifeforms",
+    "group": "",
+    "region": "Inazuma",
+    "area": "Seirai Island",
+    "subArea": "Amakumo Peak",
+    "damageTypes": [
+      "Electro"
+    ],
+    "hasWeakPoint": true,
+    "abilities": [
+      "Fury",
+      "Teleport"
+    ],
+    "variants": [
+      "Crackling Thunder Manifestation"
+    ],
+    "drops": [
+      "Storm Beads"
+    ],
+    "artifactSets": [
+      "Traveling Doctor",
+      "Instructor",
+      "The Exile",
+      "Prayers for Wisdom"
+    ],
+    "ascensionGems": [
+      "Vajrada Amethyst"
+    ],
+    "releaseVersion": "2.1"
+  },
+  {
+    "pageTitle": "Golden Wolflord",
+    "name": "Golden Wolflord",
+    "title": "Nameless King of the Rift",
+    "type": "Normal Bosses",
+    "family": "The Abyss",
+    "group": "Riftwolves",
+    "region": "Inazuma",
+    "area": "Tsurumi Island",
+    "subArea": "",
+    "damageTypes": [
+      "Physical",
+      "Geo"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Shield",
+      "Corrosion",
+      "Pushing Vacuum Field"
+    ],
+    "variants": [
+      "Abyss-Corroded Golden Wolflord"
+    ],
+    "drops": [
+      "Riftborn Regalia"
+    ],
+    "artifactSets": [
+      "Traveling Doctor",
+      "Instructor",
+      "The Exile"
+    ],
+    "ascensionGems": [
+      "Prithiva Topaz"
+    ],
+    "releaseVersion": "2.3"
+  },
+  {
+    "pageTitle": "Coral Defenders",
+    "name": "Coral Defenders",
+    "title": "Bathysmal Vishap Herd",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "Bathysmal Vishaps",
+    "region": "Inazuma",
+    "area": "Enkanomiya",
+    "subArea": "Dainichi Mikoshi",
+    "damageTypes": [
+      "Physical",
+      "Cryo",
+      "Electro"
+    ],
+    "hasWeakPoint": true,
+    "abilities": [
+      "Invincibility Frames",
+      "Energy Drain",
+      "HP Loss"
+    ],
+    "variants": [
+      "Booming Bathysmal Vishap Herd",
+      "The Call of Ice and Thunder"
+    ],
+    "drops": [
+      "Dragonheir's False Fin"
+    ],
+    "artifactSets": [
+      "Lucky Dog",
+      "The Exile",
+      "Berserker",
+      "Prayers to Springtime"
+    ],
+    "ascensionGems": [
+      "Shivada Jade",
+      "Vajrada Amethyst"
+    ],
+    "releaseVersion": "2.4"
+  },
+  {
+    "pageTitle": "Ruin Serpent",
+    "name": "Ruin Serpent",
+    "title": "Excavator: SI/Glp",
+    "type": "Normal Bosses",
+    "family": "Automatons",
+    "group": "Ruin Machines",
+    "region": "Liyue",
+    "area": "The Chasm: Underground Mines",
+    "subArea": "The Serpent's Cave",
+    "damageTypes": [],
+    "hasWeakPoint": true,
+    "abilities": [
+      "Vacuum Field",
+      "Teleport"
+    ],
+    "variants": [],
+    "drops": [
+      "Runic Fang"
+    ],
+    "artifactSets": [
+      "Traveling Doctor",
+      "Instructor",
+      "The Exile"
+    ],
+    "ascensionGems": [
+      "Prithiva Topaz"
+    ],
+    "releaseVersion": "2.6"
+  },
+  {
+    "pageTitle": "Electro Regisvine",
+    "name": "Electro Regisvine",
+    "title": "Giant Sparksurge Calamus;Mournful Rumbleflower;Thunderous Blast Bloom",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "Regisvines",
+    "region": "Sumeru",
+    "area": "Lokapala Jungle",
+    "subArea": "Mawtiyima Forest",
+    "damageTypes": [
+      "Electro"
+    ],
+    "hasWeakPoint": true,
+    "abilities": [],
+    "variants": [],
+    "drops": [
+      "Thunderclap Fruitcore"
+    ],
+    "artifactSets": [
+      "Traveling Doctor",
+      "Instructor",
+      "The Exile",
+      "Prayers for Wisdom"
+    ],
+    "ascensionGems": [
+      "Vajrada Amethyst"
+    ],
+    "releaseVersion": "3.0"
+  },
+  {
+    "pageTitle": "Jadeplume Terrorshroom",
+    "name": "Jadeplume Terrorshroom",
+    "title": "The Beloved King of Fungi;Deepwood Shroomlord",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "Fungi",
+    "region": "Sumeru",
+    "area": "Vissudha Field",
+    "subArea": "",
+    "damageTypes": [
+      "Dendro"
+    ],
+    "hasWeakPoint": true,
+    "abilities": [
+      "Fury",
+      "Summoning"
+    ],
+    "variants": [
+      "Metastable Jadeplume Terrorshroom"
+    ],
+    "drops": [
+      "Majestic Hooked Beak"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "Instructor",
+      "Adventurer"
+    ],
+    "ascensionGems": [
+      "Nagadus Emerald"
+    ],
+    "releaseVersion": "3.0"
+  },
+  {
+    "pageTitle": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+    "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+    "title": "Tomb Guard of the Desert King",
+    "type": "Normal Bosses",
+    "family": "Automatons",
+    "group": "Primal Constructs",
+    "region": "Sumeru",
+    "area": "Hypostyle Desert",
+    "subArea": "The Dune of Elusion",
+    "damageTypes": [
+      "Physical"
+    ],
+    "hasWeakPoint": true,
+    "abilities": [
+      "Energy Generation"
+    ],
+    "variants": [],
+    "drops": [
+      "Light Guiding Tetrahedron"
+    ],
+    "artifactSets": [
+      "Adventurer",
+      "Berserker",
+      "Instructor"
+    ],
+    "ascensionGems": [
+      "Agnidus Agate",
+      "Vayuda Turquoise"
+    ],
+    "releaseVersion": "3.1"
+  },
+  {
+    "pageTitle": "Aeonblight Drake",
+    "name": "Aeonblight Drake",
+    "title": "Perpetual Motion GL-Faf",
+    "type": "Normal Bosses",
+    "family": "Automatons",
+    "group": "Ruin Drakes",
+    "region": "Sumeru",
+    "area": "Ardravi Valley",
+    "subArea": "Devantaka Mountain",
+    "damageTypes": [
+      "Physical",
+      "Anemo",
+      "Cryo",
+      "Dendro",
+      "Electro",
+      "Geo",
+      "Hydro",
+      "Pyro"
+    ],
+    "hasWeakPoint": true,
+    "abilities": [],
+    "variants": [
+      "Aeonblight Drake (Heavy Assault Pack)"
+    ],
+    "drops": [
+      "Perpetual Caliber"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "The Exile",
+      "Lucky Dog"
+    ],
+    "ascensionGems": [
+      "Shivada Jade",
+      "Varunada Lazurite"
+    ],
+    "releaseVersion": "3.1"
+  },
+  {
+    "pageTitle": "Dendro Hypostasis",
+    "name": "Dendro Hypostasis",
+    "title": "Zayin",
+    "type": "Normal Bosses",
+    "family": "Elemental Lifeforms",
+    "group": "Hypostases",
+    "region": "Sumeru",
+    "area": "Land of Lower Setekh",
+    "subArea": "",
+    "damageTypes": [
+      "Dendro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Healing",
+      "Teleport"
+    ],
+    "variants": [],
+    "drops": [
+      "Quelled Creeper"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "Instructor",
+      "Adventurer"
+    ],
+    "ascensionGems": [
+      "Nagadus Emerald"
+    ],
+    "releaseVersion": "3.2"
+  },
+  {
+    "pageTitle": "Setekh Wenut",
+    "name": "Setekh Wenut",
+    "title": "The Last Prince of the Sands",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "",
+    "region": "Sumeru",
+    "area": "Desert of Hadramaveth",
+    "subArea": "Wenut Tunnels",
+    "damageTypes": [
+      "Physical",
+      "Anemo"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Teleport"
+    ],
+    "variants": [
+      "Wenut: Abnormal Turbulence"
+    ],
+    "drops": [
+      "Pseudo-Stamens"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "Instructor",
+      "Lucky Dog"
+    ],
+    "ascensionGems": [
+      "Vayuda Turquoise"
+    ],
+    "releaseVersion": "3.4"
+  },
+  {
+    "pageTitle": "Iniquitous Baptist",
+    "name": "Iniquitous Baptist",
+    "title": "The Guide to the Dark Paradise",
+    "type": "Normal Bosses",
+    "family": "The Abyss",
+    "group": "",
+    "region": "Sumeru",
+    "area": "Gavireh Lajavard",
+    "subArea": "Gate of Zulqarnain",
+    "damageTypes": [
+      "Cryo",
+      "Electro",
+      "Hydro",
+      "Pyro"
+    ],
+    "hasWeakPoint": true,
+    "abilities": [
+      "Shield",
+      "Stamina Consumption",
+      "Energy Drain",
+      "Cooldown Increase",
+      "HP Loss"
+    ],
+    "variants": [],
+    "drops": [
+      "Evergloom Ring"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "Instructor",
+      "The Exile",
+      "Prayers for Wisdom",
+      "Prayers to Springtime",
+      "Prayers for Illumination",
+      "Prayers for Destiny"
+    ],
+    "ascensionGems": [
+      "Vajrada Amethyst",
+      "Shivada Jade",
+      "Agnidus Agate",
+      "Varunada Lazurite"
+    ],
+    "releaseVersion": "3.6"
+  },
+  {
+    "pageTitle": "Icewind Suite",
+    "name": "Icewind Suite",
+    "title": "Icewind Suite: Duality, Side A;Icewind Suite: Duality, Side B",
+    "type": "Normal Bosses",
+    "family": "Automatons",
+    "group": "Clockwork Meka",
+    "region": "Fontaine",
+    "area": "Court of Fontaine Region",
+    "subArea": "",
+    "damageTypes": [
+      "Anemo",
+      "Cryo"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [],
+    "variants": [],
+    "drops": [
+      "Artificed Spare Clockwork Component — Coppelia",
+      "Artificed Spare Clockwork Component — Coppelius"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "Instructor",
+      "The Exile",
+      "Lucky Dog",
+      "Prayers to Springtime",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "ascensionGems": [
+      "Vayuda Turquoise"
+    ],
+    "releaseVersion": "4.0"
+  },
+  {
+    "pageTitle": "Emperor of Fire and Iron",
+    "name": "Emperor of Fire and Iron",
+    "title": "Searing Tide Pulsing Beneath the Mountains",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "Fontemer Aberrants",
+    "region": "Fontaine",
+    "area": "Belleau Region",
+    "subArea": "",
+    "damageTypes": [
+      "Physical",
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [],
+    "variants": [
+      "Tyrant of Fire and Iron"
+    ],
+    "drops": [
+      "Emperor's Resolution"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "Instructor",
+      "Adventurer"
+    ],
+    "ascensionGems": [
+      "Agnidus Agate"
+    ],
+    "releaseVersion": "4.0"
+  },
+  {
+    "pageTitle": "Millennial Pearl Seahorse",
+    "name": "Millennial Pearl Seahorse",
+    "title": "Nameless Lord of the Great Lake",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "Fontemer Aberrants",
+    "region": "Fontaine",
+    "area": "Liffey Region",
+    "subArea": "",
+    "damageTypes": [
+      "Physical",
+      "Electro"
+    ],
+    "hasWeakPoint": true,
+    "abilities": [],
+    "variants": [
+      "Enraged Millennial Pearl Seahorse"
+    ],
+    "drops": [
+      "Fontemer Unihorn"
+    ],
+    "artifactSets": [
+      "Instructor",
+      "The Exile",
+      "Traveling Doctor"
+    ],
+    "ascensionGems": [
+      "Vajrada Amethyst"
+    ],
+    "releaseVersion": "4.1"
+  },
+  {
+    "pageTitle": "Prototype Cal. Breguet",
+    "name": "Prototype Cal. Breguet",
+    "title": "Experimental Field Generator",
+    "type": "Normal Bosses",
+    "family": "Automatons",
+    "group": "Clockwork Meka",
+    "region": "Fontaine",
+    "area": "Academic Assembly Hall",
+    "subArea": "Fontaine Research Institute of Kinetic Energy Engineering Region",
+    "damageTypes": [
+      "Physical",
+      "Geo"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [],
+    "variants": [],
+    "drops": [
+      "\"Tourbillon Device\""
+    ],
+    "artifactSets": [
+      "Instructor",
+      "The Exile",
+      "Traveling Doctor"
+    ],
+    "ascensionGems": [
+      "Prithiva Topaz"
+    ],
+    "releaseVersion": "4.1"
+  },
+  {
+    "pageTitle": "Hydro Tulpa",
+    "name": "Hydro Tulpa",
+    "title": "Awakened Egregore",
+    "type": "Normal Bosses",
+    "family": "Elemental Lifeforms",
+    "group": "",
+    "region": "Fontaine",
+    "area": "Beryl Region",
+    "subArea": "",
+    "damageTypes": [
+      "Hydro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [],
+    "variants": [
+      "Hydro Tulpa: Flashflood"
+    ],
+    "drops": [
+      "Water That Failed To Transcend"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "The Exile",
+      "Adventurer"
+    ],
+    "ascensionGems": [
+      "Varunada Lazurite"
+    ],
+    "releaseVersion": "4.2"
+  },
+  {
+    "pageTitle": "Solitary Suanni",
+    "name": "Solitary Suanni",
+    "title": "Ancient Lord of the Mountains",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "",
+    "region": "Liyue",
+    "area": "Chenyu Vale: Southern Mountain",
+    "subArea": "Chizhang Wall",
+    "damageTypes": [
+      "Anemo",
+      "Hydro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [],
+    "variants": [],
+    "drops": [
+      "Cloudseam Scale"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "Instructor",
+      "Lucky Dog"
+    ],
+    "ascensionGems": [
+      "Varunada Lazurite",
+      "Vayuda Turquoise"
+    ],
+    "releaseVersion": "4.4"
+  },
+  {
+    "pageTitle": "\"Statue of Marble and Brass\"",
+    "name": "\"Statue of Marble and Brass\"",
+    "title": "Legatus of Legion Athanatoi",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "",
+    "region": "Fontaine",
+    "area": "Nostoi Region",
+    "subArea": "Faded Castle",
+    "damageTypes": [
+      "Physical",
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [],
+    "variants": [
+      "Legatus Golem: Harmonizer"
+    ],
+    "drops": [
+      "Fragment of a Golden Melody"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "Instructor",
+      "Prayers for Illumination",
+      "Adventurer"
+    ],
+    "ascensionGems": [
+      "Agnidus Agate",
+      "Prithiva Topaz"
+    ],
+    "releaseVersion": "4.6"
+  },
+  {
+    "pageTitle": "Kongamato",
+    "name": "Kongamato",
+    "title": "\"Mountain King\"",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "Natlan Saurians",
+    "region": "Natlan",
+    "area": "Tequemecan Valley",
+    "subArea": "",
+    "damageTypes": [
+      "Dendro",
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [],
+    "variants": [],
+    "drops": [
+      "Overripe Flamegranate"
+    ],
+    "artifactSets": [
+      "Adventurer",
+      "Berserker",
+      "Instructor"
+    ],
+    "ascensionGems": [
+      "Nagadus Emerald"
+    ],
+    "releaseVersion": "5.0"
+  },
+  {
+    "pageTitle": "Holawaqa Ngoubou",
+    "name": "Holawaqa Ngoubou",
+    "title": "Golden Tyrant of the Broken Oath",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "Natlan Saurians",
+    "region": "Natlan",
+    "area": "Basin of Unnumbered Flames",
+    "subArea": "Huitztli Hill",
+    "damageTypes": [
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [],
+    "variants": [],
+    "drops": [
+      "Mark of the Binding Blessing"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "Instructor",
+      "Prayers for Illumination",
+      "Adventurer"
+    ],
+    "ascensionGems": [
+      "Agnidus Agate"
+    ],
+    "releaseVersion": "5.0"
+  },
+  {
+    "pageTitle": "Secret Source Automaton: Configuration Device",
+    "name": "Secret Source Automaton: Configuration Device",
+    "title": "Ancient Ruins Constructor",
+    "type": "Normal Bosses",
+    "family": "Automatons",
+    "group": "Secret Source Automatons",
+    "region": "Natlan",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [
+      "Electro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Fury"
+    ],
+    "variants": [
+      "Secret Source Automaton: Firepower Enhanced"
+    ],
+    "drops": [
+      "Gold-Inscribed Secret Source Core"
+    ],
+    "artifactSets": [
+      "Instructor",
+      "The Exile",
+      "Prayers for Wisdom"
+    ],
+    "ascensionGems": [
+      "Vajrada Amethyst"
+    ],
+    "releaseVersion": "5.1"
+  },
+  {
+    "pageTitle": "Tenebrous Papilla",
+    "name": "Tenebrous Papilla",
+    "title": "Void Fantasy Plant",
+    "type": "Normal Bosses",
+    "family": "The Abyss",
+    "group": "Tenebrous Mimesis",
+    "region": "Natlan",
+    "area": "Quahuacan Cliff",
+    "subArea": "",
+    "damageTypes": [
+      "Physical",
+      "Anemo",
+      "Cryo",
+      "Dendro",
+      "Electro",
+      "Geo",
+      "Hydro",
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Void Ward",
+      "HP Loss"
+    ],
+    "variants": [],
+    "drops": [
+      "Ensnaring Gaze"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "Instructor",
+      "Prayers for Illumination",
+      "Adventurer"
+    ],
+    "ascensionGems": [
+      "Agnidus Agate",
+      "Vajrada Amethyst",
+      "Vayuda Turquoise"
+    ],
+    "releaseVersion": "5.2"
+  },
+  {
+    "pageTitle": "Wayward Hermetic Spiritspeaker",
+    "name": "Wayward Hermetic Spiritspeaker",
+    "title": "Sequestered Priestess",
+    "type": "Normal Bosses",
+    "family": "Other Human Factions",
+    "group": "Sauroform Tribal Warriors",
+    "region": "Natlan",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [
+      "Cryo"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [],
+    "variants": [],
+    "drops": [
+      "Talisman of the Enigmatic Land"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "The Exile",
+      "Lucky Dog",
+      "Prayers to Springtime"
+    ],
+    "ascensionGems": [
+      "Shivada Jade"
+    ],
+    "releaseVersion": "5.3"
+  },
+  {
+    "pageTitle": "Lava Dragon Statue",
+    "name": "Lava Dragon Statue",
+    "title": "Stone-Hearted Final Form of Flowing Flame",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "Avatar of Lava",
+    "region": "Natlan",
+    "area": "Atocpan",
+    "subArea": "",
+    "damageTypes": [
+      "Physical",
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Fury"
+    ],
+    "variants": [],
+    "drops": [
+      "Sparkless Statue Core"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "The Exile",
+      "Adventurer"
+    ],
+    "ascensionGems": [
+      "Agnidus Agate"
+    ],
+    "releaseVersion": "5.5"
+  },
+  {
+    "pageTitle": "Secret Source Automaton: Overseer Device",
+    "name": "Secret Source Automaton: Overseer Device",
+    "title": "Ancient Ruins Master Terminal",
+    "type": "Normal Bosses",
+    "family": "Automatons",
+    "group": "Secret Source Automaton",
+    "region": "Natlan",
+    "area": "Atocpan",
+    "subArea": "",
+    "damageTypes": [
+      "Hydro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Fury"
+    ],
+    "variants": [],
+    "drops": [
+      "Secret Source Airflow Accumulator"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "The Exile",
+      "Adventurer"
+    ],
+    "ascensionGems": [
+      "Varunada Lazurite"
+    ],
+    "releaseVersion": "5.6"
+  },
+  {
+    "pageTitle": "Knuckle Duckle",
+    "name": "Knuckle Duckle",
+    "title": "Creator's Pride",
+    "type": "Normal Bosses",
+    "family": "Automatons",
+    "group": "",
+    "region": "Nod-Krai",
+    "area": "Lempo Isle",
+    "subArea": "Clink-Clank Krumkake Craftshop",
+    "damageTypes": [
+      "Electro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [],
+    "variants": [],
+    "drops": [
+      "Precision Kuuvahki Stamping Die"
+    ],
+    "artifactSets": [
+      "Instructor",
+      "The Exile",
+      "Traveling Doctor",
+      "Prayers for Wisdom"
+    ],
+    "ascensionGems": [
+      "Vajrada Amethyst"
+    ],
+    "releaseVersion": "Luna I"
+  },
+  {
+    "pageTitle": "Radiant Moonfly",
+    "name": "Radiant Moonfly",
+    "title": "Shifting Shadow Beneath the Moon",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "Radiant Beasts",
+    "region": "Nod-Krai",
+    "area": "Lempo Isle",
+    "subArea": "Barrowmoss Barrens",
+    "damageTypes": [
+      "Dendro",
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [],
+    "variants": [],
+    "drops": [
+      "Lightbearing Scale-Feather"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "Instructor",
+      "Adventurer"
+    ],
+    "ascensionGems": [
+      "Nagadus Emerald",
+      "Agnidus Agate"
+    ],
+    "releaseVersion": "Luna I"
+  },
+  {
+    "pageTitle": "Frostnight Herra",
+    "name": "Frostnight Herra",
+    "title": "Guardian of the Holy Light",
+    "type": "Normal Bosses",
+    "family": "Elemental Lifeforms",
+    "group": "Frostnight Scions",
+    "region": "Nod-Krai",
+    "area": "Hiisi Island",
+    "subArea": "",
+    "damageTypes": [
+      "Physical",
+      "Anemo",
+      "Cryo",
+      "Dendro",
+      "Electro",
+      "Geo",
+      "Hydro",
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Fury"
+    ],
+    "variants": [],
+    "drops": [
+      "Radiant Antler"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "The Exile",
+      "Lucky Dog"
+    ],
+    "ascensionGems": [
+      "Varunada Lazurite",
+      "Shivada Jade"
+    ],
+    "releaseVersion": "Luna II"
+  },
+  {
+    "pageTitle": "Super-Heavy Landrover: Mechanized Fortress",
+    "name": "Super-Heavy Landrover: Mechanized Fortress",
+    "title": "All-Terrain Combat Mek",
+    "type": "Normal Bosses",
+    "family": "Fatui",
+    "group": "Landcruiser",
+    "region": "Nod-Krai",
+    "area": "Paha Isle",
+    "subArea": "",
+    "damageTypes": [
+      "Physical",
+      "Cryo",
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Fury",
+      "Ward"
+    ],
+    "variants": [],
+    "drops": [
+      "Cyclic Military Kuuvahki Core"
+    ],
+    "artifactSets": [
+      "Berserker",
+      "Instructor",
+      "Prayers for Illumination"
+    ],
+    "ascensionGems": [
+      "Agnidus Agate",
+      "Shivada Jade"
+    ],
+    "releaseVersion": "Luna III"
+  },
+  {
+    "pageTitle": "Lord of the Hidden Depths: Whisperer of Nightmares",
+    "name": "Lord of the Hidden Depths: Whisperer of Nightmares",
+    "title": "Faceless, Boundless Overlord",
+    "type": "Normal Bosses",
+    "family": "The Abyss",
+    "group": "",
+    "region": "Nod-Krai",
+    "area": "Ashveil Peak",
+    "subArea": "",
+    "damageTypes": [
+      "Electro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Ward"
+    ],
+    "variants": [],
+    "drops": [
+      "Remnant of the Dreadwing"
+    ],
+    "artifactSets": [
+      "Instructor",
+      "The Exile",
+      "Prayers for Wisdom",
+      "Traveling Doctor"
+    ],
+    "ascensionGems": [
+      "Vajrada Amethyst"
+    ],
+    "releaseVersion": "Luna IV"
+  },
+  {
+    "pageTitle": "Radiant Moongecko",
+    "name": "Radiant Moongecko",
+    "title": "Moonseeker Drake",
+    "type": "Normal Bosses",
+    "family": "Mystical Beasts",
+    "group": "Radiant Beasts",
+    "region": "Nod-Krai",
+    "area": "Wavechaser Plain",
+    "subArea": "Afterglow Cavern",
+    "damageTypes": [
+      "Geo"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Ward"
+    ],
+    "variants": [],
+    "drops": [
+      "Prismatic Severed Tail"
+    ],
+    "artifactSets": [
+      "Instructor",
+      "The Exile",
+      "Traveling Doctor"
+    ],
+    "ascensionGems": [
+      "Prithiva Topaz"
+    ],
+    "releaseVersion": "Luna V"
+  },
+  {
+    "pageTitle": "The Open-Eyed",
+    "name": "The Open-Eyed",
+    "title": "World-Watch Sentry",
+    "type": "Normal Bosses",
+    "family": "",
+    "group": "Automatons",
+    "region": "Mondstadt",
+    "area": "Windrest Peak",
+    "subArea": "",
+    "damageTypes": [
+      "Geo",
+      "Hydro",
+      "Cryo",
+      "Pyro",
+      "Electro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Fury"
+    ],
+    "variants": [],
+    "drops": [
+      "Plume of the Fallen Watcher"
+    ],
+    "artifactSets": [
+      "Instructor",
+      "The Exile",
+      "Traveling Doctor"
+    ],
+    "ascensionGems": [
+      "Prithiva Topaz"
+    ],
+    "releaseVersion": "Luna VI"
+  },
+  {
+    "pageTitle": "Stormterror Dvalin",
+    "name": "Stormterror Dvalin",
+    "title": "Erstwhile King of the Skies",
+    "type": "Weekly Bosses",
+    "family": "Enemies of Note",
+    "group": "",
+    "region": "",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [
+      "Physical",
+      "Anemo"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Shield"
+    ],
+    "variants": [],
+    "drops": [],
+    "artifactSets": [],
+    "ascensionGems": [],
+    "releaseVersion": "1.0"
+  },
+  {
+    "pageTitle": "Andrius",
+    "name": "Andrius",
+    "title": "Dominator of Wolves",
+    "type": "Weekly Bosses",
+    "family": "Enemies of Note",
+    "group": "",
+    "region": "Mondstadt",
+    "area": "Windwail Highland",
+    "subArea": "Wolvendom",
+    "damageTypes": [
+      "Anemo",
+      "Cryo"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Pushing Vacuum Field",
+      "Energy Generation"
+    ],
+    "variants": [],
+    "drops": [
+      "Tail of Boreas",
+      "Ring of Boreas",
+      "Spirit Locket of Boreas"
+    ],
+    "artifactSets": [],
+    "ascensionGems": [
+      "Shivada Jade",
+      "Agnidus Agate",
+      "Prithiva Topaz"
+    ],
+    "releaseVersion": "1.0"
+  },
+  {
+    "pageTitle": "Childe",
+    "name": "Childe",
+    "title": "Eleventh of the Fatui Harbingers",
+    "type": "Weekly Bosses",
+    "family": "Enemies of Note",
+    "group": "",
+    "region": "",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [
+      "Hydro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Shield",
+      "Invincibility Frames",
+      "Status to Player"
+    ],
+    "variants": [],
+    "drops": [],
+    "artifactSets": [],
+    "ascensionGems": [],
+    "releaseVersion": "1.1"
+  },
+  {
+    "pageTitle": "Azhdaha (Weekly Boss)",
+    "name": "Azhdaha",
+    "title": "Sealed Lord of Vishaps",
+    "type": "Weekly Bosses",
+    "family": "Enemies of Note",
+    "group": "Vishaps",
+    "region": "",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [
+      "Geo",
+      "Cryo",
+      "Electro",
+      "Hydro",
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Elemental Conversion",
+      "Invincibility Frames"
+    ],
+    "variants": [],
+    "drops": [],
+    "artifactSets": [],
+    "ascensionGems": [],
+    "releaseVersion": "1.5"
+  },
+  {
+    "pageTitle": "La Signora",
+    "name": "La Signora",
+    "title": "Eighth of the Fatui Harbingers",
+    "type": "Weekly Bosses",
+    "family": "Enemies of Note",
+    "group": "",
+    "region": "",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [
+      "Cryo"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Shield",
+      "Invincibility Frames",
+      "Teleport"
+    ],
+    "variants": [],
+    "drops": [],
+    "artifactSets": [],
+    "ascensionGems": [],
+    "releaseVersion": "2.1"
+  },
+  {
+    "pageTitle": "Magatsu Mitake Narukami no Mikoto",
+    "name": "Magatsu Mitake Narukami no Mikoto",
+    "title": "Raiden no Inazuma Tono",
+    "type": "Weekly Bosses",
+    "family": "Enemies of Note",
+    "group": "",
+    "region": "",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [
+      "Electro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Fury",
+      "Shield",
+      "Energy Drain",
+      "Teleport",
+      "Pushing Vacuum Field",
+      "Energy Generation",
+      "HP Loss"
+    ],
+    "variants": [],
+    "drops": [],
+    "artifactSets": [],
+    "ascensionGems": [],
+    "releaseVersion": "2.5"
+  },
+  {
+    "pageTitle": "Everlasting Lord of Arcane Wisdom",
+    "name": "Everlasting Lord of Arcane Wisdom",
+    "title": "Shouki no Kami, the Prodigal",
+    "type": "Weekly Bosses",
+    "family": "Enemies of Note",
+    "group": "",
+    "region": "",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [
+      "Anemo",
+      "Cryo",
+      "Electro",
+      "Hydro",
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Shield",
+      "Energy Drain",
+      "Vacuum Field",
+      "HP Loss",
+      "Self HP Loss",
+      "Teleport"
+    ],
+    "variants": [],
+    "drops": [],
+    "artifactSets": [],
+    "ascensionGems": [],
+    "releaseVersion": "3.2"
+  },
+  {
+    "pageTitle": "Guardian of Apep's Oasis",
+    "name": "Warden of the Last Oasis",
+    "title": "Evolved From an Apocalyptic Millennium",
+    "type": "Weekly Bosses",
+    "family": "Enemies of Note",
+    "group": "",
+    "region": "",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [],
+    "hasWeakPoint": false,
+    "abilities": [],
+    "variants": [],
+    "drops": [],
+    "artifactSets": [],
+    "ascensionGems": [],
+    "releaseVersion": "3.6"
+  },
+  {
+    "pageTitle": "All-Devouring Narwhal",
+    "name": "All-Devouring Narwhal",
+    "title": "Visitor from the Far Side of the Sea of Stars",
+    "type": "Weekly Bosses",
+    "family": "Enemies of Note",
+    "group": "",
+    "region": "",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [
+      "Electro",
+      "Hydro",
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Fury",
+      "Vacuum Field",
+      "Energy Generation",
+      "Teleport"
+    ],
+    "variants": [],
+    "drops": [
+      "Lightless Silk String",
+      "Lightless Eye of the Maelstrom",
+      "Lightless Mass"
+    ],
+    "artifactSets": [],
+    "ascensionGems": [],
+    "releaseVersion": "4.2"
+  },
+  {
+    "pageTitle": "The Knave",
+    "name": "The Knave",
+    "title": "Fourth of the Fatui Harbingers",
+    "type": "Weekly Bosses",
+    "family": "Enemies of Note",
+    "group": "",
+    "region": "",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [
+      "Pyro"
+    ],
+    "hasWeakPoint": true,
+    "abilities": [
+      "Life Bond",
+      "Corrosion",
+      "Teleport",
+      "Healing"
+    ],
+    "variants": [],
+    "drops": [],
+    "artifactSets": [],
+    "ascensionGems": [],
+    "releaseVersion": "4.6"
+  },
+  {
+    "pageTitle": "Heretic of the False Moon",
+    "name": "Heretic of the False Moon",
+    "title": "Il Dottore",
+    "type": "Weekly Bosses",
+    "family": "Enemies of Note",
+    "group": "",
+    "region": "",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [
+      "Physical",
+      "Cryo",
+      "Electro",
+      "Hydro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Energy Drain"
+    ],
+    "variants": [],
+    "drops": [
+      "Mask of the Virtuous Doctor",
+      "Madman's Restraint",
+      "Elixir of the Heretic"
+    ],
+    "artifactSets": [],
+    "ascensionGems": [],
+    "releaseVersion": "Luna IV"
+  },
+  {
+    "pageTitle": "Lord of Eroded Primal Fire",
+    "name": "Lord of Eroded Primal Fire",
+    "title": "The Slain Dragon Molded",
+    "type": "Weekly Bosses",
+    "family": "Enemies of Note",
+    "group": "Tenebrous Mimesis",
+    "region": "",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [
+      "Physical",
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "Void Ward",
+      "HP Loss",
+      "Teleport",
+      "Pushing Vacuum Field"
+    ],
+    "variants": [],
+    "drops": [],
+    "artifactSets": [],
+    "ascensionGems": [],
+    "releaseVersion": "5.3"
+  },
+  {
+    "pageTitle": "The Game Before the Gate",
+    "name": "The Game Before the Gate",
+    "title": "Not the One Who Plays at \"Chess Games\"",
+    "type": "Weekly Bosses",
+    "family": "Enemies of Note",
+    "group": "",
+    "region": "",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [
+      "Electro",
+      "Hydro",
+      "Pyro"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [
+      "HP Loss",
+      "Shield"
+    ],
+    "variants": [],
+    "drops": [
+      "Ascended Sample: Knight",
+      "Ascended Sample: Rook",
+      "Ascended Sample: Queen"
+    ],
+    "artifactSets": [],
+    "ascensionGems": [],
+    "releaseVersion": "5.6"
+  },
+  {
+    "pageTitle": "Exalted Master of the Heretical Path",
+    "name": "Exalted Master of the Heretical Path",
+    "title": "Il Dottore",
+    "type": "Weekly Bosses",
+    "family": "Enemies of Note",
+    "group": "",
+    "region": "",
+    "area": "",
+    "subArea": "",
+    "damageTypes": [
+      "Physical",
+      "Pyro",
+      "Electro",
+      "Cryo"
+    ],
+    "hasWeakPoint": false,
+    "abilities": [],
+    "variants": [],
+    "drops": [
+      "Counterfeit Resin",
+      "Profaned Sprout",
+      "Twisted Withered Branch"
+    ],
+    "artifactSets": [],
+    "ascensionGems": [],
+    "releaseVersion": "Luna VII"
+  }
+]

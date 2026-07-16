@@ -1,0 +1,31 @@
+{
+  "name": "Ruin Serpent",
+  "title": "Excavator: SI/Glp",
+  "type": "Normal Boss",
+  "family": "Automatons",
+  "group": "Ruin Machines",
+  "location": {
+    "region": "Liyue",
+    "area": "The Chasm: Underground Mines",
+    "subArea": "The Serpent's Cave"
+  },
+  "damageTypes": [],
+  "hasWeakPoint": true,
+  "abilities": [
+    "Vacuum Field",
+    "Teleport"
+  ],
+  "variants": [],
+  "drops": [
+    "Runic Fang"
+  ],
+  "artifactSets": [
+    "Traveling Doctor",
+    "Instructor",
+    "The Exile"
+  ],
+  "ascensionGems": [
+    "Prithiva Topaz"
+  ],
+  "releaseVersion": "2.6"
+}

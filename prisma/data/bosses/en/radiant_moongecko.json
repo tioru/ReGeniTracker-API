@@ -1,0 +1,32 @@
+{
+  "name": "Radiant Moongecko",
+  "title": "Moonseeker Drake",
+  "type": "Normal Boss",
+  "family": "Mystical Beasts",
+  "group": "Radiant Beasts",
+  "location": {
+    "region": "Nod-Krai",
+    "area": "Wavechaser Plain",
+    "subArea": "Afterglow Cavern"
+  },
+  "damageTypes": [
+    "Geo"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Ward"
+  ],
+  "variants": [],
+  "drops": [
+    "Prismatic Severed Tail"
+  ],
+  "artifactSets": [
+    "Instructor",
+    "The Exile",
+    "Traveling Doctor"
+  ],
+  "ascensionGems": [
+    "Prithiva Topaz"
+  ],
+  "releaseVersion": "Luna V"
+}

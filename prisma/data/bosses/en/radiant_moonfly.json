@@ -1,0 +1,32 @@
+{
+  "name": "Radiant Moonfly",
+  "title": "Shifting Shadow Beneath the Moon",
+  "type": "Normal Boss",
+  "family": "Mystical Beasts",
+  "group": "Radiant Beasts",
+  "location": {
+    "region": "Nod-Krai",
+    "area": "Lempo Isle",
+    "subArea": "Barrowmoss Barrens"
+  },
+  "damageTypes": [
+    "Dendro",
+    "Pyro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [],
+  "variants": [],
+  "drops": [
+    "Lightbearing Scale-Feather"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "Instructor",
+    "Adventurer"
+  ],
+  "ascensionGems": [
+    "Nagadus Emerald",
+    "Agnidus Agate"
+  ],
+  "releaseVersion": "Luna I"
+}

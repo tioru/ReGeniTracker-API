@@ -1,0 +1,35 @@
+{
+  "name": "\"Statue of Marble and Brass\"",
+  "title": "Legatus of Legion Athanatoi",
+  "type": "Normal Boss",
+  "family": "Mystical Beasts",
+  "group": "",
+  "location": {
+    "region": "Fontaine",
+    "area": "Nostoi Region",
+    "subArea": "Faded Castle"
+  },
+  "damageTypes": [
+    "Physical",
+    "Pyro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [],
+  "variants": [
+    "Legatus Golem: Harmonizer"
+  ],
+  "drops": [
+    "Fragment of a Golden Melody"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "Instructor",
+    "Prayers for Illumination",
+    "Adventurer"
+  ],
+  "ascensionGems": [
+    "Agnidus Agate",
+    "Prithiva Topaz"
+  ],
+  "releaseVersion": "4.6"
+}

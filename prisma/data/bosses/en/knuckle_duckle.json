@@ -1,0 +1,31 @@
+{
+  "name": "Knuckle Duckle",
+  "title": "Creator's Pride",
+  "type": "Normal Boss",
+  "family": "Automatons",
+  "group": "",
+  "location": {
+    "region": "Nod-Krai",
+    "area": "Lempo Isle",
+    "subArea": "Clink-Clank Krumkake Craftshop"
+  },
+  "damageTypes": [
+    "Electro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [],
+  "variants": [],
+  "drops": [
+    "Precision Kuuvahki Stamping Die"
+  ],
+  "artifactSets": [
+    "Instructor",
+    "The Exile",
+    "Traveling Doctor",
+    "Prayers for Wisdom"
+  ],
+  "ascensionGems": [
+    "Vajrada Amethyst"
+  ],
+  "releaseVersion": "Luna I"
+}

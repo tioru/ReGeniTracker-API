@@ -1,0 +1,36 @@
+{
+  "name": "Icewind Suite",
+  "title": "Icewind Suite: Duality, Side A;Icewind Suite: Duality, Side B",
+  "type": "Normal Boss",
+  "family": "Automatons",
+  "group": "Clockwork Meka",
+  "location": {
+    "region": "Fontaine",
+    "area": "Court of Fontaine Region",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Anemo",
+    "Cryo"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [],
+  "variants": [],
+  "drops": [
+    "Artificed Spare Clockwork Component — Coppelia",
+    "Artificed Spare Clockwork Component — Coppelius"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "Instructor",
+    "The Exile",
+    "Lucky Dog",
+    "Prayers to Springtime",
+    "Gladiator's Finale",
+    "Wanderer's Troupe"
+  ],
+  "ascensionGems": [
+    "Vayuda Turquoise"
+  ],
+  "releaseVersion": "4.0"
+}

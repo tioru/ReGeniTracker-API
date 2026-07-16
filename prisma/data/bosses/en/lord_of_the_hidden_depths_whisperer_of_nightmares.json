@@ -1,0 +1,33 @@
+{
+  "name": "Lord of the Hidden Depths: Whisperer of Nightmares",
+  "title": "Faceless, Boundless Overlord",
+  "type": "Normal Boss",
+  "family": "The Abyss",
+  "group": "",
+  "location": {
+    "region": "Nod-Krai",
+    "area": "Ashveil Peak",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Electro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Ward"
+  ],
+  "variants": [],
+  "drops": [
+    "Remnant of the Dreadwing"
+  ],
+  "artifactSets": [
+    "Instructor",
+    "The Exile",
+    "Prayers for Wisdom",
+    "Traveling Doctor"
+  ],
+  "ascensionGems": [
+    "Vajrada Amethyst"
+  ],
+  "releaseVersion": "Luna IV"
+}

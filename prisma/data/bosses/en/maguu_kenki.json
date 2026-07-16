@@ -1,0 +1,42 @@
+{
+  "name": "Maguu Kenki",
+  "title": "Ingenious Machine: Marionette Swordmaster",
+  "type": "Normal Boss",
+  "family": "Automatons",
+  "group": "",
+  "location": {
+    "region": "Inazuma",
+    "area": "Yashiori Island",
+    "subArea": "Serpent's Head"
+  },
+  "damageTypes": [
+    "Physical",
+    "Anemo",
+    "Cryo"
+  ],
+  "hasWeakPoint": true,
+  "abilities": [
+    "Vacuum Field",
+    "Invincibility Frames",
+    "Elemental Conversion"
+  ],
+  "variants": [
+    "Maguu Kenki: Lone Gale",
+    "Maguu Kenki: Galloping Frost",
+    "Maguu Kenki: Mask of Terror",
+    "Machine Marionette: Heart of the Blade"
+  ],
+  "drops": [
+    "Marionette Core"
+  ],
+  "artifactSets": [
+    "Lucky Dog",
+    "Instructor",
+    "Berserker"
+  ],
+  "ascensionGems": [
+    "Vayuda Turquoise",
+    "Shivada Jade"
+  ],
+  "releaseVersion": "1.6"
+}

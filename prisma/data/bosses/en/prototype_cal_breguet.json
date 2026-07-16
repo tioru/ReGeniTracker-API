@@ -1,0 +1,31 @@
+{
+  "name": "Prototype Cal. Breguet",
+  "title": "Experimental Field Generator",
+  "type": "Normal Boss",
+  "family": "Automatons",
+  "group": "Clockwork Meka",
+  "location": {
+    "region": "Fontaine",
+    "area": "Academic Assembly Hall",
+    "subArea": "Fontaine Research Institute of Kinetic Energy Engineering Region"
+  },
+  "damageTypes": [
+    "Physical",
+    "Geo"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [],
+  "variants": [],
+  "drops": [
+    "\"Tourbillon Device\""
+  ],
+  "artifactSets": [
+    "Instructor",
+    "The Exile",
+    "Traveling Doctor"
+  ],
+  "ascensionGems": [
+    "Prithiva Topaz"
+  ],
+  "releaseVersion": "4.1"
+}

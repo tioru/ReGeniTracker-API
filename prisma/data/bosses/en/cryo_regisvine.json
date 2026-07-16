@@ -1,0 +1,35 @@
+{
+  "name": "Cryo Regisvine",
+  "title": "Giant Frostbreath Calamus;Evercold Iceflower;Silent Frost Bloom",
+  "type": "Normal Boss",
+  "family": "Mystical Beasts",
+  "group": "Regisvines",
+  "location": {
+    "region": "Mondstadt",
+    "area": "Starfell Valley",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Cryo"
+  ],
+  "hasWeakPoint": true,
+  "abilities": [
+    "Shield"
+  ],
+  "variants": [
+    "Resurgent Cryo Regisvine"
+  ],
+  "drops": [
+    "Hoarfrost Core"
+  ],
+  "artifactSets": [
+    "Lucky Dog",
+    "Berserker",
+    "The Exile",
+    "Prayers to Springtime"
+  ],
+  "ascensionGems": [
+    "Shivada Jade"
+  ],
+  "releaseVersion": "1.0"
+}

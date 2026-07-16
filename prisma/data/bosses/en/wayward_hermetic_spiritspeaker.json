@@ -1,0 +1,31 @@
+{
+  "name": "Wayward Hermetic Spiritspeaker",
+  "title": "Sequestered Priestess",
+  "type": "Normal Boss",
+  "family": "Other Human Factions",
+  "group": "Sauroform Tribal Warriors",
+  "location": {
+    "region": "Natlan",
+    "area": "",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Cryo"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [],
+  "variants": [],
+  "drops": [
+    "Talisman of the Enigmatic Land"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "The Exile",
+    "Lucky Dog",
+    "Prayers to Springtime"
+  ],
+  "ascensionGems": [
+    "Shivada Jade"
+  ],
+  "releaseVersion": "5.3"
+}

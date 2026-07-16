@@ -1,0 +1,32 @@
+{
+  "name": "Solitary Suanni",
+  "title": "Ancient Lord of the Mountains",
+  "type": "Normal Boss",
+  "family": "Mystical Beasts",
+  "group": "",
+  "location": {
+    "region": "Liyue",
+    "area": "Chenyu Vale: Southern Mountain",
+    "subArea": "Chizhang Wall"
+  },
+  "damageTypes": [
+    "Anemo",
+    "Hydro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [],
+  "variants": [],
+  "drops": [
+    "Cloudseam Scale"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "Instructor",
+    "Lucky Dog"
+  ],
+  "ascensionGems": [
+    "Varunada Lazurite",
+    "Vayuda Turquoise"
+  ],
+  "releaseVersion": "4.4"
+}

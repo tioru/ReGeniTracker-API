@@ -1,0 +1,35 @@
+{
+  "name": "Hydro Hypostasis",
+  "title": "He",
+  "type": "Normal Boss",
+  "family": "Elemental Lifeforms",
+  "group": "Hypostases",
+  "location": {
+    "region": "Inazuma",
+    "area": "Watatsumi Island",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Hydro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Healing",
+    "Invincibility Frames",
+    "Pushing Vacuum Field"
+  ],
+  "variants": [],
+  "drops": [
+    "Dew of Repudiation"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "Instructor",
+    "The Exile",
+    "Prayers for Destiny"
+  ],
+  "ascensionGems": [
+    "Varunada Lazurite"
+  ],
+  "releaseVersion": "2.1"
+}

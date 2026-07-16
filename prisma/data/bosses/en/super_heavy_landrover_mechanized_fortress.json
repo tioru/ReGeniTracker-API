@@ -1,0 +1,36 @@
+{
+  "name": "Super-Heavy Landrover: Mechanized Fortress",
+  "title": "All-Terrain Combat Mek",
+  "type": "Normal Boss",
+  "family": "Fatui",
+  "group": "Landcruiser",
+  "location": {
+    "region": "Nod-Krai",
+    "area": "Paha Isle",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Physical",
+    "Cryo",
+    "Pyro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Fury",
+    "Ward"
+  ],
+  "variants": [],
+  "drops": [
+    "Cyclic Military Kuuvahki Core"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "Instructor",
+    "Prayers for Illumination"
+  ],
+  "ascensionGems": [
+    "Agnidus Agate",
+    "Shivada Jade"
+  ],
+  "releaseVersion": "Luna III"
+}

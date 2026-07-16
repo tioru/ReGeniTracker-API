@@ -1,0 +1,35 @@
+{
+  "name": "Jadeplume Terrorshroom",
+  "title": "The Beloved King of Fungi;Deepwood Shroomlord",
+  "type": "Normal Boss",
+  "family": "Mystical Beasts",
+  "group": "Fungi",
+  "location": {
+    "region": "Sumeru",
+    "area": "Vissudha Field",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Dendro"
+  ],
+  "hasWeakPoint": true,
+  "abilities": [
+    "Fury",
+    "Summoning"
+  ],
+  "variants": [
+    "Metastable Jadeplume Terrorshroom"
+  ],
+  "drops": [
+    "Majestic Hooked Beak"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "Instructor",
+    "Adventurer"
+  ],
+  "ascensionGems": [
+    "Nagadus Emerald"
+  ],
+  "releaseVersion": "3.0"
+}

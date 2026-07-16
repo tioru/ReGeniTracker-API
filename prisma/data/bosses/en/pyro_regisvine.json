@@ -1,0 +1,35 @@
+{
+  "name": "Pyro Regisvine",
+  "title": "Giant Everblaze Calamus;Flickering Blaze Bloom;Raging Fireflower",
+  "type": "Normal Boss",
+  "family": "Mystical Beasts",
+  "group": "Regisvines",
+  "location": {
+    "region": "Liyue",
+    "area": "Minlin",
+    "subArea": "Cuijue Slope"
+  },
+  "damageTypes": [
+    "Pyro"
+  ],
+  "hasWeakPoint": true,
+  "abilities": [
+    "Shield"
+  ],
+  "variants": [
+    "Sky-Searing Pyro Regisvine"
+  ],
+  "drops": [
+    "Everflame Seed"
+  ],
+  "artifactSets": [
+    "Adventurer",
+    "Berserker",
+    "Instructor",
+    "Prayers for Illumination"
+  ],
+  "ascensionGems": [
+    "Agnidus Agate"
+  ],
+  "releaseVersion": "1.0"
+}

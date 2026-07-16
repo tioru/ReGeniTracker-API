@@ -1,0 +1,36 @@
+{
+  "name": "Thunder Manifestation",
+  "title": "Raging Thunder of Amakumo Peak",
+  "type": "Normal Boss",
+  "family": "Elemental Lifeforms",
+  "group": "",
+  "location": {
+    "region": "Inazuma",
+    "area": "Seirai Island",
+    "subArea": "Amakumo Peak"
+  },
+  "damageTypes": [
+    "Electro"
+  ],
+  "hasWeakPoint": true,
+  "abilities": [
+    "Fury",
+    "Teleport"
+  ],
+  "variants": [
+    "Crackling Thunder Manifestation"
+  ],
+  "drops": [
+    "Storm Beads"
+  ],
+  "artifactSets": [
+    "Traveling Doctor",
+    "Instructor",
+    "The Exile",
+    "Prayers for Wisdom"
+  ],
+  "ascensionGems": [
+    "Vajrada Amethyst"
+  ],
+  "releaseVersion": "2.1"
+}

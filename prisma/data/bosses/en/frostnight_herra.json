@@ -1,0 +1,40 @@
+{
+  "name": "Frostnight Herra",
+  "title": "Guardian of the Holy Light",
+  "type": "Normal Boss",
+  "family": "Elemental Lifeforms",
+  "group": "Frostnight Scions",
+  "location": {
+    "region": "Nod-Krai",
+    "area": "Hiisi Island",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Physical",
+    "Anemo",
+    "Cryo",
+    "Dendro",
+    "Electro",
+    "Geo",
+    "Hydro",
+    "Pyro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Fury"
+  ],
+  "variants": [],
+  "drops": [
+    "Radiant Antler"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "The Exile",
+    "Lucky Dog"
+  ],
+  "ascensionGems": [
+    "Varunada Lazurite",
+    "Shivada Jade"
+  ],
+  "releaseVersion": "Luna II"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Millennial Pearl Seahorse",
+  "title": "Nameless Lord of the Great Lake",
+  "type": "Normal Boss",
+  "family": "Mystical Beasts",
+  "group": "Fontemer Aberrants",
+  "location": {
+    "region": "Fontaine",
+    "area": "Liffey Region",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Physical",
+    "Electro"
+  ],
+  "hasWeakPoint": true,
+  "abilities": [],
+  "variants": [
+    "Enraged Millennial Pearl Seahorse"
+  ],
+  "drops": [
+    "Fontemer Unihorn"
+  ],
+  "artifactSets": [
+    "Instructor",
+    "The Exile",
+    "Traveling Doctor"
+  ],
+  "ascensionGems": [
+    "Vajrada Amethyst"
+  ],
+  "releaseVersion": "4.1"
+}

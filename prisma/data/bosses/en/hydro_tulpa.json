@@ -1,0 +1,32 @@
+{
+  "name": "Hydro Tulpa",
+  "title": "Awakened Egregore",
+  "type": "Normal Boss",
+  "family": "Elemental Lifeforms",
+  "group": "",
+  "location": {
+    "region": "Fontaine",
+    "area": "Beryl Region",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Hydro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [],
+  "variants": [
+    "Hydro Tulpa: Flashflood"
+  ],
+  "drops": [
+    "Water That Failed To Transcend"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "The Exile",
+    "Adventurer"
+  ],
+  "ascensionGems": [
+    "Varunada Lazurite"
+  ],
+  "releaseVersion": "4.2"
+}

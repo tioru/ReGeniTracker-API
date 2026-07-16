@@ -1,0 +1,40 @@
+{
+  "name": "Aeonblight Drake",
+  "title": "Perpetual Motion GL-Faf",
+  "type": "Normal Boss",
+  "family": "Automatons",
+  "group": "Ruin Drakes",
+  "location": {
+    "region": "Sumeru",
+    "area": "Ardravi Valley",
+    "subArea": "Devantaka Mountain"
+  },
+  "damageTypes": [
+    "Physical",
+    "Anemo",
+    "Cryo",
+    "Dendro",
+    "Electro",
+    "Geo",
+    "Hydro",
+    "Pyro"
+  ],
+  "hasWeakPoint": true,
+  "abilities": [],
+  "variants": [
+    "Aeonblight Drake (Heavy Assault Pack)"
+  ],
+  "drops": [
+    "Perpetual Caliber"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "The Exile",
+    "Lucky Dog"
+  ],
+  "ascensionGems": [
+    "Shivada Jade",
+    "Varunada Lazurite"
+  ],
+  "releaseVersion": "3.1"
+}

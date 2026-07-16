@@ -1,0 +1,36 @@
+{
+  "name": "Pyro Hypostasis",
+  "title": "Ayin",
+  "type": "Normal Boss",
+  "family": "Elemental Lifeforms",
+  "group": "Hypostases",
+  "location": {
+    "region": "Inazuma",
+    "area": "Kannazuka",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Pyro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Healing",
+    "Shield",
+    "Invincibility Frames",
+    "Fury"
+  ],
+  "variants": [],
+  "drops": [
+    "Smoldering Pearl"
+  ],
+  "artifactSets": [
+    "Adventurer",
+    "Instructor",
+    "Berserker",
+    "Prayers for Illumination"
+  ],
+  "ascensionGems": [
+    "Agnidus Agate"
+  ],
+  "releaseVersion": "2.0"
+}

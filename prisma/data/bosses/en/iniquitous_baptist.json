@@ -1,0 +1,46 @@
+{
+  "name": "Iniquitous Baptist",
+  "title": "The Guide to the Dark Paradise",
+  "type": "Normal Boss",
+  "family": "The Abyss",
+  "group": "",
+  "location": {
+    "region": "Sumeru",
+    "area": "Gavireh Lajavard",
+    "subArea": "Gate of Zulqarnain"
+  },
+  "damageTypes": [
+    "Cryo",
+    "Electro",
+    "Hydro",
+    "Pyro"
+  ],
+  "hasWeakPoint": true,
+  "abilities": [
+    "Shield",
+    "Stamina Consumption",
+    "Energy Drain",
+    "Cooldown Increase",
+    "HP Loss"
+  ],
+  "variants": [],
+  "drops": [
+    "Evergloom Ring"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "Instructor",
+    "The Exile",
+    "Prayers for Wisdom",
+    "Prayers to Springtime",
+    "Prayers for Illumination",
+    "Prayers for Destiny"
+  ],
+  "ascensionGems": [
+    "Vajrada Amethyst",
+    "Shivada Jade",
+    "Agnidus Agate",
+    "Varunada Lazurite"
+  ],
+  "releaseVersion": "3.6"
+}

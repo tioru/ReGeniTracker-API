@@ -1,0 +1,43 @@
+{
+  "name": "Tenebrous Papilla",
+  "title": "Void Fantasy Plant",
+  "type": "Normal Boss",
+  "family": "The Abyss",
+  "group": "Tenebrous Mimesis",
+  "location": {
+    "region": "Natlan",
+    "area": "Quahuacan Cliff",
+    "subArea": ""
+  },
+  "damageTypes": [
+    "Physical",
+    "Anemo",
+    "Cryo",
+    "Dendro",
+    "Electro",
+    "Geo",
+    "Hydro",
+    "Pyro"
+  ],
+  "hasWeakPoint": false,
+  "abilities": [
+    "Void Ward",
+    "HP Loss"
+  ],
+  "variants": [],
+  "drops": [
+    "Ensnaring Gaze"
+  ],
+  "artifactSets": [
+    "Berserker",
+    "Instructor",
+    "Prayers for Illumination",
+    "Adventurer"
+  ],
+  "ascensionGems": [
+    "Agnidus Agate",
+    "Vajrada Amethyst",
+    "Vayuda Turquoise"
+  ],
+  "releaseVersion": "5.2"
+}
