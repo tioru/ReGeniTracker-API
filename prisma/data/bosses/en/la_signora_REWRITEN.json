@@ -10,18 +10,127 @@
     "subArea": "Inazuma City",
     "domain": "Narukami Island: Tenshukaku"
   },
-  "damageTypes": [
-    "Cryo"
+  "phases" : [
+    {
+      "phase" : 1,
+      "name": "La Signora",
+      "damageTypes": [
+        "Cryo"
+      ],
+      "hasWeakPoint": false,
+      "abilities": [
+        "Shield",
+        "Invincibility Frames",
+        "Teleport"
+      ],
+      "stats" : {
+        "levels": {
+          "1": {
+            "hp": 734,
+            "def": 505,
+            "atk": 122
+          },
+          "2": {
+            "hp": 933,
+            "def": 510,
+            "atk": 140
+          },
+          "104": {
+            "hp": 623632,
+            "def": 1020,
+            "atk": 12763
+          }
+        },
+        "resistance" : {
+          "physical" : 10,
+          "pyro" : 10,
+          "hydro" : 10,
+          "electro" : 10,
+          "cryo" : 50,
+          "dendro" : 10,
+          "anemo" : 10,
+          "geo" : 10
+        }
+      }
+    },
+    {
+      "phase": 2,
+      "name": "Crimson Witch of Embers",
+      "damageTypes": [
+        "Pyro"
+      ],
+      "hasWeakPoint": false,
+      "abilities": [
+        "Invincibility Frames",
+        "Teleport"
+      ],
+      "stats" : {
+        "levels": {
+          "1": {
+            "hp": 1468,
+            "def": 505,
+            "atk": 122
+          },
+          "2": {
+            "hp": 5783,
+            "def": 550,
+            "atk": 325
+          },
+          "104": {
+            "hp": 1247265,
+            "def": 1020,
+            "atk": 12763
+          }
+        },
+        "resistance" : {
+          "physical" : 10,
+          "pyro" : 70,
+          "hydro" : 10,
+          "electro" : 10,
+          "cryo" : 10,
+          "dendro" : 10,
+          "anemo" : 10,
+          "geo" : 10
+        }
+      }
+    }
   ],
-  "hasWeakPoint": false,
-  "abilities": [
-    "Shield",
-    "Invincibility Frames",
-    "Teleport"
-  ],
-  "variants": [],
-  "drops": [],
-  "artifactSets": [],
-  "ascensionGems": [],
+  "rewards": {
+    "poolRewards" : {
+      "materials" : [
+        "Molten Moment",
+        "Hellfire Butterfly",
+        "Ashen Heart",
+        "Shivada Jade Sliver",
+        "Agnidus Agate Sliver",
+        "Shivada Jade Fragment",
+        "Agnidus Agate Fragment",
+        "Shivada Jade Chunk",
+        "Agnidus Agate Chunk",
+        "Shivada Jade Gemstone",
+        "Agnidus Agate Gemstone",
+        "Dream Solvent",
+        "Northlander Sword Billet",
+        "Northlander Bow Billet",
+        "Northlander Claymore Billet",
+        "Northlander Catalyst Billet",
+        "Northlander Polearm Billet",
+      ],
+      "artefacts" : [
+        "Berseker",
+        "Instructor",
+        "The Exile",
+        "Gladiator's Finale",
+        "Wanderer's Troupe"
+      ]
+    },
+    "basicRewards" : {
+      {
+        "domainLevel" : 1,
+        "bossLevel": 60,
+        "rewards"
+      }
+    }
+  },
   "releaseVersion": "2.1"
 }
