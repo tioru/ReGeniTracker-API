@@ -1,5 +1,6 @@
-﻿// scripts/scrape-bosses.ts
+// scripts/scrape-bosses.ts
 import axios from 'axios';
+import * as cheerio from 'cheerio';
 import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
@@ -17,15 +18,22 @@ const CACHE_PATH = path.resolve(__dirname, './cache/bosses-raw-cache.json');
 // séparément puis on fusionne les résultats (dédoublonnage par pageTitle par
 // précaution, même si les deux catégories sont normalement disjointes).
 //
-// Chaque page utilise {{Enemy Infobox}} (name/title/type/family/group/
-// région/zone/dégâts/faiblesse/capacités/variantes/drops), complétée par
-// {{World Boss Rewards}} (gemmes d'ascension, matériaux exclusifs, sets
-// d'artéfacts) — confirmé sur Andrius (Weekly), Maguu Kenki et Golden
-// Wolflord (Normal). Les stats de combat détaillées ({{Enemy Stats}},
-// {{Energy Drops}}) ne sont volontairement pas exploitées ici : trop
-// dépendantes du niveau/de la version pour être fiables sans vérification
-// approfondie (même logique que les Trounce Domains laissés vides dans
-// scrape-domains.ts).
+// Chaque page utilise {{Enemy Infobox}} (name/title/type/family/région/zone/
+// dégâts/faiblesse/capacités), complétée par {{World Boss Rewards}} /
+// {{Weekly Boss Rewards}} (matériaux exclusifs, gemmes d'ascension, sets
+// d'artéfacts). Les boss à plusieurs phases (ex: La Signora, Childe) ont
+// PLUSIEURS blocs {{Enemy Infobox}} sur la même page (un par phase) : on les
+// extrait tous, pas seulement le premier.
+//
+// Les stats de combat détaillées ({{Enemy Stats}}) ne sont PAS calculables
+// depuis le wikitext brut : le wiki ne stocke que des ratios (hp_ratio,
+// hp_type, atk_ratio) appliqués à une table de scaling par niveau via un
+// module Lua. On récupère donc en plus le HTML rendu de la page
+// (action=parse) pour lire les tableaux déjà calculés (RES + Level Scaling)
+// dans la section "==Stats==", ainsi que les tableaux de récompenses dans
+// "==Rewards==" (boss hebdomadaires, table transclue depuis le Trounce
+// Domain) ou "==Drops==" > "===Items===" (boss normaux). Une requête HTTP
+// supplémentaire par boss est donc nécessaire (fetchBossHtml).
 //
 // Certaines pages de la catégorie ne sont pas des boss mais des pages guides
 // ("Normal Boss", "Weekly Boss") : elles n'ont pas de {{Enemy Infobox}} et
@@ -34,23 +42,75 @@ const CACHE_PATH = path.resolve(__dirname, './cache/bosses-raw-cache.json');
 
 const BOSS_CATEGORIES = ['Category:Normal Bosses', 'Category:Weekly Bosses'];
 
+const ELEMENTS = [
+  'physical',
+  'pyro',
+  'hydro',
+  'electro',
+  'cryo',
+  'dendro',
+  'anemo',
+  'geo',
+] as const;
+
+// Ordre + libellés attendus en sortie pour bossRewards.basicRewards[].rewards
+// (repris tel quel du fichier de référence la_signora_REWRITEN.json).
+const BASIC_REWARD_NAMES = [
+  'Adventure EXP',
+  'Mora',
+  'Companionship EXP',
+  'Character EXP',
+];
+
+interface LevelStats {
+  hp: number;
+  def: number;
+  atk: number;
+}
+
+interface PhaseStatsRaw {
+  resistance: Record<string, number>;
+  levels: Record<string, LevelStats>;
+}
+
+interface RawPhase {
+  name: string;
+  damageTypes: string[];
+  hasWeakPoint: boolean;
+  abilities: string[];
+  stats: PhaseStatsRaw;
+}
+
+interface BasicReward {
+  // Un seul des deux est renseigné selon le type de boss : "domainLevel"
+  // pour les boss hebdomadaires (table transclue depuis un Trounce Domain,
+  // paliers "I".."IV"), "worldLevel" pour les boss normaux (table "World
+  // Level" directement sur la page du boss, paliers "0".."8"). Ce sont deux
+  // notions différentes du jeu, pas juste un renommage de la même colonne.
+  domainLevel?: number;
+  worldLevel?: number;
+  bossLevel: number;
+  rewards: { name: string; quantity: number }[];
+}
+
+interface PoolRewards {
+  materials: string[];
+  artefacts: string[];
+}
+
 interface RawBoss {
   pageTitle: string;
   name: string;
   title: string;
   type: string; // valeur brute de l'infobox : "Normal Bosses" | "Weekly Bosses"
   family: string;
-  group: string;
   region: string;
   area: string;
   subArea: string;
-  damageTypes: string[];
-  hasWeakPoint: boolean;
-  abilities: string[];
-  variants: string[];
-  drops: string[];
-  artifactSets: string[];
-  ascensionGems: string[];
+  domain: string; // champ "location" de l'infobox (nom du Trounce Domain, si applicable)
+  phases: RawPhase[];
+  poolRewards: PoolRewards;
+  basicRewards: BasicReward[];
   releaseVersion: string;
 }
 
@@ -80,6 +140,25 @@ function extractBracedBlock(
   return null;
 }
 
+// Certains boss à plusieurs phases (La Signora, Childe, ...) ont PLUSIEURS
+// blocs {{Enemy Infobox}} sur la même page, un par phase, dans l'ordre.
+function extractAllBracedBlocks(
+  content: string,
+  startMarker: string,
+): string[] {
+  const blocks: string[] = [];
+  let offset = 0;
+  while (true) {
+    const idx = content.indexOf(startMarker, offset);
+    if (idx === -1) break;
+    const block = extractBracedBlock(content.slice(idx), startMarker);
+    if (!block) break;
+    blocks.push(block);
+    offset = idx + block.length;
+  }
+  return blocks;
+}
+
 function parseInfoboxFields(block: string): Record<string, string> {
   const fields: Record<string, string> = {};
   for (const line of block.split('\n')) {
@@ -107,27 +186,15 @@ function slugify(title: string): string {
   return title
     .toLowerCase()
     .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
+    .replace(
+      new RegExp(
+        `[${String.fromCodePoint(0x0300)}-${String.fromCodePoint(0x036f)}]`,
+        'g',
+      ),
+      '',
+    )
     .replace(/[^a-z0-9]+/g, '_')
     .replace(/^_+|_+$/g, '');
-}
-
-// Sépare une liste séparée par des virgules ou "•"/retours à la ligne
-// (ex: drops = "Tail of Boreas,Ring of Boreas,Spirit Locket of Boreas").
-function splitList(value: string): string[] {
-  return cleanWikitext(value)
-    .split(/[,•\n]/)
-    .map((s) => s.trim())
-    .filter(Boolean);
-}
-
-// Les variantes (ex: "Maguu Kenki: Lone Gale;Maguu Kenki: Galloping Frost")
-// sont séparées par ";", pas par ",".
-function splitSemicolon(value: string): string[] {
-  return cleanWikitext(value)
-    .split(';')
-    .map((s) => s.trim())
-    .filter(Boolean);
 }
 
 // dmgtype (sans suffixe) puis dmgtype2, dmgtype3, ... selon le nombre
@@ -165,13 +232,296 @@ function extractBossName(
   return pageTitle.replace(/\s*\([^)]*\)\s*$/, '').trim();
 }
 
+// ── HTML helpers (tableaux déjà calculés par le wiki, via action=parse) ────
+
+// Isole le HTML d'une section (identifiée par son id de heading) jusqu'au
+// prochain heading de niveau h2 ou h3, quel que soit le niveau du heading de
+// départ. Ex: "Stats" (h2) s'arrête au prochain h2 ("Abilities"), "Items"
+// (h3, imbriqué sous "Drops") s'arrête au prochain h3 ("Energy").
+function extractSectionHtml(html: string, id: string): string | null {
+  const marker = `id="${id}"`;
+  const idx = html.indexOf(marker);
+  if (idx === -1) return null;
+
+  // Le heading portant cet id peut être un h2 (ex: "Stats") ou un h3 imbriqué
+  // (ex: "Items" sous "Drops"). Un h2 doit avaler ses propres sous-sections
+  // h3 (ex: "Phase 1"/"Phase 2" sous "Stats") : on ne s'arrête donc qu'au
+  // prochain h2 dans ce cas, jamais à un h3 intermédiaire.
+  const lastH2Before = html.lastIndexOf('<h2', idx);
+  const lastH3Before = html.lastIndexOf('<h3', idx);
+  const isH2 = lastH2Before > lastH3Before;
+
+  const searchFrom = idx + marker.length;
+  const nextH2 = html.indexOf('<h2', searchFrom);
+  const nextH3 = html.indexOf('<h3', searchFrom);
+  const candidates = isH2
+    ? [nextH2]
+    : [nextH2, nextH3];
+  const validCandidates = candidates.filter((n) => n !== -1);
+  const end = validCandidates.length ? Math.min(...validCandidates) : html.length;
+  return html.slice(idx, end);
+}
+
+// "−30%" (signe moins unicode utilisé par le wiki) / "0%" / "170%" -> nombre.
+function parsePercent(raw: string): number {
+  const cleaned = raw.replace(/−/g, '-').replace('%', '').trim();
+  const n = parseInt(cleaned, 10);
+  return Number.isNaN(n) ? 0 : n;
+}
+
+function parseNumber(raw: string): number {
+  const n = parseInt(raw.replace(/,/g, '').trim(), 10);
+  return Number.isNaN(n) ? 0 : n;
+}
+
+// Table "RES" ({{Enemy Stats}}) : une ligne d'icônes d'éléments, puis une ou
+// plusieurs lignes de valeurs (une par état, ex: Normal/Stunned pour Childe).
+// On ne garde que la première ligne de valeurs (état "par défaut").
+function parseResistanceTable(
+  $: ReturnType<typeof cheerio.load>,
+  table: cheerio.Element,
+): Record<string, number> {
+  const rows = $(table).find('tr').toArray();
+  const elementRowIdx = rows.findIndex(
+    (row) => $(row).find('img[alt]').length >= 4,
+  );
+  if (elementRowIdx === -1) return {};
+
+  const elements = $(rows[elementRowIdx])
+    .find('img[alt]')
+    .toArray()
+    .map((img) => ($(img).attr('alt') ?? '').trim().toLowerCase())
+    .filter(Boolean);
+
+  const dataRow = rows[elementRowIdx + 1];
+  if (!dataRow) return {};
+
+  const values = $(dataRow)
+    .find('td, th')
+    .toArray()
+    .map((cell) => $(cell).text().trim())
+    .filter((v) => /%$/.test(v));
+  // Une éventuelle colonne d'état ("Normal"/"Stunned") en tête de ligne est
+  // filtrée ici car elle ne matche pas /%$/.
+  const aligned = values.slice(-elements.length);
+
+  const resistance: Record<string, number> = {};
+  elements.forEach((el, i) => {
+    if (aligned[i] !== undefined) resistance[el] = parsePercent(aligned[i]);
+  });
+  return resistance;
+}
+
+// Table "Level Scaling" ({{Enemy Stats}}) : Level | HP | ATK | DEF, une ligne
+// par niveau. Contrairement à une sélection de niveaux "milestones", on
+// récupère ICI systématiquement toutes les lignes présentes (typiquement 1 à
+// 104 par paliers de 1), le wiki les calculant déjà toutes via son module Lua.
+function parseLevelScalingTable(
+  $: ReturnType<typeof cheerio.load>,
+  table: cheerio.Element,
+): Record<string, LevelStats> {
+  const levels: Record<string, LevelStats> = {};
+  for (const row of $(table).find('tr').toArray()) {
+    const cells = $(row).find('td').toArray();
+    if (cells.length < 4) continue; // lignes d'en-tête (th) ignorées
+    const level = $(cells[0]).text().trim();
+    if (!/^\d+$/.test(level)) continue;
+    levels[level] = {
+      hp: parseNumber($(cells[1]).text()),
+      atk: parseNumber($(cells[2]).text()),
+      def: parseNumber($(cells[3]).text()),
+    };
+  }
+  return levels;
+}
+
+// Dans la section "==Stats==", chaque phase produit exactement 2 tables dans
+// l'ordre : RES puis Level Scaling (confirmé sur La Signora [2 phases],
+// Childe [3 phases] et Cryo Regisvine [1 phase, pas de sous-titre "Phase"]).
+// On filtre d'abord les tables non pertinentes puis on les apparie 2 par 2.
+function parseStatsPhases(sectionHtml: string): PhaseStatsRaw[] {
+  const $ = cheerio.load(sectionHtml);
+  const tables = $('table')
+    .toArray()
+    .filter((t) => {
+      const cls = $(t).attr('class') ?? '';
+      const text = $(t).text();
+      return (
+        (cls.includes('wikitable') && text.includes('RES')) ||
+        cls.includes('waffle') ||
+        text.includes('Level Scaling')
+      );
+    });
+
+  const phases: PhaseStatsRaw[] = [];
+  for (let i = 0; i + 1 < tables.length; i += 2) {
+    phases.push({
+      resistance: parseResistanceTable($, tables[i]),
+      levels: parseLevelScalingTable($, tables[i + 1]),
+    });
+  }
+  return phases;
+}
+
+// Liste d'icônes de la section Rewards, hors tableaux (`.wds-tabber`) : ce
+// sont les matériaux exclusifs, gemmes d'ascension (toutes qualités), sets
+// d'artéfacts, Dream Solvent et Northlander Billets. La classe
+// "card-quality-XX" (2 chiffres ou plus, ex: "34", "45", "123") identifie
+// spécifiquement les sets d'artéfacts (qui peuvent apparaître sur plusieurs
+// raretés), contrairement aux matériaux ("card-quality-4", 1 chiffre).
+function parsePoolRewards(sectionHtml: string): PoolRewards {
+  const $ = cheerio.load(sectionHtml);
+  const materials: string[] = [];
+  const artefacts: string[] = [];
+  const seen = new Set<string>();
+
+  $('.card-container.mini-card').each((_, el) => {
+    if ($(el).closest('.wds-tabber').length > 0) return;
+
+    const name = $(el).find('a[title]').first().attr('title')?.trim();
+    if (!name || seen.has(name)) return;
+    seen.add(name);
+
+    const qualityClass =
+      $(el)
+        .find('[class*="card-quality-"]')
+        .first()
+        .attr('class')
+        ?.match(/card-quality-(\d+)/)?.[1] ?? '';
+
+    if (qualityClass.length > 1) artefacts.push(name);
+    else materials.push(name);
+  });
+
+  return { materials, artefacts };
+}
+
+function romanToInt(roman: string): number {
+  const map: Record<string, number> = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000,
+  };
+  const s = roman.toUpperCase();
+  let result = 0;
+  for (let i = 0; i < s.length; i++) {
+    const cur = map[s[i]];
+    if (!cur) return NaN;
+    const next = map[s[i + 1]];
+    result += next && cur < next ? -cur : cur;
+  }
+  return result;
+}
+
+// "I"/"II"/"III"/"IV" (Trounce Domains) ou "0".."8" (World Level, boss
+// normaux) selon le type de boss.
+function parseLevelCell(raw: string): number {
+  const trimmed = raw.trim();
+  if (/^\d+$/.test(trimmed)) return parseInt(trimmed, 10);
+  const roman = romanToInt(trimmed);
+  return Number.isNaN(roman) ? 0 : roman;
+}
+
+// Table "Basic Drops" (1er onglet du tabber Rewards) : Domain/World Level |
+// Boss Level | Adventure EXP | Mora | Character EXP | Companionship EXP |
+// (Talent Materials | Northlander Billets | Dream Solvent, ignorés ici).
+function parseBasicRewards(sectionHtml: string): BasicReward[] {
+  const $ = cheerio.load(sectionHtml);
+  const table = $('.wds-tabber .wds-tab__content')
+    .first()
+    .find('table.wikitable')
+    .first();
+  if (!table.length) return [];
+
+  const rows = table.find('tr').toArray();
+  if (!rows.length) return [];
+
+  const columns = $(rows[0])
+    .find('th')
+    .toArray()
+    .map(
+      (th) =>
+        $(th).find('a[title]').first().attr('title') ??
+        $(th).text().replace(/\s+/g, ' ').trim(),
+    );
+
+  // columns[0] = en-tête de la 1ère colonne ("World Level" ou "Domain
+  // Level" selon le type de boss) : détermine quelle clé remplir plus bas.
+  const isWorldLevel = /world/i.test(columns[0] ?? '');
+
+  const results: BasicReward[] = [];
+  for (const row of rows.slice(1)) {
+    const levelCell = $(row).find('th').first();
+    if (!levelCell.length) continue; // ligne vide de séparation ("mw-empty-elt")
+
+    const tds = $(row).find('td').toArray();
+    if (!tds.length) continue;
+
+    const rewards: { name: string; quantity: number }[] = [];
+    for (const name of BASIC_REWARD_NAMES) {
+      const colIdx = columns.indexOf(name);
+      if (colIdx === -1) continue;
+      // columns[0] = en-tête du niveau (th, hors `tds`) : décalage de 1.
+      const td = tds[colIdx - 1];
+      if (!td) continue;
+      const text = $(td).text().replace(/,/g, '').trim();
+      if (!/^\d+$/.test(text)) continue;
+      rewards.push({ name, quantity: parseInt(text, 10) });
+    }
+
+    const level = parseLevelCell(levelCell.text());
+    results.push({
+      ...(isWorldLevel ? { worldLevel: level } : { domainLevel: level }),
+      bossLevel: parseNumber($(tds[0]).text()),
+      rewards,
+    });
+  }
+  return results;
+}
+
 // ── API ───────────────────────────────────────────────────────────────────────
+
+const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
+const httpsAgent = new https.Agent({ rejectUnauthorized: false });
+
+async function fetchBossHtml(pageTitle: string): Promise<string> {
+  const response = await axios.get(API_URL, {
+    params: {
+      action: 'parse',
+      page: pageTitle,
+      prop: 'text',
+      format: 'json',
+      formatversion: '2',
+    },
+    headers: HTTP_HEADERS,
+    httpsAgent,
+  });
+  return response.data?.parse?.text ?? '';
+}
+
+interface RawInfoboxBoss {
+  pageTitle: string;
+  name: string;
+  title: string;
+  type: string;
+  family: string;
+  region: string;
+  area: string;
+  subArea: string;
+  domain: string;
+  infoboxes: Record<string, string>[];
+  releaseVersion: string;
+}
 
 async function fetchBatch(
   category: string,
   gcmcontinue?: string,
 ): Promise<{
-  results: RawBoss[];
+  results: RawInfoboxBoss[];
   nextContinue?: string;
 }> {
   const params: Record<string, string> = {
@@ -189,25 +539,28 @@ async function fetchBatch(
 
   const response = await axios.get(API_URL, {
     params,
-    headers: { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' },
-    httpsAgent: new https.Agent({ rejectUnauthorized: false }),
+    headers: HTTP_HEADERS,
+    httpsAgent,
   });
 
   const pages = response.data?.query?.pages ?? [];
   const nextContinue = response.data?.continue?.gcmcontinue;
-  const results: RawBoss[] = [];
+  const results: RawInfoboxBoss[] = [];
 
   for (const page of pages) {
     const content: string = page?.revisions?.[0]?.slots?.main?.content ?? '';
     // Exclut les pages guides ("Normal Boss", "Weekly Boss") sans infobox.
     if (!content.includes('{{Enemy Infobox')) continue;
 
-    const block = extractBracedBlock(content, '{{Enemy Infobox');
-    if (!block) continue;
-    const fields = parseInfoboxFields(block);
+    const infoboxBlocks = extractAllBracedBlocks(content, '{{Enemy Infobox');
+    const infoboxes = infoboxBlocks.map(parseInfoboxFields);
+    const fields = infoboxes[0] ?? {};
 
-    const rewardsBlock = extractBracedBlock(content, '{{World Boss Rewards');
-    const rewardsFields = rewardsBlock ? parseInfoboxFields(rewardsBlock) : {};
+    // Le titre / le lien de domaine ne sont parfois présents que sur un seul
+    // des blocs infobox (ex: La Signora phase 1 uniquement) : on cherche
+    // dans tous les blocs, dans l'ordre.
+    const title = infoboxes.find((f) => f['title'])?.['title'] ?? '';
+    const domain = infoboxes.find((f) => f['location'])?.['location'] ?? '';
 
     const versionMatch = content.match(/\{\{Change History\|([^}|]+)/);
     const version = versionMatch ? versionMatch[1].trim() : '';
@@ -215,20 +568,14 @@ async function fetchBatch(
     results.push({
       pageTitle: page.title,
       name: extractBossName(fields, page.title),
-      title: cleanWikitext(fields['title'] ?? ''),
+      title: cleanWikitext(title),
       type: cleanWikitext(fields['type'] ?? ''),
       family: cleanWikitext(fields['family'] ?? ''),
-      group: cleanWikitext(fields['group'] ?? ''),
       region: cleanWikitext(fields['region'] ?? ''),
       area: cleanWikitext(fields['area'] ?? ''),
       subArea: cleanWikitext(fields['subarea'] ?? ''),
-      damageTypes: parseDamageTypes(fields),
-      hasWeakPoint: (fields['weakpoint'] ?? '').trim().toLowerCase() === 'yes',
-      abilities: parseAbilities(fields),
-      variants: splitSemicolon(fields['variants'] ?? ''),
-      drops: splitList(fields['drops'] ?? ''),
-      artifactSets: splitList(rewardsFields['sets'] ?? ''),
-      ascensionGems: splitList(rewardsFields['gem'] ?? ''),
+      domain: cleanWikitext(domain),
+      infoboxes,
       releaseVersion: version,
     });
   }
@@ -236,8 +583,8 @@ async function fetchBatch(
   return { results, nextContinue };
 }
 
-async function fetchAllForCategory(category: string): Promise<RawBoss[]> {
-  const all: RawBoss[] = [];
+async function fetchAllForCategory(category: string): Promise<RawInfoboxBoss[]> {
+  const all: RawInfoboxBoss[] = [];
   let cont: string | undefined;
   let page = 1;
   do {
@@ -251,13 +598,98 @@ async function fetchAllForCategory(category: string): Promise<RawBoss[]> {
   return all;
 }
 
+// Complète chaque boss avec les phases (stats) et récompenses, extraites du
+// HTML rendu de sa page (1 requête HTTP supplémentaire par boss).
+async function enrichWithHtml(boss: RawInfoboxBoss): Promise<RawBoss> {
+  let html = '';
+  try {
+    html = await fetchBossHtml(boss.pageTitle);
+  } catch (err) {
+    console.warn(`⚠️  Échec du fetch HTML pour "${boss.pageTitle}": ${err}`);
+  }
+
+  const statsSection = html ? extractSectionHtml(html, 'Stats') : null;
+  const statsPhases = statsSection ? parseStatsPhases(statsSection) : [];
+
+  const rewardsSection = html
+    ? (extractSectionHtml(html, 'Rewards') ?? extractSectionHtml(html, 'Items'))
+    : null;
+  const poolRewards = rewardsSection
+    ? parsePoolRewards(rewardsSection)
+    : { materials: [], artefacts: [] };
+  const basicRewards = rewardsSection ? parseBasicRewards(rewardsSection) : [];
+
+  // Le nombre de phases est déterminé par le nombre de blocs
+  // {{Enemy Infobox}} (un par phase, confirmé sur La Signora et Childe), PAS
+  // par le nombre de blocs {{Enemy Stats}} : certains boss à une seule phase
+  // documentent plusieurs variantes de stats sous "==Stats==" (ex: Aeonblight
+  // Drake a "===Normal===" et "===Stygian Onslaught===", un état de combat
+  // renforcé, pas une phase distincte) sans avoir plusieurs infobox pour
+  // autant. Dans ce cas on ne garde que le premier bloc de stats (l'état de
+  // base) et les blocs excédentaires sont ignorés.
+  const phaseCount = Math.max(boss.infoboxes.length, 1);
+  if (statsPhases.length !== phaseCount) {
+    console.warn(
+      `⚠️  "${boss.pageTitle}": ${statsPhases.length} bloc(s) de stats pour ${phaseCount} phase(s) (infobox) — ` +
+        (statsPhases.length > phaseCount
+          ? 'les blocs excédentaires (variante de combat ?) sont ignorés.'
+          : 'stats manquantes pour au moins une phase.'),
+    );
+  }
+  const phases: RawPhase[] = [];
+  for (let i = 0; i < phaseCount; i++) {
+    const infobox =
+      boss.infoboxes[Math.min(i, boss.infoboxes.length - 1)] ?? {};
+    const statsRaw = statsPhases[i] ?? { resistance: {}, levels: {} };
+
+    const resistance: Record<string, number> = {};
+    for (const el of ELEMENTS) resistance[el] = statsRaw.resistance[el] ?? 0;
+
+    phases.push({
+      name: infobox['name'] ? cleanWikitext(infobox['name']) : boss.name,
+      damageTypes: parseDamageTypes(infobox),
+      hasWeakPoint:
+        (infobox['weakpoint'] ?? '').trim().toLowerCase() === 'yes',
+      abilities: parseAbilities(infobox),
+      stats: { resistance, levels: statsRaw.levels },
+    });
+  }
+
+  return {
+    pageTitle: boss.pageTitle,
+    name: boss.name,
+    title: boss.title,
+    type: boss.type,
+    family: boss.family,
+    region: boss.region,
+    area: boss.area,
+    subArea: boss.subArea,
+    domain: boss.domain,
+    phases,
+    poolRewards,
+    basicRewards,
+    releaseVersion: boss.releaseVersion,
+  };
+}
+
 async function fetchAll(): Promise<RawBoss[]> {
-  const byPageTitle = new Map<string, RawBoss>();
+  const byPageTitle = new Map<string, RawInfoboxBoss>();
   for (const category of BOSS_CATEGORIES) {
     const results = await fetchAllForCategory(category);
     for (const boss of results) byPageTitle.set(boss.pageTitle, boss);
   }
-  return [...byPageTitle.values()];
+
+  const infoboxBosses = [...byPageTitle.values()];
+  const enriched: RawBoss[] = [];
+  for (let i = 0; i < infoboxBosses.length; i++) {
+    const boss = infoboxBosses[i];
+    console.log(
+      `Fetching stats/rewards for "${boss.pageTitle}" (${i + 1}/${infoboxBosses.length})...`,
+    );
+    enriched.push(await enrichWithHtml(boss));
+    await new Promise((r) => setTimeout(r, 500));
+  }
+  return enriched;
 }
 
 // ── Cache ─────────────────────────────────────────────────────────────────────
@@ -302,19 +734,27 @@ function writeBossFiles(bosses: RawBoss[], versionFilter?: string[]) {
       title: boss.title,
       type: bossTypeLabel(boss.type),
       family: boss.family,
-      group: boss.group,
       location: {
         region: boss.region,
         area: boss.area,
         subArea: boss.subArea,
+        domain: boss.domain,
       },
-      damageTypes: boss.damageTypes,
-      hasWeakPoint: boss.hasWeakPoint,
-      abilities: boss.abilities,
-      variants: boss.variants,
-      drops: boss.drops,
-      artifactSets: boss.artifactSets,
-      ascensionGems: boss.ascensionGems,
+      phases: boss.phases.map((phase, idx) => ({
+        phase: idx + 1,
+        name: phase.name,
+        damageTypes: phase.damageTypes,
+        hasWeakPoint: phase.hasWeakPoint,
+        abilities: phase.abilities,
+        stats: {
+          levels: phase.stats.levels,
+          resistance: phase.stats.resistance,
+        },
+      })),
+      bossRewards: {
+        poolRewards: boss.poolRewards,
+        basicRewards: boss.basicRewards,
+      },
       releaseVersion: boss.releaseVersion,
     };
 

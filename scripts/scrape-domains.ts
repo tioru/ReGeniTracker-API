@@ -103,6 +103,8 @@ interface RawDomain {
   releaseVersion: string;
   rotations: RawRotation[]; // 0 à 3 rotations (les domaines n'ayant pas de {{Domain by Weekday}} en ont 0)
   levels: RawLevel[];
+  quest: string; // champ "quest" de l'infobox (Quest Domains uniquement) — vide si absent
+  questType: string; // champ "quest_type" de l'infobox — vide si absent
 }
 
 // ── Wikitext helpers (repris tels quels du script achievements) ─────────────
@@ -357,6 +359,8 @@ async function fetchBatch(gcmcontinue?: string): Promise<{
       releaseVersion: version,
       rotations: parseRotations(content),
       levels: parseLevels(content),
+      quest: cleanWikitext(fields['quest'] ?? ''),
+      questType: cleanWikitext(fields['quest_type'] ?? ''),
     });
   }
 
@@ -473,6 +477,10 @@ function writeDomainFiles(domains: RawDomain[], versionFilter?: string[]) {
       description: domain.description,
       recommendedElements: domain.recommendedElements,
       releaseVersion: domain.releaseVersion,
+      // Uniquement présent pour les Quest Domains (absent partout ailleurs).
+      ...(domain.quest
+        ? { quest: { name: domain.quest, type: domain.questType || undefined } }
+        : {}),
       rewards,
       levels,
     };

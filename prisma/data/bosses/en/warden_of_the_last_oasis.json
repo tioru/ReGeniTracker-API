@@ -3,18 +3,692 @@
   "title": "Evolved From an Apocalyptic Millennium",
   "type": "Weekly Boss",
   "family": "Enemies of Note",
-  "group": "",
   "location": {
     "region": "",
     "area": "",
-    "subArea": ""
+    "subArea": "",
+    "domain": "The Realm of Beginnings"
   },
-  "damageTypes": [],
-  "hasWeakPoint": false,
-  "abilities": [],
-  "variants": [],
-  "drops": [],
-  "artifactSets": [],
-  "ascensionGems": [],
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Warden of the Last Oasis",
+      "damageTypes": [],
+      "hasWeakPoint": false,
+      "abilities": [],
+      "stats": {
+        "levels": {
+          "1": {
+            "hp": 1322,
+            "atk": 152,
+            "def": 505
+          },
+          "2": {
+            "hp": 1679,
+            "atk": 175,
+            "def": 510
+          },
+          "3": {
+            "hp": 2074,
+            "atk": 200,
+            "def": 515
+          },
+          "4": {
+            "hp": 2507,
+            "atk": 226,
+            "def": 520
+          },
+          "5": {
+            "hp": 2977,
+            "atk": 255,
+            "def": 525
+          },
+          "6": {
+            "hp": 3485,
+            "atk": 285,
+            "def": 530
+          },
+          "7": {
+            "hp": 4030,
+            "atk": 316,
+            "def": 535
+          },
+          "8": {
+            "hp": 4317,
+            "atk": 345,
+            "def": 540
+          },
+          "9": {
+            "hp": 4752,
+            "atk": 375,
+            "def": 545
+          },
+          "10": {
+            "hp": 5205,
+            "atk": 407,
+            "def": 550
+          },
+          "11": {
+            "hp": 5954,
+            "atk": 449,
+            "def": 555
+          },
+          "12": {
+            "hp": 6733,
+            "atk": 493,
+            "def": 560
+          },
+          "13": {
+            "hp": 7544,
+            "atk": 540,
+            "def": 565
+          },
+          "14": {
+            "hp": 8446,
+            "atk": 590,
+            "def": 570
+          },
+          "15": {
+            "hp": 9383,
+            "atk": 643,
+            "def": 575
+          },
+          "16": {
+            "hp": 10355,
+            "atk": 697,
+            "def": 580
+          },
+          "17": {
+            "hp": 11524,
+            "atk": 772,
+            "def": 585
+          },
+          "18": {
+            "hp": 12561,
+            "atk": 849,
+            "def": 590
+          },
+          "19": {
+            "hp": 14165,
+            "atk": 928,
+            "def": 595
+          },
+          "20": {
+            "hp": 15320,
+            "atk": 1004,
+            "def": 600
+          },
+          "21": {
+            "hp": 16504,
+            "atk": 1075,
+            "def": 605
+          },
+          "22": {
+            "hp": 17718,
+            "atk": 1149,
+            "def": 610
+          },
+          "23": {
+            "hp": 18938,
+            "atk": 1221,
+            "def": 615
+          },
+          "24": {
+            "hp": 20180,
+            "atk": 1295,
+            "def": 620
+          },
+          "25": {
+            "hp": 21444,
+            "atk": 1371,
+            "def": 625
+          },
+          "26": {
+            "hp": 22594,
+            "atk": 1423,
+            "def": 630
+          },
+          "27": {
+            "hp": 23813,
+            "atk": 1476,
+            "def": 635
+          },
+          "28": {
+            "hp": 25076,
+            "atk": 1530,
+            "def": 640
+          },
+          "29": {
+            "hp": 26790,
+            "atk": 1584,
+            "def": 645
+          },
+          "30": {
+            "hp": 28529,
+            "atk": 1639,
+            "def": 650
+          },
+          "31": {
+            "hp": 30296,
+            "atk": 1704,
+            "def": 655
+          },
+          "32": {
+            "hp": 32127,
+            "atk": 1771,
+            "def": 660
+          },
+          "33": {
+            "hp": 34037,
+            "atk": 1839,
+            "def": 665
+          },
+          "34": {
+            "hp": 36027,
+            "atk": 1912,
+            "def": 670
+          },
+          "35": {
+            "hp": 38298,
+            "atk": 1974,
+            "def": 675
+          },
+          "36": {
+            "hp": 40692,
+            "atk": 2038,
+            "def": 680
+          },
+          "37": {
+            "hp": 43181,
+            "atk": 2133,
+            "def": 685
+          },
+          "38": {
+            "hp": 45755,
+            "atk": 2236,
+            "def": 690
+          },
+          "39": {
+            "hp": 48441,
+            "atk": 2340,
+            "def": 695
+          },
+          "40": {
+            "hp": 51225,
+            "atk": 2450,
+            "def": 700
+          },
+          "41": {
+            "hp": 54125,
+            "atk": 2539,
+            "def": 705
+          },
+          "42": {
+            "hp": 57293,
+            "atk": 2630,
+            "def": 710
+          },
+          "43": {
+            "hp": 60692,
+            "atk": 2718,
+            "def": 715
+          },
+          "44": {
+            "hp": 64316,
+            "atk": 2808,
+            "def": 720
+          },
+          "45": {
+            "hp": 68817,
+            "atk": 2899,
+            "def": 725
+          },
+          "46": {
+            "hp": 73394,
+            "atk": 2970,
+            "def": 730
+          },
+          "47": {
+            "hp": 78228,
+            "atk": 3077,
+            "def": 735
+          },
+          "48": {
+            "hp": 83329,
+            "atk": 3186,
+            "def": 740
+          },
+          "49": {
+            "hp": 88720,
+            "atk": 3296,
+            "def": 745
+          },
+          "50": {
+            "hp": 94384,
+            "atk": 3447,
+            "def": 750
+          },
+          "51": {
+            "hp": 99228,
+            "atk": 3551,
+            "def": 755
+          },
+          "52": {
+            "hp": 104346,
+            "atk": 3655,
+            "def": 760
+          },
+          "53": {
+            "hp": 109624,
+            "atk": 3761,
+            "def": 765
+          },
+          "54": {
+            "hp": 115069,
+            "atk": 3868,
+            "def": 770
+          },
+          "55": {
+            "hp": 122470,
+            "atk": 3970,
+            "def": 775
+          },
+          "56": {
+            "hp": 129379,
+            "atk": 4059,
+            "def": 780
+          },
+          "57": {
+            "hp": 136483,
+            "atk": 4184,
+            "def": 785
+          },
+          "58": {
+            "hp": 143794,
+            "atk": 4318,
+            "def": 790
+          },
+          "59": {
+            "hp": 151505,
+            "atk": 4455,
+            "def": 795
+          },
+          "60": {
+            "hp": 159461,
+            "atk": 4604,
+            "def": 800
+          },
+          "61": {
+            "hp": 167595,
+            "atk": 4732,
+            "def": 805
+          },
+          "62": {
+            "hp": 177341,
+            "atk": 4869,
+            "def": 810
+          },
+          "63": {
+            "hp": 187407,
+            "atk": 5009,
+            "def": 815
+          },
+          "64": {
+            "hp": 197704,
+            "atk": 5182,
+            "def": 820
+          },
+          "65": {
+            "hp": 209643,
+            "atk": 5326,
+            "def": 825
+          },
+          "66": {
+            "hp": 219988,
+            "atk": 5431,
+            "def": 830
+          },
+          "67": {
+            "hp": 230686,
+            "atk": 5666,
+            "def": 835
+          },
+          "68": {
+            "hp": 241452,
+            "atk": 5820,
+            "def": 840
+          },
+          "69": {
+            "hp": 252544,
+            "atk": 5965,
+            "def": 845
+          },
+          "70": {
+            "hp": 263738,
+            "atk": 6122,
+            "def": 850
+          },
+          "71": {
+            "hp": 275097,
+            "atk": 6399,
+            "def": 855
+          },
+          "72": {
+            "hp": 287711,
+            "atk": 6676,
+            "def": 860
+          },
+          "73": {
+            "hp": 299649,
+            "atk": 6954,
+            "def": 865
+          },
+          "74": {
+            "hp": 312144,
+            "atk": 7231,
+            "def": 870
+          },
+          "75": {
+            "hp": 330011,
+            "atk": 7508,
+            "def": 875
+          },
+          "76": {
+            "hp": 347112,
+            "atk": 7785,
+            "def": 880
+          },
+          "77": {
+            "hp": 364920,
+            "atk": 8062,
+            "def": 885
+          },
+          "78": {
+            "hp": 383012,
+            "atk": 8339,
+            "def": 890
+          },
+          "79": {
+            "hp": 402452,
+            "atk": 8616,
+            "def": 895
+          },
+          "80": {
+            "hp": 425459,
+            "atk": 8894,
+            "def": 900
+          },
+          "81": {
+            "hp": 448054,
+            "atk": 9171,
+            "def": 905
+          },
+          "82": {
+            "hp": 471054,
+            "atk": 9448,
+            "def": 910
+          },
+          "83": {
+            "hp": 493466,
+            "atk": 9725,
+            "def": 915
+          },
+          "84": {
+            "hp": 515847,
+            "atk": 10002,
+            "def": 920
+          },
+          "85": {
+            "hp": 543567,
+            "atk": 10279,
+            "def": 925
+          },
+          "86": {
+            "hp": 566576,
+            "atk": 10449,
+            "def": 930
+          },
+          "87": {
+            "hp": 589960,
+            "atk": 10671,
+            "def": 935
+          },
+          "88": {
+            "hp": 613744,
+            "atk": 10912,
+            "def": 940
+          },
+          "89": {
+            "hp": 639116,
+            "atk": 11155,
+            "def": 945
+          },
+          "90": {
+            "hp": 667805,
+            "atk": 11419,
+            "def": 950
+          },
+          "91": {
+            "hp": 692449,
+            "atk": 11715,
+            "def": 955
+          },
+          "92": {
+            "hp": 717431,
+            "atk": 12033,
+            "def": 960
+          },
+          "93": {
+            "hp": 749110,
+            "atk": 12357,
+            "def": 965
+          },
+          "94": {
+            "hp": 780386,
+            "atk": 12777,
+            "def": 970
+          },
+          "95": {
+            "hp": 817716,
+            "atk": 13099,
+            "def": 975
+          },
+          "96": {
+            "hp": 854667,
+            "atk": 13203,
+            "def": 980
+          },
+          "97": {
+            "hp": 891166,
+            "atk": 13320,
+            "def": 985
+          },
+          "98": {
+            "hp": 927011,
+            "atk": 14301,
+            "def": 990
+          },
+          "99": {
+            "hp": 962153,
+            "atk": 14427,
+            "def": 995
+          },
+          "100": {
+            "hp": 998280,
+            "atk": 14773,
+            "def": 1000
+          },
+          "101": {
+            "hp": 1030176,
+            "atk": 14977,
+            "def": 1005
+          },
+          "102": {
+            "hp": 1063128,
+            "atk": 15311,
+            "def": 1010
+          },
+          "103": {
+            "hp": 1096832,
+            "atk": 15665,
+            "def": 1015
+          },
+          "104": {
+            "hp": 1122538,
+            "atk": 15954,
+            "def": 1020
+          }
+        },
+        "resistance": {
+          "physical": 10,
+          "pyro": 10,
+          "hydro": 10,
+          "electro": 10,
+          "cryo": 10,
+          "dendro": 70,
+          "anemo": 10,
+          "geo": 10
+        }
+      }
+    },
+    {
+      "phase": 2,
+      "name": "Warden of Oasis Prime",
+      "damageTypes": [
+        "Dendro"
+      ],
+      "hasWeakPoint": false,
+      "abilities": [],
+      "stats": {
+        "levels": {},
+        "resistance": {
+          "physical": 0,
+          "pyro": 0,
+          "hydro": 0,
+          "electro": 0,
+          "cryo": 0,
+          "dendro": 0,
+          "anemo": 0,
+          "geo": 0
+        }
+      }
+    }
+  ],
+  "bossRewards": {
+    "poolRewards": {
+      "materials": [
+        "Worldspan Fern",
+        "Primordial Greenbloom",
+        "Everamber",
+        "Nagadus Emerald Sliver",
+        "Nagadus Emerald Fragment",
+        "Nagadus Emerald Chunk",
+        "Nagadus Emerald Gemstone",
+        "Dream Solvent",
+        "Midlander Sword Billet",
+        "Midlander Bow Billet",
+        "Midlander Claymore Billet",
+        "Midlander Catalyst Billet",
+        "Midlander Polearm Billet"
+      ],
+      "artefacts": [
+        "Berserker",
+        "Instructor",
+        "The Exile",
+        "Gladiator's Finale",
+        "Wanderer's Troupe"
+      ]
+    },
+    "basicRewards": [
+      {
+        "domainLevel": 1,
+        "bossLevel": 60,
+        "rewards": [
+          {
+            "name": "Adventure EXP",
+            "quantity": 300
+          },
+          {
+            "name": "Mora",
+            "quantity": 7100
+          },
+          {
+            "name": "Companionship EXP",
+            "quantity": 60
+          },
+          {
+            "name": "Character EXP",
+            "quantity": 333
+          }
+        ]
+      },
+      {
+        "domainLevel": 2,
+        "bossLevel": 70,
+        "rewards": [
+          {
+            "name": "Adventure EXP",
+            "quantity": 300
+          },
+          {
+            "name": "Mora",
+            "quantity": 7600
+          },
+          {
+            "name": "Companionship EXP",
+            "quantity": 65
+          },
+          {
+            "name": "Character EXP",
+            "quantity": 355
+          }
+        ]
+      },
+      {
+        "domainLevel": 3,
+        "bossLevel": 80,
+        "rewards": [
+          {
+            "name": "Adventure EXP",
+            "quantity": 300
+          },
+          {
+            "name": "Mora",
+            "quantity": 8000
+          },
+          {
+            "name": "Companionship EXP",
+            "quantity": 70
+          },
+          {
+            "name": "Character EXP",
+            "quantity": 378
+          }
+        ]
+      },
+      {
+        "domainLevel": 4,
+        "bossLevel": 90,
+        "rewards": [
+          {
+            "name": "Adventure EXP",
+            "quantity": 300
+          },
+          {
+            "name": "Mora",
+            "quantity": 8100
+          },
+          {
+            "name": "Companionship EXP",
+            "quantity": 70
+          },
+          {
+            "name": "Character EXP",
+            "quantity": 400
+          }
+        ]
+      }
+    ]
+  },
   "releaseVersion": "3.6"
 }
