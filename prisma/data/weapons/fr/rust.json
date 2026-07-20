@@ -1,0 +1,181 @@
+{
+  "name": "Arc rouillé",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Un grand arc en fer complètement recouvert de rouille. Le soulever ou le manier est impossible sans posséder une force hors du commun.",
+  "history": "Un arc aussi rigide que la fonte ayant appartenu à un archer célèbre. Monstres et bandits tombaient autrefois comme des mouches sous ses flèches. On raconte que dans sa quête de la maîtrise ultime de son arme, la corde de son arc chantait telle la foudre, et ses flèches pleuvaient telle une pluie d'acier au soleil. L'archer réalisa dans ses dernières années la vérité suivante : « De même que le véritable tribun sait garder le silence, le véritable chasseur sait garder sa flèche. » Il ne parla dès lors plus des flèches tombant des cieux, ni des monstres terribles abattus de flèches de fer, tirées d'un arc de fer. Ayant enterré son arc, il partit vivre en ermite dans la montagne. On raconte la chose suivante concernant son décès : De son vivant, le son d'une corde pincée avait pour habitude de résonner chaque nuit de sa demeure ; les monstres n'osaient en approcher. La nuit de sa mort fut une nuit d'orage. Dans le vent et la pluie hurlants résonna un unique coup de tonnerre ; mais son éclair monta vers les cieux, brillant aussi fort que les étoiles de la galaxie.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Sable lumineux de Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Dague de chasse rituelle",
+          "quantity": 3
+        },
+        {
+          "name": "Masque endommagé",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Dague de chasse rituelle",
+          "quantity": 12
+        },
+        {
+          "name": "Masque endommagé",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Dague rituelle de l'Usurier",
+          "quantity": 6
+        },
+        {
+          "name": "Masque sale",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Squelette sacré de Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Dague rituelle de l'Usurier",
+          "quantity": 12
+        },
+        {
+          "name": "Masque sale",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Squelette sacré de Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Grande dague de l'Inspecteur",
+          "quantity": 9
+        },
+        {
+          "name": "Masque sinistre",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Corps divin de Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Grande dague de l'Inspecteur",
+          "quantity": 18
+        },
+        {
+          "name": "Masque sinistre",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Fading Twilight",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2022-05-31",
+  "description": "A precious bow made of platinum, inlaid with an orb that shimmers with the light of eventide.",
+  "history": "A jade-colored longbow that is said to be able to shoot down even the twilit clouds over the horizon. Upon it is inlaid a precious bead. Buried in the depths, it has long been drenched in darkness, yet its luster endures, ever shining and glowing. In times long past, when a dark calamity befell the vermillion valley, countless Millelith soldiers sallied forth, heroism in their hearts. Among all these valiant figures was a young archer who came from the mountains, and who would eventually remain in the depths, never to leave. \"I am the daughter of the cliffs of Glazed Sand Crystal. My blood knows no fear.\" \"With so many Millelith willingly heading towards their doom in battle, it would be shameful for us mountain people to just stand by and watch.\" \"It may be natural that a cataclysm that we have not yet seen with our own eyes remains a foreign and abstract concept to us.\" \"Yet now that it stands before us, how could we do anything other than hold the line and do our duty...\" The stubborn young woman stole the bow that belonged to her father, the tribal chief, by night, before following the Millelith as they sallied out. As she steeled herself to never again see the light of day, the gem on the bow gleamed. \"The dark bats she felled with every shot, the giant tortoise of the dark ooze, she nailed to the ground.\" \"The magnificent bow danced like the clouds themselves, its arrows' cold gleam tearing through blighted beast-flesh.\" \"No deluge of filth from the abyss, nor twisted demon from the warped depths...\" \"No incomprehensible terror could make her heart quail, or force her to retreat.\" The people of the mountains would sing songs in praise of their daughter, though she of whom the songs spoke would never again return to them. These tunes would change and shift with the passage of time like dawn's glow even to this day, yet she who owned the bow would never come back. \"The only thing I truly fear is to be lost and forgotten.\" \"Should ill fate dictate that I am to be buried in some nameless place, do not forget me.\"",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Grain of Aerosiderite",
+          "quantity": 3
+        },
+        {
+          "name": "Hunter's Sacrificial Knife",
+          "quantity": 3
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 3
+        },
+        {
+          "name": "Hunter's Sacrificial Knife",
+          "quantity": 12
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 6
+        },
+        {
+          "name": "Agent's Sacrificial Knife",
+          "quantity": 6
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 3
+        },
+        {
+          "name": "Agent's Sacrificial Knife",
+          "quantity": 12
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 6
+        },
+        {
+          "name": "Inspector's Sacrificial Knife",
+          "quantity": 9
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Chunk of Aerosiderite",
+          "quantity": 4
+        },
+        {
+          "name": "Inspector's Sacrificial Knife",
+          "quantity": 18
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

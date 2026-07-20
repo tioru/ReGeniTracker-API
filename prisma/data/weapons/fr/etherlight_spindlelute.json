@@ -1,0 +1,181 @@
+{
+  "name": "Lyre du tisse-lumière",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2025-09-12 10:00:00 GMT+8",
+  "description": "Une lyre dont les cordes dorées brillent comme la lumière du soleil. Elle semble être une relique des Fées d'autrefois.",
+  "history": "Au-delà des ruines de l'ancien palais, à la bordure du désert, se situait la paisible forêt sacrée du Lac Amsvartnir. La légende racontait que celui qui cassait la branche dorée dans la forêt trouverait la cour royale des Fées, invisible aux yeux des mortels pendant la journée. Il s'agissait d'un royaume du passé, oublié par le temps et l'espace, caché dans l'ombre et que la lumière céleste ne pouvait pas toucher. Son maître avait disparu depuis longtemps, ne laissant derrière lui qu'une cour négligée et une grande salle vide. Pourtant, les lamentations d'une jeune femme résonnèrent dans ce bâtiment qui aurait dû être abandonné. « Il était une fois, le maître artisan des cieux qui tissait jadis les destins de tous les êtres vivants grâce à sa lyre dorée. » « C'est le plan divin du ciel. Nous apporterons de la joie au monde entier si nous le suivons. » « Pourtant, même l'ignorante peut rêver, et dans son rêve, un nouvel avenir s'est révélé. » « Elle vit des hommes ériger une tour. De son sommet, des saints ont déclaré la guerre au ciel... » « Elle vit des bêtes rugissantes, chacune plus immense qu'une montagne, se libérer des entraves de la terre... » « Elle vit trois lunes éclairer la mer, une scène vite éclipsée par un dragon ancien qui s'éleva comme la marée. » « Mais tout ce qu'elle avait vu disparut à son réveil, comme si rien ne s'était passé. » « Il ne restait que son regard indescriptible, aussi brillant que les étoiles. » « Était-ce l'amour ? Ou juste une illusion tissée d'espoir, d'ambition et d'un désir de mort ? » « Mais cela n'a plus d'importance, car leur histoire s'était terminée dans le dernier chapitre de l'Élysium. » « Le chant des insectes d'une nuit d'automne passée, est tel le chœur des exilés, antique chanson de l'humanité... » « Ce qui fut chéri est à présent passé ; ne restent que chants et souvenirs pour s'en remémorer. » La dernière chanteuse et première Fée joua son ultime chanson, assise dans le hall des anges. Le loup qui s'était introduit ici était parti depuis longtemps et ne laissa derrière lui que des rêves inachevés de ceux qui continuent de poursuivre des illusions.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Gloire brisée des héritiers du grand nord",
+          "quantity": 3
+        },
+        {
+          "name": "Os nélucide",
+          "quantity": 3
+        },
+        {
+          "name": "Mandat en lambeaux",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Illusion inflexible des héritiers du grand nord",
+          "quantity": 3
+        },
+        {
+          "name": "Os nélucide",
+          "quantity": 12
+        },
+        {
+          "name": "Mandat en lambeaux",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Illusion inflexible des héritiers du grand nord",
+          "quantity": 6
+        },
+        {
+          "name": "Restes lumineux",
+          "quantity": 6
+        },
+        {
+          "name": "Mandat immaculé",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Oblation des héritiers du grand nord",
+          "quantity": 3
+        },
+        {
+          "name": "Restes lumineux",
+          "quantity": 12
+        },
+        {
+          "name": "Mandat immaculé",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Oblation des héritiers du grand nord",
+          "quantity": 6
+        },
+        {
+          "name": "Exosquelette radieux",
+          "quantity": 9
+        },
+        {
+          "name": "Mandat gelé",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Rayonnement doré des héritiers du grand nord",
+          "quantity": 4
+        },
+        {
+          "name": "Exosquelette radieux",
+          "quantity": 18
+        },
+        {
+          "name": "Mandat gelé",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

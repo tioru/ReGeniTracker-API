@@ -1,0 +1,177 @@
+{
+  "name": "Iron Point",
+  "type": "POLEARM",
+  "rarity": 2,
+  "releaseDate": "2020-09-28",
+  "description": "Sharp and pointy at one end, it is a balanced weapon that is quite popular among travelers.",
+  "history": "A simple weapon that exudes a certain austerity. For those who defend that which they must protect, Or a traveler with naught to their name but themselves, Even the most mundane of weapons might be ten times as powerful as it seems.",
+  "sellers": [
+    {
+      "name": "Ahangar",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Alom",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Estelle",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Hajime",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Lyulka",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Master Zhang",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Wagner",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    }
+  ],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fetters of the Dandelion Gladiator",
+          "quantity": 1
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 1
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 1
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 5
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 3
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 1
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 5
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 33
+    },
+    "20": {
+      "baseAtk": 80
+    },
+    "40": {
+      "baseAtk": 139
+    },
+    "50": {
+      "baseAtk": 174
+    },
+    "60": {
+      "baseAtk": 209
+    },
+    "70": {
+      "baseAtk": 243
+    },
+    "20_ASC": {
+      "baseAtk": 91
+    },
+    "40_ASC": {
+      "baseAtk": 151
+    },
+    "50_ASC": {
+      "baseAtk": 186
+    },
+    "60_ASC": {
+      "baseAtk": 220
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Mouvement vagabond",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Un épais carnet couvert de notes. Bien qu'il soit abîmé et rongé par les vers, un grand pouvoir existe dans les mots couchés à la main.",
+  "history": "Un carnet de notes qui était autrefois partagé par les membres de la Compagnie Vagabonde ; il servit autant de recueil de partitions que de journal de voyage. L'histoire de la troupe, qui s'est dissolue avant même que Mondstadt soit fondée, s'est perdue dans le passé. Le carnet narre les voyages du groupe et les expériences par lui vécues lors de ses pérégrinations. Il semble tirer des archives des représentations données et de l'enthousiasme du public une puissante force. La Compagnie Vagabonde fut fondée durant le règne de l'aristocratie. Beaucoup l'appelaient autrefois la Troupe aux Épées – certains espérant, d'autres craignant. Même poèmes et chants étaient alors interdits à Mondstadt. Leur flûtes étaient leurs épées, et leurs harpes étaient leurs arcs ; et leur chanson fut un appel à la rébellion. Leur but ultime était de rentrer dans la cité et mettre à mort ses cruels dirigeants. La Compagnie Vagabonde disparut, et avec elle le souvenir de sa révolte. Mais l'esprit de résistance qu'elle incarna autrefois demeurera à jamais.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Dent de lait du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 3
+        },
+        {
+          "name": "Masque endommagé",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 12
+        },
+        {
+          "name": "Masque endommagé",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 6
+        },
+        {
+          "name": "Masque sale",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 12
+        },
+        {
+          "name": "Masque sale",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 9
+        },
+        {
+          "name": "Masque sinistre",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Nostalgie du Loup boréal",
+          "quantity": 4
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 18
+        },
+        {
+          "name": "Masque sinistre",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

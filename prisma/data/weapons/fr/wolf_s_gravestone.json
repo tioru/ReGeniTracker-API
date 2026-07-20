@@ -1,0 +1,181 @@
+{
+  "name": "Mort-du-loup",
+  "type": "CLAYMORE",
+  "rarity": 5,
+  "releaseDate": "2020-09-28",
+  "description": "Une épée longue appartenant au chevalier aux loups. Il ne s'agissait au départ que d'une épaisse plaque de fer offerte par le forgeron de la ville, mais elle a acquis un pouvoir légendaire au côté des loups.",
+  "history": "Le périple du Chevalier de Borée se termina à la cité de Barbatos. Les âmes voyageuses s'attirent mutuellement ; quelle étrange chose que la liberté. Alors qu'il pénétrait dans les murs de la cité, son compagnon lui fit ses adieux. Le loup impétueux n'a cure des murs de pierre et des lampadaires ; c'est à l'espace sauvage qu'il aspire. Le cœur du Chevalier de Borée resta libre, bien que sa chair fut enfermée dans cette cité-prison. Le loup, quant à lui, parcourait forêts et plaines ; mais son cœur resta fidèle au Chevalier. Le Chevalier à nouveau partit en chasse ; et le loup à nouveau le suivit au combat. Et ils furent à nouveau réunis, marchant de concert dans un silencieux respect mutuel. Hélas ! La mort visite les bêtes avant les hommes. Lorsque le loup mourut, son loyal compagnon l'enterra, et marqua sa tombe de son épée plantée dans le sol. Puis il quitta la cité, pour à son tour vivre la vie d'un loup solitaire. Cependant, l'esprit éternel du loup demeura en ces terres, gardant l'œil sur le pays par le Chevalier autrefois protégé.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Entraves du Chevalier du Croc de Lion",
+          "quantity": 5
+        },
+        {
+          "name": "Dispositif du chaos",
+          "quantity": 5
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 5
+        },
+        {
+          "name": "Dispositif du chaos",
+          "quantity": 18
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 9
+        },
+        {
+          "name": "Circuit du chaos",
+          "quantity": 9
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 5
+        },
+        {
+          "name": "Circuit du chaos",
+          "quantity": 18
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 9
+        },
+        {
+          "name": "Noyau du chaos",
+          "quantity": 14
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Idéaux du Chevalier du Croc de Lion",
+          "quantity": 6
+        },
+        {
+          "name": "Noyau du chaos",
+          "quantity": 27
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 46
+    },
+    "20": {
+      "baseAtk": 122
+    },
+    "40": {
+      "baseAtk": 235
+    },
+    "50": {
+      "baseAtk": 308
+    },
+    "60": {
+      "baseAtk": 382
+    },
+    "70": {
+      "baseAtk": 457
+    },
+    "80": {
+      "baseAtk": 532
+    },
+    "90": {
+      "baseAtk": 608
+    },
+    "20_ASC": {
+      "baseAtk": 153
+    },
+    "40_ASC": {
+      "baseAtk": 266
+    },
+    "50_ASC": {
+      "baseAtk": 340
+    },
+    "60_ASC": {
+      "baseAtk": 414
+    },
+    "70_ASC": {
+      "baseAtk": 488
+    },
+    "80_ASC": {
+      "baseAtk": 563
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Crépuscule couchant",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2022-05-31",
+  "description": "Un arc précieux en platine, incrusté d'un orbe qui scintille à la lumière du soir.",
+  "history": "Un arc long aux couleurs du jade qui serait capable d'abattre les nuages du crépuscule, sur lequel est incrusté une perle. Bien qu'enfouie dans les profondeurs ténébreuses, celle-ci ne cesse de briller et d'étinceler. En des temps immémoriaux, lorsque la calamité des ténèbres frappa la vallée cinabre, d'innombrables soldats des Millelithes l'ont défendue avec honneur et vaillance. Parmi ces figures héroïques, une jeune archère venue des montagnes demeura dans les profondeurs, sans plus jamais revoir la surface. « Je suis une fille des falaises escarpées et des cristaux émaillés. Ma lignée ne connaît pas la peur. » « Autant de Millelithes se sacrifient dans un combat sans issue. Les gens de la montagne ne peuvent pas rester sans agir. » « Un cataclysme que nous n'avons pas vu de nos propres yeux restera peut-être un phénomène étranger et abstrait pour nous. » « Hélas, le danger est imminent. Nous devons défendre nos terres et honorer notre devoir... » La jeune femme têtue vola l'arc de son père, chef de la tribu, et suivit les Millelithes lorsqu'ils partirent à la tombée de la nuit. La perle de son arc se mit à luire quand elle accepta la possibilité de ne plus jamais revoir la lumière du jour. « Les chauves-souris noires dans les airs furent abattues par chacun de ses tirs, la tortue géante de boue noire s'effondra sous ses coups. » « Le magnifique arc dansait tel un nuage et la lueur froide de ses flèches transperça la chair du monstre. » « Que ce soit le torrent de souillure émergeant des profondeurs ou le monstre maléfique ondulant dans le bas-fond des montagnes... » « La peur et l'inconnu ne la feront jamais battre en retraite. Son cœur ne vacillera pas. » Le peuple de la montagne chantait en hommage à leur fille, qu'il ne retrouverait pas. Ces chants changèrent au gré du temps marqué par l'alternance de l'aurore et du crépuscule jusqu'à ce jour, mais la maîtresse de cet arc long ne reviendrait jamais. « Ma seule crainte est d'être perdu dans l'oubli. » « Si le mauvais sort m'amène à être enterré dans un lieu sans nom, alors, je t'en prie, ne m'oublie pas. »",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Grain d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Dague de chasse rituelle",
+          "quantity": 3
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Dague de chasse rituelle",
+          "quantity": 12
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 6
+        },
+        {
+          "name": "Dague rituelle de l'Usurier",
+          "quantity": 6
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Dague rituelle de l'Usurier",
+          "quantity": 12
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 6
+        },
+        {
+          "name": "Grande dague de l'Inspecteur",
+          "quantity": 9
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Morceau d'aérosidérite noire",
+          "quantity": 4
+        },
+        {
+          "name": "Grande dague de l'Inspecteur",
+          "quantity": 18
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

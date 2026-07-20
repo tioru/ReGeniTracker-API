@@ -1,0 +1,181 @@
+{
+  "name": "Pampille noire",
+  "type": "POLEARM",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "Une arme d'hast puissante, qui offre une solution élégante au problème de salissement des pampilles blanches.",
+  "history": "Le maître à la hallebarde vint une nuit à rencontrer un poète. Ce dernier renversa par accident son encrier alors qu'ils s'entretenaient. Le ruban blanc prit la sombre couleur de l'encre. « Bien évidemment, ce n'est là qu'une histoire de maître d'armes et de poète ; ma propre hallebarde au noir ruban n'a rien à y voir. » Ainsi parlait le vieux forgeron à son apprenti ; puis il lui demanda de teindre le ruban précédemment récupéré en noir.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Grain d'aérosidérite noire",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'os fragile",
+          "quantity": 2
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'os fragile",
+          "quantity": 8
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment d'os solide",
+          "quantity": 4
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'os solide",
+          "quantity": 8
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment d'os fossilisé",
+          "quantity": 6
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Morceau d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os fossilisé",
+          "quantity": 12
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 38
+    },
+    "20": {
+      "baseAtk": 86
+    },
+    "40": {
+      "baseAtk": 151
+    },
+    "50": {
+      "baseAtk": 193
+    },
+    "60": {
+      "baseAtk": 234
+    },
+    "70": {
+      "baseAtk": 274
+    },
+    "80": {
+      "baseAtk": 314
+    },
+    "90": {
+      "baseAtk": 354
+    },
+    "20_ASC": {
+      "baseAtk": 105
+    },
+    "40_ASC": {
+      "baseAtk": 171
+    },
+    "50_ASC": {
+      "baseAtk": 212
+    },
+    "60_ASC": {
+      "baseAtk": 253
+    },
+    "70_ASC": {
+      "baseAtk": 294
+    },
+    "80_ASC": {
+      "baseAtk": 334
+    }
+  }
+}

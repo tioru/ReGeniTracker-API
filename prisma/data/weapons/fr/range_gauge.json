@@ -1,0 +1,181 @@
+{
+  "name": "Jauge de portée",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2023-10-17",
+  "description": "Un instrument de mesure que l'on trouve rarement de nos jours. Il est capable de tirer des flèches.",
+  "history": "Un outil souvent utilisé autrefois pour la construction urbaine et l'exploration des ruines. Servant principalement pour mesurer des angles, il possédait également une capacité de pointe pour mesurer et estimer les distances. S'appuyant sur des flèches spéciales conçues avec précision et sur les mains de professionnels qualifiés, il pouvait maintenir la trajectoire de vol des flèches aussi droite que la lumière elle-même. En plus de la planification et de la construction, il s'avérait également utile pour l'exploration et les enquêtes criminelles. Entre des mains expertes, ses mesures de distance pouvaient être très précises. Lors des explorations passées des ruines de Remuria, les équipes emportaient souvent cette jauge de portée, surtout pour localiser les sites historiques ensevelis par le temps et la destruction. Même les romans modernes de Hurlock, qui connurent plus tard une grande popularité, l'ont utilisé dans une histoire sur la localisation d'une chambre secrète. Actuellement, de nombreuses jauges de portée prennent la poussière sur les étagères des antiquaires ou dans les greniers mansardés. À mesure que de plus en plus d'outils similaires, plus faciles à utiliser et nécessitant moins de compétences, se généralisaient, la production de flèches spéciales a complètement cessé et elles ont également été rapidement perdues et oubliées. Cependant, comme la jauge reste un arc long qui peut être transporté partout sans éveiller soupçon ni interrogation, elle a été utilisée à plusieurs fins au-delà de sa conception originale au cours de certaines périodes tumultueuses.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fragment d'un accord ancien",
+          "quantity": 3
+        },
+        {
+          "name": "Goutte d'eau croupie",
+          "quantity": 3
+        },
+        {
+          "name": "Perle transocéanique",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chapitre d'un accord ancien",
+          "quantity": 3
+        },
+        {
+          "name": "Goutte d'eau croupie",
+          "quantity": 12
+        },
+        {
+          "name": "Perle transocéanique",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chapitre d'un accord ancien",
+          "quantity": 6
+        },
+        {
+          "name": "Cuillère d'eau croupie",
+          "quantity": 6
+        },
+        {
+          "name": "Morceau transocéanique",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mouvement d'un accord ancien",
+          "quantity": 3
+        },
+        {
+          "name": "Cuillère d'eau croupie",
+          "quantity": 12
+        },
+        {
+          "name": "Morceau transocéanique",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mouvement d'un accord ancien",
+          "quantity": 6
+        },
+        {
+          "name": "Jeune Fantasme Hydro croupi",
+          "quantity": 9
+        },
+        {
+          "name": "Cristal xénochromatique",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Écho d'un accord ancien",
+          "quantity": 4
+        },
+        {
+          "name": "Jeune Fantasme Hydro croupi",
+          "quantity": 18
+        },
+        {
+          "name": "Cristal xénochromatique",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

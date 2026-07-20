@@ -1,0 +1,181 @@
+{
+  "name": "Les chroniques de l'aube",
+  "type": "BOW",
+  "rarity": 5,
+  "releaseDate": "2025-12-03 11:00:00 GMT+8",
+  "description": "Les poèmes de la résistance furent transportés par les vents pour se poser en douces mélodies sur ces cordes. Son pouvoir est assez puissant pour transpercer les ténèbres les plus profondes et laisser place à la lumière du jour.",
+  "history": "« Kreuzlied, as-tu déjà entendu l'appel des flûtes au soir tombant ? » « As-tu déjà entendu une voix chanter au vent : adieu, jamais nous ne nous reverrons ? » « Nous ne pleurerons point pour toi, car la brise de la nuit au loin emportera nos larmes. » « Oui, camarade ; la brise emportera nos larmes. » On raconte qu'autrefois, les membres d'une troupe itinérante conspirèrent en vue de renverser la classe dirigeante. Parmi eux se trouvait un héritier de l'aristocratie, renégat qui avait tourné son dos à ses origines corrompues ; son nom était Kreuzlied. Une ballade fut écrite en son nom après que le complot ait échoué. Son vrai nom, qui bien sûr n'était pas Kreuzlied, a depuis longtemps été perdu dans les tréfonds de l'histoire. Le terme « Kreuzlied » signifie en langue ancienne « le chant de l'écartelé ». En ces temps où les ténèbres régnaient, l'écartèlement était le cruel châtiment réservé aux déserteurs, voleurs, contrebandiers et rebelles. Cette peine monstrueuse était exécutée en public, à la plus grande joie de l'aristocratie qui se délectait des cris inhumains des victimes. En cette époque aux nuits semblant s'étirer sans fin, « Kreuzlied » devint synonyme des rebelles étant tombés au combat. Et ainsi il devint le cri de ralliement des révoltés. Du « Kreuzlied » de la troupe, la Compagnie Vagabonde, ne subsiste aujourd'hui aucune trace. Mais cela importe peu, car il prit alors de nombreux surnoms, qui furent portés par les vents dans maints et maints chants : « Le Berger sans nom ». « Imunlaukr ». « Le Rebelle de minuit ». « La Lueur de l'aube ». « Gunnhildr ». « Ragnvindr »... Jusqu'au jour où finalement, le dernier des Kreuzlied fut réveillé de son sommeil millénaire. Répondant à l'appel feutré d'une jeune étrangère venue de quelque terre lointaine, tout comme il était né du vœu d'un certain garçon... Les chants contant les Kreuzlied furent pendant quelque temps à la mode ; mais ils finirent par ne plus être chantés. À quoi bon ? Les temps avaient changé, et le nom était devenu inutile. « Kreuzlied, as-tu déjà vu l'horizon blanchir au loin ? » « As-tu entendu la fille chanter au vent : adieu, jamais nous ne nous reverrons ? » « La clarté du soleil naissant a embrassé et séché mes larmes, et m'a murmuré que l'aube était enfin là. » « Mon amour, l'aube est enfin là. »",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Entraves du Chevalier du Croc de Lion",
+          "quantity": 5
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 5
+        },
+        {
+          "name": "Insigne des Pilleurs",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 5
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 18
+        },
+        {
+          "name": "Insigne des Pilleurs",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 9
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 9
+        },
+        {
+          "name": "Insigne de corbeau en argent",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 5
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 18
+        },
+        {
+          "name": "Insigne de corbeau en argent",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 9
+        },
+        {
+          "name": "Corne à cristal noir",
+          "quantity": 14
+        },
+        {
+          "name": "Insigne de corbeau en or",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Idéaux du Chevalier du Croc de Lion",
+          "quantity": 6
+        },
+        {
+          "name": "Corne à cristal noir",
+          "quantity": 27
+        },
+        {
+          "name": "Insigne de corbeau en or",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Aquila Favonia",
+  "type": "SWORD",
+  "rarity": 5,
+  "releaseDate": "2020-09-28",
+  "description": "The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil — just like the last heroine who wielded it.",
+  "history": "All knew the falcon's protection was a blessing of Favonius. Few knew the blessing of Favonius was from a distant tribe. Under the tyranny of the old nobles, Mondstadt cried for freedom. Enslaved was the exiled foreign fighter in the land of the wind. Yet she knelt not before injustice and deception, but set a shining example. For she overthrew the barbaric nobles and established a chivalric order and the Church. Blessed was she to eventually walk with the gods. This was the sword that witnessed all her hardships and feats. A testament to her achievement in spreading justice across Mondstadt. You can feel her unrelenting spirit when swinging this sword: Justice for the pressed. Freedom for the shackled. Wisdom for the deceived. Let the wind of justice and freedom lead.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Tile of Decarabian's Tower",
+          "quantity": 5
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 5
+        },
+        {
+          "name": "Firm Arrowhead",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 5
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 18
+        },
+        {
+          "name": "Firm Arrowhead",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 9
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 9
+        },
+        {
+          "name": "Sharp Arrowhead",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 5
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 18
+        },
+        {
+          "name": "Sharp Arrowhead",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 9
+        },
+        {
+          "name": "Black Crystal Horn",
+          "quantity": 14
+        },
+        {
+          "name": "Weathered Arrowhead",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Scattered Piece of Decarabian's Dream",
+          "quantity": 6
+        },
+        {
+          "name": "Black Crystal Horn",
+          "quantity": 27
+        },
+        {
+          "name": "Weathered Arrowhead",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

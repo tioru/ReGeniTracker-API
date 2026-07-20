@@ -1,0 +1,181 @@
+{
+  "name": "Néphrite jumelle",
+  "type": "CATALYST",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "Un pendentif exquis composé de deux pièces de jade assemblées.",
+  "history": "Une pièce en jade qui, en dépit de sa présentation exquise, semble avoir été abandonnée au hasard sur les étals. Sa boîte ouvragée contient également un certificat à l'air officiel, provenant d'une organisation dont personne n'a jamais entendu parler. Le néophyte se laisserait facilement tenter par la présentation luxueuse ; mais le jade qu'il contient reste un investissement raisonnable pour celui qui connaît les dessous de l'industrie.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Plomb karstique",
+          "quantity": 2
+        },
+        {
+          "name": "Pollen d'herbe brumeuse",
+          "quantity": 2
+        },
+        {
+          "name": "Insigne de nouvelle recrue",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mercure karstique",
+          "quantity": 2
+        },
+        {
+          "name": "Pollen d'herbe brumeuse",
+          "quantity": 8
+        },
+        {
+          "name": "Insigne de nouvelle recrue",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mercure karstique",
+          "quantity": 4
+        },
+        {
+          "name": "Herbe brumeuse",
+          "quantity": 4
+        },
+        {
+          "name": "Insigne de sergent",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Argent karstique",
+          "quantity": 2
+        },
+        {
+          "name": "Herbe brumeuse",
+          "quantity": 8
+        },
+        {
+          "name": "Insigne de sergent",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Argent karstique",
+          "quantity": 4
+        },
+        {
+          "name": "Mèches d'herbe brumeuse",
+          "quantity": 6
+        },
+        {
+          "name": "Insigne d'officier",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Or karstique",
+          "quantity": 3
+        },
+        {
+          "name": "Mèches d'herbe brumeuse",
+          "quantity": 12
+        },
+        {
+          "name": "Insigne d'officier",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 40
+    },
+    "20": {
+      "baseAtk": 102
+    },
+    "40": {
+      "baseAtk": 187
+    },
+    "50": {
+      "baseAtk": 239
+    },
+    "60": {
+      "baseAtk": 292
+    },
+    "70": {
+      "baseAtk": 344
+    },
+    "80": {
+      "baseAtk": 396
+    },
+    "90": {
+      "baseAtk": 448
+    },
+    "20_ASC": {
+      "baseAtk": 121
+    },
+    "40_ASC": {
+      "baseAtk": 207
+    },
+    "50_ASC": {
+      "baseAtk": 259
+    },
+    "60_ASC": {
+      "baseAtk": 311
+    },
+    "70_ASC": {
+      "baseAtk": 363
+    },
+    "80_ASC": {
+      "baseAtk": 415
+    }
+  }
+}

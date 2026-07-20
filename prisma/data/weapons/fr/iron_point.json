@@ -1,0 +1,177 @@
+{
+  "name": "Pointe de fer",
+  "type": "POLEARM",
+  "rarity": 2,
+  "releaseDate": "2020-09-28",
+  "description": "Pointue à l'extrémité, cette épée convient aussi bien à l'attaque qu'à la défense et est très prisée des voyageurs.",
+  "history": "Cette arme simple dégage un certain sentiment d'autorité. Pour ceux qui ont quelque chose à protéger, ou pour les voyageurs à qui il ne reste que la vie, même l'arme la plus simple peut paraître dix fois plus puissante qu'elle n'en a l'air.",
+  "sellers": [
+    {
+      "name": "Ahangar",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Alom",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Estelle",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Hajime",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Lyulka",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Master Zhang",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Wagner",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    }
+  ],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Entraves du Chevalier du Croc de Lion",
+          "quantity": 1
+        },
+        {
+          "name": "Dispositif du chaos",
+          "quantity": 1
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 1
+        },
+        {
+          "name": "Dispositif du chaos",
+          "quantity": 5
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 3
+        },
+        {
+          "name": "Circuit du chaos",
+          "quantity": 3
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 1
+        },
+        {
+          "name": "Circuit du chaos",
+          "quantity": 5
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 33
+    },
+    "20": {
+      "baseAtk": 80
+    },
+    "40": {
+      "baseAtk": 139
+    },
+    "50": {
+      "baseAtk": 174
+    },
+    "60": {
+      "baseAtk": 209
+    },
+    "70": {
+      "baseAtk": 243
+    },
+    "20_ASC": {
+      "baseAtk": 91
+    },
+    "40_ASC": {
+      "baseAtk": 151
+    },
+    "50_ASC": {
+      "baseAtk": 186
+    },
+    "60_ASC": {
+      "baseAtk": 220
+    }
+  }
+}

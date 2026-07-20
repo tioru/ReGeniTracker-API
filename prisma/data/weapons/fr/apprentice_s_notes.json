@@ -1,0 +1,135 @@
+{
+  "name": "Notes de l'apprenti",
+  "type": "CATALYST",
+  "rarity": 1,
+  "releaseDate": "2020-09-28",
+  "description": "Des notes laissées par un élève brillant contenant des sortilèges efficaces, rédigés dans une belle écriture.",
+  "history": "Les mots et les phrases traduisent les études, les notes et les enchantements ; les espaces vides entre ces mots traduisent les efforts de l'apprenti.",
+  "sellers": [
+    {
+      "name": "Schulz",
+      "currency": "Mora",
+      "cost": 300,
+      "stock": 1,
+      "restock": "DAILY"
+    }
+  ],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Tuile cassée de Décarabian",
+          "quantity": 1
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 1
+        },
+        {
+          "name": "Masque endommagé",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 0
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 1
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 4
+        },
+        {
+          "name": "Masque endommagé",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 2
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 2
+        },
+        {
+          "name": "Masque sale",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 1
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 4
+        },
+        {
+          "name": "Masque sale",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 23
+    },
+    "20": {
+      "baseAtk": 56
+    },
+    "40": {
+      "baseAtk": 102
+    },
+    "50": {
+      "baseAtk": 130
+    },
+    "60": {
+      "baseAtk": 158
+    },
+    "70": {
+      "baseAtk": 185
+    },
+    "20_ASC": {
+      "baseAtk": 68
+    },
+    "40_ASC": {
+      "baseAtk": 113
+    },
+    "50_ASC": {
+      "baseAtk": 141
+    },
+    "60_ASC": {
+      "baseAtk": 169
+    }
+  }
+}

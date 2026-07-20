@@ -1,0 +1,181 @@
+{
+  "name": "Lame de la Voûte d'Azur",
+  "type": "SWORD",
+  "rarity": 5,
+  "releaseDate": "2020-09-28",
+  "description": "Une épée de chevalier symbolisant l'honneur retrouvé de Dvalin. La bénédiction de l'Archon du Vent est inscrite sur le dos de la lame, lui conférant la puissance du ciel et du vent.",
+  "history": "La griffe qui transperce les nuages. Elle perça autrefois les écailles d'or noir du royaume de l'abysse, et arracha la gorge de la descendance du péché. Mondstadt fut autrefois menacée par un dragon nommé Durin. Sa jalousie envers la cité prospère le rongeait, et devinrent un mal qui corrompit la terre. En ces jours sinistres, les environs de Mondstadt n'étaient terres arides et monstres errants. Répondant à l'appel du peuple, Barbatos réveilla le Dragon Anémo. Dvalin s'éleva au vent et traversa les cieux, défenseur de toute vie. Béni par Barbatos, il combattit le dragon maléfique. Les nuages se fendirent et le ciel se couvrit de pourpre ; la dernière heure de Mondstadt semblait être arrivée. Dvalin finit par blesser Durin à la gorge. Durin fut vaincu ; mais Dvalin se fit corrompre par le sang maudit de son adversaire. Incapable de supporter la douleur, le Dragon Anémo tomba dans un profond coma. Il sommeilla dans un endroit inconnu de tous. Les siècles passèrent, et le sacrifice de Dvalin finit par disparaître des souvenirs des Mondstadtois. Lorsqu'il revint à lui, le dragon ne put entendre la réconfortante mélodie que son ami avait pour habitude de lui jouer ; musique et ami avaient disparu. Et ceux qu'il avait par le passé protégé tremblèrent devant sa colère. Honneur restauré, poison purifié. Que les ballades du barde rafraîchissent la mémoire du peuple oublieux ; Et que cette lame restaure la gloire de Dvalin.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Dent de lait du Loup boréal",
+          "quantity": 5
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 5
+        },
+        {
+          "name": "Bave de Blob",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 5
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 18
+        },
+        {
+          "name": "Bave de Blob",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 9
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 9
+        },
+        {
+          "name": "Mucus de Blob",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 5
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 18
+        },
+        {
+          "name": "Mucus de Blob",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 9
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 14
+        },
+        {
+          "name": "Essence de Blob",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Nostalgie du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 27
+        },
+        {
+          "name": "Essence de Blob",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 46
+    },
+    "20": {
+      "baseAtk": 122
+    },
+    "40": {
+      "baseAtk": 235
+    },
+    "50": {
+      "baseAtk": 308
+    },
+    "60": {
+      "baseAtk": 382
+    },
+    "70": {
+      "baseAtk": 457
+    },
+    "80": {
+      "baseAtk": 532
+    },
+    "90": {
+      "baseAtk": 608
+    },
+    "20_ASC": {
+      "baseAtk": 153
+    },
+    "40_ASC": {
+      "baseAtk": 266
+    },
+    "50_ASC": {
+      "baseAtk": 340
+    },
+    "60_ASC": {
+      "baseAtk": 414
+    },
+    "70_ASC": {
+      "baseAtk": 488
+    },
+    "80_ASC": {
+      "baseAtk": 563
+    }
+  }
+}

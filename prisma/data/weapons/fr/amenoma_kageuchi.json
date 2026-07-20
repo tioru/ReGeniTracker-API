@@ -1,0 +1,181 @@
+{
+  "name": "Lame kageuchi d'Amenoma",
+  "type": "SWORD",
+  "rarity": 4,
+  "releaseDate": "2021-07-21",
+  "description": "Une lame qui aurait été fabriquée sur commande pour un célèbre samouraï capable de trancher même le plus robuste des guerriers tengu, célèbres pour leur habileté à utiliser leur incroyable vitesse pour fendre les airs.",
+  "history": "Une des versions kageuchi de la célèbre épée « Hakuen Michimitsu d'Amenoma ». Elle a été offerte au Clan Saimon par Douin, le patriarche fondateur du Clan Iwakura. Ce cadeau a été donné en remerciement pour les soins qu'il a reçus d'eux lorsqu'il vivait isolé dans le Village de Konda. Il est dit que la technique de lame secrète de l'École Iwakura, le balayage tengu, ne peut être exécutée que lorsqu'aucune trace de confusion n'est présente dans votre cœur. Dans le passé, le balayage tengu était parfois appelé « Victoire tengu », et c'était un coup d'épée qui pouvait couper un Tengu planant dans le ciel. Au fil des siècles, les épéistes d'Iwakura, qui ont hérité du nom « In », ont utilisé ce coup secret pour éliminer de nombreux monstres et mauvais esprits à travers l'archipel d'Inazuma. La légende raconte que le balayage tengu aurait d'abord été créé dans la cour d'un petit sanctuaire où l'encens ne brûlait plus. La technique était si puissante qu'elle aurait détruit le bâtiment, et que l'épée d'Iwakura Douin aurait été brisée en deux. Après cela, il aurait fondé l'École Iwakura grâce à ses compétences en escrime, avant de devenir l'instructeur du Clan Kujou. Il aurait également demandé au maître Amenoma de l'époque de fabriquer l'épée qui serait transmise dans la lignée des In, le « Hakuen Michimitsu d'Amenoma ». Les légendes et rumeurs abondent concernant les actes accomplis à l'aide de cette lame. Il est dit que son tranchant était tel qu'il pouvait même découper les fils du destin. Quant au nom particulier de la lame, il paraîtrait que c'est Iwakura Douin lui-même qui aurait spécifié à Amenoma qu'elle se nommerait ainsi.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Branche marine de corail",
+          "quantity": 3
+        },
+        {
+          "name": "Engrenage du chaos",
+          "quantity": 3
+        },
+        {
+          "name": "Garde-main ancien",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Branche marine de gemme",
+          "quantity": 3
+        },
+        {
+          "name": "Engrenage du chaos",
+          "quantity": 12
+        },
+        {
+          "name": "Garde-main ancien",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Branche marine de gemme",
+          "quantity": 6
+        },
+        {
+          "name": "Axe du chaos",
+          "quantity": 6
+        },
+        {
+          "name": "Garde-main kageuchi",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Branche marine de jade",
+          "quantity": 3
+        },
+        {
+          "name": "Axe du chaos",
+          "quantity": 12
+        },
+        {
+          "name": "Garde-main kageuchi",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Branche marine de jade",
+          "quantity": 6
+        },
+        {
+          "name": "Œil du chaos",
+          "quantity": 9
+        },
+        {
+          "name": "Garde-main célèbre",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Branche marine d'or",
+          "quantity": 4
+        },
+        {
+          "name": "Œil du chaos",
+          "quantity": 18
+        },
+        {
+          "name": "Garde-main célèbre",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

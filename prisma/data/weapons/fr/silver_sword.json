@@ -1,0 +1,177 @@
+{
+  "name": "Épée en argent",
+  "type": "SWORD",
+  "rarity": 2,
+  "releaseDate": "2020-09-28",
+  "description": "Une épée faite pour chasser les démons. Par contre, tout le monde sait qu'elle a été forgée avec un alliage d'argent et non avec de l'argent pur.",
+  "history": "Contrairement à la croyance populaire, l'argent est inutile pour repousser les démons. Seule la lame de l'exorciste itinérant est le vrai fléau du mal.",
+  "sellers": [
+    {
+      "name": "Ahangar",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Alom",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Estelle",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Hajime",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Lyulka",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Master Zhang",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Wagner",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    }
+  ],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Tuile cassée de Décarabian",
+          "quantity": 1
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 1
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 1
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 5
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 3
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 3
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 1
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 5
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 33
+    },
+    "20": {
+      "baseAtk": 80
+    },
+    "40": {
+      "baseAtk": 139
+    },
+    "50": {
+      "baseAtk": 174
+    },
+    "60": {
+      "baseAtk": 209
+    },
+    "70": {
+      "baseAtk": 243
+    },
+    "20_ASC": {
+      "baseAtk": 91
+    },
+    "40_ASC": {
+      "baseAtk": 151
+    },
+    "50_ASC": {
+      "baseAtk": 186
+    },
+    "60_ASC": {
+      "baseAtk": 220
+    }
+  }
+}

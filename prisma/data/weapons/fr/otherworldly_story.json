@@ -1,0 +1,181 @@
+{
+  "name": "Conte d'un autre monde",
+  "type": "CATALYST",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "Un roman fantastique sans aucune valeur. Toute affirmation comme quoi il possèderait un pouvoir catalysant n'est qu'affabulation.",
+  "history": "Un roman de fiction médiocre, contant l'histoire d'un garçon ordinaire se retrouvant après sa mort dans un autre monde : « Ce monde est empli de dangers. Des monstres d'acier géants comme les galaxies rôdent à sa surface, dévorant les âmes des hommes. L'on y trouve aussi une magie puissante capable de rendre toute pièce confortable en n'importe quelle saison, et de changer la nuit en jour en un instant. » Cette histoire ne repose vraiment sur rien. Une seule chose semble commune à ce monde et au nôtre : les richesses sont accaparées par la minorité et gardées dans des coffres.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Entraves du Chevalier du Croc de Lion",
+          "quantity": 2
+        },
+        {
+          "name": "Dispositif du chaos",
+          "quantity": 2
+        },
+        {
+          "name": "Masque endommagé",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 2
+        },
+        {
+          "name": "Dispositif du chaos",
+          "quantity": 8
+        },
+        {
+          "name": "Masque endommagé",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 4
+        },
+        {
+          "name": "Circuit du chaos",
+          "quantity": 4
+        },
+        {
+          "name": "Masque sale",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 2
+        },
+        {
+          "name": "Circuit du chaos",
+          "quantity": 8
+        },
+        {
+          "name": "Masque sale",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 4
+        },
+        {
+          "name": "Noyau du chaos",
+          "quantity": 6
+        },
+        {
+          "name": "Masque sinistre",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Idéaux du Chevalier du Croc de Lion",
+          "quantity": 3
+        },
+        {
+          "name": "Noyau du chaos",
+          "quantity": 12
+        },
+        {
+          "name": "Masque sinistre",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "40": {
+      "baseAtk": 169
+    },
+    "50": {
+      "baseAtk": 216
+    },
+    "60": {
+      "baseAtk": 263
+    },
+    "70": {
+      "baseAtk": 309
+    },
+    "80": {
+      "baseAtk": 355
+    },
+    "90": {
+      "baseAtk": 401
+    },
+    "20_ASC": {
+      "baseAtk": 113
+    },
+    "40_ASC": {
+      "baseAtk": 189
+    },
+    "50_ASC": {
+      "baseAtk": 236
+    },
+    "60_ASC": {
+      "baseAtk": 282
+    },
+    "70_ASC": {
+      "baseAtk": 329
+    },
+    "80_ASC": {
+      "baseAtk": 375
+    }
+  }
+}

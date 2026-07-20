@@ -1,0 +1,181 @@
+{
+  "name": "The Widsith",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "A heavy notebook filled with musical scores. Though suffering from moth damage and heavy wear-and-tear, there is still much power to be found among the hand-written words within.",
+  "history": "A notebook that was shared among the members of the Wanderer's Troupe. It contains musical scores and travel journals. The history of the troupe has been lost, since it was disbanded before Mondstadt was rebuilt. The notebook records the experiences of the Troupe, the lands they roamed and the worlds they witnessed. It siphons great power from the records of the Troupe's performances as well as the cheering of the crowds they performed for. The Wanderer's Troupe was founded during the reign of the Aristocracy. Many referred to it as the Swordsman's Troupe — some out of hope, others out of fear. Even poems and songs were denied the right to freedom in that era. For flutes they had swords, for harps they had bows, and their song was an anthem of rebellion. Their final act was an attempt to storm the city and impose the death sentence upon its tyrannical rulers. The Swordsman's Troupe had gone, and with it the memory of their rebellion. But the spirit of resistance they embodied will always flow in Mondstadters' veins.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Milk Tooth",
+          "quantity": 3
+        },
+        {
+          "name": "Dead Ley Line Branch",
+          "quantity": 3
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 3
+        },
+        {
+          "name": "Dead Ley Line Branch",
+          "quantity": 12
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 6
+        },
+        {
+          "name": "Dead Ley Line Leaves",
+          "quantity": 6
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 3
+        },
+        {
+          "name": "Dead Ley Line Leaves",
+          "quantity": 12
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 6
+        },
+        {
+          "name": "Ley Line Sprout",
+          "quantity": 9
+        },
+        {
+          "name": "Ominous Mask",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Nostalgia",
+          "quantity": 4
+        },
+        {
+          "name": "Ley Line Sprout",
+          "quantity": 18
+        },
+        {
+          "name": "Ominous Mask",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

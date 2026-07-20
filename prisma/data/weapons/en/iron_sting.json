@@ -1,0 +1,181 @@
+{
+  "name": "Iron Sting",
+  "type": "SWORD",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "An exotic long-bladed rapier that somehow found its way into Liyue via foreign traders. It is light, agile, and sharp.",
+  "history": "The whole world flocks to the commercial port of Liyue, much to the city's pride. With the tides of people also come exotic treasures. This needle-like sword, with a point but no edges, sacrifices the ability to slash for increased piercing damage. A level of skill is required to realize its full potential. However, it still serves as a fine sword even for those who wield it without particular skill. A weapon from a distant shore that once hung from the waist of its seafaring bearer. A slender and elegant blade, it stood out amidst the roughness and chaos of the sea. When curious folk inquired, the boat captain deflected their questions. Rumors abounded concerning the blade's origins. Some said it was won in battle against pirates, others that it was loot from a raid. But when the red evening clouds set in and after the sails had been dropped for the night, the Chief Mate would gently polish the blade, Reminiscing about his old life in the Wind Kingdom, the time he spent roaming as a martial nomad. Reminiscing about a girl from his hometown, a love that ended too soon, and a promise to meet again.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Grain of Aerosiderite",
+          "quantity": 3
+        },
+        {
+          "name": "Fragile Bone Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Whopperflower Nectar",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 3
+        },
+        {
+          "name": "Fragile Bone Shard",
+          "quantity": 12
+        },
+        {
+          "name": "Whopperflower Nectar",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 6
+        },
+        {
+          "name": "Sturdy Bone Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Shimmering Nectar",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 3
+        },
+        {
+          "name": "Sturdy Bone Shard",
+          "quantity": 12
+        },
+        {
+          "name": "Shimmering Nectar",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 6
+        },
+        {
+          "name": "Fossilized Bone Shard",
+          "quantity": 9
+        },
+        {
+          "name": "Energy Nectar",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Chunk of Aerosiderite",
+          "quantity": 4
+        },
+        {
+          "name": "Fossilized Bone Shard",
+          "quantity": 18
+        },
+        {
+          "name": "Energy Nectar",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 46
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

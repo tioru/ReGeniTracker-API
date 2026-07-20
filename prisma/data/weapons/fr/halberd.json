@@ -1,0 +1,181 @@
+{
+  "name": "Hallebarde",
+  "type": "POLEARM",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "Une hampe à l'extrémité de laquelle se trouve un fer de hache. Cette arme puissante est l'une des favorites des officiers des Millelithes.",
+  "history": "La hallebarde est une arme très puissante, même aux mains du néophyte ; après tout, « plus c'est long et mieux ça vaut », comme on dit souvent... L'ajout d'une lame de hache à son extrémité, bien que réduisant sa maniabilité, permet à son possesseur de trancher à travers l'ennemi, en faisant un atout dans les environnements difficiles. Cette arme rencontre souvent les faveurs des combattants martiaux ; c'est aussi le symbole de la bravoure et de la gloire des officiers des Millelithes. Bien que la paix ait été restaurée à Liyue, qui aujourd'hui vit sans troubles, on peut encore apercevoir les silhouettes des soldats porteurs de lance dans les rues et ruelles de la cité. Les chefs au sein des Millelithes ont de tout temps mené leurs troupes à la bataille, servant de fer de lance et de premier rempart face aux troupes ennemies. Ils sont protégés en combat par leurs fidèles compagnons de bataille, ainsi que par des combattants martiaux à la maîtrise parfaite de leur art. N'importe quel ennemi osant se frotter aux Millelithes se heurte en première ligne aux officiers et à leurs lances ; ceux-ci constituent vraiment le noyau dur des Millelithes.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Plomb karstique",
+          "quantity": 2
+        },
+        {
+          "name": "Pollen d'herbe brumeuse",
+          "quantity": 2
+        },
+        {
+          "name": "Nectar de Fleur mensongère",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mercure karstique",
+          "quantity": 2
+        },
+        {
+          "name": "Pollen d'herbe brumeuse",
+          "quantity": 8
+        },
+        {
+          "name": "Nectar de Fleur mensongère",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mercure karstique",
+          "quantity": 4
+        },
+        {
+          "name": "Herbe brumeuse",
+          "quantity": 4
+        },
+        {
+          "name": "Nectar miroitant",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Argent karstique",
+          "quantity": 2
+        },
+        {
+          "name": "Herbe brumeuse",
+          "quantity": 8
+        },
+        {
+          "name": "Nectar miroitant",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Argent karstique",
+          "quantity": 4
+        },
+        {
+          "name": "Mèches d'herbe brumeuse",
+          "quantity": 6
+        },
+        {
+          "name": "Nectar élémentaire",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Or karstique",
+          "quantity": 3
+        },
+        {
+          "name": "Mèches d'herbe brumeuse",
+          "quantity": 12
+        },
+        {
+          "name": "Nectar élémentaire",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 40
+    },
+    "20": {
+      "baseAtk": 102
+    },
+    "40": {
+      "baseAtk": 187
+    },
+    "50": {
+      "baseAtk": 239
+    },
+    "60": {
+      "baseAtk": 292
+    },
+    "70": {
+      "baseAtk": 344
+    },
+    "80": {
+      "baseAtk": 396
+    },
+    "90": {
+      "baseAtk": 448
+    },
+    "20_ASC": {
+      "baseAtk": 121
+    },
+    "40_ASC": {
+      "baseAtk": 207
+    },
+    "50_ASC": {
+      "baseAtk": 259
+    },
+    "60_ASC": {
+      "baseAtk": 311
+    },
+    "70_ASC": {
+      "baseAtk": 363
+    },
+    "80_ASC": {
+      "baseAtk": 415
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Favonius Greatsword",
+  "type": "CLAYMORE",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "A heavy ceremonial sword of the Knights of Favonius. It channels elemental power easily and is highly destructive.",
+  "history": "A heavy ceremonial sword of the Knights of Favonius. It is usually only issued after the approval of both the Grand Master and the Church. The craftsmen in Mondstadt have achieved some results in elemental affinity by studying the ancient artifacts of Mondstadt. This heavy greatsword is not only an honor bestowed upon a Knight of Favonius, but also the fruit of the hard work and skills of the guardians of Mondstadt. It can channel elemental power with ease. Its bearer would do well to remember that destruction is but a means to an end, the end being to defend that which must be defended. Only a single-handed form of Rostam the Wolf Pup's Favonius Bladework survives today. Another form has been lost to history: that of Arundolyn, the Lion of Light, who could wield both a longsword and greatsword together in battle. Because of the great strength needed, only those gifted with extraordinary strength could attempt this form. Thus, it soon died out. Close companions growing up, Arundolyn was from a long line of knights while Rostam was born to a peasant family. Their childhood friendship was forged from a shared dream of heroism. As young men, they became fellow knights; as mature adults, one became Grand Master and the other his assistant. Grand Master Arundolyn was no Vision bearer. His formidable strength came from a mixture of natural gifts and intense training. The Grand Master's strength was his pride, and the Grand Master was the pride of the Knights — nay, the pride of all in Mondstadt. After Rostam met his fate, Arundolyn never displayed his strength again. For no longer was it a source of glory to challenge ferocious monsters.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fetters of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 3
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 12
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 6
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 12
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 9
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Dream of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 18
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

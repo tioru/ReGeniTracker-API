@@ -1,0 +1,181 @@
+{
+  "name": "Mouun's Moon",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2021-11-02",
+  "description": "A lovely warbow made from seashells and coral. A mournful brilliance flows along its moonlight-colored arms.",
+  "history": "The longbow once used by the Watatsumi shrine maiden Mouun, It shines as pure white as the seafoam at the tip of a moonlit wave. The shrine maiden was friends with the monsters of distant seas, and together they did battle against the thundering clouds for the sake of Watatsumi's transient dream. The bosom companions rode the waves as one, looming ever in the spray created by the bows of ships... On and on they went, pursuing the path of no return that Watatsumi was now on until they went together to the land of their tragic obliteration. \"Perhaps it is true that Lord Watatsumi Omikami's war was doomed from the start.\" \"But as long as we leave these memories behind, as long as we sow the seeds of sacrifice, this might all be worth it.\" The songs of the past eulogize the tacit bond she shared with \"Umigozen\" as twins born of Watatsumi, And depict them, bow drawn and spear raised, bathing in the wave-spray of a ship's bow... These distant songs recount how she rode with Touzannou upon the back of a sea creature in the night, The broken tomorrows she whispered of, gently and mournfully, into the hero's ear... In yet peaceful days, the twins once sang in chorus with the great whale of the deep sea, Telling of dismal days spent in the depths and the dark ever-night, and of Omikami and the radiant jade branches. She once frolicked with that reckless young man, whose only strength was his strength... \"Once I bring that legendary Great Tengu's mask back, you have to keep our promise and finish that business.\" \"Sure, and if you're still so full of crap then, I'll get a whale to raise a wave large enough to wash that potty mouth of yours clean.\"",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Narukami's Wisdom",
+          "quantity": 3
+        },
+        {
+          "name": "Dismal Prism",
+          "quantity": 3
+        },
+        {
+          "name": "Spectral Husk",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Narukami's Joy",
+          "quantity": 3
+        },
+        {
+          "name": "Dismal Prism",
+          "quantity": 12
+        },
+        {
+          "name": "Spectral Husk",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Narukami's Joy",
+          "quantity": 6
+        },
+        {
+          "name": "Crystal Prism",
+          "quantity": 6
+        },
+        {
+          "name": "Spectral Heart",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Narukami's Affection",
+          "quantity": 3
+        },
+        {
+          "name": "Crystal Prism",
+          "quantity": 12
+        },
+        {
+          "name": "Spectral Heart",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Narukami's Affection",
+          "quantity": 6
+        },
+        {
+          "name": "Polarizing Prism",
+          "quantity": 9
+        },
+        {
+          "name": "Spectral Nucleus",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Narukami's Valor",
+          "quantity": 4
+        },
+        {
+          "name": "Polarizing Prism",
+          "quantity": 18
+        },
+        {
+          "name": "Spectral Nucleus",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Etherlight Spindlelute",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2025-09-12 10:00:00 GMT+8",
+  "description": "A lute whose golden strings are as radiant as sunlight. It appears to be a relic from the Seelie of old.",
+  "history": "Beyond the ruins of the ancient palace and on the edge of the wasteland stands the tranquil sacred forest of Lake Amsvartnir. Legend has it that whoever breaks the golden branch in the forest will find the royal court of the Seelie, which is concealed from mortal eyes during the day. A kingdom of the past, it lies forgotten by both time and space, hidden in shadow where no heavenly light can touch it. Its owner has long departed, leaving behind nothing but a neglected courtyard and a hall stripped bare. Yet, within the palace that should have been abandoned, a young woman's silent lament echoes across its walls. \"Once upon a time, the titan craftsman of the skies once wove the destinies of all living beings, the golden harp their instrument of fate.\" \"That was the divine plan of the heavens. If it were followed, the entire world would usher happiness in.\" \"Yet even the ignorant can dream, and in her dream, a new future revealed itself.\" \"She saw men raise a tower to the heavens, and from its heights, the tower's apostle waging war against the sky...\" \"She saw roaring beasts, each larger than a mountain, breaking free from the bonds of the earth...\" \"She saw three moons casting their light upon the sea, a sight soon eclipsed by an ancient dragon rising like a tide.\" \"All that vanished the moment she awoke, as if it had never happened.\" \"All that remained was the indescribable glance from those star-like eyes.\" \"Was that love? Perhaps it was just delusion woven from hope, ambition, and a longing for death.\" \"But that matters not now, for their story has ended, and it became Elysium's finale.\" \"The chirping of insects on a long-gone autumn night is the chorus of exiles, singing mankind's most ancient song as they live out their plight...\" \"They had lost the place of their bodies and souls, with nothing left but songs and memories of the homeland they once knew.\" The last singers, the first Seelie, they played their final tune in the hall of angels. The wolf who once broke into this place had long since departed. Only unfulfilled dreams remain, and continue to chase phantoms.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Sundered Glory of the Far-North Scions",
+          "quantity": 3
+        },
+        {
+          "name": "Lightless Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Tattered Warrant",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Unyielding Delusion of the Far-North Scions",
+          "quantity": 3
+        },
+        {
+          "name": "Lightless Bone",
+          "quantity": 12
+        },
+        {
+          "name": "Tattered Warrant",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Unyielding Delusion of the Far-North Scions",
+          "quantity": 6
+        },
+        {
+          "name": "Glowing Remains",
+          "quantity": 6
+        },
+        {
+          "name": "Immaculate Warrant",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Oblation of the Far-North Scions",
+          "quantity": 3
+        },
+        {
+          "name": "Glowing Remains",
+          "quantity": 12
+        },
+        {
+          "name": "Immaculate Warrant",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Oblation of the Far-North Scions",
+          "quantity": 6
+        },
+        {
+          "name": "Radiant Exoskeleton",
+          "quantity": 9
+        },
+        {
+          "name": "Frost-Etched Warrant",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Aureate Radiance of the Far-North Scions",
+          "quantity": 4
+        },
+        {
+          "name": "Radiant Exoskeleton",
+          "quantity": 18
+        },
+        {
+          "name": "Frost-Etched Warrant",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

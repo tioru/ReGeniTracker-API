@@ -1,0 +1,181 @@
+{
+  "name": "Éclair des impasses",
+  "type": "SWORD",
+  "rarity": 4,
+  "releaseDate": "2021-03-17",
+  "description": "Une épée droite et noire comme la nuit. Elle appartenait autrefois à un voleur qui rôdait dans les ruelles sombres.",
+  "history": "Une épée longue, droite et altière, rappelant l'éclat brillant dans les ténèbres. Pas une fois le sang frais ne salit son fil. On raconte que c'est cette épée qui, des générations plus tard, servit de modèle pour réaliser les épées des nobles chevaliers. La sombre lame se fondait autrefois dans les nuits d'antan avec aise ; en cette époque, les hommes n'osaient allumer de lumière dans les ténèbres de la nuit. Certains bardes chantent que c'est durant le règne de l'aristocratie que l'épée se noircit. La lecture des récits et chansons de ses honorables ancêtres planta dans le cœur du jeune noble la graine de la rébellion. Et lorsque l'heure fut venue, il abandonna sa vénérable dynastie, et prenant l'arme, il disparut se cacher dans l'anonymat de la rue. Vivant la vie des gens du commun, on le vit dans les tavernes et les sombres ruelles ; et il mit sa maîtrise de l'épée au service des plus démunis, volant aux riches pour donner aux pauvres. La noble lame, tirée des coffres de l'aristocratie, bondit ainsi à travers les toits, filant dans les rues sous la lueur de la lune dans les mains de celui au sang tout aussi noble ; Et son tranchant brillant jamais ne flancha, semblable en cela au voleur au grand cœur qui avait renié son héritage corrompu. Mais jeunesse passe, comme passent les chants et les beuveries ; par la suite nombre d'événements arrivèrent. À la fin, enterrant sous la lueur du clair de lune sa chère épée avant de fuir sur l'océan, il se rappela le garçon qu'il était lorsqu'il subtilisa l'arme du coffre familial, et le serment qu'il prononça cette nuit là à l'intention de sa famille, du passé et du présent, de ces terres et de son loyal frère Ebelhart : « Quand bien même je ne ferais qu'une minime différence, j'utiliserai ma force pour ramener ce monde égaré dans la lumière. »",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Tuile cassée de Décarabian",
+          "quantity": 3
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 3
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 3
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 12
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 6
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 6
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 3
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 12
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 6
+        },
+        {
+          "name": "Corne à cristal noir",
+          "quantity": 9
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Rêve brisé de Décarabian",
+          "quantity": 4
+        },
+        {
+          "name": "Corne à cristal noir",
+          "quantity": 18
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 45
+    },
+    "20": {
+      "baseAtk": 128
+    },
+    "40": {
+      "baseAtk": 247
+    },
+    "50": {
+      "baseAtk": 321
+    },
+    "60": {
+      "baseAtk": 395
+    },
+    "70": {
+      "baseAtk": 470
+    },
+    "80": {
+      "baseAtk": 545
+    },
+    "90": {
+      "baseAtk": 620
+    },
+    "20_ASC": {
+      "baseAtk": 154
+    },
+    "40_ASC": {
+      "baseAtk": 273
+    },
+    "50_ASC": {
+      "baseAtk": 347
+    },
+    "60_ASC": {
+      "baseAtk": 429
+    },
+    "70_ASC": {
+      "baseAtk": 496
+    },
+    "80_ASC": {
+      "baseAtk": 571
+    }
+  }
+}

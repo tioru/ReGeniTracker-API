@@ -1,0 +1,181 @@
+{
+  "name": "Arc à poulies",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Un arc en alliage de métal, dont la corde est tendue par des poulies. Son étrange design le rend difficile à manier, mais une fois la flèche est partie, celle-ci s'abat sur la proie avec une force impressionnante.",
+  "history": "De tout temps le monde entier s'est retrouvé au Port de Liyue, à la grande fierté de la cité. Des trésors exotiques sont introduits quotidiennement dans la cité grâce aux commerçants étrangers. Malgré sa petite taille, sa forme unique et le savoir-faire de l'artisan qui l'a fabriqué le rendent plus dévastateur qu'un arc long. Son entretien est plus difficile que celui d'un arc ordinaire, car il ne s'agit pas d'une simple arme, mais d'un joyau de la sagesse d'une nation étrangère. Un chercheur d'un lointain pays a après étude de l'arc réussi à ajouter un système de poulie à la base composite de l'arme. L'homme n'avait pas en tête le combat militaire lorsqu'il apporta cette amélioration, ayant en horreur la vue du sang. Mais à la vue de la courbe parfaite de l'arc se tendant, à la vue de la trajectoire suivie par la flèche sifflante, il tomba sous le charme de l'arme, et s'exhorta à continuer d'y apporter des améliorations. Bien qu'il sût en son cœur que les armes par lui conçues étaient destinées à voir le champ de bataille, il s'absorba de tout son être dans l'amélioration de la structure et le choix des matériaux, oubliant ainsi cette réalité qui était sienne, et sacrifiant ses principes sur l'autel de la recherche. Mais il advint que l'arc finit par échouer à un soldat du rang, qui s'en servit comme arme de chasse. « Quel arc splendide », pensait le soldat avec sincérité lorsqu'il l'utilisait. Mais le chant des oiseaux percés de ses flèches n'en émouvait pas moins son cœur.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Grain d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os fragile",
+          "quantity": 3
+        },
+        {
+          "name": "Insigne de nouvelle recrue",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os fragile",
+          "quantity": 12
+        },
+        {
+          "name": "Insigne de nouvelle recrue",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'os solide",
+          "quantity": 6
+        },
+        {
+          "name": "Insigne de sergent",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os solide",
+          "quantity": 12
+        },
+        {
+          "name": "Insigne de sergent",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'os fossilisé",
+          "quantity": 9
+        },
+        {
+          "name": "Insigne d'officier",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Morceau d'aérosidérite noire",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment d'os fossilisé",
+          "quantity": 18
+        },
+        {
+          "name": "Insigne d'officier",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

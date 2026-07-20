@@ -1,0 +1,181 @@
+{
+  "name": "Grande épée en fer blanc",
+  "type": "CLAYMORE",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "Une épée à deux mains fabriquée dans du fer blanc, ce qui ajoute à la puissance de l'arme tout en réduisant son poids. Elle peut être maniée par tous, mais sa force reflète celle de la personne qui l'utilise.",
+  "history": "Une épée à deux mains en fer blanc. Légère et pratique, elle brille d'un éclat argenté. Maniée avec rapidité, elle a le pouvoir d'aveugler l'ennemi. Mais cette épée n'est généralement pas utilisée comme arme. D'après les antiques coutumes de la chevalerie, lorsqu'un frère d'armes vient à mourir au combat, il est honoré en plantant une arme brillante à l'endroit où il est tombé. Cette coutume a disparu de nos jours ; mais certains se souviennent encore de sa signification...",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Entraves du Chevalier du Croc de Lion",
+          "quantity": 2
+        },
+        {
+          "name": "Dispositif du chaos",
+          "quantity": 2
+        },
+        {
+          "name": "Bave de Blob",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 2
+        },
+        {
+          "name": "Dispositif du chaos",
+          "quantity": 8
+        },
+        {
+          "name": "Bave de Blob",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 4
+        },
+        {
+          "name": "Circuit du chaos",
+          "quantity": 4
+        },
+        {
+          "name": "Mucus de Blob",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 2
+        },
+        {
+          "name": "Circuit du chaos",
+          "quantity": 8
+        },
+        {
+          "name": "Mucus de Blob",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 4
+        },
+        {
+          "name": "Noyau du chaos",
+          "quantity": 6
+        },
+        {
+          "name": "Essence de Blob",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Idéaux du Chevalier du Croc de Lion",
+          "quantity": 3
+        },
+        {
+          "name": "Noyau du chaos",
+          "quantity": 12
+        },
+        {
+          "name": "Essence de Blob",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "40": {
+      "baseAtk": 169
+    },
+    "50": {
+      "baseAtk": 216
+    },
+    "60": {
+      "baseAtk": 263
+    },
+    "70": {
+      "baseAtk": 309
+    },
+    "80": {
+      "baseAtk": 355
+    },
+    "90": {
+      "baseAtk": 401
+    },
+    "20_ASC": {
+      "baseAtk": 113
+    },
+    "40_ASC": {
+      "baseAtk": 189
+    },
+    "50_ASC": {
+      "baseAtk": 236
+    },
+    "60_ASC": {
+      "baseAtk": 282
+    },
+    "70_ASC": {
+      "baseAtk": 329
+    },
+    "80_ASC": {
+      "baseAtk": 375
+    }
+  }
+}

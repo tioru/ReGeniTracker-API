@@ -1,0 +1,181 @@
+{
+  "name": "Wandering Evenstar",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2022-10-14",
+  "description": "This was originally a device used by researchers to observe and perform calculations on celestial phenomena. It serves as a conduit and catalyst.",
+  "history": "This story takes place thousands of years ago, in an era after the foolish God-King was buried by the sandstorms. The wandering prince, having lost his kingdom, retreated into the cascading rainforest, surrounded by the tranquil moonlight. He had come here with the ambition to conquer new lands, but ended up being pursued by the huntress with the white bow, And thus did the dejected wanderer come to be trapped by vine branches and, in the cold moonlight, he heard the low growls of the tiger around him. \"The rainforest trail road was so treacherous that mortals could only tell the way ahead by the moonlight breaking through the leaves.\" \"The flickering evening stars lit the wanderer's way but also lured him into a deadly trap.\" \"The huntress darted through the deepwood with her white bow, driving this intruder away time and again.\" \"Together with the ancient tiger and its roar, she gave the order for his expulsion, but did not take his life.\" The old blind poet repeated the story of the wandering prince in a cracked, hoarse voice. Even though he had lost his eyes long ago, he still unconsciously looked at the evening star that lay next to the bright moon. The flickering star of the night had led the wanderer toward new hope, but also to a dead end, And years later, when the wanderer who had nothing to lose faced death, he had to make a choice... When the teachings of death were whispered in his ear, he finally realized the meaning of the warning... \"You belong to neither the forest nor death, so stay far from the king's palace.\" \"If you cherish life and memory still, do not go deep into the dark and dangerous lands.\" \"Stop repeating those silly words...\" \"If my wandering fate leads me to the moon-white bow, and if the evening stars foretell my end,\" \"Well then! I would rather accept my fate than die pursuing a falcon.\"",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Oasis Garden's Reminiscence",
+          "quantity": 3
+        },
+        {
+          "name": "Inactivated Fungal Nucleus",
+          "quantity": 3
+        },
+        {
+          "name": "Fungal Spores",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Oasis Garden's Kindness",
+          "quantity": 3
+        },
+        {
+          "name": "Inactivated Fungal Nucleus",
+          "quantity": 12
+        },
+        {
+          "name": "Fungal Spores",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Oasis Garden's Kindness",
+          "quantity": 6
+        },
+        {
+          "name": "Dormant Fungal Nucleus",
+          "quantity": 6
+        },
+        {
+          "name": "Luminescent Pollen",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Oasis Garden's Mourning",
+          "quantity": 3
+        },
+        {
+          "name": "Dormant Fungal Nucleus",
+          "quantity": 12
+        },
+        {
+          "name": "Luminescent Pollen",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Oasis Garden's Mourning",
+          "quantity": 6
+        },
+        {
+          "name": "Robust Fungal Nucleus",
+          "quantity": 9
+        },
+        {
+          "name": "Crystalline Cyst Dust",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Oasis Garden's Truth",
+          "quantity": 4
+        },
+        {
+          "name": "Robust Fungal Nucleus",
+          "quantity": 18
+        },
+        {
+          "name": "Crystalline Cyst Dust",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

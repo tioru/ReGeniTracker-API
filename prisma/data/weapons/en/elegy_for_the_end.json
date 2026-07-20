@@ -1,0 +1,181 @@
+{
+  "name": "Elegy for the End",
+  "type": "BOW",
+  "rarity": 5,
+  "releaseDate": "2021-03-17",
+  "description": "A bow as lovely as any bard's lyre, its arrows pierce the heart like a lamenting sigh.",
+  "history": "\"The west wind bears wine's fragrance away,\" \"The mountain wind brings glad tidings new.\" \"The breeze from afar tugs at my heart,\" \"It sings of my longing for you.\" Long ago, there was a knight who was ever dour of countenance. Only a certain song could ever cause his brow to unfurl, And only a certain girl who sang that song in the square, Could cause him to forget the great burden of his duty for a time. But at last, calamity came upon this land. The songs that had once flown joyfully in the wind were drowned by a venomous dragon. In the wake of its earth-shaking footsteps, even the cries and the flames were ripped asunder. The Anemo Archon heard their agony, though he had refused to rule. But to protect his old friends' dream, and defend the wind-kissed fields of green, He woke from his long slumber anew, and with the sky dragon in battle he flew... The Knight and his knights also fought for their land. When the venomous dragon fell to ruin on the ice-sealed peak, the blue sky dragon fell asleep in the ancient tower. But the Knight was in the valley, spent of his life's blood, and as he fell, he could only think thus: \"She is abroad studying, so she should be well. But ah, how I wish to hear her sing again.\" \"At least Arundolyn and Roland are alright. When she returns, this calamity should have blown over.\" The songs in praise of the archon and tunes that recorded the battle of the two dragons were many, but all slowly became lost. The song the girl loved to sing, too, changed upon her return. \"The dandelions carry in the summer wind,\" \"Autumn brings the fragrance of grain.\" \"But no wind in any season on earth\" \"Shall have you gaze upon me again.\" And after her voice and her tears had run dry, the girl swore to use her life's flame to cleanse the world's crookedness.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Milk Tooth",
+          "quantity": 5
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 5
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 5
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 18
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 9
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 9
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 5
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 18
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 9
+        },
+        {
+          "name": "Black Crystal Horn",
+          "quantity": 14
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Nostalgia",
+          "quantity": 6
+        },
+        {
+          "name": "Black Crystal Horn",
+          "quantity": 27
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 46
+    },
+    "20": {
+      "baseAtk": 122
+    },
+    "40": {
+      "baseAtk": 235
+    },
+    "50": {
+      "baseAtk": 308
+    },
+    "60": {
+      "baseAtk": 382
+    },
+    "70": {
+      "baseAtk": 457
+    },
+    "80": {
+      "baseAtk": 532
+    },
+    "90": {
+      "baseAtk": 608
+    },
+    "20_ASC": {
+      "baseAtk": 153
+    },
+    "40_ASC": {
+      "baseAtk": 266
+    },
+    "50_ASC": {
+      "baseAtk": 340
+    },
+    "60_ASC": {
+      "baseAtk": 414
+    },
+    "70_ASC": {
+      "baseAtk": 488
+    },
+    "80_ASC": {
+      "baseAtk": 563
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Lance en croix de Kitain",
+  "type": "POLEARM",
+  "rarity": 4,
+  "releaseDate": "2021-07-21",
+  "description": "Une lance spéciale qui était autrefois utilisée par un célèbre guerrier qui gardait le Tatarigami sur l'Île de Yashiori.",
+  "history": "Une lance à la forme étrange, fabriquée par Kitain Bunsou pour son propre style unique de combat. Son poids massif la rend extrêmement difficile à manier par des mains non entraînées. Mais entre les doigts agiles d'un expert, elle est capable de libérer une grande puissance destructrice. Dans un passé lointain, les Kitain était une famille qui chassait le Tatarigami. Pendant de nombreuses générations, ils ont occupé le poste de préfet de Yashiori. Dans le passé, il existait une comptine qui circulait au sein d'Inazuma : « Arataki de la porte avant, Iwakura le successeur, Kitain le serpent, Takamine le tranche-brume... » Cette ligne décrit les guerriers éblouissants qui illuminaient autrefois la terre, telles des comètes. Il y avait beaucoup d'autres noms dans la liste, mais ils ont depuis été perdus dans l'histoire... Et après avoir été un chasseur de démons depuis si longtemps, il est inévitable que l'on s'imprègne d'un peu de ce sang corrompu.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Masque du lieutenant pernicieux",
+          "quantity": 3
+        },
+        {
+          "name": "Engrenage du chaos",
+          "quantity": 3
+        },
+        {
+          "name": "Insigne des Pilleurs",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Masque de la morsure du tigre",
+          "quantity": 3
+        },
+        {
+          "name": "Engrenage du chaos",
+          "quantity": 12
+        },
+        {
+          "name": "Insigne des Pilleurs",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Masque de la morsure du tigre",
+          "quantity": 6
+        },
+        {
+          "name": "Axe du chaos",
+          "quantity": 6
+        },
+        {
+          "name": "Insigne de corbeau en argent",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Masque du cornu",
+          "quantity": 3
+        },
+        {
+          "name": "Axe du chaos",
+          "quantity": 12
+        },
+        {
+          "name": "Insigne de corbeau en argent",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Masque du cornu",
+          "quantity": 6
+        },
+        {
+          "name": "Œil du chaos",
+          "quantity": 9
+        },
+        {
+          "name": "Insigne de corbeau en or",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Masque du kijin",
+          "quantity": 4
+        },
+        {
+          "name": "Œil du chaos",
+          "quantity": 18
+        },
+        {
+          "name": "Insigne de corbeau en or",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Agate de Rochenoire",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2020-11-01",
+  "description": "Un mystérieux catalyseur en roche noire. La lueur rouge qui en émane résonne en harmonie avec les entrailles de la terre.",
+  "history": "Un catalyseur réalisé à partir de roche noire extrêmement rare. Lorsqu'on le met à la lumière on y voit une certaine lueur ; il est capable de faire circuler les éléments. L'arme adopte une forme circulaire ; l'ambre qui y est incrusté en son centre semble refléter une flaque de sang, tantôt consistante et tantôt élusive, tantôt claire et tantôt sombre. Les pics des Monts Tianheng renferment maintes richesses, et les terres de la région offrent maintes pierres précieuses. Les ressources minérales du royaume du Souverain de la Roche pullulent. Après que les Monts Tianheng aient été creusés de toute part, le sol de la région fut transformé en un réseau de galeries partant dans toutes les directions, capable dit-on de traverser le noyau de la terre. Mais vint une époque où les terres souterraines se réveillèrent, et dans un grondement profond, se mirent à trembler ; cavernes et mines s'effondrèrent. Les âmes des trépassés qui connurent la mort sous la montagne revinrent à elles-mêmes ; il n'était alors pas rare d'entendre au milieu de la nuit quelque hurlement ou pleur à glacer le sang. Cela dura jusqu'au jour où vint débarquer aux Monts Qingce un voyageur. L'homme se dit être un mage marchant parmi les nuages, et expliqua être à la recherche de deux artisans nommés respectivement Yun et Han. Phénix, la fille de Yun le forgeron en visite à Qingce, se dépêcha de faire venir Han Ce, le fils de l'artisan Han Wu. Le mage dit alors aux deux descendants que leurs pères avait par le passé créé un catalyseur légendaire à l'usage des mages. Les terres de Liyue continuant à connaître le mal, les mages étaient donc venus leur remettre à nouveau un ambre sacré, dans l'espoir que cela suffise à leur apporter l'aide dont elles avaient grand besoin. Entendant cela, les deux jeunes se mirent immédiatement à la fabrication d'un catalyseur, y incorporant la pièce d'ambre. La pierre semblait refléter les veines de la terre, en une lueur rouge insaisissable semblant annoncer la venue immédiate de quelque catastrophe. Elle évoquait les étoiles qui indiquent aux hommes où fuir la colère de la montagne. Le catalyseur fut par la suite déposé sous les Monts Tianheng. L'Agate de Rochenoire finit une fois la paix revenue par être oubliée, et disparut progressivement des esprits, à la manière de la colère de la terre.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Sable lumineux de Guyun",
+          "quantity": 5
+        },
+        {
+          "name": "Dague de chasse rituelle",
+          "quantity": 5
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 5
+        },
+        {
+          "name": "Dague de chasse rituelle",
+          "quantity": 18
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 9
+        },
+        {
+          "name": "Dague rituelle de l'Usurier",
+          "quantity": 9
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Squelette sacré de Guyun",
+          "quantity": 5
+        },
+        {
+          "name": "Dague rituelle de l'Usurier",
+          "quantity": 18
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Squelette sacré de Guyun",
+          "quantity": 9
+        },
+        {
+          "name": "Grande dague de l'Inspecteur",
+          "quantity": 14
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Corps divin de Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Grande dague de l'Inspecteur",
+          "quantity": 27
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

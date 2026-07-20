@@ -1,0 +1,181 @@
+{
+  "name": "Tome of the Eternal Flow",
+  "type": "CATALYST",
+  "rarity": 5,
+  "releaseDate": "2023-09-27",
+  "description": "A manual that was once passed down from generation to generation within an underwater priory. Today, none know of its existence.",
+  "history": "\"We shall remember this oath of the thousand years, and defend the foundation of the capital of water.\" \"Never forget the shackles of sin that were once tempting as honey,\" \"And never forget our heavy responsibilities that may now seem like fetters.\" \"They represent the deity's honey-sweet grace and faith in us.\" \"We are the shield that guards against the disaster of the flood, and the line of defense against the breach.\" The first watcher always led the new recruits to recite their oath. Indeed, no one would wish for such a life, but everything comes with a price. We once succumbed to the euphoria of violence, or were driven by greed. This vow is the recompense of justice, as well as the final chance at redemption. Neither sunlight nor family are present here, so we must find a semblance of joy. Although the watcher sometimes wondered if the sinners took these vows on their own accord, Or merely uttered syllables that meant nothing to them, He still sincerely hoped that the wild joy he experienced when the deity entrusted this heavy responsibility to him, Would light up the path of these \"brothers and sisters\" of his, and give meaning to their lives, Just as it had lit up his hopeless and dreary future. The teachings of the watchers would thus be passed from generation to generation, flowing down like an endless stream. For if the harbinger of the apocalypse would indeed one day arrive, the flood would wash everything away. The watchers would fight with both duty and joy in their our hearts, just as the goddess had found empathy for them in hers. My duty is now complete, so I shall leave the goddess' grace and duty to you all. The first watcher was buried between mineral veins of extraordinary splendor, Because it is the place most filled with light. The man who had lived for many years in the shadows Held the light he once saw in his heart as he quietly slumbered beneath the soil by the breach. The flood that would wash everything away is never unleashed, As fate is often loath to grant would-be heroes an honorable death. Even so, an inaudible trickle began to silently corrode the priory as if a thief shrouded in the shadows. Those forced to join the order and live underwater gradually increased in number, Yet those who swore the oath, understood its meaning, and knew the teachings only declined over time. Many long years later, a grand and ominous fortress would rise from the seabed, But as for the last brother who called himself a watcher and shouldered the expectations of a god, The location of his grave would become known to none. Still, perhaps this place can still be called fortunate, As the other suppressed breach was eventually discovered many years later by one who set out to reveal its secrets.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Dross of Pure Sacred Dewdrop",
+          "quantity": 5
+        },
+        {
+          "name": "Rift Core",
+          "quantity": 5
+        },
+        {
+          "name": "Meshing Gear",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Sublimation of Pure Sacred Dewdrop",
+          "quantity": 5
+        },
+        {
+          "name": "Rift Core",
+          "quantity": 18
+        },
+        {
+          "name": "Meshing Gear",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Sublimation of Pure Sacred Dewdrop",
+          "quantity": 9
+        },
+        {
+          "name": "Foreign Synapse",
+          "quantity": 9
+        },
+        {
+          "name": "Mechanical Spur Gear",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Spring of Pure Sacred Dewdrop",
+          "quantity": 5
+        },
+        {
+          "name": "Foreign Synapse",
+          "quantity": 18
+        },
+        {
+          "name": "Mechanical Spur Gear",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Spring of Pure Sacred Dewdrop",
+          "quantity": 9
+        },
+        {
+          "name": "Alien Life Core",
+          "quantity": 14
+        },
+        {
+          "name": "Artificed Dynamic Gear",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Essence of Pure Sacred Dewdrop",
+          "quantity": 6
+        },
+        {
+          "name": "Alien Life Core",
+          "quantity": 27
+        },
+        {
+          "name": "Artificed Dynamic Gear",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 110
+    },
+    "40": {
+      "baseAtk": 210
+    },
+    "50": {
+      "baseAtk": 275
+    },
+    "60": {
+      "baseAtk": 341
+    },
+    "70": {
+      "baseAtk": 408
+    },
+    "80": {
+      "baseAtk": 475
+    },
+    "90": {
+      "baseAtk": 542
+    },
+    "20_ASC": {
+      "baseAtk": 141
+    },
+    "40_ASC": {
+      "baseAtk": 241
+    },
+    "50_ASC": {
+      "baseAtk": 307
+    },
+    "60_ASC": {
+      "baseAtk": 373
+    },
+    "70_ASC": {
+      "baseAtk": 439
+    },
+    "80_ASC": {
+      "baseAtk": 506
+    }
+  }
+}

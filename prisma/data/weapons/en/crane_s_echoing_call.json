@@ -1,0 +1,181 @@
+{
+  "name": "Crane's Echoing Call",
+  "type": "CATALYST",
+  "rarity": 5,
+  "releaseDate": "2024-01-31",
+  "description": "A fan carved from pure jade, around which swirls an ancient aura of adeptal energy.",
+  "history": "This was in the distant past, before the prosperous port city was ever established. Then, even the abodes of the adepti were not spared from the flaming beacons of war. The lords once worshipped as gods fought for reasons their own, Blood and fire, separation and betrayal. All the mortal world was stained. Those who lost everything in the tumult fled to the mountains, and there they begged for the adepti for shelter. Doggedly pursuing those survivors were countless monsters who had long since lost their senses. Their names were unknown, their numbers uncountable, they came on like a flood, destroying all in their path. The other master that they had once revered had fallen, and their fierce roaring was, in truth, a final mourning howl. But the mortals then could not have known that the lord who once defended these mountains and waters had now passed, And that all that stood between them and the onrushing deluge of catastrophe were a few vigilant yaksha who dwelled there. After several days of fierce battle, white clothes had turned scarlet, and scarlet garments had been stained black. Still, the monsters came on like an endless horde... As this tale dates to days ancient beyond memory, the tale thereafter has branched out into many versions. Some say that just as all hung in the balance, An adeptus with azure and white feathers burst from the clouds like a descending gale, Solitary, solemn, silent, in proud majesty and dignity did this being defend and administer the forebears, Turning a hopeless cause around by vanquishing what had appeared a limitless tide of monstrosities... Others say that as things appeared most perilous, two jade-carved cranes hurtled from the skies above, And in a hail of sigils did they subjugate countless evils as a chill wind disperses an expanse of cloud. But when all turned to look, Lo! There were no cranes, but an adeptus airborne, folding fan in fair hand... Still others claim that so far above mortal reach was this adeptus's might that the ancestors but heard a crane's cry, And before them, the endless monsters were as ash in an instant, like dust that dissipates in the sunlight... No matter which version of the tale, the people of Liyue thereafter would, when speaking of the adeptus Cloud Retainer, Would never fail choose their words with some respect. And as for what really happened back then... \"Interested in such distant matters? You truly are a person of some leisure.\" \"Well, what with a similar mood being upon oneself, one shall speak of it.\" \"Now, one believes this tale may be naught but eight or nine hours in the telling, but you should pull a chair up, still...\" \"...What? Were you trying to slink away while one was distracted!?\"",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Mist Veiled Lead Elixir",
+          "quantity": 5
+        },
+        {
+          "name": "Feathery Fin",
+          "quantity": 5
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 5
+        },
+        {
+          "name": "Feathery Fin",
+          "quantity": 18
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 9
+        },
+        {
+          "name": "Lunar Fin",
+          "quantity": 9
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 5
+        },
+        {
+          "name": "Lunar Fin",
+          "quantity": 18
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 9
+        },
+        {
+          "name": "Chasmlight Fin",
+          "quantity": 14
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Mist Veiled Primo Elixir",
+          "quantity": 6
+        },
+        {
+          "name": "Chasmlight Fin",
+          "quantity": 27
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 49
+    },
+    "20": {
+      "baseAtk": 145
+    },
+    "40": {
+      "baseAtk": 286
+    },
+    "50": {
+      "baseAtk": 374
+    },
+    "60": {
+      "baseAtk": 464
+    },
+    "70": {
+      "baseAtk": 555
+    },
+    "80": {
+      "baseAtk": 648
+    },
+    "90": {
+      "baseAtk": 741
+    },
+    "20_ASC": {
+      "baseAtk": 176
+    },
+    "40_ASC": {
+      "baseAtk": 317
+    },
+    "50_ASC": {
+      "baseAtk": 406
+    },
+    "60_ASC": {
+      "baseAtk": 195
+    },
+    "70_ASC": {
+      "baseAtk": 586
+    },
+    "80_ASC": {
+      "baseAtk": 679
+    }
+  }
+}

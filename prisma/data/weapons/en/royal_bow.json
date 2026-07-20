@@ -1,0 +1,181 @@
+{
+  "name": "Royal Bow",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "An old royal longbow that belonged to the erstwhile rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force.",
+  "history": "A longbow used by a noble who ruled over Mondstadt. It was crafted with premium materials and master craftsmanship. For that reason, generations later, it is still as powerful as ever. Hunting was once a pastime of the nobles. They demonstrated their strength in the natural world, and shared the spoils with the people in benevolence. Unfortunately, benevolence was lost, and with it, their reign. After the uprising, the Lawrence Clan that had long ruled Mondstadt was overthrown. In the name of benevolent governance, the newly established Knights of Favonius deemed that protracted investigations would be unnecessary. The Lawrence clan was promptly cast out from Mondstadt, never to return. \"On the road bound to our exile, I watched my father sigh with grief; at the betrayal of the people, at the end of a glorious era, at the final chapter of history.\" \"We watched the people who were once our subjects rejoicing in the open country as we bid farewell to our homeland.\" \"Only years later did I realize: it was we, the Lawrence clan, who had betrayed, who had ended a glorious era, and who had closed the history books. Only now was Mondstadt as it always should have been.\" Vennessa was but the final push that toppled a crumbling tower. Before her, the flames of fury already burned bright, and occasionally the flickering flames had shone through the thick smoke of secrecy: The phantom thief praised in secret by the people. The woman who could see death. The Wanderer's Troupe intent on revolution. The spirit of resistance is in Mondstadter's blood.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fetters of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 3
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 12
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 6
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 12
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 9
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Dream of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 18
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

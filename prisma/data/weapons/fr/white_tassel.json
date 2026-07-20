@@ -1,0 +1,181 @@
+{
+  "name": "Pampille blanche",
+  "type": "POLEARM",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "Une lance dont les Millelithes sont souvent équipés. La hampe solide et la lame tranchante de cette arme en font une valeur sûre.",
+  "history": "Les Millelithes, soldats au mérite connu de tous, sont célèbres pour leur maîtrise de la lance. Certains portent une lance au ruban blanc, fabriquée en masse à la Forge de Rochenoire. Il s'agit là d'une arme qui a fait ses preuves durant des milliers d'années de combats, son ruban blanc semblant semer la destruction au milieu des batailles, volant crânement de cible en cible. La légende raconte que l'armée hébergeait en ses troupes un soldat à la maîtrise parfaite de l'art de la lance ; capable de toucher un général au milieu de mille soldats sans que ne soit sali le blanc ruban de son arme. « Mais cette légende est celle du porteur de hallebarde ; l'arme en elle-même n'a rien de mémorable. » Ainsi parlait le vieux forgeron à son apprenti ; puis il lui demanda d'apporter un ruban pour l'arme juste terminée.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Sable lumineux de Guyun",
+          "quantity": 2
+        },
+        {
+          "name": "Dague de chasse rituelle",
+          "quantity": 2
+        },
+        {
+          "name": "Insigne de nouvelle recrue",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 2
+        },
+        {
+          "name": "Dague de chasse rituelle",
+          "quantity": 8
+        },
+        {
+          "name": "Insigne de nouvelle recrue",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Dague rituelle de l'Usurier",
+          "quantity": 4
+        },
+        {
+          "name": "Insigne de sergent",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Squelette sacré de Guyun",
+          "quantity": 2
+        },
+        {
+          "name": "Dague rituelle de l'Usurier",
+          "quantity": 8
+        },
+        {
+          "name": "Insigne de sergent",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Squelette sacré de Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Grande dague de l'Inspecteur",
+          "quantity": 6
+        },
+        {
+          "name": "Insigne d'officier",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Corps divin de Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Grande dague de l'Inspecteur",
+          "quantity": 12
+        },
+        {
+          "name": "Insigne d'officier",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "40": {
+      "baseAtk": 169
+    },
+    "50": {
+      "baseAtk": 216
+    },
+    "60": {
+      "baseAtk": 263
+    },
+    "70": {
+      "baseAtk": 309
+    },
+    "80": {
+      "baseAtk": 355
+    },
+    "90": {
+      "baseAtk": 401
+    },
+    "20_ASC": {
+      "baseAtk": 113
+    },
+    "40_ASC": {
+      "baseAtk": 189
+    },
+    "50_ASC": {
+      "baseAtk": 236
+    },
+    "60_ASC": {
+      "baseAtk": 282
+    },
+    "70_ASC": {
+      "baseAtk": 329
+    },
+    "80_ASC": {
+      "baseAtk": 375
+    }
+  }
+}

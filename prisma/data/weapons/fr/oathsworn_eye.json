@@ -1,0 +1,181 @@
+{
+  "name": "Œil d'assermentation",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2022-02-16",
+  "description": "Un trésor national de Byakuyakoku conservé dans le Dainichi Mikoshi. Après la venue de la divinité serpent, cet objet a été utilisé pour certifier nombre de grands serments et souhaits.",
+  "history": "« Tu souhaites que je devienne votre divinité ? » Le serpent blanc géant observa l'enfant qui se tenait devant lui, puis poursuivit : « J'ai décidé de fuir vers ces mers inconnues, car je n'ai pu surpasser ni Deus Auri, ni Narukami. Si vous êtes toujours à la recherche de la lumière, vous serez voués à refaire l'expérience d'une perte. Ma vie est insignifiante. J'ai dû m'abaisser à fuir pour survivre, à subir le déshonneur d'être qualifié de profanateur... J'en ai eu assez. » Le serpent géant montra alors une perle qui brillait tel un œil de serpent. « Alors, prête serment devant cet œil. C'est également de cette manière que j'ai autrefois conclu un pacte avec mes serviteurs coralliens. » « Auriez-vous oublié les enseignements de maître Spartacus ? Nous ne devons pas vénérer de dieu ! Nous devons compter uniquement sur nous-mêmes ! » Le serpent blanc se tut, car il respectait la volonté du peuple des profondeurs. Si une vénération vaine était remplacée par une nouvelle foi... Cela ne serait-il pas une insulte pour tous ceux qui se sont battus ? « Je vais prêter serment ! Ici, devant cet œil. Tout se passe comme au moment où j'ai tout perdu. » « Les années ont filé, l'île a été achevée, les Élémentosaures ont été chassés, et la Terre sacrée peut maintenant être gouvernée. Le Clan Sangonomiya, les jibashiri, et mes vassaux... Le serment prêté devant cet œil a porté ses fruits. Dès ce jour, si deux parties ou plus sont insatisfaites des dispositions prises pour Enkanomiya, ou si vous prenez une décision différente de celle initiale... Que la tour du soleil entende votre résolution et s'effondre d'elle-même, réduisant à néant tout ce qui constituait votre passé. » Après ces dernières paroles, la divinité serpent emmena le reste du peuple à la surface. Il était temps de remplir l'engagement envers la cité céleste...",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Branche marine de corail",
+          "quantity": 3
+        },
+        {
+          "name": "Griffe dissimulée",
+          "quantity": 3
+        },
+        {
+          "name": "Coquille spectrale",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Branche marine de gemme",
+          "quantity": 3
+        },
+        {
+          "name": "Griffe dissimulée",
+          "quantity": 12
+        },
+        {
+          "name": "Coquille spectrale",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Branche marine de gemme",
+          "quantity": 6
+        },
+        {
+          "name": "Ongle dissimulé",
+          "quantity": 6
+        },
+        {
+          "name": "Cœur spectral",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Branche marine de jade",
+          "quantity": 3
+        },
+        {
+          "name": "Ongle dissimulé",
+          "quantity": 12
+        },
+        {
+          "name": "Cœur spectral",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Branche marine de jade",
+          "quantity": 6
+        },
+        {
+          "name": "Serre dissimulée",
+          "quantity": 9
+        },
+        {
+          "name": "Noyau spectral",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Branche marine d'or",
+          "quantity": 4
+        },
+        {
+          "name": "Serre dissimulée",
+          "quantity": 18
+        },
+        {
+          "name": "Noyau spectral",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

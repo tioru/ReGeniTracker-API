@@ -1,0 +1,181 @@
+{
+  "name": "Flûte d'ezpitzal",
+  "type": "SWORD",
+  "rarity": 4,
+  "releaseDate": "2024-08-28",
+  "description": "Une épée longue en jade de forme particulière qui a été transmise parmi les Maîtres du vent nocturne comme une « flûte sacerdotale ».",
+  "history": "À cette époque lointaine, aujourd'hui considérée comme un mythe, d'immenses dragons parcouraient encore les profondeurs de la vallée. Une fille à qui les deux chevilles ont été mutilées à la naissance a hérité du titre de Sainte souveraine, comme le voulait la tradition. À cette époque, lorsque les vallées profondes ne s'appelaient pas encore « Mictlan », il n'y avait que de simples villages sous la protection des dragons. Les flammes antiques brûlèrent ce qui faisait la fierté des dragons, et les forcèrent à fuir dans des rêves en déclin. Ils sont alors venus conclure un pacte avec les mortels qui voulaient leur protection, les chargeant d'introniser une sainte souveraine au talent exceptionnel... « Nous construirons un labyrinthe de miroirs et une forteresse de brume pour protéger vos petites tribus d'humains du fléau de la guerre. » « En retour, nous ne demandons qu'une chose : que vous choisissiez une reine pour nous guider dans nos rêves. » Comme tous les désirs du monde, les rêves sont les flammes du désir qui consument le bois que nous appelons « vie ». La reine, soi-disant choisie par le destin, n'était en réalité qu'une offrande pour les rêves et vouée à disparaître comme de la fumée dans le vent glacial de la nuit. Et c'est pourquoi, aux côtés de la Sainte souveraine, il n'y avait qu'une flûte et son serviteur silencieux. Que ce soit par loyauté ou par compassion, il ne quitta jamais la jeune maîtresse destinée à mourir jeune. Cependant, ce héros qui sera vénéré par les générations futures ne savait pas encore que la jeune prophétesse avait prévu depuis longtemps la fin du rêve. Ce n'est que lorsque le héros eut suivi le son de sa flûte à travers les miroirs et la fumée que la jeune fille aux chevilles mutilées l'enveloppa dans ses bras. Elle tissa le vent fugace de la nuit et les murmures dans une douce chanson et lui murmura tout ce qu'elle avait entendu d'une voix tendre... « ... » « Le jour où nous nous reverrons, tu me perceras le cœur, afin que les phares et les vents brûlants dévorent mon nom. » « L'ancien pacte sera rompu et vous en forgerez un nouveau pour leur apporter la paix véritable. » « Jusqu'au jour où nous nous reverrons, mon fidèle serviteur Dinga, et toi, Maghan, le tueur de dragons destiné à être souverain ! » « Mon héros rien qu'à moi, c'est mon dernier ordre. Que le nom de Mictlan perdure pendant mille ans ! »",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Terreur du cœur sacrificiel flamboyant",
+          "quantity": 3
+        },
+        {
+          "name": "Pommeau abîmé",
+          "quantity": 3
+        },
+        {
+          "name": "Croc juvénile",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Hésitation du cœur sacrificiel flamboyant",
+          "quantity": 3
+        },
+        {
+          "name": "Pommeau abîmé",
+          "quantity": 12
+        },
+        {
+          "name": "Croc juvénile",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Hésitation du cœur sacrificiel flamboyant",
+          "quantity": 6
+        },
+        {
+          "name": "Pommeau rayé",
+          "quantity": 6
+        },
+        {
+          "name": "Croc mature",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Résolution du cœur sacrificiel flamboyant",
+          "quantity": 3
+        },
+        {
+          "name": "Pommeau rayé",
+          "quantity": 12
+        },
+        {
+          "name": "Croc mature",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Résolution du cœur sacrificiel flamboyant",
+          "quantity": 6
+        },
+        {
+          "name": "Pommeau incandescent",
+          "quantity": 9
+        },
+        {
+          "name": "Croc de tyran",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Splendeur du cœur sacrificiel flamboyant",
+          "quantity": 4
+        },
+        {
+          "name": "Pommeau incandescent",
+          "quantity": 18
+        },
+        {
+          "name": "Croc de tyran",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

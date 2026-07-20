@@ -1,0 +1,181 @@
+{
+  "name": "Prototype Starglitter",
+  "type": "POLEARM",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "A grudge discovered in the Blackcliff Forge. The glimmers along the sharp edge are like stars in the night.",
+  "history": "An ancient prototype pole weapon from Liyue's arsenal. The batch number has faded and no records exist to confirm the date of production. The pole is made of black steel inlaid with gold. A lightning motif runs along the body, featuring streaks of lightning interspersed with stars. The addition of gold leaf gives it an exquisite finish. By the time the monster threat was quelled, the remaining troops were few and far between, and each joined the civilian community where they were based. Though peace now prevailed, it sparked a martial arts renaissance that spread throughout the land. Demand for all kinds of weaponry spiked, especially for superior quality items, and manufacturers could not keep pace. To find a solution, Yun Hui of the house of Yun met with master craftsman Han Wu and the two conducted intensive research behind closed doors. By the time they emerged, both men's beards had grown by twelve inches. Their new weapon designs, \"the prototypes,\" were finally ready to revolutionize weaponry manufacturing in Liyue. It was time to do away with the shackles of the past that plagued their craft. The first pole built to the new specifications had a black-and-gold appearance. The spike at the tip was two inches longer than the previous standard. It was truly a deadly weapon, but one with a composed and commanding presence. It was left to bask overnight in the moonlight. At the first light of dawn, the tip shone with the cold, piercing light of a star against the dim sky. At this ethereal sight, Yun Hui's mind was flooded with memories of his father's glory, for his father's name made reference to the stars.<ref group=\"TN •\">In the Chinese description, it says that Yun Hui's father's name contained the character It is unclear whether his father's given name contained one character or two, but based on the other known members of the Yun Family who all had single-character given names, it is possible that his name was Yun Xing.</ref> Greatly moved, he decided to dedicate the weapon to his father's memory. For this reason the weapon became known as \"Starglitter\" among later practitioners of the halberd arts in Liyue.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Grain of Aerosiderite",
+          "quantity": 3
+        },
+        {
+          "name": "Fragile Bone Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 3
+        },
+        {
+          "name": "Fragile Bone Shard",
+          "quantity": 12
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 6
+        },
+        {
+          "name": "Sturdy Bone Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 3
+        },
+        {
+          "name": "Sturdy Bone Shard",
+          "quantity": 12
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 6
+        },
+        {
+          "name": "Fossilized Bone Shard",
+          "quantity": 9
+        },
+        {
+          "name": "Ominous Mask",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Chunk of Aerosiderite",
+          "quantity": 4
+        },
+        {
+          "name": "Fossilized Bone Shard",
+          "quantity": 18
+        },
+        {
+          "name": "Ominous Mask",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 474
+    }
+  }
+}

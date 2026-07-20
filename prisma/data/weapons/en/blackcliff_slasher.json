@@ -1,0 +1,181 @@
+{
+  "name": "Blackcliff Slasher",
+  "type": "CLAYMORE",
+  "rarity": 4,
+  "releaseDate": "2020-11-01",
+  "description": "An extremely sturdy greatsword from the Blackcliff Forge. It has a dark crimson color from the blade to the pommel.",
+  "history": "A broadsword wrought from rare blackcliff. Weighty as a boulder, it has enough brute force to carve its way through a mountain. The blade is forged from a combination of blackcliff crystal and a crimson ore. It is pitch black like a pool of ink, with red flames leaping from within. Blackcliff weaponry has its roots in the ancient \"prototype\" series. Blackcliff blades possess three distinguishing features: hard as bedrock, shimmer like ice, fierce as the blood that gives us life. Though the Slasher is a broadsword, it has a uniquely sharp blade, barely thicker than a thread of silk. The join between the red and black crystals is seamless, and each blade segment interlocks perfectly with the next to form a single cohesive body. With the flame motif and red jade stones that adorn the hilt, the sword has a dark and foreboding presence when viewed from afar, like bright-red blood oozing from a bottomless pit of black ink. Master craftsman Han Wu once embarked on a quest to find the finest ore with which to cast a blackcliff blade. He searched everywhere, until he became involved in a mining accident. While trapped in the cave, his eyes perceived nothing but an all-engulfing and profoundly disorienting darkness. His ears rang with the thunderous crashing of rocks, as if the foundations of the world itself were caving in. In the aftermath of this ordeal, the craftsman's furnace lay unused. Where flames had once burned bright, frigid dust now gathered as the forgotten fantasies of the forge dwindled and died. Han Wu's son, Han Ce, read that the earth's core had been sealed off due to a monster infestation, and rushed to inform his father. Han Wu was racked with guilt upon hearing the news. He was certain that it was his trip into the mine that had disturbed the dragon from underground and the meteorite from the heavens. He forced himself up from his sickbed, lit the fires of the furnace once more and forged a mighty broadsword. When it was ready, Han Ce took the sword into the mine shaft. There, on instructions from his father, he erected a shrine as tall as himself and placed the sword inside to ward off evil and rebuke the dragon. Han Wu died peacefully in his sleep several years later. At the moment of Han Wu's death, a traveler passing by the mine shaft at Mt. Tianheng saw a crimson light shining out from somewhere within the rocks. As the traveler watched on, a hidden shrine appeared and slowly opened. The broadsword inside the shrine shone faintly, as if weeping with bereavement. Han Ce went into the mountains that very night to retrieve the blade. The Tianshu of that age personally engraved an inscription upon the blade: \"Carves open mountains and tears through the seas, shreds apart clouds and splits the moon.\"",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Mist Veiled Lead Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 3
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 12
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 6
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 6
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 12
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 6
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 9
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Mist Veiled Primo Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 18
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

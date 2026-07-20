@@ -1,0 +1,181 @@
+{
+  "name": "Semblance de la lune écarlate",
+  "type": "POLEARM",
+  "rarity": 5,
+  "releaseDate": "2024-04-24",
+  "description": "Une arme tranchante, à l'éclat éblouissant comme la lune écarlate. On raconte qu'une ancienne dynastie la considérait autrefois comme un objet rituel capable de relier deux mondes, mais personne ne se souvient des croyances et des cérémonies de cette époque révolue.",
+  "history": "« Ô grand seigneur de la noblesse de Khaenri'ah, la lune écarlate est tombée dans le firmament de l'abîme depuis bien longtemps. Votre sang est enfin aveugle. » « Ô bienveillant seigneur qui nous dirige, si vous éprouvez encore de la pitié pour les enfants de l'humanité, buvez le vin de cette coupe à pleines gorgées. » Cela remontait à une époque ancienne, avant que la lumière de l'éclipse n'illumine les terres souterraines, quand un ancien clan glorieux régnait encore sur ce vaste royaume. Les prêtres dogmatiques persuadèrent le roi à l'esprit confus que ce qui restait de la lune écarlate dans le ciel était la souveraine de tous. L'éclat du clair de lune traversait la chair des mortels. Les ténèbres cachées au fond de l'abîme émergeaient également de cette lune. Ainsi, le roi de l'humanité dut prendre le nom de Lune écarlate et juger l'inconstance du destin par la lumière et la flamme de deux mondes. Ils souhaitaient que des êtres transcendants construisent d'innombrables tours glorieuses, et priaient pour que la Lune écarlate, morte depuis longtemps, leur apporte le salut... Jusqu'à ce que les astrologues, qualifiés d'hérétiques, entrevoient dans l'image inversée du faux ciel l'origine de l'entièreté du destin du monde... Jusqu'à ce que le feu inextinguible du doute et de la fureur se propage dans le royaume sans rêve à une allure fulgurante pour embraser le palais aux reflets de lune... À l'heure de l'éclipse, le nom de la Lune écarlate avait disparu avec le rouge depuis fort longtemps. Il ne restait plus que les restes de la lune sinistre. Qu'il s'agisse des victimes souillées par la malédiction ou de ceux que le destin n'avait pas encore touchés, personne ne se considérerait plus comme un partisan des restes de la lune. Peu d'entre eux survécurent à l'extinction totale de leur espèce. Ils se cachaient dans l'ombre où le soleil ne brillait pas, en attendant que la Lune écarlate ne déclare que leur désir de vengeance soit récompensé... Hélas, les soi-disant réparations n'eurent jamais lieu. La perte de l'éclipse fut provoquée par la même ignorance et la même arrogance. Lorsque la destruction approcha à nouveau, seule la lueur moqueuse de la lune se répandit sur l'ombre du soleil, réduit en cendres depuis longtemps. « Destin, ô terrifiant destin pâle, pourquoi dois-tu t'incliner et te soumettre à un usurpateur aussi tyrannique ? Si tu as marqué les restes de la lune sinistre à mort, quel sens avait la vengeance sanglante du passé ? Si le destin qu'elle a tissé se moque de nous, alors moquons-nous tout aussi fort de ce destin... Jusqu'à ce que la dernière ombre du soleil cendré ravage l'ancien monde et que la Lune écarlate soit témoin de l'aube immaculée. »",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Gobelet brisé de la mer immaculée",
+          "quantity": 5
+        },
+        {
+          "name": "Pommeau abîmé",
+          "quantity": 5
+        },
+        {
+          "name": "Engrenage de maillage",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Gobelet à vin de la mer immaculée",
+          "quantity": 5
+        },
+        {
+          "name": "Pommeau abîmé",
+          "quantity": 18
+        },
+        {
+          "name": "Engrenage de maillage",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Gobelet à vin de la mer immaculée",
+          "quantity": 9
+        },
+        {
+          "name": "Pommeau rayé",
+          "quantity": 9
+        },
+        {
+          "name": "Engrenage à coupe droite",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Gobelet d'argent de la mer immaculée",
+          "quantity": 5
+        },
+        {
+          "name": "Pommeau rayé",
+          "quantity": 18
+        },
+        {
+          "name": "Engrenage à coupe droite",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Gobelet d'argent de la mer immaculée",
+          "quantity": 9
+        },
+        {
+          "name": "Pommeau incandescent",
+          "quantity": 14
+        },
+        {
+          "name": "Engrenage dynamique artificié",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Gobelet d'or de la mer immaculée",
+          "quantity": 6
+        },
+        {
+          "name": "Pommeau incandescent",
+          "quantity": 27
+        },
+        {
+          "name": "Engrenage dynamique artificié",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 454
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

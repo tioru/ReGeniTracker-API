@@ -1,0 +1,181 @@
+{
+  "name": "Katsuragikiri Nagamasa",
+  "type": "CLAYMORE",
+  "rarity": 4,
+  "releaseDate": "2021-07-21",
+  "description": "A blade that was once made in Tatarasuna. Heavy and tough.",
+  "history": "A nagamaki sword designed by one of Tatarasuna's inspectors. It is said that the diagram is as simple and upright as that inspector was. For a long time, before the introduction of the outlander technology that helped build the Mikage Furnace, Tatarasuna smelted iron using the traditional \"Tatara Metalworking Method.\" After Mikoshi Nagamasa became the inspector, he was for a time obsessed with the grim loveliness of steel. He thus consulted the similarly inclined Vice Armory Officer Miyazaki for advice, With the result being this tough and simple sword, the Daitatara Nagamasa. Although he was only the foster son of the Mikoshi Clan, and although his foster mother had stained the reputation of the Mikoshi, And even though Mikoshi's only legitimate heir, Michihiro, abandoned him and disappeared, His self-admitted stupidity and loyalty led him to cherish the Mikoshi name all the more. He strove to enter the government and got rid of the family's bad reputation with his diligence and righteousness. When his yoriki Katsuragi was connected with but a single trace of misconduct, he had him executed without mercy. Ever since then, the name of the sword and his title were changed forever.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Narukami's Wisdom",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Gear",
+          "quantity": 3
+        },
+        {
+          "name": "Old Handguard",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Narukami's Joy",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Gear",
+          "quantity": 12
+        },
+        {
+          "name": "Old Handguard",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Narukami's Joy",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Axis",
+          "quantity": 6
+        },
+        {
+          "name": "Kageuchi Handguard",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Narukami's Affection",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Axis",
+          "quantity": 12
+        },
+        {
+          "name": "Kageuchi Handguard",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Narukami's Affection",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Oculus",
+          "quantity": 9
+        },
+        {
+          "name": "Famed Handguard",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Narukami's Valor",
+          "quantity": 4
+        },
+        {
+          "name": "Chaos Oculus",
+          "quantity": 18
+        },
+        {
+          "name": "Famed Handguard",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

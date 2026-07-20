@@ -1,0 +1,181 @@
+{
+  "name": "Wolf's Gravestone",
+  "type": "CLAYMORE",
+  "rarity": 5,
+  "releaseDate": "2020-09-28",
+  "description": "A longsword used by the Wolf Knight. Originally just a heavy sheet of iron given to the knight by a blacksmith from the city, it became endowed with legendary power owing to his friendship with the wolves.",
+  "history": "The Knight of Boreas' journey ended at the city of Barbatos. Wandering souls attract each other, boundless freedom begets only anxiety. Upon entering the city, the Knight of Boreas' companion bade him farewell in silence. For the free-spirited Wolf resented the stone walls and lamplight, and yearned for the open wilds. The Knight of Boreas' heart remained free, though his flesh was inside the prison-like city. Meanwhile, the windborne Wolf roamed the forest in the flesh, while his heart remained loyal to the Knight. The Knight of Boreas rode again to hunt. The Wolf followed his scent into battle. Still one were they, the Wolf and the Knight. Though one they were, death comes for beasts sooner than men. Laying down his sword as a gravestone, the Knight of Boreas buried the Wolf in the remote countryside. The Knight of Boreas then left the city behind, living instead the wandering life of a lone wolf. Yet the eternal wolf spirit remained here, Watching over the land the Knight once protected.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fetters of the Dandelion Gladiator",
+          "quantity": 5
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 5
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 5
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 18
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 9
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 9
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 5
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 18
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 9
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 14
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Dream of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 27
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 46
+    },
+    "20": {
+      "baseAtk": 122
+    },
+    "40": {
+      "baseAtk": 235
+    },
+    "50": {
+      "baseAtk": 308
+    },
+    "60": {
+      "baseAtk": 382
+    },
+    "70": {
+      "baseAtk": 457
+    },
+    "80": {
+      "baseAtk": 532
+    },
+    "90": {
+      "baseAtk": 608
+    },
+    "20_ASC": {
+      "baseAtk": 153
+    },
+    "40_ASC": {
+      "baseAtk": 266
+    },
+    "50_ASC": {
+      "baseAtk": 340
+    },
+    "60_ASC": {
+      "baseAtk": 414
+    },
+    "70_ASC": {
+      "baseAtk": 488
+    },
+    "80_ASC": {
+      "baseAtk": 563
+    }
+  }
+}

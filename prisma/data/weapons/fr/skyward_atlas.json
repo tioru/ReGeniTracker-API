@@ -1,0 +1,181 @@
+{
+  "name": "Atlas de la Voûte d'Azur",
+  "type": "CATALYST",
+  "rarity": 5,
+  "releaseDate": "2020-09-28",
+  "description": "Un atlas représentant Dvalin et son ancien maître, l'Archon Anémo. Il décrit en détail les vents et les nuages au nord de Teyvat et renferme la puissance des cieux et des vents.",
+  "history": "Un atlas des vents. Un manuscrit dédié aux vents des régions du nord, présenté sous forme de poèmes. Il en recoupe plus de cent mille ; chacun est une ode aux nuages et aux vents, chaque cumulus et chaque brise ayant son propre nom. À la manière des vents qui donnèrent forme à ces poèmes, chaque ode confère aux vents une personnalité propre. Les mille vents insondables sont tous les frères de Barbatos. La légende raconte qu'en des temps anciens, la version originale de l'ouvrage fut utilisée par Barbatos pour invoquer les Quatre Vents. Il balaya la neige, repoussa les bêtes, invoqua les pluies, et fonda Mondstadt. Il permit au peuple de copier et partager son atlas, lui donnant le nom d'Atlas aux Mille Nuages. Rien ne résiste au passage du temps, et certains dessins et poèmes disparurent avec les copies qui suivirent. Mais le savoir que l'ouvrage renferme fut transmis sous la forme de balades et de légendes. L'histoire des mille vents ne fut pas perdue ; Barbatos la conserva. Lorsque Durin, le dragon maléfique, étendit ses ailes, Barbatos le défia ; et invoquant les mille vents dans le ciel, il appela le dragon Dvalin. Celui qui possède l'atlas connaît les noms des mille vents, ainsi que leur puissance. Le ciel de Mondstadt est aujourd'hui sans nuages ; Barbatos et Dvalin se sont réconciliés. Et cet ouvrage a été remis à une personne digne de confiance.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Dent de lait du Loup boréal",
+          "quantity": 5
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 5
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 5
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 18
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 9
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 9
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 5
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 18
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 9
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 14
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Nostalgie du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 27
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

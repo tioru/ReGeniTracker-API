@@ -1,0 +1,181 @@
+{
+  "name": "Azurelight",
+  "type": "SWORD",
+  "rarity": 5,
+  "releaseDate": "2025-06-18",
+  "description": "This blade was once pure and pristine as a white dawn star, but it has since been tinted a deep, dark blue.",
+  "history": "\"The laws shall not be tested, nor shall the strictures be questioned, or the scriptures infringed.\" \"This I once believed, proclaimed, and ordained.\" \"Only when the gentle starlight brushed against mine eyes,\" \"Unveiling itself to me atop the white stone mountain of song,\" \"Was the desire placed in my heart to speak to you of the coming sunrise.\" \"Brothers, sisters, you who have submitted to the primordial master, let me tell of the truth I have witnessed.\" \"One of us shall wander beneath moonless night, drinking a sea of tears in futility for kin who will not return.\" \"Another shall trudge across gilded sands, never to comprehend scarlet sincerity or ardent admiration.\" \"Still another shall shrink into the dark, into bone-piercing hostility, until the promised tides arise to play out one final melody.\" \"And still another shall wander ever, in dreams solely to journey, awaiting an encounter in a stagnant, foreign land.\" \"Beg, plead, and sacrifice — not one of these shall loosen the bonds about your necks.\" \"Since that is so, shall your true and cherished hope be to forsake that which throbs unspeakable in your hearts?\" \"Will you languish in an eternity with neither beginning nor end? Commit atrocities in the name of false promises?\" \"Therefore, I bid you—\" \"Cast it all aside, set it at naught, drench your wings in filth — let the love that blazes in our breasts burst forth.\" \"Hunger, thirst, yearn, desire! Entrust the world to those who live in it — let the nations' glory exceed that of the heavens.\" \"Sing and rejoice! Bestow upon humanity authority — let the lances of lunar light pierce the creator's delusions.\" \"Reach for that daybreak pristine, where the nations need beg for leave to live no longer!\" \"Lift up your eyes to the radiant daystars, let me guide us unto new skies.\" \"The moment shall come when the ruler who stands against love is shaken,\" \"And once the veil is sundered and torn, a new day over this land shall dawn.\"",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Night-Wind's Mystic Consideration",
+          "quantity": 5
+        },
+        {
+          "name": "Refractive Bud",
+          "quantity": 5
+        },
+        {
+          "name": "Sentry's Wooden Whistle",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Night-Wind's Mystic Premonition",
+          "quantity": 5
+        },
+        {
+          "name": "Refractive Bud",
+          "quantity": 18
+        },
+        {
+          "name": "Sentry's Wooden Whistle",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Night-Wind's Mystic Premonition",
+          "quantity": 9
+        },
+        {
+          "name": "Bewildering Broadleaf",
+          "quantity": 9
+        },
+        {
+          "name": "Warrior's Metal Whistle",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Night-Wind's Mystic Augury",
+          "quantity": 5
+        },
+        {
+          "name": "Bewildering Broadleaf",
+          "quantity": 18
+        },
+        {
+          "name": "Warrior's Metal Whistle",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Night-Wind's Mystic Augury",
+          "quantity": 9
+        },
+        {
+          "name": "Illusory Leafcoil",
+          "quantity": 14
+        },
+        {
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Night-Wind's Mystic Revelation",
+          "quantity": 6
+        },
+        {
+          "name": "Illusory Leafcoil",
+          "quantity": 27
+        },
+        {
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

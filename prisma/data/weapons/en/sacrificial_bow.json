@@ -1,0 +1,181 @@
+{
+  "name": "Sacrificial Bow",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "A ceremonial hunting bow that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+  "history": "On the cliff facing the eastern sea, the ancestors worshipped the masters of Time and Anemo together. The two are intimately related, as expressed in the saying, \"Anemo brings stories while Time nurtures them.\" This bow tells the story of the pioneers and the hardships they went through. It used to be a prop with an immobile bowstring, but the string became both flexible and sturdier with the passage of time. This bow was once the property of the proud Lawrence Clan. In the far-flung past, they used it to reenact their clan's brave victory over the frozen wilderness. The first act of the ceremony told the tale of their forebears conquering the land through their wisdom and strength. Over their long history, though this ceremony was lost, they continued to play the same role. But this role became corrupted. Gradually, their view of themselves shifted from conquerors, to overlords, to kings. Gradually, they strayed into the path of depravity, and lost the affection of Mondstadt's winds.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Milk Tooth",
+          "quantity": 3
+        },
+        {
+          "name": "Dead Ley Line Branch",
+          "quantity": 3
+        },
+        {
+          "name": "Slime Condensate",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 3
+        },
+        {
+          "name": "Dead Ley Line Branch",
+          "quantity": 12
+        },
+        {
+          "name": "Slime Condensate",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 6
+        },
+        {
+          "name": "Dead Ley Line Leaves",
+          "quantity": 6
+        },
+        {
+          "name": "Slime Secretions",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 3
+        },
+        {
+          "name": "Dead Ley Line Leaves",
+          "quantity": 12
+        },
+        {
+          "name": "Slime Secretions",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 6
+        },
+        {
+          "name": "Ley Line Sprout",
+          "quantity": 9
+        },
+        {
+          "name": "Slime Concentrate",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Nostalgia",
+          "quantity": 4
+        },
+        {
+          "name": "Ley Line Sprout",
+          "quantity": 18
+        },
+        {
+          "name": "Slime Concentrate",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

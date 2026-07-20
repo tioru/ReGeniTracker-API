@@ -1,0 +1,181 @@
+{
+  "name": "Fleuve Cendre Ferryman",
+  "type": "SWORD",
+  "rarity": 4,
+  "releaseDate": "2023-08-16",
+  "description": "A handy length of abandoned copper pipe that was once used as a weapon. It was famous — or infamous, depending — in some circles.",
+  "history": "Discarded components washed into the gutters can be used as a weapon in a dire emergency. This one's first opponent was just a monster nourished by \"richly nutritious water.\" But in any case, it broke the knees and jaws of countless \"livestock.\" Because it sent so many who threatened his countrymen into the grey river which embraces all, In Eduardo's hands, it was affectionately called the \"Ferryman.\" The endpoint of improving the city of Fontaine was for the sewers to become an undercity beneath the city. Naturally, it was not the bureaucracy of the Court of Fontaine which could maintain order in the Fleuve Cendre. So in the days that followed, the outlaw leader began his rise by picking up a bronze pipe to beat back the crocodiles, And then to protect the merchants from being extorted, harassed, and blackmailed by the gangs, Resolving the disputes between Fleuve Cendre \"compatriots,\" and blessing the newly wedded. Till at last, it was said, \"Let all that the sun shines upon belong to them, and let the Fleuve Cendre belong to us.\" But there is no end to improvement. The positions of the people cannot be changed, but the coordinates of those positions can be changed for that purpose. And from a certain perspective, there is no difference between \"them \" and \"us,\" Merely places which may be developed, and trash which should be disposed of or \"moved.\" Eduardo was among those arrested resisting the purge of the Fleuve Cendre, and while being escorted to exile in the desert, He was rescued by his henchmen. Banding together with comrades active near Mont Automnequi, they occupied Poisson, And seizing the members of the Maison Gardiennage charged with transporting them as hostages, they made a series of unreasonable demands. This incident was finally resolved by the active intervention of the Marechaussee Hunters. The reporter who volunteered to deliver the negotiation demands, Karl Ingold, took this photo in Poisson before the situation deteriorated: In the middle of the picture stands Eduardo Baker, leaning on his famous — or infamous — bronze pipe like a cane. Eduardo's other hand is on his son Jakob's shoulder, who is nervously clutching the sleeve of Rene de Petrichor. To their left is the Great Magician Parsifal, casually leaning on the railing, flashing her signature stage smile. To Eduardo's right is the current mayor of Poisson, Renault de Petrichor. He dressed up quite formally for the occasion, though his collar is askew. His son Rene stands in front of him, attracted by a marvel such as this new Kamera, with eyes wide and somewhat at a loss. The woman to Parsifal's left holding an infant is Rosa Reed, with her husband Thompson, and on the far right of the picture is Tom Alter. They are looking ahead, their faces washed pale by the Kamera's bulb. They seem to be focused not on Ingold, nor on the Kamera. But on the future.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fragment of an Ancient Chord",
+          "quantity": 3
+        },
+        {
+          "name": "Drop of Tainted Water",
+          "quantity": 3
+        },
+        {
+          "name": "Transoceanic Pearl",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chapter of an Ancient Chord",
+          "quantity": 3
+        },
+        {
+          "name": "Drop of Tainted Water",
+          "quantity": 12
+        },
+        {
+          "name": "Transoceanic Pearl",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chapter of an Ancient Chord",
+          "quantity": 6
+        },
+        {
+          "name": "Scoop of Tainted Water",
+          "quantity": 6
+        },
+        {
+          "name": "Transoceanic Chunk",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Movement of an Ancient Chord",
+          "quantity": 3
+        },
+        {
+          "name": "Scoop of Tainted Water",
+          "quantity": 12
+        },
+        {
+          "name": "Transoceanic Chunk",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Movement of an Ancient Chord",
+          "quantity": 6
+        },
+        {
+          "name": "Newborn Tainted Hydro Phantasm",
+          "quantity": 9
+        },
+        {
+          "name": "Xenochromatic Crystal",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Echo of an Ancient Chord",
+          "quantity": 4
+        },
+        {
+          "name": "Newborn Tainted Hydro Phantasm",
+          "quantity": 18
+        },
+        {
+          "name": "Xenochromatic Crystal",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 108
+    },
+    "40": {
+      "baseAtk": 204
+    },
+    "50": {
+      "baseAtk": 265
+    },
+    "60": {
+      "baseAtk": 326
+    },
+    "70": {
+      "baseAtk": 387
+    },
+    "80": {
+      "baseAtk": 448
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 134
+    },
+    "40_ASC": {
+      "baseAtk": 230
+    },
+    "50_ASC": {
+      "baseAtk": 291
+    },
+    "60_ASC": {
+      "baseAtk": 352
+    },
+    "70_ASC": {
+      "baseAtk": 413
+    },
+    "80_ASC": {
+      "baseAtk": 474
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Royal Spear",
+  "type": "POLEARM",
+  "rarity": 4,
+  "releaseDate": "2020-12-01",
+  "description": "This polearm was once cherished by a member of the old nobility that governed Mondstadt long ago. Although it has never seen the light of day, it is still incomparably sharp.",
+  "history": "A lance once kept in the collection of a noble who ruled over Mondstadt. A product of premium materials and masterful artisanship. For that reason, it remains sharp as it was on the day it was first forged, even many generations after the nobles' time ended. But back in the era of the nobility, this weapon never saw the light of day, and bathed only in the pale moonlight. The nobles believed that those of high blood should use swords in battle. To them, the sound of blades clashing was the chorus the lofty souls. The spear and the bow, on the other hand, were the weapons of plebian gladiators and commoners. Commoners with pitchforks and sharpened wooden poles, after all, could yet be a match for sword-wielding scions of nobility. This was, undoubtedly, a hard pill for the rulers of Old Mondstadt to swallow. Legend has it that there was also a youth of noble stock, Who sought out a smith to make this weapon, emblazoned with their house's crest, And yet which, like this youth, could never earn the favor of his family... No, not without the spilling of blood. If that youth wanted change to come, they needed power. Even if it meant using a weapon seen as ignoble. Even if it meant that their spear-wielding shadow could never see any light but that of the deep night's moon.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Mist Veiled Lead Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 3
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 12
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 6
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 6
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 12
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 6
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 9
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Mist Veiled Primo Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 18
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Dialogues des sages du désert",
+  "type": "POLEARM",
+  "rarity": 4,
+  "releaseDate": "2024-03-14",
+  "description": "Un caducée symbolisant la gloire de l'alchimie, fabriqué à partir d'alliages spéciaux qui correspondent à son statut particulier. Il est extrêmement rigide et lourd, et ferait probablement très mal s'il était utilisé comme un gourdin.",
+  "history": "Les sept sages du roi Deshret ont disparu depuis longtemps, leurs actes emportés par les vents, ne laissant derrière eux que leurs noms gravés dans la pierre. Aujourd'hui, ces gravures ont été érodées par les vents du temps, se transformant en guère plus que des grains de sable dorés. L'un des serviteurs du roi Deshret, le chef des sept sages, le ministre des ministres : le roi-bélier. Le grand oiseau s'envolant vers le soleil, l'âme du roi : le saint Bennu. La lionne à tête humaine, volonté du roi : la sainte Shesepankh. Et enfin le dragon qui obtint la chair et le sang du roi, qui ne se comptait jamais parmi les Sept : Al-Apep. Les quatre entités citées ci-dessus n'ont rien à voir avec l'histoire qui suit. Le roi crocodile et le roi ibis se disputaient sans cesse, comme toujours, et ce jour-là le sujet de leur débat était le changement des choses. Le roi crocodile recherchait une personne possédant des arts mystiques. Cet homme fut béni par une Océanide qui séjournait là, et tout liquide qui passait entre ses mains se transformait en un alcool exquis. Le roi ibis donna naissance à un autre être rare, qui avait accidentellement touché le tombeau et les restes d'un ancien dieu et avait été maudit pour cela. En raison de sa malédiction, tout ce que ses deux mains touchaient se transformait petit à petit en argent pur. Après tout, nous savons aujourd'hui que seul Deus Auri avait le pouvoir de transformer des objets en or et en moras. Tous deux pariaient sur l'effet qui finira par l'emporter. Ils avaient également demandé à Hermanubis, qui était le dernier des sept sages à être mentionné, de faire un pronostic du résultat final. Hermanubis était un sage du désert et le chef de la classe sacerdotale. Pour cette raison, il était à la fois un guerrier et un sage. Et comme le savoir connu sous le nom d'alchimie était transmis parmi les humains de génération en génération et qu'il en connaissait bien les secrets, lui demander de prédire le résultat de leur pari était tout à fait raisonnable. « Les deux formes de pouvoir s'affrontent directement, comme des lances acérées frappant des boucliers robustes », dit Hermanubis, « Et elles doivent chacune céder à l'autre et prendre du recul. C'est le principe de l'équilibre. » En fin de compte, le résultat final fut que la coupe devint de l'argent pur, tandis que l'eau sablonneuse à l'intérieur devint une liqueur fine avec des grains d'argent en suspension. Pourtant, le roi crocodile et le roi ibis n'avaient pas compris l'avertissement d'Hermanubis et poursuivaient alors leur combat. Par la suite, ils avaient créé une étrange technique magique d'invocation. Et finalement, ils avaient tous deux traversé des millénaires pour poursuivre leur combat sur un plateau d'Invocation des Sept... Tout ceci fait partie de cette version de l'histoire de « Le roi des invocations ».",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Talisman en cuivre de la rosée",
+          "quantity": 3
+        },
+        {
+          "name": "Aileron plumeux",
+          "quantity": 3
+        },
+        {
+          "name": "Coquille spectrale",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Talisman en fer de la rosée",
+          "quantity": 3
+        },
+        {
+          "name": "Aileron plumeux",
+          "quantity": 12
+        },
+        {
+          "name": "Coquille spectrale",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Talisman en fer de la rosée",
+          "quantity": 6
+        },
+        {
+          "name": "Aileron lunaire",
+          "quantity": 6
+        },
+        {
+          "name": "Cœur spectral",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Talisman en argent de la rosée",
+          "quantity": 3
+        },
+        {
+          "name": "Aileron lunaire",
+          "quantity": 12
+        },
+        {
+          "name": "Cœur spectral",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Talisman en argent de la rosée",
+          "quantity": 6
+        },
+        {
+          "name": "Aileron ténébreux",
+          "quantity": 9
+        },
+        {
+          "name": "Noyau spectral",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Talisman en or de la rosée",
+          "quantity": 4
+        },
+        {
+          "name": "Aileron ténébreux",
+          "quantity": 18
+        },
+        {
+          "name": "Noyau spectral",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 474
+    }
+  }
+}

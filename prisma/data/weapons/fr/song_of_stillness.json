@@ -1,0 +1,181 @@
+{
+  "name": "Chant de quiétude",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2023-08-16",
+  "description": "Un arc long étrange qui ressemble à une créature marine. Ses cordes ne produisent aucun son.",
+  "history": "La légende raconte qu'un héros tombé dans l'abîme a laissé derrière lui cet arc étrange qui possède l'éclat des perles et d'un argent secret. La couleur de la corde ressemble à celle de la plus noire des mers ou du vide sans lumière. Elle est également tout aussi silencieuse. Dans les temps anciens, les golems formaient une armée pour combattre les dragons des profondeurs des mers. Les dragons, nés de la mer, étaient une espèce brutale dirigée par un roi du nom de Scylla. À cette époque, Scylla le roi des dragons avait recruté une horde de barbares et d'Élémentosaures avant de les conduire jusqu'à l'entrée de la nation ancienne. L'armée d'archers s'avança pour les intercepter et leur neutraliser, jusqu'à ce que le grand accordeur ne scelle le pouvoir de Scylla... Par la suite, le royaume autrefois glorieux ne fut plus qu'un champ de ruines éparpillées dans les fonds marins. Cependant, les restes de l'armée des golems continuèrent à combattre les descendants des dragons dans des lieux que la lumière du soleil n'arrivait pas à atteindre... Les profondeurs paisibles n'avaient jamais été dérangées par de sanglantes batailles, mais leur cœur pétrifié commença à s'effondrer progressivement. Le dernier archer et l'unique descendant du dragon finirent par conclure un traité de paix. L'affrontement incessant entre les camps semblait de plus en plus absurde. Ainsi, l'arc et l'épée n'attirèrent plus aucun regard dans l'abîme sans lumière. Les chevaliers de la nation perdue et les guerriers Élémentosaures ne purent s'empêcher de rire aux éclats. Ils se débarrassèrent de leurs armes encombrantes, comme s'ils étaient enfin libérés d'un conflit sanguinaire sans utilité... En ce qui concerne les événements qui s'ensuivirent dans le calme des profondeurs des mers, ils furent interprétés et réinterprétés dans le cadre d'innombrables opéras, dans un futur lointain. Certains racontent que tous les deux ont trahi leur patrie et construit de nouvelles colonies pour accueillir les exilés... À l'instar de ce magnifique arc ancien, une multitude d'histoires finissent par sombrer dans les profondeurs calmes et silencieuses pour ne devenir que des légendes insensées. La « sauvagerie » domina en fin de compte sur les anciennes terres du royaume. De nombreuses histoires et chansons ne devinrent plus que des pièces inoffensives de fiction...",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fragment d'un accord ancien",
+          "quantity": 3
+        },
+        {
+          "name": "Goutte d'eau croupie",
+          "quantity": 3
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chapitre d'un accord ancien",
+          "quantity": 3
+        },
+        {
+          "name": "Goutte d'eau croupie",
+          "quantity": 12
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chapitre d'un accord ancien",
+          "quantity": 6
+        },
+        {
+          "name": "Cuillère d'eau croupie",
+          "quantity": 6
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mouvement d'un accord ancien",
+          "quantity": 3
+        },
+        {
+          "name": "Cuillère d'eau croupie",
+          "quantity": 12
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mouvement d'un accord ancien",
+          "quantity": 6
+        },
+        {
+          "name": "Jeune Fantasme Hydro croupi",
+          "quantity": 9
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Écho d'un accord ancien",
+          "quantity": 4
+        },
+        {
+          "name": "Jeune Fantasme Hydro croupi",
+          "quantity": 18
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

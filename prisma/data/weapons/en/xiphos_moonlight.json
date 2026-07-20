@@ -1,0 +1,181 @@
+{
+  "name": "Xiphos' Moonlight",
+  "type": "SWORD",
+  "rarity": 4,
+  "releaseDate": "2022-10-14",
+  "description": "This ancient double-edged sword glimmers with moonlight. It is said that a now-silent Jinni dwells within it.",
+  "history": "This story takes place thousands of years ago, in an era after the foolish God-King was buried by the sandstorms. Mortal cities scattered across the land, amongst which Tulaytullah, where men and women of wisdom gathered and resided, was the most outstanding. The city was dotted with buildings roofed with sapphire domes and adorned with emerald gardens of blooming trees and flowing fountains. In the times following the God-King's departure, this fortunate city still glowed with wisdom and prosperity. People say that a warrior named Xiphos once lived in this city of sapphire and emerald. Xiphos was adept at wielding his double-edged sword, and he saved many a maiden from monster attacks, snatching many treasures from them in the process. In an ancient Tighnarian lore, his sword was indwelt by a twisted, cruel Jinni, Which was why the blade was not dulled but rather sharpened by slaughters, not smudged but instead brightened by blood. \"My dearest Master, let me feast on that rosy juice, indulge me with the crimson brew.\" \"My affection gushes forth only for you, like the daughter of grapevines entertains the tipplers with her bloody sacrifice.\" \"So long as you own my affection, and the moon shines on your ever-youthful face,\" \"So long as your foes hold affection for this world, and have not forgotten their mothers' names, you shall be a warrior unmatched.\" Later on, the swordsman adored by the Jinni of moonlight would encounter an exiled foreign wanderer. The wanderer had accepted silver coins, blood money from kings opposed to Tulaytullah, and he shouldered their grudges and hatred against the hero. Thus they who should have become friends at some bar became foes in battle, fighting each other to the death with the moonlight as their witness. In the fight, their blades were bathed in ruby wine while the overripe pomegranate burst, vital, vivid red pouring from the rupture... The deadly duel finally settled. The pale moon cast its cold light upon the winner and the defeated alike. \"Whichever direction the wind blows, there is never a single ripple in the cup of life.\" \"The three departed goddesses had long determined the heroes' fate, even if they could never fathom it themselves.\" The wanderer took the moonlit sword, picked up the bloodstained silver coins, and trod in silence toward the distant rainforest. Thus deprived of Xiphos' protection, the city lost its luster and withered away in the following years. Its buildings and gardens were ground down into the dirt along with its destiny, and then the howling desert gales consigned them to oblivion. Ultimately, the black key and the young prince's quest to rejuvenate his kingdom both sank into the sand's embrace...",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Copper Talisman of the Forest Dew",
+          "quantity": 3
+        },
+        {
+          "name": "Damaged Prism",
+          "quantity": 3
+        },
+        {
+          "name": "Faded Red Satin",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Iron Talisman of the Forest Dew",
+          "quantity": 3
+        },
+        {
+          "name": "Damaged Prism",
+          "quantity": 12
+        },
+        {
+          "name": "Faded Red Satin",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Iron Talisman of the Forest Dew",
+          "quantity": 6
+        },
+        {
+          "name": "Turbid Prism",
+          "quantity": 6
+        },
+        {
+          "name": "Trimmed Red Silk",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Silver Talisman of the Forest Dew",
+          "quantity": 3
+        },
+        {
+          "name": "Turbid Prism",
+          "quantity": 12
+        },
+        {
+          "name": "Trimmed Red Silk",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Silver Talisman of the Forest Dew",
+          "quantity": 6
+        },
+        {
+          "name": "Radiant Prism",
+          "quantity": 9
+        },
+        {
+          "name": "Rich Red Brocade",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Golden Talisman of the Forest Dew",
+          "quantity": 4
+        },
+        {
+          "name": "Radiant Prism",
+          "quantity": 18
+        },
+        {
+          "name": "Rich Red Brocade",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

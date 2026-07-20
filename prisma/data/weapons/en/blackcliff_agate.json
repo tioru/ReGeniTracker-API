@@ -1,0 +1,181 @@
+{
+  "name": "Blackcliff Agate",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2020-11-01",
+  "description": "A mysterious catalyst made of blackstone. It has an ominous crimson glow that seems to pulse in synchronization with the tremors from deep within the earth.",
+  "history": "A catalyst made from rare blackcliff. It glows when activated and cosmic energy circulates within. The device is circular with a piece of blood-red Cor Purum fitted in the center. The Cor Purum seems to wax and wane like a crimson moon, growing steadily brighter and then steadily darker in a never-ending cycle. \"The myriad mountains of Tianheng are a trove of a thousand treasures, for deep within the rocks bounteous jade gleams gloriously.\" This is to say, mining prospered in Liyue under Rex Lapis' rule. One by one the ore deposits in Mt. Tianheng and the surrounding area would run dry, and the miners would dig further. The result was a network of mine shafts stretching across the region in all directions. At their deepest point, the mines reached all the way to the earth's core. Slowly, the once-quiet region was beset by increasingly frequent disturbances. With a deep growl, the earth would tremble, causing landslides on the mountains and cave-ins in the mines. In the night, the aggrieved souls of the innocent who died in the disasters could be heard wailing in the distance. Then one day, a stranger arrived at Mt. Qingce. The stranger was dressed in a full-length gown and spoke in an esoteric and eloquent manner. He claimed to be a thaumaturge visiting Liyue on a quest to find two craftsmen by the names of Yun and Han. Yun Huang, the first daughter of the Yun family, was then resident in Qingce Village. She immediately sent a messenger to fetch Han Ce, first son of master craftsman Han Wu. The thaumaturge informed them both that in the past, the Yuns and Hans had jointly crafted a catalyst for the thaumaturges of the world. With unrest now spreading through Liyue, the thaumaturges wished to provide the Yuns and Hans with a piece of crimson Cor Purum, in the hope that it might help the people of Liyue through this troubled time. On receiving the message, Yun Huang and Han Ce lit the furnace at once and crafted a blackcliff catalyst with the crimson Pur Lapis as its core. The crimson stone resonated with the ley lines of the earth. A blood-red glow would fade in and out as if to give forewarning of imminent tectonic activity. Just as the stars guide those who travel by night, so this catalyst was the light that gave safe passage to the people in Liyue through that tumultuous time of landslides and cave-ins. It was placed at the foot of Mt. Tianheng for all to see. When peaceful days finally returned, the Blackcliff Agate quietly disappeared without a trace, just as had faded the fury of the earth's core.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Luminous Sands from Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Hunter's Sacrificial Knife",
+          "quantity": 3
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Hunter's Sacrificial Knife",
+          "quantity": 12
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Agent's Sacrificial Knife",
+          "quantity": 6
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Relic from Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Agent's Sacrificial Knife",
+          "quantity": 12
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Relic from Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Inspector's Sacrificial Knife",
+          "quantity": 9
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Divine Body from Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Inspector's Sacrificial Knife",
+          "quantity": 18
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

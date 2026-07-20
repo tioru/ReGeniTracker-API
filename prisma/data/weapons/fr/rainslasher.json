@@ -1,0 +1,181 @@
+{
+  "name": "Fluorescence",
+  "type": "CLAYMORE",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Une grande épée sans tranchant qui dégage une pâle lueur fluorescente. Idéale pour ceux qui aiment utiliser la force brute pour écraser leurs ennemis.",
+  "history": "Une épée lourde brillant d'un sombre éclat fluorescent ; elle n'est pas acérée. Cette arme répondait autrefois parmi les bandits des montagnes au nom de « Flambeau de l'Au-Delà ». Celui qui la voyait n'avait plus de chemin de retour ; le seul chemin s'ouvrant alors était la marche vers la mort. « Telle la pluie traversant la pluie, je n'ai point de forme ; telle la lumière perçant la lumière, je n'ai point de poids. » « Tel le serpent filant, je suis intouchable : tel le regard fixant, nul ne m'échappe. » Cette arme fut ainsi nommée en l'honneur de son ancien maître ; elle n'avait à l'origine pas de nom. Le premier et dernier possesseur de cette lame fut un artiste martial répondant au nom de Guhua. D'aucuns prétendent que c'était un Adepte. Le fait demeure que de son vivant, les bandits se tinrent cois, et la nature était en paix. On raconte que lorsqu'arrivèrent ses derniers instants, il monta au ciel dans une brume pourpre, et devint une étoile. L'un de ceux à qui Guhua fit preuve de sa légendaire bonté fonda la secte du même nom en son honneur ; mais aucune école martiale ne perdure éternellement.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Plomb karstique",
+          "quantity": 5
+        },
+        {
+          "name": "Pollen d'herbe brumeuse",
+          "quantity": 5
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mercure karstique",
+          "quantity": 5
+        },
+        {
+          "name": "Pollen d'herbe brumeuse",
+          "quantity": 18
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mercure karstique",
+          "quantity": 9
+        },
+        {
+          "name": "Herbe brumeuse",
+          "quantity": 9
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Argent karstique",
+          "quantity": 5
+        },
+        {
+          "name": "Herbe brumeuse",
+          "quantity": 18
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Argent karstique",
+          "quantity": 9
+        },
+        {
+          "name": "Mèches d'herbe brumeuse",
+          "quantity": 14
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Or karstique",
+          "quantity": 6
+        },
+        {
+          "name": "Mèches d'herbe brumeuse",
+          "quantity": 27
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

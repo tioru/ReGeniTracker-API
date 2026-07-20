@@ -1,0 +1,181 @@
+{
+  "name": "Espadon (prototype)",
+  "type": "CLAYMORE",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Un prototype d'espadon ancien découvert dans la Forge de Rochenoire. La force qui s'en dégage lorsqu'on le manie laisse supposer qu'il serait capable de couper même à travers le tissu de la réalité.",
+  "history": "Une vieille épée issue de l'arsenal de Liyue. Difficile de dire de quel modèle il s'agit : les archives ne mentionnent pas sa date de fabrication. Réalisée à partir de matériaux rares et de qualité, l'arme présente une lame pesant plusieurs kilos, et dégage un éclat brillant lorsqu'elle est utilisée. Après la catastrophe, Yun le fondeur et Han l'artisan se mirent à chercher de nouvelles techniques de fabrication d'armes, et furent à l'origine de la première révolution en la matière. Les prototypes qu'ils mirent au point conduisirent à la fabrication d'une épée longue à la simplicité n'ayant d'égale que le maniement. Si son aspect extérieur ne laisse rien présager d'exceptionnel, sa prise en main révèle une arme puissante et sans concession. Han Wu, l'artisan étant à l'origine de l'arme, partit la nuit suivant sa création vers les terres du nord ; là, il la confia à un ami combattant errant. Le combattant observa l'arme, puis, la saisissant, entra dans une danse mortelle au son de la lame tournoyant. Quand il eut fini, les bambous qui l'entouraient étaient tous tranchés. Il s'agit d'une arme rare, comme on en voit peu. « Cette arme est élégante, et se jette au combat aussi vite qu'elle s'en retire », fit l'homme à Han Wu. « Qu'à une arme d'une telle rareté, le nom « Guhua » soit donné. » L'arme devint par la suite l'un des principaux modèles servant à développer l'arsenal de la cité de Liyue.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Grain d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os fragile",
+          "quantity": 3
+        },
+        {
+          "name": "Masque endommagé",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os fragile",
+          "quantity": 12
+        },
+        {
+          "name": "Masque endommagé",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'os solide",
+          "quantity": 6
+        },
+        {
+          "name": "Masque sale",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os solide",
+          "quantity": 12
+        },
+        {
+          "name": "Masque sale",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'os fossilisé",
+          "quantity": 9
+        },
+        {
+          "name": "Masque sinistre",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Morceau d'aérosidérite noire",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment d'os fossilisé",
+          "quantity": 18
+        },
+        {
+          "name": "Masque sinistre",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

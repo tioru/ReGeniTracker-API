@@ -1,0 +1,181 @@
+{
+  "name": "Hamayumi",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2021-07-21",
+  "description": "A certain shrine maiden once owned this warbow. It was made with surpassing skill, and is both intricate and sturdy.",
+  "history": "\"Get off the ship. Women are a hindrance here!\" The thief they called Ako Domeki turned and left. But hearing this, the shrine maiden could not help by smile faintly. If the person who had taught me archery had not gone forth to campaign alongside the Shogun, Then our son would been the same age as Zaemon now. And perhaps I would have come to be a Takamine, or he, an Asase... Zaemon's tone, and the way he intentionally turns his back on me, Is the spitting image of how he once did it, sword in hand. This time, I will not let this person die. Even if it means fighting against the Electro Mitsudomoe banner... \"Our fishing spears and swords have been sharpened. It is time to set sail.\" \"Well then, let's show those Shogunate lackeys Seirai's strength!\" Hearing the sea shanties greeting their departure, the shrine maiden set down her warbow. She once secretly learned true \"magic\" on Mt. Yougou, And though she felt sorry for her Master, the Tengu, she would use it here. She would undo the great barrier that had held for a thousand years,<ref group=\"TN•\">The original Chinese text states , which literally means \"a thousand years\" but can also be used figuratively to mean \"a very long time.\"</ref> And she would set the resentment of the moribund violet glede free, Allowing it to ravage the ships that flew the Electro Archon's banner. She could only hope that that old cat wouldn't come charging into the storm...",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Narukami's Wisdom",
+          "quantity": 3
+        },
+        {
+          "name": "Dismal Prism",
+          "quantity": 3
+        },
+        {
+          "name": "Firm Arrowhead",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Narukami's Joy",
+          "quantity": 3
+        },
+        {
+          "name": "Dismal Prism",
+          "quantity": 12
+        },
+        {
+          "name": "Firm Arrowhead",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Narukami's Joy",
+          "quantity": 6
+        },
+        {
+          "name": "Crystal Prism",
+          "quantity": 6
+        },
+        {
+          "name": "Sharp Arrowhead",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Narukami's Affection",
+          "quantity": 3
+        },
+        {
+          "name": "Crystal Prism",
+          "quantity": 12
+        },
+        {
+          "name": "Sharp Arrowhead",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Narukami's Affection",
+          "quantity": 6
+        },
+        {
+          "name": "Polarizing Prism",
+          "quantity": 9
+        },
+        {
+          "name": "Weathered Arrowhead",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Narukami's Valor",
+          "quantity": 4
+        },
+        {
+          "name": "Polarizing Prism",
+          "quantity": 18
+        },
+        {
+          "name": "Weathered Arrowhead",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Favonius Warbow",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "A standard-issue recurve bow of the Knights of Favonius. Only the best archers can unleash its full potential.",
+  "history": "A standard recurve bow wielded by the Knights of Favonius. Only issued to the best archers long in service of the order. Expertly crafted, the oak frame provides superior strength while the addition of metal parts makes it easy to use. The bowstring is enchanted with the secrets of alchemy and magic, granting protection to the fingers of the archer. This bow serves as a reward to the worthy guardians of Mondstadt, and a fine tool with which for them to continue in their guardianship. The Knights of Favonius once had a formidable team of archer scouts known as the Outriders. The team was founded by a mercenary leader from Liyue, who passed on his lifetime's worth of knowledge to the Outriders. The tracking skills they acquired, along with the ability to sense when danger was afoot, were unique among all the knights. Hence, the skills of the Outriders were invaluable to the Knights of Favonius. This lasted until the first of the Outriders, for reasons unknown to the Knights, ultimately left the order. From that day, the Outrider team was a shell of its former self. Its expertise was gone, though its structure and name have been preserved. Nevertheless, there are still those who work tirelessly to maintain the dignity of the Outrider title.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fetters of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 3
+        },
+        {
+          "name": "Whopperflower Nectar",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 12
+        },
+        {
+          "name": "Whopperflower Nectar",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 6
+        },
+        {
+          "name": "Shimmering Nectar",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 12
+        },
+        {
+          "name": "Shimmering Nectar",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 9
+        },
+        {
+          "name": "Energy Nectar",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Dream of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 18
+        },
+        {
+          "name": "Energy Nectar",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

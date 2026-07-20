@@ -1,0 +1,181 @@
+{
+  "name": "The Bell",
+  "type": "CLAYMORE",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "A heavy greatsword. A clock is embedded within it, though its internal mechanisms have long been damaged.",
+  "history": "A strange greatsword decorated with an exquisite clock. The distinctive sound of clockwork served as a combat rhythm for the wielder and their friends. After the Wanderer's Troupe disbanded, the greatsword was soaked in acid. The gears have rusted because of this. Even so, it still makes a lethal weapon. One by the name of Kreuzlied traveled with the Wanderer's Troupe. Once a member of the ruling Lawrence clan, now a traitor and outcast. In that time, scholars and bards paid no heed to history. For the Aristocracy preferred to remain willfully ignorant of their own moral degeneracy than face history's judgement. But the aristocrats trembled in fear at the sound of this blade as it flew through the air, for it was the toll of the bell of judgment. It was not made public what punishment Kreuzlied met with after the failed uprising. This in itself is a testament to his privileged origins. Legend says that after being dismissed from office, his desire to continue the legacy of his fellow rebels led him to establish a secret society aimed at bringing down the Aristocracy. It is also said that he gave his full assistance to the enslaved gladiator when she revolted. In the past, a popular rumor was that Kreuzlied's secret society was working constantly in the background, Helping the Knights of Favonius keep Mondstadt safe through deeds that no knight should ever be party to. It was even said that the Wolf Pup Rostam ran this organization in secret, behind the Grand Master's back.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Tile of Decarabian's Tower",
+          "quantity": 3
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Whopperflower Nectar",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 3
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 12
+        },
+        {
+          "name": "Whopperflower Nectar",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 6
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 6
+        },
+        {
+          "name": "Shimmering Nectar",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 3
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 12
+        },
+        {
+          "name": "Shimmering Nectar",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 6
+        },
+        {
+          "name": "Black Crystal Horn",
+          "quantity": 9
+        },
+        {
+          "name": "Energy Nectar",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Scattered Piece of Decarabian's Dream",
+          "quantity": 4
+        },
+        {
+          "name": "Black Crystal Horn",
+          "quantity": 18
+        },
+        {
+          "name": "Energy Nectar",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Perle solaire",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Une précieuse perle dorée et mate abritant la lumière du soleil et de la lune, dont la matière est inconnue. Une force chaleureuse s'en dégage.",
+  "history": "Un orbe d'or sombre dont on parle beaucoup dans les ruelles de Liyue. Il absorba autrefois la lumière du monde, et fut par la suite conservé dans un coffret en bois pendant des millénaires. Son pouvoir ne s'est toujours pas dissipé de nos jours ; libéré de son contenant, l'orbe n'en brille que davantage. Peut-être son pouvoir dormant durant des éternités pourrait-il être réveillé par quelque érudit spécialisé. Une légende circule parmi les gemmologues du Port de Liyue : le célèbre artisan Kunwu collecta autrefois l'éclat du jour pour l'enfermer dans un coffret. Il enfouit ensuite ce coffret dans la montagne ; il y demeura quarante-neuf jours, puis encore vingt heures, et finit par obtenir l'éclat du jour et de la nuit. Bien que l'histoire soit quelque peu étrange, il n'empêche qu'à Liyue on croit fermement que Kunwu était aussi doué qu'un dieu. Lorsque la question fut posée au vieil artisan, celui-ci marmonna en reniflant : « Polir sans jamais finir... » Mais le bruit continua de courir parmi ses disciples que lorsque la Perle solaire fut entièrement polie, jour et nuit révélèrent leur vraie nature. L'artisan doit-il son succès à quelque intervention divine, ou sa volonté suffit-elle à faire trembler la voûte du firmament ?",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Sable lumineux de Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Dague de chasse rituelle",
+          "quantity": 3
+        },
+        {
+          "name": "Nectar de Fleur mensongère",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Dague de chasse rituelle",
+          "quantity": 12
+        },
+        {
+          "name": "Nectar de Fleur mensongère",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Dague rituelle de l'Usurier",
+          "quantity": 6
+        },
+        {
+          "name": "Nectar miroitant",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Squelette sacré de Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Dague rituelle de l'Usurier",
+          "quantity": 12
+        },
+        {
+          "name": "Nectar miroitant",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Squelette sacré de Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Grande dague de l'Inspecteur",
+          "quantity": 9
+        },
+        {
+          "name": "Nectar élémentaire",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Corps divin de Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Grande dague de l'Inspecteur",
+          "quantity": 18
+        },
+        {
+          "name": "Nectar élémentaire",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

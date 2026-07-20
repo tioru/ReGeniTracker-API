@@ -1,0 +1,181 @@
+{
+  "name": "Sacrificial Fragments",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "A weathered script, the text of which is no longer legible. A cursed item eroded by the winds of time.",
+  "history": "In the early days, the people of Mondstadt had a tradition of building theaters on top of windy cliffs to please the gods. Rituals took the form of performances, for they believed the gods enjoyed stories and ballads. This script is millennia old, and is no longer legible. Long ago, a war waged between the Lord of Storm and the Great Wolf King of the North. Mondstadt was engulfed in blizzards, and the snow stung like sand. A group who could bear the cold no longer built a shrine high on a clifftop in the east. There, they prayed for divine mercy and protection. The wind blows for a moment, but the ravages of time are constant, unrelenting, and irreversible. A god of the winds may move between the pages of a book, but in the end, the merciless god of time will eat away at them until not a single legible word remains. Yet, time's assault and that of the wind often take their toll the same upon the heart. Perhaps that is why later generations presumed the shrine to have always been to the wind, and the wind alone.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fetters of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 3
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 12
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 6
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 12
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 9
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Dream of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 18
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

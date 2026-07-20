@@ -1,0 +1,181 @@
+{
+  "name": "Arc d'exorcisme",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2021-07-21",
+  "description": "Cet arc de guerre appartenait autrefois à une certaine prêtresse. Il a été fabriqué avec un doigté exceptionnel, et est à la fois complexe et robuste.",
+  "history": "« Descendez du navire. Les femmes sont une nuisance ici ! » Le voleur qu'ils appelaient Ako Domeki se retourna et partit. Mais en entendant cela, la prêtresse ne put s'empêcher de sourire doucement. Si la personne qui m'avait appris le tir à l'arc n'était pas partie faire campagne aux côtés de la Shogun, alors notre fils aurait le même âge que Zaemon maintenant. Et peut-être serais-je devenue une Takamine, ou lui, un Asase... Le ton de Zaemon, et la façon dont il me tourne intentionnellement le dos, c'est le portrait craché de la façon dont il l'a fait autrefois, l'épée à la main. Cette fois, je ne laisserai pas cette personne mourir. Quitte à se battre contre la bannière du Mitsudomoe Électro... « Nos lances et nos épées ont été affûtées. Il est temps de mettre les voiles. » « Eh bien, montrons la force de Seirai à ces laquais du Shogunat ! » En entendant les chants de marins saluer leur départ, la prêtresse déposa son arc de guerre. Elle avait autrefois appris secrètement la vraie « magie » au Mont Yougou. Et bien qu'elle se sentit désolée vis-à-vis de son maître, le Tengu, elle l'utiliserait ici. Elle déferait la grande barrière qui avait tenu pendant mille ans, et elle libérerait le ressentiment de la rancune moribonde, lui permettant de ravager les navires qui portaient la bannière de l'Archon Électro. Elle ne pouvait qu'espérer que ce vieux matou ne viendrait pas charger dans la tempête...",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Sagesse de Narukami",
+          "quantity": 3
+        },
+        {
+          "name": "Prisme sombre",
+          "quantity": 3
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Joie de Narukami",
+          "quantity": 3
+        },
+        {
+          "name": "Prisme sombre",
+          "quantity": 12
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Joie de Narukami",
+          "quantity": 6
+        },
+        {
+          "name": "Prisme de cristal",
+          "quantity": 6
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Affection de Narukami",
+          "quantity": 3
+        },
+        {
+          "name": "Prisme de cristal",
+          "quantity": 12
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Affection de Narukami",
+          "quantity": 6
+        },
+        {
+          "name": "Prisme polarisant",
+          "quantity": 9
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Vaillance de Narukami",
+          "quantity": 4
+        },
+        {
+          "name": "Prisme polarisant",
+          "quantity": 18
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

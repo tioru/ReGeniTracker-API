@@ -1,0 +1,181 @@
+{
+  "name": "Désastre et remords",
+  "type": "POLEARM",
+  "rarity": 5,
+  "releaseDate": "2026-06-09",
+  "description": "Une arme d'hast forgée à partir d'argétoile et de pierre blanche. Sa pointe acérée est constamment enveloppée d'un froid perçant.",
+  "history": "Dans cette ville enneigée et sans lune, le guerrier étranger pleurait un royaume brisé, perdu à jamais. Là, au milieu du gel, il enterra dans le sol un espoir qui ne porterait plus jamais ses fruits. Laissant derrière lui ses désirs inavoués près de cette dernière fresque solitaire, il se mit à errer dans les plaines gelées, seul et sans attaches. Il pensait qu'en plongeant son ancienne épée dans le givre mortel, il pourrait oublier la faiblesse des jours passés, se jeter dans une bataille sans fin, et trouver ainsi réconfort et joie dans l'odeur âcre du fer et du sang. Pourtant, dès le premier coucher de lune qui suivit son départ du grand hall de ce pays montagneux, le guerrier abandonna le mensonge creux de son propre désespoir. Ce fut un bref moment de confusion et de folie. Tout ce qu'il voulait, par pur instinct, c'était sauver la jeune fille qui était attaquée. Tout ce qu'il voulait, c'était ne plus jamais revoir ce visage et cette chevelure argentée, aussi éclatante que la lune, ensevelis sous toute cette glace et cette neige. C'était un homme qui estimait avoir depuis longtemps rompu son serment de guerrier, et qui ne souhaitait verser son sang au combat que pour se distraire. Il lança de toutes ses forces la lance d'argent astral, encore immaculée de sang, dans la marée noire des bêtes. Des années plus tard, cet événement sera immortalisé sous le nom de la « Ruine » par des générations de savants et de bardes. Les chants anciens racontent l'histoire d'un étranger qui parcourait les plaines gelées et semait le malheur dans un pays paisible. Ils chantent l'homme qui, par pur plaisir du combat, lança une pointe glaciale d'argent astral à travers le vent et la neige et a brisé les montagnes enneigées, et qui, ce faisant, rasa trois royaumes prospères et plongea de vastes territoires dans la désolation la plus totale, condamnant des multitudes d'individus à errer dans les terres désolées. Partout, on entendait les cris des innocents qui pleuraient le malheur causé par ce seul coup. Mais une chanson n'est qu'une chanson. Avant même que le carnage qui l'entourait n'ait pu entrer dans la légende, l'étranger se tenait là, hébété, au milieu des ruines, ne percevant que des images fragmentaires du vent et de la neige. Sa lance égarée avait transpercé la pierre qui soutenait la terre, et la jeune fille qu'il avait l'intention de protéger avait elle aussi péri dans les ténèbres tourbillonnantes. Les survivants des terres dévastées considéraient l'homme appelé Imunlaukr comme l'ennemi juré de leurs peuples disparus, le traquant sans relâche. Pour le guerrier qui affirmait avoir soif de divertir les dieux par des chants de guerre et de sang, ce guerrier qui, bien qu'en proie au désespoir, refusa d'accepter son destin et chercha la rédemption, finit pourtant par causer encore plus de chagrin et de douleur... C'est à ce moment précis qu'il cessa enfin d'aspirer au salut et qu'il tourna définitivement le dos à la vie de guerrier.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Tuile cassée de Décarabian",
+          "quantity": 5
+        },
+        {
+          "name": "Os nélucide",
+          "quantity": 5
+        },
+        {
+          "name": "Nectar de Fleur mensongère",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 5
+        },
+        {
+          "name": "Os nélucide",
+          "quantity": 18
+        },
+        {
+          "name": "Nectar de Fleur mensongère",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 9
+        },
+        {
+          "name": "Restes lumineux",
+          "quantity": 9
+        },
+        {
+          "name": "Nectar miroitant",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 5
+        },
+        {
+          "name": "Restes lumineux",
+          "quantity": 18
+        },
+        {
+          "name": "Nectar miroitant",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 9
+        },
+        {
+          "name": "Exosquelette radieux",
+          "quantity": 14
+        },
+        {
+          "name": "Nectar élémentaire",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Rêve brisé de Décarabian",
+          "quantity": 6
+        },
+        {
+          "name": "Exosquelette radieux",
+          "quantity": 27
+        },
+        {
+          "name": "Nectar élémentaire",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

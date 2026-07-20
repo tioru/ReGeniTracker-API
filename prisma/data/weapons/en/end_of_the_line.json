@@ -1,0 +1,181 @@
+{
+  "name": "End of the Line",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2022-08-24",
+  "description": "This seems to be a now-extinct fish. Its body is sufficiently elastic that a string may be attached to it to let it serve as a bow.",
+  "history": "Gurgling water once flowed into the yellow sand, but that was a long time ago. The great being would follow the brontides and divine will into the desert in latter days, but few would survive in the end. The fish that once shot forth like an arrow across a huge lake on the plateau, That would stretch out as straight as a spear, cruising back and forth between the sacred sites, Would see its stream seep into the sand, its lake shrink into a puddle, Till at last, it wound up curled in a little plash, at the mercy of passing pilgrims. The lesson of this story is as such: As long as your are pious and kind, you can get a fish even in the midst of the desert sands.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Echo of Scorching Might",
+          "quantity": 3
+        },
+        {
+          "name": "Inactivated Fungal Nucleus",
+          "quantity": 3
+        },
+        {
+          "name": "Fungal Spores",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Remnant Glow of Scorching Might",
+          "quantity": 3
+        },
+        {
+          "name": "Inactivated Fungal Nucleus",
+          "quantity": 12
+        },
+        {
+          "name": "Fungal Spores",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Remnant Glow of Scorching Might",
+          "quantity": 6
+        },
+        {
+          "name": "Dormant Fungal Nucleus",
+          "quantity": 6
+        },
+        {
+          "name": "Luminescent Pollen",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Dream of Scorching Might",
+          "quantity": 3
+        },
+        {
+          "name": "Dormant Fungal Nucleus",
+          "quantity": 12
+        },
+        {
+          "name": "Luminescent Pollen",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Dream of Scorching Might",
+          "quantity": 6
+        },
+        {
+          "name": "Robust Fungal Nucleus",
+          "quantity": 9
+        },
+        {
+          "name": "Crystalline Cyst Dust",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Olden Days of Scorching Might",
+          "quantity": 4
+        },
+        {
+          "name": "Robust Fungal Nucleus",
+          "quantity": 18
+        },
+        {
+          "name": "Crystalline Cyst Dust",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

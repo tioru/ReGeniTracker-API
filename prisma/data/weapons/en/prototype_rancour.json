@@ -1,0 +1,181 @@
+{
+  "name": "Prototype Rancour",
+  "type": "SWORD",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "An ancient longsword discovered in the Blackcliff Forge that cuts through rocks like a hot knife through butter.",
+  "history": "An ancient prototype sword from Liyue's arsenal. The batch number has faded and no records exist to confirm the date of production. A swirling cloud motif is etched into the body of the blade, which gives it a faint golden glow in the sunlight as it swings through the air. It is said that the bladesmiths behind this weapon reached the extent of their abilities and were forced to innovate. Yun Hui, head of the house of Yun's family forge, approached renowned craftsman Han Wu. With the combined expertise from both sides, Han Wu drew up designs for a new series of weapons, simply named \"the prototypes.\" The very first sword made following this design already had the feel of a formidable weapon. While trying out the sword at Mt. Tianheng, Han Wu accidentally dropped it on the ground. The sword responded by unleashing a swirling tornado of energy that cut a twelve-inch-deep hole into the solid mountain rock. Han Wu took it as a sign from the heavens. He declared, \"This sword shall be named Rancour, destroyer of rocks.\" This sword shakes mountains at their foundations and possesses the power of a thousand peaks in its tip. This sword that cuts through rocks like butter became the basis for all subsequent swords made in Liyue.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Mist Veiled Lead Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 3
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 12
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 6
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 6
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 12
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 6
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 9
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Mist Veiled Primo Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 18
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

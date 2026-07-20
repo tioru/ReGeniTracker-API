@@ -1,0 +1,181 @@
+{
+  "name": "Eye of Perception",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "A dim black glaze pearl that is said to have the power to reach the purity of one's heart.",
+  "history": "A beauteous item fashioned from rare natural glaze. Legend has it that the Eye of Perception was once upon a time as bright, clear, and smooth as a lake's surface, but became dulled over the passage of many years. Folk records claim that on a still night, one can hear it make soft noises. Sometimes it sounds like a mild breeze, other times like a flowering spring. They say that the Eye was an adeptus's heirloom that was passed down in Liyue and eventually found its way into the Yun family.<ref group=\"Translation Note\">In the original Chinese description, it is a relic of an ; notably, the Chinese term typically translated as adeptus/adepti is . Furthermore, it was not so much passed down in Liyue so much as it was sold in Liyue's marketplace, which is how it fell into the Yun family's hands.</ref> Now one day, Yun was strolling about in the mountains, and there they happened to meet an exorcist named Huang, who had come to consult with the adepti. Yun spoke with Huang enthusiastically and at length, gifted the Eye to Huang. When Huang frantically declined, Yun said this with a smile: \"This pearl is nature's very quintessence. Only one whose heart is clear can use it.\" Thanking Yun, Huang took the Eye and wore it on his person, and slowly made his way towards Liyue. Along the way, neither rain nor wind impeded him. As one who sought after the path of the adepti, Huang wandered the land without rest. Thus, he would often be at the market to buy water and food. The harbor-side streets were a morass of humanity. Yet Huang walked among them as if idle, and was never taken advantage of. Some were curious: how could this bookish exorcist take to the city like a fish to water, and never miss a step? When asked, he replied: \"This Eye trembles at wickedness, and helps me see which hearts are true.\" This Eye could reveal human hearts, though no one knows how it worked, causing many to fall back on folktales to explain it. Some say that at midnight, you can dimly hear it call out like a mild breeze, or like spring water flowing between scattered stones. Both are reminiscent of the murmuring of demons that feed on wicked thoughts, a common feature of the parables once told by mothers to their children in days long gone.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Mist Veiled Lead Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 3
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 12
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 6
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 6
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 12
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 6
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 9
+        },
+        {
+          "name": "Ominous Mask",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Mist Veiled Primo Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 18
+        },
+        {
+          "name": "Ominous Mask",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

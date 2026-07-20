@@ -1,0 +1,181 @@
+{
+  "name": "Récompense légitime",
+  "type": "POLEARM",
+  "rarity": 4,
+  "releaseDate": "2023-08-16",
+  "description": "Une lance pointue, dont seule la pointe reste tachée de sang frais.",
+  "history": "Les voleurs restent des voleurs, peu importe l'habileté de leurs ruses. Les crimes doivent être punis et les mensonges dévoilés publiquement. C'est ainsi que le monde devrait fonctionner et que la justice devrait être. Cependant, lorsqu'il s'agit de savoir « comment les choses devraient être », il est toujours extrêmement difficile d'avoir une bonne réponse. Dans sa jeunesse, elle avait livré un duel contre un jeune épéiste, mais elle a été déroutée par ses yeux rusés et dupée par sa lenteur délibérée. Elle a fini par révéler une faiblesse critique, ce qui ne se serait jamais passé d'ordinaire, et son bras a été touché par son épée, la forçant à admettre l'infériorité de ses compétences à la lance. Un jour, elle a pensé retrouver cet épéiste et se donner à fond pour prendre sa revanche lors d'un duel ultime, avant d'apprendre par hasard qu'il avait pris sa retraite depuis longtemps... Il cachait son visage blessé dans l'exercice de ses fonctions, sous un masque, et avait perdu la voix et la cadence frivoles et provocatrices qu'il avait autrefois. Las de tous les problèmes auxquels les chasseurs de la Maréchaussée faisaient face, il s'est tourné vers l'alcool fort. C'était sans doute une trahison au regard de son passé, mais l'experte de la lance devait vérifier la véracité de ces rumeurs de ses propres yeux. Cela l'a menée à partir à la recherche de l'épéiste, son adversaire destiné, en suivant ses pas et ses blessures... Même si une personne qui lui était chère tombait dans l'arène du destin et que son cœur se brisait complètement, tous ses efforts semblaient enfin récompensés, après avoir suivi la piste du masque laissé par l'épéiste. Hélas, la fin de cette poursuite a été l'une des plus inattendues, et n'avait rien à voir avec la justice recherchée par la duelliste mandatée autrefois considérée comme une légende... « Ah, c'est la célèbre Marfisa cette fois-ci ? » « Ne vous inquiétez pas. Votre talent à la lance vous sera utile. » « Maître, c'est déjà la deuxième fois, mais je crains qu'ensuite... » « Je sais. »",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Gobelet brisé de la mer immaculée",
+          "quantity": 3
+        },
+        {
+          "name": "Noyau de faille",
+          "quantity": 3
+        },
+        {
+          "name": "Engrenage de maillage",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Gobelet à vin de la mer immaculée",
+          "quantity": 3
+        },
+        {
+          "name": "Noyau de faille",
+          "quantity": 12
+        },
+        {
+          "name": "Engrenage de maillage",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Gobelet à vin de la mer immaculée",
+          "quantity": 6
+        },
+        {
+          "name": "Synapse étrangère",
+          "quantity": 6
+        },
+        {
+          "name": "Engrenage à coupe droite",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Gobelet d'argent de la mer immaculée",
+          "quantity": 3
+        },
+        {
+          "name": "Synapse étrangère",
+          "quantity": 12
+        },
+        {
+          "name": "Engrenage à coupe droite",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Gobelet d'argent de la mer immaculée",
+          "quantity": 6
+        },
+        {
+          "name": "Noyau d'organisme d'extramonde",
+          "quantity": 9
+        },
+        {
+          "name": "Engrenage dynamique artificié",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Gobelet d'or de la mer immaculée",
+          "quantity": 4
+        },
+        {
+          "name": "Noyau d'organisme d'extramonde",
+          "quantity": 18
+        },
+        {
+          "name": "Engrenage dynamique artificié",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

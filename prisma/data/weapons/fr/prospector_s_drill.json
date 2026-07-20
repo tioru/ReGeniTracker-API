@@ -1,0 +1,181 @@
+{
+  "name": "Foret de prospecteur",
+  "type": "POLEARM",
+  "rarity": 4,
+  "releaseDate": "2023-10-17",
+  "description": "Une longue perceuse que l'on trouve rarement de nos jours. Elle était souvent utilisée pour creuser et sculpter des pierres.",
+  "history": "Un outil pratique qui peut facilement percer le sol et les roches. Il avait un large éventail d'utilisations dans la prospection et d'autres opérations, et même les tailleurs de pierre et les ouvriers du bâtiment en utilisaient pour couper des roches et créer des formes et des structures préliminaires. Comme la scie autrefois populaire dans les ateliers et les quais, son fonctionnement reposait sur un carburant traditionnel et inefficace. À cette époque, alors que les réactions contrôlées d'annihilation des énergies pneuma et ousia n'avaient pas encore été développées, les Mékas horlogoïdes primitifs étaient gênés par une cinématique et une dynamique sous-optimales et n'étaient considérés que comme des curiosités et des indulgences, alors que le travail manuel restait une nécessité. La longue poignée de l'outil était un compartiment de stockage de carburant et devait être manipulée avec précaution. Malgré cela, il y a des traces de l'utilisation de cette perceuse au combat. La puissance de perçage et de coupe de l'outil était inégalée. Puisqu'il pouvait percer même les rochers comme un couteau chaud dans du beurre, il permettait de pénétrer rapidement dans des matériaux encore plus mous. À mesure que la société progressait, ce type d'outil a progressivement cessé d'être utilisé en public. Et comme pour d'autres outils, sa possession non autorisée est également devenue interdite par arrêté administratif.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fragment d'un accord ancien",
+          "quantity": 3
+        },
+        {
+          "name": "Vieille montre à gousset d'opérateur",
+          "quantity": 3
+        },
+        {
+          "name": "Engrenage de maillage",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chapitre d'un accord ancien",
+          "quantity": 3
+        },
+        {
+          "name": "Vieille montre à gousset d'opérateur",
+          "quantity": 12
+        },
+        {
+          "name": "Engrenage de maillage",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chapitre d'un accord ancien",
+          "quantity": 6
+        },
+        {
+          "name": "Montre à gousset d'opérateur",
+          "quantity": 6
+        },
+        {
+          "name": "Engrenage à coupe droite",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mouvement d'un accord ancien",
+          "quantity": 3
+        },
+        {
+          "name": "Montre à gousset d'opérateur",
+          "quantity": 12
+        },
+        {
+          "name": "Engrenage à coupe droite",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mouvement d'un accord ancien",
+          "quantity": 6
+        },
+        {
+          "name": "Constance d'opérateur",
+          "quantity": 9
+        },
+        {
+          "name": "Engrenage dynamique artificié",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Écho d'un accord ancien",
+          "quantity": 4
+        },
+        {
+          "name": "Constance d'opérateur",
+          "quantity": 18
+        },
+        {
+          "name": "Engrenage dynamique artificié",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 118
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

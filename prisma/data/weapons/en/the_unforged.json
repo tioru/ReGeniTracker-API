@@ -1,0 +1,181 @@
+{
+  "name": "The Unforged",
+  "type": "CLAYMORE",
+  "rarity": 5,
+  "releaseDate": "2020-12-01",
+  "description": "Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might.",
+  "history": "A long time ago, a dragon there was to be found in Liyue. Not a dragon that soared the skies, but one whose abode was the mountains. Indeed, this ancient dragon of stone was as large as the very mountains it called home. The legends say that it slumbered in Nantianmen, seeming not at all unlike the surrounding hills. But when it awakened, even the tiniest movement, or the slightest stretch... That would cause the earth to tremble and shake. Then, Rex Lapis came before the dragon, seeking to stop the earth's quailing. They say that for a long while, the land knew peace, And that Rex Lapis gained another comrade by his side. But in the end, the union of dragons, gods and men was perhaps not to be... The dragon was sealed in the bowels of the earth. Fearing the ire of the gods and the adepti, The Geovishaps, who once heeded the trembling of the rock and wrought havoc alongside the dragon, Fled into the roots of the mountains. But as millennia passed, the dragon began to stir once again... The legends hold that those who triumphed over the dragon stabbed this sword into the ground next to the giant tree that subdued the ancient dragon. As one of the seals, monsters and malevolent mortals would be unable to touch it. Indeed, if the legends are true, only those with hearts as pure as clear mirrors could even come near it. Yet, if those legends are true, how did this sword come to be lost?",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Mist Veiled Lead Elixir",
+          "quantity": 5
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 5
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 5
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 18
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 9
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 9
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 5
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 18
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 9
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 14
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Mist Veiled Primo Elixir",
+          "quantity": 6
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 27
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 46
+    },
+    "20": {
+      "baseAtk": 122
+    },
+    "40": {
+      "baseAtk": 235
+    },
+    "50": {
+      "baseAtk": 308
+    },
+    "60": {
+      "baseAtk": 382
+    },
+    "70": {
+      "baseAtk": 457
+    },
+    "80": {
+      "baseAtk": 532
+    },
+    "90": {
+      "baseAtk": 608
+    },
+    "20_ASC": {
+      "baseAtk": 153
+    },
+    "40_ASC": {
+      "baseAtk": 266
+    },
+    "50_ASC": {
+      "baseAtk": 340
+    },
+    "60_ASC": {
+      "baseAtk": 414
+    },
+    "70_ASC": {
+      "baseAtk": 488
+    },
+    "80_ASC": {
+      "baseAtk": 563
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Reflet de tranche-brume",
+  "type": "SWORD",
+  "rarity": 5,
+  "releaseDate": "2021-07-21",
+  "description": "Une épée qui flamboie d'une vive lumière violacée. Son nom de « Reflet » lui vient des étincelles qu'elle a une fois projetées dans les airs lorsqu'un malheureux choc la brisa autrefois.",
+  "history": "L'une des épées que la Shogun a accordées à un hatamoto. On dit qu'elle peut faire appel au pouvoir de la foudre lui-même pour trancher la brume de la montagne et le brouillard nocturne. Elle fut autrefois brisée en mille morceaux. Après avoir été reforgée, des marques ressemblant à des nuages sont apparues sur sa lame. Comme le dit la chanson folklorique : « Arataki de la porte avant, Iwakura le successeur, Kitain le serpent, Takamine le tranche-brume ». Ainsi, les enfants qui aiment les arts martiaux énumèrent des combattants célèbres, et « Takamine le tranche-brume » était l'utilisateur de cette épée. Cet homme accompagna autrefois un membre du clergé, utilisant son tranche-brume pour éliminer d'innombrables démons et Tatarigami. Il a également appris l'archerie auprès des Tengu de Yougou, et il a transmis ce savoir à une personne qu'il aimait. Cependant, le tranche-brume n'aurait aucun successeur, et il n'existe désormais plus que dans les livres d'histoires, les œuvres d'art et les contes de fées. À la fin de sa vie, il assuma le poste d'un des yorikis de la Shogun, et combattit une armée sombre. S'il ne lui avait pas laissé son arc bien-aimé suite à leur pari, peut-être que les choses auraient été différentes... Mais tout vrai parieur ne regrette jamais, ne se soucie pas des « Et si », et n'éprouve point de remords. Les ennemis arrivaient comme de la brume... Et il continua donc à abattre cette lame secrète qui pouvait disperser la nuit brumeuse. Tant que ses coups étaient assez rapides, il percerait la nuit noire, et le jour reviendrait... « Asase, notre promesse... Non, disons plutôt notre grand pari. Je ne le perdrai pas, pour rien au monde ! » « Je reviendrai, et contre l'arc que j'ai parié... Je revendiquerai l'avenir comme prix ! » Comme une chaîne d'éclairs sans fin, son tranche-brume et lui ont éliminé d'innombrables démons ensemble. Pourtant, à la fin, l'épée n'était pas aussi tenace que l'épéiste, et elle s'est progressivement émoussée. Et la brume noire l'a complètement submergée... En fin de compte, seuls quelques fragments de la lame ont été récupérés pour être reforgés, afin que le nom de tranche-brume puisse être transmis. Comme s'il tenait le fil d'une araignée qui pendait dans le noir, le samouraï tenait fermement le manche de son épée brisée. Au milieu de la brume noire, il se rappelait obstinément : « Le résultat de notre pari est encore indécis. Je dois retourner aux côtés d'Asase... »",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Branche marine de corail",
+          "quantity": 5
+        },
+        {
+          "name": "Engrenage du chaos",
+          "quantity": 5
+        },
+        {
+          "name": "Garde-main ancien",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Branche marine de gemme",
+          "quantity": 5
+        },
+        {
+          "name": "Engrenage du chaos",
+          "quantity": 18
+        },
+        {
+          "name": "Garde-main ancien",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Branche marine de gemme",
+          "quantity": 9
+        },
+        {
+          "name": "Axe du chaos",
+          "quantity": 9
+        },
+        {
+          "name": "Garde-main kageuchi",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Branche marine de jade",
+          "quantity": 5
+        },
+        {
+          "name": "Axe du chaos",
+          "quantity": 18
+        },
+        {
+          "name": "Garde-main kageuchi",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Branche marine de jade",
+          "quantity": 9
+        },
+        {
+          "name": "Œil du chaos",
+          "quantity": 14
+        },
+        {
+          "name": "Garde-main célèbre",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Branche marine d'or",
+          "quantity": 6
+        },
+        {
+          "name": "Œil du chaos",
+          "quantity": 27
+        },
+        {
+          "name": "Garde-main célèbre",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

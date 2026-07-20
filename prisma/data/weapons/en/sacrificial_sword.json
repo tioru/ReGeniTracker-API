@@ -1,0 +1,181 @@
+{
+  "name": "Sacrificial Sword",
+  "type": "SWORD",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "A ceremonial sword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+  "history": "On the cliff facing the eastern sea, the ancestors worshipped the masters of Time and Anemo together. The two are intimately related, as expressed in the saying, \"Anemo brings stories while Time nurtures them.\" This sword tells the story of protection to show the courage to protect. Originally just a prop, its blade was sharpened by the passage of time. This sword once belonged to the kindly Gunnhildr clan. In sacrificial ceremonies, they would enact the defense of Mondstadt. There were three acts in the ceremony dedicated to the winds of time. The final act told a tale of the protection of Mondstadt, of life, and of freedom. The ceremony and its history have now been lost. But the Gunnhildr clan continues to act as guardians of Mondstadt to this day.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fetters of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 3
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 12
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 6
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 12
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 9
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Dream of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 18
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 267
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

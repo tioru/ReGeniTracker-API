@@ -1,0 +1,181 @@
+{
+  "name": "Primordial Jade Winged-Spear",
+  "type": "POLEARM",
+  "rarity": 5,
+  "releaseDate": "2020-09-28",
+  "description": "A jade polearm made by the archons, capable of slaying ancient beasts.",
+  "history": "At Liyue's foundation, monsters and gods still ruled the seas. In fear the forebears lived, and fought the sea with all they could muster. As spring turned to fall and back again for many an eon, a behemoth arose that dominated the seas. Even the Geo Archon's Geo Whale could not triumph against it. The people of Liyue called it \"Baqiu,\" a beast without rival even in the deepest depths of the ocean abyss. Its enormous waves would wash away entire settlements. So the Geo Archon fashioned a black kite by hand with jade and stones. The stone bird took to the unbound skies once forged. Into the heart of the ocean it dove, into the battlefield with the behemoth and the whale. Into the depths of the sea the behemoth sank, there to stay forever. Released from its thundering roars were the people of Liyue.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Luminous Sands from Guyun",
+          "quantity": 5
+        },
+        {
+          "name": "Hunter's Sacrificial Knife",
+          "quantity": 5
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 5
+        },
+        {
+          "name": "Hunter's Sacrificial Knife",
+          "quantity": 18
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 9
+        },
+        {
+          "name": "Agent's Sacrificial Knife",
+          "quantity": 9
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Relic from Guyun",
+          "quantity": 5
+        },
+        {
+          "name": "Agent's Sacrificial Knife",
+          "quantity": 18
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Relic from Guyun",
+          "quantity": 9
+        },
+        {
+          "name": "Inspector's Sacrificial Knife",
+          "quantity": 14
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Divine Body from Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Inspector's Sacrificial Knife",
+          "quantity": 27
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

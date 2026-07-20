@@ -1,0 +1,181 @@
+{
+  "name": "Slingshot",
+  "type": "BOW",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "A bow, despite the name. After countless experiments and improvements to the design, the creator of the ultimate slingshot found himself to have made what was actually a bow.",
+  "history": "One who wished to improve the range and accuracy of slingshots discovered that Power increases range, but costs accuracy. So slingshot rocks were replaced with long wooden poles that sported feathers for stability. The slingshot's limbs were lengthened and the ends recurved to increase pull. It then dawned on him that he had made a bow.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Luminous Sands from Guyun",
+          "quantity": 2
+        },
+        {
+          "name": "Hunter's Sacrificial Knife",
+          "quantity": 2
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 2
+        },
+        {
+          "name": "Hunter's Sacrificial Knife",
+          "quantity": 8
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Agent's Sacrificial Knife",
+          "quantity": 4
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Relic from Guyun",
+          "quantity": 2
+        },
+        {
+          "name": "Agent's Sacrificial Knife",
+          "quantity": 8
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Relic from Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Inspector's Sacrificial Knife",
+          "quantity": 6
+        },
+        {
+          "name": "Ominous Mask",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Divine Body from Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Inspector's Sacrificial Knife",
+          "quantity": 12
+        },
+        {
+          "name": "Ominous Mask",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 38
+    },
+    "20": {
+      "baseAtk": 86
+    },
+    "40": {
+      "baseAtk": 151
+    },
+    "50": {
+      "baseAtk": 193
+    },
+    "60": {
+      "baseAtk": 234
+    },
+    "70": {
+      "baseAtk": 274
+    },
+    "80": {
+      "baseAtk": 314
+    },
+    "90": {
+      "baseAtk": 354
+    },
+    "20_ASC": {
+      "baseAtk": 105
+    },
+    "40_ASC": {
+      "baseAtk": 171
+    },
+    "50_ASC": {
+      "baseAtk": 212
+    },
+    "60_ASC": {
+      "baseAtk": 253
+    },
+    "70_ASC": {
+      "baseAtk": 294
+    },
+    "80_ASC": {
+      "baseAtk": 334
+    }
+  }
+}

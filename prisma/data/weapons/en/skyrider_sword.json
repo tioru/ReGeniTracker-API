@@ -1,0 +1,181 @@
+{
+  "name": "Skyrider Sword",
+  "type": "SWORD",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword...",
+  "history": "Leap, the master swordsman Skyrider did, from the heights of Jueyun Karst. He pierced the clouds as the winds hollered by his ears, But what followed was the sound of shattering. What he had hoped for was something swordsmanship could not bring him. He pawned the sword for medicine, But die it did not, his dream of flight.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Grain of Aerosiderite",
+          "quantity": 2
+        },
+        {
+          "name": "Fragile Bone Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 2
+        },
+        {
+          "name": "Fragile Bone Shard",
+          "quantity": 8
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 4
+        },
+        {
+          "name": "Sturdy Bone Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 2
+        },
+        {
+          "name": "Sturdy Bone Shard",
+          "quantity": 8
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 4
+        },
+        {
+          "name": "Fossilized Bone Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Chunk of Aerosiderite",
+          "quantity": 3
+        },
+        {
+          "name": "Fossilized Bone Shard",
+          "quantity": 12
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 38
+    },
+    "20": {
+      "baseAtk": 86
+    },
+    "40": {
+      "baseAtk": 151
+    },
+    "50": {
+      "baseAtk": 193
+    },
+    "60": {
+      "baseAtk": 234
+    },
+    "70": {
+      "baseAtk": 274
+    },
+    "80": {
+      "baseAtk": 314
+    },
+    "90": {
+      "baseAtk": 354
+    },
+    "20_ASC": {
+      "baseAtk": 105
+    },
+    "40_ASC": {
+      "baseAtk": 171
+    },
+    "50_ASC": {
+      "baseAtk": 212
+    },
+    "60_ASC": {
+      "baseAtk": 253
+    },
+    "70_ASC": {
+      "baseAtk": 294
+    },
+    "80_ASC": {
+      "baseAtk": 334
+    }
+  }
+}

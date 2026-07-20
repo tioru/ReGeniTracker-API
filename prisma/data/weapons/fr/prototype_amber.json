@@ -1,0 +1,181 @@
+{
+  "name": "Malice (prototype)",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Un catalyseur magique découvert à la Forge de Rochenoire. La lumière du soleil, de la lune et des étoiles semble s'en dégager.",
+  "history": "Un catalyseur issu de l'arsenal de Liyue. Difficile de dire de quel modèle il s'agit : les archives ne mentionnent pas sa date de fabrication. Le catalyseur contient divers éléments, et se présente sous forme de boule ; en son centre se dresse un éclat d'ambre. Lorsque la paix fut revenue, les monstres qui n'y avaient trouvé leur sort continuaient de rôder sur les terres ; les forces armées ne connurent que peu de répit. Mais l'art de la fabrication des catalyseurs resta au stade qu'il avait atteint une centaine d'années plus tôt. Les catalyseurs produits étaient fragiles et peu pratiques à utiliser. Les chasseurs de démons rendirent visite à Yun Hui, du clan Yun de Liyue ; ils lui demandèrent de concevoir un nouveau type de catalyseur destiné à leur usage. C'est ainsi que Yun Hui ajouta un nouveau prototype à la collection de catalyseurs. Ce catalyseur est réalisé à partir de vieux bois et de minerai rare ; la large pièce d'ambre en son centre est un présent des mages. L'ambre a été cuit en fourneau durant quarante-neuf jours, avant d'être déposé dans l'eau de source, dans laquelle il a refroidi durant quarante-neuf autres jours. La double purification par l'eau et le feu le rend indestructible, et les thaumaturges croient qu'il permet à l'ensemble d'agir comme un réceptacle capable de canaliser l'énergie cosmique lorsque tourne le disque. Douze tours complets transforment l'énergie sous sa forme la plus pure. L'ambre luit d'une lueur particulière : son corps entier est traversé par un éclat doré. Après discussion, Yun Hui nomma le catalyseur « Amulette de Rochenoire ». Ce fut l'une des ancêtres des armes ayant servi à débarrasser les terres de Liyue du mal.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Plomb karstique",
+          "quantity": 3
+        },
+        {
+          "name": "Pollen d'herbe brumeuse",
+          "quantity": 3
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mercure karstique",
+          "quantity": 3
+        },
+        {
+          "name": "Pollen d'herbe brumeuse",
+          "quantity": 12
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mercure karstique",
+          "quantity": 6
+        },
+        {
+          "name": "Herbe brumeuse",
+          "quantity": 6
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Argent karstique",
+          "quantity": 3
+        },
+        {
+          "name": "Herbe brumeuse",
+          "quantity": 12
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Argent karstique",
+          "quantity": 6
+        },
+        {
+          "name": "Mèches d'herbe brumeuse",
+          "quantity": 9
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Or karstique",
+          "quantity": 4
+        },
+        {
+          "name": "Mèches d'herbe brumeuse",
+          "quantity": 18
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

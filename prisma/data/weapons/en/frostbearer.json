@@ -1,0 +1,181 @@
+{
+  "name": "Frostbearer",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2020-12-23",
+  "description": "A fruit that possesses a strange, frosty will. A faint sense of agony emanates from it.",
+  "history": "When the daughter of the priestess of Vindagnyr was born beneath this white tree, The kingdom in the verdant mountain was filled with joy when she received her blessing. Surely, the blessing of Sal Vindagnyr would be everlasting, Just as the undying silver-white tree whose roots pierced the earth. That was the hope of those who wrote the annals of that mountain kingdom. Those who had recorded the tales of countless people and events believed this in their hearts, That the beauty and skill of their princess would be as eternal and pure as the moonlight. When the nail that froze the world descended suddenly, And that tree, too, would be shattered by it, That girl took the most complete branch, Thinking to breathe new life into the tree that once overshadowed a nation. But in the end, the grafted life could not flourish. The cutting snowstorm eventually covered the moonlight like a curtain of countless blades... A long, long time later, yet still long ago — When the deathmatch between the dragons of darkness and wind was decided at last, When corrosive blood stained the ashen valley red, The tree, at last, remembered that it had not died with that entombed city, And it extended its greedy roots towards the warm ichor that irrigated the land. Because a certain someone poured out a crimson essence upon it, The tree that should have long died remembered its past, And bore a single fruit from the coalescence of all its might... Here, for those who dwelt in my safe shadow, for the priests who eulogized me, For that lovely maiden who oft painted upon my form, For all the happiness they could not possess — I enjoin them all into this crimson, icy fruit. To the one who can render recompense upon this poisonous world shall it go, And may they carry my innocent, bitter fruit as they enact justice.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fetters of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 3
+        },
+        {
+          "name": "Whopperflower Nectar",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 12
+        },
+        {
+          "name": "Whopperflower Nectar",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 6
+        },
+        {
+          "name": "Shimmering Nectar",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 12
+        },
+        {
+          "name": "Shimmering Nectar",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 9
+        },
+        {
+          "name": "Energy Nectar",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Dream of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 18
+        },
+        {
+          "name": "Energy Nectar",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

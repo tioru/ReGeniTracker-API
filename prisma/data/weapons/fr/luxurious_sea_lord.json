@@ -1,0 +1,181 @@
+{
+  "name": "Illustre seigneur des mers",
+  "type": "CLAYMORE",
+  "rarity": 4,
+  "releaseDate": "2021-09-27",
+  "description": "Le grand seigneur des océans. Ayant été séché à l'air, c'est une arme de qualité, mais également une nourriture bienvenue en cas d'urgence.",
+  "history": "Alors que la nuit s'installe, les vibrations de ses branchies expriment ceci : « J'étais sans aucun doute mort lorsque j'ai quitté la mer. Mon cœur avait cessé de battre, mes yeux étaient devenus blancs, mon corps empestait... Je veux dire, pour un poisson, ça doit bien être la mort ça, non ? J'étais le plus fort parmi la poiscaille. J'étais même le plus fort de tous dans les mers, même les monstres marins, les baleines et les requins ne faisaient pas le poids contre moi. Mais j'ai pourtant fini par rencontrer un adversaire à ma taille. C'était ce kurage, aussi appelée méduse. Elle peut flotter au rythme de la marée, et esquiver tous les impacts. J'ai alors abandonné la voie de la force, pour emprunter la voie de la méduse. Après une très longue vie, il m'était possible de contrôler chaque organe de mon corps. J'ai alors arrêté mon propre cœur, pour éviter d'être pris pour un poisson frais et éventré. Vous pensez certainement que je ne suis rien de plus qu'un poisson salé, mais laissez-moi devenir votre force. Alors, vous qui maniez cette vieille chose. Hmm... Lorsque toutes les eaux coulent vers la mer, lorsque les étoiles s'éteignent, lorsque toute chose retourne à l'océan primordial, voudrez-vous vous mesurer à moi ? »",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Grain d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os fragile",
+          "quantity": 3
+        },
+        {
+          "name": "Bave de Blob",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os fragile",
+          "quantity": 12
+        },
+        {
+          "name": "Bave de Blob",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'os solide",
+          "quantity": 6
+        },
+        {
+          "name": "Mucus de Blob",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os solide",
+          "quantity": 12
+        },
+        {
+          "name": "Mucus de Blob",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'os fossilisé",
+          "quantity": 9
+        },
+        {
+          "name": "Essence de Blob",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Morceau d'aérosidérite noire",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment d'os fossilisé",
+          "quantity": 18
+        },
+        {
+          "name": "Essence de Blob",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Lance de Rochenoire",
+  "type": "POLEARM",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Une lance fabriquée en roche noire et aérosidérite. Son fer sombre brille d'une lueur rouge.",
+  "history": "Cette lance réalisée en roche noire d'une extrême rareté est dit-on capable de trancher les vents. La tête et le corps de l'arme sont tous deux réalisés en cristaux de couleur noire, et gravés de motifs vermillons. Lorsque la lance est exposée à la lumière du clair de lune, on peut deviner l'éclat du sang s'y reflétant. Han Wu, le célèbre artisan de Liyue, avait eu un enfant de sa première femme, qu'il nomma Han Ce, espérant qu'il soit réfléchi et habile afin de pouvoir reprendre le jour venu le commerce de son père. Mais les rêves de Han Ce le portèrent ailleurs. La tête emplie des aventures lues dans les romans d'arts martiaux, il se mit à passer son temps libre à l'entraînement, n'espérant qu'une chose : partir combattre le mal à son tour. Lorsqu'il partait explorer les terres alentours à la recherche d'aérosidérite, ce n'était point le métal rare qui le captivait, mais bien le frisson de l'aventure. Et lorsqu'il grimpa aux plus hauts des pics rencontrer les Adeptes, ce n'est point leur sagesse qu'il demanda à écouter, mais bien les récits de leurs périples. Han Ce n'avait aucun intérêt pour la forge ; son père eut beau l'exorter à s'y atteler, rien n'y fit. Tant et si bien qu'un beau jour le fils partit sans faire ses adieux. Han Wu fut victime d'un accident de mine dans ses vieux jours, qui le laissa changé. Han Ce revint la nuit du drame rendre visite à son père. Celui-ci, qui autrefois brillait dans ses conversations, était à présent d'un naturel taciturne ; il ne fit plus de réprimandes au fils qui autrefois l'avait tellement déçu. Les relations entre père et fils s'améliorèrent ; Han Ce était envahi par le regret, mais ignorait comment y remédier. Les années passèrent, et Han Wu quitta ce monde. Respectant la volonté de son père, Han Ce trouva dans la bibliothèque les indications d'une série de prototypes d'armes légendaires. Aux papiers, conservés dans un coffret en bois, était accroché le mot suivant : « À Han Ce, au cœur capable d'embrasser le monde entier. » Les plans étaient recouverts de notes prises à la main par Han Wu ; à leur lecture, Han Ce sentit son cœur se serrer. Il passa ainsi la nuit entière dans la bibliothèque. Au tout petit matin, Han Ce ouvrit la porte et sortit dans l'air frais. Soudain du ciel tomba une étoile filante, qui s'écrasa juste au pied de la porte. Une nuée de sentiments envahit Han Ce ; mi-riant mi-pleurant, il fit : « C'est un signe ! » Et utilisant comme matériau de base l'aérosidérite noire tirée de la météorite et y ajoutant la roche rare extraite par son père, il forgea une lance en s'appuyant sur les schémas de ce dernier. Mais la lance forgée, il ne partit point parcourir le monde, l'arme à la main. En effet, depuis ce jour jamais le feu de la forge des Han ne faiblit.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Plomb karstique",
+          "quantity": 3
+        },
+        {
+          "name": "Pollen d'herbe brumeuse",
+          "quantity": 3
+        },
+        {
+          "name": "Insigne de nouvelle recrue",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mercure karstique",
+          "quantity": 3
+        },
+        {
+          "name": "Pollen d'herbe brumeuse",
+          "quantity": 12
+        },
+        {
+          "name": "Insigne de nouvelle recrue",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mercure karstique",
+          "quantity": 6
+        },
+        {
+          "name": "Herbe brumeuse",
+          "quantity": 6
+        },
+        {
+          "name": "Insigne de sergent",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Argent karstique",
+          "quantity": 3
+        },
+        {
+          "name": "Herbe brumeuse",
+          "quantity": 12
+        },
+        {
+          "name": "Insigne de sergent",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Argent karstique",
+          "quantity": 6
+        },
+        {
+          "name": "Mèches d'herbe brumeuse",
+          "quantity": 9
+        },
+        {
+          "name": "Insigne d'officier",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Or karstique",
+          "quantity": 4
+        },
+        {
+          "name": "Mèches d'herbe brumeuse",
+          "quantity": 18
+        },
+        {
+          "name": "Insigne d'officier",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Forest Regalia",
+  "type": "CLAYMORE",
+  "rarity": 4,
+  "releaseDate": "2022-08-24",
+  "description": "It has taken on the shape of a greatsword that shall cut down the foes of the forest",
+  "history": "\"The forest used to be a giant maze many, many moons ago...\" The last king of the forest had returned to Sarva, leaving one who once waited upon him to inherit the name \"Tiger.\" In the past, wherever there was shade, there was the domain of the forest king. And as he wandered through his own territory, The birds and beasts that depended on the jungle would bow their heads as he passed by to show their respect and reverence. All Kings had their own palaces: as each successive king of the forest took the throne, the forest changed according to his image and vision. The palace of the last king of the forest was hidden behind a fence of trees and vines, and beyond a network of water and cliffs, It is the disc of pearls made by moonlight through leaves on still water. The king was at the water's edge, basking in the twice and much moonlight all by himself. Thus did the forest maze come about. Legend has it that the forest king traced the path of a maze in his dazzling dappled stripes. Each generation of Kings' palaces piled on top of each other so that the paths would intertwine from tree to tree. Streams would break off or would give birth to new branches, The forest paths growing ever more complex. Only the forest king, we Aranara, and the people from the king tree's sanctuary, Could freely go into the forest king's sanctuary and find their own way from tree to tree and stream to stream. ... Later, the last king of the forest died protecting the forest. The forest would make no new palace, and the maze would disappear henceforth. Or perhaps it was a dark herd of beasts that, like a hurricane, brought down the trees like waves of wheat. Either way, the maze was dead, and so was the forest king. The Aranara, who gave me this story, was very timid and did not want us to hear him sing, always seeking a place of solitude. One night, he went through a maze in the forest, and found a bright reflection of the moon in the water. Thus did he hear the story of the last king of the forest. Then the current changed and the moon's reflection was scattered. Much has changed, and yet, much still remains the same. But even if you, like me, have never met a king, you would still get the impression that Tiger was a noble and powerful king of the forest.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Copper Talisman of the Forest Dew",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Storage",
+          "quantity": 3
+        },
+        {
+          "name": "Faded Red Satin",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Iron Talisman of the Forest Dew",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Storage",
+          "quantity": 12
+        },
+        {
+          "name": "Faded Red Satin",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Iron Talisman of the Forest Dew",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Module",
+          "quantity": 6
+        },
+        {
+          "name": "Trimmed Red Silk",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Silver Talisman of the Forest Dew",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Module",
+          "quantity": 12
+        },
+        {
+          "name": "Trimmed Red Silk",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Silver Talisman of the Forest Dew",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Bolt",
+          "quantity": 9
+        },
+        {
+          "name": "Rich Red Brocade",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Golden Talisman of the Forest Dew",
+          "quantity": 4
+        },
+        {
+          "name": "Chaos Bolt",
+          "quantity": 18
+        },
+        {
+          "name": "Rich Red Brocade",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 43
+    },
+    "20": {
+      "baseAtk": 118
+    },
+    "40": {
+      "baseAtk": 225
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 360
+    },
+    "70": {
+      "baseAtk": 428
+    },
+    "80": {
+      "baseAtk": 496
+    },
+    "90": {
+      "baseAtk": 564
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 251
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 386
+    },
+    "70_ASC": {
+      "baseAtk": 454
+    },
+    "80_ASC": {
+      "baseAtk": 522
+    }
+  }
+}

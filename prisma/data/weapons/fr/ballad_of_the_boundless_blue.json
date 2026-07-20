@@ -1,0 +1,181 @@
+{
+  "name": "Ballade d'un azur infini",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2023-10-12",
+  "description": "Un recueil de poésie exquise. Il contient de nombreux articles sur le ciel, les pissenlits et d'autres sujets chers aux Mondstadtois.",
+  "history": "Entre deux rivages, passé et présent, un ciel s'étend vaste et à l'infini, tel un royaume de liberté sans limites... Les fleurs sont enracinées dans la terre, mais elles aspirent toujours au ciel sans fin, et bien qu'elles soient dépourvues d'ailes, elles cherchent toujours à s'élever dans les airs... Tout comme le destin des fleurs est lié à leurs racines profondément enfouies sous terre, les pissenlits sont destinés à être témoins des hauteurs et de la liberté du ciel. L'empyrée azur sans fin est comme un dôme qui reflète le monde en dessous, avec des nuages blancs parsemant le ciel calme et paisible. Tout comme les pissenlits tenaces et les chrysanthèmes sauvages, les habitants de la terre verdoyante répondront à l'appel de la liberté. La tyrannie des tempêtes et des hivers rigoureux les a peut-être opprimés, et les vertus qu'ils détenaient peuvent être devenues corrompues et égarées, mais aussi longtemps que subsisteront les traditions de louange des vents du ciel, et tant que cette précieuse liberté continuera d'être célébrée de génération en génération, les gens s'élèveront toujours vers le ciel comme toutes les graines de pissenlit, s'appuyant sur leur âme pleine d'entrain pour poursuivre une liberté illimitée et sans entrave.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Dent de lait du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os fragile",
+          "quantity": 3
+        },
+        {
+          "name": "Insigne des Pilleurs",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os fragile",
+          "quantity": 12
+        },
+        {
+          "name": "Insigne des Pilleurs",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'os solide",
+          "quantity": 6
+        },
+        {
+          "name": "Insigne de corbeau en argent",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os solide",
+          "quantity": 12
+        },
+        {
+          "name": "Insigne de corbeau en argent",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'os fossilisé",
+          "quantity": 9
+        },
+        {
+          "name": "Insigne de corbeau en or",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Nostalgie du Loup boréal",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment d'os fossilisé",
+          "quantity": 18
+        },
+        {
+          "name": "Insigne de corbeau en or",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

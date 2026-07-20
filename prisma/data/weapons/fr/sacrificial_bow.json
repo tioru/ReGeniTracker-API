@@ -1,0 +1,181 @@
+{
+  "name": "Arc rituel",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Un arc de chasse ornemental qui a été pétrifié par le temps et dont on peut encore distinguer les décorations. Avec lui, son manieur sera capable d'affronter l'épreuve du temps.",
+  "history": "Le peuple des hautes falaises faisant face à la mer orientale vénérait jadis le maître du temps et l'Archon Anémo. Les deux divinités sont souvent confondues, car : « Le vent apporte des histoires et le temps les cultive. » Cet arc raconte l'histoire des pionniers et des épreuves par eux enduré. Il s'agissait autrefois d'un accessoire, à la corde inutilisable. Elle a gagné en robustesse et élasticité avec le temps. Cet arc était autrefois la propriété du Clan Lawrence. Il servait lorsque les membres du clan célébraient le courage de leurs ancêtres pionniers qui avaient vaincu la nature gelée. Le premier acte de la cérémonie contait la force et la sagesse des colons qui avaient soumis la terre ; et bien que les détails de cette cérémonie se fussent perdus, ils continuèrent de jouer le rôle. Mais le rôle devint corrompu, et ils en vinrent graduellement à se voir en conquérants, puis en seigneurs, puis en rois. Ils empruntèrent progressivement un chemin sinueux s'écartant du peuple, dont ils perdirent l'affection.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Dent de lait du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 3
+        },
+        {
+          "name": "Bave de Blob",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 12
+        },
+        {
+          "name": "Bave de Blob",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 6
+        },
+        {
+          "name": "Mucus de Blob",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 12
+        },
+        {
+          "name": "Mucus de Blob",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 9
+        },
+        {
+          "name": "Essence de Blob",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Nostalgie du Loup boréal",
+          "quantity": 4
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 18
+        },
+        {
+          "name": "Essence de Blob",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

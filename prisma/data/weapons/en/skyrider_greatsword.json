@@ -1,0 +1,181 @@
+{
+  "name": "Skyrider Greatsword",
+  "type": "CLAYMORE",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword... for the second time.",
+  "history": "Feeling defeated, it dawned on the Skyrider that there are things that swordsmanship cannot achieve. So instead of believing in his swordsmanship, he turned to the sword itself. \"Bigger is always better, and swords are no exception,\" he thought. In the grand Guyun Stone Forest, he embraced his grand ending. His dream of flight came to an end, but his sword and story would never fade...",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Grain of Aerosiderite",
+          "quantity": 2
+        },
+        {
+          "name": "Fragile Bone Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 2
+        },
+        {
+          "name": "Fragile Bone Shard",
+          "quantity": 8
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 4
+        },
+        {
+          "name": "Sturdy Bone Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 2
+        },
+        {
+          "name": "Sturdy Bone Shard",
+          "quantity": 8
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 4
+        },
+        {
+          "name": "Fossilized Bone Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Chunk of Aerosiderite",
+          "quantity": 3
+        },
+        {
+          "name": "Fossilized Bone Shard",
+          "quantity": 12
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "40": {
+      "baseAtk": 169
+    },
+    "50": {
+      "baseAtk": 216
+    },
+    "60": {
+      "baseAtk": 263
+    },
+    "70": {
+      "baseAtk": 309
+    },
+    "80": {
+      "baseAtk": 355
+    },
+    "90": {
+      "baseAtk": 401
+    },
+    "20_ASC": {
+      "baseAtk": 113
+    },
+    "40_ASC": {
+      "baseAtk": 189
+    },
+    "50_ASC": {
+      "baseAtk": 236
+    },
+    "60_ASC": {
+      "baseAtk": 282
+    },
+    "70_ASC": {
+      "baseAtk": 329
+    },
+    "80_ASC": {
+      "baseAtk": 375
+    }
+  }
+}

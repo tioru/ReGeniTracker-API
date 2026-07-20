@@ -1,0 +1,181 @@
+{
+  "name": "La voie du chasseur",
+  "type": "BOW",
+  "rarity": 5,
+  "releaseDate": "2022-08-24",
+  "description": "Cet arc doré a été réalisé à l'aide de branches blanches précieuses. Il a abattu d'innombrables bêtes méchantes qui tentaient de s'infiltrer dans les bois.",
+  "history": "Un arc de chasse doré fabriqué à partir d'une branche pâle. Il porte la bénédiction de la forêt. Les arbres qui produisent ce type de branche d'un blanc pur sont très rares. La bénédiction était autrefois couverte de sang noir, une impureté qui fut nettoyée par la suite. Une chasseuse chassant des bêtes ténébreuses. Sa chasse semblait ne jamais finir. Elle passait de nombreuses nuits à attendre sous des tas de feuilles mortes, et de nombreux jours à rester allongée sous de la chair et à faire semblant de dormir. Tout cela pour parvenir à tirer une flèche dans le cœur de sa cible. Puis elle commença à chercher une nouvelle proie. Le temps passa, et la chasseuse ne s'inquiétait plus que le vent ne la trahisse en transportant son odeur vers sa proie. Elle n'utilisait plus de fleurs sauvages vertes pour dissimuler son odeur d'humaine… Car son odeur était devenue semblable à celle des bêtes sauvages. Elle avait oublié la langue des hommes bien avant de devenir chasseuse. Dans cette traque sans fin, elle avait oublié le temps, le soleil et la lune… Ainsi que le terrain de chasse sans limites qui lui avait été promis. Même le garçon aveugle qui l'avait trouvée, lui avait donné son arc fabriqué à partir d'une branche pâle, Et l'avait poussée à chasser les créatures noires, Disparut également de sa mémoire alors que son esprit était absorbé par la chasse. « Les personnes souillées par le sang ne trouveront jamais les terrains de chasse verdoyants et sans limites de l'au-delà. » « Non, maître. C'est ce monde rempli de bêtes féroces qui est mon terrain de chasse… » En se regardant dans l'eau claire et éclairée par la lune, la chasseuse réalisa qu'elle était devenue un monstre sauvage sans s'en rendre compte. Elle était stupéfaite quand elle aperçut le reflet du chevalier noir et la pointe de son épée, celui-ci l'ayant retrouvée en suivant les traces laissées par les bêtes… « Ce n'est rien de plus qu'un monstre médusé par la vision de la lune dans l'eau. Il doit être éliminé. » « Comme c'est étrange. Pendant un moment, j'ai cru que c'était une jeune fille perdue dans la forêt… » « Je vais continuer d'avancer vers l'ouest, pour la justice… et pour expier mon crime, celui d'avoir transformé un être humain en bête sauvage. »",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Dernier écho du pouvoir brûlant",
+          "quantity": 5
+        },
+        {
+          "name": "Noyau fongique inactivé",
+          "quantity": 5
+        },
+        {
+          "name": "Satin rouge délavé",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Éclat subsistant du pouvoir brûlant",
+          "quantity": 5
+        },
+        {
+          "name": "Noyau fongique inactivé",
+          "quantity": 18
+        },
+        {
+          "name": "Satin rouge délavé",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Éclat subsistant du pouvoir brûlant",
+          "quantity": 9
+        },
+        {
+          "name": "Noyau fongique dormant",
+          "quantity": 9
+        },
+        {
+          "name": "Soie rouge brodée",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Rêve dominant du pouvoir brûlant",
+          "quantity": 5
+        },
+        {
+          "name": "Noyau fongique dormant",
+          "quantity": 18
+        },
+        {
+          "name": "Soie rouge brodée",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Rêve dominant du pouvoir brûlant",
+          "quantity": 9
+        },
+        {
+          "name": "Noyau fongique robuste",
+          "quantity": 14
+        },
+        {
+          "name": "Brocart rouge luxueux",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Passé glorieux du pouvoir brûlant",
+          "quantity": 6
+        },
+        {
+          "name": "Noyau fongique robuste",
+          "quantity": 27
+        },
+        {
+          "name": "Brocart rouge luxueux",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 110
+    },
+    "40": {
+      "baseAtk": 210
+    },
+    "50": {
+      "baseAtk": 275
+    },
+    "60": {
+      "baseAtk": 341
+    },
+    "70": {
+      "baseAtk": 408
+    },
+    "80": {
+      "baseAtk": 475
+    },
+    "90": {
+      "baseAtk": 542
+    },
+    "20_ASC": {
+      "baseAtk": 141
+    },
+    "40_ASC": {
+      "baseAtk": 241
+    },
+    "50_ASC": {
+      "baseAtk": 307
+    },
+    "60_ASC": {
+      "baseAtk": 373
+    },
+    "70_ASC": {
+      "baseAtk": 439
+    },
+    "80_ASC": {
+      "baseAtk": 506
+    }
+  }
+}

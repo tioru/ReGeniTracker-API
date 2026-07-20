@@ -1,0 +1,181 @@
+{
+  "name": "Debate Club",
+  "type": "CLAYMORE",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "A handy club made of fine steel. The most persuasive line of reasoning in any debater's arsenal.",
+  "history": "A persuasive tool, sure to turn the tide of a heated argument in the wielder's favor. Guaranteed to add weight to one's words. Useful in any argument, no matter who the opponent, to convince them to listen to reason. In short, people listen to pearls of wisdom. Ultimately, production was forcibly ended due to mass protests. The needs of the many outweigh the needs of the one.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Mist Veiled Lead Elixir",
+          "quantity": 2
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 2
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 2
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 8
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 4
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 2
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 8
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 6
+        },
+        {
+          "name": "Ominous Mask",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Mist Veiled Primo Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 12
+        },
+        {
+          "name": "Ominous Mask",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "40": {
+      "baseAtk": 169
+    },
+    "50": {
+      "baseAtk": 216
+    },
+    "60": {
+      "baseAtk": 263
+    },
+    "70": {
+      "baseAtk": 309
+    },
+    "80": {
+      "baseAtk": 355
+    },
+    "90": {
+      "baseAtk": 401
+    },
+    "20_ASC": {
+      "baseAtk": 113
+    },
+    "40_ASC": {
+      "baseAtk": 189
+    },
+    "50_ASC": {
+      "baseAtk": 236
+    },
+    "60_ASC": {
+      "baseAtk": 282
+    },
+    "70_ASC": {
+      "baseAtk": 329
+    },
+    "80_ASC": {
+      "baseAtk": 375
+    }
+  }
+}

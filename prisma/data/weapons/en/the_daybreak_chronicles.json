@@ -1,0 +1,181 @@
+{
+  "name": "The Daybreak Chronicles",
+  "type": "BOW",
+  "rarity": 5,
+  "releaseDate": "2025-12-03 11:00:00 GMT+8",
+  "description": "The songs of resistance come hither on the wind to settle as gentle tones upon these strings, their combined power great enough to rip boundless darkness asunder with the light of the breaking dawn.",
+  "history": "\"Kreuzlied, have you ever heard the pipes call out in the dusk?\" \"Have you heard a voice in the wind sing: farewell, goodbye forever?\" \"We shall not weep for you, for the night breeze will bear our tears away.\" \"Yes, comrade, it shall bear our tears away.\" They say that there was once a traveling musical troupe who conspired to assassinate the ruling house. Among them was a renegade noble scion named Kreuzlied. A tune was written for him after the plot failed. His real name was, of course, not \"Kreuzlied,\" and has been lost to time. The word Kreuzlied itself used to mean \"The Quartering Song\" in the old tongue. In those days when the nights grew long and the dark hung low, quartering was a cruel punishment that left its victims begging for the release of death. Deserters, bandits, rebels, and makers of moonshine would be executed in public in this manner, while the ruling aristocracy basked in their dreadful cries. In those days when one could not see the light of dawn, \"Kreuzlied\" became a byword for those who rose up and failed. But in this way, it also became the rallying cry for rebellion. The Kreuzlied of the traveling troupe has had their name lost to time, yes. But it matters not, for by then, Kreuzlied had already taken on countless monikers carried on the wind in song: \"The Nameless Shepherd.\" \"Imunlaukr.\" \"Midnight Rogue.\" \"Dawnlight.\" \"Gunnhildr.\" \"Ragnvindr.\" Till at last the final Kreuzlied would awaken from a thousand-year slumber, Answering the small cry of a foreign maiden who had drifted to this land, Just as he had once been born from the wish of a certain youth... ... The songs that told of Kreuzlied would be fashionable for a time. But in the end, they would leave the lips of men, for in the time after the darkness, there was no longer any need for this name. \"Kreuzlied, have you ever seen the horizon turn white?\" \"Have you heard the maiden sing to the wind: farewell, goodbye forever?\" \"The morning sun has kissed away my tears, and told me that dawn has broken,\" \"O my lover, the dawn, it has broken.\"",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fetters of the Dandelion Gladiator",
+          "quantity": 5
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 5
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 5
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 18
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 9
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 9
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 5
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 18
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 9
+        },
+        {
+          "name": "Black Crystal Horn",
+          "quantity": 14
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Dream of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Black Crystal Horn",
+          "quantity": 27
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

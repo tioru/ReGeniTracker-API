@@ -1,0 +1,181 @@
+{
+  "name": "Mémoire de Tulaytullah",
+  "type": "CATALYST",
+  "rarity": 5,
+  "releaseDate": "2022-12-07",
+  "description": "Une cloche fabriquée en saphir et en argent, dont les échos sont aussi nets que lointains.",
+  "history": "Jadis, elle dansa avec trois sœurs de la lune sur des dunes argentées. Jadis, elle courut sur cette terre qui se faisait envelopper par les ombres ; le sang s'unit aux larmes pour former une source d'eau limpide au milieu d'un jardin... Le chagrin de la reine des fleurs engendra une cité de saphir, qui s'élevait telle une larme. Et sous ses dômes azur, les Tighnariens s'enorgueillissaient d'avoir généré plusieurs générations de sages. Le peuple prétendait que Tulaytullah, où vivaient les Tighnariens, était le joyau le plus précieux de la reine des fleurs. Dans cet âge d'or, le visage blême de la lune projetait une lueur semblable à celle de l'ambre. Dans les jardins, de magnifiques padisachidées mauves s'épanouissaient et des grenades bien mûres chantaient à tue-tête... Les canaux se croisaient et scintillaient. Même lorsque les divinités mouraient, les tempêtes de sable ne pouvaient les arrêter. « Xiphos, noble exilé, mon bien-aimé... » « Xiphos, lame de Tulaytullah, protégé des djinns... » « Que le reflet du clair de lune t'apporte la paix. La danse de ce soir t'est dédiée. » « Demain, je partirai. Les sages m'ont vendue à la cour de Badanah. » « Je n'oublierai jamais comment son grand-père a détruit mon pays natal et a réduit mon peuple à l'esclavage. » « Je dois maintenant servir nos ennemis, danser, parler, et m'attarder parmi eux comme le vent de la nuit... » « Cependant, bien-aimé Xiphos... Les étoiles et les nénuphars de ce soir n'appartiennent qu'à toi. » « Très cher Xiphos. Garde mon nom dans ton cœur, ne serait-ce que pour cette nuit. » Pour satisfaire le roi vassal en déclin, les érudits de Tulaytullah présentèrent un tribut. Et Makhaira, danseuse et concubine, en faisait partie. Elle fut obligée de faire ses adieux à son amant aux yeux d'or. Les légendes qui découlèrent de cet événement furent racontées par trop de gens et oubliées par tant d'autres... Makhaira parvint à se venger et renversa ce royaume arrogant du désert... Mais elle le paya de sa vie. Elle fut dévorée par une vipère et tomba dans un sommeil sans fin, le lourd sable doré lui servant de couverture. Xiphos gagna l'estime de ses semblables, mais mourut en protégeant ceux qui le craignaient... La lame de Tulaytullah fut baignée de sang dans les mains d'un autre prince exilé qui avait perdu tout honneur et tout espoir... Et qui s'était fait bannir en raison d'une concubine qui était la fille d'une djinn au cœur de serpent. À la fin, tous les hommes, bons et mauvais, furent également broyés par la meule du destin. Tandis que la cité de saphir s'effondra et perdit ses couleurs, comme des larmes taries par un soleil brûlant.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Dernier écho du pouvoir brûlant",
+          "quantity": 5
+        },
+        {
+          "name": "Noyau fongique inactivé",
+          "quantity": 5
+        },
+        {
+          "name": "Spores de Fongus",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Éclat subsistant du pouvoir brûlant",
+          "quantity": 5
+        },
+        {
+          "name": "Noyau fongique inactivé",
+          "quantity": 18
+        },
+        {
+          "name": "Spores de Fongus",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Éclat subsistant du pouvoir brûlant",
+          "quantity": 9
+        },
+        {
+          "name": "Noyau fongique dormant",
+          "quantity": 9
+        },
+        {
+          "name": "Pollen fluorescent",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Rêve dominant du pouvoir brûlant",
+          "quantity": 5
+        },
+        {
+          "name": "Noyau fongique dormant",
+          "quantity": 18
+        },
+        {
+          "name": "Pollen fluorescent",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Rêve dominant du pouvoir brûlant",
+          "quantity": 9
+        },
+        {
+          "name": "Noyau fongique robuste",
+          "quantity": 14
+        },
+        {
+          "name": "Poussière cristalline de sporange",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Passé glorieux du pouvoir brûlant",
+          "quantity": 6
+        },
+        {
+          "name": "Noyau fongique robuste",
+          "quantity": 27
+        },
+        {
+          "name": "Poussière cristalline de sporange",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 454
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

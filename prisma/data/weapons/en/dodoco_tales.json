@@ -1,0 +1,181 @@
+{
+  "name": "Dodoco Tales",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2021-06-17",
+  "description": "A children's book filled with childish short stories at which one cannot help but laugh. Even those readers who have long reached adulthood cannot help but be absorbed by the innocent, naive little adventures portrayed within.",
+  "history": "Legend has it that there is a group of islands somewhere far away in the middle of a foggy sea, and this place is called the Golden Apple Archipelago. They say that the cute and peace-loving Dodo Clan lives together on the many islands, and they have no troubles with the rest of the world. The Dodo Clan are kind and playful creatures, and they love to tease each other and play with each other, and none of them ever get bored or sad. \"Dodoco!\" they all call each other, and that means \"the best of friends!\" But just as dandelion seeds will one day leave the embrace of their stalk and go with the wind, every Dodoco will one day ride the wind and the waves, and travel to the wider world on an adventure, searching for a four-leaf clover. Why must they do this? It's because, having lived for a long time on the Golden Apple Archipelago, the Dodocos can no longer recognize each other. They're all \"Dodocos,\" and they all look the same, after all! So there's no \"you\" or \"me\" for them at all! But only the red, blazing four-leaf clover can let them know the true meaning of \"Dodoco\" and tell each other apart, thus allowing them to play freely with all their friends! ...At least, that's what my mom says, and she can do just about aaaanything! So, in order to understand what makes a true \"Dodoco,\" they leave their good friends and go to faraway places to make new good friends and become their \"Dodoco,\" too! They'll see all kinds of nice things, hear all kinds of interesting stuff, meet lots of friends... and one day, when their friends are looking at them, at a time when no one expects it — that's when the blazing, sparkling four-leaf clover will appear! And that's why when a furry Dodoco from the Golden Apple Archipelago tumbles into the sea or leaps into the wind before drifting far, far away, that means that a lucky child is about to meet their bestest friend ever! This small, precious book was given by the freest mother in the world to the luckiest daughter in the world. It chronicles the countless adventures that Dodoco had before meeting her, and the adventures that she and Dodoco have had since — bigger and better adventures filled with sparks, splashes, treasures, and lots of friends!",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Milk Tooth",
+          "quantity": 3
+        },
+        {
+          "name": "Dead Ley Line Branch",
+          "quantity": 3
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 3
+        },
+        {
+          "name": "Dead Ley Line Branch",
+          "quantity": 12
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 6
+        },
+        {
+          "name": "Dead Ley Line Leaves",
+          "quantity": 6
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 3
+        },
+        {
+          "name": "Dead Ley Line Leaves",
+          "quantity": 12
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 6
+        },
+        {
+          "name": "Ley Line Sprout",
+          "quantity": 9
+        },
+        {
+          "name": "Ominous Mask",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Nostalgia",
+          "quantity": 4
+        },
+        {
+          "name": "Ley Line Sprout",
+          "quantity": 18
+        },
+        {
+          "name": "Ominous Mask",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

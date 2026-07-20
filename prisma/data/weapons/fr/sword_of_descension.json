@@ -1,0 +1,181 @@
+{
+  "name": "Épée de la descente",
+  "type": "SWORD",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Une épée à l'apparence particulière qui ne semble pas appartenir à ce monde.",
+  "history": "Voici la preuve de votre arrivée si particulière dans ce monde. Seule une personne qui a osé défier les lois du monde peut manier une telle lame. Elle fut brandie pour la dernière fois lorsque l'humanité tenta de résister l'ordre naturel des choses en préservant son monde destiné à la ruine. Ce monde était leur dernier et seul refuge. Cette épée fut tirée afin d'affronter la destruction. Aller à l'encontre de la loi de l'univers, selon laquelle tout ce qui vit doit mourir, était aussi stupide que de se battre contre des moulins à vent. Lorsque vous vous retrouvez face à un destin funeste et que vous deviez affronter les ténèbres qui engloutissent les étoiles, quelle arme serait la plus utile dans cette situation ? La réponse est simple : une épée. Au moins, elle transportera la mémoire des braves qui auront péri pour leur avenir... En maniant cette épée, vous cherchez les réponses que ce monde cache. Cette arme peut être utilisée sans aucun souci dans un monde tel que celui-ci. Non pas en raison de son environnement lumineux ou pour des raisons esthétiques, mais parce que votre quête est la raison de votre venue ici. Lorsque le passé est révolu, que le futur approche, et que le présent disparaît, vous pouvez vous fier au tranchant de cette épée. Elle sera efficace pour vous défendre. Après tout, elle est faite pour servir une personne comme vous. À la recherche de la vérité, vous triompherez n'importe quel défi au cours de votre périple. Prenez-la, avancez, et grâce à elle, abattez tous les obstacles et résolvez les mystères qui se présenteront à vous.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Dent de lait du Loup boréal",
+          "quantity": 5
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 5
+        },
+        {
+          "name": "Insigne des Pilleurs",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 5
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 18
+        },
+        {
+          "name": "Insigne des Pilleurs",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 9
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 9
+        },
+        {
+          "name": "Insigne de corbeau en argent",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 5
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 18
+        },
+        {
+          "name": "Insigne de corbeau en argent",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 9
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 14
+        },
+        {
+          "name": "Insigne de corbeau en or",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Nostalgie du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 27
+        },
+        {
+          "name": "Insigne de corbeau en or",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "40": {
+      "baseAtk": 176
+    },
+    "50": {
+      "baseAtk": 229
+    },
+    "60": {
+      "baseAtk": 282
+    },
+    "70": {
+      "baseAtk": 335
+    },
+    "80": {
+      "baseAtk": 388
+    },
+    "90": {
+      "baseAtk": 440
+    },
+    "20_ASC": {
+      "baseAtk": 120
+    },
+    "40_ASC": {
+      "baseAtk": 202
+    },
+    "50_ASC": {
+      "baseAtk": 255
+    },
+    "60_ASC": {
+      "baseAtk": 308
+    },
+    "70_ASC": {
+      "baseAtk": 361
+    },
+    "80_ASC": {
+      "baseAtk": 414
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Twin Nephrite",
+  "type": "CATALYST",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "A jade pendant formed by piecing together two jade stones.",
+  "history": "A jade piece which, despite its exquisite packaging, has been placed in one of the least prominent positions in the store. The box comes with an official-looking certificate of premium quality, issued by an organization that no one has ever heard of. To the untrained eye, the luxurious packaging and accessories would probably be enough to lure one in. However, it is still reasonable value for money when compared with genuine top-quality jade pieces.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Mist Veiled Lead Elixir",
+          "quantity": 2
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 2
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 2
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 8
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 4
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 2
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 8
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 6
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Mist Veiled Primo Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 12
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 40
+    },
+    "20": {
+      "baseAtk": 102
+    },
+    "40": {
+      "baseAtk": 187
+    },
+    "50": {
+      "baseAtk": 239
+    },
+    "60": {
+      "baseAtk": 292
+    },
+    "70": {
+      "baseAtk": 344
+    },
+    "80": {
+      "baseAtk": 396
+    },
+    "90": {
+      "baseAtk": 448
+    },
+    "20_ASC": {
+      "baseAtk": 121
+    },
+    "40_ASC": {
+      "baseAtk": 207
+    },
+    "50_ASC": {
+      "baseAtk": 259
+    },
+    "60_ASC": {
+      "baseAtk": 311
+    },
+    "70_ASC": {
+      "baseAtk": 363
+    },
+    "80_ASC": {
+      "baseAtk": 415
+    }
+  }
+}

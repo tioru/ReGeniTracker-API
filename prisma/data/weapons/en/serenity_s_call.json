@@ -1,0 +1,181 @@
+{
+  "name": "Serenity's Call",
+  "type": "SWORD",
+  "rarity": 4,
+  "releaseDate": "2025-09-10 11:00:00 GMT+8",
+  "description": "A longsword forged from metal that makes a mournful sound when swung.",
+  "history": "Once upon a time, whispered tales spoke of a bloodthirsty spirit amidst the cold forest veiled in frost and mist. Legend told of a malevolent phantom, swift to anger, that spared no one who trespassed the deepwood's bower. Whether they be the overbearing soldiers of the northern realm, or the most raucous bandits of the tundra, All fell a-quiet at the mention of Nephilheim's desolation. They would instinctively lower their voices, As if fearing that the low hum behind them might be the last sound they would ever hear. Very few knew that the hum came not from some vile spirit, but from the keen edge of a blade wielded by an unknown hunter. The silent hunter was an exile, one whose name appeared in no records and who had never fought for any ideal or banner. But for the children who had lost their homes in those turbulent times and fled to the frigid forest, Clutching a conch as their only token of trust, he simply killed every villain that appeared in those woods. The cold metal of the blade could never mimic the echo of the conch, just like how the past could never be reclaimed. Yet the warmth that bloomed from people's necks was enough to silence the wicked, preserving the children's peaceful dreams. From the days of the gentry and the old Tsar, and through the protracted struggle to reconstruct a new order, The wandering hunter stayed silent, his only constant the whistle that hunted in the cold nights. It was only when the frozen woods were emptied of all the children who had lost a place of refuge, And the aged guardian himself had forgotten how to speak amidst the endless pale nights, Did the hunter finally cast his blade aside. He then turned toward the deepwood and vanished, never to be seen again.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Artful Device Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Frostnight's Glimmer",
+          "quantity": 3
+        },
+        {
+          "name": "Tattered Warrant",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Artful Device Replica",
+          "quantity": 3
+        },
+        {
+          "name": "Frostnight's Glimmer",
+          "quantity": 12
+        },
+        {
+          "name": "Tattered Warrant",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Artful Device Replica",
+          "quantity": 6
+        },
+        {
+          "name": "Frostnight's Glow",
+          "quantity": 6
+        },
+        {
+          "name": "Immaculate Warrant",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Artful Device Inheritance",
+          "quantity": 3
+        },
+        {
+          "name": "Frostnight's Glow",
+          "quantity": 12
+        },
+        {
+          "name": "Immaculate Warrant",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Artful Device Inheritance",
+          "quantity": 6
+        },
+        {
+          "name": "Frostnight's Glory",
+          "quantity": 9
+        },
+        {
+          "name": "Frost-Etched Warrant",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Artful Device Wish",
+          "quantity": 4
+        },
+        {
+          "name": "Frostnight's Glory",
+          "quantity": 18
+        },
+        {
+          "name": "Frost-Etched Warrant",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

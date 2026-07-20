@@ -1,0 +1,181 @@
+{
+  "name": "Fleur de mailles",
+  "type": "CLAYMORE",
+  "rarity": 4,
+  "releaseDate": "2023-03-03",
+  "description": "Une grande épée gracieuse et élégante décorée de fleurs et de rubans.",
+  "history": "La forme de l'alizée s'est perdue dans les marées mouvantes du temps. Son nom est devenu en temps de paix synonyme d'amour et de joie. Parfois, même les armes forgées pour la conquête et la victoire Sont, selon les désirs du mandataire ou de l'artisan, ornées de telles fleurs. Quelqu'un semble avoir fait fabriquer cette lame pour un être cher. « L'acier ne parvient pas à le couper, et les pierres d'une prison ne peuvent point le confiner. Le vent n'a pas peur du futur, coulant vers l'avenir d'un rythme sûr. » Le berger sans nom qui n'appartenait pas au clergé racontait en silence l'histoire du vent, Et présentait des « fleurs » aux auditeurs dont les yeux recelaient encore une étincelle. Si les nobles avaient oublié leur serment originel, si le silence vaniteux était devenu populaire, Ou si le principe du sang s'opposait au vent, la légende des arbres et des fleurs serait interdite. À cette époque, de nombreuses fleurs fleurissaient dans des endroits peu appréciés des gens. Bien que finalement emportées par le vent, elles laissèrent néanmoins un instant d'éclat dans ce monde sombre. « Dans l'ombre de la tour d'antan, dans les ruelles d'aujourd'hui, Dans les moindres recoins, les fleurs s'épanouissent sous la plus faible des lueurs. » Le berger sans nom qui n'appartenait pas au palais racontait en silence l'histoire des fleurs : « Aujourd'hui, le Ludi Harpastum nous a été dérobé par la noblesse. Mais saviez-vous que, dans les ruines que balayaient autrefois des vents puissants, se trouvaient des fleurs sauvages par monts et par vaux. Ces fleurs n'étaient pas du genre commun : plus le vent soufflait fort, plus leurs racines poussaient vigoureusement et plus elles s'épanouissaient. Le jour où le royaume sera parsemé de ces fleurs sera le jour où la tour tombera finalement. »",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Entraves du Chevalier du Croc de Lion",
+          "quantity": 3
+        },
+        {
+          "name": "Coque desséchée",
+          "quantity": 3
+        },
+        {
+          "name": "Coquille spectrale",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 3
+        },
+        {
+          "name": "Coque desséchée",
+          "quantity": 12
+        },
+        {
+          "name": "Coquille spectrale",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 6
+        },
+        {
+          "name": "Coque robuste",
+          "quantity": 6
+        },
+        {
+          "name": "Cœur spectral",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 3
+        },
+        {
+          "name": "Coque robuste",
+          "quantity": 12
+        },
+        {
+          "name": "Cœur spectral",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 6
+        },
+        {
+          "name": "Coque marquée",
+          "quantity": 9
+        },
+        {
+          "name": "Noyau spectral",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Idéaux du Chevalier du Croc de Lion",
+          "quantity": 4
+        },
+        {
+          "name": "Coque marquée",
+          "quantity": 18
+        },
+        {
+          "name": "Noyau spectral",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 43
+    },
+    "20": {
+      "baseAtk": 118
+    },
+    "40": {
+      "baseAtk": 225
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 360
+    },
+    "70": {
+      "baseAtk": 428
+    },
+    "80": {
+      "baseAtk": 496
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 251
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 386
+    },
+    "70_ASC": {
+      "baseAtk": 454
+    },
+    "80_ASC": {
+      "baseAtk": 522
+    }
+  }
+}

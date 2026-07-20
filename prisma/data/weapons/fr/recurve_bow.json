@@ -1,0 +1,181 @@
+{
+  "name": "Arc courbé",
+  "type": "BOW",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "Avec cet arc de chasse, vous devriez pouvoir abattre un aigle en plein vol. Bien évidemment, le résultat dépend entièrement de la technique de l'archer.",
+  "history": "Un arc courbe réalisé délicatement à partir de bois, d'os et de tendons d'animaux. Un archer aguerri peut abattre avec un aigle en plein vol. Cette arme fait la fierté de son possesseur, et est une preuve de sa maîtrise. Seuls les aigles sont à plaindre.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Entraves du Chevalier du Croc de Lion",
+          "quantity": 2
+        },
+        {
+          "name": "Dispositif du chaos",
+          "quantity": 2
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 2
+        },
+        {
+          "name": "Dispositif du chaos",
+          "quantity": 8
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 4
+        },
+        {
+          "name": "Circuit du chaos",
+          "quantity": 4
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 2
+        },
+        {
+          "name": "Circuit du chaos",
+          "quantity": 8
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 4
+        },
+        {
+          "name": "Noyau du chaos",
+          "quantity": 6
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Idéaux du Chevalier du Croc de Lion",
+          "quantity": 3
+        },
+        {
+          "name": "Noyau du chaos",
+          "quantity": 12
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 38
+    },
+    "20": {
+      "baseAtk": 86
+    },
+    "40": {
+      "baseAtk": 151
+    },
+    "50": {
+      "baseAtk": 193
+    },
+    "60": {
+      "baseAtk": 234
+    },
+    "70": {
+      "baseAtk": 274
+    },
+    "80": {
+      "baseAtk": 314
+    },
+    "90": {
+      "baseAtk": 354
+    },
+    "20_ASC": {
+      "baseAtk": 105
+    },
+    "40_ASC": {
+      "baseAtk": 171
+    },
+    "50_ASC": {
+      "baseAtk": 212
+    },
+    "60_ASC": {
+      "baseAtk": 253
+    },
+    "70_ASC": {
+      "baseAtk": 294
+    },
+    "80_ASC": {
+      "baseAtk": 334
+    }
+  }
+}

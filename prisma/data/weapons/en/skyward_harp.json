@@ -1,0 +1,181 @@
+{
+  "name": "Skyward Harp",
+  "type": "BOW",
+  "rarity": 5,
+  "releaseDate": "2020-09-28",
+  "description": "A greatbow that symbolizes Dvalin's affiliation with the Anemo Archon. The sound of the bow firing is music to the Anemo Archon's ears. It contains the power of the sky and wind within.",
+  "history": "The sky-piercing lyre. The clear tunes of this lyre still echo in the hearts of the people and in the winds. It is said that the ancient evil dragon from the abyss was enticed here by its tunes. In ancient times, Barbatos softly strummed his lyre and summoned the pure thousand winds and songs. Charmed by the free-spirited winds and songs, Dvalin the high dragon descended and swore loyalty to him. Barbatos rejoiced in making a new friend, and entrusted the people of Mondstadt to Dvalin. And so, the wandering Anemo Archon and the Wind Dragon forged Mondstadt's dawn with their relationship. The floating tunes of the lyre halted the shadow dragon's attack in the final battle. Granting Dvalin the chance to end the shadow dragon's poisonous reign. Eons after the winds sang and the vicious battle ended, Dvalin awoke from his long slumber. But gone was his master, and instead he was met by the poisonous whispers of the Abyss Order. Unseen pain. Unheard torture. An all-engulfing sorrow crushed the poisoned Dvalin's spirit. Dvalin turned on what he vowed to protect, And accursed the one to whom he had sworn loyalty: \"Indifferent is Barbatos to my pain! A careless friend is he!\" \"Curse you, Barbatos, cruelest of the Archons!\" The furious friend knew not that Barbatos sought to save him. For many fond memories may have been quashed by Dvalin's anguish, but not that of Barbatos' lyre. The Holy Lyre der Himmel. Soon, centuries of misunderstanding shall be gone. Soon, Dvalin shall hear once more his songs.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Milk Tooth",
+          "quantity": 5
+        },
+        {
+          "name": "Dead Ley Line Branch",
+          "quantity": 5
+        },
+        {
+          "name": "Firm Arrowhead",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 5
+        },
+        {
+          "name": "Dead Ley Line Branch",
+          "quantity": 18
+        },
+        {
+          "name": "Firm Arrowhead",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 9
+        },
+        {
+          "name": "Dead Ley Line Leaves",
+          "quantity": 9
+        },
+        {
+          "name": "Sharp Arrowhead",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 5
+        },
+        {
+          "name": "Dead Ley Line Leaves",
+          "quantity": 18
+        },
+        {
+          "name": "Sharp Arrowhead",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 9
+        },
+        {
+          "name": "Ley Line Sprout",
+          "quantity": 14
+        },
+        {
+          "name": "Weathered Arrowhead",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Nostalgia",
+          "quantity": 6
+        },
+        {
+          "name": "Ley Line Sprout",
+          "quantity": 27
+        },
+        {
+          "name": "Weathered Arrowhead",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

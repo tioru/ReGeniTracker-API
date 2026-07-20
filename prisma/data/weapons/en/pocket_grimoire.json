@@ -1,0 +1,177 @@
+{
+  "name": "Pocket Grimoire",
+  "type": "CATALYST",
+  "rarity": 2,
+  "releaseDate": "2020-09-28",
+  "description": "A carefully compiled notebook featuring the essentials needed to pass a magic exam.",
+  "history": "A manual on magic that is popular amongst students, it is portable enough to fit into one's pocket. It has been stripped of the lengthy descriptions of principles and voluminous exercises. All that is left now is exam content. Currently obsolete due to the revisions made in the 12th edition of the Magic Guide.",
+  "sellers": [
+    {
+      "name": "Ahangar",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Alom",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Estelle",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Hajime",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Lyulka",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Master Zhang",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Wagner",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    }
+  ],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Tile of Decarabian's Tower",
+          "quantity": 1
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 1
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 5
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 3
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 1
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 5
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 33
+    },
+    "20": {
+      "baseAtk": 80
+    },
+    "40": {
+      "baseAtk": 139
+    },
+    "50": {
+      "baseAtk": 174
+    },
+    "60": {
+      "baseAtk": 209
+    },
+    "70": {
+      "baseAtk": 243
+    },
+    "20_ASC": {
+      "baseAtk": 91
+    },
+    "40_ASC": {
+      "baseAtk": 151
+    },
+    "50_ASC": {
+      "baseAtk": 186
+    },
+    "60_ASC": {
+      "baseAtk": 220
+    }
+  }
+}

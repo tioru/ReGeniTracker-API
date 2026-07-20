@@ -1,0 +1,181 @@
+{
+  "name": "Memory of Dust",
+  "type": "CATALYST",
+  "rarity": 5,
+  "releaseDate": "2020-11-11",
+  "description": "A stone dumbbell containing distant memories. Its endless transformations reveal the power within.",
+  "history": "\"This is the mark of our pledge, and it is also my challenge to you.\" \"All my wisdom is hidden within this stone dumbbell.\" He remembers meeting the young woman with the billowing sleeves, remembers the way she acted solemn, yet seemed joyful when she presented him this token. What a silly notion. There was no formal contract between them. They were merely two people walking the same path for their own reasons... But he remembers the scene of their first meeting anyway, when the Glaze Lilies were still in abundant bloom. He also remembers those words she spoke at the end — again, amid the Glaze Lilies. \"Those little people are as small and fragile as dust.\" \"Because they are so small, they know not when they will lose their lives to disaster or strife, and so they are afraid.\" \"Because they are afraid, they try so hard to become more intelligent. This I understand.\" \"So I thought that since there is such a gulf between us in strength, I should use technique and wisdom instead.\" \"With your brawn and my brains, this city would surely become a great one.\" Her final smile was a lonely one, even as her form dissolved into the finest dust. \"It seems that our journey together has come to an end. As for that stone dumbbell, forget about it, would you?\" \"This is the mark of our pledge, and it is also my challenge to you.\" \"All my wisdom is hidden within this stone dumbbell.\" \"If you can unlock it—\" Many years passed, and he was never able to unlock that dumbbell, nor would he ever learn what might have followed that sentence. Over the years, the wild Glaze Lilies, too, dwindled till at last they were no more.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Grain of Aerosiderite",
+          "quantity": 5
+        },
+        {
+          "name": "Fragile Bone Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 5
+        },
+        {
+          "name": "Fragile Bone Shard",
+          "quantity": 18
+        },
+        {
+          "name": "Damaged Mask",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 9
+        },
+        {
+          "name": "Sturdy Bone Shard",
+          "quantity": 9
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 5
+        },
+        {
+          "name": "Sturdy Bone Shard",
+          "quantity": 18
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 9
+        },
+        {
+          "name": "Fossilized Bone Shard",
+          "quantity": 14
+        },
+        {
+          "name": "Ominous Mask",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Chunk of Aerosiderite",
+          "quantity": 6
+        },
+        {
+          "name": "Fossilized Bone Shard",
+          "quantity": 27
+        },
+        {
+          "name": "Ominous Mask",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 46
+    },
+    "20": {
+      "baseAtk": 122
+    },
+    "40": {
+      "baseAtk": 235
+    },
+    "50": {
+      "baseAtk": 308
+    },
+    "60": {
+      "baseAtk": 382
+    },
+    "70": {
+      "baseAtk": 457
+    },
+    "80": {
+      "baseAtk": 532
+    },
+    "90": {
+      "baseAtk": 608
+    },
+    "20_ASC": {
+      "baseAtk": 153
+    },
+    "40_ASC": {
+      "baseAtk": 266
+    },
+    "50_ASC": {
+      "baseAtk": 340
+    },
+    "60_ASC": {
+      "baseAtk": 414
+    },
+    "70_ASC": {
+      "baseAtk": 488
+    },
+    "80_ASC": {
+      "baseAtk": 563
+    }
+  }
+}

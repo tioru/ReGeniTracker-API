@@ -1,0 +1,181 @@
+{
+  "name": "Blackcliff Longsword",
+  "type": "SWORD",
+  "rarity": 4,
+  "releaseDate": "2020-11-01",
+  "description": "A sword made of blackstone. It has a dark crimson glow on its black blade.",
+  "history": "A longsword wrought from a rare kind of stone known as \"blackcliff.\" Its sharp blade can cut through gold and jade with ease. On a clear moonlit night a strand of dark crimson, about the length of an outstretched hand, becomes visible along the center of the blade. Its blood-red glow faintly flickers in the dark, as if the blade is howling out into the night, announcing its desire to tear through the earth. After designs for the new prototypes came into being, the master craftsman Han Wu overhauled his entire weapon catalog. This particular design used a rare substance, crystallized blackcliff, to produce a superior-quality blade. When forging a blackcliff sword, subtle differences in temperature and in the type of water used for cooling can influence the final hardness and durability of the blade. This presents a major challenge to manufacturers of blackcliff weaponry. But it is one that the bladesmith must overcome if he is to free himself from the shackles that bind him and reach new heights of competency in his trade. Han Wu struggled to see beyond the limits of his casting techniques. Thanks to a contact of his good friend in the house of Yun, he was able to go with a crew to the Chasm to personally procure the materials for his new weapon. But a cave-in trapped the crew in the mine shaft for four days. Imprisoned within the impenetrable rock walls of the cave, the crew found their mining tools to be of no use. Deprived of all the natural light and thus of all the knowledge as to the time of day, one by one the trapped crew succumbed to the madness and despair. Just when they thought all hope was lost, Han Wu thought he saw a faint flickering emanate from the corner of the cave, where lay the prototype sword he had brought with him into the mine. With that sword he carved their way to freedom, and the survivors emerged from the pits of the earth into glorious bright sunlight. but the moment that the first ray of sunlight made contact with the blade, it shattered into a million pieces. All strength left the master craftsman's legs and he collapsed on the ground. Months later, he remade the sword and declared, \"This sword shall be named the Blackcliff Longsword, for it is made of blackcliff.\" All who beheld the Blackcliff Longsword were bewitched by its beauty, spellbound by its sharpness, and transfixed by its tenacity. But the crew spoke not a word of what they had witnessed during their ordeal in the mine... Deep in the all-consuming darkness, when the master craftsman struck his blade against the cave wall with all his might, the sword released a deafening roar, like thunder sweeping across the plains. Perhaps the crew knew that the sword's cry was to foreshadow an earthquake years into the future...",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Luminous Sands from Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Hunter's Sacrificial Knife",
+          "quantity": 3
+        },
+        {
+          "name": "Firm Arrowhead",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Hunter's Sacrificial Knife",
+          "quantity": 12
+        },
+        {
+          "name": "Firm Arrowhead",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Agent's Sacrificial Knife",
+          "quantity": 6
+        },
+        {
+          "name": "Sharp Arrowhead",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Relic from Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Agent's Sacrificial Knife",
+          "quantity": 12
+        },
+        {
+          "name": "Sharp Arrowhead",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Relic from Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Inspector's Sacrificial Knife",
+          "quantity": 9
+        },
+        {
+          "name": "Weathered Arrowhead",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Divine Body from Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Inspector's Sacrificial Knife",
+          "quantity": 18
+        },
+        {
+          "name": "Weathered Arrowhead",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

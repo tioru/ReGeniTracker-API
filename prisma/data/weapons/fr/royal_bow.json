@@ -1,0 +1,181 @@
+{
+  "name": "Arc royal",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Un arc long qui appartenait jadis aux dirigeants de Mondstadt. Après avoir connu bien des générations, sa corde légère est toujours capable de décocher des flèches à une vitesse impressionnante.",
+  "history": "Un arc long assez ancien, ayant appartenu à un noble de Mondstadt. Il est réalisé avec soin à partir de matériaux de qualité. Ceci explique sans doute pourquoi il est toujours intacte et n'a rien perdu de sa puissance d'antan. La chasse était autrefois le loisir des nobles. Elle leur permettait de faire montre de leur force, et d'en partager ses fruits avec le peuple. Mais cet esprit de générosité se perdit, et avec lui leur force. Après que le peuple se fut soulevé, le Clan Lawrence, qui avait dirigé si longtemps la cité, fut renversé. L'Ordre de Favonius nouvellement établi, dans un esprit de magnanimité, ne jugea pas nécessaire d'enquêter outre mesure. Et ainsi fut banni de Mondstadt le Clan Lawrence, pour n'y jamais revenir. « Sur la route de l'exil, je regarde mon père soupirer douloureusement ; après la trahison des hommes, après la fin d'un âge d'or, après la conclusion de l'histoire. » « Nous pouvons voir ceux qui autrefois nous servaient se réjouir sur les vertes terres, tandis qu'à jamais nous quittons le pays natal. » « Je ne réaliserai que des années plus tard que la trahison avait été de notre fait à nous, le Clan Lawrence. C'était nous qui avions changé. Ainsi devait s'écrire le livre de Mondstadt. » Vennessa ne fut que la dernière poussée qui fit s'écraser la tour. Avant elle avaient déjà commencé à brûler les flammes en furie. Que ce soit le voleur admiré en secret par le peuple, la demoiselle capable de voir la mort, ou la troupe itinérante aux rêves de rébellion : le sang des Mondstadtois bat au rythme de la résistance d'une génération à l'autre.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Entraves du Chevalier du Croc de Lion",
+          "quantity": 3
+        },
+        {
+          "name": "Dispositif du chaos",
+          "quantity": 3
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 3
+        },
+        {
+          "name": "Dispositif du chaos",
+          "quantity": 12
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 6
+        },
+        {
+          "name": "Circuit du chaos",
+          "quantity": 6
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 3
+        },
+        {
+          "name": "Circuit du chaos",
+          "quantity": 12
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 6
+        },
+        {
+          "name": "Noyau du chaos",
+          "quantity": 9
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Idéaux du Chevalier du Croc de Lion",
+          "quantity": 4
+        },
+        {
+          "name": "Noyau du chaos",
+          "quantity": 18
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

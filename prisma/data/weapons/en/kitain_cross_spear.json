@@ -1,0 +1,181 @@
+{
+  "name": "Kitain Cross Spear",
+  "type": "POLEARM",
+  "rarity": 4,
+  "releaseDate": "2021-07-21",
+  "description": "A special lance that was once used by a famed warrior who guarded the Tatarigami on Yashiori Island.",
+  "history": "A strangely-shaped spear made by Kitain Bunsou for his own unique style of spearmanship. Its massive weight makes it extremely unwieldy in untrained hands. But in the hands of an expert, it is capable of unleashing great destructive power. In the distant past, Kitain used to be a family that hunted the Tatarigami down. For many generations, they shouldered the responsibility of serving as the Prefects of Yashiori. In the past, there was a certain children's song that circulated widely within Inazuma: \"Arataki of the Front Gate, Iwakura the Successor, Kitain the Serpent, Takamine the Mistsplitter.\" These phrases describe the dazzling warriors who once illuminated the earth like comets. There used to be many other names on the list, but they have since been lost to history. And having been a demon hunter for so long, it is unavoidable that one might imbibe some of that miasmic, tainted blood.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Mask of the Wicked Lieutenant",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Gear",
+          "quantity": 3
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mask of the Tiger's Bite",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Gear",
+          "quantity": 12
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mask of the Tiger's Bite",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Axis",
+          "quantity": 6
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mask of the One-Horned",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Axis",
+          "quantity": 12
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mask of the One-Horned",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Oculus",
+          "quantity": 9
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Mask of the Kijin",
+          "quantity": 4
+        },
+        {
+          "name": "Chaos Oculus",
+          "quantity": 18
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

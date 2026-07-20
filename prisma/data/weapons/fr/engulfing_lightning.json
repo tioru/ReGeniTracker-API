@@ -1,0 +1,181 @@
+{
+  "name": "Lumière du faucheur",
+  "type": "POLEARM",
+  "rarity": 5,
+  "releaseDate": "2021-09-01",
+  "description": "Une naginata utilisée pour « faucher les mauvaises herbes ». Tout soldat se tenant devant sa lame sera probablement également taillé d'un peu trop près...",
+  "history": "La naginata était une arme mortelle capable de trancher les impuretés. Celui qui maniait cette arme était celui qui protégeait le chemin vers l'éternité. Lorsque celle qui se tenait au-dessus des nuages de tempête regarda vers le monde des mortels qu'elle aimait tant, elle constata leurs querelles sans fondement et leur obsession pour l'éphémère... De telles disputes puisaient leur source dans des liens inutiles et des désirs incontrôlés, tous deux ennemis de l'éternité. Les mauvaises herbes qui perturbaient le monde immuable seraient emportées par la foudre. « Alors, quelle sorte d'éternité se refléterait dans les yeux de ███ ? » Telle était la question de l'être divin. Quelle question inutile. La réponse qu'elle prononça s'était perdue dans les effluves d'alcool, Mais elle avait déjà obtenu cette réponse un nombre incalculable de fois dans ces souvenirs. Les fruits doivent être éclaircis pour en améliorer la qualité et les fleurs des plantes utilisées pour la teinture doivent être taillées. Pas une seule poussière d'impureté ne pouvait être admise dans le paradis éternel. « Quand bien même... » « Déraciner toute obsession grâce à cette lame de foudre, éliminer toute chance pour les rêves de prendre racine et les laisser flétrir d'eux-mêmes... » « Un monde tranquille qui ne tolère ni conflit, ni gain, ni perte... Un monde amnésique, perdu en lui-même. » Au cœur de l'éternité, les vieux amis sont toujours si paisibles, l'odeur du cerisier si douce, comme dans le présent. Mais je ne t'oublierai jamais, tout comme je n'oublierai jamais tout ce que j'ai perdu au fil des années. Après tout... Elle qui fut témoin de l'annihilation par les ténèbres de ceux qui lui étaient chers, comment ne pourrait-elle pas considérer l'absurde nature de la vie et de la mort, le destin incompréhensible, comme son ennemi mortel ? Puisque personne ne peut renverser le caractère éphémère du monde et la nature stérile de ce jeu, elle poursuit alors l'euthymie éternelle de son cœur jusque dans cette nation qu'elle aime tant.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Mask of the Wicked Lieutenant",
+          "quantity": 5
+        },
+        {
+          "name": "Chaos Gear",
+          "quantity": 5
+        },
+        {
+          "name": "Old Handguard",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mask of the Tiger's Bite",
+          "quantity": 5
+        },
+        {
+          "name": "Chaos Gear",
+          "quantity": 18
+        },
+        {
+          "name": "Old Handguard",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mask of the Tiger's Bite",
+          "quantity": 9
+        },
+        {
+          "name": "Chaos Axis",
+          "quantity": 9
+        },
+        {
+          "name": "Kageuchi Handguard",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mask of the One-Horned",
+          "quantity": 5
+        },
+        {
+          "name": "Chaos Axis",
+          "quantity": 18
+        },
+        {
+          "name": "Kageuchi Handguard",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mask of the One-Horned",
+          "quantity": 9
+        },
+        {
+          "name": "Chaos Oculus",
+          "quantity": 14
+        },
+        {
+          "name": "Famed Handguard",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Mask of the Kijin",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Oculus",
+          "quantity": 27
+        },
+        {
+          "name": "Famed Handguard",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 46
+    },
+    "20": {
+      "baseAtk": 122
+    },
+    "40": {
+      "baseAtk": 235
+    },
+    "50": {
+      "baseAtk": 308
+    },
+    "60": {
+      "baseAtk": 382
+    },
+    "70": {
+      "baseAtk": 457
+    },
+    "80": {
+      "baseAtk": 532
+    },
+    "90": {
+      "baseAtk": 608
+    },
+    "20_ASC": {
+      "baseAtk": 153
+    },
+    "40_ASC": {
+      "baseAtk": 266
+    },
+    "50_ASC": {
+      "baseAtk": 340
+    },
+    "60_ASC": {
+      "baseAtk": 414
+    },
+    "70_ASC": {
+      "baseAtk": 488
+    },
+    "80_ASC": {
+      "baseAtk": 563
+    }
+  }
+}

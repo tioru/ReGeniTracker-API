@@ -1,0 +1,181 @@
+{
+  "name": "Alley Hunter",
+  "type": "BOW",
+  "rarity": 4,
+  "releaseDate": "2021-04-06",
+  "description": "An intricate, opulent longbow. It once belonged to a gentleman thief who was never caught.",
+  "history": "This fine bow has been painted black, all the better to blend perfectly into the deepest night. This was once the first choice of an opulent noble house in their hunting games. Till one day, it fell into the hands of a gentleman thief who was never caught. Its user shot the crowns from the heads of the nobles in utter silence. It shot through many a tightened bond, and disarmed many a pursuing soldier. It once vowed to bring light to a darkened age. To bring justice, riches and gladness to the oppressed. In the past, he did indeed bring justice, riches and gladness to the oppressed, and he brought fear unto those in power, giving them countless sleepless nights in their impotent rage. He brought light footsteps like rain to the roofs and terraces, and he brought song to the bards in the squares. He even once pried a sapphire from a noble's regalia to give to a blue-eyed witch, who hunted the vile with spear in hand. But even to the last, he was unable to bring a single smile to the lips of the witch whom his soul loved, who was as cold as the sapphire he gave her. In the end, seeking death, her flower-like face was marked with a criminal's brand, and none knew where she went thereafter. In the end, the noble thief listened to the advice of his brothers. Abandoning his vow, he sailed into the ocean that belonged to no one. \"Pray tell, does she still recall my song? Does she remember those years that pursue me even now, of the wine-scented streets and the songs sung of her?\"",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fetters of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 3
+        },
+        {
+          "name": "Slime Condensate",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 12
+        },
+        {
+          "name": "Slime Condensate",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 6
+        },
+        {
+          "name": "Slime Secretions",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 12
+        },
+        {
+          "name": "Slime Secretions",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 9
+        },
+        {
+          "name": "Slime Concentrate",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Dream of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 18
+        },
+        {
+          "name": "Slime Concentrate",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

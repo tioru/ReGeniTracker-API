@@ -1,0 +1,181 @@
+{
+  "name": "Prospector's Drill",
+  "type": "POLEARM",
+  "rarity": 4,
+  "releaseDate": "2023-10-17",
+  "description": "A long-handled drill that you can rarely find nowadays. It was often used in delving and in carving stones.",
+  "history": "A handy tool that can drill into the ground and rocks with ease. It had a wide range of uses in prospecting and other operations. Even stonemasons and construction workers utilized its characteristics, To cut rocks and create preliminary shapes and structures. Like the chainsaw once popular in the workshops and docks, It relied on traditional and inefficient fuel to run. At that time, when controllable Pneumousia annihilation reactions had not been developed, The primitive clockwork meka were hindered by suboptimal kinematics and dynamics, And were seen as nothing more than curiosities and indulgences, While manual labor remained a necessity. The tool's long grip was a fuel storage compartment and should be treated with care. Even so, there were records of the drill being used in battle. The tool's piercing and cutting power were unmatched. Since it could pierce through even rocks like a hot knife through butter, It made quick work out of penetrating through even softer materials. As society advanced, this type of tool gradually ceased to be used in public. And like some other tools, unauthorized possession of it also became prohibited by administrative order.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fragment of an Ancient Chord",
+          "quantity": 3
+        },
+        {
+          "name": "Old Operative's Pocket Watch",
+          "quantity": 3
+        },
+        {
+          "name": "Meshing Gear",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chapter of an Ancient Chord",
+          "quantity": 3
+        },
+        {
+          "name": "Old Operative's Pocket Watch",
+          "quantity": 12
+        },
+        {
+          "name": "Meshing Gear",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chapter of an Ancient Chord",
+          "quantity": 6
+        },
+        {
+          "name": "Operative's Standard Pocket Watch",
+          "quantity": 6
+        },
+        {
+          "name": "Mechanical Spur Gear",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Movement of an Ancient Chord",
+          "quantity": 3
+        },
+        {
+          "name": "Operative's Standard Pocket Watch",
+          "quantity": 12
+        },
+        {
+          "name": "Mechanical Spur Gear",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Movement of an Ancient Chord",
+          "quantity": 6
+        },
+        {
+          "name": "Operative's Constancy",
+          "quantity": 9
+        },
+        {
+          "name": "Artificed Dynamic Gear",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Echo of an Ancient Chord",
+          "quantity": 4
+        },
+        {
+          "name": "Operative's Constancy",
+          "quantity": 18
+        },
+        {
+          "name": "Artificed Dynamic Gear",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 118
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

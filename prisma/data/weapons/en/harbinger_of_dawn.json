@@ -1,0 +1,181 @@
+{
+  "name": "Harbinger of Dawn",
+  "type": "SWORD",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "A sword that once shone like the sun. The wielder of this sword will be blessed with a \"feel-good\" buff. The reflective material on the blade has long worn off.",
+  "history": "This sword has an extraordinary full name: The Triumphant Harbinger of Dawn that Points Towards Victory. Only one has ever fallen by this blade on the battlefield. One night, the bearer drew the sword triumphantly. The night sky lit up as bright as day, pin-pointing his precise location. Arrows rained down upon him.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Milk Tooth",
+          "quantity": 2
+        },
+        {
+          "name": "Dead Ley Line Branch",
+          "quantity": 2
+        },
+        {
+          "name": "Slime Condensate",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 2
+        },
+        {
+          "name": "Dead Ley Line Branch",
+          "quantity": 8
+        },
+        {
+          "name": "Slime Condensate",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 4
+        },
+        {
+          "name": "Dead Ley Line Leaves",
+          "quantity": 4
+        },
+        {
+          "name": "Slime Secretions",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Dead Ley Line Leaves",
+          "quantity": 8
+        },
+        {
+          "name": "Slime Secretions",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 4
+        },
+        {
+          "name": "Ley Line Sprout",
+          "quantity": 6
+        },
+        {
+          "name": "Slime Concentrate",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Boreal Wolf's Nostalgia",
+          "quantity": 3
+        },
+        {
+          "name": "Ley Line Sprout",
+          "quantity": 12
+        },
+        {
+          "name": "Slime Concentrate",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "40": {
+      "baseAtk": 169
+    },
+    "50": {
+      "baseAtk": 216
+    },
+    "60": {
+      "baseAtk": 263
+    },
+    "70": {
+      "baseAtk": 309
+    },
+    "80": {
+      "baseAtk": 355
+    },
+    "90": {
+      "baseAtk": 401
+    },
+    "20_ASC": {
+      "baseAtk": 113
+    },
+    "40_ASC": {
+      "baseAtk": 189
+    },
+    "50_ASC": {
+      "baseAtk": 236
+    },
+    "60_ASC": {
+      "baseAtk": 282
+    },
+    "70_ASC": {
+      "baseAtk": 329
+    },
+    "80_ASC": {
+      "baseAtk": 375
+    }
+  }
+}

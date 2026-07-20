@@ -1,0 +1,181 @@
+{
+  "name": "The Alley Flash",
+  "type": "SWORD",
+  "rarity": 4,
+  "releaseDate": "2021-03-17",
+  "description": "A straight sword as black as the night. It once belonged to a thief who roamed the benighted streets.",
+  "history": "A mighty and noble longsword that bursts forth like a flash of light from the depths of the night. To the end, not even once was the sword's edge marred by blood. It is said that over the generations, many swords crafted for the noblest of knights have been based on this design. The darkened blade blended into the nights of yore with ease, For in those days, people feared to light fires in the nighttime. According the songs of some bards, it was stained black during the age of the aristocracy. Reading the tales and songs of his upright ancestors sowed seeds of rebellion in the young noble's heart. When the time came, he forsook his venerable house, stole this sword, and hid himself in the streets. There he roamed the dark alleys and taverns like the common folk, and put his noble swordsmanship to use by robbing the rich to give to the poor. Under cover of night, the sword from an opulent arsenal leaped across roofs and streets in the hands of one with equally noble blood. The blade's pristine edge remained unblemished, as did the heart of the gentleman thief who had forsaken his corrupt lineage. But wine and song and youth would fade, and many things would happen. In the end, when under moonlight he buried his beloved blade and fled across the sea, He remembered that night when he had stolen it from his family's vault, And he remembered his vow to his family, to past and present, to his land, and to his sworn brother Eberhart:<ref group=\"Note\">In the original Chinese description, Eberhart is his , not his sworn brother.</ref> \"Even if only by a little, I want to use my strength to turn this dark world around.\"",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Tile of Decarabian's Tower",
+          "quantity": 3
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 3
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 12
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 6
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 6
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 3
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 12
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 6
+        },
+        {
+          "name": "Black Crystal Horn",
+          "quantity": 9
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Scattered Piece of Decarabian's Dream",
+          "quantity": 4
+        },
+        {
+          "name": "Black Crystal Horn",
+          "quantity": 18
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 45
+    },
+    "20": {
+      "baseAtk": 128
+    },
+    "40": {
+      "baseAtk": 247
+    },
+    "50": {
+      "baseAtk": 321
+    },
+    "60": {
+      "baseAtk": 395
+    },
+    "70": {
+      "baseAtk": 470
+    },
+    "80": {
+      "baseAtk": 545
+    },
+    "90": {
+      "baseAtk": 620
+    },
+    "20_ASC": {
+      "baseAtk": 154
+    },
+    "40_ASC": {
+      "baseAtk": 273
+    },
+    "50_ASC": {
+      "baseAtk": 347
+    },
+    "60_ASC": {
+      "baseAtk": 429
+    },
+    "70_ASC": {
+      "baseAtk": 496
+    },
+    "80_ASC": {
+      "baseAtk": 571
+    }
+  }
+}

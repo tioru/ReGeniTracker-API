@@ -1,0 +1,181 @@
+{
+  "name": "Épée du faucon",
+  "type": "SWORD",
+  "rarity": 5,
+  "releaseDate": "2020-09-28",
+  "description": "L'âme de l'Ordre de Favonius. Même après des millénaires, elle continue d'appeler le vent de la justice pour venir à bout du mal – tout comme la dernière héroïne à qui elle appartenait.",
+  "history": "Comme nul ne l'ignore, la protection du faucon est un don de Favonius. Mais peu savent que le don de Favonius remonte à une distante tribu. Mondstadt avait soif de liberté sous le règne tyrannique des aristocrates. La guerrière de la tribu en exil devint esclave dans le royaume du vent. Mais jamais pourtant elle ne ploya le genou devant l'injustice et la tromperie, par là inspirant le peuple. Et après qu'elle eut mis un terme à la domination des nobles, elle fonda l'Ordre des Chevaliers et l'Église. Et son heure venue, elle marcha aux côtés des dieux. Son épée, qui partagea ses joies et ses peines, devint le testament de ses exploits à travers Mondstadt. Vous pouvez ressentir son implacable présence lorsque vous brandissez l'arme. Justice pour l'opprimé ; Liberté pour l'enchaîné ; Sagesse pour le dupé ; Que les vents de la justice et de la liberté vous guident.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Tuile cassée de Décarabian",
+          "quantity": 5
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 5
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 5
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 18
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 9
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 9
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 5
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 18
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 9
+        },
+        {
+          "name": "Corne à cristal noir",
+          "quantity": 14
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Rêve brisé de Décarabian",
+          "quantity": 6
+        },
+        {
+          "name": "Corne à cristal noir",
+          "quantity": 27
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

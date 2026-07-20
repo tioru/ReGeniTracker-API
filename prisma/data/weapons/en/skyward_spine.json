@@ -1,0 +1,181 @@
+{
+  "name": "Skyward Spine",
+  "type": "POLEARM",
+  "rarity": 5,
+  "releaseDate": "2020-09-28",
+  "description": "A polearm that symbolizes Dvalin's fire resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind.",
+  "history": "A spine that holds up the sky. The true companion of the Anemo Archon never wavered in its desire to protect the land of wind. This unshakeable resolve sustained the wind dragon through its mortal battle against its vile nemesis. In olden times, the shadow dragon Durin, covetous of the peace Mondstadt enjoyed, came forth to defile the land. Durin's black wings blotted out the sky, releasing clouds of toxic fumes, So much so that even the thousand winds could not hold their pestilence and rot at bay, And thus fell black rain from the skies, the din of their downpour drowning the cries and groans of the people. The Anemo Archon was awakened by the sound of their agony, and his heart was pierced by their despair. So he summoned Dvalin to his side, and shrouding themselves in storm, they pierced through the poisoned skies. The great dragon plunged in with a cry, tearing a swathe through the noxious nimbus the shadow dragon had created. Following his wings came a great, swift whirlwind that destroyed those venomous clouds. Dvalin seized the poisonous dragon in his mighty claws, ascending to heights that even clouds could not fathom. The poisonous rain had scattered as the clouds had been left behind, and the burning skies became the dragons' battleground. At last the wind dragon's razor fangs pierced his foe's throat, and his great claws tore out its corrupted heart. The sinners' creation, filled with eternal regret, fell from the spotless skies and fell to ruin upon a snowy peak. That fierce battle in the distant skies had thus defended the people of the Anemo Archon. But at the moment of his triumph, the venomous ichor of his foe had flowed between his teeth and into his guts. The pain withered bone and marrow, and in his agony the great wind dragon curled up in the depths of an ancient ruin. ...Nursing his wounds, Dvalin still believed that one day, he would be reawakened. He would again pierce the heavens, scatter the darkness, and sing to the sounds of the lyre of the Anemo Archon, his dear friend.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fetters of the Dandelion Gladiator",
+          "quantity": 5
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 5
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 5
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 18
+        },
+        {
+          "name": "Divining Scroll",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 9
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 9
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 5
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 18
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 9
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 14
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Dream of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 27
+        },
+        {
+          "name": "Forbidden Curse Scroll",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

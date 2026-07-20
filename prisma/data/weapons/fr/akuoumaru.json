@@ -1,0 +1,181 @@
+{
+  "name": "Akuoumaru",
+  "type": "CLAYMORE",
+  "rarity": 4,
+  "releaseDate": "2021-10-13",
+  "description": "L'épée bien-aimée du légendaire « Akuou ». Sa lame est énorme et majestueuse, mais étonnamment facile à manier.",
+  "history": "Un sabre qui était autrefois utilisé par un puissant général de Watatsumi. Il est dit que ce général ne maîtrisait au sabre que les styles dit « Getsumouun » et « Yuushio » qu'il avait appris par lui-même. Pourtant, ces deux styles étaient suffisants pour qu'il ne soit jamais vaincu en duel. On entend souvent dire que les serpents et les poissons ont le sang froid... Mais les créatures à sang froid cherchent toujours les lieux chauds, qui sont pour eux une terre promise. Afin de réaliser les rêves de son peuple, la Divinité des tréfonds défia les nuages qui se rassemblaient. Dans les rangs des Watatsumiens en marche pour la conquête, un jeune homme se distingua des autres. Sa bravoure et son intrépidité lui valurent les honneurs de Watatsumi, et il reçut le surnom de Touzannou, le « roi de la montagne de l'Est ». Mais après de nombreuses années, ce titre royal fut oublié et il fut remplacé par le nom selon lequel il était connu de ses ennemis : « Akuou », les crocs et les griffes maléfiques du Grand serpent, l'envahisseur féroce et démoniaque de l'Île de Yashiori... Les massacres avaient endurci le jeune homme et fait de lui un guerrier. Mais pour lui... Seul le vœu qu'il avait fait avant de partir, une promesse faite sur la lune reflétée dans les eaux à côté du sanctuaire, était éternel. « Un jour, j'irai au sommet du Mont Yougou, pour contempler de haut le palais du seigneur du tonnerre. J'en découdrai avec le légendaire grand Tengu de Yougou lors d'un duel magistral sur le toit du Tenshukaku. Puis je rapporterai le masque du Tengu pour l'offrir à Ayame et Mouun en guise de souvenir ! » Au final, leurs souvenirs furent effacés comme un château de sable se faisant emporter par les vagues. Le masque du Tengu, qui rayonnait comme une étoile cramoisie, se brisa comme du sable dans le chaos de la bataille... Et la prêtresse, qui flamboyait dans l'esprit du jeune homme telle la clarté lunaire dans les profondeurs de l'océan, ne revint jamais. Quant à Akuou, il se tenait aux côtés du Grand serpent lorsque celui-ci fut frappé par un rayon foudroyant.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Branche marine de corail",
+          "quantity": 3
+        },
+        {
+          "name": "Griffe dissimulée",
+          "quantity": 3
+        },
+        {
+          "name": "Garde-main ancien",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Branche marine de gemme",
+          "quantity": 3
+        },
+        {
+          "name": "Griffe dissimulée",
+          "quantity": 12
+        },
+        {
+          "name": "Garde-main ancien",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Branche marine de gemme",
+          "quantity": 6
+        },
+        {
+          "name": "Ongle dissimulé",
+          "quantity": 6
+        },
+        {
+          "name": "Garde-main kageuchi",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Branche marine de jade",
+          "quantity": 3
+        },
+        {
+          "name": "Ongle dissimulé",
+          "quantity": 12
+        },
+        {
+          "name": "Garde-main kageuchi",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Branche marine de jade",
+          "quantity": 6
+        },
+        {
+          "name": "Serre dissimulée",
+          "quantity": 9
+        },
+        {
+          "name": "Garde-main célèbre",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Branche marine d'or",
+          "quantity": 4
+        },
+        {
+          "name": "Serre dissimulée",
+          "quantity": 18
+        },
+        {
+          "name": "Garde-main célèbre",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

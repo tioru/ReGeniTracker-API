@@ -1,0 +1,177 @@
+{
+  "name": "Grimoire de poche",
+  "type": "CATALYST",
+  "rarity": 2,
+  "releaseDate": "2020-09-28",
+  "description": "Un petit carnet rempli de notes concernant un examen de magie.",
+  "history": "Ce grimoire est populaire auprès des apprentis magiciens, car il est suffisamment petit pour tenir en poche. Les longues explications et les exercices circonvolus en ont été retirés, et il ne reste que le contenu testé en examen. Il est cependant devenu obsolète après les modifications apportées à la 12e édition du Guide de magie.",
+  "sellers": [
+    {
+      "name": "Ahangar",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Alom",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Estelle",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Hajime",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Lyulka",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Master Zhang",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Wagner",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 1,
+      "restock": "DAILY"
+    }
+  ],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Tuile cassée de Décarabian",
+          "quantity": 1
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 1
+        },
+        {
+          "name": "Masque endommagé",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 1
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 5
+        },
+        {
+          "name": "Masque endommagé",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 3
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 3
+        },
+        {
+          "name": "Masque sale",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 1
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 5
+        },
+        {
+          "name": "Masque sale",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 33
+    },
+    "20": {
+      "baseAtk": 80
+    },
+    "40": {
+      "baseAtk": 139
+    },
+    "50": {
+      "baseAtk": 174
+    },
+    "60": {
+      "baseAtk": 209
+    },
+    "70": {
+      "baseAtk": 243
+    },
+    "20_ASC": {
+      "baseAtk": 91
+    },
+    "40_ASC": {
+      "baseAtk": 151
+    },
+    "50_ASC": {
+      "baseAtk": 186
+    },
+    "60_ASC": {
+      "baseAtk": 220
+    }
+  }
+}

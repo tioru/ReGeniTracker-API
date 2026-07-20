@@ -1,0 +1,181 @@
+{
+  "name": "Cool Steel",
+  "type": "SWORD",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "A reliable steel-forged weapon that serves as a testament to the great adventures of its old master.",
+  "history": "A sturdy steel sword forged by the method of folding. It has a dull shine with a cold glimmer. It belonged to a famous adventurer who witnessed the vastness of the earth. With it, he severed the iron bones of monsters and crossed blades with bandits. But in the end, He gave up the vast earth, the boundless sky, His friends in the Guild, his trusty Cool Steel, and old pals, to be with the girl he loved.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Tile of Decarabian's Tower",
+          "quantity": 2
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Firm Arrowhead",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 2
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 8
+        },
+        {
+          "name": "Firm Arrowhead",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 4
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 4
+        },
+        {
+          "name": "Sharp Arrowhead",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 2
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 8
+        },
+        {
+          "name": "Sharp Arrowhead",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 4
+        },
+        {
+          "name": "Black Crystal Horn",
+          "quantity": 6
+        },
+        {
+          "name": "Weathered Arrowhead",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Scattered Piece of Decarabian's Dream",
+          "quantity": 3
+        },
+        {
+          "name": "Black Crystal Horn",
+          "quantity": 12
+        },
+        {
+          "name": "Weathered Arrowhead",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "40": {
+      "baseAtk": 169
+    },
+    "50": {
+      "baseAtk": 216
+    },
+    "60": {
+      "baseAtk": 263
+    },
+    "70": {
+      "baseAtk": 309
+    },
+    "80": {
+      "baseAtk": 355
+    },
+    "90": {
+      "baseAtk": 401
+    },
+    "20_ASC": {
+      "baseAtk": 113
+    },
+    "40_ASC": {
+      "baseAtk": 189
+    },
+    "50_ASC": {
+      "baseAtk": 236
+    },
+    "60_ASC": {
+      "baseAtk": 282
+    },
+    "70_ASC": {
+      "baseAtk": 329
+    },
+    "80_ASC": {
+      "baseAtk": 375
+    }
+  }
+}

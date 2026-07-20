@@ -1,0 +1,181 @@
+{
+  "name": "Perceur prismatique",
+  "type": "POLEARM",
+  "rarity": 5,
+  "releaseDate": "2020-12-01",
+  "description": "Cette lance aiguisée semble pouvoir tout transpercer. Puissante et rapide, on dit qu'elle est capable de fendre l'arc-en-ciel.",
+  "history": "Il y a longtemps, à une époque où des milliers de navires et de créatures marines parcouraient les mers, le Port de Liyue ne connaissait pas la paix, vivant sous la menace des monstres dont l'océan était rempli. On raconte qu'une bête monstrueuse était tapie dans les fonds marins, et qu'avec tourbillons et typhons, elle brisait les navires et entraînait ses proies dans l'abîme. On dit aussi qu'il existait au milieu de la mer un îlot féerique d'où émergeaient les arcs-en-ciel et recouvert par la brume marine... Et surtout, que ceux qui avaient la chance d'atteindre l'îlot y trouvaient d'innombrables richesses, enfouies depuis des temps immémoriaux. La légende raconte cependant que cet îlot était habité par une bête au sommeil léger. La plupart des légendes ayant cours parmi les marins sont assez étranges, mais il y en existe une à laquelle tous croient. Ils croient ainsi que le Souverain de la Roche brandit autrefois une lance qui perça l'arc-en-ciel, clouant ainsi le tourbillon qui faisait rage au centre de la mer. On raconte que depuis ce jour, dauphins et baleines se rassemblent parfois en cet endroit pour y chanter. Certains pensent qu'ils pleurent ainsi le dieu qu'ils adorent, lui offrant leurs chants éplorés. D'autres pensent qu'ils rendent hommage à la puissance du Souverain de la Roche, un dieu capable de transpercer l'arc-en-ciel et de soumettre le soleil. Mais on raconte aussi la chose suivante. Un jour, le tourbillon rendu inoffensif par la lance du Souverain de la Roche se réveillera à nouveau. Le vent apportera alors l'odeur fétide des fonds marins sur le continent, présageant de l'arrivée d'une tempête à la puissance semblable à une hydre à neuf têtes. Quand ce moment viendra, qui pourra s'occuper des créatures gisant au fond des océans ?",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Grain d'aérosidérite noire",
+          "quantity": 5
+        },
+        {
+          "name": "Fragment d'os fragile",
+          "quantity": 5
+        },
+        {
+          "name": "Insigne des Pilleurs",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 5
+        },
+        {
+          "name": "Fragment d'os fragile",
+          "quantity": 18
+        },
+        {
+          "name": "Insigne des Pilleurs",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 9
+        },
+        {
+          "name": "Fragment d'os solide",
+          "quantity": 9
+        },
+        {
+          "name": "Insigne de corbeau en argent",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 5
+        },
+        {
+          "name": "Fragment d'os solide",
+          "quantity": 18
+        },
+        {
+          "name": "Insigne de corbeau en argent",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 9
+        },
+        {
+          "name": "Fragment d'os fossilisé",
+          "quantity": 14
+        },
+        {
+          "name": "Insigne de corbeau en or",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Morceau d'aérosidérite noire",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'os fossilisé",
+          "quantity": 27
+        },
+        {
+          "name": "Insigne de corbeau en or",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 46
+    },
+    "20": {
+      "baseAtk": 122
+    },
+    "40": {
+      "baseAtk": 235
+    },
+    "50": {
+      "baseAtk": 308
+    },
+    "60": {
+      "baseAtk": 382
+    },
+    "70": {
+      "baseAtk": 457
+    },
+    "80": {
+      "baseAtk": 532
+    },
+    "90": {
+      "baseAtk": 608
+    },
+    "20_ASC": {
+      "baseAtk": 153
+    },
+    "40_ASC": {
+      "baseAtk": 266
+    },
+    "50_ASC": {
+      "baseAtk": 340
+    },
+    "60_ASC": {
+      "baseAtk": 414
+    },
+    "70_ASC": {
+      "baseAtk": 488
+    },
+    "80_ASC": {
+      "baseAtk": 563
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Espadon de Favonius",
+  "type": "CLAYMORE",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Un espadon généralement manié par les chevaliers de l'Ordre de Favonius. Invoquer les éléments est un jeu d'enfant avec cette arme au pouvoir destructeur.",
+  "history": "Une épée rituelle à deux mains, utilisée par les chevaliers de l'Ordre de Favonius. Seuls ceux ou celles ayant reçu l'approbation du Grand maître de l'Église peuvent la posséder. Après des années de recherche, les forgerons de Mondstadt ont bien avancé dans le domaine de l'affinité élémentaire. Cette épée lourde n'est pas seulement une récompense honorifique pour les chevaliers de l'Ordre ; elle représente aussi la maîtrise des techniques de combat et la ferveur des protecteurs de Mondstadt. Invoquer les éléments est un jeu d'enfant avec cette arme ; mais celui qui l'utilise doit se rappeler que la destruction n'est point un but, mais un moyen au service de la défense. De l'art de l'épée fondée par Rostam, le Jeune Loup, ne reste aujourd'hui que la technique à une main. Une autre technique s'est perdue dans les méandres du temps : la technique dite d'Arundolyn, le Lion de la Lumière, que l'on disait capable d'utiliser simultanément deux armes en combat. Seuls les plus puissants des combattants pouvaient la mettre à profit ; aussi finit-elle par sombrer progressivement dans l'oubli. Compagnon d'enfance de Rostam, qui était d'origine modeste, Arundolyn était issu d'une longue lignée de chevaliers. L'amitié des deux futurs héros reposait sur une soif commune de gloire et d'honneur. Ayant atteint l'âge adulte, ils rejoignirent l'Ordre des chevaliers. L'un devint par la suite Grand Maître de l'Ordre, et l'autre son fidèle assistant. Arundolyn, le Grand Maître, ne jouit jamais de l'Œil Divin. Il tirait sa formidable force de ses dons naturels doublés d'un entraînement intense. Sa force faisait sa fierté ; et le Grand Maître faisait la fierté de l'Ordre - de l'entière cité de Mondstadt même. Mais plus jamais il ne fit montre de ses prouesses physiques après la mort de Rostam ; car défier les créatures des ténèbres n'était à ses yeux plus source de gloire.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Fetters of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 3
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Device",
+          "quantity": 12
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 6
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Chaos Circuit",
+          "quantity": 12
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 9
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Dream of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Chaos Core",
+          "quantity": 18
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

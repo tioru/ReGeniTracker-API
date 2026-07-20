@@ -1,0 +1,181 @@
+{
+  "name": "Étoile du soir errante",
+  "type": "CATALYST",
+  "rarity": 4,
+  "releaseDate": "2022-10-14",
+  "description": "Il s'agissait à l'origine d'un appareil utilisé par les chercheurs pour observer et effectuer des calculs sur les phénomènes célestes. Il sert maintenant de conduit et de catalyseur.",
+  "history": "Cette histoire se déroule il y a des milliers d'années, à une époque où l'insensé roi divin fut enterré par les tempêtes de sable. Le prince errant, ayant perdu son royaume, se retira dans la forêt tropicale, entouré par le clair de lune tranquille. Il vint ici avec l'ambition de conquérir de nouvelles terres, mais finit par être poursuivi par la chasseresse à l'arc blanc. Et c'est ainsi que le vagabond découragé se fit piéger par des pampres de vigne et, dans le froid clair de lune, il entendit autour de lui les grognements sourds d'un tigre. « Le sentier de la forêt tropicale est si perfide que les mortels ne peuvent dire la voie à suivre qu'au clair de lune traversant les feuilles. » « Les étoiles scintillantes du soir éclairent le chemin du vagabond mais l'attirent également dans un piège mortel. » « La chasseresse s'élance à travers les bois profonds avec son arc blanc, chassant cet intrus à maintes reprises. » « Avec l'ancien tigre et son rugissement, elle donne l'ordre de son expulsion, mais ne prend pas sa vie. » Le vieux poète aveugle répétait l'histoire du prince errant d'une voix cassée et rauque. Même s'il avait perdu ses yeux il y a longtemps, il regardait toujours inconsciemment l'étoile du soir qui se trouvait à côté de la lune brillante. L'étoile vacillante de la nuit avait conduit le vagabond vers un nouvel espoir, mais aussi vers une impasse... Et des années plus tard, quand le vagabond qui n'avait rien à perdre affronta la mort, il dut faire un choix... Lorsque les enseignements de la mort furent chuchotés à son oreille, il comprit finalement le sens de l'avertissement... « Vous n'appartenez ni à la forêt ni à la mort, alors restez loin du palais royal. » « Si vous chérissez encore la vie et les souvenirs, n'allez pas profondément dans les terres sombres et dangereuses. » « Arrêtez de répéter ces sottises... » « Si mon destin d'errance me conduit à l'arc blanc de lune, et si les étoiles du soir prédisent ma fin... » « Qu'il en soit ainsi ! Je préfère accepter mon sort que de mourir en poursuivant un faucon. »",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Souvenir du jardin d'oasis",
+          "quantity": 3
+        },
+        {
+          "name": "Noyau fongique inactivé",
+          "quantity": 3
+        },
+        {
+          "name": "Spores de Fongus",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Gentillesse du jardin d'oasis",
+          "quantity": 3
+        },
+        {
+          "name": "Noyau fongique inactivé",
+          "quantity": 12
+        },
+        {
+          "name": "Spores de Fongus",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Gentillesse du jardin d'oasis",
+          "quantity": 6
+        },
+        {
+          "name": "Noyau fongique dormant",
+          "quantity": 6
+        },
+        {
+          "name": "Pollen fluorescent",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Deuil du jardin d'oasis",
+          "quantity": 3
+        },
+        {
+          "name": "Noyau fongique dormant",
+          "quantity": 12
+        },
+        {
+          "name": "Pollen fluorescent",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Deuil du jardin d'oasis",
+          "quantity": 6
+        },
+        {
+          "name": "Noyau fongique robuste",
+          "quantity": 9
+        },
+        {
+          "name": "Poussière cristalline de sporange",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Vérité du jardin d'oasis",
+          "quantity": 4
+        },
+        {
+          "name": "Noyau fongique robuste",
+          "quantity": 18
+        },
+        {
+          "name": "Poussière cristalline de sporange",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

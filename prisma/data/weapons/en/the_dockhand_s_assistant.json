@@ -1,0 +1,181 @@
+{
+  "name": "The Dockhand's Assistant",
+  "type": "SWORD",
+  "rarity": 4,
+  "releaseDate": "2023-09-27",
+  "description": "A convenient cutting tool that you can rarely find nowadays. You can replace the blades as they are dulled by usage.",
+  "history": "A once-popular tool during the days when Fontaine was more dependent on manual labor. The blade might not have been strong enough for prolonged, intense use, But it made up for this by allowing the blunt section to be broken off at the user's convenience. Dock workers often used it to cut through thin materials and untie knotted cables. Although the use of this type of weapon was always heavily regulated and no blade never truly belonged to the user, It was widely circulated under the tables, and was once hailed as the blade of the people. It was perfect for self-preservation in less friendly natural environments, as well as for cutting paths through aquatic plants. Legend has it that many people also discovered new uses for it during the purge. As society advanced and more regulations were put into place, this type of blade gradually ceased to appear in public. Although such blades were not owned by their wielders, Those who depended on them saw them as extensions of their limbs, And so they often inscribed their names onto the hilts and blades to avoid losing them. The name inscribed on this blade belongs to one of Poisson's former mayors.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Dross of Pure Sacred Dewdrop",
+          "quantity": 3
+        },
+        {
+          "name": "Old Operative's Pocket Watch",
+          "quantity": 3
+        },
+        {
+          "name": "Transoceanic Pearl",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Sublimation of Pure Sacred Dewdrop",
+          "quantity": 3
+        },
+        {
+          "name": "Old Operative's Pocket Watch",
+          "quantity": 12
+        },
+        {
+          "name": "Transoceanic Pearl",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Sublimation of Pure Sacred Dewdrop",
+          "quantity": 6
+        },
+        {
+          "name": "Operative's Standard Pocket Watch",
+          "quantity": 6
+        },
+        {
+          "name": "Transoceanic Chunk",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Spring of Pure Sacred Dewdrop",
+          "quantity": 3
+        },
+        {
+          "name": "Operative's Standard Pocket Watch",
+          "quantity": 12
+        },
+        {
+          "name": "Transoceanic Chunk",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Spring of Pure Sacred Dewdrop",
+          "quantity": 6
+        },
+        {
+          "name": "Operative's Constancy",
+          "quantity": 9
+        },
+        {
+          "name": "Xenochromatic Crystal",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Essence of Pure Sacred Dewdrop",
+          "quantity": 4
+        },
+        {
+          "name": "Operative's Constancy",
+          "quantity": 18
+        },
+        {
+          "name": "Xenochromatic Crystal",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 42
+    },
+    "20": {
+      "baseAtk": 108
+    },
+    "40": {
+      "baseAtk": 204
+    },
+    "50": {
+      "baseAtk": 265
+    },
+    "60": {
+      "baseAtk": 326
+    },
+    "70": {
+      "baseAtk": 387
+    },
+    "80": {
+      "baseAtk": 448
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 134
+    },
+    "40_ASC": {
+      "baseAtk": 230
+    },
+    "50_ASC": {
+      "baseAtk": 291
+    },
+    "60_ASC": {
+      "baseAtk": 352
+    },
+    "70_ASC": {
+      "baseAtk": 413
+    },
+    "80_ASC": {
+      "baseAtk": 474
+    }
+  }
+}

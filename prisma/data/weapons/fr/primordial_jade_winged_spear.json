@@ -1,0 +1,181 @@
+{
+  "name": "Lance de jade ailée",
+  "type": "POLEARM",
+  "rarity": 5,
+  "releaseDate": "2020-09-28",
+  "description": "Une lance longue et pointue en jade ensorcelé, avec laquelle vous pourriez vaincre les puissants monstres marins des temps préhistoriques.",
+  "history": "À la fondation de Liyue, les océans étaient encore le domaine des monstres et déités. Les hommes vivaient en permanence dans la crainte de la mer. Les siècles passant virent l'émergence d'un monstre marin gigantesque, qui domina les eaux. Même la baleine Géo de l'Archon ne pouvait en triompher. Les gens de Liyue l'appelait « Baqiu », la bête sans rival des abysses marins. Ses vagues monstrueuses ravageaient régulièrement les camps des hommes, et nombre de navires touchèrent le fond par sa faute. Alors l'Archon Géo façonnant le jade et la pierre, créa un milan au sombre plumage. À peine y apportait-il la touche finale, que celui-ci décollait vers les nuages. Puis, comme si du ciel jaillissait une lance, il plongea des hauteurs dans l'océan rejoindre la baleine Géo dans son combat contre le démon marin. Ce dernier fut renvoyé au fond des mers, d'où il ne remonta point. Et ainsi les habitants de Liyue furent-ils sauvés de la bête rugissante.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Sable lumineux de Guyun",
+          "quantity": 5
+        },
+        {
+          "name": "Dague de chasse rituelle",
+          "quantity": 5
+        },
+        {
+          "name": "Insigne de nouvelle recrue",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 5
+        },
+        {
+          "name": "Dague de chasse rituelle",
+          "quantity": 18
+        },
+        {
+          "name": "Insigne de nouvelle recrue",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 9
+        },
+        {
+          "name": "Dague rituelle de l'Usurier",
+          "quantity": 9
+        },
+        {
+          "name": "Insigne de sergent",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Squelette sacré de Guyun",
+          "quantity": 5
+        },
+        {
+          "name": "Dague rituelle de l'Usurier",
+          "quantity": 18
+        },
+        {
+          "name": "Insigne de sergent",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Squelette sacré de Guyun",
+          "quantity": 9
+        },
+        {
+          "name": "Grande dague de l'Inspecteur",
+          "quantity": 14
+        },
+        {
+          "name": "Insigne d'officier",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Corps divin de Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Grande dague de l'Inspecteur",
+          "quantity": 27
+        },
+        {
+          "name": "Insigne d'officier",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

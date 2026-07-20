@@ -1,0 +1,181 @@
+{
+  "name": "Ferrous Shadow",
+  "type": "CLAYMORE",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "A replica of the famed sword of Arundolyn, the Lion of Light. Feel the power of a legendary hero as you hold this sword in your hand! Imagine yourself as the great warrior himself! Note: Daydreaming not recommended in live combat.",
+  "history": "When the young Arundolyn swung his replica greatsword — modeled off the one wielded by Ravenwood, the Knight of Boreas — imagining that he was cutting the old nobles of Mondstadt down, he never envisaged that he would one day become the renowned \"Lion of Light.\" Nor did he envisage that his playmate Rostam, with whom he sparred in their childhood, would grow up to become his most trusted right-hand man, before going on to die in the course of duty, having served the people of Mondstadt for 23 years. The replica of the Lion of Light's greatsword is now in the hands of another youngster. How will this mysterious fate be passed on?",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Tile of Decarabian's Tower",
+          "quantity": 2
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Whopperflower Nectar",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 2
+        },
+        {
+          "name": "Heavy Horn",
+          "quantity": 8
+        },
+        {
+          "name": "Whopperflower Nectar",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 4
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 4
+        },
+        {
+          "name": "Shimmering Nectar",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 2
+        },
+        {
+          "name": "Black Bronze Horn",
+          "quantity": 8
+        },
+        {
+          "name": "Shimmering Nectar",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 4
+        },
+        {
+          "name": "Black Crystal Horn",
+          "quantity": 6
+        },
+        {
+          "name": "Energy Nectar",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Scattered Piece of Decarabian's Dream",
+          "quantity": 3
+        },
+        {
+          "name": "Black Crystal Horn",
+          "quantity": 12
+        },
+        {
+          "name": "Energy Nectar",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "40": {
+      "baseAtk": 169
+    },
+    "50": {
+      "baseAtk": 216
+    },
+    "60": {
+      "baseAtk": 263
+    },
+    "70": {
+      "baseAtk": 309
+    },
+    "80": {
+      "baseAtk": 355
+    },
+    "90": {
+      "baseAtk": 401
+    },
+    "20_ASC": {
+      "baseAtk": 113
+    },
+    "40_ASC": {
+      "baseAtk": 189
+    },
+    "50_ASC": {
+      "baseAtk": 236
+    },
+    "60_ASC": {
+      "baseAtk": 282
+    },
+    "70_ASC": {
+      "baseAtk": 329
+    },
+    "80_ASC": {
+      "baseAtk": 375
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Ombre ferreuse",
+  "type": "CLAYMORE",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "Une imitation de la célèbre épée d'Arundolyn, le Lion de la Lumière. Libérez le héros légendaire qui sommeille en vous ! Remarque : Ne rêvassez pas trop.",
+  "history": "Le jeune Arundolyn aurait été loin d'imaginer, alors qu'il agitait en tous sens sa réplique de l'espadon de Ravenwood, le Chevalier de Borée, imaginant pourfendre les anciens nobles de Mondstadt, qu'il deviendrait un jour le célèbre Lion de la Lumière ; il aurait également été surpris d'apprendre que Rostam, son compagnon d'enfance, qui mourrait après vingt-trois ans passés au service de la défense de la cité, deviendrait plus tard son bras droit. La réplique de l'arme est désormais entre les mains d'un autre garçon. Que lui réservera le destin ?",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Tuile cassée de Décarabian",
+          "quantity": 2
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 2
+        },
+        {
+          "name": "Nectar de Fleur mensongère",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 2
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 8
+        },
+        {
+          "name": "Nectar de Fleur mensongère",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 4
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 4
+        },
+        {
+          "name": "Nectar miroitant",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 2
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 8
+        },
+        {
+          "name": "Nectar miroitant",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 4
+        },
+        {
+          "name": "Corne à cristal noir",
+          "quantity": 6
+        },
+        {
+          "name": "Nectar élémentaire",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Rêve brisé de Décarabian",
+          "quantity": 3
+        },
+        {
+          "name": "Corne à cristal noir",
+          "quantity": 12
+        },
+        {
+          "name": "Nectar élémentaire",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "40": {
+      "baseAtk": 169
+    },
+    "50": {
+      "baseAtk": 216
+    },
+    "60": {
+      "baseAtk": 263
+    },
+    "70": {
+      "baseAtk": 309
+    },
+    "80": {
+      "baseAtk": 355
+    },
+    "90": {
+      "baseAtk": 401
+    },
+    "20_ASC": {
+      "baseAtk": 113
+    },
+    "40_ASC": {
+      "baseAtk": 189
+    },
+    "50_ASC": {
+      "baseAtk": 236
+    },
+    "60_ASC": {
+      "baseAtk": 282
+    },
+    "70_ASC": {
+      "baseAtk": 329
+    },
+    "80_ASC": {
+      "baseAtk": 375
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Piqûre de fer",
+  "type": "SWORD",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Une longue rapière exotique qui a été introduite à Liyue par des commerçants étrangers. Légère et tranchante.",
+  "history": "De tout temps le monde entier s'est retrouvé au Port de Liyue, à la grande fierté de la cité. Des pays étrangers maints trésors trouvèrent ainsi un nouveau foyer. Cette épée qui n'est pas sans rappeler une aiguille de par sa conception tout en pointe, sacrifie la possibilité de trancher au profit des dégâts de perçage. Une certaine maîtrise est requise pour exploiter tout son potentiel ; mais elle reste efficace dans les mains du bretteur amateur. Une arme issue de quelque côte lointaine, qui pendait autrefois de la taille d'un capitaine de navire. Cette élégante lame élancée contraste grandement avec le dur monde de l'océan. Lorsque les curieux l'interrogeaient, le capitaine du navire changeait de sujet. Les rumeurs couraient sur l'origine de l'épée. D'aucuns prétendaient qu'il l'avait remportée au sortir d'un combat contre des pirates ; d'autres que c'était le butin de quelque rapine. Mais lorsque le soleil dardait de ses rayons pourpres le ciel précédant la nuit, et que les voiles étaient abaissées, le second frottait toujours la lame, se remémorant le temps passé dans le royaume du vent, et ces jours anciens où il voyageait en nomade martial, et se rappelant la fille de son pays, et sa promesse de la revoir un jour.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Grain d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os fragile",
+          "quantity": 3
+        },
+        {
+          "name": "Nectar de Fleur mensongère",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os fragile",
+          "quantity": 12
+        },
+        {
+          "name": "Nectar de Fleur mensongère",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'os solide",
+          "quantity": 6
+        },
+        {
+          "name": "Nectar miroitant",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'os solide",
+          "quantity": 12
+        },
+        {
+          "name": "Nectar miroitant",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'os fossilisé",
+          "quantity": 9
+        },
+        {
+          "name": "Nectar élémentaire",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Morceau d'aérosidérite noire",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment d'os fossilisé",
+          "quantity": 18
+        },
+        {
+          "name": "Nectar élémentaire",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 46
+    },
+    "20": {
+      "baseAtk": 109
+    },
+    "40": {
+      "baseAtk": 205
+    },
+    "50": {
+      "baseAtk": 266
+    },
+    "60": {
+      "baseAtk": 327
+    },
+    "70": {
+      "baseAtk": 388
+    },
+    "80": {
+      "baseAtk": 449
+    },
+    "90": {
+      "baseAtk": 510
+    },
+    "20_ASC": {
+      "baseAtk": 135
+    },
+    "40_ASC": {
+      "baseAtk": 231
+    },
+    "50_ASC": {
+      "baseAtk": 292
+    },
+    "60_ASC": {
+      "baseAtk": 353
+    },
+    "70_ASC": {
+      "baseAtk": 414
+    },
+    "80_ASC": {
+      "baseAtk": 475
+    }
+  }
+}

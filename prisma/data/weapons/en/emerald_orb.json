@@ -1,0 +1,181 @@
+{
+  "name": "Emerald Orb",
+  "type": "CATALYST",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "A catalyst carved out of the hard jade from Jueyun Karst north of Liyue. Small, light, and durable, it is known more colloquially as the \"jade ball.\"",
+  "history": "A lightweight catalyst carved out of emerald-green jade. It is durable and affordable, which makes it a popular item all around. Small but exquisitely made, it is referred to by the people of Liyue as the \"jade ball.\" It is a highly efficient defensive Catalyst as well as a good-looking accessory.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Luminous Sands from Guyun",
+          "quantity": 2
+        },
+        {
+          "name": "Hunter's Sacrificial Knife",
+          "quantity": 2
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 2
+        },
+        {
+          "name": "Hunter's Sacrificial Knife",
+          "quantity": 8
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Agent's Sacrificial Knife",
+          "quantity": 4
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Relic from Guyun",
+          "quantity": 2
+        },
+        {
+          "name": "Agent's Sacrificial Knife",
+          "quantity": 8
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Relic from Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Inspector's Sacrificial Knife",
+          "quantity": 6
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Divine Body from Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Inspector's Sacrificial Knife",
+          "quantity": 12
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 40
+    },
+    "20": {
+      "baseAtk": 102
+    },
+    "40": {
+      "baseAtk": 187
+    },
+    "50": {
+      "baseAtk": 239
+    },
+    "60": {
+      "baseAtk": 292
+    },
+    "70": {
+      "baseAtk": 344
+    },
+    "80": {
+      "baseAtk": 396
+    },
+    "90": {
+      "baseAtk": 448
+    },
+    "20_ASC": {
+      "baseAtk": 121
+    },
+    "40_ASC": {
+      "baseAtk": 207
+    },
+    "50_ASC": {
+      "baseAtk": 259
+    },
+    "60_ASC": {
+      "baseAtk": 311
+    },
+    "70_ASC": {
+      "baseAtk": 363
+    },
+    "80_ASC": {
+      "baseAtk": 415
+    }
+  }
+}

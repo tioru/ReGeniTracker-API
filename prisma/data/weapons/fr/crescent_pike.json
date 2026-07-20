@@ -1,0 +1,181 @@
+{
+  "name": "Pique du croissant de lune",
+  "type": "POLEARM",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Cette lance d'origine étrangère, arrivée à Liyue par les voies commerciales, possède une lame en forme de croissant à l'extrémité d'un manche fin et long. Avec un peu de pratique, vous devriez pouvoir libérer sa puissance destructrice.",
+  "history": "De tout temps le monde entier s'est retrouvé au Port de Liyue, à la grande fierté de la cité. Des pays étrangers maints trésors trouvèrent ainsi un nouveau foyer. Cette lance à la lame en croissant de lune est longue et fine comme une aiguille. Que son utilisateur ne s'attarde point sur ce design quelque peu particulier ; il s'agit d'une arme étonnante. Certains artistes martiaux des régions extérieures à Liyue sont devenus maîtres dans l'art de la surprise et de la ruse. Cette arme a été conçue pour mettre à profit les défauts dans la défense de l'adversaire ; elle est ainsi capable de se glisser à travers les fentes d'une armure. Sa créatrice aurait, dit-on, été capable de visualiser les défauts dans la cuirasse de toute vie. Comme mue par quelque pouvoir mystique, l'arme s'élançait de ses mains vers les faiblesses de l'ennemi. « Peut-être que tout être attend la mort ? » En ces termes parlait sa créatrice, qui était capable de trouver les faiblesses chez n'importe qui, mais qui elle-même n'en présentait aucune. Mais en trouvant la musique, elle trouva l'amour ; et en l'amour, elle trouva son talon d'Achille. Et c'est seulement lorsque la douleur de la fin transperça son cœur que la jeune sorcière réalisa : « La faiblesse vient de la crainte de la mort ; et la crainte de la mort surgit lorsque l'on s'est attaché. » « Comme j'aimerais pouvoir revoir ce voleur qui ne peut être attrapé ni tué ! » « Et comme j'aimerais entendre à nouveau sa chanson... Si je survis, je lui... »",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Sable lumineux de Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Dague de chasse rituelle",
+          "quantity": 3
+        },
+        {
+          "name": "Insigne des Pilleurs",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Dague de chasse rituelle",
+          "quantity": 12
+        },
+        {
+          "name": "Insigne des Pilleurs",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Dague rituelle de l'Usurier",
+          "quantity": 6
+        },
+        {
+          "name": "Insigne de corbeau en argent",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Squelette sacré de Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Dague rituelle de l'Usurier",
+          "quantity": 12
+        },
+        {
+          "name": "Insigne de corbeau en argent",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Squelette sacré de Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Grande dague de l'Inspecteur",
+          "quantity": 9
+        },
+        {
+          "name": "Insigne de corbeau en or",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Corps divin de Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Grande dague de l'Inspecteur",
+          "quantity": 18
+        },
+        {
+          "name": "Insigne de corbeau en or",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

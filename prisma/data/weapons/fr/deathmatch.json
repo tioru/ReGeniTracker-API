@@ -1,0 +1,181 @@
+{
+  "name": "Scion de la victoire",
+  "type": "POLEARM",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Une lance rouge tranchante qui fut autrefois l'arme chérie d'un gladiateur. Le sang d'innombrables ennemis, hommes et bêtes, a teinté sa lame.",
+  "history": "Cette lance couleur vermeil a vu d'innombrables combats, et fut le témoin de la valeur d'un certain gladiateur. Sa pointe froide comme la glace a goûté au sang d'innombrables ennemis, sous les tonnerres d'applaudissements de la foule. Le destin du gladiateur était taché de sang ; et sur le fil de la lame dansait sa liberté, à la fois proche et inatteignable. Et le son sourd de l'acier carmin s'enfonçant dans la chair fut le glas de plus d'un combattant. Alors que le dernier combat du gladiateur prenait fin sous les vivats déchaînés des spectateurs, son maître prit la parole : « Le nombre promis a été atteint ; tu as été remarquable, et tu as montré que tu étais un guerrier de grand renom. » « Considère cette arme comme un cadeau d'adieu... Mais pourquoi ne pas continuer à combattre ? » « Continue à montrer ton talent, en homme libre, pour ta gloire et la mienne. Quelle est ta réponse ? » Et ainsi les années passèrent ; et les bêtes et hommes qui tombèrent sous les coups de la lance devinrent trop nombreux à compter. L'arme du duelliste ne connaissait pas la défaite ; mais le cœur du guerrier appartenait à son jeune maître. Alors que prenait fin l'ultime combat du gladiateur au milieu d'un déchaînement d'applaudissements, son arme tomba dans le sable souillé par le sang, tandis que la lame brûlante de la jeune fille aux cheveux roux perçait sa poitrine. Et tandis qu'il tombait, il leva les yeux vers son maître bien-aimé, son seigneur qui l'avait soutenu toutes ces années... « Ebelhart, mon maître et seigneur... Cette dernière performance aura-t-elle été à ta convenance ? » Mais le siège de son maître était vide, à l'exception d'une coupe et d'un plateau en argent, renversés à la hâte. « C'est pour moi-même que j'ai commencé à me battre, pour voir le sang et assouvir ma soif de combat. » « Mais à quel moment ai-je commencé à me battre pour la gloire de mon maître ? » « L'homme ne se bat comme une bête sauvage que lorsqu'il obéit à l'homme. » « Toi qui combats pour ton peuple et non pour toi-même... Je sais que tu me comprends. »",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Dent de lait du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 3
+        },
+        {
+          "name": "Nectar de Fleur mensongère",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 12
+        },
+        {
+          "name": "Nectar de Fleur mensongère",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 6
+        },
+        {
+          "name": "Nectar miroitant",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 12
+        },
+        {
+          "name": "Nectar miroitant",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 9
+        },
+        {
+          "name": "Nectar élémentaire",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Nostalgie du Loup boréal",
+          "quantity": 4
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 18
+        },
+        {
+          "name": "Nectar élémentaire",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 184
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 293
+    },
+    "70": {
+      "baseAtk": 347
+    },
+    "80": {
+      "baseAtk": 401
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 210
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 319
+    },
+    "70_ASC": {
+      "baseAtk": 373
+    },
+    "80_ASC": {
+      "baseAtk": 427
+    }
+  }
+}

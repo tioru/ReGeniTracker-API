@@ -1,0 +1,181 @@
+{
+  "name": "Thundering Pulse",
+  "type": "BOW",
+  "rarity": 5,
+  "releaseDate": "2021-08-10",
+  "description": "A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.",
+  "history": "This bow, crackling with thunder, retains its luster despite having been soaked in thick darkness. When disaster came from a distant sea, it was once the favorite weapon of a great swordsman. In his youth, he wandered the mountains, and he made a wager with a great Tengu he came across. He gambled his young, strong body as a bet against a bow given by the Shogun. As for the gamble itself, he could only sometimes recall it, when he was drunk. But by the time dawn came, he had three wins and three losses — his contest with the Tengu was a draw. So in the bad news, he was taken as a servant by the Tengu. But in the good news, he won that unmatched bow. \"Behold, Konbumaru, this is Tengu archery. Watch and learn!\" He was given this rather ridiculous nickname, but ultimately, he witnessed the Tengu's form. Soaring through the clouds unfettered, unleashing thunderbolts with every bowstring's pulse... It was a true, unreserved dance of death. Fierce and unpredictable, elegant and beautiful. Many years later, he was no longer a servant boy, and he had grasped both some archery and swordsmanship. He was referred to the Shogunate through a recommendation letter from his impatient master. In the years under the Shogun, his martial skills improved greatly, and he made many friends and enemies. Still, his hobby of unrestrained wanderlust had not changed. On the contrary, with the Tengu's great bow, he became yet more fearless. \"Let's make a wager this time, shall we? Hmm. Right, then. This bow shall be my wager.\" \"I bet on the mightiest bow in the world that I will return here alive.\" \"I'll leave it here with you for now. If I, Takamine, lose our bet, you can keep the bow.\" \"After all, you've inherited the essence of my archery techniques. You'll be able to make good use of it.\" \"But if I win...\" When disaster swept in from across the distant sea, the samurai and the obstinate shrine maiden had a mutual wager. They bet on his safe return from the abyss against the inscribed bow bestowed by the Shogun. When the dark venom sank deep into the earth and peace returned, the swordsman did not come back. The Shogun's bestowed bow was given to the shrine maiden as her prize for winning their great wager. Later, in the forest where the Kitsune Saiguu would no longer appear, in the promised meeting place, The lone returnee who came stumbling back from the abyss finally met the shrine maiden again, though by now she could no longer be called young. Dull eyes stained with dried blood and tears regained their radiance, but were pierced through by a barbed arrow glowing with power.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Narukami's Wisdom",
+          "quantity": 5
+        },
+        {
+          "name": "Dismal Prism",
+          "quantity": 5
+        },
+        {
+          "name": "Firm Arrowhead",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Narukami's Joy",
+          "quantity": 5
+        },
+        {
+          "name": "Dismal Prism",
+          "quantity": 18
+        },
+        {
+          "name": "Firm Arrowhead",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Narukami's Joy",
+          "quantity": 9
+        },
+        {
+          "name": "Crystal Prism",
+          "quantity": 9
+        },
+        {
+          "name": "Sharp Arrowhead",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Narukami's Affection",
+          "quantity": 5
+        },
+        {
+          "name": "Crystal Prism",
+          "quantity": 18
+        },
+        {
+          "name": "Sharp Arrowhead",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Narukami's Affection",
+          "quantity": 9
+        },
+        {
+          "name": "Polarizing Prism",
+          "quantity": 14
+        },
+        {
+          "name": "Weathered Arrowhead",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Narukami's Valor",
+          "quantity": 6
+        },
+        {
+          "name": "Polarizing Prism",
+          "quantity": 27
+        },
+        {
+          "name": "Weathered Arrowhead",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 46
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

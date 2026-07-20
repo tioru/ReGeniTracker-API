@@ -1,0 +1,181 @@
+{
+  "name": "Berge de la Voûte d'Azur",
+  "type": "POLEARM",
+  "rarity": 5,
+  "releaseDate": "2020-09-28",
+  "description": "Une lance symbolisant la farouche détermination de Stormterror. Sa hampe se dresse fière vers l'azur, infusée de la volonté des cieux et du pouvoir des vents.",
+  "history": "Le pilier qui soutient les cieux. Le fidèle compagnon de l'Archon Anémo ne perdit jamais son désir de protéger les terres venteuses. La détermination qu'il avait de tenir sa promesse était telle qu'elle lui permit de survivre à son plus grand ennemi. Mondstadt fut sous la menace d'un dragon nommé Durin qui méprisait le bonheur de la population. Ses ailes noires obstruaient le ciel, libérant des nuages de miasme. Ces miasmes étaient néfastes au point que les vents ne purent éloigner la maladie et la putréfaction qu'ils provoquèrent. Tout à coup, une pluie noire tomba du ciel. L'averse fut si forte qu'elle étouffa les cris du peuple. Ces derniers réveillèrent l'Archon Anémo de son sommeil, son cœur déchiré par leur détresse. Il invoqua Dvalin et ensemble ils traversèrent les cieux empoisonnés, enveloppés dans une bourrasque. Le grand dragon émit un cri de guerre avant de se lancer à corps perdu dans la bataille, en transperçant les ténèbres que Durin créa. Dvalin battit ses ailes pour créer des puissantes tornades qui dissipèrent les nuages toxiques. Il saisit son ennemi à l'aide de ses griffes et l'emmena à une altitude que les nuages n'étaient pas capables d'atteindre. La pluie empoisonnée s'arrêta aussitôt que les nuages disparurent, et le ciel enflammé devint le champ de bataille entre les deux dragons. À l'issue du combat, le Dragon Anémo parvint à planter ses crocs acérés dans la nuque de son adversaire tandis que ses griffes lui arrachèrent le cœur. Le monstre né de l'avidité de l'alchimiste tomba du ciel désormais immaculé, et s'écrasa sur le sommet d'une montagne enneigée. Ainsi, le peuple de l'Archon Anémo fut protégé de la catastrophe grâce à Dvalin. Malgré le triomphe de ce dernier, le sang toxique de Durin qu'il avait sur les dents vint se loger ses entrailles. La douleur fit agoniser Dragon Anémo qui se réfugia dans les ruines antiques. Dvalin espérait qu'un jour quelqu'un le réveillerait alors qu'il léchait ses plaies pour tenter de les guérir. Quand ce jour viendra, il serait de nouveau capable de voler dans les cieux, de disperser les ténèbres et de chanter à la mélodie de la lyre de son cher ami, l'Archon Anémo.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Entraves du Chevalier du Croc de Lion",
+          "quantity": 5
+        },
+        {
+          "name": "Dispositif du chaos",
+          "quantity": 5
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 5
+        },
+        {
+          "name": "Dispositif du chaos",
+          "quantity": 18
+        },
+        {
+          "name": "Parchemin divinatoire",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 9
+        },
+        {
+          "name": "Circuit du chaos",
+          "quantity": 9
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 5
+        },
+        {
+          "name": "Circuit du chaos",
+          "quantity": 18
+        },
+        {
+          "name": "Parchemin sigillé",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 9
+        },
+        {
+          "name": "Noyau du chaos",
+          "quantity": 14
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Idéaux du Chevalier du Croc de Lion",
+          "quantity": 6
+        },
+        {
+          "name": "Noyau du chaos",
+          "quantity": 27
+        },
+        {
+          "name": "Parchemin maudit",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

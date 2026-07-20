@@ -1,0 +1,181 @@
+{
+  "name": "White Tassel",
+  "type": "POLEARM",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "A standard-issue weapon of the Millelith soldiers. It has a sturdy shaft and sharp spearhead. It's a reliable weapon.",
+  "history": "The Millelith Soldiers are renowned the world over for their skilled use of polearm weapons. The signature white-tasseled halberd they wield is mass-produced at the Blackcliff Forge. It is a weapon that has stood the test of countless bloody battles over centuries of history. For even when the smoke of the battlefield stained the tassel a murky shade of gray, it would wave proudly and defiantly like a flag in the wind. The army once had in its ranks a legendary master of the polearm. He could hit his target from miles away without staining its tassel. \"The legend is that of the polearm's bearer...\" \"Not the polearm itself, which was entirely ordinary.\" The old smith smacked his apprentice. He demanded a white tassel for the newly made polearm.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Luminous Sands from Guyun",
+          "quantity": 2
+        },
+        {
+          "name": "Hunter's Sacrificial Knife",
+          "quantity": 2
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 2
+        },
+        {
+          "name": "Hunter's Sacrificial Knife",
+          "quantity": 8
+        },
+        {
+          "name": "Recruit's Insignia",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Agent's Sacrificial Knife",
+          "quantity": 4
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Relic from Guyun",
+          "quantity": 2
+        },
+        {
+          "name": "Agent's Sacrificial Knife",
+          "quantity": 8
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Relic from Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Inspector's Sacrificial Knife",
+          "quantity": 6
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Divine Body from Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Inspector's Sacrificial Knife",
+          "quantity": 12
+        },
+        {
+          "name": "Lieutenant's Insignia",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "40": {
+      "baseAtk": 169
+    },
+    "50": {
+      "baseAtk": 216
+    },
+    "60": {
+      "baseAtk": 263
+    },
+    "70": {
+      "baseAtk": 309
+    },
+    "80": {
+      "baseAtk": 355
+    },
+    "90": {
+      "baseAtk": 401
+    },
+    "20_ASC": {
+      "baseAtk": 113
+    },
+    "40_ASC": {
+      "baseAtk": 189
+    },
+    "50_ASC": {
+      "baseAtk": 236
+    },
+    "60_ASC": {
+      "baseAtk": 282
+    },
+    "70_ASC": {
+      "baseAtk": 329
+    },
+    "80_ASC": {
+      "baseAtk": 375
+    }
+  }
+}

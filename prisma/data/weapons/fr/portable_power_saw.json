@@ -1,0 +1,181 @@
+{
+  "name": "Scie électrique portative",
+  "type": "CLAYMORE",
+  "rarity": 4,
+  "releaseDate": "2023-09-27",
+  "description": "Une scie électrique à l'ancienne que l'on trouve rarement de nos jours. C'était autrefois un outil pour découper auquel les travailleurs du monde entier faisaient confiance.",
+  "history": "Une scie populaire parmi les ouvriers d'antan pour couper les quilles et les tuyaux. Sa structure simple et robuste facilitait la maintenance et le remplacement de ses pièces. Vous n'aviez qu'à saisir fermement la poignée à deux mains, et même l'acier le plus dur se fendrait devant vous. Cet outil tout-puissant était autrefois le symbole du progrès. Alors que les zones urbaines de Fontaine s'agrandissaient, la lumière de l'ordre chassait les ténèbres. C'est en grande partie grâce à cet outil pratique que les égouts sont finalement devenus le Fleuve cendré. Même s'ils vivaient dans une ville en contrebas, sans pluie ni soleil, les habitants du Fleuve étaient persuadés d'une chose : Leur diligence et leur ténacité leur vaudraient un jour le droit de vivre à la surface. Ils pourraient même transformer leur royaume aquatique souterrain en un foyer aussi beau que le monde d'en haut. Contrairement à L'assistant du docker et au Foret de prospecteur, ces scies n'étaient pas interdites. Elles jouaient en fait un rôle irremplaçable dans la première vague de production des Mékas horlogoïdes. Plus tard, une immense usine de Mékas horlogoïdes a été construite dans une zone sûre en dehors de la ville. Et ceux qui savaient utiliser habilement ces scies furent progressivement emportés, avec leurs armes, par le torrent du progrès...",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Gobelet brisé de la mer immaculée",
+          "quantity": 3
+        },
+        {
+          "name": "Noyau de faille",
+          "quantity": 3
+        },
+        {
+          "name": "Engrenage de maillage",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Gobelet à vin de la mer immaculée",
+          "quantity": 3
+        },
+        {
+          "name": "Noyau de faille",
+          "quantity": 12
+        },
+        {
+          "name": "Engrenage de maillage",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Gobelet à vin de la mer immaculée",
+          "quantity": 6
+        },
+        {
+          "name": "Synapse étrangère",
+          "quantity": 6
+        },
+        {
+          "name": "Engrenage à coupe droite",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Gobelet d'argent de la mer immaculée",
+          "quantity": 3
+        },
+        {
+          "name": "Synapse étrangère",
+          "quantity": 12
+        },
+        {
+          "name": "Engrenage à coupe droite",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Gobelet d'argent de la mer immaculée",
+          "quantity": 6
+        },
+        {
+          "name": "Noyau d'organisme d'extramonde",
+          "quantity": 9
+        },
+        {
+          "name": "Engrenage dynamique artificié",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Gobelet d'or de la mer immaculée",
+          "quantity": 4
+        },
+        {
+          "name": "Noyau d'organisme d'extramonde",
+          "quantity": 18
+        },
+        {
+          "name": "Engrenage dynamique artificié",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 41
+    },
+    "20": {
+      "baseAtk": 99
+    },
+    "40": {
+      "baseAtk": 183
+    },
+    "50": {
+      "baseAtk": 238
+    },
+    "60": {
+      "baseAtk": 292
+    },
+    "70": {
+      "baseAtk": 346
+    },
+    "80": {
+      "baseAtk": 400
+    },
+    "90": {
+      "baseAtk": 454
+    },
+    "20_ASC": {
+      "baseAtk": 125
+    },
+    "40_ASC": {
+      "baseAtk": 209
+    },
+    "50_ASC": {
+      "baseAtk": 264
+    },
+    "60_ASC": {
+      "baseAtk": 318
+    },
+    "70_ASC": {
+      "baseAtk": 372
+    },
+    "80_ASC": {
+      "baseAtk": 426
+    }
+  }
+}

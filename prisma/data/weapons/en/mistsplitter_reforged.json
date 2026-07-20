@@ -1,0 +1,181 @@
+{
+  "name": "Mistsplitter Reforged",
+  "type": "SWORD",
+  "rarity": 5,
+  "releaseDate": "2021-07-21",
+  "description": "A sword that blazes with a fierce violet light. The name \"Reforged\" comes from it having been broken once before.",
+  "history": "One of the swords that the Shogun bestowed upon her Hatamoto. It is said that it can call upon the power of lightning itself to slice through the mountain mist and night fog. It was once shattered into a thousand pieces. After being reforged, a resembling flowing clouds was left on the blade. As the folk song goes: \"Arataki of the Front Gate, Iwakura the Successor, Kitain the Serpent, Takamine the Mistsplitter.\" Thus do children who love martial arts list famous historical martial artists, and \"Takamine the Mistsplitter\" was the very same user of this sword. This man once accompanied a member of the clergy, using the Mistsplitter to slay countless demons and Tatarigami. He also learned archery from the Yougou Tengu, and passed that knowledge on to a person he loved. However, Mistsplitter would have no successors, and now only exists within storybooks, artworks, and fairytales. At the end of his life, he assumed the position of one of the Shogun's and fought against a dark army. If he hadn't left his beloved bow to her as part of their wager, maybe things would've been different. But real gamblers never regret, never care about \"what ifs,\" and never feel remorse over \"if onlys.\" The foe flooded over like mist — and so he would just keep slashing away with that secret blade that could disperse the brumous night. As long as his strikes were swift enough, he would pierce the dark night, and day would come again— \"Asase, our promise... No, say rather our great bet. I will not lose it, not for the world!\" \"I shall return, and together with the bow that I'd wagered... I'll claim the future as my prize!\" Like a never-ending chain of lightning, he and Mistsplitter slew countless demons together. Yet at the last, the sword was not as tenacious as the swordsman, and it gradually broke down. And he became submerged in that thick dark mist... In the end, only some of the blade's fragments were retrieved for reforging, such that the resultant weapon might inherit the Mistsplitter name. As though holding onto a spider's thread hanging down in the dark, the samurai held the handle of his broken sword tightly. Amidst the dark mist, he kept stubbornly reminding himself: The result of our wager is still undecided. I must return to Asase's side...",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Coral Branch of a Distant Sea",
+          "quantity": 5
+        },
+        {
+          "name": "Chaos Gear",
+          "quantity": 5
+        },
+        {
+          "name": "Old Handguard",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Jeweled Branch of a Distant Sea",
+          "quantity": 5
+        },
+        {
+          "name": "Chaos Gear",
+          "quantity": 18
+        },
+        {
+          "name": "Old Handguard",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Jeweled Branch of a Distant Sea",
+          "quantity": 9
+        },
+        {
+          "name": "Chaos Axis",
+          "quantity": 9
+        },
+        {
+          "name": "Kageuchi Handguard",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Jade Branch of a Distant Sea",
+          "quantity": 5
+        },
+        {
+          "name": "Chaos Axis",
+          "quantity": 18
+        },
+        {
+          "name": "Kageuchi Handguard",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Jade Branch of a Distant Sea",
+          "quantity": 9
+        },
+        {
+          "name": "Chaos Oculus",
+          "quantity": 14
+        },
+        {
+          "name": "Famed Handguard",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Golden Branch of a Distant Sea",
+          "quantity": 6
+        },
+        {
+          "name": "Chaos Oculus",
+          "quantity": 27
+        },
+        {
+          "name": "Famed Handguard",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

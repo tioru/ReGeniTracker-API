@@ -1,0 +1,181 @@
+{
+  "name": "Messager de l'Aube",
+  "type": "SWORD",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "La lame de cette épée luisait jadis comme le soleil, mais ce n'est plus le cas aujourd'hui. Celui qui manie cette arme se sent au sommet de sa forme.",
+  "history": "Le nom complet de cette épée est assez peu courant : « Le messager de l'aube triomphant montrant la victoire ». L'épée n'a fait qu'une victime sur le champ de bataille. Cette nuit-là, l'aventurier brandit son arme sur le champ de bataille ; mais la lame réfléchit le clair de lune, brillant comme le jour. Sa position était découverte ; une pluie de flèches s'abattit dans sa direction.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Dent de lait du Loup boréal",
+          "quantity": 2
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 2
+        },
+        {
+          "name": "Bave de Blob",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 2
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 8
+        },
+        {
+          "name": "Bave de Blob",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 4
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 4
+        },
+        {
+          "name": "Mucus de Blob",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 2
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 8
+        },
+        {
+          "name": "Mucus de Blob",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 4
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 6
+        },
+        {
+          "name": "Essence de Blob",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Nostalgie du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 12
+        },
+        {
+          "name": "Essence de Blob",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "40": {
+      "baseAtk": 169
+    },
+    "50": {
+      "baseAtk": 216
+    },
+    "60": {
+      "baseAtk": 263
+    },
+    "70": {
+      "baseAtk": 309
+    },
+    "80": {
+      "baseAtk": 355
+    },
+    "90": {
+      "baseAtk": 401
+    },
+    "20_ASC": {
+      "baseAtk": 113
+    },
+    "40_ASC": {
+      "baseAtk": 189
+    },
+    "50_ASC": {
+      "baseAtk": 236
+    },
+    "60_ASC": {
+      "baseAtk": 282
+    },
+    "70_ASC": {
+      "baseAtk": 329
+    },
+    "80_ASC": {
+      "baseAtk": 375
+    }
+  }
+}

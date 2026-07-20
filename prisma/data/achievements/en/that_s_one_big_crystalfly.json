@@ -1,14 +1,14 @@
 {
-  "title": "That's One Big Crystalfly",
-  "description": "Defeat an Anemo Hypostasis in Co-Op Mode.",
-  "category": "Meetings in Outrealm: Series I",
-  "hidden": false,
+  "title": "\"That's one big Crystalfly\"",
+  "description": "Absorb all of an Anemo Hypostasis' Wind Crystals before it can be revived.",
+  "category": "Wonders of the World",
+  "hidden": true,
   "releaseVersion": "1.0",
   "reward": {
     "item": "Primogem",
     "quantity": 10
   },
-  "type": "",
+  "type": "Boss",
   "requirements": "",
   "tier": 1
 }

@@ -1,0 +1,181 @@
+{
+  "name": "Espadon rituel",
+  "type": "CLAYMORE",
+  "rarity": 4,
+  "releaseDate": "2020-09-28",
+  "description": "Un espadon ornemental que le temps a pétrifié, mais dont les ornements sont toujours visibles. Cette arme confère à son possesseur le pouvoir d'affronter les vents du temps.",
+  "history": "Le peuple des hautes falaises faisant face à la mer orientale vénérait jadis le maître du temps et l'Archon Anémo. Les deux divinités sont souvent confondues, car : « Le vent apporte des histoires et le temps les cultive. » Cette épée, qui narre l'histoire de la guerre, fut utilisée lors de la mise en scène de combats légendaires. Il s'agissait à l'origine d'un accessoire de théâtre ; mais le temps lui a conféré un tranchant et une solidité à toute épreuve. Cette épée appartenait autrefois au Clan Imunlaukr, peuplé de braves et puissants guerriers combattant sans relâche et mourant souvent jeunes. Leurs cérémonies rituelles les voyaient s'affronter de manière symbolique, reprenant les duels légendaires de leur folklore. Aux yeux des Imunlaukr, le combat n'existait ni pour se défendre, ni pour la gloire, ni pour l'expansion territoriale. Il s'agissait tout simplement de satisfaire à l'amusement des dieux, hauts dans les cieux. Ils combattirent ainsi sans distinction monstres et humains, sans que la pensée du retour au pays natal les habite ; car rien de tout ceci ne comptait à leurs yeux ; seul comptait le rugissement au combat. Alors seulement leur devoir était rempli. Et pourtant, alors que fondait la neige et que Mondstadt naissait, ils réalisèrent qu'ils avaient enfin trouvé autre chose valant la peine de se battre. Leur combat avait jusque-là été un combat sans fin, et sans espoir de victoire ; mais Mondstadt naissant, ils surent qu'ils avaient trouvé l'objet de leur combat.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Dent de lait du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 3
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 12
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 6
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 12
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 9
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 35000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Nostalgie du Loup boréal",
+          "quantity": 4
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 18
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 44
+    },
+    "20": {
+      "baseAtk": 119
+    },
+    "40": {
+      "baseAtk": 226
+    },
+    "50": {
+      "baseAtk": 293
+    },
+    "60": {
+      "baseAtk": 361
+    },
+    "70": {
+      "baseAtk": 429
+    },
+    "80": {
+      "baseAtk": 497
+    },
+    "90": {
+      "baseAtk": 565
+    },
+    "20_ASC": {
+      "baseAtk": 144
+    },
+    "40_ASC": {
+      "baseAtk": 252
+    },
+    "50_ASC": {
+      "baseAtk": 319
+    },
+    "60_ASC": {
+      "baseAtk": 387
+    },
+    "70_ASC": {
+      "baseAtk": 455
+    },
+    "80_ASC": {
+      "baseAtk": 523
+    }
+  }
+}

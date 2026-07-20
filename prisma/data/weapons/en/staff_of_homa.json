@@ -1,0 +1,181 @@
+{
+  "name": "Staff of Homa",
+  "type": "POLEARM",
+  "rarity": 5,
+  "releaseDate": "2021-02-23",
+  "description": "A \"firewood staff\" that was once used in ancient and long-lost rituals.",
+  "history": "To cleanse by fire all that is impure, to allow the impurities to rise with the flames unto the all-accommodating high heavens. These rites would see fresh cinder lit during the rainy seasons, and wolf smoke would arise from those fires as prayers for blessings and the defeat of evil. These blazing rituals were especially commonplace during that ancient period of strife. For the dreams and delusions of the silent corpses of gods would produce evil miasmas, Snatching away the citizens who were no longer theirs, and those who never were theirs also. Then, a merciful doctor heard a whisper from within the flame as fierce as the red sunset, From within the crackling and snapping of withered grass. \"Only an unbound flame can purify the filth of this world.\" \"Lift up this scarlet firewood. With it, you shall repel every demon.\" So the doctor took up that devilishly red staff, igniting all that was impure. Those who have passed, unable to bear deep sadness, but who have since become shrouded by ill karma and calamity, They shall be reduced to ashen butterflies in this flame, and receive relief from their misfortunes and hurts. As for the doctor who lit those countless flames, legend has it that they, too, were reduced to smoke in the shape of a lovely butterfly. Though these rites have been forgotten over time and with the coming of peace, Those with fire in their hearts can still hear these whispered words from flickering flames when they find themselves faced with an imposing darkness: \"Only an unbound flame can purify this world.\"",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Grain of Aerosiderite",
+          "quantity": 5
+        },
+        {
+          "name": "Dead Ley Line Branch",
+          "quantity": 5
+        },
+        {
+          "name": "Slime Condensate",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 5
+        },
+        {
+          "name": "Dead Ley Line Branch",
+          "quantity": 18
+        },
+        {
+          "name": "Slime Condensate",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 9
+        },
+        {
+          "name": "Dead Ley Line Leaves",
+          "quantity": 9
+        },
+        {
+          "name": "Slime Secretions",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 5
+        },
+        {
+          "name": "Dead Ley Line Leaves",
+          "quantity": 18
+        },
+        {
+          "name": "Slime Secretions",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 9
+        },
+        {
+          "name": "Ley Line Sprout",
+          "quantity": 14
+        },
+        {
+          "name": "Slime Concentrate",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Chunk of Aerosiderite",
+          "quantity": 6
+        },
+        {
+          "name": "Ley Line Sprout",
+          "quantity": 27
+        },
+        {
+          "name": "Slime Concentrate",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 46
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

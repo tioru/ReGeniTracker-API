@@ -1,0 +1,181 @@
+{
+  "name": "Fillet Blade",
+  "type": "SWORD",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "A sharp filleting knife. The blade is long, thin, and incredibly sharp.",
+  "history": "It was said that the Ticker Fish was a favorite among the people of Liyue. As word caught on, somehow Ticker became Tiger. Now, the real Ticker Fish is hard to come by, but Tiger Fish fillets have become synonymous with delicious fish for the people of Liyue.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Mist Veiled Lead Elixir",
+          "quantity": 2
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 2
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 2
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 8
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 4
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 2
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 8
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 6
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Mist Veiled Primo Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 12
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "40": {
+      "baseAtk": 169
+    },
+    "50": {
+      "baseAtk": 216
+    },
+    "60": {
+      "baseAtk": 263
+    },
+    "70": {
+      "baseAtk": 309
+    },
+    "80": {
+      "baseAtk": 355
+    },
+    "90": {
+      "baseAtk": 401
+    },
+    "20_ASC": {
+      "baseAtk": 113
+    },
+    "40_ASC": {
+      "baseAtk": 189
+    },
+    "50_ASC": {
+      "baseAtk": 236
+    },
+    "60_ASC": {
+      "baseAtk": 282
+    },
+    "70_ASC": {
+      "baseAtk": 329
+    },
+    "80_ASC": {
+      "baseAtk": 375
+    }
+  }
+}

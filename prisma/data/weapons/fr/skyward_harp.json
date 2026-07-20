@@ -1,0 +1,181 @@
+{
+  "name": "Ailes de la Voûte d'Azur",
+  "type": "BOW",
+  "rarity": 5,
+  "releaseDate": "2020-09-28",
+  "description": "Un grand arc qui symbolise l'affiliation de Dvalin à Barbatos. Fort de la puissance du ciel et du vent, le son qu'il produit lors de la libération de la flèche est une vraie musique aux oreilles de l'Archon Anémo.",
+  "history": "La lyre qui transcende les cieux. Le son clair de cette lyre résonne encore dans le vent et dans le cœur des gens. On raconte que même l'ancien et maléfique dragon fut attiré par ses mélodies. Il y a bien longtemps de cela, Barbatos, pinçant sa lyre, invoquait les mille vents et chansons. Dvalin le dragon, charmé par les chansons libres comme la brise, descendit des cieux et lui jura fidélité. Se réjouissant de compter un nouvel ami, Barbatos confia le peuple de Mondstadt à Dvalin. Et c'est ainsi que dans l'amitié de l'Archon Anémo et du Dragon des Vents naquit l'aube pour Mondstadt. Les mélodies de la lyre harcelèrent le démon dragon lors du combat final ; et ainsi Dvalin put-il mettre fin à son règne. Bien des années après que le terrible combat soit oublié, Dvalin vint à s'éveiller de son long sommeil. Mais son maître il ne trouva point ; à sa place l'accueillirent les murmures empoisonnés de l'Abîme. Trop forte fut la douleur, trop cruel était le sort. Et un sombre désespoir emplit l'esprit corrompu de Dvalin. Dvalin se retourna contre ceux qu'il avait jadis juré de protéger ; et accusant celui à qui il avait juré fidélité, en ces termes terribles il parla : « À ma douleur Barbatos est indifférent ; que tous voient sa vraie nature ! » « Qu'à jamais il soit maudit, lui le plus cruel des Archons ! » Las ! Le dragon ignore que son ancien ami cherche à le sauver. Or si nombre de souvenirs chéris ont péri sous les coups de l'aveugle colère de Dvalin, ceux de la mélodie de la lyre demeurent toujours. Bientôt viendra l'heure de la fin des différends. Bientôt Dvalin entendra à nouveau sa chanson.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Dent de lait du Loup boréal",
+          "quantity": 5
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 5
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 5
+        },
+        {
+          "name": "Branche morte des lignes énergétiques",
+          "quantity": 18
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 9
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 9
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 5
+        },
+        {
+          "name": "Feuilles mortes des lignes énergétiques",
+          "quantity": 18
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 14
+        },
+        {
+          "name": "Mora",
+          "quantity": 45000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 9
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 14
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 9
+        },
+        {
+          "name": "Mora",
+          "quantity": 55000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Nostalgie du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Pousse des lignes énergétiques",
+          "quantity": 27
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 65000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 48
+    },
+    "20": {
+      "baseAtk": 133
+    },
+    "40": {
+      "baseAtk": 261
+    },
+    "50": {
+      "baseAtk": 341
+    },
+    "60": {
+      "baseAtk": 423
+    },
+    "70": {
+      "baseAtk": 506
+    },
+    "80": {
+      "baseAtk": 590
+    },
+    "90": {
+      "baseAtk": 674
+    },
+    "20_ASC": {
+      "baseAtk": 164
+    },
+    "40_ASC": {
+      "baseAtk": 292
+    },
+    "50_ASC": {
+      "baseAtk": 373
+    },
+    "60_ASC": {
+      "baseAtk": 455
+    },
+    "70_ASC": {
+      "baseAtk": 537
+    },
+    "80_ASC": {
+      "baseAtk": 621
+    }
+  }
+}

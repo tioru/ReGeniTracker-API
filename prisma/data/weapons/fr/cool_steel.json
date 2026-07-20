@@ -1,0 +1,181 @@
+{
+  "name": "Lame froide",
+  "type": "SWORD",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "Une arme faite dans un acier travaillé à maintes reprises, qui témoigne des aventures de son précédent propriétaire.",
+  "history": "Une épée en acier robuste forgée par pliage. L'acier brille d'une lueur sombre et froide. L'arme appartenait à un célèbre aventurier qui parcourut le monde. Elle trancha les os des monstres comme ceux des bandits de grand chemin. Mais à la fin, l'aventurier abandonna tout, de la terre sans limites au ciel infini, et de ses compagnons de guilde à sa lame fidèle, pour rejoindre une fille.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Tuile cassée de Décarabian",
+          "quantity": 2
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 2
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 2
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 8
+        },
+        {
+          "name": "Pointe de flèche robuste",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 4
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 4
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 2
+        },
+        {
+          "name": "Corne en bronze noir",
+          "quantity": 8
+        },
+        {
+          "name": "Pointe de flèche aiguisée",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 4
+        },
+        {
+          "name": "Corne à cristal noir",
+          "quantity": 6
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Rêve brisé de Décarabian",
+          "quantity": 3
+        },
+        {
+          "name": "Corne à cristal noir",
+          "quantity": 12
+        },
+        {
+          "name": "Pointe de flèche usée",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "40": {
+      "baseAtk": 169
+    },
+    "50": {
+      "baseAtk": 216
+    },
+    "60": {
+      "baseAtk": 263
+    },
+    "70": {
+      "baseAtk": 309
+    },
+    "80": {
+      "baseAtk": 355
+    },
+    "90": {
+      "baseAtk": 401
+    },
+    "20_ASC": {
+      "baseAtk": 113
+    },
+    "40_ASC": {
+      "baseAtk": 189
+    },
+    "50_ASC": {
+      "baseAtk": 236
+    },
+    "60_ASC": {
+      "baseAtk": 282
+    },
+    "70_ASC": {
+      "baseAtk": 329
+    },
+    "80_ASC": {
+      "baseAtk": 375
+    }
+  }
+}

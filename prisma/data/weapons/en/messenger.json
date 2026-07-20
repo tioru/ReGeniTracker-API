@@ -1,0 +1,181 @@
+{
+  "name": "Messenger",
+  "type": "BOW",
+  "rarity": 3,
+  "releaseDate": "2020-09-28",
+  "description": "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
+  "history": "It was said in days gone by, The people of Liyue passed messages by bow and arrow. \"Wouldn't bystanders get hurt, you ask?\" \"Suffice to say, there's a good reason this bow is an antique...\" The antique shop owner rubbed their chin and smiled.",
+  "sellers": [],
+  "ascensionMaterials": [
+    {
+      "level": 20,
+      "materials": [
+        {
+          "name": "Mist Veiled Lead Elixir",
+          "quantity": 2
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 2
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 2
+        },
+        {
+          "name": "Mist Grass Pollen",
+          "quantity": 8
+        },
+        {
+          "name": "Treasure Hoarder Insignia",
+          "quantity": 5
+        },
+        {
+          "name": "Mora",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "materials": [
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 4
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 2
+        },
+        {
+          "name": "Mist Grass",
+          "quantity": 8
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 6
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "materials": [
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 6
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 25000
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "materials": [
+        {
+          "name": "Mist Veiled Primo Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Grass Wick",
+          "quantity": 12
+        },
+        {
+          "name": "Golden Raven Insignia",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "1": {
+      "baseAtk": 40
+    },
+    "20": {
+      "baseAtk": 102
+    },
+    "40": {
+      "baseAtk": 187
+    },
+    "50": {
+      "baseAtk": 239
+    },
+    "60": {
+      "baseAtk": 292
+    },
+    "70": {
+      "baseAtk": 344
+    },
+    "80": {
+      "baseAtk": 396
+    },
+    "90": {
+      "baseAtk": 448
+    },
+    "20_ASC": {
+      "baseAtk": 121
+    },
+    "40_ASC": {
+      "baseAtk": 207
+    },
+    "50_ASC": {
+      "baseAtk": 259
+    },
+    "60_ASC": {
+      "baseAtk": 311
+    },
+    "70_ASC": {
+      "baseAtk": 363
+    },
+    "80_ASC": {
+      "baseAtk": 415
+    }
+  }
+}
