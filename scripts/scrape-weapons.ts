@@ -247,7 +247,7 @@ function slugify(title: string): string {
     .replace(/^_+|_+$/g, '');
 }
 
-// ── HTML helpers (repris/adaptés de scrape-bosses.ts) ────────────────────────
+// ── HTML helpers (repris/adaptés de scrape-enemies.ts) ────────────────────────
 
 function extractSectionHtml(html: string, id: string): string | null {
   const marker = `id="${id}"`;
