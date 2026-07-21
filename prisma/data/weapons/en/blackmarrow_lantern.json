@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 41
     },
+    "2": {
+      "baseAtk": 44
+    },
+    "3": {
+      "baseAtk": 47
+    },
+    "4": {
+      "baseAtk": 51
+    },
+    "5": {
+      "baseAtk": 54
+    },
+    "6": {
+      "baseAtk": 57
+    },
+    "7": {
+      "baseAtk": 60
+    },
+    "8": {
+      "baseAtk": 63
+    },
+    "9": {
+      "baseAtk": 66
+    },
+    "10": {
+      "baseAtk": 69
+    },
+    "11": {
+      "baseAtk": 72
+    },
+    "12": {
+      "baseAtk": 75
+    },
+    "13": {
+      "baseAtk": 78
+    },
+    "14": {
+      "baseAtk": 81
+    },
+    "15": {
+      "baseAtk": 84
+    },
+    "16": {
+      "baseAtk": 87
+    },
+    "17": {
+      "baseAtk": 90
+    },
+    "18": {
+      "baseAtk": 93
+    },
+    "19": {
+      "baseAtk": 96
+    },
     "20": {
       "baseAtk": 99
+    },
+    "21": {
+      "baseAtk": 128
+    },
+    "22": {
+      "baseAtk": 131
+    },
+    "23": {
+      "baseAtk": 134
+    },
+    "24": {
+      "baseAtk": 137
+    },
+    "25": {
+      "baseAtk": 140
+    },
+    "26": {
+      "baseAtk": 143
+    },
+    "27": {
+      "baseAtk": 146
+    },
+    "28": {
+      "baseAtk": 149
+    },
+    "29": {
+      "baseAtk": 152
+    },
+    "30": {
+      "baseAtk": 155
+    },
+    "31": {
+      "baseAtk": 158
+    },
+    "32": {
+      "baseAtk": 161
+    },
+    "33": {
+      "baseAtk": 163
+    },
+    "34": {
+      "baseAtk": 166
+    },
+    "35": {
+      "baseAtk": 169
+    },
+    "36": {
+      "baseAtk": 172
+    },
+    "37": {
+      "baseAtk": 175
+    },
+    "38": {
+      "baseAtk": 178
+    },
+    "39": {
+      "baseAtk": 181
     },
     "40": {
       "baseAtk": 184
     },
+    "41": {
+      "baseAtk": 213
+    },
+    "42": {
+      "baseAtk": 215
+    },
+    "43": {
+      "baseAtk": 218
+    },
+    "44": {
+      "baseAtk": 221
+    },
+    "45": {
+      "baseAtk": 224
+    },
+    "46": {
+      "baseAtk": 227
+    },
+    "47": {
+      "baseAtk": 230
+    },
+    "48": {
+      "baseAtk": 233
+    },
+    "49": {
+      "baseAtk": 236
+    },
     "50": {
       "baseAtk": 238
+    },
+    "51": {
+      "baseAtk": 267
+    },
+    "52": {
+      "baseAtk": 270
+    },
+    "53": {
+      "baseAtk": 273
+    },
+    "54": {
+      "baseAtk": 276
+    },
+    "55": {
+      "baseAtk": 278
+    },
+    "56": {
+      "baseAtk": 281
+    },
+    "57": {
+      "baseAtk": 284
+    },
+    "58": {
+      "baseAtk": 287
+    },
+    "59": {
+      "baseAtk": 290
     },
     "60": {
       "baseAtk": 293
     },
+    "61": {
+      "baseAtk": 321
+    },
+    "62": {
+      "baseAtk": 324
+    },
+    "63": {
+      "baseAtk": 327
+    },
+    "64": {
+      "baseAtk": 330
+    },
+    "65": {
+      "baseAtk": 333
+    },
+    "66": {
+      "baseAtk": 335
+    },
+    "67": {
+      "baseAtk": 338
+    },
+    "68": {
+      "baseAtk": 341
+    },
+    "69": {
+      "baseAtk": 344
+    },
     "70": {
       "baseAtk": 347
     },
+    "71": {
+      "baseAtk": 375
+    },
+    "72": {
+      "baseAtk": 378
+    },
+    "73": {
+      "baseAtk": 381
+    },
+    "74": {
+      "baseAtk": 384
+    },
+    "75": {
+      "baseAtk": 387
+    },
+    "76": {
+      "baseAtk": 389
+    },
+    "77": {
+      "baseAtk": 392
+    },
+    "78": {
+      "baseAtk": 395
+    },
+    "79": {
+      "baseAtk": 398
+    },
     "80": {
       "baseAtk": 401
+    },
+    "81": {
+      "baseAtk": 429
+    },
+    "82": {
+      "baseAtk": 432
+    },
+    "83": {
+      "baseAtk": 435
+    },
+    "84": {
+      "baseAtk": 438
+    },
+    "85": {
+      "baseAtk": 440
+    },
+    "86": {
+      "baseAtk": 443
+    },
+    "87": {
+      "baseAtk": 446
+    },
+    "88": {
+      "baseAtk": 449
+    },
+    "89": {
+      "baseAtk": 452
     },
     "90": {
       "baseAtk": 454
@@ -176,6 +422,360 @@
     },
     "80_ASC": {
       "baseAtk": 427
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Elemental Mastery",
+    "levels": {
+      "1": {
+        "elementalMastery": "48"
+      },
+      "2": {
+        "elementalMastery": "48"
+      },
+      "3": {
+        "elementalMastery": "48"
+      },
+      "4": {
+        "elementalMastery": "48"
+      },
+      "5": {
+        "elementalMastery": "56"
+      },
+      "6": {
+        "elementalMastery": "56"
+      },
+      "7": {
+        "elementalMastery": "56"
+      },
+      "8": {
+        "elementalMastery": "56"
+      },
+      "9": {
+        "elementalMastery": "56"
+      },
+      "10": {
+        "elementalMastery": "65"
+      },
+      "11": {
+        "elementalMastery": "65"
+      },
+      "12": {
+        "elementalMastery": "65"
+      },
+      "13": {
+        "elementalMastery": "65"
+      },
+      "14": {
+        "elementalMastery": "65"
+      },
+      "15": {
+        "elementalMastery": "75"
+      },
+      "16": {
+        "elementalMastery": "75"
+      },
+      "17": {
+        "elementalMastery": "75"
+      },
+      "18": {
+        "elementalMastery": "75"
+      },
+      "19": {
+        "elementalMastery": "75"
+      },
+      "20": {
+        "elementalMastery": "85"
+      },
+      "21": {
+        "elementalMastery": "85"
+      },
+      "22": {
+        "elementalMastery": "85"
+      },
+      "23": {
+        "elementalMastery": "85"
+      },
+      "24": {
+        "elementalMastery": "85"
+      },
+      "25": {
+        "elementalMastery": "95"
+      },
+      "26": {
+        "elementalMastery": "95"
+      },
+      "27": {
+        "elementalMastery": "95"
+      },
+      "28": {
+        "elementalMastery": "95"
+      },
+      "29": {
+        "elementalMastery": "95"
+      },
+      "30": {
+        "elementalMastery": "104"
+      },
+      "31": {
+        "elementalMastery": "104"
+      },
+      "32": {
+        "elementalMastery": "104"
+      },
+      "33": {
+        "elementalMastery": "104"
+      },
+      "34": {
+        "elementalMastery": "104"
+      },
+      "35": {
+        "elementalMastery": "114"
+      },
+      "36": {
+        "elementalMastery": "114"
+      },
+      "37": {
+        "elementalMastery": "114"
+      },
+      "38": {
+        "elementalMastery": "114"
+      },
+      "39": {
+        "elementalMastery": "114"
+      },
+      "40": {
+        "elementalMastery": "124"
+      },
+      "41": {
+        "elementalMastery": "124"
+      },
+      "42": {
+        "elementalMastery": "124"
+      },
+      "43": {
+        "elementalMastery": "124"
+      },
+      "44": {
+        "elementalMastery": "124"
+      },
+      "45": {
+        "elementalMastery": "133"
+      },
+      "46": {
+        "elementalMastery": "133"
+      },
+      "47": {
+        "elementalMastery": "133"
+      },
+      "48": {
+        "elementalMastery": "133"
+      },
+      "49": {
+        "elementalMastery": "133"
+      },
+      "50": {
+        "elementalMastery": "143"
+      },
+      "51": {
+        "elementalMastery": "143"
+      },
+      "52": {
+        "elementalMastery": "143"
+      },
+      "53": {
+        "elementalMastery": "143"
+      },
+      "54": {
+        "elementalMastery": "143"
+      },
+      "55": {
+        "elementalMastery": "153"
+      },
+      "56": {
+        "elementalMastery": "153"
+      },
+      "57": {
+        "elementalMastery": "153"
+      },
+      "58": {
+        "elementalMastery": "153"
+      },
+      "59": {
+        "elementalMastery": "153"
+      },
+      "60": {
+        "elementalMastery": "162"
+      },
+      "61": {
+        "elementalMastery": "162"
+      },
+      "62": {
+        "elementalMastery": "162"
+      },
+      "63": {
+        "elementalMastery": "162"
+      },
+      "64": {
+        "elementalMastery": "162"
+      },
+      "65": {
+        "elementalMastery": "172"
+      },
+      "66": {
+        "elementalMastery": "172"
+      },
+      "67": {
+        "elementalMastery": "172"
+      },
+      "68": {
+        "elementalMastery": "172"
+      },
+      "69": {
+        "elementalMastery": "172"
+      },
+      "70": {
+        "elementalMastery": "182"
+      },
+      "71": {
+        "elementalMastery": "182"
+      },
+      "72": {
+        "elementalMastery": "182"
+      },
+      "73": {
+        "elementalMastery": "182"
+      },
+      "74": {
+        "elementalMastery": "182"
+      },
+      "75": {
+        "elementalMastery": "191"
+      },
+      "76": {
+        "elementalMastery": "191"
+      },
+      "77": {
+        "elementalMastery": "191"
+      },
+      "78": {
+        "elementalMastery": "191"
+      },
+      "79": {
+        "elementalMastery": "191"
+      },
+      "80": {
+        "elementalMastery": "201"
+      },
+      "81": {
+        "elementalMastery": "201"
+      },
+      "82": {
+        "elementalMastery": "201"
+      },
+      "83": {
+        "elementalMastery": "201"
+      },
+      "84": {
+        "elementalMastery": "201"
+      },
+      "85": {
+        "elementalMastery": "211"
+      },
+      "86": {
+        "elementalMastery": "211"
+      },
+      "87": {
+        "elementalMastery": "211"
+      },
+      "88": {
+        "elementalMastery": "211"
+      },
+      "89": {
+        "elementalMastery": "211"
+      },
+      "90": {
+        "elementalMastery": "221"
+      },
+      "20_ASC": {
+        "elementalMastery": "85"
+      },
+      "40_ASC": {
+        "elementalMastery": "124"
+      },
+      "50_ASC": {
+        "elementalMastery": "143"
+      },
+      "60_ASC": {
+        "elementalMastery": "162"
+      },
+      "70_ASC": {
+        "elementalMastery": "182"
+      },
+      "80_ASC": {
+        "elementalMastery": "201"
+      }
+    }
+  },
+  "effects": [
+    "Bloom DMG Bonus",
+    "Lunar-Bloom DMG Bonus"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Token of Covenant",
+      "descriptions": [
+        "Bloom DMG is increased by 48%, and Lunar-Bloom DMG is increased by 12%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 12%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Token of Covenant",
+      "descriptions": [
+        "Bloom DMG is increased by 60%, and Lunar-Bloom DMG is increased by 15%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 15%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Token of Covenant",
+      "descriptions": [
+        "Bloom DMG is increased by 72%, and Lunar-Bloom DMG is increased by 18%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 18%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Token of Covenant",
+      "descriptions": [
+        "Bloom DMG is increased by 84%, and Lunar-Bloom DMG is increased by 21%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 21%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Token of Covenant",
+      "descriptions": [
+        "Bloom DMG is increased by 96%, and Lunar-Bloom DMG is increased by 24%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 24%."
+      ],
+      "upgradeCost": []
     }
   }
 }

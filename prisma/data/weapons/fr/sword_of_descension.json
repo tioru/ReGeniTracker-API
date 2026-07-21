@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 39
     },
+    "2": {
+      "baseAtk": 42
+    },
+    "3": {
+      "baseAtk": 45
+    },
+    "4": {
+      "baseAtk": 48
+    },
+    "5": {
+      "baseAtk": 50
+    },
+    "6": {
+      "baseAtk": 53
+    },
+    "7": {
+      "baseAtk": 56
+    },
+    "8": {
+      "baseAtk": 59
+    },
+    "9": {
+      "baseAtk": 62
+    },
+    "10": {
+      "baseAtk": 65
+    },
+    "11": {
+      "baseAtk": 68
+    },
+    "12": {
+      "baseAtk": 71
+    },
+    "13": {
+      "baseAtk": 74
+    },
+    "14": {
+      "baseAtk": 77
+    },
+    "15": {
+      "baseAtk": 79
+    },
+    "16": {
+      "baseAtk": 82
+    },
+    "17": {
+      "baseAtk": 85
+    },
+    "18": {
+      "baseAtk": 88
+    },
+    "19": {
+      "baseAtk": 91
+    },
     "20": {
       "baseAtk": 94
+    },
+    "21": {
+      "baseAtk": 122
+    },
+    "22": {
+      "baseAtk": 125
+    },
+    "23": {
+      "baseAtk": 128
+    },
+    "24": {
+      "baseAtk": 131
+    },
+    "25": {
+      "baseAtk": 134
+    },
+    "26": {
+      "baseAtk": 137
+    },
+    "27": {
+      "baseAtk": 139
+    },
+    "28": {
+      "baseAtk": 142
+    },
+    "29": {
+      "baseAtk": 145
+    },
+    "30": {
+      "baseAtk": 148
+    },
+    "31": {
+      "baseAtk": 151
+    },
+    "32": {
+      "baseAtk": 153
+    },
+    "33": {
+      "baseAtk": 156
+    },
+    "34": {
+      "baseAtk": 159
+    },
+    "35": {
+      "baseAtk": 162
+    },
+    "36": {
+      "baseAtk": 165
+    },
+    "37": {
+      "baseAtk": 167
+    },
+    "38": {
+      "baseAtk": 170
+    },
+    "39": {
+      "baseAtk": 173
     },
     "40": {
       "baseAtk": 176
     },
+    "41": {
+      "baseAtk": 204
+    },
+    "42": {
+      "baseAtk": 207
+    },
+    "43": {
+      "baseAtk": 210
+    },
+    "44": {
+      "baseAtk": 213
+    },
+    "45": {
+      "baseAtk": 215
+    },
+    "46": {
+      "baseAtk": 218
+    },
+    "47": {
+      "baseAtk": 221
+    },
+    "48": {
+      "baseAtk": 224
+    },
+    "49": {
+      "baseAtk": 226
+    },
     "50": {
       "baseAtk": 229
+    },
+    "51": {
+      "baseAtk": 258
+    },
+    "52": {
+      "baseAtk": 260
+    },
+    "53": {
+      "baseAtk": 263
+    },
+    "54": {
+      "baseAtk": 266
+    },
+    "55": {
+      "baseAtk": 269
+    },
+    "56": {
+      "baseAtk": 271
+    },
+    "57": {
+      "baseAtk": 274
+    },
+    "58": {
+      "baseAtk": 277
+    },
+    "59": {
+      "baseAtk": 279
     },
     "60": {
       "baseAtk": 282
     },
+    "61": {
+      "baseAtk": 311
+    },
+    "62": {
+      "baseAtk": 313
+    },
+    "63": {
+      "baseAtk": 316
+    },
+    "64": {
+      "baseAtk": 319
+    },
+    "65": {
+      "baseAtk": 322
+    },
+    "66": {
+      "baseAtk": 324
+    },
+    "67": {
+      "baseAtk": 327
+    },
+    "68": {
+      "baseAtk": 330
+    },
+    "69": {
+      "baseAtk": 332
+    },
     "70": {
       "baseAtk": 335
     },
+    "71": {
+      "baseAtk": 364
+    },
+    "72": {
+      "baseAtk": 366
+    },
+    "73": {
+      "baseAtk": 369
+    },
+    "74": {
+      "baseAtk": 372
+    },
+    "75": {
+      "baseAtk": 374
+    },
+    "76": {
+      "baseAtk": 377
+    },
+    "77": {
+      "baseAtk": 380
+    },
+    "78": {
+      "baseAtk": 382
+    },
+    "79": {
+      "baseAtk": 385
+    },
     "80": {
       "baseAtk": 388
+    },
+    "81": {
+      "baseAtk": 416
+    },
+    "82": {
+      "baseAtk": 419
+    },
+    "83": {
+      "baseAtk": 422
+    },
+    "84": {
+      "baseAtk": 424
+    },
+    "85": {
+      "baseAtk": 427
+    },
+    "86": {
+      "baseAtk": 430
+    },
+    "87": {
+      "baseAtk": 432
+    },
+    "88": {
+      "baseAtk": 435
+    },
+    "89": {
+      "baseAtk": 438
     },
     "90": {
       "baseAtk": 440
@@ -177,5 +423,304 @@
     "80_ASC": {
       "baseAtk": 414
     }
-  }
+  },
+  "secondaryAttribute": {
+    "type": "ATQ",
+    "levels": {
+      "1": {
+        "atkPercent": "7,7 %"
+      },
+      "2": {
+        "atkPercent": "7,7 %"
+      },
+      "3": {
+        "atkPercent": "7,7 %"
+      },
+      "4": {
+        "atkPercent": "7,7 %"
+      },
+      "5": {
+        "atkPercent": "8,9 %"
+      },
+      "6": {
+        "atkPercent": "8,9 %"
+      },
+      "7": {
+        "atkPercent": "8,9 %"
+      },
+      "8": {
+        "atkPercent": "8,9 %"
+      },
+      "9": {
+        "atkPercent": "8,9 %"
+      },
+      "10": {
+        "atkPercent": "10,4 %"
+      },
+      "11": {
+        "atkPercent": "10,4 %"
+      },
+      "12": {
+        "atkPercent": "10,4 %"
+      },
+      "13": {
+        "atkPercent": "10,4 %"
+      },
+      "14": {
+        "atkPercent": "10,4 %"
+      },
+      "15": {
+        "atkPercent": "12,0 %"
+      },
+      "16": {
+        "atkPercent": "12,0 %"
+      },
+      "17": {
+        "atkPercent": "12,0 %"
+      },
+      "18": {
+        "atkPercent": "12,0 %"
+      },
+      "19": {
+        "atkPercent": "12,0 %"
+      },
+      "20": {
+        "atkPercent": "13,5 %"
+      },
+      "21": {
+        "atkPercent": "13,5 %"
+      },
+      "22": {
+        "atkPercent": "13,5 %"
+      },
+      "23": {
+        "atkPercent": "13,5 %"
+      },
+      "24": {
+        "atkPercent": "13,5 %"
+      },
+      "25": {
+        "atkPercent": "15,1 %"
+      },
+      "26": {
+        "atkPercent": "15,1 %"
+      },
+      "27": {
+        "atkPercent": "15,1 %"
+      },
+      "28": {
+        "atkPercent": "15,1 %"
+      },
+      "29": {
+        "atkPercent": "15,1 %"
+      },
+      "30": {
+        "atkPercent": "16,6 %"
+      },
+      "31": {
+        "atkPercent": "16,6 %"
+      },
+      "32": {
+        "atkPercent": "16,6 %"
+      },
+      "33": {
+        "atkPercent": "16,6 %"
+      },
+      "34": {
+        "atkPercent": "16,6 %"
+      },
+      "35": {
+        "atkPercent": "18,2 %"
+      },
+      "36": {
+        "atkPercent": "18,2 %"
+      },
+      "37": {
+        "atkPercent": "18,2 %"
+      },
+      "38": {
+        "atkPercent": "18,2 %"
+      },
+      "39": {
+        "atkPercent": "18,2 %"
+      },
+      "40": {
+        "atkPercent": "19,7 %"
+      },
+      "41": {
+        "atkPercent": "19,7 %"
+      },
+      "42": {
+        "atkPercent": "19,7 %"
+      },
+      "43": {
+        "atkPercent": "19,7 %"
+      },
+      "44": {
+        "atkPercent": "19,7 %"
+      },
+      "45": {
+        "atkPercent": "21,3 %"
+      },
+      "46": {
+        "atkPercent": "21,3 %"
+      },
+      "47": {
+        "atkPercent": "21,3 %"
+      },
+      "48": {
+        "atkPercent": "21,3 %"
+      },
+      "49": {
+        "atkPercent": "21,3 %"
+      },
+      "50": {
+        "atkPercent": "22,8 %"
+      },
+      "51": {
+        "atkPercent": "22,8 %"
+      },
+      "52": {
+        "atkPercent": "22,8 %"
+      },
+      "53": {
+        "atkPercent": "22,8 %"
+      },
+      "54": {
+        "atkPercent": "22,8 %"
+      },
+      "55": {
+        "atkPercent": "24,4 %"
+      },
+      "56": {
+        "atkPercent": "24,4 %"
+      },
+      "57": {
+        "atkPercent": "24,4 %"
+      },
+      "58": {
+        "atkPercent": "24,4 %"
+      },
+      "59": {
+        "atkPercent": "24,4 %"
+      },
+      "60": {
+        "atkPercent": "25,9 %"
+      },
+      "61": {
+        "atkPercent": "25,9 %"
+      },
+      "62": {
+        "atkPercent": "25,9 %"
+      },
+      "63": {
+        "atkPercent": "25,9 %"
+      },
+      "64": {
+        "atkPercent": "25,9 %"
+      },
+      "65": {
+        "atkPercent": "27,5 %"
+      },
+      "66": {
+        "atkPercent": "27,5 %"
+      },
+      "67": {
+        "atkPercent": "27,5 %"
+      },
+      "68": {
+        "atkPercent": "27,5 %"
+      },
+      "69": {
+        "atkPercent": "27,5 %"
+      },
+      "70": {
+        "atkPercent": "29,0 %"
+      },
+      "71": {
+        "atkPercent": "29,0 %"
+      },
+      "72": {
+        "atkPercent": "29,0 %"
+      },
+      "73": {
+        "atkPercent": "29,0 %"
+      },
+      "74": {
+        "atkPercent": "29,0 %"
+      },
+      "75": {
+        "atkPercent": "30,5 %"
+      },
+      "76": {
+        "atkPercent": "30,5 %"
+      },
+      "77": {
+        "atkPercent": "30,5 %"
+      },
+      "78": {
+        "atkPercent": "30,5 %"
+      },
+      "79": {
+        "atkPercent": "30,5 %"
+      },
+      "80": {
+        "atkPercent": "32,1 %"
+      },
+      "81": {
+        "atkPercent": "32,1 %"
+      },
+      "82": {
+        "atkPercent": "32,1 %"
+      },
+      "83": {
+        "atkPercent": "32,1 %"
+      },
+      "84": {
+        "atkPercent": "32,1 %"
+      },
+      "85": {
+        "atkPercent": "33,6 %"
+      },
+      "86": {
+        "atkPercent": "33,6 %"
+      },
+      "87": {
+        "atkPercent": "33,6 %"
+      },
+      "88": {
+        "atkPercent": "33,6 %"
+      },
+      "89": {
+        "atkPercent": "33,6 %"
+      },
+      "90": {
+        "atkPercent": "35,2 %"
+      },
+      "20_ASC": {
+        "atkPercent": "13,5 %"
+      },
+      "40_ASC": {
+        "atkPercent": "19,7 %"
+      },
+      "50_ASC": {
+        "atkPercent": "22,8 %"
+      },
+      "60_ASC": {
+        "atkPercent": "25,9 %"
+      },
+      "70_ASC": {
+        "atkPercent": "29,0 %"
+      },
+      "80_ASC": {
+        "atkPercent": "32,1 %"
+      }
+    }
+  },
+  "effects": [
+    "ATK",
+    "Physical DMG",
+    "AoE",
+    "Effect Triggered by Normal Attack"
+  ]
 }

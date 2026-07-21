@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 40
     },
+    "2": {
+      "baseAtk": 43
+    },
+    "3": {
+      "baseAtk": 46
+    },
+    "4": {
+      "baseAtk": 50
+    },
+    "5": {
+      "baseAtk": 53
+    },
+    "6": {
+      "baseAtk": 56
+    },
+    "7": {
+      "baseAtk": 59
+    },
+    "8": {
+      "baseAtk": 63
+    },
+    "9": {
+      "baseAtk": 66
+    },
+    "10": {
+      "baseAtk": 69
+    },
+    "11": {
+      "baseAtk": 72
+    },
+    "12": {
+      "baseAtk": 76
+    },
+    "13": {
+      "baseAtk": 79
+    },
+    "14": {
+      "baseAtk": 82
+    },
+    "15": {
+      "baseAtk": 86
+    },
+    "16": {
+      "baseAtk": 89
+    },
+    "17": {
+      "baseAtk": 92
+    },
+    "18": {
+      "baseAtk": 95
+    },
+    "19": {
+      "baseAtk": 99
+    },
     "20": {
       "baseAtk": 102
+    },
+    "21": {
+      "baseAtk": 125
+    },
+    "22": {
+      "baseAtk": 128
+    },
+    "23": {
+      "baseAtk": 131
+    },
+    "24": {
+      "baseAtk": 135
+    },
+    "25": {
+      "baseAtk": 138
+    },
+    "26": {
+      "baseAtk": 141
+    },
+    "27": {
+      "baseAtk": 144
+    },
+    "28": {
+      "baseAtk": 148
+    },
+    "29": {
+      "baseAtk": 151
+    },
+    "30": {
+      "baseAtk": 154
+    },
+    "31": {
+      "baseAtk": 158
+    },
+    "32": {
+      "baseAtk": 161
+    },
+    "33": {
+      "baseAtk": 164
+    },
+    "34": {
+      "baseAtk": 168
+    },
+    "35": {
+      "baseAtk": 171
+    },
+    "36": {
+      "baseAtk": 174
+    },
+    "37": {
+      "baseAtk": 177
+    },
+    "38": {
+      "baseAtk": 181
+    },
+    "39": {
+      "baseAtk": 184
     },
     "40": {
       "baseAtk": 187
     },
+    "41": {
+      "baseAtk": 210
+    },
+    "42": {
+      "baseAtk": 213
+    },
+    "43": {
+      "baseAtk": 217
+    },
+    "44": {
+      "baseAtk": 220
+    },
+    "45": {
+      "baseAtk": 223
+    },
+    "46": {
+      "baseAtk": 226
+    },
+    "47": {
+      "baseAtk": 230
+    },
+    "48": {
+      "baseAtk": 233
+    },
+    "49": {
+      "baseAtk": 236
+    },
     "50": {
       "baseAtk": 239
+    },
+    "51": {
+      "baseAtk": 262
+    },
+    "52": {
+      "baseAtk": 266
+    },
+    "53": {
+      "baseAtk": 269
+    },
+    "54": {
+      "baseAtk": 272
+    },
+    "55": {
+      "baseAtk": 275
+    },
+    "56": {
+      "baseAtk": 279
+    },
+    "57": {
+      "baseAtk": 282
+    },
+    "58": {
+      "baseAtk": 285
+    },
+    "59": {
+      "baseAtk": 288
     },
     "60": {
       "baseAtk": 292
     },
+    "61": {
+      "baseAtk": 314
+    },
+    "62": {
+      "baseAtk": 318
+    },
+    "63": {
+      "baseAtk": 321
+    },
+    "64": {
+      "baseAtk": 324
+    },
+    "65": {
+      "baseAtk": 327
+    },
+    "66": {
+      "baseAtk": 331
+    },
+    "67": {
+      "baseAtk": 334
+    },
+    "68": {
+      "baseAtk": 337
+    },
+    "69": {
+      "baseAtk": 341
+    },
     "70": {
       "baseAtk": 344
     },
+    "71": {
+      "baseAtk": 367
+    },
+    "72": {
+      "baseAtk": 370
+    },
+    "73": {
+      "baseAtk": 373
+    },
+    "74": {
+      "baseAtk": 376
+    },
+    "75": {
+      "baseAtk": 380
+    },
+    "76": {
+      "baseAtk": 383
+    },
+    "77": {
+      "baseAtk": 386
+    },
+    "78": {
+      "baseAtk": 390
+    },
+    "79": {
+      "baseAtk": 393
+    },
     "80": {
       "baseAtk": 396
+    },
+    "81": {
+      "baseAtk": 419
+    },
+    "82": {
+      "baseAtk": 422
+    },
+    "83": {
+      "baseAtk": 425
+    },
+    "84": {
+      "baseAtk": 429
+    },
+    "85": {
+      "baseAtk": 432
+    },
+    "86": {
+      "baseAtk": 435
+    },
+    "87": {
+      "baseAtk": 438
+    },
+    "88": {
+      "baseAtk": 442
+    },
+    "89": {
+      "baseAtk": 445
     },
     "90": {
       "baseAtk": 448
@@ -176,6 +422,360 @@
     },
     "80_ASC": {
       "baseAtk": 415
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Taux CRIT",
+    "levels": {
+      "1": {
+        "crtRate": "3,4 %"
+      },
+      "2": {
+        "crtRate": "3,4 %"
+      },
+      "3": {
+        "crtRate": "3,4 %"
+      },
+      "4": {
+        "crtRate": "3,4 %"
+      },
+      "5": {
+        "crtRate": "4,0 %"
+      },
+      "6": {
+        "crtRate": "4,0 %"
+      },
+      "7": {
+        "crtRate": "4,0 %"
+      },
+      "8": {
+        "crtRate": "4,0 %"
+      },
+      "9": {
+        "crtRate": "4,0 %"
+      },
+      "10": {
+        "crtRate": "4,6 %"
+      },
+      "11": {
+        "crtRate": "4,6 %"
+      },
+      "12": {
+        "crtRate": "4,6 %"
+      },
+      "13": {
+        "crtRate": "4,6 %"
+      },
+      "14": {
+        "crtRate": "4,6 %"
+      },
+      "15": {
+        "crtRate": "5,3 %"
+      },
+      "16": {
+        "crtRate": "5,3 %"
+      },
+      "17": {
+        "crtRate": "5,3 %"
+      },
+      "18": {
+        "crtRate": "5,3 %"
+      },
+      "19": {
+        "crtRate": "5,3 %"
+      },
+      "20": {
+        "crtRate": "6,0 %"
+      },
+      "21": {
+        "crtRate": "6,0 %"
+      },
+      "22": {
+        "crtRate": "6,0 %"
+      },
+      "23": {
+        "crtRate": "6,0 %"
+      },
+      "24": {
+        "crtRate": "6,0 %"
+      },
+      "25": {
+        "crtRate": "6,7 %"
+      },
+      "26": {
+        "crtRate": "6,7 %"
+      },
+      "27": {
+        "crtRate": "6,7 %"
+      },
+      "28": {
+        "crtRate": "6,7 %"
+      },
+      "29": {
+        "crtRate": "6,7 %"
+      },
+      "30": {
+        "crtRate": "7,4 %"
+      },
+      "31": {
+        "crtRate": "7,4 %"
+      },
+      "32": {
+        "crtRate": "7,4 %"
+      },
+      "33": {
+        "crtRate": "7,4 %"
+      },
+      "34": {
+        "crtRate": "7,4 %"
+      },
+      "35": {
+        "crtRate": "8,1 %"
+      },
+      "36": {
+        "crtRate": "8,1 %"
+      },
+      "37": {
+        "crtRate": "8,1 %"
+      },
+      "38": {
+        "crtRate": "8,1 %"
+      },
+      "39": {
+        "crtRate": "8,1 %"
+      },
+      "40": {
+        "crtRate": "8,8 %"
+      },
+      "41": {
+        "crtRate": "8,8 %"
+      },
+      "42": {
+        "crtRate": "8,8 %"
+      },
+      "43": {
+        "crtRate": "8,8 %"
+      },
+      "44": {
+        "crtRate": "8,8 %"
+      },
+      "45": {
+        "crtRate": "9,4 %"
+      },
+      "46": {
+        "crtRate": "9,4 %"
+      },
+      "47": {
+        "crtRate": "9,4 %"
+      },
+      "48": {
+        "crtRate": "9,4 %"
+      },
+      "49": {
+        "crtRate": "9,4 %"
+      },
+      "50": {
+        "crtRate": "10,1 %"
+      },
+      "51": {
+        "crtRate": "10,1 %"
+      },
+      "52": {
+        "crtRate": "10,1 %"
+      },
+      "53": {
+        "crtRate": "10,1 %"
+      },
+      "54": {
+        "crtRate": "10,1 %"
+      },
+      "55": {
+        "crtRate": "10,8 %"
+      },
+      "56": {
+        "crtRate": "10,8 %"
+      },
+      "57": {
+        "crtRate": "10,8 %"
+      },
+      "58": {
+        "crtRate": "10,8 %"
+      },
+      "59": {
+        "crtRate": "10,8 %"
+      },
+      "60": {
+        "crtRate": "11,5 %"
+      },
+      "61": {
+        "crtRate": "11,5 %"
+      },
+      "62": {
+        "crtRate": "11,5 %"
+      },
+      "63": {
+        "crtRate": "11,5 %"
+      },
+      "64": {
+        "crtRate": "11,5 %"
+      },
+      "65": {
+        "crtRate": "12,2 %"
+      },
+      "66": {
+        "crtRate": "12,2 %"
+      },
+      "67": {
+        "crtRate": "12,2 %"
+      },
+      "68": {
+        "crtRate": "12,2 %"
+      },
+      "69": {
+        "crtRate": "12,2 %"
+      },
+      "70": {
+        "crtRate": "12,9 %"
+      },
+      "71": {
+        "crtRate": "12,9 %"
+      },
+      "72": {
+        "crtRate": "12,9 %"
+      },
+      "73": {
+        "crtRate": "12,9 %"
+      },
+      "74": {
+        "crtRate": "12,9 %"
+      },
+      "75": {
+        "crtRate": "13,6 %"
+      },
+      "76": {
+        "crtRate": "13,6 %"
+      },
+      "77": {
+        "crtRate": "13,6 %"
+      },
+      "78": {
+        "crtRate": "13,6 %"
+      },
+      "79": {
+        "crtRate": "13,6 %"
+      },
+      "80": {
+        "crtRate": "14,2 %"
+      },
+      "81": {
+        "crtRate": "14,2 %"
+      },
+      "82": {
+        "crtRate": "14,2 %"
+      },
+      "83": {
+        "crtRate": "14,2 %"
+      },
+      "84": {
+        "crtRate": "14,2 %"
+      },
+      "85": {
+        "crtRate": "14,9 %"
+      },
+      "86": {
+        "crtRate": "14,9 %"
+      },
+      "87": {
+        "crtRate": "14,9 %"
+      },
+      "88": {
+        "crtRate": "14,9 %"
+      },
+      "89": {
+        "crtRate": "14,9 %"
+      },
+      "90": {
+        "crtRate": "15,6 %"
+      },
+      "20_ASC": {
+        "crtRate": "6,0 %"
+      },
+      "40_ASC": {
+        "crtRate": "8,8 %"
+      },
+      "50_ASC": {
+        "crtRate": "10,1 %"
+      },
+      "60_ASC": {
+        "crtRate": "11,5 %"
+      },
+      "70_ASC": {
+        "crtRate": "12,9 %"
+      },
+      "80_ASC": {
+        "crtRate": "14,2 %"
+      }
+    }
+  },
+  "effects": [
+    "Movement SPD",
+    "ATK"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Au galop",
+      "descriptions": [
+        "Augmente la VIT de déplacement et l'ATQ de 12 % pendant 15 s après la défaite d'un ennemi."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 500
+        }
+      ]
+    },
+    "2": {
+      "title": "Au galop",
+      "descriptions": [
+        "Augmente la VIT de déplacement et l'ATQ de 14 % pendant 15 s après la défaite d'un ennemi."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "3": {
+      "title": "Au galop",
+      "descriptions": [
+        "Augmente la VIT de déplacement et l'ATQ de 16 % pendant 15 s après la défaite d'un ennemi."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "4": {
+      "title": "Au galop",
+      "descriptions": [
+        "Augmente la VIT de déplacement et l'ATQ de 18 % pendant 15 s après la défaite d'un ennemi."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "5": {
+      "title": "Au galop",
+      "descriptions": [
+        "Augmente la VIT de déplacement et l'ATQ de 20 % pendant 15 s après la défaite d'un ennemi."
+      ],
+      "upgradeCost": []
     }
   }
 }

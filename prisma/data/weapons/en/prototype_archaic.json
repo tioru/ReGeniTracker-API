@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 44
     },
+    "2": {
+      "baseAtk": 48
+    },
+    "3": {
+      "baseAtk": 51
+    },
+    "4": {
+      "baseAtk": 55
+    },
+    "5": {
+      "baseAtk": 59
+    },
+    "6": {
+      "baseAtk": 63
+    },
+    "7": {
+      "baseAtk": 67
+    },
+    "8": {
+      "baseAtk": 71
+    },
+    "9": {
+      "baseAtk": 75
+    },
+    "10": {
+      "baseAtk": 79
+    },
+    "11": {
+      "baseAtk": 83
+    },
+    "12": {
+      "baseAtk": 87
+    },
+    "13": {
+      "baseAtk": 91
+    },
+    "14": {
+      "baseAtk": 95
+    },
+    "15": {
+      "baseAtk": 99
+    },
+    "16": {
+      "baseAtk": 103
+    },
+    "17": {
+      "baseAtk": 107
+    },
+    "18": {
+      "baseAtk": 111
+    },
+    "19": {
+      "baseAtk": 115
+    },
     "20": {
       "baseAtk": 119
+    },
+    "21": {
+      "baseAtk": 148
+    },
+    "22": {
+      "baseAtk": 153
+    },
+    "23": {
+      "baseAtk": 157
+    },
+    "24": {
+      "baseAtk": 161
+    },
+    "25": {
+      "baseAtk": 165
+    },
+    "26": {
+      "baseAtk": 169
+    },
+    "27": {
+      "baseAtk": 173
+    },
+    "28": {
+      "baseAtk": 177
+    },
+    "29": {
+      "baseAtk": 181
+    },
+    "30": {
+      "baseAtk": 185
+    },
+    "31": {
+      "baseAtk": 189
+    },
+    "32": {
+      "baseAtk": 193
+    },
+    "33": {
+      "baseAtk": 197
+    },
+    "34": {
+      "baseAtk": 201
+    },
+    "35": {
+      "baseAtk": 205
+    },
+    "36": {
+      "baseAtk": 210
+    },
+    "37": {
+      "baseAtk": 214
+    },
+    "38": {
+      "baseAtk": 218
+    },
+    "39": {
+      "baseAtk": 222
     },
     "40": {
       "baseAtk": 226
     },
+    "41": {
+      "baseAtk": 256
+    },
+    "42": {
+      "baseAtk": 260
+    },
+    "43": {
+      "baseAtk": 264
+    },
+    "44": {
+      "baseAtk": 268
+    },
+    "45": {
+      "baseAtk": 273
+    },
+    "46": {
+      "baseAtk": 277
+    },
+    "47": {
+      "baseAtk": 281
+    },
+    "48": {
+      "baseAtk": 285
+    },
+    "49": {
+      "baseAtk": 289
+    },
     "50": {
       "baseAtk": 293
+    },
+    "51": {
+      "baseAtk": 323
+    },
+    "52": {
+      "baseAtk": 328
+    },
+    "53": {
+      "baseAtk": 332
+    },
+    "54": {
+      "baseAtk": 336
+    },
+    "55": {
+      "baseAtk": 340
+    },
+    "56": {
+      "baseAtk": 344
+    },
+    "57": {
+      "baseAtk": 348
+    },
+    "58": {
+      "baseAtk": 353
+    },
+    "59": {
+      "baseAtk": 357
     },
     "60": {
       "baseAtk": 361
     },
+    "61": {
+      "baseAtk": 391
+    },
+    "62": {
+      "baseAtk": 395
+    },
+    "63": {
+      "baseAtk": 399
+    },
+    "64": {
+      "baseAtk": 404
+    },
+    "65": {
+      "baseAtk": 408
+    },
+    "66": {
+      "baseAtk": 412
+    },
+    "67": {
+      "baseAtk": 416
+    },
+    "68": {
+      "baseAtk": 420
+    },
+    "69": {
+      "baseAtk": 424
+    },
     "70": {
       "baseAtk": 429
     },
+    "71": {
+      "baseAtk": 459
+    },
+    "72": {
+      "baseAtk": 463
+    },
+    "73": {
+      "baseAtk": 467
+    },
+    "74": {
+      "baseAtk": 471
+    },
+    "75": {
+      "baseAtk": 476
+    },
+    "76": {
+      "baseAtk": 480
+    },
+    "77": {
+      "baseAtk": 484
+    },
+    "78": {
+      "baseAtk": 488
+    },
+    "79": {
+      "baseAtk": 493
+    },
     "80": {
       "baseAtk": 497
+    },
+    "81": {
+      "baseAtk": 527
+    },
+    "82": {
+      "baseAtk": 531
+    },
+    "83": {
+      "baseAtk": 535
+    },
+    "84": {
+      "baseAtk": 539
+    },
+    "85": {
+      "baseAtk": 544
+    },
+    "86": {
+      "baseAtk": 548
+    },
+    "87": {
+      "baseAtk": 552
+    },
+    "88": {
+      "baseAtk": 556
+    },
+    "89": {
+      "baseAtk": 561
     },
     "90": {
       "baseAtk": 565
@@ -176,6 +422,361 @@
     },
     "80_ASC": {
       "baseAtk": 523
+    }
+  },
+  "secondaryAttribute": {
+    "type": "ATK",
+    "levels": {
+      "1": {
+        "atkPercent": "6.0%"
+      },
+      "2": {
+        "atkPercent": "6.0%"
+      },
+      "3": {
+        "atkPercent": "6.0%"
+      },
+      "4": {
+        "atkPercent": "6.0%"
+      },
+      "5": {
+        "atkPercent": "7.0%"
+      },
+      "6": {
+        "atkPercent": "7.0%"
+      },
+      "7": {
+        "atkPercent": "7.0%"
+      },
+      "8": {
+        "atkPercent": "7.0%"
+      },
+      "9": {
+        "atkPercent": "7.0%"
+      },
+      "10": {
+        "atkPercent": "8.2%"
+      },
+      "11": {
+        "atkPercent": "8.2%"
+      },
+      "12": {
+        "atkPercent": "8.2%"
+      },
+      "13": {
+        "atkPercent": "8.2%"
+      },
+      "14": {
+        "atkPercent": "8.2%"
+      },
+      "15": {
+        "atkPercent": "9.4%"
+      },
+      "16": {
+        "atkPercent": "9.4%"
+      },
+      "17": {
+        "atkPercent": "9.4%"
+      },
+      "18": {
+        "atkPercent": "9.4%"
+      },
+      "19": {
+        "atkPercent": "9.4%"
+      },
+      "20": {
+        "atkPercent": "10.6%"
+      },
+      "21": {
+        "atkPercent": "10.6%"
+      },
+      "22": {
+        "atkPercent": "10.6%"
+      },
+      "23": {
+        "atkPercent": "10.6%"
+      },
+      "24": {
+        "atkPercent": "10.6%"
+      },
+      "25": {
+        "atkPercent": "11.8%"
+      },
+      "26": {
+        "atkPercent": "11.8%"
+      },
+      "27": {
+        "atkPercent": "11.8%"
+      },
+      "28": {
+        "atkPercent": "11.8%"
+      },
+      "29": {
+        "atkPercent": "11.8%"
+      },
+      "30": {
+        "atkPercent": "13.0%"
+      },
+      "31": {
+        "atkPercent": "13.0%"
+      },
+      "32": {
+        "atkPercent": "13.0%"
+      },
+      "33": {
+        "atkPercent": "13.0%"
+      },
+      "34": {
+        "atkPercent": "13.0%"
+      },
+      "35": {
+        "atkPercent": "14.2%"
+      },
+      "36": {
+        "atkPercent": "14.2%"
+      },
+      "37": {
+        "atkPercent": "14.2%"
+      },
+      "38": {
+        "atkPercent": "14.2%"
+      },
+      "39": {
+        "atkPercent": "14.2%"
+      },
+      "40": {
+        "atkPercent": "15.5%"
+      },
+      "41": {
+        "atkPercent": "15.5%"
+      },
+      "42": {
+        "atkPercent": "15.5%"
+      },
+      "43": {
+        "atkPercent": "15.5%"
+      },
+      "44": {
+        "atkPercent": "15.5%"
+      },
+      "45": {
+        "atkPercent": "16.7%"
+      },
+      "46": {
+        "atkPercent": "16.7%"
+      },
+      "47": {
+        "atkPercent": "16.7%"
+      },
+      "48": {
+        "atkPercent": "16.7%"
+      },
+      "49": {
+        "atkPercent": "16.7%"
+      },
+      "50": {
+        "atkPercent": "17.9%"
+      },
+      "51": {
+        "atkPercent": "17.9%"
+      },
+      "52": {
+        "atkPercent": "17.9%"
+      },
+      "53": {
+        "atkPercent": "17.9%"
+      },
+      "54": {
+        "atkPercent": "17.9%"
+      },
+      "55": {
+        "atkPercent": "19.1%"
+      },
+      "56": {
+        "atkPercent": "19.1%"
+      },
+      "57": {
+        "atkPercent": "19.1%"
+      },
+      "58": {
+        "atkPercent": "19.1%"
+      },
+      "59": {
+        "atkPercent": "19.1%"
+      },
+      "60": {
+        "atkPercent": "20.3%"
+      },
+      "61": {
+        "atkPercent": "20.3%"
+      },
+      "62": {
+        "atkPercent": "20.3%"
+      },
+      "63": {
+        "atkPercent": "20.3%"
+      },
+      "64": {
+        "atkPercent": "20.3%"
+      },
+      "65": {
+        "atkPercent": "21.5%"
+      },
+      "66": {
+        "atkPercent": "21.5%"
+      },
+      "67": {
+        "atkPercent": "21.5%"
+      },
+      "68": {
+        "atkPercent": "21.5%"
+      },
+      "69": {
+        "atkPercent": "21.5%"
+      },
+      "70": {
+        "atkPercent": "22.7%"
+      },
+      "71": {
+        "atkPercent": "22.7%"
+      },
+      "72": {
+        "atkPercent": "22.7%"
+      },
+      "73": {
+        "atkPercent": "22.7%"
+      },
+      "74": {
+        "atkPercent": "22.7%"
+      },
+      "75": {
+        "atkPercent": "23.9%"
+      },
+      "76": {
+        "atkPercent": "23.9%"
+      },
+      "77": {
+        "atkPercent": "23.9%"
+      },
+      "78": {
+        "atkPercent": "23.9%"
+      },
+      "79": {
+        "atkPercent": "23.9%"
+      },
+      "80": {
+        "atkPercent": "25.1%"
+      },
+      "81": {
+        "atkPercent": "25.1%"
+      },
+      "82": {
+        "atkPercent": "25.1%"
+      },
+      "83": {
+        "atkPercent": "25.1%"
+      },
+      "84": {
+        "atkPercent": "25.1%"
+      },
+      "85": {
+        "atkPercent": "26.4%"
+      },
+      "86": {
+        "atkPercent": "26.4%"
+      },
+      "87": {
+        "atkPercent": "26.4%"
+      },
+      "88": {
+        "atkPercent": "26.4%"
+      },
+      "89": {
+        "atkPercent": "26.4%"
+      },
+      "90": {
+        "atkPercent": "27.6%"
+      },
+      "20_ASC": {
+        "atkPercent": "10.6%"
+      },
+      "40_ASC": {
+        "atkPercent": "15.5%"
+      },
+      "50_ASC": {
+        "atkPercent": "17.9%"
+      },
+      "60_ASC": {
+        "atkPercent": "20.3%"
+      },
+      "70_ASC": {
+        "atkPercent": "22.7%"
+      },
+      "80_ASC": {
+        "atkPercent": "25.1%"
+      }
+    }
+  },
+  "effects": [
+    "Physical DMG",
+    "AoE",
+    "Effect Triggered by Normal Attack"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Crush",
+      "descriptions": [
+        "On hit, Normal or Charged Attacks have a 50% chance to deal an additional 240% ATK DMG to opponents within a small AoE. Can only occur once every 15s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Crush",
+      "descriptions": [
+        "On hit, Normal or Charged Attacks have a 50% chance to deal an additional 300% ATK DMG to opponents within a small AoE. Can only occur once every 15s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Crush",
+      "descriptions": [
+        "On hit, Normal or Charged Attacks have a 50% chance to deal an additional 360% ATK DMG to opponents within a small AoE. Can only occur once every 15s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Crush",
+      "descriptions": [
+        "On hit, Normal or Charged Attacks have a 50% chance to deal an additional 420% ATK DMG to opponents within a small AoE. Can only occur once every 15s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Crush",
+      "descriptions": [
+        "On hit, Normal or Charged Attacks have a 50% chance to deal an additional 480% ATK DMG to opponents within a small AoE. Can only occur once every 15s."
+      ],
+      "upgradeCost": []
     }
   }
 }

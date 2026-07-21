@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 44
     },
+    "2": {
+      "baseAtk": 48
+    },
+    "3": {
+      "baseAtk": 51
+    },
+    "4": {
+      "baseAtk": 55
+    },
+    "5": {
+      "baseAtk": 59
+    },
+    "6": {
+      "baseAtk": 63
+    },
+    "7": {
+      "baseAtk": 67
+    },
+    "8": {
+      "baseAtk": 71
+    },
+    "9": {
+      "baseAtk": 75
+    },
+    "10": {
+      "baseAtk": 79
+    },
+    "11": {
+      "baseAtk": 83
+    },
+    "12": {
+      "baseAtk": 87
+    },
+    "13": {
+      "baseAtk": 91
+    },
+    "14": {
+      "baseAtk": 95
+    },
+    "15": {
+      "baseAtk": 99
+    },
+    "16": {
+      "baseAtk": 103
+    },
+    "17": {
+      "baseAtk": 107
+    },
+    "18": {
+      "baseAtk": 111
+    },
+    "19": {
+      "baseAtk": 115
+    },
     "20": {
       "baseAtk": 119
+    },
+    "21": {
+      "baseAtk": 148
+    },
+    "22": {
+      "baseAtk": 153
+    },
+    "23": {
+      "baseAtk": 157
+    },
+    "24": {
+      "baseAtk": 161
+    },
+    "25": {
+      "baseAtk": 165
+    },
+    "26": {
+      "baseAtk": 169
+    },
+    "27": {
+      "baseAtk": 173
+    },
+    "28": {
+      "baseAtk": 177
+    },
+    "29": {
+      "baseAtk": 181
+    },
+    "30": {
+      "baseAtk": 185
+    },
+    "31": {
+      "baseAtk": 189
+    },
+    "32": {
+      "baseAtk": 193
+    },
+    "33": {
+      "baseAtk": 197
+    },
+    "34": {
+      "baseAtk": 201
+    },
+    "35": {
+      "baseAtk": 205
+    },
+    "36": {
+      "baseAtk": 210
+    },
+    "37": {
+      "baseAtk": 214
+    },
+    "38": {
+      "baseAtk": 218
+    },
+    "39": {
+      "baseAtk": 222
     },
     "40": {
       "baseAtk": 226
     },
+    "41": {
+      "baseAtk": 256
+    },
+    "42": {
+      "baseAtk": 260
+    },
+    "43": {
+      "baseAtk": 264
+    },
+    "44": {
+      "baseAtk": 268
+    },
+    "45": {
+      "baseAtk": 273
+    },
+    "46": {
+      "baseAtk": 277
+    },
+    "47": {
+      "baseAtk": 281
+    },
+    "48": {
+      "baseAtk": 285
+    },
+    "49": {
+      "baseAtk": 289
+    },
     "50": {
       "baseAtk": 293
+    },
+    "51": {
+      "baseAtk": 323
+    },
+    "52": {
+      "baseAtk": 328
+    },
+    "53": {
+      "baseAtk": 332
+    },
+    "54": {
+      "baseAtk": 336
+    },
+    "55": {
+      "baseAtk": 340
+    },
+    "56": {
+      "baseAtk": 344
+    },
+    "57": {
+      "baseAtk": 348
+    },
+    "58": {
+      "baseAtk": 353
+    },
+    "59": {
+      "baseAtk": 357
     },
     "60": {
       "baseAtk": 361
     },
+    "61": {
+      "baseAtk": 391
+    },
+    "62": {
+      "baseAtk": 395
+    },
+    "63": {
+      "baseAtk": 399
+    },
+    "64": {
+      "baseAtk": 404
+    },
+    "65": {
+      "baseAtk": 408
+    },
+    "66": {
+      "baseAtk": 412
+    },
+    "67": {
+      "baseAtk": 416
+    },
+    "68": {
+      "baseAtk": 420
+    },
+    "69": {
+      "baseAtk": 424
+    },
     "70": {
       "baseAtk": 429
     },
+    "71": {
+      "baseAtk": 459
+    },
+    "72": {
+      "baseAtk": 463
+    },
+    "73": {
+      "baseAtk": 467
+    },
+    "74": {
+      "baseAtk": 471
+    },
+    "75": {
+      "baseAtk": 476
+    },
+    "76": {
+      "baseAtk": 480
+    },
+    "77": {
+      "baseAtk": 484
+    },
+    "78": {
+      "baseAtk": 488
+    },
+    "79": {
+      "baseAtk": 493
+    },
     "80": {
       "baseAtk": 497
+    },
+    "81": {
+      "baseAtk": 527
+    },
+    "82": {
+      "baseAtk": 531
+    },
+    "83": {
+      "baseAtk": 535
+    },
+    "84": {
+      "baseAtk": 539
+    },
+    "85": {
+      "baseAtk": 544
+    },
+    "86": {
+      "baseAtk": 548
+    },
+    "87": {
+      "baseAtk": 552
+    },
+    "88": {
+      "baseAtk": 556
+    },
+    "89": {
+      "baseAtk": 561
     },
     "90": {
       "baseAtk": 565
@@ -176,6 +422,360 @@
     },
     "80_ASC": {
       "baseAtk": 523
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Energy Recharge",
+    "levels": {
+      "1": {
+        "energyRecharge": "6.7%"
+      },
+      "2": {
+        "energyRecharge": "6.7%"
+      },
+      "3": {
+        "energyRecharge": "6.7%"
+      },
+      "4": {
+        "energyRecharge": "6.7%"
+      },
+      "5": {
+        "energyRecharge": "7.7%"
+      },
+      "6": {
+        "energyRecharge": "7.7%"
+      },
+      "7": {
+        "energyRecharge": "7.7%"
+      },
+      "8": {
+        "energyRecharge": "7.7%"
+      },
+      "9": {
+        "energyRecharge": "7.7%"
+      },
+      "10": {
+        "energyRecharge": "9.1%"
+      },
+      "11": {
+        "energyRecharge": "9.1%"
+      },
+      "12": {
+        "energyRecharge": "9.1%"
+      },
+      "13": {
+        "energyRecharge": "9.1%"
+      },
+      "14": {
+        "energyRecharge": "9.1%"
+      },
+      "15": {
+        "energyRecharge": "10.4%"
+      },
+      "16": {
+        "energyRecharge": "10.4%"
+      },
+      "17": {
+        "energyRecharge": "10.4%"
+      },
+      "18": {
+        "energyRecharge": "10.4%"
+      },
+      "19": {
+        "energyRecharge": "10.4%"
+      },
+      "20": {
+        "energyRecharge": "11.8%"
+      },
+      "21": {
+        "energyRecharge": "11.8%"
+      },
+      "22": {
+        "energyRecharge": "11.8%"
+      },
+      "23": {
+        "energyRecharge": "11.8%"
+      },
+      "24": {
+        "energyRecharge": "11.8%"
+      },
+      "25": {
+        "energyRecharge": "13.1%"
+      },
+      "26": {
+        "energyRecharge": "13.1%"
+      },
+      "27": {
+        "energyRecharge": "13.1%"
+      },
+      "28": {
+        "energyRecharge": "13.1%"
+      },
+      "29": {
+        "energyRecharge": "13.1%"
+      },
+      "30": {
+        "energyRecharge": "14.5%"
+      },
+      "31": {
+        "energyRecharge": "14.5%"
+      },
+      "32": {
+        "energyRecharge": "14.5%"
+      },
+      "33": {
+        "energyRecharge": "14.5%"
+      },
+      "34": {
+        "energyRecharge": "14.5%"
+      },
+      "35": {
+        "energyRecharge": "15.8%"
+      },
+      "36": {
+        "energyRecharge": "15.8%"
+      },
+      "37": {
+        "energyRecharge": "15.8%"
+      },
+      "38": {
+        "energyRecharge": "15.8%"
+      },
+      "39": {
+        "energyRecharge": "15.8%"
+      },
+      "40": {
+        "energyRecharge": "17.2%"
+      },
+      "41": {
+        "energyRecharge": "17.2%"
+      },
+      "42": {
+        "energyRecharge": "17.2%"
+      },
+      "43": {
+        "energyRecharge": "17.2%"
+      },
+      "44": {
+        "energyRecharge": "17.2%"
+      },
+      "45": {
+        "energyRecharge": "18.5%"
+      },
+      "46": {
+        "energyRecharge": "18.5%"
+      },
+      "47": {
+        "energyRecharge": "18.5%"
+      },
+      "48": {
+        "energyRecharge": "18.5%"
+      },
+      "49": {
+        "energyRecharge": "18.5%"
+      },
+      "50": {
+        "energyRecharge": "19.9%"
+      },
+      "51": {
+        "energyRecharge": "19.9%"
+      },
+      "52": {
+        "energyRecharge": "19.9%"
+      },
+      "53": {
+        "energyRecharge": "19.9%"
+      },
+      "54": {
+        "energyRecharge": "19.9%"
+      },
+      "55": {
+        "energyRecharge": "21.2%"
+      },
+      "56": {
+        "energyRecharge": "21.2%"
+      },
+      "57": {
+        "energyRecharge": "21.2%"
+      },
+      "58": {
+        "energyRecharge": "21.2%"
+      },
+      "59": {
+        "energyRecharge": "21.2%"
+      },
+      "60": {
+        "energyRecharge": "22.6%"
+      },
+      "61": {
+        "energyRecharge": "22.6%"
+      },
+      "62": {
+        "energyRecharge": "22.6%"
+      },
+      "63": {
+        "energyRecharge": "22.6%"
+      },
+      "64": {
+        "energyRecharge": "22.6%"
+      },
+      "65": {
+        "energyRecharge": "23.9%"
+      },
+      "66": {
+        "energyRecharge": "23.9%"
+      },
+      "67": {
+        "energyRecharge": "23.9%"
+      },
+      "68": {
+        "energyRecharge": "23.9%"
+      },
+      "69": {
+        "energyRecharge": "23.9%"
+      },
+      "70": {
+        "energyRecharge": "25.2%"
+      },
+      "71": {
+        "energyRecharge": "25.2%"
+      },
+      "72": {
+        "energyRecharge": "25.2%"
+      },
+      "73": {
+        "energyRecharge": "25.2%"
+      },
+      "74": {
+        "energyRecharge": "25.2%"
+      },
+      "75": {
+        "energyRecharge": "26.6%"
+      },
+      "76": {
+        "energyRecharge": "26.6%"
+      },
+      "77": {
+        "energyRecharge": "26.6%"
+      },
+      "78": {
+        "energyRecharge": "26.6%"
+      },
+      "79": {
+        "energyRecharge": "26.6%"
+      },
+      "80": {
+        "energyRecharge": "27.9%"
+      },
+      "81": {
+        "energyRecharge": "27.9%"
+      },
+      "82": {
+        "energyRecharge": "27.9%"
+      },
+      "83": {
+        "energyRecharge": "27.9%"
+      },
+      "84": {
+        "energyRecharge": "27.9%"
+      },
+      "85": {
+        "energyRecharge": "29.3%"
+      },
+      "86": {
+        "energyRecharge": "29.3%"
+      },
+      "87": {
+        "energyRecharge": "29.3%"
+      },
+      "88": {
+        "energyRecharge": "29.3%"
+      },
+      "89": {
+        "energyRecharge": "29.3%"
+      },
+      "90": {
+        "energyRecharge": "30.6%"
+      },
+      "20_ASC": {
+        "energyRecharge": "11.8%"
+      },
+      "40_ASC": {
+        "energyRecharge": "17.2%"
+      },
+      "50_ASC": {
+        "energyRecharge": "19.9%"
+      },
+      "60_ASC": {
+        "energyRecharge": "22.6%"
+      },
+      "70_ASC": {
+        "energyRecharge": "25.2%"
+      },
+      "80_ASC": {
+        "energyRecharge": "27.9%"
+      }
+    }
+  },
+  "effects": [
+    "ATK",
+    "Movement SPD"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Busybody's Running Light",
+      "descriptions": [
+        "Increase ATK by 20% and Movement SPD by 10% for 10s when using an Elemental Skill."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Busybody's Running Light",
+      "descriptions": [
+        "Increase ATK by 25% and Movement SPD by 10% for 10s when using an Elemental Skill."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Busybody's Running Light",
+      "descriptions": [
+        "Increase ATK by 30% and Movement SPD by 10% for 10s when using an Elemental Skill."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Busybody's Running Light",
+      "descriptions": [
+        "Increase ATK by 35% and Movement SPD by 10% for 10s when using an Elemental Skill."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Busybody's Running Light",
+      "descriptions": [
+        "Increase ATK by 40% and Movement SPD by 10% for 10s when using an Elemental Skill."
+      ],
+      "upgradeCost": []
     }
   }
 }

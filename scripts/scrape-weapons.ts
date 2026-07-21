@@ -53,11 +53,20 @@ const CACHE_PATH = path.resolve(__dirname, './cache/weapons-raw-cache.json');
 //   pourtant un vendeur). On réutilise donc tel quel le nom du PNJ et la
 //   devise ("Mora") pour le fichier FR, comme le fait déjà fr/hunters_bow.json.
 //
-// - Le schéma Prisma (WeaponData: name/type/rarity/releaseDate/description/
-//   history/sellers/ascensionMaterials/levels) n'a PAS de champ pour la stat
-//   secondaire, les "effects" ou le raffinement d'arme (weaponRefinementLevel)
-//   présents dans les fichiers de référence hunters_bow.json /
-//   a_teaspoon_of_transcendence.json : ce scraper ne les gère donc pas.
+// - secondaryAttribute / effects / weaponRefinementLevel : absents du schéma
+//   Prisma actuel (WeaponData n'a que name/type/rarity/releaseDate/
+//   description/history/sellers/ascensionMaterials/levels, cf.
+//   src/model/data/weapon/weapon.ts et weaponHelperImpl.ts) — ils sont donc
+//   ignorés par le seeder pour l'instant, mais générés dans le JSON à la
+//   demande. Calculés depuis le wikitext brut de l'infobox (EN:
+//   {{Weapon Infobox}} avec eff_rankN_varM / eff_attN ; FR: {{Infobox arme}}
+//   avec effet_varM sous forme de liste "a;b;c;d;e"), qui contient déjà les
+//   valeurs de substitution "(var1)/(var2)/..." par rang de raffinement —
+//   pas besoin de HTML rendu pour le texte. Seul le coût de montée en rang
+//   ("1 → 2 Cost", ...) nécessite le HTML rendu EN (portable infobox, sans
+//   id="..." exploitable), réutilisé tel quel pour la sortie FR (quantités
+//   de Mora, indépendantes de la langue). La stat secondaire par palier
+//   provient de la même table "==Statistiques==" FR que "levels".
 // ─────────────────────────────────────────────────────────────────────────────
 
 type WeaponType = 'SWORD' | 'CLAYMORE' | 'POLEARM' | 'BOW' | 'CATALYST';
@@ -87,6 +96,22 @@ interface WeaponLevelData {
   baseAtk: number;
 }
 
+interface WeaponSecondaryAttributeData {
+  type: string;
+  levels: Record<string, Record<string, string>>;
+}
+
+interface WeaponRefinementRankData {
+  title: string;
+  descriptions: string[];
+  upgradeCost: WeaponAscensionMaterialItemData[];
+}
+
+// Champs additionnels absents du schéma Prisma actuel (WeaponData n'a que
+// name/type/rarity/releaseDate/description/history/sellers/
+// ascensionMaterials/levels, cf. src/model/data/weapon/weapon.ts et
+// weaponHelperImpl.ts) : ignorés par le seeder pour l'instant, mais demandés
+// tels quels dans le JSON de sortie.
 interface WeaponData {
   name: string;
   type: WeaponType;
@@ -97,6 +122,9 @@ interface WeaponData {
   sellers: WeaponSellerData[];
   ascensionMaterials: WeaponAscensionMaterialData[];
   levels: Record<string, WeaponLevelData>;
+  secondaryAttribute?: WeaponSecondaryAttributeData;
+  effects?: string[];
+  weaponRefinementLevel?: Record<string, WeaponRefinementRankData>;
 }
 
 interface CachedWeapon {
@@ -284,6 +312,7 @@ interface RawWeaponEn {
   history: string;
   releaseVersion: string;
   frTitle: string | null;
+  fields: Record<string, string>;
 }
 
 function mapWeaponType(raw: string): WeaponType | null {
@@ -329,7 +358,193 @@ function parseWeaponPageEn(
     history: cleanWikitext(extractSection(content, 'Description') ?? ''),
     releaseVersion: versionMatch ? versionMatch[1].trim() : '',
     frTitle,
+    fields,
   };
+}
+
+// ── EN/FR: effects + secondaryAttribute + weaponRefinementLevel ─────────────
+//
+// Absents du schéma Prisma (cf. commentaire sur WeaponData plus haut), ces 3
+// champs sont calculés à partir du wikitext brut de l'infobox : le template
+// {{Weapon Infobox}} (EN) / {{Infobox arme}} (FR) contient directement, pour
+// les armes avec un passif, un texte "(var1)/(var2)/..." et les valeurs de
+// substitution PAR RANG (eff_rankN_varM en EN, effet_varM sous forme d'une
+// liste "a;b;c;d;e" en FR) — pas besoin de rendu HTML pour ça.
+
+// Mapping des libellés de stat secondaire (2nd_stat_type / stat2nom) vers une
+// clé camelCase. Liste des types connus sur les armes Genshin ; tout type non
+// listé retombe sur une conversion générique (avec avertissement, à
+// compléter ici si besoin).
+const SECONDARY_STAT_KEYS: Record<string, string> = {
+  // Le wiki écrit ces 3 stats sans le suffixe "%" (constaté sur ~86 armes),
+  // alors qu'il s'agit bien de bonus en pourcentage en jeu.
+  ATK: 'atkPercent',
+  HP: 'hpPercent',
+  DEF: 'defPercent',
+  'ATK%': 'atkPercent',
+  'HP%': 'hpPercent',
+  'DEF%': 'defPercent',
+  'CRIT Rate': 'crtRate',
+  'CRIT DMG': 'crtDmg',
+  'Energy Recharge': 'energyRecharge',
+  'Elemental Mastery': 'elementalMastery',
+  'Physical DMG Bonus': 'physDmgBonus',
+  'Healing Bonus': 'healingBonus',
+  'Pyro DMG Bonus': 'pyroDmgBonus',
+  'Hydro DMG Bonus': 'hydroDmgBonus',
+  'Electro DMG Bonus': 'electroDmgBonus',
+  'Cryo DMG Bonus': 'cryoDmgBonus',
+  'Anemo DMG Bonus': 'anemoDmgBonus',
+  'Geo DMG Bonus': 'geoDmgBonus',
+  'Dendro DMG Bonus': 'dendroDmgBonus',
+};
+
+function secondaryStatKey(type: string): string {
+  const known = SECONDARY_STAT_KEYS[type];
+  if (known) return known;
+
+  const generic = type
+    .replace(/%/g, 'Percent')
+    .trim()
+    .split(/\s+/)
+    .map((w, i) =>
+      i === 0
+        ? w[0].toLowerCase() + w.slice(1).toLowerCase()
+        : w[0].toUpperCase() + w.slice(1).toLowerCase(),
+    )
+    .join('');
+  console.warn(
+    `⚠️  Type de stat secondaire inconnu "${type}" → clé générique "${generic}" (à ajouter dans SECONDARY_STAT_KEYS si besoin).`,
+  );
+  return generic;
+}
+
+// eff_att1, eff_att2, ... (EN uniquement — catégories d'effet, réutilisées
+// telles quelles pour la sortie FR, comme "type"/"rarity").
+function parseEffects(fields: Record<string, string>): string[] {
+  const effects: string[] = [];
+  for (let i = 1; ; i++) {
+    const value = fields[`eff_att${i}`];
+    if (!value) break;
+    effects.push(cleanWikitext(value));
+  }
+  return effects;
+}
+
+// Découpe le texte d'effet en lignes de description : soit une liste
+// "<ul><li>...</li><li>...</li></ul>" (armes à plusieurs effets, ex: A
+// Teaspoon of Transcendence), soit un texte à une seule ligne (cas courant,
+// ex: Aquila Favonia).
+function splitEffectLines(effectRaw: string): string[] {
+  const liMatches = [...effectRaw.matchAll(/<li>([\s\S]*?)<\/li>/g)].map((m) => m[1]);
+  return liMatches.length > 0 ? liMatches : [effectRaw];
+}
+
+function buildEnRefinementLevels(
+  fields: Record<string, string>,
+): Record<string, WeaponRefinementRankData> | undefined {
+  const passive = cleanWikitext(fields['passive'] ?? '');
+  const effectRaw = fields['effect'];
+  if (!passive || !effectRaw) return undefined;
+
+  let maxRank = 0;
+  for (const key of Object.keys(fields)) {
+    const m = key.match(/^eff_rank(\d+)_var\d+$/);
+    if (m) maxRank = Math.max(maxRank, parseInt(m[1], 10));
+  }
+  if (maxRank === 0) return undefined;
+
+  const lines = splitEffectLines(effectRaw);
+  const ranks: Record<string, WeaponRefinementRankData> = {};
+  for (let rank = 1; rank <= maxRank; rank++) {
+    const descriptions = lines.map((line) =>
+      cleanWikitext(
+        line.replace(
+          /\(var(\d+)\)/g,
+          (_, varNum) => fields[`eff_rank${rank}_var${varNum}`] ?? `(var${varNum})`,
+        ),
+      ),
+    );
+    ranks[String(rank)] = { title: passive, descriptions, upgradeCost: [] };
+  }
+  return ranks;
+}
+
+function buildFrRefinementLevels(
+  fields: Record<string, string>,
+): Record<string, WeaponRefinementRankData> | undefined {
+  const passive = cleanWikitext(fields['effet'] ?? '');
+  const effectRaw = fields['effet_desc'];
+  if (!passive || !effectRaw) return undefined;
+
+  const varLists: Record<string, string[]> = {};
+  for (const key of Object.keys(fields)) {
+    const m = key.match(/^effet_var(\d+)$/);
+    if (m) varLists[m[1]] = fields[key].split(';').map((v) => v.trim());
+  }
+  const maxRank = Math.max(0, ...Object.values(varLists).map((v) => v.length));
+  if (maxRank === 0) return undefined;
+
+  const lines = effectRaw
+    .split(/<br\s*\/?>/i)
+    .map((l) => l.trim())
+    .filter(Boolean);
+
+  const ranks: Record<string, WeaponRefinementRankData> = {};
+  for (let rank = 1; rank <= maxRank; rank++) {
+    const descriptions = lines.map((line) =>
+      cleanWikitext(
+        line.replace(
+          /\(var(\d+)\)/g,
+          (_, varNum) => varLists[varNum]?.[rank - 1] ?? `(var${varNum})`,
+        ),
+      ),
+    );
+    ranks[String(rank)] = { title: passive, descriptions, upgradeCost: [] };
+  }
+  return ranks;
+}
+
+// Coûts de montée en rang ("1 → 2 Cost", ...) : uniquement disponibles dans
+// le HTML rendu EN (portable infobox, hors des sections wiki classiques —
+// pas d'id="..." exploitable par extractSectionHtml, d'où la recherche par
+// sélecteur direct sur le lien "Refinement Rank"). Réutilisés tels quels pour
+// la sortie FR (ce sont des quantités de Mora, indépendantes de la langue).
+function parseEnRefinementCostsHtml(html: string): Record<string, WeaponAscensionMaterialItemData[]> {
+  const $ = cheerio.load(html);
+  const anchor = $('a[href="/wiki/Refinement_Rank"]').first();
+  if (!anchor.length) return {};
+
+  const panel = anchor.closest('h2').next('section.wds-tabber');
+  if (!panel.length) return {};
+
+  const costsByRank: Record<string, WeaponAscensionMaterialItemData[]> = {};
+  panel.children('.wds-tab__content').each((idx, tab) => {
+    const rank = String(idx + 1);
+    const costDiv = $(tab).find('div.pi-item.pi-data[data-source="effect"]').first();
+    if (!costDiv.length) {
+      costsByRank[rank] = [];
+      return;
+    }
+    const valueText = costDiv.find('.pi-data-value').first().text();
+    const matches = [...valueText.matchAll(/([A-Za-zÀ-ÿ' -]+?)\s*×\s*([\d,]+)/g)];
+    costsByRank[rank] = matches.map((m) => ({
+      name: m[1].trim(),
+      quantity: parseInt(m[2].replace(/,/g, ''), 10),
+    }));
+  });
+  return costsByRank;
+}
+
+function attachUpgradeCosts(
+  ranks: Record<string, WeaponRefinementRankData> | undefined,
+  costsByRank: Record<string, WeaponAscensionMaterialItemData[]>,
+): Record<string, WeaponRefinementRankData> | undefined {
+  if (!ranks) return undefined;
+  for (const rank of Object.keys(ranks)) {
+    ranks[rank] = { ...ranks[rank], upgradeCost: costsByRank[rank] ?? [] };
+  }
+  return ranks;
 }
 
 // ── EN: Ascension Costs (HTML rendu) ─────────────────────────────────────────
@@ -429,6 +644,7 @@ function parseShopAvailabilityHtml(html: string): WeaponSellerData[] {
 interface FrWeaponFields {
   description: string;
   history: string;
+  fields: Record<string, string>;
 }
 
 function parseFrWeaponPage(content: string): FrWeaponFields {
@@ -437,6 +653,7 @@ function parseFrWeaponPage(content: string): FrWeaponFields {
   return {
     description: cleanWikitext(fields['description'] ?? ''),
     history: cleanWikitext(extractSection(content, 'Histoire') ?? ''),
+    fields,
   };
 }
 
@@ -446,10 +663,16 @@ function parseFrWeaponPage(content: string): FrWeaponFields {
 // suite au changement de palier (fin de palier N / début de palier N+1) :
 // la 2e occurrence devient la clé "<niveau>_ASC", comme dans les fichiers de
 // référence (ex: "20" puis "20_ASC").
-function parseFrStatsLevels(content: string): Record<string, WeaponLevelData> {
+interface FrStatsTable {
+  levels: Record<string, WeaponLevelData>;
+  secondaryByLevel: Record<string, string>;
+}
+
+function parseFrStatsTable(content: string): FrStatsTable {
   const section = extractSection(content, 'Statistiques');
   const levels: Record<string, WeaponLevelData> = {};
-  if (!section) return levels;
+  const secondaryByLevel: Record<string, string> = {};
+  if (!section) return { levels, secondaryByLevel };
 
   const rowChunks = section.split(/\n\|-/).slice(1);
   for (const chunk of rowChunks) {
@@ -473,8 +696,11 @@ function parseFrStatsLevels(content: string): Record<string, WeaponLevelData> {
 
     const key = levels[levelRaw] ? `${levelRaw}_ASC` : levelRaw;
     levels[key] = { baseAtk };
+    if (dataCells[2]) {
+      secondaryByLevel[key] = dataCells[2].replace(/\u00A0/g, ' ').trim();
+    }
   }
-  return levels;
+  return { levels, secondaryByLevel };
 }
 
 // ── FR: Élévation (HTML rendu) — utilisé pour les noms FR ET en repli EN ────
@@ -576,6 +802,283 @@ async function resolveFrMaterialNamesToEnglish(
   return result;
 }
 
+// ── Données minées (AnimeGameData) : valeurs exactes niveau par niveau ──────
+//
+// Le wiki (EN comme FR) ne documente le Base ATK / la stat secondaire QU'AUX
+// PALIERS d'ascension (cf. notes plus haut). Pour obtenir la vraie valeur à
+// CHAQUE niveau (1-70 ou 1-90), on s'appuie sur les tables de données minées
+// du client, publiées par la communauté (dépôt DimbreathBot/AnimeGameData,
+// mise à jour à chaque version du jeu) :
+//   - WeaponExcelConfigData   : par arme (id), valeur de base + type de
+//                               courbe de croissance pour l'ATQ et la stat
+//                               secondaire (weaponProp), + weaponPromoteId.
+//   - WeaponCurveExcelConfigData : multiplicateur de courbe par niveau (1-100)
+//                               et par type de courbe (ex: GROW_CURVE_ATTACK_101).
+//   - WeaponPromoteExcelConfigData : par palier d'ascension (weaponPromoteId),
+//                               le niveau max débloqué et le bonus plat
+//                               ajouté (ATQ, CRIT Rate/DMG, Recharge
+//                               d'Énergie, Maîtrise Élémentaire uniquement —
+//                               les bonus de DGT élémentaire/physique et
+//                               Bonus de Soins scalent uniquement via la
+//                               courbe, sans bonus plat additionnel).
+//
+// Formule vérifiée contre le wiki (Hunter's Bow, Aquila Favonia) :
+//   valeur(niveau) = courbe(niveau, curveType) × initValue
+//                     + bonusPlat(palierActif, propType)
+// où bonusPlat vaut 0 si propType n'apparaît pas dans addProps (cas des DMG
+// Bonus / Bonus de Soins). Le palier "juste après ascension" au même niveau
+// (ex: "20_ASC") utilise le palier suivant (déjà promu) pour le même niveau.
+//
+// Cette source est utilisée en PRIORITÉ pour "levels" et
+// "secondaryAttribute.levels". Si l'id de l'arme est absent du wikitext EN
+// (arrive même sur des armes vieilles de plusieurs mois, pas seulement les
+// toutes nouvelles — c'est juste que personne n'a rempli le champ), on
+// résout l'id par le NOM de l'arme via TextMap_MediumEN.json (528k entrées ;
+// à ne pas confondre avec TextMap/TextMapEN.json qui, lui, ne contient QUE du
+// texte de dialogues/quêtes — vérifié, aucun nom d'objet dedans). Si même
+// cette résolution par nom échoue (arme trop récente pour être encore dans
+// les données minées), on retombe sur les paliers du wiki FR (cf.
+// parseFrStatsTable) — moins précis (paliers seulement) mais toujours correct.
+
+const GAMEDATA_ROOT_URL = 'https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/master';
+const GAMEDATA_CACHE_DIR = path.resolve(__dirname, './cache/gamedata');
+
+interface WeaponPropEntry {
+  initValue: number;
+  propType: string;
+  type: string; // curve type, "GROW_CURVE_NONE" si non applicable
+}
+
+interface WeaponExcelEntry {
+  id: number;
+  itemType: string;
+  nameTextMapHash: number;
+  weaponPromoteId: number;
+  weaponProp: WeaponPropEntry[];
+}
+
+interface WeaponPromoteAddProp {
+  propType: string;
+  value: number;
+}
+
+interface WeaponPromoteEntry {
+  weaponPromoteId: number;
+  promoteLevel: number;
+  unlockMaxLevel: number;
+  addProps: WeaponPromoteAddProp[];
+}
+
+interface WeaponCurveInfo {
+  type: string;
+  value: number;
+}
+
+interface WeaponCurveEntry {
+  level: number;
+  curveInfos: WeaponCurveInfo[];
+}
+
+interface GameData {
+  weaponsById: Map<number, WeaponExcelEntry>;
+  curveValueByLevel: Map<number, Map<string, number>>;
+  promotesByPromoteId: Map<number, WeaponPromoteEntry[]>;
+  // Repli quand le wikitext EN n'a pas encore de "|id = " renseigné (arrive
+  // même sur des armes vieilles de plusieurs mois, pas seulement les toutes
+  // nouvelles) : on résout alors l'id via le nom, en passant par
+  // TextMap_MediumEN.json (528k entrées ; TextMapEN.json "normal", lui, ne
+  // contient QUE du texte de dialogues/quêtes — vérifié : aucun nom d'objet
+  // dedans — d'où le nom trompeur "Medium" pour le fichier le plus complet).
+  weaponIdByName: Map<string, number>;
+}
+
+// relPath: chemin relatif à la racine du dépôt (ex: "ExcelBinOutput/Weapon...json",
+// "TextMap/TextMap_MediumEN.json"). Le cache disque local utilise le nom de
+// fichier seul (les deux dossiers n'ont pas de collision de nom).
+async function downloadJsonWithCache<T>(relPath: string): Promise<T> {
+  fs.mkdirSync(GAMEDATA_CACHE_DIR, { recursive: true });
+  const cachePath = path.join(GAMEDATA_CACHE_DIR, path.basename(relPath));
+  if (fs.existsSync(cachePath)) {
+    return JSON.parse(fs.readFileSync(cachePath, 'utf-8'));
+  }
+  console.log(`Downloading game data: ${relPath}...`);
+  const response = await axios.get(`${GAMEDATA_ROOT_URL}/${relPath}`, {
+    headers: HTTP_HEADERS,
+    httpsAgent,
+  });
+  fs.writeFileSync(cachePath, JSON.stringify(response.data), 'utf-8');
+  return response.data;
+}
+
+let gameDataPromise: Promise<GameData | null> | null = null;
+
+// Chargée une seule fois par run (cache mémoire), avec cache disque entre les
+// runs — supprimer scripts/cache/gamedata/ pour forcer un rafraîchissement
+// après une nouvelle version du jeu.
+function loadGameData(): Promise<GameData | null> {
+  if (!gameDataPromise) {
+    gameDataPromise = (async () => {
+      try {
+        const [weapons, curves, promotes, textMap] = await Promise.all([
+          downloadJsonWithCache<WeaponExcelEntry[]>('ExcelBinOutput/WeaponExcelConfigData.json'),
+          downloadJsonWithCache<WeaponCurveEntry[]>('ExcelBinOutput/WeaponCurveExcelConfigData.json'),
+          downloadJsonWithCache<WeaponPromoteEntry[]>('ExcelBinOutput/WeaponPromoteExcelConfigData.json'),
+          downloadJsonWithCache<Record<string, string>>('TextMap/TextMap_MediumEN.json'),
+        ]);
+
+        const weaponsById = new Map(weapons.map((w) => [w.id, w]));
+
+        const weaponIdByName = new Map<string, number>();
+        for (const w of weapons) {
+          if (w.itemType !== 'ITEM_WEAPON') continue;
+          const name = textMap[String(w.nameTextMapHash)];
+          if (name) weaponIdByName.set(name, w.id);
+        }
+
+        const curveValueByLevel = new Map<number, Map<string, number>>();
+        for (const entry of curves) {
+          const byType = new Map<string, number>();
+          for (const info of entry.curveInfos) byType.set(info.type, info.value);
+          curveValueByLevel.set(entry.level, byType);
+        }
+
+        const promotesByPromoteId = new Map<number, WeaponPromoteEntry[]>();
+        for (const promote of promotes) {
+          const list = promotesByPromoteId.get(promote.weaponPromoteId) ?? [];
+          list.push(promote);
+          promotesByPromoteId.set(promote.weaponPromoteId, list);
+        }
+        for (const list of promotesByPromoteId.values()) {
+          list.sort((a, b) => a.promoteLevel - b.promoteLevel);
+        }
+
+        return { weaponsById, curveValueByLevel, promotesByPromoteId, weaponIdByName };
+      } catch (err) {
+        console.warn(
+          `⚠️  Échec du chargement des données minées (AnimeGameData) : ${err}. Repli sur les paliers du wiki FR pour tous les "levels".`,
+        );
+        return null;
+      }
+    })();
+  }
+  return gameDataPromise;
+}
+
+// FIGHT_PROP_* (stat secondaire d'arme) -> libellé wiki + clé camelCase
+// (alignée sur SECONDARY_STAT_KEYS). Élément Mastery est la seule stat en
+// valeur brute (pas un pourcentage) parmi les substats d'arme possibles.
+const FIGHT_PROP_INFO: Record<string, { label: string; key: string; isPercent: boolean }> = {
+  FIGHT_PROP_CRITICAL: { label: 'CRIT Rate', key: 'crtRate', isPercent: true },
+  FIGHT_PROP_CRITICAL_HURT: { label: 'CRIT DMG', key: 'crtDmg', isPercent: true },
+  FIGHT_PROP_CHARGE_EFFICIENCY: { label: 'Energy Recharge', key: 'energyRecharge', isPercent: true },
+  FIGHT_PROP_ELEMENT_MASTERY: { label: 'Elemental Mastery', key: 'elementalMastery', isPercent: false },
+  FIGHT_PROP_HP_PERCENT: { label: 'HP', key: 'hpPercent', isPercent: true },
+  FIGHT_PROP_ATTACK_PERCENT: { label: 'ATK', key: 'atkPercent', isPercent: true },
+  FIGHT_PROP_DEFENSE_PERCENT: { label: 'DEF', key: 'defPercent', isPercent: true },
+  FIGHT_PROP_PHYSICAL_ADD_HURT: { label: 'Physical DMG Bonus', key: 'physDmgBonus', isPercent: true },
+  FIGHT_PROP_HEAL_ADD: { label: 'Healing Bonus', key: 'healingBonus', isPercent: true },
+  FIGHT_PROP_FIRE_ADD_HURT: { label: 'Pyro DMG Bonus', key: 'pyroDmgBonus', isPercent: true },
+  FIGHT_PROP_WATER_ADD_HURT: { label: 'Hydro DMG Bonus', key: 'hydroDmgBonus', isPercent: true },
+  FIGHT_PROP_ELEC_ADD_HURT: { label: 'Electro DMG Bonus', key: 'electroDmgBonus', isPercent: true },
+  FIGHT_PROP_ICE_ADD_HURT: { label: 'Cryo DMG Bonus', key: 'cryoDmgBonus', isPercent: true },
+  FIGHT_PROP_WIND_ADD_HURT: { label: 'Anemo DMG Bonus', key: 'anemoDmgBonus', isPercent: true },
+  FIGHT_PROP_ROCK_ADD_HURT: { label: 'Geo DMG Bonus', key: 'geoDmgBonus', isPercent: true },
+  FIGHT_PROP_GRASS_ADD_HURT: { label: 'Dendro DMG Bonus', key: 'dendroDmgBonus', isPercent: true },
+};
+
+function promoteAddValue(promote: WeaponPromoteEntry, propType: string): number {
+  return promote.addProps.find((p) => p.propType === propType)?.value ?? 0;
+}
+
+function formatStatValue(value: number, isPercent: boolean, locale: 'en' | 'fr'): string {
+  if (!isPercent) return String(Math.round(value));
+  const percent = (Math.round(value * 1000) / 10).toFixed(1);
+  return locale === 'fr' ? `${percent.replace('.', ',')} %` : `${percent}%`;
+}
+
+interface ExactLevelsResult {
+  levels: Record<string, WeaponLevelData>;
+  secondary: { propType: string; levelsEn: Record<string, string>; levelsFr: Record<string, string> } | null;
+}
+
+async function computeExactLevels(
+  weaponId: number | null,
+  weaponName: string,
+): Promise<ExactLevelsResult | null> {
+  const gameData = await loadGameData();
+  if (!gameData) return null;
+
+  // Repli par nom si le wikitext EN n'a pas de "|id = " renseigné, MAIS AUSSI
+  // si l'id renseigné ne correspond à aucune arme connue : constaté sur des
+  // pages où le champ contient en réalité le storyId (un autre champ de
+  // l'infobox du jeu) au lieu du vrai id d'arme — une erreur de saisie du
+  // wiki, pas un cas d'arme absente des données minées. Dans les deux cas on
+  // retente par le NOM avant d'abandonner (cf. GameData.weaponIdByName).
+  const byId = weaponId !== null && !Number.isNaN(weaponId) ? gameData.weaponsById.get(weaponId) : undefined;
+  const resolvedId = byId ? weaponId! : gameData.weaponIdByName.get(weaponName);
+  if (resolvedId === undefined) return null;
+
+  const weapon = gameData.weaponsById.get(resolvedId);
+  if (!weapon) return null;
+
+  const promotes = gameData.promotesByPromoteId.get(weapon.weaponPromoteId);
+  if (!promotes || promotes.length === 0) return null;
+
+  const atkProp = weapon.weaponProp.find((p) => p.propType === 'FIGHT_PROP_BASE_ATTACK');
+  if (!atkProp) return null;
+
+  const secondaryProp = weapon.weaponProp.find(
+    (p) => p.propType !== 'FIGHT_PROP_BASE_ATTACK' && p.propType !== 'FIGHT_PROP_NONE',
+  );
+  const secondaryInfo = secondaryProp ? FIGHT_PROP_INFO[secondaryProp.propType] : undefined;
+  if (secondaryProp && !secondaryInfo) {
+    console.warn(
+      `⚠️  FIGHT_PROP inconnu "${secondaryProp.propType}" (arme id ${weaponId}) → stat secondaire ignorée pour les données minées.`,
+    );
+  }
+
+  const curveValueAt = (level: number, curveType: string): number | undefined =>
+    gameData.curveValueByLevel.get(level)?.get(curveType);
+
+  const levels: Record<string, WeaponLevelData> = {};
+  const secondaryLevelsEn: Record<string, string> = {};
+  const secondaryLevelsFr: Record<string, string> = {};
+
+  for (let i = 0; i < promotes.length; i++) {
+    const tier = promotes[i];
+    const startLevel = i === 0 ? 1 : promotes[i - 1].unlockMaxLevel;
+    const endLevel = tier.unlockMaxLevel;
+
+    for (let level = startLevel; level <= endLevel; level++) {
+      const atkCurve = curveValueAt(level, atkProp.type);
+      if (atkCurve === undefined) return null; // table de courbe incomplète: on abandonne, le repli FR prendra le relais
+
+      const baseAtk = Math.round(
+        atkCurve * atkProp.initValue + promoteAddValue(tier, 'FIGHT_PROP_BASE_ATTACK'),
+      );
+      const key = level === startLevel && i > 0 ? `${level}_ASC` : `${level}`;
+      levels[key] = { baseAtk };
+
+      if (secondaryProp && secondaryInfo) {
+        const secCurve = curveValueAt(level, secondaryProp.type);
+        if (secCurve !== undefined) {
+          const secValue =
+            secCurve * secondaryProp.initValue + promoteAddValue(tier, secondaryProp.propType);
+          secondaryLevelsEn[key] = formatStatValue(secValue, secondaryInfo.isPercent, 'en');
+          secondaryLevelsFr[key] = formatStatValue(secValue, secondaryInfo.isPercent, 'fr');
+        }
+      }
+    }
+  }
+
+  return {
+    levels,
+    secondary: secondaryProp && secondaryInfo
+      ? { propType: secondaryProp.propType, levelsEn: secondaryLevelsEn, levelsFr: secondaryLevelsFr }
+      : null,
+  };
+}
+
 // ── Pipeline: liste des armes (EN) ───────────────────────────────────────────
 
 async function fetchRawWeaponPages(continueParams?: Record<string, string>): Promise<{
@@ -643,16 +1146,20 @@ async function enrichWeapon(raw: RawWeaponEn): Promise<CachedWeapon> {
   const enHtml = await fetchHtml(EN_API_URL, raw.pageTitle);
   const enAscension = parseEnAscensionHtml(enHtml);
   const sellers = parseShopAvailabilityHtml(enHtml);
+  const costsByRank = parseEnRefinementCostsHtml(enHtml);
 
   let frFields: FrWeaponFields | null = null;
   let levels: Record<string, WeaponLevelData> = {};
+  let secondaryByLevel: Record<string, string> = {};
   let frAscension: AscensionTier[] = [];
 
   if (raw.frTitle) {
     const frContent = await fetchWikitext(FR_API_URL, raw.frTitle);
     if (frContent) {
       frFields = parseFrWeaponPage(frContent);
-      levels = parseFrStatsLevels(frContent);
+      const stats = parseFrStatsTable(frContent);
+      levels = stats.levels;
+      secondaryByLevel = stats.secondaryByLevel;
 
       await sleep(300);
       const frHtml = await fetchHtml(FR_API_URL, raw.frTitle);
@@ -660,11 +1167,61 @@ async function enrichWeapon(raw: RawWeaponEn): Promise<CachedWeapon> {
     }
   }
 
+  // Priorité aux données minées (valeurs EXACTES à chaque niveau) sur les
+  // paliers du wiki FR (repli, seulement aux paliers d'ascension) — cf. note
+  // au-dessus de computeExactLevels.
+  const weaponIdRaw = (raw.fields['id'] ?? '').trim();
+  const weaponId = weaponIdRaw ? parseInt(weaponIdRaw, 10) : null;
+  const exact = await computeExactLevels(weaponId, raw.title);
+
+  const enSecondaryType = cleanWikitext(raw.fields['2nd_stat_type'] ?? '');
+  let enSecondary: WeaponSecondaryAttributeData | undefined;
+  let frSecondary: WeaponSecondaryAttributeData | undefined;
+
+  if (exact) {
+    levels = exact.levels;
+    if (exact.secondary && enSecondaryType && enSecondaryType.toLowerCase() !== 'none') {
+      const statKey = FIGHT_PROP_INFO[exact.secondary.propType]?.key ?? secondaryStatKey(enSecondaryType);
+      const toLevels = (byLevel: Record<string, string>) => {
+        const out: Record<string, Record<string, string>> = {};
+        for (const [level, value] of Object.entries(byLevel)) out[level] = { [statKey]: value };
+        return out;
+      };
+      enSecondary = { type: enSecondaryType, levels: toLevels(exact.secondary.levelsEn) };
+      if (frFields) {
+        const frType = cleanWikitext(frFields.fields['stat2nom'] ?? '') || enSecondaryType;
+        frSecondary = { type: frType, levels: toLevels(exact.secondary.levelsFr) };
+      }
+    }
+  } else if (enSecondaryType && enSecondaryType.toLowerCase() !== 'none') {
+    // Repli : paliers du wiki FR uniquement (pas de données minées exploitables).
+    const statKey = secondaryStatKey(enSecondaryType);
+    const enLevels: Record<string, Record<string, string>> = {};
+    const frLevels: Record<string, Record<string, string>> = {};
+    for (const [level, frValue] of Object.entries(secondaryByLevel)) {
+      enLevels[level] = { [statKey]: frValue.replace(',', '.').replace(/\s/g, '') };
+      frLevels[level] = { [statKey]: frValue };
+    }
+    enSecondary = { type: enSecondaryType, levels: enLevels };
+    if (frFields) {
+      const frType = cleanWikitext(frFields.fields['stat2nom'] ?? '') || enSecondaryType;
+      frSecondary = { type: frType, levels: frLevels };
+    }
+  }
+
   if (Object.keys(levels).length === 0) {
     console.warn(
-      `⚠️  "${raw.pageTitle}": aucun palier Base ATK trouvé (page FR absente ou table "Statistiques" introuvable) → levels vide.`,
+      `⚠️  "${raw.pageTitle}": aucun palier Base ATK trouvé (ni données minées, ni page FR/table "Statistiques") → levels vide.`,
     );
   }
+
+  // effects / secondaryAttribute / weaponRefinementLevel : absents du schéma
+  // Prisma (cf. commentaire sur WeaponData), calculés uniquement pour le JSON.
+  const effects = parseEffects(raw.fields);
+  const enRefinement = attachUpgradeCosts(buildEnRefinementLevels(raw.fields), costsByRank);
+  const frRefinement = frFields
+    ? attachUpgradeCosts(buildFrRefinementLevels(frFields.fields), costsByRank)
+    : undefined;
 
   let enAscensionMaterials: WeaponAscensionMaterialData[];
   if (enAscension.length > 0) {
@@ -697,6 +1254,9 @@ async function enrichWeapon(raw: RawWeaponEn): Promise<CachedWeapon> {
     sellers,
     ascensionMaterials: enAscensionMaterials,
     levels,
+    ...(enSecondary ? { secondaryAttribute: enSecondary } : {}),
+    ...(effects.length > 0 ? { effects } : {}),
+    ...(enRefinement ? { weaponRefinementLevel: enRefinement } : {}),
   };
 
   let frData: WeaponData | null = null;
@@ -717,6 +1277,9 @@ async function enrichWeapon(raw: RawWeaponEn): Promise<CachedWeapon> {
           ? frAscension
           : enAscensionMaterials, // repli si la table FR "Élévation" est absente
       levels,
+      ...(frSecondary ? { secondaryAttribute: frSecondary } : {}),
+      ...(effects.length > 0 ? { effects } : {}),
+      ...(frRefinement ? { weaponRefinementLevel: frRefinement } : {}),
     };
   }
 

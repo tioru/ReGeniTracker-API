@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 38
     },
+    "2": {
+      "baseAtk": 40
+    },
+    "3": {
+      "baseAtk": 43
+    },
+    "4": {
+      "baseAtk": 46
+    },
+    "5": {
+      "baseAtk": 48
+    },
+    "6": {
+      "baseAtk": 51
+    },
+    "7": {
+      "baseAtk": 53
+    },
+    "8": {
+      "baseAtk": 56
+    },
+    "9": {
+      "baseAtk": 58
+    },
+    "10": {
+      "baseAtk": 61
+    },
+    "11": {
+      "baseAtk": 63
+    },
+    "12": {
+      "baseAtk": 66
+    },
+    "13": {
+      "baseAtk": 68
+    },
+    "14": {
+      "baseAtk": 71
+    },
+    "15": {
+      "baseAtk": 73
+    },
+    "16": {
+      "baseAtk": 76
+    },
+    "17": {
+      "baseAtk": 78
+    },
+    "18": {
+      "baseAtk": 81
+    },
+    "19": {
+      "baseAtk": 83
+    },
     "20": {
       "baseAtk": 86
+    },
+    "21": {
+      "baseAtk": 107
+    },
+    "22": {
+      "baseAtk": 110
+    },
+    "23": {
+      "baseAtk": 112
+    },
+    "24": {
+      "baseAtk": 115
+    },
+    "25": {
+      "baseAtk": 117
+    },
+    "26": {
+      "baseAtk": 119
+    },
+    "27": {
+      "baseAtk": 122
+    },
+    "28": {
+      "baseAtk": 124
+    },
+    "29": {
+      "baseAtk": 126
+    },
+    "30": {
+      "baseAtk": 129
+    },
+    "31": {
+      "baseAtk": 131
+    },
+    "32": {
+      "baseAtk": 133
+    },
+    "33": {
+      "baseAtk": 135
+    },
+    "34": {
+      "baseAtk": 138
+    },
+    "35": {
+      "baseAtk": 140
+    },
+    "36": {
+      "baseAtk": 142
+    },
+    "37": {
+      "baseAtk": 145
+    },
+    "38": {
+      "baseAtk": 147
+    },
+    "39": {
+      "baseAtk": 149
     },
     "40": {
       "baseAtk": 151
     },
+    "41": {
+      "baseAtk": 173
+    },
+    "42": {
+      "baseAtk": 175
+    },
+    "43": {
+      "baseAtk": 177
+    },
+    "44": {
+      "baseAtk": 180
+    },
+    "45": {
+      "baseAtk": 182
+    },
+    "46": {
+      "baseAtk": 184
+    },
+    "47": {
+      "baseAtk": 186
+    },
+    "48": {
+      "baseAtk": 188
+    },
+    "49": {
+      "baseAtk": 191
+    },
     "50": {
       "baseAtk": 193
+    },
+    "51": {
+      "baseAtk": 214
+    },
+    "52": {
+      "baseAtk": 217
+    },
+    "53": {
+      "baseAtk": 219
+    },
+    "54": {
+      "baseAtk": 221
+    },
+    "55": {
+      "baseAtk": 223
+    },
+    "56": {
+      "baseAtk": 225
+    },
+    "57": {
+      "baseAtk": 227
+    },
+    "58": {
+      "baseAtk": 229
+    },
+    "59": {
+      "baseAtk": 232
     },
     "60": {
       "baseAtk": 234
     },
+    "61": {
+      "baseAtk": 255
+    },
+    "62": {
+      "baseAtk": 257
+    },
+    "63": {
+      "baseAtk": 259
+    },
+    "64": {
+      "baseAtk": 262
+    },
+    "65": {
+      "baseAtk": 264
+    },
+    "66": {
+      "baseAtk": 266
+    },
+    "67": {
+      "baseAtk": 268
+    },
+    "68": {
+      "baseAtk": 270
+    },
+    "69": {
+      "baseAtk": 272
+    },
     "70": {
       "baseAtk": 274
     },
+    "71": {
+      "baseAtk": 296
+    },
+    "72": {
+      "baseAtk": 298
+    },
+    "73": {
+      "baseAtk": 300
+    },
+    "74": {
+      "baseAtk": 302
+    },
+    "75": {
+      "baseAtk": 304
+    },
+    "76": {
+      "baseAtk": 306
+    },
+    "77": {
+      "baseAtk": 308
+    },
+    "78": {
+      "baseAtk": 310
+    },
+    "79": {
+      "baseAtk": 312
+    },
     "80": {
       "baseAtk": 314
+    },
+    "81": {
+      "baseAtk": 336
+    },
+    "82": {
+      "baseAtk": 338
+    },
+    "83": {
+      "baseAtk": 340
+    },
+    "84": {
+      "baseAtk": 342
+    },
+    "85": {
+      "baseAtk": 344
+    },
+    "86": {
+      "baseAtk": 346
+    },
+    "87": {
+      "baseAtk": 348
+    },
+    "88": {
+      "baseAtk": 350
+    },
+    "89": {
+      "baseAtk": 352
     },
     "90": {
       "baseAtk": 354
@@ -176,6 +422,359 @@
     },
     "80_ASC": {
       "baseAtk": 334
+    }
+  },
+  "secondaryAttribute": {
+    "type": "HP",
+    "levels": {
+      "1": {
+        "hpPercent": "10.2%"
+      },
+      "2": {
+        "hpPercent": "10.2%"
+      },
+      "3": {
+        "hpPercent": "10.2%"
+      },
+      "4": {
+        "hpPercent": "10.2%"
+      },
+      "5": {
+        "hpPercent": "11.9%"
+      },
+      "6": {
+        "hpPercent": "11.9%"
+      },
+      "7": {
+        "hpPercent": "11.9%"
+      },
+      "8": {
+        "hpPercent": "11.9%"
+      },
+      "9": {
+        "hpPercent": "11.9%"
+      },
+      "10": {
+        "hpPercent": "13.9%"
+      },
+      "11": {
+        "hpPercent": "13.9%"
+      },
+      "12": {
+        "hpPercent": "13.9%"
+      },
+      "13": {
+        "hpPercent": "13.9%"
+      },
+      "14": {
+        "hpPercent": "13.9%"
+      },
+      "15": {
+        "hpPercent": "16.0%"
+      },
+      "16": {
+        "hpPercent": "16.0%"
+      },
+      "17": {
+        "hpPercent": "16.0%"
+      },
+      "18": {
+        "hpPercent": "16.0%"
+      },
+      "19": {
+        "hpPercent": "16.0%"
+      },
+      "20": {
+        "hpPercent": "18.0%"
+      },
+      "21": {
+        "hpPercent": "18.0%"
+      },
+      "22": {
+        "hpPercent": "18.0%"
+      },
+      "23": {
+        "hpPercent": "18.0%"
+      },
+      "24": {
+        "hpPercent": "18.0%"
+      },
+      "25": {
+        "hpPercent": "20.1%"
+      },
+      "26": {
+        "hpPercent": "20.1%"
+      },
+      "27": {
+        "hpPercent": "20.1%"
+      },
+      "28": {
+        "hpPercent": "20.1%"
+      },
+      "29": {
+        "hpPercent": "20.1%"
+      },
+      "30": {
+        "hpPercent": "22.2%"
+      },
+      "31": {
+        "hpPercent": "22.2%"
+      },
+      "32": {
+        "hpPercent": "22.2%"
+      },
+      "33": {
+        "hpPercent": "22.2%"
+      },
+      "34": {
+        "hpPercent": "22.2%"
+      },
+      "35": {
+        "hpPercent": "24.2%"
+      },
+      "36": {
+        "hpPercent": "24.2%"
+      },
+      "37": {
+        "hpPercent": "24.2%"
+      },
+      "38": {
+        "hpPercent": "24.2%"
+      },
+      "39": {
+        "hpPercent": "24.2%"
+      },
+      "40": {
+        "hpPercent": "26.3%"
+      },
+      "41": {
+        "hpPercent": "26.3%"
+      },
+      "42": {
+        "hpPercent": "26.3%"
+      },
+      "43": {
+        "hpPercent": "26.3%"
+      },
+      "44": {
+        "hpPercent": "26.3%"
+      },
+      "45": {
+        "hpPercent": "28.4%"
+      },
+      "46": {
+        "hpPercent": "28.4%"
+      },
+      "47": {
+        "hpPercent": "28.4%"
+      },
+      "48": {
+        "hpPercent": "28.4%"
+      },
+      "49": {
+        "hpPercent": "28.4%"
+      },
+      "50": {
+        "hpPercent": "30.4%"
+      },
+      "51": {
+        "hpPercent": "30.4%"
+      },
+      "52": {
+        "hpPercent": "30.4%"
+      },
+      "53": {
+        "hpPercent": "30.4%"
+      },
+      "54": {
+        "hpPercent": "30.4%"
+      },
+      "55": {
+        "hpPercent": "32.5%"
+      },
+      "56": {
+        "hpPercent": "32.5%"
+      },
+      "57": {
+        "hpPercent": "32.5%"
+      },
+      "58": {
+        "hpPercent": "32.5%"
+      },
+      "59": {
+        "hpPercent": "32.5%"
+      },
+      "60": {
+        "hpPercent": "34.6%"
+      },
+      "61": {
+        "hpPercent": "34.6%"
+      },
+      "62": {
+        "hpPercent": "34.6%"
+      },
+      "63": {
+        "hpPercent": "34.6%"
+      },
+      "64": {
+        "hpPercent": "34.6%"
+      },
+      "65": {
+        "hpPercent": "36.6%"
+      },
+      "66": {
+        "hpPercent": "36.6%"
+      },
+      "67": {
+        "hpPercent": "36.6%"
+      },
+      "68": {
+        "hpPercent": "36.6%"
+      },
+      "69": {
+        "hpPercent": "36.6%"
+      },
+      "70": {
+        "hpPercent": "38.7%"
+      },
+      "71": {
+        "hpPercent": "38.7%"
+      },
+      "72": {
+        "hpPercent": "38.7%"
+      },
+      "73": {
+        "hpPercent": "38.7%"
+      },
+      "74": {
+        "hpPercent": "38.7%"
+      },
+      "75": {
+        "hpPercent": "40.7%"
+      },
+      "76": {
+        "hpPercent": "40.7%"
+      },
+      "77": {
+        "hpPercent": "40.7%"
+      },
+      "78": {
+        "hpPercent": "40.7%"
+      },
+      "79": {
+        "hpPercent": "40.7%"
+      },
+      "80": {
+        "hpPercent": "42.8%"
+      },
+      "81": {
+        "hpPercent": "42.8%"
+      },
+      "82": {
+        "hpPercent": "42.8%"
+      },
+      "83": {
+        "hpPercent": "42.8%"
+      },
+      "84": {
+        "hpPercent": "42.8%"
+      },
+      "85": {
+        "hpPercent": "44.9%"
+      },
+      "86": {
+        "hpPercent": "44.9%"
+      },
+      "87": {
+        "hpPercent": "44.9%"
+      },
+      "88": {
+        "hpPercent": "44.9%"
+      },
+      "89": {
+        "hpPercent": "44.9%"
+      },
+      "90": {
+        "hpPercent": "46.9%"
+      },
+      "20_ASC": {
+        "hpPercent": "18.0%"
+      },
+      "40_ASC": {
+        "hpPercent": "26.3%"
+      },
+      "50_ASC": {
+        "hpPercent": "30.4%"
+      },
+      "60_ASC": {
+        "hpPercent": "34.6%"
+      },
+      "70_ASC": {
+        "hpPercent": "38.7%"
+      },
+      "80_ASC": {
+        "hpPercent": "42.8%"
+      }
+    }
+  },
+  "effects": [
+    "Healing"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Cull the Weak",
+      "descriptions": [
+        "Defeating an opponent restores 8% HP."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 500
+        }
+      ]
+    },
+    "2": {
+      "title": "Cull the Weak",
+      "descriptions": [
+        "Defeating an opponent restores 10% HP."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "3": {
+      "title": "Cull the Weak",
+      "descriptions": [
+        "Defeating an opponent restores 12% HP."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "4": {
+      "title": "Cull the Weak",
+      "descriptions": [
+        "Defeating an opponent restores 14% HP."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "5": {
+      "title": "Cull the Weak",
+      "descriptions": [
+        "Defeating an opponent restores 16% HP."
+      ],
+      "upgradeCost": []
     }
   }
 }

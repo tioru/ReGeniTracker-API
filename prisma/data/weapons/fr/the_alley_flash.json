@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 45
     },
+    "2": {
+      "baseAtk": 49
+    },
+    "3": {
+      "baseAtk": 53
+    },
+    "4": {
+      "baseAtk": 58
+    },
+    "5": {
+      "baseAtk": 62
+    },
+    "6": {
+      "baseAtk": 66
+    },
+    "7": {
+      "baseAtk": 71
+    },
+    "8": {
+      "baseAtk": 75
+    },
+    "9": {
+      "baseAtk": 79
+    },
+    "10": {
+      "baseAtk": 84
+    },
+    "11": {
+      "baseAtk": 88
+    },
+    "12": {
+      "baseAtk": 92
+    },
+    "13": {
+      "baseAtk": 97
+    },
+    "14": {
+      "baseAtk": 101
+    },
+    "15": {
+      "baseAtk": 106
+    },
+    "16": {
+      "baseAtk": 110
+    },
+    "17": {
+      "baseAtk": 115
+    },
+    "18": {
+      "baseAtk": 119
+    },
+    "19": {
+      "baseAtk": 124
+    },
     "20": {
       "baseAtk": 128
+    },
+    "21": {
+      "baseAtk": 159
+    },
+    "22": {
+      "baseAtk": 163
+    },
+    "23": {
+      "baseAtk": 168
+    },
+    "24": {
+      "baseAtk": 172
+    },
+    "25": {
+      "baseAtk": 177
+    },
+    "26": {
+      "baseAtk": 182
+    },
+    "27": {
+      "baseAtk": 186
+    },
+    "28": {
+      "baseAtk": 191
+    },
+    "29": {
+      "baseAtk": 195
+    },
+    "30": {
+      "baseAtk": 200
+    },
+    "31": {
+      "baseAtk": 205
+    },
+    "32": {
+      "baseAtk": 209
+    },
+    "33": {
+      "baseAtk": 214
+    },
+    "34": {
+      "baseAtk": 219
+    },
+    "35": {
+      "baseAtk": 224
+    },
+    "36": {
+      "baseAtk": 228
+    },
+    "37": {
+      "baseAtk": 233
+    },
+    "38": {
+      "baseAtk": 238
+    },
+    "39": {
+      "baseAtk": 242
     },
     "40": {
       "baseAtk": 247
     },
+    "41": {
+      "baseAtk": 278
+    },
+    "42": {
+      "baseAtk": 283
+    },
+    "43": {
+      "baseAtk": 287
+    },
+    "44": {
+      "baseAtk": 292
+    },
+    "45": {
+      "baseAtk": 297
+    },
+    "46": {
+      "baseAtk": 302
+    },
+    "47": {
+      "baseAtk": 306
+    },
+    "48": {
+      "baseAtk": 311
+    },
+    "49": {
+      "baseAtk": 316
+    },
     "50": {
       "baseAtk": 321
+    },
+    "51": {
+      "baseAtk": 352
+    },
+    "52": {
+      "baseAtk": 356
+    },
+    "53": {
+      "baseAtk": 361
+    },
+    "54": {
+      "baseAtk": 366
+    },
+    "55": {
+      "baseAtk": 371
+    },
+    "56": {
+      "baseAtk": 376
+    },
+    "57": {
+      "baseAtk": 381
+    },
+    "58": {
+      "baseAtk": 385
+    },
+    "59": {
+      "baseAtk": 390
     },
     "60": {
       "baseAtk": 395
     },
+    "61": {
+      "baseAtk": 426
+    },
+    "62": {
+      "baseAtk": 431
+    },
+    "63": {
+      "baseAtk": 436
+    },
+    "64": {
+      "baseAtk": 440
+    },
+    "65": {
+      "baseAtk": 445
+    },
+    "66": {
+      "baseAtk": 450
+    },
+    "67": {
+      "baseAtk": 455
+    },
+    "68": {
+      "baseAtk": 460
+    },
+    "69": {
+      "baseAtk": 465
+    },
     "70": {
       "baseAtk": 470
     },
+    "71": {
+      "baseAtk": 501
+    },
+    "72": {
+      "baseAtk": 505
+    },
+    "73": {
+      "baseAtk": 510
+    },
+    "74": {
+      "baseAtk": 515
+    },
+    "75": {
+      "baseAtk": 520
+    },
+    "76": {
+      "baseAtk": 525
+    },
+    "77": {
+      "baseAtk": 530
+    },
+    "78": {
+      "baseAtk": 535
+    },
+    "79": {
+      "baseAtk": 540
+    },
     "80": {
       "baseAtk": 545
+    },
+    "81": {
+      "baseAtk": 576
+    },
+    "82": {
+      "baseAtk": 581
+    },
+    "83": {
+      "baseAtk": 585
+    },
+    "84": {
+      "baseAtk": 590
+    },
+    "85": {
+      "baseAtk": 595
+    },
+    "86": {
+      "baseAtk": 600
+    },
+    "87": {
+      "baseAtk": 605
+    },
+    "88": {
+      "baseAtk": 610
+    },
+    "89": {
+      "baseAtk": 615
     },
     "90": {
       "baseAtk": 620
@@ -169,13 +415,366 @@
       "baseAtk": 347
     },
     "60_ASC": {
-      "baseAtk": 429
+      "baseAtk": 421
     },
     "70_ASC": {
       "baseAtk": 496
     },
     "80_ASC": {
       "baseAtk": 571
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Maîtrise élémentaire",
+    "levels": {
+      "1": {
+        "elementalMastery": "12"
+      },
+      "2": {
+        "elementalMastery": "12"
+      },
+      "3": {
+        "elementalMastery": "12"
+      },
+      "4": {
+        "elementalMastery": "12"
+      },
+      "5": {
+        "elementalMastery": "14"
+      },
+      "6": {
+        "elementalMastery": "14"
+      },
+      "7": {
+        "elementalMastery": "14"
+      },
+      "8": {
+        "elementalMastery": "14"
+      },
+      "9": {
+        "elementalMastery": "14"
+      },
+      "10": {
+        "elementalMastery": "16"
+      },
+      "11": {
+        "elementalMastery": "16"
+      },
+      "12": {
+        "elementalMastery": "16"
+      },
+      "13": {
+        "elementalMastery": "16"
+      },
+      "14": {
+        "elementalMastery": "16"
+      },
+      "15": {
+        "elementalMastery": "19"
+      },
+      "16": {
+        "elementalMastery": "19"
+      },
+      "17": {
+        "elementalMastery": "19"
+      },
+      "18": {
+        "elementalMastery": "19"
+      },
+      "19": {
+        "elementalMastery": "19"
+      },
+      "20": {
+        "elementalMastery": "21"
+      },
+      "21": {
+        "elementalMastery": "21"
+      },
+      "22": {
+        "elementalMastery": "21"
+      },
+      "23": {
+        "elementalMastery": "21"
+      },
+      "24": {
+        "elementalMastery": "21"
+      },
+      "25": {
+        "elementalMastery": "24"
+      },
+      "26": {
+        "elementalMastery": "24"
+      },
+      "27": {
+        "elementalMastery": "24"
+      },
+      "28": {
+        "elementalMastery": "24"
+      },
+      "29": {
+        "elementalMastery": "24"
+      },
+      "30": {
+        "elementalMastery": "26"
+      },
+      "31": {
+        "elementalMastery": "26"
+      },
+      "32": {
+        "elementalMastery": "26"
+      },
+      "33": {
+        "elementalMastery": "26"
+      },
+      "34": {
+        "elementalMastery": "26"
+      },
+      "35": {
+        "elementalMastery": "28"
+      },
+      "36": {
+        "elementalMastery": "28"
+      },
+      "37": {
+        "elementalMastery": "28"
+      },
+      "38": {
+        "elementalMastery": "28"
+      },
+      "39": {
+        "elementalMastery": "28"
+      },
+      "40": {
+        "elementalMastery": "31"
+      },
+      "41": {
+        "elementalMastery": "31"
+      },
+      "42": {
+        "elementalMastery": "31"
+      },
+      "43": {
+        "elementalMastery": "31"
+      },
+      "44": {
+        "elementalMastery": "31"
+      },
+      "45": {
+        "elementalMastery": "33"
+      },
+      "46": {
+        "elementalMastery": "33"
+      },
+      "47": {
+        "elementalMastery": "33"
+      },
+      "48": {
+        "elementalMastery": "33"
+      },
+      "49": {
+        "elementalMastery": "33"
+      },
+      "50": {
+        "elementalMastery": "36"
+      },
+      "51": {
+        "elementalMastery": "36"
+      },
+      "52": {
+        "elementalMastery": "36"
+      },
+      "53": {
+        "elementalMastery": "36"
+      },
+      "54": {
+        "elementalMastery": "36"
+      },
+      "55": {
+        "elementalMastery": "38"
+      },
+      "56": {
+        "elementalMastery": "38"
+      },
+      "57": {
+        "elementalMastery": "38"
+      },
+      "58": {
+        "elementalMastery": "38"
+      },
+      "59": {
+        "elementalMastery": "38"
+      },
+      "60": {
+        "elementalMastery": "41"
+      },
+      "61": {
+        "elementalMastery": "41"
+      },
+      "62": {
+        "elementalMastery": "41"
+      },
+      "63": {
+        "elementalMastery": "41"
+      },
+      "64": {
+        "elementalMastery": "41"
+      },
+      "65": {
+        "elementalMastery": "43"
+      },
+      "66": {
+        "elementalMastery": "43"
+      },
+      "67": {
+        "elementalMastery": "43"
+      },
+      "68": {
+        "elementalMastery": "43"
+      },
+      "69": {
+        "elementalMastery": "43"
+      },
+      "70": {
+        "elementalMastery": "45"
+      },
+      "71": {
+        "elementalMastery": "45"
+      },
+      "72": {
+        "elementalMastery": "45"
+      },
+      "73": {
+        "elementalMastery": "45"
+      },
+      "74": {
+        "elementalMastery": "45"
+      },
+      "75": {
+        "elementalMastery": "48"
+      },
+      "76": {
+        "elementalMastery": "48"
+      },
+      "77": {
+        "elementalMastery": "48"
+      },
+      "78": {
+        "elementalMastery": "48"
+      },
+      "79": {
+        "elementalMastery": "48"
+      },
+      "80": {
+        "elementalMastery": "50"
+      },
+      "81": {
+        "elementalMastery": "50"
+      },
+      "82": {
+        "elementalMastery": "50"
+      },
+      "83": {
+        "elementalMastery": "50"
+      },
+      "84": {
+        "elementalMastery": "50"
+      },
+      "85": {
+        "elementalMastery": "53"
+      },
+      "86": {
+        "elementalMastery": "53"
+      },
+      "87": {
+        "elementalMastery": "53"
+      },
+      "88": {
+        "elementalMastery": "53"
+      },
+      "89": {
+        "elementalMastery": "53"
+      },
+      "90": {
+        "elementalMastery": "55"
+      },
+      "20_ASC": {
+        "elementalMastery": "21"
+      },
+      "40_ASC": {
+        "elementalMastery": "31"
+      },
+      "50_ASC": {
+        "elementalMastery": "36"
+      },
+      "60_ASC": {
+        "elementalMastery": "41"
+      },
+      "70_ASC": {
+        "elementalMastery": "45"
+      },
+      "80_ASC": {
+        "elementalMastery": "50"
+      }
+    }
+  },
+  "effects": [
+    "DMG Bonus"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Justicier vagabond",
+      "descriptions": [
+        "Augmente les DGT infligés par le personnage de 12 %. Cet effet disparaît pendant 5 s lorsque le personnage subit des DGT."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Justicier vagabond",
+      "descriptions": [
+        "Augmente les DGT infligés par le personnage de 15 %. Cet effet disparaît pendant 5 s lorsque le personnage subit des DGT."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Justicier vagabond",
+      "descriptions": [
+        "Augmente les DGT infligés par le personnage de 18 %. Cet effet disparaît pendant 5 s lorsque le personnage subit des DGT."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Justicier vagabond",
+      "descriptions": [
+        "Augmente les DGT infligés par le personnage de 21 %. Cet effet disparaît pendant 5 s lorsque le personnage subit des DGT."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Justicier vagabond",
+      "descriptions": [
+        "Augmente les DGT infligés par le personnage de 24 %. Cet effet disparaît pendant 5 s lorsque le personnage subit des DGT."
+      ],
+      "upgradeCost": []
     }
   }
 }

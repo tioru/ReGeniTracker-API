@@ -177,5 +177,118 @@
     "80_ASC": {
       "baseAtk": 621
     }
+  },
+  "secondaryAttribute": {
+    "type": "CRIT DMG",
+    "levels": {
+      "1": {
+        "crtDmg": "9.6%"
+      },
+      "20": {
+        "crtDmg": "17.0%"
+      },
+      "40": {
+        "crtDmg": "24.7%"
+      },
+      "50": {
+        "crtDmg": "28.6%"
+      },
+      "60": {
+        "crtDmg": "32.5%"
+      },
+      "70": {
+        "crtDmg": "36.4%"
+      },
+      "80": {
+        "crtDmg": "40.2%"
+      },
+      "90": {
+        "crtDmg": "44.1%"
+      },
+      "20_ASC": {
+        "crtDmg": "17.0%"
+      },
+      "40_ASC": {
+        "crtDmg": "24.7%"
+      },
+      "50_ASC": {
+        "crtDmg": "28.6%"
+      },
+      "60_ASC": {
+        "crtDmg": "32.5%"
+      },
+      "70_ASC": {
+        "crtDmg": "36.4%"
+      },
+      "80_ASC": {
+        "crtDmg": "40.2%"
+      }
+    }
+  },
+  "effects": [
+    "ATK",
+    "Stellar-Conduct DMG Bonus"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "White Fairy's Queening",
+      "descriptions": [
+        "ATK increased by 28%.",
+        "Additionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Surmount\" for a short time: their Stellar-Conduct DMG is increased by 16% for 5s. This effect can stack once every 0.2s, max 3 stacks."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "White Fairy's Queening",
+      "descriptions": [
+        "ATK increased by 35%.",
+        "Additionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Surmount\" for a short time: their Stellar-Conduct DMG is increased by 20% for 5s. This effect can stack once every 0.2s, max 3 stacks."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "White Fairy's Queening",
+      "descriptions": [
+        "ATK increased by 42%.",
+        "Additionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Surmount\" for a short time: their Stellar-Conduct DMG is increased by 24% for 5s. This effect can stack once every 0.2s, max 3 stacks."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "White Fairy's Queening",
+      "descriptions": [
+        "ATK increased by 49%.",
+        "Additionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Surmount\" for a short time: their Stellar-Conduct DMG is increased by 28% for 5s. This effect can stack once every 0.2s, max 3 stacks."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "White Fairy's Queening",
+      "descriptions": [
+        "ATK increased by 56%.",
+        "Additionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Surmount\" for a short time: their Stellar-Conduct DMG is increased by 32% for 5s. This effect can stack once every 0.2s, max 3 stacks."
+      ],
+      "upgradeCost": []
+    }
   }
 }

@@ -7,5 +7,647 @@
   "history": "",
   "sellers": [],
   "ascensionMaterials": [],
-  "levels": {}
+  "levels": {
+    "1": {
+      "baseAtk": 39
+    },
+    "2": {
+      "baseAtk": 42
+    },
+    "3": {
+      "baseAtk": 45
+    },
+    "4": {
+      "baseAtk": 48
+    },
+    "5": {
+      "baseAtk": 50
+    },
+    "6": {
+      "baseAtk": 53
+    },
+    "7": {
+      "baseAtk": 56
+    },
+    "8": {
+      "baseAtk": 59
+    },
+    "9": {
+      "baseAtk": 62
+    },
+    "10": {
+      "baseAtk": 65
+    },
+    "11": {
+      "baseAtk": 68
+    },
+    "12": {
+      "baseAtk": 71
+    },
+    "13": {
+      "baseAtk": 74
+    },
+    "14": {
+      "baseAtk": 77
+    },
+    "15": {
+      "baseAtk": 79
+    },
+    "16": {
+      "baseAtk": 82
+    },
+    "17": {
+      "baseAtk": 85
+    },
+    "18": {
+      "baseAtk": 88
+    },
+    "19": {
+      "baseAtk": 91
+    },
+    "20": {
+      "baseAtk": 94
+    },
+    "21": {
+      "baseAtk": 116
+    },
+    "22": {
+      "baseAtk": 119
+    },
+    "23": {
+      "baseAtk": 122
+    },
+    "24": {
+      "baseAtk": 125
+    },
+    "25": {
+      "baseAtk": 127
+    },
+    "26": {
+      "baseAtk": 130
+    },
+    "27": {
+      "baseAtk": 133
+    },
+    "28": {
+      "baseAtk": 136
+    },
+    "29": {
+      "baseAtk": 139
+    },
+    "30": {
+      "baseAtk": 141
+    },
+    "31": {
+      "baseAtk": 144
+    },
+    "32": {
+      "baseAtk": 147
+    },
+    "33": {
+      "baseAtk": 150
+    },
+    "34": {
+      "baseAtk": 153
+    },
+    "35": {
+      "baseAtk": 155
+    },
+    "36": {
+      "baseAtk": 158
+    },
+    "37": {
+      "baseAtk": 161
+    },
+    "38": {
+      "baseAtk": 164
+    },
+    "39": {
+      "baseAtk": 166
+    },
+    "40": {
+      "baseAtk": 169
+    },
+    "41": {
+      "baseAtk": 191
+    },
+    "42": {
+      "baseAtk": 194
+    },
+    "43": {
+      "baseAtk": 197
+    },
+    "44": {
+      "baseAtk": 200
+    },
+    "45": {
+      "baseAtk": 202
+    },
+    "46": {
+      "baseAtk": 205
+    },
+    "47": {
+      "baseAtk": 208
+    },
+    "48": {
+      "baseAtk": 211
+    },
+    "49": {
+      "baseAtk": 213
+    },
+    "50": {
+      "baseAtk": 216
+    },
+    "51": {
+      "baseAtk": 238
+    },
+    "52": {
+      "baseAtk": 241
+    },
+    "53": {
+      "baseAtk": 244
+    },
+    "54": {
+      "baseAtk": 246
+    },
+    "55": {
+      "baseAtk": 249
+    },
+    "56": {
+      "baseAtk": 252
+    },
+    "57": {
+      "baseAtk": 255
+    },
+    "58": {
+      "baseAtk": 257
+    },
+    "59": {
+      "baseAtk": 260
+    },
+    "60": {
+      "baseAtk": 263
+    },
+    "61": {
+      "baseAtk": 285
+    },
+    "62": {
+      "baseAtk": 288
+    },
+    "63": {
+      "baseAtk": 290
+    },
+    "64": {
+      "baseAtk": 293
+    },
+    "65": {
+      "baseAtk": 296
+    },
+    "66": {
+      "baseAtk": 298
+    },
+    "67": {
+      "baseAtk": 301
+    },
+    "68": {
+      "baseAtk": 304
+    },
+    "69": {
+      "baseAtk": 306
+    },
+    "70": {
+      "baseAtk": 309
+    },
+    "71": {
+      "baseAtk": 331
+    },
+    "72": {
+      "baseAtk": 334
+    },
+    "73": {
+      "baseAtk": 337
+    },
+    "74": {
+      "baseAtk": 339
+    },
+    "75": {
+      "baseAtk": 342
+    },
+    "76": {
+      "baseAtk": 345
+    },
+    "77": {
+      "baseAtk": 347
+    },
+    "78": {
+      "baseAtk": 350
+    },
+    "79": {
+      "baseAtk": 353
+    },
+    "80": {
+      "baseAtk": 355
+    },
+    "81": {
+      "baseAtk": 377
+    },
+    "82": {
+      "baseAtk": 380
+    },
+    "83": {
+      "baseAtk": 383
+    },
+    "84": {
+      "baseAtk": 385
+    },
+    "85": {
+      "baseAtk": 388
+    },
+    "86": {
+      "baseAtk": 391
+    },
+    "87": {
+      "baseAtk": 393
+    },
+    "88": {
+      "baseAtk": 396
+    },
+    "89": {
+      "baseAtk": 399
+    },
+    "90": {
+      "baseAtk": 401
+    },
+    "20_ASC": {
+      "baseAtk": 113
+    },
+    "40_ASC": {
+      "baseAtk": 189
+    },
+    "50_ASC": {
+      "baseAtk": 236
+    },
+    "60_ASC": {
+      "baseAtk": 282
+    },
+    "70_ASC": {
+      "baseAtk": 329
+    },
+    "80_ASC": {
+      "baseAtk": 375
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Elemental Mastery",
+    "levels": {
+      "1": {
+        "elementalMastery": "31"
+      },
+      "2": {
+        "elementalMastery": "31"
+      },
+      "3": {
+        "elementalMastery": "31"
+      },
+      "4": {
+        "elementalMastery": "31"
+      },
+      "5": {
+        "elementalMastery": "36"
+      },
+      "6": {
+        "elementalMastery": "36"
+      },
+      "7": {
+        "elementalMastery": "36"
+      },
+      "8": {
+        "elementalMastery": "36"
+      },
+      "9": {
+        "elementalMastery": "36"
+      },
+      "10": {
+        "elementalMastery": "42"
+      },
+      "11": {
+        "elementalMastery": "42"
+      },
+      "12": {
+        "elementalMastery": "42"
+      },
+      "13": {
+        "elementalMastery": "42"
+      },
+      "14": {
+        "elementalMastery": "42"
+      },
+      "15": {
+        "elementalMastery": "48"
+      },
+      "16": {
+        "elementalMastery": "48"
+      },
+      "17": {
+        "elementalMastery": "48"
+      },
+      "18": {
+        "elementalMastery": "48"
+      },
+      "19": {
+        "elementalMastery": "48"
+      },
+      "20": {
+        "elementalMastery": "54"
+      },
+      "21": {
+        "elementalMastery": "54"
+      },
+      "22": {
+        "elementalMastery": "54"
+      },
+      "23": {
+        "elementalMastery": "54"
+      },
+      "24": {
+        "elementalMastery": "54"
+      },
+      "25": {
+        "elementalMastery": "60"
+      },
+      "26": {
+        "elementalMastery": "60"
+      },
+      "27": {
+        "elementalMastery": "60"
+      },
+      "28": {
+        "elementalMastery": "60"
+      },
+      "29": {
+        "elementalMastery": "60"
+      },
+      "30": {
+        "elementalMastery": "66"
+      },
+      "31": {
+        "elementalMastery": "66"
+      },
+      "32": {
+        "elementalMastery": "66"
+      },
+      "33": {
+        "elementalMastery": "66"
+      },
+      "34": {
+        "elementalMastery": "66"
+      },
+      "35": {
+        "elementalMastery": "73"
+      },
+      "36": {
+        "elementalMastery": "73"
+      },
+      "37": {
+        "elementalMastery": "73"
+      },
+      "38": {
+        "elementalMastery": "73"
+      },
+      "39": {
+        "elementalMastery": "73"
+      },
+      "40": {
+        "elementalMastery": "79"
+      },
+      "41": {
+        "elementalMastery": "79"
+      },
+      "42": {
+        "elementalMastery": "79"
+      },
+      "43": {
+        "elementalMastery": "79"
+      },
+      "44": {
+        "elementalMastery": "79"
+      },
+      "45": {
+        "elementalMastery": "85"
+      },
+      "46": {
+        "elementalMastery": "85"
+      },
+      "47": {
+        "elementalMastery": "85"
+      },
+      "48": {
+        "elementalMastery": "85"
+      },
+      "49": {
+        "elementalMastery": "85"
+      },
+      "50": {
+        "elementalMastery": "91"
+      },
+      "51": {
+        "elementalMastery": "91"
+      },
+      "52": {
+        "elementalMastery": "91"
+      },
+      "53": {
+        "elementalMastery": "91"
+      },
+      "54": {
+        "elementalMastery": "91"
+      },
+      "55": {
+        "elementalMastery": "97"
+      },
+      "56": {
+        "elementalMastery": "97"
+      },
+      "57": {
+        "elementalMastery": "97"
+      },
+      "58": {
+        "elementalMastery": "97"
+      },
+      "59": {
+        "elementalMastery": "97"
+      },
+      "60": {
+        "elementalMastery": "104"
+      },
+      "61": {
+        "elementalMastery": "104"
+      },
+      "62": {
+        "elementalMastery": "104"
+      },
+      "63": {
+        "elementalMastery": "104"
+      },
+      "64": {
+        "elementalMastery": "104"
+      },
+      "65": {
+        "elementalMastery": "110"
+      },
+      "66": {
+        "elementalMastery": "110"
+      },
+      "67": {
+        "elementalMastery": "110"
+      },
+      "68": {
+        "elementalMastery": "110"
+      },
+      "69": {
+        "elementalMastery": "110"
+      },
+      "70": {
+        "elementalMastery": "116"
+      },
+      "71": {
+        "elementalMastery": "116"
+      },
+      "72": {
+        "elementalMastery": "116"
+      },
+      "73": {
+        "elementalMastery": "116"
+      },
+      "74": {
+        "elementalMastery": "116"
+      },
+      "75": {
+        "elementalMastery": "122"
+      },
+      "76": {
+        "elementalMastery": "122"
+      },
+      "77": {
+        "elementalMastery": "122"
+      },
+      "78": {
+        "elementalMastery": "122"
+      },
+      "79": {
+        "elementalMastery": "122"
+      },
+      "80": {
+        "elementalMastery": "128"
+      },
+      "81": {
+        "elementalMastery": "128"
+      },
+      "82": {
+        "elementalMastery": "128"
+      },
+      "83": {
+        "elementalMastery": "128"
+      },
+      "84": {
+        "elementalMastery": "128"
+      },
+      "85": {
+        "elementalMastery": "134"
+      },
+      "86": {
+        "elementalMastery": "134"
+      },
+      "87": {
+        "elementalMastery": "134"
+      },
+      "88": {
+        "elementalMastery": "134"
+      },
+      "89": {
+        "elementalMastery": "134"
+      },
+      "90": {
+        "elementalMastery": "141"
+      },
+      "20_ASC": {
+        "elementalMastery": "54"
+      },
+      "40_ASC": {
+        "elementalMastery": "79"
+      },
+      "50_ASC": {
+        "elementalMastery": "91"
+      },
+      "60_ASC": {
+        "elementalMastery": "104"
+      },
+      "70_ASC": {
+        "elementalMastery": "116"
+      },
+      "80_ASC": {
+        "elementalMastery": "128"
+      }
+    }
+  },
+  "effects": [
+    "ATK"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Residual Heat",
+      "descriptions": [
+        "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, increases Base ATK by 20% for 12s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 500
+        }
+      ]
+    },
+    "2": {
+      "title": "Residual Heat",
+      "descriptions": [
+        "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, increases Base ATK by 25% for 12s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "3": {
+      "title": "Residual Heat",
+      "descriptions": [
+        "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, increases Base ATK by 30% for 12s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "4": {
+      "title": "Residual Heat",
+      "descriptions": [
+        "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, increases Base ATK by 35% for 12s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "5": {
+      "title": "Residual Heat",
+      "descriptions": [
+        "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, increases Base ATK by 40% for 12s."
+      ],
+      "upgradeCost": []
+    }
+  }
 }

@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 44
     },
+    "2": {
+      "baseAtk": 48
+    },
+    "3": {
+      "baseAtk": 51
+    },
+    "4": {
+      "baseAtk": 55
+    },
+    "5": {
+      "baseAtk": 59
+    },
+    "6": {
+      "baseAtk": 63
+    },
+    "7": {
+      "baseAtk": 67
+    },
+    "8": {
+      "baseAtk": 71
+    },
+    "9": {
+      "baseAtk": 75
+    },
+    "10": {
+      "baseAtk": 79
+    },
+    "11": {
+      "baseAtk": 83
+    },
+    "12": {
+      "baseAtk": 87
+    },
+    "13": {
+      "baseAtk": 91
+    },
+    "14": {
+      "baseAtk": 95
+    },
+    "15": {
+      "baseAtk": 99
+    },
+    "16": {
+      "baseAtk": 103
+    },
+    "17": {
+      "baseAtk": 107
+    },
+    "18": {
+      "baseAtk": 111
+    },
+    "19": {
+      "baseAtk": 115
+    },
     "20": {
       "baseAtk": 119
+    },
+    "21": {
+      "baseAtk": 148
+    },
+    "22": {
+      "baseAtk": 153
+    },
+    "23": {
+      "baseAtk": 157
+    },
+    "24": {
+      "baseAtk": 161
+    },
+    "25": {
+      "baseAtk": 165
+    },
+    "26": {
+      "baseAtk": 169
+    },
+    "27": {
+      "baseAtk": 173
+    },
+    "28": {
+      "baseAtk": 177
+    },
+    "29": {
+      "baseAtk": 181
+    },
+    "30": {
+      "baseAtk": 185
+    },
+    "31": {
+      "baseAtk": 189
+    },
+    "32": {
+      "baseAtk": 193
+    },
+    "33": {
+      "baseAtk": 197
+    },
+    "34": {
+      "baseAtk": 201
+    },
+    "35": {
+      "baseAtk": 205
+    },
+    "36": {
+      "baseAtk": 210
+    },
+    "37": {
+      "baseAtk": 214
+    },
+    "38": {
+      "baseAtk": 218
+    },
+    "39": {
+      "baseAtk": 222
     },
     "40": {
       "baseAtk": 226
     },
+    "41": {
+      "baseAtk": 256
+    },
+    "42": {
+      "baseAtk": 260
+    },
+    "43": {
+      "baseAtk": 264
+    },
+    "44": {
+      "baseAtk": 268
+    },
+    "45": {
+      "baseAtk": 273
+    },
+    "46": {
+      "baseAtk": 277
+    },
+    "47": {
+      "baseAtk": 281
+    },
+    "48": {
+      "baseAtk": 285
+    },
+    "49": {
+      "baseAtk": 289
+    },
     "50": {
       "baseAtk": 293
+    },
+    "51": {
+      "baseAtk": 323
+    },
+    "52": {
+      "baseAtk": 328
+    },
+    "53": {
+      "baseAtk": 332
+    },
+    "54": {
+      "baseAtk": 336
+    },
+    "55": {
+      "baseAtk": 340
+    },
+    "56": {
+      "baseAtk": 344
+    },
+    "57": {
+      "baseAtk": 348
+    },
+    "58": {
+      "baseAtk": 353
+    },
+    "59": {
+      "baseAtk": 357
     },
     "60": {
       "baseAtk": 361
     },
+    "61": {
+      "baseAtk": 391
+    },
+    "62": {
+      "baseAtk": 395
+    },
+    "63": {
+      "baseAtk": 399
+    },
+    "64": {
+      "baseAtk": 404
+    },
+    "65": {
+      "baseAtk": 408
+    },
+    "66": {
+      "baseAtk": 412
+    },
+    "67": {
+      "baseAtk": 416
+    },
+    "68": {
+      "baseAtk": 420
+    },
+    "69": {
+      "baseAtk": 424
+    },
     "70": {
       "baseAtk": 429
     },
+    "71": {
+      "baseAtk": 459
+    },
+    "72": {
+      "baseAtk": 463
+    },
+    "73": {
+      "baseAtk": 467
+    },
+    "74": {
+      "baseAtk": 471
+    },
+    "75": {
+      "baseAtk": 476
+    },
+    "76": {
+      "baseAtk": 480
+    },
+    "77": {
+      "baseAtk": 484
+    },
+    "78": {
+      "baseAtk": 488
+    },
+    "79": {
+      "baseAtk": 493
+    },
     "80": {
       "baseAtk": 497
+    },
+    "81": {
+      "baseAtk": 527
+    },
+    "82": {
+      "baseAtk": 531
+    },
+    "83": {
+      "baseAtk": 535
+    },
+    "84": {
+      "baseAtk": 539
+    },
+    "85": {
+      "baseAtk": 544
+    },
+    "86": {
+      "baseAtk": 548
+    },
+    "87": {
+      "baseAtk": 552
+    },
+    "88": {
+      "baseAtk": 556
+    },
+    "89": {
+      "baseAtk": 561
     },
     "90": {
       "baseAtk": 565
@@ -176,6 +422,360 @@
     },
     "80_ASC": {
       "baseAtk": 523
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Maîtrise élémentaire",
+    "levels": {
+      "1": {
+        "elementalMastery": "24"
+      },
+      "2": {
+        "elementalMastery": "24"
+      },
+      "3": {
+        "elementalMastery": "24"
+      },
+      "4": {
+        "elementalMastery": "24"
+      },
+      "5": {
+        "elementalMastery": "28"
+      },
+      "6": {
+        "elementalMastery": "28"
+      },
+      "7": {
+        "elementalMastery": "28"
+      },
+      "8": {
+        "elementalMastery": "28"
+      },
+      "9": {
+        "elementalMastery": "28"
+      },
+      "10": {
+        "elementalMastery": "33"
+      },
+      "11": {
+        "elementalMastery": "33"
+      },
+      "12": {
+        "elementalMastery": "33"
+      },
+      "13": {
+        "elementalMastery": "33"
+      },
+      "14": {
+        "elementalMastery": "33"
+      },
+      "15": {
+        "elementalMastery": "38"
+      },
+      "16": {
+        "elementalMastery": "38"
+      },
+      "17": {
+        "elementalMastery": "38"
+      },
+      "18": {
+        "elementalMastery": "38"
+      },
+      "19": {
+        "elementalMastery": "38"
+      },
+      "20": {
+        "elementalMastery": "42"
+      },
+      "21": {
+        "elementalMastery": "42"
+      },
+      "22": {
+        "elementalMastery": "42"
+      },
+      "23": {
+        "elementalMastery": "42"
+      },
+      "24": {
+        "elementalMastery": "42"
+      },
+      "25": {
+        "elementalMastery": "47"
+      },
+      "26": {
+        "elementalMastery": "47"
+      },
+      "27": {
+        "elementalMastery": "47"
+      },
+      "28": {
+        "elementalMastery": "47"
+      },
+      "29": {
+        "elementalMastery": "47"
+      },
+      "30": {
+        "elementalMastery": "52"
+      },
+      "31": {
+        "elementalMastery": "52"
+      },
+      "32": {
+        "elementalMastery": "52"
+      },
+      "33": {
+        "elementalMastery": "52"
+      },
+      "34": {
+        "elementalMastery": "52"
+      },
+      "35": {
+        "elementalMastery": "57"
+      },
+      "36": {
+        "elementalMastery": "57"
+      },
+      "37": {
+        "elementalMastery": "57"
+      },
+      "38": {
+        "elementalMastery": "57"
+      },
+      "39": {
+        "elementalMastery": "57"
+      },
+      "40": {
+        "elementalMastery": "62"
+      },
+      "41": {
+        "elementalMastery": "62"
+      },
+      "42": {
+        "elementalMastery": "62"
+      },
+      "43": {
+        "elementalMastery": "62"
+      },
+      "44": {
+        "elementalMastery": "62"
+      },
+      "45": {
+        "elementalMastery": "67"
+      },
+      "46": {
+        "elementalMastery": "67"
+      },
+      "47": {
+        "elementalMastery": "67"
+      },
+      "48": {
+        "elementalMastery": "67"
+      },
+      "49": {
+        "elementalMastery": "67"
+      },
+      "50": {
+        "elementalMastery": "71"
+      },
+      "51": {
+        "elementalMastery": "71"
+      },
+      "52": {
+        "elementalMastery": "71"
+      },
+      "53": {
+        "elementalMastery": "71"
+      },
+      "54": {
+        "elementalMastery": "71"
+      },
+      "55": {
+        "elementalMastery": "76"
+      },
+      "56": {
+        "elementalMastery": "76"
+      },
+      "57": {
+        "elementalMastery": "76"
+      },
+      "58": {
+        "elementalMastery": "76"
+      },
+      "59": {
+        "elementalMastery": "76"
+      },
+      "60": {
+        "elementalMastery": "81"
+      },
+      "61": {
+        "elementalMastery": "81"
+      },
+      "62": {
+        "elementalMastery": "81"
+      },
+      "63": {
+        "elementalMastery": "81"
+      },
+      "64": {
+        "elementalMastery": "81"
+      },
+      "65": {
+        "elementalMastery": "86"
+      },
+      "66": {
+        "elementalMastery": "86"
+      },
+      "67": {
+        "elementalMastery": "86"
+      },
+      "68": {
+        "elementalMastery": "86"
+      },
+      "69": {
+        "elementalMastery": "86"
+      },
+      "70": {
+        "elementalMastery": "91"
+      },
+      "71": {
+        "elementalMastery": "91"
+      },
+      "72": {
+        "elementalMastery": "91"
+      },
+      "73": {
+        "elementalMastery": "91"
+      },
+      "74": {
+        "elementalMastery": "91"
+      },
+      "75": {
+        "elementalMastery": "96"
+      },
+      "76": {
+        "elementalMastery": "96"
+      },
+      "77": {
+        "elementalMastery": "96"
+      },
+      "78": {
+        "elementalMastery": "96"
+      },
+      "79": {
+        "elementalMastery": "96"
+      },
+      "80": {
+        "elementalMastery": "101"
+      },
+      "81": {
+        "elementalMastery": "101"
+      },
+      "82": {
+        "elementalMastery": "101"
+      },
+      "83": {
+        "elementalMastery": "101"
+      },
+      "84": {
+        "elementalMastery": "101"
+      },
+      "85": {
+        "elementalMastery": "105"
+      },
+      "86": {
+        "elementalMastery": "105"
+      },
+      "87": {
+        "elementalMastery": "105"
+      },
+      "88": {
+        "elementalMastery": "105"
+      },
+      "89": {
+        "elementalMastery": "105"
+      },
+      "90": {
+        "elementalMastery": "110"
+      },
+      "20_ASC": {
+        "elementalMastery": "42"
+      },
+      "40_ASC": {
+        "elementalMastery": "62"
+      },
+      "50_ASC": {
+        "elementalMastery": "71"
+      },
+      "60_ASC": {
+        "elementalMastery": "81"
+      },
+      "70_ASC": {
+        "elementalMastery": "91"
+      },
+      "80_ASC": {
+        "elementalMastery": "101"
+      }
+    }
+  },
+  "effects": [
+    "ATK",
+    "Elemental Reaction Dependent"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Ombre lunaire en forêt",
+      "descriptions": [
+        "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de renouveau est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente l'ATQ du personnage de 16 % pendant 12 s. Une feuille de renouveau peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Ombre lunaire en forêt",
+      "descriptions": [
+        "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de renouveau est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente l'ATQ du personnage de 20 % pendant 12 s. Une feuille de renouveau peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Ombre lunaire en forêt",
+      "descriptions": [
+        "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de renouveau est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente l'ATQ du personnage de 24 % pendant 12 s. Une feuille de renouveau peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Ombre lunaire en forêt",
+      "descriptions": [
+        "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de renouveau est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente l'ATQ du personnage de 28 % pendant 12 s. Une feuille de renouveau peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Ombre lunaire en forêt",
+      "descriptions": [
+        "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de renouveau est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente l'ATQ du personnage de 32 % pendant 12 s. Une feuille de renouveau peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": []
     }
   }
 }

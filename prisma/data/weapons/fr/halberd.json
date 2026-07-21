@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 40
     },
+    "2": {
+      "baseAtk": 43
+    },
+    "3": {
+      "baseAtk": 46
+    },
+    "4": {
+      "baseAtk": 50
+    },
+    "5": {
+      "baseAtk": 53
+    },
+    "6": {
+      "baseAtk": 56
+    },
+    "7": {
+      "baseAtk": 59
+    },
+    "8": {
+      "baseAtk": 63
+    },
+    "9": {
+      "baseAtk": 66
+    },
+    "10": {
+      "baseAtk": 69
+    },
+    "11": {
+      "baseAtk": 72
+    },
+    "12": {
+      "baseAtk": 76
+    },
+    "13": {
+      "baseAtk": 79
+    },
+    "14": {
+      "baseAtk": 82
+    },
+    "15": {
+      "baseAtk": 86
+    },
+    "16": {
+      "baseAtk": 89
+    },
+    "17": {
+      "baseAtk": 92
+    },
+    "18": {
+      "baseAtk": 95
+    },
+    "19": {
+      "baseAtk": 99
+    },
     "20": {
       "baseAtk": 102
+    },
+    "21": {
+      "baseAtk": 125
+    },
+    "22": {
+      "baseAtk": 128
+    },
+    "23": {
+      "baseAtk": 131
+    },
+    "24": {
+      "baseAtk": 135
+    },
+    "25": {
+      "baseAtk": 138
+    },
+    "26": {
+      "baseAtk": 141
+    },
+    "27": {
+      "baseAtk": 144
+    },
+    "28": {
+      "baseAtk": 148
+    },
+    "29": {
+      "baseAtk": 151
+    },
+    "30": {
+      "baseAtk": 154
+    },
+    "31": {
+      "baseAtk": 158
+    },
+    "32": {
+      "baseAtk": 161
+    },
+    "33": {
+      "baseAtk": 164
+    },
+    "34": {
+      "baseAtk": 168
+    },
+    "35": {
+      "baseAtk": 171
+    },
+    "36": {
+      "baseAtk": 174
+    },
+    "37": {
+      "baseAtk": 177
+    },
+    "38": {
+      "baseAtk": 181
+    },
+    "39": {
+      "baseAtk": 184
     },
     "40": {
       "baseAtk": 187
     },
+    "41": {
+      "baseAtk": 210
+    },
+    "42": {
+      "baseAtk": 213
+    },
+    "43": {
+      "baseAtk": 217
+    },
+    "44": {
+      "baseAtk": 220
+    },
+    "45": {
+      "baseAtk": 223
+    },
+    "46": {
+      "baseAtk": 226
+    },
+    "47": {
+      "baseAtk": 230
+    },
+    "48": {
+      "baseAtk": 233
+    },
+    "49": {
+      "baseAtk": 236
+    },
     "50": {
       "baseAtk": 239
+    },
+    "51": {
+      "baseAtk": 262
+    },
+    "52": {
+      "baseAtk": 266
+    },
+    "53": {
+      "baseAtk": 269
+    },
+    "54": {
+      "baseAtk": 272
+    },
+    "55": {
+      "baseAtk": 275
+    },
+    "56": {
+      "baseAtk": 279
+    },
+    "57": {
+      "baseAtk": 282
+    },
+    "58": {
+      "baseAtk": 285
+    },
+    "59": {
+      "baseAtk": 288
     },
     "60": {
       "baseAtk": 292
     },
+    "61": {
+      "baseAtk": 314
+    },
+    "62": {
+      "baseAtk": 318
+    },
+    "63": {
+      "baseAtk": 321
+    },
+    "64": {
+      "baseAtk": 324
+    },
+    "65": {
+      "baseAtk": 327
+    },
+    "66": {
+      "baseAtk": 331
+    },
+    "67": {
+      "baseAtk": 334
+    },
+    "68": {
+      "baseAtk": 337
+    },
+    "69": {
+      "baseAtk": 341
+    },
     "70": {
       "baseAtk": 344
     },
+    "71": {
+      "baseAtk": 367
+    },
+    "72": {
+      "baseAtk": 370
+    },
+    "73": {
+      "baseAtk": 373
+    },
+    "74": {
+      "baseAtk": 376
+    },
+    "75": {
+      "baseAtk": 380
+    },
+    "76": {
+      "baseAtk": 383
+    },
+    "77": {
+      "baseAtk": 386
+    },
+    "78": {
+      "baseAtk": 390
+    },
+    "79": {
+      "baseAtk": 393
+    },
     "80": {
       "baseAtk": 396
+    },
+    "81": {
+      "baseAtk": 419
+    },
+    "82": {
+      "baseAtk": 422
+    },
+    "83": {
+      "baseAtk": 425
+    },
+    "84": {
+      "baseAtk": 429
+    },
+    "85": {
+      "baseAtk": 432
+    },
+    "86": {
+      "baseAtk": 435
+    },
+    "87": {
+      "baseAtk": 438
+    },
+    "88": {
+      "baseAtk": 442
+    },
+    "89": {
+      "baseAtk": 445
     },
     "90": {
       "baseAtk": 448
@@ -176,6 +422,359 @@
     },
     "80_ASC": {
       "baseAtk": 415
+    }
+  },
+  "secondaryAttribute": {
+    "type": "ATQ",
+    "levels": {
+      "1": {
+        "atkPercent": "5,1 %"
+      },
+      "2": {
+        "atkPercent": "5,1 %"
+      },
+      "3": {
+        "atkPercent": "5,1 %"
+      },
+      "4": {
+        "atkPercent": "5,1 %"
+      },
+      "5": {
+        "atkPercent": "5,9 %"
+      },
+      "6": {
+        "atkPercent": "5,9 %"
+      },
+      "7": {
+        "atkPercent": "5,9 %"
+      },
+      "8": {
+        "atkPercent": "5,9 %"
+      },
+      "9": {
+        "atkPercent": "5,9 %"
+      },
+      "10": {
+        "atkPercent": "7,0 %"
+      },
+      "11": {
+        "atkPercent": "7,0 %"
+      },
+      "12": {
+        "atkPercent": "7,0 %"
+      },
+      "13": {
+        "atkPercent": "7,0 %"
+      },
+      "14": {
+        "atkPercent": "7,0 %"
+      },
+      "15": {
+        "atkPercent": "8,0 %"
+      },
+      "16": {
+        "atkPercent": "8,0 %"
+      },
+      "17": {
+        "atkPercent": "8,0 %"
+      },
+      "18": {
+        "atkPercent": "8,0 %"
+      },
+      "19": {
+        "atkPercent": "8,0 %"
+      },
+      "20": {
+        "atkPercent": "9,0 %"
+      },
+      "21": {
+        "atkPercent": "9,0 %"
+      },
+      "22": {
+        "atkPercent": "9,0 %"
+      },
+      "23": {
+        "atkPercent": "9,0 %"
+      },
+      "24": {
+        "atkPercent": "9,0 %"
+      },
+      "25": {
+        "atkPercent": "10,1 %"
+      },
+      "26": {
+        "atkPercent": "10,1 %"
+      },
+      "27": {
+        "atkPercent": "10,1 %"
+      },
+      "28": {
+        "atkPercent": "10,1 %"
+      },
+      "29": {
+        "atkPercent": "10,1 %"
+      },
+      "30": {
+        "atkPercent": "11,1 %"
+      },
+      "31": {
+        "atkPercent": "11,1 %"
+      },
+      "32": {
+        "atkPercent": "11,1 %"
+      },
+      "33": {
+        "atkPercent": "11,1 %"
+      },
+      "34": {
+        "atkPercent": "11,1 %"
+      },
+      "35": {
+        "atkPercent": "12,1 %"
+      },
+      "36": {
+        "atkPercent": "12,1 %"
+      },
+      "37": {
+        "atkPercent": "12,1 %"
+      },
+      "38": {
+        "atkPercent": "12,1 %"
+      },
+      "39": {
+        "atkPercent": "12,1 %"
+      },
+      "40": {
+        "atkPercent": "13,1 %"
+      },
+      "41": {
+        "atkPercent": "13,1 %"
+      },
+      "42": {
+        "atkPercent": "13,1 %"
+      },
+      "43": {
+        "atkPercent": "13,1 %"
+      },
+      "44": {
+        "atkPercent": "13,1 %"
+      },
+      "45": {
+        "atkPercent": "14,2 %"
+      },
+      "46": {
+        "atkPercent": "14,2 %"
+      },
+      "47": {
+        "atkPercent": "14,2 %"
+      },
+      "48": {
+        "atkPercent": "14,2 %"
+      },
+      "49": {
+        "atkPercent": "14,2 %"
+      },
+      "50": {
+        "atkPercent": "15,2 %"
+      },
+      "51": {
+        "atkPercent": "15,2 %"
+      },
+      "52": {
+        "atkPercent": "15,2 %"
+      },
+      "53": {
+        "atkPercent": "15,2 %"
+      },
+      "54": {
+        "atkPercent": "15,2 %"
+      },
+      "55": {
+        "atkPercent": "16,2 %"
+      },
+      "56": {
+        "atkPercent": "16,2 %"
+      },
+      "57": {
+        "atkPercent": "16,2 %"
+      },
+      "58": {
+        "atkPercent": "16,2 %"
+      },
+      "59": {
+        "atkPercent": "16,2 %"
+      },
+      "60": {
+        "atkPercent": "17,3 %"
+      },
+      "61": {
+        "atkPercent": "17,3 %"
+      },
+      "62": {
+        "atkPercent": "17,3 %"
+      },
+      "63": {
+        "atkPercent": "17,3 %"
+      },
+      "64": {
+        "atkPercent": "17,3 %"
+      },
+      "65": {
+        "atkPercent": "18,3 %"
+      },
+      "66": {
+        "atkPercent": "18,3 %"
+      },
+      "67": {
+        "atkPercent": "18,3 %"
+      },
+      "68": {
+        "atkPercent": "18,3 %"
+      },
+      "69": {
+        "atkPercent": "18,3 %"
+      },
+      "70": {
+        "atkPercent": "19,3 %"
+      },
+      "71": {
+        "atkPercent": "19,3 %"
+      },
+      "72": {
+        "atkPercent": "19,3 %"
+      },
+      "73": {
+        "atkPercent": "19,3 %"
+      },
+      "74": {
+        "atkPercent": "19,3 %"
+      },
+      "75": {
+        "atkPercent": "20,4 %"
+      },
+      "76": {
+        "atkPercent": "20,4 %"
+      },
+      "77": {
+        "atkPercent": "20,4 %"
+      },
+      "78": {
+        "atkPercent": "20,4 %"
+      },
+      "79": {
+        "atkPercent": "20,4 %"
+      },
+      "80": {
+        "atkPercent": "21,4 %"
+      },
+      "81": {
+        "atkPercent": "21,4 %"
+      },
+      "82": {
+        "atkPercent": "21,4 %"
+      },
+      "83": {
+        "atkPercent": "21,4 %"
+      },
+      "84": {
+        "atkPercent": "21,4 %"
+      },
+      "85": {
+        "atkPercent": "22,4 %"
+      },
+      "86": {
+        "atkPercent": "22,4 %"
+      },
+      "87": {
+        "atkPercent": "22,4 %"
+      },
+      "88": {
+        "atkPercent": "22,4 %"
+      },
+      "89": {
+        "atkPercent": "22,4 %"
+      },
+      "90": {
+        "atkPercent": "23,5 %"
+      },
+      "20_ASC": {
+        "atkPercent": "9,0 %"
+      },
+      "40_ASC": {
+        "atkPercent": "13,1 %"
+      },
+      "50_ASC": {
+        "atkPercent": "15,2 %"
+      },
+      "60_ASC": {
+        "atkPercent": "17,3 %"
+      },
+      "70_ASC": {
+        "atkPercent": "19,3 %"
+      },
+      "80_ASC": {
+        "atkPercent": "21,4 %"
+      }
+    }
+  },
+  "effects": [
+    "Effect Triggered by Normal Attack"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Écrasement",
+      "descriptions": [
+        "Les attaques normales infligent 160 % de DGT d'ATQ supplémentaires lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 10 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 500
+        }
+      ]
+    },
+    "2": {
+      "title": "Écrasement",
+      "descriptions": [
+        "Les attaques normales infligent 200 % de DGT d'ATQ supplémentaires lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 10 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "3": {
+      "title": "Écrasement",
+      "descriptions": [
+        "Les attaques normales infligent 240 % de DGT d'ATQ supplémentaires lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 10 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "4": {
+      "title": "Écrasement",
+      "descriptions": [
+        "Les attaques normales infligent 280 % de DGT d'ATQ supplémentaires lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 10 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "5": {
+      "title": "Écrasement",
+      "descriptions": [
+        "Les attaques normales infligent 320 % de DGT d'ATQ supplémentaires lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 10 s."
+      ],
+      "upgradeCost": []
     }
   }
 }

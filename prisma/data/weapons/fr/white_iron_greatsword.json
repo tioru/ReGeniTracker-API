@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 39
     },
+    "2": {
+      "baseAtk": 42
+    },
+    "3": {
+      "baseAtk": 45
+    },
+    "4": {
+      "baseAtk": 48
+    },
+    "5": {
+      "baseAtk": 50
+    },
+    "6": {
+      "baseAtk": 53
+    },
+    "7": {
+      "baseAtk": 56
+    },
+    "8": {
+      "baseAtk": 59
+    },
+    "9": {
+      "baseAtk": 62
+    },
+    "10": {
+      "baseAtk": 65
+    },
+    "11": {
+      "baseAtk": 68
+    },
+    "12": {
+      "baseAtk": 71
+    },
+    "13": {
+      "baseAtk": 74
+    },
+    "14": {
+      "baseAtk": 77
+    },
+    "15": {
+      "baseAtk": 79
+    },
+    "16": {
+      "baseAtk": 82
+    },
+    "17": {
+      "baseAtk": 85
+    },
+    "18": {
+      "baseAtk": 88
+    },
+    "19": {
+      "baseAtk": 91
+    },
     "20": {
       "baseAtk": 94
+    },
+    "21": {
+      "baseAtk": 116
+    },
+    "22": {
+      "baseAtk": 119
+    },
+    "23": {
+      "baseAtk": 122
+    },
+    "24": {
+      "baseAtk": 125
+    },
+    "25": {
+      "baseAtk": 127
+    },
+    "26": {
+      "baseAtk": 130
+    },
+    "27": {
+      "baseAtk": 133
+    },
+    "28": {
+      "baseAtk": 136
+    },
+    "29": {
+      "baseAtk": 139
+    },
+    "30": {
+      "baseAtk": 141
+    },
+    "31": {
+      "baseAtk": 144
+    },
+    "32": {
+      "baseAtk": 147
+    },
+    "33": {
+      "baseAtk": 150
+    },
+    "34": {
+      "baseAtk": 153
+    },
+    "35": {
+      "baseAtk": 155
+    },
+    "36": {
+      "baseAtk": 158
+    },
+    "37": {
+      "baseAtk": 161
+    },
+    "38": {
+      "baseAtk": 164
+    },
+    "39": {
+      "baseAtk": 166
     },
     "40": {
       "baseAtk": 169
     },
+    "41": {
+      "baseAtk": 191
+    },
+    "42": {
+      "baseAtk": 194
+    },
+    "43": {
+      "baseAtk": 197
+    },
+    "44": {
+      "baseAtk": 200
+    },
+    "45": {
+      "baseAtk": 202
+    },
+    "46": {
+      "baseAtk": 205
+    },
+    "47": {
+      "baseAtk": 208
+    },
+    "48": {
+      "baseAtk": 211
+    },
+    "49": {
+      "baseAtk": 213
+    },
     "50": {
       "baseAtk": 216
+    },
+    "51": {
+      "baseAtk": 238
+    },
+    "52": {
+      "baseAtk": 241
+    },
+    "53": {
+      "baseAtk": 244
+    },
+    "54": {
+      "baseAtk": 246
+    },
+    "55": {
+      "baseAtk": 249
+    },
+    "56": {
+      "baseAtk": 252
+    },
+    "57": {
+      "baseAtk": 255
+    },
+    "58": {
+      "baseAtk": 257
+    },
+    "59": {
+      "baseAtk": 260
     },
     "60": {
       "baseAtk": 263
     },
+    "61": {
+      "baseAtk": 285
+    },
+    "62": {
+      "baseAtk": 288
+    },
+    "63": {
+      "baseAtk": 290
+    },
+    "64": {
+      "baseAtk": 293
+    },
+    "65": {
+      "baseAtk": 296
+    },
+    "66": {
+      "baseAtk": 298
+    },
+    "67": {
+      "baseAtk": 301
+    },
+    "68": {
+      "baseAtk": 304
+    },
+    "69": {
+      "baseAtk": 306
+    },
     "70": {
       "baseAtk": 309
     },
+    "71": {
+      "baseAtk": 331
+    },
+    "72": {
+      "baseAtk": 334
+    },
+    "73": {
+      "baseAtk": 337
+    },
+    "74": {
+      "baseAtk": 339
+    },
+    "75": {
+      "baseAtk": 342
+    },
+    "76": {
+      "baseAtk": 345
+    },
+    "77": {
+      "baseAtk": 347
+    },
+    "78": {
+      "baseAtk": 350
+    },
+    "79": {
+      "baseAtk": 353
+    },
     "80": {
       "baseAtk": 355
+    },
+    "81": {
+      "baseAtk": 377
+    },
+    "82": {
+      "baseAtk": 380
+    },
+    "83": {
+      "baseAtk": 383
+    },
+    "84": {
+      "baseAtk": 385
+    },
+    "85": {
+      "baseAtk": 388
+    },
+    "86": {
+      "baseAtk": 391
+    },
+    "87": {
+      "baseAtk": 393
+    },
+    "88": {
+      "baseAtk": 396
+    },
+    "89": {
+      "baseAtk": 399
     },
     "90": {
       "baseAtk": 401
@@ -176,6 +422,359 @@
     },
     "80_ASC": {
       "baseAtk": 375
+    }
+  },
+  "secondaryAttribute": {
+    "type": "DÉF",
+    "levels": {
+      "1": {
+        "defPercent": "9,6 %"
+      },
+      "2": {
+        "defPercent": "9,6 %"
+      },
+      "3": {
+        "defPercent": "9,6 %"
+      },
+      "4": {
+        "defPercent": "9,6 %"
+      },
+      "5": {
+        "defPercent": "11,1 %"
+      },
+      "6": {
+        "defPercent": "11,1 %"
+      },
+      "7": {
+        "defPercent": "11,1 %"
+      },
+      "8": {
+        "defPercent": "11,1 %"
+      },
+      "9": {
+        "defPercent": "11,1 %"
+      },
+      "10": {
+        "defPercent": "13,0 %"
+      },
+      "11": {
+        "defPercent": "13,0 %"
+      },
+      "12": {
+        "defPercent": "13,0 %"
+      },
+      "13": {
+        "defPercent": "13,0 %"
+      },
+      "14": {
+        "defPercent": "13,0 %"
+      },
+      "15": {
+        "defPercent": "15,0 %"
+      },
+      "16": {
+        "defPercent": "15,0 %"
+      },
+      "17": {
+        "defPercent": "15,0 %"
+      },
+      "18": {
+        "defPercent": "15,0 %"
+      },
+      "19": {
+        "defPercent": "15,0 %"
+      },
+      "20": {
+        "defPercent": "16,9 %"
+      },
+      "21": {
+        "defPercent": "16,9 %"
+      },
+      "22": {
+        "defPercent": "16,9 %"
+      },
+      "23": {
+        "defPercent": "16,9 %"
+      },
+      "24": {
+        "defPercent": "16,9 %"
+      },
+      "25": {
+        "defPercent": "18,8 %"
+      },
+      "26": {
+        "defPercent": "18,8 %"
+      },
+      "27": {
+        "defPercent": "18,8 %"
+      },
+      "28": {
+        "defPercent": "18,8 %"
+      },
+      "29": {
+        "defPercent": "18,8 %"
+      },
+      "30": {
+        "defPercent": "20,8 %"
+      },
+      "31": {
+        "defPercent": "20,8 %"
+      },
+      "32": {
+        "defPercent": "20,8 %"
+      },
+      "33": {
+        "defPercent": "20,8 %"
+      },
+      "34": {
+        "defPercent": "20,8 %"
+      },
+      "35": {
+        "defPercent": "22,7 %"
+      },
+      "36": {
+        "defPercent": "22,7 %"
+      },
+      "37": {
+        "defPercent": "22,7 %"
+      },
+      "38": {
+        "defPercent": "22,7 %"
+      },
+      "39": {
+        "defPercent": "22,7 %"
+      },
+      "40": {
+        "defPercent": "24,6 %"
+      },
+      "41": {
+        "defPercent": "24,6 %"
+      },
+      "42": {
+        "defPercent": "24,6 %"
+      },
+      "43": {
+        "defPercent": "24,6 %"
+      },
+      "44": {
+        "defPercent": "24,6 %"
+      },
+      "45": {
+        "defPercent": "26,5 %"
+      },
+      "46": {
+        "defPercent": "26,5 %"
+      },
+      "47": {
+        "defPercent": "26,5 %"
+      },
+      "48": {
+        "defPercent": "26,5 %"
+      },
+      "49": {
+        "defPercent": "26,5 %"
+      },
+      "50": {
+        "defPercent": "28,5 %"
+      },
+      "51": {
+        "defPercent": "28,5 %"
+      },
+      "52": {
+        "defPercent": "28,5 %"
+      },
+      "53": {
+        "defPercent": "28,5 %"
+      },
+      "54": {
+        "defPercent": "28,5 %"
+      },
+      "55": {
+        "defPercent": "30,4 %"
+      },
+      "56": {
+        "defPercent": "30,4 %"
+      },
+      "57": {
+        "defPercent": "30,4 %"
+      },
+      "58": {
+        "defPercent": "30,4 %"
+      },
+      "59": {
+        "defPercent": "30,4 %"
+      },
+      "60": {
+        "defPercent": "32,3 %"
+      },
+      "61": {
+        "defPercent": "32,3 %"
+      },
+      "62": {
+        "defPercent": "32,3 %"
+      },
+      "63": {
+        "defPercent": "32,3 %"
+      },
+      "64": {
+        "defPercent": "32,3 %"
+      },
+      "65": {
+        "defPercent": "34,3 %"
+      },
+      "66": {
+        "defPercent": "34,3 %"
+      },
+      "67": {
+        "defPercent": "34,3 %"
+      },
+      "68": {
+        "defPercent": "34,3 %"
+      },
+      "69": {
+        "defPercent": "34,3 %"
+      },
+      "70": {
+        "defPercent": "36,2 %"
+      },
+      "71": {
+        "defPercent": "36,2 %"
+      },
+      "72": {
+        "defPercent": "36,2 %"
+      },
+      "73": {
+        "defPercent": "36,2 %"
+      },
+      "74": {
+        "defPercent": "36,2 %"
+      },
+      "75": {
+        "defPercent": "38,1 %"
+      },
+      "76": {
+        "defPercent": "38,1 %"
+      },
+      "77": {
+        "defPercent": "38,1 %"
+      },
+      "78": {
+        "defPercent": "38,1 %"
+      },
+      "79": {
+        "defPercent": "38,1 %"
+      },
+      "80": {
+        "defPercent": "40,1 %"
+      },
+      "81": {
+        "defPercent": "40,1 %"
+      },
+      "82": {
+        "defPercent": "40,1 %"
+      },
+      "83": {
+        "defPercent": "40,1 %"
+      },
+      "84": {
+        "defPercent": "40,1 %"
+      },
+      "85": {
+        "defPercent": "42,0 %"
+      },
+      "86": {
+        "defPercent": "42,0 %"
+      },
+      "87": {
+        "defPercent": "42,0 %"
+      },
+      "88": {
+        "defPercent": "42,0 %"
+      },
+      "89": {
+        "defPercent": "42,0 %"
+      },
+      "90": {
+        "defPercent": "43,9 %"
+      },
+      "20_ASC": {
+        "defPercent": "16,9 %"
+      },
+      "40_ASC": {
+        "defPercent": "24,6 %"
+      },
+      "50_ASC": {
+        "defPercent": "28,5 %"
+      },
+      "60_ASC": {
+        "defPercent": "32,3 %"
+      },
+      "70_ASC": {
+        "defPercent": "36,2 %"
+      },
+      "80_ASC": {
+        "defPercent": "40,1 %"
+      }
+    }
+  },
+  "effects": [
+    "Healing"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Moissonneur",
+      "descriptions": [
+        "Restaure 8 % des PV après la défaite d'un ennemi."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 500
+        }
+      ]
+    },
+    "2": {
+      "title": "Moissonneur",
+      "descriptions": [
+        "Restaure 10 % des PV après la défaite d'un ennemi."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "3": {
+      "title": "Moissonneur",
+      "descriptions": [
+        "Restaure 12 % des PV après la défaite d'un ennemi."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "4": {
+      "title": "Moissonneur",
+      "descriptions": [
+        "Restaure 14 % des PV après la défaite d'un ennemi."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "5": {
+      "title": "Moissonneur",
+      "descriptions": [
+        "Restaure 16 % des PV après la défaite d'un ennemi."
+      ],
+      "upgradeCost": []
     }
   }
 }

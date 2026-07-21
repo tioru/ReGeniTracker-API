@@ -138,44 +138,643 @@
     "1": {
       "baseAtk": 42
     },
+    "2": {
+      "baseAtk": 46
+    },
+    "3": {
+      "baseAtk": 49
+    },
+    "4": {
+      "baseAtk": 53
+    },
+    "5": {
+      "baseAtk": 56
+    },
+    "6": {
+      "baseAtk": 60
+    },
+    "7": {
+      "baseAtk": 63
+    },
+    "8": {
+      "baseAtk": 67
+    },
+    "9": {
+      "baseAtk": 70
+    },
+    "10": {
+      "baseAtk": 74
+    },
+    "11": {
+      "baseAtk": 77
+    },
+    "12": {
+      "baseAtk": 81
+    },
+    "13": {
+      "baseAtk": 84
+    },
+    "14": {
+      "baseAtk": 88
+    },
+    "15": {
+      "baseAtk": 91
+    },
+    "16": {
+      "baseAtk": 95
+    },
+    "17": {
+      "baseAtk": 98
+    },
+    "18": {
+      "baseAtk": 102
+    },
+    "19": {
+      "baseAtk": 105
+    },
     "20": {
-      "baseAtk": 108
+      "baseAtk": 109
+    },
+    "21": {
+      "baseAtk": 138
+    },
+    "22": {
+      "baseAtk": 142
+    },
+    "23": {
+      "baseAtk": 145
+    },
+    "24": {
+      "baseAtk": 149
+    },
+    "25": {
+      "baseAtk": 152
+    },
+    "26": {
+      "baseAtk": 156
+    },
+    "27": {
+      "baseAtk": 159
+    },
+    "28": {
+      "baseAtk": 163
+    },
+    "29": {
+      "baseAtk": 166
+    },
+    "30": {
+      "baseAtk": 170
+    },
+    "31": {
+      "baseAtk": 173
+    },
+    "32": {
+      "baseAtk": 177
+    },
+    "33": {
+      "baseAtk": 180
+    },
+    "34": {
+      "baseAtk": 184
+    },
+    "35": {
+      "baseAtk": 187
+    },
+    "36": {
+      "baseAtk": 191
+    },
+    "37": {
+      "baseAtk": 194
+    },
+    "38": {
+      "baseAtk": 198
+    },
+    "39": {
+      "baseAtk": 201
     },
     "40": {
-      "baseAtk": 204
+      "baseAtk": 205
+    },
+    "41": {
+      "baseAtk": 234
+    },
+    "42": {
+      "baseAtk": 238
+    },
+    "43": {
+      "baseAtk": 241
+    },
+    "44": {
+      "baseAtk": 245
+    },
+    "45": {
+      "baseAtk": 248
+    },
+    "46": {
+      "baseAtk": 252
+    },
+    "47": {
+      "baseAtk": 255
+    },
+    "48": {
+      "baseAtk": 259
+    },
+    "49": {
+      "baseAtk": 262
     },
     "50": {
-      "baseAtk": 265
+      "baseAtk": 266
+    },
+    "51": {
+      "baseAtk": 295
+    },
+    "52": {
+      "baseAtk": 299
+    },
+    "53": {
+      "baseAtk": 302
+    },
+    "54": {
+      "baseAtk": 306
+    },
+    "55": {
+      "baseAtk": 309
+    },
+    "56": {
+      "baseAtk": 313
+    },
+    "57": {
+      "baseAtk": 316
+    },
+    "58": {
+      "baseAtk": 320
+    },
+    "59": {
+      "baseAtk": 323
     },
     "60": {
-      "baseAtk": 326
+      "baseAtk": 327
+    },
+    "61": {
+      "baseAtk": 356
+    },
+    "62": {
+      "baseAtk": 360
+    },
+    "63": {
+      "baseAtk": 363
+    },
+    "64": {
+      "baseAtk": 367
+    },
+    "65": {
+      "baseAtk": 370
+    },
+    "66": {
+      "baseAtk": 374
+    },
+    "67": {
+      "baseAtk": 377
+    },
+    "68": {
+      "baseAtk": 381
+    },
+    "69": {
+      "baseAtk": 384
     },
     "70": {
-      "baseAtk": 387
+      "baseAtk": 388
+    },
+    "71": {
+      "baseAtk": 417
+    },
+    "72": {
+      "baseAtk": 421
+    },
+    "73": {
+      "baseAtk": 424
+    },
+    "74": {
+      "baseAtk": 428
+    },
+    "75": {
+      "baseAtk": 431
+    },
+    "76": {
+      "baseAtk": 435
+    },
+    "77": {
+      "baseAtk": 438
+    },
+    "78": {
+      "baseAtk": 442
+    },
+    "79": {
+      "baseAtk": 445
     },
     "80": {
-      "baseAtk": 448
+      "baseAtk": 449
+    },
+    "81": {
+      "baseAtk": 478
+    },
+    "82": {
+      "baseAtk": 482
+    },
+    "83": {
+      "baseAtk": 485
+    },
+    "84": {
+      "baseAtk": 489
+    },
+    "85": {
+      "baseAtk": 492
+    },
+    "86": {
+      "baseAtk": 496
+    },
+    "87": {
+      "baseAtk": 499
+    },
+    "88": {
+      "baseAtk": 503
+    },
+    "89": {
+      "baseAtk": 506
     },
     "90": {
       "baseAtk": 510
     },
     "20_ASC": {
-      "baseAtk": 134
+      "baseAtk": 135
     },
     "40_ASC": {
-      "baseAtk": 230
+      "baseAtk": 231
     },
     "50_ASC": {
-      "baseAtk": 291
+      "baseAtk": 292
     },
     "60_ASC": {
-      "baseAtk": 352
+      "baseAtk": 353
     },
     "70_ASC": {
-      "baseAtk": 413
+      "baseAtk": 414
     },
     "80_ASC": {
-      "baseAtk": 474
+      "baseAtk": 475
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Elemental Mastery",
+    "levels": {
+      "1": {
+        "elementalMastery": "36"
+      },
+      "2": {
+        "elementalMastery": "36"
+      },
+      "3": {
+        "elementalMastery": "36"
+      },
+      "4": {
+        "elementalMastery": "36"
+      },
+      "5": {
+        "elementalMastery": "42"
+      },
+      "6": {
+        "elementalMastery": "42"
+      },
+      "7": {
+        "elementalMastery": "42"
+      },
+      "8": {
+        "elementalMastery": "42"
+      },
+      "9": {
+        "elementalMastery": "42"
+      },
+      "10": {
+        "elementalMastery": "49"
+      },
+      "11": {
+        "elementalMastery": "49"
+      },
+      "12": {
+        "elementalMastery": "49"
+      },
+      "13": {
+        "elementalMastery": "49"
+      },
+      "14": {
+        "elementalMastery": "49"
+      },
+      "15": {
+        "elementalMastery": "56"
+      },
+      "16": {
+        "elementalMastery": "56"
+      },
+      "17": {
+        "elementalMastery": "56"
+      },
+      "18": {
+        "elementalMastery": "56"
+      },
+      "19": {
+        "elementalMastery": "56"
+      },
+      "20": {
+        "elementalMastery": "64"
+      },
+      "21": {
+        "elementalMastery": "64"
+      },
+      "22": {
+        "elementalMastery": "64"
+      },
+      "23": {
+        "elementalMastery": "64"
+      },
+      "24": {
+        "elementalMastery": "64"
+      },
+      "25": {
+        "elementalMastery": "71"
+      },
+      "26": {
+        "elementalMastery": "71"
+      },
+      "27": {
+        "elementalMastery": "71"
+      },
+      "28": {
+        "elementalMastery": "71"
+      },
+      "29": {
+        "elementalMastery": "71"
+      },
+      "30": {
+        "elementalMastery": "78"
+      },
+      "31": {
+        "elementalMastery": "78"
+      },
+      "32": {
+        "elementalMastery": "78"
+      },
+      "33": {
+        "elementalMastery": "78"
+      },
+      "34": {
+        "elementalMastery": "78"
+      },
+      "35": {
+        "elementalMastery": "85"
+      },
+      "36": {
+        "elementalMastery": "85"
+      },
+      "37": {
+        "elementalMastery": "85"
+      },
+      "38": {
+        "elementalMastery": "85"
+      },
+      "39": {
+        "elementalMastery": "85"
+      },
+      "40": {
+        "elementalMastery": "93"
+      },
+      "41": {
+        "elementalMastery": "93"
+      },
+      "42": {
+        "elementalMastery": "93"
+      },
+      "43": {
+        "elementalMastery": "93"
+      },
+      "44": {
+        "elementalMastery": "93"
+      },
+      "45": {
+        "elementalMastery": "100"
+      },
+      "46": {
+        "elementalMastery": "100"
+      },
+      "47": {
+        "elementalMastery": "100"
+      },
+      "48": {
+        "elementalMastery": "100"
+      },
+      "49": {
+        "elementalMastery": "100"
+      },
+      "50": {
+        "elementalMastery": "107"
+      },
+      "51": {
+        "elementalMastery": "107"
+      },
+      "52": {
+        "elementalMastery": "107"
+      },
+      "53": {
+        "elementalMastery": "107"
+      },
+      "54": {
+        "elementalMastery": "107"
+      },
+      "55": {
+        "elementalMastery": "115"
+      },
+      "56": {
+        "elementalMastery": "115"
+      },
+      "57": {
+        "elementalMastery": "115"
+      },
+      "58": {
+        "elementalMastery": "115"
+      },
+      "59": {
+        "elementalMastery": "115"
+      },
+      "60": {
+        "elementalMastery": "122"
+      },
+      "61": {
+        "elementalMastery": "122"
+      },
+      "62": {
+        "elementalMastery": "122"
+      },
+      "63": {
+        "elementalMastery": "122"
+      },
+      "64": {
+        "elementalMastery": "122"
+      },
+      "65": {
+        "elementalMastery": "129"
+      },
+      "66": {
+        "elementalMastery": "129"
+      },
+      "67": {
+        "elementalMastery": "129"
+      },
+      "68": {
+        "elementalMastery": "129"
+      },
+      "69": {
+        "elementalMastery": "129"
+      },
+      "70": {
+        "elementalMastery": "136"
+      },
+      "71": {
+        "elementalMastery": "136"
+      },
+      "72": {
+        "elementalMastery": "136"
+      },
+      "73": {
+        "elementalMastery": "136"
+      },
+      "74": {
+        "elementalMastery": "136"
+      },
+      "75": {
+        "elementalMastery": "144"
+      },
+      "76": {
+        "elementalMastery": "144"
+      },
+      "77": {
+        "elementalMastery": "144"
+      },
+      "78": {
+        "elementalMastery": "144"
+      },
+      "79": {
+        "elementalMastery": "144"
+      },
+      "80": {
+        "elementalMastery": "151"
+      },
+      "81": {
+        "elementalMastery": "151"
+      },
+      "82": {
+        "elementalMastery": "151"
+      },
+      "83": {
+        "elementalMastery": "151"
+      },
+      "84": {
+        "elementalMastery": "151"
+      },
+      "85": {
+        "elementalMastery": "158"
+      },
+      "86": {
+        "elementalMastery": "158"
+      },
+      "87": {
+        "elementalMastery": "158"
+      },
+      "88": {
+        "elementalMastery": "158"
+      },
+      "89": {
+        "elementalMastery": "158"
+      },
+      "90": {
+        "elementalMastery": "165"
+      },
+      "20_ASC": {
+        "elementalMastery": "64"
+      },
+      "40_ASC": {
+        "elementalMastery": "93"
+      },
+      "50_ASC": {
+        "elementalMastery": "107"
+      },
+      "60_ASC": {
+        "elementalMastery": "122"
+      },
+      "70_ASC": {
+        "elementalMastery": "136"
+      },
+      "80_ASC": {
+        "elementalMastery": "151"
+      }
+    }
+  },
+  "effects": [
+    "DMG Bonus"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Kaidan: Rainfall Earthbinder",
+      "descriptions": [
+        "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal 16% more DMG to the opponent affected by Cursed Parasol."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Kaidan: Rainfall Earthbinder",
+      "descriptions": [
+        "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal 20% more DMG to the opponent affected by Cursed Parasol."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Kaidan: Rainfall Earthbinder",
+      "descriptions": [
+        "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal 24% more DMG to the opponent affected by Cursed Parasol."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Kaidan: Rainfall Earthbinder",
+      "descriptions": [
+        "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal 28% more DMG to the opponent affected by Cursed Parasol."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Kaidan: Rainfall Earthbinder",
+      "descriptions": [
+        "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal 32% more DMG to the opponent affected by Cursed Parasol."
+      ],
+      "upgradeCost": []
     }
   }
 }

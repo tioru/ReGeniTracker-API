@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 46
     },
+    "2": {
+      "baseAtk": 50
+    },
+    "3": {
+      "baseAtk": 54
+    },
+    "4": {
+      "baseAtk": 58
+    },
+    "5": {
+      "baseAtk": 62
+    },
+    "6": {
+      "baseAtk": 66
+    },
+    "7": {
+      "baseAtk": 70
+    },
+    "8": {
+      "baseAtk": 74
+    },
+    "9": {
+      "baseAtk": 78
+    },
+    "10": {
+      "baseAtk": 82
+    },
+    "11": {
+      "baseAtk": 86
+    },
+    "12": {
+      "baseAtk": 90
+    },
+    "13": {
+      "baseAtk": 94
+    },
+    "14": {
+      "baseAtk": 98
+    },
+    "15": {
+      "baseAtk": 102
+    },
+    "16": {
+      "baseAtk": 106
+    },
+    "17": {
+      "baseAtk": 110
+    },
+    "18": {
+      "baseAtk": 114
+    },
+    "19": {
+      "baseAtk": 118
+    },
     "20": {
       "baseAtk": 122
+    },
+    "21": {
+      "baseAtk": 157
+    },
+    "22": {
+      "baseAtk": 161
+    },
+    "23": {
+      "baseAtk": 165
+    },
+    "24": {
+      "baseAtk": 169
+    },
+    "25": {
+      "baseAtk": 173
+    },
+    "26": {
+      "baseAtk": 177
+    },
+    "27": {
+      "baseAtk": 181
+    },
+    "28": {
+      "baseAtk": 185
+    },
+    "29": {
+      "baseAtk": 190
+    },
+    "30": {
+      "baseAtk": 194
+    },
+    "31": {
+      "baseAtk": 198
+    },
+    "32": {
+      "baseAtk": 202
+    },
+    "33": {
+      "baseAtk": 206
+    },
+    "34": {
+      "baseAtk": 210
+    },
+    "35": {
+      "baseAtk": 214
+    },
+    "36": {
+      "baseAtk": 219
+    },
+    "37": {
+      "baseAtk": 223
+    },
+    "38": {
+      "baseAtk": 227
+    },
+    "39": {
+      "baseAtk": 231
     },
     "40": {
       "baseAtk": 235
     },
+    "41": {
+      "baseAtk": 270
+    },
+    "42": {
+      "baseAtk": 275
+    },
+    "43": {
+      "baseAtk": 279
+    },
+    "44": {
+      "baseAtk": 283
+    },
+    "45": {
+      "baseAtk": 287
+    },
+    "46": {
+      "baseAtk": 292
+    },
+    "47": {
+      "baseAtk": 296
+    },
+    "48": {
+      "baseAtk": 300
+    },
+    "49": {
+      "baseAtk": 304
+    },
     "50": {
       "baseAtk": 308
+    },
+    "51": {
+      "baseAtk": 344
+    },
+    "52": {
+      "baseAtk": 348
+    },
+    "53": {
+      "baseAtk": 352
+    },
+    "54": {
+      "baseAtk": 357
+    },
+    "55": {
+      "baseAtk": 361
+    },
+    "56": {
+      "baseAtk": 365
+    },
+    "57": {
+      "baseAtk": 370
+    },
+    "58": {
+      "baseAtk": 374
+    },
+    "59": {
+      "baseAtk": 378
     },
     "60": {
       "baseAtk": 382
     },
+    "61": {
+      "baseAtk": 418
+    },
+    "62": {
+      "baseAtk": 422
+    },
+    "63": {
+      "baseAtk": 427
+    },
+    "64": {
+      "baseAtk": 431
+    },
+    "65": {
+      "baseAtk": 435
+    },
+    "66": {
+      "baseAtk": 440
+    },
+    "67": {
+      "baseAtk": 444
+    },
+    "68": {
+      "baseAtk": 448
+    },
+    "69": {
+      "baseAtk": 453
+    },
     "70": {
       "baseAtk": 457
     },
+    "71": {
+      "baseAtk": 492
+    },
+    "72": {
+      "baseAtk": 497
+    },
+    "73": {
+      "baseAtk": 501
+    },
+    "74": {
+      "baseAtk": 506
+    },
+    "75": {
+      "baseAtk": 510
+    },
+    "76": {
+      "baseAtk": 515
+    },
+    "77": {
+      "baseAtk": 519
+    },
+    "78": {
+      "baseAtk": 523
+    },
+    "79": {
+      "baseAtk": 528
+    },
     "80": {
       "baseAtk": 532
+    },
+    "81": {
+      "baseAtk": 568
+    },
+    "82": {
+      "baseAtk": 572
+    },
+    "83": {
+      "baseAtk": 577
+    },
+    "84": {
+      "baseAtk": 581
+    },
+    "85": {
+      "baseAtk": 586
+    },
+    "86": {
+      "baseAtk": 590
+    },
+    "87": {
+      "baseAtk": 595
+    },
+    "88": {
+      "baseAtk": 599
+    },
+    "89": {
+      "baseAtk": 604
     },
     "90": {
       "baseAtk": 608
@@ -176,6 +422,360 @@
     },
     "80_ASC": {
       "baseAtk": 563
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Taux CRIT",
+    "levels": {
+      "1": {
+        "crtRate": "7,2 %"
+      },
+      "2": {
+        "crtRate": "7,2 %"
+      },
+      "3": {
+        "crtRate": "7,2 %"
+      },
+      "4": {
+        "crtRate": "7,2 %"
+      },
+      "5": {
+        "crtRate": "8,4 %"
+      },
+      "6": {
+        "crtRate": "8,4 %"
+      },
+      "7": {
+        "crtRate": "8,4 %"
+      },
+      "8": {
+        "crtRate": "8,4 %"
+      },
+      "9": {
+        "crtRate": "8,4 %"
+      },
+      "10": {
+        "crtRate": "9,8 %"
+      },
+      "11": {
+        "crtRate": "9,8 %"
+      },
+      "12": {
+        "crtRate": "9,8 %"
+      },
+      "13": {
+        "crtRate": "9,8 %"
+      },
+      "14": {
+        "crtRate": "9,8 %"
+      },
+      "15": {
+        "crtRate": "11,3 %"
+      },
+      "16": {
+        "crtRate": "11,3 %"
+      },
+      "17": {
+        "crtRate": "11,3 %"
+      },
+      "18": {
+        "crtRate": "11,3 %"
+      },
+      "19": {
+        "crtRate": "11,3 %"
+      },
+      "20": {
+        "crtRate": "12,7 %"
+      },
+      "21": {
+        "crtRate": "12,7 %"
+      },
+      "22": {
+        "crtRate": "12,7 %"
+      },
+      "23": {
+        "crtRate": "12,7 %"
+      },
+      "24": {
+        "crtRate": "12,7 %"
+      },
+      "25": {
+        "crtRate": "14,2 %"
+      },
+      "26": {
+        "crtRate": "14,2 %"
+      },
+      "27": {
+        "crtRate": "14,2 %"
+      },
+      "28": {
+        "crtRate": "14,2 %"
+      },
+      "29": {
+        "crtRate": "14,2 %"
+      },
+      "30": {
+        "crtRate": "15,6 %"
+      },
+      "31": {
+        "crtRate": "15,6 %"
+      },
+      "32": {
+        "crtRate": "15,6 %"
+      },
+      "33": {
+        "crtRate": "15,6 %"
+      },
+      "34": {
+        "crtRate": "15,6 %"
+      },
+      "35": {
+        "crtRate": "17,1 %"
+      },
+      "36": {
+        "crtRate": "17,1 %"
+      },
+      "37": {
+        "crtRate": "17,1 %"
+      },
+      "38": {
+        "crtRate": "17,1 %"
+      },
+      "39": {
+        "crtRate": "17,1 %"
+      },
+      "40": {
+        "crtRate": "18,5 %"
+      },
+      "41": {
+        "crtRate": "18,5 %"
+      },
+      "42": {
+        "crtRate": "18,5 %"
+      },
+      "43": {
+        "crtRate": "18,5 %"
+      },
+      "44": {
+        "crtRate": "18,5 %"
+      },
+      "45": {
+        "crtRate": "20,0 %"
+      },
+      "46": {
+        "crtRate": "20,0 %"
+      },
+      "47": {
+        "crtRate": "20,0 %"
+      },
+      "48": {
+        "crtRate": "20,0 %"
+      },
+      "49": {
+        "crtRate": "20,0 %"
+      },
+      "50": {
+        "crtRate": "21,4 %"
+      },
+      "51": {
+        "crtRate": "21,4 %"
+      },
+      "52": {
+        "crtRate": "21,4 %"
+      },
+      "53": {
+        "crtRate": "21,4 %"
+      },
+      "54": {
+        "crtRate": "21,4 %"
+      },
+      "55": {
+        "crtRate": "22,9 %"
+      },
+      "56": {
+        "crtRate": "22,9 %"
+      },
+      "57": {
+        "crtRate": "22,9 %"
+      },
+      "58": {
+        "crtRate": "22,9 %"
+      },
+      "59": {
+        "crtRate": "22,9 %"
+      },
+      "60": {
+        "crtRate": "24,4 %"
+      },
+      "61": {
+        "crtRate": "24,4 %"
+      },
+      "62": {
+        "crtRate": "24,4 %"
+      },
+      "63": {
+        "crtRate": "24,4 %"
+      },
+      "64": {
+        "crtRate": "24,4 %"
+      },
+      "65": {
+        "crtRate": "25,8 %"
+      },
+      "66": {
+        "crtRate": "25,8 %"
+      },
+      "67": {
+        "crtRate": "25,8 %"
+      },
+      "68": {
+        "crtRate": "25,8 %"
+      },
+      "69": {
+        "crtRate": "25,8 %"
+      },
+      "70": {
+        "crtRate": "27,3 %"
+      },
+      "71": {
+        "crtRate": "27,3 %"
+      },
+      "72": {
+        "crtRate": "27,3 %"
+      },
+      "73": {
+        "crtRate": "27,3 %"
+      },
+      "74": {
+        "crtRate": "27,3 %"
+      },
+      "75": {
+        "crtRate": "28,7 %"
+      },
+      "76": {
+        "crtRate": "28,7 %"
+      },
+      "77": {
+        "crtRate": "28,7 %"
+      },
+      "78": {
+        "crtRate": "28,7 %"
+      },
+      "79": {
+        "crtRate": "28,7 %"
+      },
+      "80": {
+        "crtRate": "30,2 %"
+      },
+      "81": {
+        "crtRate": "30,2 %"
+      },
+      "82": {
+        "crtRate": "30,2 %"
+      },
+      "83": {
+        "crtRate": "30,2 %"
+      },
+      "84": {
+        "crtRate": "30,2 %"
+      },
+      "85": {
+        "crtRate": "31,6 %"
+      },
+      "86": {
+        "crtRate": "31,6 %"
+      },
+      "87": {
+        "crtRate": "31,6 %"
+      },
+      "88": {
+        "crtRate": "31,6 %"
+      },
+      "89": {
+        "crtRate": "31,6 %"
+      },
+      "90": {
+        "crtRate": "33,1 %"
+      },
+      "20_ASC": {
+        "crtRate": "12,7 %"
+      },
+      "40_ASC": {
+        "crtRate": "18,5 %"
+      },
+      "50_ASC": {
+        "crtRate": "21,4 %"
+      },
+      "60_ASC": {
+        "crtRate": "24,4 %"
+      },
+      "70_ASC": {
+        "crtRate": "27,3 %"
+      },
+      "80_ASC": {
+        "crtRate": "30,2 %"
+      }
+    }
+  },
+  "effects": [
+    "Elemental DMG Bonus",
+    "Normal Attack DMG Bonus"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Flux aiguisé",
+      "descriptions": [
+        "Accorde un bonus de DGT élémentaires de 12 %. Lorsqu'un autre personnage de l'équipe à proximité utilise une compétence élémentaire, le personnage équipé de cette arme obtient 1 cumul de pic de vague. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque le personnage équipé de l'arme utilise une compétence élémentaire, tous les cumuls de pic de vague sont consommés pour accorder l'effet Tumulte, augmentant les DGT d'attaque normale de 20 % pour chaque cumul de pic de vague consommé, pendant 8 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "Flux aiguisé",
+      "descriptions": [
+        "Accorde un bonus de DGT élémentaires de 15 %. Lorsqu'un autre personnage de l'équipe à proximité utilise une compétence élémentaire, le personnage équipé de cette arme obtient 1 cumul de pic de vague. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque le personnage équipé de l'arme utilise une compétence élémentaire, tous les cumuls de pic de vague sont consommés pour accorder l'effet Tumulte, augmentant les DGT d'attaque normale de 25 % pour chaque cumul de pic de vague consommé, pendant 8 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "Flux aiguisé",
+      "descriptions": [
+        "Accorde un bonus de DGT élémentaires de 18 %. Lorsqu'un autre personnage de l'équipe à proximité utilise une compétence élémentaire, le personnage équipé de cette arme obtient 1 cumul de pic de vague. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque le personnage équipé de l'arme utilise une compétence élémentaire, tous les cumuls de pic de vague sont consommés pour accorder l'effet Tumulte, augmentant les DGT d'attaque normale de 30 % pour chaque cumul de pic de vague consommé, pendant 8 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "Flux aiguisé",
+      "descriptions": [
+        "Accorde un bonus de DGT élémentaires de 21 %. Lorsqu'un autre personnage de l'équipe à proximité utilise une compétence élémentaire, le personnage équipé de cette arme obtient 1 cumul de pic de vague. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque le personnage équipé de l'arme utilise une compétence élémentaire, tous les cumuls de pic de vague sont consommés pour accorder l'effet Tumulte, augmentant les DGT d'attaque normale de 35 % pour chaque cumul de pic de vague consommé, pendant 8 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "Flux aiguisé",
+      "descriptions": [
+        "Accorde un bonus de DGT élémentaires de 24 %. Lorsqu'un autre personnage de l'équipe à proximité utilise une compétence élémentaire, le personnage équipé de cette arme obtient 1 cumul de pic de vague. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque le personnage équipé de l'arme utilise une compétence élémentaire, tous les cumuls de pic de vague sont consommés pour accorder l'effet Tumulte, augmentant les DGT d'attaque normale de 40 % pour chaque cumul de pic de vague consommé, pendant 8 s."
+      ],
+      "upgradeCost": []
     }
   }
 }

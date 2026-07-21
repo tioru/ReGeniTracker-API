@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 46
     },
+    "2": {
+      "baseAtk": 50
+    },
+    "3": {
+      "baseAtk": 54
+    },
+    "4": {
+      "baseAtk": 58
+    },
+    "5": {
+      "baseAtk": 62
+    },
+    "6": {
+      "baseAtk": 66
+    },
+    "7": {
+      "baseAtk": 70
+    },
+    "8": {
+      "baseAtk": 74
+    },
+    "9": {
+      "baseAtk": 78
+    },
+    "10": {
+      "baseAtk": 82
+    },
+    "11": {
+      "baseAtk": 86
+    },
+    "12": {
+      "baseAtk": 90
+    },
+    "13": {
+      "baseAtk": 94
+    },
+    "14": {
+      "baseAtk": 98
+    },
+    "15": {
+      "baseAtk": 102
+    },
+    "16": {
+      "baseAtk": 106
+    },
+    "17": {
+      "baseAtk": 110
+    },
+    "18": {
+      "baseAtk": 114
+    },
+    "19": {
+      "baseAtk": 118
+    },
     "20": {
       "baseAtk": 122
     },
+    "21": {
+      "baseAtk": 157
+    },
+    "22": {
+      "baseAtk": 161
+    },
+    "23": {
+      "baseAtk": 165
+    },
+    "24": {
+      "baseAtk": 169
+    },
+    "25": {
+      "baseAtk": 173
+    },
+    "26": {
+      "baseAtk": 177
+    },
+    "27": {
+      "baseAtk": 181
+    },
+    "28": {
+      "baseAtk": 185
+    },
+    "29": {
+      "baseAtk": 190
+    },
+    "30": {
+      "baseAtk": 194
+    },
+    "31": {
+      "baseAtk": 198
+    },
+    "32": {
+      "baseAtk": 202
+    },
+    "33": {
+      "baseAtk": 206
+    },
+    "34": {
+      "baseAtk": 210
+    },
+    "35": {
+      "baseAtk": 214
+    },
+    "36": {
+      "baseAtk": 219
+    },
+    "37": {
+      "baseAtk": 223
+    },
+    "38": {
+      "baseAtk": 227
+    },
+    "39": {
+      "baseAtk": 231
+    },
     "40": {
-      "baseAtk": 135
+      "baseAtk": 235
+    },
+    "41": {
+      "baseAtk": 270
+    },
+    "42": {
+      "baseAtk": 275
+    },
+    "43": {
+      "baseAtk": 279
+    },
+    "44": {
+      "baseAtk": 283
+    },
+    "45": {
+      "baseAtk": 287
+    },
+    "46": {
+      "baseAtk": 292
+    },
+    "47": {
+      "baseAtk": 296
+    },
+    "48": {
+      "baseAtk": 300
+    },
+    "49": {
+      "baseAtk": 304
     },
     "50": {
-      "baseAtk": 309
+      "baseAtk": 308
+    },
+    "51": {
+      "baseAtk": 344
+    },
+    "52": {
+      "baseAtk": 348
+    },
+    "53": {
+      "baseAtk": 352
+    },
+    "54": {
+      "baseAtk": 357
+    },
+    "55": {
+      "baseAtk": 361
+    },
+    "56": {
+      "baseAtk": 365
+    },
+    "57": {
+      "baseAtk": 370
+    },
+    "58": {
+      "baseAtk": 374
+    },
+    "59": {
+      "baseAtk": 378
     },
     "60": {
-      "baseAtk": 383
+      "baseAtk": 382
+    },
+    "61": {
+      "baseAtk": 418
+    },
+    "62": {
+      "baseAtk": 422
+    },
+    "63": {
+      "baseAtk": 427
+    },
+    "64": {
+      "baseAtk": 431
+    },
+    "65": {
+      "baseAtk": 435
+    },
+    "66": {
+      "baseAtk": 440
+    },
+    "67": {
+      "baseAtk": 444
+    },
+    "68": {
+      "baseAtk": 448
+    },
+    "69": {
+      "baseAtk": 453
     },
     "70": {
       "baseAtk": 457
     },
+    "71": {
+      "baseAtk": 492
+    },
+    "72": {
+      "baseAtk": 497
+    },
+    "73": {
+      "baseAtk": 501
+    },
+    "74": {
+      "baseAtk": 506
+    },
+    "75": {
+      "baseAtk": 510
+    },
+    "76": {
+      "baseAtk": 515
+    },
+    "77": {
+      "baseAtk": 519
+    },
+    "78": {
+      "baseAtk": 523
+    },
+    "79": {
+      "baseAtk": 528
+    },
     "80": {
       "baseAtk": 532
+    },
+    "81": {
+      "baseAtk": 568
+    },
+    "82": {
+      "baseAtk": 572
+    },
+    "83": {
+      "baseAtk": 577
+    },
+    "84": {
+      "baseAtk": 581
+    },
+    "85": {
+      "baseAtk": 586
+    },
+    "86": {
+      "baseAtk": 590
+    },
+    "87": {
+      "baseAtk": 595
+    },
+    "88": {
+      "baseAtk": 599
+    },
+    "89": {
+      "baseAtk": 604
     },
     "90": {
       "baseAtk": 608
@@ -176,6 +422,361 @@
     },
     "80_ASC": {
       "baseAtk": 563
+    }
+  },
+  "secondaryAttribute": {
+    "type": "CRIT DMG",
+    "levels": {
+      "1": {
+        "crtDmg": "14.4%"
+      },
+      "2": {
+        "crtDmg": "14.4%"
+      },
+      "3": {
+        "crtDmg": "14.4%"
+      },
+      "4": {
+        "crtDmg": "14.4%"
+      },
+      "5": {
+        "crtDmg": "16.7%"
+      },
+      "6": {
+        "crtDmg": "16.7%"
+      },
+      "7": {
+        "crtDmg": "16.7%"
+      },
+      "8": {
+        "crtDmg": "16.7%"
+      },
+      "9": {
+        "crtDmg": "16.7%"
+      },
+      "10": {
+        "crtDmg": "19.6%"
+      },
+      "11": {
+        "crtDmg": "19.6%"
+      },
+      "12": {
+        "crtDmg": "19.6%"
+      },
+      "13": {
+        "crtDmg": "19.6%"
+      },
+      "14": {
+        "crtDmg": "19.6%"
+      },
+      "15": {
+        "crtDmg": "22.5%"
+      },
+      "16": {
+        "crtDmg": "22.5%"
+      },
+      "17": {
+        "crtDmg": "22.5%"
+      },
+      "18": {
+        "crtDmg": "22.5%"
+      },
+      "19": {
+        "crtDmg": "22.5%"
+      },
+      "20": {
+        "crtDmg": "25.4%"
+      },
+      "21": {
+        "crtDmg": "25.4%"
+      },
+      "22": {
+        "crtDmg": "25.4%"
+      },
+      "23": {
+        "crtDmg": "25.4%"
+      },
+      "24": {
+        "crtDmg": "25.4%"
+      },
+      "25": {
+        "crtDmg": "28.4%"
+      },
+      "26": {
+        "crtDmg": "28.4%"
+      },
+      "27": {
+        "crtDmg": "28.4%"
+      },
+      "28": {
+        "crtDmg": "28.4%"
+      },
+      "29": {
+        "crtDmg": "28.4%"
+      },
+      "30": {
+        "crtDmg": "31.3%"
+      },
+      "31": {
+        "crtDmg": "31.3%"
+      },
+      "32": {
+        "crtDmg": "31.3%"
+      },
+      "33": {
+        "crtDmg": "31.3%"
+      },
+      "34": {
+        "crtDmg": "31.3%"
+      },
+      "35": {
+        "crtDmg": "34.2%"
+      },
+      "36": {
+        "crtDmg": "34.2%"
+      },
+      "37": {
+        "crtDmg": "34.2%"
+      },
+      "38": {
+        "crtDmg": "34.2%"
+      },
+      "39": {
+        "crtDmg": "34.2%"
+      },
+      "40": {
+        "crtDmg": "37.1%"
+      },
+      "41": {
+        "crtDmg": "37.1%"
+      },
+      "42": {
+        "crtDmg": "37.1%"
+      },
+      "43": {
+        "crtDmg": "37.1%"
+      },
+      "44": {
+        "crtDmg": "37.1%"
+      },
+      "45": {
+        "crtDmg": "40.0%"
+      },
+      "46": {
+        "crtDmg": "40.0%"
+      },
+      "47": {
+        "crtDmg": "40.0%"
+      },
+      "48": {
+        "crtDmg": "40.0%"
+      },
+      "49": {
+        "crtDmg": "40.0%"
+      },
+      "50": {
+        "crtDmg": "42.9%"
+      },
+      "51": {
+        "crtDmg": "42.9%"
+      },
+      "52": {
+        "crtDmg": "42.9%"
+      },
+      "53": {
+        "crtDmg": "42.9%"
+      },
+      "54": {
+        "crtDmg": "42.9%"
+      },
+      "55": {
+        "crtDmg": "45.8%"
+      },
+      "56": {
+        "crtDmg": "45.8%"
+      },
+      "57": {
+        "crtDmg": "45.8%"
+      },
+      "58": {
+        "crtDmg": "45.8%"
+      },
+      "59": {
+        "crtDmg": "45.8%"
+      },
+      "60": {
+        "crtDmg": "48.7%"
+      },
+      "61": {
+        "crtDmg": "48.7%"
+      },
+      "62": {
+        "crtDmg": "48.7%"
+      },
+      "63": {
+        "crtDmg": "48.7%"
+      },
+      "64": {
+        "crtDmg": "48.7%"
+      },
+      "65": {
+        "crtDmg": "51.6%"
+      },
+      "66": {
+        "crtDmg": "51.6%"
+      },
+      "67": {
+        "crtDmg": "51.6%"
+      },
+      "68": {
+        "crtDmg": "51.6%"
+      },
+      "69": {
+        "crtDmg": "51.6%"
+      },
+      "70": {
+        "crtDmg": "54.5%"
+      },
+      "71": {
+        "crtDmg": "54.5%"
+      },
+      "72": {
+        "crtDmg": "54.5%"
+      },
+      "73": {
+        "crtDmg": "54.5%"
+      },
+      "74": {
+        "crtDmg": "54.5%"
+      },
+      "75": {
+        "crtDmg": "57.4%"
+      },
+      "76": {
+        "crtDmg": "57.4%"
+      },
+      "77": {
+        "crtDmg": "57.4%"
+      },
+      "78": {
+        "crtDmg": "57.4%"
+      },
+      "79": {
+        "crtDmg": "57.4%"
+      },
+      "80": {
+        "crtDmg": "60.3%"
+      },
+      "81": {
+        "crtDmg": "60.3%"
+      },
+      "82": {
+        "crtDmg": "60.3%"
+      },
+      "83": {
+        "crtDmg": "60.3%"
+      },
+      "84": {
+        "crtDmg": "60.3%"
+      },
+      "85": {
+        "crtDmg": "63.2%"
+      },
+      "86": {
+        "crtDmg": "63.2%"
+      },
+      "87": {
+        "crtDmg": "63.2%"
+      },
+      "88": {
+        "crtDmg": "63.2%"
+      },
+      "89": {
+        "crtDmg": "63.2%"
+      },
+      "90": {
+        "crtDmg": "66.2%"
+      },
+      "20_ASC": {
+        "crtDmg": "25.4%"
+      },
+      "40_ASC": {
+        "crtDmg": "37.1%"
+      },
+      "50_ASC": {
+        "crtDmg": "42.9%"
+      },
+      "60_ASC": {
+        "crtDmg": "48.7%"
+      },
+      "70_ASC": {
+        "crtDmg": "54.5%"
+      },
+      "80_ASC": {
+        "crtDmg": "60.3%"
+      }
+    }
+  },
+  "effects": [
+    "ATK",
+    "Movement SPD",
+    "Charged Attack DMG Bonus"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Parsifal the Great",
+      "descriptions": [
+        "DMG dealt by Charged Attacks increased by 16%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 16%/32%/48%%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 4%/7%/10%%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "Parsifal the Great",
+      "descriptions": [
+        "DMG dealt by Charged Attacks increased by 20%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 20%/40%/60%%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 6%/9%/12%%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "Parsifal the Great",
+      "descriptions": [
+        "DMG dealt by Charged Attacks increased by 24%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 24%/48%/72%%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 8%/11%/14%%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "Parsifal the Great",
+      "descriptions": [
+        "DMG dealt by Charged Attacks increased by 28%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 28%/56%/84%%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 10%/13%/16%%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "Parsifal the Great",
+      "descriptions": [
+        "DMG dealt by Charged Attacks increased by 32%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 32%/64%/96%%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 12%/15%/18%%."
+      ],
+      "upgradeCost": []
     }
   }
 }

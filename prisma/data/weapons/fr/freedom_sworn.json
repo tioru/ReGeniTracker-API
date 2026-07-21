@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 46
     },
+    "2": {
+      "baseAtk": 50
+    },
+    "3": {
+      "baseAtk": 54
+    },
+    "4": {
+      "baseAtk": 58
+    },
+    "5": {
+      "baseAtk": 62
+    },
+    "6": {
+      "baseAtk": 66
+    },
+    "7": {
+      "baseAtk": 70
+    },
+    "8": {
+      "baseAtk": 74
+    },
+    "9": {
+      "baseAtk": 78
+    },
+    "10": {
+      "baseAtk": 82
+    },
+    "11": {
+      "baseAtk": 86
+    },
+    "12": {
+      "baseAtk": 90
+    },
+    "13": {
+      "baseAtk": 94
+    },
+    "14": {
+      "baseAtk": 98
+    },
+    "15": {
+      "baseAtk": 102
+    },
+    "16": {
+      "baseAtk": 106
+    },
+    "17": {
+      "baseAtk": 110
+    },
+    "18": {
+      "baseAtk": 114
+    },
+    "19": {
+      "baseAtk": 118
+    },
     "20": {
       "baseAtk": 122
+    },
+    "21": {
+      "baseAtk": 157
+    },
+    "22": {
+      "baseAtk": 161
+    },
+    "23": {
+      "baseAtk": 165
+    },
+    "24": {
+      "baseAtk": 169
+    },
+    "25": {
+      "baseAtk": 173
+    },
+    "26": {
+      "baseAtk": 177
+    },
+    "27": {
+      "baseAtk": 181
+    },
+    "28": {
+      "baseAtk": 185
+    },
+    "29": {
+      "baseAtk": 190
+    },
+    "30": {
+      "baseAtk": 194
+    },
+    "31": {
+      "baseAtk": 198
+    },
+    "32": {
+      "baseAtk": 202
+    },
+    "33": {
+      "baseAtk": 206
+    },
+    "34": {
+      "baseAtk": 210
+    },
+    "35": {
+      "baseAtk": 214
+    },
+    "36": {
+      "baseAtk": 219
+    },
+    "37": {
+      "baseAtk": 223
+    },
+    "38": {
+      "baseAtk": 227
+    },
+    "39": {
+      "baseAtk": 231
     },
     "40": {
       "baseAtk": 235
     },
+    "41": {
+      "baseAtk": 270
+    },
+    "42": {
+      "baseAtk": 275
+    },
+    "43": {
+      "baseAtk": 279
+    },
+    "44": {
+      "baseAtk": 283
+    },
+    "45": {
+      "baseAtk": 287
+    },
+    "46": {
+      "baseAtk": 292
+    },
+    "47": {
+      "baseAtk": 296
+    },
+    "48": {
+      "baseAtk": 300
+    },
+    "49": {
+      "baseAtk": 304
+    },
     "50": {
       "baseAtk": 308
+    },
+    "51": {
+      "baseAtk": 344
+    },
+    "52": {
+      "baseAtk": 348
+    },
+    "53": {
+      "baseAtk": 352
+    },
+    "54": {
+      "baseAtk": 357
+    },
+    "55": {
+      "baseAtk": 361
+    },
+    "56": {
+      "baseAtk": 365
+    },
+    "57": {
+      "baseAtk": 370
+    },
+    "58": {
+      "baseAtk": 374
+    },
+    "59": {
+      "baseAtk": 378
     },
     "60": {
       "baseAtk": 382
     },
+    "61": {
+      "baseAtk": 418
+    },
+    "62": {
+      "baseAtk": 422
+    },
+    "63": {
+      "baseAtk": 427
+    },
+    "64": {
+      "baseAtk": 431
+    },
+    "65": {
+      "baseAtk": 435
+    },
+    "66": {
+      "baseAtk": 440
+    },
+    "67": {
+      "baseAtk": 444
+    },
+    "68": {
+      "baseAtk": 448
+    },
+    "69": {
+      "baseAtk": 453
+    },
     "70": {
       "baseAtk": 457
     },
+    "71": {
+      "baseAtk": 492
+    },
+    "72": {
+      "baseAtk": 497
+    },
+    "73": {
+      "baseAtk": 501
+    },
+    "74": {
+      "baseAtk": 506
+    },
+    "75": {
+      "baseAtk": 510
+    },
+    "76": {
+      "baseAtk": 515
+    },
+    "77": {
+      "baseAtk": 519
+    },
+    "78": {
+      "baseAtk": 523
+    },
+    "79": {
+      "baseAtk": 528
+    },
     "80": {
       "baseAtk": 532
+    },
+    "81": {
+      "baseAtk": 568
+    },
+    "82": {
+      "baseAtk": 572
+    },
+    "83": {
+      "baseAtk": 577
+    },
+    "84": {
+      "baseAtk": 581
+    },
+    "85": {
+      "baseAtk": 586
+    },
+    "86": {
+      "baseAtk": 590
+    },
+    "87": {
+      "baseAtk": 595
+    },
+    "88": {
+      "baseAtk": 599
+    },
+    "89": {
+      "baseAtk": 604
     },
     "90": {
       "baseAtk": 608
@@ -176,6 +422,366 @@
     },
     "80_ASC": {
       "baseAtk": 563
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Maîtrise élémentaire",
+    "levels": {
+      "1": {
+        "elementalMastery": "43"
+      },
+      "2": {
+        "elementalMastery": "43"
+      },
+      "3": {
+        "elementalMastery": "43"
+      },
+      "4": {
+        "elementalMastery": "43"
+      },
+      "5": {
+        "elementalMastery": "50"
+      },
+      "6": {
+        "elementalMastery": "50"
+      },
+      "7": {
+        "elementalMastery": "50"
+      },
+      "8": {
+        "elementalMastery": "50"
+      },
+      "9": {
+        "elementalMastery": "50"
+      },
+      "10": {
+        "elementalMastery": "59"
+      },
+      "11": {
+        "elementalMastery": "59"
+      },
+      "12": {
+        "elementalMastery": "59"
+      },
+      "13": {
+        "elementalMastery": "59"
+      },
+      "14": {
+        "elementalMastery": "59"
+      },
+      "15": {
+        "elementalMastery": "68"
+      },
+      "16": {
+        "elementalMastery": "68"
+      },
+      "17": {
+        "elementalMastery": "68"
+      },
+      "18": {
+        "elementalMastery": "68"
+      },
+      "19": {
+        "elementalMastery": "68"
+      },
+      "20": {
+        "elementalMastery": "76"
+      },
+      "21": {
+        "elementalMastery": "76"
+      },
+      "22": {
+        "elementalMastery": "76"
+      },
+      "23": {
+        "elementalMastery": "76"
+      },
+      "24": {
+        "elementalMastery": "76"
+      },
+      "25": {
+        "elementalMastery": "85"
+      },
+      "26": {
+        "elementalMastery": "85"
+      },
+      "27": {
+        "elementalMastery": "85"
+      },
+      "28": {
+        "elementalMastery": "85"
+      },
+      "29": {
+        "elementalMastery": "85"
+      },
+      "30": {
+        "elementalMastery": "94"
+      },
+      "31": {
+        "elementalMastery": "94"
+      },
+      "32": {
+        "elementalMastery": "94"
+      },
+      "33": {
+        "elementalMastery": "94"
+      },
+      "34": {
+        "elementalMastery": "94"
+      },
+      "35": {
+        "elementalMastery": "103"
+      },
+      "36": {
+        "elementalMastery": "103"
+      },
+      "37": {
+        "elementalMastery": "103"
+      },
+      "38": {
+        "elementalMastery": "103"
+      },
+      "39": {
+        "elementalMastery": "103"
+      },
+      "40": {
+        "elementalMastery": "111"
+      },
+      "41": {
+        "elementalMastery": "111"
+      },
+      "42": {
+        "elementalMastery": "111"
+      },
+      "43": {
+        "elementalMastery": "111"
+      },
+      "44": {
+        "elementalMastery": "111"
+      },
+      "45": {
+        "elementalMastery": "120"
+      },
+      "46": {
+        "elementalMastery": "120"
+      },
+      "47": {
+        "elementalMastery": "120"
+      },
+      "48": {
+        "elementalMastery": "120"
+      },
+      "49": {
+        "elementalMastery": "120"
+      },
+      "50": {
+        "elementalMastery": "129"
+      },
+      "51": {
+        "elementalMastery": "129"
+      },
+      "52": {
+        "elementalMastery": "129"
+      },
+      "53": {
+        "elementalMastery": "129"
+      },
+      "54": {
+        "elementalMastery": "129"
+      },
+      "55": {
+        "elementalMastery": "137"
+      },
+      "56": {
+        "elementalMastery": "137"
+      },
+      "57": {
+        "elementalMastery": "137"
+      },
+      "58": {
+        "elementalMastery": "137"
+      },
+      "59": {
+        "elementalMastery": "137"
+      },
+      "60": {
+        "elementalMastery": "146"
+      },
+      "61": {
+        "elementalMastery": "146"
+      },
+      "62": {
+        "elementalMastery": "146"
+      },
+      "63": {
+        "elementalMastery": "146"
+      },
+      "64": {
+        "elementalMastery": "146"
+      },
+      "65": {
+        "elementalMastery": "155"
+      },
+      "66": {
+        "elementalMastery": "155"
+      },
+      "67": {
+        "elementalMastery": "155"
+      },
+      "68": {
+        "elementalMastery": "155"
+      },
+      "69": {
+        "elementalMastery": "155"
+      },
+      "70": {
+        "elementalMastery": "164"
+      },
+      "71": {
+        "elementalMastery": "164"
+      },
+      "72": {
+        "elementalMastery": "164"
+      },
+      "73": {
+        "elementalMastery": "164"
+      },
+      "74": {
+        "elementalMastery": "164"
+      },
+      "75": {
+        "elementalMastery": "172"
+      },
+      "76": {
+        "elementalMastery": "172"
+      },
+      "77": {
+        "elementalMastery": "172"
+      },
+      "78": {
+        "elementalMastery": "172"
+      },
+      "79": {
+        "elementalMastery": "172"
+      },
+      "80": {
+        "elementalMastery": "181"
+      },
+      "81": {
+        "elementalMastery": "181"
+      },
+      "82": {
+        "elementalMastery": "181"
+      },
+      "83": {
+        "elementalMastery": "181"
+      },
+      "84": {
+        "elementalMastery": "181"
+      },
+      "85": {
+        "elementalMastery": "190"
+      },
+      "86": {
+        "elementalMastery": "190"
+      },
+      "87": {
+        "elementalMastery": "190"
+      },
+      "88": {
+        "elementalMastery": "190"
+      },
+      "89": {
+        "elementalMastery": "190"
+      },
+      "90": {
+        "elementalMastery": "198"
+      },
+      "20_ASC": {
+        "elementalMastery": "76"
+      },
+      "40_ASC": {
+        "elementalMastery": "111"
+      },
+      "50_ASC": {
+        "elementalMastery": "129"
+      },
+      "60_ASC": {
+        "elementalMastery": "146"
+      },
+      "70_ASC": {
+        "elementalMastery": "164"
+      },
+      "80_ASC": {
+        "elementalMastery": "181"
+      }
+    }
+  },
+  "effects": [
+    "DMG Bonus",
+    "Normal Attack DMG Bonus",
+    "Charged Attack DMG Bonus",
+    "Plunging Attack DMG Bonus",
+    "ATK",
+    "Party ATK Increase",
+    "Party",
+    "Elemental Reaction Dependent"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Ode de l'appel à la révolte",
+      "descriptions": [
+        "Partie du « Concert du millénaire ». Augmente les DGT infligés de 10 %. Si le personnage déclenche une réaction élémentaire, il obtient un talisman de résistance, à raison d'un talisman toutes les 0,5 s maximum, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. Une fois 2 talismans cumulés, ils sont consommés et font bénéficier pendant 12 s tous les personnages de l'équipe à proximité de l'effet « Concert du millénaire - Ode à la révolte », ce qui augmente les DGT infligés par les attaques normales, les attaques chargées et les attaques plongeantes de 16 % et l'ATQ de 20 %. Il n'est plus possible de gagner de talismans de résistance pendant 20 s après l'activation de cet effet. Les différents effets du « Concert du millénaire » ne peuvent pas être cumulés."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "Ode de l'appel à la révolte",
+      "descriptions": [
+        "Partie du « Concert du millénaire ». Augmente les DGT infligés de 12,5 %. Si le personnage déclenche une réaction élémentaire, il obtient un talisman de résistance, à raison d'un talisman toutes les 0,5 s maximum, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. Une fois 2 talismans cumulés, ils sont consommés et font bénéficier pendant 12 s tous les personnages de l'équipe à proximité de l'effet « Concert du millénaire - Ode à la révolte », ce qui augmente les DGT infligés par les attaques normales, les attaques chargées et les attaques plongeantes de 20 % et l'ATQ de 25 %. Il n'est plus possible de gagner de talismans de résistance pendant 20 s après l'activation de cet effet. Les différents effets du « Concert du millénaire » ne peuvent pas être cumulés."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "Ode de l'appel à la révolte",
+      "descriptions": [
+        "Partie du « Concert du millénaire ». Augmente les DGT infligés de 15 %. Si le personnage déclenche une réaction élémentaire, il obtient un talisman de résistance, à raison d'un talisman toutes les 0,5 s maximum, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. Une fois 2 talismans cumulés, ils sont consommés et font bénéficier pendant 12 s tous les personnages de l'équipe à proximité de l'effet « Concert du millénaire - Ode à la révolte », ce qui augmente les DGT infligés par les attaques normales, les attaques chargées et les attaques plongeantes de 24 % et l'ATQ de 30 %. Il n'est plus possible de gagner de talismans de résistance pendant 20 s après l'activation de cet effet. Les différents effets du « Concert du millénaire » ne peuvent pas être cumulés."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "Ode de l'appel à la révolte",
+      "descriptions": [
+        "Partie du « Concert du millénaire ». Augmente les DGT infligés de 17,5 %. Si le personnage déclenche une réaction élémentaire, il obtient un talisman de résistance, à raison d'un talisman toutes les 0,5 s maximum, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. Une fois 2 talismans cumulés, ils sont consommés et font bénéficier pendant 12 s tous les personnages de l'équipe à proximité de l'effet « Concert du millénaire - Ode à la révolte », ce qui augmente les DGT infligés par les attaques normales, les attaques chargées et les attaques plongeantes de 28 % et l'ATQ de 35 %. Il n'est plus possible de gagner de talismans de résistance pendant 20 s après l'activation de cet effet. Les différents effets du « Concert du millénaire » ne peuvent pas être cumulés."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "Ode de l'appel à la révolte",
+      "descriptions": [
+        "Partie du « Concert du millénaire ». Augmente les DGT infligés de 20 %. Si le personnage déclenche une réaction élémentaire, il obtient un talisman de résistance, à raison d'un talisman toutes les 0,5 s maximum, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. Une fois 2 talismans cumulés, ils sont consommés et font bénéficier pendant 12 s tous les personnages de l'équipe à proximité de l'effet « Concert du millénaire - Ode à la révolte », ce qui augmente les DGT infligés par les attaques normales, les attaques chargées et les attaques plongeantes de 32 % et l'ATQ de 40 %. Il n'est plus possible de gagner de talismans de résistance pendant 20 s après l'activation de cet effet. Les différents effets du « Concert du millénaire » ne peuvent pas être cumulés."
+      ],
+      "upgradeCost": []
     }
   }
 }

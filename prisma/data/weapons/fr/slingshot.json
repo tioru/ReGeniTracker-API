@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 38
     },
+    "2": {
+      "baseAtk": 40
+    },
+    "3": {
+      "baseAtk": 43
+    },
+    "4": {
+      "baseAtk": 46
+    },
+    "5": {
+      "baseAtk": 48
+    },
+    "6": {
+      "baseAtk": 51
+    },
+    "7": {
+      "baseAtk": 53
+    },
+    "8": {
+      "baseAtk": 56
+    },
+    "9": {
+      "baseAtk": 58
+    },
+    "10": {
+      "baseAtk": 61
+    },
+    "11": {
+      "baseAtk": 63
+    },
+    "12": {
+      "baseAtk": 66
+    },
+    "13": {
+      "baseAtk": 68
+    },
+    "14": {
+      "baseAtk": 71
+    },
+    "15": {
+      "baseAtk": 73
+    },
+    "16": {
+      "baseAtk": 76
+    },
+    "17": {
+      "baseAtk": 78
+    },
+    "18": {
+      "baseAtk": 81
+    },
+    "19": {
+      "baseAtk": 83
+    },
     "20": {
       "baseAtk": 86
+    },
+    "21": {
+      "baseAtk": 107
+    },
+    "22": {
+      "baseAtk": 110
+    },
+    "23": {
+      "baseAtk": 112
+    },
+    "24": {
+      "baseAtk": 115
+    },
+    "25": {
+      "baseAtk": 117
+    },
+    "26": {
+      "baseAtk": 119
+    },
+    "27": {
+      "baseAtk": 122
+    },
+    "28": {
+      "baseAtk": 124
+    },
+    "29": {
+      "baseAtk": 126
+    },
+    "30": {
+      "baseAtk": 129
+    },
+    "31": {
+      "baseAtk": 131
+    },
+    "32": {
+      "baseAtk": 133
+    },
+    "33": {
+      "baseAtk": 135
+    },
+    "34": {
+      "baseAtk": 138
+    },
+    "35": {
+      "baseAtk": 140
+    },
+    "36": {
+      "baseAtk": 142
+    },
+    "37": {
+      "baseAtk": 145
+    },
+    "38": {
+      "baseAtk": 147
+    },
+    "39": {
+      "baseAtk": 149
     },
     "40": {
       "baseAtk": 151
     },
+    "41": {
+      "baseAtk": 173
+    },
+    "42": {
+      "baseAtk": 175
+    },
+    "43": {
+      "baseAtk": 177
+    },
+    "44": {
+      "baseAtk": 180
+    },
+    "45": {
+      "baseAtk": 182
+    },
+    "46": {
+      "baseAtk": 184
+    },
+    "47": {
+      "baseAtk": 186
+    },
+    "48": {
+      "baseAtk": 188
+    },
+    "49": {
+      "baseAtk": 191
+    },
     "50": {
       "baseAtk": 193
+    },
+    "51": {
+      "baseAtk": 214
+    },
+    "52": {
+      "baseAtk": 217
+    },
+    "53": {
+      "baseAtk": 219
+    },
+    "54": {
+      "baseAtk": 221
+    },
+    "55": {
+      "baseAtk": 223
+    },
+    "56": {
+      "baseAtk": 225
+    },
+    "57": {
+      "baseAtk": 227
+    },
+    "58": {
+      "baseAtk": 229
+    },
+    "59": {
+      "baseAtk": 232
     },
     "60": {
       "baseAtk": 234
     },
+    "61": {
+      "baseAtk": 255
+    },
+    "62": {
+      "baseAtk": 257
+    },
+    "63": {
+      "baseAtk": 259
+    },
+    "64": {
+      "baseAtk": 262
+    },
+    "65": {
+      "baseAtk": 264
+    },
+    "66": {
+      "baseAtk": 266
+    },
+    "67": {
+      "baseAtk": 268
+    },
+    "68": {
+      "baseAtk": 270
+    },
+    "69": {
+      "baseAtk": 272
+    },
     "70": {
       "baseAtk": 274
     },
+    "71": {
+      "baseAtk": 296
+    },
+    "72": {
+      "baseAtk": 298
+    },
+    "73": {
+      "baseAtk": 300
+    },
+    "74": {
+      "baseAtk": 302
+    },
+    "75": {
+      "baseAtk": 304
+    },
+    "76": {
+      "baseAtk": 306
+    },
+    "77": {
+      "baseAtk": 308
+    },
+    "78": {
+      "baseAtk": 310
+    },
+    "79": {
+      "baseAtk": 312
+    },
     "80": {
       "baseAtk": 314
+    },
+    "81": {
+      "baseAtk": 336
+    },
+    "82": {
+      "baseAtk": 338
+    },
+    "83": {
+      "baseAtk": 340
+    },
+    "84": {
+      "baseAtk": 342
+    },
+    "85": {
+      "baseAtk": 344
+    },
+    "86": {
+      "baseAtk": 346
+    },
+    "87": {
+      "baseAtk": 348
+    },
+    "88": {
+      "baseAtk": 350
+    },
+    "89": {
+      "baseAtk": 352
     },
     "90": {
       "baseAtk": 354
@@ -176,6 +422,360 @@
     },
     "80_ASC": {
       "baseAtk": 334
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Taux CRIT",
+    "levels": {
+      "1": {
+        "crtRate": "6,8 %"
+      },
+      "2": {
+        "crtRate": "6,8 %"
+      },
+      "3": {
+        "crtRate": "6,8 %"
+      },
+      "4": {
+        "crtRate": "6,8 %"
+      },
+      "5": {
+        "crtRate": "7,9 %"
+      },
+      "6": {
+        "crtRate": "7,9 %"
+      },
+      "7": {
+        "crtRate": "7,9 %"
+      },
+      "8": {
+        "crtRate": "7,9 %"
+      },
+      "9": {
+        "crtRate": "7,9 %"
+      },
+      "10": {
+        "crtRate": "9,3 %"
+      },
+      "11": {
+        "crtRate": "9,3 %"
+      },
+      "12": {
+        "crtRate": "9,3 %"
+      },
+      "13": {
+        "crtRate": "9,3 %"
+      },
+      "14": {
+        "crtRate": "9,3 %"
+      },
+      "15": {
+        "crtRate": "10,6 %"
+      },
+      "16": {
+        "crtRate": "10,6 %"
+      },
+      "17": {
+        "crtRate": "10,6 %"
+      },
+      "18": {
+        "crtRate": "10,6 %"
+      },
+      "19": {
+        "crtRate": "10,6 %"
+      },
+      "20": {
+        "crtRate": "12,0 %"
+      },
+      "21": {
+        "crtRate": "12,0 %"
+      },
+      "22": {
+        "crtRate": "12,0 %"
+      },
+      "23": {
+        "crtRate": "12,0 %"
+      },
+      "24": {
+        "crtRate": "12,0 %"
+      },
+      "25": {
+        "crtRate": "13,4 %"
+      },
+      "26": {
+        "crtRate": "13,4 %"
+      },
+      "27": {
+        "crtRate": "13,4 %"
+      },
+      "28": {
+        "crtRate": "13,4 %"
+      },
+      "29": {
+        "crtRate": "13,4 %"
+      },
+      "30": {
+        "crtRate": "14,8 %"
+      },
+      "31": {
+        "crtRate": "14,8 %"
+      },
+      "32": {
+        "crtRate": "14,8 %"
+      },
+      "33": {
+        "crtRate": "14,8 %"
+      },
+      "34": {
+        "crtRate": "14,8 %"
+      },
+      "35": {
+        "crtRate": "16,1 %"
+      },
+      "36": {
+        "crtRate": "16,1 %"
+      },
+      "37": {
+        "crtRate": "16,1 %"
+      },
+      "38": {
+        "crtRate": "16,1 %"
+      },
+      "39": {
+        "crtRate": "16,1 %"
+      },
+      "40": {
+        "crtRate": "17,5 %"
+      },
+      "41": {
+        "crtRate": "17,5 %"
+      },
+      "42": {
+        "crtRate": "17,5 %"
+      },
+      "43": {
+        "crtRate": "17,5 %"
+      },
+      "44": {
+        "crtRate": "17,5 %"
+      },
+      "45": {
+        "crtRate": "18,9 %"
+      },
+      "46": {
+        "crtRate": "18,9 %"
+      },
+      "47": {
+        "crtRate": "18,9 %"
+      },
+      "48": {
+        "crtRate": "18,9 %"
+      },
+      "49": {
+        "crtRate": "18,9 %"
+      },
+      "50": {
+        "crtRate": "20,3 %"
+      },
+      "51": {
+        "crtRate": "20,3 %"
+      },
+      "52": {
+        "crtRate": "20,3 %"
+      },
+      "53": {
+        "crtRate": "20,3 %"
+      },
+      "54": {
+        "crtRate": "20,3 %"
+      },
+      "55": {
+        "crtRate": "21,6 %"
+      },
+      "56": {
+        "crtRate": "21,6 %"
+      },
+      "57": {
+        "crtRate": "21,6 %"
+      },
+      "58": {
+        "crtRate": "21,6 %"
+      },
+      "59": {
+        "crtRate": "21,6 %"
+      },
+      "60": {
+        "crtRate": "23,0 %"
+      },
+      "61": {
+        "crtRate": "23,0 %"
+      },
+      "62": {
+        "crtRate": "23,0 %"
+      },
+      "63": {
+        "crtRate": "23,0 %"
+      },
+      "64": {
+        "crtRate": "23,0 %"
+      },
+      "65": {
+        "crtRate": "24,4 %"
+      },
+      "66": {
+        "crtRate": "24,4 %"
+      },
+      "67": {
+        "crtRate": "24,4 %"
+      },
+      "68": {
+        "crtRate": "24,4 %"
+      },
+      "69": {
+        "crtRate": "24,4 %"
+      },
+      "70": {
+        "crtRate": "25,7 %"
+      },
+      "71": {
+        "crtRate": "25,7 %"
+      },
+      "72": {
+        "crtRate": "25,7 %"
+      },
+      "73": {
+        "crtRate": "25,7 %"
+      },
+      "74": {
+        "crtRate": "25,7 %"
+      },
+      "75": {
+        "crtRate": "27,1 %"
+      },
+      "76": {
+        "crtRate": "27,1 %"
+      },
+      "77": {
+        "crtRate": "27,1 %"
+      },
+      "78": {
+        "crtRate": "27,1 %"
+      },
+      "79": {
+        "crtRate": "27,1 %"
+      },
+      "80": {
+        "crtRate": "28,5 %"
+      },
+      "81": {
+        "crtRate": "28,5 %"
+      },
+      "82": {
+        "crtRate": "28,5 %"
+      },
+      "83": {
+        "crtRate": "28,5 %"
+      },
+      "84": {
+        "crtRate": "28,5 %"
+      },
+      "85": {
+        "crtRate": "29,9 %"
+      },
+      "86": {
+        "crtRate": "29,9 %"
+      },
+      "87": {
+        "crtRate": "29,9 %"
+      },
+      "88": {
+        "crtRate": "29,9 %"
+      },
+      "89": {
+        "crtRate": "29,9 %"
+      },
+      "90": {
+        "crtRate": "31,2 %"
+      },
+      "20_ASC": {
+        "crtRate": "12,0 %"
+      },
+      "40_ASC": {
+        "crtRate": "17,5 %"
+      },
+      "50_ASC": {
+        "crtRate": "20,3 %"
+      },
+      "60_ASC": {
+        "crtRate": "23,0 %"
+      },
+      "70_ASC": {
+        "crtRate": "25,7 %"
+      },
+      "80_ASC": {
+        "crtRate": "28,5 %"
+      }
+    }
+  },
+  "effects": [
+    "DMG Bonus",
+    "Normal Attack DMG Bonus"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Lance-pierres",
+      "descriptions": [
+        "Les DGT infligés par les flèches des attaques normales et chargées infligent 36 % de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 500
+        }
+      ]
+    },
+    "2": {
+      "title": "Lance-pierres",
+      "descriptions": [
+        "Les DGT infligés par les flèches des attaques normales et chargées infligent 42 % de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "3": {
+      "title": "Lance-pierres",
+      "descriptions": [
+        "Les DGT infligés par les flèches des attaques normales et chargées infligent 48 % de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "4": {
+      "title": "Lance-pierres",
+      "descriptions": [
+        "Les DGT infligés par les flèches des attaques normales et chargées infligent 54 % de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "5": {
+      "title": "Lance-pierres",
+      "descriptions": [
+        "Les DGT infligés par les flèches des attaques normales et chargées infligent 60 % de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins."
+      ],
+      "upgradeCost": []
     }
   }
 }

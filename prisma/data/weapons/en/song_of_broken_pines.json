@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 49
     },
+    "2": {
+      "baseAtk": 54
+    },
+    "3": {
+      "baseAtk": 59
+    },
+    "4": {
+      "baseAtk": 63
+    },
+    "5": {
+      "baseAtk": 68
+    },
+    "6": {
+      "baseAtk": 73
+    },
+    "7": {
+      "baseAtk": 78
+    },
+    "8": {
+      "baseAtk": 83
+    },
+    "9": {
+      "baseAtk": 88
+    },
+    "10": {
+      "baseAtk": 93
+    },
+    "11": {
+      "baseAtk": 98
+    },
+    "12": {
+      "baseAtk": 103
+    },
+    "13": {
+      "baseAtk": 108
+    },
+    "14": {
+      "baseAtk": 114
+    },
+    "15": {
+      "baseAtk": 119
+    },
+    "16": {
+      "baseAtk": 124
+    },
+    "17": {
+      "baseAtk": 129
+    },
+    "18": {
+      "baseAtk": 134
+    },
+    "19": {
+      "baseAtk": 140
+    },
     "20": {
       "baseAtk": 145
+    },
+    "21": {
+      "baseAtk": 181
+    },
+    "22": {
+      "baseAtk": 187
+    },
+    "23": {
+      "baseAtk": 192
+    },
+    "24": {
+      "baseAtk": 197
+    },
+    "25": {
+      "baseAtk": 203
+    },
+    "26": {
+      "baseAtk": 208
+    },
+    "27": {
+      "baseAtk": 214
+    },
+    "28": {
+      "baseAtk": 219
+    },
+    "29": {
+      "baseAtk": 225
+    },
+    "30": {
+      "baseAtk": 230
+    },
+    "31": {
+      "baseAtk": 236
+    },
+    "32": {
+      "baseAtk": 241
+    },
+    "33": {
+      "baseAtk": 247
+    },
+    "34": {
+      "baseAtk": 252
+    },
+    "35": {
+      "baseAtk": 258
+    },
+    "36": {
+      "baseAtk": 263
+    },
+    "37": {
+      "baseAtk": 269
+    },
+    "38": {
+      "baseAtk": 275
+    },
+    "39": {
+      "baseAtk": 280
     },
     "40": {
       "baseAtk": 286
     },
+    "41": {
+      "baseAtk": 323
+    },
+    "42": {
+      "baseAtk": 328
+    },
+    "43": {
+      "baseAtk": 334
+    },
+    "44": {
+      "baseAtk": 340
+    },
+    "45": {
+      "baseAtk": 346
+    },
+    "46": {
+      "baseAtk": 351
+    },
+    "47": {
+      "baseAtk": 357
+    },
+    "48": {
+      "baseAtk": 363
+    },
+    "49": {
+      "baseAtk": 369
+    },
     "50": {
-      "baseAtk": 376
+      "baseAtk": 374
+    },
+    "51": {
+      "baseAtk": 411
+    },
+    "52": {
+      "baseAtk": 417
+    },
+    "53": {
+      "baseAtk": 423
+    },
+    "54": {
+      "baseAtk": 429
+    },
+    "55": {
+      "baseAtk": 435
+    },
+    "56": {
+      "baseAtk": 441
+    },
+    "57": {
+      "baseAtk": 447
+    },
+    "58": {
+      "baseAtk": 453
+    },
+    "59": {
+      "baseAtk": 458
     },
     "60": {
       "baseAtk": 464
     },
+    "61": {
+      "baseAtk": 501
+    },
+    "62": {
+      "baseAtk": 507
+    },
+    "63": {
+      "baseAtk": 513
+    },
+    "64": {
+      "baseAtk": 519
+    },
+    "65": {
+      "baseAtk": 525
+    },
+    "66": {
+      "baseAtk": 531
+    },
+    "67": {
+      "baseAtk": 537
+    },
+    "68": {
+      "baseAtk": 543
+    },
+    "69": {
+      "baseAtk": 549
+    },
     "70": {
       "baseAtk": 555
     },
+    "71": {
+      "baseAtk": 593
+    },
+    "72": {
+      "baseAtk": 599
+    },
+    "73": {
+      "baseAtk": 605
+    },
+    "74": {
+      "baseAtk": 611
+    },
+    "75": {
+      "baseAtk": 617
+    },
+    "76": {
+      "baseAtk": 623
+    },
+    "77": {
+      "baseAtk": 629
+    },
+    "78": {
+      "baseAtk": 635
+    },
+    "79": {
+      "baseAtk": 641
+    },
     "80": {
       "baseAtk": 648
+    },
+    "81": {
+      "baseAtk": 685
+    },
+    "82": {
+      "baseAtk": 691
+    },
+    "83": {
+      "baseAtk": 697
+    },
+    "84": {
+      "baseAtk": 703
+    },
+    "85": {
+      "baseAtk": 709
+    },
+    "86": {
+      "baseAtk": 716
+    },
+    "87": {
+      "baseAtk": 722
+    },
+    "88": {
+      "baseAtk": 728
+    },
+    "89": {
+      "baseAtk": 734
     },
     "90": {
       "baseAtk": 741
@@ -176,6 +422,363 @@
     },
     "80_ASC": {
       "baseAtk": 679
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Physical DMG Bonus",
+    "levels": {
+      "1": {
+        "physDmgBonus": "4.5%"
+      },
+      "2": {
+        "physDmgBonus": "4.5%"
+      },
+      "3": {
+        "physDmgBonus": "4.5%"
+      },
+      "4": {
+        "physDmgBonus": "4.5%"
+      },
+      "5": {
+        "physDmgBonus": "5.2%"
+      },
+      "6": {
+        "physDmgBonus": "5.2%"
+      },
+      "7": {
+        "physDmgBonus": "5.2%"
+      },
+      "8": {
+        "physDmgBonus": "5.2%"
+      },
+      "9": {
+        "physDmgBonus": "5.2%"
+      },
+      "10": {
+        "physDmgBonus": "6.1%"
+      },
+      "11": {
+        "physDmgBonus": "6.1%"
+      },
+      "12": {
+        "physDmgBonus": "6.1%"
+      },
+      "13": {
+        "physDmgBonus": "6.1%"
+      },
+      "14": {
+        "physDmgBonus": "6.1%"
+      },
+      "15": {
+        "physDmgBonus": "7.0%"
+      },
+      "16": {
+        "physDmgBonus": "7.0%"
+      },
+      "17": {
+        "physDmgBonus": "7.0%"
+      },
+      "18": {
+        "physDmgBonus": "7.0%"
+      },
+      "19": {
+        "physDmgBonus": "7.0%"
+      },
+      "20": {
+        "physDmgBonus": "8.0%"
+      },
+      "21": {
+        "physDmgBonus": "8.0%"
+      },
+      "22": {
+        "physDmgBonus": "8.0%"
+      },
+      "23": {
+        "physDmgBonus": "8.0%"
+      },
+      "24": {
+        "physDmgBonus": "8.0%"
+      },
+      "25": {
+        "physDmgBonus": "8.9%"
+      },
+      "26": {
+        "physDmgBonus": "8.9%"
+      },
+      "27": {
+        "physDmgBonus": "8.9%"
+      },
+      "28": {
+        "physDmgBonus": "8.9%"
+      },
+      "29": {
+        "physDmgBonus": "8.9%"
+      },
+      "30": {
+        "physDmgBonus": "9.8%"
+      },
+      "31": {
+        "physDmgBonus": "9.8%"
+      },
+      "32": {
+        "physDmgBonus": "9.8%"
+      },
+      "33": {
+        "physDmgBonus": "9.8%"
+      },
+      "34": {
+        "physDmgBonus": "9.8%"
+      },
+      "35": {
+        "physDmgBonus": "10.7%"
+      },
+      "36": {
+        "physDmgBonus": "10.7%"
+      },
+      "37": {
+        "physDmgBonus": "10.7%"
+      },
+      "38": {
+        "physDmgBonus": "10.7%"
+      },
+      "39": {
+        "physDmgBonus": "10.7%"
+      },
+      "40": {
+        "physDmgBonus": "11.6%"
+      },
+      "41": {
+        "physDmgBonus": "11.6%"
+      },
+      "42": {
+        "physDmgBonus": "11.6%"
+      },
+      "43": {
+        "physDmgBonus": "11.6%"
+      },
+      "44": {
+        "physDmgBonus": "11.6%"
+      },
+      "45": {
+        "physDmgBonus": "12.5%"
+      },
+      "46": {
+        "physDmgBonus": "12.5%"
+      },
+      "47": {
+        "physDmgBonus": "12.5%"
+      },
+      "48": {
+        "physDmgBonus": "12.5%"
+      },
+      "49": {
+        "physDmgBonus": "12.5%"
+      },
+      "50": {
+        "physDmgBonus": "13.4%"
+      },
+      "51": {
+        "physDmgBonus": "13.4%"
+      },
+      "52": {
+        "physDmgBonus": "13.4%"
+      },
+      "53": {
+        "physDmgBonus": "13.4%"
+      },
+      "54": {
+        "physDmgBonus": "13.4%"
+      },
+      "55": {
+        "physDmgBonus": "14.3%"
+      },
+      "56": {
+        "physDmgBonus": "14.3%"
+      },
+      "57": {
+        "physDmgBonus": "14.3%"
+      },
+      "58": {
+        "physDmgBonus": "14.3%"
+      },
+      "59": {
+        "physDmgBonus": "14.3%"
+      },
+      "60": {
+        "physDmgBonus": "15.2%"
+      },
+      "61": {
+        "physDmgBonus": "15.2%"
+      },
+      "62": {
+        "physDmgBonus": "15.2%"
+      },
+      "63": {
+        "physDmgBonus": "15.2%"
+      },
+      "64": {
+        "physDmgBonus": "15.2%"
+      },
+      "65": {
+        "physDmgBonus": "16.1%"
+      },
+      "66": {
+        "physDmgBonus": "16.1%"
+      },
+      "67": {
+        "physDmgBonus": "16.1%"
+      },
+      "68": {
+        "physDmgBonus": "16.1%"
+      },
+      "69": {
+        "physDmgBonus": "16.1%"
+      },
+      "70": {
+        "physDmgBonus": "17.0%"
+      },
+      "71": {
+        "physDmgBonus": "17.0%"
+      },
+      "72": {
+        "physDmgBonus": "17.0%"
+      },
+      "73": {
+        "physDmgBonus": "17.0%"
+      },
+      "74": {
+        "physDmgBonus": "17.0%"
+      },
+      "75": {
+        "physDmgBonus": "17.9%"
+      },
+      "76": {
+        "physDmgBonus": "17.9%"
+      },
+      "77": {
+        "physDmgBonus": "17.9%"
+      },
+      "78": {
+        "physDmgBonus": "17.9%"
+      },
+      "79": {
+        "physDmgBonus": "17.9%"
+      },
+      "80": {
+        "physDmgBonus": "18.9%"
+      },
+      "81": {
+        "physDmgBonus": "18.9%"
+      },
+      "82": {
+        "physDmgBonus": "18.9%"
+      },
+      "83": {
+        "physDmgBonus": "18.9%"
+      },
+      "84": {
+        "physDmgBonus": "18.9%"
+      },
+      "85": {
+        "physDmgBonus": "19.8%"
+      },
+      "86": {
+        "physDmgBonus": "19.8%"
+      },
+      "87": {
+        "physDmgBonus": "19.8%"
+      },
+      "88": {
+        "physDmgBonus": "19.8%"
+      },
+      "89": {
+        "physDmgBonus": "19.8%"
+      },
+      "90": {
+        "physDmgBonus": "20.7%"
+      },
+      "20_ASC": {
+        "physDmgBonus": "8.0%"
+      },
+      "40_ASC": {
+        "physDmgBonus": "11.6%"
+      },
+      "50_ASC": {
+        "physDmgBonus": "13.4%"
+      },
+      "60_ASC": {
+        "physDmgBonus": "15.2%"
+      },
+      "70_ASC": {
+        "physDmgBonus": "17.0%"
+      },
+      "80_ASC": {
+        "physDmgBonus": "18.9%"
+      }
+    }
+  },
+  "effects": [
+    "ATK SPD",
+    "ATK",
+    "Party ATK Increase",
+    "Party",
+    "Effect Triggered by Normal Attack"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Rebel's Banner-Hymn",
+      "descriptions": [
+        "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 16%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess four Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 12% and increases ATK by 20%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement\", buffs of the same type will not stack."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "Rebel's Banner-Hymn",
+      "descriptions": [
+        "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 20%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess four Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 15% and increases ATK by 25%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement\", buffs of the same type will not stack."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "Rebel's Banner-Hymn",
+      "descriptions": [
+        "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 24%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess four Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 18% and increases ATK by 30%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement\", buffs of the same type will not stack."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "Rebel's Banner-Hymn",
+      "descriptions": [
+        "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 28%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess four Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 21% and increases ATK by 35%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement\", buffs of the same type will not stack."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "Rebel's Banner-Hymn",
+      "descriptions": [
+        "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 32%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess four Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 24% and increases ATK by 40%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement\", buffs of the same type will not stack."
+      ],
+      "upgradeCost": []
     }
   }
 }

@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 48
     },
+    "2": {
+      "baseAtk": 52
+    },
+    "3": {
+      "baseAtk": 56
+    },
+    "4": {
+      "baseAtk": 61
+    },
+    "5": {
+      "baseAtk": 65
+    },
+    "6": {
+      "baseAtk": 69
+    },
+    "7": {
+      "baseAtk": 74
+    },
+    "8": {
+      "baseAtk": 78
+    },
+    "9": {
+      "baseAtk": 83
+    },
+    "10": {
+      "baseAtk": 87
+    },
+    "11": {
+      "baseAtk": 92
+    },
+    "12": {
+      "baseAtk": 96
+    },
+    "13": {
+      "baseAtk": 101
+    },
+    "14": {
+      "baseAtk": 106
+    },
+    "15": {
+      "baseAtk": 110
+    },
+    "16": {
+      "baseAtk": 115
+    },
+    "17": {
+      "baseAtk": 119
+    },
+    "18": {
+      "baseAtk": 124
+    },
+    "19": {
+      "baseAtk": 129
+    },
     "20": {
       "baseAtk": 133
+    },
+    "21": {
+      "baseAtk": 169
+    },
+    "22": {
+      "baseAtk": 174
+    },
+    "23": {
+      "baseAtk": 179
+    },
+    "24": {
+      "baseAtk": 183
+    },
+    "25": {
+      "baseAtk": 188
+    },
+    "26": {
+      "baseAtk": 193
+    },
+    "27": {
+      "baseAtk": 197
+    },
+    "28": {
+      "baseAtk": 202
+    },
+    "29": {
+      "baseAtk": 207
+    },
+    "30": {
+      "baseAtk": 212
+    },
+    "31": {
+      "baseAtk": 217
+    },
+    "32": {
+      "baseAtk": 221
+    },
+    "33": {
+      "baseAtk": 226
+    },
+    "34": {
+      "baseAtk": 231
+    },
+    "35": {
+      "baseAtk": 236
+    },
+    "36": {
+      "baseAtk": 241
+    },
+    "37": {
+      "baseAtk": 246
+    },
+    "38": {
+      "baseAtk": 251
+    },
+    "39": {
+      "baseAtk": 256
     },
     "40": {
       "baseAtk": 261
     },
+    "41": {
+      "baseAtk": 297
+    },
+    "42": {
+      "baseAtk": 302
+    },
+    "43": {
+      "baseAtk": 306
+    },
+    "44": {
+      "baseAtk": 311
+    },
+    "45": {
+      "baseAtk": 316
+    },
+    "46": {
+      "baseAtk": 321
+    },
+    "47": {
+      "baseAtk": 326
+    },
+    "48": {
+      "baseAtk": 331
+    },
+    "49": {
+      "baseAtk": 336
+    },
     "50": {
       "baseAtk": 341
+    },
+    "51": {
+      "baseAtk": 378
+    },
+    "52": {
+      "baseAtk": 383
+    },
+    "53": {
+      "baseAtk": 388
+    },
+    "54": {
+      "baseAtk": 393
+    },
+    "55": {
+      "baseAtk": 398
+    },
+    "56": {
+      "baseAtk": 403
+    },
+    "57": {
+      "baseAtk": 408
+    },
+    "58": {
+      "baseAtk": 413
+    },
+    "59": {
+      "baseAtk": 418
     },
     "60": {
       "baseAtk": 423
     },
+    "61": {
+      "baseAtk": 460
+    },
+    "62": {
+      "baseAtk": 465
+    },
+    "63": {
+      "baseAtk": 470
+    },
+    "64": {
+      "baseAtk": 475
+    },
+    "65": {
+      "baseAtk": 480
+    },
+    "66": {
+      "baseAtk": 485
+    },
+    "67": {
+      "baseAtk": 491
+    },
+    "68": {
+      "baseAtk": 496
+    },
+    "69": {
+      "baseAtk": 501
+    },
     "70": {
       "baseAtk": 506
     },
+    "71": {
+      "baseAtk": 543
+    },
+    "72": {
+      "baseAtk": 548
+    },
+    "73": {
+      "baseAtk": 553
+    },
+    "74": {
+      "baseAtk": 558
+    },
+    "75": {
+      "baseAtk": 563
+    },
+    "76": {
+      "baseAtk": 569
+    },
+    "77": {
+      "baseAtk": 574
+    },
+    "78": {
+      "baseAtk": 579
+    },
+    "79": {
+      "baseAtk": 585
+    },
     "80": {
       "baseAtk": 590
+    },
+    "81": {
+      "baseAtk": 626
+    },
+    "82": {
+      "baseAtk": 632
+    },
+    "83": {
+      "baseAtk": 637
+    },
+    "84": {
+      "baseAtk": 642
+    },
+    "85": {
+      "baseAtk": 648
+    },
+    "86": {
+      "baseAtk": 653
+    },
+    "87": {
+      "baseAtk": 658
+    },
+    "88": {
+      "baseAtk": 664
+    },
+    "89": {
+      "baseAtk": 669
     },
     "90": {
       "baseAtk": 674
@@ -176,6 +422,361 @@
     },
     "80_ASC": {
       "baseAtk": 621
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Energy Recharge",
+    "levels": {
+      "1": {
+        "energyRecharge": "8.0%"
+      },
+      "2": {
+        "energyRecharge": "8.0%"
+      },
+      "3": {
+        "energyRecharge": "8.0%"
+      },
+      "4": {
+        "energyRecharge": "8.0%"
+      },
+      "5": {
+        "energyRecharge": "9.3%"
+      },
+      "6": {
+        "energyRecharge": "9.3%"
+      },
+      "7": {
+        "energyRecharge": "9.3%"
+      },
+      "8": {
+        "energyRecharge": "9.3%"
+      },
+      "9": {
+        "energyRecharge": "9.3%"
+      },
+      "10": {
+        "energyRecharge": "10.9%"
+      },
+      "11": {
+        "energyRecharge": "10.9%"
+      },
+      "12": {
+        "energyRecharge": "10.9%"
+      },
+      "13": {
+        "energyRecharge": "10.9%"
+      },
+      "14": {
+        "energyRecharge": "10.9%"
+      },
+      "15": {
+        "energyRecharge": "12.5%"
+      },
+      "16": {
+        "energyRecharge": "12.5%"
+      },
+      "17": {
+        "energyRecharge": "12.5%"
+      },
+      "18": {
+        "energyRecharge": "12.5%"
+      },
+      "19": {
+        "energyRecharge": "12.5%"
+      },
+      "20": {
+        "energyRecharge": "14.1%"
+      },
+      "21": {
+        "energyRecharge": "14.1%"
+      },
+      "22": {
+        "energyRecharge": "14.1%"
+      },
+      "23": {
+        "energyRecharge": "14.1%"
+      },
+      "24": {
+        "energyRecharge": "14.1%"
+      },
+      "25": {
+        "energyRecharge": "15.8%"
+      },
+      "26": {
+        "energyRecharge": "15.8%"
+      },
+      "27": {
+        "energyRecharge": "15.8%"
+      },
+      "28": {
+        "energyRecharge": "15.8%"
+      },
+      "29": {
+        "energyRecharge": "15.8%"
+      },
+      "30": {
+        "energyRecharge": "17.4%"
+      },
+      "31": {
+        "energyRecharge": "17.4%"
+      },
+      "32": {
+        "energyRecharge": "17.4%"
+      },
+      "33": {
+        "energyRecharge": "17.4%"
+      },
+      "34": {
+        "energyRecharge": "17.4%"
+      },
+      "35": {
+        "energyRecharge": "19.0%"
+      },
+      "36": {
+        "energyRecharge": "19.0%"
+      },
+      "37": {
+        "energyRecharge": "19.0%"
+      },
+      "38": {
+        "energyRecharge": "19.0%"
+      },
+      "39": {
+        "energyRecharge": "19.0%"
+      },
+      "40": {
+        "energyRecharge": "20.6%"
+      },
+      "41": {
+        "energyRecharge": "20.6%"
+      },
+      "42": {
+        "energyRecharge": "20.6%"
+      },
+      "43": {
+        "energyRecharge": "20.6%"
+      },
+      "44": {
+        "energyRecharge": "20.6%"
+      },
+      "45": {
+        "energyRecharge": "22.2%"
+      },
+      "46": {
+        "energyRecharge": "22.2%"
+      },
+      "47": {
+        "energyRecharge": "22.2%"
+      },
+      "48": {
+        "energyRecharge": "22.2%"
+      },
+      "49": {
+        "energyRecharge": "22.2%"
+      },
+      "50": {
+        "energyRecharge": "23.8%"
+      },
+      "51": {
+        "energyRecharge": "23.8%"
+      },
+      "52": {
+        "energyRecharge": "23.8%"
+      },
+      "53": {
+        "energyRecharge": "23.8%"
+      },
+      "54": {
+        "energyRecharge": "23.8%"
+      },
+      "55": {
+        "energyRecharge": "25.4%"
+      },
+      "56": {
+        "energyRecharge": "25.4%"
+      },
+      "57": {
+        "energyRecharge": "25.4%"
+      },
+      "58": {
+        "energyRecharge": "25.4%"
+      },
+      "59": {
+        "energyRecharge": "25.4%"
+      },
+      "60": {
+        "energyRecharge": "27.1%"
+      },
+      "61": {
+        "energyRecharge": "27.1%"
+      },
+      "62": {
+        "energyRecharge": "27.1%"
+      },
+      "63": {
+        "energyRecharge": "27.1%"
+      },
+      "64": {
+        "energyRecharge": "27.1%"
+      },
+      "65": {
+        "energyRecharge": "28.7%"
+      },
+      "66": {
+        "energyRecharge": "28.7%"
+      },
+      "67": {
+        "energyRecharge": "28.7%"
+      },
+      "68": {
+        "energyRecharge": "28.7%"
+      },
+      "69": {
+        "energyRecharge": "28.7%"
+      },
+      "70": {
+        "energyRecharge": "30.3%"
+      },
+      "71": {
+        "energyRecharge": "30.3%"
+      },
+      "72": {
+        "energyRecharge": "30.3%"
+      },
+      "73": {
+        "energyRecharge": "30.3%"
+      },
+      "74": {
+        "energyRecharge": "30.3%"
+      },
+      "75": {
+        "energyRecharge": "31.9%"
+      },
+      "76": {
+        "energyRecharge": "31.9%"
+      },
+      "77": {
+        "energyRecharge": "31.9%"
+      },
+      "78": {
+        "energyRecharge": "31.9%"
+      },
+      "79": {
+        "energyRecharge": "31.9%"
+      },
+      "80": {
+        "energyRecharge": "33.5%"
+      },
+      "81": {
+        "energyRecharge": "33.5%"
+      },
+      "82": {
+        "energyRecharge": "33.5%"
+      },
+      "83": {
+        "energyRecharge": "33.5%"
+      },
+      "84": {
+        "energyRecharge": "33.5%"
+      },
+      "85": {
+        "energyRecharge": "35.1%"
+      },
+      "86": {
+        "energyRecharge": "35.1%"
+      },
+      "87": {
+        "energyRecharge": "35.1%"
+      },
+      "88": {
+        "energyRecharge": "35.1%"
+      },
+      "89": {
+        "energyRecharge": "35.1%"
+      },
+      "90": {
+        "energyRecharge": "36.8%"
+      },
+      "20_ASC": {
+        "energyRecharge": "14.1%"
+      },
+      "40_ASC": {
+        "energyRecharge": "20.6%"
+      },
+      "50_ASC": {
+        "energyRecharge": "23.8%"
+      },
+      "60_ASC": {
+        "energyRecharge": "27.1%"
+      },
+      "70_ASC": {
+        "energyRecharge": "30.3%"
+      },
+      "80_ASC": {
+        "energyRecharge": "33.5%"
+      }
+    }
+  },
+  "effects": [
+    "Physical DMG",
+    "DMG Bonus",
+    "Effect Triggered by Normal Attack"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Sky-ripping Dragon Spine",
+      "descriptions": [
+        "Increases all DMG by 8%. After using an Elemental Burst, a vacuum blade that does 80% of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "Sky-ripping Dragon Spine",
+      "descriptions": [
+        "Increases all DMG by 10%. After using an Elemental Burst, a vacuum blade that does 100% of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "Sky-ripping Dragon Spine",
+      "descriptions": [
+        "Increases all DMG by 12%. After using an Elemental Burst, a vacuum blade that does 120% of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "Sky-ripping Dragon Spine",
+      "descriptions": [
+        "Increases all DMG by 14%. After using an Elemental Burst, a vacuum blade that does 140% of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "Sky-ripping Dragon Spine",
+      "descriptions": [
+        "Increases all DMG by 16%. After using an Elemental Burst, a vacuum blade that does 160% of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."
+      ],
+      "upgradeCost": []
     }
   }
 }

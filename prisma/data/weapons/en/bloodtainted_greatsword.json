@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 38
     },
+    "2": {
+      "baseAtk": 40
+    },
+    "3": {
+      "baseAtk": 43
+    },
+    "4": {
+      "baseAtk": 46
+    },
+    "5": {
+      "baseAtk": 48
+    },
+    "6": {
+      "baseAtk": 51
+    },
+    "7": {
+      "baseAtk": 53
+    },
+    "8": {
+      "baseAtk": 56
+    },
+    "9": {
+      "baseAtk": 58
+    },
+    "10": {
+      "baseAtk": 61
+    },
+    "11": {
+      "baseAtk": 63
+    },
+    "12": {
+      "baseAtk": 66
+    },
+    "13": {
+      "baseAtk": 68
+    },
+    "14": {
+      "baseAtk": 71
+    },
+    "15": {
+      "baseAtk": 73
+    },
+    "16": {
+      "baseAtk": 76
+    },
+    "17": {
+      "baseAtk": 78
+    },
+    "18": {
+      "baseAtk": 81
+    },
+    "19": {
+      "baseAtk": 83
+    },
     "20": {
       "baseAtk": 86
+    },
+    "21": {
+      "baseAtk": 107
+    },
+    "22": {
+      "baseAtk": 110
+    },
+    "23": {
+      "baseAtk": 112
+    },
+    "24": {
+      "baseAtk": 115
+    },
+    "25": {
+      "baseAtk": 117
+    },
+    "26": {
+      "baseAtk": 119
+    },
+    "27": {
+      "baseAtk": 122
+    },
+    "28": {
+      "baseAtk": 124
+    },
+    "29": {
+      "baseAtk": 126
+    },
+    "30": {
+      "baseAtk": 129
+    },
+    "31": {
+      "baseAtk": 131
+    },
+    "32": {
+      "baseAtk": 133
+    },
+    "33": {
+      "baseAtk": 135
+    },
+    "34": {
+      "baseAtk": 138
+    },
+    "35": {
+      "baseAtk": 140
+    },
+    "36": {
+      "baseAtk": 142
+    },
+    "37": {
+      "baseAtk": 145
+    },
+    "38": {
+      "baseAtk": 147
+    },
+    "39": {
+      "baseAtk": 149
     },
     "40": {
       "baseAtk": 151
     },
+    "41": {
+      "baseAtk": 173
+    },
+    "42": {
+      "baseAtk": 175
+    },
+    "43": {
+      "baseAtk": 177
+    },
+    "44": {
+      "baseAtk": 180
+    },
+    "45": {
+      "baseAtk": 182
+    },
+    "46": {
+      "baseAtk": 184
+    },
+    "47": {
+      "baseAtk": 186
+    },
+    "48": {
+      "baseAtk": 188
+    },
+    "49": {
+      "baseAtk": 191
+    },
     "50": {
       "baseAtk": 193
+    },
+    "51": {
+      "baseAtk": 214
+    },
+    "52": {
+      "baseAtk": 217
+    },
+    "53": {
+      "baseAtk": 219
+    },
+    "54": {
+      "baseAtk": 221
+    },
+    "55": {
+      "baseAtk": 223
+    },
+    "56": {
+      "baseAtk": 225
+    },
+    "57": {
+      "baseAtk": 227
+    },
+    "58": {
+      "baseAtk": 229
+    },
+    "59": {
+      "baseAtk": 232
     },
     "60": {
       "baseAtk": 234
     },
+    "61": {
+      "baseAtk": 255
+    },
+    "62": {
+      "baseAtk": 257
+    },
+    "63": {
+      "baseAtk": 259
+    },
+    "64": {
+      "baseAtk": 262
+    },
+    "65": {
+      "baseAtk": 264
+    },
+    "66": {
+      "baseAtk": 266
+    },
+    "67": {
+      "baseAtk": 268
+    },
+    "68": {
+      "baseAtk": 270
+    },
+    "69": {
+      "baseAtk": 272
+    },
     "70": {
       "baseAtk": 274
     },
+    "71": {
+      "baseAtk": 296
+    },
+    "72": {
+      "baseAtk": 298
+    },
+    "73": {
+      "baseAtk": 300
+    },
+    "74": {
+      "baseAtk": 302
+    },
+    "75": {
+      "baseAtk": 304
+    },
+    "76": {
+      "baseAtk": 306
+    },
+    "77": {
+      "baseAtk": 308
+    },
+    "78": {
+      "baseAtk": 310
+    },
+    "79": {
+      "baseAtk": 312
+    },
     "80": {
       "baseAtk": 314
+    },
+    "81": {
+      "baseAtk": 336
+    },
+    "82": {
+      "baseAtk": 338
+    },
+    "83": {
+      "baseAtk": 340
+    },
+    "84": {
+      "baseAtk": 342
+    },
+    "85": {
+      "baseAtk": 344
+    },
+    "86": {
+      "baseAtk": 346
+    },
+    "87": {
+      "baseAtk": 348
+    },
+    "88": {
+      "baseAtk": 350
+    },
+    "89": {
+      "baseAtk": 352
     },
     "90": {
       "baseAtk": 354
@@ -176,6 +422,359 @@
     },
     "80_ASC": {
       "baseAtk": 334
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Elemental Mastery",
+    "levels": {
+      "1": {
+        "elementalMastery": "41"
+      },
+      "2": {
+        "elementalMastery": "41"
+      },
+      "3": {
+        "elementalMastery": "41"
+      },
+      "4": {
+        "elementalMastery": "41"
+      },
+      "5": {
+        "elementalMastery": "47"
+      },
+      "6": {
+        "elementalMastery": "47"
+      },
+      "7": {
+        "elementalMastery": "47"
+      },
+      "8": {
+        "elementalMastery": "47"
+      },
+      "9": {
+        "elementalMastery": "47"
+      },
+      "10": {
+        "elementalMastery": "56"
+      },
+      "11": {
+        "elementalMastery": "56"
+      },
+      "12": {
+        "elementalMastery": "56"
+      },
+      "13": {
+        "elementalMastery": "56"
+      },
+      "14": {
+        "elementalMastery": "56"
+      },
+      "15": {
+        "elementalMastery": "64"
+      },
+      "16": {
+        "elementalMastery": "64"
+      },
+      "17": {
+        "elementalMastery": "64"
+      },
+      "18": {
+        "elementalMastery": "64"
+      },
+      "19": {
+        "elementalMastery": "64"
+      },
+      "20": {
+        "elementalMastery": "72"
+      },
+      "21": {
+        "elementalMastery": "72"
+      },
+      "22": {
+        "elementalMastery": "72"
+      },
+      "23": {
+        "elementalMastery": "72"
+      },
+      "24": {
+        "elementalMastery": "72"
+      },
+      "25": {
+        "elementalMastery": "80"
+      },
+      "26": {
+        "elementalMastery": "80"
+      },
+      "27": {
+        "elementalMastery": "80"
+      },
+      "28": {
+        "elementalMastery": "80"
+      },
+      "29": {
+        "elementalMastery": "80"
+      },
+      "30": {
+        "elementalMastery": "89"
+      },
+      "31": {
+        "elementalMastery": "89"
+      },
+      "32": {
+        "elementalMastery": "89"
+      },
+      "33": {
+        "elementalMastery": "89"
+      },
+      "34": {
+        "elementalMastery": "89"
+      },
+      "35": {
+        "elementalMastery": "97"
+      },
+      "36": {
+        "elementalMastery": "97"
+      },
+      "37": {
+        "elementalMastery": "97"
+      },
+      "38": {
+        "elementalMastery": "97"
+      },
+      "39": {
+        "elementalMastery": "97"
+      },
+      "40": {
+        "elementalMastery": "105"
+      },
+      "41": {
+        "elementalMastery": "105"
+      },
+      "42": {
+        "elementalMastery": "105"
+      },
+      "43": {
+        "elementalMastery": "105"
+      },
+      "44": {
+        "elementalMastery": "105"
+      },
+      "45": {
+        "elementalMastery": "113"
+      },
+      "46": {
+        "elementalMastery": "113"
+      },
+      "47": {
+        "elementalMastery": "113"
+      },
+      "48": {
+        "elementalMastery": "113"
+      },
+      "49": {
+        "elementalMastery": "113"
+      },
+      "50": {
+        "elementalMastery": "122"
+      },
+      "51": {
+        "elementalMastery": "122"
+      },
+      "52": {
+        "elementalMastery": "122"
+      },
+      "53": {
+        "elementalMastery": "122"
+      },
+      "54": {
+        "elementalMastery": "122"
+      },
+      "55": {
+        "elementalMastery": "130"
+      },
+      "56": {
+        "elementalMastery": "130"
+      },
+      "57": {
+        "elementalMastery": "130"
+      },
+      "58": {
+        "elementalMastery": "130"
+      },
+      "59": {
+        "elementalMastery": "130"
+      },
+      "60": {
+        "elementalMastery": "138"
+      },
+      "61": {
+        "elementalMastery": "138"
+      },
+      "62": {
+        "elementalMastery": "138"
+      },
+      "63": {
+        "elementalMastery": "138"
+      },
+      "64": {
+        "elementalMastery": "138"
+      },
+      "65": {
+        "elementalMastery": "146"
+      },
+      "66": {
+        "elementalMastery": "146"
+      },
+      "67": {
+        "elementalMastery": "146"
+      },
+      "68": {
+        "elementalMastery": "146"
+      },
+      "69": {
+        "elementalMastery": "146"
+      },
+      "70": {
+        "elementalMastery": "154"
+      },
+      "71": {
+        "elementalMastery": "154"
+      },
+      "72": {
+        "elementalMastery": "154"
+      },
+      "73": {
+        "elementalMastery": "154"
+      },
+      "74": {
+        "elementalMastery": "154"
+      },
+      "75": {
+        "elementalMastery": "163"
+      },
+      "76": {
+        "elementalMastery": "163"
+      },
+      "77": {
+        "elementalMastery": "163"
+      },
+      "78": {
+        "elementalMastery": "163"
+      },
+      "79": {
+        "elementalMastery": "163"
+      },
+      "80": {
+        "elementalMastery": "171"
+      },
+      "81": {
+        "elementalMastery": "171"
+      },
+      "82": {
+        "elementalMastery": "171"
+      },
+      "83": {
+        "elementalMastery": "171"
+      },
+      "84": {
+        "elementalMastery": "171"
+      },
+      "85": {
+        "elementalMastery": "179"
+      },
+      "86": {
+        "elementalMastery": "179"
+      },
+      "87": {
+        "elementalMastery": "179"
+      },
+      "88": {
+        "elementalMastery": "179"
+      },
+      "89": {
+        "elementalMastery": "179"
+      },
+      "90": {
+        "elementalMastery": "187"
+      },
+      "20_ASC": {
+        "elementalMastery": "72"
+      },
+      "40_ASC": {
+        "elementalMastery": "105"
+      },
+      "50_ASC": {
+        "elementalMastery": "122"
+      },
+      "60_ASC": {
+        "elementalMastery": "138"
+      },
+      "70_ASC": {
+        "elementalMastery": "154"
+      },
+      "80_ASC": {
+        "elementalMastery": "171"
+      }
+    }
+  },
+  "effects": [
+    "DMG Bonus"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Bane of Fire and Thunder",
+      "descriptions": [
+        "Increases DMG against opponents affected by Pyro or Electro by 12%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 500
+        }
+      ]
+    },
+    "2": {
+      "title": "Bane of Fire and Thunder",
+      "descriptions": [
+        "Increases DMG against opponents affected by Pyro or Electro by 15%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "3": {
+      "title": "Bane of Fire and Thunder",
+      "descriptions": [
+        "Increases DMG against opponents affected by Pyro or Electro by 18%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "4": {
+      "title": "Bane of Fire and Thunder",
+      "descriptions": [
+        "Increases DMG against opponents affected by Pyro or Electro by 21%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "5": {
+      "title": "Bane of Fire and Thunder",
+      "descriptions": [
+        "Increases DMG against opponents affected by Pyro or Electro by 24%."
+      ],
+      "upgradeCost": []
     }
   }
 }

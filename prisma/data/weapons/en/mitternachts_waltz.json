@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 42
     },
+    "2": {
+      "baseAtk": 46
+    },
+    "3": {
+      "baseAtk": 49
+    },
+    "4": {
+      "baseAtk": 53
+    },
+    "5": {
+      "baseAtk": 56
+    },
+    "6": {
+      "baseAtk": 60
+    },
+    "7": {
+      "baseAtk": 63
+    },
+    "8": {
+      "baseAtk": 67
+    },
+    "9": {
+      "baseAtk": 70
+    },
+    "10": {
+      "baseAtk": 74
+    },
+    "11": {
+      "baseAtk": 77
+    },
+    "12": {
+      "baseAtk": 81
+    },
+    "13": {
+      "baseAtk": 84
+    },
+    "14": {
+      "baseAtk": 88
+    },
+    "15": {
+      "baseAtk": 91
+    },
+    "16": {
+      "baseAtk": 95
+    },
+    "17": {
+      "baseAtk": 98
+    },
+    "18": {
+      "baseAtk": 102
+    },
+    "19": {
+      "baseAtk": 105
+    },
     "20": {
       "baseAtk": 109
+    },
+    "21": {
+      "baseAtk": 138
+    },
+    "22": {
+      "baseAtk": 142
+    },
+    "23": {
+      "baseAtk": 145
+    },
+    "24": {
+      "baseAtk": 149
+    },
+    "25": {
+      "baseAtk": 152
+    },
+    "26": {
+      "baseAtk": 156
+    },
+    "27": {
+      "baseAtk": 159
+    },
+    "28": {
+      "baseAtk": 163
+    },
+    "29": {
+      "baseAtk": 166
+    },
+    "30": {
+      "baseAtk": 170
+    },
+    "31": {
+      "baseAtk": 173
+    },
+    "32": {
+      "baseAtk": 177
+    },
+    "33": {
+      "baseAtk": 180
+    },
+    "34": {
+      "baseAtk": 184
+    },
+    "35": {
+      "baseAtk": 187
+    },
+    "36": {
+      "baseAtk": 191
+    },
+    "37": {
+      "baseAtk": 194
+    },
+    "38": {
+      "baseAtk": 198
+    },
+    "39": {
+      "baseAtk": 201
     },
     "40": {
       "baseAtk": 205
     },
+    "41": {
+      "baseAtk": 234
+    },
+    "42": {
+      "baseAtk": 238
+    },
+    "43": {
+      "baseAtk": 241
+    },
+    "44": {
+      "baseAtk": 245
+    },
+    "45": {
+      "baseAtk": 248
+    },
+    "46": {
+      "baseAtk": 252
+    },
+    "47": {
+      "baseAtk": 255
+    },
+    "48": {
+      "baseAtk": 259
+    },
+    "49": {
+      "baseAtk": 262
+    },
     "50": {
       "baseAtk": 266
+    },
+    "51": {
+      "baseAtk": 295
+    },
+    "52": {
+      "baseAtk": 299
+    },
+    "53": {
+      "baseAtk": 302
+    },
+    "54": {
+      "baseAtk": 306
+    },
+    "55": {
+      "baseAtk": 309
+    },
+    "56": {
+      "baseAtk": 313
+    },
+    "57": {
+      "baseAtk": 316
+    },
+    "58": {
+      "baseAtk": 320
+    },
+    "59": {
+      "baseAtk": 323
     },
     "60": {
       "baseAtk": 327
     },
+    "61": {
+      "baseAtk": 356
+    },
+    "62": {
+      "baseAtk": 360
+    },
+    "63": {
+      "baseAtk": 363
+    },
+    "64": {
+      "baseAtk": 367
+    },
+    "65": {
+      "baseAtk": 370
+    },
+    "66": {
+      "baseAtk": 374
+    },
+    "67": {
+      "baseAtk": 377
+    },
+    "68": {
+      "baseAtk": 381
+    },
+    "69": {
+      "baseAtk": 384
+    },
     "70": {
       "baseAtk": 388
     },
+    "71": {
+      "baseAtk": 417
+    },
+    "72": {
+      "baseAtk": 421
+    },
+    "73": {
+      "baseAtk": 424
+    },
+    "74": {
+      "baseAtk": 428
+    },
+    "75": {
+      "baseAtk": 431
+    },
+    "76": {
+      "baseAtk": 435
+    },
+    "77": {
+      "baseAtk": 438
+    },
+    "78": {
+      "baseAtk": 442
+    },
+    "79": {
+      "baseAtk": 445
+    },
     "80": {
       "baseAtk": 449
+    },
+    "81": {
+      "baseAtk": 478
+    },
+    "82": {
+      "baseAtk": 482
+    },
+    "83": {
+      "baseAtk": 485
+    },
+    "84": {
+      "baseAtk": 489
+    },
+    "85": {
+      "baseAtk": 492
+    },
+    "86": {
+      "baseAtk": 496
+    },
+    "87": {
+      "baseAtk": 499
+    },
+    "88": {
+      "baseAtk": 503
+    },
+    "89": {
+      "baseAtk": 506
     },
     "90": {
       "baseAtk": 510
@@ -176,6 +422,362 @@
     },
     "80_ASC": {
       "baseAtk": 475
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Physical DMG Bonus",
+    "levels": {
+      "1": {
+        "physDmgBonus": "11.3%"
+      },
+      "2": {
+        "physDmgBonus": "11.3%"
+      },
+      "3": {
+        "physDmgBonus": "11.3%"
+      },
+      "4": {
+        "physDmgBonus": "11.3%"
+      },
+      "5": {
+        "physDmgBonus": "13.1%"
+      },
+      "6": {
+        "physDmgBonus": "13.1%"
+      },
+      "7": {
+        "physDmgBonus": "13.1%"
+      },
+      "8": {
+        "physDmgBonus": "13.1%"
+      },
+      "9": {
+        "physDmgBonus": "13.1%"
+      },
+      "10": {
+        "physDmgBonus": "15.3%"
+      },
+      "11": {
+        "physDmgBonus": "15.3%"
+      },
+      "12": {
+        "physDmgBonus": "15.3%"
+      },
+      "13": {
+        "physDmgBonus": "15.3%"
+      },
+      "14": {
+        "physDmgBonus": "15.3%"
+      },
+      "15": {
+        "physDmgBonus": "17.6%"
+      },
+      "16": {
+        "physDmgBonus": "17.6%"
+      },
+      "17": {
+        "physDmgBonus": "17.6%"
+      },
+      "18": {
+        "physDmgBonus": "17.6%"
+      },
+      "19": {
+        "physDmgBonus": "17.6%"
+      },
+      "20": {
+        "physDmgBonus": "19.9%"
+      },
+      "21": {
+        "physDmgBonus": "19.9%"
+      },
+      "22": {
+        "physDmgBonus": "19.9%"
+      },
+      "23": {
+        "physDmgBonus": "19.9%"
+      },
+      "24": {
+        "physDmgBonus": "19.9%"
+      },
+      "25": {
+        "physDmgBonus": "22.2%"
+      },
+      "26": {
+        "physDmgBonus": "22.2%"
+      },
+      "27": {
+        "physDmgBonus": "22.2%"
+      },
+      "28": {
+        "physDmgBonus": "22.2%"
+      },
+      "29": {
+        "physDmgBonus": "22.2%"
+      },
+      "30": {
+        "physDmgBonus": "24.4%"
+      },
+      "31": {
+        "physDmgBonus": "24.4%"
+      },
+      "32": {
+        "physDmgBonus": "24.4%"
+      },
+      "33": {
+        "physDmgBonus": "24.4%"
+      },
+      "34": {
+        "physDmgBonus": "24.4%"
+      },
+      "35": {
+        "physDmgBonus": "26.7%"
+      },
+      "36": {
+        "physDmgBonus": "26.7%"
+      },
+      "37": {
+        "physDmgBonus": "26.7%"
+      },
+      "38": {
+        "physDmgBonus": "26.7%"
+      },
+      "39": {
+        "physDmgBonus": "26.7%"
+      },
+      "40": {
+        "physDmgBonus": "29.0%"
+      },
+      "41": {
+        "physDmgBonus": "29.0%"
+      },
+      "42": {
+        "physDmgBonus": "29.0%"
+      },
+      "43": {
+        "physDmgBonus": "29.0%"
+      },
+      "44": {
+        "physDmgBonus": "29.0%"
+      },
+      "45": {
+        "physDmgBonus": "31.3%"
+      },
+      "46": {
+        "physDmgBonus": "31.3%"
+      },
+      "47": {
+        "physDmgBonus": "31.3%"
+      },
+      "48": {
+        "physDmgBonus": "31.3%"
+      },
+      "49": {
+        "physDmgBonus": "31.3%"
+      },
+      "50": {
+        "physDmgBonus": "33.5%"
+      },
+      "51": {
+        "physDmgBonus": "33.5%"
+      },
+      "52": {
+        "physDmgBonus": "33.5%"
+      },
+      "53": {
+        "physDmgBonus": "33.5%"
+      },
+      "54": {
+        "physDmgBonus": "33.5%"
+      },
+      "55": {
+        "physDmgBonus": "35.8%"
+      },
+      "56": {
+        "physDmgBonus": "35.8%"
+      },
+      "57": {
+        "physDmgBonus": "35.8%"
+      },
+      "58": {
+        "physDmgBonus": "35.8%"
+      },
+      "59": {
+        "physDmgBonus": "35.8%"
+      },
+      "60": {
+        "physDmgBonus": "38.1%"
+      },
+      "61": {
+        "physDmgBonus": "38.1%"
+      },
+      "62": {
+        "physDmgBonus": "38.1%"
+      },
+      "63": {
+        "physDmgBonus": "38.1%"
+      },
+      "64": {
+        "physDmgBonus": "38.1%"
+      },
+      "65": {
+        "physDmgBonus": "40.4%"
+      },
+      "66": {
+        "physDmgBonus": "40.4%"
+      },
+      "67": {
+        "physDmgBonus": "40.4%"
+      },
+      "68": {
+        "physDmgBonus": "40.4%"
+      },
+      "69": {
+        "physDmgBonus": "40.4%"
+      },
+      "70": {
+        "physDmgBonus": "42.6%"
+      },
+      "71": {
+        "physDmgBonus": "42.6%"
+      },
+      "72": {
+        "physDmgBonus": "42.6%"
+      },
+      "73": {
+        "physDmgBonus": "42.6%"
+      },
+      "74": {
+        "physDmgBonus": "42.6%"
+      },
+      "75": {
+        "physDmgBonus": "44.9%"
+      },
+      "76": {
+        "physDmgBonus": "44.9%"
+      },
+      "77": {
+        "physDmgBonus": "44.9%"
+      },
+      "78": {
+        "physDmgBonus": "44.9%"
+      },
+      "79": {
+        "physDmgBonus": "44.9%"
+      },
+      "80": {
+        "physDmgBonus": "47.2%"
+      },
+      "81": {
+        "physDmgBonus": "47.2%"
+      },
+      "82": {
+        "physDmgBonus": "47.2%"
+      },
+      "83": {
+        "physDmgBonus": "47.2%"
+      },
+      "84": {
+        "physDmgBonus": "47.2%"
+      },
+      "85": {
+        "physDmgBonus": "49.5%"
+      },
+      "86": {
+        "physDmgBonus": "49.5%"
+      },
+      "87": {
+        "physDmgBonus": "49.5%"
+      },
+      "88": {
+        "physDmgBonus": "49.5%"
+      },
+      "89": {
+        "physDmgBonus": "49.5%"
+      },
+      "90": {
+        "physDmgBonus": "51.7%"
+      },
+      "20_ASC": {
+        "physDmgBonus": "19.9%"
+      },
+      "40_ASC": {
+        "physDmgBonus": "29.0%"
+      },
+      "50_ASC": {
+        "physDmgBonus": "33.5%"
+      },
+      "60_ASC": {
+        "physDmgBonus": "38.1%"
+      },
+      "70_ASC": {
+        "physDmgBonus": "42.6%"
+      },
+      "80_ASC": {
+        "physDmgBonus": "47.2%"
+      }
+    }
+  },
+  "effects": [
+    "DMG Bonus",
+    "Normal Attack DMG Bonus",
+    "Elemental Skill DMG Bonus",
+    "Effect Triggered by Normal Attack"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Evernight Duet",
+      "descriptions": [
+        "Normal Attack hits on opponents increase Elemental Skill DMG by 20% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 20% for 5s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Evernight Duet",
+      "descriptions": [
+        "Normal Attack hits on opponents increase Elemental Skill DMG by 25% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 25% for 5s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Evernight Duet",
+      "descriptions": [
+        "Normal Attack hits on opponents increase Elemental Skill DMG by 30% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 30% for 5s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Evernight Duet",
+      "descriptions": [
+        "Normal Attack hits on opponents increase Elemental Skill DMG by 35% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 35% for 5s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Evernight Duet",
+      "descriptions": [
+        "Normal Attack hits on opponents increase Elemental Skill DMG by 40% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 40% for 5s."
+      ],
+      "upgradeCost": []
     }
   }
 }

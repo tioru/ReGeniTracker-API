@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 44
     },
+    "2": {
+      "baseAtk": 48
+    },
+    "3": {
+      "baseAtk": 51
+    },
+    "4": {
+      "baseAtk": 55
+    },
+    "5": {
+      "baseAtk": 58
+    },
+    "6": {
+      "baseAtk": 62
+    },
+    "7": {
+      "baseAtk": 65
+    },
+    "8": {
+      "baseAtk": 69
+    },
+    "9": {
+      "baseAtk": 72
+    },
+    "10": {
+      "baseAtk": 76
+    },
+    "11": {
+      "baseAtk": 79
+    },
+    "12": {
+      "baseAtk": 83
+    },
+    "13": {
+      "baseAtk": 86
+    },
+    "14": {
+      "baseAtk": 90
+    },
+    "15": {
+      "baseAtk": 93
+    },
+    "16": {
+      "baseAtk": 96
+    },
+    "17": {
+      "baseAtk": 100
+    },
+    "18": {
+      "baseAtk": 103
+    },
+    "19": {
+      "baseAtk": 107
+    },
     "20": {
       "baseAtk": 110
+    },
+    "21": {
+      "baseAtk": 145
+    },
+    "22": {
+      "baseAtk": 148
+    },
+    "23": {
+      "baseAtk": 152
+    },
+    "24": {
+      "baseAtk": 155
+    },
+    "25": {
+      "baseAtk": 158
+    },
+    "26": {
+      "baseAtk": 162
+    },
+    "27": {
+      "baseAtk": 165
+    },
+    "28": {
+      "baseAtk": 169
+    },
+    "29": {
+      "baseAtk": 172
+    },
+    "30": {
+      "baseAtk": 176
+    },
+    "31": {
+      "baseAtk": 179
+    },
+    "32": {
+      "baseAtk": 182
+    },
+    "33": {
+      "baseAtk": 186
+    },
+    "34": {
+      "baseAtk": 189
+    },
+    "35": {
+      "baseAtk": 193
+    },
+    "36": {
+      "baseAtk": 196
+    },
+    "37": {
+      "baseAtk": 199
+    },
+    "38": {
+      "baseAtk": 203
+    },
+    "39": {
+      "baseAtk": 206
     },
     "40": {
       "baseAtk": 210
     },
+    "41": {
+      "baseAtk": 244
+    },
+    "42": {
+      "baseAtk": 248
+    },
+    "43": {
+      "baseAtk": 251
+    },
+    "44": {
+      "baseAtk": 255
+    },
+    "45": {
+      "baseAtk": 258
+    },
+    "46": {
+      "baseAtk": 262
+    },
+    "47": {
+      "baseAtk": 265
+    },
+    "48": {
+      "baseAtk": 268
+    },
+    "49": {
+      "baseAtk": 272
+    },
     "50": {
       "baseAtk": 275
+    },
+    "51": {
+      "baseAtk": 310
+    },
+    "52": {
+      "baseAtk": 314
+    },
+    "53": {
+      "baseAtk": 317
+    },
+    "54": {
+      "baseAtk": 321
+    },
+    "55": {
+      "baseAtk": 324
+    },
+    "56": {
+      "baseAtk": 327
+    },
+    "57": {
+      "baseAtk": 331
+    },
+    "58": {
+      "baseAtk": 334
+    },
+    "59": {
+      "baseAtk": 338
     },
     "60": {
       "baseAtk": 341
     },
+    "61": {
+      "baseAtk": 376
+    },
+    "62": {
+      "baseAtk": 380
+    },
+    "63": {
+      "baseAtk": 383
+    },
+    "64": {
+      "baseAtk": 387
+    },
+    "65": {
+      "baseAtk": 390
+    },
+    "66": {
+      "baseAtk": 394
+    },
+    "67": {
+      "baseAtk": 397
+    },
+    "68": {
+      "baseAtk": 401
+    },
+    "69": {
+      "baseAtk": 404
+    },
     "70": {
       "baseAtk": 408
     },
+    "71": {
+      "baseAtk": 442
+    },
+    "72": {
+      "baseAtk": 446
+    },
+    "73": {
+      "baseAtk": 450
+    },
+    "74": {
+      "baseAtk": 453
+    },
+    "75": {
+      "baseAtk": 457
+    },
+    "76": {
+      "baseAtk": 460
+    },
+    "77": {
+      "baseAtk": 464
+    },
+    "78": {
+      "baseAtk": 467
+    },
+    "79": {
+      "baseAtk": 471
+    },
     "80": {
       "baseAtk": 475
+    },
+    "81": {
+      "baseAtk": 509
+    },
+    "82": {
+      "baseAtk": 513
+    },
+    "83": {
+      "baseAtk": 516
+    },
+    "84": {
+      "baseAtk": 520
+    },
+    "85": {
+      "baseAtk": 524
+    },
+    "86": {
+      "baseAtk": 527
+    },
+    "87": {
+      "baseAtk": 531
+    },
+    "88": {
+      "baseAtk": 535
+    },
+    "89": {
+      "baseAtk": 538
     },
     "90": {
       "baseAtk": 542
@@ -169,13 +415,367 @@
       "baseAtk": 307
     },
     "60_ASC": {
-      "baseAtk": 372
+      "baseAtk": 373
     },
     "70_ASC": {
-      "baseAtk": 408
+      "baseAtk": 439
     },
     "80_ASC": {
       "baseAtk": 506
+    }
+  },
+  "secondaryAttribute": {
+    "type": "DGT CRIT",
+    "levels": {
+      "1": {
+        "crtDmg": "19,2 %"
+      },
+      "2": {
+        "crtDmg": "19,2 %"
+      },
+      "3": {
+        "crtDmg": "19,2 %"
+      },
+      "4": {
+        "crtDmg": "19,2 %"
+      },
+      "5": {
+        "crtDmg": "22,3 %"
+      },
+      "6": {
+        "crtDmg": "22,3 %"
+      },
+      "7": {
+        "crtDmg": "22,3 %"
+      },
+      "8": {
+        "crtDmg": "22,3 %"
+      },
+      "9": {
+        "crtDmg": "22,3 %"
+      },
+      "10": {
+        "crtDmg": "26,2 %"
+      },
+      "11": {
+        "crtDmg": "26,2 %"
+      },
+      "12": {
+        "crtDmg": "26,2 %"
+      },
+      "13": {
+        "crtDmg": "26,2 %"
+      },
+      "14": {
+        "crtDmg": "26,2 %"
+      },
+      "15": {
+        "crtDmg": "30,0 %"
+      },
+      "16": {
+        "crtDmg": "30,0 %"
+      },
+      "17": {
+        "crtDmg": "30,0 %"
+      },
+      "18": {
+        "crtDmg": "30,0 %"
+      },
+      "19": {
+        "crtDmg": "30,0 %"
+      },
+      "20": {
+        "crtDmg": "33,9 %"
+      },
+      "21": {
+        "crtDmg": "33,9 %"
+      },
+      "22": {
+        "crtDmg": "33,9 %"
+      },
+      "23": {
+        "crtDmg": "33,9 %"
+      },
+      "24": {
+        "crtDmg": "33,9 %"
+      },
+      "25": {
+        "crtDmg": "37,8 %"
+      },
+      "26": {
+        "crtDmg": "37,8 %"
+      },
+      "27": {
+        "crtDmg": "37,8 %"
+      },
+      "28": {
+        "crtDmg": "37,8 %"
+      },
+      "29": {
+        "crtDmg": "37,8 %"
+      },
+      "30": {
+        "crtDmg": "41,7 %"
+      },
+      "31": {
+        "crtDmg": "41,7 %"
+      },
+      "32": {
+        "crtDmg": "41,7 %"
+      },
+      "33": {
+        "crtDmg": "41,7 %"
+      },
+      "34": {
+        "crtDmg": "41,7 %"
+      },
+      "35": {
+        "crtDmg": "45,6 %"
+      },
+      "36": {
+        "crtDmg": "45,6 %"
+      },
+      "37": {
+        "crtDmg": "45,6 %"
+      },
+      "38": {
+        "crtDmg": "45,6 %"
+      },
+      "39": {
+        "crtDmg": "45,6 %"
+      },
+      "40": {
+        "crtDmg": "49,4 %"
+      },
+      "41": {
+        "crtDmg": "49,4 %"
+      },
+      "42": {
+        "crtDmg": "49,4 %"
+      },
+      "43": {
+        "crtDmg": "49,4 %"
+      },
+      "44": {
+        "crtDmg": "49,4 %"
+      },
+      "45": {
+        "crtDmg": "53,3 %"
+      },
+      "46": {
+        "crtDmg": "53,3 %"
+      },
+      "47": {
+        "crtDmg": "53,3 %"
+      },
+      "48": {
+        "crtDmg": "53,3 %"
+      },
+      "49": {
+        "crtDmg": "53,3 %"
+      },
+      "50": {
+        "crtDmg": "57,2 %"
+      },
+      "51": {
+        "crtDmg": "57,2 %"
+      },
+      "52": {
+        "crtDmg": "57,2 %"
+      },
+      "53": {
+        "crtDmg": "57,2 %"
+      },
+      "54": {
+        "crtDmg": "57,2 %"
+      },
+      "55": {
+        "crtDmg": "61,1 %"
+      },
+      "56": {
+        "crtDmg": "61,1 %"
+      },
+      "57": {
+        "crtDmg": "61,1 %"
+      },
+      "58": {
+        "crtDmg": "61,1 %"
+      },
+      "59": {
+        "crtDmg": "61,1 %"
+      },
+      "60": {
+        "crtDmg": "65,0 %"
+      },
+      "61": {
+        "crtDmg": "65,0 %"
+      },
+      "62": {
+        "crtDmg": "65,0 %"
+      },
+      "63": {
+        "crtDmg": "65,0 %"
+      },
+      "64": {
+        "crtDmg": "65,0 %"
+      },
+      "65": {
+        "crtDmg": "68,8 %"
+      },
+      "66": {
+        "crtDmg": "68,8 %"
+      },
+      "67": {
+        "crtDmg": "68,8 %"
+      },
+      "68": {
+        "crtDmg": "68,8 %"
+      },
+      "69": {
+        "crtDmg": "68,8 %"
+      },
+      "70": {
+        "crtDmg": "72,7 %"
+      },
+      "71": {
+        "crtDmg": "72,7 %"
+      },
+      "72": {
+        "crtDmg": "72,7 %"
+      },
+      "73": {
+        "crtDmg": "72,7 %"
+      },
+      "74": {
+        "crtDmg": "72,7 %"
+      },
+      "75": {
+        "crtDmg": "76,6 %"
+      },
+      "76": {
+        "crtDmg": "76,6 %"
+      },
+      "77": {
+        "crtDmg": "76,6 %"
+      },
+      "78": {
+        "crtDmg": "76,6 %"
+      },
+      "79": {
+        "crtDmg": "76,6 %"
+      },
+      "80": {
+        "crtDmg": "80,4 %"
+      },
+      "81": {
+        "crtDmg": "80,4 %"
+      },
+      "82": {
+        "crtDmg": "80,4 %"
+      },
+      "83": {
+        "crtDmg": "80,4 %"
+      },
+      "84": {
+        "crtDmg": "80,4 %"
+      },
+      "85": {
+        "crtDmg": "84,3 %"
+      },
+      "86": {
+        "crtDmg": "84,3 %"
+      },
+      "87": {
+        "crtDmg": "84,3 %"
+      },
+      "88": {
+        "crtDmg": "84,3 %"
+      },
+      "89": {
+        "crtDmg": "84,3 %"
+      },
+      "90": {
+        "crtDmg": "88,2 %"
+      },
+      "20_ASC": {
+        "crtDmg": "33,9 %"
+      },
+      "40_ASC": {
+        "crtDmg": "49,4 %"
+      },
+      "50_ASC": {
+        "crtDmg": "57,2 %"
+      },
+      "60_ASC": {
+        "crtDmg": "65,0 %"
+      },
+      "70_ASC": {
+        "crtDmg": "72,7 %"
+      },
+      "80_ASC": {
+        "crtDmg": "80,4 %"
+      }
+    }
+  },
+  "effects": [
+    "HP",
+    "Normal Attack DMG Bonus"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Souvenir aquacolore",
+      "descriptions": [
+        "Augmente les PV max de 20 %. Toutes les 15 s, l'effet suivant se produit pendant 14 s après avoir utilisé une compétence élémentaire : accorde 4 cumuls d'été flamboyant, chaque cumul augmentant les DGT des attaques normales de 12 %. Une fois toutes les 1,5 s pendant cette durée, toucher un ennemi avec une attaque normale consomme un cumul. Une fois toutes les 1,5 s, déclencher une réaction d'Évaporation sur un ennemi rajoute un cumul. L'effet Été flamboyant peut être cumulé 4 fois maximum."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "Souvenir aquacolore",
+      "descriptions": [
+        "Augmente les PV max de 25 %. Toutes les 15 s, l'effet suivant se produit pendant 14 s après avoir utilisé une compétence élémentaire : accorde 4 cumuls d'été flamboyant, chaque cumul augmentant les DGT des attaques normales de 15 %. Une fois toutes les 1,5 s pendant cette durée, toucher un ennemi avec une attaque normale consomme un cumul. Une fois toutes les 1,5 s, déclencher une réaction d'Évaporation sur un ennemi rajoute un cumul. L'effet Été flamboyant peut être cumulé 4 fois maximum."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "Souvenir aquacolore",
+      "descriptions": [
+        "Augmente les PV max de 30 %. Toutes les 15 s, l'effet suivant se produit pendant 14 s après avoir utilisé une compétence élémentaire : accorde 4 cumuls d'été flamboyant, chaque cumul augmentant les DGT des attaques normales de 18 %. Une fois toutes les 1,5 s pendant cette durée, toucher un ennemi avec une attaque normale consomme un cumul. Une fois toutes les 1,5 s, déclencher une réaction d'Évaporation sur un ennemi rajoute un cumul. L'effet Été flamboyant peut être cumulé 4 fois maximum."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "Souvenir aquacolore",
+      "descriptions": [
+        "Augmente les PV max de 35 %. Toutes les 15 s, l'effet suivant se produit pendant 14 s après avoir utilisé une compétence élémentaire : accorde 4 cumuls d'été flamboyant, chaque cumul augmentant les DGT des attaques normales de 21 %. Une fois toutes les 1,5 s pendant cette durée, toucher un ennemi avec une attaque normale consomme un cumul. Une fois toutes les 1,5 s, déclencher une réaction d'Évaporation sur un ennemi rajoute un cumul. L'effet Été flamboyant peut être cumulé 4 fois maximum."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "Souvenir aquacolore",
+      "descriptions": [
+        "Augmente les PV max de 40 %. Toutes les 15 s, l'effet suivant se produit pendant 14 s après avoir utilisé une compétence élémentaire : accorde 4 cumuls d'été flamboyant, chaque cumul augmentant les DGT des attaques normales de 24 %. Une fois toutes les 1,5 s pendant cette durée, toucher un ennemi avec une attaque normale consomme un cumul. Une fois toutes les 1,5 s, déclencher une réaction d'Évaporation sur un ennemi rajoute un cumul. L'effet Été flamboyant peut être cumulé 4 fois maximum."
+      ],
+      "upgradeCost": []
     }
   }
 }

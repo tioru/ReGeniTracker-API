@@ -136,25 +136,271 @@
   ],
   "levels": {
     "1": {
-      "baseAtk": 18
+      "baseAtk": 48
+    },
+    "2": {
+      "baseAtk": 52
+    },
+    "3": {
+      "baseAtk": 56
+    },
+    "4": {
+      "baseAtk": 61
+    },
+    "5": {
+      "baseAtk": 65
+    },
+    "6": {
+      "baseAtk": 69
+    },
+    "7": {
+      "baseAtk": 74
+    },
+    "8": {
+      "baseAtk": 78
+    },
+    "9": {
+      "baseAtk": 83
+    },
+    "10": {
+      "baseAtk": 87
+    },
+    "11": {
+      "baseAtk": 92
+    },
+    "12": {
+      "baseAtk": 96
+    },
+    "13": {
+      "baseAtk": 101
+    },
+    "14": {
+      "baseAtk": 106
+    },
+    "15": {
+      "baseAtk": 110
+    },
+    "16": {
+      "baseAtk": 115
+    },
+    "17": {
+      "baseAtk": 119
+    },
+    "18": {
+      "baseAtk": 124
+    },
+    "19": {
+      "baseAtk": 129
     },
     "20": {
       "baseAtk": 133
     },
+    "21": {
+      "baseAtk": 169
+    },
+    "22": {
+      "baseAtk": 174
+    },
+    "23": {
+      "baseAtk": 179
+    },
+    "24": {
+      "baseAtk": 183
+    },
+    "25": {
+      "baseAtk": 188
+    },
+    "26": {
+      "baseAtk": 193
+    },
+    "27": {
+      "baseAtk": 197
+    },
+    "28": {
+      "baseAtk": 202
+    },
+    "29": {
+      "baseAtk": 207
+    },
+    "30": {
+      "baseAtk": 212
+    },
+    "31": {
+      "baseAtk": 217
+    },
+    "32": {
+      "baseAtk": 221
+    },
+    "33": {
+      "baseAtk": 226
+    },
+    "34": {
+      "baseAtk": 231
+    },
+    "35": {
+      "baseAtk": 236
+    },
+    "36": {
+      "baseAtk": 241
+    },
+    "37": {
+      "baseAtk": 246
+    },
+    "38": {
+      "baseAtk": 251
+    },
+    "39": {
+      "baseAtk": 256
+    },
     "40": {
       "baseAtk": 261
+    },
+    "41": {
+      "baseAtk": 297
+    },
+    "42": {
+      "baseAtk": 302
+    },
+    "43": {
+      "baseAtk": 306
+    },
+    "44": {
+      "baseAtk": 311
+    },
+    "45": {
+      "baseAtk": 316
+    },
+    "46": {
+      "baseAtk": 321
+    },
+    "47": {
+      "baseAtk": 326
+    },
+    "48": {
+      "baseAtk": 331
+    },
+    "49": {
+      "baseAtk": 336
     },
     "50": {
       "baseAtk": 341
     },
+    "51": {
+      "baseAtk": 378
+    },
+    "52": {
+      "baseAtk": 383
+    },
+    "53": {
+      "baseAtk": 388
+    },
+    "54": {
+      "baseAtk": 393
+    },
+    "55": {
+      "baseAtk": 398
+    },
+    "56": {
+      "baseAtk": 403
+    },
+    "57": {
+      "baseAtk": 408
+    },
+    "58": {
+      "baseAtk": 413
+    },
+    "59": {
+      "baseAtk": 418
+    },
     "60": {
       "baseAtk": 423
+    },
+    "61": {
+      "baseAtk": 460
+    },
+    "62": {
+      "baseAtk": 465
+    },
+    "63": {
+      "baseAtk": 470
+    },
+    "64": {
+      "baseAtk": 475
+    },
+    "65": {
+      "baseAtk": 480
+    },
+    "66": {
+      "baseAtk": 485
+    },
+    "67": {
+      "baseAtk": 491
+    },
+    "68": {
+      "baseAtk": 496
+    },
+    "69": {
+      "baseAtk": 501
     },
     "70": {
       "baseAtk": 506
     },
+    "71": {
+      "baseAtk": 543
+    },
+    "72": {
+      "baseAtk": 548
+    },
+    "73": {
+      "baseAtk": 553
+    },
+    "74": {
+      "baseAtk": 558
+    },
+    "75": {
+      "baseAtk": 563
+    },
+    "76": {
+      "baseAtk": 569
+    },
+    "77": {
+      "baseAtk": 574
+    },
+    "78": {
+      "baseAtk": 579
+    },
+    "79": {
+      "baseAtk": 585
+    },
     "80": {
       "baseAtk": 590
+    },
+    "81": {
+      "baseAtk": 626
+    },
+    "82": {
+      "baseAtk": 632
+    },
+    "83": {
+      "baseAtk": 637
+    },
+    "84": {
+      "baseAtk": 642
+    },
+    "85": {
+      "baseAtk": 648
+    },
+    "86": {
+      "baseAtk": 653
+    },
+    "87": {
+      "baseAtk": 658
+    },
+    "88": {
+      "baseAtk": 664
+    },
+    "89": {
+      "baseAtk": 669
     },
     "90": {
       "baseAtk": 674
@@ -169,13 +415,370 @@
       "baseAtk": 373
     },
     "60_ASC": {
-      "baseAtk": 454
+      "baseAtk": 455
     },
     "70_ASC": {
       "baseAtk": 537
     },
     "80_ASC": {
       "baseAtk": 621
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Taux CRIT",
+    "levels": {
+      "1": {
+        "crtRate": "4,8 %"
+      },
+      "2": {
+        "crtRate": "4,8 %"
+      },
+      "3": {
+        "crtRate": "4,8 %"
+      },
+      "4": {
+        "crtRate": "4,8 %"
+      },
+      "5": {
+        "crtRate": "5,6 %"
+      },
+      "6": {
+        "crtRate": "5,6 %"
+      },
+      "7": {
+        "crtRate": "5,6 %"
+      },
+      "8": {
+        "crtRate": "5,6 %"
+      },
+      "9": {
+        "crtRate": "5,6 %"
+      },
+      "10": {
+        "crtRate": "6,5 %"
+      },
+      "11": {
+        "crtRate": "6,5 %"
+      },
+      "12": {
+        "crtRate": "6,5 %"
+      },
+      "13": {
+        "crtRate": "6,5 %"
+      },
+      "14": {
+        "crtRate": "6,5 %"
+      },
+      "15": {
+        "crtRate": "7,5 %"
+      },
+      "16": {
+        "crtRate": "7,5 %"
+      },
+      "17": {
+        "crtRate": "7,5 %"
+      },
+      "18": {
+        "crtRate": "7,5 %"
+      },
+      "19": {
+        "crtRate": "7,5 %"
+      },
+      "20": {
+        "crtRate": "8,5 %"
+      },
+      "21": {
+        "crtRate": "8,5 %"
+      },
+      "22": {
+        "crtRate": "8,5 %"
+      },
+      "23": {
+        "crtRate": "8,5 %"
+      },
+      "24": {
+        "crtRate": "8,5 %"
+      },
+      "25": {
+        "crtRate": "9,5 %"
+      },
+      "26": {
+        "crtRate": "9,5 %"
+      },
+      "27": {
+        "crtRate": "9,5 %"
+      },
+      "28": {
+        "crtRate": "9,5 %"
+      },
+      "29": {
+        "crtRate": "9,5 %"
+      },
+      "30": {
+        "crtRate": "10,4 %"
+      },
+      "31": {
+        "crtRate": "10,4 %"
+      },
+      "32": {
+        "crtRate": "10,4 %"
+      },
+      "33": {
+        "crtRate": "10,4 %"
+      },
+      "34": {
+        "crtRate": "10,4 %"
+      },
+      "35": {
+        "crtRate": "11,4 %"
+      },
+      "36": {
+        "crtRate": "11,4 %"
+      },
+      "37": {
+        "crtRate": "11,4 %"
+      },
+      "38": {
+        "crtRate": "11,4 %"
+      },
+      "39": {
+        "crtRate": "11,4 %"
+      },
+      "40": {
+        "crtRate": "12,4 %"
+      },
+      "41": {
+        "crtRate": "12,4 %"
+      },
+      "42": {
+        "crtRate": "12,4 %"
+      },
+      "43": {
+        "crtRate": "12,4 %"
+      },
+      "44": {
+        "crtRate": "12,4 %"
+      },
+      "45": {
+        "crtRate": "13,3 %"
+      },
+      "46": {
+        "crtRate": "13,3 %"
+      },
+      "47": {
+        "crtRate": "13,3 %"
+      },
+      "48": {
+        "crtRate": "13,3 %"
+      },
+      "49": {
+        "crtRate": "13,3 %"
+      },
+      "50": {
+        "crtRate": "14,3 %"
+      },
+      "51": {
+        "crtRate": "14,3 %"
+      },
+      "52": {
+        "crtRate": "14,3 %"
+      },
+      "53": {
+        "crtRate": "14,3 %"
+      },
+      "54": {
+        "crtRate": "14,3 %"
+      },
+      "55": {
+        "crtRate": "15,3 %"
+      },
+      "56": {
+        "crtRate": "15,3 %"
+      },
+      "57": {
+        "crtRate": "15,3 %"
+      },
+      "58": {
+        "crtRate": "15,3 %"
+      },
+      "59": {
+        "crtRate": "15,3 %"
+      },
+      "60": {
+        "crtRate": "16,2 %"
+      },
+      "61": {
+        "crtRate": "16,2 %"
+      },
+      "62": {
+        "crtRate": "16,2 %"
+      },
+      "63": {
+        "crtRate": "16,2 %"
+      },
+      "64": {
+        "crtRate": "16,2 %"
+      },
+      "65": {
+        "crtRate": "17,2 %"
+      },
+      "66": {
+        "crtRate": "17,2 %"
+      },
+      "67": {
+        "crtRate": "17,2 %"
+      },
+      "68": {
+        "crtRate": "17,2 %"
+      },
+      "69": {
+        "crtRate": "17,2 %"
+      },
+      "70": {
+        "crtRate": "18,2 %"
+      },
+      "71": {
+        "crtRate": "18,2 %"
+      },
+      "72": {
+        "crtRate": "18,2 %"
+      },
+      "73": {
+        "crtRate": "18,2 %"
+      },
+      "74": {
+        "crtRate": "18,2 %"
+      },
+      "75": {
+        "crtRate": "19,1 %"
+      },
+      "76": {
+        "crtRate": "19,1 %"
+      },
+      "77": {
+        "crtRate": "19,1 %"
+      },
+      "78": {
+        "crtRate": "19,1 %"
+      },
+      "79": {
+        "crtRate": "19,1 %"
+      },
+      "80": {
+        "crtRate": "20,1 %"
+      },
+      "81": {
+        "crtRate": "20,1 %"
+      },
+      "82": {
+        "crtRate": "20,1 %"
+      },
+      "83": {
+        "crtRate": "20,1 %"
+      },
+      "84": {
+        "crtRate": "20,1 %"
+      },
+      "85": {
+        "crtRate": "21,1 %"
+      },
+      "86": {
+        "crtRate": "21,1 %"
+      },
+      "87": {
+        "crtRate": "21,1 %"
+      },
+      "88": {
+        "crtRate": "21,1 %"
+      },
+      "89": {
+        "crtRate": "21,1 %"
+      },
+      "90": {
+        "crtRate": "22,1 %"
+      },
+      "20_ASC": {
+        "crtRate": "8,5 %"
+      },
+      "40_ASC": {
+        "crtRate": "12,4 %"
+      },
+      "50_ASC": {
+        "crtRate": "14,3 %"
+      },
+      "60_ASC": {
+        "crtRate": "16,2 %"
+      },
+      "70_ASC": {
+        "crtRate": "18,2 %"
+      },
+      "80_ASC": {
+        "crtRate": "20,1 %"
+      }
+    }
+  },
+  "effects": [
+    "ATK",
+    "Normal Attack DMG Bonus",
+    "Charged Attack DMG Bonus",
+    "Stellar-Conduct DMG Bonus",
+    "ATK SPD"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Marée de sang d'or",
+      "descriptions": [
+        "L'ATQ augmente de 16 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 16 %, ceux infligés par les attaques chargées augmentent de 14 % et les DGT de réaction d'Astroconduction augmentent de 14 %, le tout pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 8 %."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "Marée de sang d'or",
+      "descriptions": [
+        "L'ATQ augmente de 20 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 20 %, ceux infligés par les attaques chargées augmentent de 17,5 % et les DGT de réaction d'Astroconduction augmentent de 17,5 %, le tout pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 10 %."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "Marée de sang d'or",
+      "descriptions": [
+        "L'ATQ augmente de 24 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 24 %, ceux infligés par les attaques chargées augmentent de 21 % et les DGT de réaction d'Astroconduction augmentent de 21 %, le tout pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 12 %."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "Marée de sang d'or",
+      "descriptions": [
+        "L'ATQ augmente de 28 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 28 %, ceux infligés par les attaques chargées augmentent de 24,5 % et les DGT de réaction d'Astroconduction augmentent de 24,5 %, le tout pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 14 %."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "Marée de sang d'or",
+      "descriptions": [
+        "L'ATQ augmente de 32 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 32 %, ceux infligés par les attaques chargées augmentent de 28 % et les DGT de réaction d'Astroconduction augmentent de 28 %, le tout pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 16 %."
+      ],
+      "upgradeCost": []
     }
   }
 }

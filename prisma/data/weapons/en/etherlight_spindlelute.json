@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 42
     },
+    "2": {
+      "baseAtk": 46
+    },
+    "3": {
+      "baseAtk": 49
+    },
+    "4": {
+      "baseAtk": 53
+    },
+    "5": {
+      "baseAtk": 56
+    },
+    "6": {
+      "baseAtk": 60
+    },
+    "7": {
+      "baseAtk": 63
+    },
+    "8": {
+      "baseAtk": 67
+    },
+    "9": {
+      "baseAtk": 70
+    },
+    "10": {
+      "baseAtk": 74
+    },
+    "11": {
+      "baseAtk": 77
+    },
+    "12": {
+      "baseAtk": 81
+    },
+    "13": {
+      "baseAtk": 84
+    },
+    "14": {
+      "baseAtk": 88
+    },
+    "15": {
+      "baseAtk": 91
+    },
+    "16": {
+      "baseAtk": 95
+    },
+    "17": {
+      "baseAtk": 98
+    },
+    "18": {
+      "baseAtk": 102
+    },
+    "19": {
+      "baseAtk": 105
+    },
     "20": {
       "baseAtk": 109
+    },
+    "21": {
+      "baseAtk": 138
+    },
+    "22": {
+      "baseAtk": 142
+    },
+    "23": {
+      "baseAtk": 145
+    },
+    "24": {
+      "baseAtk": 149
+    },
+    "25": {
+      "baseAtk": 152
+    },
+    "26": {
+      "baseAtk": 156
+    },
+    "27": {
+      "baseAtk": 159
+    },
+    "28": {
+      "baseAtk": 163
+    },
+    "29": {
+      "baseAtk": 166
+    },
+    "30": {
+      "baseAtk": 170
+    },
+    "31": {
+      "baseAtk": 173
+    },
+    "32": {
+      "baseAtk": 177
+    },
+    "33": {
+      "baseAtk": 180
+    },
+    "34": {
+      "baseAtk": 184
+    },
+    "35": {
+      "baseAtk": 187
+    },
+    "36": {
+      "baseAtk": 191
+    },
+    "37": {
+      "baseAtk": 194
+    },
+    "38": {
+      "baseAtk": 198
+    },
+    "39": {
+      "baseAtk": 201
     },
     "40": {
       "baseAtk": 205
     },
+    "41": {
+      "baseAtk": 234
+    },
+    "42": {
+      "baseAtk": 238
+    },
+    "43": {
+      "baseAtk": 241
+    },
+    "44": {
+      "baseAtk": 245
+    },
+    "45": {
+      "baseAtk": 248
+    },
+    "46": {
+      "baseAtk": 252
+    },
+    "47": {
+      "baseAtk": 255
+    },
+    "48": {
+      "baseAtk": 259
+    },
+    "49": {
+      "baseAtk": 262
+    },
     "50": {
       "baseAtk": 266
+    },
+    "51": {
+      "baseAtk": 295
+    },
+    "52": {
+      "baseAtk": 299
+    },
+    "53": {
+      "baseAtk": 302
+    },
+    "54": {
+      "baseAtk": 306
+    },
+    "55": {
+      "baseAtk": 309
+    },
+    "56": {
+      "baseAtk": 313
+    },
+    "57": {
+      "baseAtk": 316
+    },
+    "58": {
+      "baseAtk": 320
+    },
+    "59": {
+      "baseAtk": 323
     },
     "60": {
       "baseAtk": 327
     },
+    "61": {
+      "baseAtk": 356
+    },
+    "62": {
+      "baseAtk": 360
+    },
+    "63": {
+      "baseAtk": 363
+    },
+    "64": {
+      "baseAtk": 367
+    },
+    "65": {
+      "baseAtk": 370
+    },
+    "66": {
+      "baseAtk": 374
+    },
+    "67": {
+      "baseAtk": 377
+    },
+    "68": {
+      "baseAtk": 381
+    },
+    "69": {
+      "baseAtk": 384
+    },
     "70": {
       "baseAtk": 388
     },
+    "71": {
+      "baseAtk": 417
+    },
+    "72": {
+      "baseAtk": 421
+    },
+    "73": {
+      "baseAtk": 424
+    },
+    "74": {
+      "baseAtk": 428
+    },
+    "75": {
+      "baseAtk": 431
+    },
+    "76": {
+      "baseAtk": 435
+    },
+    "77": {
+      "baseAtk": 438
+    },
+    "78": {
+      "baseAtk": 442
+    },
+    "79": {
+      "baseAtk": 445
+    },
     "80": {
       "baseAtk": 449
+    },
+    "81": {
+      "baseAtk": 478
+    },
+    "82": {
+      "baseAtk": 482
+    },
+    "83": {
+      "baseAtk": 485
+    },
+    "84": {
+      "baseAtk": 489
+    },
+    "85": {
+      "baseAtk": 492
+    },
+    "86": {
+      "baseAtk": 496
+    },
+    "87": {
+      "baseAtk": 499
+    },
+    "88": {
+      "baseAtk": 503
+    },
+    "89": {
+      "baseAtk": 506
     },
     "90": {
       "baseAtk": 510
@@ -176,6 +422,359 @@
     },
     "80_ASC": {
       "baseAtk": 475
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Energy Recharge",
+    "levels": {
+      "1": {
+        "energyRecharge": "10.0%"
+      },
+      "2": {
+        "energyRecharge": "10.0%"
+      },
+      "3": {
+        "energyRecharge": "10.0%"
+      },
+      "4": {
+        "energyRecharge": "10.0%"
+      },
+      "5": {
+        "energyRecharge": "11.6%"
+      },
+      "6": {
+        "energyRecharge": "11.6%"
+      },
+      "7": {
+        "energyRecharge": "11.6%"
+      },
+      "8": {
+        "energyRecharge": "11.6%"
+      },
+      "9": {
+        "energyRecharge": "11.6%"
+      },
+      "10": {
+        "energyRecharge": "13.6%"
+      },
+      "11": {
+        "energyRecharge": "13.6%"
+      },
+      "12": {
+        "energyRecharge": "13.6%"
+      },
+      "13": {
+        "energyRecharge": "13.6%"
+      },
+      "14": {
+        "energyRecharge": "13.6%"
+      },
+      "15": {
+        "energyRecharge": "15.7%"
+      },
+      "16": {
+        "energyRecharge": "15.7%"
+      },
+      "17": {
+        "energyRecharge": "15.7%"
+      },
+      "18": {
+        "energyRecharge": "15.7%"
+      },
+      "19": {
+        "energyRecharge": "15.7%"
+      },
+      "20": {
+        "energyRecharge": "17.7%"
+      },
+      "21": {
+        "energyRecharge": "17.7%"
+      },
+      "22": {
+        "energyRecharge": "17.7%"
+      },
+      "23": {
+        "energyRecharge": "17.7%"
+      },
+      "24": {
+        "energyRecharge": "17.7%"
+      },
+      "25": {
+        "energyRecharge": "19.7%"
+      },
+      "26": {
+        "energyRecharge": "19.7%"
+      },
+      "27": {
+        "energyRecharge": "19.7%"
+      },
+      "28": {
+        "energyRecharge": "19.7%"
+      },
+      "29": {
+        "energyRecharge": "19.7%"
+      },
+      "30": {
+        "energyRecharge": "21.7%"
+      },
+      "31": {
+        "energyRecharge": "21.7%"
+      },
+      "32": {
+        "energyRecharge": "21.7%"
+      },
+      "33": {
+        "energyRecharge": "21.7%"
+      },
+      "34": {
+        "energyRecharge": "21.7%"
+      },
+      "35": {
+        "energyRecharge": "23.7%"
+      },
+      "36": {
+        "energyRecharge": "23.7%"
+      },
+      "37": {
+        "energyRecharge": "23.7%"
+      },
+      "38": {
+        "energyRecharge": "23.7%"
+      },
+      "39": {
+        "energyRecharge": "23.7%"
+      },
+      "40": {
+        "energyRecharge": "25.8%"
+      },
+      "41": {
+        "energyRecharge": "25.8%"
+      },
+      "42": {
+        "energyRecharge": "25.8%"
+      },
+      "43": {
+        "energyRecharge": "25.8%"
+      },
+      "44": {
+        "energyRecharge": "25.8%"
+      },
+      "45": {
+        "energyRecharge": "27.8%"
+      },
+      "46": {
+        "energyRecharge": "27.8%"
+      },
+      "47": {
+        "energyRecharge": "27.8%"
+      },
+      "48": {
+        "energyRecharge": "27.8%"
+      },
+      "49": {
+        "energyRecharge": "27.8%"
+      },
+      "50": {
+        "energyRecharge": "29.8%"
+      },
+      "51": {
+        "energyRecharge": "29.8%"
+      },
+      "52": {
+        "energyRecharge": "29.8%"
+      },
+      "53": {
+        "energyRecharge": "29.8%"
+      },
+      "54": {
+        "energyRecharge": "29.8%"
+      },
+      "55": {
+        "energyRecharge": "31.8%"
+      },
+      "56": {
+        "energyRecharge": "31.8%"
+      },
+      "57": {
+        "energyRecharge": "31.8%"
+      },
+      "58": {
+        "energyRecharge": "31.8%"
+      },
+      "59": {
+        "energyRecharge": "31.8%"
+      },
+      "60": {
+        "energyRecharge": "33.8%"
+      },
+      "61": {
+        "energyRecharge": "33.8%"
+      },
+      "62": {
+        "energyRecharge": "33.8%"
+      },
+      "63": {
+        "energyRecharge": "33.8%"
+      },
+      "64": {
+        "energyRecharge": "33.8%"
+      },
+      "65": {
+        "energyRecharge": "35.9%"
+      },
+      "66": {
+        "energyRecharge": "35.9%"
+      },
+      "67": {
+        "energyRecharge": "35.9%"
+      },
+      "68": {
+        "energyRecharge": "35.9%"
+      },
+      "69": {
+        "energyRecharge": "35.9%"
+      },
+      "70": {
+        "energyRecharge": "37.9%"
+      },
+      "71": {
+        "energyRecharge": "37.9%"
+      },
+      "72": {
+        "energyRecharge": "37.9%"
+      },
+      "73": {
+        "energyRecharge": "37.9%"
+      },
+      "74": {
+        "energyRecharge": "37.9%"
+      },
+      "75": {
+        "energyRecharge": "39.9%"
+      },
+      "76": {
+        "energyRecharge": "39.9%"
+      },
+      "77": {
+        "energyRecharge": "39.9%"
+      },
+      "78": {
+        "energyRecharge": "39.9%"
+      },
+      "79": {
+        "energyRecharge": "39.9%"
+      },
+      "80": {
+        "energyRecharge": "41.9%"
+      },
+      "81": {
+        "energyRecharge": "41.9%"
+      },
+      "82": {
+        "energyRecharge": "41.9%"
+      },
+      "83": {
+        "energyRecharge": "41.9%"
+      },
+      "84": {
+        "energyRecharge": "41.9%"
+      },
+      "85": {
+        "energyRecharge": "43.9%"
+      },
+      "86": {
+        "energyRecharge": "43.9%"
+      },
+      "87": {
+        "energyRecharge": "43.9%"
+      },
+      "88": {
+        "energyRecharge": "43.9%"
+      },
+      "89": {
+        "energyRecharge": "43.9%"
+      },
+      "90": {
+        "energyRecharge": "45.9%"
+      },
+      "20_ASC": {
+        "energyRecharge": "17.7%"
+      },
+      "40_ASC": {
+        "energyRecharge": "25.8%"
+      },
+      "50_ASC": {
+        "energyRecharge": "29.8%"
+      },
+      "60_ASC": {
+        "energyRecharge": "33.8%"
+      },
+      "70_ASC": {
+        "energyRecharge": "37.9%"
+      },
+      "80_ASC": {
+        "energyRecharge": "41.9%"
+      }
+    }
+  },
+  "effects": [
+    "Elemental Mastery"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Last Singer",
+      "descriptions": [
+        "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 100."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Last Singer",
+      "descriptions": [
+        "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 125."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Last Singer",
+      "descriptions": [
+        "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 150."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Last Singer",
+      "descriptions": [
+        "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 175."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Last Singer",
+      "descriptions": [
+        "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 200."
+      ],
+      "upgradeCost": []
     }
   }
 }

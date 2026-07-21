@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 48
     },
+    "2": {
+      "baseAtk": 52
+    },
+    "3": {
+      "baseAtk": 56
+    },
+    "4": {
+      "baseAtk": 61
+    },
+    "5": {
+      "baseAtk": 65
+    },
+    "6": {
+      "baseAtk": 69
+    },
+    "7": {
+      "baseAtk": 74
+    },
+    "8": {
+      "baseAtk": 78
+    },
+    "9": {
+      "baseAtk": 83
+    },
+    "10": {
+      "baseAtk": 87
+    },
+    "11": {
+      "baseAtk": 92
+    },
+    "12": {
+      "baseAtk": 96
+    },
+    "13": {
+      "baseAtk": 101
+    },
+    "14": {
+      "baseAtk": 106
+    },
+    "15": {
+      "baseAtk": 110
+    },
+    "16": {
+      "baseAtk": 115
+    },
+    "17": {
+      "baseAtk": 119
+    },
+    "18": {
+      "baseAtk": 124
+    },
+    "19": {
+      "baseAtk": 129
+    },
     "20": {
       "baseAtk": 133
+    },
+    "21": {
+      "baseAtk": 169
+    },
+    "22": {
+      "baseAtk": 174
+    },
+    "23": {
+      "baseAtk": 179
+    },
+    "24": {
+      "baseAtk": 183
+    },
+    "25": {
+      "baseAtk": 188
+    },
+    "26": {
+      "baseAtk": 193
+    },
+    "27": {
+      "baseAtk": 197
+    },
+    "28": {
+      "baseAtk": 202
+    },
+    "29": {
+      "baseAtk": 207
+    },
+    "30": {
+      "baseAtk": 212
+    },
+    "31": {
+      "baseAtk": 217
+    },
+    "32": {
+      "baseAtk": 221
+    },
+    "33": {
+      "baseAtk": 226
+    },
+    "34": {
+      "baseAtk": 231
+    },
+    "35": {
+      "baseAtk": 236
+    },
+    "36": {
+      "baseAtk": 241
+    },
+    "37": {
+      "baseAtk": 246
+    },
+    "38": {
+      "baseAtk": 251
+    },
+    "39": {
+      "baseAtk": 256
     },
     "40": {
       "baseAtk": 261
     },
+    "41": {
+      "baseAtk": 297
+    },
+    "42": {
+      "baseAtk": 302
+    },
+    "43": {
+      "baseAtk": 306
+    },
+    "44": {
+      "baseAtk": 311
+    },
+    "45": {
+      "baseAtk": 316
+    },
+    "46": {
+      "baseAtk": 321
+    },
+    "47": {
+      "baseAtk": 326
+    },
+    "48": {
+      "baseAtk": 331
+    },
+    "49": {
+      "baseAtk": 336
+    },
     "50": {
       "baseAtk": 341
+    },
+    "51": {
+      "baseAtk": 378
+    },
+    "52": {
+      "baseAtk": 383
+    },
+    "53": {
+      "baseAtk": 388
+    },
+    "54": {
+      "baseAtk": 393
+    },
+    "55": {
+      "baseAtk": 398
+    },
+    "56": {
+      "baseAtk": 403
+    },
+    "57": {
+      "baseAtk": 408
+    },
+    "58": {
+      "baseAtk": 413
+    },
+    "59": {
+      "baseAtk": 418
     },
     "60": {
       "baseAtk": 423
     },
+    "61": {
+      "baseAtk": 460
+    },
+    "62": {
+      "baseAtk": 465
+    },
+    "63": {
+      "baseAtk": 470
+    },
+    "64": {
+      "baseAtk": 475
+    },
+    "65": {
+      "baseAtk": 480
+    },
+    "66": {
+      "baseAtk": 485
+    },
+    "67": {
+      "baseAtk": 491
+    },
+    "68": {
+      "baseAtk": 496
+    },
+    "69": {
+      "baseAtk": 501
+    },
     "70": {
       "baseAtk": 506
     },
+    "71": {
+      "baseAtk": 543
+    },
+    "72": {
+      "baseAtk": 548
+    },
+    "73": {
+      "baseAtk": 553
+    },
+    "74": {
+      "baseAtk": 558
+    },
+    "75": {
+      "baseAtk": 563
+    },
+    "76": {
+      "baseAtk": 569
+    },
+    "77": {
+      "baseAtk": 574
+    },
+    "78": {
+      "baseAtk": 579
+    },
+    "79": {
+      "baseAtk": 585
+    },
     "80": {
       "baseAtk": 590
+    },
+    "81": {
+      "baseAtk": 626
+    },
+    "82": {
+      "baseAtk": 632
+    },
+    "83": {
+      "baseAtk": 637
+    },
+    "84": {
+      "baseAtk": 642
+    },
+    "85": {
+      "baseAtk": 648
+    },
+    "86": {
+      "baseAtk": 653
+    },
+    "87": {
+      "baseAtk": 658
+    },
+    "88": {
+      "baseAtk": 664
+    },
+    "89": {
+      "baseAtk": 669
     },
     "90": {
       "baseAtk": 674
@@ -176,6 +422,360 @@
     },
     "80_ASC": {
       "baseAtk": 621
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Physical DMG Bonus",
+    "levels": {
+      "1": {
+        "physDmgBonus": "9.0%"
+      },
+      "2": {
+        "physDmgBonus": "9.0%"
+      },
+      "3": {
+        "physDmgBonus": "9.0%"
+      },
+      "4": {
+        "physDmgBonus": "9.0%"
+      },
+      "5": {
+        "physDmgBonus": "10.5%"
+      },
+      "6": {
+        "physDmgBonus": "10.5%"
+      },
+      "7": {
+        "physDmgBonus": "10.5%"
+      },
+      "8": {
+        "physDmgBonus": "10.5%"
+      },
+      "9": {
+        "physDmgBonus": "10.5%"
+      },
+      "10": {
+        "physDmgBonus": "12.3%"
+      },
+      "11": {
+        "physDmgBonus": "12.3%"
+      },
+      "12": {
+        "physDmgBonus": "12.3%"
+      },
+      "13": {
+        "physDmgBonus": "12.3%"
+      },
+      "14": {
+        "physDmgBonus": "12.3%"
+      },
+      "15": {
+        "physDmgBonus": "14.1%"
+      },
+      "16": {
+        "physDmgBonus": "14.1%"
+      },
+      "17": {
+        "physDmgBonus": "14.1%"
+      },
+      "18": {
+        "physDmgBonus": "14.1%"
+      },
+      "19": {
+        "physDmgBonus": "14.1%"
+      },
+      "20": {
+        "physDmgBonus": "15.9%"
+      },
+      "21": {
+        "physDmgBonus": "15.9%"
+      },
+      "22": {
+        "physDmgBonus": "15.9%"
+      },
+      "23": {
+        "physDmgBonus": "15.9%"
+      },
+      "24": {
+        "physDmgBonus": "15.9%"
+      },
+      "25": {
+        "physDmgBonus": "17.7%"
+      },
+      "26": {
+        "physDmgBonus": "17.7%"
+      },
+      "27": {
+        "physDmgBonus": "17.7%"
+      },
+      "28": {
+        "physDmgBonus": "17.7%"
+      },
+      "29": {
+        "physDmgBonus": "17.7%"
+      },
+      "30": {
+        "physDmgBonus": "19.5%"
+      },
+      "31": {
+        "physDmgBonus": "19.5%"
+      },
+      "32": {
+        "physDmgBonus": "19.5%"
+      },
+      "33": {
+        "physDmgBonus": "19.5%"
+      },
+      "34": {
+        "physDmgBonus": "19.5%"
+      },
+      "35": {
+        "physDmgBonus": "21.4%"
+      },
+      "36": {
+        "physDmgBonus": "21.4%"
+      },
+      "37": {
+        "physDmgBonus": "21.4%"
+      },
+      "38": {
+        "physDmgBonus": "21.4%"
+      },
+      "39": {
+        "physDmgBonus": "21.4%"
+      },
+      "40": {
+        "physDmgBonus": "23.2%"
+      },
+      "41": {
+        "physDmgBonus": "23.2%"
+      },
+      "42": {
+        "physDmgBonus": "23.2%"
+      },
+      "43": {
+        "physDmgBonus": "23.2%"
+      },
+      "44": {
+        "physDmgBonus": "23.2%"
+      },
+      "45": {
+        "physDmgBonus": "25.0%"
+      },
+      "46": {
+        "physDmgBonus": "25.0%"
+      },
+      "47": {
+        "physDmgBonus": "25.0%"
+      },
+      "48": {
+        "physDmgBonus": "25.0%"
+      },
+      "49": {
+        "physDmgBonus": "25.0%"
+      },
+      "50": {
+        "physDmgBonus": "26.8%"
+      },
+      "51": {
+        "physDmgBonus": "26.8%"
+      },
+      "52": {
+        "physDmgBonus": "26.8%"
+      },
+      "53": {
+        "physDmgBonus": "26.8%"
+      },
+      "54": {
+        "physDmgBonus": "26.8%"
+      },
+      "55": {
+        "physDmgBonus": "28.6%"
+      },
+      "56": {
+        "physDmgBonus": "28.6%"
+      },
+      "57": {
+        "physDmgBonus": "28.6%"
+      },
+      "58": {
+        "physDmgBonus": "28.6%"
+      },
+      "59": {
+        "physDmgBonus": "28.6%"
+      },
+      "60": {
+        "physDmgBonus": "30.4%"
+      },
+      "61": {
+        "physDmgBonus": "30.4%"
+      },
+      "62": {
+        "physDmgBonus": "30.4%"
+      },
+      "63": {
+        "physDmgBonus": "30.4%"
+      },
+      "64": {
+        "physDmgBonus": "30.4%"
+      },
+      "65": {
+        "physDmgBonus": "32.3%"
+      },
+      "66": {
+        "physDmgBonus": "32.3%"
+      },
+      "67": {
+        "physDmgBonus": "32.3%"
+      },
+      "68": {
+        "physDmgBonus": "32.3%"
+      },
+      "69": {
+        "physDmgBonus": "32.3%"
+      },
+      "70": {
+        "physDmgBonus": "34.1%"
+      },
+      "71": {
+        "physDmgBonus": "34.1%"
+      },
+      "72": {
+        "physDmgBonus": "34.1%"
+      },
+      "73": {
+        "physDmgBonus": "34.1%"
+      },
+      "74": {
+        "physDmgBonus": "34.1%"
+      },
+      "75": {
+        "physDmgBonus": "35.9%"
+      },
+      "76": {
+        "physDmgBonus": "35.9%"
+      },
+      "77": {
+        "physDmgBonus": "35.9%"
+      },
+      "78": {
+        "physDmgBonus": "35.9%"
+      },
+      "79": {
+        "physDmgBonus": "35.9%"
+      },
+      "80": {
+        "physDmgBonus": "37.7%"
+      },
+      "81": {
+        "physDmgBonus": "37.7%"
+      },
+      "82": {
+        "physDmgBonus": "37.7%"
+      },
+      "83": {
+        "physDmgBonus": "37.7%"
+      },
+      "84": {
+        "physDmgBonus": "37.7%"
+      },
+      "85": {
+        "physDmgBonus": "39.5%"
+      },
+      "86": {
+        "physDmgBonus": "39.5%"
+      },
+      "87": {
+        "physDmgBonus": "39.5%"
+      },
+      "88": {
+        "physDmgBonus": "39.5%"
+      },
+      "89": {
+        "physDmgBonus": "39.5%"
+      },
+      "90": {
+        "physDmgBonus": "41.3%"
+      },
+      "20_ASC": {
+        "physDmgBonus": "15.9%"
+      },
+      "40_ASC": {
+        "physDmgBonus": "23.2%"
+      },
+      "50_ASC": {
+        "physDmgBonus": "26.8%"
+      },
+      "60_ASC": {
+        "physDmgBonus": "30.4%"
+      },
+      "70_ASC": {
+        "physDmgBonus": "34.1%"
+      },
+      "80_ASC": {
+        "physDmgBonus": "37.7%"
+      }
+    }
+  },
+  "effects": [
+    "ATK",
+    "Healing"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Falcon's Defiance",
+      "descriptions": [
+        "ATK is increased by 20%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of the resistance aloft, regenerating HP equal to 100% of ATK and dealing 200% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "Falcon's Defiance",
+      "descriptions": [
+        "ATK is increased by 25%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of the resistance aloft, regenerating HP equal to 115% of ATK and dealing 230% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "Falcon's Defiance",
+      "descriptions": [
+        "ATK is increased by 30%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of the resistance aloft, regenerating HP equal to 130% of ATK and dealing 260% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "Falcon's Defiance",
+      "descriptions": [
+        "ATK is increased by 35%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of the resistance aloft, regenerating HP equal to 145% of ATK and dealing 290% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "Falcon's Defiance",
+      "descriptions": [
+        "ATK is increased by 40%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of the resistance aloft, regenerating HP equal to 160% of ATK and dealing 320% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s."
+      ],
+      "upgradeCost": []
     }
   }
 }

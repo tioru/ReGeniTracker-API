@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 41
     },
+    "2": {
+      "baseAtk": 44
+    },
+    "3": {
+      "baseAtk": 47
+    },
+    "4": {
+      "baseAtk": 51
+    },
+    "5": {
+      "baseAtk": 54
+    },
+    "6": {
+      "baseAtk": 57
+    },
+    "7": {
+      "baseAtk": 60
+    },
+    "8": {
+      "baseAtk": 63
+    },
+    "9": {
+      "baseAtk": 66
+    },
+    "10": {
+      "baseAtk": 69
+    },
+    "11": {
+      "baseAtk": 72
+    },
+    "12": {
+      "baseAtk": 75
+    },
+    "13": {
+      "baseAtk": 78
+    },
+    "14": {
+      "baseAtk": 81
+    },
+    "15": {
+      "baseAtk": 84
+    },
+    "16": {
+      "baseAtk": 87
+    },
+    "17": {
+      "baseAtk": 90
+    },
+    "18": {
+      "baseAtk": 93
+    },
+    "19": {
+      "baseAtk": 96
+    },
     "20": {
       "baseAtk": 99
+    },
+    "21": {
+      "baseAtk": 128
+    },
+    "22": {
+      "baseAtk": 131
+    },
+    "23": {
+      "baseAtk": 134
+    },
+    "24": {
+      "baseAtk": 137
+    },
+    "25": {
+      "baseAtk": 140
+    },
+    "26": {
+      "baseAtk": 143
+    },
+    "27": {
+      "baseAtk": 146
+    },
+    "28": {
+      "baseAtk": 149
+    },
+    "29": {
+      "baseAtk": 152
+    },
+    "30": {
+      "baseAtk": 155
+    },
+    "31": {
+      "baseAtk": 158
+    },
+    "32": {
+      "baseAtk": 161
+    },
+    "33": {
+      "baseAtk": 163
+    },
+    "34": {
+      "baseAtk": 166
+    },
+    "35": {
+      "baseAtk": 169
+    },
+    "36": {
+      "baseAtk": 172
+    },
+    "37": {
+      "baseAtk": 175
+    },
+    "38": {
+      "baseAtk": 178
+    },
+    "39": {
+      "baseAtk": 181
     },
     "40": {
       "baseAtk": 184
     },
+    "41": {
+      "baseAtk": 213
+    },
+    "42": {
+      "baseAtk": 215
+    },
+    "43": {
+      "baseAtk": 218
+    },
+    "44": {
+      "baseAtk": 221
+    },
+    "45": {
+      "baseAtk": 224
+    },
+    "46": {
+      "baseAtk": 227
+    },
+    "47": {
+      "baseAtk": 230
+    },
+    "48": {
+      "baseAtk": 233
+    },
+    "49": {
+      "baseAtk": 236
+    },
     "50": {
       "baseAtk": 238
     },
+    "51": {
+      "baseAtk": 267
+    },
+    "52": {
+      "baseAtk": 270
+    },
+    "53": {
+      "baseAtk": 273
+    },
+    "54": {
+      "baseAtk": 276
+    },
+    "55": {
+      "baseAtk": 278
+    },
+    "56": {
+      "baseAtk": 281
+    },
+    "57": {
+      "baseAtk": 284
+    },
+    "58": {
+      "baseAtk": 287
+    },
+    "59": {
+      "baseAtk": 290
+    },
     "60": {
-      "baseAtk": 292
+      "baseAtk": 293
+    },
+    "61": {
+      "baseAtk": 321
+    },
+    "62": {
+      "baseAtk": 324
+    },
+    "63": {
+      "baseAtk": 327
+    },
+    "64": {
+      "baseAtk": 330
+    },
+    "65": {
+      "baseAtk": 333
+    },
+    "66": {
+      "baseAtk": 335
+    },
+    "67": {
+      "baseAtk": 338
+    },
+    "68": {
+      "baseAtk": 341
+    },
+    "69": {
+      "baseAtk": 344
     },
     "70": {
       "baseAtk": 347
     },
+    "71": {
+      "baseAtk": 375
+    },
+    "72": {
+      "baseAtk": 378
+    },
+    "73": {
+      "baseAtk": 381
+    },
+    "74": {
+      "baseAtk": 384
+    },
+    "75": {
+      "baseAtk": 387
+    },
+    "76": {
+      "baseAtk": 389
+    },
+    "77": {
+      "baseAtk": 392
+    },
+    "78": {
+      "baseAtk": 395
+    },
+    "79": {
+      "baseAtk": 398
+    },
     "80": {
       "baseAtk": 401
+    },
+    "81": {
+      "baseAtk": 429
+    },
+    "82": {
+      "baseAtk": 432
+    },
+    "83": {
+      "baseAtk": 435
+    },
+    "84": {
+      "baseAtk": 438
+    },
+    "85": {
+      "baseAtk": 440
+    },
+    "86": {
+      "baseAtk": 443
+    },
+    "87": {
+      "baseAtk": 446
+    },
+    "88": {
+      "baseAtk": 449
+    },
+    "89": {
+      "baseAtk": 452
     },
     "90": {
       "baseAtk": 454
@@ -176,6 +422,361 @@
     },
     "80_ASC": {
       "baseAtk": 427
+    }
+  },
+  "secondaryAttribute": {
+    "type": "ATK",
+    "levels": {
+      "1": {
+        "atkPercent": "12.0%"
+      },
+      "2": {
+        "atkPercent": "12.0%"
+      },
+      "3": {
+        "atkPercent": "12.0%"
+      },
+      "4": {
+        "atkPercent": "12.0%"
+      },
+      "5": {
+        "atkPercent": "13.9%"
+      },
+      "6": {
+        "atkPercent": "13.9%"
+      },
+      "7": {
+        "atkPercent": "13.9%"
+      },
+      "8": {
+        "atkPercent": "13.9%"
+      },
+      "9": {
+        "atkPercent": "13.9%"
+      },
+      "10": {
+        "atkPercent": "16.4%"
+      },
+      "11": {
+        "atkPercent": "16.4%"
+      },
+      "12": {
+        "atkPercent": "16.4%"
+      },
+      "13": {
+        "atkPercent": "16.4%"
+      },
+      "14": {
+        "atkPercent": "16.4%"
+      },
+      "15": {
+        "atkPercent": "18.8%"
+      },
+      "16": {
+        "atkPercent": "18.8%"
+      },
+      "17": {
+        "atkPercent": "18.8%"
+      },
+      "18": {
+        "atkPercent": "18.8%"
+      },
+      "19": {
+        "atkPercent": "18.8%"
+      },
+      "20": {
+        "atkPercent": "21.2%"
+      },
+      "21": {
+        "atkPercent": "21.2%"
+      },
+      "22": {
+        "atkPercent": "21.2%"
+      },
+      "23": {
+        "atkPercent": "21.2%"
+      },
+      "24": {
+        "atkPercent": "21.2%"
+      },
+      "25": {
+        "atkPercent": "23.6%"
+      },
+      "26": {
+        "atkPercent": "23.6%"
+      },
+      "27": {
+        "atkPercent": "23.6%"
+      },
+      "28": {
+        "atkPercent": "23.6%"
+      },
+      "29": {
+        "atkPercent": "23.6%"
+      },
+      "30": {
+        "atkPercent": "26.1%"
+      },
+      "31": {
+        "atkPercent": "26.1%"
+      },
+      "32": {
+        "atkPercent": "26.1%"
+      },
+      "33": {
+        "atkPercent": "26.1%"
+      },
+      "34": {
+        "atkPercent": "26.1%"
+      },
+      "35": {
+        "atkPercent": "28.5%"
+      },
+      "36": {
+        "atkPercent": "28.5%"
+      },
+      "37": {
+        "atkPercent": "28.5%"
+      },
+      "38": {
+        "atkPercent": "28.5%"
+      },
+      "39": {
+        "atkPercent": "28.5%"
+      },
+      "40": {
+        "atkPercent": "30.9%"
+      },
+      "41": {
+        "atkPercent": "30.9%"
+      },
+      "42": {
+        "atkPercent": "30.9%"
+      },
+      "43": {
+        "atkPercent": "30.9%"
+      },
+      "44": {
+        "atkPercent": "30.9%"
+      },
+      "45": {
+        "atkPercent": "33.3%"
+      },
+      "46": {
+        "atkPercent": "33.3%"
+      },
+      "47": {
+        "atkPercent": "33.3%"
+      },
+      "48": {
+        "atkPercent": "33.3%"
+      },
+      "49": {
+        "atkPercent": "33.3%"
+      },
+      "50": {
+        "atkPercent": "35.7%"
+      },
+      "51": {
+        "atkPercent": "35.7%"
+      },
+      "52": {
+        "atkPercent": "35.7%"
+      },
+      "53": {
+        "atkPercent": "35.7%"
+      },
+      "54": {
+        "atkPercent": "35.7%"
+      },
+      "55": {
+        "atkPercent": "38.2%"
+      },
+      "56": {
+        "atkPercent": "38.2%"
+      },
+      "57": {
+        "atkPercent": "38.2%"
+      },
+      "58": {
+        "atkPercent": "38.2%"
+      },
+      "59": {
+        "atkPercent": "38.2%"
+      },
+      "60": {
+        "atkPercent": "40.6%"
+      },
+      "61": {
+        "atkPercent": "40.6%"
+      },
+      "62": {
+        "atkPercent": "40.6%"
+      },
+      "63": {
+        "atkPercent": "40.6%"
+      },
+      "64": {
+        "atkPercent": "40.6%"
+      },
+      "65": {
+        "atkPercent": "43.0%"
+      },
+      "66": {
+        "atkPercent": "43.0%"
+      },
+      "67": {
+        "atkPercent": "43.0%"
+      },
+      "68": {
+        "atkPercent": "43.0%"
+      },
+      "69": {
+        "atkPercent": "43.0%"
+      },
+      "70": {
+        "atkPercent": "45.4%"
+      },
+      "71": {
+        "atkPercent": "45.4%"
+      },
+      "72": {
+        "atkPercent": "45.4%"
+      },
+      "73": {
+        "atkPercent": "45.4%"
+      },
+      "74": {
+        "atkPercent": "45.4%"
+      },
+      "75": {
+        "atkPercent": "47.9%"
+      },
+      "76": {
+        "atkPercent": "47.9%"
+      },
+      "77": {
+        "atkPercent": "47.9%"
+      },
+      "78": {
+        "atkPercent": "47.9%"
+      },
+      "79": {
+        "atkPercent": "47.9%"
+      },
+      "80": {
+        "atkPercent": "50.3%"
+      },
+      "81": {
+        "atkPercent": "50.3%"
+      },
+      "82": {
+        "atkPercent": "50.3%"
+      },
+      "83": {
+        "atkPercent": "50.3%"
+      },
+      "84": {
+        "atkPercent": "50.3%"
+      },
+      "85": {
+        "atkPercent": "52.7%"
+      },
+      "86": {
+        "atkPercent": "52.7%"
+      },
+      "87": {
+        "atkPercent": "52.7%"
+      },
+      "88": {
+        "atkPercent": "52.7%"
+      },
+      "89": {
+        "atkPercent": "52.7%"
+      },
+      "90": {
+        "atkPercent": "55.1%"
+      },
+      "20_ASC": {
+        "atkPercent": "21.2%"
+      },
+      "40_ASC": {
+        "atkPercent": "30.9%"
+      },
+      "50_ASC": {
+        "atkPercent": "35.7%"
+      },
+      "60_ASC": {
+        "atkPercent": "40.6%"
+      },
+      "70_ASC": {
+        "atkPercent": "45.4%"
+      },
+      "80_ASC": {
+        "atkPercent": "50.3%"
+      }
+    }
+  },
+  "effects": [
+    "Elemental Skill",
+    "Elemental Burst",
+    "Elemental Mastery"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Labyrinth Lord's Instruction",
+      "descriptions": [
+        "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Elemental Burst, increasing Elemental Mastery by 60 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 100% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Labyrinth Lord's Instruction",
+      "descriptions": [
+        "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Elemental Burst, increasing Elemental Mastery by 80 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 120% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Labyrinth Lord's Instruction",
+      "descriptions": [
+        "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Elemental Burst, increasing Elemental Mastery by 100 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 140% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Labyrinth Lord's Instruction",
+      "descriptions": [
+        "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Elemental Burst, increasing Elemental Mastery by 120 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 160% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Labyrinth Lord's Instruction",
+      "descriptions": [
+        "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Elemental Burst, increasing Elemental Mastery by 140 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 180% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s."
+      ],
+      "upgradeCost": []
     }
   }
 }

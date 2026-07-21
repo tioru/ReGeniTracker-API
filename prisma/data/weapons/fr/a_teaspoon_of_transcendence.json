@@ -177,5 +177,118 @@
     "80_ASC": {
       "baseAtk": 621
     }
+  },
+  "secondaryAttribute": {
+    "type": "DGT CRIT",
+    "levels": {
+      "1": {
+        "crtDmg": "9,6 %"
+      },
+      "20": {
+        "crtDmg": "17,0 %"
+      },
+      "40": {
+        "crtDmg": "24,7 %"
+      },
+      "50": {
+        "crtDmg": "28,6 %"
+      },
+      "60": {
+        "crtDmg": "32,5 %"
+      },
+      "70": {
+        "crtDmg": "36,4 %"
+      },
+      "80": {
+        "crtDmg": "40,2 %"
+      },
+      "90": {
+        "crtDmg": "44,1 %"
+      },
+      "20_ASC": {
+        "crtDmg": "17,0 %"
+      },
+      "40_ASC": {
+        "crtDmg": "24,7 %"
+      },
+      "50_ASC": {
+        "crtDmg": "28,6 %"
+      },
+      "60_ASC": {
+        "crtDmg": "32,5 %"
+      },
+      "70_ASC": {
+        "crtDmg": "36,4 %"
+      },
+      "80_ASC": {
+        "crtDmg": "40,2 %"
+      }
+    }
+  },
+  "effects": [
+    "ATK",
+    "Stellar-Conduct DMG Bonus"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Promotion de la fée blanche",
+      "descriptions": [
+        "Augmente l'ATQ du personnage équipé de l'arme de 28 %.",
+        "De plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction de 16 % pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "Promotion de la fée blanche",
+      "descriptions": [
+        "Augmente l'ATQ du personnage équipé de l'arme de 35 %.",
+        "De plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction de 20 % pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "Promotion de la fée blanche",
+      "descriptions": [
+        "Augmente l'ATQ du personnage équipé de l'arme de 42 %.",
+        "De plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction de 24 % pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "Promotion de la fée blanche",
+      "descriptions": [
+        "Augmente l'ATQ du personnage équipé de l'arme de 49 %.",
+        "De plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction de 28 % pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "Promotion de la fée blanche",
+      "descriptions": [
+        "Augmente l'ATQ du personnage équipé de l'arme de 56 %.",
+        "De plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction de 32 % pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s."
+      ],
+      "upgradeCost": []
+    }
   }
 }

@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 38
     },
+    "2": {
+      "baseAtk": 40
+    },
+    "3": {
+      "baseAtk": 43
+    },
+    "4": {
+      "baseAtk": 46
+    },
+    "5": {
+      "baseAtk": 48
+    },
+    "6": {
+      "baseAtk": 51
+    },
+    "7": {
+      "baseAtk": 53
+    },
+    "8": {
+      "baseAtk": 56
+    },
+    "9": {
+      "baseAtk": 58
+    },
+    "10": {
+      "baseAtk": 61
+    },
+    "11": {
+      "baseAtk": 63
+    },
+    "12": {
+      "baseAtk": 66
+    },
+    "13": {
+      "baseAtk": 68
+    },
+    "14": {
+      "baseAtk": 71
+    },
+    "15": {
+      "baseAtk": 73
+    },
+    "16": {
+      "baseAtk": 76
+    },
+    "17": {
+      "baseAtk": 78
+    },
+    "18": {
+      "baseAtk": 81
+    },
+    "19": {
+      "baseAtk": 83
+    },
     "20": {
       "baseAtk": 86
+    },
+    "21": {
+      "baseAtk": 107
+    },
+    "22": {
+      "baseAtk": 110
+    },
+    "23": {
+      "baseAtk": 112
+    },
+    "24": {
+      "baseAtk": 115
+    },
+    "25": {
+      "baseAtk": 117
+    },
+    "26": {
+      "baseAtk": 119
+    },
+    "27": {
+      "baseAtk": 122
+    },
+    "28": {
+      "baseAtk": 124
+    },
+    "29": {
+      "baseAtk": 126
+    },
+    "30": {
+      "baseAtk": 129
+    },
+    "31": {
+      "baseAtk": 131
+    },
+    "32": {
+      "baseAtk": 133
+    },
+    "33": {
+      "baseAtk": 135
+    },
+    "34": {
+      "baseAtk": 138
+    },
+    "35": {
+      "baseAtk": 140
+    },
+    "36": {
+      "baseAtk": 142
+    },
+    "37": {
+      "baseAtk": 145
+    },
+    "38": {
+      "baseAtk": 147
+    },
+    "39": {
+      "baseAtk": 149
     },
     "40": {
       "baseAtk": 151
     },
+    "41": {
+      "baseAtk": 173
+    },
+    "42": {
+      "baseAtk": 175
+    },
+    "43": {
+      "baseAtk": 177
+    },
+    "44": {
+      "baseAtk": 180
+    },
+    "45": {
+      "baseAtk": 182
+    },
+    "46": {
+      "baseAtk": 184
+    },
+    "47": {
+      "baseAtk": 186
+    },
+    "48": {
+      "baseAtk": 188
+    },
+    "49": {
+      "baseAtk": 191
+    },
     "50": {
       "baseAtk": 193
+    },
+    "51": {
+      "baseAtk": 214
+    },
+    "52": {
+      "baseAtk": 217
+    },
+    "53": {
+      "baseAtk": 219
+    },
+    "54": {
+      "baseAtk": 221
+    },
+    "55": {
+      "baseAtk": 223
+    },
+    "56": {
+      "baseAtk": 225
+    },
+    "57": {
+      "baseAtk": 227
+    },
+    "58": {
+      "baseAtk": 229
+    },
+    "59": {
+      "baseAtk": 232
     },
     "60": {
       "baseAtk": 234
     },
+    "61": {
+      "baseAtk": 255
+    },
+    "62": {
+      "baseAtk": 257
+    },
+    "63": {
+      "baseAtk": 259
+    },
+    "64": {
+      "baseAtk": 262
+    },
+    "65": {
+      "baseAtk": 264
+    },
+    "66": {
+      "baseAtk": 266
+    },
+    "67": {
+      "baseAtk": 268
+    },
+    "68": {
+      "baseAtk": 270
+    },
+    "69": {
+      "baseAtk": 272
+    },
     "70": {
       "baseAtk": 274
     },
+    "71": {
+      "baseAtk": 296
+    },
+    "72": {
+      "baseAtk": 298
+    },
+    "73": {
+      "baseAtk": 300
+    },
+    "74": {
+      "baseAtk": 302
+    },
+    "75": {
+      "baseAtk": 304
+    },
+    "76": {
+      "baseAtk": 306
+    },
+    "77": {
+      "baseAtk": 308
+    },
+    "78": {
+      "baseAtk": 310
+    },
+    "79": {
+      "baseAtk": 312
+    },
     "80": {
       "baseAtk": 314
+    },
+    "81": {
+      "baseAtk": 336
+    },
+    "82": {
+      "baseAtk": 338
+    },
+    "83": {
+      "baseAtk": 340
+    },
+    "84": {
+      "baseAtk": 342
+    },
+    "85": {
+      "baseAtk": 344
+    },
+    "86": {
+      "baseAtk": 346
+    },
+    "87": {
+      "baseAtk": 348
+    },
+    "88": {
+      "baseAtk": 350
+    },
+    "89": {
+      "baseAtk": 352
     },
     "90": {
       "baseAtk": 354
@@ -176,6 +422,360 @@
     },
     "80_ASC": {
       "baseAtk": 334
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Recharge d'énergie",
+    "levels": {
+      "1": {
+        "energyRecharge": "11,3 %"
+      },
+      "2": {
+        "energyRecharge": "11,3 %"
+      },
+      "3": {
+        "energyRecharge": "11,3 %"
+      },
+      "4": {
+        "energyRecharge": "11,3 %"
+      },
+      "5": {
+        "energyRecharge": "13,2 %"
+      },
+      "6": {
+        "energyRecharge": "13,2 %"
+      },
+      "7": {
+        "energyRecharge": "13,2 %"
+      },
+      "8": {
+        "energyRecharge": "13,2 %"
+      },
+      "9": {
+        "energyRecharge": "13,2 %"
+      },
+      "10": {
+        "energyRecharge": "15,4 %"
+      },
+      "11": {
+        "energyRecharge": "15,4 %"
+      },
+      "12": {
+        "energyRecharge": "15,4 %"
+      },
+      "13": {
+        "energyRecharge": "15,4 %"
+      },
+      "14": {
+        "energyRecharge": "15,4 %"
+      },
+      "15": {
+        "energyRecharge": "17,7 %"
+      },
+      "16": {
+        "energyRecharge": "17,7 %"
+      },
+      "17": {
+        "energyRecharge": "17,7 %"
+      },
+      "18": {
+        "energyRecharge": "17,7 %"
+      },
+      "19": {
+        "energyRecharge": "17,7 %"
+      },
+      "20": {
+        "energyRecharge": "20,0 %"
+      },
+      "21": {
+        "energyRecharge": "20,0 %"
+      },
+      "22": {
+        "energyRecharge": "20,0 %"
+      },
+      "23": {
+        "energyRecharge": "20,0 %"
+      },
+      "24": {
+        "energyRecharge": "20,0 %"
+      },
+      "25": {
+        "energyRecharge": "22,3 %"
+      },
+      "26": {
+        "energyRecharge": "22,3 %"
+      },
+      "27": {
+        "energyRecharge": "22,3 %"
+      },
+      "28": {
+        "energyRecharge": "22,3 %"
+      },
+      "29": {
+        "energyRecharge": "22,3 %"
+      },
+      "30": {
+        "energyRecharge": "24,6 %"
+      },
+      "31": {
+        "energyRecharge": "24,6 %"
+      },
+      "32": {
+        "energyRecharge": "24,6 %"
+      },
+      "33": {
+        "energyRecharge": "24,6 %"
+      },
+      "34": {
+        "energyRecharge": "24,6 %"
+      },
+      "35": {
+        "energyRecharge": "26,9 %"
+      },
+      "36": {
+        "energyRecharge": "26,9 %"
+      },
+      "37": {
+        "energyRecharge": "26,9 %"
+      },
+      "38": {
+        "energyRecharge": "26,9 %"
+      },
+      "39": {
+        "energyRecharge": "26,9 %"
+      },
+      "40": {
+        "energyRecharge": "29,2 %"
+      },
+      "41": {
+        "energyRecharge": "29,2 %"
+      },
+      "42": {
+        "energyRecharge": "29,2 %"
+      },
+      "43": {
+        "energyRecharge": "29,2 %"
+      },
+      "44": {
+        "energyRecharge": "29,2 %"
+      },
+      "45": {
+        "energyRecharge": "31,5 %"
+      },
+      "46": {
+        "energyRecharge": "31,5 %"
+      },
+      "47": {
+        "energyRecharge": "31,5 %"
+      },
+      "48": {
+        "energyRecharge": "31,5 %"
+      },
+      "49": {
+        "energyRecharge": "31,5 %"
+      },
+      "50": {
+        "energyRecharge": "33,8 %"
+      },
+      "51": {
+        "energyRecharge": "33,8 %"
+      },
+      "52": {
+        "energyRecharge": "33,8 %"
+      },
+      "53": {
+        "energyRecharge": "33,8 %"
+      },
+      "54": {
+        "energyRecharge": "33,8 %"
+      },
+      "55": {
+        "energyRecharge": "36,1 %"
+      },
+      "56": {
+        "energyRecharge": "36,1 %"
+      },
+      "57": {
+        "energyRecharge": "36,1 %"
+      },
+      "58": {
+        "energyRecharge": "36,1 %"
+      },
+      "59": {
+        "energyRecharge": "36,1 %"
+      },
+      "60": {
+        "energyRecharge": "38,3 %"
+      },
+      "61": {
+        "energyRecharge": "38,3 %"
+      },
+      "62": {
+        "energyRecharge": "38,3 %"
+      },
+      "63": {
+        "energyRecharge": "38,3 %"
+      },
+      "64": {
+        "energyRecharge": "38,3 %"
+      },
+      "65": {
+        "energyRecharge": "40,6 %"
+      },
+      "66": {
+        "energyRecharge": "40,6 %"
+      },
+      "67": {
+        "energyRecharge": "40,6 %"
+      },
+      "68": {
+        "energyRecharge": "40,6 %"
+      },
+      "69": {
+        "energyRecharge": "40,6 %"
+      },
+      "70": {
+        "energyRecharge": "42,9 %"
+      },
+      "71": {
+        "energyRecharge": "42,9 %"
+      },
+      "72": {
+        "energyRecharge": "42,9 %"
+      },
+      "73": {
+        "energyRecharge": "42,9 %"
+      },
+      "74": {
+        "energyRecharge": "42,9 %"
+      },
+      "75": {
+        "energyRecharge": "45,2 %"
+      },
+      "76": {
+        "energyRecharge": "45,2 %"
+      },
+      "77": {
+        "energyRecharge": "45,2 %"
+      },
+      "78": {
+        "energyRecharge": "45,2 %"
+      },
+      "79": {
+        "energyRecharge": "45,2 %"
+      },
+      "80": {
+        "energyRecharge": "47,5 %"
+      },
+      "81": {
+        "energyRecharge": "47,5 %"
+      },
+      "82": {
+        "energyRecharge": "47,5 %"
+      },
+      "83": {
+        "energyRecharge": "47,5 %"
+      },
+      "84": {
+        "energyRecharge": "47,5 %"
+      },
+      "85": {
+        "energyRecharge": "49,8 %"
+      },
+      "86": {
+        "energyRecharge": "49,8 %"
+      },
+      "87": {
+        "energyRecharge": "49,8 %"
+      },
+      "88": {
+        "energyRecharge": "49,8 %"
+      },
+      "89": {
+        "energyRecharge": "49,8 %"
+      },
+      "90": {
+        "energyRecharge": "52,1 %"
+      },
+      "20_ASC": {
+        "energyRecharge": "20,0 %"
+      },
+      "40_ASC": {
+        "energyRecharge": "29,2 %"
+      },
+      "50_ASC": {
+        "energyRecharge": "33,8 %"
+      },
+      "60_ASC": {
+        "energyRecharge": "38,3 %"
+      },
+      "70_ASC": {
+        "energyRecharge": "42,9 %"
+      },
+      "80_ASC": {
+        "energyRecharge": "47,5 %"
+      }
+    }
+  },
+  "effects": [
+    "ATK",
+    "Movement SPD"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Détermination",
+      "descriptions": [
+        "Augmente l'ATQ et la VIT de déplacement de 12 % pendant 15 s après un déchaînement élémentaire."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 500
+        }
+      ]
+    },
+    "2": {
+      "title": "Détermination",
+      "descriptions": [
+        "Augmente l'ATQ et la VIT de déplacement de 15 % pendant 15 s après un déchaînement élémentaire."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "3": {
+      "title": "Détermination",
+      "descriptions": [
+        "Augmente l'ATQ et la VIT de déplacement de 18 % pendant 15 s après un déchaînement élémentaire."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "4": {
+      "title": "Détermination",
+      "descriptions": [
+        "Augmente l'ATQ et la VIT de déplacement de 21 % pendant 15 s après un déchaînement élémentaire."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "5": {
+      "title": "Détermination",
+      "descriptions": [
+        "Augmente l'ATQ et la VIT de déplacement de 24 % pendant 15 s après un déchaînement élémentaire."
+      ],
+      "upgradeCost": []
     }
   }
 }

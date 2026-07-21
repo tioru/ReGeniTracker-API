@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 40
     },
+    "2": {
+      "baseAtk": 43
+    },
+    "3": {
+      "baseAtk": 46
+    },
+    "4": {
+      "baseAtk": 50
+    },
+    "5": {
+      "baseAtk": 53
+    },
+    "6": {
+      "baseAtk": 56
+    },
+    "7": {
+      "baseAtk": 59
+    },
+    "8": {
+      "baseAtk": 63
+    },
+    "9": {
+      "baseAtk": 66
+    },
+    "10": {
+      "baseAtk": 69
+    },
+    "11": {
+      "baseAtk": 72
+    },
+    "12": {
+      "baseAtk": 76
+    },
+    "13": {
+      "baseAtk": 79
+    },
+    "14": {
+      "baseAtk": 82
+    },
+    "15": {
+      "baseAtk": 86
+    },
+    "16": {
+      "baseAtk": 89
+    },
+    "17": {
+      "baseAtk": 92
+    },
+    "18": {
+      "baseAtk": 95
+    },
+    "19": {
+      "baseAtk": 99
+    },
     "20": {
       "baseAtk": 102
+    },
+    "21": {
+      "baseAtk": 125
+    },
+    "22": {
+      "baseAtk": 128
+    },
+    "23": {
+      "baseAtk": 131
+    },
+    "24": {
+      "baseAtk": 135
+    },
+    "25": {
+      "baseAtk": 138
+    },
+    "26": {
+      "baseAtk": 141
+    },
+    "27": {
+      "baseAtk": 144
+    },
+    "28": {
+      "baseAtk": 148
+    },
+    "29": {
+      "baseAtk": 151
+    },
+    "30": {
+      "baseAtk": 154
+    },
+    "31": {
+      "baseAtk": 158
+    },
+    "32": {
+      "baseAtk": 161
+    },
+    "33": {
+      "baseAtk": 164
+    },
+    "34": {
+      "baseAtk": 168
+    },
+    "35": {
+      "baseAtk": 171
+    },
+    "36": {
+      "baseAtk": 174
+    },
+    "37": {
+      "baseAtk": 177
+    },
+    "38": {
+      "baseAtk": 181
+    },
+    "39": {
+      "baseAtk": 184
     },
     "40": {
       "baseAtk": 187
     },
+    "41": {
+      "baseAtk": 210
+    },
+    "42": {
+      "baseAtk": 213
+    },
+    "43": {
+      "baseAtk": 217
+    },
+    "44": {
+      "baseAtk": 220
+    },
+    "45": {
+      "baseAtk": 223
+    },
+    "46": {
+      "baseAtk": 226
+    },
+    "47": {
+      "baseAtk": 230
+    },
+    "48": {
+      "baseAtk": 233
+    },
+    "49": {
+      "baseAtk": 236
+    },
     "50": {
       "baseAtk": 239
+    },
+    "51": {
+      "baseAtk": 262
+    },
+    "52": {
+      "baseAtk": 266
+    },
+    "53": {
+      "baseAtk": 269
+    },
+    "54": {
+      "baseAtk": 272
+    },
+    "55": {
+      "baseAtk": 275
+    },
+    "56": {
+      "baseAtk": 279
+    },
+    "57": {
+      "baseAtk": 282
+    },
+    "58": {
+      "baseAtk": 285
+    },
+    "59": {
+      "baseAtk": 288
     },
     "60": {
       "baseAtk": 292
     },
+    "61": {
+      "baseAtk": 314
+    },
+    "62": {
+      "baseAtk": 318
+    },
+    "63": {
+      "baseAtk": 321
+    },
+    "64": {
+      "baseAtk": 324
+    },
+    "65": {
+      "baseAtk": 327
+    },
+    "66": {
+      "baseAtk": 331
+    },
+    "67": {
+      "baseAtk": 334
+    },
+    "68": {
+      "baseAtk": 337
+    },
+    "69": {
+      "baseAtk": 341
+    },
     "70": {
       "baseAtk": 344
     },
+    "71": {
+      "baseAtk": 367
+    },
+    "72": {
+      "baseAtk": 370
+    },
+    "73": {
+      "baseAtk": 373
+    },
+    "74": {
+      "baseAtk": 376
+    },
+    "75": {
+      "baseAtk": 380
+    },
+    "76": {
+      "baseAtk": 383
+    },
+    "77": {
+      "baseAtk": 386
+    },
+    "78": {
+      "baseAtk": 390
+    },
+    "79": {
+      "baseAtk": 393
+    },
     "80": {
       "baseAtk": 396
+    },
+    "81": {
+      "baseAtk": 419
+    },
+    "82": {
+      "baseAtk": 422
+    },
+    "83": {
+      "baseAtk": 425
+    },
+    "84": {
+      "baseAtk": 429
+    },
+    "85": {
+      "baseAtk": 432
+    },
+    "86": {
+      "baseAtk": 435
+    },
+    "87": {
+      "baseAtk": 438
+    },
+    "88": {
+      "baseAtk": 442
+    },
+    "89": {
+      "baseAtk": 445
     },
     "90": {
       "baseAtk": 448
@@ -176,6 +422,356 @@
     },
     "80_ASC": {
       "baseAtk": 415
+    }
+  },
+  "secondaryAttribute": {
+    "type": "CRIT DMG",
+    "levels": {
+      "1": {
+        "crtDmg": "6.8%"
+      },
+      "2": {
+        "crtDmg": "6.8%"
+      },
+      "3": {
+        "crtDmg": "6.8%"
+      },
+      "4": {
+        "crtDmg": "6.8%"
+      },
+      "5": {
+        "crtDmg": "7.9%"
+      },
+      "6": {
+        "crtDmg": "7.9%"
+      },
+      "7": {
+        "crtDmg": "7.9%"
+      },
+      "8": {
+        "crtDmg": "7.9%"
+      },
+      "9": {
+        "crtDmg": "7.9%"
+      },
+      "10": {
+        "crtDmg": "9.3%"
+      },
+      "11": {
+        "crtDmg": "9.3%"
+      },
+      "12": {
+        "crtDmg": "9.3%"
+      },
+      "13": {
+        "crtDmg": "9.3%"
+      },
+      "14": {
+        "crtDmg": "9.3%"
+      },
+      "15": {
+        "crtDmg": "10.6%"
+      },
+      "16": {
+        "crtDmg": "10.6%"
+      },
+      "17": {
+        "crtDmg": "10.6%"
+      },
+      "18": {
+        "crtDmg": "10.6%"
+      },
+      "19": {
+        "crtDmg": "10.6%"
+      },
+      "20": {
+        "crtDmg": "12.0%"
+      },
+      "21": {
+        "crtDmg": "12.0%"
+      },
+      "22": {
+        "crtDmg": "12.0%"
+      },
+      "23": {
+        "crtDmg": "12.0%"
+      },
+      "24": {
+        "crtDmg": "12.0%"
+      },
+      "25": {
+        "crtDmg": "13.4%"
+      },
+      "26": {
+        "crtDmg": "13.4%"
+      },
+      "27": {
+        "crtDmg": "13.4%"
+      },
+      "28": {
+        "crtDmg": "13.4%"
+      },
+      "29": {
+        "crtDmg": "13.4%"
+      },
+      "30": {
+        "crtDmg": "14.8%"
+      },
+      "31": {
+        "crtDmg": "14.8%"
+      },
+      "32": {
+        "crtDmg": "14.8%"
+      },
+      "33": {
+        "crtDmg": "14.8%"
+      },
+      "34": {
+        "crtDmg": "14.8%"
+      },
+      "35": {
+        "crtDmg": "16.1%"
+      },
+      "36": {
+        "crtDmg": "16.1%"
+      },
+      "37": {
+        "crtDmg": "16.1%"
+      },
+      "38": {
+        "crtDmg": "16.1%"
+      },
+      "39": {
+        "crtDmg": "16.1%"
+      },
+      "40": {
+        "crtDmg": "17.5%"
+      },
+      "41": {
+        "crtDmg": "17.5%"
+      },
+      "42": {
+        "crtDmg": "17.5%"
+      },
+      "43": {
+        "crtDmg": "17.5%"
+      },
+      "44": {
+        "crtDmg": "17.5%"
+      },
+      "45": {
+        "crtDmg": "18.9%"
+      },
+      "46": {
+        "crtDmg": "18.9%"
+      },
+      "47": {
+        "crtDmg": "18.9%"
+      },
+      "48": {
+        "crtDmg": "18.9%"
+      },
+      "49": {
+        "crtDmg": "18.9%"
+      },
+      "50": {
+        "crtDmg": "20.3%"
+      },
+      "51": {
+        "crtDmg": "20.3%"
+      },
+      "52": {
+        "crtDmg": "20.3%"
+      },
+      "53": {
+        "crtDmg": "20.3%"
+      },
+      "54": {
+        "crtDmg": "20.3%"
+      },
+      "55": {
+        "crtDmg": "21.6%"
+      },
+      "56": {
+        "crtDmg": "21.6%"
+      },
+      "57": {
+        "crtDmg": "21.6%"
+      },
+      "58": {
+        "crtDmg": "21.6%"
+      },
+      "59": {
+        "crtDmg": "21.6%"
+      },
+      "60": {
+        "crtDmg": "23.0%"
+      },
+      "61": {
+        "crtDmg": "23.0%"
+      },
+      "62": {
+        "crtDmg": "23.0%"
+      },
+      "63": {
+        "crtDmg": "23.0%"
+      },
+      "64": {
+        "crtDmg": "23.0%"
+      },
+      "65": {
+        "crtDmg": "24.4%"
+      },
+      "66": {
+        "crtDmg": "24.4%"
+      },
+      "67": {
+        "crtDmg": "24.4%"
+      },
+      "68": {
+        "crtDmg": "24.4%"
+      },
+      "69": {
+        "crtDmg": "24.4%"
+      },
+      "70": {
+        "crtDmg": "25.7%"
+      },
+      "71": {
+        "crtDmg": "25.7%"
+      },
+      "72": {
+        "crtDmg": "25.7%"
+      },
+      "73": {
+        "crtDmg": "25.7%"
+      },
+      "74": {
+        "crtDmg": "25.7%"
+      },
+      "75": {
+        "crtDmg": "27.1%"
+      },
+      "76": {
+        "crtDmg": "27.1%"
+      },
+      "77": {
+        "crtDmg": "27.1%"
+      },
+      "78": {
+        "crtDmg": "27.1%"
+      },
+      "79": {
+        "crtDmg": "27.1%"
+      },
+      "80": {
+        "crtDmg": "28.5%"
+      },
+      "81": {
+        "crtDmg": "28.5%"
+      },
+      "82": {
+        "crtDmg": "28.5%"
+      },
+      "83": {
+        "crtDmg": "28.5%"
+      },
+      "84": {
+        "crtDmg": "28.5%"
+      },
+      "85": {
+        "crtDmg": "29.9%"
+      },
+      "86": {
+        "crtDmg": "29.9%"
+      },
+      "87": {
+        "crtDmg": "29.9%"
+      },
+      "88": {
+        "crtDmg": "29.9%"
+      },
+      "89": {
+        "crtDmg": "29.9%"
+      },
+      "90": {
+        "crtDmg": "31.2%"
+      },
+      "20_ASC": {
+        "crtDmg": "12.0%"
+      },
+      "40_ASC": {
+        "crtDmg": "17.5%"
+      },
+      "50_ASC": {
+        "crtDmg": "20.3%"
+      },
+      "60_ASC": {
+        "crtDmg": "23.0%"
+      },
+      "70_ASC": {
+        "crtDmg": "25.7%"
+      },
+      "80_ASC": {
+        "crtDmg": "28.5%"
+      }
+    }
+  },
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Archer's Message",
+      "descriptions": [
+        "Charged Attack hits on weak spots deal an additional 100% ATK DMG as CRIT DMG. Can only occur once every 10s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 500
+        }
+      ]
+    },
+    "2": {
+      "title": "Archer's Message",
+      "descriptions": [
+        "Charged Attack hits on weak spots deal an additional 125% ATK DMG as CRIT DMG. Can only occur once every 10s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "3": {
+      "title": "Archer's Message",
+      "descriptions": [
+        "Charged Attack hits on weak spots deal an additional 150% ATK DMG as CRIT DMG. Can only occur once every 10s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "4": {
+      "title": "Archer's Message",
+      "descriptions": [
+        "Charged Attack hits on weak spots deal an additional 175% ATK DMG as CRIT DMG. Can only occur once every 10s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "5": {
+      "title": "Archer's Message",
+      "descriptions": [
+        "Charged Attack hits on weak spots deal an additional 200% ATK DMG as CRIT DMG. Can only occur once every 10s."
+      ],
+      "upgradeCost": []
     }
   }
 }

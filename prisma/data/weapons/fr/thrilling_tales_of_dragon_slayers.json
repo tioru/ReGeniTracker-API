@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 39
     },
+    "2": {
+      "baseAtk": 42
+    },
+    "3": {
+      "baseAtk": 45
+    },
+    "4": {
+      "baseAtk": 48
+    },
+    "5": {
+      "baseAtk": 50
+    },
+    "6": {
+      "baseAtk": 53
+    },
+    "7": {
+      "baseAtk": 56
+    },
+    "8": {
+      "baseAtk": 59
+    },
+    "9": {
+      "baseAtk": 62
+    },
+    "10": {
+      "baseAtk": 65
+    },
+    "11": {
+      "baseAtk": 68
+    },
+    "12": {
+      "baseAtk": 71
+    },
+    "13": {
+      "baseAtk": 74
+    },
+    "14": {
+      "baseAtk": 77
+    },
+    "15": {
+      "baseAtk": 79
+    },
+    "16": {
+      "baseAtk": 82
+    },
+    "17": {
+      "baseAtk": 85
+    },
+    "18": {
+      "baseAtk": 88
+    },
+    "19": {
+      "baseAtk": 91
+    },
     "20": {
       "baseAtk": 94
+    },
+    "21": {
+      "baseAtk": 116
+    },
+    "22": {
+      "baseAtk": 119
+    },
+    "23": {
+      "baseAtk": 122
+    },
+    "24": {
+      "baseAtk": 125
+    },
+    "25": {
+      "baseAtk": 127
+    },
+    "26": {
+      "baseAtk": 130
+    },
+    "27": {
+      "baseAtk": 133
+    },
+    "28": {
+      "baseAtk": 136
+    },
+    "29": {
+      "baseAtk": 139
+    },
+    "30": {
+      "baseAtk": 141
+    },
+    "31": {
+      "baseAtk": 144
+    },
+    "32": {
+      "baseAtk": 147
+    },
+    "33": {
+      "baseAtk": 150
+    },
+    "34": {
+      "baseAtk": 153
+    },
+    "35": {
+      "baseAtk": 155
+    },
+    "36": {
+      "baseAtk": 158
+    },
+    "37": {
+      "baseAtk": 161
+    },
+    "38": {
+      "baseAtk": 164
+    },
+    "39": {
+      "baseAtk": 166
     },
     "40": {
       "baseAtk": 169
     },
+    "41": {
+      "baseAtk": 191
+    },
+    "42": {
+      "baseAtk": 194
+    },
+    "43": {
+      "baseAtk": 197
+    },
+    "44": {
+      "baseAtk": 200
+    },
+    "45": {
+      "baseAtk": 202
+    },
+    "46": {
+      "baseAtk": 205
+    },
+    "47": {
+      "baseAtk": 208
+    },
+    "48": {
+      "baseAtk": 211
+    },
+    "49": {
+      "baseAtk": 213
+    },
     "50": {
       "baseAtk": 216
+    },
+    "51": {
+      "baseAtk": 238
+    },
+    "52": {
+      "baseAtk": 241
+    },
+    "53": {
+      "baseAtk": 244
+    },
+    "54": {
+      "baseAtk": 246
+    },
+    "55": {
+      "baseAtk": 249
+    },
+    "56": {
+      "baseAtk": 252
+    },
+    "57": {
+      "baseAtk": 255
+    },
+    "58": {
+      "baseAtk": 257
+    },
+    "59": {
+      "baseAtk": 260
     },
     "60": {
       "baseAtk": 263
     },
+    "61": {
+      "baseAtk": 285
+    },
+    "62": {
+      "baseAtk": 288
+    },
+    "63": {
+      "baseAtk": 290
+    },
+    "64": {
+      "baseAtk": 293
+    },
+    "65": {
+      "baseAtk": 296
+    },
+    "66": {
+      "baseAtk": 298
+    },
+    "67": {
+      "baseAtk": 301
+    },
+    "68": {
+      "baseAtk": 304
+    },
+    "69": {
+      "baseAtk": 306
+    },
     "70": {
       "baseAtk": 309
     },
+    "71": {
+      "baseAtk": 331
+    },
+    "72": {
+      "baseAtk": 334
+    },
+    "73": {
+      "baseAtk": 337
+    },
+    "74": {
+      "baseAtk": 339
+    },
+    "75": {
+      "baseAtk": 342
+    },
+    "76": {
+      "baseAtk": 345
+    },
+    "77": {
+      "baseAtk": 347
+    },
+    "78": {
+      "baseAtk": 350
+    },
+    "79": {
+      "baseAtk": 353
+    },
     "80": {
       "baseAtk": 355
+    },
+    "81": {
+      "baseAtk": 377
+    },
+    "82": {
+      "baseAtk": 380
+    },
+    "83": {
+      "baseAtk": 383
+    },
+    "84": {
+      "baseAtk": 385
+    },
+    "85": {
+      "baseAtk": 388
+    },
+    "86": {
+      "baseAtk": 391
+    },
+    "87": {
+      "baseAtk": 393
+    },
+    "88": {
+      "baseAtk": 396
+    },
+    "89": {
+      "baseAtk": 399
     },
     "90": {
       "baseAtk": 401
@@ -176,6 +422,360 @@
     },
     "80_ASC": {
       "baseAtk": 375
+    }
+  },
+  "secondaryAttribute": {
+    "type": "PV",
+    "levels": {
+      "1": {
+        "hpPercent": "7,7 %"
+      },
+      "2": {
+        "hpPercent": "7,7 %"
+      },
+      "3": {
+        "hpPercent": "7,7 %"
+      },
+      "4": {
+        "hpPercent": "7,7 %"
+      },
+      "5": {
+        "hpPercent": "8,9 %"
+      },
+      "6": {
+        "hpPercent": "8,9 %"
+      },
+      "7": {
+        "hpPercent": "8,9 %"
+      },
+      "8": {
+        "hpPercent": "8,9 %"
+      },
+      "9": {
+        "hpPercent": "8,9 %"
+      },
+      "10": {
+        "hpPercent": "10,4 %"
+      },
+      "11": {
+        "hpPercent": "10,4 %"
+      },
+      "12": {
+        "hpPercent": "10,4 %"
+      },
+      "13": {
+        "hpPercent": "10,4 %"
+      },
+      "14": {
+        "hpPercent": "10,4 %"
+      },
+      "15": {
+        "hpPercent": "12,0 %"
+      },
+      "16": {
+        "hpPercent": "12,0 %"
+      },
+      "17": {
+        "hpPercent": "12,0 %"
+      },
+      "18": {
+        "hpPercent": "12,0 %"
+      },
+      "19": {
+        "hpPercent": "12,0 %"
+      },
+      "20": {
+        "hpPercent": "13,5 %"
+      },
+      "21": {
+        "hpPercent": "13,5 %"
+      },
+      "22": {
+        "hpPercent": "13,5 %"
+      },
+      "23": {
+        "hpPercent": "13,5 %"
+      },
+      "24": {
+        "hpPercent": "13,5 %"
+      },
+      "25": {
+        "hpPercent": "15,1 %"
+      },
+      "26": {
+        "hpPercent": "15,1 %"
+      },
+      "27": {
+        "hpPercent": "15,1 %"
+      },
+      "28": {
+        "hpPercent": "15,1 %"
+      },
+      "29": {
+        "hpPercent": "15,1 %"
+      },
+      "30": {
+        "hpPercent": "16,6 %"
+      },
+      "31": {
+        "hpPercent": "16,6 %"
+      },
+      "32": {
+        "hpPercent": "16,6 %"
+      },
+      "33": {
+        "hpPercent": "16,6 %"
+      },
+      "34": {
+        "hpPercent": "16,6 %"
+      },
+      "35": {
+        "hpPercent": "18,2 %"
+      },
+      "36": {
+        "hpPercent": "18,2 %"
+      },
+      "37": {
+        "hpPercent": "18,2 %"
+      },
+      "38": {
+        "hpPercent": "18,2 %"
+      },
+      "39": {
+        "hpPercent": "18,2 %"
+      },
+      "40": {
+        "hpPercent": "19,7 %"
+      },
+      "41": {
+        "hpPercent": "19,7 %"
+      },
+      "42": {
+        "hpPercent": "19,7 %"
+      },
+      "43": {
+        "hpPercent": "19,7 %"
+      },
+      "44": {
+        "hpPercent": "19,7 %"
+      },
+      "45": {
+        "hpPercent": "21,3 %"
+      },
+      "46": {
+        "hpPercent": "21,3 %"
+      },
+      "47": {
+        "hpPercent": "21,3 %"
+      },
+      "48": {
+        "hpPercent": "21,3 %"
+      },
+      "49": {
+        "hpPercent": "21,3 %"
+      },
+      "50": {
+        "hpPercent": "22,8 %"
+      },
+      "51": {
+        "hpPercent": "22,8 %"
+      },
+      "52": {
+        "hpPercent": "22,8 %"
+      },
+      "53": {
+        "hpPercent": "22,8 %"
+      },
+      "54": {
+        "hpPercent": "22,8 %"
+      },
+      "55": {
+        "hpPercent": "24,4 %"
+      },
+      "56": {
+        "hpPercent": "24,4 %"
+      },
+      "57": {
+        "hpPercent": "24,4 %"
+      },
+      "58": {
+        "hpPercent": "24,4 %"
+      },
+      "59": {
+        "hpPercent": "24,4 %"
+      },
+      "60": {
+        "hpPercent": "25,9 %"
+      },
+      "61": {
+        "hpPercent": "25,9 %"
+      },
+      "62": {
+        "hpPercent": "25,9 %"
+      },
+      "63": {
+        "hpPercent": "25,9 %"
+      },
+      "64": {
+        "hpPercent": "25,9 %"
+      },
+      "65": {
+        "hpPercent": "27,5 %"
+      },
+      "66": {
+        "hpPercent": "27,5 %"
+      },
+      "67": {
+        "hpPercent": "27,5 %"
+      },
+      "68": {
+        "hpPercent": "27,5 %"
+      },
+      "69": {
+        "hpPercent": "27,5 %"
+      },
+      "70": {
+        "hpPercent": "29,0 %"
+      },
+      "71": {
+        "hpPercent": "29,0 %"
+      },
+      "72": {
+        "hpPercent": "29,0 %"
+      },
+      "73": {
+        "hpPercent": "29,0 %"
+      },
+      "74": {
+        "hpPercent": "29,0 %"
+      },
+      "75": {
+        "hpPercent": "30,5 %"
+      },
+      "76": {
+        "hpPercent": "30,5 %"
+      },
+      "77": {
+        "hpPercent": "30,5 %"
+      },
+      "78": {
+        "hpPercent": "30,5 %"
+      },
+      "79": {
+        "hpPercent": "30,5 %"
+      },
+      "80": {
+        "hpPercent": "32,1 %"
+      },
+      "81": {
+        "hpPercent": "32,1 %"
+      },
+      "82": {
+        "hpPercent": "32,1 %"
+      },
+      "83": {
+        "hpPercent": "32,1 %"
+      },
+      "84": {
+        "hpPercent": "32,1 %"
+      },
+      "85": {
+        "hpPercent": "33,6 %"
+      },
+      "86": {
+        "hpPercent": "33,6 %"
+      },
+      "87": {
+        "hpPercent": "33,6 %"
+      },
+      "88": {
+        "hpPercent": "33,6 %"
+      },
+      "89": {
+        "hpPercent": "33,6 %"
+      },
+      "90": {
+        "hpPercent": "35,2 %"
+      },
+      "20_ASC": {
+        "hpPercent": "13,5 %"
+      },
+      "40_ASC": {
+        "hpPercent": "19,7 %"
+      },
+      "50_ASC": {
+        "hpPercent": "22,8 %"
+      },
+      "60_ASC": {
+        "hpPercent": "25,9 %"
+      },
+      "70_ASC": {
+        "hpPercent": "29,0 %"
+      },
+      "80_ASC": {
+        "hpPercent": "32,1 %"
+      }
+    }
+  },
+  "effects": [
+    "ATK",
+    "Party ATK Increase"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Héritage",
+      "descriptions": [
+        "Augmente l'ATQ de 24 % pendant 10 s après un changement de personnage. Cet effet peut être déclenché une fois toutes les 20 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 500
+        }
+      ]
+    },
+    "2": {
+      "title": "Héritage",
+      "descriptions": [
+        "Augmente l'ATQ de 30 % pendant 10 s après un changement de personnage. Cet effet peut être déclenché une fois toutes les 20 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "3": {
+      "title": "Héritage",
+      "descriptions": [
+        "Augmente l'ATQ de 36 % pendant 10 s après un changement de personnage. Cet effet peut être déclenché une fois toutes les 20 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "4": {
+      "title": "Héritage",
+      "descriptions": [
+        "Augmente l'ATQ de 42 % pendant 10 s après un changement de personnage. Cet effet peut être déclenché une fois toutes les 20 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "5": {
+      "title": "Héritage",
+      "descriptions": [
+        "Augmente l'ATQ de 48 % pendant 10 s après un changement de personnage. Cet effet peut être déclenché une fois toutes les 20 s."
+      ],
+      "upgradeCost": []
     }
   }
 }

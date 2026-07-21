@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 48
     },
+    "2": {
+      "baseAtk": 52
+    },
+    "3": {
+      "baseAtk": 56
+    },
+    "4": {
+      "baseAtk": 61
+    },
+    "5": {
+      "baseAtk": 65
+    },
+    "6": {
+      "baseAtk": 69
+    },
+    "7": {
+      "baseAtk": 74
+    },
+    "8": {
+      "baseAtk": 78
+    },
+    "9": {
+      "baseAtk": 83
+    },
+    "10": {
+      "baseAtk": 87
+    },
+    "11": {
+      "baseAtk": 92
+    },
+    "12": {
+      "baseAtk": 96
+    },
+    "13": {
+      "baseAtk": 101
+    },
+    "14": {
+      "baseAtk": 106
+    },
+    "15": {
+      "baseAtk": 110
+    },
+    "16": {
+      "baseAtk": 115
+    },
+    "17": {
+      "baseAtk": 119
+    },
+    "18": {
+      "baseAtk": 124
+    },
+    "19": {
+      "baseAtk": 129
+    },
     "20": {
       "baseAtk": 133
+    },
+    "21": {
+      "baseAtk": 169
+    },
+    "22": {
+      "baseAtk": 174
+    },
+    "23": {
+      "baseAtk": 179
+    },
+    "24": {
+      "baseAtk": 183
+    },
+    "25": {
+      "baseAtk": 188
+    },
+    "26": {
+      "baseAtk": 193
+    },
+    "27": {
+      "baseAtk": 197
+    },
+    "28": {
+      "baseAtk": 202
+    },
+    "29": {
+      "baseAtk": 207
+    },
+    "30": {
+      "baseAtk": 212
+    },
+    "31": {
+      "baseAtk": 217
+    },
+    "32": {
+      "baseAtk": 221
+    },
+    "33": {
+      "baseAtk": 226
+    },
+    "34": {
+      "baseAtk": 231
+    },
+    "35": {
+      "baseAtk": 236
+    },
+    "36": {
+      "baseAtk": 241
+    },
+    "37": {
+      "baseAtk": 246
+    },
+    "38": {
+      "baseAtk": 251
+    },
+    "39": {
+      "baseAtk": 256
     },
     "40": {
       "baseAtk": 261
     },
+    "41": {
+      "baseAtk": 297
+    },
+    "42": {
+      "baseAtk": 302
+    },
+    "43": {
+      "baseAtk": 306
+    },
+    "44": {
+      "baseAtk": 311
+    },
+    "45": {
+      "baseAtk": 316
+    },
+    "46": {
+      "baseAtk": 321
+    },
+    "47": {
+      "baseAtk": 326
+    },
+    "48": {
+      "baseAtk": 331
+    },
+    "49": {
+      "baseAtk": 336
+    },
     "50": {
       "baseAtk": 341
+    },
+    "51": {
+      "baseAtk": 378
+    },
+    "52": {
+      "baseAtk": 383
+    },
+    "53": {
+      "baseAtk": 388
+    },
+    "54": {
+      "baseAtk": 393
+    },
+    "55": {
+      "baseAtk": 398
+    },
+    "56": {
+      "baseAtk": 403
+    },
+    "57": {
+      "baseAtk": 408
+    },
+    "58": {
+      "baseAtk": 413
+    },
+    "59": {
+      "baseAtk": 418
     },
     "60": {
       "baseAtk": 423
     },
+    "61": {
+      "baseAtk": 460
+    },
+    "62": {
+      "baseAtk": 465
+    },
+    "63": {
+      "baseAtk": 470
+    },
+    "64": {
+      "baseAtk": 475
+    },
+    "65": {
+      "baseAtk": 480
+    },
+    "66": {
+      "baseAtk": 485
+    },
+    "67": {
+      "baseAtk": 491
+    },
+    "68": {
+      "baseAtk": 496
+    },
+    "69": {
+      "baseAtk": 501
+    },
     "70": {
       "baseAtk": 506
     },
+    "71": {
+      "baseAtk": 543
+    },
+    "72": {
+      "baseAtk": 548
+    },
+    "73": {
+      "baseAtk": 553
+    },
+    "74": {
+      "baseAtk": 558
+    },
+    "75": {
+      "baseAtk": 563
+    },
+    "76": {
+      "baseAtk": 569
+    },
+    "77": {
+      "baseAtk": 574
+    },
+    "78": {
+      "baseAtk": 579
+    },
+    "79": {
+      "baseAtk": 585
+    },
     "80": {
       "baseAtk": 590
+    },
+    "81": {
+      "baseAtk": 626
+    },
+    "82": {
+      "baseAtk": 632
+    },
+    "83": {
+      "baseAtk": 637
+    },
+    "84": {
+      "baseAtk": 642
+    },
+    "85": {
+      "baseAtk": 648
+    },
+    "86": {
+      "baseAtk": 653
+    },
+    "87": {
+      "baseAtk": 658
+    },
+    "88": {
+      "baseAtk": 664
+    },
+    "89": {
+      "baseAtk": 669
     },
     "90": {
       "baseAtk": 674
@@ -176,6 +422,361 @@
     },
     "80_ASC": {
       "baseAtk": 621
+    }
+  },
+  "secondaryAttribute": {
+    "type": "ATK",
+    "levels": {
+      "1": {
+        "atkPercent": "7.2%"
+      },
+      "2": {
+        "atkPercent": "7.2%"
+      },
+      "3": {
+        "atkPercent": "7.2%"
+      },
+      "4": {
+        "atkPercent": "7.2%"
+      },
+      "5": {
+        "atkPercent": "8.4%"
+      },
+      "6": {
+        "atkPercent": "8.4%"
+      },
+      "7": {
+        "atkPercent": "8.4%"
+      },
+      "8": {
+        "atkPercent": "8.4%"
+      },
+      "9": {
+        "atkPercent": "8.4%"
+      },
+      "10": {
+        "atkPercent": "9.8%"
+      },
+      "11": {
+        "atkPercent": "9.8%"
+      },
+      "12": {
+        "atkPercent": "9.8%"
+      },
+      "13": {
+        "atkPercent": "9.8%"
+      },
+      "14": {
+        "atkPercent": "9.8%"
+      },
+      "15": {
+        "atkPercent": "11.3%"
+      },
+      "16": {
+        "atkPercent": "11.3%"
+      },
+      "17": {
+        "atkPercent": "11.3%"
+      },
+      "18": {
+        "atkPercent": "11.3%"
+      },
+      "19": {
+        "atkPercent": "11.3%"
+      },
+      "20": {
+        "atkPercent": "12.7%"
+      },
+      "21": {
+        "atkPercent": "12.7%"
+      },
+      "22": {
+        "atkPercent": "12.7%"
+      },
+      "23": {
+        "atkPercent": "12.7%"
+      },
+      "24": {
+        "atkPercent": "12.7%"
+      },
+      "25": {
+        "atkPercent": "14.2%"
+      },
+      "26": {
+        "atkPercent": "14.2%"
+      },
+      "27": {
+        "atkPercent": "14.2%"
+      },
+      "28": {
+        "atkPercent": "14.2%"
+      },
+      "29": {
+        "atkPercent": "14.2%"
+      },
+      "30": {
+        "atkPercent": "15.6%"
+      },
+      "31": {
+        "atkPercent": "15.6%"
+      },
+      "32": {
+        "atkPercent": "15.6%"
+      },
+      "33": {
+        "atkPercent": "15.6%"
+      },
+      "34": {
+        "atkPercent": "15.6%"
+      },
+      "35": {
+        "atkPercent": "17.1%"
+      },
+      "36": {
+        "atkPercent": "17.1%"
+      },
+      "37": {
+        "atkPercent": "17.1%"
+      },
+      "38": {
+        "atkPercent": "17.1%"
+      },
+      "39": {
+        "atkPercent": "17.1%"
+      },
+      "40": {
+        "atkPercent": "18.5%"
+      },
+      "41": {
+        "atkPercent": "18.5%"
+      },
+      "42": {
+        "atkPercent": "18.5%"
+      },
+      "43": {
+        "atkPercent": "18.5%"
+      },
+      "44": {
+        "atkPercent": "18.5%"
+      },
+      "45": {
+        "atkPercent": "20.0%"
+      },
+      "46": {
+        "atkPercent": "20.0%"
+      },
+      "47": {
+        "atkPercent": "20.0%"
+      },
+      "48": {
+        "atkPercent": "20.0%"
+      },
+      "49": {
+        "atkPercent": "20.0%"
+      },
+      "50": {
+        "atkPercent": "21.4%"
+      },
+      "51": {
+        "atkPercent": "21.4%"
+      },
+      "52": {
+        "atkPercent": "21.4%"
+      },
+      "53": {
+        "atkPercent": "21.4%"
+      },
+      "54": {
+        "atkPercent": "21.4%"
+      },
+      "55": {
+        "atkPercent": "22.9%"
+      },
+      "56": {
+        "atkPercent": "22.9%"
+      },
+      "57": {
+        "atkPercent": "22.9%"
+      },
+      "58": {
+        "atkPercent": "22.9%"
+      },
+      "59": {
+        "atkPercent": "22.9%"
+      },
+      "60": {
+        "atkPercent": "24.4%"
+      },
+      "61": {
+        "atkPercent": "24.4%"
+      },
+      "62": {
+        "atkPercent": "24.4%"
+      },
+      "63": {
+        "atkPercent": "24.4%"
+      },
+      "64": {
+        "atkPercent": "24.4%"
+      },
+      "65": {
+        "atkPercent": "25.8%"
+      },
+      "66": {
+        "atkPercent": "25.8%"
+      },
+      "67": {
+        "atkPercent": "25.8%"
+      },
+      "68": {
+        "atkPercent": "25.8%"
+      },
+      "69": {
+        "atkPercent": "25.8%"
+      },
+      "70": {
+        "atkPercent": "27.3%"
+      },
+      "71": {
+        "atkPercent": "27.3%"
+      },
+      "72": {
+        "atkPercent": "27.3%"
+      },
+      "73": {
+        "atkPercent": "27.3%"
+      },
+      "74": {
+        "atkPercent": "27.3%"
+      },
+      "75": {
+        "atkPercent": "28.7%"
+      },
+      "76": {
+        "atkPercent": "28.7%"
+      },
+      "77": {
+        "atkPercent": "28.7%"
+      },
+      "78": {
+        "atkPercent": "28.7%"
+      },
+      "79": {
+        "atkPercent": "28.7%"
+      },
+      "80": {
+        "atkPercent": "30.2%"
+      },
+      "81": {
+        "atkPercent": "30.2%"
+      },
+      "82": {
+        "atkPercent": "30.2%"
+      },
+      "83": {
+        "atkPercent": "30.2%"
+      },
+      "84": {
+        "atkPercent": "30.2%"
+      },
+      "85": {
+        "atkPercent": "31.6%"
+      },
+      "86": {
+        "atkPercent": "31.6%"
+      },
+      "87": {
+        "atkPercent": "31.6%"
+      },
+      "88": {
+        "atkPercent": "31.6%"
+      },
+      "89": {
+        "atkPercent": "31.6%"
+      },
+      "90": {
+        "atkPercent": "33.1%"
+      },
+      "20_ASC": {
+        "atkPercent": "12.7%"
+      },
+      "40_ASC": {
+        "atkPercent": "18.5%"
+      },
+      "50_ASC": {
+        "atkPercent": "21.4%"
+      },
+      "60_ASC": {
+        "atkPercent": "24.4%"
+      },
+      "70_ASC": {
+        "atkPercent": "27.3%"
+      },
+      "80_ASC": {
+        "atkPercent": "30.2%"
+      }
+    }
+  },
+  "effects": [
+    "Elemental DMG Bonus",
+    "Physical DMG",
+    "Effect Triggered by Normal Attack"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Wandering Clouds",
+      "descriptions": [
+        "Increases Elemental DMG Bonus by 12%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 160% ATK DMG. Can only occur once every 30s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "Wandering Clouds",
+      "descriptions": [
+        "Increases Elemental DMG Bonus by 15%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 200% ATK DMG. Can only occur once every 30s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "Wandering Clouds",
+      "descriptions": [
+        "Increases Elemental DMG Bonus by 18%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 240% ATK DMG. Can only occur once every 30s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "Wandering Clouds",
+      "descriptions": [
+        "Increases Elemental DMG Bonus by 21%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 280% ATK DMG. Can only occur once every 30s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "Wandering Clouds",
+      "descriptions": [
+        "Increases Elemental DMG Bonus by 24%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 320% ATK DMG. Can only occur once every 30s."
+      ],
+      "upgradeCost": []
     }
   }
 }

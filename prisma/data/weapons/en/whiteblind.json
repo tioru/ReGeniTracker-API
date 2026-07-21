@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 42
     },
+    "2": {
+      "baseAtk": 46
+    },
+    "3": {
+      "baseAtk": 49
+    },
+    "4": {
+      "baseAtk": 53
+    },
+    "5": {
+      "baseAtk": 56
+    },
+    "6": {
+      "baseAtk": 60
+    },
+    "7": {
+      "baseAtk": 63
+    },
+    "8": {
+      "baseAtk": 67
+    },
+    "9": {
+      "baseAtk": 70
+    },
+    "10": {
+      "baseAtk": 74
+    },
+    "11": {
+      "baseAtk": 77
+    },
+    "12": {
+      "baseAtk": 81
+    },
+    "13": {
+      "baseAtk": 84
+    },
+    "14": {
+      "baseAtk": 88
+    },
+    "15": {
+      "baseAtk": 91
+    },
+    "16": {
+      "baseAtk": 95
+    },
+    "17": {
+      "baseAtk": 98
+    },
+    "18": {
+      "baseAtk": 102
+    },
+    "19": {
+      "baseAtk": 105
+    },
     "20": {
       "baseAtk": 109
+    },
+    "21": {
+      "baseAtk": 138
+    },
+    "22": {
+      "baseAtk": 142
+    },
+    "23": {
+      "baseAtk": 145
+    },
+    "24": {
+      "baseAtk": 149
+    },
+    "25": {
+      "baseAtk": 152
+    },
+    "26": {
+      "baseAtk": 156
+    },
+    "27": {
+      "baseAtk": 159
+    },
+    "28": {
+      "baseAtk": 163
+    },
+    "29": {
+      "baseAtk": 166
+    },
+    "30": {
+      "baseAtk": 170
+    },
+    "31": {
+      "baseAtk": 173
+    },
+    "32": {
+      "baseAtk": 177
+    },
+    "33": {
+      "baseAtk": 180
+    },
+    "34": {
+      "baseAtk": 184
+    },
+    "35": {
+      "baseAtk": 187
+    },
+    "36": {
+      "baseAtk": 191
+    },
+    "37": {
+      "baseAtk": 194
+    },
+    "38": {
+      "baseAtk": 198
+    },
+    "39": {
+      "baseAtk": 201
     },
     "40": {
       "baseAtk": 205
     },
+    "41": {
+      "baseAtk": 234
+    },
+    "42": {
+      "baseAtk": 238
+    },
+    "43": {
+      "baseAtk": 241
+    },
+    "44": {
+      "baseAtk": 245
+    },
+    "45": {
+      "baseAtk": 248
+    },
+    "46": {
+      "baseAtk": 252
+    },
+    "47": {
+      "baseAtk": 255
+    },
+    "48": {
+      "baseAtk": 259
+    },
+    "49": {
+      "baseAtk": 262
+    },
     "50": {
       "baseAtk": 266
+    },
+    "51": {
+      "baseAtk": 295
+    },
+    "52": {
+      "baseAtk": 299
+    },
+    "53": {
+      "baseAtk": 302
+    },
+    "54": {
+      "baseAtk": 306
+    },
+    "55": {
+      "baseAtk": 309
+    },
+    "56": {
+      "baseAtk": 313
+    },
+    "57": {
+      "baseAtk": 316
+    },
+    "58": {
+      "baseAtk": 320
+    },
+    "59": {
+      "baseAtk": 323
     },
     "60": {
       "baseAtk": 327
     },
+    "61": {
+      "baseAtk": 356
+    },
+    "62": {
+      "baseAtk": 360
+    },
+    "63": {
+      "baseAtk": 363
+    },
+    "64": {
+      "baseAtk": 367
+    },
+    "65": {
+      "baseAtk": 370
+    },
+    "66": {
+      "baseAtk": 374
+    },
+    "67": {
+      "baseAtk": 377
+    },
+    "68": {
+      "baseAtk": 381
+    },
+    "69": {
+      "baseAtk": 384
+    },
     "70": {
       "baseAtk": 388
     },
+    "71": {
+      "baseAtk": 417
+    },
+    "72": {
+      "baseAtk": 421
+    },
+    "73": {
+      "baseAtk": 424
+    },
+    "74": {
+      "baseAtk": 428
+    },
+    "75": {
+      "baseAtk": 431
+    },
+    "76": {
+      "baseAtk": 435
+    },
+    "77": {
+      "baseAtk": 438
+    },
+    "78": {
+      "baseAtk": 442
+    },
+    "79": {
+      "baseAtk": 445
+    },
     "80": {
       "baseAtk": 449
+    },
+    "81": {
+      "baseAtk": 478
+    },
+    "82": {
+      "baseAtk": 482
+    },
+    "83": {
+      "baseAtk": 485
+    },
+    "84": {
+      "baseAtk": 489
+    },
+    "85": {
+      "baseAtk": 492
+    },
+    "86": {
+      "baseAtk": 496
+    },
+    "87": {
+      "baseAtk": 499
+    },
+    "88": {
+      "baseAtk": 503
+    },
+    "89": {
+      "baseAtk": 506
     },
     "90": {
       "baseAtk": 510
@@ -176,6 +422,361 @@
     },
     "80_ASC": {
       "baseAtk": 475
+    }
+  },
+  "secondaryAttribute": {
+    "type": "DEF",
+    "levels": {
+      "1": {
+        "defPercent": "11.3%"
+      },
+      "2": {
+        "defPercent": "11.3%"
+      },
+      "3": {
+        "defPercent": "11.3%"
+      },
+      "4": {
+        "defPercent": "11.3%"
+      },
+      "5": {
+        "defPercent": "13.1%"
+      },
+      "6": {
+        "defPercent": "13.1%"
+      },
+      "7": {
+        "defPercent": "13.1%"
+      },
+      "8": {
+        "defPercent": "13.1%"
+      },
+      "9": {
+        "defPercent": "13.1%"
+      },
+      "10": {
+        "defPercent": "15.3%"
+      },
+      "11": {
+        "defPercent": "15.3%"
+      },
+      "12": {
+        "defPercent": "15.3%"
+      },
+      "13": {
+        "defPercent": "15.3%"
+      },
+      "14": {
+        "defPercent": "15.3%"
+      },
+      "15": {
+        "defPercent": "17.6%"
+      },
+      "16": {
+        "defPercent": "17.6%"
+      },
+      "17": {
+        "defPercent": "17.6%"
+      },
+      "18": {
+        "defPercent": "17.6%"
+      },
+      "19": {
+        "defPercent": "17.6%"
+      },
+      "20": {
+        "defPercent": "19.9%"
+      },
+      "21": {
+        "defPercent": "19.9%"
+      },
+      "22": {
+        "defPercent": "19.9%"
+      },
+      "23": {
+        "defPercent": "19.9%"
+      },
+      "24": {
+        "defPercent": "19.9%"
+      },
+      "25": {
+        "defPercent": "22.2%"
+      },
+      "26": {
+        "defPercent": "22.2%"
+      },
+      "27": {
+        "defPercent": "22.2%"
+      },
+      "28": {
+        "defPercent": "22.2%"
+      },
+      "29": {
+        "defPercent": "22.2%"
+      },
+      "30": {
+        "defPercent": "24.4%"
+      },
+      "31": {
+        "defPercent": "24.4%"
+      },
+      "32": {
+        "defPercent": "24.4%"
+      },
+      "33": {
+        "defPercent": "24.4%"
+      },
+      "34": {
+        "defPercent": "24.4%"
+      },
+      "35": {
+        "defPercent": "26.7%"
+      },
+      "36": {
+        "defPercent": "26.7%"
+      },
+      "37": {
+        "defPercent": "26.7%"
+      },
+      "38": {
+        "defPercent": "26.7%"
+      },
+      "39": {
+        "defPercent": "26.7%"
+      },
+      "40": {
+        "defPercent": "29.0%"
+      },
+      "41": {
+        "defPercent": "29.0%"
+      },
+      "42": {
+        "defPercent": "29.0%"
+      },
+      "43": {
+        "defPercent": "29.0%"
+      },
+      "44": {
+        "defPercent": "29.0%"
+      },
+      "45": {
+        "defPercent": "31.3%"
+      },
+      "46": {
+        "defPercent": "31.3%"
+      },
+      "47": {
+        "defPercent": "31.3%"
+      },
+      "48": {
+        "defPercent": "31.3%"
+      },
+      "49": {
+        "defPercent": "31.3%"
+      },
+      "50": {
+        "defPercent": "33.5%"
+      },
+      "51": {
+        "defPercent": "33.5%"
+      },
+      "52": {
+        "defPercent": "33.5%"
+      },
+      "53": {
+        "defPercent": "33.5%"
+      },
+      "54": {
+        "defPercent": "33.5%"
+      },
+      "55": {
+        "defPercent": "35.8%"
+      },
+      "56": {
+        "defPercent": "35.8%"
+      },
+      "57": {
+        "defPercent": "35.8%"
+      },
+      "58": {
+        "defPercent": "35.8%"
+      },
+      "59": {
+        "defPercent": "35.8%"
+      },
+      "60": {
+        "defPercent": "38.1%"
+      },
+      "61": {
+        "defPercent": "38.1%"
+      },
+      "62": {
+        "defPercent": "38.1%"
+      },
+      "63": {
+        "defPercent": "38.1%"
+      },
+      "64": {
+        "defPercent": "38.1%"
+      },
+      "65": {
+        "defPercent": "40.4%"
+      },
+      "66": {
+        "defPercent": "40.4%"
+      },
+      "67": {
+        "defPercent": "40.4%"
+      },
+      "68": {
+        "defPercent": "40.4%"
+      },
+      "69": {
+        "defPercent": "40.4%"
+      },
+      "70": {
+        "defPercent": "42.6%"
+      },
+      "71": {
+        "defPercent": "42.6%"
+      },
+      "72": {
+        "defPercent": "42.6%"
+      },
+      "73": {
+        "defPercent": "42.6%"
+      },
+      "74": {
+        "defPercent": "42.6%"
+      },
+      "75": {
+        "defPercent": "44.9%"
+      },
+      "76": {
+        "defPercent": "44.9%"
+      },
+      "77": {
+        "defPercent": "44.9%"
+      },
+      "78": {
+        "defPercent": "44.9%"
+      },
+      "79": {
+        "defPercent": "44.9%"
+      },
+      "80": {
+        "defPercent": "47.2%"
+      },
+      "81": {
+        "defPercent": "47.2%"
+      },
+      "82": {
+        "defPercent": "47.2%"
+      },
+      "83": {
+        "defPercent": "47.2%"
+      },
+      "84": {
+        "defPercent": "47.2%"
+      },
+      "85": {
+        "defPercent": "49.5%"
+      },
+      "86": {
+        "defPercent": "49.5%"
+      },
+      "87": {
+        "defPercent": "49.5%"
+      },
+      "88": {
+        "defPercent": "49.5%"
+      },
+      "89": {
+        "defPercent": "49.5%"
+      },
+      "90": {
+        "defPercent": "51.7%"
+      },
+      "20_ASC": {
+        "defPercent": "19.9%"
+      },
+      "40_ASC": {
+        "defPercent": "29.0%"
+      },
+      "50_ASC": {
+        "defPercent": "33.5%"
+      },
+      "60_ASC": {
+        "defPercent": "38.1%"
+      },
+      "70_ASC": {
+        "defPercent": "42.6%"
+      },
+      "80_ASC": {
+        "defPercent": "47.2%"
+      }
+    }
+  },
+  "effects": [
+    "ATK",
+    "DEF",
+    "Effect Triggered by Normal Attack"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Infusion Blade",
+      "descriptions": [
+        "On hit, Normal or Charged Attacks increase ATK and DEF by 6% for 6s. Max 4 stacks (24% total). Can only occur once every 0.5s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Infusion Blade",
+      "descriptions": [
+        "On hit, Normal or Charged Attacks increase ATK and DEF by 7.5% for 6s. Max 4 stacks (30% total). Can only occur once every 0.5s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Infusion Blade",
+      "descriptions": [
+        "On hit, Normal or Charged Attacks increase ATK and DEF by 9% for 6s. Max 4 stacks (36% total). Can only occur once every 0.5s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Infusion Blade",
+      "descriptions": [
+        "On hit, Normal or Charged Attacks increase ATK and DEF by 10.5% for 6s. Max 4 stacks (42% total). Can only occur once every 0.5s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Infusion Blade",
+      "descriptions": [
+        "On hit, Normal or Charged Attacks increase ATK and DEF by 12% for 6s. Max 4 stacks (48% total). Can only occur once every 0.5s."
+      ],
+      "upgradeCost": []
     }
   }
 }

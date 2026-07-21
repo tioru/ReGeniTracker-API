@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 39
     },
+    "2": {
+      "baseAtk": 42
+    },
+    "3": {
+      "baseAtk": 45
+    },
+    "4": {
+      "baseAtk": 48
+    },
+    "5": {
+      "baseAtk": 50
+    },
+    "6": {
+      "baseAtk": 53
+    },
+    "7": {
+      "baseAtk": 56
+    },
+    "8": {
+      "baseAtk": 59
+    },
+    "9": {
+      "baseAtk": 62
+    },
+    "10": {
+      "baseAtk": 65
+    },
+    "11": {
+      "baseAtk": 68
+    },
+    "12": {
+      "baseAtk": 71
+    },
+    "13": {
+      "baseAtk": 74
+    },
+    "14": {
+      "baseAtk": 77
+    },
+    "15": {
+      "baseAtk": 79
+    },
+    "16": {
+      "baseAtk": 82
+    },
+    "17": {
+      "baseAtk": 85
+    },
+    "18": {
+      "baseAtk": 88
+    },
+    "19": {
+      "baseAtk": 91
+    },
     "20": {
       "baseAtk": 94
+    },
+    "21": {
+      "baseAtk": 116
+    },
+    "22": {
+      "baseAtk": 119
+    },
+    "23": {
+      "baseAtk": 122
+    },
+    "24": {
+      "baseAtk": 125
+    },
+    "25": {
+      "baseAtk": 127
+    },
+    "26": {
+      "baseAtk": 130
+    },
+    "27": {
+      "baseAtk": 133
+    },
+    "28": {
+      "baseAtk": 136
+    },
+    "29": {
+      "baseAtk": 139
+    },
+    "30": {
+      "baseAtk": 141
+    },
+    "31": {
+      "baseAtk": 144
+    },
+    "32": {
+      "baseAtk": 147
+    },
+    "33": {
+      "baseAtk": 150
+    },
+    "34": {
+      "baseAtk": 153
+    },
+    "35": {
+      "baseAtk": 155
+    },
+    "36": {
+      "baseAtk": 158
+    },
+    "37": {
+      "baseAtk": 161
+    },
+    "38": {
+      "baseAtk": 164
+    },
+    "39": {
+      "baseAtk": 166
     },
     "40": {
       "baseAtk": 169
     },
+    "41": {
+      "baseAtk": 191
+    },
+    "42": {
+      "baseAtk": 194
+    },
+    "43": {
+      "baseAtk": 197
+    },
+    "44": {
+      "baseAtk": 200
+    },
+    "45": {
+      "baseAtk": 202
+    },
+    "46": {
+      "baseAtk": 205
+    },
+    "47": {
+      "baseAtk": 208
+    },
+    "48": {
+      "baseAtk": 211
+    },
+    "49": {
+      "baseAtk": 213
+    },
     "50": {
       "baseAtk": 216
+    },
+    "51": {
+      "baseAtk": 238
+    },
+    "52": {
+      "baseAtk": 241
+    },
+    "53": {
+      "baseAtk": 244
+    },
+    "54": {
+      "baseAtk": 246
+    },
+    "55": {
+      "baseAtk": 249
+    },
+    "56": {
+      "baseAtk": 252
+    },
+    "57": {
+      "baseAtk": 255
+    },
+    "58": {
+      "baseAtk": 257
+    },
+    "59": {
+      "baseAtk": 260
     },
     "60": {
       "baseAtk": 263
     },
+    "61": {
+      "baseAtk": 285
+    },
+    "62": {
+      "baseAtk": 288
+    },
+    "63": {
+      "baseAtk": 290
+    },
+    "64": {
+      "baseAtk": 293
+    },
+    "65": {
+      "baseAtk": 296
+    },
+    "66": {
+      "baseAtk": 298
+    },
+    "67": {
+      "baseAtk": 301
+    },
+    "68": {
+      "baseAtk": 304
+    },
+    "69": {
+      "baseAtk": 306
+    },
     "70": {
       "baseAtk": 309
     },
+    "71": {
+      "baseAtk": 331
+    },
+    "72": {
+      "baseAtk": 334
+    },
+    "73": {
+      "baseAtk": 337
+    },
+    "74": {
+      "baseAtk": 339
+    },
+    "75": {
+      "baseAtk": 342
+    },
+    "76": {
+      "baseAtk": 345
+    },
+    "77": {
+      "baseAtk": 347
+    },
+    "78": {
+      "baseAtk": 350
+    },
+    "79": {
+      "baseAtk": 353
+    },
     "80": {
       "baseAtk": 355
+    },
+    "81": {
+      "baseAtk": 377
+    },
+    "82": {
+      "baseAtk": 380
+    },
+    "83": {
+      "baseAtk": 383
+    },
+    "84": {
+      "baseAtk": 385
+    },
+    "85": {
+      "baseAtk": 388
+    },
+    "86": {
+      "baseAtk": 391
+    },
+    "87": {
+      "baseAtk": 393
+    },
+    "88": {
+      "baseAtk": 396
+    },
+    "89": {
+      "baseAtk": 399
     },
     "90": {
       "baseAtk": 401
@@ -176,6 +422,360 @@
     },
     "80_ASC": {
       "baseAtk": 375
+    }
+  },
+  "secondaryAttribute": {
+    "type": "CRIT Rate",
+    "levels": {
+      "1": {
+        "crtRate": "5.1%"
+      },
+      "2": {
+        "crtRate": "5.1%"
+      },
+      "3": {
+        "crtRate": "5.1%"
+      },
+      "4": {
+        "crtRate": "5.1%"
+      },
+      "5": {
+        "crtRate": "5.9%"
+      },
+      "6": {
+        "crtRate": "5.9%"
+      },
+      "7": {
+        "crtRate": "5.9%"
+      },
+      "8": {
+        "crtRate": "5.9%"
+      },
+      "9": {
+        "crtRate": "5.9%"
+      },
+      "10": {
+        "crtRate": "7.0%"
+      },
+      "11": {
+        "crtRate": "7.0%"
+      },
+      "12": {
+        "crtRate": "7.0%"
+      },
+      "13": {
+        "crtRate": "7.0%"
+      },
+      "14": {
+        "crtRate": "7.0%"
+      },
+      "15": {
+        "crtRate": "8.0%"
+      },
+      "16": {
+        "crtRate": "8.0%"
+      },
+      "17": {
+        "crtRate": "8.0%"
+      },
+      "18": {
+        "crtRate": "8.0%"
+      },
+      "19": {
+        "crtRate": "8.0%"
+      },
+      "20": {
+        "crtRate": "9.0%"
+      },
+      "21": {
+        "crtRate": "9.0%"
+      },
+      "22": {
+        "crtRate": "9.0%"
+      },
+      "23": {
+        "crtRate": "9.0%"
+      },
+      "24": {
+        "crtRate": "9.0%"
+      },
+      "25": {
+        "crtRate": "10.0%"
+      },
+      "26": {
+        "crtRate": "10.0%"
+      },
+      "27": {
+        "crtRate": "10.0%"
+      },
+      "28": {
+        "crtRate": "10.0%"
+      },
+      "29": {
+        "crtRate": "10.0%"
+      },
+      "30": {
+        "crtRate": "11.1%"
+      },
+      "31": {
+        "crtRate": "11.1%"
+      },
+      "32": {
+        "crtRate": "11.1%"
+      },
+      "33": {
+        "crtRate": "11.1%"
+      },
+      "34": {
+        "crtRate": "11.1%"
+      },
+      "35": {
+        "crtRate": "12.1%"
+      },
+      "36": {
+        "crtRate": "12.1%"
+      },
+      "37": {
+        "crtRate": "12.1%"
+      },
+      "38": {
+        "crtRate": "12.1%"
+      },
+      "39": {
+        "crtRate": "12.1%"
+      },
+      "40": {
+        "crtRate": "13.1%"
+      },
+      "41": {
+        "crtRate": "13.1%"
+      },
+      "42": {
+        "crtRate": "13.1%"
+      },
+      "43": {
+        "crtRate": "13.1%"
+      },
+      "44": {
+        "crtRate": "13.1%"
+      },
+      "45": {
+        "crtRate": "14.2%"
+      },
+      "46": {
+        "crtRate": "14.2%"
+      },
+      "47": {
+        "crtRate": "14.2%"
+      },
+      "48": {
+        "crtRate": "14.2%"
+      },
+      "49": {
+        "crtRate": "14.2%"
+      },
+      "50": {
+        "crtRate": "15.2%"
+      },
+      "51": {
+        "crtRate": "15.2%"
+      },
+      "52": {
+        "crtRate": "15.2%"
+      },
+      "53": {
+        "crtRate": "15.2%"
+      },
+      "54": {
+        "crtRate": "15.2%"
+      },
+      "55": {
+        "crtRate": "16.2%"
+      },
+      "56": {
+        "crtRate": "16.2%"
+      },
+      "57": {
+        "crtRate": "16.2%"
+      },
+      "58": {
+        "crtRate": "16.2%"
+      },
+      "59": {
+        "crtRate": "16.2%"
+      },
+      "60": {
+        "crtRate": "17.3%"
+      },
+      "61": {
+        "crtRate": "17.3%"
+      },
+      "62": {
+        "crtRate": "17.3%"
+      },
+      "63": {
+        "crtRate": "17.3%"
+      },
+      "64": {
+        "crtRate": "17.3%"
+      },
+      "65": {
+        "crtRate": "18.3%"
+      },
+      "66": {
+        "crtRate": "18.3%"
+      },
+      "67": {
+        "crtRate": "18.3%"
+      },
+      "68": {
+        "crtRate": "18.3%"
+      },
+      "69": {
+        "crtRate": "18.3%"
+      },
+      "70": {
+        "crtRate": "19.3%"
+      },
+      "71": {
+        "crtRate": "19.3%"
+      },
+      "72": {
+        "crtRate": "19.3%"
+      },
+      "73": {
+        "crtRate": "19.3%"
+      },
+      "74": {
+        "crtRate": "19.3%"
+      },
+      "75": {
+        "crtRate": "20.3%"
+      },
+      "76": {
+        "crtRate": "20.3%"
+      },
+      "77": {
+        "crtRate": "20.3%"
+      },
+      "78": {
+        "crtRate": "20.3%"
+      },
+      "79": {
+        "crtRate": "20.3%"
+      },
+      "80": {
+        "crtRate": "21.4%"
+      },
+      "81": {
+        "crtRate": "21.4%"
+      },
+      "82": {
+        "crtRate": "21.4%"
+      },
+      "83": {
+        "crtRate": "21.4%"
+      },
+      "84": {
+        "crtRate": "21.4%"
+      },
+      "85": {
+        "crtRate": "22.4%"
+      },
+      "86": {
+        "crtRate": "22.4%"
+      },
+      "87": {
+        "crtRate": "22.4%"
+      },
+      "88": {
+        "crtRate": "22.4%"
+      },
+      "89": {
+        "crtRate": "22.4%"
+      },
+      "90": {
+        "crtRate": "23.4%"
+      },
+      "20_ASC": {
+        "crtRate": "9.0%"
+      },
+      "40_ASC": {
+        "crtRate": "13.1%"
+      },
+      "50_ASC": {
+        "crtRate": "15.2%"
+      },
+      "60_ASC": {
+        "crtRate": "17.3%"
+      },
+      "70_ASC": {
+        "crtRate": "19.3%"
+      },
+      "80_ASC": {
+        "crtRate": "21.4%"
+      }
+    }
+  },
+  "effects": [
+    "DMG Bonus",
+    "Normal Attack DMG Bonus"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Sharp",
+      "descriptions": [
+        "Increases Normal Attack DMG by 24%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 500
+        }
+      ]
+    },
+    "2": {
+      "title": "Sharp",
+      "descriptions": [
+        "Increases Normal Attack DMG by 30%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "3": {
+      "title": "Sharp",
+      "descriptions": [
+        "Increases Normal Attack DMG by 36%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "4": {
+      "title": "Sharp",
+      "descriptions": [
+        "Increases Normal Attack DMG by 42%."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "5": {
+      "title": "Sharp",
+      "descriptions": [
+        "Increases Normal Attack DMG by 48%."
+      ],
+      "upgradeCost": []
     }
   }
 }

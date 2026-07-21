@@ -138,8 +138,644 @@
     "1": {
       "baseAtk": 45
     },
+    "2": {
+      "baseAtk": 49
+    },
+    "3": {
+      "baseAtk": 53
+    },
+    "4": {
+      "baseAtk": 58
+    },
+    "5": {
+      "baseAtk": 62
+    },
+    "6": {
+      "baseAtk": 66
+    },
+    "7": {
+      "baseAtk": 71
+    },
+    "8": {
+      "baseAtk": 75
+    },
+    "9": {
+      "baseAtk": 79
+    },
+    "10": {
+      "baseAtk": 84
+    },
+    "11": {
+      "baseAtk": 88
+    },
+    "12": {
+      "baseAtk": 92
+    },
+    "13": {
+      "baseAtk": 97
+    },
+    "14": {
+      "baseAtk": 101
+    },
+    "15": {
+      "baseAtk": 106
+    },
+    "16": {
+      "baseAtk": 110
+    },
+    "17": {
+      "baseAtk": 115
+    },
+    "18": {
+      "baseAtk": 119
+    },
+    "19": {
+      "baseAtk": 124
+    },
+    "20": {
+      "baseAtk": 128
+    },
+    "21": {
+      "baseAtk": 159
+    },
+    "22": {
+      "baseAtk": 163
+    },
+    "23": {
+      "baseAtk": 168
+    },
+    "24": {
+      "baseAtk": 172
+    },
+    "25": {
+      "baseAtk": 177
+    },
+    "26": {
+      "baseAtk": 182
+    },
+    "27": {
+      "baseAtk": 186
+    },
+    "28": {
+      "baseAtk": 191
+    },
+    "29": {
+      "baseAtk": 195
+    },
+    "30": {
+      "baseAtk": 200
+    },
+    "31": {
+      "baseAtk": 205
+    },
+    "32": {
+      "baseAtk": 209
+    },
+    "33": {
+      "baseAtk": 214
+    },
+    "34": {
+      "baseAtk": 219
+    },
+    "35": {
+      "baseAtk": 224
+    },
+    "36": {
+      "baseAtk": 228
+    },
+    "37": {
+      "baseAtk": 233
+    },
+    "38": {
+      "baseAtk": 238
+    },
+    "39": {
+      "baseAtk": 242
+    },
+    "40": {
+      "baseAtk": 247
+    },
+    "41": {
+      "baseAtk": 278
+    },
+    "42": {
+      "baseAtk": 283
+    },
+    "43": {
+      "baseAtk": 287
+    },
+    "44": {
+      "baseAtk": 292
+    },
+    "45": {
+      "baseAtk": 297
+    },
+    "46": {
+      "baseAtk": 302
+    },
+    "47": {
+      "baseAtk": 306
+    },
+    "48": {
+      "baseAtk": 311
+    },
+    "49": {
+      "baseAtk": 316
+    },
+    "50": {
+      "baseAtk": 321
+    },
+    "51": {
+      "baseAtk": 352
+    },
+    "52": {
+      "baseAtk": 356
+    },
+    "53": {
+      "baseAtk": 361
+    },
+    "54": {
+      "baseAtk": 366
+    },
+    "55": {
+      "baseAtk": 371
+    },
+    "56": {
+      "baseAtk": 376
+    },
+    "57": {
+      "baseAtk": 381
+    },
+    "58": {
+      "baseAtk": 385
+    },
+    "59": {
+      "baseAtk": 390
+    },
+    "60": {
+      "baseAtk": 395
+    },
+    "61": {
+      "baseAtk": 426
+    },
+    "62": {
+      "baseAtk": 431
+    },
+    "63": {
+      "baseAtk": 436
+    },
+    "64": {
+      "baseAtk": 440
+    },
+    "65": {
+      "baseAtk": 445
+    },
+    "66": {
+      "baseAtk": 450
+    },
+    "67": {
+      "baseAtk": 455
+    },
+    "68": {
+      "baseAtk": 460
+    },
+    "69": {
+      "baseAtk": 465
+    },
+    "70": {
+      "baseAtk": 470
+    },
+    "71": {
+      "baseAtk": 501
+    },
+    "72": {
+      "baseAtk": 505
+    },
+    "73": {
+      "baseAtk": 510
+    },
+    "74": {
+      "baseAtk": 515
+    },
+    "75": {
+      "baseAtk": 520
+    },
+    "76": {
+      "baseAtk": 525
+    },
+    "77": {
+      "baseAtk": 530
+    },
+    "78": {
+      "baseAtk": 535
+    },
+    "79": {
+      "baseAtk": 540
+    },
+    "80": {
+      "baseAtk": 545
+    },
+    "81": {
+      "baseAtk": 576
+    },
+    "82": {
+      "baseAtk": 581
+    },
+    "83": {
+      "baseAtk": 585
+    },
+    "84": {
+      "baseAtk": 590
+    },
+    "85": {
+      "baseAtk": 595
+    },
+    "86": {
+      "baseAtk": 600
+    },
+    "87": {
+      "baseAtk": 605
+    },
+    "88": {
+      "baseAtk": 610
+    },
+    "89": {
+      "baseAtk": 615
+    },
     "90": {
       "baseAtk": 620
+    },
+    "20_ASC": {
+      "baseAtk": 154
+    },
+    "40_ASC": {
+      "baseAtk": 273
+    },
+    "50_ASC": {
+      "baseAtk": 347
+    },
+    "60_ASC": {
+      "baseAtk": 421
+    },
+    "70_ASC": {
+      "baseAtk": 496
+    },
+    "80_ASC": {
+      "baseAtk": 571
+    }
+  },
+  "secondaryAttribute": {
+    "type": "CRIT Rate",
+    "levels": {
+      "1": {
+        "crtRate": "2.0%"
+      },
+      "2": {
+        "crtRate": "2.0%"
+      },
+      "3": {
+        "crtRate": "2.0%"
+      },
+      "4": {
+        "crtRate": "2.0%"
+      },
+      "5": {
+        "crtRate": "2.3%"
+      },
+      "6": {
+        "crtRate": "2.3%"
+      },
+      "7": {
+        "crtRate": "2.3%"
+      },
+      "8": {
+        "crtRate": "2.3%"
+      },
+      "9": {
+        "crtRate": "2.3%"
+      },
+      "10": {
+        "crtRate": "2.7%"
+      },
+      "11": {
+        "crtRate": "2.7%"
+      },
+      "12": {
+        "crtRate": "2.7%"
+      },
+      "13": {
+        "crtRate": "2.7%"
+      },
+      "14": {
+        "crtRate": "2.7%"
+      },
+      "15": {
+        "crtRate": "3.1%"
+      },
+      "16": {
+        "crtRate": "3.1%"
+      },
+      "17": {
+        "crtRate": "3.1%"
+      },
+      "18": {
+        "crtRate": "3.1%"
+      },
+      "19": {
+        "crtRate": "3.1%"
+      },
+      "20": {
+        "crtRate": "3.5%"
+      },
+      "21": {
+        "crtRate": "3.5%"
+      },
+      "22": {
+        "crtRate": "3.5%"
+      },
+      "23": {
+        "crtRate": "3.5%"
+      },
+      "24": {
+        "crtRate": "3.5%"
+      },
+      "25": {
+        "crtRate": "3.9%"
+      },
+      "26": {
+        "crtRate": "3.9%"
+      },
+      "27": {
+        "crtRate": "3.9%"
+      },
+      "28": {
+        "crtRate": "3.9%"
+      },
+      "29": {
+        "crtRate": "3.9%"
+      },
+      "30": {
+        "crtRate": "4.3%"
+      },
+      "31": {
+        "crtRate": "4.3%"
+      },
+      "32": {
+        "crtRate": "4.3%"
+      },
+      "33": {
+        "crtRate": "4.3%"
+      },
+      "34": {
+        "crtRate": "4.3%"
+      },
+      "35": {
+        "crtRate": "4.7%"
+      },
+      "36": {
+        "crtRate": "4.7%"
+      },
+      "37": {
+        "crtRate": "4.7%"
+      },
+      "38": {
+        "crtRate": "4.7%"
+      },
+      "39": {
+        "crtRate": "4.7%"
+      },
+      "40": {
+        "crtRate": "5.2%"
+      },
+      "41": {
+        "crtRate": "5.2%"
+      },
+      "42": {
+        "crtRate": "5.2%"
+      },
+      "43": {
+        "crtRate": "5.2%"
+      },
+      "44": {
+        "crtRate": "5.2%"
+      },
+      "45": {
+        "crtRate": "5.6%"
+      },
+      "46": {
+        "crtRate": "5.6%"
+      },
+      "47": {
+        "crtRate": "5.6%"
+      },
+      "48": {
+        "crtRate": "5.6%"
+      },
+      "49": {
+        "crtRate": "5.6%"
+      },
+      "50": {
+        "crtRate": "6.0%"
+      },
+      "51": {
+        "crtRate": "6.0%"
+      },
+      "52": {
+        "crtRate": "6.0%"
+      },
+      "53": {
+        "crtRate": "6.0%"
+      },
+      "54": {
+        "crtRate": "6.0%"
+      },
+      "55": {
+        "crtRate": "6.4%"
+      },
+      "56": {
+        "crtRate": "6.4%"
+      },
+      "57": {
+        "crtRate": "6.4%"
+      },
+      "58": {
+        "crtRate": "6.4%"
+      },
+      "59": {
+        "crtRate": "6.4%"
+      },
+      "60": {
+        "crtRate": "6.8%"
+      },
+      "61": {
+        "crtRate": "6.8%"
+      },
+      "62": {
+        "crtRate": "6.8%"
+      },
+      "63": {
+        "crtRate": "6.8%"
+      },
+      "64": {
+        "crtRate": "6.8%"
+      },
+      "65": {
+        "crtRate": "7.2%"
+      },
+      "66": {
+        "crtRate": "7.2%"
+      },
+      "67": {
+        "crtRate": "7.2%"
+      },
+      "68": {
+        "crtRate": "7.2%"
+      },
+      "69": {
+        "crtRate": "7.2%"
+      },
+      "70": {
+        "crtRate": "7.6%"
+      },
+      "71": {
+        "crtRate": "7.6%"
+      },
+      "72": {
+        "crtRate": "7.6%"
+      },
+      "73": {
+        "crtRate": "7.6%"
+      },
+      "74": {
+        "crtRate": "7.6%"
+      },
+      "75": {
+        "crtRate": "8.0%"
+      },
+      "76": {
+        "crtRate": "8.0%"
+      },
+      "77": {
+        "crtRate": "8.0%"
+      },
+      "78": {
+        "crtRate": "8.0%"
+      },
+      "79": {
+        "crtRate": "8.0%"
+      },
+      "80": {
+        "crtRate": "8.4%"
+      },
+      "81": {
+        "crtRate": "8.4%"
+      },
+      "82": {
+        "crtRate": "8.4%"
+      },
+      "83": {
+        "crtRate": "8.4%"
+      },
+      "84": {
+        "crtRate": "8.4%"
+      },
+      "85": {
+        "crtRate": "8.8%"
+      },
+      "86": {
+        "crtRate": "8.8%"
+      },
+      "87": {
+        "crtRate": "8.8%"
+      },
+      "88": {
+        "crtRate": "8.8%"
+      },
+      "89": {
+        "crtRate": "8.8%"
+      },
+      "90": {
+        "crtRate": "9.2%"
+      },
+      "20_ASC": {
+        "crtRate": "3.5%"
+      },
+      "40_ASC": {
+        "crtRate": "5.2%"
+      },
+      "50_ASC": {
+        "crtRate": "6.0%"
+      },
+      "60_ASC": {
+        "crtRate": "6.8%"
+      },
+      "70_ASC": {
+        "crtRate": "7.6%"
+      },
+      "80_ASC": {
+        "crtRate": "8.4%"
+      }
+    }
+  },
+  "effects": [
+    "ATK",
+    "Energy Recharge"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Untainted Desire",
+      "descriptions": [
+        "For 6s after an Elemental Skill hits an opponent, ATK is increased by 8% and Energy Recharge is increased by 6%. Max 3 stacks. This effect can be triggered even when the equipping character is off-field."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Untainted Desire",
+      "descriptions": [
+        "For 6s after an Elemental Skill hits an opponent, ATK is increased by 10% and Energy Recharge is increased by 7.5%. Max 3 stacks. This effect can be triggered even when the equipping character is off-field."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Untainted Desire",
+      "descriptions": [
+        "For 6s after an Elemental Skill hits an opponent, ATK is increased by 12% and Energy Recharge is increased by 9%. Max 3 stacks. This effect can be triggered even when the equipping character is off-field."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Untainted Desire",
+      "descriptions": [
+        "For 6s after an Elemental Skill hits an opponent, ATK is increased by 14% and Energy Recharge is increased by 10.5%. Max 3 stacks. This effect can be triggered even when the equipping character is off-field."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Untainted Desire",
+      "descriptions": [
+        "For 6s after an Elemental Skill hits an opponent, ATK is increased by 16% and Energy Recharge is increased by 12%. Max 3 stacks. This effect can be triggered even when the equipping character is off-field."
+      ],
+      "upgradeCost": []
     }
   }
 }

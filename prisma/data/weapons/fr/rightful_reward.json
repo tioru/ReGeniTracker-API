@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 44
     },
+    "2": {
+      "baseAtk": 48
+    },
+    "3": {
+      "baseAtk": 51
+    },
+    "4": {
+      "baseAtk": 55
+    },
+    "5": {
+      "baseAtk": 59
+    },
+    "6": {
+      "baseAtk": 63
+    },
+    "7": {
+      "baseAtk": 67
+    },
+    "8": {
+      "baseAtk": 71
+    },
+    "9": {
+      "baseAtk": 75
+    },
+    "10": {
+      "baseAtk": 79
+    },
+    "11": {
+      "baseAtk": 83
+    },
+    "12": {
+      "baseAtk": 87
+    },
+    "13": {
+      "baseAtk": 91
+    },
+    "14": {
+      "baseAtk": 95
+    },
+    "15": {
+      "baseAtk": 99
+    },
+    "16": {
+      "baseAtk": 103
+    },
+    "17": {
+      "baseAtk": 107
+    },
+    "18": {
+      "baseAtk": 111
+    },
+    "19": {
+      "baseAtk": 115
+    },
     "20": {
       "baseAtk": 119
+    },
+    "21": {
+      "baseAtk": 148
+    },
+    "22": {
+      "baseAtk": 153
+    },
+    "23": {
+      "baseAtk": 157
+    },
+    "24": {
+      "baseAtk": 161
+    },
+    "25": {
+      "baseAtk": 165
+    },
+    "26": {
+      "baseAtk": 169
+    },
+    "27": {
+      "baseAtk": 173
+    },
+    "28": {
+      "baseAtk": 177
+    },
+    "29": {
+      "baseAtk": 181
+    },
+    "30": {
+      "baseAtk": 185
+    },
+    "31": {
+      "baseAtk": 189
+    },
+    "32": {
+      "baseAtk": 193
+    },
+    "33": {
+      "baseAtk": 197
+    },
+    "34": {
+      "baseAtk": 201
+    },
+    "35": {
+      "baseAtk": 205
+    },
+    "36": {
+      "baseAtk": 210
+    },
+    "37": {
+      "baseAtk": 214
+    },
+    "38": {
+      "baseAtk": 218
+    },
+    "39": {
+      "baseAtk": 222
     },
     "40": {
       "baseAtk": 226
     },
+    "41": {
+      "baseAtk": 256
+    },
+    "42": {
+      "baseAtk": 260
+    },
+    "43": {
+      "baseAtk": 264
+    },
+    "44": {
+      "baseAtk": 268
+    },
+    "45": {
+      "baseAtk": 273
+    },
+    "46": {
+      "baseAtk": 277
+    },
+    "47": {
+      "baseAtk": 281
+    },
+    "48": {
+      "baseAtk": 285
+    },
+    "49": {
+      "baseAtk": 289
+    },
     "50": {
       "baseAtk": 293
+    },
+    "51": {
+      "baseAtk": 323
+    },
+    "52": {
+      "baseAtk": 328
+    },
+    "53": {
+      "baseAtk": 332
+    },
+    "54": {
+      "baseAtk": 336
+    },
+    "55": {
+      "baseAtk": 340
+    },
+    "56": {
+      "baseAtk": 344
+    },
+    "57": {
+      "baseAtk": 348
+    },
+    "58": {
+      "baseAtk": 353
+    },
+    "59": {
+      "baseAtk": 357
     },
     "60": {
       "baseAtk": 361
     },
+    "61": {
+      "baseAtk": 391
+    },
+    "62": {
+      "baseAtk": 395
+    },
+    "63": {
+      "baseAtk": 399
+    },
+    "64": {
+      "baseAtk": 404
+    },
+    "65": {
+      "baseAtk": 408
+    },
+    "66": {
+      "baseAtk": 412
+    },
+    "67": {
+      "baseAtk": 416
+    },
+    "68": {
+      "baseAtk": 420
+    },
+    "69": {
+      "baseAtk": 424
+    },
     "70": {
       "baseAtk": 429
     },
+    "71": {
+      "baseAtk": 459
+    },
+    "72": {
+      "baseAtk": 463
+    },
+    "73": {
+      "baseAtk": 467
+    },
+    "74": {
+      "baseAtk": 471
+    },
+    "75": {
+      "baseAtk": 476
+    },
+    "76": {
+      "baseAtk": 480
+    },
+    "77": {
+      "baseAtk": 484
+    },
+    "78": {
+      "baseAtk": 488
+    },
+    "79": {
+      "baseAtk": 493
+    },
     "80": {
       "baseAtk": 497
+    },
+    "81": {
+      "baseAtk": 527
+    },
+    "82": {
+      "baseAtk": 531
+    },
+    "83": {
+      "baseAtk": 535
+    },
+    "84": {
+      "baseAtk": 539
+    },
+    "85": {
+      "baseAtk": 544
+    },
+    "86": {
+      "baseAtk": 548
+    },
+    "87": {
+      "baseAtk": 552
+    },
+    "88": {
+      "baseAtk": 556
+    },
+    "89": {
+      "baseAtk": 561
     },
     "90": {
       "baseAtk": 565
@@ -176,6 +422,359 @@
     },
     "80_ASC": {
       "baseAtk": 523
+    }
+  },
+  "secondaryAttribute": {
+    "type": "PV",
+    "levels": {
+      "1": {
+        "hpPercent": "6,0 %"
+      },
+      "2": {
+        "hpPercent": "6,0 %"
+      },
+      "3": {
+        "hpPercent": "6,0 %"
+      },
+      "4": {
+        "hpPercent": "6,0 %"
+      },
+      "5": {
+        "hpPercent": "7,0 %"
+      },
+      "6": {
+        "hpPercent": "7,0 %"
+      },
+      "7": {
+        "hpPercent": "7,0 %"
+      },
+      "8": {
+        "hpPercent": "7,0 %"
+      },
+      "9": {
+        "hpPercent": "7,0 %"
+      },
+      "10": {
+        "hpPercent": "8,2 %"
+      },
+      "11": {
+        "hpPercent": "8,2 %"
+      },
+      "12": {
+        "hpPercent": "8,2 %"
+      },
+      "13": {
+        "hpPercent": "8,2 %"
+      },
+      "14": {
+        "hpPercent": "8,2 %"
+      },
+      "15": {
+        "hpPercent": "9,4 %"
+      },
+      "16": {
+        "hpPercent": "9,4 %"
+      },
+      "17": {
+        "hpPercent": "9,4 %"
+      },
+      "18": {
+        "hpPercent": "9,4 %"
+      },
+      "19": {
+        "hpPercent": "9,4 %"
+      },
+      "20": {
+        "hpPercent": "10,6 %"
+      },
+      "21": {
+        "hpPercent": "10,6 %"
+      },
+      "22": {
+        "hpPercent": "10,6 %"
+      },
+      "23": {
+        "hpPercent": "10,6 %"
+      },
+      "24": {
+        "hpPercent": "10,6 %"
+      },
+      "25": {
+        "hpPercent": "11,8 %"
+      },
+      "26": {
+        "hpPercent": "11,8 %"
+      },
+      "27": {
+        "hpPercent": "11,8 %"
+      },
+      "28": {
+        "hpPercent": "11,8 %"
+      },
+      "29": {
+        "hpPercent": "11,8 %"
+      },
+      "30": {
+        "hpPercent": "13,0 %"
+      },
+      "31": {
+        "hpPercent": "13,0 %"
+      },
+      "32": {
+        "hpPercent": "13,0 %"
+      },
+      "33": {
+        "hpPercent": "13,0 %"
+      },
+      "34": {
+        "hpPercent": "13,0 %"
+      },
+      "35": {
+        "hpPercent": "14,2 %"
+      },
+      "36": {
+        "hpPercent": "14,2 %"
+      },
+      "37": {
+        "hpPercent": "14,2 %"
+      },
+      "38": {
+        "hpPercent": "14,2 %"
+      },
+      "39": {
+        "hpPercent": "14,2 %"
+      },
+      "40": {
+        "hpPercent": "15,5 %"
+      },
+      "41": {
+        "hpPercent": "15,5 %"
+      },
+      "42": {
+        "hpPercent": "15,5 %"
+      },
+      "43": {
+        "hpPercent": "15,5 %"
+      },
+      "44": {
+        "hpPercent": "15,5 %"
+      },
+      "45": {
+        "hpPercent": "16,7 %"
+      },
+      "46": {
+        "hpPercent": "16,7 %"
+      },
+      "47": {
+        "hpPercent": "16,7 %"
+      },
+      "48": {
+        "hpPercent": "16,7 %"
+      },
+      "49": {
+        "hpPercent": "16,7 %"
+      },
+      "50": {
+        "hpPercent": "17,9 %"
+      },
+      "51": {
+        "hpPercent": "17,9 %"
+      },
+      "52": {
+        "hpPercent": "17,9 %"
+      },
+      "53": {
+        "hpPercent": "17,9 %"
+      },
+      "54": {
+        "hpPercent": "17,9 %"
+      },
+      "55": {
+        "hpPercent": "19,1 %"
+      },
+      "56": {
+        "hpPercent": "19,1 %"
+      },
+      "57": {
+        "hpPercent": "19,1 %"
+      },
+      "58": {
+        "hpPercent": "19,1 %"
+      },
+      "59": {
+        "hpPercent": "19,1 %"
+      },
+      "60": {
+        "hpPercent": "20,3 %"
+      },
+      "61": {
+        "hpPercent": "20,3 %"
+      },
+      "62": {
+        "hpPercent": "20,3 %"
+      },
+      "63": {
+        "hpPercent": "20,3 %"
+      },
+      "64": {
+        "hpPercent": "20,3 %"
+      },
+      "65": {
+        "hpPercent": "21,5 %"
+      },
+      "66": {
+        "hpPercent": "21,5 %"
+      },
+      "67": {
+        "hpPercent": "21,5 %"
+      },
+      "68": {
+        "hpPercent": "21,5 %"
+      },
+      "69": {
+        "hpPercent": "21,5 %"
+      },
+      "70": {
+        "hpPercent": "22,7 %"
+      },
+      "71": {
+        "hpPercent": "22,7 %"
+      },
+      "72": {
+        "hpPercent": "22,7 %"
+      },
+      "73": {
+        "hpPercent": "22,7 %"
+      },
+      "74": {
+        "hpPercent": "22,7 %"
+      },
+      "75": {
+        "hpPercent": "23,9 %"
+      },
+      "76": {
+        "hpPercent": "23,9 %"
+      },
+      "77": {
+        "hpPercent": "23,9 %"
+      },
+      "78": {
+        "hpPercent": "23,9 %"
+      },
+      "79": {
+        "hpPercent": "23,9 %"
+      },
+      "80": {
+        "hpPercent": "25,1 %"
+      },
+      "81": {
+        "hpPercent": "25,1 %"
+      },
+      "82": {
+        "hpPercent": "25,1 %"
+      },
+      "83": {
+        "hpPercent": "25,1 %"
+      },
+      "84": {
+        "hpPercent": "25,1 %"
+      },
+      "85": {
+        "hpPercent": "26,4 %"
+      },
+      "86": {
+        "hpPercent": "26,4 %"
+      },
+      "87": {
+        "hpPercent": "26,4 %"
+      },
+      "88": {
+        "hpPercent": "26,4 %"
+      },
+      "89": {
+        "hpPercent": "26,4 %"
+      },
+      "90": {
+        "hpPercent": "27,6 %"
+      },
+      "20_ASC": {
+        "hpPercent": "10,6 %"
+      },
+      "40_ASC": {
+        "hpPercent": "15,5 %"
+      },
+      "50_ASC": {
+        "hpPercent": "17,9 %"
+      },
+      "60_ASC": {
+        "hpPercent": "20,3 %"
+      },
+      "70_ASC": {
+        "hpPercent": "22,7 %"
+      },
+      "80_ASC": {
+        "hpPercent": "25,1 %"
+      }
+    }
+  },
+  "effects": [
+    "Energy"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Pointe de la lance",
+      "descriptions": [
+        "Recevoir des soins restaure 8 pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Pointe de la lance",
+      "descriptions": [
+        "Recevoir des soins restaure 10 pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Pointe de la lance",
+      "descriptions": [
+        "Recevoir des soins restaure 12 pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Pointe de la lance",
+      "descriptions": [
+        "Recevoir des soins restaure 14 pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Pointe de la lance",
+      "descriptions": [
+        "Recevoir des soins restaure 16 pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": []
     }
   }
 }

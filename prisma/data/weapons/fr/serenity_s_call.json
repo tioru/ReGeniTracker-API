@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 41
     },
+    "2": {
+      "baseAtk": 44
+    },
+    "3": {
+      "baseAtk": 47
+    },
+    "4": {
+      "baseAtk": 51
+    },
+    "5": {
+      "baseAtk": 54
+    },
+    "6": {
+      "baseAtk": 57
+    },
+    "7": {
+      "baseAtk": 60
+    },
+    "8": {
+      "baseAtk": 63
+    },
+    "9": {
+      "baseAtk": 66
+    },
+    "10": {
+      "baseAtk": 69
+    },
+    "11": {
+      "baseAtk": 72
+    },
+    "12": {
+      "baseAtk": 75
+    },
+    "13": {
+      "baseAtk": 78
+    },
+    "14": {
+      "baseAtk": 81
+    },
+    "15": {
+      "baseAtk": 84
+    },
+    "16": {
+      "baseAtk": 87
+    },
+    "17": {
+      "baseAtk": 90
+    },
+    "18": {
+      "baseAtk": 93
+    },
+    "19": {
+      "baseAtk": 96
+    },
     "20": {
       "baseAtk": 99
+    },
+    "21": {
+      "baseAtk": 128
+    },
+    "22": {
+      "baseAtk": 131
+    },
+    "23": {
+      "baseAtk": 134
+    },
+    "24": {
+      "baseAtk": 137
+    },
+    "25": {
+      "baseAtk": 140
+    },
+    "26": {
+      "baseAtk": 143
+    },
+    "27": {
+      "baseAtk": 146
+    },
+    "28": {
+      "baseAtk": 149
+    },
+    "29": {
+      "baseAtk": 152
+    },
+    "30": {
+      "baseAtk": 155
+    },
+    "31": {
+      "baseAtk": 158
+    },
+    "32": {
+      "baseAtk": 161
+    },
+    "33": {
+      "baseAtk": 163
+    },
+    "34": {
+      "baseAtk": 166
+    },
+    "35": {
+      "baseAtk": 169
+    },
+    "36": {
+      "baseAtk": 172
+    },
+    "37": {
+      "baseAtk": 175
+    },
+    "38": {
+      "baseAtk": 178
+    },
+    "39": {
+      "baseAtk": 181
     },
     "40": {
       "baseAtk": 184
     },
+    "41": {
+      "baseAtk": 213
+    },
+    "42": {
+      "baseAtk": 215
+    },
+    "43": {
+      "baseAtk": 218
+    },
+    "44": {
+      "baseAtk": 221
+    },
+    "45": {
+      "baseAtk": 224
+    },
+    "46": {
+      "baseAtk": 227
+    },
+    "47": {
+      "baseAtk": 230
+    },
+    "48": {
+      "baseAtk": 233
+    },
+    "49": {
+      "baseAtk": 236
+    },
     "50": {
       "baseAtk": 238
+    },
+    "51": {
+      "baseAtk": 267
+    },
+    "52": {
+      "baseAtk": 270
+    },
+    "53": {
+      "baseAtk": 273
+    },
+    "54": {
+      "baseAtk": 276
+    },
+    "55": {
+      "baseAtk": 278
+    },
+    "56": {
+      "baseAtk": 281
+    },
+    "57": {
+      "baseAtk": 284
+    },
+    "58": {
+      "baseAtk": 287
+    },
+    "59": {
+      "baseAtk": 290
     },
     "60": {
       "baseAtk": 293
     },
+    "61": {
+      "baseAtk": 321
+    },
+    "62": {
+      "baseAtk": 324
+    },
+    "63": {
+      "baseAtk": 327
+    },
+    "64": {
+      "baseAtk": 330
+    },
+    "65": {
+      "baseAtk": 333
+    },
+    "66": {
+      "baseAtk": 335
+    },
+    "67": {
+      "baseAtk": 338
+    },
+    "68": {
+      "baseAtk": 341
+    },
+    "69": {
+      "baseAtk": 344
+    },
     "70": {
       "baseAtk": 347
     },
+    "71": {
+      "baseAtk": 375
+    },
+    "72": {
+      "baseAtk": 378
+    },
+    "73": {
+      "baseAtk": 381
+    },
+    "74": {
+      "baseAtk": 384
+    },
+    "75": {
+      "baseAtk": 387
+    },
+    "76": {
+      "baseAtk": 389
+    },
+    "77": {
+      "baseAtk": 392
+    },
+    "78": {
+      "baseAtk": 395
+    },
+    "79": {
+      "baseAtk": 398
+    },
     "80": {
       "baseAtk": 401
+    },
+    "81": {
+      "baseAtk": 429
+    },
+    "82": {
+      "baseAtk": 432
+    },
+    "83": {
+      "baseAtk": 435
+    },
+    "84": {
+      "baseAtk": 438
+    },
+    "85": {
+      "baseAtk": 440
+    },
+    "86": {
+      "baseAtk": 443
+    },
+    "87": {
+      "baseAtk": 446
+    },
+    "88": {
+      "baseAtk": 449
+    },
+    "89": {
+      "baseAtk": 452
     },
     "90": {
       "baseAtk": 454
@@ -176,6 +422,359 @@
     },
     "80_ASC": {
       "baseAtk": 427
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Recharge d'énergie",
+    "levels": {
+      "1": {
+        "energyRecharge": "13,3 %"
+      },
+      "2": {
+        "energyRecharge": "13,3 %"
+      },
+      "3": {
+        "energyRecharge": "13,3 %"
+      },
+      "4": {
+        "energyRecharge": "13,3 %"
+      },
+      "5": {
+        "energyRecharge": "15,5 %"
+      },
+      "6": {
+        "energyRecharge": "15,5 %"
+      },
+      "7": {
+        "energyRecharge": "15,5 %"
+      },
+      "8": {
+        "energyRecharge": "15,5 %"
+      },
+      "9": {
+        "energyRecharge": "15,5 %"
+      },
+      "10": {
+        "energyRecharge": "18,2 %"
+      },
+      "11": {
+        "energyRecharge": "18,2 %"
+      },
+      "12": {
+        "energyRecharge": "18,2 %"
+      },
+      "13": {
+        "energyRecharge": "18,2 %"
+      },
+      "14": {
+        "energyRecharge": "18,2 %"
+      },
+      "15": {
+        "energyRecharge": "20,9 %"
+      },
+      "16": {
+        "energyRecharge": "20,9 %"
+      },
+      "17": {
+        "energyRecharge": "20,9 %"
+      },
+      "18": {
+        "energyRecharge": "20,9 %"
+      },
+      "19": {
+        "energyRecharge": "20,9 %"
+      },
+      "20": {
+        "energyRecharge": "23,6 %"
+      },
+      "21": {
+        "energyRecharge": "23,6 %"
+      },
+      "22": {
+        "energyRecharge": "23,6 %"
+      },
+      "23": {
+        "energyRecharge": "23,6 %"
+      },
+      "24": {
+        "energyRecharge": "23,6 %"
+      },
+      "25": {
+        "energyRecharge": "26,3 %"
+      },
+      "26": {
+        "energyRecharge": "26,3 %"
+      },
+      "27": {
+        "energyRecharge": "26,3 %"
+      },
+      "28": {
+        "energyRecharge": "26,3 %"
+      },
+      "29": {
+        "energyRecharge": "26,3 %"
+      },
+      "30": {
+        "energyRecharge": "28,9 %"
+      },
+      "31": {
+        "energyRecharge": "28,9 %"
+      },
+      "32": {
+        "energyRecharge": "28,9 %"
+      },
+      "33": {
+        "energyRecharge": "28,9 %"
+      },
+      "34": {
+        "energyRecharge": "28,9 %"
+      },
+      "35": {
+        "energyRecharge": "31,6 %"
+      },
+      "36": {
+        "energyRecharge": "31,6 %"
+      },
+      "37": {
+        "energyRecharge": "31,6 %"
+      },
+      "38": {
+        "energyRecharge": "31,6 %"
+      },
+      "39": {
+        "energyRecharge": "31,6 %"
+      },
+      "40": {
+        "energyRecharge": "34,3 %"
+      },
+      "41": {
+        "energyRecharge": "34,3 %"
+      },
+      "42": {
+        "energyRecharge": "34,3 %"
+      },
+      "43": {
+        "energyRecharge": "34,3 %"
+      },
+      "44": {
+        "energyRecharge": "34,3 %"
+      },
+      "45": {
+        "energyRecharge": "37,0 %"
+      },
+      "46": {
+        "energyRecharge": "37,0 %"
+      },
+      "47": {
+        "energyRecharge": "37,0 %"
+      },
+      "48": {
+        "energyRecharge": "37,0 %"
+      },
+      "49": {
+        "energyRecharge": "37,0 %"
+      },
+      "50": {
+        "energyRecharge": "39,7 %"
+      },
+      "51": {
+        "energyRecharge": "39,7 %"
+      },
+      "52": {
+        "energyRecharge": "39,7 %"
+      },
+      "53": {
+        "energyRecharge": "39,7 %"
+      },
+      "54": {
+        "energyRecharge": "39,7 %"
+      },
+      "55": {
+        "energyRecharge": "42,4 %"
+      },
+      "56": {
+        "energyRecharge": "42,4 %"
+      },
+      "57": {
+        "energyRecharge": "42,4 %"
+      },
+      "58": {
+        "energyRecharge": "42,4 %"
+      },
+      "59": {
+        "energyRecharge": "42,4 %"
+      },
+      "60": {
+        "energyRecharge": "45,1 %"
+      },
+      "61": {
+        "energyRecharge": "45,1 %"
+      },
+      "62": {
+        "energyRecharge": "45,1 %"
+      },
+      "63": {
+        "energyRecharge": "45,1 %"
+      },
+      "64": {
+        "energyRecharge": "45,1 %"
+      },
+      "65": {
+        "energyRecharge": "47,8 %"
+      },
+      "66": {
+        "energyRecharge": "47,8 %"
+      },
+      "67": {
+        "energyRecharge": "47,8 %"
+      },
+      "68": {
+        "energyRecharge": "47,8 %"
+      },
+      "69": {
+        "energyRecharge": "47,8 %"
+      },
+      "70": {
+        "energyRecharge": "50,5 %"
+      },
+      "71": {
+        "energyRecharge": "50,5 %"
+      },
+      "72": {
+        "energyRecharge": "50,5 %"
+      },
+      "73": {
+        "energyRecharge": "50,5 %"
+      },
+      "74": {
+        "energyRecharge": "50,5 %"
+      },
+      "75": {
+        "energyRecharge": "53,2 %"
+      },
+      "76": {
+        "energyRecharge": "53,2 %"
+      },
+      "77": {
+        "energyRecharge": "53,2 %"
+      },
+      "78": {
+        "energyRecharge": "53,2 %"
+      },
+      "79": {
+        "energyRecharge": "53,2 %"
+      },
+      "80": {
+        "energyRecharge": "55,9 %"
+      },
+      "81": {
+        "energyRecharge": "55,9 %"
+      },
+      "82": {
+        "energyRecharge": "55,9 %"
+      },
+      "83": {
+        "energyRecharge": "55,9 %"
+      },
+      "84": {
+        "energyRecharge": "55,9 %"
+      },
+      "85": {
+        "energyRecharge": "58,6 %"
+      },
+      "86": {
+        "energyRecharge": "58,6 %"
+      },
+      "87": {
+        "energyRecharge": "58,6 %"
+      },
+      "88": {
+        "energyRecharge": "58,6 %"
+      },
+      "89": {
+        "energyRecharge": "58,6 %"
+      },
+      "90": {
+        "energyRecharge": "61,3 %"
+      },
+      "20_ASC": {
+        "energyRecharge": "23,6 %"
+      },
+      "40_ASC": {
+        "energyRecharge": "34,3 %"
+      },
+      "50_ASC": {
+        "energyRecharge": "39,7 %"
+      },
+      "60_ASC": {
+        "energyRecharge": "45,1 %"
+      },
+      "70_ASC": {
+        "energyRecharge": "50,5 %"
+      },
+      "80_ASC": {
+        "energyRecharge": "55,9 %"
+      }
+    }
+  },
+  "effects": [
+    "HP"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Silence solennel",
+      "descriptions": [
+        "Déclencher une réaction élémentaire augmente les PV max de 16 % pendant 12 s. Signelune « Lueur ascendante » : les PV max de cet effet augmentent de 16 % supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Silence solennel",
+      "descriptions": [
+        "Déclencher une réaction élémentaire augmente les PV max de 20 % pendant 12 s. Signelune « Lueur ascendante » : les PV max de cet effet augmentent de 20 % supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Silence solennel",
+      "descriptions": [
+        "Déclencher une réaction élémentaire augmente les PV max de 24 % pendant 12 s. Signelune « Lueur ascendante » : les PV max de cet effet augmentent de 24 % supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Silence solennel",
+      "descriptions": [
+        "Déclencher une réaction élémentaire augmente les PV max de 28 % pendant 12 s. Signelune « Lueur ascendante » : les PV max de cet effet augmentent de 28 % supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Silence solennel",
+      "descriptions": [
+        "Déclencher une réaction élémentaire augmente les PV max de 32 % pendant 12 s. Signelune « Lueur ascendante » : les PV max de cet effet augmentent de 32 % supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": []
     }
   }
 }

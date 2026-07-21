@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 41
     },
+    "2": {
+      "baseAtk": 44
+    },
+    "3": {
+      "baseAtk": 47
+    },
+    "4": {
+      "baseAtk": 51
+    },
+    "5": {
+      "baseAtk": 54
+    },
+    "6": {
+      "baseAtk": 57
+    },
+    "7": {
+      "baseAtk": 60
+    },
+    "8": {
+      "baseAtk": 63
+    },
+    "9": {
+      "baseAtk": 66
+    },
+    "10": {
+      "baseAtk": 69
+    },
+    "11": {
+      "baseAtk": 72
+    },
+    "12": {
+      "baseAtk": 75
+    },
+    "13": {
+      "baseAtk": 78
+    },
+    "14": {
+      "baseAtk": 81
+    },
+    "15": {
+      "baseAtk": 84
+    },
+    "16": {
+      "baseAtk": 87
+    },
+    "17": {
+      "baseAtk": 90
+    },
+    "18": {
+      "baseAtk": 93
+    },
+    "19": {
+      "baseAtk": 96
+    },
     "20": {
       "baseAtk": 99
+    },
+    "21": {
+      "baseAtk": 128
+    },
+    "22": {
+      "baseAtk": 131
+    },
+    "23": {
+      "baseAtk": 134
+    },
+    "24": {
+      "baseAtk": 137
+    },
+    "25": {
+      "baseAtk": 140
+    },
+    "26": {
+      "baseAtk": 143
+    },
+    "27": {
+      "baseAtk": 146
+    },
+    "28": {
+      "baseAtk": 149
+    },
+    "29": {
+      "baseAtk": 152
+    },
+    "30": {
+      "baseAtk": 155
+    },
+    "31": {
+      "baseAtk": 158
+    },
+    "32": {
+      "baseAtk": 161
+    },
+    "33": {
+      "baseAtk": 163
+    },
+    "34": {
+      "baseAtk": 166
+    },
+    "35": {
+      "baseAtk": 169
+    },
+    "36": {
+      "baseAtk": 172
+    },
+    "37": {
+      "baseAtk": 175
+    },
+    "38": {
+      "baseAtk": 178
+    },
+    "39": {
+      "baseAtk": 181
     },
     "40": {
       "baseAtk": 184
     },
+    "41": {
+      "baseAtk": 213
+    },
+    "42": {
+      "baseAtk": 215
+    },
+    "43": {
+      "baseAtk": 218
+    },
+    "44": {
+      "baseAtk": 221
+    },
+    "45": {
+      "baseAtk": 224
+    },
+    "46": {
+      "baseAtk": 227
+    },
+    "47": {
+      "baseAtk": 230
+    },
+    "48": {
+      "baseAtk": 233
+    },
+    "49": {
+      "baseAtk": 236
+    },
     "50": {
       "baseAtk": 238
+    },
+    "51": {
+      "baseAtk": 267
+    },
+    "52": {
+      "baseAtk": 270
+    },
+    "53": {
+      "baseAtk": 273
+    },
+    "54": {
+      "baseAtk": 276
+    },
+    "55": {
+      "baseAtk": 278
+    },
+    "56": {
+      "baseAtk": 281
+    },
+    "57": {
+      "baseAtk": 284
+    },
+    "58": {
+      "baseAtk": 287
+    },
+    "59": {
+      "baseAtk": 290
     },
     "60": {
       "baseAtk": 293
     },
+    "61": {
+      "baseAtk": 321
+    },
+    "62": {
+      "baseAtk": 324
+    },
+    "63": {
+      "baseAtk": 327
+    },
+    "64": {
+      "baseAtk": 330
+    },
+    "65": {
+      "baseAtk": 333
+    },
+    "66": {
+      "baseAtk": 335
+    },
+    "67": {
+      "baseAtk": 338
+    },
+    "68": {
+      "baseAtk": 341
+    },
+    "69": {
+      "baseAtk": 344
+    },
     "70": {
       "baseAtk": 347
     },
+    "71": {
+      "baseAtk": 375
+    },
+    "72": {
+      "baseAtk": 378
+    },
+    "73": {
+      "baseAtk": 381
+    },
+    "74": {
+      "baseAtk": 384
+    },
+    "75": {
+      "baseAtk": 387
+    },
+    "76": {
+      "baseAtk": 389
+    },
+    "77": {
+      "baseAtk": 392
+    },
+    "78": {
+      "baseAtk": 395
+    },
+    "79": {
+      "baseAtk": 398
+    },
     "80": {
       "baseAtk": 401
+    },
+    "81": {
+      "baseAtk": 429
+    },
+    "82": {
+      "baseAtk": 432
+    },
+    "83": {
+      "baseAtk": 435
+    },
+    "84": {
+      "baseAtk": 438
+    },
+    "85": {
+      "baseAtk": 440
+    },
+    "86": {
+      "baseAtk": 443
+    },
+    "87": {
+      "baseAtk": 446
+    },
+    "88": {
+      "baseAtk": 449
+    },
+    "89": {
+      "baseAtk": 452
     },
     "90": {
       "baseAtk": 454
@@ -176,6 +422,359 @@
     },
     "80_ASC": {
       "baseAtk": 427
+    }
+  },
+  "secondaryAttribute": {
+    "type": "DEF",
+    "levels": {
+      "1": {
+        "defPercent": "15.0%"
+      },
+      "2": {
+        "defPercent": "15.0%"
+      },
+      "3": {
+        "defPercent": "15.0%"
+      },
+      "4": {
+        "defPercent": "15.0%"
+      },
+      "5": {
+        "defPercent": "17.4%"
+      },
+      "6": {
+        "defPercent": "17.4%"
+      },
+      "7": {
+        "defPercent": "17.4%"
+      },
+      "8": {
+        "defPercent": "17.4%"
+      },
+      "9": {
+        "defPercent": "17.4%"
+      },
+      "10": {
+        "defPercent": "20.5%"
+      },
+      "11": {
+        "defPercent": "20.5%"
+      },
+      "12": {
+        "defPercent": "20.5%"
+      },
+      "13": {
+        "defPercent": "20.5%"
+      },
+      "14": {
+        "defPercent": "20.5%"
+      },
+      "15": {
+        "defPercent": "23.5%"
+      },
+      "16": {
+        "defPercent": "23.5%"
+      },
+      "17": {
+        "defPercent": "23.5%"
+      },
+      "18": {
+        "defPercent": "23.5%"
+      },
+      "19": {
+        "defPercent": "23.5%"
+      },
+      "20": {
+        "defPercent": "26.5%"
+      },
+      "21": {
+        "defPercent": "26.5%"
+      },
+      "22": {
+        "defPercent": "26.5%"
+      },
+      "23": {
+        "defPercent": "26.5%"
+      },
+      "24": {
+        "defPercent": "26.5%"
+      },
+      "25": {
+        "defPercent": "29.6%"
+      },
+      "26": {
+        "defPercent": "29.6%"
+      },
+      "27": {
+        "defPercent": "29.6%"
+      },
+      "28": {
+        "defPercent": "29.6%"
+      },
+      "29": {
+        "defPercent": "29.6%"
+      },
+      "30": {
+        "defPercent": "32.6%"
+      },
+      "31": {
+        "defPercent": "32.6%"
+      },
+      "32": {
+        "defPercent": "32.6%"
+      },
+      "33": {
+        "defPercent": "32.6%"
+      },
+      "34": {
+        "defPercent": "32.6%"
+      },
+      "35": {
+        "defPercent": "35.6%"
+      },
+      "36": {
+        "defPercent": "35.6%"
+      },
+      "37": {
+        "defPercent": "35.6%"
+      },
+      "38": {
+        "defPercent": "35.6%"
+      },
+      "39": {
+        "defPercent": "35.6%"
+      },
+      "40": {
+        "defPercent": "38.7%"
+      },
+      "41": {
+        "defPercent": "38.7%"
+      },
+      "42": {
+        "defPercent": "38.7%"
+      },
+      "43": {
+        "defPercent": "38.7%"
+      },
+      "44": {
+        "defPercent": "38.7%"
+      },
+      "45": {
+        "defPercent": "41.7%"
+      },
+      "46": {
+        "defPercent": "41.7%"
+      },
+      "47": {
+        "defPercent": "41.7%"
+      },
+      "48": {
+        "defPercent": "41.7%"
+      },
+      "49": {
+        "defPercent": "41.7%"
+      },
+      "50": {
+        "defPercent": "44.7%"
+      },
+      "51": {
+        "defPercent": "44.7%"
+      },
+      "52": {
+        "defPercent": "44.7%"
+      },
+      "53": {
+        "defPercent": "44.7%"
+      },
+      "54": {
+        "defPercent": "44.7%"
+      },
+      "55": {
+        "defPercent": "47.8%"
+      },
+      "56": {
+        "defPercent": "47.8%"
+      },
+      "57": {
+        "defPercent": "47.8%"
+      },
+      "58": {
+        "defPercent": "47.8%"
+      },
+      "59": {
+        "defPercent": "47.8%"
+      },
+      "60": {
+        "defPercent": "50.8%"
+      },
+      "61": {
+        "defPercent": "50.8%"
+      },
+      "62": {
+        "defPercent": "50.8%"
+      },
+      "63": {
+        "defPercent": "50.8%"
+      },
+      "64": {
+        "defPercent": "50.8%"
+      },
+      "65": {
+        "defPercent": "53.8%"
+      },
+      "66": {
+        "defPercent": "53.8%"
+      },
+      "67": {
+        "defPercent": "53.8%"
+      },
+      "68": {
+        "defPercent": "53.8%"
+      },
+      "69": {
+        "defPercent": "53.8%"
+      },
+      "70": {
+        "defPercent": "56.8%"
+      },
+      "71": {
+        "defPercent": "56.8%"
+      },
+      "72": {
+        "defPercent": "56.8%"
+      },
+      "73": {
+        "defPercent": "56.8%"
+      },
+      "74": {
+        "defPercent": "56.8%"
+      },
+      "75": {
+        "defPercent": "59.9%"
+      },
+      "76": {
+        "defPercent": "59.9%"
+      },
+      "77": {
+        "defPercent": "59.9%"
+      },
+      "78": {
+        "defPercent": "59.9%"
+      },
+      "79": {
+        "defPercent": "59.9%"
+      },
+      "80": {
+        "defPercent": "62.9%"
+      },
+      "81": {
+        "defPercent": "62.9%"
+      },
+      "82": {
+        "defPercent": "62.9%"
+      },
+      "83": {
+        "defPercent": "62.9%"
+      },
+      "84": {
+        "defPercent": "62.9%"
+      },
+      "85": {
+        "defPercent": "65.9%"
+      },
+      "86": {
+        "defPercent": "65.9%"
+      },
+      "87": {
+        "defPercent": "65.9%"
+      },
+      "88": {
+        "defPercent": "65.9%"
+      },
+      "89": {
+        "defPercent": "65.9%"
+      },
+      "90": {
+        "defPercent": "69.0%"
+      },
+      "20_ASC": {
+        "defPercent": "26.5%"
+      },
+      "40_ASC": {
+        "defPercent": "38.7%"
+      },
+      "50_ASC": {
+        "defPercent": "44.7%"
+      },
+      "60_ASC": {
+        "defPercent": "50.8%"
+      },
+      "70_ASC": {
+        "defPercent": "56.8%"
+      },
+      "80_ASC": {
+        "defPercent": "62.9%"
+      }
+    }
+  },
+  "effects": [
+    "DEF"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Smoke-and-Mirror Mystery",
+      "descriptions": [
+        "Using an Elemental Skill increases DEF by 16% for 15s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Smoke-and-Mirror Mystery",
+      "descriptions": [
+        "Using an Elemental Skill increases DEF by 20% for 15s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Smoke-and-Mirror Mystery",
+      "descriptions": [
+        "Using an Elemental Skill increases DEF by 24% for 15s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Smoke-and-Mirror Mystery",
+      "descriptions": [
+        "Using an Elemental Skill increases DEF by 28% for 15s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Smoke-and-Mirror Mystery",
+      "descriptions": [
+        "Using an Elemental Skill increases DEF by 32% for 15s."
+      ],
+      "upgradeCost": []
     }
   }
 }

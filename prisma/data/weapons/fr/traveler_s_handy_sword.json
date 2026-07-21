@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 40
     },
+    "2": {
+      "baseAtk": 43
+    },
+    "3": {
+      "baseAtk": 46
+    },
+    "4": {
+      "baseAtk": 50
+    },
+    "5": {
+      "baseAtk": 53
+    },
+    "6": {
+      "baseAtk": 56
+    },
+    "7": {
+      "baseAtk": 59
+    },
+    "8": {
+      "baseAtk": 63
+    },
+    "9": {
+      "baseAtk": 66
+    },
+    "10": {
+      "baseAtk": 69
+    },
+    "11": {
+      "baseAtk": 72
+    },
+    "12": {
+      "baseAtk": 76
+    },
+    "13": {
+      "baseAtk": 79
+    },
+    "14": {
+      "baseAtk": 82
+    },
+    "15": {
+      "baseAtk": 86
+    },
+    "16": {
+      "baseAtk": 89
+    },
+    "17": {
+      "baseAtk": 92
+    },
+    "18": {
+      "baseAtk": 95
+    },
+    "19": {
+      "baseAtk": 99
+    },
     "20": {
       "baseAtk": 102
+    },
+    "21": {
+      "baseAtk": 125
+    },
+    "22": {
+      "baseAtk": 128
+    },
+    "23": {
+      "baseAtk": 131
+    },
+    "24": {
+      "baseAtk": 135
+    },
+    "25": {
+      "baseAtk": 138
+    },
+    "26": {
+      "baseAtk": 141
+    },
+    "27": {
+      "baseAtk": 144
+    },
+    "28": {
+      "baseAtk": 148
+    },
+    "29": {
+      "baseAtk": 151
+    },
+    "30": {
+      "baseAtk": 154
+    },
+    "31": {
+      "baseAtk": 158
+    },
+    "32": {
+      "baseAtk": 161
+    },
+    "33": {
+      "baseAtk": 164
+    },
+    "34": {
+      "baseAtk": 168
+    },
+    "35": {
+      "baseAtk": 171
+    },
+    "36": {
+      "baseAtk": 174
+    },
+    "37": {
+      "baseAtk": 177
+    },
+    "38": {
+      "baseAtk": 181
+    },
+    "39": {
+      "baseAtk": 184
     },
     "40": {
       "baseAtk": 187
     },
+    "41": {
+      "baseAtk": 210
+    },
+    "42": {
+      "baseAtk": 213
+    },
+    "43": {
+      "baseAtk": 217
+    },
+    "44": {
+      "baseAtk": 220
+    },
+    "45": {
+      "baseAtk": 223
+    },
+    "46": {
+      "baseAtk": 226
+    },
+    "47": {
+      "baseAtk": 230
+    },
+    "48": {
+      "baseAtk": 233
+    },
+    "49": {
+      "baseAtk": 236
+    },
     "50": {
       "baseAtk": 239
+    },
+    "51": {
+      "baseAtk": 262
+    },
+    "52": {
+      "baseAtk": 266
+    },
+    "53": {
+      "baseAtk": 269
+    },
+    "54": {
+      "baseAtk": 272
+    },
+    "55": {
+      "baseAtk": 275
+    },
+    "56": {
+      "baseAtk": 279
+    },
+    "57": {
+      "baseAtk": 282
+    },
+    "58": {
+      "baseAtk": 285
+    },
+    "59": {
+      "baseAtk": 288
     },
     "60": {
       "baseAtk": 292
     },
+    "61": {
+      "baseAtk": 314
+    },
+    "62": {
+      "baseAtk": 318
+    },
+    "63": {
+      "baseAtk": 321
+    },
+    "64": {
+      "baseAtk": 324
+    },
+    "65": {
+      "baseAtk": 327
+    },
+    "66": {
+      "baseAtk": 331
+    },
+    "67": {
+      "baseAtk": 334
+    },
+    "68": {
+      "baseAtk": 337
+    },
+    "69": {
+      "baseAtk": 341
+    },
     "70": {
       "baseAtk": 344
     },
+    "71": {
+      "baseAtk": 367
+    },
+    "72": {
+      "baseAtk": 370
+    },
+    "73": {
+      "baseAtk": 373
+    },
+    "74": {
+      "baseAtk": 376
+    },
+    "75": {
+      "baseAtk": 380
+    },
+    "76": {
+      "baseAtk": 383
+    },
+    "77": {
+      "baseAtk": 386
+    },
+    "78": {
+      "baseAtk": 390
+    },
+    "79": {
+      "baseAtk": 393
+    },
     "80": {
       "baseAtk": 396
+    },
+    "81": {
+      "baseAtk": 419
+    },
+    "82": {
+      "baseAtk": 422
+    },
+    "83": {
+      "baseAtk": 425
+    },
+    "84": {
+      "baseAtk": 429
+    },
+    "85": {
+      "baseAtk": 432
+    },
+    "86": {
+      "baseAtk": 435
+    },
+    "87": {
+      "baseAtk": 438
+    },
+    "88": {
+      "baseAtk": 442
+    },
+    "89": {
+      "baseAtk": 445
     },
     "90": {
       "baseAtk": 448
@@ -176,6 +422,360 @@
     },
     "80_ASC": {
       "baseAtk": 415
+    }
+  },
+  "secondaryAttribute": {
+    "type": "DÉF",
+    "levels": {
+      "1": {
+        "defPercent": "6,4 %"
+      },
+      "2": {
+        "defPercent": "6,4 %"
+      },
+      "3": {
+        "defPercent": "6,4 %"
+      },
+      "4": {
+        "defPercent": "6,4 %"
+      },
+      "5": {
+        "defPercent": "7,4 %"
+      },
+      "6": {
+        "defPercent": "7,4 %"
+      },
+      "7": {
+        "defPercent": "7,4 %"
+      },
+      "8": {
+        "defPercent": "7,4 %"
+      },
+      "9": {
+        "defPercent": "7,4 %"
+      },
+      "10": {
+        "defPercent": "8,7 %"
+      },
+      "11": {
+        "defPercent": "8,7 %"
+      },
+      "12": {
+        "defPercent": "8,7 %"
+      },
+      "13": {
+        "defPercent": "8,7 %"
+      },
+      "14": {
+        "defPercent": "8,7 %"
+      },
+      "15": {
+        "defPercent": "10,0 %"
+      },
+      "16": {
+        "defPercent": "10,0 %"
+      },
+      "17": {
+        "defPercent": "10,0 %"
+      },
+      "18": {
+        "defPercent": "10,0 %"
+      },
+      "19": {
+        "defPercent": "10,0 %"
+      },
+      "20": {
+        "defPercent": "11,3 %"
+      },
+      "21": {
+        "defPercent": "11,3 %"
+      },
+      "22": {
+        "defPercent": "11,3 %"
+      },
+      "23": {
+        "defPercent": "11,3 %"
+      },
+      "24": {
+        "defPercent": "11,3 %"
+      },
+      "25": {
+        "defPercent": "12,5 %"
+      },
+      "26": {
+        "defPercent": "12,5 %"
+      },
+      "27": {
+        "defPercent": "12,5 %"
+      },
+      "28": {
+        "defPercent": "12,5 %"
+      },
+      "29": {
+        "defPercent": "12,5 %"
+      },
+      "30": {
+        "defPercent": "13,8 %"
+      },
+      "31": {
+        "defPercent": "13,8 %"
+      },
+      "32": {
+        "defPercent": "13,8 %"
+      },
+      "33": {
+        "defPercent": "13,8 %"
+      },
+      "34": {
+        "defPercent": "13,8 %"
+      },
+      "35": {
+        "defPercent": "15,1 %"
+      },
+      "36": {
+        "defPercent": "15,1 %"
+      },
+      "37": {
+        "defPercent": "15,1 %"
+      },
+      "38": {
+        "defPercent": "15,1 %"
+      },
+      "39": {
+        "defPercent": "15,1 %"
+      },
+      "40": {
+        "defPercent": "16,4 %"
+      },
+      "41": {
+        "defPercent": "16,4 %"
+      },
+      "42": {
+        "defPercent": "16,4 %"
+      },
+      "43": {
+        "defPercent": "16,4 %"
+      },
+      "44": {
+        "defPercent": "16,4 %"
+      },
+      "45": {
+        "defPercent": "17,7 %"
+      },
+      "46": {
+        "defPercent": "17,7 %"
+      },
+      "47": {
+        "defPercent": "17,7 %"
+      },
+      "48": {
+        "defPercent": "17,7 %"
+      },
+      "49": {
+        "defPercent": "17,7 %"
+      },
+      "50": {
+        "defPercent": "19,0 %"
+      },
+      "51": {
+        "defPercent": "19,0 %"
+      },
+      "52": {
+        "defPercent": "19,0 %"
+      },
+      "53": {
+        "defPercent": "19,0 %"
+      },
+      "54": {
+        "defPercent": "19,0 %"
+      },
+      "55": {
+        "defPercent": "20,3 %"
+      },
+      "56": {
+        "defPercent": "20,3 %"
+      },
+      "57": {
+        "defPercent": "20,3 %"
+      },
+      "58": {
+        "defPercent": "20,3 %"
+      },
+      "59": {
+        "defPercent": "20,3 %"
+      },
+      "60": {
+        "defPercent": "21,6 %"
+      },
+      "61": {
+        "defPercent": "21,6 %"
+      },
+      "62": {
+        "defPercent": "21,6 %"
+      },
+      "63": {
+        "defPercent": "21,6 %"
+      },
+      "64": {
+        "defPercent": "21,6 %"
+      },
+      "65": {
+        "defPercent": "22,8 %"
+      },
+      "66": {
+        "defPercent": "22,8 %"
+      },
+      "67": {
+        "defPercent": "22,8 %"
+      },
+      "68": {
+        "defPercent": "22,8 %"
+      },
+      "69": {
+        "defPercent": "22,8 %"
+      },
+      "70": {
+        "defPercent": "24,1 %"
+      },
+      "71": {
+        "defPercent": "24,1 %"
+      },
+      "72": {
+        "defPercent": "24,1 %"
+      },
+      "73": {
+        "defPercent": "24,1 %"
+      },
+      "74": {
+        "defPercent": "24,1 %"
+      },
+      "75": {
+        "defPercent": "25,4 %"
+      },
+      "76": {
+        "defPercent": "25,4 %"
+      },
+      "77": {
+        "defPercent": "25,4 %"
+      },
+      "78": {
+        "defPercent": "25,4 %"
+      },
+      "79": {
+        "defPercent": "25,4 %"
+      },
+      "80": {
+        "defPercent": "26,7 %"
+      },
+      "81": {
+        "defPercent": "26,7 %"
+      },
+      "82": {
+        "defPercent": "26,7 %"
+      },
+      "83": {
+        "defPercent": "26,7 %"
+      },
+      "84": {
+        "defPercent": "26,7 %"
+      },
+      "85": {
+        "defPercent": "28,0 %"
+      },
+      "86": {
+        "defPercent": "28,0 %"
+      },
+      "87": {
+        "defPercent": "28,0 %"
+      },
+      "88": {
+        "defPercent": "28,0 %"
+      },
+      "89": {
+        "defPercent": "28,0 %"
+      },
+      "90": {
+        "defPercent": "29,3 %"
+      },
+      "20_ASC": {
+        "defPercent": "11,3 %"
+      },
+      "40_ASC": {
+        "defPercent": "16,4 %"
+      },
+      "50_ASC": {
+        "defPercent": "19,0 %"
+      },
+      "60_ASC": {
+        "defPercent": "21,6 %"
+      },
+      "70_ASC": {
+        "defPercent": "24,1 %"
+      },
+      "80_ASC": {
+        "defPercent": "26,7 %"
+      }
+    }
+  },
+  "effects": [
+    "Healing",
+    "Energy"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Voyage",
+      "descriptions": [
+        "Chaque particule ou orbe élémentaires obtenus restaurent 1 % des PV."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 500
+        }
+      ]
+    },
+    "2": {
+      "title": "Voyage",
+      "descriptions": [
+        "Chaque particule ou orbe élémentaires obtenus restaurent 1,25 % des PV."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "3": {
+      "title": "Voyage",
+      "descriptions": [
+        "Chaque particule ou orbe élémentaires obtenus restaurent 1,5 % des PV."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "4": {
+      "title": "Voyage",
+      "descriptions": [
+        "Chaque particule ou orbe élémentaires obtenus restaurent 1,75 % des PV."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "5": {
+      "title": "Voyage",
+      "descriptions": [
+        "Chaque particule ou orbe élémentaires obtenus restaurent 2 % des PV."
+      ],
+      "upgradeCost": []
     }
   }
 }

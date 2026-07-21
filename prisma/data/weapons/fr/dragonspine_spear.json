@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 41
     },
+    "2": {
+      "baseAtk": 44
+    },
+    "3": {
+      "baseAtk": 47
+    },
+    "4": {
+      "baseAtk": 51
+    },
+    "5": {
+      "baseAtk": 54
+    },
+    "6": {
+      "baseAtk": 57
+    },
+    "7": {
+      "baseAtk": 60
+    },
+    "8": {
+      "baseAtk": 63
+    },
+    "9": {
+      "baseAtk": 66
+    },
+    "10": {
+      "baseAtk": 69
+    },
+    "11": {
+      "baseAtk": 72
+    },
+    "12": {
+      "baseAtk": 75
+    },
+    "13": {
+      "baseAtk": 78
+    },
+    "14": {
+      "baseAtk": 81
+    },
+    "15": {
+      "baseAtk": 84
+    },
+    "16": {
+      "baseAtk": 87
+    },
+    "17": {
+      "baseAtk": 90
+    },
+    "18": {
+      "baseAtk": 93
+    },
+    "19": {
+      "baseAtk": 96
+    },
     "20": {
       "baseAtk": 99
+    },
+    "21": {
+      "baseAtk": 128
+    },
+    "22": {
+      "baseAtk": 131
+    },
+    "23": {
+      "baseAtk": 134
+    },
+    "24": {
+      "baseAtk": 137
+    },
+    "25": {
+      "baseAtk": 140
+    },
+    "26": {
+      "baseAtk": 143
+    },
+    "27": {
+      "baseAtk": 146
+    },
+    "28": {
+      "baseAtk": 149
+    },
+    "29": {
+      "baseAtk": 152
+    },
+    "30": {
+      "baseAtk": 155
+    },
+    "31": {
+      "baseAtk": 158
+    },
+    "32": {
+      "baseAtk": 161
+    },
+    "33": {
+      "baseAtk": 163
+    },
+    "34": {
+      "baseAtk": 166
+    },
+    "35": {
+      "baseAtk": 169
+    },
+    "36": {
+      "baseAtk": 172
+    },
+    "37": {
+      "baseAtk": 175
+    },
+    "38": {
+      "baseAtk": 178
+    },
+    "39": {
+      "baseAtk": 181
     },
     "40": {
       "baseAtk": 184
     },
+    "41": {
+      "baseAtk": 213
+    },
+    "42": {
+      "baseAtk": 215
+    },
+    "43": {
+      "baseAtk": 218
+    },
+    "44": {
+      "baseAtk": 221
+    },
+    "45": {
+      "baseAtk": 224
+    },
+    "46": {
+      "baseAtk": 227
+    },
+    "47": {
+      "baseAtk": 230
+    },
+    "48": {
+      "baseAtk": 233
+    },
+    "49": {
+      "baseAtk": 236
+    },
     "50": {
       "baseAtk": 238
+    },
+    "51": {
+      "baseAtk": 267
+    },
+    "52": {
+      "baseAtk": 270
+    },
+    "53": {
+      "baseAtk": 273
+    },
+    "54": {
+      "baseAtk": 276
+    },
+    "55": {
+      "baseAtk": 278
+    },
+    "56": {
+      "baseAtk": 281
+    },
+    "57": {
+      "baseAtk": 284
+    },
+    "58": {
+      "baseAtk": 287
+    },
+    "59": {
+      "baseAtk": 290
     },
     "60": {
       "baseAtk": 293
     },
+    "61": {
+      "baseAtk": 321
+    },
+    "62": {
+      "baseAtk": 324
+    },
+    "63": {
+      "baseAtk": 327
+    },
+    "64": {
+      "baseAtk": 330
+    },
+    "65": {
+      "baseAtk": 333
+    },
+    "66": {
+      "baseAtk": 335
+    },
+    "67": {
+      "baseAtk": 338
+    },
+    "68": {
+      "baseAtk": 341
+    },
+    "69": {
+      "baseAtk": 344
+    },
     "70": {
       "baseAtk": 347
     },
+    "71": {
+      "baseAtk": 375
+    },
+    "72": {
+      "baseAtk": 378
+    },
+    "73": {
+      "baseAtk": 381
+    },
+    "74": {
+      "baseAtk": 384
+    },
+    "75": {
+      "baseAtk": 387
+    },
+    "76": {
+      "baseAtk": 389
+    },
+    "77": {
+      "baseAtk": 392
+    },
+    "78": {
+      "baseAtk": 395
+    },
+    "79": {
+      "baseAtk": 398
+    },
     "80": {
       "baseAtk": 401
+    },
+    "81": {
+      "baseAtk": 429
+    },
+    "82": {
+      "baseAtk": 432
+    },
+    "83": {
+      "baseAtk": 435
+    },
+    "84": {
+      "baseAtk": 438
+    },
+    "85": {
+      "baseAtk": 440
+    },
+    "86": {
+      "baseAtk": 443
+    },
+    "87": {
+      "baseAtk": 446
+    },
+    "88": {
+      "baseAtk": 449
+    },
+    "89": {
+      "baseAtk": 452
     },
     "90": {
       "baseAtk": 454
@@ -176,6 +422,361 @@
     },
     "80_ASC": {
       "baseAtk": 427
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Bonus de DGT physiques",
+    "levels": {
+      "1": {
+        "physDmgBonus": "15,0 %"
+      },
+      "2": {
+        "physDmgBonus": "15,0 %"
+      },
+      "3": {
+        "physDmgBonus": "15,0 %"
+      },
+      "4": {
+        "physDmgBonus": "15,0 %"
+      },
+      "5": {
+        "physDmgBonus": "17,4 %"
+      },
+      "6": {
+        "physDmgBonus": "17,4 %"
+      },
+      "7": {
+        "physDmgBonus": "17,4 %"
+      },
+      "8": {
+        "physDmgBonus": "17,4 %"
+      },
+      "9": {
+        "physDmgBonus": "17,4 %"
+      },
+      "10": {
+        "physDmgBonus": "20,5 %"
+      },
+      "11": {
+        "physDmgBonus": "20,5 %"
+      },
+      "12": {
+        "physDmgBonus": "20,5 %"
+      },
+      "13": {
+        "physDmgBonus": "20,5 %"
+      },
+      "14": {
+        "physDmgBonus": "20,5 %"
+      },
+      "15": {
+        "physDmgBonus": "23,5 %"
+      },
+      "16": {
+        "physDmgBonus": "23,5 %"
+      },
+      "17": {
+        "physDmgBonus": "23,5 %"
+      },
+      "18": {
+        "physDmgBonus": "23,5 %"
+      },
+      "19": {
+        "physDmgBonus": "23,5 %"
+      },
+      "20": {
+        "physDmgBonus": "26,5 %"
+      },
+      "21": {
+        "physDmgBonus": "26,5 %"
+      },
+      "22": {
+        "physDmgBonus": "26,5 %"
+      },
+      "23": {
+        "physDmgBonus": "26,5 %"
+      },
+      "24": {
+        "physDmgBonus": "26,5 %"
+      },
+      "25": {
+        "physDmgBonus": "29,6 %"
+      },
+      "26": {
+        "physDmgBonus": "29,6 %"
+      },
+      "27": {
+        "physDmgBonus": "29,6 %"
+      },
+      "28": {
+        "physDmgBonus": "29,6 %"
+      },
+      "29": {
+        "physDmgBonus": "29,6 %"
+      },
+      "30": {
+        "physDmgBonus": "32,6 %"
+      },
+      "31": {
+        "physDmgBonus": "32,6 %"
+      },
+      "32": {
+        "physDmgBonus": "32,6 %"
+      },
+      "33": {
+        "physDmgBonus": "32,6 %"
+      },
+      "34": {
+        "physDmgBonus": "32,6 %"
+      },
+      "35": {
+        "physDmgBonus": "35,6 %"
+      },
+      "36": {
+        "physDmgBonus": "35,6 %"
+      },
+      "37": {
+        "physDmgBonus": "35,6 %"
+      },
+      "38": {
+        "physDmgBonus": "35,6 %"
+      },
+      "39": {
+        "physDmgBonus": "35,6 %"
+      },
+      "40": {
+        "physDmgBonus": "38,7 %"
+      },
+      "41": {
+        "physDmgBonus": "38,7 %"
+      },
+      "42": {
+        "physDmgBonus": "38,7 %"
+      },
+      "43": {
+        "physDmgBonus": "38,7 %"
+      },
+      "44": {
+        "physDmgBonus": "38,7 %"
+      },
+      "45": {
+        "physDmgBonus": "41,7 %"
+      },
+      "46": {
+        "physDmgBonus": "41,7 %"
+      },
+      "47": {
+        "physDmgBonus": "41,7 %"
+      },
+      "48": {
+        "physDmgBonus": "41,7 %"
+      },
+      "49": {
+        "physDmgBonus": "41,7 %"
+      },
+      "50": {
+        "physDmgBonus": "44,7 %"
+      },
+      "51": {
+        "physDmgBonus": "44,7 %"
+      },
+      "52": {
+        "physDmgBonus": "44,7 %"
+      },
+      "53": {
+        "physDmgBonus": "44,7 %"
+      },
+      "54": {
+        "physDmgBonus": "44,7 %"
+      },
+      "55": {
+        "physDmgBonus": "47,8 %"
+      },
+      "56": {
+        "physDmgBonus": "47,8 %"
+      },
+      "57": {
+        "physDmgBonus": "47,8 %"
+      },
+      "58": {
+        "physDmgBonus": "47,8 %"
+      },
+      "59": {
+        "physDmgBonus": "47,8 %"
+      },
+      "60": {
+        "physDmgBonus": "50,8 %"
+      },
+      "61": {
+        "physDmgBonus": "50,8 %"
+      },
+      "62": {
+        "physDmgBonus": "50,8 %"
+      },
+      "63": {
+        "physDmgBonus": "50,8 %"
+      },
+      "64": {
+        "physDmgBonus": "50,8 %"
+      },
+      "65": {
+        "physDmgBonus": "53,8 %"
+      },
+      "66": {
+        "physDmgBonus": "53,8 %"
+      },
+      "67": {
+        "physDmgBonus": "53,8 %"
+      },
+      "68": {
+        "physDmgBonus": "53,8 %"
+      },
+      "69": {
+        "physDmgBonus": "53,8 %"
+      },
+      "70": {
+        "physDmgBonus": "56,8 %"
+      },
+      "71": {
+        "physDmgBonus": "56,8 %"
+      },
+      "72": {
+        "physDmgBonus": "56,8 %"
+      },
+      "73": {
+        "physDmgBonus": "56,8 %"
+      },
+      "74": {
+        "physDmgBonus": "56,8 %"
+      },
+      "75": {
+        "physDmgBonus": "59,9 %"
+      },
+      "76": {
+        "physDmgBonus": "59,9 %"
+      },
+      "77": {
+        "physDmgBonus": "59,9 %"
+      },
+      "78": {
+        "physDmgBonus": "59,9 %"
+      },
+      "79": {
+        "physDmgBonus": "59,9 %"
+      },
+      "80": {
+        "physDmgBonus": "62,9 %"
+      },
+      "81": {
+        "physDmgBonus": "62,9 %"
+      },
+      "82": {
+        "physDmgBonus": "62,9 %"
+      },
+      "83": {
+        "physDmgBonus": "62,9 %"
+      },
+      "84": {
+        "physDmgBonus": "62,9 %"
+      },
+      "85": {
+        "physDmgBonus": "65,9 %"
+      },
+      "86": {
+        "physDmgBonus": "65,9 %"
+      },
+      "87": {
+        "physDmgBonus": "65,9 %"
+      },
+      "88": {
+        "physDmgBonus": "65,9 %"
+      },
+      "89": {
+        "physDmgBonus": "65,9 %"
+      },
+      "90": {
+        "physDmgBonus": "69,0 %"
+      },
+      "20_ASC": {
+        "physDmgBonus": "26,5 %"
+      },
+      "40_ASC": {
+        "physDmgBonus": "38,7 %"
+      },
+      "50_ASC": {
+        "physDmgBonus": "44,7 %"
+      },
+      "60_ASC": {
+        "physDmgBonus": "50,8 %"
+      },
+      "70_ASC": {
+        "physDmgBonus": "56,8 %"
+      },
+      "80_ASC": {
+        "physDmgBonus": "62,9 %"
+      }
+    }
+  },
+  "effects": [
+    "Physical DMG",
+    "AoE",
+    "Effect Triggered by Normal Attack"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Deuil givré",
+      "descriptions": [
+        "Les attaques normales et chargées ont 60 % de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à 80 % de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors 200 % de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Deuil givré",
+      "descriptions": [
+        "Les attaques normales et chargées ont 70 % de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à 95 % de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors 240 % de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Deuil givré",
+      "descriptions": [
+        "Les attaques normales et chargées ont 80 % de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à 110 % de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors 280 % de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Deuil givré",
+      "descriptions": [
+        "Les attaques normales et chargées ont 90 % de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à 125 % de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors 320 % de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Deuil givré",
+      "descriptions": [
+        "Les attaques normales et chargées ont 100 % de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à 140 % de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors 360 % de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s."
+      ],
+      "upgradeCost": []
     }
   }
 }

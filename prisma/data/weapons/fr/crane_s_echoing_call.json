@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 49
     },
+    "2": {
+      "baseAtk": 54
+    },
+    "3": {
+      "baseAtk": 59
+    },
+    "4": {
+      "baseAtk": 63
+    },
+    "5": {
+      "baseAtk": 68
+    },
+    "6": {
+      "baseAtk": 73
+    },
+    "7": {
+      "baseAtk": 78
+    },
+    "8": {
+      "baseAtk": 83
+    },
+    "9": {
+      "baseAtk": 88
+    },
+    "10": {
+      "baseAtk": 93
+    },
+    "11": {
+      "baseAtk": 98
+    },
+    "12": {
+      "baseAtk": 103
+    },
+    "13": {
+      "baseAtk": 108
+    },
+    "14": {
+      "baseAtk": 114
+    },
+    "15": {
+      "baseAtk": 119
+    },
+    "16": {
+      "baseAtk": 124
+    },
+    "17": {
+      "baseAtk": 129
+    },
+    "18": {
+      "baseAtk": 134
+    },
+    "19": {
+      "baseAtk": 140
+    },
     "20": {
       "baseAtk": 145
+    },
+    "21": {
+      "baseAtk": 181
+    },
+    "22": {
+      "baseAtk": 187
+    },
+    "23": {
+      "baseAtk": 192
+    },
+    "24": {
+      "baseAtk": 197
+    },
+    "25": {
+      "baseAtk": 203
+    },
+    "26": {
+      "baseAtk": 208
+    },
+    "27": {
+      "baseAtk": 214
+    },
+    "28": {
+      "baseAtk": 219
+    },
+    "29": {
+      "baseAtk": 225
+    },
+    "30": {
+      "baseAtk": 230
+    },
+    "31": {
+      "baseAtk": 236
+    },
+    "32": {
+      "baseAtk": 241
+    },
+    "33": {
+      "baseAtk": 247
+    },
+    "34": {
+      "baseAtk": 252
+    },
+    "35": {
+      "baseAtk": 258
+    },
+    "36": {
+      "baseAtk": 263
+    },
+    "37": {
+      "baseAtk": 269
+    },
+    "38": {
+      "baseAtk": 275
+    },
+    "39": {
+      "baseAtk": 280
     },
     "40": {
       "baseAtk": 286
     },
+    "41": {
+      "baseAtk": 323
+    },
+    "42": {
+      "baseAtk": 328
+    },
+    "43": {
+      "baseAtk": 334
+    },
+    "44": {
+      "baseAtk": 340
+    },
+    "45": {
+      "baseAtk": 346
+    },
+    "46": {
+      "baseAtk": 351
+    },
+    "47": {
+      "baseAtk": 357
+    },
+    "48": {
+      "baseAtk": 363
+    },
+    "49": {
+      "baseAtk": 369
+    },
     "50": {
       "baseAtk": 374
+    },
+    "51": {
+      "baseAtk": 411
+    },
+    "52": {
+      "baseAtk": 417
+    },
+    "53": {
+      "baseAtk": 423
+    },
+    "54": {
+      "baseAtk": 429
+    },
+    "55": {
+      "baseAtk": 435
+    },
+    "56": {
+      "baseAtk": 441
+    },
+    "57": {
+      "baseAtk": 447
+    },
+    "58": {
+      "baseAtk": 453
+    },
+    "59": {
+      "baseAtk": 458
     },
     "60": {
       "baseAtk": 464
     },
+    "61": {
+      "baseAtk": 501
+    },
+    "62": {
+      "baseAtk": 507
+    },
+    "63": {
+      "baseAtk": 513
+    },
+    "64": {
+      "baseAtk": 519
+    },
+    "65": {
+      "baseAtk": 525
+    },
+    "66": {
+      "baseAtk": 531
+    },
+    "67": {
+      "baseAtk": 537
+    },
+    "68": {
+      "baseAtk": 543
+    },
+    "69": {
+      "baseAtk": 549
+    },
     "70": {
       "baseAtk": 555
     },
+    "71": {
+      "baseAtk": 593
+    },
+    "72": {
+      "baseAtk": 599
+    },
+    "73": {
+      "baseAtk": 605
+    },
+    "74": {
+      "baseAtk": 611
+    },
+    "75": {
+      "baseAtk": 617
+    },
+    "76": {
+      "baseAtk": 623
+    },
+    "77": {
+      "baseAtk": 629
+    },
+    "78": {
+      "baseAtk": 635
+    },
+    "79": {
+      "baseAtk": 641
+    },
     "80": {
       "baseAtk": 648
+    },
+    "81": {
+      "baseAtk": 685
+    },
+    "82": {
+      "baseAtk": 691
+    },
+    "83": {
+      "baseAtk": 697
+    },
+    "84": {
+      "baseAtk": 703
+    },
+    "85": {
+      "baseAtk": 709
+    },
+    "86": {
+      "baseAtk": 716
+    },
+    "87": {
+      "baseAtk": 722
+    },
+    "88": {
+      "baseAtk": 728
+    },
+    "89": {
+      "baseAtk": 734
     },
     "90": {
       "baseAtk": 741
@@ -169,13 +415,367 @@
       "baseAtk": 406
     },
     "60_ASC": {
-      "baseAtk": 195
+      "baseAtk": 495
     },
     "70_ASC": {
       "baseAtk": 586
     },
     "80_ASC": {
       "baseAtk": 679
+    }
+  },
+  "secondaryAttribute": {
+    "type": "ATQ",
+    "levels": {
+      "1": {
+        "atkPercent": "3,6 %"
+      },
+      "2": {
+        "atkPercent": "3,6 %"
+      },
+      "3": {
+        "atkPercent": "3,6 %"
+      },
+      "4": {
+        "atkPercent": "3,6 %"
+      },
+      "5": {
+        "atkPercent": "4,2 %"
+      },
+      "6": {
+        "atkPercent": "4,2 %"
+      },
+      "7": {
+        "atkPercent": "4,2 %"
+      },
+      "8": {
+        "atkPercent": "4,2 %"
+      },
+      "9": {
+        "atkPercent": "4,2 %"
+      },
+      "10": {
+        "atkPercent": "4,9 %"
+      },
+      "11": {
+        "atkPercent": "4,9 %"
+      },
+      "12": {
+        "atkPercent": "4,9 %"
+      },
+      "13": {
+        "atkPercent": "4,9 %"
+      },
+      "14": {
+        "atkPercent": "4,9 %"
+      },
+      "15": {
+        "atkPercent": "5,6 %"
+      },
+      "16": {
+        "atkPercent": "5,6 %"
+      },
+      "17": {
+        "atkPercent": "5,6 %"
+      },
+      "18": {
+        "atkPercent": "5,6 %"
+      },
+      "19": {
+        "atkPercent": "5,6 %"
+      },
+      "20": {
+        "atkPercent": "6,4 %"
+      },
+      "21": {
+        "atkPercent": "6,4 %"
+      },
+      "22": {
+        "atkPercent": "6,4 %"
+      },
+      "23": {
+        "atkPercent": "6,4 %"
+      },
+      "24": {
+        "atkPercent": "6,4 %"
+      },
+      "25": {
+        "atkPercent": "7,1 %"
+      },
+      "26": {
+        "atkPercent": "7,1 %"
+      },
+      "27": {
+        "atkPercent": "7,1 %"
+      },
+      "28": {
+        "atkPercent": "7,1 %"
+      },
+      "29": {
+        "atkPercent": "7,1 %"
+      },
+      "30": {
+        "atkPercent": "7,8 %"
+      },
+      "31": {
+        "atkPercent": "7,8 %"
+      },
+      "32": {
+        "atkPercent": "7,8 %"
+      },
+      "33": {
+        "atkPercent": "7,8 %"
+      },
+      "34": {
+        "atkPercent": "7,8 %"
+      },
+      "35": {
+        "atkPercent": "8,5 %"
+      },
+      "36": {
+        "atkPercent": "8,5 %"
+      },
+      "37": {
+        "atkPercent": "8,5 %"
+      },
+      "38": {
+        "atkPercent": "8,5 %"
+      },
+      "39": {
+        "atkPercent": "8,5 %"
+      },
+      "40": {
+        "atkPercent": "9,3 %"
+      },
+      "41": {
+        "atkPercent": "9,3 %"
+      },
+      "42": {
+        "atkPercent": "9,3 %"
+      },
+      "43": {
+        "atkPercent": "9,3 %"
+      },
+      "44": {
+        "atkPercent": "9,3 %"
+      },
+      "45": {
+        "atkPercent": "10,0 %"
+      },
+      "46": {
+        "atkPercent": "10,0 %"
+      },
+      "47": {
+        "atkPercent": "10,0 %"
+      },
+      "48": {
+        "atkPercent": "10,0 %"
+      },
+      "49": {
+        "atkPercent": "10,0 %"
+      },
+      "50": {
+        "atkPercent": "10,7 %"
+      },
+      "51": {
+        "atkPercent": "10,7 %"
+      },
+      "52": {
+        "atkPercent": "10,7 %"
+      },
+      "53": {
+        "atkPercent": "10,7 %"
+      },
+      "54": {
+        "atkPercent": "10,7 %"
+      },
+      "55": {
+        "atkPercent": "11,5 %"
+      },
+      "56": {
+        "atkPercent": "11,5 %"
+      },
+      "57": {
+        "atkPercent": "11,5 %"
+      },
+      "58": {
+        "atkPercent": "11,5 %"
+      },
+      "59": {
+        "atkPercent": "11,5 %"
+      },
+      "60": {
+        "atkPercent": "12,2 %"
+      },
+      "61": {
+        "atkPercent": "12,2 %"
+      },
+      "62": {
+        "atkPercent": "12,2 %"
+      },
+      "63": {
+        "atkPercent": "12,2 %"
+      },
+      "64": {
+        "atkPercent": "12,2 %"
+      },
+      "65": {
+        "atkPercent": "12,9 %"
+      },
+      "66": {
+        "atkPercent": "12,9 %"
+      },
+      "67": {
+        "atkPercent": "12,9 %"
+      },
+      "68": {
+        "atkPercent": "12,9 %"
+      },
+      "69": {
+        "atkPercent": "12,9 %"
+      },
+      "70": {
+        "atkPercent": "13,6 %"
+      },
+      "71": {
+        "atkPercent": "13,6 %"
+      },
+      "72": {
+        "atkPercent": "13,6 %"
+      },
+      "73": {
+        "atkPercent": "13,6 %"
+      },
+      "74": {
+        "atkPercent": "13,6 %"
+      },
+      "75": {
+        "atkPercent": "14,4 %"
+      },
+      "76": {
+        "atkPercent": "14,4 %"
+      },
+      "77": {
+        "atkPercent": "14,4 %"
+      },
+      "78": {
+        "atkPercent": "14,4 %"
+      },
+      "79": {
+        "atkPercent": "14,4 %"
+      },
+      "80": {
+        "atkPercent": "15,1 %"
+      },
+      "81": {
+        "atkPercent": "15,1 %"
+      },
+      "82": {
+        "atkPercent": "15,1 %"
+      },
+      "83": {
+        "atkPercent": "15,1 %"
+      },
+      "84": {
+        "atkPercent": "15,1 %"
+      },
+      "85": {
+        "atkPercent": "15,8 %"
+      },
+      "86": {
+        "atkPercent": "15,8 %"
+      },
+      "87": {
+        "atkPercent": "15,8 %"
+      },
+      "88": {
+        "atkPercent": "15,8 %"
+      },
+      "89": {
+        "atkPercent": "15,8 %"
+      },
+      "90": {
+        "atkPercent": "16,5 %"
+      },
+      "20_ASC": {
+        "atkPercent": "6,4 %"
+      },
+      "40_ASC": {
+        "atkPercent": "9,3 %"
+      },
+      "50_ASC": {
+        "atkPercent": "10,7 %"
+      },
+      "60_ASC": {
+        "atkPercent": "12,2 %"
+      },
+      "70_ASC": {
+        "atkPercent": "13,6 %"
+      },
+      "80_ASC": {
+        "atkPercent": "15,1 %"
+      }
+    }
+  },
+  "effects": [
+    "Plunging Attack DMG Bonus",
+    "Energy"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Précepte des nuages",
+      "descriptions": [
+        "Lorsque l'attaque plongeante du personnage équipé de l'arme a touché un ennemi, les DGT des attaques plongeantes de tous les personnages de l'équipe à proximité augmentent de 28 % pendant 20 s. Lorsque l'attaque plongeante d'un personnage de l'équipe à proximité touche un ennemi, le personnage équipé de l'arme récupère 2,5 pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée une fois toutes les 0,7 s de cette manière. Cette restauration d'énergie élémentaire peut être déclenchée même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "Précepte des nuages",
+      "descriptions": [
+        "Lorsque l'attaque plongeante du personnage équipé de l'arme a touché un ennemi, les DGT des attaques plongeantes de tous les personnages de l'équipe à proximité augmentent de 41 % pendant 20 s. Lorsque l'attaque plongeante d'un personnage de l'équipe à proximité touche un ennemi, le personnage équipé de l'arme récupère 2,75 pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée une fois toutes les 0,7 s de cette manière. Cette restauration d'énergie élémentaire peut être déclenchée même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "Précepte des nuages",
+      "descriptions": [
+        "Lorsque l'attaque plongeante du personnage équipé de l'arme a touché un ennemi, les DGT des attaques plongeantes de tous les personnages de l'équipe à proximité augmentent de 54 % pendant 20 s. Lorsque l'attaque plongeante d'un personnage de l'équipe à proximité touche un ennemi, le personnage équipé de l'arme récupère 3 pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée une fois toutes les 0,7 s de cette manière. Cette restauration d'énergie élémentaire peut être déclenchée même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "Précepte des nuages",
+      "descriptions": [
+        "Lorsque l'attaque plongeante du personnage équipé de l'arme a touché un ennemi, les DGT des attaques plongeantes de tous les personnages de l'équipe à proximité augmentent de 67 % pendant 20 s. Lorsque l'attaque plongeante d'un personnage de l'équipe à proximité touche un ennemi, le personnage équipé de l'arme récupère 3,25 pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée une fois toutes les 0,7 s de cette manière. Cette restauration d'énergie élémentaire peut être déclenchée même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "Précepte des nuages",
+      "descriptions": [
+        "Lorsque l'attaque plongeante du personnage équipé de l'arme a touché un ennemi, les DGT des attaques plongeantes de tous les personnages de l'équipe à proximité augmentent de 80 % pendant 20 s. Lorsque l'attaque plongeante d'un personnage de l'équipe à proximité touche un ennemi, le personnage équipé de l'arme récupère 3,5 pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée une fois toutes les 0,7 s de cette manière. Cette restauration d'énergie élémentaire peut être déclenchée même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+      ],
+      "upgradeCost": []
     }
   }
 }

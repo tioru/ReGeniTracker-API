@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 46
     },
+    "2": {
+      "baseAtk": 50
+    },
+    "3": {
+      "baseAtk": 54
+    },
+    "4": {
+      "baseAtk": 58
+    },
+    "5": {
+      "baseAtk": 62
+    },
+    "6": {
+      "baseAtk": 66
+    },
+    "7": {
+      "baseAtk": 70
+    },
+    "8": {
+      "baseAtk": 74
+    },
+    "9": {
+      "baseAtk": 78
+    },
+    "10": {
+      "baseAtk": 82
+    },
+    "11": {
+      "baseAtk": 86
+    },
+    "12": {
+      "baseAtk": 90
+    },
+    "13": {
+      "baseAtk": 94
+    },
+    "14": {
+      "baseAtk": 98
+    },
+    "15": {
+      "baseAtk": 102
+    },
+    "16": {
+      "baseAtk": 106
+    },
+    "17": {
+      "baseAtk": 110
+    },
+    "18": {
+      "baseAtk": 114
+    },
+    "19": {
+      "baseAtk": 118
+    },
     "20": {
       "baseAtk": 122
+    },
+    "21": {
+      "baseAtk": 157
+    },
+    "22": {
+      "baseAtk": 161
+    },
+    "23": {
+      "baseAtk": 165
+    },
+    "24": {
+      "baseAtk": 169
+    },
+    "25": {
+      "baseAtk": 173
+    },
+    "26": {
+      "baseAtk": 177
+    },
+    "27": {
+      "baseAtk": 181
+    },
+    "28": {
+      "baseAtk": 185
+    },
+    "29": {
+      "baseAtk": 190
+    },
+    "30": {
+      "baseAtk": 194
+    },
+    "31": {
+      "baseAtk": 198
+    },
+    "32": {
+      "baseAtk": 202
+    },
+    "33": {
+      "baseAtk": 206
+    },
+    "34": {
+      "baseAtk": 210
+    },
+    "35": {
+      "baseAtk": 214
+    },
+    "36": {
+      "baseAtk": 219
+    },
+    "37": {
+      "baseAtk": 223
+    },
+    "38": {
+      "baseAtk": 227
+    },
+    "39": {
+      "baseAtk": 231
     },
     "40": {
       "baseAtk": 235
     },
+    "41": {
+      "baseAtk": 270
+    },
+    "42": {
+      "baseAtk": 275
+    },
+    "43": {
+      "baseAtk": 279
+    },
+    "44": {
+      "baseAtk": 283
+    },
+    "45": {
+      "baseAtk": 287
+    },
+    "46": {
+      "baseAtk": 292
+    },
+    "47": {
+      "baseAtk": 296
+    },
+    "48": {
+      "baseAtk": 300
+    },
+    "49": {
+      "baseAtk": 304
+    },
     "50": {
       "baseAtk": 308
+    },
+    "51": {
+      "baseAtk": 344
+    },
+    "52": {
+      "baseAtk": 348
+    },
+    "53": {
+      "baseAtk": 352
+    },
+    "54": {
+      "baseAtk": 357
+    },
+    "55": {
+      "baseAtk": 361
+    },
+    "56": {
+      "baseAtk": 365
+    },
+    "57": {
+      "baseAtk": 370
+    },
+    "58": {
+      "baseAtk": 374
+    },
+    "59": {
+      "baseAtk": 378
     },
     "60": {
       "baseAtk": 382
     },
+    "61": {
+      "baseAtk": 418
+    },
+    "62": {
+      "baseAtk": 422
+    },
+    "63": {
+      "baseAtk": 427
+    },
+    "64": {
+      "baseAtk": 431
+    },
+    "65": {
+      "baseAtk": 435
+    },
+    "66": {
+      "baseAtk": 440
+    },
+    "67": {
+      "baseAtk": 444
+    },
+    "68": {
+      "baseAtk": 448
+    },
+    "69": {
+      "baseAtk": 453
+    },
     "70": {
       "baseAtk": 457
     },
+    "71": {
+      "baseAtk": 492
+    },
+    "72": {
+      "baseAtk": 497
+    },
+    "73": {
+      "baseAtk": 501
+    },
+    "74": {
+      "baseAtk": 506
+    },
+    "75": {
+      "baseAtk": 510
+    },
+    "76": {
+      "baseAtk": 515
+    },
+    "77": {
+      "baseAtk": 519
+    },
+    "78": {
+      "baseAtk": 523
+    },
+    "79": {
+      "baseAtk": 528
+    },
     "80": {
       "baseAtk": 532
+    },
+    "81": {
+      "baseAtk": 568
+    },
+    "82": {
+      "baseAtk": 572
+    },
+    "83": {
+      "baseAtk": 577
+    },
+    "84": {
+      "baseAtk": 581
+    },
+    "85": {
+      "baseAtk": 586
+    },
+    "86": {
+      "baseAtk": 590
+    },
+    "87": {
+      "baseAtk": 595
+    },
+    "88": {
+      "baseAtk": 599
+    },
+    "89": {
+      "baseAtk": 604
     },
     "90": {
       "baseAtk": 608
@@ -172,10 +418,366 @@
       "baseAtk": 414
     },
     "70_ASC": {
-      "baseAtk": 466
+      "baseAtk": 488
     },
     "80_ASC": {
       "baseAtk": 563
+    }
+  },
+  "secondaryAttribute": {
+    "type": "HP",
+    "levels": {
+      "1": {
+        "hpPercent": "10.8%"
+      },
+      "2": {
+        "hpPercent": "10.8%"
+      },
+      "3": {
+        "hpPercent": "10.8%"
+      },
+      "4": {
+        "hpPercent": "10.8%"
+      },
+      "5": {
+        "hpPercent": "12.5%"
+      },
+      "6": {
+        "hpPercent": "12.5%"
+      },
+      "7": {
+        "hpPercent": "12.5%"
+      },
+      "8": {
+        "hpPercent": "12.5%"
+      },
+      "9": {
+        "hpPercent": "12.5%"
+      },
+      "10": {
+        "hpPercent": "14.7%"
+      },
+      "11": {
+        "hpPercent": "14.7%"
+      },
+      "12": {
+        "hpPercent": "14.7%"
+      },
+      "13": {
+        "hpPercent": "14.7%"
+      },
+      "14": {
+        "hpPercent": "14.7%"
+      },
+      "15": {
+        "hpPercent": "16.9%"
+      },
+      "16": {
+        "hpPercent": "16.9%"
+      },
+      "17": {
+        "hpPercent": "16.9%"
+      },
+      "18": {
+        "hpPercent": "16.9%"
+      },
+      "19": {
+        "hpPercent": "16.9%"
+      },
+      "20": {
+        "hpPercent": "19.1%"
+      },
+      "21": {
+        "hpPercent": "19.1%"
+      },
+      "22": {
+        "hpPercent": "19.1%"
+      },
+      "23": {
+        "hpPercent": "19.1%"
+      },
+      "24": {
+        "hpPercent": "19.1%"
+      },
+      "25": {
+        "hpPercent": "21.3%"
+      },
+      "26": {
+        "hpPercent": "21.3%"
+      },
+      "27": {
+        "hpPercent": "21.3%"
+      },
+      "28": {
+        "hpPercent": "21.3%"
+      },
+      "29": {
+        "hpPercent": "21.3%"
+      },
+      "30": {
+        "hpPercent": "23.4%"
+      },
+      "31": {
+        "hpPercent": "23.4%"
+      },
+      "32": {
+        "hpPercent": "23.4%"
+      },
+      "33": {
+        "hpPercent": "23.4%"
+      },
+      "34": {
+        "hpPercent": "23.4%"
+      },
+      "35": {
+        "hpPercent": "25.6%"
+      },
+      "36": {
+        "hpPercent": "25.6%"
+      },
+      "37": {
+        "hpPercent": "25.6%"
+      },
+      "38": {
+        "hpPercent": "25.6%"
+      },
+      "39": {
+        "hpPercent": "25.6%"
+      },
+      "40": {
+        "hpPercent": "27.8%"
+      },
+      "41": {
+        "hpPercent": "27.8%"
+      },
+      "42": {
+        "hpPercent": "27.8%"
+      },
+      "43": {
+        "hpPercent": "27.8%"
+      },
+      "44": {
+        "hpPercent": "27.8%"
+      },
+      "45": {
+        "hpPercent": "30.0%"
+      },
+      "46": {
+        "hpPercent": "30.0%"
+      },
+      "47": {
+        "hpPercent": "30.0%"
+      },
+      "48": {
+        "hpPercent": "30.0%"
+      },
+      "49": {
+        "hpPercent": "30.0%"
+      },
+      "50": {
+        "hpPercent": "32.2%"
+      },
+      "51": {
+        "hpPercent": "32.2%"
+      },
+      "52": {
+        "hpPercent": "32.2%"
+      },
+      "53": {
+        "hpPercent": "32.2%"
+      },
+      "54": {
+        "hpPercent": "32.2%"
+      },
+      "55": {
+        "hpPercent": "34.4%"
+      },
+      "56": {
+        "hpPercent": "34.4%"
+      },
+      "57": {
+        "hpPercent": "34.4%"
+      },
+      "58": {
+        "hpPercent": "34.4%"
+      },
+      "59": {
+        "hpPercent": "34.4%"
+      },
+      "60": {
+        "hpPercent": "36.5%"
+      },
+      "61": {
+        "hpPercent": "36.5%"
+      },
+      "62": {
+        "hpPercent": "36.5%"
+      },
+      "63": {
+        "hpPercent": "36.5%"
+      },
+      "64": {
+        "hpPercent": "36.5%"
+      },
+      "65": {
+        "hpPercent": "38.7%"
+      },
+      "66": {
+        "hpPercent": "38.7%"
+      },
+      "67": {
+        "hpPercent": "38.7%"
+      },
+      "68": {
+        "hpPercent": "38.7%"
+      },
+      "69": {
+        "hpPercent": "38.7%"
+      },
+      "70": {
+        "hpPercent": "40.9%"
+      },
+      "71": {
+        "hpPercent": "40.9%"
+      },
+      "72": {
+        "hpPercent": "40.9%"
+      },
+      "73": {
+        "hpPercent": "40.9%"
+      },
+      "74": {
+        "hpPercent": "40.9%"
+      },
+      "75": {
+        "hpPercent": "43.1%"
+      },
+      "76": {
+        "hpPercent": "43.1%"
+      },
+      "77": {
+        "hpPercent": "43.1%"
+      },
+      "78": {
+        "hpPercent": "43.1%"
+      },
+      "79": {
+        "hpPercent": "43.1%"
+      },
+      "80": {
+        "hpPercent": "45.3%"
+      },
+      "81": {
+        "hpPercent": "45.3%"
+      },
+      "82": {
+        "hpPercent": "45.3%"
+      },
+      "83": {
+        "hpPercent": "45.3%"
+      },
+      "84": {
+        "hpPercent": "45.3%"
+      },
+      "85": {
+        "hpPercent": "47.4%"
+      },
+      "86": {
+        "hpPercent": "47.4%"
+      },
+      "87": {
+        "hpPercent": "47.4%"
+      },
+      "88": {
+        "hpPercent": "47.4%"
+      },
+      "89": {
+        "hpPercent": "47.4%"
+      },
+      "90": {
+        "hpPercent": "49.6%"
+      },
+      "20_ASC": {
+        "hpPercent": "19.1%"
+      },
+      "40_ASC": {
+        "hpPercent": "27.8%"
+      },
+      "50_ASC": {
+        "hpPercent": "32.2%"
+      },
+      "60_ASC": {
+        "hpPercent": "36.5%"
+      },
+      "70_ASC": {
+        "hpPercent": "40.9%"
+      },
+      "80_ASC": {
+        "hpPercent": "45.3%"
+      }
+    }
+  },
+  "effects": [
+    "Healing Bonus",
+    "Normal Attack Additive Base DMG Bonus",
+    "Additive Base DMG Bonus",
+    "Energy Generation"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Byakuya Kougetsu",
+      "descriptions": [
+        "Healing Bonus increased by 10%, Normal Attack DMG is increased by 1% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "Byakuya Kougetsu",
+      "descriptions": [
+        "Healing Bonus increased by 12.5%, Normal Attack DMG is increased by 1.5% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "Byakuya Kougetsu",
+      "descriptions": [
+        "Healing Bonus increased by 15%, Normal Attack DMG is increased by 2.0% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "Byakuya Kougetsu",
+      "descriptions": [
+        "Healing Bonus increased by 17.5%, Normal Attack DMG is increased by 2.5% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "Byakuya Kougetsu",
+      "descriptions": [
+        "Healing Bonus increased by 20%, Normal Attack DMG is increased by 3.0% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s."
+      ],
+      "upgradeCost": []
     }
   }
 }

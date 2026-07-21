@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 42
     },
+    "2": {
+      "baseAtk": 46
+    },
+    "3": {
+      "baseAtk": 49
+    },
+    "4": {
+      "baseAtk": 53
+    },
+    "5": {
+      "baseAtk": 56
+    },
+    "6": {
+      "baseAtk": 60
+    },
+    "7": {
+      "baseAtk": 63
+    },
+    "8": {
+      "baseAtk": 67
+    },
+    "9": {
+      "baseAtk": 70
+    },
+    "10": {
+      "baseAtk": 74
+    },
+    "11": {
+      "baseAtk": 77
+    },
+    "12": {
+      "baseAtk": 81
+    },
+    "13": {
+      "baseAtk": 84
+    },
+    "14": {
+      "baseAtk": 88
+    },
+    "15": {
+      "baseAtk": 91
+    },
+    "16": {
+      "baseAtk": 95
+    },
+    "17": {
+      "baseAtk": 98
+    },
+    "18": {
+      "baseAtk": 102
+    },
+    "19": {
+      "baseAtk": 105
+    },
     "20": {
       "baseAtk": 109
+    },
+    "21": {
+      "baseAtk": 138
+    },
+    "22": {
+      "baseAtk": 142
+    },
+    "23": {
+      "baseAtk": 145
+    },
+    "24": {
+      "baseAtk": 149
+    },
+    "25": {
+      "baseAtk": 152
+    },
+    "26": {
+      "baseAtk": 156
+    },
+    "27": {
+      "baseAtk": 159
+    },
+    "28": {
+      "baseAtk": 163
+    },
+    "29": {
+      "baseAtk": 166
+    },
+    "30": {
+      "baseAtk": 170
+    },
+    "31": {
+      "baseAtk": 173
+    },
+    "32": {
+      "baseAtk": 177
+    },
+    "33": {
+      "baseAtk": 180
+    },
+    "34": {
+      "baseAtk": 184
+    },
+    "35": {
+      "baseAtk": 187
+    },
+    "36": {
+      "baseAtk": 191
+    },
+    "37": {
+      "baseAtk": 194
+    },
+    "38": {
+      "baseAtk": 198
+    },
+    "39": {
+      "baseAtk": 201
     },
     "40": {
       "baseAtk": 205
     },
+    "41": {
+      "baseAtk": 234
+    },
+    "42": {
+      "baseAtk": 238
+    },
+    "43": {
+      "baseAtk": 241
+    },
+    "44": {
+      "baseAtk": 245
+    },
+    "45": {
+      "baseAtk": 248
+    },
+    "46": {
+      "baseAtk": 252
+    },
+    "47": {
+      "baseAtk": 255
+    },
+    "48": {
+      "baseAtk": 259
+    },
+    "49": {
+      "baseAtk": 262
+    },
     "50": {
       "baseAtk": 266
+    },
+    "51": {
+      "baseAtk": 295
+    },
+    "52": {
+      "baseAtk": 299
+    },
+    "53": {
+      "baseAtk": 302
+    },
+    "54": {
+      "baseAtk": 306
+    },
+    "55": {
+      "baseAtk": 309
+    },
+    "56": {
+      "baseAtk": 313
+    },
+    "57": {
+      "baseAtk": 316
+    },
+    "58": {
+      "baseAtk": 320
+    },
+    "59": {
+      "baseAtk": 323
     },
     "60": {
       "baseAtk": 327
     },
+    "61": {
+      "baseAtk": 356
+    },
+    "62": {
+      "baseAtk": 360
+    },
+    "63": {
+      "baseAtk": 363
+    },
+    "64": {
+      "baseAtk": 367
+    },
+    "65": {
+      "baseAtk": 370
+    },
+    "66": {
+      "baseAtk": 374
+    },
+    "67": {
+      "baseAtk": 377
+    },
+    "68": {
+      "baseAtk": 381
+    },
+    "69": {
+      "baseAtk": 384
+    },
     "70": {
       "baseAtk": 388
     },
+    "71": {
+      "baseAtk": 417
+    },
+    "72": {
+      "baseAtk": 421
+    },
+    "73": {
+      "baseAtk": 424
+    },
+    "74": {
+      "baseAtk": 428
+    },
+    "75": {
+      "baseAtk": 431
+    },
+    "76": {
+      "baseAtk": 435
+    },
+    "77": {
+      "baseAtk": 438
+    },
+    "78": {
+      "baseAtk": 442
+    },
+    "79": {
+      "baseAtk": 445
+    },
     "80": {
-      "baseAtk": 448
+      "baseAtk": 449
+    },
+    "81": {
+      "baseAtk": 478
+    },
+    "82": {
+      "baseAtk": 482
+    },
+    "83": {
+      "baseAtk": 485
+    },
+    "84": {
+      "baseAtk": 489
+    },
+    "85": {
+      "baseAtk": 492
+    },
+    "86": {
+      "baseAtk": 496
+    },
+    "87": {
+      "baseAtk": 499
+    },
+    "88": {
+      "baseAtk": 503
+    },
+    "89": {
+      "baseAtk": 506
     },
     "90": {
       "baseAtk": 510
@@ -175,7 +421,360 @@
       "baseAtk": 414
     },
     "80_ASC": {
-      "baseAtk": 474
+      "baseAtk": 475
+    }
+  },
+  "secondaryAttribute": {
+    "type": "CRIT Rate",
+    "levels": {
+      "1": {
+        "crtRate": "6.0%"
+      },
+      "2": {
+        "crtRate": "6.0%"
+      },
+      "3": {
+        "crtRate": "6.0%"
+      },
+      "4": {
+        "crtRate": "6.0%"
+      },
+      "5": {
+        "crtRate": "7.0%"
+      },
+      "6": {
+        "crtRate": "7.0%"
+      },
+      "7": {
+        "crtRate": "7.0%"
+      },
+      "8": {
+        "crtRate": "7.0%"
+      },
+      "9": {
+        "crtRate": "7.0%"
+      },
+      "10": {
+        "crtRate": "8.2%"
+      },
+      "11": {
+        "crtRate": "8.2%"
+      },
+      "12": {
+        "crtRate": "8.2%"
+      },
+      "13": {
+        "crtRate": "8.2%"
+      },
+      "14": {
+        "crtRate": "8.2%"
+      },
+      "15": {
+        "crtRate": "9.4%"
+      },
+      "16": {
+        "crtRate": "9.4%"
+      },
+      "17": {
+        "crtRate": "9.4%"
+      },
+      "18": {
+        "crtRate": "9.4%"
+      },
+      "19": {
+        "crtRate": "9.4%"
+      },
+      "20": {
+        "crtRate": "10.6%"
+      },
+      "21": {
+        "crtRate": "10.6%"
+      },
+      "22": {
+        "crtRate": "10.6%"
+      },
+      "23": {
+        "crtRate": "10.6%"
+      },
+      "24": {
+        "crtRate": "10.6%"
+      },
+      "25": {
+        "crtRate": "11.8%"
+      },
+      "26": {
+        "crtRate": "11.8%"
+      },
+      "27": {
+        "crtRate": "11.8%"
+      },
+      "28": {
+        "crtRate": "11.8%"
+      },
+      "29": {
+        "crtRate": "11.8%"
+      },
+      "30": {
+        "crtRate": "13.0%"
+      },
+      "31": {
+        "crtRate": "13.0%"
+      },
+      "32": {
+        "crtRate": "13.0%"
+      },
+      "33": {
+        "crtRate": "13.0%"
+      },
+      "34": {
+        "crtRate": "13.0%"
+      },
+      "35": {
+        "crtRate": "14.2%"
+      },
+      "36": {
+        "crtRate": "14.2%"
+      },
+      "37": {
+        "crtRate": "14.2%"
+      },
+      "38": {
+        "crtRate": "14.2%"
+      },
+      "39": {
+        "crtRate": "14.2%"
+      },
+      "40": {
+        "crtRate": "15.5%"
+      },
+      "41": {
+        "crtRate": "15.5%"
+      },
+      "42": {
+        "crtRate": "15.5%"
+      },
+      "43": {
+        "crtRate": "15.5%"
+      },
+      "44": {
+        "crtRate": "15.5%"
+      },
+      "45": {
+        "crtRate": "16.7%"
+      },
+      "46": {
+        "crtRate": "16.7%"
+      },
+      "47": {
+        "crtRate": "16.7%"
+      },
+      "48": {
+        "crtRate": "16.7%"
+      },
+      "49": {
+        "crtRate": "16.7%"
+      },
+      "50": {
+        "crtRate": "17.9%"
+      },
+      "51": {
+        "crtRate": "17.9%"
+      },
+      "52": {
+        "crtRate": "17.9%"
+      },
+      "53": {
+        "crtRate": "17.9%"
+      },
+      "54": {
+        "crtRate": "17.9%"
+      },
+      "55": {
+        "crtRate": "19.1%"
+      },
+      "56": {
+        "crtRate": "19.1%"
+      },
+      "57": {
+        "crtRate": "19.1%"
+      },
+      "58": {
+        "crtRate": "19.1%"
+      },
+      "59": {
+        "crtRate": "19.1%"
+      },
+      "60": {
+        "crtRate": "20.3%"
+      },
+      "61": {
+        "crtRate": "20.3%"
+      },
+      "62": {
+        "crtRate": "20.3%"
+      },
+      "63": {
+        "crtRate": "20.3%"
+      },
+      "64": {
+        "crtRate": "20.3%"
+      },
+      "65": {
+        "crtRate": "21.5%"
+      },
+      "66": {
+        "crtRate": "21.5%"
+      },
+      "67": {
+        "crtRate": "21.5%"
+      },
+      "68": {
+        "crtRate": "21.5%"
+      },
+      "69": {
+        "crtRate": "21.5%"
+      },
+      "70": {
+        "crtRate": "22.7%"
+      },
+      "71": {
+        "crtRate": "22.7%"
+      },
+      "72": {
+        "crtRate": "22.7%"
+      },
+      "73": {
+        "crtRate": "22.7%"
+      },
+      "74": {
+        "crtRate": "22.7%"
+      },
+      "75": {
+        "crtRate": "23.9%"
+      },
+      "76": {
+        "crtRate": "23.9%"
+      },
+      "77": {
+        "crtRate": "23.9%"
+      },
+      "78": {
+        "crtRate": "23.9%"
+      },
+      "79": {
+        "crtRate": "23.9%"
+      },
+      "80": {
+        "crtRate": "25.1%"
+      },
+      "81": {
+        "crtRate": "25.1%"
+      },
+      "82": {
+        "crtRate": "25.1%"
+      },
+      "83": {
+        "crtRate": "25.1%"
+      },
+      "84": {
+        "crtRate": "25.1%"
+      },
+      "85": {
+        "crtRate": "26.4%"
+      },
+      "86": {
+        "crtRate": "26.4%"
+      },
+      "87": {
+        "crtRate": "26.4%"
+      },
+      "88": {
+        "crtRate": "26.4%"
+      },
+      "89": {
+        "crtRate": "26.4%"
+      },
+      "90": {
+        "crtRate": "27.6%"
+      },
+      "20_ASC": {
+        "crtRate": "10.6%"
+      },
+      "40_ASC": {
+        "crtRate": "15.5%"
+      },
+      "50_ASC": {
+        "crtRate": "17.9%"
+      },
+      "60_ASC": {
+        "crtRate": "20.3%"
+      },
+      "70_ASC": {
+        "crtRate": "22.7%"
+      },
+      "80_ASC": {
+        "crtRate": "25.1%"
+      }
+    }
+  },
+  "effects": [
+    "Elemental Mastery"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Tales of the Tundra",
+      "descriptions": [
+        "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 120."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Tales of the Tundra",
+      "descriptions": [
+        "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 150."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Tales of the Tundra",
+      "descriptions": [
+        "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 180."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Tales of the Tundra",
+      "descriptions": [
+        "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 210."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Tales of the Tundra",
+      "descriptions": [
+        "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 240."
+      ],
+      "upgradeCost": []
     }
   }
 }

@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 44
     },
+    "2": {
+      "baseAtk": 48
+    },
+    "3": {
+      "baseAtk": 51
+    },
+    "4": {
+      "baseAtk": 55
+    },
+    "5": {
+      "baseAtk": 58
+    },
+    "6": {
+      "baseAtk": 62
+    },
+    "7": {
+      "baseAtk": 65
+    },
+    "8": {
+      "baseAtk": 69
+    },
+    "9": {
+      "baseAtk": 72
+    },
+    "10": {
+      "baseAtk": 76
+    },
+    "11": {
+      "baseAtk": 79
+    },
+    "12": {
+      "baseAtk": 83
+    },
+    "13": {
+      "baseAtk": 86
+    },
+    "14": {
+      "baseAtk": 90
+    },
+    "15": {
+      "baseAtk": 93
+    },
+    "16": {
+      "baseAtk": 96
+    },
+    "17": {
+      "baseAtk": 100
+    },
+    "18": {
+      "baseAtk": 103
+    },
+    "19": {
+      "baseAtk": 107
+    },
     "20": {
       "baseAtk": 110
+    },
+    "21": {
+      "baseAtk": 145
+    },
+    "22": {
+      "baseAtk": 148
+    },
+    "23": {
+      "baseAtk": 152
+    },
+    "24": {
+      "baseAtk": 155
+    },
+    "25": {
+      "baseAtk": 158
+    },
+    "26": {
+      "baseAtk": 162
+    },
+    "27": {
+      "baseAtk": 165
+    },
+    "28": {
+      "baseAtk": 169
+    },
+    "29": {
+      "baseAtk": 172
+    },
+    "30": {
+      "baseAtk": 176
+    },
+    "31": {
+      "baseAtk": 179
+    },
+    "32": {
+      "baseAtk": 182
+    },
+    "33": {
+      "baseAtk": 186
+    },
+    "34": {
+      "baseAtk": 189
+    },
+    "35": {
+      "baseAtk": 193
+    },
+    "36": {
+      "baseAtk": 196
+    },
+    "37": {
+      "baseAtk": 199
+    },
+    "38": {
+      "baseAtk": 203
+    },
+    "39": {
+      "baseAtk": 206
     },
     "40": {
       "baseAtk": 210
     },
+    "41": {
+      "baseAtk": 244
+    },
+    "42": {
+      "baseAtk": 248
+    },
+    "43": {
+      "baseAtk": 251
+    },
+    "44": {
+      "baseAtk": 255
+    },
+    "45": {
+      "baseAtk": 258
+    },
+    "46": {
+      "baseAtk": 262
+    },
+    "47": {
+      "baseAtk": 265
+    },
+    "48": {
+      "baseAtk": 268
+    },
+    "49": {
+      "baseAtk": 272
+    },
     "50": {
       "baseAtk": 275
+    },
+    "51": {
+      "baseAtk": 310
+    },
+    "52": {
+      "baseAtk": 314
+    },
+    "53": {
+      "baseAtk": 317
+    },
+    "54": {
+      "baseAtk": 321
+    },
+    "55": {
+      "baseAtk": 324
+    },
+    "56": {
+      "baseAtk": 327
+    },
+    "57": {
+      "baseAtk": 331
+    },
+    "58": {
+      "baseAtk": 334
+    },
+    "59": {
+      "baseAtk": 338
     },
     "60": {
       "baseAtk": 341
     },
+    "61": {
+      "baseAtk": 376
+    },
+    "62": {
+      "baseAtk": 380
+    },
+    "63": {
+      "baseAtk": 383
+    },
+    "64": {
+      "baseAtk": 387
+    },
+    "65": {
+      "baseAtk": 390
+    },
+    "66": {
+      "baseAtk": 394
+    },
+    "67": {
+      "baseAtk": 397
+    },
+    "68": {
+      "baseAtk": 401
+    },
+    "69": {
+      "baseAtk": 404
+    },
     "70": {
       "baseAtk": 408
     },
+    "71": {
+      "baseAtk": 442
+    },
+    "72": {
+      "baseAtk": 446
+    },
+    "73": {
+      "baseAtk": 450
+    },
+    "74": {
+      "baseAtk": 453
+    },
+    "75": {
+      "baseAtk": 457
+    },
+    "76": {
+      "baseAtk": 460
+    },
+    "77": {
+      "baseAtk": 464
+    },
+    "78": {
+      "baseAtk": 467
+    },
+    "79": {
+      "baseAtk": 471
+    },
     "80": {
       "baseAtk": 475
+    },
+    "81": {
+      "baseAtk": 509
+    },
+    "82": {
+      "baseAtk": 513
+    },
+    "83": {
+      "baseAtk": 516
+    },
+    "84": {
+      "baseAtk": 520
+    },
+    "85": {
+      "baseAtk": 524
+    },
+    "86": {
+      "baseAtk": 527
+    },
+    "87": {
+      "baseAtk": 531
+    },
+    "88": {
+      "baseAtk": 535
+    },
+    "89": {
+      "baseAtk": 538
     },
     "90": {
       "baseAtk": 542
@@ -176,6 +422,359 @@
     },
     "80_ASC": {
       "baseAtk": 506
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Elemental Mastery",
+    "levels": {
+      "1": {
+        "elementalMastery": "58"
+      },
+      "2": {
+        "elementalMastery": "58"
+      },
+      "3": {
+        "elementalMastery": "58"
+      },
+      "4": {
+        "elementalMastery": "58"
+      },
+      "5": {
+        "elementalMastery": "67"
+      },
+      "6": {
+        "elementalMastery": "67"
+      },
+      "7": {
+        "elementalMastery": "67"
+      },
+      "8": {
+        "elementalMastery": "67"
+      },
+      "9": {
+        "elementalMastery": "67"
+      },
+      "10": {
+        "elementalMastery": "79"
+      },
+      "11": {
+        "elementalMastery": "79"
+      },
+      "12": {
+        "elementalMastery": "79"
+      },
+      "13": {
+        "elementalMastery": "79"
+      },
+      "14": {
+        "elementalMastery": "79"
+      },
+      "15": {
+        "elementalMastery": "90"
+      },
+      "16": {
+        "elementalMastery": "90"
+      },
+      "17": {
+        "elementalMastery": "90"
+      },
+      "18": {
+        "elementalMastery": "90"
+      },
+      "19": {
+        "elementalMastery": "90"
+      },
+      "20": {
+        "elementalMastery": "102"
+      },
+      "21": {
+        "elementalMastery": "102"
+      },
+      "22": {
+        "elementalMastery": "102"
+      },
+      "23": {
+        "elementalMastery": "102"
+      },
+      "24": {
+        "elementalMastery": "102"
+      },
+      "25": {
+        "elementalMastery": "113"
+      },
+      "26": {
+        "elementalMastery": "113"
+      },
+      "27": {
+        "elementalMastery": "113"
+      },
+      "28": {
+        "elementalMastery": "113"
+      },
+      "29": {
+        "elementalMastery": "113"
+      },
+      "30": {
+        "elementalMastery": "125"
+      },
+      "31": {
+        "elementalMastery": "125"
+      },
+      "32": {
+        "elementalMastery": "125"
+      },
+      "33": {
+        "elementalMastery": "125"
+      },
+      "34": {
+        "elementalMastery": "125"
+      },
+      "35": {
+        "elementalMastery": "137"
+      },
+      "36": {
+        "elementalMastery": "137"
+      },
+      "37": {
+        "elementalMastery": "137"
+      },
+      "38": {
+        "elementalMastery": "137"
+      },
+      "39": {
+        "elementalMastery": "137"
+      },
+      "40": {
+        "elementalMastery": "148"
+      },
+      "41": {
+        "elementalMastery": "148"
+      },
+      "42": {
+        "elementalMastery": "148"
+      },
+      "43": {
+        "elementalMastery": "148"
+      },
+      "44": {
+        "elementalMastery": "148"
+      },
+      "45": {
+        "elementalMastery": "160"
+      },
+      "46": {
+        "elementalMastery": "160"
+      },
+      "47": {
+        "elementalMastery": "160"
+      },
+      "48": {
+        "elementalMastery": "160"
+      },
+      "49": {
+        "elementalMastery": "160"
+      },
+      "50": {
+        "elementalMastery": "172"
+      },
+      "51": {
+        "elementalMastery": "172"
+      },
+      "52": {
+        "elementalMastery": "172"
+      },
+      "53": {
+        "elementalMastery": "172"
+      },
+      "54": {
+        "elementalMastery": "172"
+      },
+      "55": {
+        "elementalMastery": "183"
+      },
+      "56": {
+        "elementalMastery": "183"
+      },
+      "57": {
+        "elementalMastery": "183"
+      },
+      "58": {
+        "elementalMastery": "183"
+      },
+      "59": {
+        "elementalMastery": "183"
+      },
+      "60": {
+        "elementalMastery": "195"
+      },
+      "61": {
+        "elementalMastery": "195"
+      },
+      "62": {
+        "elementalMastery": "195"
+      },
+      "63": {
+        "elementalMastery": "195"
+      },
+      "64": {
+        "elementalMastery": "195"
+      },
+      "65": {
+        "elementalMastery": "206"
+      },
+      "66": {
+        "elementalMastery": "206"
+      },
+      "67": {
+        "elementalMastery": "206"
+      },
+      "68": {
+        "elementalMastery": "206"
+      },
+      "69": {
+        "elementalMastery": "206"
+      },
+      "70": {
+        "elementalMastery": "218"
+      },
+      "71": {
+        "elementalMastery": "218"
+      },
+      "72": {
+        "elementalMastery": "218"
+      },
+      "73": {
+        "elementalMastery": "218"
+      },
+      "74": {
+        "elementalMastery": "218"
+      },
+      "75": {
+        "elementalMastery": "230"
+      },
+      "76": {
+        "elementalMastery": "230"
+      },
+      "77": {
+        "elementalMastery": "230"
+      },
+      "78": {
+        "elementalMastery": "230"
+      },
+      "79": {
+        "elementalMastery": "230"
+      },
+      "80": {
+        "elementalMastery": "241"
+      },
+      "81": {
+        "elementalMastery": "241"
+      },
+      "82": {
+        "elementalMastery": "241"
+      },
+      "83": {
+        "elementalMastery": "241"
+      },
+      "84": {
+        "elementalMastery": "241"
+      },
+      "85": {
+        "elementalMastery": "253"
+      },
+      "86": {
+        "elementalMastery": "253"
+      },
+      "87": {
+        "elementalMastery": "253"
+      },
+      "88": {
+        "elementalMastery": "253"
+      },
+      "89": {
+        "elementalMastery": "253"
+      },
+      "90": {
+        "elementalMastery": "265"
+      },
+      "20_ASC": {
+        "elementalMastery": "102"
+      },
+      "40_ASC": {
+        "elementalMastery": "148"
+      },
+      "50_ASC": {
+        "elementalMastery": "172"
+      },
+      "60_ASC": {
+        "elementalMastery": "195"
+      },
+      "70_ASC": {
+        "elementalMastery": "218"
+      },
+      "80_ASC": {
+        "elementalMastery": "241"
+      }
+    }
+  },
+  "effects": [
+    "Elemental Mastery"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Bathhouses, Hawks, and Narukami",
+      "descriptions": [
+        "Elemental Mastery increases by 120 for 6s after triggering Swirl. Elemental Mastery increases by 96 for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by 32 for 30s after the wielder's Elemental Burst hits an opponent."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "Bathhouses, Hawks, and Narukami",
+      "descriptions": [
+        "Elemental Mastery increases by 150 for 6s after triggering Swirl. Elemental Mastery increases by 120 for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by 40 for 30s after the wielder's Elemental Burst hits an opponent."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "Bathhouses, Hawks, and Narukami",
+      "descriptions": [
+        "Elemental Mastery increases by 180 for 6s after triggering Swirl. Elemental Mastery increases by 144 for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by 48 for 30s after the wielder's Elemental Burst hits an opponent."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "Bathhouses, Hawks, and Narukami",
+      "descriptions": [
+        "Elemental Mastery increases by 210 for 6s after triggering Swirl. Elemental Mastery increases by 168 for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by 56 for 30s after the wielder's Elemental Burst hits an opponent."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "Bathhouses, Hawks, and Narukami",
+      "descriptions": [
+        "Elemental Mastery increases by 240 for 6s after triggering Swirl. Elemental Mastery increases by 192 for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by 64 for 30s after the wielder's Elemental Burst hits an opponent."
+      ],
+      "upgradeCost": []
     }
   }
 }

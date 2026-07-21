@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 39
     },
+    "2": {
+      "baseAtk": 42
+    },
+    "3": {
+      "baseAtk": 45
+    },
+    "4": {
+      "baseAtk": 48
+    },
+    "5": {
+      "baseAtk": 50
+    },
+    "6": {
+      "baseAtk": 53
+    },
+    "7": {
+      "baseAtk": 56
+    },
+    "8": {
+      "baseAtk": 59
+    },
+    "9": {
+      "baseAtk": 62
+    },
+    "10": {
+      "baseAtk": 65
+    },
+    "11": {
+      "baseAtk": 68
+    },
+    "12": {
+      "baseAtk": 71
+    },
+    "13": {
+      "baseAtk": 74
+    },
+    "14": {
+      "baseAtk": 77
+    },
+    "15": {
+      "baseAtk": 79
+    },
+    "16": {
+      "baseAtk": 82
+    },
+    "17": {
+      "baseAtk": 85
+    },
+    "18": {
+      "baseAtk": 88
+    },
+    "19": {
+      "baseAtk": 91
+    },
     "20": {
       "baseAtk": 94
+    },
+    "21": {
+      "baseAtk": 116
+    },
+    "22": {
+      "baseAtk": 119
+    },
+    "23": {
+      "baseAtk": 122
+    },
+    "24": {
+      "baseAtk": 125
+    },
+    "25": {
+      "baseAtk": 127
+    },
+    "26": {
+      "baseAtk": 130
+    },
+    "27": {
+      "baseAtk": 133
+    },
+    "28": {
+      "baseAtk": 136
+    },
+    "29": {
+      "baseAtk": 139
+    },
+    "30": {
+      "baseAtk": 141
+    },
+    "31": {
+      "baseAtk": 144
+    },
+    "32": {
+      "baseAtk": 147
+    },
+    "33": {
+      "baseAtk": 150
+    },
+    "34": {
+      "baseAtk": 153
+    },
+    "35": {
+      "baseAtk": 155
+    },
+    "36": {
+      "baseAtk": 158
+    },
+    "37": {
+      "baseAtk": 161
+    },
+    "38": {
+      "baseAtk": 164
+    },
+    "39": {
+      "baseAtk": 166
     },
     "40": {
       "baseAtk": 169
     },
+    "41": {
+      "baseAtk": 191
+    },
+    "42": {
+      "baseAtk": 194
+    },
+    "43": {
+      "baseAtk": 197
+    },
+    "44": {
+      "baseAtk": 200
+    },
+    "45": {
+      "baseAtk": 202
+    },
+    "46": {
+      "baseAtk": 205
+    },
+    "47": {
+      "baseAtk": 208
+    },
+    "48": {
+      "baseAtk": 211
+    },
+    "49": {
+      "baseAtk": 213
+    },
     "50": {
       "baseAtk": 216
+    },
+    "51": {
+      "baseAtk": 238
+    },
+    "52": {
+      "baseAtk": 241
+    },
+    "53": {
+      "baseAtk": 244
+    },
+    "54": {
+      "baseAtk": 246
+    },
+    "55": {
+      "baseAtk": 249
+    },
+    "56": {
+      "baseAtk": 252
+    },
+    "57": {
+      "baseAtk": 255
+    },
+    "58": {
+      "baseAtk": 257
+    },
+    "59": {
+      "baseAtk": 260
     },
     "60": {
       "baseAtk": 263
     },
+    "61": {
+      "baseAtk": 285
+    },
+    "62": {
+      "baseAtk": 288
+    },
+    "63": {
+      "baseAtk": 290
+    },
+    "64": {
+      "baseAtk": 293
+    },
+    "65": {
+      "baseAtk": 296
+    },
+    "66": {
+      "baseAtk": 298
+    },
+    "67": {
+      "baseAtk": 301
+    },
+    "68": {
+      "baseAtk": 304
+    },
+    "69": {
+      "baseAtk": 306
+    },
     "70": {
       "baseAtk": 309
     },
+    "71": {
+      "baseAtk": 331
+    },
+    "72": {
+      "baseAtk": 334
+    },
+    "73": {
+      "baseAtk": 337
+    },
+    "74": {
+      "baseAtk": 339
+    },
+    "75": {
+      "baseAtk": 342
+    },
+    "76": {
+      "baseAtk": 345
+    },
+    "77": {
+      "baseAtk": 347
+    },
+    "78": {
+      "baseAtk": 350
+    },
+    "79": {
+      "baseAtk": 353
+    },
     "80": {
       "baseAtk": 355
+    },
+    "81": {
+      "baseAtk": 377
+    },
+    "82": {
+      "baseAtk": 380
+    },
+    "83": {
+      "baseAtk": 383
+    },
+    "84": {
+      "baseAtk": 385
+    },
+    "85": {
+      "baseAtk": 388
+    },
+    "86": {
+      "baseAtk": 391
+    },
+    "87": {
+      "baseAtk": 393
+    },
+    "88": {
+      "baseAtk": 396
+    },
+    "89": {
+      "baseAtk": 399
     },
     "90": {
       "baseAtk": 401
@@ -176,6 +422,359 @@
     },
     "80_ASC": {
       "baseAtk": 375
+    }
+  },
+  "secondaryAttribute": {
+    "type": "DGT CRIT",
+    "levels": {
+      "1": {
+        "crtDmg": "10,2 %"
+      },
+      "2": {
+        "crtDmg": "10,2 %"
+      },
+      "3": {
+        "crtDmg": "10,2 %"
+      },
+      "4": {
+        "crtDmg": "10,2 %"
+      },
+      "5": {
+        "crtDmg": "11,9 %"
+      },
+      "6": {
+        "crtDmg": "11,9 %"
+      },
+      "7": {
+        "crtDmg": "11,9 %"
+      },
+      "8": {
+        "crtDmg": "11,9 %"
+      },
+      "9": {
+        "crtDmg": "11,9 %"
+      },
+      "10": {
+        "crtDmg": "13,9 %"
+      },
+      "11": {
+        "crtDmg": "13,9 %"
+      },
+      "12": {
+        "crtDmg": "13,9 %"
+      },
+      "13": {
+        "crtDmg": "13,9 %"
+      },
+      "14": {
+        "crtDmg": "13,9 %"
+      },
+      "15": {
+        "crtDmg": "16,0 %"
+      },
+      "16": {
+        "crtDmg": "16,0 %"
+      },
+      "17": {
+        "crtDmg": "16,0 %"
+      },
+      "18": {
+        "crtDmg": "16,0 %"
+      },
+      "19": {
+        "crtDmg": "16,0 %"
+      },
+      "20": {
+        "crtDmg": "18,0 %"
+      },
+      "21": {
+        "crtDmg": "18,0 %"
+      },
+      "22": {
+        "crtDmg": "18,0 %"
+      },
+      "23": {
+        "crtDmg": "18,0 %"
+      },
+      "24": {
+        "crtDmg": "18,0 %"
+      },
+      "25": {
+        "crtDmg": "20,1 %"
+      },
+      "26": {
+        "crtDmg": "20,1 %"
+      },
+      "27": {
+        "crtDmg": "20,1 %"
+      },
+      "28": {
+        "crtDmg": "20,1 %"
+      },
+      "29": {
+        "crtDmg": "20,1 %"
+      },
+      "30": {
+        "crtDmg": "22,1 %"
+      },
+      "31": {
+        "crtDmg": "22,1 %"
+      },
+      "32": {
+        "crtDmg": "22,1 %"
+      },
+      "33": {
+        "crtDmg": "22,1 %"
+      },
+      "34": {
+        "crtDmg": "22,1 %"
+      },
+      "35": {
+        "crtDmg": "24,2 %"
+      },
+      "36": {
+        "crtDmg": "24,2 %"
+      },
+      "37": {
+        "crtDmg": "24,2 %"
+      },
+      "38": {
+        "crtDmg": "24,2 %"
+      },
+      "39": {
+        "crtDmg": "24,2 %"
+      },
+      "40": {
+        "crtDmg": "26,3 %"
+      },
+      "41": {
+        "crtDmg": "26,3 %"
+      },
+      "42": {
+        "crtDmg": "26,3 %"
+      },
+      "43": {
+        "crtDmg": "26,3 %"
+      },
+      "44": {
+        "crtDmg": "26,3 %"
+      },
+      "45": {
+        "crtDmg": "28,3 %"
+      },
+      "46": {
+        "crtDmg": "28,3 %"
+      },
+      "47": {
+        "crtDmg": "28,3 %"
+      },
+      "48": {
+        "crtDmg": "28,3 %"
+      },
+      "49": {
+        "crtDmg": "28,3 %"
+      },
+      "50": {
+        "crtDmg": "30,4 %"
+      },
+      "51": {
+        "crtDmg": "30,4 %"
+      },
+      "52": {
+        "crtDmg": "30,4 %"
+      },
+      "53": {
+        "crtDmg": "30,4 %"
+      },
+      "54": {
+        "crtDmg": "30,4 %"
+      },
+      "55": {
+        "crtDmg": "32,4 %"
+      },
+      "56": {
+        "crtDmg": "32,4 %"
+      },
+      "57": {
+        "crtDmg": "32,4 %"
+      },
+      "58": {
+        "crtDmg": "32,4 %"
+      },
+      "59": {
+        "crtDmg": "32,4 %"
+      },
+      "60": {
+        "crtDmg": "34,5 %"
+      },
+      "61": {
+        "crtDmg": "34,5 %"
+      },
+      "62": {
+        "crtDmg": "34,5 %"
+      },
+      "63": {
+        "crtDmg": "34,5 %"
+      },
+      "64": {
+        "crtDmg": "34,5 %"
+      },
+      "65": {
+        "crtDmg": "36,6 %"
+      },
+      "66": {
+        "crtDmg": "36,6 %"
+      },
+      "67": {
+        "crtDmg": "36,6 %"
+      },
+      "68": {
+        "crtDmg": "36,6 %"
+      },
+      "69": {
+        "crtDmg": "36,6 %"
+      },
+      "70": {
+        "crtDmg": "38,6 %"
+      },
+      "71": {
+        "crtDmg": "38,6 %"
+      },
+      "72": {
+        "crtDmg": "38,6 %"
+      },
+      "73": {
+        "crtDmg": "38,6 %"
+      },
+      "74": {
+        "crtDmg": "38,6 %"
+      },
+      "75": {
+        "crtDmg": "40,7 %"
+      },
+      "76": {
+        "crtDmg": "40,7 %"
+      },
+      "77": {
+        "crtDmg": "40,7 %"
+      },
+      "78": {
+        "crtDmg": "40,7 %"
+      },
+      "79": {
+        "crtDmg": "40,7 %"
+      },
+      "80": {
+        "crtDmg": "42,7 %"
+      },
+      "81": {
+        "crtDmg": "42,7 %"
+      },
+      "82": {
+        "crtDmg": "42,7 %"
+      },
+      "83": {
+        "crtDmg": "42,7 %"
+      },
+      "84": {
+        "crtDmg": "42,7 %"
+      },
+      "85": {
+        "crtDmg": "44,8 %"
+      },
+      "86": {
+        "crtDmg": "44,8 %"
+      },
+      "87": {
+        "crtDmg": "44,8 %"
+      },
+      "88": {
+        "crtDmg": "44,8 %"
+      },
+      "89": {
+        "crtDmg": "44,8 %"
+      },
+      "90": {
+        "crtDmg": "46,9 %"
+      },
+      "20_ASC": {
+        "crtDmg": "18,0 %"
+      },
+      "40_ASC": {
+        "crtDmg": "26,3 %"
+      },
+      "50_ASC": {
+        "crtDmg": "30,4 %"
+      },
+      "60_ASC": {
+        "crtDmg": "34,5 %"
+      },
+      "70_ASC": {
+        "crtDmg": "38,6 %"
+      },
+      "80_ASC": {
+        "crtDmg": "42,7 %"
+      }
+    }
+  },
+  "effects": [
+    "DMG Bonus"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Précision",
+      "descriptions": [
+        "Augmente les DGT de 24 % si les points faibles de l'ennemi sont visés."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 500
+        }
+      ]
+    },
+    "2": {
+      "title": "Précision",
+      "descriptions": [
+        "Augmente les DGT de 30 % si les points faibles de l'ennemi sont visés."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "3": {
+      "title": "Précision",
+      "descriptions": [
+        "Augmente les DGT de 36 % si les points faibles de l'ennemi sont visés."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "4": {
+      "title": "Précision",
+      "descriptions": [
+        "Augmente les DGT de 42 % si les points faibles de l'ennemi sont visés."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "5": {
+      "title": "Précision",
+      "descriptions": [
+        "Augmente les DGT de 48 % si les points faibles de l'ennemi sont visés."
+      ],
+      "upgradeCost": []
     }
   }
 }

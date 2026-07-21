@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 44
     },
+    "2": {
+      "baseAtk": 48
+    },
+    "3": {
+      "baseAtk": 51
+    },
+    "4": {
+      "baseAtk": 55
+    },
+    "5": {
+      "baseAtk": 59
+    },
+    "6": {
+      "baseAtk": 63
+    },
+    "7": {
+      "baseAtk": 67
+    },
+    "8": {
+      "baseAtk": 71
+    },
+    "9": {
+      "baseAtk": 75
+    },
+    "10": {
+      "baseAtk": 79
+    },
+    "11": {
+      "baseAtk": 83
+    },
+    "12": {
+      "baseAtk": 87
+    },
+    "13": {
+      "baseAtk": 91
+    },
+    "14": {
+      "baseAtk": 95
+    },
+    "15": {
+      "baseAtk": 99
+    },
+    "16": {
+      "baseAtk": 103
+    },
+    "17": {
+      "baseAtk": 107
+    },
+    "18": {
+      "baseAtk": 111
+    },
+    "19": {
+      "baseAtk": 115
+    },
     "20": {
       "baseAtk": 119
+    },
+    "21": {
+      "baseAtk": 148
+    },
+    "22": {
+      "baseAtk": 153
+    },
+    "23": {
+      "baseAtk": 157
+    },
+    "24": {
+      "baseAtk": 161
+    },
+    "25": {
+      "baseAtk": 165
+    },
+    "26": {
+      "baseAtk": 169
+    },
+    "27": {
+      "baseAtk": 173
+    },
+    "28": {
+      "baseAtk": 177
+    },
+    "29": {
+      "baseAtk": 181
+    },
+    "30": {
+      "baseAtk": 185
+    },
+    "31": {
+      "baseAtk": 189
+    },
+    "32": {
+      "baseAtk": 193
+    },
+    "33": {
+      "baseAtk": 197
+    },
+    "34": {
+      "baseAtk": 201
+    },
+    "35": {
+      "baseAtk": 205
+    },
+    "36": {
+      "baseAtk": 210
+    },
+    "37": {
+      "baseAtk": 214
+    },
+    "38": {
+      "baseAtk": 218
+    },
+    "39": {
+      "baseAtk": 222
     },
     "40": {
       "baseAtk": 226
     },
+    "41": {
+      "baseAtk": 256
+    },
+    "42": {
+      "baseAtk": 260
+    },
+    "43": {
+      "baseAtk": 264
+    },
+    "44": {
+      "baseAtk": 268
+    },
+    "45": {
+      "baseAtk": 273
+    },
+    "46": {
+      "baseAtk": 277
+    },
+    "47": {
+      "baseAtk": 281
+    },
+    "48": {
+      "baseAtk": 285
+    },
+    "49": {
+      "baseAtk": 289
+    },
     "50": {
       "baseAtk": 293
+    },
+    "51": {
+      "baseAtk": 323
+    },
+    "52": {
+      "baseAtk": 328
+    },
+    "53": {
+      "baseAtk": 332
+    },
+    "54": {
+      "baseAtk": 336
+    },
+    "55": {
+      "baseAtk": 340
+    },
+    "56": {
+      "baseAtk": 344
+    },
+    "57": {
+      "baseAtk": 348
+    },
+    "58": {
+      "baseAtk": 353
+    },
+    "59": {
+      "baseAtk": 357
     },
     "60": {
       "baseAtk": 361
     },
+    "61": {
+      "baseAtk": 391
+    },
+    "62": {
+      "baseAtk": 395
+    },
+    "63": {
+      "baseAtk": 399
+    },
+    "64": {
+      "baseAtk": 404
+    },
+    "65": {
+      "baseAtk": 408
+    },
+    "66": {
+      "baseAtk": 412
+    },
+    "67": {
+      "baseAtk": 416
+    },
+    "68": {
+      "baseAtk": 420
+    },
+    "69": {
+      "baseAtk": 424
+    },
     "70": {
       "baseAtk": 429
     },
+    "71": {
+      "baseAtk": 459
+    },
+    "72": {
+      "baseAtk": 463
+    },
+    "73": {
+      "baseAtk": 467
+    },
+    "74": {
+      "baseAtk": 471
+    },
+    "75": {
+      "baseAtk": 476
+    },
+    "76": {
+      "baseAtk": 480
+    },
+    "77": {
+      "baseAtk": 484
+    },
+    "78": {
+      "baseAtk": 488
+    },
+    "79": {
+      "baseAtk": 493
+    },
     "80": {
       "baseAtk": 497
+    },
+    "81": {
+      "baseAtk": 527
+    },
+    "82": {
+      "baseAtk": 531
+    },
+    "83": {
+      "baseAtk": 535
+    },
+    "84": {
+      "baseAtk": 539
+    },
+    "85": {
+      "baseAtk": 544
+    },
+    "86": {
+      "baseAtk": 548
+    },
+    "87": {
+      "baseAtk": 552
+    },
+    "88": {
+      "baseAtk": 556
+    },
+    "89": {
+      "baseAtk": 561
     },
     "90": {
       "baseAtk": 565
@@ -176,6 +422,361 @@
     },
     "80_ASC": {
       "baseAtk": 523
+    }
+  },
+  "secondaryAttribute": {
+    "type": "Bonus de DGT physiques",
+    "levels": {
+      "1": {
+        "physDmgBonus": "7,5 %"
+      },
+      "2": {
+        "physDmgBonus": "7,5 %"
+      },
+      "3": {
+        "physDmgBonus": "7,5 %"
+      },
+      "4": {
+        "physDmgBonus": "7,5 %"
+      },
+      "5": {
+        "physDmgBonus": "8,7 %"
+      },
+      "6": {
+        "physDmgBonus": "8,7 %"
+      },
+      "7": {
+        "physDmgBonus": "8,7 %"
+      },
+      "8": {
+        "physDmgBonus": "8,7 %"
+      },
+      "9": {
+        "physDmgBonus": "8,7 %"
+      },
+      "10": {
+        "physDmgBonus": "10,2 %"
+      },
+      "11": {
+        "physDmgBonus": "10,2 %"
+      },
+      "12": {
+        "physDmgBonus": "10,2 %"
+      },
+      "13": {
+        "physDmgBonus": "10,2 %"
+      },
+      "14": {
+        "physDmgBonus": "10,2 %"
+      },
+      "15": {
+        "physDmgBonus": "11,7 %"
+      },
+      "16": {
+        "physDmgBonus": "11,7 %"
+      },
+      "17": {
+        "physDmgBonus": "11,7 %"
+      },
+      "18": {
+        "physDmgBonus": "11,7 %"
+      },
+      "19": {
+        "physDmgBonus": "11,7 %"
+      },
+      "20": {
+        "physDmgBonus": "13,3 %"
+      },
+      "21": {
+        "physDmgBonus": "13,3 %"
+      },
+      "22": {
+        "physDmgBonus": "13,3 %"
+      },
+      "23": {
+        "physDmgBonus": "13,3 %"
+      },
+      "24": {
+        "physDmgBonus": "13,3 %"
+      },
+      "25": {
+        "physDmgBonus": "14,8 %"
+      },
+      "26": {
+        "physDmgBonus": "14,8 %"
+      },
+      "27": {
+        "physDmgBonus": "14,8 %"
+      },
+      "28": {
+        "physDmgBonus": "14,8 %"
+      },
+      "29": {
+        "physDmgBonus": "14,8 %"
+      },
+      "30": {
+        "physDmgBonus": "16,3 %"
+      },
+      "31": {
+        "physDmgBonus": "16,3 %"
+      },
+      "32": {
+        "physDmgBonus": "16,3 %"
+      },
+      "33": {
+        "physDmgBonus": "16,3 %"
+      },
+      "34": {
+        "physDmgBonus": "16,3 %"
+      },
+      "35": {
+        "physDmgBonus": "17,8 %"
+      },
+      "36": {
+        "physDmgBonus": "17,8 %"
+      },
+      "37": {
+        "physDmgBonus": "17,8 %"
+      },
+      "38": {
+        "physDmgBonus": "17,8 %"
+      },
+      "39": {
+        "physDmgBonus": "17,8 %"
+      },
+      "40": {
+        "physDmgBonus": "19,3 %"
+      },
+      "41": {
+        "physDmgBonus": "19,3 %"
+      },
+      "42": {
+        "physDmgBonus": "19,3 %"
+      },
+      "43": {
+        "physDmgBonus": "19,3 %"
+      },
+      "44": {
+        "physDmgBonus": "19,3 %"
+      },
+      "45": {
+        "physDmgBonus": "20,8 %"
+      },
+      "46": {
+        "physDmgBonus": "20,8 %"
+      },
+      "47": {
+        "physDmgBonus": "20,8 %"
+      },
+      "48": {
+        "physDmgBonus": "20,8 %"
+      },
+      "49": {
+        "physDmgBonus": "20,8 %"
+      },
+      "50": {
+        "physDmgBonus": "22,4 %"
+      },
+      "51": {
+        "physDmgBonus": "22,4 %"
+      },
+      "52": {
+        "physDmgBonus": "22,4 %"
+      },
+      "53": {
+        "physDmgBonus": "22,4 %"
+      },
+      "54": {
+        "physDmgBonus": "22,4 %"
+      },
+      "55": {
+        "physDmgBonus": "23,9 %"
+      },
+      "56": {
+        "physDmgBonus": "23,9 %"
+      },
+      "57": {
+        "physDmgBonus": "23,9 %"
+      },
+      "58": {
+        "physDmgBonus": "23,9 %"
+      },
+      "59": {
+        "physDmgBonus": "23,9 %"
+      },
+      "60": {
+        "physDmgBonus": "25,4 %"
+      },
+      "61": {
+        "physDmgBonus": "25,4 %"
+      },
+      "62": {
+        "physDmgBonus": "25,4 %"
+      },
+      "63": {
+        "physDmgBonus": "25,4 %"
+      },
+      "64": {
+        "physDmgBonus": "25,4 %"
+      },
+      "65": {
+        "physDmgBonus": "26,9 %"
+      },
+      "66": {
+        "physDmgBonus": "26,9 %"
+      },
+      "67": {
+        "physDmgBonus": "26,9 %"
+      },
+      "68": {
+        "physDmgBonus": "26,9 %"
+      },
+      "69": {
+        "physDmgBonus": "26,9 %"
+      },
+      "70": {
+        "physDmgBonus": "28,4 %"
+      },
+      "71": {
+        "physDmgBonus": "28,4 %"
+      },
+      "72": {
+        "physDmgBonus": "28,4 %"
+      },
+      "73": {
+        "physDmgBonus": "28,4 %"
+      },
+      "74": {
+        "physDmgBonus": "28,4 %"
+      },
+      "75": {
+        "physDmgBonus": "29,9 %"
+      },
+      "76": {
+        "physDmgBonus": "29,9 %"
+      },
+      "77": {
+        "physDmgBonus": "29,9 %"
+      },
+      "78": {
+        "physDmgBonus": "29,9 %"
+      },
+      "79": {
+        "physDmgBonus": "29,9 %"
+      },
+      "80": {
+        "physDmgBonus": "31,5 %"
+      },
+      "81": {
+        "physDmgBonus": "31,5 %"
+      },
+      "82": {
+        "physDmgBonus": "31,5 %"
+      },
+      "83": {
+        "physDmgBonus": "31,5 %"
+      },
+      "84": {
+        "physDmgBonus": "31,5 %"
+      },
+      "85": {
+        "physDmgBonus": "33,0 %"
+      },
+      "86": {
+        "physDmgBonus": "33,0 %"
+      },
+      "87": {
+        "physDmgBonus": "33,0 %"
+      },
+      "88": {
+        "physDmgBonus": "33,0 %"
+      },
+      "89": {
+        "physDmgBonus": "33,0 %"
+      },
+      "90": {
+        "physDmgBonus": "34,5 %"
+      },
+      "20_ASC": {
+        "physDmgBonus": "13,3 %"
+      },
+      "40_ASC": {
+        "physDmgBonus": "19,3 %"
+      },
+      "50_ASC": {
+        "physDmgBonus": "22,4 %"
+      },
+      "60_ASC": {
+        "physDmgBonus": "25,4 %"
+      },
+      "70_ASC": {
+        "physDmgBonus": "28,4 %"
+      },
+      "80_ASC": {
+        "physDmgBonus": "31,5 %"
+      }
+    }
+  },
+  "effects": [
+    "ATK",
+    "DEF",
+    "Effect Triggered by Normal Attack"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Pierre cassée",
+      "descriptions": [
+        "Les attaques normales et chargées augmentent l'ATQ et la DÉF de 4 % pendant 6 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Pierre cassée",
+      "descriptions": [
+        "Les attaques normales et chargées augmentent l'ATQ et la DÉF de 5 % pendant 6 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Pierre cassée",
+      "descriptions": [
+        "Les attaques normales et chargées augmentent l'ATQ et la DÉF de 6 % pendant 6 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Pierre cassée",
+      "descriptions": [
+        "Les attaques normales et chargées augmentent l'ATQ et la DÉF de 7 % pendant 6 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Pierre cassée",
+      "descriptions": [
+        "Les attaques normales et chargées augmentent l'ATQ et la DÉF de 8 % pendant 6 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s."
+      ],
+      "upgradeCost": []
     }
   }
 }

@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 49
     },
+    "2": {
+      "baseAtk": 54
+    },
+    "3": {
+      "baseAtk": 59
+    },
+    "4": {
+      "baseAtk": 63
+    },
+    "5": {
+      "baseAtk": 68
+    },
+    "6": {
+      "baseAtk": 73
+    },
+    "7": {
+      "baseAtk": 78
+    },
+    "8": {
+      "baseAtk": 83
+    },
+    "9": {
+      "baseAtk": 88
+    },
+    "10": {
+      "baseAtk": 93
+    },
+    "11": {
+      "baseAtk": 98
+    },
+    "12": {
+      "baseAtk": 103
+    },
+    "13": {
+      "baseAtk": 108
+    },
+    "14": {
+      "baseAtk": 114
+    },
+    "15": {
+      "baseAtk": 119
+    },
+    "16": {
+      "baseAtk": 124
+    },
+    "17": {
+      "baseAtk": 129
+    },
+    "18": {
+      "baseAtk": 134
+    },
+    "19": {
+      "baseAtk": 140
+    },
     "20": {
       "baseAtk": 145
+    },
+    "21": {
+      "baseAtk": 181
+    },
+    "22": {
+      "baseAtk": 187
+    },
+    "23": {
+      "baseAtk": 192
+    },
+    "24": {
+      "baseAtk": 197
+    },
+    "25": {
+      "baseAtk": 203
+    },
+    "26": {
+      "baseAtk": 208
+    },
+    "27": {
+      "baseAtk": 214
+    },
+    "28": {
+      "baseAtk": 219
+    },
+    "29": {
+      "baseAtk": 225
+    },
+    "30": {
+      "baseAtk": 230
+    },
+    "31": {
+      "baseAtk": 236
+    },
+    "32": {
+      "baseAtk": 241
+    },
+    "33": {
+      "baseAtk": 247
+    },
+    "34": {
+      "baseAtk": 252
+    },
+    "35": {
+      "baseAtk": 258
+    },
+    "36": {
+      "baseAtk": 263
+    },
+    "37": {
+      "baseAtk": 269
+    },
+    "38": {
+      "baseAtk": 275
+    },
+    "39": {
+      "baseAtk": 280
     },
     "40": {
       "baseAtk": 286
     },
+    "41": {
+      "baseAtk": 323
+    },
+    "42": {
+      "baseAtk": 328
+    },
+    "43": {
+      "baseAtk": 334
+    },
+    "44": {
+      "baseAtk": 340
+    },
+    "45": {
+      "baseAtk": 346
+    },
+    "46": {
+      "baseAtk": 351
+    },
+    "47": {
+      "baseAtk": 357
+    },
+    "48": {
+      "baseAtk": 363
+    },
+    "49": {
+      "baseAtk": 369
+    },
     "50": {
       "baseAtk": 374
+    },
+    "51": {
+      "baseAtk": 411
+    },
+    "52": {
+      "baseAtk": 417
+    },
+    "53": {
+      "baseAtk": 423
+    },
+    "54": {
+      "baseAtk": 429
+    },
+    "55": {
+      "baseAtk": 435
+    },
+    "56": {
+      "baseAtk": 441
+    },
+    "57": {
+      "baseAtk": 447
+    },
+    "58": {
+      "baseAtk": 453
+    },
+    "59": {
+      "baseAtk": 458
     },
     "60": {
       "baseAtk": 464
     },
+    "61": {
+      "baseAtk": 501
+    },
+    "62": {
+      "baseAtk": 507
+    },
+    "63": {
+      "baseAtk": 513
+    },
+    "64": {
+      "baseAtk": 519
+    },
+    "65": {
+      "baseAtk": 525
+    },
+    "66": {
+      "baseAtk": 531
+    },
+    "67": {
+      "baseAtk": 537
+    },
+    "68": {
+      "baseAtk": 543
+    },
+    "69": {
+      "baseAtk": 549
+    },
     "70": {
       "baseAtk": 555
     },
+    "71": {
+      "baseAtk": 593
+    },
+    "72": {
+      "baseAtk": 599
+    },
+    "73": {
+      "baseAtk": 605
+    },
+    "74": {
+      "baseAtk": 611
+    },
+    "75": {
+      "baseAtk": 617
+    },
+    "76": {
+      "baseAtk": 623
+    },
+    "77": {
+      "baseAtk": 629
+    },
+    "78": {
+      "baseAtk": 635
+    },
+    "79": {
+      "baseAtk": 641
+    },
     "80": {
-      "baseAtk": 647
+      "baseAtk": 648
+    },
+    "81": {
+      "baseAtk": 685
+    },
+    "82": {
+      "baseAtk": 691
+    },
+    "83": {
+      "baseAtk": 697
+    },
+    "84": {
+      "baseAtk": 703
+    },
+    "85": {
+      "baseAtk": 709
+    },
+    "86": {
+      "baseAtk": 716
+    },
+    "87": {
+      "baseAtk": 722
+    },
+    "88": {
+      "baseAtk": 728
+    },
+    "89": {
+      "baseAtk": 734
     },
     "90": {
       "baseAtk": 741
@@ -176,6 +422,371 @@
     },
     "80_ASC": {
       "baseAtk": 679
+    }
+  },
+  "secondaryAttribute": {
+    "type": "CRIT Rate",
+    "levels": {
+      "1": {
+        "crtRate": "2.4%"
+      },
+      "2": {
+        "crtRate": "2.4%"
+      },
+      "3": {
+        "crtRate": "2.4%"
+      },
+      "4": {
+        "crtRate": "2.4%"
+      },
+      "5": {
+        "crtRate": "2.8%"
+      },
+      "6": {
+        "crtRate": "2.8%"
+      },
+      "7": {
+        "crtRate": "2.8%"
+      },
+      "8": {
+        "crtRate": "2.8%"
+      },
+      "9": {
+        "crtRate": "2.8%"
+      },
+      "10": {
+        "crtRate": "3.3%"
+      },
+      "11": {
+        "crtRate": "3.3%"
+      },
+      "12": {
+        "crtRate": "3.3%"
+      },
+      "13": {
+        "crtRate": "3.3%"
+      },
+      "14": {
+        "crtRate": "3.3%"
+      },
+      "15": {
+        "crtRate": "3.8%"
+      },
+      "16": {
+        "crtRate": "3.8%"
+      },
+      "17": {
+        "crtRate": "3.8%"
+      },
+      "18": {
+        "crtRate": "3.8%"
+      },
+      "19": {
+        "crtRate": "3.8%"
+      },
+      "20": {
+        "crtRate": "4.2%"
+      },
+      "21": {
+        "crtRate": "4.2%"
+      },
+      "22": {
+        "crtRate": "4.2%"
+      },
+      "23": {
+        "crtRate": "4.2%"
+      },
+      "24": {
+        "crtRate": "4.2%"
+      },
+      "25": {
+        "crtRate": "4.7%"
+      },
+      "26": {
+        "crtRate": "4.7%"
+      },
+      "27": {
+        "crtRate": "4.7%"
+      },
+      "28": {
+        "crtRate": "4.7%"
+      },
+      "29": {
+        "crtRate": "4.7%"
+      },
+      "30": {
+        "crtRate": "5.2%"
+      },
+      "31": {
+        "crtRate": "5.2%"
+      },
+      "32": {
+        "crtRate": "5.2%"
+      },
+      "33": {
+        "crtRate": "5.2%"
+      },
+      "34": {
+        "crtRate": "5.2%"
+      },
+      "35": {
+        "crtRate": "5.7%"
+      },
+      "36": {
+        "crtRate": "5.7%"
+      },
+      "37": {
+        "crtRate": "5.7%"
+      },
+      "38": {
+        "crtRate": "5.7%"
+      },
+      "39": {
+        "crtRate": "5.7%"
+      },
+      "40": {
+        "crtRate": "6.2%"
+      },
+      "41": {
+        "crtRate": "6.2%"
+      },
+      "42": {
+        "crtRate": "6.2%"
+      },
+      "43": {
+        "crtRate": "6.2%"
+      },
+      "44": {
+        "crtRate": "6.2%"
+      },
+      "45": {
+        "crtRate": "6.7%"
+      },
+      "46": {
+        "crtRate": "6.7%"
+      },
+      "47": {
+        "crtRate": "6.7%"
+      },
+      "48": {
+        "crtRate": "6.7%"
+      },
+      "49": {
+        "crtRate": "6.7%"
+      },
+      "50": {
+        "crtRate": "7.1%"
+      },
+      "51": {
+        "crtRate": "7.1%"
+      },
+      "52": {
+        "crtRate": "7.1%"
+      },
+      "53": {
+        "crtRate": "7.1%"
+      },
+      "54": {
+        "crtRate": "7.1%"
+      },
+      "55": {
+        "crtRate": "7.6%"
+      },
+      "56": {
+        "crtRate": "7.6%"
+      },
+      "57": {
+        "crtRate": "7.6%"
+      },
+      "58": {
+        "crtRate": "7.6%"
+      },
+      "59": {
+        "crtRate": "7.6%"
+      },
+      "60": {
+        "crtRate": "8.1%"
+      },
+      "61": {
+        "crtRate": "8.1%"
+      },
+      "62": {
+        "crtRate": "8.1%"
+      },
+      "63": {
+        "crtRate": "8.1%"
+      },
+      "64": {
+        "crtRate": "8.1%"
+      },
+      "65": {
+        "crtRate": "8.6%"
+      },
+      "66": {
+        "crtRate": "8.6%"
+      },
+      "67": {
+        "crtRate": "8.6%"
+      },
+      "68": {
+        "crtRate": "8.6%"
+      },
+      "69": {
+        "crtRate": "8.6%"
+      },
+      "70": {
+        "crtRate": "9.1%"
+      },
+      "71": {
+        "crtRate": "9.1%"
+      },
+      "72": {
+        "crtRate": "9.1%"
+      },
+      "73": {
+        "crtRate": "9.1%"
+      },
+      "74": {
+        "crtRate": "9.1%"
+      },
+      "75": {
+        "crtRate": "9.6%"
+      },
+      "76": {
+        "crtRate": "9.6%"
+      },
+      "77": {
+        "crtRate": "9.6%"
+      },
+      "78": {
+        "crtRate": "9.6%"
+      },
+      "79": {
+        "crtRate": "9.6%"
+      },
+      "80": {
+        "crtRate": "10.1%"
+      },
+      "81": {
+        "crtRate": "10.1%"
+      },
+      "82": {
+        "crtRate": "10.1%"
+      },
+      "83": {
+        "crtRate": "10.1%"
+      },
+      "84": {
+        "crtRate": "10.1%"
+      },
+      "85": {
+        "crtRate": "10.5%"
+      },
+      "86": {
+        "crtRate": "10.5%"
+      },
+      "87": {
+        "crtRate": "10.5%"
+      },
+      "88": {
+        "crtRate": "10.5%"
+      },
+      "89": {
+        "crtRate": "10.5%"
+      },
+      "90": {
+        "crtRate": "11.0%"
+      },
+      "20_ASC": {
+        "crtRate": "4.2%"
+      },
+      "40_ASC": {
+        "crtRate": "6.2%"
+      },
+      "50_ASC": {
+        "crtRate": "7.1%"
+      },
+      "60_ASC": {
+        "crtRate": "8.1%"
+      },
+      "70_ASC": {
+        "crtRate": "9.1%"
+      },
+      "80_ASC": {
+        "crtRate": "10.1%"
+      }
+    }
+  },
+  "effects": [
+    "CRIT DMG",
+    "ATK",
+    "Nightsoul's Blessing"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Sunset Reignites the Dawn",
+      "descriptions": [
+        "Gain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by 20% and ATK increased by 28% for 6s. This effect can trigger once every 10s.",
+        "While a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second, and the max duration increase is 6s.",
+        "Additionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off—field."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "2": {
+      "title": "Sunset Reignites the Dawn",
+      "descriptions": [
+        "Gain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by 25% and ATK increased by 35% for 6s. This effect can trigger once every 10s.",
+        "While a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second, and the max duration increase is 6s.",
+        "Additionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off—field."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "3": {
+      "title": "Sunset Reignites the Dawn",
+      "descriptions": [
+        "Gain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by 30% and ATK increased by 42% for 6s. This effect can trigger once every 10s.",
+        "While a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second, and the max duration increase is 6s.",
+        "Additionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off—field."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "4": {
+      "title": "Sunset Reignites the Dawn",
+      "descriptions": [
+        "Gain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by 35% and ATK increased by 49% for 6s. This effect can trigger once every 10s.",
+        "While a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second, and the max duration increase is 6s.",
+        "Additionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off—field."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 16000
+        }
+      ]
+    },
+    "5": {
+      "title": "Sunset Reignites the Dawn",
+      "descriptions": [
+        "Gain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by 40% and ATK increased by 56% for 6s. This effect can trigger once every 10s.",
+        "While a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second, and the max duration increase is 6s.",
+        "Additionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off—field."
+      ],
+      "upgradeCost": []
     }
   }
 }

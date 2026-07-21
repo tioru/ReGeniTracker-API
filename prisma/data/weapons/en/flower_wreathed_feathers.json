@@ -138,23 +138,269 @@
     "1": {
       "baseAtk": 42
     },
+    "2": {
+      "baseAtk": 46
+    },
+    "3": {
+      "baseAtk": 49
+    },
+    "4": {
+      "baseAtk": 53
+    },
+    "5": {
+      "baseAtk": 56
+    },
+    "6": {
+      "baseAtk": 60
+    },
+    "7": {
+      "baseAtk": 63
+    },
+    "8": {
+      "baseAtk": 67
+    },
+    "9": {
+      "baseAtk": 70
+    },
+    "10": {
+      "baseAtk": 74
+    },
+    "11": {
+      "baseAtk": 77
+    },
+    "12": {
+      "baseAtk": 81
+    },
+    "13": {
+      "baseAtk": 84
+    },
+    "14": {
+      "baseAtk": 88
+    },
+    "15": {
+      "baseAtk": 91
+    },
+    "16": {
+      "baseAtk": 95
+    },
+    "17": {
+      "baseAtk": 98
+    },
+    "18": {
+      "baseAtk": 102
+    },
+    "19": {
+      "baseAtk": 105
+    },
     "20": {
       "baseAtk": 109
+    },
+    "21": {
+      "baseAtk": 138
+    },
+    "22": {
+      "baseAtk": 142
+    },
+    "23": {
+      "baseAtk": 145
+    },
+    "24": {
+      "baseAtk": 149
+    },
+    "25": {
+      "baseAtk": 152
+    },
+    "26": {
+      "baseAtk": 156
+    },
+    "27": {
+      "baseAtk": 159
+    },
+    "28": {
+      "baseAtk": 163
+    },
+    "29": {
+      "baseAtk": 166
+    },
+    "30": {
+      "baseAtk": 170
+    },
+    "31": {
+      "baseAtk": 173
+    },
+    "32": {
+      "baseAtk": 177
+    },
+    "33": {
+      "baseAtk": 180
+    },
+    "34": {
+      "baseAtk": 184
+    },
+    "35": {
+      "baseAtk": 187
+    },
+    "36": {
+      "baseAtk": 191
+    },
+    "37": {
+      "baseAtk": 194
+    },
+    "38": {
+      "baseAtk": 198
+    },
+    "39": {
+      "baseAtk": 201
     },
     "40": {
       "baseAtk": 205
     },
+    "41": {
+      "baseAtk": 234
+    },
+    "42": {
+      "baseAtk": 238
+    },
+    "43": {
+      "baseAtk": 241
+    },
+    "44": {
+      "baseAtk": 245
+    },
+    "45": {
+      "baseAtk": 248
+    },
+    "46": {
+      "baseAtk": 252
+    },
+    "47": {
+      "baseAtk": 255
+    },
+    "48": {
+      "baseAtk": 259
+    },
+    "49": {
+      "baseAtk": 262
+    },
     "50": {
       "baseAtk": 266
+    },
+    "51": {
+      "baseAtk": 295
+    },
+    "52": {
+      "baseAtk": 299
+    },
+    "53": {
+      "baseAtk": 302
+    },
+    "54": {
+      "baseAtk": 306
+    },
+    "55": {
+      "baseAtk": 309
+    },
+    "56": {
+      "baseAtk": 313
+    },
+    "57": {
+      "baseAtk": 316
+    },
+    "58": {
+      "baseAtk": 320
+    },
+    "59": {
+      "baseAtk": 323
     },
     "60": {
       "baseAtk": 327
     },
+    "61": {
+      "baseAtk": 356
+    },
+    "62": {
+      "baseAtk": 360
+    },
+    "63": {
+      "baseAtk": 363
+    },
+    "64": {
+      "baseAtk": 367
+    },
+    "65": {
+      "baseAtk": 370
+    },
+    "66": {
+      "baseAtk": 374
+    },
+    "67": {
+      "baseAtk": 377
+    },
+    "68": {
+      "baseAtk": 381
+    },
+    "69": {
+      "baseAtk": 384
+    },
     "70": {
       "baseAtk": 388
     },
+    "71": {
+      "baseAtk": 417
+    },
+    "72": {
+      "baseAtk": 421
+    },
+    "73": {
+      "baseAtk": 424
+    },
+    "74": {
+      "baseAtk": 428
+    },
+    "75": {
+      "baseAtk": 431
+    },
+    "76": {
+      "baseAtk": 435
+    },
+    "77": {
+      "baseAtk": 438
+    },
+    "78": {
+      "baseAtk": 442
+    },
+    "79": {
+      "baseAtk": 445
+    },
     "80": {
       "baseAtk": 449
+    },
+    "81": {
+      "baseAtk": 478
+    },
+    "82": {
+      "baseAtk": 482
+    },
+    "83": {
+      "baseAtk": 485
+    },
+    "84": {
+      "baseAtk": 489
+    },
+    "85": {
+      "baseAtk": 492
+    },
+    "86": {
+      "baseAtk": 496
+    },
+    "87": {
+      "baseAtk": 499
+    },
+    "88": {
+      "baseAtk": 503
+    },
+    "89": {
+      "baseAtk": 506
     },
     "90": {
       "baseAtk": 510
@@ -175,7 +421,361 @@
       "baseAtk": 414
     },
     "80_ASC": {
-      "baseAtk": 757
+      "baseAtk": 475
+    }
+  },
+  "secondaryAttribute": {
+    "type": "ATK",
+    "levels": {
+      "1": {
+        "atkPercent": "9.0%"
+      },
+      "2": {
+        "atkPercent": "9.0%"
+      },
+      "3": {
+        "atkPercent": "9.0%"
+      },
+      "4": {
+        "atkPercent": "9.0%"
+      },
+      "5": {
+        "atkPercent": "10.5%"
+      },
+      "6": {
+        "atkPercent": "10.5%"
+      },
+      "7": {
+        "atkPercent": "10.5%"
+      },
+      "8": {
+        "atkPercent": "10.5%"
+      },
+      "9": {
+        "atkPercent": "10.5%"
+      },
+      "10": {
+        "atkPercent": "12.3%"
+      },
+      "11": {
+        "atkPercent": "12.3%"
+      },
+      "12": {
+        "atkPercent": "12.3%"
+      },
+      "13": {
+        "atkPercent": "12.3%"
+      },
+      "14": {
+        "atkPercent": "12.3%"
+      },
+      "15": {
+        "atkPercent": "14.1%"
+      },
+      "16": {
+        "atkPercent": "14.1%"
+      },
+      "17": {
+        "atkPercent": "14.1%"
+      },
+      "18": {
+        "atkPercent": "14.1%"
+      },
+      "19": {
+        "atkPercent": "14.1%"
+      },
+      "20": {
+        "atkPercent": "15.9%"
+      },
+      "21": {
+        "atkPercent": "15.9%"
+      },
+      "22": {
+        "atkPercent": "15.9%"
+      },
+      "23": {
+        "atkPercent": "15.9%"
+      },
+      "24": {
+        "atkPercent": "15.9%"
+      },
+      "25": {
+        "atkPercent": "17.7%"
+      },
+      "26": {
+        "atkPercent": "17.7%"
+      },
+      "27": {
+        "atkPercent": "17.7%"
+      },
+      "28": {
+        "atkPercent": "17.7%"
+      },
+      "29": {
+        "atkPercent": "17.7%"
+      },
+      "30": {
+        "atkPercent": "19.5%"
+      },
+      "31": {
+        "atkPercent": "19.5%"
+      },
+      "32": {
+        "atkPercent": "19.5%"
+      },
+      "33": {
+        "atkPercent": "19.5%"
+      },
+      "34": {
+        "atkPercent": "19.5%"
+      },
+      "35": {
+        "atkPercent": "21.4%"
+      },
+      "36": {
+        "atkPercent": "21.4%"
+      },
+      "37": {
+        "atkPercent": "21.4%"
+      },
+      "38": {
+        "atkPercent": "21.4%"
+      },
+      "39": {
+        "atkPercent": "21.4%"
+      },
+      "40": {
+        "atkPercent": "23.2%"
+      },
+      "41": {
+        "atkPercent": "23.2%"
+      },
+      "42": {
+        "atkPercent": "23.2%"
+      },
+      "43": {
+        "atkPercent": "23.2%"
+      },
+      "44": {
+        "atkPercent": "23.2%"
+      },
+      "45": {
+        "atkPercent": "25.0%"
+      },
+      "46": {
+        "atkPercent": "25.0%"
+      },
+      "47": {
+        "atkPercent": "25.0%"
+      },
+      "48": {
+        "atkPercent": "25.0%"
+      },
+      "49": {
+        "atkPercent": "25.0%"
+      },
+      "50": {
+        "atkPercent": "26.8%"
+      },
+      "51": {
+        "atkPercent": "26.8%"
+      },
+      "52": {
+        "atkPercent": "26.8%"
+      },
+      "53": {
+        "atkPercent": "26.8%"
+      },
+      "54": {
+        "atkPercent": "26.8%"
+      },
+      "55": {
+        "atkPercent": "28.6%"
+      },
+      "56": {
+        "atkPercent": "28.6%"
+      },
+      "57": {
+        "atkPercent": "28.6%"
+      },
+      "58": {
+        "atkPercent": "28.6%"
+      },
+      "59": {
+        "atkPercent": "28.6%"
+      },
+      "60": {
+        "atkPercent": "30.4%"
+      },
+      "61": {
+        "atkPercent": "30.4%"
+      },
+      "62": {
+        "atkPercent": "30.4%"
+      },
+      "63": {
+        "atkPercent": "30.4%"
+      },
+      "64": {
+        "atkPercent": "30.4%"
+      },
+      "65": {
+        "atkPercent": "32.3%"
+      },
+      "66": {
+        "atkPercent": "32.3%"
+      },
+      "67": {
+        "atkPercent": "32.3%"
+      },
+      "68": {
+        "atkPercent": "32.3%"
+      },
+      "69": {
+        "atkPercent": "32.3%"
+      },
+      "70": {
+        "atkPercent": "34.1%"
+      },
+      "71": {
+        "atkPercent": "34.1%"
+      },
+      "72": {
+        "atkPercent": "34.1%"
+      },
+      "73": {
+        "atkPercent": "34.1%"
+      },
+      "74": {
+        "atkPercent": "34.1%"
+      },
+      "75": {
+        "atkPercent": "35.9%"
+      },
+      "76": {
+        "atkPercent": "35.9%"
+      },
+      "77": {
+        "atkPercent": "35.9%"
+      },
+      "78": {
+        "atkPercent": "35.9%"
+      },
+      "79": {
+        "atkPercent": "35.9%"
+      },
+      "80": {
+        "atkPercent": "37.7%"
+      },
+      "81": {
+        "atkPercent": "37.7%"
+      },
+      "82": {
+        "atkPercent": "37.7%"
+      },
+      "83": {
+        "atkPercent": "37.7%"
+      },
+      "84": {
+        "atkPercent": "37.7%"
+      },
+      "85": {
+        "atkPercent": "39.5%"
+      },
+      "86": {
+        "atkPercent": "39.5%"
+      },
+      "87": {
+        "atkPercent": "39.5%"
+      },
+      "88": {
+        "atkPercent": "39.5%"
+      },
+      "89": {
+        "atkPercent": "39.5%"
+      },
+      "90": {
+        "atkPercent": "41.3%"
+      },
+      "20_ASC": {
+        "atkPercent": "15.9%"
+      },
+      "40_ASC": {
+        "atkPercent": "23.2%"
+      },
+      "50_ASC": {
+        "atkPercent": "26.8%"
+      },
+      "60_ASC": {
+        "atkPercent": "30.4%"
+      },
+      "70_ASC": {
+        "atkPercent": "34.1%"
+      },
+      "80_ASC": {
+        "atkPercent": "37.7%"
+      }
+    }
+  },
+  "effects": [
+    "Gliding Stamina",
+    "Charged Attack DMG Bonus"
+  ],
+  "weaponRefinementLevel": {
+    "1": {
+      "title": "Inflorescence Unattainable",
+      "descriptions": [
+        "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by 6% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 1000
+        }
+      ]
+    },
+    "2": {
+      "title": "Inflorescence Unattainable",
+      "descriptions": [
+        "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by 7.5% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 2000
+        }
+      ]
+    },
+    "3": {
+      "title": "Inflorescence Unattainable",
+      "descriptions": [
+        "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by 9% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 4000
+        }
+      ]
+    },
+    "4": {
+      "title": "Inflorescence Unattainable",
+      "descriptions": [
+        "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by 10.5% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode."
+      ],
+      "upgradeCost": [
+        {
+          "name": "Mora",
+          "quantity": 8000
+        }
+      ]
+    },
+    "5": {
+      "title": "Inflorescence Unattainable",
+      "descriptions": [
+        "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by 12% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode."
+      ],
+      "upgradeCost": []
     }
   }
 }
