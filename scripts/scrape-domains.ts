@@ -4,8 +4,11 @@ import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
-const API_URL = 'https://genshin-impact.fandom.com/api.php';
-const OUTPUT_DIR = path.resolve(__dirname, '../prisma/data/domains/en');
+const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
+const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
+
+const OUTPUT_DIR = (lang: 'en' | 'fr') =>
+  path.resolve(__dirname, `../prisma/data/domains/${lang}`);
 const CACHE_PATH = path.resolve(__dirname, './cache/domains-raw-cache.json');
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -32,6 +35,24 @@ const CACHE_PATH = path.resolve(__dirname, './cache/domains-raw-cache.json');
 // d'ennemis) : le script les laisse volontairement avec rewards/levels
 // vides plutôt que de deviner une structure incorrecte. À compléter
 // séparément si besoin.
+//
+// ── FR ────────────────────────────────────────────────────────────────────
+//
+// Contrairement aux armes, les pages de domaines EN et FR ne sont PAS des
+// sources équivalentes : le wiki FR utilise un template générique et bien
+// plus pauvre ({{Infobox Lieux}} / {{Infobox_Lieux}}) qui ne contient QUE :
+// - le nom traduit du domaine, le pays (identique à l'EN, ex: "Mondstadt"),
+//   et parfois une région/zone (ex: "Forêt de jade") pour les Trounce/quest,
+// - pour les domaines à rotation (Mastery/Forgery/Blessing) : un tableau
+//   "Nom / Jours / Matériau" listant, par jour, le nom du lieu ET les
+//   matériaux ({{Tuile|A,B,C|nano=1}}), dans le même ordre que les clés
+//   mon/tue/wed de l'EN.
+// Aucune trace de recLevel, de vagues d'ennemis, de cibles ("Defeat X
+// opponents..."), ni de la description "lore" présente sur l'EN. On traduit
+// donc uniquement ce qui EST disponible côté FR (nom, rotations, sous-lieu
+// pour Trounce) et on réutilise tel quel le reste des données EN
+// (description, éléments recommandés, niveaux/vagues/ennemis/récompenses),
+// comme le fait déjà scrape-weapons.ts pour les vendeurs FR.
 // ─────────────────────────────────────────────────────────────────────────────
 
 interface LevelReward {
@@ -73,6 +94,15 @@ function getRewardForPartyLevel(
   return reward;
 }
 
+// Libellés des récompenses de niveau, EN et FR (mêmes valeurs numériques,
+// wording FR confirmé via les pages Trounce du wiki FR, ex: "EXP d'affinité"
+// apparaît tel quel dans la liste des matériaux exclusifs de "Sous l'arbre
+// dompteur de dragon").
+const REWARD_LABELS = {
+  en: { adventureExp: 'Adventure EXP', mora: 'Mora', companionshipExp: 'Companionship EXP' },
+  fr: { adventureExp: "EXP d'Aventure", mora: 'Mora', companionshipExp: "EXP d'affinité" },
+} as const;
+
 interface RawEnemy {
   name: string;
   number: number;
@@ -105,6 +135,40 @@ interface RawDomain {
   levels: RawLevel[];
   quest: string; // champ "quest" de l'infobox (Quest Domains uniquement) — vide si absent
   questType: string; // champ "quest_type" de l'infobox — vide si absent
+  frTitle: string | null; // titre de la page FR correspondante (via langlinks), null si absente
+}
+
+interface DomainOutput {
+  name: string;
+  domainType: string;
+  location: { mainLocation: string; subLocation: string };
+  description: string;
+  recommendedElements: string[];
+  releaseVersion: string;
+  quest?: { name: string; type?: string };
+  rewards: {
+    days: string[];
+    name: string;
+    reward: { quality: number; name: string }[];
+  }[];
+  levels: {
+    level: number;
+    name: string;
+    teamLevelRecommanded: number | undefined;
+    rewards: { name: string; quantity: number }[];
+    waves: {
+      wave: number;
+      description: string;
+      enemies: { name: string; number: number; level: number | undefined }[];
+    }[];
+  }[];
+}
+
+interface CachedDomain {
+  pageTitle: string;
+  releaseVersion: string;
+  en: DomainOutput;
+  fr: DomainOutput | null;
 }
 
 // ── Wikitext helpers (repris tels quels du script achievements) ─────────────
@@ -137,6 +201,17 @@ function parseInfoboxFields(block: string): Record<string, string> {
   const fields: Record<string, string> = {};
   for (const line of block.split('\n')) {
     const m = line.match(/^\|\s*([\w -]+?)\s*=\s*(.*)$/);
+    if (m) fields[m[1].trim()] = m[2].trim();
+  }
+  return fields;
+}
+
+// Variante utilisée pour les infobox FR : les noms de champs peuvent contenir
+// des accents (ex: "région"), non couverts par \w en mode non-unicode.
+function parseInfoboxFieldsAccented(block: string): Record<string, string> {
+  const fields: Record<string, string> = {};
+  for (const line of block.split('\n')) {
+    const m = line.match(/^\|\s*([^=]+?)\s*=\s*(.*)$/);
     if (m) fields[m[1].trim()] = m[2].trim();
   }
   return fields;
@@ -180,7 +255,7 @@ function slugify(title: string): string {
   return title
     .toLowerCase()
     .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[̀-ͯ]/g, '')
     .replace(/[^a-z0-9]+/g, '_')
     .replace(/^_+|_+$/g, '');
 }
@@ -207,7 +282,28 @@ function domainTypeLabel(rawType: string): string {
   return type;
 }
 
-// ── Parsing du bloc {{Domain by Weekday}} ───────────────────────────────────
+// Équivalent FR, construit à la main (le wiki FR n'utilise qu'un seul champ
+// "type" générique — "Donjon" ou "Donjon de la conquête" — qui ne distingue
+// pas Mastery/Forgery/Blessing/Quest entre eux, cf. NOTE en tête de fichier).
+function domainTypeLabelFr(rawType: string): string {
+  const type = rawType.trim().toLowerCase();
+  switch (type) {
+    case 'mastery':
+      return 'Domaine de maîtrise';
+    case 'forgery':
+      return 'Domaine de forge';
+    case 'blessing':
+      return 'Domaine de bénédiction';
+    case 'trounce':
+      return 'Donjon de la conquête';
+    case 'quest':
+      return 'Domaine de quête';
+    default:
+      return domainTypeLabel(rawType);
+  }
+}
+
+// ── Parsing du bloc {{Domain by Weekday}} (EN) ──────────────────────────────
 // Champs attendus (cf. Genshin Impact Wiki:Domain Pages Guide) :
 // mon-name, mon-2, mon-3, mon-4, mon-5, tue-name, tue-2, ... wed-name, wed-2, ...
 // (mon-2/mon-3/mon-4 = qualité 2/3/4 ; mon-5 optionnel pour les domaines 5★)
@@ -247,7 +343,7 @@ function parseRotations(content: string): RawRotation[] {
   return result;
 }
 
-// ── Parsing du bloc {{Domain Enemies}} → cibles + vagues d'ennemis ─────────
+// ── Parsing du bloc {{Domain Enemies}} → cibles + vagues d'ennemis (EN) ────
 // Format observé :
 //   |target1  = Defeat 7 opponent(s) within 300 second(s)
 //   |enemies1 = Name*2;Name2*2//Name3*2;Name4*1   (waves séparées par "//",
@@ -304,33 +400,111 @@ function parseLevels(content: string): RawLevel[] {
   return levels;
 }
 
+// ── Parsing FR (wikitext brut, {{Infobox Lieux}} / {{Infobox_Lieux}}) ──────
+
+interface FrDomainPage {
+  title: string;
+  subLocation: string | null; // région/zone — uniquement présent pour Trounce/quest
+  rotations: { name: string; materials: string[] }[]; // dans l'ordre mon/tue/wed
+}
+
+// Extrait le contenu (texte + listes séparées par des virgules) d'un template
+// {{Tuile|A,B,C|nano=1}} ou {{Tuile|mini=1|A,B|show_caption=1}}, en ignorant
+// les paramètres nommés (nano=1, mini=1, show_caption=1, ...).
+function parseTuileList(raw: string): string[] {
+  const block = extractBracedBlock(raw, '{{Tuile');
+  if (!block) return [];
+  const inner = block.replace(/^\{\{Tuile\|/, '').replace(/\}\}$/, '');
+  const listPart = inner
+    .split('|')
+    .find((part) => !/^[a-z_]+\s*=/i.test(part.trim()));
+  if (!listPart) return [];
+  return listPart
+    .split(',')
+    .map((s) => cleanWikitext(s.trim()))
+    .filter(Boolean);
+}
+
+// Parse le tableau "Nom / Jours / Matériau" présent sur les pages FR des
+// domaines à rotation (Mastery/Forgery/Blessing). Les lignes apparaissent
+// dans le même ordre que les clés mon/tue/wed de l'EN (Lundi-Jeudi,
+// Mardi-Vendredi, Mercredi-Samedi).
+function parseFrRotationsTable(content: string): { name: string; materials: string[] }[] {
+  const tableStart = content.indexOf('class="article-table"');
+  if (tableStart === -1) return [];
+  const blockStart = content.lastIndexOf('{|', tableStart);
+  if (blockStart === -1) return [];
+  const blockEnd = content.indexOf('\n|}', blockStart);
+  const block = content.slice(blockStart, blockEnd === -1 ? undefined : blockEnd);
+
+  const rows: { name: string; materials: string[] }[] = [];
+  const rowChunks = block.split(/\n\|-/).slice(1);
+  for (const chunk of rowChunks) {
+    const cells = chunk
+      .split('\n')
+      .map((l) => l.trim())
+      .filter((l) => l.startsWith('|'))
+      .map((l) => l.replace(/^\|/, '').trim());
+    if (cells.length < 3) continue;
+
+    const name = cleanWikitext(cells[0]);
+    const materials = parseTuileList(cells[2]);
+    if (name && materials.length) rows.push({ name, materials });
+  }
+  return rows;
+}
+
+function parseFrDomainPage(content: string): FrDomainPage {
+  const marker = content.includes('{{Infobox_Lieux')
+    ? '{{Infobox_Lieux'
+    : '{{Infobox Lieux';
+  const block = extractBracedBlock(content, marker);
+  const fields = block ? parseInfoboxFieldsAccented(block) : {};
+
+  const subLocationRaw = fields['région'] ?? fields['zone'] ?? '';
+
+  return {
+    title: '', // renseigné séparément (titre de page)
+    subLocation: subLocationRaw ? cleanWikitext(subLocationRaw) : null,
+    rotations: parseFrRotationsTable(content),
+  };
+}
+
 // ── API ───────────────────────────────────────────────────────────────────────
 
-async function fetchBatch(gcmcontinue?: string): Promise<{
+const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
+const httpsAgent = new https.Agent({ rejectUnauthorized: false });
+
+function sleep(ms: number) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+async function fetchBatch(continueParams?: Record<string, string>): Promise<{
   results: RawDomain[];
-  nextContinue?: string;
+  nextContinueParams?: Record<string, string>;
 }> {
   const params: Record<string, string> = {
     action: 'query',
     generator: 'categorymembers',
     gcmtitle: 'Category:Domains',
     gcmlimit: '50',
-    prop: 'revisions',
+    prop: 'revisions|langlinks',
     rvprop: 'content',
     rvslots: 'main',
+    lllang: 'fr',
     format: 'json',
     formatversion: '2',
+    ...continueParams,
   };
-  if (gcmcontinue) params.gcmcontinue = gcmcontinue;
 
-  const response = await axios.get(API_URL, {
+  const response = await axios.get(EN_API_URL, {
     params,
-    headers: { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' },
-    httpsAgent: new https.Agent({ rejectUnauthorized: false }),
+    headers: HTTP_HEADERS,
+    httpsAgent,
   });
 
   const pages = response.data?.query?.pages ?? [];
-  const nextContinue = response.data?.continue?.gcmcontinue;
+  const nextContinueParams = response.data?.continue;
   const results: RawDomain[] = [];
 
   for (const page of pages) {
@@ -343,6 +517,7 @@ async function fetchBatch(gcmcontinue?: string): Promise<{
 
     const versionMatch = content.match(/\{\{Change History\|([^}|]+)/);
     const version = versionMatch ? versionMatch[1].trim() : '';
+    const frTitle: string | null = page.langlinks?.[0]?.title ?? null;
 
     results.push({
       pageTitle: page.title,
@@ -361,30 +536,223 @@ async function fetchBatch(gcmcontinue?: string): Promise<{
       levels: parseLevels(content),
       quest: cleanWikitext(fields['quest'] ?? ''),
       questType: cleanWikitext(fields['quest_type'] ?? ''),
+      frTitle,
     });
   }
 
-  return { results, nextContinue };
+  return { results, nextContinueParams };
 }
 
 async function fetchAll(): Promise<RawDomain[]> {
-  const all: RawDomain[] = [];
-  let cont: string | undefined;
+  // Comme pour scrape-weapons.ts : MediaWiki peut renvoyer une même page
+  // plusieurs fois tant que tous les langlinks du lot ne sont pas résolus.
+  // On dédoublonne par pageTitle et on complète frTitle si un round
+  // ultérieur l'apporte.
+  const byPageTitle = new Map<string, RawDomain>();
+  let continueParams: Record<string, string> | undefined;
   let page = 1;
   do {
     console.log(`Fetching batch ${page}...`);
-    const { results, nextContinue } = await fetchBatch(cont);
-    all.push(...results);
-    cont = nextContinue;
+    const { results, nextContinueParams } = await fetchBatch(continueParams);
+    for (const domain of results) {
+      const existing = byPageTitle.get(domain.pageTitle);
+      if (existing) {
+        if (domain.frTitle) existing.frTitle = domain.frTitle;
+        continue;
+      }
+      byPageTitle.set(domain.pageTitle, domain);
+    }
+    continueParams = nextContinueParams;
     page++;
-    await new Promise((r) => setTimeout(r, 500));
-  } while (cont);
-  return all;
+    await sleep(500);
+  } while (continueParams);
+  return Array.from(byPageTitle.values());
+}
+
+async function fetchFrWikitext(frTitle: string): Promise<string | null> {
+  try {
+    const response = await axios.get(FR_API_URL, {
+      params: {
+        action: 'query',
+        titles: frTitle,
+        prop: 'revisions',
+        rvprop: 'content',
+        rvslots: 'main',
+        format: 'json',
+        formatversion: '2',
+      },
+      headers: HTTP_HEADERS,
+      httpsAgent,
+    });
+    const page = response.data?.query?.pages?.[0];
+    if (!page || page.missing) return null;
+    return page.revisions?.[0]?.slots?.main?.content ?? null;
+  } catch (err) {
+    console.warn(`⚠️  Échec du fetch wikitext FR pour "${frTitle}": ${err}`);
+    return null;
+  }
+}
+
+// ── Construction des objets de sortie (EN et FR) ────────────────────────────
+
+function buildRotationsOutput(
+  domain: RawDomain,
+  lang: 'en' | 'fr',
+  frPage: FrDomainPage | null,
+) {
+  return domain.rotations.map((rotation, idx) => {
+    const frRow = frPage?.rotations[idx];
+    const qualities = Object.keys(rotation.materialsByQuality)
+      .map(Number)
+      .sort((a, b) => a - b);
+
+    let name = rotation.name;
+    let materialsByQuality = rotation.materialsByQuality;
+
+    if (lang === 'fr') {
+      if (frRow && frRow.materials.length === qualities.length) {
+        name = frRow.name;
+        materialsByQuality = Object.fromEntries(
+          qualities.map((quality, i) => [quality, frRow.materials[i]]),
+        );
+      } else {
+        // Page FR absente ou tableau non aligné avec l'EN (nombre de
+        // paliers différent) : on réutilise les noms EN plutôt que de
+        // produire une correspondance incorrecte.
+        if (frPage) {
+          console.warn(
+            `⚠️  "${domain.title}": rotation "${rotation.name}" non traduite (tableau FR non aligné).`,
+          );
+        }
+      }
+    }
+
+    return {
+      // Chaque rotation est active ses 2 jours de base + le dimanche (règle
+      // du jeu : le dimanche, TOUS les jeux de matériaux sont disponibles en
+      // même temps). Encodé ici plutôt que dupliqué.
+      days: [...rotation.baseDays, 'sunday'],
+      name,
+      reward: qualities.map((quality) => ({
+        quality,
+        name: materialsByQuality[quality],
+      })),
+    };
+  });
+}
+
+function buildLevelsOutput(domain: RawDomain, lang: 'en' | 'fr', title: string) {
+  const labels = REWARD_LABELS[lang];
+
+  return domain.levels.map((level, idx) => {
+    const levelIndex = idx + 1;
+    const teamLevelRecommanded = domain.recLevels[idx];
+    const reward = getRewardForPartyLevel(
+      teamLevelRecommanded,
+      `${domain.title} ${toRoman(levelIndex)}`,
+    );
+
+    return {
+      level: levelIndex,
+      name: `${title} ${toRoman(levelIndex)}`,
+      teamLevelRecommanded,
+      rewards: reward
+        ? [
+            { name: labels.adventureExp, quantity: reward.adventureExp },
+            { name: labels.mora, quantity: reward.mora },
+            { name: labels.companionshipExp, quantity: reward.companionshipExp },
+          ]
+        : [], // partyLevel absent de PARTY_LEVEL_REWARDS → table à compléter (voir warning console)
+      // La description (objectif) et les noms d'ennemis ne sont disponibles
+      // que côté EN (le wiki FR n'a pas d'équivalent au template {{Domain
+      // Enemies}}) : réutilisés tels quels pour la version FR, comme le fait
+      // scrape-weapons.ts pour les vendeurs.
+      waves: level.waves.map((wave, waveIdx) => ({
+        wave: waveIdx + 1,
+        description: level.targets[waveIdx] ?? '',
+        enemies: wave.map((enemy) => ({
+          name: enemy.name,
+          number: enemy.number,
+          level: teamLevelRecommanded,
+        })),
+      })),
+    };
+  });
+}
+
+function buildDomainOutput(
+  domain: RawDomain,
+  lang: 'en' | 'fr',
+  frPage: FrDomainPage | null,
+): DomainOutput {
+  const title = lang === 'fr' && frPage ? frPage.title : domain.title;
+  const domainType =
+    lang === 'fr'
+      ? domainTypeLabelFr(domain.domainTypeRaw)
+      : domainTypeLabel(domain.domainTypeRaw);
+
+  // mainLocation (pays/région) est un nom propre inchangé entre EN et FR
+  // (Mondstadt, Liyue, Inazuma, ...), confirmé sur les pages FR observées :
+  // pas besoin de traduction. subLocation en revanche est traduit côté FR,
+  // mais seulement présent sur les pages Trounce/quest.
+  const subLocation =
+    lang === 'fr' && frPage?.subLocation ? frPage.subLocation : domain.subLocation;
+
+  return {
+    name: title,
+    domainType,
+    location: {
+      mainLocation: domain.mainLocation,
+      subLocation,
+    },
+    // Pas d'équivalent "lore" exploitable côté FR (cf. NOTE en tête de
+    // fichier) : réutilisé tel quel.
+    description: domain.description,
+    recommendedElements: domain.recommendedElements,
+    releaseVersion: domain.releaseVersion,
+    // Uniquement présent pour les Quest Domains (absent partout ailleurs).
+    ...(domain.quest
+      ? { quest: { name: domain.quest, type: domain.questType || undefined } }
+      : {}),
+    rewards: buildRotationsOutput(domain, lang, frPage),
+    levels: buildLevelsOutput(domain, lang, title),
+  };
+}
+
+async function enrichDomain(domain: RawDomain): Promise<CachedDomain> {
+  let frPage: FrDomainPage | null = null;
+
+  if (domain.frTitle) {
+    const frContent = await fetchFrWikitext(domain.frTitle);
+    if (frContent) {
+      frPage = { ...parseFrDomainPage(frContent), title: domain.frTitle };
+    }
+  }
+
+  const en = buildDomainOutput(domain, 'en', frPage);
+  const fr = frPage ? buildDomainOutput(domain, 'fr', frPage) : null;
+
+  return { pageTitle: domain.pageTitle, releaseVersion: domain.releaseVersion, en, fr };
+}
+
+async function fetchAndEnrichAll(): Promise<CachedDomain[]> {
+  console.log('Fetching all domains from wiki (this will take a few minutes)...');
+  const rawDomains = await fetchAll();
+  const enriched: CachedDomain[] = [];
+
+  for (let i = 0; i < rawDomains.length; i++) {
+    const domain = rawDomains[i];
+    console.log(`Enriching "${domain.pageTitle}" (${i + 1}/${rawDomains.length})...`);
+    enriched.push(await enrichDomain(domain));
+    await sleep(300);
+  }
+
+  return enriched;
 }
 
 // ── Cache ─────────────────────────────────────────────────────────────────────
 
-function loadCache(): RawDomain[] | null {
+function loadCache(): CachedDomain[] | null {
   if (!fs.existsSync(CACHE_PATH)) return null;
   try {
     return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
@@ -393,107 +761,52 @@ function loadCache(): RawDomain[] | null {
   }
 }
 
-function saveCache(data: RawDomain[]) {
+function saveCache(data: CachedDomain[]) {
+  fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
   fs.writeFileSync(CACHE_PATH, JSON.stringify(data, null, 2), 'utf-8');
   console.log(`✅ Cache saved (${data.length} entries)`);
 }
 
 // ── Output ────────────────────────────────────────────────────────────────────
 
-function writeDomainFiles(domains: RawDomain[], versionFilter?: string[]) {
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+function writeDomainFiles(domains: CachedDomain[], versionFilter?: string[]) {
+  const enDir = OUTPUT_DIR('en');
+  const frDir = OUTPUT_DIR('fr');
+  fs.mkdirSync(enDir, { recursive: true });
+  fs.mkdirSync(frDir, { recursive: true });
 
   const filtered = versionFilter?.length
     ? domains.filter((d) => versionFilter.includes(d.releaseVersion))
     : domains;
 
-  // Nom des paliers de qualité pour les récompenses hebdomadaires (Talent Books).
-  // Pour d'autres types de domaines (Weapon Ascension Materials, Artifacts),
-  // ces libellés ne s'appliquent pas forcément — à adapter si besoin.
   let written = 0;
+  let skippedFr = 0;
   for (const domain of filtered) {
-    const filename = `${slugify(domain.title)}.json`;
-
-    // Chaque rotation est active ses 2 jours de base + le dimanche (règle du
-    // jeu : le dimanche, TOUS les jeux de matériaux sont disponibles en même
-    // temps). Encodé ici plutôt que dupliqué : "sunday" apparaît dans les 3
-    // rotations sans qu'on ait à créer une 4e entrée séparée.
-    const rewards = domain.rotations.map((rotation) => ({
-      days: [...rotation.baseDays, 'sunday'],
-      name: rotation.name,
-      // Les valeurs du wiki sont déjà les noms complets des matériaux
-      // (ex: "Teachings of Moonlight", "Artful Device Fragment") : pas de
-      // préfixage à faire, contrairement à ce qu'on pensait au départ.
-      reward: Object.entries(rotation.materialsByQuality).map(
-        ([quality, materialName]) => ({
-          quality: Number(quality),
-          name: materialName,
-        }),
-      ),
-    }));
-
-    const levels = domain.levels.map((level, idx) => {
-      const levelIndex = idx + 1;
-      const teamLevelRecommanded = domain.recLevels[idx];
-      const reward = getRewardForPartyLevel(
-        teamLevelRecommanded,
-        `${domain.title} ${toRoman(levelIndex)}`,
-      );
-
-      return {
-        level: levelIndex,
-        name: `${domain.title} ${toRoman(levelIndex)}`,
-        teamLevelRecommanded,
-        rewards: reward
-          ? [
-              { name: 'Adventure EXP', quantity: reward.adventureExp },
-              { name: 'Mora', quantity: reward.mora },
-              { name: 'Companionship EXP', quantity: reward.companionshipExp },
-            ]
-          : [], // partyLevel absent de PARTY_LEVEL_REWARDS → table à compléter (voir warning console)
-        // La description (objectif) est propre à chaque vague : la plupart
-        // des niveaux n'ont qu'une vague donc ça revient au même que avant,
-        // mais certains niveaux (ex: Cecilia Garden IV) ont un objectif
-        // différent par vague (vague normale puis vague "boss").
-        waves: level.waves.map((wave, waveIdx) => ({
-          wave: waveIdx + 1,
-          description: level.targets[waveIdx] ?? '',
-          enemies: wave.map((enemy) => ({
-            name: enemy.name,
-            number: enemy.number,
-            level: teamLevelRecommanded,
-          })),
-        })),
-      };
-    });
-
-    const output = {
-      name: domain.title,
-      domainType: domainTypeLabel(domain.domainTypeRaw),
-      location: {
-        mainLocation: domain.mainLocation,
-        subLocation: domain.subLocation,
-      },
-      description: domain.description,
-      recommendedElements: domain.recommendedElements,
-      releaseVersion: domain.releaseVersion,
-      // Uniquement présent pour les Quest Domains (absent partout ailleurs).
-      ...(domain.quest
-        ? { quest: { name: domain.quest, type: domain.questType || undefined } }
-        : {}),
-      rewards,
-      levels,
-    };
+    const filename = `${slugify(domain.en.name)}.json`;
 
     fs.writeFileSync(
-      path.join(OUTPUT_DIR, filename),
-      JSON.stringify(output, null, 2),
+      path.join(enDir, filename),
+      JSON.stringify(domain.en, null, 2),
       'utf-8',
     );
+
+    if (domain.fr) {
+      fs.writeFileSync(
+        path.join(frDir, filename),
+        JSON.stringify(domain.fr, null, 2),
+        'utf-8',
+      );
+    } else {
+      skippedFr++;
+    }
+
     written++;
   }
 
-  console.log(`✅ Wrote ${written} domain files to ${OUTPUT_DIR}`);
+  if (skippedFr > 0) {
+    console.warn(`⚠️  ${skippedFr} domaine(s) sans page FR trouvée (fichier fr/ non écrit).`);
+  }
+  console.log(`✅ Wrote ${written} domain files (en/) to ${enDir}`);
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
@@ -518,7 +831,7 @@ async function main() {
   const useCache = args[0] === '--cache';
   const versionFilter = args.slice(1);
 
-  let domains: RawDomain[];
+  let domains: CachedDomain[];
 
   if (useCache) {
     const cached = loadCache();
@@ -529,10 +842,7 @@ async function main() {
     domains = cached;
     console.log(`Loaded ${domains.length} domains from cache.`);
   } else {
-    console.log(
-      'Fetching all domains from wiki (this will take a few minutes)...',
-    );
-    domains = await fetchAll();
+    domains = await fetchAndEnrichAll();
     saveCache(domains);
   }
 
