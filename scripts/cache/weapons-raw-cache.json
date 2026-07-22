@@ -7830,664 +7830,6 @@
     }
   },
   {
-    "pageTitle": "Amber Catalyst",
-    "releaseVersion": "0.9.9",
-    "en": {
-      "name": "Amber Catalyst",
-      "type": "CATALYST",
-      "rarity": 3,
-      "releaseDate": "2020-07-02",
-      "description": "A catalyst carved out of amber that gains a warm halo under the sun.",
-      "history": "",
-      "sellers": [],
-      "ascensionMaterials": [],
-      "levels": {
-        "1": {
-          "baseAtk": 39
-        },
-        "2": {
-          "baseAtk": 42
-        },
-        "3": {
-          "baseAtk": 45
-        },
-        "4": {
-          "baseAtk": 48
-        },
-        "5": {
-          "baseAtk": 50
-        },
-        "6": {
-          "baseAtk": 53
-        },
-        "7": {
-          "baseAtk": 56
-        },
-        "8": {
-          "baseAtk": 59
-        },
-        "9": {
-          "baseAtk": 62
-        },
-        "10": {
-          "baseAtk": 65
-        },
-        "11": {
-          "baseAtk": 68
-        },
-        "12": {
-          "baseAtk": 71
-        },
-        "13": {
-          "baseAtk": 74
-        },
-        "14": {
-          "baseAtk": 77
-        },
-        "15": {
-          "baseAtk": 79
-        },
-        "16": {
-          "baseAtk": 82
-        },
-        "17": {
-          "baseAtk": 85
-        },
-        "18": {
-          "baseAtk": 88
-        },
-        "19": {
-          "baseAtk": 91
-        },
-        "20": {
-          "baseAtk": 94
-        },
-        "21": {
-          "baseAtk": 116
-        },
-        "22": {
-          "baseAtk": 119
-        },
-        "23": {
-          "baseAtk": 122
-        },
-        "24": {
-          "baseAtk": 125
-        },
-        "25": {
-          "baseAtk": 127
-        },
-        "26": {
-          "baseAtk": 130
-        },
-        "27": {
-          "baseAtk": 133
-        },
-        "28": {
-          "baseAtk": 136
-        },
-        "29": {
-          "baseAtk": 139
-        },
-        "30": {
-          "baseAtk": 141
-        },
-        "31": {
-          "baseAtk": 144
-        },
-        "32": {
-          "baseAtk": 147
-        },
-        "33": {
-          "baseAtk": 150
-        },
-        "34": {
-          "baseAtk": 153
-        },
-        "35": {
-          "baseAtk": 155
-        },
-        "36": {
-          "baseAtk": 158
-        },
-        "37": {
-          "baseAtk": 161
-        },
-        "38": {
-          "baseAtk": 164
-        },
-        "39": {
-          "baseAtk": 166
-        },
-        "40": {
-          "baseAtk": 169
-        },
-        "41": {
-          "baseAtk": 191
-        },
-        "42": {
-          "baseAtk": 194
-        },
-        "43": {
-          "baseAtk": 197
-        },
-        "44": {
-          "baseAtk": 200
-        },
-        "45": {
-          "baseAtk": 202
-        },
-        "46": {
-          "baseAtk": 205
-        },
-        "47": {
-          "baseAtk": 208
-        },
-        "48": {
-          "baseAtk": 211
-        },
-        "49": {
-          "baseAtk": 213
-        },
-        "50": {
-          "baseAtk": 216
-        },
-        "51": {
-          "baseAtk": 238
-        },
-        "52": {
-          "baseAtk": 241
-        },
-        "53": {
-          "baseAtk": 244
-        },
-        "54": {
-          "baseAtk": 246
-        },
-        "55": {
-          "baseAtk": 249
-        },
-        "56": {
-          "baseAtk": 252
-        },
-        "57": {
-          "baseAtk": 255
-        },
-        "58": {
-          "baseAtk": 257
-        },
-        "59": {
-          "baseAtk": 260
-        },
-        "60": {
-          "baseAtk": 263
-        },
-        "61": {
-          "baseAtk": 285
-        },
-        "62": {
-          "baseAtk": 288
-        },
-        "63": {
-          "baseAtk": 290
-        },
-        "64": {
-          "baseAtk": 293
-        },
-        "65": {
-          "baseAtk": 296
-        },
-        "66": {
-          "baseAtk": 298
-        },
-        "67": {
-          "baseAtk": 301
-        },
-        "68": {
-          "baseAtk": 304
-        },
-        "69": {
-          "baseAtk": 306
-        },
-        "70": {
-          "baseAtk": 309
-        },
-        "71": {
-          "baseAtk": 331
-        },
-        "72": {
-          "baseAtk": 334
-        },
-        "73": {
-          "baseAtk": 337
-        },
-        "74": {
-          "baseAtk": 339
-        },
-        "75": {
-          "baseAtk": 342
-        },
-        "76": {
-          "baseAtk": 345
-        },
-        "77": {
-          "baseAtk": 347
-        },
-        "78": {
-          "baseAtk": 350
-        },
-        "79": {
-          "baseAtk": 353
-        },
-        "80": {
-          "baseAtk": 355
-        },
-        "81": {
-          "baseAtk": 377
-        },
-        "82": {
-          "baseAtk": 380
-        },
-        "83": {
-          "baseAtk": 383
-        },
-        "84": {
-          "baseAtk": 385
-        },
-        "85": {
-          "baseAtk": 388
-        },
-        "86": {
-          "baseAtk": 391
-        },
-        "87": {
-          "baseAtk": 393
-        },
-        "88": {
-          "baseAtk": 396
-        },
-        "89": {
-          "baseAtk": 399
-        },
-        "90": {
-          "baseAtk": 401
-        },
-        "20_ASC": {
-          "baseAtk": 113
-        },
-        "40_ASC": {
-          "baseAtk": 189
-        },
-        "50_ASC": {
-          "baseAtk": 236
-        },
-        "60_ASC": {
-          "baseAtk": 282
-        },
-        "70_ASC": {
-          "baseAtk": 329
-        },
-        "80_ASC": {
-          "baseAtk": 375
-        }
-      },
-      "secondaryAttribute": {
-        "type": "Elemental Mastery",
-        "levels": {
-          "1": {
-            "elementalMastery": "31"
-          },
-          "2": {
-            "elementalMastery": "31"
-          },
-          "3": {
-            "elementalMastery": "31"
-          },
-          "4": {
-            "elementalMastery": "31"
-          },
-          "5": {
-            "elementalMastery": "36"
-          },
-          "6": {
-            "elementalMastery": "36"
-          },
-          "7": {
-            "elementalMastery": "36"
-          },
-          "8": {
-            "elementalMastery": "36"
-          },
-          "9": {
-            "elementalMastery": "36"
-          },
-          "10": {
-            "elementalMastery": "42"
-          },
-          "11": {
-            "elementalMastery": "42"
-          },
-          "12": {
-            "elementalMastery": "42"
-          },
-          "13": {
-            "elementalMastery": "42"
-          },
-          "14": {
-            "elementalMastery": "42"
-          },
-          "15": {
-            "elementalMastery": "48"
-          },
-          "16": {
-            "elementalMastery": "48"
-          },
-          "17": {
-            "elementalMastery": "48"
-          },
-          "18": {
-            "elementalMastery": "48"
-          },
-          "19": {
-            "elementalMastery": "48"
-          },
-          "20": {
-            "elementalMastery": "54"
-          },
-          "21": {
-            "elementalMastery": "54"
-          },
-          "22": {
-            "elementalMastery": "54"
-          },
-          "23": {
-            "elementalMastery": "54"
-          },
-          "24": {
-            "elementalMastery": "54"
-          },
-          "25": {
-            "elementalMastery": "60"
-          },
-          "26": {
-            "elementalMastery": "60"
-          },
-          "27": {
-            "elementalMastery": "60"
-          },
-          "28": {
-            "elementalMastery": "60"
-          },
-          "29": {
-            "elementalMastery": "60"
-          },
-          "30": {
-            "elementalMastery": "66"
-          },
-          "31": {
-            "elementalMastery": "66"
-          },
-          "32": {
-            "elementalMastery": "66"
-          },
-          "33": {
-            "elementalMastery": "66"
-          },
-          "34": {
-            "elementalMastery": "66"
-          },
-          "35": {
-            "elementalMastery": "73"
-          },
-          "36": {
-            "elementalMastery": "73"
-          },
-          "37": {
-            "elementalMastery": "73"
-          },
-          "38": {
-            "elementalMastery": "73"
-          },
-          "39": {
-            "elementalMastery": "73"
-          },
-          "40": {
-            "elementalMastery": "79"
-          },
-          "41": {
-            "elementalMastery": "79"
-          },
-          "42": {
-            "elementalMastery": "79"
-          },
-          "43": {
-            "elementalMastery": "79"
-          },
-          "44": {
-            "elementalMastery": "79"
-          },
-          "45": {
-            "elementalMastery": "85"
-          },
-          "46": {
-            "elementalMastery": "85"
-          },
-          "47": {
-            "elementalMastery": "85"
-          },
-          "48": {
-            "elementalMastery": "85"
-          },
-          "49": {
-            "elementalMastery": "85"
-          },
-          "50": {
-            "elementalMastery": "91"
-          },
-          "51": {
-            "elementalMastery": "91"
-          },
-          "52": {
-            "elementalMastery": "91"
-          },
-          "53": {
-            "elementalMastery": "91"
-          },
-          "54": {
-            "elementalMastery": "91"
-          },
-          "55": {
-            "elementalMastery": "97"
-          },
-          "56": {
-            "elementalMastery": "97"
-          },
-          "57": {
-            "elementalMastery": "97"
-          },
-          "58": {
-            "elementalMastery": "97"
-          },
-          "59": {
-            "elementalMastery": "97"
-          },
-          "60": {
-            "elementalMastery": "104"
-          },
-          "61": {
-            "elementalMastery": "104"
-          },
-          "62": {
-            "elementalMastery": "104"
-          },
-          "63": {
-            "elementalMastery": "104"
-          },
-          "64": {
-            "elementalMastery": "104"
-          },
-          "65": {
-            "elementalMastery": "110"
-          },
-          "66": {
-            "elementalMastery": "110"
-          },
-          "67": {
-            "elementalMastery": "110"
-          },
-          "68": {
-            "elementalMastery": "110"
-          },
-          "69": {
-            "elementalMastery": "110"
-          },
-          "70": {
-            "elementalMastery": "116"
-          },
-          "71": {
-            "elementalMastery": "116"
-          },
-          "72": {
-            "elementalMastery": "116"
-          },
-          "73": {
-            "elementalMastery": "116"
-          },
-          "74": {
-            "elementalMastery": "116"
-          },
-          "75": {
-            "elementalMastery": "122"
-          },
-          "76": {
-            "elementalMastery": "122"
-          },
-          "77": {
-            "elementalMastery": "122"
-          },
-          "78": {
-            "elementalMastery": "122"
-          },
-          "79": {
-            "elementalMastery": "122"
-          },
-          "80": {
-            "elementalMastery": "128"
-          },
-          "81": {
-            "elementalMastery": "128"
-          },
-          "82": {
-            "elementalMastery": "128"
-          },
-          "83": {
-            "elementalMastery": "128"
-          },
-          "84": {
-            "elementalMastery": "128"
-          },
-          "85": {
-            "elementalMastery": "134"
-          },
-          "86": {
-            "elementalMastery": "134"
-          },
-          "87": {
-            "elementalMastery": "134"
-          },
-          "88": {
-            "elementalMastery": "134"
-          },
-          "89": {
-            "elementalMastery": "134"
-          },
-          "90": {
-            "elementalMastery": "141"
-          },
-          "20_ASC": {
-            "elementalMastery": "54"
-          },
-          "40_ASC": {
-            "elementalMastery": "79"
-          },
-          "50_ASC": {
-            "elementalMastery": "91"
-          },
-          "60_ASC": {
-            "elementalMastery": "104"
-          },
-          "70_ASC": {
-            "elementalMastery": "116"
-          },
-          "80_ASC": {
-            "elementalMastery": "128"
-          }
-        }
-      },
-      "effects": [
-        "Elemental DMG Bonus"
-      ],
-      "weaponRefinementLevel": {
-        "1": {
-          "title": "Elemental Mastery",
-          "descriptions": [
-            "Normal Attack hits increase all Elemental DMG by 6% for 6s. Max 2 stacks."
-          ],
-          "upgradeCost": [
-            {
-              "name": "Mora",
-              "quantity": 500
-            }
-          ]
-        },
-        "2": {
-          "title": "Elemental Mastery",
-          "descriptions": [
-            "Normal Attack hits increase all Elemental DMG by 7.5% for 6s. Max 2 stacks."
-          ],
-          "upgradeCost": [
-            {
-              "name": "Mora",
-              "quantity": 1000
-            }
-          ]
-        },
-        "3": {
-          "title": "Elemental Mastery",
-          "descriptions": [
-            "Normal Attack hits increase all Elemental DMG by 9% for 6s. Max 2 stacks."
-          ],
-          "upgradeCost": [
-            {
-              "name": "Mora",
-              "quantity": 2000
-            }
-          ]
-        },
-        "4": {
-          "title": "Elemental Mastery",
-          "descriptions": [
-            "Normal Attack hits increase all Elemental DMG by 10.5% for 6s. Max 2 stacks."
-          ],
-          "upgradeCost": [
-            {
-              "name": "Mora",
-              "quantity": 4000
-            }
-          ]
-        },
-        "5": {
-          "title": "Elemental Mastery",
-          "descriptions": [
-            "Normal Attack hits increase all Elemental DMG by 12% for 6s. Max 2 stacks."
-          ],
-          "upgradeCost": []
-        }
-      }
-    },
-    "fr": null
-  },
-  {
     "pageTitle": "Apprentice's Notes",
     "releaseVersion": "1.0",
     "en": {
@@ -28678,15 +28020,15 @@
           "level": 20,
           "materials": [
             {
-              "name": "Mask of the Wicked Lieutenant",
+              "name": "Masque du lieutenant pernicieux",
               "quantity": 3
             },
             {
-              "name": "Chaos Gear",
+              "name": "Engrenage du chaos",
               "quantity": 3
             },
             {
-              "name": "Spectral Husk",
+              "name": "Coquille spectrale",
               "quantity": 2
             },
             {
@@ -28699,15 +28041,15 @@
           "level": 40,
           "materials": [
             {
-              "name": "Mask of the Tiger's Bite",
+              "name": "Masque de la morsure du tigre",
               "quantity": 3
             },
             {
-              "name": "Chaos Gear",
+              "name": "Engrenage du chaos",
               "quantity": 12
             },
             {
-              "name": "Spectral Husk",
+              "name": "Coquille spectrale",
               "quantity": 8
             },
             {
@@ -28720,15 +28062,15 @@
           "level": 50,
           "materials": [
             {
-              "name": "Mask of the Tiger's Bite",
+              "name": "Masque de la morsure du tigre",
               "quantity": 6
             },
             {
-              "name": "Chaos Axis",
+              "name": "Axe du chaos",
               "quantity": 6
             },
             {
-              "name": "Spectral Heart",
+              "name": "Cœur spectral",
               "quantity": 6
             },
             {
@@ -28741,15 +28083,15 @@
           "level": 60,
           "materials": [
             {
-              "name": "Mask of the One-Horned",
+              "name": "Masque du cornu",
               "quantity": 3
             },
             {
-              "name": "Chaos Axis",
+              "name": "Axe du chaos",
               "quantity": 12
             },
             {
-              "name": "Spectral Heart",
+              "name": "Cœur spectral",
               "quantity": 9
             },
             {
@@ -28762,15 +28104,15 @@
           "level": 70,
           "materials": [
             {
-              "name": "Mask of the One-Horned",
+              "name": "Masque du cornu",
               "quantity": 6
             },
             {
-              "name": "Chaos Oculus",
+              "name": "Œil du chaos",
               "quantity": 9
             },
             {
-              "name": "Spectral Nucleus",
+              "name": "Noyau spectral",
               "quantity": 6
             },
             {
@@ -28783,15 +28125,15 @@
           "level": 80,
           "materials": [
             {
-              "name": "Mask of the Kijin",
+              "name": "Masque du kijin",
               "quantity": 4
             },
             {
-              "name": "Chaos Oculus",
+              "name": "Œil du chaos",
               "quantity": 18
             },
             {
-              "name": "Spectral Nucleus",
+              "name": "Noyau spectral",
               "quantity": 12
             },
             {
@@ -73970,664 +73312,6 @@
     }
   },
   {
-    "pageTitle": "Ebony Bow",
-    "releaseVersion": "0.7.1",
-    "en": {
-      "name": "Ebony Bow",
-      "type": "BOW",
-      "rarity": 3,
-      "releaseDate": "2020-03-18",
-      "description": "A longbow made of ebony wood with stiffer limbs than ordinary bows. It is also a far more powerful weapon.",
-      "history": "",
-      "sellers": [],
-      "ascensionMaterials": [],
-      "levels": {
-        "1": {
-          "baseAtk": 39
-        },
-        "2": {
-          "baseAtk": 42
-        },
-        "3": {
-          "baseAtk": 45
-        },
-        "4": {
-          "baseAtk": 48
-        },
-        "5": {
-          "baseAtk": 50
-        },
-        "6": {
-          "baseAtk": 53
-        },
-        "7": {
-          "baseAtk": 56
-        },
-        "8": {
-          "baseAtk": 59
-        },
-        "9": {
-          "baseAtk": 62
-        },
-        "10": {
-          "baseAtk": 65
-        },
-        "11": {
-          "baseAtk": 68
-        },
-        "12": {
-          "baseAtk": 71
-        },
-        "13": {
-          "baseAtk": 74
-        },
-        "14": {
-          "baseAtk": 77
-        },
-        "15": {
-          "baseAtk": 79
-        },
-        "16": {
-          "baseAtk": 82
-        },
-        "17": {
-          "baseAtk": 85
-        },
-        "18": {
-          "baseAtk": 88
-        },
-        "19": {
-          "baseAtk": 91
-        },
-        "20": {
-          "baseAtk": 94
-        },
-        "21": {
-          "baseAtk": 116
-        },
-        "22": {
-          "baseAtk": 119
-        },
-        "23": {
-          "baseAtk": 122
-        },
-        "24": {
-          "baseAtk": 125
-        },
-        "25": {
-          "baseAtk": 127
-        },
-        "26": {
-          "baseAtk": 130
-        },
-        "27": {
-          "baseAtk": 133
-        },
-        "28": {
-          "baseAtk": 136
-        },
-        "29": {
-          "baseAtk": 139
-        },
-        "30": {
-          "baseAtk": 141
-        },
-        "31": {
-          "baseAtk": 144
-        },
-        "32": {
-          "baseAtk": 147
-        },
-        "33": {
-          "baseAtk": 150
-        },
-        "34": {
-          "baseAtk": 153
-        },
-        "35": {
-          "baseAtk": 155
-        },
-        "36": {
-          "baseAtk": 158
-        },
-        "37": {
-          "baseAtk": 161
-        },
-        "38": {
-          "baseAtk": 164
-        },
-        "39": {
-          "baseAtk": 166
-        },
-        "40": {
-          "baseAtk": 169
-        },
-        "41": {
-          "baseAtk": 191
-        },
-        "42": {
-          "baseAtk": 194
-        },
-        "43": {
-          "baseAtk": 197
-        },
-        "44": {
-          "baseAtk": 200
-        },
-        "45": {
-          "baseAtk": 202
-        },
-        "46": {
-          "baseAtk": 205
-        },
-        "47": {
-          "baseAtk": 208
-        },
-        "48": {
-          "baseAtk": 211
-        },
-        "49": {
-          "baseAtk": 213
-        },
-        "50": {
-          "baseAtk": 216
-        },
-        "51": {
-          "baseAtk": 238
-        },
-        "52": {
-          "baseAtk": 241
-        },
-        "53": {
-          "baseAtk": 244
-        },
-        "54": {
-          "baseAtk": 246
-        },
-        "55": {
-          "baseAtk": 249
-        },
-        "56": {
-          "baseAtk": 252
-        },
-        "57": {
-          "baseAtk": 255
-        },
-        "58": {
-          "baseAtk": 257
-        },
-        "59": {
-          "baseAtk": 260
-        },
-        "60": {
-          "baseAtk": 263
-        },
-        "61": {
-          "baseAtk": 285
-        },
-        "62": {
-          "baseAtk": 288
-        },
-        "63": {
-          "baseAtk": 290
-        },
-        "64": {
-          "baseAtk": 293
-        },
-        "65": {
-          "baseAtk": 296
-        },
-        "66": {
-          "baseAtk": 298
-        },
-        "67": {
-          "baseAtk": 301
-        },
-        "68": {
-          "baseAtk": 304
-        },
-        "69": {
-          "baseAtk": 306
-        },
-        "70": {
-          "baseAtk": 309
-        },
-        "71": {
-          "baseAtk": 331
-        },
-        "72": {
-          "baseAtk": 334
-        },
-        "73": {
-          "baseAtk": 337
-        },
-        "74": {
-          "baseAtk": 339
-        },
-        "75": {
-          "baseAtk": 342
-        },
-        "76": {
-          "baseAtk": 345
-        },
-        "77": {
-          "baseAtk": 347
-        },
-        "78": {
-          "baseAtk": 350
-        },
-        "79": {
-          "baseAtk": 353
-        },
-        "80": {
-          "baseAtk": 355
-        },
-        "81": {
-          "baseAtk": 377
-        },
-        "82": {
-          "baseAtk": 380
-        },
-        "83": {
-          "baseAtk": 383
-        },
-        "84": {
-          "baseAtk": 385
-        },
-        "85": {
-          "baseAtk": 388
-        },
-        "86": {
-          "baseAtk": 391
-        },
-        "87": {
-          "baseAtk": 393
-        },
-        "88": {
-          "baseAtk": 396
-        },
-        "89": {
-          "baseAtk": 399
-        },
-        "90": {
-          "baseAtk": 401
-        },
-        "20_ASC": {
-          "baseAtk": 113
-        },
-        "40_ASC": {
-          "baseAtk": 189
-        },
-        "50_ASC": {
-          "baseAtk": 236
-        },
-        "60_ASC": {
-          "baseAtk": 282
-        },
-        "70_ASC": {
-          "baseAtk": 329
-        },
-        "80_ASC": {
-          "baseAtk": 375
-        }
-      },
-      "secondaryAttribute": {
-        "type": "ATK",
-        "levels": {
-          "1": {
-            "atkPercent": "7.7%"
-          },
-          "2": {
-            "atkPercent": "7.7%"
-          },
-          "3": {
-            "atkPercent": "7.7%"
-          },
-          "4": {
-            "atkPercent": "7.7%"
-          },
-          "5": {
-            "atkPercent": "8.9%"
-          },
-          "6": {
-            "atkPercent": "8.9%"
-          },
-          "7": {
-            "atkPercent": "8.9%"
-          },
-          "8": {
-            "atkPercent": "8.9%"
-          },
-          "9": {
-            "atkPercent": "8.9%"
-          },
-          "10": {
-            "atkPercent": "10.4%"
-          },
-          "11": {
-            "atkPercent": "10.4%"
-          },
-          "12": {
-            "atkPercent": "10.4%"
-          },
-          "13": {
-            "atkPercent": "10.4%"
-          },
-          "14": {
-            "atkPercent": "10.4%"
-          },
-          "15": {
-            "atkPercent": "12.0%"
-          },
-          "16": {
-            "atkPercent": "12.0%"
-          },
-          "17": {
-            "atkPercent": "12.0%"
-          },
-          "18": {
-            "atkPercent": "12.0%"
-          },
-          "19": {
-            "atkPercent": "12.0%"
-          },
-          "20": {
-            "atkPercent": "13.5%"
-          },
-          "21": {
-            "atkPercent": "13.5%"
-          },
-          "22": {
-            "atkPercent": "13.5%"
-          },
-          "23": {
-            "atkPercent": "13.5%"
-          },
-          "24": {
-            "atkPercent": "13.5%"
-          },
-          "25": {
-            "atkPercent": "15.1%"
-          },
-          "26": {
-            "atkPercent": "15.1%"
-          },
-          "27": {
-            "atkPercent": "15.1%"
-          },
-          "28": {
-            "atkPercent": "15.1%"
-          },
-          "29": {
-            "atkPercent": "15.1%"
-          },
-          "30": {
-            "atkPercent": "16.6%"
-          },
-          "31": {
-            "atkPercent": "16.6%"
-          },
-          "32": {
-            "atkPercent": "16.6%"
-          },
-          "33": {
-            "atkPercent": "16.6%"
-          },
-          "34": {
-            "atkPercent": "16.6%"
-          },
-          "35": {
-            "atkPercent": "18.2%"
-          },
-          "36": {
-            "atkPercent": "18.2%"
-          },
-          "37": {
-            "atkPercent": "18.2%"
-          },
-          "38": {
-            "atkPercent": "18.2%"
-          },
-          "39": {
-            "atkPercent": "18.2%"
-          },
-          "40": {
-            "atkPercent": "19.7%"
-          },
-          "41": {
-            "atkPercent": "19.7%"
-          },
-          "42": {
-            "atkPercent": "19.7%"
-          },
-          "43": {
-            "atkPercent": "19.7%"
-          },
-          "44": {
-            "atkPercent": "19.7%"
-          },
-          "45": {
-            "atkPercent": "21.3%"
-          },
-          "46": {
-            "atkPercent": "21.3%"
-          },
-          "47": {
-            "atkPercent": "21.3%"
-          },
-          "48": {
-            "atkPercent": "21.3%"
-          },
-          "49": {
-            "atkPercent": "21.3%"
-          },
-          "50": {
-            "atkPercent": "22.8%"
-          },
-          "51": {
-            "atkPercent": "22.8%"
-          },
-          "52": {
-            "atkPercent": "22.8%"
-          },
-          "53": {
-            "atkPercent": "22.8%"
-          },
-          "54": {
-            "atkPercent": "22.8%"
-          },
-          "55": {
-            "atkPercent": "24.4%"
-          },
-          "56": {
-            "atkPercent": "24.4%"
-          },
-          "57": {
-            "atkPercent": "24.4%"
-          },
-          "58": {
-            "atkPercent": "24.4%"
-          },
-          "59": {
-            "atkPercent": "24.4%"
-          },
-          "60": {
-            "atkPercent": "25.9%"
-          },
-          "61": {
-            "atkPercent": "25.9%"
-          },
-          "62": {
-            "atkPercent": "25.9%"
-          },
-          "63": {
-            "atkPercent": "25.9%"
-          },
-          "64": {
-            "atkPercent": "25.9%"
-          },
-          "65": {
-            "atkPercent": "27.5%"
-          },
-          "66": {
-            "atkPercent": "27.5%"
-          },
-          "67": {
-            "atkPercent": "27.5%"
-          },
-          "68": {
-            "atkPercent": "27.5%"
-          },
-          "69": {
-            "atkPercent": "27.5%"
-          },
-          "70": {
-            "atkPercent": "29.0%"
-          },
-          "71": {
-            "atkPercent": "29.0%"
-          },
-          "72": {
-            "atkPercent": "29.0%"
-          },
-          "73": {
-            "atkPercent": "29.0%"
-          },
-          "74": {
-            "atkPercent": "29.0%"
-          },
-          "75": {
-            "atkPercent": "30.5%"
-          },
-          "76": {
-            "atkPercent": "30.5%"
-          },
-          "77": {
-            "atkPercent": "30.5%"
-          },
-          "78": {
-            "atkPercent": "30.5%"
-          },
-          "79": {
-            "atkPercent": "30.5%"
-          },
-          "80": {
-            "atkPercent": "32.1%"
-          },
-          "81": {
-            "atkPercent": "32.1%"
-          },
-          "82": {
-            "atkPercent": "32.1%"
-          },
-          "83": {
-            "atkPercent": "32.1%"
-          },
-          "84": {
-            "atkPercent": "32.1%"
-          },
-          "85": {
-            "atkPercent": "33.6%"
-          },
-          "86": {
-            "atkPercent": "33.6%"
-          },
-          "87": {
-            "atkPercent": "33.6%"
-          },
-          "88": {
-            "atkPercent": "33.6%"
-          },
-          "89": {
-            "atkPercent": "33.6%"
-          },
-          "90": {
-            "atkPercent": "35.2%"
-          },
-          "20_ASC": {
-            "atkPercent": "13.5%"
-          },
-          "40_ASC": {
-            "atkPercent": "19.7%"
-          },
-          "50_ASC": {
-            "atkPercent": "22.8%"
-          },
-          "60_ASC": {
-            "atkPercent": "25.9%"
-          },
-          "70_ASC": {
-            "atkPercent": "29.0%"
-          },
-          "80_ASC": {
-            "atkPercent": "32.1%"
-          }
-        }
-      },
-      "effects": [
-        "DMG Bonus"
-      ],
-      "weaponRefinementLevel": {
-        "1": {
-          "title": "Decimate",
-          "descriptions": [
-            "Increases DMG against mechanoid Ruin opponents by 40%."
-          ],
-          "upgradeCost": [
-            {
-              "name": "Mora",
-              "quantity": 500
-            }
-          ]
-        },
-        "2": {
-          "title": "Decimate",
-          "descriptions": [
-            "Increases DMG against mechanoid Ruin opponents by 50%."
-          ],
-          "upgradeCost": [
-            {
-              "name": "Mora",
-              "quantity": 1000
-            }
-          ]
-        },
-        "3": {
-          "title": "Decimate",
-          "descriptions": [
-            "Increases DMG against mechanoid Ruin opponents by 60%."
-          ],
-          "upgradeCost": [
-            {
-              "name": "Mora",
-              "quantity": 2000
-            }
-          ]
-        },
-        "4": {
-          "title": "Decimate",
-          "descriptions": [
-            "Increases DMG against mechanoid Ruin opponents by 70%."
-          ],
-          "upgradeCost": [
-            {
-              "name": "Mora",
-              "quantity": 4000
-            }
-          ]
-        },
-        "5": {
-          "title": "Decimate",
-          "descriptions": [
-            "Increases DMG against mechanoid Ruin opponents by 80%."
-          ],
-          "upgradeCost": []
-        }
-      }
-    },
-    "fr": null
-  },
-  {
     "pageTitle": "Hunter's Bow",
     "releaseVersion": "1.0",
     "en": {
@@ -76082,15 +74766,15 @@
           "level": 20,
           "materials": [
             {
-              "name": "Tile of Decarabian's Tower",
+              "name": "Tuile cassée de Décarabian",
               "quantity": 3
             },
             {
-              "name": "Heavy Horn",
+              "name": "Corne lourde",
               "quantity": 3
             },
             {
-              "name": "Divining Scroll",
+              "name": "Parchemin divinatoire",
               "quantity": 2
             },
             {
@@ -76103,15 +74787,15 @@
           "level": 40,
           "materials": [
             {
-              "name": "Debris of Decarabian's City",
+              "name": "Mur abattu de Décarabian",
               "quantity": 3
             },
             {
-              "name": "Heavy Horn",
+              "name": "Corne lourde",
               "quantity": 12
             },
             {
-              "name": "Divining Scroll",
+              "name": "Parchemin divinatoire",
               "quantity": 8
             },
             {
@@ -76124,15 +74808,15 @@
           "level": 50,
           "materials": [
             {
-              "name": "Debris of Decarabian's City",
+              "name": "Mur abattu de Décarabian",
               "quantity": 6
             },
             {
-              "name": "Black Bronze Horn",
+              "name": "Corne en bronze noir",
               "quantity": 6
             },
             {
-              "name": "Sealed Scroll",
+              "name": "Parchemin sigillé",
               "quantity": 6
             },
             {
@@ -76145,15 +74829,15 @@
           "level": 60,
           "materials": [
             {
-              "name": "Fragment of Decarabian's Epic",
+              "name": "Fragment dispersé de Décarabian",
               "quantity": 3
             },
             {
-              "name": "Black Bronze Horn",
+              "name": "Corne en bronze noir",
               "quantity": 12
             },
             {
-              "name": "Sealed Scroll",
+              "name": "Parchemin sigillé",
               "quantity": 9
             },
             {
@@ -76166,15 +74850,15 @@
           "level": 70,
           "materials": [
             {
-              "name": "Fragment of Decarabian's Epic",
+              "name": "Fragment dispersé de Décarabian",
               "quantity": 6
             },
             {
-              "name": "Black Crystal Horn",
+              "name": "Corne à cristal noir",
               "quantity": 9
             },
             {
-              "name": "Forbidden Curse Scroll",
+              "name": "Parchemin maudit",
               "quantity": 6
             },
             {
@@ -76187,15 +74871,15 @@
           "level": 80,
           "materials": [
             {
-              "name": "Scattered Piece of Decarabian's Dream",
+              "name": "Rêve brisé de Décarabian",
               "quantity": 4
             },
             {
-              "name": "Black Crystal Horn",
+              "name": "Corne à cristal noir",
               "quantity": 18
             },
             {
-              "name": "Forbidden Curse Scroll",
+              "name": "Parchemin maudit",
               "quantity": 12
             },
             {
@@ -80782,15 +79466,15 @@
           "level": 20,
           "materials": [
             {
-              "name": "Fetters of the Dandelion Gladiator",
+              "name": "Entraves du Chevalier du Croc de Lion",
               "quantity": 3
             },
             {
-              "name": "Chaos Device",
+              "name": "Dispositif du chaos",
               "quantity": 3
             },
             {
-              "name": "Recruit's Insignia",
+              "name": "Insigne de nouvelle recrue",
               "quantity": 2
             },
             {
@@ -80803,15 +79487,15 @@
           "level": 40,
           "materials": [
             {
-              "name": "Chains of the Dandelion Gladiator",
+              "name": "Chaînes du Chevalier du Croc de Lion",
               "quantity": 3
             },
             {
-              "name": "Chaos Device",
+              "name": "Dispositif du chaos",
               "quantity": 12
             },
             {
-              "name": "Recruit's Insignia",
+              "name": "Insigne de nouvelle recrue",
               "quantity": 8
             },
             {
@@ -80824,15 +79508,15 @@
           "level": 50,
           "materials": [
             {
-              "name": "Chains of the Dandelion Gladiator",
+              "name": "Chaînes du Chevalier du Croc de Lion",
               "quantity": 6
             },
             {
-              "name": "Chaos Circuit",
+              "name": "Circuit du chaos",
               "quantity": 6
             },
             {
-              "name": "Sergeant's Insignia",
+              "name": "Insigne de sergent",
               "quantity": 6
             },
             {
@@ -80845,15 +79529,15 @@
           "level": 60,
           "materials": [
             {
-              "name": "Shackles of the Dandelion Gladiator",
+              "name": "Menottes du Chevalier du Croc de Lion",
               "quantity": 3
             },
             {
-              "name": "Chaos Circuit",
+              "name": "Circuit du chaos",
               "quantity": 12
             },
             {
-              "name": "Sergeant's Insignia",
+              "name": "Insigne de sergent",
               "quantity": 9
             },
             {
@@ -80866,15 +79550,15 @@
           "level": 70,
           "materials": [
             {
-              "name": "Shackles of the Dandelion Gladiator",
+              "name": "Menottes du Chevalier du Croc de Lion",
               "quantity": 6
             },
             {
-              "name": "Chaos Core",
+              "name": "Noyau du chaos",
               "quantity": 9
             },
             {
-              "name": "Lieutenant's Insignia",
+              "name": "Insigne d'officier",
               "quantity": 6
             },
             {
@@ -80887,15 +79571,15 @@
           "level": 80,
           "materials": [
             {
-              "name": "Dream of the Dandelion Gladiator",
+              "name": "Idéaux du Chevalier du Croc de Lion",
               "quantity": 4
             },
             {
-              "name": "Chaos Core",
+              "name": "Noyau du chaos",
               "quantity": 18
             },
             {
-              "name": "Lieutenant's Insignia",
+              "name": "Insigne d'officier",
               "quantity": 12
             },
             {
@@ -91574,15 +90258,15 @@
           "level": 20,
           "materials": [
             {
-              "name": "Tile of Decarabian's Tower",
+              "name": "Tuile cassée de Décarabian",
               "quantity": 3
             },
             {
-              "name": "Heavy Horn",
+              "name": "Corne lourde",
               "quantity": 3
             },
             {
-              "name": "Firm Arrowhead",
+              "name": "Pointe de flèche robuste",
               "quantity": 2
             },
             {
@@ -91595,15 +90279,15 @@
           "level": 40,
           "materials": [
             {
-              "name": "Debris of Decarabian's City",
+              "name": "Mur abattu de Décarabian",
               "quantity": 3
             },
             {
-              "name": "Heavy Horn",
+              "name": "Corne lourde",
               "quantity": 12
             },
             {
-              "name": "Firm Arrowhead",
+              "name": "Pointe de flèche robuste",
               "quantity": 8
             },
             {
@@ -91616,15 +90300,15 @@
           "level": 50,
           "materials": [
             {
-              "name": "Debris of Decarabian's City",
+              "name": "Mur abattu de Décarabian",
               "quantity": 6
             },
             {
-              "name": "Black Bronze Horn",
+              "name": "Corne en bronze noir",
               "quantity": 6
             },
             {
-              "name": "Sharp Arrowhead",
+              "name": "Pointe de flèche aiguisée",
               "quantity": 6
             },
             {
@@ -91637,15 +90321,15 @@
           "level": 60,
           "materials": [
             {
-              "name": "Fragment of Decarabian's Epic",
+              "name": "Fragment dispersé de Décarabian",
               "quantity": 3
             },
             {
-              "name": "Black Bronze Horn",
+              "name": "Corne en bronze noir",
               "quantity": 12
             },
             {
-              "name": "Sharp Arrowhead",
+              "name": "Pointe de flèche aiguisée",
               "quantity": 9
             },
             {
@@ -91658,15 +90342,15 @@
           "level": 70,
           "materials": [
             {
-              "name": "Fragment of Decarabian's Epic",
+              "name": "Fragment dispersé de Décarabian",
               "quantity": 6
             },
             {
-              "name": "Black Crystal Horn",
+              "name": "Corne à cristal noir",
               "quantity": 9
             },
             {
-              "name": "Weathered Arrowhead",
+              "name": "Pointe de flèche usée",
               "quantity": 6
             },
             {
@@ -91679,15 +90363,15 @@
           "level": 80,
           "materials": [
             {
-              "name": "Scattered Piece of Decarabian's Dream",
+              "name": "Rêve brisé de Décarabian",
               "quantity": 4
             },
             {
-              "name": "Black Crystal Horn",
+              "name": "Corne à cristal noir",
               "quantity": 18
             },
             {
-              "name": "Weathered Arrowhead",
+              "name": "Pointe de flèche usée",
               "quantity": 12
             },
             {
@@ -94704,15 +93388,15 @@
           "level": 20,
           "materials": [
             {
-              "name": "Fetters of the Dandelion Gladiator",
+              "name": "Entraves du Chevalier du Croc de Lion",
               "quantity": 3
             },
             {
-              "name": "Chaos Device",
+              "name": "Dispositif du chaos",
               "quantity": 3
             },
             {
-              "name": "Slime Condensate",
+              "name": "Bave de Blob",
               "quantity": 2
             },
             {
@@ -94725,15 +93409,15 @@
           "level": 40,
           "materials": [
             {
-              "name": "Chains of the Dandelion Gladiator",
+              "name": "Chaînes du Chevalier du Croc de Lion",
               "quantity": 3
             },
             {
-              "name": "Chaos Device",
+              "name": "Dispositif du chaos",
               "quantity": 12
             },
             {
-              "name": "Slime Condensate",
+              "name": "Bave de Blob",
               "quantity": 8
             },
             {
@@ -94746,15 +93430,15 @@
           "level": 50,
           "materials": [
             {
-              "name": "Chains of the Dandelion Gladiator",
+              "name": "Chaînes du Chevalier du Croc de Lion",
               "quantity": 6
             },
             {
-              "name": "Chaos Circuit",
+              "name": "Circuit du chaos",
               "quantity": 6
             },
             {
-              "name": "Slime Secretions",
+              "name": "Mucus de Blob",
               "quantity": 6
             },
             {
@@ -94767,15 +93451,15 @@
           "level": 60,
           "materials": [
             {
-              "name": "Shackles of the Dandelion Gladiator",
+              "name": "Menottes du Chevalier du Croc de Lion",
               "quantity": 3
             },
             {
-              "name": "Chaos Circuit",
+              "name": "Circuit du chaos",
               "quantity": 12
             },
             {
-              "name": "Slime Secretions",
+              "name": "Mucus de Blob",
               "quantity": 9
             },
             {
@@ -94788,15 +93472,15 @@
           "level": 70,
           "materials": [
             {
-              "name": "Shackles of the Dandelion Gladiator",
+              "name": "Menottes du Chevalier du Croc de Lion",
               "quantity": 6
             },
             {
-              "name": "Chaos Core",
+              "name": "Noyau du chaos",
               "quantity": 9
             },
             {
-              "name": "Slime Concentrate",
+              "name": "Essence de Blob",
               "quantity": 6
             },
             {
@@ -94809,15 +93493,15 @@
           "level": 80,
           "materials": [
             {
-              "name": "Dream of the Dandelion Gladiator",
+              "name": "Idéaux du Chevalier du Croc de Lion",
               "quantity": 4
             },
             {
-              "name": "Chaos Core",
+              "name": "Noyau du chaos",
               "quantity": 18
             },
             {
-              "name": "Slime Concentrate",
+              "name": "Essence de Blob",
               "quantity": 12
             },
             {
@@ -108824,15 +107508,15 @@
           "level": 20,
           "materials": [
             {
-              "name": "Mask of the Wicked Lieutenant",
+              "name": "Masque du lieutenant pernicieux",
               "quantity": 5
             },
             {
-              "name": "Chaos Gear",
+              "name": "Engrenage du chaos",
               "quantity": 5
             },
             {
-              "name": "Old Handguard",
+              "name": "Garde-main ancien",
               "quantity": 3
             },
             {
@@ -108845,15 +107529,15 @@
           "level": 40,
           "materials": [
             {
-              "name": "Mask of the Tiger's Bite",
+              "name": "Masque de la morsure du tigre",
               "quantity": 5
             },
             {
-              "name": "Chaos Gear",
+              "name": "Engrenage du chaos",
               "quantity": 18
             },
             {
-              "name": "Old Handguard",
+              "name": "Garde-main ancien",
               "quantity": 12
             },
             {
@@ -108866,15 +107550,15 @@
           "level": 50,
           "materials": [
             {
-              "name": "Mask of the Tiger's Bite",
+              "name": "Masque de la morsure du tigre",
               "quantity": 9
             },
             {
-              "name": "Chaos Axis",
+              "name": "Axe du chaos",
               "quantity": 9
             },
             {
-              "name": "Kageuchi Handguard",
+              "name": "Garde-main kageuchi",
               "quantity": 9
             },
             {
@@ -108887,15 +107571,15 @@
           "level": 60,
           "materials": [
             {
-              "name": "Mask of the One-Horned",
+              "name": "Masque du cornu",
               "quantity": 5
             },
             {
-              "name": "Chaos Axis",
+              "name": "Axe du chaos",
               "quantity": 18
             },
             {
-              "name": "Kageuchi Handguard",
+              "name": "Garde-main kageuchi",
               "quantity": 14
             },
             {
@@ -108908,15 +107592,15 @@
           "level": 70,
           "materials": [
             {
-              "name": "Mask of the One-Horned",
+              "name": "Masque du cornu",
               "quantity": 9
             },
             {
-              "name": "Chaos Oculus",
+              "name": "Œil du chaos",
               "quantity": 14
             },
             {
-              "name": "Famed Handguard",
+              "name": "Garde-main célèbre",
               "quantity": 9
             },
             {
@@ -108929,15 +107613,15 @@
           "level": 80,
           "materials": [
             {
-              "name": "Mask of the Kijin",
+              "name": "Masque du kijin",
               "quantity": 6
             },
             {
-              "name": "Chaos Oculus",
+              "name": "Œil du chaos",
               "quantity": 27
             },
             {
-              "name": "Famed Handguard",
+              "name": "Garde-main célèbre",
               "quantity": 18
             },
             {
@@ -184431,1214 +183115,6 @@
     }
   },
   {
-    "pageTitle": "Prized Isshin Blade (Shattered)",
-    "releaseVersion": "2.8",
-    "en": {
-      "name": "Prized Isshin Blade",
-      "type": "SWORD",
-      "rarity": 4,
-      "releaseDate": "2022-07-13",
-      "description": "The battered cursed blade shows its true form. Yet any innate endowment it might have had has been ground to dust during its journey.",
-      "history": "",
-      "sellers": [],
-      "ascensionMaterials": [],
-      "levels": {
-        "1": {
-          "baseAtk": 42
-        },
-        "2": {
-          "baseAtk": 46
-        },
-        "3": {
-          "baseAtk": 49
-        },
-        "4": {
-          "baseAtk": 53
-        },
-        "5": {
-          "baseAtk": 56
-        },
-        "6": {
-          "baseAtk": 60
-        },
-        "7": {
-          "baseAtk": 63
-        },
-        "8": {
-          "baseAtk": 67
-        },
-        "9": {
-          "baseAtk": 70
-        },
-        "10": {
-          "baseAtk": 74
-        },
-        "11": {
-          "baseAtk": 77
-        },
-        "12": {
-          "baseAtk": 81
-        },
-        "13": {
-          "baseAtk": 84
-        },
-        "14": {
-          "baseAtk": 88
-        },
-        "15": {
-          "baseAtk": 91
-        },
-        "16": {
-          "baseAtk": 95
-        },
-        "17": {
-          "baseAtk": 98
-        },
-        "18": {
-          "baseAtk": 102
-        },
-        "19": {
-          "baseAtk": 105
-        },
-        "20": {
-          "baseAtk": 109
-        },
-        "21": {
-          "baseAtk": 138
-        },
-        "22": {
-          "baseAtk": 142
-        },
-        "23": {
-          "baseAtk": 145
-        },
-        "24": {
-          "baseAtk": 149
-        },
-        "25": {
-          "baseAtk": 152
-        },
-        "26": {
-          "baseAtk": 156
-        },
-        "27": {
-          "baseAtk": 159
-        },
-        "28": {
-          "baseAtk": 163
-        },
-        "29": {
-          "baseAtk": 166
-        },
-        "30": {
-          "baseAtk": 170
-        },
-        "31": {
-          "baseAtk": 173
-        },
-        "32": {
-          "baseAtk": 177
-        },
-        "33": {
-          "baseAtk": 180
-        },
-        "34": {
-          "baseAtk": 184
-        },
-        "35": {
-          "baseAtk": 187
-        },
-        "36": {
-          "baseAtk": 191
-        },
-        "37": {
-          "baseAtk": 194
-        },
-        "38": {
-          "baseAtk": 198
-        },
-        "39": {
-          "baseAtk": 201
-        },
-        "40": {
-          "baseAtk": 205
-        },
-        "41": {
-          "baseAtk": 234
-        },
-        "42": {
-          "baseAtk": 238
-        },
-        "43": {
-          "baseAtk": 241
-        },
-        "44": {
-          "baseAtk": 245
-        },
-        "45": {
-          "baseAtk": 248
-        },
-        "46": {
-          "baseAtk": 252
-        },
-        "47": {
-          "baseAtk": 255
-        },
-        "48": {
-          "baseAtk": 259
-        },
-        "49": {
-          "baseAtk": 262
-        },
-        "50": {
-          "baseAtk": 266
-        },
-        "51": {
-          "baseAtk": 295
-        },
-        "52": {
-          "baseAtk": 299
-        },
-        "53": {
-          "baseAtk": 302
-        },
-        "54": {
-          "baseAtk": 306
-        },
-        "55": {
-          "baseAtk": 309
-        },
-        "56": {
-          "baseAtk": 313
-        },
-        "57": {
-          "baseAtk": 316
-        },
-        "58": {
-          "baseAtk": 320
-        },
-        "59": {
-          "baseAtk": 323
-        },
-        "60": {
-          "baseAtk": 327
-        },
-        "61": {
-          "baseAtk": 356
-        },
-        "62": {
-          "baseAtk": 360
-        },
-        "63": {
-          "baseAtk": 363
-        },
-        "64": {
-          "baseAtk": 367
-        },
-        "65": {
-          "baseAtk": 370
-        },
-        "66": {
-          "baseAtk": 374
-        },
-        "67": {
-          "baseAtk": 377
-        },
-        "68": {
-          "baseAtk": 381
-        },
-        "69": {
-          "baseAtk": 384
-        },
-        "70": {
-          "baseAtk": 388
-        },
-        "71": {
-          "baseAtk": 417
-        },
-        "72": {
-          "baseAtk": 421
-        },
-        "73": {
-          "baseAtk": 424
-        },
-        "74": {
-          "baseAtk": 428
-        },
-        "75": {
-          "baseAtk": 431
-        },
-        "76": {
-          "baseAtk": 435
-        },
-        "77": {
-          "baseAtk": 438
-        },
-        "78": {
-          "baseAtk": 442
-        },
-        "79": {
-          "baseAtk": 445
-        },
-        "80": {
-          "baseAtk": 449
-        },
-        "81": {
-          "baseAtk": 478
-        },
-        "82": {
-          "baseAtk": 482
-        },
-        "83": {
-          "baseAtk": 485
-        },
-        "84": {
-          "baseAtk": 489
-        },
-        "85": {
-          "baseAtk": 492
-        },
-        "86": {
-          "baseAtk": 496
-        },
-        "87": {
-          "baseAtk": 499
-        },
-        "88": {
-          "baseAtk": 503
-        },
-        "89": {
-          "baseAtk": 506
-        },
-        "90": {
-          "baseAtk": 510
-        },
-        "20_ASC": {
-          "baseAtk": 135
-        },
-        "40_ASC": {
-          "baseAtk": 231
-        },
-        "50_ASC": {
-          "baseAtk": 292
-        },
-        "60_ASC": {
-          "baseAtk": 353
-        },
-        "70_ASC": {
-          "baseAtk": 414
-        },
-        "80_ASC": {
-          "baseAtk": 475
-        }
-      },
-      "secondaryAttribute": {
-        "type": "ATK",
-        "levels": {
-          "1": {
-            "atkPercent": "0.0%"
-          },
-          "2": {
-            "atkPercent": "0.0%"
-          },
-          "3": {
-            "atkPercent": "0.0%"
-          },
-          "4": {
-            "atkPercent": "0.0%"
-          },
-          "5": {
-            "atkPercent": "0.0%"
-          },
-          "6": {
-            "atkPercent": "0.0%"
-          },
-          "7": {
-            "atkPercent": "0.0%"
-          },
-          "8": {
-            "atkPercent": "0.0%"
-          },
-          "9": {
-            "atkPercent": "0.0%"
-          },
-          "10": {
-            "atkPercent": "0.0%"
-          },
-          "11": {
-            "atkPercent": "0.0%"
-          },
-          "12": {
-            "atkPercent": "0.0%"
-          },
-          "13": {
-            "atkPercent": "0.0%"
-          },
-          "14": {
-            "atkPercent": "0.0%"
-          },
-          "15": {
-            "atkPercent": "0.0%"
-          },
-          "16": {
-            "atkPercent": "0.0%"
-          },
-          "17": {
-            "atkPercent": "0.0%"
-          },
-          "18": {
-            "atkPercent": "0.0%"
-          },
-          "19": {
-            "atkPercent": "0.0%"
-          },
-          "20": {
-            "atkPercent": "0.0%"
-          },
-          "21": {
-            "atkPercent": "0.0%"
-          },
-          "22": {
-            "atkPercent": "0.0%"
-          },
-          "23": {
-            "atkPercent": "0.0%"
-          },
-          "24": {
-            "atkPercent": "0.0%"
-          },
-          "25": {
-            "atkPercent": "0.0%"
-          },
-          "26": {
-            "atkPercent": "0.0%"
-          },
-          "27": {
-            "atkPercent": "0.0%"
-          },
-          "28": {
-            "atkPercent": "0.0%"
-          },
-          "29": {
-            "atkPercent": "0.0%"
-          },
-          "30": {
-            "atkPercent": "0.0%"
-          },
-          "31": {
-            "atkPercent": "0.0%"
-          },
-          "32": {
-            "atkPercent": "0.0%"
-          },
-          "33": {
-            "atkPercent": "0.0%"
-          },
-          "34": {
-            "atkPercent": "0.0%"
-          },
-          "35": {
-            "atkPercent": "0.0%"
-          },
-          "36": {
-            "atkPercent": "0.0%"
-          },
-          "37": {
-            "atkPercent": "0.0%"
-          },
-          "38": {
-            "atkPercent": "0.0%"
-          },
-          "39": {
-            "atkPercent": "0.0%"
-          },
-          "40": {
-            "atkPercent": "0.0%"
-          },
-          "41": {
-            "atkPercent": "0.0%"
-          },
-          "42": {
-            "atkPercent": "0.0%"
-          },
-          "43": {
-            "atkPercent": "0.0%"
-          },
-          "44": {
-            "atkPercent": "0.0%"
-          },
-          "45": {
-            "atkPercent": "0.0%"
-          },
-          "46": {
-            "atkPercent": "0.0%"
-          },
-          "47": {
-            "atkPercent": "0.0%"
-          },
-          "48": {
-            "atkPercent": "0.0%"
-          },
-          "49": {
-            "atkPercent": "0.0%"
-          },
-          "50": {
-            "atkPercent": "0.0%"
-          },
-          "51": {
-            "atkPercent": "0.0%"
-          },
-          "52": {
-            "atkPercent": "0.0%"
-          },
-          "53": {
-            "atkPercent": "0.0%"
-          },
-          "54": {
-            "atkPercent": "0.0%"
-          },
-          "55": {
-            "atkPercent": "0.0%"
-          },
-          "56": {
-            "atkPercent": "0.0%"
-          },
-          "57": {
-            "atkPercent": "0.0%"
-          },
-          "58": {
-            "atkPercent": "0.0%"
-          },
-          "59": {
-            "atkPercent": "0.0%"
-          },
-          "60": {
-            "atkPercent": "0.0%"
-          },
-          "61": {
-            "atkPercent": "0.0%"
-          },
-          "62": {
-            "atkPercent": "0.0%"
-          },
-          "63": {
-            "atkPercent": "0.0%"
-          },
-          "64": {
-            "atkPercent": "0.0%"
-          },
-          "65": {
-            "atkPercent": "0.0%"
-          },
-          "66": {
-            "atkPercent": "0.0%"
-          },
-          "67": {
-            "atkPercent": "0.0%"
-          },
-          "68": {
-            "atkPercent": "0.0%"
-          },
-          "69": {
-            "atkPercent": "0.0%"
-          },
-          "70": {
-            "atkPercent": "0.0%"
-          },
-          "71": {
-            "atkPercent": "0.0%"
-          },
-          "72": {
-            "atkPercent": "0.0%"
-          },
-          "73": {
-            "atkPercent": "0.0%"
-          },
-          "74": {
-            "atkPercent": "0.0%"
-          },
-          "75": {
-            "atkPercent": "0.0%"
-          },
-          "76": {
-            "atkPercent": "0.0%"
-          },
-          "77": {
-            "atkPercent": "0.0%"
-          },
-          "78": {
-            "atkPercent": "0.0%"
-          },
-          "79": {
-            "atkPercent": "0.0%"
-          },
-          "80": {
-            "atkPercent": "0.0%"
-          },
-          "81": {
-            "atkPercent": "0.0%"
-          },
-          "82": {
-            "atkPercent": "0.0%"
-          },
-          "83": {
-            "atkPercent": "0.0%"
-          },
-          "84": {
-            "atkPercent": "0.0%"
-          },
-          "85": {
-            "atkPercent": "0.0%"
-          },
-          "86": {
-            "atkPercent": "0.0%"
-          },
-          "87": {
-            "atkPercent": "0.0%"
-          },
-          "88": {
-            "atkPercent": "0.0%"
-          },
-          "89": {
-            "atkPercent": "0.0%"
-          },
-          "90": {
-            "atkPercent": "0.0%"
-          },
-          "20_ASC": {
-            "atkPercent": "0.0%"
-          },
-          "40_ASC": {
-            "atkPercent": "0.0%"
-          },
-          "50_ASC": {
-            "atkPercent": "0.0%"
-          },
-          "60_ASC": {
-            "atkPercent": "0.0%"
-          },
-          "70_ASC": {
-            "atkPercent": "0.0%"
-          },
-          "80_ASC": {
-            "atkPercent": "0.0%"
-          }
-        }
-      },
-      "effects": [
-        "Physical DMG",
-        "DMG Decrease",
-        "Effect Triggered by Normal Attack"
-      ]
-    },
-    "fr": null
-  },
-  {
-    "pageTitle": "Prized Isshin Blade (Awakened)",
-    "releaseVersion": "2.8",
-    "en": {
-      "name": "Prized Isshin Blade",
-      "type": "SWORD",
-      "rarity": 4,
-      "releaseDate": "2022-07-13",
-      "description": "An ominous purple aura clings to this bizarre blade. It has the power to control its wielder's heart and mind.|Normal Description",
-      "history": "",
-      "sellers": [],
-      "ascensionMaterials": [],
-      "levels": {
-        "1": {
-          "baseAtk": 42
-        },
-        "2": {
-          "baseAtk": 46
-        },
-        "3": {
-          "baseAtk": 49
-        },
-        "4": {
-          "baseAtk": 53
-        },
-        "5": {
-          "baseAtk": 56
-        },
-        "6": {
-          "baseAtk": 60
-        },
-        "7": {
-          "baseAtk": 63
-        },
-        "8": {
-          "baseAtk": 67
-        },
-        "9": {
-          "baseAtk": 70
-        },
-        "10": {
-          "baseAtk": 74
-        },
-        "11": {
-          "baseAtk": 77
-        },
-        "12": {
-          "baseAtk": 81
-        },
-        "13": {
-          "baseAtk": 84
-        },
-        "14": {
-          "baseAtk": 88
-        },
-        "15": {
-          "baseAtk": 91
-        },
-        "16": {
-          "baseAtk": 95
-        },
-        "17": {
-          "baseAtk": 98
-        },
-        "18": {
-          "baseAtk": 102
-        },
-        "19": {
-          "baseAtk": 105
-        },
-        "20": {
-          "baseAtk": 109
-        },
-        "21": {
-          "baseAtk": 138
-        },
-        "22": {
-          "baseAtk": 142
-        },
-        "23": {
-          "baseAtk": 145
-        },
-        "24": {
-          "baseAtk": 149
-        },
-        "25": {
-          "baseAtk": 152
-        },
-        "26": {
-          "baseAtk": 156
-        },
-        "27": {
-          "baseAtk": 159
-        },
-        "28": {
-          "baseAtk": 163
-        },
-        "29": {
-          "baseAtk": 166
-        },
-        "30": {
-          "baseAtk": 170
-        },
-        "31": {
-          "baseAtk": 173
-        },
-        "32": {
-          "baseAtk": 177
-        },
-        "33": {
-          "baseAtk": 180
-        },
-        "34": {
-          "baseAtk": 184
-        },
-        "35": {
-          "baseAtk": 187
-        },
-        "36": {
-          "baseAtk": 191
-        },
-        "37": {
-          "baseAtk": 194
-        },
-        "38": {
-          "baseAtk": 198
-        },
-        "39": {
-          "baseAtk": 201
-        },
-        "40": {
-          "baseAtk": 205
-        },
-        "41": {
-          "baseAtk": 234
-        },
-        "42": {
-          "baseAtk": 238
-        },
-        "43": {
-          "baseAtk": 241
-        },
-        "44": {
-          "baseAtk": 245
-        },
-        "45": {
-          "baseAtk": 248
-        },
-        "46": {
-          "baseAtk": 252
-        },
-        "47": {
-          "baseAtk": 255
-        },
-        "48": {
-          "baseAtk": 259
-        },
-        "49": {
-          "baseAtk": 262
-        },
-        "50": {
-          "baseAtk": 266
-        },
-        "51": {
-          "baseAtk": 295
-        },
-        "52": {
-          "baseAtk": 299
-        },
-        "53": {
-          "baseAtk": 302
-        },
-        "54": {
-          "baseAtk": 306
-        },
-        "55": {
-          "baseAtk": 309
-        },
-        "56": {
-          "baseAtk": 313
-        },
-        "57": {
-          "baseAtk": 316
-        },
-        "58": {
-          "baseAtk": 320
-        },
-        "59": {
-          "baseAtk": 323
-        },
-        "60": {
-          "baseAtk": 327
-        },
-        "61": {
-          "baseAtk": 356
-        },
-        "62": {
-          "baseAtk": 360
-        },
-        "63": {
-          "baseAtk": 363
-        },
-        "64": {
-          "baseAtk": 367
-        },
-        "65": {
-          "baseAtk": 370
-        },
-        "66": {
-          "baseAtk": 374
-        },
-        "67": {
-          "baseAtk": 377
-        },
-        "68": {
-          "baseAtk": 381
-        },
-        "69": {
-          "baseAtk": 384
-        },
-        "70": {
-          "baseAtk": 388
-        },
-        "71": {
-          "baseAtk": 417
-        },
-        "72": {
-          "baseAtk": 421
-        },
-        "73": {
-          "baseAtk": 424
-        },
-        "74": {
-          "baseAtk": 428
-        },
-        "75": {
-          "baseAtk": 431
-        },
-        "76": {
-          "baseAtk": 435
-        },
-        "77": {
-          "baseAtk": 438
-        },
-        "78": {
-          "baseAtk": 442
-        },
-        "79": {
-          "baseAtk": 445
-        },
-        "80": {
-          "baseAtk": 449
-        },
-        "81": {
-          "baseAtk": 478
-        },
-        "82": {
-          "baseAtk": 482
-        },
-        "83": {
-          "baseAtk": 485
-        },
-        "84": {
-          "baseAtk": 489
-        },
-        "85": {
-          "baseAtk": 492
-        },
-        "86": {
-          "baseAtk": 496
-        },
-        "87": {
-          "baseAtk": 499
-        },
-        "88": {
-          "baseAtk": 503
-        },
-        "89": {
-          "baseAtk": 506
-        },
-        "90": {
-          "baseAtk": 510
-        },
-        "20_ASC": {
-          "baseAtk": 135
-        },
-        "40_ASC": {
-          "baseAtk": 231
-        },
-        "50_ASC": {
-          "baseAtk": 292
-        },
-        "60_ASC": {
-          "baseAtk": 353
-        },
-        "70_ASC": {
-          "baseAtk": 414
-        },
-        "80_ASC": {
-          "baseAtk": 475
-        }
-      },
-      "secondaryAttribute": {
-        "type": "ATK",
-        "levels": {
-          "1": {
-            "atkPercent": "9.0%"
-          },
-          "2": {
-            "atkPercent": "9.0%"
-          },
-          "3": {
-            "atkPercent": "9.0%"
-          },
-          "4": {
-            "atkPercent": "9.0%"
-          },
-          "5": {
-            "atkPercent": "10.5%"
-          },
-          "6": {
-            "atkPercent": "10.5%"
-          },
-          "7": {
-            "atkPercent": "10.5%"
-          },
-          "8": {
-            "atkPercent": "10.5%"
-          },
-          "9": {
-            "atkPercent": "10.5%"
-          },
-          "10": {
-            "atkPercent": "12.3%"
-          },
-          "11": {
-            "atkPercent": "12.3%"
-          },
-          "12": {
-            "atkPercent": "12.3%"
-          },
-          "13": {
-            "atkPercent": "12.3%"
-          },
-          "14": {
-            "atkPercent": "12.3%"
-          },
-          "15": {
-            "atkPercent": "14.1%"
-          },
-          "16": {
-            "atkPercent": "14.1%"
-          },
-          "17": {
-            "atkPercent": "14.1%"
-          },
-          "18": {
-            "atkPercent": "14.1%"
-          },
-          "19": {
-            "atkPercent": "14.1%"
-          },
-          "20": {
-            "atkPercent": "15.9%"
-          },
-          "21": {
-            "atkPercent": "15.9%"
-          },
-          "22": {
-            "atkPercent": "15.9%"
-          },
-          "23": {
-            "atkPercent": "15.9%"
-          },
-          "24": {
-            "atkPercent": "15.9%"
-          },
-          "25": {
-            "atkPercent": "17.7%"
-          },
-          "26": {
-            "atkPercent": "17.7%"
-          },
-          "27": {
-            "atkPercent": "17.7%"
-          },
-          "28": {
-            "atkPercent": "17.7%"
-          },
-          "29": {
-            "atkPercent": "17.7%"
-          },
-          "30": {
-            "atkPercent": "19.5%"
-          },
-          "31": {
-            "atkPercent": "19.5%"
-          },
-          "32": {
-            "atkPercent": "19.5%"
-          },
-          "33": {
-            "atkPercent": "19.5%"
-          },
-          "34": {
-            "atkPercent": "19.5%"
-          },
-          "35": {
-            "atkPercent": "21.4%"
-          },
-          "36": {
-            "atkPercent": "21.4%"
-          },
-          "37": {
-            "atkPercent": "21.4%"
-          },
-          "38": {
-            "atkPercent": "21.4%"
-          },
-          "39": {
-            "atkPercent": "21.4%"
-          },
-          "40": {
-            "atkPercent": "23.2%"
-          },
-          "41": {
-            "atkPercent": "23.2%"
-          },
-          "42": {
-            "atkPercent": "23.2%"
-          },
-          "43": {
-            "atkPercent": "23.2%"
-          },
-          "44": {
-            "atkPercent": "23.2%"
-          },
-          "45": {
-            "atkPercent": "25.0%"
-          },
-          "46": {
-            "atkPercent": "25.0%"
-          },
-          "47": {
-            "atkPercent": "25.0%"
-          },
-          "48": {
-            "atkPercent": "25.0%"
-          },
-          "49": {
-            "atkPercent": "25.0%"
-          },
-          "50": {
-            "atkPercent": "26.8%"
-          },
-          "51": {
-            "atkPercent": "26.8%"
-          },
-          "52": {
-            "atkPercent": "26.8%"
-          },
-          "53": {
-            "atkPercent": "26.8%"
-          },
-          "54": {
-            "atkPercent": "26.8%"
-          },
-          "55": {
-            "atkPercent": "28.6%"
-          },
-          "56": {
-            "atkPercent": "28.6%"
-          },
-          "57": {
-            "atkPercent": "28.6%"
-          },
-          "58": {
-            "atkPercent": "28.6%"
-          },
-          "59": {
-            "atkPercent": "28.6%"
-          },
-          "60": {
-            "atkPercent": "30.4%"
-          },
-          "61": {
-            "atkPercent": "30.4%"
-          },
-          "62": {
-            "atkPercent": "30.4%"
-          },
-          "63": {
-            "atkPercent": "30.4%"
-          },
-          "64": {
-            "atkPercent": "30.4%"
-          },
-          "65": {
-            "atkPercent": "32.3%"
-          },
-          "66": {
-            "atkPercent": "32.3%"
-          },
-          "67": {
-            "atkPercent": "32.3%"
-          },
-          "68": {
-            "atkPercent": "32.3%"
-          },
-          "69": {
-            "atkPercent": "32.3%"
-          },
-          "70": {
-            "atkPercent": "34.1%"
-          },
-          "71": {
-            "atkPercent": "34.1%"
-          },
-          "72": {
-            "atkPercent": "34.1%"
-          },
-          "73": {
-            "atkPercent": "34.1%"
-          },
-          "74": {
-            "atkPercent": "34.1%"
-          },
-          "75": {
-            "atkPercent": "35.9%"
-          },
-          "76": {
-            "atkPercent": "35.9%"
-          },
-          "77": {
-            "atkPercent": "35.9%"
-          },
-          "78": {
-            "atkPercent": "35.9%"
-          },
-          "79": {
-            "atkPercent": "35.9%"
-          },
-          "80": {
-            "atkPercent": "37.7%"
-          },
-          "81": {
-            "atkPercent": "37.7%"
-          },
-          "82": {
-            "atkPercent": "37.7%"
-          },
-          "83": {
-            "atkPercent": "37.7%"
-          },
-          "84": {
-            "atkPercent": "37.7%"
-          },
-          "85": {
-            "atkPercent": "39.5%"
-          },
-          "86": {
-            "atkPercent": "39.5%"
-          },
-          "87": {
-            "atkPercent": "39.5%"
-          },
-          "88": {
-            "atkPercent": "39.5%"
-          },
-          "89": {
-            "atkPercent": "39.5%"
-          },
-          "90": {
-            "atkPercent": "41.3%"
-          },
-          "20_ASC": {
-            "atkPercent": "15.9%"
-          },
-          "40_ASC": {
-            "atkPercent": "23.2%"
-          },
-          "50_ASC": {
-            "atkPercent": "26.8%"
-          },
-          "60_ASC": {
-            "atkPercent": "30.4%"
-          },
-          "70_ASC": {
-            "atkPercent": "34.1%"
-          },
-          "80_ASC": {
-            "atkPercent": "37.7%"
-          }
-        }
-      },
-      "effects": [
-        "Healing",
-        "Physical DMG",
-        "DMG Decrease",
-        "AoE",
-        "Effect Triggered by Normal Attack"
-      ]
-    },
-    "fr": null
-  },
-  {
     "pageTitle": "King's Squire",
     "releaseVersion": "3.0",
     "en": {
@@ -216930,7 +214406,7 @@
       ],
       "weaponRefinementLevel": {
         "1": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 8 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -216942,7 +214418,7 @@
           ]
         },
         "2": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 10 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -216954,7 +214430,7 @@
           ]
         },
         "3": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 12 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -216966,7 +214442,7 @@
           ]
         },
         "4": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 14 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -216978,7 +214454,7 @@
           ]
         },
         "5": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 16 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -230198,7 +227674,7 @@
       ],
       "weaponRefinementLevel": {
         "1": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 8 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -230210,7 +227686,7 @@
           ]
         },
         "2": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 10 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -230222,7 +227698,7 @@
           ]
         },
         "3": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 12 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -230234,7 +227710,7 @@
           ]
         },
         "4": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 14 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -230246,7 +227722,7 @@
           ]
         },
         "5": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 16 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -233390,664 +230866,6 @@
         }
       }
     }
-  },
-  {
-    "pageTitle": "Quartz",
-    "releaseVersion": "0.7.1",
-    "en": {
-      "name": "Quartz",
-      "type": "CLAYMORE",
-      "rarity": 3,
-      "releaseDate": "2020-03-18",
-      "description": "A simple but heavy greatsword made of polished black quartz with a golden gilt. It has an air of elegance and dignity about it.",
-      "history": "",
-      "sellers": [],
-      "ascensionMaterials": [],
-      "levels": {
-        "1": {
-          "baseAtk": 39
-        },
-        "2": {
-          "baseAtk": 42
-        },
-        "3": {
-          "baseAtk": 45
-        },
-        "4": {
-          "baseAtk": 48
-        },
-        "5": {
-          "baseAtk": 50
-        },
-        "6": {
-          "baseAtk": 53
-        },
-        "7": {
-          "baseAtk": 56
-        },
-        "8": {
-          "baseAtk": 59
-        },
-        "9": {
-          "baseAtk": 62
-        },
-        "10": {
-          "baseAtk": 65
-        },
-        "11": {
-          "baseAtk": 68
-        },
-        "12": {
-          "baseAtk": 71
-        },
-        "13": {
-          "baseAtk": 74
-        },
-        "14": {
-          "baseAtk": 77
-        },
-        "15": {
-          "baseAtk": 79
-        },
-        "16": {
-          "baseAtk": 82
-        },
-        "17": {
-          "baseAtk": 85
-        },
-        "18": {
-          "baseAtk": 88
-        },
-        "19": {
-          "baseAtk": 91
-        },
-        "20": {
-          "baseAtk": 94
-        },
-        "21": {
-          "baseAtk": 116
-        },
-        "22": {
-          "baseAtk": 119
-        },
-        "23": {
-          "baseAtk": 122
-        },
-        "24": {
-          "baseAtk": 125
-        },
-        "25": {
-          "baseAtk": 127
-        },
-        "26": {
-          "baseAtk": 130
-        },
-        "27": {
-          "baseAtk": 133
-        },
-        "28": {
-          "baseAtk": 136
-        },
-        "29": {
-          "baseAtk": 139
-        },
-        "30": {
-          "baseAtk": 141
-        },
-        "31": {
-          "baseAtk": 144
-        },
-        "32": {
-          "baseAtk": 147
-        },
-        "33": {
-          "baseAtk": 150
-        },
-        "34": {
-          "baseAtk": 153
-        },
-        "35": {
-          "baseAtk": 155
-        },
-        "36": {
-          "baseAtk": 158
-        },
-        "37": {
-          "baseAtk": 161
-        },
-        "38": {
-          "baseAtk": 164
-        },
-        "39": {
-          "baseAtk": 166
-        },
-        "40": {
-          "baseAtk": 169
-        },
-        "41": {
-          "baseAtk": 191
-        },
-        "42": {
-          "baseAtk": 194
-        },
-        "43": {
-          "baseAtk": 197
-        },
-        "44": {
-          "baseAtk": 200
-        },
-        "45": {
-          "baseAtk": 202
-        },
-        "46": {
-          "baseAtk": 205
-        },
-        "47": {
-          "baseAtk": 208
-        },
-        "48": {
-          "baseAtk": 211
-        },
-        "49": {
-          "baseAtk": 213
-        },
-        "50": {
-          "baseAtk": 216
-        },
-        "51": {
-          "baseAtk": 238
-        },
-        "52": {
-          "baseAtk": 241
-        },
-        "53": {
-          "baseAtk": 244
-        },
-        "54": {
-          "baseAtk": 246
-        },
-        "55": {
-          "baseAtk": 249
-        },
-        "56": {
-          "baseAtk": 252
-        },
-        "57": {
-          "baseAtk": 255
-        },
-        "58": {
-          "baseAtk": 257
-        },
-        "59": {
-          "baseAtk": 260
-        },
-        "60": {
-          "baseAtk": 263
-        },
-        "61": {
-          "baseAtk": 285
-        },
-        "62": {
-          "baseAtk": 288
-        },
-        "63": {
-          "baseAtk": 290
-        },
-        "64": {
-          "baseAtk": 293
-        },
-        "65": {
-          "baseAtk": 296
-        },
-        "66": {
-          "baseAtk": 298
-        },
-        "67": {
-          "baseAtk": 301
-        },
-        "68": {
-          "baseAtk": 304
-        },
-        "69": {
-          "baseAtk": 306
-        },
-        "70": {
-          "baseAtk": 309
-        },
-        "71": {
-          "baseAtk": 331
-        },
-        "72": {
-          "baseAtk": 334
-        },
-        "73": {
-          "baseAtk": 337
-        },
-        "74": {
-          "baseAtk": 339
-        },
-        "75": {
-          "baseAtk": 342
-        },
-        "76": {
-          "baseAtk": 345
-        },
-        "77": {
-          "baseAtk": 347
-        },
-        "78": {
-          "baseAtk": 350
-        },
-        "79": {
-          "baseAtk": 353
-        },
-        "80": {
-          "baseAtk": 355
-        },
-        "81": {
-          "baseAtk": 377
-        },
-        "82": {
-          "baseAtk": 380
-        },
-        "83": {
-          "baseAtk": 383
-        },
-        "84": {
-          "baseAtk": 385
-        },
-        "85": {
-          "baseAtk": 388
-        },
-        "86": {
-          "baseAtk": 391
-        },
-        "87": {
-          "baseAtk": 393
-        },
-        "88": {
-          "baseAtk": 396
-        },
-        "89": {
-          "baseAtk": 399
-        },
-        "90": {
-          "baseAtk": 401
-        },
-        "20_ASC": {
-          "baseAtk": 113
-        },
-        "40_ASC": {
-          "baseAtk": 189
-        },
-        "50_ASC": {
-          "baseAtk": 236
-        },
-        "60_ASC": {
-          "baseAtk": 282
-        },
-        "70_ASC": {
-          "baseAtk": 329
-        },
-        "80_ASC": {
-          "baseAtk": 375
-        }
-      },
-      "secondaryAttribute": {
-        "type": "Elemental Mastery",
-        "levels": {
-          "1": {
-            "elementalMastery": "31"
-          },
-          "2": {
-            "elementalMastery": "31"
-          },
-          "3": {
-            "elementalMastery": "31"
-          },
-          "4": {
-            "elementalMastery": "31"
-          },
-          "5": {
-            "elementalMastery": "36"
-          },
-          "6": {
-            "elementalMastery": "36"
-          },
-          "7": {
-            "elementalMastery": "36"
-          },
-          "8": {
-            "elementalMastery": "36"
-          },
-          "9": {
-            "elementalMastery": "36"
-          },
-          "10": {
-            "elementalMastery": "42"
-          },
-          "11": {
-            "elementalMastery": "42"
-          },
-          "12": {
-            "elementalMastery": "42"
-          },
-          "13": {
-            "elementalMastery": "42"
-          },
-          "14": {
-            "elementalMastery": "42"
-          },
-          "15": {
-            "elementalMastery": "48"
-          },
-          "16": {
-            "elementalMastery": "48"
-          },
-          "17": {
-            "elementalMastery": "48"
-          },
-          "18": {
-            "elementalMastery": "48"
-          },
-          "19": {
-            "elementalMastery": "48"
-          },
-          "20": {
-            "elementalMastery": "54"
-          },
-          "21": {
-            "elementalMastery": "54"
-          },
-          "22": {
-            "elementalMastery": "54"
-          },
-          "23": {
-            "elementalMastery": "54"
-          },
-          "24": {
-            "elementalMastery": "54"
-          },
-          "25": {
-            "elementalMastery": "60"
-          },
-          "26": {
-            "elementalMastery": "60"
-          },
-          "27": {
-            "elementalMastery": "60"
-          },
-          "28": {
-            "elementalMastery": "60"
-          },
-          "29": {
-            "elementalMastery": "60"
-          },
-          "30": {
-            "elementalMastery": "66"
-          },
-          "31": {
-            "elementalMastery": "66"
-          },
-          "32": {
-            "elementalMastery": "66"
-          },
-          "33": {
-            "elementalMastery": "66"
-          },
-          "34": {
-            "elementalMastery": "66"
-          },
-          "35": {
-            "elementalMastery": "73"
-          },
-          "36": {
-            "elementalMastery": "73"
-          },
-          "37": {
-            "elementalMastery": "73"
-          },
-          "38": {
-            "elementalMastery": "73"
-          },
-          "39": {
-            "elementalMastery": "73"
-          },
-          "40": {
-            "elementalMastery": "79"
-          },
-          "41": {
-            "elementalMastery": "79"
-          },
-          "42": {
-            "elementalMastery": "79"
-          },
-          "43": {
-            "elementalMastery": "79"
-          },
-          "44": {
-            "elementalMastery": "79"
-          },
-          "45": {
-            "elementalMastery": "85"
-          },
-          "46": {
-            "elementalMastery": "85"
-          },
-          "47": {
-            "elementalMastery": "85"
-          },
-          "48": {
-            "elementalMastery": "85"
-          },
-          "49": {
-            "elementalMastery": "85"
-          },
-          "50": {
-            "elementalMastery": "91"
-          },
-          "51": {
-            "elementalMastery": "91"
-          },
-          "52": {
-            "elementalMastery": "91"
-          },
-          "53": {
-            "elementalMastery": "91"
-          },
-          "54": {
-            "elementalMastery": "91"
-          },
-          "55": {
-            "elementalMastery": "97"
-          },
-          "56": {
-            "elementalMastery": "97"
-          },
-          "57": {
-            "elementalMastery": "97"
-          },
-          "58": {
-            "elementalMastery": "97"
-          },
-          "59": {
-            "elementalMastery": "97"
-          },
-          "60": {
-            "elementalMastery": "104"
-          },
-          "61": {
-            "elementalMastery": "104"
-          },
-          "62": {
-            "elementalMastery": "104"
-          },
-          "63": {
-            "elementalMastery": "104"
-          },
-          "64": {
-            "elementalMastery": "104"
-          },
-          "65": {
-            "elementalMastery": "110"
-          },
-          "66": {
-            "elementalMastery": "110"
-          },
-          "67": {
-            "elementalMastery": "110"
-          },
-          "68": {
-            "elementalMastery": "110"
-          },
-          "69": {
-            "elementalMastery": "110"
-          },
-          "70": {
-            "elementalMastery": "116"
-          },
-          "71": {
-            "elementalMastery": "116"
-          },
-          "72": {
-            "elementalMastery": "116"
-          },
-          "73": {
-            "elementalMastery": "116"
-          },
-          "74": {
-            "elementalMastery": "116"
-          },
-          "75": {
-            "elementalMastery": "122"
-          },
-          "76": {
-            "elementalMastery": "122"
-          },
-          "77": {
-            "elementalMastery": "122"
-          },
-          "78": {
-            "elementalMastery": "122"
-          },
-          "79": {
-            "elementalMastery": "122"
-          },
-          "80": {
-            "elementalMastery": "128"
-          },
-          "81": {
-            "elementalMastery": "128"
-          },
-          "82": {
-            "elementalMastery": "128"
-          },
-          "83": {
-            "elementalMastery": "128"
-          },
-          "84": {
-            "elementalMastery": "128"
-          },
-          "85": {
-            "elementalMastery": "134"
-          },
-          "86": {
-            "elementalMastery": "134"
-          },
-          "87": {
-            "elementalMastery": "134"
-          },
-          "88": {
-            "elementalMastery": "134"
-          },
-          "89": {
-            "elementalMastery": "134"
-          },
-          "90": {
-            "elementalMastery": "141"
-          },
-          "20_ASC": {
-            "elementalMastery": "54"
-          },
-          "40_ASC": {
-            "elementalMastery": "79"
-          },
-          "50_ASC": {
-            "elementalMastery": "91"
-          },
-          "60_ASC": {
-            "elementalMastery": "104"
-          },
-          "70_ASC": {
-            "elementalMastery": "116"
-          },
-          "80_ASC": {
-            "elementalMastery": "128"
-          }
-        }
-      },
-      "effects": [
-        "ATK"
-      ],
-      "weaponRefinementLevel": {
-        "1": {
-          "title": "Residual Heat",
-          "descriptions": [
-            "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, increases Base ATK by 20% for 12s."
-          ],
-          "upgradeCost": [
-            {
-              "name": "Mora",
-              "quantity": 500
-            }
-          ]
-        },
-        "2": {
-          "title": "Residual Heat",
-          "descriptions": [
-            "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, increases Base ATK by 25% for 12s."
-          ],
-          "upgradeCost": [
-            {
-              "name": "Mora",
-              "quantity": 1000
-            }
-          ]
-        },
-        "3": {
-          "title": "Residual Heat",
-          "descriptions": [
-            "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, increases Base ATK by 30% for 12s."
-          ],
-          "upgradeCost": [
-            {
-              "name": "Mora",
-              "quantity": 2000
-            }
-          ]
-        },
-        "4": {
-          "title": "Residual Heat",
-          "descriptions": [
-            "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, increases Base ATK by 35% for 12s."
-          ],
-          "upgradeCost": [
-            {
-              "name": "Mora",
-              "quantity": 4000
-            }
-          ]
-        },
-        "5": {
-          "title": "Residual Heat",
-          "descriptions": [
-            "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, increases Base ATK by 40% for 12s."
-          ],
-          "upgradeCost": []
-        }
-      }
-    },
-    "fr": null
   },
   {
     "pageTitle": "Skyrider Greatsword",
@@ -238686,7 +235504,7 @@
       ],
       "weaponRefinementLevel": {
         "1": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 8 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -238698,7 +235516,7 @@
           ]
         },
         "2": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 10 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -238710,7 +235528,7 @@
           ]
         },
         "3": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 12 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -238722,7 +235540,7 @@
           ]
         },
         "4": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 14 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -238734,7 +235552,7 @@
           ]
         },
         "5": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 16 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -241109,15 +237927,15 @@
           "level": 20,
           "materials": [
             {
-              "name": "Grain of Aerosiderite",
+              "name": "Grain d'aérosidérite noire",
               "quantity": 3
             },
             {
-              "name": "Fragile Bone Shard",
+              "name": "Fragment d'os fragile",
               "quantity": 3
             },
             {
-              "name": "Damaged Mask",
+              "name": "Masque endommagé",
               "quantity": 2
             },
             {
@@ -241130,15 +237948,15 @@
           "level": 40,
           "materials": [
             {
-              "name": "Piece of Aerosiderite",
+              "name": "Éclat d'aérosidérite noire",
               "quantity": 3
             },
             {
-              "name": "Fragile Bone Shard",
+              "name": "Fragment d'os fragile",
               "quantity": 12
             },
             {
-              "name": "Damaged Mask",
+              "name": "Masque endommagé",
               "quantity": 8
             },
             {
@@ -241151,15 +237969,15 @@
           "level": 50,
           "materials": [
             {
-              "name": "Piece of Aerosiderite",
+              "name": "Éclat d'aérosidérite noire",
               "quantity": 6
             },
             {
-              "name": "Sturdy Bone Shard",
+              "name": "Fragment d'os solide",
               "quantity": 6
             },
             {
-              "name": "Stained Mask",
+              "name": "Masque sale",
               "quantity": 6
             },
             {
@@ -241172,15 +237990,15 @@
           "level": 60,
           "materials": [
             {
-              "name": "Bit of Aerosiderite",
+              "name": "Fragment d'aérosidérite noire",
               "quantity": 3
             },
             {
-              "name": "Sturdy Bone Shard",
+              "name": "Fragment d'os solide",
               "quantity": 12
             },
             {
-              "name": "Stained Mask",
+              "name": "Masque sale",
               "quantity": 9
             },
             {
@@ -241193,15 +238011,15 @@
           "level": 70,
           "materials": [
             {
-              "name": "Bit of Aerosiderite",
+              "name": "Fragment d'aérosidérite noire",
               "quantity": 6
             },
             {
-              "name": "Fossilized Bone Shard",
+              "name": "Fragment d'os fossilisé",
               "quantity": 9
             },
             {
-              "name": "Ominous Mask",
+              "name": "Masque sinistre",
               "quantity": 6
             },
             {
@@ -241214,15 +238032,15 @@
           "level": 80,
           "materials": [
             {
-              "name": "Chunk of Aerosiderite",
+              "name": "Morceau d'aérosidérite noire",
               "quantity": 4
             },
             {
-              "name": "Fossilized Bone Shard",
+              "name": "Fragment d'os fossilisé",
               "quantity": 18
             },
             {
-              "name": "Ominous Mask",
+              "name": "Masque sinistre",
               "quantity": 12
             },
             {
@@ -244986,15 +241804,15 @@
           "level": 20,
           "materials": [
             {
-              "name": "Tile of Decarabian's Tower",
+              "name": "Tuile cassée de Décarabian",
               "quantity": 3
             },
             {
-              "name": "Heavy Horn",
+              "name": "Corne lourde",
               "quantity": 3
             },
             {
-              "name": "Damaged Mask",
+              "name": "Masque endommagé",
               "quantity": 2
             },
             {
@@ -245007,15 +241825,15 @@
           "level": 40,
           "materials": [
             {
-              "name": "Debris of Decarabian's City",
+              "name": "Mur abattu de Décarabian",
               "quantity": 3
             },
             {
-              "name": "Heavy Horn",
+              "name": "Corne lourde",
               "quantity": 12
             },
             {
-              "name": "Damaged Mask",
+              "name": "Masque endommagé",
               "quantity": 8
             },
             {
@@ -245028,15 +241846,15 @@
           "level": 50,
           "materials": [
             {
-              "name": "Debris of Decarabian's City",
+              "name": "Mur abattu de Décarabian",
               "quantity": 6
             },
             {
-              "name": "Black Bronze Horn",
+              "name": "Corne en bronze noir",
               "quantity": 6
             },
             {
-              "name": "Stained Mask",
+              "name": "Masque sale",
               "quantity": 6
             },
             {
@@ -245049,15 +241867,15 @@
           "level": 60,
           "materials": [
             {
-              "name": "Fragment of Decarabian's Epic",
+              "name": "Fragment dispersé de Décarabian",
               "quantity": 3
             },
             {
-              "name": "Black Bronze Horn",
+              "name": "Corne en bronze noir",
               "quantity": 12
             },
             {
-              "name": "Stained Mask",
+              "name": "Masque sale",
               "quantity": 9
             },
             {
@@ -245070,15 +241888,15 @@
           "level": 70,
           "materials": [
             {
-              "name": "Fragment of Decarabian's Epic",
+              "name": "Fragment dispersé de Décarabian",
               "quantity": 6
             },
             {
-              "name": "Black Crystal Horn",
+              "name": "Corne à cristal noir",
               "quantity": 9
             },
             {
-              "name": "Ominous Mask",
+              "name": "Masque sinistre",
               "quantity": 6
             },
             {
@@ -245091,15 +241909,15 @@
           "level": 80,
           "materials": [
             {
-              "name": "Scattered Piece of Decarabian's Dream",
+              "name": "Rêve brisé de Décarabian",
               "quantity": 4
             },
             {
-              "name": "Black Crystal Horn",
+              "name": "Corne à cristal noir",
               "quantity": 18
             },
             {
-              "name": "Ominous Mask",
+              "name": "Masque sinistre",
               "quantity": 12
             },
             {
@@ -245698,7 +242516,7 @@
       ],
       "weaponRefinementLevel": {
         "1": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 8 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -245710,7 +242528,7 @@
           ]
         },
         "2": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 10 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -245722,7 +242540,7 @@
           ]
         },
         "3": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 12 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -245734,7 +242552,7 @@
           ]
         },
         "4": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 14 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -245746,7 +242564,7 @@
           ]
         },
         "5": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 16 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -246551,15 +243369,15 @@
           "level": 20,
           "materials": [
             {
-              "name": "Fetters of the Dandelion Gladiator",
+              "name": "Entraves du Chevalier du Croc de Lion",
               "quantity": 3
             },
             {
-              "name": "Chaos Device",
+              "name": "Dispositif du chaos",
               "quantity": 3
             },
             {
-              "name": "Divining Scroll",
+              "name": "Parchemin divinatoire",
               "quantity": 2
             },
             {
@@ -246572,15 +243390,15 @@
           "level": 40,
           "materials": [
             {
-              "name": "Chains of the Dandelion Gladiator",
+              "name": "Chaînes du Chevalier du Croc de Lion",
               "quantity": 3
             },
             {
-              "name": "Chaos Device",
+              "name": "Dispositif du chaos",
               "quantity": 12
             },
             {
-              "name": "Divining Scroll",
+              "name": "Parchemin divinatoire",
               "quantity": 8
             },
             {
@@ -246593,15 +243411,15 @@
           "level": 50,
           "materials": [
             {
-              "name": "Chains of the Dandelion Gladiator",
+              "name": "Chaînes du Chevalier du Croc de Lion",
               "quantity": 6
             },
             {
-              "name": "Chaos Circuit",
+              "name": "Circuit du chaos",
               "quantity": 6
             },
             {
-              "name": "Sealed Scroll",
+              "name": "Parchemin sigillé",
               "quantity": 6
             },
             {
@@ -246614,15 +243432,15 @@
           "level": 60,
           "materials": [
             {
-              "name": "Shackles of the Dandelion Gladiator",
+              "name": "Menottes du Chevalier du Croc de Lion",
               "quantity": 3
             },
             {
-              "name": "Chaos Circuit",
+              "name": "Circuit du chaos",
               "quantity": 12
             },
             {
-              "name": "Sealed Scroll",
+              "name": "Parchemin sigillé",
               "quantity": 9
             },
             {
@@ -246635,15 +243453,15 @@
           "level": 70,
           "materials": [
             {
-              "name": "Shackles of the Dandelion Gladiator",
+              "name": "Menottes du Chevalier du Croc de Lion",
               "quantity": 6
             },
             {
-              "name": "Chaos Core",
+              "name": "Noyau du chaos",
               "quantity": 9
             },
             {
-              "name": "Forbidden Curse Scroll",
+              "name": "Parchemin maudit",
               "quantity": 6
             },
             {
@@ -246656,15 +243474,15 @@
           "level": 80,
           "materials": [
             {
-              "name": "Dream of the Dandelion Gladiator",
+              "name": "Idéaux du Chevalier du Croc de Lion",
               "quantity": 4
             },
             {
-              "name": "Chaos Core",
+              "name": "Noyau du chaos",
               "quantity": 18
             },
             {
-              "name": "Forbidden Curse Scroll",
+              "name": "Parchemin maudit",
               "quantity": 12
             },
             {
@@ -258228,7 +255046,7 @@
       ],
       "weaponRefinementLevel": {
         "1": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 8 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -258240,7 +255058,7 @@
           ]
         },
         "2": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 10 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -258252,7 +255070,7 @@
           ]
         },
         "3": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 12 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -258264,7 +255082,7 @@
           ]
         },
         "4": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 14 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -258276,7 +255094,7 @@
           ]
         },
         "5": {
-          "title": "Focus",
+          "title": "Concentration",
           "descriptions": [
             "Augmente le taux CRIT de 16 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
           ],
@@ -341836,604 +338654,6 @@
         }
       }
     }
-  },
-  {
-    "pageTitle": "Sword of Narzissenkreuz (Quest)",
-    "releaseVersion": "4.2",
-    "en": {
-      "name": "Sword of Narzissenkreuz",
-      "type": "SWORD",
-      "rarity": 4,
-      "releaseDate": "2023-11-08",
-      "description": "A sacred blade indwelt with great enough reason and will to create and destroy a universe, or a dream.",
-      "history": "",
-      "sellers": [],
-      "ascensionMaterials": [],
-      "levels": {
-        "1": {
-          "baseAtk": 42
-        },
-        "2": {
-          "baseAtk": 46
-        },
-        "3": {
-          "baseAtk": 49
-        },
-        "4": {
-          "baseAtk": 53
-        },
-        "5": {
-          "baseAtk": 56
-        },
-        "6": {
-          "baseAtk": 60
-        },
-        "7": {
-          "baseAtk": 63
-        },
-        "8": {
-          "baseAtk": 67
-        },
-        "9": {
-          "baseAtk": 70
-        },
-        "10": {
-          "baseAtk": 74
-        },
-        "11": {
-          "baseAtk": 77
-        },
-        "12": {
-          "baseAtk": 81
-        },
-        "13": {
-          "baseAtk": 84
-        },
-        "14": {
-          "baseAtk": 88
-        },
-        "15": {
-          "baseAtk": 91
-        },
-        "16": {
-          "baseAtk": 95
-        },
-        "17": {
-          "baseAtk": 98
-        },
-        "18": {
-          "baseAtk": 102
-        },
-        "19": {
-          "baseAtk": 105
-        },
-        "20": {
-          "baseAtk": 109
-        },
-        "21": {
-          "baseAtk": 138
-        },
-        "22": {
-          "baseAtk": 142
-        },
-        "23": {
-          "baseAtk": 145
-        },
-        "24": {
-          "baseAtk": 149
-        },
-        "25": {
-          "baseAtk": 152
-        },
-        "26": {
-          "baseAtk": 156
-        },
-        "27": {
-          "baseAtk": 159
-        },
-        "28": {
-          "baseAtk": 163
-        },
-        "29": {
-          "baseAtk": 166
-        },
-        "30": {
-          "baseAtk": 170
-        },
-        "31": {
-          "baseAtk": 173
-        },
-        "32": {
-          "baseAtk": 177
-        },
-        "33": {
-          "baseAtk": 180
-        },
-        "34": {
-          "baseAtk": 184
-        },
-        "35": {
-          "baseAtk": 187
-        },
-        "36": {
-          "baseAtk": 191
-        },
-        "37": {
-          "baseAtk": 194
-        },
-        "38": {
-          "baseAtk": 198
-        },
-        "39": {
-          "baseAtk": 201
-        },
-        "40": {
-          "baseAtk": 205
-        },
-        "41": {
-          "baseAtk": 234
-        },
-        "42": {
-          "baseAtk": 238
-        },
-        "43": {
-          "baseAtk": 241
-        },
-        "44": {
-          "baseAtk": 245
-        },
-        "45": {
-          "baseAtk": 248
-        },
-        "46": {
-          "baseAtk": 252
-        },
-        "47": {
-          "baseAtk": 255
-        },
-        "48": {
-          "baseAtk": 259
-        },
-        "49": {
-          "baseAtk": 262
-        },
-        "50": {
-          "baseAtk": 266
-        },
-        "51": {
-          "baseAtk": 295
-        },
-        "52": {
-          "baseAtk": 299
-        },
-        "53": {
-          "baseAtk": 302
-        },
-        "54": {
-          "baseAtk": 306
-        },
-        "55": {
-          "baseAtk": 309
-        },
-        "56": {
-          "baseAtk": 313
-        },
-        "57": {
-          "baseAtk": 316
-        },
-        "58": {
-          "baseAtk": 320
-        },
-        "59": {
-          "baseAtk": 323
-        },
-        "60": {
-          "baseAtk": 327
-        },
-        "61": {
-          "baseAtk": 356
-        },
-        "62": {
-          "baseAtk": 360
-        },
-        "63": {
-          "baseAtk": 363
-        },
-        "64": {
-          "baseAtk": 367
-        },
-        "65": {
-          "baseAtk": 370
-        },
-        "66": {
-          "baseAtk": 374
-        },
-        "67": {
-          "baseAtk": 377
-        },
-        "68": {
-          "baseAtk": 381
-        },
-        "69": {
-          "baseAtk": 384
-        },
-        "70": {
-          "baseAtk": 388
-        },
-        "71": {
-          "baseAtk": 417
-        },
-        "72": {
-          "baseAtk": 421
-        },
-        "73": {
-          "baseAtk": 424
-        },
-        "74": {
-          "baseAtk": 428
-        },
-        "75": {
-          "baseAtk": 431
-        },
-        "76": {
-          "baseAtk": 435
-        },
-        "77": {
-          "baseAtk": 438
-        },
-        "78": {
-          "baseAtk": 442
-        },
-        "79": {
-          "baseAtk": 445
-        },
-        "80": {
-          "baseAtk": 449
-        },
-        "81": {
-          "baseAtk": 478
-        },
-        "82": {
-          "baseAtk": 482
-        },
-        "83": {
-          "baseAtk": 485
-        },
-        "84": {
-          "baseAtk": 489
-        },
-        "85": {
-          "baseAtk": 492
-        },
-        "86": {
-          "baseAtk": 496
-        },
-        "87": {
-          "baseAtk": 499
-        },
-        "88": {
-          "baseAtk": 503
-        },
-        "89": {
-          "baseAtk": 506
-        },
-        "90": {
-          "baseAtk": 510
-        },
-        "20_ASC": {
-          "baseAtk": 135
-        },
-        "40_ASC": {
-          "baseAtk": 231
-        },
-        "50_ASC": {
-          "baseAtk": 292
-        },
-        "60_ASC": {
-          "baseAtk": 353
-        },
-        "70_ASC": {
-          "baseAtk": 414
-        },
-        "80_ASC": {
-          "baseAtk": 475
-        }
-      },
-      "secondaryAttribute": {
-        "type": "ATK",
-        "levels": {
-          "1": {
-            "atkPercent": "9.0%"
-          },
-          "2": {
-            "atkPercent": "9.0%"
-          },
-          "3": {
-            "atkPercent": "9.0%"
-          },
-          "4": {
-            "atkPercent": "9.0%"
-          },
-          "5": {
-            "atkPercent": "10.5%"
-          },
-          "6": {
-            "atkPercent": "10.5%"
-          },
-          "7": {
-            "atkPercent": "10.5%"
-          },
-          "8": {
-            "atkPercent": "10.5%"
-          },
-          "9": {
-            "atkPercent": "10.5%"
-          },
-          "10": {
-            "atkPercent": "12.3%"
-          },
-          "11": {
-            "atkPercent": "12.3%"
-          },
-          "12": {
-            "atkPercent": "12.3%"
-          },
-          "13": {
-            "atkPercent": "12.3%"
-          },
-          "14": {
-            "atkPercent": "12.3%"
-          },
-          "15": {
-            "atkPercent": "14.1%"
-          },
-          "16": {
-            "atkPercent": "14.1%"
-          },
-          "17": {
-            "atkPercent": "14.1%"
-          },
-          "18": {
-            "atkPercent": "14.1%"
-          },
-          "19": {
-            "atkPercent": "14.1%"
-          },
-          "20": {
-            "atkPercent": "15.9%"
-          },
-          "21": {
-            "atkPercent": "15.9%"
-          },
-          "22": {
-            "atkPercent": "15.9%"
-          },
-          "23": {
-            "atkPercent": "15.9%"
-          },
-          "24": {
-            "atkPercent": "15.9%"
-          },
-          "25": {
-            "atkPercent": "17.7%"
-          },
-          "26": {
-            "atkPercent": "17.7%"
-          },
-          "27": {
-            "atkPercent": "17.7%"
-          },
-          "28": {
-            "atkPercent": "17.7%"
-          },
-          "29": {
-            "atkPercent": "17.7%"
-          },
-          "30": {
-            "atkPercent": "19.5%"
-          },
-          "31": {
-            "atkPercent": "19.5%"
-          },
-          "32": {
-            "atkPercent": "19.5%"
-          },
-          "33": {
-            "atkPercent": "19.5%"
-          },
-          "34": {
-            "atkPercent": "19.5%"
-          },
-          "35": {
-            "atkPercent": "21.4%"
-          },
-          "36": {
-            "atkPercent": "21.4%"
-          },
-          "37": {
-            "atkPercent": "21.4%"
-          },
-          "38": {
-            "atkPercent": "21.4%"
-          },
-          "39": {
-            "atkPercent": "21.4%"
-          },
-          "40": {
-            "atkPercent": "23.2%"
-          },
-          "41": {
-            "atkPercent": "23.2%"
-          },
-          "42": {
-            "atkPercent": "23.2%"
-          },
-          "43": {
-            "atkPercent": "23.2%"
-          },
-          "44": {
-            "atkPercent": "23.2%"
-          },
-          "45": {
-            "atkPercent": "25.0%"
-          },
-          "46": {
-            "atkPercent": "25.0%"
-          },
-          "47": {
-            "atkPercent": "25.0%"
-          },
-          "48": {
-            "atkPercent": "25.0%"
-          },
-          "49": {
-            "atkPercent": "25.0%"
-          },
-          "50": {
-            "atkPercent": "26.8%"
-          },
-          "51": {
-            "atkPercent": "26.8%"
-          },
-          "52": {
-            "atkPercent": "26.8%"
-          },
-          "53": {
-            "atkPercent": "26.8%"
-          },
-          "54": {
-            "atkPercent": "26.8%"
-          },
-          "55": {
-            "atkPercent": "28.6%"
-          },
-          "56": {
-            "atkPercent": "28.6%"
-          },
-          "57": {
-            "atkPercent": "28.6%"
-          },
-          "58": {
-            "atkPercent": "28.6%"
-          },
-          "59": {
-            "atkPercent": "28.6%"
-          },
-          "60": {
-            "atkPercent": "30.4%"
-          },
-          "61": {
-            "atkPercent": "30.4%"
-          },
-          "62": {
-            "atkPercent": "30.4%"
-          },
-          "63": {
-            "atkPercent": "30.4%"
-          },
-          "64": {
-            "atkPercent": "30.4%"
-          },
-          "65": {
-            "atkPercent": "32.3%"
-          },
-          "66": {
-            "atkPercent": "32.3%"
-          },
-          "67": {
-            "atkPercent": "32.3%"
-          },
-          "68": {
-            "atkPercent": "32.3%"
-          },
-          "69": {
-            "atkPercent": "32.3%"
-          },
-          "70": {
-            "atkPercent": "34.1%"
-          },
-          "71": {
-            "atkPercent": "34.1%"
-          },
-          "72": {
-            "atkPercent": "34.1%"
-          },
-          "73": {
-            "atkPercent": "34.1%"
-          },
-          "74": {
-            "atkPercent": "34.1%"
-          },
-          "75": {
-            "atkPercent": "35.9%"
-          },
-          "76": {
-            "atkPercent": "35.9%"
-          },
-          "77": {
-            "atkPercent": "35.9%"
-          },
-          "78": {
-            "atkPercent": "35.9%"
-          },
-          "79": {
-            "atkPercent": "35.9%"
-          },
-          "80": {
-            "atkPercent": "37.7%"
-          },
-          "81": {
-            "atkPercent": "37.7%"
-          },
-          "82": {
-            "atkPercent": "37.7%"
-          },
-          "83": {
-            "atkPercent": "37.7%"
-          },
-          "84": {
-            "atkPercent": "37.7%"
-          },
-          "85": {
-            "atkPercent": "39.5%"
-          },
-          "86": {
-            "atkPercent": "39.5%"
-          },
-          "87": {
-            "atkPercent": "39.5%"
-          },
-          "88": {
-            "atkPercent": "39.5%"
-          },
-          "89": {
-            "atkPercent": "39.5%"
-          },
-          "90": {
-            "atkPercent": "41.3%"
-          },
-          "20_ASC": {
-            "atkPercent": "15.9%"
-          },
-          "40_ASC": {
-            "atkPercent": "23.2%"
-          },
-          "50_ASC": {
-            "atkPercent": "26.8%"
-          },
-          "60_ASC": {
-            "atkPercent": "30.4%"
-          },
-          "70_ASC": {
-            "atkPercent": "34.1%"
-          },
-          "80_ASC": {
-            "atkPercent": "37.7%"
-          }
-        }
-      }
-    },
-    "fr": null
   },
   {
     "pageTitle": "Sword of Narzissenkreuz",

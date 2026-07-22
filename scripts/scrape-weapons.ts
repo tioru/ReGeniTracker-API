@@ -277,16 +277,17 @@ function slugify(title: string): string {
 
 // ── HTML helpers (repris/adaptés de scrape-enemies.ts) ────────────────────────
 
-function extractSectionHtml(html: string, id: string): string | null {
-  const marker = `id="${id}"`;
-  const idx = html.indexOf(marker);
+function extractSectionHtml(html: string, id: string, idPattern?: RegExp): string | null {
+  const match = idPattern ? idPattern.exec(html) : null;
+  const idx = idPattern ? (match ? match.index : -1) : html.indexOf(`id="${id}"`);
   if (idx === -1) return null;
 
   const lastH2Before = html.lastIndexOf('<h2', idx);
   const lastH3Before = html.lastIndexOf('<h3', idx);
   const isH2 = lastH2Before > lastH3Before;
 
-  const searchFrom = idx + marker.length;
+  const markerLength = idPattern ? (match?.[0].length ?? 0) : `id="${id}"`.length;
+  const searchFrom = idx + markerLength;
   const nextH2 = html.indexOf('<h2', searchFrom);
   const nextH3 = html.indexOf('<h3', searchFrom);
   const candidates = isH2 ? [nextH2] : [nextH2, nextH3];
@@ -345,6 +346,17 @@ function parseWeaponPageEn(
   const type = mapWeaponType(fields['type'] ?? '');
   const rarity = parseInt(fields['quality'] ?? '', 10);
   if (!type || Number.isNaN(rarity)) return null;
+
+  // Armes retirées avant la sortie globale (1.0) — ex: Amber Catalyst, Ebony
+  // Bow, Quartz — encore documentées sur le wiki EN (catégories "CBT..."/
+  // "Unreleased Content") mais jamais sorties en FR ni obtenables en jeu.
+  // Le champ infobox "|obtain = Unreleased" les identifie de façon fiable
+  // (vérifié : les armes normales ont "Wishes", "Quest", etc., jamais cette
+  // valeur), donc on les exclut ici plutôt que de les scraper pour rien.
+  if ((fields['obtain'] ?? '').trim() === 'Unreleased') {
+    console.log(`⏭️  "${pageTitle}": arme non sortie (obtain=Unreleased), ignorée.`);
+    return null;
+  }
 
   const versionMatch = /\{\{Change History\|([^}|]+)/.exec(content);
 
@@ -470,10 +482,21 @@ function buildEnRefinementLevels(
   return ranks;
 }
 
+// Le nom (fan-made, pas une donnée officielle du jeu) donné à un passif d'arme
+// n'est pas toujours traduit sur le wiki FR alors que sa description l'est
+// bien (constaté sur toute la série d'armes "Royal" : champ wikitext
+// |effet = Focus, jamais corrigé par les contributeurs FR). Table de
+// correspondance à compléter si de nouveaux cas apparaissent lors d'un futur
+// scraping — appliquée systématiquement, donc pérenne d'un run à l'autre.
+const FR_PASSIVE_TITLE_FIXES: Record<string, string> = {
+  Focus: 'Concentration',
+};
+
 function buildFrRefinementLevels(
   fields: Record<string, string>,
 ): Record<string, WeaponRefinementRankData> | undefined {
-  const passive = cleanWikitext(fields['effet'] ?? '');
+  const rawPassive = cleanWikitext(fields['effet'] ?? '');
+  const passive = FR_PASSIVE_TITLE_FIXES[rawPassive] ?? rawPassive;
   const effectRaw = fields['effet_desc'];
   if (!passive || !effectRaw) return undefined;
 
@@ -705,8 +728,15 @@ function parseFrStatsTable(content: string): FrStatsTable {
 
 // ── FR: Élévation (HTML rendu) — utilisé pour les noms FR ET en repli EN ────
 
+// Le wiki FR est incohérent sur le titre de cette section : selon la page on
+// trouve "Élévation" (singulier), "Élévations" (pluriel), voire "Elevation"
+// (sans accent du tout) — constaté respectivement sur "Grande épée céleste",
+// "Épée de Favonius"/"Guisarme stellaire (prototype)", et "Lumière du
+// faucheur". D'où une regex tolérante plutôt qu'une recherche exacte.
+const FR_ELEVATION_ID_PATTERN = /id="[EÉ]l[ée]vations?"/;
+
 function parseFrElevationHtml(html: string): AscensionTier[] {
-  const section = extractSectionHtml(html, 'Élévation');
+  const section = extractSectionHtml(html, '', FR_ELEVATION_ID_PATTERN);
   if (!section) return [];
 
   const $ = cheerio.load(section);
@@ -1127,6 +1157,7 @@ async function fetchAllWeaponPages(): Promise<RawWeaponEn[]> {
         if (frTitle) existing.frTitle = frTitle;
         continue;
       }
+
       const content: string = page?.revisions?.[0]?.slots?.main?.content ?? '';
       const parsed = parseWeaponPageEn(page.title, content, frTitle);
       if (parsed) byPageTitle.set(page.title, parsed);
@@ -1137,7 +1168,56 @@ async function fetchAllWeaponPages(): Promise<RawWeaponEn[]> {
     await sleep(500);
   } while (continueParams);
 
-  return Array.from(byPageTitle.values());
+  return filterOutQuestExclusiveWeapons(Array.from(byPageTitle.values()));
+}
+
+// Variantes narratives d'une même arme liées à une quête (ex: "Prized Isshin
+// Blade (Shattered)"/"(Awakened)", "Sword of Narzissenkreuz (Quest)") :
+// jamais d'ascension possible, jamais de page FR, et partagent souvent le
+// même champ infobox "title" que la vraie arme (source du bug de collision
+// de nom de fichier corrigé par ailleurs). Le wiki les catégorise de façon
+// fiable sous "Quest-Exclusive Weapons" (contrairement à la vraie arme
+// elle-même). Requête dédiée plutôt que combinée à
+// fetchRawWeaponPages : constaté empiriquement que prop=categories combiné à
+// generator=categorymembers+prop=revisions|langlinks sur un gros lot ne
+// renvoie pas les catégories de façon fiable (silencieusement absentes pour
+// certaines pages, sans que "continue" ne le signale) — repris du pattern
+// déjà utilisé par resolveFrMaterialNamesToEnglish (requêtes par lot sur des
+// titres explicites, plus robuste).
+async function filterOutQuestExclusiveWeapons(raw: RawWeaponEn[]): Promise<RawWeaponEn[]> {
+  const questExclusive = new Set<string>();
+  const chunkSize = 50;
+
+  for (let i = 0; i < raw.length; i += chunkSize) {
+    const chunk = raw.slice(i, i + chunkSize);
+    try {
+      const response = await axios.get(EN_API_URL, {
+        params: {
+          action: 'query',
+          titles: chunk.map((w) => w.pageTitle).join('|'),
+          prop: 'categories',
+          clcategories: 'Category:Quest-Exclusive Weapons',
+          cllimit: 'max',
+          format: 'json',
+          formatversion: '2',
+        },
+        headers: HTTP_HEADERS,
+        httpsAgent,
+      });
+      const pages = response.data?.query?.pages ?? [];
+      for (const page of pages) {
+        if (page.categories?.length) questExclusive.add(page.title);
+      }
+    } catch (err) {
+      console.warn(`⚠️  Échec de la vérification "Quest-Exclusive Weapons" pour un lot d'armes: ${err}`);
+    }
+    await sleep(300);
+  }
+
+  for (const title of questExclusive) {
+    console.log(`⏭️  "${title}": variante de quête (Quest-Exclusive Weapons), ignorée.`);
+  }
+  return raw.filter((w) => !questExclusive.has(w.pageTitle));
 }
 
 // ── Pipeline: enrichissement par arme (EN + FR) ──────────────────────────────
@@ -1329,10 +1409,31 @@ function writeWeaponFiles(weapons: CachedWeapon[], versionFilter?: string[]) {
     ? weapons.filter((w) => versionFilter.includes(w.releaseVersion))
     : weapons;
 
+  // Deux pages wiki distinctes peuvent partager le même champ infobox
+  // "title" (constaté sur les étapes narratives "Prized Isshin Blade
+  // (Shattered)"/"(Awakened)", ou sur "Sword of Narzissenkreuz (Quest)" vs
+  // la vraie arme) : sans ce garde-fou, elles génèrent le même nom de
+  // fichier et s'écrasent silencieusement l'une l'autre. On repère les
+  // collisions par nom de fichier et on retombe sur le titre de PAGE
+  // (unique par construction, cf. byPageTitle dans fetchAllWeaponPages) pour
+  // les entrées concernées.
+  const filenameCounts = new Map<string, number>();
+  for (const weapon of filtered) {
+    const filename = `${slugify(weapon.en.name)}.json`;
+    filenameCounts.set(filename, (filenameCounts.get(filename) ?? 0) + 1);
+  }
+
   let written = 0;
   let skippedFr = 0;
   for (const weapon of filtered) {
-    const filename = `${slugify(weapon.en.name)}.json`;
+    const nameFilename = `${slugify(weapon.en.name)}.json`;
+    const collides = (filenameCounts.get(nameFilename) ?? 0) > 1;
+    const filename = collides ? `${slugify(weapon.pageTitle)}.json` : nameFilename;
+    if (collides) {
+      console.warn(
+        `⚠️  "${weapon.en.name}" (page "${weapon.pageTitle}") : nom de fichier en collision avec une autre arme du même nom, repli sur le titre de page → ${filename}`,
+      );
+    }
 
     fs.writeFileSync(
       path.join(enDir, filename),
