@@ -1,0 +1,58 @@
+{
+  "name": "Palais de l'étang",
+  "domainType": "Domaine à usage unique",
+  "location": {
+    "mainLocation": "Inazuma",
+    "subLocation": "Île de Watatsumi"
+  },
+  "description": "They say that long ago, seawater had yet to fill this pool. The moonlight was brighter back then, and it filled the pool instead, flowing freely like quicksilver.",
+  "recommendedElements": [
+    "Pyro",
+    "Electro",
+    "Cryo",
+    "Anemo"
+  ],
+  "releaseVersion": "2.1",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Palais de l'étang I",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Nobushi: Hitsukeban",
+              "number": 1
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "",
+          "enemies": [
+            {
+              "name": "Mirror Maiden",
+              "number": 1
+            },
+            {
+              "name": "Treasure Hoarders: Pugilist",
+              "number": 1
+            },
+            {
+              "name": "Treasure Hoarders: Cryo Potioneer",
+              "number": 2
+            },
+            {
+              "name": "Treasure Hoarders: Pyro Potioneer",
+              "number": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "name": "Ancienne tour de guet",
+  "domainType": "Domaine de forge",
+  "location": {
+    "mainLocation": "Natlan",
+    "subLocation": "Coatepec Mountain"
+  },
+  "description": "Legend has it that in ancient times, the colossal beasts that roamed the land had a civilization of their own. After exploring the entirety of the land and surrounding sea, they built these structures in an attempt to cast their gaze upon the even wider world beyond. But these wise beasts have long since vanished, and in the present, no one now knows the true purpose of this place.",
+  "recommendedElements": [
+    "Hydro",
+    "Electro",
+    "Pyro",
+    "Cryo"
+  ],
+  "releaseVersion": "5.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Ombres",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Terreur du cœur sacrificiel flamboyant"
+        },
+        {
+          "quality": 3,
+          "name": "Hésitation du cœur sacrificiel flamboyant"
+        },
+        {
+          "quality": 4,
+          "name": "Résolution du cœur sacrificiel flamboyant"
+        },
+        {
+          "quality": 5,
+          "name": "Splendeur du cœur sacrificiel flamboyant"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Observation",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Décadence délirante du seigneur sacré"
+        },
+        {
+          "quality": 3,
+          "name": "Désolation délirante du seigneur sacré"
+        },
+        {
+          "quality": 4,
+          "name": "Attitude délirante du seigneur sacré"
+        },
+        {
+          "quality": 5,
+          "name": "Divinité délirante du seigneur sacré"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Estimation",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Considération mystique du vent nocturne"
+        },
+        {
+          "quality": 3,
+          "name": "Prémonition mystique du vent nocturne"
+        },
+        {
+          "quality": 4,
+          "name": "Augure mystique du vent nocturne"
+        },
+        {
+          "quality": 5,
+          "name": "Splendeur du cœur sacrificiel flamboyant"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Ancienne tour de guet I",
+      "teamLevelRecommanded": 15,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1125
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 10
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Yumkasaur Whelp",
+              "number": 4,
+              "level": 15
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Yumkasaurus",
+              "number": 1,
+              "level": 15
+            },
+            {
+              "name": "Yumkasaur Whelp",
+              "number": 2,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Ancienne tour de guet II",
+      "teamLevelRecommanded": 36,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1550
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Swiftstep Seeker",
+              "number": 2,
+              "level": 36
+            },
+            {
+              "name": "Swiftstep Armed Courier",
+              "number": 2,
+              "level": 36
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Yumkasaurus Warrior: Whirling Leaves",
+              "number": 1,
+              "level": 36
+            },
+            {
+              "name": "Swiftstep Storm Scout",
+              "number": 2,
+              "level": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Ancienne tour de guet III",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Swiftstep Seeker",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Yumkasaur Whelp",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Yumkasaurus Warrior: Flowing Skyfire",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Yumkasaurus",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Ancienne tour de guet IV",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 1 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Secret Source Automaton: Hunter-Seeker",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

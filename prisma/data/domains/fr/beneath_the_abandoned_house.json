@@ -1,0 +1,22 @@
+{
+  "name": "Sous la maison abandonnée",
+  "domainType": "Domaine de quête",
+  "location": {
+    "mainLocation": "Inazuma",
+    "subLocation": "Narukami Island"
+  },
+  "description": "The trail of the elemental powder leads here, to a lone abandoned building that stands atop a cliff in Araumi. Through the crack in the door, you can vaguely see a trap door lying along the floorboards that leads underground. Perhaps this is a secret Fatui base.",
+  "recommendedElements": [
+    "Pyro",
+    "Electro",
+    "Cryo",
+    "Anemo"
+  ],
+  "releaseVersion": "2.4",
+  "quest": {
+    "name": "Where the Dandelions Find Rest",
+    "type": "World"
+  },
+  "rewards": [],
+  "levels": []
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Chemin sinueux",
+  "domainType": "Domaine à usage unique",
+  "location": {
+    "mainLocation": "Liyue",
+    "subLocation": "Lisha"
+  },
+  "description": "Although Treasure Hoarders have long heard of treasures hidden here, they have yet to discover its location. In this world, the more one clings to delusions, the more quickly they slip through one's fingers. Only when the heart's desires are finally cast aside can the narrow path to peace be found.",
+  "recommendedElements": [
+    "Geo"
+  ],
+  "releaseVersion": "1.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Chemin sinueux I",
+      "teamLevelRecommanded": 50,
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat all opponents within 240 seconds.",
+          "enemies": [
+            {
+              "name": "Pyro Hilichurl Shooter",
+              "number": 2,
+              "level": 50
+            },
+            {
+              "name": "Hilichurl Berserker",
+              "number": 4,
+              "level": 50
+            },
+            {
+              "name": "Cryo Hilichurl Shooter",
+              "number": 1,
+              "level": 50
+            },
+            {
+              "name": "Electro Hilichurl Shooter",
+              "number": 2,
+              "level": 50
+            },
+            {
+              "name": "Rock Shield Hilichurl Guard",
+              "number": 3,
+              "level": 50
+            },
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 1,
+              "level": 50
+            },
+            {
+              "name": "Stonehide Lawachurl",
+              "number": 1,
+              "level": 50
+            },
+            {
+              "name": "Anemo Samachurl",
+              "number": 1,
+              "level": 50
+            },
+            {
+              "name": "Geo Samachurl",
+              "number": 1,
+              "level": 50
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

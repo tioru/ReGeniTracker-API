@@ -1,0 +1,228 @@
+{
+  "name": "Garde de la montagne",
+  "domainType": "Domaine de bénédiction",
+  "location": {
+    "mainLocation": "Liyue",
+    "subLocation": "Bishui Plain"
+  },
+  "description": "Standing proudly over the start of the ridge, these ancient city ruins overlook both north and south, both mountain and river, like a boundary marker. Legend has it that its gates and blessings are only open to those whose hearts are lit with an eternal blaze.",
+  "recommendedElements": [
+    "Hydro",
+    "Cryo",
+    "Geo"
+  ],
+  "releaseVersion": "1.5",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Garde de la montagne I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 10 opponent(s) within 360 seconds",
+          "enemies": [
+            {
+              "name": "Pyro Slime",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Hilichurl Berserker",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 10 opponent(s) within 360 seconds",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Hilichurl Berserker",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "Defeat 10 opponent(s) within 360 seconds",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Garde de la montagne II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 8 opponent(s) within 300 seconds",
+          "enemies": [
+            {
+              "name": "Hilichurl Berserker",
+              "number": 4,
+              "level": 69
+            },
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 1,
+              "level": 69
+            },
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Garde de la montagne III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 10 opponent(s) within 360 seconds",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 3,
+              "level": 80
+            },
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Rock Shieldwall Mitachurl/",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Garde de la montagne IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 2 opponent(s) within 300 seconds",
+          "enemies": [
+            {
+              "name": "Geovishap (Hydro)",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Geovishap (Electro)",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Domaine de formation",
+  "domainType": "Domaine à usage unique",
+  "location": {
+    "mainLocation": "Inazuma",
+    "subLocation": "Île de Yashiori"
+  },
+  "description": "This estate once belonged to a lieutenant of Orobashi no Mikoto, until he, the body of his god, and the sky alike were rent open by a flash of lightning.",
+  "recommendedElements": [
+    "Pyro",
+    "Electro",
+    "Cryo",
+    "Anemo"
+  ],
+  "releaseVersion": "2.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Domaine de formation I",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 10 enemies.",
+          "enemies": [
+            {
+              "name": "Kairagi: Dancing Thunder",
+              "number": 1
+            },
+            {
+              "name": "Kairagi: Fiery Might",
+              "number": 1
+            },
+            {
+              "name": "Treasure Hoarders: Hydro Potioneer",
+              "number": 2
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 10 enemies.",
+          "enemies": [
+            {
+              "name": "Nobushi: Hitsukeban",
+              "number": 2
+            },
+            {
+              "name": "Nobushi: Kikouban",
+              "number": 2
+            },
+            {
+              "name": "Treasure Hoarders: Hydro Potioneer",
+              "number": 1
+            },
+            {
+              "name": "Treasure Hoarders: Electro Potioneer",
+              "number": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

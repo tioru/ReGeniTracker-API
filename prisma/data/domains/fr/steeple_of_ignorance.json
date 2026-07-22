@@ -1,0 +1,257 @@
+{
+  "name": "Tour de l'ignorance",
+  "domainType": "Domaine de maîtrise",
+  "location": {
+    "mainLocation": "Sumeru",
+    "subLocation": "Lokapala Jungle"
+  },
+  "description": "In the ancient past, man-made towers that could touch the skies were built all across the land. Though human hearts flowed downward, their souls aspired toward the high heavens. These towers would always fall, or collapse under their own weight and plummet into the depths. However, if one were to look at things at a grander scale, the heavens and earth are as one &mdash; no direction is truly different from another.",
+  "recommendedElements": [
+    "Dendro",
+    "Electro",
+    "Pyro",
+    "Hydro"
+  ],
+  "releaseVersion": "3.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Pleine lune",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de l'Admonestation"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de l'Admonestation"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de l'Admonestation"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Trait d'esprit",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de l'Ingénuité"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de l'Ingénuité"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de l'Ingénuité"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Discipline",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de l'Usage"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de l'Usage"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de l'Usage"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Tour de l'ignorance I",
+      "teamLevelRecommanded": 38,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1575
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 2 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Ruin Guard",
+              "number": 1,
+              "level": 38
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 2 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Ruin Drake: Earthguard",
+              "number": 1,
+              "level": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Tour de l'ignorance II",
+      "teamLevelRecommanded": 54,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1800
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 3 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Ruin Destroyer",
+              "number": 1,
+              "level": 54
+            },
+            {
+              "name": "Ruin Scout",
+              "number": 1,
+              "level": 54
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 3 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Ruin Drake: Earthguard",
+              "number": 1,
+              "level": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Tour de l'ignorance III",
+      "teamLevelRecommanded": 71,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2050
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 2 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Ruin Drake: Earthguard",
+              "number": 1,
+              "level": 71
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 2 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Ruin Drake: Skywatch",
+              "number": 1,
+              "level": 71
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Tour de l'ignorance IV",
+      "teamLevelRecommanded": 88,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2375
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 2 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Ruin Drake: Earthguard",
+              "number": 1,
+              "level": 88
+            },
+            {
+              "name": "Ruin Drake: Skywatch",
+              "number": 1,
+              "level": 88
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

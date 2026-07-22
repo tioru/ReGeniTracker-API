@@ -1,0 +1,259 @@
+{
+  "name": "Pépinière de cécilias",
+  "domainType": "Domaine de forge",
+  "location": {
+    "mainLocation": "Mondstadt",
+    "subLocation": "Windwail Highland"
+  },
+  "description": "The Cecilia flowers that only grow on high cliffs once bloomed in the greenhouses here. The ancient civilization that once enjoyed the scent of the Cecilia was lost, and so too was the sea of white flowers.",
+  "recommendedElements": [
+    "Electro"
+  ],
+  "releaseVersion": "1.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Ville de réflexions",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Tuile cassée de Décarabian"
+        },
+        {
+          "quality": 3,
+          "name": "Mur abattu de Décarabian"
+        },
+        {
+          "quality": 4,
+          "name": "Fragment dispersé de Décarabian"
+        },
+        {
+          "quality": 5,
+          "name": "Rêve brisé de Décarabian"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Vallée submergée",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Dent de lait du Loup boréal"
+        },
+        {
+          "quality": 3,
+          "name": "Croc brisé du Loup boréal"
+        },
+        {
+          "quality": 4,
+          "name": "Croc fendu du Loup boréal"
+        },
+        {
+          "quality": 5,
+          "name": "Nostalgie du Loup boréal"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Capitale assoiffée",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Entraves du Chevalier du Croc de Lion"
+        },
+        {
+          "quality": 3,
+          "name": "Chaînes du Chevalier du Croc de Lion"
+        },
+        {
+          "quality": 4,
+          "name": "Menottes du Chevalier du Croc de Lion"
+        },
+        {
+          "quality": 5,
+          "name": "Idéaux du Chevalier du Croc de Lion"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Pépinière de cécilias I",
+      "teamLevelRecommanded": 15,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1125
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 10
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 20 enemies. Time between kills cannot exceed 20 seconds.",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 19,
+              "level": 15
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 1,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Pépinière de cécilias II",
+      "teamLevelRecommanded": 36,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1550
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 23 enemies. Time between kills cannot exceed 25 seconds.",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 12,
+              "level": 36
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 3,
+              "level": 36
+            },
+            {
+              "name": "Hilichurl Fighter",
+              "number": 8,
+              "level": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Pépinière de cécilias III",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 22 enemies. Time between kills cannot exceed 50 seconds.",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 13,
+              "level": 59
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 6,
+              "level": 59
+            },
+            {
+              "name": "Hydro Samachurl",
+              "number": 3,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Pépinière de cécilias IV",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 8 enemies. Time between kills cannot exceed 40 seconds.",
+          "enemies": [
+            {
+              "name": "Large Hydro Slime",
+              "number": 8,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 2 enemies. Time between kills cannot exceed 80 seconds.",
+          "enemies": [
+            {
+              "name": "Fatui Pyro Agent",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

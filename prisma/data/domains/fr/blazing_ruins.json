@@ -1,0 +1,272 @@
+{
+  "name": "Ruines flamboyantes",
+  "domainType": "Domaine de maîtrise",
+  "location": {
+    "mainLocation": "Natlan",
+    "subLocation": "Coatepec Mountain"
+  },
+  "description": "In that era, when people had yet to attain true mastery of the flames, there were sages in all corners of the world who pondered the fire and sought to fathom its mysteries. It is said that these ruins are all that is left of what was once a ring-shaped ceremonial site. Here, these sages attempted to perfect the rituals required to transform phlogiston. Among the heroes who later followed the mighty one into the belly of the volcano, there were several who once trained in this place.",
+  "recommendedElements": [
+    "Dendro",
+    "Electro",
+    "Anemo",
+    "Hydro"
+  ],
+  "releaseVersion": "5.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Reconversion",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de la Compétition"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de la Compétition"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de la Compétition"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Illusions",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement du Petit bois"
+        },
+        {
+          "quality": 3,
+          "name": "Guide du Petit bois"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie du Petit bois"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Retournement",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement du Conflit"
+        },
+        {
+          "quality": 3,
+          "name": "Guide du Conflit"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie du Conflit"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Ruines flamboyantes I",
+      "teamLevelRecommanded": 38,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1575
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Tepetlisaur Whelp",
+              "number": 4,
+              "level": 38
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Tepetlisaurus",
+              "number": 1,
+              "level": 38
+            },
+            {
+              "name": "Tepetlisaur Whelp",
+              "number": 2,
+              "level": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Ruines flamboyantes II",
+      "teamLevelRecommanded": 54,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1800
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Forged Sand Interrogator",
+              "number": 2,
+              "level": 54
+            },
+            {
+              "name": "Forged Sand Shieldbreaker",
+              "number": 2,
+              "level": 54
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Tepetlisaurus Warrior: Shard Striker",
+              "number": 1,
+              "level": 54
+            },
+            {
+              "name": "Forged Sand Javelineer",
+              "number": 2,
+              "level": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Ruines flamboyantes III",
+      "teamLevelRecommanded": 71,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2050
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Forged Sand Interrogator",
+              "number": 1,
+              "level": 71
+            },
+            {
+              "name": "Tepetlisaur Whelp",
+              "number": 2,
+              "level": 71
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Tepetlisaurus Warrior: Rockbreaker Blade",
+              "number": 1,
+              "level": 71
+            },
+            {
+              "name": "Tepetlisaurus",
+              "number": 2,
+              "level": 71
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Ruines flamboyantes IV",
+      "teamLevelRecommanded": 88,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2375
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 2 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Fluid Avatar of Lava",
+              "number": 2,
+              "level": 88
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

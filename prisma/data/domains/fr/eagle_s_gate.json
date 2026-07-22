@@ -1,0 +1,51 @@
+{
+  "name": "Porte du Faucon",
+  "domainType": "Domaine à usage unique",
+  "location": {
+    "mainLocation": "Mondstadt",
+    "subLocation": "Colline sifflante"
+  },
+  "description": "Both the prideful eagles and noble souls favor transcendent heights apart from the secular world. In days past, those who despised mortal squabbles as the eagles do could find peace of mind in this place.",
+  "recommendedElements": [
+    "Pyro",
+    "Electro"
+  ],
+  "releaseVersion": "1.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Porte du Faucon I",
+      "teamLevelRecommanded": 35,
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat all enemies.",
+          "enemies": [
+            {
+              "name": "Pyro Hilichurl Shooter",
+              "number": 1,
+              "level": 35
+            },
+            {
+              "name": "Electro Hilichurl Shooter",
+              "number": 2,
+              "level": 35
+            },
+            {
+              "name": "Wooden Shieldwall Mitachurl",
+              "number": 1,
+              "level": 35
+            },
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 1,
+              "level": 35
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

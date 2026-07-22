@@ -1,0 +1,157 @@
+{
+  "name": "Couronne épineuse du vent des montagnes",
+  "domainType": "Domaine de bénédiction",
+  "location": {
+    "mainLocation": "Mondstadt",
+    "subLocation": "Windrest Peak"
+  },
+  "description": "In the ages when the thousand winds could still brush against the Temple of Space, the ancient people of Elysium believed that the city-state, eternally sealed within its coffin, would ultimately overcome the destruction wrought by external corruption, flourishing unceasingly like a sacred forest.<br>Yet, all things in this world wax and wane. The dream of Elysium shall never return. What remains in the wind is naught but poetry and blooming flowers.",
+  "recommendedElements": [
+    "Anemo",
+    "Cryo",
+    "Pyro"
+  ],
+  "releaseVersion": "Luna VII",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Couronne épineuse du vent des montagnes I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 3 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 3 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Hydro Hilichurl Rogue",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Couronne épineuse du vent des montagnes II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 1 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Stonehide Lawachurl",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Couronne épineuse du vent des montagnes III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 1 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Ruin Drake: Earthguard",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Couronne épineuse du vent des montagnes IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 2 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Domain Keeper",
+              "number": 2,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

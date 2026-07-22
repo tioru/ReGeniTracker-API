@@ -1,0 +1,296 @@
+{
+  "name": "Palais secret de Lianshan",
+  "domainType": "Domaine de forge",
+  "location": {
+    "mainLocation": "Liyue",
+    "subLocation": "Qiongji Estuary"
+  },
+  "description": "The operation of the Lianshan Formula created endless thunderstorms within the bowels of the mountain. It is said that the rumbling sounds of thunder that one hears outside the domain's gates call out to the curious souls.",
+  "recommendedElements": [
+    "Cryo"
+  ],
+  "releaseVersion": "1.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Autel du nuage d'orage",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Sable lumineux de Guyun"
+        },
+        {
+          "quality": 3,
+          "name": "Roche lustrée de Guyun"
+        },
+        {
+          "quality": 4,
+          "name": "Squelette sacré de Guyun"
+        },
+        {
+          "quality": 5,
+          "name": "Corps divin de Guyun"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Ruines grondantes",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Plomb karstique"
+        },
+        {
+          "quality": 3,
+          "name": "Mercure karstique"
+        },
+        {
+          "quality": 4,
+          "name": "Argent karstique"
+        },
+        {
+          "quality": 5,
+          "name": "Or karstique"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Terrain d'ancien tonnerre",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Grain d'aérosidérite noire"
+        },
+        {
+          "quality": 3,
+          "name": "Éclat d'aérosidérite noire"
+        },
+        {
+          "quality": 4,
+          "name": "Fragment d'aérosidérite noire"
+        },
+        {
+          "quality": 5,
+          "name": "Morceau d'aérosidérite noire"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Palais secret de Lianshan I",
+      "teamLevelRecommanded": 15,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1125
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 10
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 20 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Electro Slime",
+              "number": 15,
+              "level": 15
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 20 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Electro Slime",
+              "number": 3,
+              "level": 15
+            },
+            {
+              "name": "Large Electro Slime",
+              "number": 1,
+              "level": 15
+            },
+            {
+              "name": "Mutant Electro Slime",
+              "number": 1,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Palais secret de Lianshan II",
+      "teamLevelRecommanded": 36,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1550
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 16 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Electro Slime",
+              "number": 7,
+              "level": 36
+            },
+            {
+              "name": "Large Electro Slime",
+              "number": 3,
+              "level": 36
+            },
+            {
+              "name": "Mutant Electro Slime",
+              "number": 3,
+              "level": 36
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 16 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Large Electro Slime",
+              "number": 2,
+              "level": 36
+            },
+            {
+              "name": "Mutant Electro Slime",
+              "number": 1,
+              "level": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Palais secret de Lianshan III",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 10 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Large Electro Slime",
+              "number": 6,
+              "level": 59
+            },
+            {
+              "name": "Mutant Electro Slime",
+              "number": 3,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 10 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Fatui Electro Cicin Mage",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Palais secret de Lianshan IV",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 8 opponents within 480 seconds.",
+          "enemies": [
+            {
+              "name": "Large Electro Slime",
+              "number": 4,
+              "level": 80
+            },
+            {
+              "name": "Mutant Electro Slime",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Fatui Electro Cicin Mage",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

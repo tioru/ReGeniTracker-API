@@ -1,0 +1,41 @@
+{
+  "name": "Ruines abandonnées",
+  "domainType": "Domaine à usage unique",
+  "location": {
+    "mainLocation": "Liyue",
+    "subLocation": "Estuaire Qiongji"
+  },
+  "description": "Many of those who come here now do so solely to search for nearby treasure. Just as crowds naturally leave a theater after the curtain falls, this once thriving colony has now been reduced to all but empty remains.",
+  "recommendedElements": [
+    "Geo",
+    "Cryo"
+  ],
+  "releaseVersion": "1.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Ruines abandonnées I",
+      "teamLevelRecommanded": 45,
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat all enemies",
+          "enemies": [
+            {
+              "name": "Stonehide Lawachurl",
+              "number": 1,
+              "level": 45
+            },
+            {
+              "name": "Pyro Abyss Mage",
+              "number": 2,
+              "level": 45
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

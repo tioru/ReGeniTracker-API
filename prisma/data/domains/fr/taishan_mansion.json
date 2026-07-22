@@ -1,0 +1,292 @@
+{
+  "name": "Manoir Taishan",
+  "domainType": "Domaine de maîtrise",
+  "location": {
+    "mainLocation": "Liyue",
+    "subLocation": "Minlin"
+  },
+  "description": "Once, people who sought the path of the adepti had to pass the trials of heavens and earth. Taishan Mansion served as the trial of \"earth.\" Now that the adepti have long departed from this realm, Taishan Mansion has also turned into a common treasure trove.",
+  "recommendedElements": [
+    "Hydro",
+    "Cryo",
+    "Electro"
+  ],
+  "releaseVersion": "1.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Autel des flammes",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de la Prospérité"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de la Prospérité"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de la Prospérité"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Au cœur des flammes",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de la Diligence"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de la Diligence"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de la Diligence"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Cercle brûlant",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de l'Or"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de l'Or"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de l'Or"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Manoir Taishan I",
+      "teamLevelRecommanded": 38,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1575
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 20 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 10,
+              "level": 38
+            },
+            {
+              "name": "Pyro Slime",
+              "number": 5,
+              "level": 38
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 20 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 38
+            },
+            {
+              "name": "Pyro Slime",
+              "number": 4,
+              "level": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Manoir Taishan II",
+      "teamLevelRecommanded": 54,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1800
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 12 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 3,
+              "level": 54
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 54
+            },
+            {
+              "name": "Pyro Slime",
+              "number": 6,
+              "level": 54
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 12 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 54
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Manoir Taishan III",
+      "teamLevelRecommanded": 71,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2050
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 8 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 5,
+              "level": 71
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 71
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 8 opponents within 360 seconds.",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 2,
+              "level": 71
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Manoir Taishan IV",
+      "teamLevelRecommanded": 88,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2375
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 4 opponents within 480 seconds.",
+          "enemies": [
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 2,
+              "level": 88
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 4 opponents within 480 seconds.",
+          "enemies": [
+            {
+              "name": "Fatui Pyro Agent",
+              "number": 1,
+              "level": 88
+            },
+            {
+              "name": "Fatui Pyro Agent",
+              "number": 1,
+              "level": 88
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

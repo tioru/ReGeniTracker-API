@@ -1,0 +1,231 @@
+{
+  "name": "Dénouement des péchés",
+  "domainType": "Domaine de bénédiction",
+  "location": {
+    "mainLocation": "Fontaine",
+    "subLocation": "Belleau Region"
+  },
+  "description": "Legends say that the first Lochknight concealed themselves in the remote wilderness with the Lochfolk, intending to use self-exile and rigorous training in an attempt to repay a sin fated to be beyond redemption. Now, the land has long returned to deathly silence, with the long chill winds still blowing through the deserted valley.",
+  "recommendedElements": [
+    "Hydro",
+    "Pyro",
+    "Cryo",
+    "Anemo"
+  ],
+  "releaseVersion": "4.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Dénouement des péchés I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Recon Log Mek - Ousia",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Recon Log Mek - Ousia",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Arithmetic Enhancer Mek - Ousia",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Dénouement des péchés II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Recon Log Mek - Ousia",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Arithmetic Enhancer Mek - Ousia",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Recon Log Mek - Ousia",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Suppression Specialist Mek - Ousia",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Dénouement des péchés III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Construction Specialist Mek - Ousia",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Geological Survey Mek - Ousia",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Arithmetic Enhancer Mek - Ousia",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Suppression Specialist Mek - Ousia",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Recon Log Mek - Ousia",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Dénouement des péchés IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Geological Survey Mek - Ousia",
+              "number": 2,
+              "level": 90
+            },
+            {
+              "name": "Construction Specialist Mek - Ousia",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Suppression Specialist Mek - Ousia",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Annihilation Specialist Mek - Ousia",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

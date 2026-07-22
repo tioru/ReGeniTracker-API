@@ -1,0 +1,19 @@
+{
+  "name": "Usine de vêtements d'Uther",
+  "domainType": "Domaine de quête",
+  "location": {
+    "mainLocation": "Fontaine",
+    "subLocation": "Court of Fontaine Region"
+  },
+  "description": "A suspicious factory located in Fleuve Cendre. It may contain evidence of dishonest business practices on the part of its owner.",
+  "recommendedElements": [
+    "Geo"
+  ],
+  "releaseVersion": "4.5",
+  "quest": {
+    "name": "The Woven and the Cut",
+    "type": "Story"
+  },
+  "rewards": [],
+  "levels": []
+}

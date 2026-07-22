@@ -1,0 +1,21 @@
+{
+  "name": "Ruines mystérieuses",
+  "domainType": "Domaine de quête",
+  "location": {
+    "mainLocation": "Sumeru",
+    "subLocation": "Hypostyle Desert"
+  },
+  "description": "Mysterious ruins that have been hidden deep under layers of sand. An incomprehensible power seems to flow within...",
+  "recommendedElements": [
+    "Pyro",
+    "Electro",
+    "Cryo"
+  ],
+  "releaseVersion": "3.1",
+  "quest": {
+    "name": "Secret of the Scorching Desert",
+    "type": "Archon"
+  },
+  "rewards": [],
+  "levels": []
+}

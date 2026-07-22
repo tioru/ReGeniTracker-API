@@ -1,0 +1,237 @@
+{
+  "name": "Pâle gloire oubliée",
+  "domainType": "Domaine de maîtrise",
+  "location": {
+    "mainLocation": "Fontaine",
+    "subLocation": "Court of Fontaine Region"
+  },
+  "description": "In the past, the great white armada that traversed the seas was Fontaine's supreme pride and glory, for the Mistress of Rivers and Oceans blessed her people with the authority and wish to conquer all the waters of the world. However, this lofty ambition was insufficient to overcome the laws of fate.<br>To this day, on the brass masts are inscribed the words: \"I have conquered the waves of the four seas.\"",
+  "recommendedElements": [
+    "Geo",
+    "Hydro",
+    "Pyro",
+    "Cryo",
+    "Electro"
+  ],
+  "releaseVersion": "4.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Rime rythmique",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de l'Équité"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de l'Équité"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de l'Équité"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Maxime",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de la Justice"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de la Justice"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de la Justice"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Psaume",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de l'Ordre"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de l'Ordre"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de l'Ordre"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Pâle gloire oubliée I",
+      "teamLevelRecommanded": 38,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1575
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 3 enemies in 300 seconds.",
+          "enemies": [
+            {
+              "name": "Shatterstone Breacher Primus",
+              "number": 2,
+              "level": 38
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 3 enemies in 300 seconds.",
+          "enemies": [
+            {
+              "name": "Large Shatterstone Breacher Primus",
+              "number": 1,
+              "level": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Pâle gloire oubliée II",
+      "teamLevelRecommanded": 54,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1800
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 4 enemies in 300 seconds.",
+          "enemies": [
+            {
+              "name": "Overgrown Breacher Primus",
+              "number": 3,
+              "level": 54
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 4 enemies in 300 seconds.",
+          "enemies": [
+            {
+              "name": "Large Overgrown Breacher Primus",
+              "number": 1,
+              "level": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Pâle gloire oubliée III",
+      "teamLevelRecommanded": 71,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2050
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 2 enemies in 300 seconds.",
+          "enemies": [
+            {
+              "name": "Large Shatterstone Breacher Primus",
+              "number": 2,
+              "level": 71
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Pâle gloire oubliée IV",
+      "teamLevelRecommanded": 88,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2375
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 2 enemies in 300 seconds.",
+          "enemies": [
+            {
+              "name": "Large Overgrown Breacher Primus",
+              "number": 2,
+              "level": 88
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
