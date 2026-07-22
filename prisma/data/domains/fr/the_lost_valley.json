@@ -1,0 +1,187 @@
+{
+  "name": "Vallée recluse",
+  "domainType": "Domaine de bénédiction",
+  "location": {
+    "mainLocation": "Liyue",
+    "subLocation": "The Chasm (Area)"
+  },
+  "description": "The ancient ritual grounds were buried beneath the earth amidst a cataclysm that tore heaven and earth asunder before being uplifted by the descent of an alien object, and finally unveiled by a destructive battle that resulted from a betrayal. Nonetheless, those who once frequented this place are no more.",
+  "recommendedElements": [
+    "Pyro",
+    "Electro",
+    "Geo",
+    "Anemo"
+  ],
+  "releaseVersion": "2.6",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Vallée recluse I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 2 opponents within 360 seconds",
+          "enemies": [
+            {
+              "name": "Ruin Guard",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Ruin Destroyer",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Vallée recluse II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 4 opponents within 360 seconds",
+          "enemies": [
+            {
+              "name": "Ruin Guard",
+              "number": 1,
+              "level": 69
+            },
+            {
+              "name": "Ruin Scout",
+              "number": 1,
+              "level": 69
+            },
+            {
+              "name": "Ruin Cruiser",
+              "number": 1,
+              "level": 69
+            },
+            {
+              "name": "Ruin Destroyer",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Vallée recluse III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 5 opponents within 360 seconds",
+          "enemies": [
+            {
+              "name": "Ruin Scout",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Ruin Cruiser",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Ruin Destroyer",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Vallée recluse IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 3 opponents within 360 seconds",
+          "enemies": [
+            {
+              "name": "Ruin Grader",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Ruin Cruiser",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Ruin Destroyer",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "name": "Cour Momiji",
+  "domainType": "Domaine de bénédiction",
+  "location": {
+    "mainLocation": "Inazuma",
+    "subLocation": "Yashiori Island"
+  },
+  "description": "This court is ever a silent scene of falling red leaves. Perhaps lost causes and unforgettable loves may follow the veins of the earth and coalesce into the fruits of the court's white tree.",
+  "recommendedElements": [
+    "Pyro",
+    "Cryo"
+  ],
+  "releaseVersion": "2.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Cour Momiji I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 13 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Electro Hilichurl Grenadier",
+              "number": 3,
+              "level": 59
+            },
+            {
+              "name": "Hilichurl Berserker",
+              "number": 3,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 13 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Electro Slime",
+              "number": 3,
+              "level": 59
+            },
+            {
+              "name": "Electro Hilichurl Shooter",
+              "number": 3,
+              "level": 59
+            },
+            {
+              "name": "Crackling Axe Mitachurl",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Cour Momiji II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 9 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Large Electro Slime",
+              "number": 3,
+              "level": 69
+            },
+            {
+              "name": "Electro Hilichurl Shooter",
+              "number": 3,
+              "level": 69
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 9 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Large Electro Slime",
+              "number": 1,
+              "level": 69
+            },
+            {
+              "name": "Mutant Electro Slime",
+              "number": 1,
+              "level": 69
+            },
+            {
+              "name": "Crackling Axe Mitachurl",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Cour Momiji III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Large Electro Slime",
+              "number": 4,
+              "level": 80
+            },
+            {
+              "name": "Mutant Electro Slime",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Electro Abyss Mage",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Cour Momiji IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 4 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Large Electro Slime",
+              "number": 2,
+              "level": 90
+            },
+            {
+              "name": "Thunderhelm Lawachurl",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Electro Abyss Mage",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "name": "Ville des cascades",
+  "domainType": "Domaine de bénédiction",
+  "location": {
+    "mainLocation": "Fontaine",
+    "subLocation": "Morte Region"
+  },
+  "description": "An ancient ruined city that was once used by a now-bygone secret order as an ad-hoc site of assembly. Now, all that remains to rule the roost are beasts bereft of language or intellect.",
+  "recommendedElements": [
+    "Geo"
+  ],
+  "releaseVersion": "4.3",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Ville des cascades I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 15 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Pyro Slime",
+              "number": 4,
+              "level": 59
+            },
+            {
+              "name": "Electro Slime",
+              "number": 4,
+              "level": 59
+            },
+            {
+              "name": "Cryo Slime",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 15 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Electro Slime",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Sternshield Crab",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Ville des cascades II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 15 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Pyro Slime",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Electro Slime",
+              "number": 4,
+              "level": 69
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 15 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Large Hydro Slime",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Bubbler Seahorse",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Ville des cascades III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Large Electro Slime",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Large Cryo Slime",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Large Electro Slime",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Large Cryo Slime",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Cherubic Sea Hare",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Ville des cascades IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Large Electro Slime",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Large Cryo Slime",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Sternshield Crab",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Cherubic Sea Hare",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Bubbler Seahorse",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

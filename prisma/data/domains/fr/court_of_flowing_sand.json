@@ -1,0 +1,305 @@
+{
+  "name": "Cour des sables mouvants",
+  "domainType": "Domaine de forge",
+  "location": {
+    "mainLocation": "Inazuma",
+    "subLocation": "Narukami Island"
+  },
+  "description": "They say that in antediluvian times now lost to history, there was once a foolish ruler who dreamed of building a high garden in honor of the white sacred tree over the primordial sands. Now, dead silence fills the kingdom built on sand, but the obsessions of the past remain.",
+  "recommendedElements": [
+    "Geo",
+    "Cryo"
+  ],
+  "releaseVersion": "2.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Sables engloutis",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Branche marine de corail"
+        },
+        {
+          "quality": 3,
+          "name": "Branche marine de gemme"
+        },
+        {
+          "quality": 4,
+          "name": "Branche marine de jade"
+        },
+        {
+          "quality": 5,
+          "name": "Branche marine d'or"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Autel des sables",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Sagesse de Narukami"
+        },
+        {
+          "quality": 3,
+          "name": "Joie de Narukami"
+        },
+        {
+          "quality": 4,
+          "name": "Affection de Narukami"
+        },
+        {
+          "quality": 5,
+          "name": "Vaillance de Narukami"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Enseveli dans les sables",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Masque du lieutenant pernicieux"
+        },
+        {
+          "quality": 3,
+          "name": "Masque de la morsure du tigre"
+        },
+        {
+          "quality": 4,
+          "name": "Masque du cornu"
+        },
+        {
+          "quality": 5,
+          "name": "Masque du kijin"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Cour des sables mouvants I",
+      "teamLevelRecommanded": 15,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1125
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 10
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 18 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 10,
+              "level": 15
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 1,
+              "level": 15
+            },
+            {
+              "name": "Pyro Slime",
+              "number": 5,
+              "level": 15
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 15
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Cour des sables mouvants II",
+      "teamLevelRecommanded": 36,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1550
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 10 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Large Hydro Slime",
+              "number": 4,
+              "level": 36
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 1,
+              "level": 36
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 4,
+              "level": 36
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Cour des sables mouvants III",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 8 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Large Hydro Slime",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Large Pyro Slime",
+              "number": 3,
+              "level": 59
+            },
+            {
+              "name": "Hydro Abyss Mage",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Pyro Abyss Mage",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Cour des sables mouvants IV",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 12 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Large Electro Slime",
+              "number": 5,
+              "level": 80
+            },
+            {
+              "name": "Mutant Electro Slime/",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Electro Hilichurl Grenadier",
+              "number": 3,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 12 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Crackling Axe Mitachurl",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Crackling Axe Mitachurl",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

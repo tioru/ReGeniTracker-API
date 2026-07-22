@@ -1,0 +1,82 @@
+{
+  "name": "Ombre du parasol",
+  "domainType": "Domaine à usage unique",
+  "location": {
+    "mainLocation": "Sumeru",
+    "subLocation": "Selve de Lokapala"
+  },
+  "description": "The poets have it that spores, like trees, are connected to each other, and that all fungal beings in the world share a single dream. At the end of that dream, the spores would take on the forms of all things, and that all things would return to the beginning &mdash; return to being one &mdash; and that there would never again be boundaries. But the evolution of Fungi into sentient, locomotive beings was not something that happened in such primordial times. Regardless, this place has become fertile soil for Fungi to thrive.",
+  "recommendedElements": [
+    "Dendro",
+    "Electro"
+  ],
+  "releaseVersion": "3.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Ombre du parasol I",
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat all enemies.",
+          "enemies": [
+            {
+              "name": "Floating Hydro Fungus",
+              "number": 2
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 18 enemies. Time between kills cannot exceed 20 seconds.",
+          "enemies": [
+            {
+              "name": "Floating Dendro Fungus",
+              "number": 3
+            },
+            {
+              "name": "Whirling Electro Fungus",
+              "number": 3
+            },
+            {
+              "name": "Whirling Cryo Fungus",
+              "number": 3
+            },
+            {
+              "name": "Stretchy Pyro Fungus",
+              "number": 3
+            },
+            {
+              "name": "Stretchy Anemo Fungus",
+              "number": 3
+            },
+            {
+              "name": "Stretchy Geo Fungus",
+              "number": 3
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "Defeat 3 enemies. Time between kills cannot exceed 40 seconds.",
+          "enemies": [
+            {
+              "name": "Grounded Hydroshroom",
+              "number": 1
+            },
+            {
+              "name": "Winged Dendroshroom",
+              "number": 1
+            },
+            {
+              "name": "Winged Cryoshroom",
+              "number": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

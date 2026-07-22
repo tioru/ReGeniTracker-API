@@ -1,0 +1,294 @@
+{
+  "name": "Cour violette",
+  "domainType": "Domaine de maîtrise",
+  "location": {
+    "mainLocation": "Inazuma",
+    "subLocation": "Kannazuka"
+  },
+  "description": "Sometime in the ancient past, the mountains rose higher than the skies, and the earth was larger than heaven's dome. But one day, the mirror shattered, and the oceans arose. In these legends, this caused the court of the primeval sakura to become sundered from the other islands.",
+  "recommendedElements": [
+    "Electro"
+  ],
+  "releaseVersion": "2.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Règne violet",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de l'Éphémère"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de l'Éphémère"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de l'Éphémère"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Vallée foudroyée",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de l'Élégance"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de l'Élégance"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de l'Élégance"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Ruines des ronces",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de la Lumière"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de la Lumière"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de la Lumière"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Cour violette I",
+      "teamLevelRecommanded": 38,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1575
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 10 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Hilichurl",
+              "number": 3,
+              "level": 38
+            },
+            {
+              "name": "Electro Hilichurl Grenadier",
+              "number": 3,
+              "level": 38
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 10 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Electro Hilichurl Shooter",
+              "number": 3,
+              "level": 38
+            },
+            {
+              "name": "Crackling Axe Mitachurl",
+              "number": 1,
+              "level": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Cour violette II",
+      "teamLevelRecommanded": 54,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1800
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 8 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Nobushi: Jintouban",
+              "number": 2,
+              "level": 54
+            },
+            {
+              "name": "Treasure Hoarders: Pyro Potioneer",
+              "number": 1,
+              "level": 54
+            },
+            {
+              "name": "Treasure Hoarders: Electro Potioneer",
+              "number": 2,
+              "level": 54
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 8 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Nobushi: Hitsukeban",
+              "number": 1,
+              "level": 54
+            },
+            {
+              "name": "Nobushi: Kikouban",
+              "number": 2,
+              "level": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Cour violette III",
+      "teamLevelRecommanded": 71,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2050
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 10 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Nobushi: Hitsukeban",
+              "number": 2,
+              "level": 71
+            },
+            {
+              "name": "Nobushi: Kikouban",
+              "number": 1,
+              "level": 71
+            },
+            {
+              "name": "Treasure Hoarders: Pyro Potioneer",
+              "number": 3,
+              "level": 71
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 10 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Treasure Hoarders: Electro Potioneer",
+              "number": 3,
+              "level": 71
+            },
+            {
+              "name": "Kairagi: Fiery Might/",
+              "number": 1,
+              "level": 71
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Cour violette IV",
+      "teamLevelRecommanded": 88,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2375
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 8 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Treasure Hoarders: Cryo Potioneer",
+              "number": 6,
+              "level": 88
+            },
+            {
+              "name": "Kairagi: Fiery Might",
+              "number": 1,
+              "level": 88
+            },
+            {
+              "name": "Kairagi: Dancing Thunder",
+              "number": 1,
+              "level": 88
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

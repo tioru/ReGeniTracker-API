@@ -1,0 +1,337 @@
+{
+  "name": "Tour de la fierté",
+  "domainType": "Domaine de forge",
+  "location": {
+    "mainLocation": "Sumeru",
+    "subLocation": "Ashavan Realm"
+  },
+  "description": "It is said that the deserts were once home to three sage-kings, one of whom remained lovely and wise till the very end. They parted ways eventually for the sake of the paradise they sought in their hearts. This place is called a \"tower,\" but in truth was the temporary residence of one of these people when they were building that earthly paradise. If one stretches the past back even further, it was once a small shrine built to avoid the wind and the sand.",
+  "recommendedElements": [
+    "Dendro",
+    "Electro"
+  ],
+  "releaseVersion": "3.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Nuages souillés",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Talisman en cuivre de la rosée"
+        },
+        {
+          "quality": 3,
+          "name": "Talisman en fer de la rosée"
+        },
+        {
+          "quality": 4,
+          "name": "Talisman en argent de la rosée"
+        },
+        {
+          "quality": 5,
+          "name": "Talisman en or de la rosée"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Obsession",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Souvenir du jardin d'oasis"
+        },
+        {
+          "quality": 3,
+          "name": "Gentillesse du jardin d'oasis"
+        },
+        {
+          "quality": 4,
+          "name": "Deuil du jardin d'oasis"
+        },
+        {
+          "quality": 5,
+          "name": "Vérité du jardin d'oasis"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Karma",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Dernier écho du pouvoir brûlant"
+        },
+        {
+          "quality": 3,
+          "name": "Éclat subsistant du pouvoir brûlant"
+        },
+        {
+          "quality": 4,
+          "name": "Rêve dominant du pouvoir brûlant"
+        },
+        {
+          "quality": 5,
+          "name": "Passé glorieux du pouvoir brûlant"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Tour de la fierté I",
+      "teamLevelRecommanded": 15,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1125
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 10
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 12 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Stretchy Pyro Fungus",
+              "number": 2,
+              "level": 15
+            },
+            {
+              "name": "Floating Dendro Fungus",
+              "number": 6,
+              "level": 15
+            },
+            {
+              "name": "Floating Hydro Fungus",
+              "number": 2,
+              "level": 15
+            },
+            {
+              "name": "Whirling Electro Fungus",
+              "number": 2,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Tour de la fierté II",
+      "teamLevelRecommanded": 36,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1550
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 16 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Whirling Cryo Fungus",
+              "number": 4,
+              "level": 36
+            },
+            {
+              "name": "Stretchy Pyro Fungus",
+              "number": 4,
+              "level": 36
+            },
+            {
+              "name": "Stretchy Geo Fungus",
+              "number": 4,
+              "level": 36
+            },
+            {
+              "name": "Floating Dendro Fungus",
+              "number": 2,
+              "level": 36
+            },
+            {
+              "name": "Whirling Electro Fungus",
+              "number": 2,
+              "level": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Tour de la fierté III",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 10 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Stretchy Pyro Fungus",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Whirling Cryo Fungus",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 10 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Stretchy Geo Fungus",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Whirling Electro Fungus",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Floating Dendro Fungus",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "Defeat 10 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Grounded Hydroshroom",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Winged Dendroshroom",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Tour de la fierté IV",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 9 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Floating Hydro Fungus",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Floating Dendro Fungus",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Grounded Hydroshroom",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 9 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Floating Hydro Fungus",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Floating Dendro Fungus",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Grounded Hydroshroom",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Winged Dendroshroom",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

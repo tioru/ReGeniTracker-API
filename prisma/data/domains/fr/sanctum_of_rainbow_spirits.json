@@ -1,0 +1,205 @@
+{
+  "name": "Sanctuaire des esprits arc-en-ciel",
+  "domainType": "Domaine de bénédiction",
+  "location": {
+    "mainLocation": "Natlan",
+    "subLocation": "Toyac Springs"
+  },
+  "description": "It is said that the first sage to learn how to use phlogiston created a place of great purity, and that within this place, warriors were taught to wield the power of prismatic flames and flowing light. Later, even before they were used to resist common enemies, these powers were employed as weapons in conflicts between the tribes. Disheartened by this state of affairs, the Sage of the Stolen Flame withdrew from the world, vanishing from the pages of many tales. Devoid of their original purpose, these empty trial grounds were left behind, along with all those stories that came to be forgotten…",
+  "recommendedElements": [
+    "Anemo",
+    "Cryo",
+    "Pyro",
+    "Electro"
+  ],
+  "releaseVersion": "5.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Sanctuaire des esprits arc-en-ciel I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Koholasaur Whelp",
+              "number": 4,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Koholasaurus",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Koholasaur Whelp",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Sanctuaire des esprits arc-en-ciel II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Flowing Blade Grease-Saw",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Flowing Blade Skirmisher",
+              "number": 2,
+              "level": 69
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Koholasaurus Warrior: Waveshuttler",
+              "number": 1,
+              "level": 69
+            },
+            {
+              "name": "Flowing Blade Harpoon-Thrower",
+              "number": 2,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Sanctuaire des esprits arc-en-ciel III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Flowing Blade Skirmisher",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Koholasaur Whelp",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Koholasaurus Warrior: Reefsplitter",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Koholasaurus",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Sanctuaire des esprits arc-en-ciel IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 3 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Eroding Avatar of Lava",
+              "number": 3,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

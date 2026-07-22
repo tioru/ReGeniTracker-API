@@ -1,0 +1,310 @@
+{
+  "name": "Échos des marées profondes",
+  "domainType": "Domaine de forge",
+  "location": {
+    "mainLocation": "Fontaine",
+    "subLocation": "Court of Fontaine Region"
+  },
+  "description": "Legend speaks of a time in the distant past, when the Sovereign of the Waters had not yet returned from confinement, there was another God King who dreamed of building a prosperous empire out of harmonious music atop the waves. But the great ambition of building a utopia failed to come to fruition, and the arrogance of humanity sunk into their depths along with their pride. The golden melodies long silent, only the cold music of the tides still echoes upon the remains of their grand altars.",
+  "recommendedElements": [
+    "Hydro",
+    "Pyro",
+    "Cryo",
+    "Anemo"
+  ],
+  "releaseVersion": "4.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Ruse robotique",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Fragment d'un accord ancien"
+        },
+        {
+          "quality": 3,
+          "name": "Chapitre d'un accord ancien"
+        },
+        {
+          "quality": 4,
+          "name": "Mouvement d'un accord ancien"
+        },
+        {
+          "quality": 5,
+          "name": "Écho d'un accord ancien"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Artisanat",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Résidu de rosée sacrée pure"
+        },
+        {
+          "quality": 3,
+          "name": "Sublimation de rosée sacrée pure"
+        },
+        {
+          "quality": 4,
+          "name": "Source de rosée sacrée pure"
+        },
+        {
+          "quality": 5,
+          "name": "Essence de rosée sacrée pure"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Artifice",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Gobelet brisé de la mer immaculée"
+        },
+        {
+          "quality": 3,
+          "name": "Gobelet à vin de la mer immaculée"
+        },
+        {
+          "quality": 4,
+          "name": "Gobelet d'argent de la mer immaculée"
+        },
+        {
+          "quality": 5,
+          "name": "Gobelet d'or de la mer immaculée"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Échos des marées profondes I",
+      "teamLevelRecommanded": 15,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1125
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 10
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Treasure Hoarders: Scout",
+              "number": 2,
+              "level": 15
+            },
+            {
+              "name": "Recon Log Mek - Pneuma",
+              "number": 1,
+              "level": 15
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Treasure Hoarders: Hydro Potioneer",
+              "number": 1,
+              "level": 15
+            },
+            {
+              "name": "Recon Log Mek - Pneuma",
+              "number": 2,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Échos des marées profondes II",
+      "teamLevelRecommanded": 36,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1550
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Treasure Hoarders: Scout",
+              "number": 2,
+              "level": 36
+            },
+            {
+              "name": "Geological Survey Mek - Pneuma",
+              "number": 2,
+              "level": 36
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Treasure Hoarders: Hydro Potioneer",
+              "number": 2,
+              "level": 36
+            },
+            {
+              "name": "Construction Specialist Mek - Pneuma",
+              "number": 1,
+              "level": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Échos des marées profondes III",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Fatui Pyro Agent",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Recon Log Mek - Pneuma",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Fatui Electro Cicin Mage",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Assault Specialist Mek - Pneuma",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Échos des marées profondes IV",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Treasure Hoarders: Hydro Potioneer",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Assault Specialist Mek - Pneuma",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Fatui Pyro Agent",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Annihilation Specialist Mek - Pneuma",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

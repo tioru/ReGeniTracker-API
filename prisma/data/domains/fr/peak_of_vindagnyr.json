@@ -1,0 +1,196 @@
+{
+  "name": "Pic de Vindagnyr",
+  "domainType": "Domaine de bénédiction",
+  "location": {
+    "mainLocation": "Mondstadt",
+    "subLocation": "Dragonspine"
+  },
+  "description": "This city entombed in snow once had a proud, romantic name to call its own, just as the mountain itself was once lush and verdant in the ancient past. But after the nail that froze the skies over descended upon this mountain, the festive site where priests ascended to face the heavens can no longer hear its voice, nor will those priests ever return again.",
+  "recommendedElements": [
+    "Pyro"
+  ],
+  "releaseVersion": "1.2",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Pic de Vindagnyr I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 15 opponent(s) within 600 second(s)",
+          "enemies": [
+            {
+              "name": "Cryo Slime",
+              "number": 11,
+              "level": 59
+            },
+            {
+              "name": "Large Cryo Slime",
+              "number": 4,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Pic de Vindagnyr II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 10 opponent(s) within 600 second(s)",
+          "enemies": [
+            {
+              "name": "Cryo Slime",
+              "number": 4,
+              "level": 69
+            },
+            {
+              "name": "Large Cryo Slime",
+              "number": 1,
+              "level": 69
+            },
+            {
+              "name": "Cryo Hilichurl Grenadier",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Ice Shield Hilichurl Guard",
+              "number": 2,
+              "level": 69
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 10 opponent(s) within 600 second(s)",
+          "enemies": [
+            {
+              "name": "Ice Shieldwall Mitachurl",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Pic de Vindagnyr III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) within 600 second(s)",
+          "enemies": [
+            {
+              "name": "Large Cryo Slime",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Ice Shieldwall Mitachurl",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Cryo Hilichurl Grenadier",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) within 600 second(s)",
+          "enemies": [
+            {
+              "name": "Ice Shieldwall Mitachurl",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Pic de Vindagnyr IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 1 opponent(s) within 600 second(s)",
+          "enemies": [
+            {
+              "name": "Frostarm Lawachurl",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

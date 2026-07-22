@@ -1,0 +1,329 @@
+{
+  "name": "Au-dessus des nuages",
+  "domainType": "Domaine de bénédiction",
+  "location": {
+    "mainLocation": "Liyue",
+    "subLocation": "Sea of Clouds"
+  },
+  "description": "Delusions and disappointments of an ancient ambition to lead humanity are gathered here. It refuses to give up on its lofty ambitions, though it is for now consigned to fester in the cavernous depths of Guyun.",
+  "recommendedElements": [
+    "Electro"
+  ],
+  "releaseVersion": "1.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Au-dessus des nuages I",
+      "teamLevelRecommanded": 34,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1525
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 28 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 21,
+              "level": 34
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 1,
+              "level": 34
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 28 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 5,
+              "level": 34
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 1,
+              "level": 34
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Au-dessus des nuages II",
+      "teamLevelRecommanded": 47,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1700
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 22 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Pyro Slime",
+              "number": 5,
+              "level": 47
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 22 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Pyro Slime",
+              "number": 6,
+              "level": 47
+            }
+          ]
+        },
+        {
+          "wave": 3,
+          "description": "Defeat 22 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 2,
+              "level": 47
+            }
+          ]
+        },
+        {
+          "wave": 4,
+          "description": "Defeat 22 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 2,
+              "level": 47
+            },
+            {
+              "name": "Pyro Slime",
+              "number": 4,
+              "level": 47
+            }
+          ]
+        },
+        {
+          "wave": 5,
+          "description": "Defeat 22 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Large Pyro Slime",
+              "number": 1,
+              "level": 47
+            },
+            {
+              "name": "Pyro Slime",
+              "number": 2,
+              "level": 47
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Au-dessus des nuages III",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 20 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Cryo Slime",
+              "number": 15,
+              "level": 59
+            },
+            {
+              "name": "Large Cryo Slime",
+              "number": 4,
+              "level": 59
+            },
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Au-dessus des nuages IV",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 20 enemies while protecting Domain Monolith",
+          "enemies": [
+            {
+              "name": "Hydro Slime",
+              "number": 5,
+              "level": 69
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 6,
+              "level": 69
+            },
+            {
+              "name": "Hilichurl Fighter",
+              "number": 6,
+              "level": 69
+            },
+            {
+              "name": "Hydro Samachurl",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Hydro Abyss Mage",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Au-dessus des nuages V",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 1 opponent(s) within 120 seconds",
+          "enemies": [
+            {
+              "name": "Ruin Guard",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Au-dessus des nuages VI",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 3 opponent(s) within 420 seconds",
+          "enemies": [
+            {
+              "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Fatui Skirmisher - Electrohammer Vanguard",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 3 opponent(s) within 420 seconds",
+          "enemies": [
+            {
+              "name": "Ruin Guard",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "name": "Forteresse de fer en fusion",
+  "domainType": "Domaine de bénédiction",
+  "location": {
+    "mainLocation": "Sumeru",
+    "subLocation": "Gavireh Lajavard"
+  },
+  "description": "Legend has it that the territory of the red desert was marked by an ancient barrier of iron and bronze. The Lord of the Blazing Sun used to set out from here on his chariot to drive away the evil spirits wandering among the grim mountains. However, the gilded nations later sank into the sand and towering parapets of iron and bronze thus faded into oblivion along with their parent nations, leaving only unrecognizable ruins.",
+  "recommendedElements": [
+    "Dendro"
+  ],
+  "releaseVersion": "3.6",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Forteresse de fer en fusion I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 12 enemies in 300 seconds.",
+          "enemies": [
+            {
+              "name": "Hilichurl",
+              "number": 6,
+              "level": 59
+            },
+            {
+              "name": "Hilichurl Fighter",
+              "number": 4,
+              "level": 59
+            },
+            {
+              "name": "Hydro Samachurl",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 1,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Forteresse de fer en fusion II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 9 enemies in 300 seconds.",
+          "enemies": [
+            {
+              "name": "Hilichurl",
+              "number": 3,
+              "level": 69
+            },
+            {
+              "name": "Hilichurl Fighter",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Hydro Samachurl",
+              "number": 1,
+              "level": 69
+            },
+            {
+              "name": "Hilichurl Grenadier",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Anemo Hilichurl Rogue",
+              "number": 1,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Forteresse de fer en fusion III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 enemies in 300 seconds.",
+          "enemies": [
+            {
+              "name": "Hilichurl Fighter",
+              "number": 3,
+              "level": 80
+            },
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 enemies in 300 seconds.",
+          "enemies": [
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 2,
+              "level": 80
+            },
+            {
+              "name": "Hydro Hilichurl Rogue",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Forteresse de fer en fusion IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 4 enemies in 300 seconds.",
+          "enemies": [
+            {
+              "name": "Blazing Axe Mitachurl",
+              "number": 2,
+              "level": 90
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 4 enemies in 300 seconds.",
+          "enemies": [
+            {
+              "name": "Anemo Hilichurl Rogue",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Hydro Hilichurl Rogue",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

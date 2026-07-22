@@ -1,5 +1,6 @@
 // scripts/scrape-domains.ts
 import axios from 'axios';
+import * as cheerio from 'cheerio';
 import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
@@ -298,6 +299,14 @@ function domainTypeLabelFr(rawType: string): string {
       return 'Donjon de la conquête';
     case 'quest':
       return 'Domaine de quête';
+    case 'event':
+      return 'Domaine évènementiel';
+    case 'one-time':
+      return 'Domaine à usage unique';
+    case 'level':
+      return 'Domaine de niveau';
+    case 'special':
+      return 'Domaine spécial';
     default:
       return domainTypeLabel(rawType);
   }
@@ -406,6 +415,11 @@ interface FrDomainPage {
   title: string;
   subLocation: string | null; // région/zone — uniquement présent pour Trounce/quest
   rotations: { name: string; materials: string[] }[]; // dans l'ordre mon/tue/wed
+  // true si issu d'une vraie page FR dédiée (via langlinks) ; false si le nom
+  // provient uniquement du fallback "Other Languages" de la page EN (cf.
+  // parseFrNameFromOtherLanguages) — dans ce cas rotations/subLocation sont
+  // toujours vides et il ne faut pas avertir sur un "tableau non aligné".
+  hasFullPage: boolean;
 }
 
 // Extrait le contenu (texte + listes séparées par des virgules) d'un template
@@ -467,7 +481,36 @@ function parseFrDomainPage(content: string): FrDomainPage {
     title: '', // renseigné séparément (titre de page)
     subLocation: subLocationRaw ? cleanWikitext(subLocationRaw) : null,
     rotations: parseFrRotationsTable(content),
+    hasFullPage: true,
   };
+}
+
+// Fallback pour les domaines sans page FR dédiée (pas de langlink) : la page
+// EN rendue contient tout de même une table "Other Languages" (générée par un
+// module wiki commun à toutes les pages) donnant le nom officiel dans chaque
+// langue, y compris le français. Confirmé sur "A Forest of Change (Domain)"
+// → "Une forêt en mutation". On ne récupère que le nom : le reste de la table
+// (région, rotations, ...) n'existe nulle part côté FR pour ces domaines.
+function parseFrNameFromOtherLanguages(html: string): string | null {
+  const marker = 'id="Other_Languages"';
+  const idx = html.indexOf(marker);
+  if (idx === -1) return null;
+
+  const tableStart = html.indexOf('<table', idx);
+  if (tableStart === -1) return null;
+  const tableEnd = html.indexOf('</table>', tableStart);
+  if (tableEnd === -1) return null;
+
+  const $ = cheerio.load(html.slice(tableStart, tableEnd + '</table>'.length));
+  let frenchName: string | null = null;
+  $('tr').each((_, row) => {
+    const cells = $(row).find('td');
+    if (cells.length < 2) return;
+    if (/^French$/i.test($(cells[0]).text().trim())) {
+      frenchName = $(cells[1]).text().trim();
+    }
+  });
+  return frenchName;
 }
 
 // ── API ───────────────────────────────────────────────────────────────────────
@@ -477,6 +520,32 @@ const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
+}
+
+// Sur un run complet (~270 domaines x 1-2 requêtes), quelques requêtes
+// individuelles échouent de façon transitoire (timeout, hoquet réseau côté
+// Fandom) sans que ce soit un problème de logique — observé en pratique sur
+// des domaines dont la page FR se récupère pourtant sans problème en dehors
+// du run. On retente avant d'abandonner plutôt que de retomber sur le
+// fallback "Other Languages" (ou l'EN) pour une simple erreur transitoire.
+async function withRetry<T>(
+  label: string,
+  fn: () => Promise<T>,
+  attempts = 3,
+): Promise<T> {
+  let lastErr: unknown;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      return await fn();
+    } catch (err) {
+      lastErr = err;
+      if (i < attempts - 1) {
+        console.warn(`⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`);
+        await sleep(800 * (i + 1));
+      }
+    }
+  }
+  throw lastErr;
 }
 
 async function fetchBatch(continueParams?: Record<string, string>): Promise<{
@@ -569,26 +638,83 @@ async function fetchAll(): Promise<RawDomain[]> {
   return Array.from(byPageTitle.values());
 }
 
+async function fetchEnHtml(pageTitle: string): Promise<string> {
+  try {
+    return await withRetry(`fetch HTML "${pageTitle}"`, async () => {
+      const response = await axios.get(EN_API_URL, {
+        params: {
+          action: 'parse',
+          page: pageTitle,
+          prop: 'text',
+          format: 'json',
+          formatversion: '2',
+        },
+        headers: HTTP_HEADERS,
+        httpsAgent,
+      });
+      return response.data?.parse?.text ?? '';
+    });
+  } catch (err) {
+    console.warn(`⚠️  Échec du fetch HTML pour "${pageTitle}" après plusieurs tentatives: ${err}`);
+    return '';
+  }
+}
+
+// Repli quand le langlink groupé (generator=categorymembers + prop=langlinks
+// dans le même appel, cf. fetchBatch) n'a pas été résolu pour une page
+// donnée : MediaWiki peut mêler la continuation de la pagination de
+// catégorie (gcmcontinue) et celle des langlinks (llcontinue) de façon à ce
+// qu'une page du lot précédent ne soit jamais re-proposée avec son
+// langlink — observé en pratique (reproductible sur les mêmes domaines à
+// deux runs complets d'affilée), alors qu'une requête dédiée par page
+// (titles=X) résout le langlink sans problème. On retente donc en dédié
+// avant d'abandonner sur le fallback "Other Languages" (nom seul).
+async function fetchFrTitleDirect(pageTitle: string): Promise<string | null> {
+  try {
+    return await withRetry(`fetch langlink FR "${pageTitle}"`, async () => {
+      const response = await axios.get(EN_API_URL, {
+        params: {
+          action: 'query',
+          titles: pageTitle,
+          prop: 'langlinks',
+          lllang: 'fr',
+          format: 'json',
+          formatversion: '2',
+        },
+        headers: HTTP_HEADERS,
+        httpsAgent,
+      });
+      const page = response.data?.query?.pages?.[0];
+      return page?.langlinks?.[0]?.title ?? null;
+    });
+  } catch (err) {
+    console.warn(`⚠️  Échec du fetch langlink FR pour "${pageTitle}" après plusieurs tentatives: ${err}`);
+    return null;
+  }
+}
+
 async function fetchFrWikitext(frTitle: string): Promise<string | null> {
   try {
-    const response = await axios.get(FR_API_URL, {
-      params: {
-        action: 'query',
-        titles: frTitle,
-        prop: 'revisions',
-        rvprop: 'content',
-        rvslots: 'main',
-        format: 'json',
-        formatversion: '2',
-      },
-      headers: HTTP_HEADERS,
-      httpsAgent,
+    return await withRetry(`fetch wikitext FR "${frTitle}"`, async () => {
+      const response = await axios.get(FR_API_URL, {
+        params: {
+          action: 'query',
+          titles: frTitle,
+          prop: 'revisions',
+          rvprop: 'content',
+          rvslots: 'main',
+          format: 'json',
+          formatversion: '2',
+        },
+        headers: HTTP_HEADERS,
+        httpsAgent,
+      });
+      const page = response.data?.query?.pages?.[0];
+      if (!page || page.missing) return null;
+      return page.revisions?.[0]?.slots?.main?.content ?? null;
     });
-    const page = response.data?.query?.pages?.[0];
-    if (!page || page.missing) return null;
-    return page.revisions?.[0]?.slots?.main?.content ?? null;
   } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext FR pour "${frTitle}": ${err}`);
+    console.warn(`⚠️  Échec du fetch wikitext FR pour "${frTitle}" après plusieurs tentatives: ${err}`);
     return null;
   }
 }
@@ -618,8 +744,10 @@ function buildRotationsOutput(
       } else {
         // Page FR absente ou tableau non aligné avec l'EN (nombre de
         // paliers différent) : on réutilise les noms EN plutôt que de
-        // produire une correspondance incorrecte.
-        if (frPage) {
+        // produire une correspondance incorrecte. Pas d'avertissement pour
+        // le fallback "Other Languages" (hasFullPage: false), qui n'a par
+        // définition jamais de tableau de rotation.
+        if (frPage?.hasFullPage) {
           console.warn(
             `⚠️  "${domain.title}": rotation "${rotation.name}" non traduite (tableau FR non aligné).`,
           );
@@ -722,10 +850,38 @@ function buildDomainOutput(
 async function enrichDomain(domain: RawDomain): Promise<CachedDomain> {
   let frPage: FrDomainPage | null = null;
 
-  if (domain.frTitle) {
-    const frContent = await fetchFrWikitext(domain.frTitle);
+  let frTitle = domain.frTitle;
+
+  if (frTitle) {
+    const frContent = await fetchFrWikitext(frTitle);
     if (frContent) {
-      frPage = { ...parseFrDomainPage(frContent), title: domain.frTitle };
+      frPage = { ...parseFrDomainPage(frContent), title: frTitle };
+    }
+  }
+
+  // Le langlink groupé de fetchBatch n'a rien donné (ou la page FR récupérée
+  // via ce titre s'est révélée introuvable) : on retente une résolution
+  // dédiée par page avant d'abandonner (cf. commentaire de
+  // fetchFrTitleDirect).
+  if (!frPage) {
+    frTitle = await fetchFrTitleDirect(domain.pageTitle);
+    if (frTitle) {
+      const frContent = await fetchFrWikitext(frTitle);
+      if (frContent) {
+        frPage = { ...parseFrDomainPage(frContent), title: frTitle };
+      }
+    }
+  }
+
+  // Toujours pas de page FR dédiée : on tente quand même de récupérer le nom
+  // officiel FR via la table "Other Languages" de la page EN rendue (cf.
+  // commentaire de parseFrNameFromOtherLanguages). Le reste des données FR
+  // (rotations, sous-lieu) reste alors vide et retombe sur les valeurs EN.
+  if (!frPage) {
+    const enHtml = await fetchEnHtml(domain.pageTitle);
+    const frName = enHtml ? parseFrNameFromOtherLanguages(enHtml) : null;
+    if (frName) {
+      frPage = { title: frName, subLocation: null, rotations: [], hasFullPage: false };
     }
   }
 

@@ -1,0 +1,22 @@
+{
+  "name": "Mystères de l'eau",
+  "domainType": "Domaine de quête",
+  "location": {
+    "mainLocation": "Fontaine",
+    "subLocation": "Court of Fontaine Region"
+  },
+  "description": "According to the intelligence you have uncovered, this is where the culprit produces the Sinthe. There might be clues to the serial disappearances case inside.<br>Quickly and carefully explore the place and look for conclusive evidence.",
+  "recommendedElements": [
+    "Hydro",
+    "Pyro",
+    "Electro",
+    "Cryo"
+  ],
+  "releaseVersion": "4.0",
+  "quest": {
+    "name": "When All Return to the Waters",
+    "type": "Archon"
+  },
+  "rewards": [],
+  "levels": []
+}

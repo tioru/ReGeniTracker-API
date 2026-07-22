@@ -1,0 +1,122 @@
+{
+  "name": "Lagunes et montagnes",
+  "domainType": "Domaine de bénédiction",
+  "location": {
+    "mainLocation": "Liyue",
+    "subLocation": "Minlin"
+  },
+  "description": "Mt. Aocang is a place of secret wonders. What at first merely seems like beautiful scenery in fact conceals a stone cave that connects to the heavens and breathes out clouds. Nonetheless, this is not how the saying \"where the clouds emerge\" was derived.",
+  "recommendedElements": [
+    "Geo"
+  ],
+  "releaseVersion": "1.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Lagunes et montagnes I",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 12 opponents within 300 sec.",
+          "enemies": [
+            {
+              "name": "Treasure Hoarders: Crusher",
+              "number": 6,
+              "level": 69
+            },
+            {
+              "name": "Treasure Hoarders: Pugilist",
+              "number": 6,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Lagunes et montagnes II",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 10 opponents within 360 sec.",
+          "enemies": [
+            {
+              "name": "Rock Shield Hilichurl Guard",
+              "number": 8,
+              "level": 80
+            },
+            {
+              "name": "Rock Shieldwall Mitachurl",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Lagunes et montagnes III",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 1 opponent within 360 sec.",
+          "enemies": [
+            {
+              "name": "Ruin Guard",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

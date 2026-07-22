@@ -1,0 +1,289 @@
+{
+  "name": "Cour lunaire perdue",
+  "domainType": "Domaine de forge",
+  "location": {
+    "mainLocation": "Nod-Krai",
+    "subLocation": "Île de Hiisi"
+  },
+  "description": "There was a time when the moon did not rise in solitude as it does today. In those days, three moons caressed the earth with their silver light, and the lunar people knew the secrets of the lunar phases, being able to predict the tidal ebb and flow. Whatever they gently touched with their fingers would surge with moonlit might. Yet in the waning days, the moonlight dimmed, and the people, defenseless and leaderless, were scattered. Legend has it that the Frostmoon Scions constructed a lunar court in the border realms, summoning lost moonlight back to them. Today, that reflected light has disappeared from this forsaken altar. Where it once flowed through these stone carvings, there is now only frozen silence. Yet secrets unveiled in that quietude, perhaps the echoes of ancient oaths, still swirl about within the labyrinth of time.",
+  "recommendedElements": [
+    "Dendro",
+    "Hydro",
+    "Electro",
+    "Pyro"
+  ],
+  "releaseVersion": "Luna I",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Ombres",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Fragment d'appareil artistique"
+        },
+        {
+          "quality": 3,
+          "name": "Réplique d'appareil artistique"
+        },
+        {
+          "quality": 4,
+          "name": "Souhait d'appareil artistique"
+        },
+        {
+          "quality": 5,
+          "name": "Succession d'appareil artistique"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Observation",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Braise de silex de longue nuit"
+        },
+        {
+          "quality": 3,
+          "name": "Lueur de silex de longue nuit"
+        },
+        {
+          "quality": 4,
+          "name": "Flamme de silex de longue nuit"
+        },
+        {
+          "quality": 5,
+          "name": "Embrasement de silex de longue nuit"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Estimation",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Gloire brisée des héritiers du grand nord"
+        },
+        {
+          "quality": 3,
+          "name": "Illusion inflexible des héritiers du grand nord"
+        },
+        {
+          "quality": 4,
+          "name": "Oblation des héritiers du grand nord"
+        },
+        {
+          "quality": 5,
+          "name": "Rayonnement doré des héritiers du grand nord"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Cour lunaire perdue I",
+      "teamLevelRecommanded": 15,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1125
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 10
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Oprichniki Line Trooper",
+              "number": 2,
+              "level": 15
+            },
+            {
+              "name": "Oprichniki Medic",
+              "number": 2,
+              "level": 15
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Oprichniki Thunderblitz Gvardiya",
+              "number": 1,
+              "level": 15
+            },
+            {
+              "name": "Oprichniki Medic",
+              "number": 2,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Cour lunaire perdue II",
+      "teamLevelRecommanded": 36,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1550
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Oprichniki Line Trooper",
+              "number": 2,
+              "level": 36
+            },
+            {
+              "name": "Oprichniki Medic",
+              "number": 2,
+              "level": 36
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Oprichniki Thunderblitz Gvardiya",
+              "number": 1,
+              "level": 36
+            },
+            {
+              "name": "Oprichniki Medic",
+              "number": 2,
+              "level": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Cour lunaire perdue III",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Oprichniki Line Trooper",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Oprichniki Medic",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Oprichniki Thunderblitz Gvardiya",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Oprichniki Medic",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Cour lunaire perdue IV",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 2 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Cutting Edge All-Purpose Storm Landcruiser",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

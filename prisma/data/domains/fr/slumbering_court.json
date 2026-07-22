@@ -1,0 +1,212 @@
+{
+  "name": "Cour d'hibernation",
+  "domainType": "Domaine de bénédiction",
+  "location": {
+    "mainLocation": "Inazuma",
+    "subLocation": "Seirai Island"
+  },
+  "description": "This great hall stood when Seirai Island neither had the name it has now, nor had it yet been stained with the color of thunder. The scenery within will probably never change, either.",
+  "recommendedElements": [
+    "Electro",
+    "Hydro"
+  ],
+  "releaseVersion": "2.3",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Cour d'hibernation I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 10 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Crackling Axe Mitachurl",
+              "number": 1,
+              "level": 59
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 2,
+              "level": 59
+            },
+            {
+              "name": "Hydro Slime",
+              "number": 7,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Cour d'hibernation II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 13 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Crackling Axe Mitachurl",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Large Hydro Slime",
+              "number": 2,
+              "level": 69
+            },
+            {
+              "name": "Hydro Slime",
+              "number": 3,
+              "level": 69
+            },
+            {
+              "name": "Electro Hilichurl Shooter",
+              "number": 3,
+              "level": 69
+            },
+            {
+              "name": "Hilichurl Berserker",
+              "number": 3,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Cour d'hibernation III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Thundercraven Rifthound Whelp",
+              "number": 4,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Thundercraven Rifthound",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Electro Hilichurl Shooter",
+              "number": 2,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Cour d'hibernation IV",
+      "teamLevelRecommanded": 90,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2525
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 9 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Thundercraven Rifthound Whelp",
+              "number": 5,
+              "level": 90
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 9 enemies in less than 6:00 minutes",
+          "enemies": [
+            {
+              "name": "Thundercraven Rifthound Whelp",
+              "number": 2,
+              "level": 90
+            },
+            {
+              "name": "Thundercraven Rifthound",
+              "number": 1,
+              "level": 90
+            },
+            {
+              "name": "Crackling Axe Mitachurl",
+              "number": 1,
+              "level": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
