@@ -1,0 +1,59 @@
+{
+  "name": "Amour chéri",
+  "obtaining": [
+    {
+      "rarity": 4,
+      "sources": [
+        {
+          "DOMAIN": "Vallée de la réminiscence"
+        },
+        {
+          "OTHER": "Guide de l'aventurier"
+        }
+      ]
+    },
+    {
+      "rarity": 5,
+      "sources": [
+        {
+          "DOMAIN": "Vallée de la réminiscence"
+        },
+        {
+          "STRONGBOX": "Artifact Strongbox: Maiden Beloved"
+        }
+      ]
+    }
+  ],
+  "flowerOfLife": {
+    "name": "Cœur lointain de la Demoiselle",
+    "description": "La fleur de la jeune fille. Fraîche et élégante, à l'image de celle qui l'a cueillie. D'après les livres, cette espèce n'existe plus depuis longtemps. À la manière de ce qu'elle avait lu et relu, la demoiselle en détresse fut sauvée par le chevalier en blanche armure. Et en signe de félicité réciproque, ils s'échangèrent leurs fleurs. Le cœur d'une demoiselle souvent change avec les saisons, comme la fleur ; mais cette fleur resta constante. Car son cœur s'était arrêté ce jour-là, lorsqu'elle fit la rencontre du chevalier."
+  },
+  "plumeOfDeath": {
+    "name": "Pensée de la Demoiselle",
+    "description": "Un délicat accessoire fait de plumes exquises. Les années l'ont recouvert de poussière. Le temps se figea pour la jeune fille depuis sa rencontre avec le chevalier. Rien ne lui importait plus, ni l'amour, ni la jeunesse. Elle se mit à le rechercher corps et âme, errant comme un oiseau hors de son nid. La jeune fille priait pour que son amour puisse toucher le chevalier qui dédia sa vie à son métier. Elle espérait qu'il pouvait voir tous les paysages qu'elle avait imaginé pour lui."
+  },
+  "sandsOfEon": {
+    "name": "Petit matin de la Demoiselle",
+    "description": "Un objet délicat. Indifférent aux sentiments de sa propriétaire, il montre impassible les vicissitudes du temps qui passe. La vie de la jeune fille n'était pas éternelle, mais elle pouvait attendre une éternité. La petite aiguille suit toujours la grande, à l'image de l'attente sans fin emplissant son cœur. Bien des années plus tard, elle se rappelait encore de lui, le beau chevalier blanc qui vint pour elle, et qu'elle attendait."
+  },
+  "gobletOfEonothem": {
+    "name": "Loisir de la Demoiselle",
+    "description": "La tasse préférée de la jeune fille. Elle buvait du thé noir dedans autrefois. Manger tranquillement ses pâtisseries et siroter son thé loin du monde banal étaient des privilèges qui lui étaient réservés. « Cette fleur sera ma médaille. Cela me suffira. » Ces paroles furent celles d'un chevalier lors de leur première rencontre. « Mais mon cœur vous... » Ne pas terminer cette phrase était son choix, mais c'était aussi les chaînes qui l'écrasaient."
+  },
+  "circletOfLogos": {
+    "name": "Beauté fugace de la Demoiselle",
+    "description": "Bien que de nombreux prétendants la couvrirent de roses, la jeune fille ne releva jamais son chapeau pour les regarder. Leurs visages et leurs noms n'avaient pas d'importance pour elle. Pendant des années, à la fin de chaque jour, elle retira les poussières du chapeau ; mais son visage affichait le passage du temps ; et contrairement à la poussière, ses traces ne pouvaient s'enlever. Prétendants et bouquets de roses se firent plus rares au fil des ans. Mais qu'importe : son cœur s'était arrêté il y avait bien longtemps en un jour fatidique."
+  },
+  "setBonuses": {
+    "2pieces": "Augmente les soins effectués par le personnage de 15 %.",
+    "4pieces": "Augmente les soins reçus par tous les personnages de l'équipe de 20 % pendant 10 s après l'utilisation d'une compétence élémentaire ou d'un déchaînement élémentaire.",
+    "effects": [
+      "Healing Bonus",
+      "Elemental Skill",
+      "Elemental Burst",
+      "Party",
+      "Incoming Healing Bonus"
+    ]
+  },
+  "releaseVersion": "1.0"
+}

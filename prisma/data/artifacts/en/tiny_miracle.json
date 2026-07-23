@@ -1,0 +1,86 @@
+{
+  "name": "Tiny Miracle",
+  "obtaining": [
+    {
+      "rarity": 3,
+      "sources": [
+        {
+          "DOMAIN": "Valley of Remembrance"
+        },
+        {
+          "DOMAIN": "Momiji-Dyed Court"
+        },
+        {
+          "DOMAIN": "Spire of Solitary Enlightenment"
+        },
+        {
+          "DOMAIN": "Waterfall Wen"
+        },
+        {
+          "DOMAIN": "Derelict Masonry Dock"
+        },
+        {
+          "DOMAIN": "Moonchild's Treasures"
+        }
+      ]
+    },
+    {
+      "rarity": 4,
+      "sources": [
+        {
+          "DOMAIN": "Valley of Remembrance"
+        },
+        {
+          "DOMAIN": "Momiji-Dyed Court"
+        },
+        {
+          "DOMAIN": "Spire of Solitary Enlightenment"
+        },
+        {
+          "DOMAIN": "Waterfall Wen"
+        },
+        {
+          "DOMAIN": "Derelict Masonry Dock"
+        },
+        {
+          "DOMAIN": "Moonchild's Treasures"
+        }
+      ]
+    }
+  ],
+  "flowerOfLife": {
+    "name": "Tiny Miracle's Flower",
+    "description": "A little blue flower that sprouted between the cracks of an old tombstone. The carvings on the tombstone are a legacy of death, yet what sprouted from its cracks was the miracle of life."
+  },
+  "plumeOfDeath": {
+    "name": "Tiny Miracle's Feather",
+    "description": "Plucked from a falcon that was as fast as the wind. The mere existence of such a bird is a miracle. It was gifted with clear vision and sharp claws. With its broad wings, its gliding speed was unparalleled."
+  },
+  "sandsOfEon": {
+    "name": "Tiny Miracle's Hourglass",
+    "description": "It is often said that one may achieve victory by striving, but receive a miracle only by waiting. But is it not a miracle that fine sand was once a hard rock? Is it not too a miracle that we met each other?"
+  },
+  "gobletOfEonothem": {
+    "name": "Tiny Miracle's Goblet",
+    "description": "A clear goblet glittering with starlight. In the past it was used to tell fortunes, For the water it held was believed to reflect the Starry Sea."
+  },
+  "circletOfLogos": {
+    "name": "Tiny Miracle's Earrings",
+    "description": "An inexpensive pair of earrings made from metal that shines like the stars. What the sellers don't know is that the shine of these earrings comes from the fallen stars of ancient times."
+  },
+  "setBonuses": {
+    "2pieces": "All Elemental RES increased by 20%.",
+    "4pieces": "Incoming Black|Elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s.",
+    "effects": [
+      "Elemental RES Increase",
+      "Pyro RES Increase",
+      "Cryo RES Increase",
+      "Dendro RES Increase",
+      "Geo RES Increase",
+      "Anemo RES Increase",
+      "Hydro RES Increase",
+      "Electro RES Increase"
+    ]
+  },
+  "releaseVersion": "1.0"
+}

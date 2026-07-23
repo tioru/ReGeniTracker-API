@@ -1,0 +1,61 @@
+{
+  "name": "Noblesse Oblige",
+  "obtaining": [
+    {
+      "rarity": 4,
+      "sources": [
+        {
+          "DOMAIN": "Clear Pool and Mountain Cavern"
+        }
+      ]
+    },
+    {
+      "rarity": 5,
+      "sources": [
+        {
+          "DOMAIN": "Clear Pool and Mountain Cavern"
+        },
+        {
+          "STRONGBOX": "Artifact Strongbox: Noblesse Oblige"
+        },
+        {
+          "OTHER": "Adventure Rank Rewards (43, 47, 48, 49, 51)"
+        },
+        {
+          "OTHER": "Nine Pillars of Peace"
+        }
+      ]
+    }
+  ],
+  "flowerOfLife": {
+    "name": "Royal Flora",
+    "description": "A blue lily made of silky satin that once served as a noblewoman's headdress. A noble who once ruled over Mondstadt left it behind. In that legendary age, the nobles were examples for the people. They guided their subjects with their conduct and wisdom. They were the true representation of the people of Mondstadt. They were noble not only in lineage, but also in their commitment to virtues and principles. The longevity of the nobles was cut short by their endless self-indulgence. Ostentation gave way to devolution."
+  },
+  "plumeOfDeath": {
+    "name": "Royal Plume",
+    "description": "The feather of a falcon proudly perched on top of an old noble's hat. Hunting with the common folk and sharing the spoils with them was an old tradition. Commonplace were the hunts, a hobby of the ruling class of Mondstadt. The festivities were shared with their servants and the common folk, As a sign of the benevolence of the nobles. All the people were eager participants in the festivities. Hunts soon lost their meaning. The nobles everything as their own, presuming it their right. Proudly the feather still stood, yet faded was its color in the people's eyes."
+  },
+  "sandsOfEon": {
+    "name": "Royal Pocket Watch",
+    "description": "An exquisite pocket watch made of sapphire. It remains functional even after all these years. The pocket watch of a noble who once ruled over Mondstadt. The time it tells is still accurate. Punctuality is a virtue, and this pocket watch helped the nobles stay on a virtuous path. It was more for self-discipline than a tool to influence the common folk. At daybreak, a worthy noble must be more vigilant than his people. At night, he should be more thoughtful and restless than they. Over the years, the once-strict schedule was overturned by their indolent descendants. Their timepieces grew more extravagant, but lost their virtuous function."
+  },
+  "gobletOfEonothem": {
+    "name": "Royal Silver Urn",
+    "description": "An ornamental urn made of sapphire, bearing the silver insignia of a noble house. It is exquisite and elegant, a testament to the aesthetics of the ancient nobles of Mondstadt. A noble who once ruled over Mondstadt left it behind. However, the extravagant treasures that once lay inside are now gone. These luxuries were symbols of the noble's stature, as well as the confidence, pride, and prosperity of the people of Mondstadt. Then, the nobles fell prey to power. They took and they spent without regard to the people. Luxurious accessories became vanity items."
+  },
+  "circletOfLogos": {
+    "name": "Royal Masque",
+    "description": "A silver mask inlaid with gold and gems and engraved with delicate patterns. Delicately made, it showcases the elegance and customs of the old nobles. The first nobles who rose up to rule Mondstadt began as heroes of humble origins. These great chieftains and elegant princes as well as beautiful princesses and noblemen once welcomed the people to their banquets and feasts. In those days long past, the nobles shared their wisdom and elegance generously. In that golden age, the nobles shared with the people their knowledge and profits. But the later nobles were seduced by power. Their banquets were exclusively for their own pleasure."
+  },
+  "setBonuses": {
+    "2pieces": "Elemental Burst DMG +20%",
+    "4pieces": "Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack.",
+    "effects": [
+      "Elemental Burst DMG Increase",
+      "Party ATK Increase",
+      "DMG Bonus",
+      "Party"
+    ]
+  },
+  "releaseVersion": "1.0"
+}

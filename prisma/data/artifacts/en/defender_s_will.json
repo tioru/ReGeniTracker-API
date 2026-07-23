@@ -1,0 +1,75 @@
+{
+  "name": "Defender's Will",
+  "obtaining": [
+    {
+      "rarity": 3,
+      "sources": [
+        {
+          "DOMAIN": "Hidden Palace of Zhou Formula"
+        },
+        {
+          "DOMAIN": "Peak of Vindagnyr"
+        },
+        {
+          "DOMAIN": "Slumbering Court"
+        },
+        {
+          "DOMAIN": "Denouement of Sin"
+        }
+      ]
+    },
+    {
+      "rarity": 4,
+      "sources": [
+        {
+          "DOMAIN": "Hidden Palace of Zhou Formula"
+        },
+        {
+          "DOMAIN": "Peak of Vindagnyr"
+        },
+        {
+          "DOMAIN": "Slumbering Court"
+        },
+        {
+          "DOMAIN": "Denouement of Sin"
+        }
+      ]
+    }
+  ],
+  "flowerOfLife": {
+    "name": "Guardian's Flower",
+    "description": "Only that maiden's clear voice, Could cause the guardian's brow to come unbound. Their time together was short. At last, the knight's blood would run dry, As would her tears and her songs."
+  },
+  "plumeOfDeath": {
+    "name": "Guardian's Sigil",
+    "description": "The shield-crest engraved upon this quill glitters in the pale moonlight. Long ago, this light would strike fear into the hearts of evildoers and thieves. The guardian had a very precious knightly title. But at night, he would disguise his crest and face beneath a mantle. Thus, he could shake off his restraints and do that which needed to be done— —Yet could not be done by an upright knight in good standing."
+  },
+  "sandsOfEon": {
+    "name": "Guardian's Clock",
+    "description": "The ticking of the clock's hands, the candlelight, and the reams of case notes, The shadows by moonlight, the blade and black mantle, These were the constant companions of the lonesome guardian. But no matter how far he went, there was never enough time. His superior, carefree and proud, often laughed at his curtness, his unsmiling face, his aversion to fun. But the guardian was not one to look back on the past — only to the present and future. Only by reaving every last trace of evil, no matter the means, Could he ensure that this land that his friend and loved superior could have a future without fear. Only when he gazed on that maiden in the square, Could he think upon things he had no time for. Only then could he think about his own future..."
+  },
+  "gobletOfEonothem": {
+    "name": "Guardian's Vessel",
+    "description": "An exceedingly ordinary old wine canteen. If one had to point out something special about it, It would be that it never once contained a drop of alcohol. \"Come on, you have to try a little wine sometime.\" The guardian's longtime friend and superior joked. \"Quit knitting those eyebrows together, have a little wine and song!\" \"I mean, that's how we have the courage to face tomorrow.\""
+  },
+  "circletOfLogos": {
+    "name": "Guardian's Band",
+    "description": "Always have a backup plan— He wore this headband to remind himself of that axiom. In an emergency, it could also serve as a tourniquet. By this creed he taught his swordsmanship to the knights under his friend's command. By this credo he also mentored a white knight who loved justice above all else. In its name he nipped many seedling that might have blossomed into evil in the bud. As long as he was sufficiently prepared, Even if one day, he should be unable to defend this land, Or protect his friend, or that maiden who loved to sing..."
+  },
+  "setBonuses": {
+    "2pieces": "DEF +30%",
+    "4pieces": "For each different element present in your own party, the wearer's Elemental RES to that corresponding element is increased by 30%.",
+    "effects": [
+      "DEF Increase",
+      "Elemental RES Increase",
+      "Pyro RES Increase",
+      "Cryo RES Increase",
+      "Dendro RES Increase",
+      "Electro RES Increase",
+      "Hydro RES Increase",
+      "Anemo RES Increase",
+      "Geo RES Increase"
+    ]
+  },
+  "releaseVersion": "1.0"
+}

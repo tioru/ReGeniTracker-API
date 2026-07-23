@@ -1,0 +1,79 @@
+{
+  "name": "Martial Artist",
+  "obtaining": [
+    {
+      "rarity": 3,
+      "sources": [
+        {
+          "OTHER": "Adventurer Handbook Experience"
+        },
+        {
+          "DOMAIN": "Hidden Palace of Zhou Formula"
+        },
+        {
+          "DOMAIN": "Ridge Watch"
+        },
+        {
+          "DOMAIN": "The Lost Valley"
+        },
+        {
+          "DOMAIN": "Molten Iron Fortress"
+        },
+        {
+          "DOMAIN": "Waterfall Wen"
+        }
+      ]
+    },
+    {
+      "rarity": 4,
+      "sources": [
+        {
+          "DOMAIN": "Hidden Palace of Zhou Formula"
+        },
+        {
+          "DOMAIN": "Ridge Watch"
+        },
+        {
+          "DOMAIN": "The Lost Valley"
+        },
+        {
+          "DOMAIN": "Molten Iron Fortress"
+        },
+        {
+          "DOMAIN": "Waterfall Wen"
+        }
+      ]
+    }
+  ],
+  "flowerOfLife": {
+    "name": "Martial Artist's Red Flower",
+    "description": "Ever since being recognized by the master, the martial artist had been practicing every day for years. The path of pursuing martial arts is long and harsh, and injuries are inevitable. As instructed, he plucked a small crimson flower in the forest. Although his proud battle scars will never fully heal, at least the pain can be alleviated."
+  },
+  "plumeOfDeath": {
+    "name": "Martial Artist's Feather Accessory",
+    "description": "A feather plucked from a bird soaring in the sky by a skillful martial artist. The essence of martial arts is not necessarily about the power of attacks. Agility and nimbleness honed over years of training are just as prideworthy for a martial artist. The martial artist will wear the feather on his chest as proof of his unparalleled skills."
+  },
+  "sandsOfEon": {
+    "name": "Martial Artist's Water Hourglass",
+    "description": "An hourglass that uses the flow of water to measure the passage of time. The martial artist would have it with him at all times. When he was training under the waterfall or practicing a single leg stance on the stake, he endured all the pain and suffering alone. This time piece recorded every second of it in silence."
+  },
+  "gobletOfEonothem": {
+    "name": "Martial Artist's Wine Cup",
+    "description": "Before proudly stepping into the arena, a parting ritual with a glass of fine wine is essential for martial artists. Each of them faced with a worthy opponent, two martial artists will raise their glasses to one another. They then step into the arena with a calm and collected composure to face their opponent with the utmost respect. This is the true meaning of the toast, which comes before the fight takes place. It does not serve to glorify victory or cast shame on defeat."
+  },
+  "circletOfLogos": {
+    "name": "Martial Artist's Bandana",
+    "description": "A bright-red bandana that belonged to a martial artist. The color has now faded. It serves as proof that the bearer practiced martial arts at a young age. It also represents the high ambition the young martial artist once had. Before the first crack of dawn, the young martial artist was already training in the forest. Many years later, the martial artist is now an instructor. Though youth may be a thing of his past, he remains just as alert and diligent as when he was young."
+  },
+  "setBonuses": {
+    "2pieces": "Normal and Charged Attack DMG +15%",
+    "4pieces": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s.",
+    "effects": [
+      "Normal Attack DMG Increase",
+      "Charged Attack DMG Increase",
+      "Elemental Skill",
+      "DMG Bonus"
+    ]
+  },
+  "releaseVersion": "1.0"
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Miracle",
+  "obtaining": [
+    {
+      "rarity": 3,
+      "sources": [
+        {
+          "DOMAIN": "Vallée de la réminiscence"
+        },
+        {
+          "DOMAIN": "Cour Momiji"
+        },
+        {
+          "DOMAIN": "Tour de l'illumination"
+        },
+        {
+          "DOMAIN": "Ville des cascades"
+        },
+        {
+          "DOMAIN": "Quai de maçonnerie abandonné"
+        },
+        {
+          "DOMAIN": "Trésors des enfants-lunes"
+        }
+      ]
+    },
+    {
+      "rarity": 4,
+      "sources": [
+        {
+          "DOMAIN": "Vallée de la réminiscence"
+        },
+        {
+          "DOMAIN": "Cour Momiji"
+        },
+        {
+          "DOMAIN": "Tour de l'illumination"
+        },
+        {
+          "DOMAIN": "Ville des cascades"
+        },
+        {
+          "DOMAIN": "Quai de maçonnerie abandonné"
+        },
+        {
+          "DOMAIN": "Trésors des enfants-lunes"
+        }
+      ]
+    }
+  ],
+  "flowerOfLife": {
+    "name": "Fleur du Miracle",
+    "description": "Une petite fleur bleue qui a poussé entre les fissures d'une stèle antique. La tombe est le domaine de la mort ; mais de ses failles le miracle de la vie a jailli."
+  },
+  "plumeOfDeath": {
+    "name": "Plume du Miracle",
+    "description": "Un rapace aussi rapide que le vent. Son existence est un miracle en soi. Doté d'une vision perçante et de griffes tranchantes, ses grandes ailes peuvent le faire voler à une vitesse fulgurante."
+  },
+  "sandsOfEon": {
+    "name": "Sablier du Miracle",
+    "description": "On dit souvent qu'il faut lutter pour la victoire, mais attendre pour un miracle. Le sable autrefois roche ; n'est-ce point un miracle ? Et notre rencontre ; n'est-point là aussi un miracle ?"
+  },
+  "gobletOfEonothem": {
+    "name": "Coupe du Miracle",
+    "description": "Une tasse de thé claire, scintillant au clair de lune. On l'utilisa autrefois pour la divination, croyant que l'eau qu'elle abrite était le reflet de la mer d'étoiles."
+  },
+  "circletOfLogos": {
+    "name": "Boucles d'oreilles du Miracle",
+    "description": "Une paire de boucles d'oreilles sculptées dans un métal qui brille comme les étoiles. Mais ce que les commerçants ne savent pas, c'est qu'il vient d'une étoile déchue des temps anciens."
+  },
+  "setBonuses": {
+    "2pieces": "Augmente toutes les RÉS élémentaires de 20 %.",
+    "4pieces": "Les DGT élémentaires subis augmentent la RÉS à l'élément correspondant de 30 % pendant 10 s. Cet effet peut être déclenché une fois toutes les 10 s.",
+    "effects": [
+      "Elemental RES Increase",
+      "Pyro RES Increase",
+      "Cryo RES Increase",
+      "Dendro RES Increase",
+      "Geo RES Increase",
+      "Anemo RES Increase",
+      "Hydro RES Increase",
+      "Electro RES Increase"
+    ]
+  },
+  "releaseVersion": "1.0"
+}

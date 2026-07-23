@@ -1,0 +1,152 @@
+{
+  "name": "Médecin itinérant",
+  "obtaining": [
+    {
+      "rarity": 1,
+      "sources": [
+        {
+          "OTHER": "Coffres"
+        },
+        {
+          "OTHER": "Investigation"
+        }
+      ]
+    },
+    {
+      "rarity": 2,
+      "sources": [
+        {
+          "OTHER": "Coffres"
+        },
+        {
+          "DOMAIN": "Vallée de la réminiscence"
+        },
+        {
+          "SHOP": "Boutique d'antiquités Xigu (Shop)"
+        },
+        {
+          "BOSS": "Hypostase Électro"
+        },
+        {
+          "BOSS": "Electro Regisvine"
+        },
+        {
+          "BOSS": "Hypostase Géo"
+        },
+        {
+          "BOSS": "Loup alpha doré"
+        },
+        {
+          "BOSS": "Knuckle Duckle"
+        },
+        {
+          "BOSS": "Lord of the Hidden Depths: Whisperer of Nightmares"
+        },
+        {
+          "BOSS": "Millennial Pearl Seahorse"
+        },
+        {
+          "BOSS": "Prototype Cal. Breguet"
+        },
+        {
+          "BOSS": "Radiant Moongecko"
+        },
+        {
+          "BOSS": "Serpent des ruines"
+        },
+        {
+          "BOSS": "The Open-Eyed"
+        },
+        {
+          "BOSS": "Manifestation du tonnerre"
+        },
+        {
+          "OTHER": "Investigation"
+        }
+      ]
+    },
+    {
+      "rarity": 3,
+      "sources": [
+        {
+          "OTHER": "Coffres"
+        },
+        {
+          "DOMAIN": "Vallée de la réminiscence"
+        },
+        {
+          "OTHER": "Adventurer Handbook Experience (Chapter 2 - all but sands)"
+        },
+        {
+          "ELITE_ENEMY": "Elite Enemies"
+        },
+        {
+          "BOSS": "Hypostase Électro"
+        },
+        {
+          "BOSS": "Electro Regisvine"
+        },
+        {
+          "BOSS": "Hypostase Géo"
+        },
+        {
+          "BOSS": "Loup alpha doré"
+        },
+        {
+          "BOSS": "Knuckle Duckle"
+        },
+        {
+          "BOSS": "Lord of the Hidden Depths: Whisperer of Nightmares"
+        },
+        {
+          "BOSS": "Millennial Pearl Seahorse"
+        },
+        {
+          "BOSS": "Prototype Cal. Breguet"
+        },
+        {
+          "BOSS": "Radiant Moongecko"
+        },
+        {
+          "BOSS": "Serpent des ruines"
+        },
+        {
+          "BOSS": "The Open-Eyed"
+        },
+        {
+          "BOSS": "Manifestation du tonnerre"
+        }
+      ]
+    }
+  ],
+  "flowerOfLife": {
+    "name": "Anémone du Médecin itinérant",
+    "description": "Le médecin itinérant voyagea à travers les terres à la recherche d'herbes médicinales rares, telle une aventurière. Sur une falaise raide entre des rochers humides, elle trouva ce lotus argenté. Cette fleur n'a jamais été utilisée comme remède ; mais son odeur délicate accompagna le médecin à partir de ce jour."
+  },
+  "plumeOfDeath": {
+    "name": "Plume de hibou du Médecin itinérant",
+    "description": "Le médecin itinérant bravait la nuit noire pour visiter ses patients. Quiconque s'aventure la nuit se doit de redoubler de vigilance, car le danger rôde en permanence. Mais les nuits sans sommeil finirent par avoir raison du docteur ; à son tour elle tomba malade."
+  },
+  "sandsOfEon": {
+    "name": "Montre de poche du Médecin itinérant",
+    "description": "Chaque seconde compte lorsque l'on est au chevet d'un blessé grave. La précision de cette montre de poche a maintes fois permis au docteur d'accomplir des miracles. Mais lorsque approcha son heure, tout ce qu'elle put entendre fut son tic-tac régulier. Ce qui autrefois sauva des vies, à la fin fut son éloge funèbre."
+  },
+  "gobletOfEonothem": {
+    "name": "Pot à remèdes du Médecin itinérant",
+    "description": "Le remède que contenait ce récipient a séché depuis fort longtemps, mais son odeur amère demeure. Le médecin itinérant sauva plus d'une vie grâce à lui. Et seul ce remède lui tint compagnie lorsqu'elle tomba dans les griffes de la maladie."
+  },
+  "circletOfLogos": {
+    "name": "Mouchoir du Médecin itinérant",
+    "description": "Durant ses jours de nomade, le médecin passait chaque jour par monts et par vaux. Qu'il pleuve ou qu'il vente, jamais elle ne s'arrêtait. Ce mouchoir ne servait pas seulement à protéger ses cheveux en désordre ; il servait également de bandage. Il l'accompagna dans ses épreuves, et devint son loyal partenaire."
+  },
+  "setBonuses": {
+    "2pieces": "Augmente les soins reçus par le personnage de 20 %.",
+    "4pieces": "Le déchaînement élémentaire restaure 20 % des PV.",
+    "effects": [
+      "Healing",
+      "Incoming Healing Bonus",
+      "Elemental Burst"
+    ]
+  },
+  "releaseVersion": "1.0"
+}

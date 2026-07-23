@@ -1,0 +1,63 @@
+{
+  "name": "Thundering Fury",
+  "obtaining": [
+    {
+      "rarity": 4,
+      "sources": [
+        {
+          "DOMAIN": "Midsummer Courtyard"
+        }
+      ]
+    },
+    {
+      "rarity": 5,
+      "sources": [
+        {
+          "DOMAIN": "Midsummer Courtyard"
+        },
+        {
+          "STRONGBOX": "Artifact Strongbox: Thundering Fury"
+        }
+      ]
+    }
+  ],
+  "flowerOfLife": {
+    "name": "Thunderbird's Mercy",
+    "description": "A purple wild flower that survived in the volcanic ash. It witnessed the total decimation of the ancient tribe. With an innocent's blood, the shaman summoned the Thunderbird. They made their offerings, waiting for the Thunderbird to reveal the oracles. However, what descended with the Thunderbird, was the lightning of destruction. For the transgression against the young lad who sang to it, the sentence was total obliteration. The Thunderbird showed its true nature, wiping the tribe from the face of the earth."
+  },
+  "plumeOfDeath": {
+    "name": "Survivor of Catastrophe",
+    "description": "The lost feather of the Thunderbird enchanted in purple lightning. It serves as the last witness of the destruction of the tribe. The ancient tribe held the Thunderbird as its protector. But it rained down thunder upon the tribe. On one gloomy night, it shared a pure friendship with the lad. Once it departed, the lad picked up the feather it dropped. \"I shall sing you another tune, When you come again with thunder and rain.\" Driven to madness by the remorse of a promise unkept, The Thunderbird left the mountain in cinders. It was hunted down years after, slain as a monster. Years passed, the burned land revitalized. The lightning-feather was left buried in the vegetation. The story of the Thunderbird and the young lad had all but perished with the tribe."
+  },
+  "sandsOfEon": {
+    "name": "Hourglass of Thunder",
+    "description": "A luxurious hourglass belonging to the ancient tribe that worshiped the Thunderbird. As the tribe faded away, so did the hourglass. A luxurious hourglass, made with amethyst and amber gold, that belonged to a shaman. The hourglass would serve its purpose for the festival held in the Thunderbird's honor. In the last festival the tribe held, the frenzied Thunderbird blew away the bloodstained altar. The countdown to the arrival of the protector became the countdown to the tribe's destruction. The Thunderbird decimated the tribe to avenge the one who sang to it. Unbeknownst the Thunderbird, the lad himself considered his sacrifice as an offering. All for the good of the tribe, for the blessing of the Thunderbird."
+  },
+  "gobletOfEonothem": {
+    "name": "Omen of Thunderstorm",
+    "description": "A ritual goblet used by the shamans of an ancient tribe. It held the blood to be offered to the Thunderbird. In the seasons when the Thunderbird flew amidst the stormy mountains, a young lad sang without fear. Attracted to his voice, the prideful Thunderbird landed by his side. \"Curious tunes, tiny human. Afraid not of thunder and storms? \"They said I can bring peace to thunder and storms.\" The young lad paused and answered. The Thunderbird cried but kept its silence. For his was an enchanting song. It was the first and last meeting between the Thunderbird and the young boy. For the next she saw of the boy was when his blood filled the golden goblet on the sacrificial altar."
+  },
+  "circletOfLogos": {
+    "name": "Thunder Summoner's Crown",
+    "description": "In the ancient tribe that worshiped the Thunderbird, elder shamans this crown. The Thunderbird soared through the thunderstorms, raining down purple thunder and rain. Ancient tribes feared its powers and thanked it for its blessings. Shamans were chosen to offer blood sacrifices to it for protection and forgiveness. The Thunderbird was still a monster that cared not for the worship of mankind. They knew it not, and regarded the unpredictable actions of the Thunderbird as divine revelations. Yet thunder was its breath, as were the fates of men. From the sky, men were no different from animals. Until one day a song pierced through the roaring thunderstorm. The song ripped through the clouds, and bestowed upon it, light."
+  },
+  "setBonuses": {
+    "2pieces": "Electro DMG Bonus +15%",
+    "4pieces": "Increases the DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, the DMG Bonus conferred by Aggravate by 20%, and the DMG caused by Lunar-Charged and Stellar-Conduct by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s.",
+    "effects": [
+      "Elemental DMG Bonus",
+      "Electro DMG Bonus",
+      "Elemental Reaction",
+      "Cooldown Reduction",
+      "Elemental Reaction DMG Bonus",
+      "Overloaded DMG Bonus",
+      "Electro-Charged DMG Bonus",
+      "Superconduct DMG Bonus",
+      "Aggravate DMG Bonus Bonus",
+      "Hyperbloom DMG Bonus",
+      "Lunar-Charged DMG Bonus",
+      "Stellar-Conduct DMG Bonus"
+    ]
+  },
+  "releaseVersion": "1.0"
+}
