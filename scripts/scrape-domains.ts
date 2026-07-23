@@ -485,13 +485,31 @@ function parseFrDomainPage(content: string): FrDomainPage {
   };
 }
 
-// Fallback pour les domaines sans page FR dédiée (pas de langlink) : la page
-// EN rendue contient tout de même une table "Other Languages" (générée par un
-// module wiki commun à toutes les pages) donnant le nom officiel dans chaque
-// langue, y compris le français. Confirmé sur "A Forest of Change (Domain)"
-// → "Une forêt en mutation". On ne récupère que le nom : le reste de la table
-// (région, rotations, ...) n'existe nulle part côté FR pour ces domaines.
-function parseFrNameFromOtherLanguages(html: string): string | null {
+// Fallback quand aucun langlink FR (ni groupé, ni dédié) n'a été trouvé pour
+// une page : le wikitext EN documente en principe le nom officiel dans
+// chaque langue via {{Other Languages}}, indépendamment de l'existence d'un
+// lien interwiki. Confirmé sur "Twinning Isle" : aucun langlink FR, mais
+// |fr = Îles jumelles présent dans le wikitext ET une page FR "Îles
+// jumelles" existe bel et bien (juste sans lien interwiki réciproque).
+//
+// MAIS deux formats coexistent sur ce wiki :
+// - les pages de lieux (comme "Twinning Isle") embarquent les traductions en
+//   clair : {{Other Languages|en=...|fr=Îles jumelles|...}} — extractible
+//   directement du wikitext, sans requête supplémentaire.
+// - les pages de domaines (comme "A Forest of Change (Domain)") appellent le
+//   template avec un seul paramètre positionnel, {{Other Languages|Titre}},
+//   et les traductions sont résolues par un module Lua central invisible en
+//   wikitext brut : il faut alors la page RENDUE (action=parse) pour les
+//   obtenir. D'où les deux tentatives ci-dessous, wikitext puis HTML rendu.
+function parseOtherLanguagesField(content: string, lang: string): string | null {
+  const block = extractBracedBlock(content, '{{Other Languages');
+  if (!block) return null;
+  const fields = parseInfoboxFields(block);
+  const value = fields[lang];
+  return value ? cleanWikitext(value) : null;
+}
+
+function parseFrNameFromOtherLanguagesHtml(html: string): string | null {
   const marker = 'id="Other_Languages"';
   const idx = html.indexOf(marker);
   if (idx === -1) return null;
@@ -511,6 +529,21 @@ function parseFrNameFromOtherLanguages(html: string): string | null {
     }
   });
   return frenchName;
+}
+
+// Combine les deux tentatives ci-dessus : wikitext (gratuit si le contenu
+// est déjà en main, sinon 1 requête) puis, si rien trouvé, page rendue (1
+// requête de plus, plus coûteuse mais gère le cas du module Lua central).
+async function resolveFrNameViaOtherLanguages(
+  pageTitle: string,
+  wikitext?: string | null,
+): Promise<string | null> {
+  const content = wikitext !== undefined ? wikitext : await fetchEnWikitext(pageTitle);
+  const fromWikitext = content ? parseOtherLanguagesField(content, 'fr') : null;
+  if (fromWikitext) return fromWikitext;
+
+  const html = await fetchEnHtml(pageTitle);
+  return html ? parseFrNameFromOtherLanguagesHtml(html) : null;
 }
 
 // ── API ───────────────────────────────────────────────────────────────────────
@@ -638,6 +671,32 @@ async function fetchAll(): Promise<RawDomain[]> {
   return Array.from(byPageTitle.values());
 }
 
+async function fetchEnWikitext(pageTitle: string): Promise<string | null> {
+  try {
+    return await withRetry(`fetch wikitext EN "${pageTitle}"`, async () => {
+      const response = await axios.get(EN_API_URL, {
+        params: {
+          action: 'query',
+          titles: pageTitle,
+          prop: 'revisions',
+          rvprop: 'content',
+          rvslots: 'main',
+          format: 'json',
+          formatversion: '2',
+        },
+        headers: HTTP_HEADERS,
+        httpsAgent,
+      });
+      const page = response.data?.query?.pages?.[0];
+      if (!page || page.missing) return null;
+      return page.revisions?.[0]?.slots?.main?.content ?? null;
+    });
+  } catch (err) {
+    console.warn(`⚠️  Échec du fetch wikitext EN pour "${pageTitle}" après plusieurs tentatives: ${err}`);
+    return null;
+  }
+}
+
 async function fetchEnHtml(pageTitle: string): Promise<string> {
   try {
     return await withRetry(`fetch HTML "${pageTitle}"`, async () => {
@@ -691,6 +750,28 @@ async function fetchFrTitleDirect(pageTitle: string): Promise<string | null> {
     console.warn(`⚠️  Échec du fetch langlink FR pour "${pageTitle}" après plusieurs tentatives: ${err}`);
     return null;
   }
+}
+
+// Beaucoup de domaines n'ont pas de champ région/zone dans leur propre
+// infobox FR (cf. NOTE en tête de fichier), mais le sous-lieu (ex:
+// "Windwail Highland", "Hiisi Island") est lui-même une page du wiki avec
+// son propre nom FR — confirmé en pratique sur plusieurs sous-lieux. Le
+// langlink direct (rapide, 1 requête) est essayé en premier ; si absent, on
+// retombe sur {{Other Languages}} (cf. resolveFrNameViaOtherLanguages, qui
+// gère les deux formats du wiki). Résultat mis en cache car de nombreux
+// domaines partagent le même sous-lieu.
+const subLocationTranslationCache = new Map<string, string | null>();
+
+async function fetchSubLocationFr(enSubLocation: string): Promise<string | null> {
+  if (subLocationTranslationCache.has(enSubLocation)) {
+    return subLocationTranslationCache.get(enSubLocation)!;
+  }
+  let result = await fetchFrTitleDirect(enSubLocation);
+  if (!result) {
+    result = await resolveFrNameViaOtherLanguages(enSubLocation);
+  }
+  subLocationTranslationCache.set(enSubLocation, result);
+  return result;
 }
 
 async function fetchFrWikitext(frTitle: string): Promise<string | null> {
@@ -873,16 +954,27 @@ async function enrichDomain(domain: RawDomain): Promise<CachedDomain> {
     }
   }
 
-  // Toujours pas de page FR dédiée : on tente quand même de récupérer le nom
-  // officiel FR via la table "Other Languages" de la page EN rendue (cf.
-  // commentaire de parseFrNameFromOtherLanguages). Le reste des données FR
-  // (rotations, sous-lieu) reste alors vide et retombe sur les valeurs EN.
+  // Toujours pas de page FR trouvée via langlink : on récupère le nom
+  // officiel FR documenté dans {{Other Languages}} (cf.
+  // resolveFrNameViaOtherLanguages) et on tente de fetch une VRAIE page FR
+  // sous ce nom — souvent présente malgré l'absence de langlink réciproque
+  // (confirmé sur "Twinning Isle" → "Îles jumelles"). Seulement si cette
+  // page n'existe vraiment pas on se rabat sur le nom seul.
   if (!frPage) {
-    const enHtml = await fetchEnHtml(domain.pageTitle);
-    const frName = enHtml ? parseFrNameFromOtherLanguages(enHtml) : null;
+    const frName = await resolveFrNameViaOtherLanguages(domain.pageTitle);
     if (frName) {
-      frPage = { title: frName, subLocation: null, rotations: [], hasFullPage: false };
+      const frContent = await fetchFrWikitext(frName);
+      frPage = frContent
+        ? { ...parseFrDomainPage(frContent), title: frName }
+        : { title: frName, subLocation: null, rotations: [], hasFullPage: false };
     }
+  }
+
+  // La page FR du domaine elle-même n'a pas toujours de champ région/zone
+  // (cf. NOTE en tête de fichier), mais le sous-lieu EN est en général une
+  // page à part entière dont on peut récupérer le langlink FR séparément.
+  if (frPage && !frPage.subLocation && domain.subLocation) {
+    frPage.subLocation = await fetchSubLocationFr(domain.subLocation);
   }
 
   const en = buildDomainOutput(domain, 'en', frPage);
