@@ -1,0 +1,775 @@
+{
+  "name": "Tulpa Hydro",
+  "enemyType": "Normal Boss",
+  "title": "Awakened Egregore",
+  "family": "Entités élémentaires",
+  "group": "",
+  "location": {
+    "region": "Fontaine",
+    "area": "Beryl Region",
+    "subArea": "",
+    "domain": ""
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Tulpa Hydro",
+      "damageTypes": [
+        "Hydro"
+      ],
+      "hasWeakPoint": false,
+      "abilities": [],
+      "stats": {
+        "levels": {
+          "1": {
+            "hp": 1615,
+            "atk": 254,
+            "def": 505
+          },
+          "2": {
+            "hp": 2052,
+            "atk": 292,
+            "def": 510
+          },
+          "3": {
+            "hp": 2535,
+            "atk": 333,
+            "def": 515
+          },
+          "4": {
+            "hp": 3064,
+            "atk": 377,
+            "def": 520
+          },
+          "5": {
+            "hp": 3638,
+            "atk": 424,
+            "def": 525
+          },
+          "6": {
+            "hp": 4259,
+            "atk": 474,
+            "def": 530
+          },
+          "7": {
+            "hp": 4926,
+            "atk": 527,
+            "def": 535
+          },
+          "8": {
+            "hp": 5277,
+            "atk": 575,
+            "def": 540
+          },
+          "9": {
+            "hp": 5808,
+            "atk": 626,
+            "def": 545
+          },
+          "10": {
+            "hp": 6362,
+            "atk": 678,
+            "def": 550
+          },
+          "11": {
+            "hp": 7277,
+            "atk": 748,
+            "def": 555
+          },
+          "12": {
+            "hp": 8230,
+            "atk": 822,
+            "def": 560
+          },
+          "13": {
+            "hp": 9221,
+            "atk": 899,
+            "def": 565
+          },
+          "14": {
+            "hp": 10323,
+            "atk": 983,
+            "def": 570
+          },
+          "15": {
+            "hp": 11468,
+            "atk": 1071,
+            "def": 575
+          },
+          "16": {
+            "hp": 12656,
+            "atk": 1162,
+            "def": 580
+          },
+          "17": {
+            "hp": 14085,
+            "atk": 1287,
+            "def": 585
+          },
+          "18": {
+            "hp": 15353,
+            "atk": 1415,
+            "def": 590
+          },
+          "19": {
+            "hp": 17313,
+            "atk": 1547,
+            "def": 595
+          },
+          "20": {
+            "hp": 18725,
+            "atk": 1673,
+            "def": 600
+          },
+          "21": {
+            "hp": 20172,
+            "atk": 1792,
+            "def": 605
+          },
+          "22": {
+            "hp": 21655,
+            "atk": 1914,
+            "def": 610
+          },
+          "23": {
+            "hp": 23147,
+            "atk": 2035,
+            "def": 615
+          },
+          "24": {
+            "hp": 24665,
+            "atk": 2159,
+            "def": 620
+          },
+          "25": {
+            "hp": 26210,
+            "atk": 2285,
+            "def": 625
+          },
+          "26": {
+            "hp": 27615,
+            "atk": 2372,
+            "def": 630
+          },
+          "27": {
+            "hp": 29104,
+            "atk": 2460,
+            "def": 635
+          },
+          "28": {
+            "hp": 30649,
+            "atk": 2549,
+            "def": 640
+          },
+          "29": {
+            "hp": 32743,
+            "atk": 2640,
+            "def": 645
+          },
+          "30": {
+            "hp": 34869,
+            "atk": 2732,
+            "def": 650
+          },
+          "31": {
+            "hp": 37029,
+            "atk": 2841,
+            "def": 655
+          },
+          "32": {
+            "hp": 39267,
+            "atk": 2952,
+            "def": 660
+          },
+          "33": {
+            "hp": 41601,
+            "atk": 3064,
+            "def": 665
+          },
+          "34": {
+            "hp": 44033,
+            "atk": 3187,
+            "def": 670
+          },
+          "35": {
+            "hp": 46809,
+            "atk": 3290,
+            "def": 675
+          },
+          "36": {
+            "hp": 49734,
+            "atk": 3396,
+            "def": 680
+          },
+          "37": {
+            "hp": 52777,
+            "atk": 3555,
+            "def": 685
+          },
+          "38": {
+            "hp": 55922,
+            "atk": 3726,
+            "def": 690
+          },
+          "39": {
+            "hp": 59206,
+            "atk": 3900,
+            "def": 695
+          },
+          "40": {
+            "hp": 62609,
+            "atk": 4084,
+            "def": 700
+          },
+          "41": {
+            "hp": 66152,
+            "atk": 4232,
+            "def": 705
+          },
+          "42": {
+            "hp": 70024,
+            "atk": 4383,
+            "def": 710
+          },
+          "43": {
+            "hp": 74180,
+            "atk": 4530,
+            "def": 715
+          },
+          "44": {
+            "hp": 78608,
+            "atk": 4680,
+            "def": 720
+          },
+          "45": {
+            "hp": 84110,
+            "atk": 4832,
+            "def": 725
+          },
+          "46": {
+            "hp": 89704,
+            "atk": 4951,
+            "def": 730
+          },
+          "47": {
+            "hp": 95613,
+            "atk": 5128,
+            "def": 735
+          },
+          "48": {
+            "hp": 101846,
+            "atk": 5309,
+            "def": 740
+          },
+          "49": {
+            "hp": 108436,
+            "atk": 5494,
+            "def": 745
+          },
+          "50": {
+            "hp": 115358,
+            "atk": 5745,
+            "def": 750
+          },
+          "51": {
+            "hp": 121278,
+            "atk": 5918,
+            "def": 755
+          },
+          "52": {
+            "hp": 127534,
+            "atk": 6092,
+            "def": 760
+          },
+          "53": {
+            "hp": 133984,
+            "atk": 6269,
+            "def": 765
+          },
+          "54": {
+            "hp": 140640,
+            "atk": 6447,
+            "def": 770
+          },
+          "55": {
+            "hp": 149685,
+            "atk": 6617,
+            "def": 775
+          },
+          "56": {
+            "hp": 158129,
+            "atk": 6764,
+            "def": 780
+          },
+          "57": {
+            "hp": 166813,
+            "atk": 6973,
+            "def": 785
+          },
+          "58": {
+            "hp": 175748,
+            "atk": 7197,
+            "def": 790
+          },
+          "59": {
+            "hp": 185173,
+            "atk": 7425,
+            "def": 795
+          },
+          "60": {
+            "hp": 194897,
+            "atk": 7673,
+            "def": 800
+          },
+          "61": {
+            "hp": 204839,
+            "atk": 7886,
+            "def": 805
+          },
+          "62": {
+            "hp": 216750,
+            "atk": 8116,
+            "def": 810
+          },
+          "63": {
+            "hp": 229054,
+            "atk": 8348,
+            "def": 815
+          },
+          "64": {
+            "hp": 241638,
+            "atk": 8637,
+            "def": 820
+          },
+          "65": {
+            "hp": 256231,
+            "atk": 8876,
+            "def": 825
+          },
+          "66": {
+            "hp": 268874,
+            "atk": 9051,
+            "def": 830
+          },
+          "67": {
+            "hp": 281949,
+            "atk": 9443,
+            "def": 835
+          },
+          "68": {
+            "hp": 295108,
+            "atk": 9699,
+            "def": 840
+          },
+          "69": {
+            "hp": 308664,
+            "atk": 9942,
+            "def": 845
+          },
+          "70": {
+            "hp": 322346,
+            "atk": 10204,
+            "def": 850
+          },
+          "71": {
+            "hp": 336230,
+            "atk": 10666,
+            "def": 855
+          },
+          "72": {
+            "hp": 351647,
+            "atk": 11127,
+            "def": 860
+          },
+          "73": {
+            "hp": 366237,
+            "atk": 11589,
+            "def": 865
+          },
+          "74": {
+            "hp": 381510,
+            "atk": 12051,
+            "def": 870
+          },
+          "75": {
+            "hp": 403347,
+            "atk": 12513,
+            "def": 875
+          },
+          "76": {
+            "hp": 424248,
+            "atk": 12975,
+            "def": 880
+          },
+          "77": {
+            "hp": 446014,
+            "atk": 13437,
+            "def": 885
+          },
+          "78": {
+            "hp": 468126,
+            "atk": 13899,
+            "def": 890
+          },
+          "79": {
+            "hp": 491886,
+            "atk": 14361,
+            "def": 895
+          },
+          "80": {
+            "hp": 520006,
+            "atk": 14823,
+            "def": 900
+          },
+          "81": {
+            "hp": 547622,
+            "atk": 15284,
+            "def": 905
+          },
+          "82": {
+            "hp": 575733,
+            "atk": 15746,
+            "def": 910
+          },
+          "83": {
+            "hp": 603125,
+            "atk": 16208,
+            "def": 915
+          },
+          "84": {
+            "hp": 630479,
+            "atk": 16670,
+            "def": 920
+          },
+          "85": {
+            "hp": 664359,
+            "atk": 17132,
+            "def": 925
+          },
+          "86": {
+            "hp": 692481,
+            "atk": 17415,
+            "def": 930
+          },
+          "87": {
+            "hp": 721062,
+            "atk": 17784,
+            "def": 935
+          },
+          "88": {
+            "hp": 750132,
+            "atk": 18186,
+            "def": 940
+          },
+          "89": {
+            "hp": 781142,
+            "atk": 18592,
+            "def": 945
+          },
+          "90": {
+            "hp": 816206,
+            "atk": 19031,
+            "def": 950
+          },
+          "91": {
+            "hp": 846326,
+            "atk": 19524,
+            "def": 955
+          },
+          "92": {
+            "hp": 876860,
+            "atk": 20056,
+            "def": 960
+          },
+          "93": {
+            "hp": 915579,
+            "atk": 20594,
+            "def": 965
+          },
+          "94": {
+            "hp": 953805,
+            "atk": 21295,
+            "def": 970
+          },
+          "95": {
+            "hp": 999430,
+            "atk": 21831,
+            "def": 975
+          },
+          "96": {
+            "hp": 1044594,
+            "atk": 22006,
+            "def": 980
+          },
+          "97": {
+            "hp": 1089203,
+            "atk": 22201,
+            "def": 985
+          },
+          "98": {
+            "hp": 1133013,
+            "atk": 23835,
+            "def": 990
+          },
+          "99": {
+            "hp": 1175965,
+            "atk": 24046,
+            "def": 995
+          },
+          "100": {
+            "hp": 1220120,
+            "atk": 24622,
+            "def": 1000
+          },
+          "101": {
+            "hp": 1259104,
+            "atk": 24961,
+            "def": 1005
+          },
+          "102": {
+            "hp": 1299379,
+            "atk": 25519,
+            "def": 1010
+          },
+          "103": {
+            "hp": 1340572,
+            "atk": 26108,
+            "def": 1015
+          },
+          "104": {
+            "hp": 1371991,
+            "atk": 26590,
+            "def": 1020
+          }
+        },
+        "resistance": {
+          "physical": 10,
+          "pyro": 10,
+          "hydro": 10,
+          "electro": 10,
+          "cryo": 10,
+          "dendro": 10,
+          "anemo": 10,
+          "geo": 0
+        }
+      }
+    }
+  ],
+  "bossRewards": {
+    "poolRewards": {
+      "materials": [
+        "Eau n'ayant pas transcendé",
+        "Lazurite"
+      ],
+      "artefacts": [
+        "Berserker",
+        "Exilé",
+        "Sacrifieur Hydro",
+        "Aventurier",
+        "Rideau du Gladiateur",
+        "Bande vagabonde"
+      ]
+    },
+    "basicRewards": [
+      {
+        "worldLevel": 0,
+        "bossLevel": 36,
+        "rewards": [
+          {
+            "name": "EXP d'Aventure",
+            "quantity": 200
+          },
+          {
+            "name": "Mora",
+            "quantity": 3450
+          },
+          {
+            "name": "EXP d'affinité",
+            "quantity": 30
+          },
+          {
+            "name": "EXP de Personnage",
+            "quantity": 138
+          }
+        ]
+      },
+      {
+        "worldLevel": 1,
+        "bossLevel": 37,
+        "rewards": [
+          {
+            "name": "EXP d'Aventure",
+            "quantity": 200
+          },
+          {
+            "name": "Mora",
+            "quantity": 3450
+          },
+          {
+            "name": "EXP d'affinité",
+            "quantity": 30
+          },
+          {
+            "name": "EXP de Personnage",
+            "quantity": 138
+          }
+        ]
+      },
+      {
+        "worldLevel": 2,
+        "bossLevel": 41,
+        "rewards": [
+          {
+            "name": "EXP d'Aventure",
+            "quantity": 200
+          },
+          {
+            "name": "Mora",
+            "quantity": 3650
+          },
+          {
+            "name": "EXP d'affinité",
+            "quantity": 30
+          },
+          {
+            "name": "EXP de Personnage",
+            "quantity": 144
+          }
+        ]
+      },
+      {
+        "worldLevel": 3,
+        "bossLevel": 50,
+        "rewards": [
+          {
+            "name": "EXP d'Aventure",
+            "quantity": 200
+          },
+          {
+            "name": "Mora",
+            "quantity": 3850
+          },
+          {
+            "name": "EXP d'affinité",
+            "quantity": 35
+          },
+          {
+            "name": "EXP de Personnage",
+            "quantity": 155
+          }
+        ]
+      },
+      {
+        "worldLevel": 4,
+        "bossLevel": 62,
+        "rewards": [
+          {
+            "name": "EXP d'Aventure",
+            "quantity": 200
+          },
+          {
+            "name": "Mora",
+            "quantity": 4125
+          },
+          {
+            "name": "EXP d'affinité",
+            "quantity": 35
+          },
+          {
+            "name": "EXP de Personnage",
+            "quantity": 166
+          }
+        ]
+      },
+      {
+        "worldLevel": 5,
+        "bossLevel": 72,
+        "rewards": [
+          {
+            "name": "EXP d'Aventure",
+            "quantity": 200
+          },
+          {
+            "name": "Mora",
+            "quantity": 4450
+          },
+          {
+            "name": "EXP d'affinité",
+            "quantity": 40
+          },
+          {
+            "name": "EXP de Personnage",
+            "quantity": 178
+          }
+        ]
+      },
+      {
+        "worldLevel": 6,
+        "bossLevel": 83,
+        "rewards": [
+          {
+            "name": "EXP d'Aventure",
+            "quantity": 200
+          },
+          {
+            "name": "Mora",
+            "quantity": 4725
+          },
+          {
+            "name": "EXP d'affinité",
+            "quantity": 40
+          },
+          {
+            "name": "EXP de Personnage",
+            "quantity": 189
+          }
+        ]
+      },
+      {
+        "worldLevel": 7,
+        "bossLevel": 91,
+        "rewards": [
+          {
+            "name": "EXP d'Aventure",
+            "quantity": 200
+          },
+          {
+            "name": "Mora",
+            "quantity": 5200
+          },
+          {
+            "name": "EXP d'affinité",
+            "quantity": 45
+          },
+          {
+            "name": "EXP de Personnage",
+            "quantity": 200
+          }
+        ]
+      },
+      {
+        "worldLevel": 8,
+        "bossLevel": 93,
+        "rewards": [
+          {
+            "name": "EXP d'Aventure",
+            "quantity": 200
+          },
+          {
+            "name": "Mora",
+            "quantity": 6000
+          },
+          {
+            "name": "EXP d'affinité",
+            "quantity": 45
+          },
+          {
+            "name": "EXP de Personnage",
+            "quantity": 200
+          }
+        ]
+      }
+    ]
+  },
+  "releaseVersion": "4.2"
+}

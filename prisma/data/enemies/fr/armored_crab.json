@@ -1,0 +1,28 @@
+{
+  "name": "Cuiracrabe",
+  "enemyType": "Common Enemy",
+  "family": "Bêtes mystiques",
+  "group": "Aberrant fontemarin",
+  "hasWeakPoint": false,
+  "abilities": [],
+  "stats": {
+    "levels": {},
+    "resistance": {
+      "physical": 10,
+      "pyro": 10,
+      "hydro": 10,
+      "electro": 10,
+      "cryo": 10,
+      "dendro": 10,
+      "anemo": 10,
+      "geo": 10
+    }
+  },
+  "drops": {
+    "materials": [
+      "Perle transocéanique"
+    ],
+    "artefacts": []
+  },
+  "releaseVersion": "4.0"
+}

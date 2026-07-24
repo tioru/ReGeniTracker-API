@@ -5,8 +5,10 @@ import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
-const API_URL = 'https://genshin-impact.fandom.com/api.php';
-const OUTPUT_DIR = path.resolve(__dirname, '../prisma/data/enemies/en');
+const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
+const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
+const OUTPUT_DIR = (lang: 'en' | 'fr') =>
+  path.resolve(__dirname, `../prisma/data/enemies/${lang}`);
 const CACHE_PATH = path.resolve(__dirname, './cache/enemies-raw-cache.json');
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -49,6 +51,23 @@ const CACHE_PATH = path.resolve(__dirname, './cache/enemies-raw-cache.json');
 // guides ("Normal Boss", "Weekly Boss", "Common Enemy", "Elite Enemy") : elles
 // n'ont pas de {{Enemy Infobox}} et sont donc naturellement filtrées, comme
 // pour les achievements/domains.
+//
+// ── FR ────────────────────────────────────────────────────────────────────
+//
+// Comme pour scrape-domains.ts/scrape-artifacts.ts, la page FR ({{Infobox
+// Ennemi}}) est structurellement bien plus pauvre que l'EN : nom/famille/
+// groupe/titre (boss uniquement) et une section "==Récompenses==" via
+// {{Récompenses/Ennemi|...}} (Common/Elite Enemies, liste plate de
+// matériaux) ou {{Récompenses/Boss|boss=...|gemmes=...|sets=...}} (boss).
+// Aucune trace de dmgtype/weakpoint/abilities, de stats détaillées (RES +
+// Level Scaling) ni de tableau de récompenses par World/Domain Level. On
+// traduit donc uniquement ce qui EST disponible côté FR (nom, titre,
+// famille, groupe, matériaux/sets de récompense) et on réutilise tel quel le
+// reste des données EN (abilities, dmgtype, stats, location, basicRewards —
+// seul le libellé de chaque récompense de basicRewards est traduit, les
+// quantités/paliers restant identiques), comme le font déjà
+// scrape-domains.ts et scrape-artifacts.ts pour leurs propres champs
+// non-disponibles côté FR.
 // ─────────────────────────────────────────────────────────────────────────────
 
 const ENEMY_CATEGORIES = [
@@ -84,6 +103,19 @@ const BASIC_REWARD_NAMES = [
   'Companionship EXP',
   'Character EXP',
 ];
+
+// Équivalents FR des 4 libellés ci-dessus. "EXP d'Aventure"/"EXP d'affinité"
+// sont repris tels quels de REWARD_LABELS.fr dans scrape-domains.ts (wording
+// confirmé sur les pages Trounce FR) ; "Mora" est identique EN/FR. "EXP de
+// Personnage" n'a pas d'équivalent confirmé sur une page FR (le tableau de
+// récompenses par palier n'existe pas côté FR, cf. NOTE ci-dessus) : c'est
+// une traduction directe du terme, pas une valeur relevée sur le wiki.
+const BASIC_REWARD_NAMES_FR: Record<string, string> = {
+  'Adventure EXP': "EXP d'Aventure",
+  Mora: 'Mora',
+  'Companionship EXP': "EXP d'affinité",
+  'Character EXP': 'EXP de Personnage',
+};
 
 interface LevelStats {
   hp: number;
@@ -136,6 +168,26 @@ interface RawEnemy {
   poolRewards: PoolRewards;
   basicRewards: BasicReward[]; // boss uniquement — [] pour Common/Elite Enemies
   releaseVersion: string;
+  otherLanguagesFrName: string | null;
+}
+
+// Traductions FR disponibles pour un ennemi donné (cf. NOTE FR en tête de
+// fichier) : uniquement les champs réellement présents sur la page FR.
+interface FrEnemyPage {
+  name: string;
+  title: string; // boss uniquement — champ "titre" de {{Infobox Ennemi}}
+  family: string;
+  group: string;
+  poolRewards: PoolRewards;
+}
+
+interface CachedEnemy {
+  pageTitle: string;
+  releaseVersion: string;
+  en: ReturnType<typeof buildBossOutput> | ReturnType<typeof buildCommonEnemyOutput>;
+  // Toujours renseigné : repli sur le contenu EN (nom EN inclus) quand aucune
+  // page FR exploitable n'a été trouvée, cf. enrichEnemy.
+  fr: ReturnType<typeof buildBossOutput> | ReturnType<typeof buildCommonEnemyOutput>;
 }
 
 // ── Wikitext helpers (repris tels quels des scripts achievements/domains) ───
@@ -187,6 +239,18 @@ function parseInfoboxFields(block: string): Record<string, string> {
   const fields: Record<string, string> = {};
   for (const line of block.split('\n')) {
     const m = line.match(/^\|\s*([\w -]+?)\s*=\s*(.*)$/);
+    if (m) fields[m[1].trim()] = m[2].trim();
+  }
+  return fields;
+}
+
+// Variante utilisée pour l'infobox FR ({{Infobox Ennemi}}) : les noms de
+// champs peuvent contenir des accents (ex: "élément"), non couverts par \w
+// en mode non-unicode.
+function parseInfoboxFieldsAccented(block: string): Record<string, string> {
+  const fields: Record<string, string> = {};
+  for (const line of block.split('\n')) {
+    const m = line.match(/^\|\s*([^=]+?)\s*=\s*(.*)$/);
     if (m) fields[m[1].trim()] = m[2].trim();
   }
   return fields;
@@ -507,13 +571,138 @@ function parseBasicRewards(sectionHtml: string): BasicReward[] {
   return results;
 }
 
+// ── FR : {{Infobox Ennemi}} + {{Récompenses/Ennemi}} / {{Récompenses/Boss}} ─
+
+// Sépare une valeur "A;B;C" (séparateur observé sur les templates
+// Récompenses/*) en libellés nettoyés.
+function splitFrRewardList(raw?: string): string[] {
+  if (!raw) return [];
+  return raw
+    .split(';')
+    .map((s) => cleanWikitext(s))
+    .filter(Boolean);
+}
+
+// {{Récompenses/Boss|type=...|boss=A;B|gemmes=C;D|sets=E;F}} : "boss" et
+// "gemmes" sont des matériaux (matériau de boss + gemmes d'ascension), "sets"
+// des sets d'artéfacts — même distinction materials/artefacts que côté EN.
+function parseFrBossRewards(block: string): PoolRewards {
+  const fields = parseInfoboxFieldsAccented(block);
+  return {
+    materials: [
+      ...splitFrRewardList(fields['boss']),
+      ...splitFrRewardList(fields['gemmes']),
+    ],
+    artefacts: splitFrRewardList(fields['sets']),
+  };
+}
+
+// {{Récompenses/Ennemi|Masque endommagé}} (Common/Elite Enemies) : un seul
+// paramètre positionnel, liste de matériaux séparés par ";" (jamais de sets
+// d'artéfacts à ce niveau, cf. NOTE FR en tête de fichier).
+function parseFrEnemyRewards(block: string): PoolRewards {
+  const inner = block
+    .replace(/^\{\{Récompenses\/Ennemi\s*\|/, '')
+    .replace(/\}\}$/, '');
+  return { materials: splitFrRewardList(inner), artefacts: [] };
+}
+
+function parseFrPoolRewards(content: string): PoolRewards {
+  const bossBlock = extractBracedBlock(content, '{{Récompenses/Boss');
+  if (bossBlock) return parseFrBossRewards(bossBlock);
+
+  const enemyBlock = extractBracedBlock(content, '{{Récompenses/Ennemi');
+  if (enemyBlock) return parseFrEnemyRewards(enemyBlock);
+
+  return { materials: [], artefacts: [] };
+}
+
+function parseFrEnemyPage(content: string): FrEnemyPage | null {
+  const block = extractBracedBlock(content, '{{Infobox Ennemi');
+  if (!block) return null;
+  const fields = parseInfoboxFieldsAccented(block);
+
+  return {
+    name: cleanWikitext(fields['nom'] ?? ''),
+    title: cleanWikitext(fields['titre'] ?? ''),
+    family: cleanWikitext(fields['famille'] ?? ''),
+    group: cleanWikitext(fields['groupe'] ?? ''),
+    poolRewards: parseFrPoolRewards(content),
+  };
+}
+
+// ── FR : nom documenté par {{Other Languages}} sur la page EN elle-même ────
+//
+// Repris de scrape-domains.ts (resolveFrNameViaOtherLanguages) : quand aucune
+// page FR dédiée n'existe pour un ennemi (pas de langlink), le wikitext EN
+// documente malgré tout le nom officiel FR via {{Other Languages|fr=...}}
+// (confirmé sur "Bolteater Bathysmal Vishap Hatchling" et "Magatsu Mitake
+// Narukami no Mikoto", tous deux sans page FR mais avec un champ fr= renseigné).
+// Contrairement aux pages de domaines, ce champ est ici TOUJOURS en clair
+// dans le wikitext brut (paramètres nommés explicites, jamais un seul
+// paramètre positionnel résolu par un module Lua) : la lecture du wikitext
+// suffit, sans requête HTML supplémentaire.
+function parseOtherLanguagesField(content: string, lang: string): string | null {
+  const block = extractBracedBlock(content, '{{Other Languages');
+  if (!block) return null;
+  const fields = parseInfoboxFields(block);
+  const value = fields[lang];
+  return value ? cleanWikitext(value) : null;
+}
+
+// Filet de sécurité si jamais le format positionnel (résolu uniquement dans
+// le rendu HTML, comme documenté pour les domaines) se rencontrait malgré
+// tout sur une page d'ennemi : on retente sur le HTML déjà récupéré par
+// enrichWithHtml (pas de requête supplémentaire).
+function parseFrNameFromOtherLanguagesHtml(html: string): string | null {
+  const marker = 'id="Other_Languages"';
+  const idx = html.indexOf(marker);
+  if (idx === -1) return null;
+
+  const tableStart = html.indexOf('<table', idx);
+  if (tableStart === -1) return null;
+  const tableEnd = html.indexOf('</table>', tableStart);
+  if (tableEnd === -1) return null;
+
+  const $ = cheerio.load(html.slice(tableStart, tableEnd + '</table>'.length));
+  let frenchName: string | null = null;
+  $('tr').each((_, row) => {
+    const cells = $(row).find('td');
+    if (cells.length < 2) return;
+    if (/^French$/i.test($(cells[0]).text().trim())) {
+      frenchName = $(cells[1]).text().trim();
+    }
+  });
+  return frenchName;
+}
+
 // ── API ───────────────────────────────────────────────────────────────────────
 
 const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
+function sleep(ms: number) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+async function withRetry<T>(label: string, fn: () => Promise<T>, attempts = 3): Promise<T> {
+  let lastErr: unknown;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      return await fn();
+    } catch (err) {
+      lastErr = err;
+      if (i < attempts - 1) {
+        console.warn(`⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`);
+        await sleep(800 * (i + 1));
+      }
+    }
+  }
+  throw lastErr;
+}
+
 async function fetchEnemyHtml(pageTitle: string): Promise<string> {
-  const response = await axios.get(API_URL, {
+  const response = await axios.get(EN_API_URL, {
     params: {
       action: 'parse',
       page: pageTitle,
@@ -525,6 +714,59 @@ async function fetchEnemyHtml(pageTitle: string): Promise<string> {
     httpsAgent,
   });
   return response.data?.parse?.text ?? '';
+}
+
+// Titre de page FR équivalent (via langlink), résolu tel quel côté domains/
+// artifacts : requête dédiée par page, utilisée en repli quand le langlink
+// groupé de fetchBatch n'a rien donné.
+async function fetchFrTitleDirect(pageTitle: string): Promise<string | null> {
+  try {
+    return await withRetry(`fetch langlink FR "${pageTitle}"`, async () => {
+      const response = await axios.get(EN_API_URL, {
+        params: {
+          action: 'query',
+          titles: pageTitle,
+          prop: 'langlinks',
+          lllang: 'fr',
+          format: 'json',
+          formatversion: '2',
+        },
+        headers: HTTP_HEADERS,
+        httpsAgent,
+      });
+      const page = response.data?.query?.pages?.[0];
+      return page?.langlinks?.[0]?.title ?? null;
+    });
+  } catch (err) {
+    console.warn(`⚠️  Échec du fetch langlink FR pour "${pageTitle}" après plusieurs tentatives: ${err}`);
+    return null;
+  }
+}
+
+async function fetchFrWikitext(frTitle: string): Promise<string | null> {
+  try {
+    return await withRetry(`fetch wikitext FR "${frTitle}"`, async () => {
+      const response = await axios.get(FR_API_URL, {
+        params: {
+          action: 'query',
+          titles: frTitle,
+          prop: 'revisions',
+          rvprop: 'content',
+          rvslots: 'main',
+          format: 'json',
+          formatversion: '2',
+        },
+        headers: HTTP_HEADERS,
+        httpsAgent,
+      });
+      const page = response.data?.query?.pages?.[0];
+      if (!page || page.missing) return null;
+      return page.revisions?.[0]?.slots?.main?.content ?? null;
+    });
+  } catch (err) {
+    console.warn(`⚠️  Échec du fetch wikitext FR pour "${frTitle}" après plusieurs tentatives: ${err}`);
+    return null;
+  }
 }
 
 interface RawInfoboxEnemy {
@@ -540,6 +782,11 @@ interface RawInfoboxEnemy {
   domain: string;
   infoboxes: Record<string, string>[];
   releaseVersion: string;
+  frTitle: string | null;
+  // Nom FR documenté par {{Other Languages|fr=...}} sur la page EN elle-même
+  // (indépendant de l'existence d'un langlink/d'une page FR dédiée), résolu
+  // directement depuis le wikitext déjà en main — cf. resolveOtherLanguagesFrName.
+  otherLanguagesFrName: string | null;
 }
 
 async function fetchBatch(
@@ -554,15 +801,16 @@ async function fetchBatch(
     generator: 'categorymembers',
     gcmtitle: category,
     gcmlimit: '50',
-    prop: 'revisions',
+    prop: 'revisions|langlinks',
     rvprop: 'content',
     rvslots: 'main',
+    lllang: 'fr',
     format: 'json',
     formatversion: '2',
   };
   if (gcmcontinue) params.gcmcontinue = gcmcontinue;
 
-  const response = await axios.get(API_URL, {
+  const response = await axios.get(EN_API_URL, {
     params,
     headers: HTTP_HEADERS,
     httpsAgent,
@@ -605,6 +853,8 @@ async function fetchBatch(
       domain: cleanWikitext(domain),
       infoboxes,
       releaseVersion: version,
+      frTitle: page.langlinks?.[0]?.title ?? null,
+      otherLanguagesFrName: parseOtherLanguagesField(content, 'fr'),
     });
   }
 
@@ -623,7 +873,7 @@ async function fetchAllForCategory(
     all.push(...results);
     cont = nextContinue;
     page++;
-    await new Promise((r) => setTimeout(r, 500));
+    await sleep(500);
   } while (cont);
   return all;
 }
@@ -706,32 +956,38 @@ async function enrichWithHtml(enemy: RawInfoboxEnemy): Promise<RawEnemy> {
     poolRewards,
     basicRewards,
     releaseVersion: enemy.releaseVersion,
+    // Filet de sécurité HTML (cf. parseFrNameFromOtherLanguagesHtml) : ne
+    // coûte aucune requête supplémentaire, le HTML est déjà en main ici pour
+    // les stats/récompenses.
+    otherLanguagesFrName:
+      enemy.otherLanguagesFrName ??
+      (html ? parseFrNameFromOtherLanguagesHtml(html) : null),
   };
 }
 
-async function fetchAll(): Promise<RawEnemy[]> {
+async function fetchAllInfoboxEnemies(): Promise<RawInfoboxEnemy[]> {
   const byPageTitle = new Map<string, RawInfoboxEnemy>();
   for (const category of ENEMY_CATEGORIES) {
     const results = await fetchAllForCategory(category);
-    for (const enemy of results) byPageTitle.set(enemy.pageTitle, enemy);
+    for (const enemy of results) {
+      // Comme pour scrape-domains.ts/scrape-artifacts.ts : le langlink FR
+      // groupé peut arriver sur une continuation différente de celle de la
+      // page elle-même — on complète plutôt que d'écraser si un round
+      // ultérieur ramène la même page avec un frTitle et pas l'autre.
+      const existing = byPageTitle.get(enemy.pageTitle);
+      if (existing) {
+        if (enemy.frTitle && !existing.frTitle) existing.frTitle = enemy.frTitle;
+        continue;
+      }
+      byPageTitle.set(enemy.pageTitle, enemy);
+    }
   }
-
-  const infoboxEnemies = [...byPageTitle.values()];
-  const enriched: RawEnemy[] = [];
-  for (let i = 0; i < infoboxEnemies.length; i++) {
-    const enemy = infoboxEnemies[i];
-    console.log(
-      `Fetching stats/rewards for "${enemy.pageTitle}" (${i + 1}/${infoboxEnemies.length})...`,
-    );
-    enriched.push(await enrichWithHtml(enemy));
-    await new Promise((r) => setTimeout(r, 500));
-  }
-  return enriched;
+  return [...byPageTitle.values()];
 }
 
 // ── Cache ─────────────────────────────────────────────────────────────────────
 
-function loadCache(): RawEnemy[] | null {
+function loadCache(): CachedEnemy[] | null {
   if (!fs.existsSync(CACHE_PATH)) return null;
   try {
     return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
@@ -740,7 +996,8 @@ function loadCache(): RawEnemy[] | null {
   }
 }
 
-function saveCache(data: RawEnemy[]) {
+function saveCache(data: CachedEnemy[]) {
+  fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
   fs.writeFileSync(CACHE_PATH, JSON.stringify(data, null, 2), 'utf-8');
   console.log(`✅ Cache saved (${data.length} entries)`);
 }
@@ -758,15 +1015,45 @@ function enemyTypeLabel(rawType: string): string {
   return rawType;
 }
 
+// Champs traduisibles côté FR (cf. NOTE FR en tête de fichier) : absent pour
+// l'EN (comportement par défaut, aucune override) ou quand aucune page FR
+// n'a pu être résolue/parsée pour cet ennemi.
+interface EnemyTranslation {
+  name: string;
+  title: string;
+  family: string;
+  group: string;
+  poolRewards: PoolRewards;
+}
+
+function basicRewardsForLang(
+  basicRewards: BasicReward[],
+  lang: 'en' | 'fr',
+): BasicReward[] {
+  if (lang === 'en') return basicRewards;
+  return basicRewards.map((entry) => ({
+    ...entry,
+    rewards: entry.rewards.map((reward) => ({
+      ...reward,
+      name: BASIC_REWARD_NAMES_FR[reward.name] ?? reward.name,
+    })),
+  }));
+}
+
 // Boss (Normal/Weekly) : schéma riche avec title/location/phases détaillées/
 // récompenses par palier.
-function buildBossOutput(enemy: RawEnemy, enemyType: string) {
+function buildBossOutput(
+  enemy: RawEnemy,
+  enemyType: string,
+  lang: 'en' | 'fr' = 'en',
+  translation?: EnemyTranslation,
+) {
   return {
-    name: enemy.name,
+    name: translation?.name || enemy.name,
     enemyType,
-    title: enemy.title,
-    family: enemy.family,
-    group: enemy.group,
+    title: translation?.title || enemy.title,
+    family: translation?.family || enemy.family,
+    group: translation?.group || enemy.group,
     location: {
       region: enemy.region,
       area: enemy.area,
@@ -775,7 +1062,10 @@ function buildBossOutput(enemy: RawEnemy, enemyType: string) {
     },
     phases: enemy.phases.map((phase, idx) => ({
       phase: idx + 1,
-      name: phase.name,
+      // Pas de traduction par phase disponible côté FR (une seule "titre" par
+      // page) : on réutilise le nom traduit du boss pour chaque phase, comme
+      // l'EN réutilise déjà enemy.name faute de |name= par phase.
+      name: translation?.name || phase.name,
       damageTypes: phase.damageTypes,
       hasWeakPoint: phase.hasWeakPoint,
       abilities: phase.abilities,
@@ -785,8 +1075,8 @@ function buildBossOutput(enemy: RawEnemy, enemyType: string) {
       },
     })),
     bossRewards: {
-      poolRewards: enemy.poolRewards,
-      basicRewards: enemy.basicRewards,
+      poolRewards: translation?.poolRewards || enemy.poolRewards,
+      basicRewards: basicRewardsForLang(enemy.basicRewards, lang),
     },
     releaseVersion: enemy.releaseVersion,
   };
@@ -797,26 +1087,116 @@ function buildBossOutput(enemy: RawEnemy, enemyType: string) {
 // Level pour un ennemi normal, seulement une Drops Table générique). Une
 // seule "phase" existe toujours pour ces ennemis (un seul bloc infobox), donc
 // pas de tableau `phases` : ses stats/abilities sont remontées directement.
-function buildCommonEnemyOutput(enemy: RawEnemy, enemyType: string) {
+function buildCommonEnemyOutput(
+  enemy: RawEnemy,
+  enemyType: string,
+  translation?: EnemyTranslation,
+) {
   const [phase] = enemy.phases;
   return {
-    name: enemy.name,
+    name: translation?.name || enemy.name,
     enemyType,
-    family: enemy.family,
-    group: enemy.group,
+    family: translation?.family || enemy.family,
+    group: translation?.group || enemy.group,
     hasWeakPoint: phase?.hasWeakPoint ?? false,
     abilities: phase?.abilities ?? [],
     stats: {
       levels: phase?.stats.levels ?? {},
       resistance: phase?.stats.resistance ?? {},
     },
-    drops: enemy.poolRewards,
+    drops: translation?.poolRewards || enemy.poolRewards,
     releaseVersion: enemy.releaseVersion,
   };
 }
 
-function writeEnemyFiles(enemies: RawEnemy[], versionFilter?: string[]) {
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+// Enrichit un ennemi avec ses données EN (HTML rendu, cf. enrichWithHtml) et,
+// si une page FR existe, construit également la version FR à partir des
+// traductions disponibles (cf. NOTE FR en tête de fichier).
+async function enrichEnemy(enemy: RawInfoboxEnemy): Promise<CachedEnemy> {
+  const rawEnemy = await enrichWithHtml(enemy);
+  const isBoss = isBossType(rawEnemy.type);
+  const enemyType = enemyTypeLabel(rawEnemy.type);
+
+  const buildOutput = (lang: 'en' | 'fr', translation?: EnemyTranslation) =>
+    isBoss
+      ? buildBossOutput(rawEnemy, enemyType, lang, translation)
+      : buildCommonEnemyOutput(rawEnemy, enemyType, translation);
+
+  const en = buildOutput('en');
+
+  let frTitle = enemy.frTitle;
+  if (!frTitle) frTitle = await fetchFrTitleDirect(enemy.pageTitle);
+
+  // Repli quand aucune page FR dédiée n'est trouvée/exploitable (ci-dessous) :
+  // le nom FR documenté par {{Other Languages|fr=...}} sur la page EN
+  // elle-même (cf. resolveOtherLanguagesFrName), sinon le nom EN tel quel.
+  // Le reste du contenu (title/family/group/poolRewards/basicRewards) reste
+  // en anglais dans les deux cas, faute de source FR — demande utilisateur du
+  // 2026-07-25.
+  const fallbackName = rawEnemy.otherLanguagesFrName || rawEnemy.name;
+  const fallbackFr = () =>
+    buildOutput('en', {
+      name: fallbackName,
+      title: rawEnemy.title,
+      family: rawEnemy.family,
+      group: rawEnemy.group,
+      poolRewards: rawEnemy.poolRewards,
+    });
+
+  let fr: ReturnType<typeof buildOutput>;
+  if (frTitle) {
+    const frContent = await fetchFrWikitext(frTitle);
+    const frPage = frContent ? parseFrEnemyPage(frContent) : null;
+    if (frPage) {
+      const translation: EnemyTranslation = {
+        name: frPage.name || frTitle,
+        title: frPage.title,
+        family: frPage.family,
+        group: frPage.group,
+        poolRewards:
+          frPage.poolRewards.materials.length || frPage.poolRewards.artefacts.length
+            ? frPage.poolRewards
+            : rawEnemy.poolRewards,
+      };
+      fr = buildOutput('fr', translation);
+    } else {
+      console.warn(
+        `⚠️  "${enemy.pageTitle}": page FR "${frTitle}" introuvable ou sans {{Infobox Ennemi}} exploitable, fichier fr/ écrit avec le nom "${fallbackName}".`,
+      );
+      fr = fallbackFr();
+    }
+  } else {
+    console.warn(`⚠️  "${enemy.pageTitle}": aucune page FR trouvée, fichier fr/ écrit avec le nom "${fallbackName}".`);
+    fr = fallbackFr();
+  }
+
+  return {
+    pageTitle: rawEnemy.pageTitle,
+    releaseVersion: rawEnemy.releaseVersion,
+    en,
+    fr,
+  };
+}
+
+async function fetchAndEnrichAll(): Promise<CachedEnemy[]> {
+  const infoboxEnemies = await fetchAllInfoboxEnemies();
+  const enriched: CachedEnemy[] = [];
+  for (let i = 0; i < infoboxEnemies.length; i++) {
+    const enemy = infoboxEnemies[i];
+    console.log(
+      `Fetching stats/rewards for "${enemy.pageTitle}" (${i + 1}/${infoboxEnemies.length})...`,
+    );
+    enriched.push(await enrichEnemy(enemy));
+    await sleep(500);
+  }
+  return enriched;
+}
+
+function writeEnemyFiles(enemies: CachedEnemy[], versionFilter?: string[]) {
+  const enDir = OUTPUT_DIR('en');
+  const frDir = OUTPUT_DIR('fr');
+  fs.mkdirSync(enDir, { recursive: true });
+  fs.mkdirSync(frDir, { recursive: true });
 
   const filtered = versionFilter?.length
     ? enemies.filter((e) => versionFilter.includes(e.releaseVersion))
@@ -824,21 +1204,26 @@ function writeEnemyFiles(enemies: RawEnemy[], versionFilter?: string[]) {
 
   let written = 0;
   for (const enemy of filtered) {
-    const filename = `${slugify(enemy.name)}.json`;
-    const enemyType = enemyTypeLabel(enemy.type);
-    const output = isBossType(enemy.type)
-      ? buildBossOutput(enemy, enemyType)
-      : buildCommonEnemyOutput(enemy, enemyType);
+    const filename = `${slugify(enemy.en.name)}.json`;
 
     fs.writeFileSync(
-      path.join(OUTPUT_DIR, filename),
-      JSON.stringify(output, null, 2),
+      path.join(enDir, filename),
+      JSON.stringify(enemy.en, null, 2),
       'utf-8',
     );
+
+    // Toujours écrit : enemy.fr replie sur le contenu EN (nom EN inclus)
+    // quand aucune page FR exploitable n'a été trouvée, cf. enrichEnemy.
+    fs.writeFileSync(
+      path.join(frDir, filename),
+      JSON.stringify(enemy.fr, null, 2),
+      'utf-8',
+    );
+
     written++;
   }
 
-  console.log(`✅ Wrote ${written} enemy files to ${OUTPUT_DIR}`);
+  console.log(`✅ Wrote ${written} enemy files (en/ + fr/) to ${enDir} / ${frDir}`);
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
@@ -861,7 +1246,7 @@ async function main() {
   const useCache = args[0] === '--cache';
   const versionFilter = args.slice(1);
 
-  let enemies: RawEnemy[];
+  let enemies: CachedEnemy[];
 
   if (useCache) {
     const cached = loadCache();
@@ -875,7 +1260,7 @@ async function main() {
     console.log(
       'Fetching all enemies from wiki (this will take a few minutes)...',
     );
-    enemies = await fetchAll();
+    enemies = await fetchAndEnrichAll();
     saveCache(enemies);
   }
 
