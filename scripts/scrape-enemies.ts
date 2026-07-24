@@ -5,9 +5,25 @@ import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
-const API_URL = 'https://genshin-impact.fandom.com/api.php';
-const OUTPUT_DIR = path.resolve(__dirname, '../prisma/data/enemies/en');
-const CACHE_PATH = path.resolve(__dirname, './cache/enemies-raw-cache.json');
+const API_URLS: Record<string, string> = {
+  en: 'https://genshin-impact.fandom.com/api.php',
+  fr: 'https://genshin-impact.fandom.com/fr/api.php',
+};
+
+function getApiUrl(lang: string): string {
+  return API_URLS[lang] ?? API_URLS['en'];
+}
+
+function getOutputDir(lang: string): string {
+  return path.resolve(__dirname, `../prisma/data/enemies/${lang}`);
+}
+
+// Le cache EN garde son nom historique (sans suffixe) pour ne pas invalider
+// le cache déjà existant ; les autres langues ont leur propre fichier.
+function getCachePath(lang: string): string {
+  const suffix = lang === 'en' ? '' : `-${lang}`;
+  return path.resolve(__dirname, `./cache/enemies-raw-cache${suffix}.json`);
+}
 
 // ─────────────────────────────────────────────────────────────────────────────
 // NOTE
@@ -512,8 +528,8 @@ function parseBasicRewards(sectionHtml: string): BasicReward[] {
 const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
-async function fetchEnemyHtml(pageTitle: string): Promise<string> {
-  const response = await axios.get(API_URL, {
+async function fetchEnemyHtml(apiUrl: string, pageTitle: string): Promise<string> {
+  const response = await axios.get(apiUrl, {
     params: {
       action: 'parse',
       page: pageTitle,
@@ -543,6 +559,7 @@ interface RawInfoboxEnemy {
 }
 
 async function fetchBatch(
+  apiUrl: string,
   category: string,
   gcmcontinue?: string,
 ): Promise<{
@@ -562,7 +579,7 @@ async function fetchBatch(
   };
   if (gcmcontinue) params.gcmcontinue = gcmcontinue;
 
-  const response = await axios.get(API_URL, {
+  const response = await axios.get(apiUrl, {
     params,
     headers: HTTP_HEADERS,
     httpsAgent,
@@ -612,6 +629,7 @@ async function fetchBatch(
 }
 
 async function fetchAllForCategory(
+  apiUrl: string,
   category: string,
 ): Promise<RawInfoboxEnemy[]> {
   const all: RawInfoboxEnemy[] = [];
@@ -619,7 +637,7 @@ async function fetchAllForCategory(
   let page = 1;
   do {
     console.log(`Fetching ${category} batch ${page}...`);
-    const { results, nextContinue } = await fetchBatch(category, cont);
+    const { results, nextContinue } = await fetchBatch(apiUrl, category, cont);
     all.push(...results);
     cont = nextContinue;
     page++;
@@ -630,10 +648,13 @@ async function fetchAllForCategory(
 
 // Complète chaque ennemi avec les phases (stats) et récompenses, extraites du
 // HTML rendu de sa page (1 requête HTTP supplémentaire par ennemi).
-async function enrichWithHtml(enemy: RawInfoboxEnemy): Promise<RawEnemy> {
+async function enrichWithHtml(
+  apiUrl: string,
+  enemy: RawInfoboxEnemy,
+): Promise<RawEnemy> {
   let html = '';
   try {
-    html = await fetchEnemyHtml(enemy.pageTitle);
+    html = await fetchEnemyHtml(apiUrl, enemy.pageTitle);
   } catch (err) {
     console.warn(`⚠️  Échec du fetch HTML pour "${enemy.pageTitle}": ${err}`);
   }
@@ -710,9 +731,10 @@ async function enrichWithHtml(enemy: RawInfoboxEnemy): Promise<RawEnemy> {
 }
 
 async function fetchAll(): Promise<RawEnemy[]> {
+  const apiUrl = getApiUrl('en');
   const byPageTitle = new Map<string, RawInfoboxEnemy>();
   for (const category of ENEMY_CATEGORIES) {
-    const results = await fetchAllForCategory(category);
+    const results = await fetchAllForCategory(apiUrl, category);
     for (const enemy of results) byPageTitle.set(enemy.pageTitle, enemy);
   }
 
@@ -723,7 +745,7 @@ async function fetchAll(): Promise<RawEnemy[]> {
     console.log(
       `Fetching stats/rewards for "${enemy.pageTitle}" (${i + 1}/${infoboxEnemies.length})...`,
     );
-    enriched.push(await enrichWithHtml(enemy));
+    enriched.push(await enrichWithHtml(apiUrl, enemy));
     await new Promise((r) => setTimeout(r, 500));
   }
   return enriched;
@@ -731,17 +753,17 @@ async function fetchAll(): Promise<RawEnemy[]> {
 
 // ── Cache ─────────────────────────────────────────────────────────────────────
 
-function loadCache(): RawEnemy[] | null {
-  if (!fs.existsSync(CACHE_PATH)) return null;
+function loadCache<T>(cachePath: string): T[] | null {
+  if (!fs.existsSync(cachePath)) return null;
   try {
-    return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
+    return JSON.parse(fs.readFileSync(cachePath, 'utf-8'));
   } catch {
     return null;
   }
 }
 
-function saveCache(data: RawEnemy[]) {
-  fs.writeFileSync(CACHE_PATH, JSON.stringify(data, null, 2), 'utf-8');
+function saveCache<T>(cachePath: string, data: T[]) {
+  fs.writeFileSync(cachePath, JSON.stringify(data, null, 2), 'utf-8');
   console.log(`✅ Cache saved (${data.length} entries)`);
 }
 
@@ -815,8 +837,12 @@ function buildCommonEnemyOutput(enemy: RawEnemy, enemyType: string) {
   };
 }
 
-function writeEnemyFiles(enemies: RawEnemy[], versionFilter?: string[]) {
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+function writeEnemyFiles(
+  outputDir: string,
+  enemies: RawEnemy[],
+  versionFilter?: string[],
+) {
+  fs.mkdirSync(outputDir, { recursive: true });
 
   const filtered = versionFilter?.length
     ? enemies.filter((e) => versionFilter.includes(e.releaseVersion))
@@ -831,40 +857,387 @@ function writeEnemyFiles(enemies: RawEnemy[], versionFilter?: string[]) {
       : buildCommonEnemyOutput(enemy, enemyType);
 
     fs.writeFileSync(
-      path.join(OUTPUT_DIR, filename),
+      path.join(outputDir, filename),
       JSON.stringify(output, null, 2),
       'utf-8',
     );
     written++;
   }
 
-  console.log(`✅ Wrote ${written} enemy files to ${OUTPUT_DIR}`);
+  console.log(`✅ Wrote ${written} enemy files to ${outputDir}`);
+}
+
+// ══════════════════════════════════════════════════════════════════════════
+// ── FR — pipeline entièrement distinct (infobox/templates différents) ─────
+// ══════════════════════════════════════════════════════════════════════════
+//
+// Le wiki FR n'a pas les sous-catégories EN (Common/Elite Enemies, Normal/
+// Weekly Bosses) : "Catégorie:Ennemis" liste directement toutes les pages,
+// tous types confondus. On la parcourt donc en une seule fois et on
+// classifie via le champ |type= de l'infobox (valeurs traduites : "Ennemi
+// commun", "Ennemi d'élite", "Boss normal", "Boss hebdomadaire").
+//
+// L'infobox elle-même est {{Infobox Ennemi}} avec des noms de champs français
+// (famille/groupe/localisation/titre) différents des clés EN, ainsi qu'un
+// champ "élément" ("element", "element 2", ...) que les Common/Elite Enemies
+// EN n'exposent pas du tout (seuls les boss EN ont un dmgtype). En
+// contrepartie, le wiki FR n'a NULLE PART de tableau de scaling par niveau
+// (HP/ATK/DEF), pas de weakpoint, pas d'abilities, et pas de récompenses par
+// palier World/Domain Level : cette donnée n'existe simplement pas côté FR,
+// même en HTML rendu. Une seule requête wikitext par page suffit donc (pas
+// de fetchEnemyHtml/action=parse nécessaire pour le FR), et le schéma de
+// sortie est volontairement plus léger que l'EN, uniforme pour tous les
+// types (boss inclus) plutôt que scindé riche/allégé comme côté EN.
+//
+// Les tableaux de résistances (immunités/pourcentages), eux, sont présents
+// directement dans le wikitext sous "==Statistiques==" (éventuellement
+// "===Faiblesses==="), pas seulement en HTML rendu : on les parse donc
+// directement depuis le wikitext brut, comme le reste.
+// ─────────────────────────────────────────────────────────────────────────────
+
+const FR_ELEMENT_MAP: Record<string, string> = {
+  physique: 'physical',
+  pyro: 'pyro',
+  hydro: 'hydro',
+  électro: 'electro',
+  electro: 'electro',
+  cryo: 'cryo',
+  anémo: 'anemo',
+  anemo: 'anemo',
+  géo: 'geo',
+  geo: 'geo',
+  dendro: 'dendro',
+};
+
+interface RawEnemyFr {
+  pageTitle: string;
+  name: string;
+  title: string; // 'titre' (1ère phase uniquement pour les boss multi-phases, ex: La Signora)
+  type: string; // valeur brute de l'infobox : "Ennemi commun" | "Ennemi d'élite" | "Boss normal" | "Boss hebdomadaire"
+  family: string;
+  group: string;
+  location: string; // 'localisation' — granularité unique, pas de région/zone/sous-zone séparées comme en EN
+  domain: string; // 'donjon' — nom du Trounce Domain pour les boss hebdomadaires concernés
+  damageTypes: string[];
+  resistance: Record<string, number>;
+  drops: PoolRewards;
+  releaseVersion: string;
+}
+
+// Découpe un appel de template en paramètres nommés, en ne coupant que sur
+// les "|" de profondeur 0 (ignore ceux imbriqués dans [[...]] ou {{...}}).
+// Nécessaire ici car, contrairement aux infobox EN (un champ par ligne), les
+// templates FR sont parfois écrits sur une seule ligne
+// ("{{Infobox Ennemi |titre = ... |image = ... }}").
+function parseTemplateParams(block: string): Record<string, string> {
+  const inner = block.slice(2, -2); // retire les {{ }} externes
+  const parts: string[] = [];
+  let depth = 0;
+  let current = '';
+
+  for (let i = 0; i < inner.length; i++) {
+    const two = inner.slice(i, i + 2);
+    if (two === '{{' || two === '[[') {
+      depth++;
+      current += two;
+      i++;
+      continue;
+    }
+    if (two === '}}' || two === ']]') {
+      depth--;
+      current += two;
+      i++;
+      continue;
+    }
+    if (inner[i] === '|' && depth === 0) {
+      parts.push(current);
+      current = '';
+      continue;
+    }
+    current += inner[i];
+  }
+  parts.push(current);
+
+  const fields: Record<string, string> = {};
+  // parts[0] = nom du template, ignoré ici.
+  for (const part of parts.slice(1)) {
+    const eq = part.indexOf('=');
+    if (eq === -1) continue;
+    const key = part.slice(0, eq).trim();
+    const value = part.slice(eq + 1).trim();
+    if (key) fields[key] = value;
+  }
+  return fields;
+}
+
+// "élément" ("element" en clé wikitext) puis "element 2", "element 3", ...
+function parseDamageTypesFr(fields: Record<string, string>): string[] {
+  const types: string[] = [];
+  if (fields['element']) types.push(cleanWikitext(fields['element']));
+  for (let i = 2; ; i++) {
+    const value = fields[`element ${i}`];
+    if (!value) break;
+    types.push(cleanWikitext(value));
+  }
+  return types;
+}
+
+function splitSemicolonList(value: string | undefined): string[] {
+  if (!value) return [];
+  return value
+    .split(';')
+    .map((s) => cleanWikitext(s))
+    .filter(Boolean);
+}
+
+// Table de résistances en wikitext brut (pas de rendu HTML nécessaire côté
+// FR) : une ligne d'icônes "[[Fichier:Icône Nom.png|...]]" suivie d'une ligne
+// de valeurs ("10 %" ou "Immunisé"). Cohérent avec parsePercent (EN) :
+// "Immunisé" (non numérique) est compté comme 0%, au même titre que "Immune"
+// côté EN — une simplification déjà en place, pas une régression FR.
+function parseResistanceTableFr(content: string): Record<string, number> {
+  const statsMatch = content.match(/==\s*Statistiques\s*==([\s\S]*?)(?:\n==[^=]|$)/);
+  const statsSection = statsMatch ? statsMatch[1] : '';
+
+  const tableMatch = statsSection.match(/\{\|[\s\S]*?\n\|\}/);
+  if (!tableMatch) return {};
+  const table = tableMatch[0];
+
+  const rows = table.split(/\n\|-/);
+  const elementRow = rows.find((r) => /Icône ([^.|\]]+)\.png/i.test(r));
+  if (!elementRow) return {};
+
+  const elements = [...elementRow.matchAll(/Icône ([^.|\]]+)\.png/gi)].map(
+    (m) => (FR_ELEMENT_MAP[m[1].trim().toLowerCase()] ?? m[1].trim().toLowerCase()),
+  );
+
+  const elementRowIdx = rows.indexOf(elementRow);
+  const valueRow = rows[elementRowIdx + 1];
+  if (!valueRow) return {};
+
+  const values = valueRow
+    .split('\n|')
+    .slice(1)
+    .map((v) => v.trim())
+    .filter(Boolean);
+
+  const resistance: Record<string, number> = {};
+  elements.forEach((el, i) => {
+    if (values[i] !== undefined) resistance[el] = parsePercent(values[i]);
+  });
+  return resistance;
+}
+
+function enemyTypeLabelFr(rawType: string): string {
+  if (/^boss hebdomadaire$/i.test(rawType)) return 'Weekly Boss';
+  if (/^boss normal$/i.test(rawType)) return 'Normal Boss';
+  if (/^ennemi d'élite$/i.test(rawType)) return 'Elite Enemy';
+  if (/^ennemi commun$/i.test(rawType)) return 'Common Enemy';
+  return rawType;
+}
+
+async function fetchBatchFr(
+  apiUrl: string,
+  gcmcontinue?: string,
+): Promise<{ results: RawEnemyFr[]; nextContinue?: string }> {
+  const params: Record<string, string> = {
+    action: 'query',
+    generator: 'categorymembers',
+    gcmtitle: 'Catégorie:Ennemis',
+    gcmlimit: '50',
+    prop: 'revisions',
+    rvprop: 'content',
+    rvslots: 'main',
+    format: 'json',
+    formatversion: '2',
+  };
+  if (gcmcontinue) params.gcmcontinue = gcmcontinue;
+
+  const response = await axios.get(apiUrl, {
+    params,
+    headers: HTTP_HEADERS,
+    httpsAgent,
+  });
+
+  const pages = response.data?.query?.pages ?? [];
+  const nextContinue = response.data?.continue?.gcmcontinue;
+  const results: RawEnemyFr[] = [];
+
+  for (const page of pages) {
+    const content: string = page?.revisions?.[0]?.slots?.main?.content ?? '';
+    // Exclut les pages "Infobox Terminologie" (familles génériques comme
+    // "Brutocollinus") et pages guides, qui n'ont pas de {{Infobox Ennemi}}.
+    const infoboxBlock = extractBracedBlock(content, '{{Infobox Ennemi');
+    if (!infoboxBlock) continue;
+
+    const fields = parseTemplateParams(infoboxBlock);
+
+    const rewardsBlock =
+      extractBracedBlock(content, '{{Récompenses/Boss') ??
+      extractBracedBlock(content, '{{Récompenses/Ennemi');
+
+    let drops: PoolRewards = { materials: [], artefacts: [] };
+    if (rewardsBlock?.startsWith('{{Récompenses/Boss')) {
+      const rewardsFields = parseTemplateParams(rewardsBlock);
+      drops = {
+        materials: [
+          ...splitSemicolonList(rewardsFields['boss']),
+          ...splitSemicolonList(rewardsFields['gemmes']),
+        ],
+        artefacts: splitSemicolonList(rewardsFields['sets']),
+      };
+    } else if (rewardsBlock) {
+      // {{Récompenses/Ennemi|X;Y;Z}} : un seul paramètre positionnel, pas de
+      // clé nommée (donc inexploitable par parseTemplateParams, qui exige un
+      // "=" par segment) : on récupère directement ce qui suit le premier "|".
+      const positional = rewardsBlock.slice(2, -2).split('|').slice(1).join('|');
+      drops = { materials: splitSemicolonList(positional), artefacts: [] };
+    }
+
+    const versionMatch = content.match(/\{\{Historique\|([^}|]+)/);
+    const version = versionMatch ? versionMatch[1].trim() : '';
+
+    results.push({
+      pageTitle: page.title,
+      name: extractEnemyName(fields, page.title),
+      title: cleanWikitext(fields['titre'] ?? ''),
+      type: cleanWikitext(fields['type'] ?? ''),
+      family: cleanWikitext(fields['famille'] ?? ''),
+      group: cleanWikitext(fields['groupe'] ?? ''),
+      location: cleanWikitext(fields['localisation'] ?? ''),
+      domain: cleanWikitext(fields['donjon'] ?? ''),
+      damageTypes: parseDamageTypesFr(fields),
+      resistance: parseResistanceTableFr(content),
+      drops,
+      releaseVersion: version,
+    });
+  }
+
+  return { results, nextContinue };
+}
+
+async function fetchAllFr(): Promise<RawEnemyFr[]> {
+  const apiUrl = getApiUrl('fr');
+  const all: RawEnemyFr[] = [];
+  let cont: string | undefined;
+  let page = 1;
+  do {
+    console.log(`Fetching Catégorie:Ennemis (fr) batch ${page}...`);
+    const { results, nextContinue } = await fetchBatchFr(apiUrl, cont);
+    all.push(...results);
+    cont = nextContinue;
+    page++;
+    await new Promise((r) => setTimeout(r, 500));
+  } while (cont);
+  return all;
+}
+
+function buildFrEnemyOutput(enemy: RawEnemyFr) {
+  return {
+    name: enemy.name,
+    enemyType: enemyTypeLabelFr(enemy.type),
+    title: enemy.title,
+    family: enemy.family,
+    group: enemy.group,
+    location: {
+      area: enemy.location,
+      domain: enemy.domain,
+    },
+    damageTypes: enemy.damageTypes,
+    resistance: enemy.resistance,
+    drops: enemy.drops,
+    releaseVersion: enemy.releaseVersion,
+  };
+}
+
+function writeEnemyFilesFr(
+  outputDir: string,
+  enemies: RawEnemyFr[],
+  versionFilter?: string[],
+) {
+  fs.mkdirSync(outputDir, { recursive: true });
+
+  const filtered = versionFilter?.length
+    ? enemies.filter((e) => versionFilter.includes(e.releaseVersion))
+    : enemies;
+
+  let written = 0;
+  for (const enemy of filtered) {
+    const filename = `${slugify(enemy.name)}.json`;
+    fs.writeFileSync(
+      path.join(outputDir, filename),
+      JSON.stringify(buildFrEnemyOutput(enemy), null, 2),
+      'utf-8',
+    );
+    written++;
+  }
+
+  console.log(`✅ Wrote ${written} enemy files to ${outputDir}`);
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const args = process.argv.slice(2);
+  const rawArgs = process.argv.slice(2);
 
-  if (args.length === 0 || !['--fetch', '--cache'].includes(args[0])) {
+  const langIdx = rawArgs.indexOf('--lang');
+  const lang = langIdx !== -1 ? rawArgs[langIdx + 1] : 'en';
+  const args =
+    langIdx !== -1
+      ? [...rawArgs.slice(0, langIdx), ...rawArgs.slice(langIdx + 2)]
+      : rawArgs;
+
+  if (
+    args.length === 0 ||
+    !['--fetch', '--cache'].includes(args[0]) ||
+    !API_URLS[lang]
+  ) {
     console.error('Usage:');
     console.error(
-      '  Fetch + générer tout    : npx ts-node ... scrape-enemies.ts --fetch',
+      '  Fetch + générer tout    : npx ts-node ... scrape-enemies.ts --fetch [--lang fr]',
     );
     console.error(
-      '  Cache + générer tout     : npx ts-node ... scrape-enemies.ts --cache',
+      '  Cache + générer tout     : npx ts-node ... scrape-enemies.ts --cache [--lang fr]',
     );
     console.error('  Filtrer par version(s)   : ... --cache 2.3 3.0');
+    console.error(`\nLangues disponibles : ${Object.keys(API_URLS).join(', ')}`);
     process.exit(1);
   }
 
   const useCache = args[0] === '--cache';
   const versionFilter = args.slice(1);
+  const outputDir = getOutputDir(lang);
+  const cachePath = getCachePath(lang);
+
+  if (lang === 'fr') {
+    let enemiesFr: RawEnemyFr[];
+    if (useCache) {
+      const cached = loadCache<RawEnemyFr>(cachePath);
+      if (!cached) {
+        console.error('❌ No cache found. Run with --fetch first.');
+        process.exit(1);
+      }
+      enemiesFr = cached;
+      console.log(`Loaded ${enemiesFr.length} enemies from cache.`);
+    } else {
+      console.log(
+        'Fetching all enemies from wiki (this will take a few minutes)...',
+      );
+      enemiesFr = await fetchAllFr();
+      saveCache(cachePath, enemiesFr);
+    }
+    writeEnemyFilesFr(
+      outputDir,
+      enemiesFr,
+      versionFilter.length ? versionFilter : undefined,
+    );
+    return;
+  }
 
   let enemies: RawEnemy[];
 
   if (useCache) {
-    const cached = loadCache();
+    const cached = loadCache<RawEnemy>(cachePath);
     if (!cached) {
       console.error('❌ No cache found. Run with --fetch first.');
       process.exit(1);
@@ -876,10 +1249,14 @@ async function main() {
       'Fetching all enemies from wiki (this will take a few minutes)...',
     );
     enemies = await fetchAll();
-    saveCache(enemies);
+    saveCache(cachePath, enemies);
   }
 
-  writeEnemyFiles(enemies, versionFilter.length ? versionFilter : undefined);
+  writeEnemyFiles(
+    outputDir,
+    enemies,
+    versionFilter.length ? versionFilter : undefined,
+  );
 }
 
 main();
