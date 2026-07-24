@@ -184,10 +184,14 @@ interface FrEnemyPage {
 interface CachedEnemy {
   pageTitle: string;
   releaseVersion: string;
-  en: ReturnType<typeof buildBossOutput> | ReturnType<typeof buildCommonEnemyOutput>;
+  en:
+    | ReturnType<typeof buildBossOutput>
+    | ReturnType<typeof buildCommonEnemyOutput>;
   // Toujours renseigné : repli sur le contenu EN (nom EN inclus) quand aucune
   // page FR exploitable n'a été trouvée, cf. enrichEnemy.
-  fr: ReturnType<typeof buildBossOutput> | ReturnType<typeof buildCommonEnemyOutput>;
+  fr:
+    | ReturnType<typeof buildBossOutput>
+    | ReturnType<typeof buildCommonEnemyOutput>;
 }
 
 // ── Wikitext helpers (repris tels quels des scripts achievements/domains) ───
@@ -342,11 +346,11 @@ function extractSectionHtml(html: string, id: string): string | null {
   const searchFrom = idx + marker.length;
   const nextH2 = html.indexOf('<h2', searchFrom);
   const nextH3 = html.indexOf('<h3', searchFrom);
-  const candidates = isH2
-    ? [nextH2]
-    : [nextH2, nextH3];
+  const candidates = isH2 ? [nextH2] : [nextH2, nextH3];
   const validCandidates = candidates.filter((n) => n !== -1);
-  const end = validCandidates.length ? Math.min(...validCandidates) : html.length;
+  const end = validCandidates.length
+    ? Math.min(...validCandidates)
+    : html.length;
   return html.slice(idx, end);
 }
 
@@ -642,7 +646,10 @@ function parseFrEnemyPage(content: string): FrEnemyPage | null {
 // dans le wikitext brut (paramètres nommés explicites, jamais un seul
 // paramètre positionnel résolu par un module Lua) : la lecture du wikitext
 // suffit, sans requête HTML supplémentaire.
-function parseOtherLanguagesField(content: string, lang: string): string | null {
+function parseOtherLanguagesField(
+  content: string,
+  lang: string,
+): string | null {
   const block = extractBracedBlock(content, '{{Other Languages');
   if (!block) return null;
   const fields = parseInfoboxFields(block);
@@ -678,14 +685,20 @@ function parseFrNameFromOtherLanguagesHtml(html: string): string | null {
 
 // ── API ───────────────────────────────────────────────────────────────────────
 
-const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
+const HTTP_HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)',
+};
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-async function withRetry<T>(label: string, fn: () => Promise<T>, attempts = 3): Promise<T> {
+async function withRetry<T>(
+  label: string,
+  fn: () => Promise<T>,
+  attempts = 3,
+): Promise<T> {
   let lastErr: unknown;
   for (let i = 0; i < attempts; i++) {
     try {
@@ -693,7 +706,9 @@ async function withRetry<T>(label: string, fn: () => Promise<T>, attempts = 3): 
     } catch (err) {
       lastErr = err;
       if (i < attempts - 1) {
-        console.warn(`⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`);
+        console.warn(
+          `⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`,
+        );
         await sleep(800 * (i + 1));
       }
     }
@@ -738,7 +753,9 @@ async function fetchFrTitleDirect(pageTitle: string): Promise<string | null> {
       return page?.langlinks?.[0]?.title ?? null;
     });
   } catch (err) {
-    console.warn(`⚠️  Échec du fetch langlink FR pour "${pageTitle}" après plusieurs tentatives: ${err}`);
+    console.warn(
+      `⚠️  Échec du fetch langlink FR pour "${pageTitle}" après plusieurs tentatives: ${err}`,
+    );
     return null;
   }
 }
@@ -764,7 +781,9 @@ async function fetchFrWikitext(frTitle: string): Promise<string | null> {
       return page.revisions?.[0]?.slots?.main?.content ?? null;
     });
   } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext FR pour "${frTitle}" après plusieurs tentatives: ${err}`);
+    console.warn(
+      `⚠️  Échec du fetch wikitext FR pour "${frTitle}" après plusieurs tentatives: ${err}`,
+    );
     return null;
   }
 }
@@ -790,6 +809,7 @@ interface RawInfoboxEnemy {
 }
 
 async function fetchBatch(
+  apiUrl: string,
   category: string,
   gcmcontinue?: string,
 ): Promise<{
@@ -862,6 +882,7 @@ async function fetchBatch(
 }
 
 async function fetchAllForCategory(
+  apiUrl: string,
   category: string,
 ): Promise<RawInfoboxEnemy[]> {
   const all: RawInfoboxEnemy[] = [];
@@ -869,7 +890,7 @@ async function fetchAllForCategory(
   let page = 1;
   do {
     console.log(`Fetching ${category} batch ${page}...`);
-    const { results, nextContinue } = await fetchBatch(category, cont);
+    const { results, nextContinue } = await fetchBatch(apiUrl, category, cont);
     all.push(...results);
     cont = nextContinue;
     page++;
@@ -880,10 +901,13 @@ async function fetchAllForCategory(
 
 // Complète chaque ennemi avec les phases (stats) et récompenses, extraites du
 // HTML rendu de sa page (1 requête HTTP supplémentaire par ennemi).
-async function enrichWithHtml(enemy: RawInfoboxEnemy): Promise<RawEnemy> {
+async function enrichWithHtml(
+  apiUrl: string,
+  enemy: RawInfoboxEnemy,
+): Promise<RawEnemy> {
   let html = '';
   try {
-    html = await fetchEnemyHtml(enemy.pageTitle);
+    html = await fetchEnemyHtml(apiUrl, enemy.pageTitle);
   } catch (err) {
     console.warn(`⚠️  Échec du fetch HTML pour "${enemy.pageTitle}": ${err}`);
   }
@@ -934,8 +958,7 @@ async function enrichWithHtml(enemy: RawInfoboxEnemy): Promise<RawEnemy> {
     phases.push({
       name: infobox['name'] ? cleanWikitext(infobox['name']) : enemy.name,
       damageTypes: parseDamageTypes(infobox),
-      hasWeakPoint:
-        (infobox['weakpoint'] ?? '').trim().toLowerCase() === 'yes',
+      hasWeakPoint: (infobox['weakpoint'] ?? '').trim().toLowerCase() === 'yes',
       abilities: parseAbilities(infobox),
       stats: { resistance, levels: statsRaw.levels },
     });
@@ -976,7 +999,8 @@ async function fetchAllInfoboxEnemies(): Promise<RawInfoboxEnemy[]> {
       // ultérieur ramène la même page avec un frTitle et pas l'autre.
       const existing = byPageTitle.get(enemy.pageTitle);
       if (existing) {
-        if (enemy.frTitle && !existing.frTitle) existing.frTitle = enemy.frTitle;
+        if (enemy.frTitle && !existing.frTitle)
+          existing.frTitle = enemy.frTitle;
         continue;
       }
       byPageTitle.set(enemy.pageTitle, enemy);
@@ -990,7 +1014,7 @@ async function fetchAllInfoboxEnemies(): Promise<RawInfoboxEnemy[]> {
 function loadCache(): CachedEnemy[] | null {
   if (!fs.existsSync(CACHE_PATH)) return null;
   try {
-    return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
+    return JSON.parse(fs.readFileSync(cachePath, 'utf-8'));
   } catch {
     return null;
   }
@@ -1154,7 +1178,8 @@ async function enrichEnemy(enemy: RawInfoboxEnemy): Promise<CachedEnemy> {
         family: frPage.family,
         group: frPage.group,
         poolRewards:
-          frPage.poolRewards.materials.length || frPage.poolRewards.artefacts.length
+          frPage.poolRewards.materials.length ||
+          frPage.poolRewards.artefacts.length
             ? frPage.poolRewards
             : rawEnemy.poolRewards,
       };
@@ -1166,7 +1191,9 @@ async function enrichEnemy(enemy: RawInfoboxEnemy): Promise<CachedEnemy> {
       fr = fallbackFr();
     }
   } else {
-    console.warn(`⚠️  "${enemy.pageTitle}": aucune page FR trouvée, fichier fr/ écrit avec le nom "${fallbackName}".`);
+    console.warn(
+      `⚠️  "${enemy.pageTitle}": aucune page FR trouvée, fichier fr/ écrit avec le nom "${fallbackName}".`,
+    );
     fr = fallbackFr();
   }
 
@@ -1223,23 +1250,39 @@ function writeEnemyFiles(enemies: CachedEnemy[], versionFilter?: string[]) {
     written++;
   }
 
-  console.log(`✅ Wrote ${written} enemy files (en/ + fr/) to ${enDir} / ${frDir}`);
+  console.log(
+    `✅ Wrote ${written} enemy files (en/ + fr/) to ${enDir} / ${frDir}`,
+  );
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const args = process.argv.slice(2);
+  const rawArgs = process.argv.slice(2);
 
-  if (args.length === 0 || !['--fetch', '--cache'].includes(args[0])) {
+  const langIdx = rawArgs.indexOf('--lang');
+  const lang = langIdx !== -1 ? rawArgs[langIdx + 1] : 'en';
+  const args =
+    langIdx !== -1
+      ? [...rawArgs.slice(0, langIdx), ...rawArgs.slice(langIdx + 2)]
+      : rawArgs;
+
+  if (
+    args.length === 0 ||
+    !['--fetch', '--cache'].includes(args[0]) ||
+    !API_URLS[lang]
+  ) {
     console.error('Usage:');
     console.error(
-      '  Fetch + générer tout    : npx ts-node ... scrape-enemies.ts --fetch',
+      '  Fetch + générer tout    : npx ts-node ... scrape-enemies.ts --fetch [--lang fr]',
     );
     console.error(
-      '  Cache + générer tout     : npx ts-node ... scrape-enemies.ts --cache',
+      '  Cache + générer tout     : npx ts-node ... scrape-enemies.ts --cache [--lang fr]',
     );
     console.error('  Filtrer par version(s)   : ... --cache 2.3 3.0');
+    console.error(
+      `\nLangues disponibles : ${Object.keys(API_URLS).join(', ')}`,
+    );
     process.exit(1);
   }
 
@@ -1249,7 +1292,7 @@ async function main() {
   let enemies: CachedEnemy[];
 
   if (useCache) {
-    const cached = loadCache();
+    const cached = loadCache<RawEnemy>(cachePath);
     if (!cached) {
       console.error('❌ No cache found. Run with --fetch first.');
       process.exit(1);
@@ -1264,7 +1307,11 @@ async function main() {
     saveCache(enemies);
   }
 
-  writeEnemyFiles(enemies, versionFilter.length ? versionFilter : undefined);
+  writeEnemyFiles(
+    outputDir,
+    enemies,
+    versionFilter.length ? versionFilter : undefined,
+  );
 }
 
 main();
