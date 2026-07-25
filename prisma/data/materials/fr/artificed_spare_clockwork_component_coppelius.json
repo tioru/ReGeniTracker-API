@@ -1,0 +1,27 @@
+{
+  "name": "Engrenage artificié de rechange : Coppelius",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "Un engrenage horlogoïde de rechange appartenant à Coppelius, qui sert à alimenter le danseur artificié. Le danseur artificié tourbillonne sur un air platine, interprétant une valse interminable de vent de glace. La danse de Coppelius ne s'arrêtant pas, il continuera à tourner jusqu'au son du glas.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Icewind Suite"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Freminet",
+      "Navia"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

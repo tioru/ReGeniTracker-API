@@ -1,0 +1,50 @@
+{
+  "name": "Philosophies of Ingenuity",
+  "rarity": 4,
+  "categories": [
+    "INGENUITY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Ingenuity is the leaf-veins of the nation of wisdom. Ingenuity is completed by harmonious conduct. What is done completes what is thought. Wisdom blooms where the mind, words, and practice converge.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Steeple of Ignorance",
+      "rotation": "Witticism",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Ingenuity",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Alhaitham",
+      "Dori",
+      "Kaveh",
+      "Layla",
+      "Nahida",
+      "Traveler (Dendro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

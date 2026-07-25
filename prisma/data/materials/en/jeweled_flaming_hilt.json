@@ -1,0 +1,47 @@
+{
+  "name": "Jeweled Flaming Hilt",
+  "rarity": 4,
+  "categories": [
+    "DOMAIN_KEEPER_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "The hilt remains of a flaming sword once wielded by a Domain Keeper. A sword of blazing fire was once the symbol of admonition. Empowered by the authority of \"Space,\" it proclaimed the absolute and infallible will of the divine.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Domain Keeper"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Fractured Flaming Hilt",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Angelos' Heptades",
+    "Golden Frostbound Oath"
+  ],
+  "sellers": []
+}

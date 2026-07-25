@@ -1,0 +1,53 @@
+{
+  "name": "Mistshroud Plate",
+  "rarity": 3,
+  "categories": [
+    "WASTELAND_WILD_HUNT_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A plate found in the mists of the Wild Hunt. It was part of the armor of a Wild Hunt monster, but for some reason, it did not disappear with the mist.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Wilderness Exile",
+        "Wilderness Hunter"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Mistshroud Manifestation",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Mistshroud Helmet"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Bloodsoaked Ruins",
+    "Lightbearing Moonshard",
+    "Prospector's Shovel",
+    "Sacrificer's Staff",
+    "Snare Hook"
+  ],
+  "sellers": []
+}

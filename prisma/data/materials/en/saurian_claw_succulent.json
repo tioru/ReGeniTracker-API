@@ -1,0 +1,49 @@
+{
+  "name": "Saurian Claw Succulent",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "A succulent shaped like the paw of a great animal.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Natlan"
+    }
+  ],
+  "usedIn": [
+    "Pyro Treasure Compass",
+    "Strength Tonic"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Ifa",
+      "Kinich"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Cintli",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Kuzmich",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 10,
+      "restock": "NEVER"
+    },
+    {
+      "name": "Motolinia",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

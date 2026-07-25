@@ -1,0 +1,38 @@
+{
+  "name": "Enseignement de l'Or",
+  "rarity": 2,
+  "categories": [
+    "GOLD_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'or est le symbole du pays de la roche. Abondant sous ses terres, il est le nerf de la guerre de Liyue qui tient debout grâce à lui.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Manoir Taishan",
+      "rotation": "Cercle brûlant",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Gold"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Baizhu",
+      "Beidou",
+      "Xianyun",
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei",
+      "Zhongli",
+      "Zibai"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

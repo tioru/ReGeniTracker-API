@@ -1,0 +1,183 @@
+{
+  "name": "Agnidus Agate Fragment",
+  "rarity": 3,
+  "categories": [
+    "AGNIDUS_AGATE",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension material. \"A pilgrimage for a wish; a battle to earn a name...\"",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 40,
+      "names": [
+        "\"Statue of Marble and Brass\"",
+        "Algorithm of Semi-Intransient Matrix of Overseer Network",
+        "Emperor of Fire and Iron",
+        "Holawaqa Ngoubou",
+        "Iniquitous Baptist",
+        "Lava Dragon Statue",
+        "Primo Geovishap",
+        "Pyro Hypostasis",
+        "Pyro Regisvine",
+        "Radiant Moonfly",
+        "Super-Heavy Landrover: Mechanized Fortress",
+        "Tenebrous Papilla"
+      ]
+    },
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 40,
+      "names": [
+        "Andrius",
+        "Azhdaha (Weekly Boss)",
+        "Exalted Master of the Heretical Path",
+        "La Signora",
+        "Lord of Eroded Primal Fire",
+        "The Game Before the Gate",
+        "The Knave"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Agnidus Agate Sliver",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 300
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Varunada Lazurite Fragment",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Nagadus Emerald Fragment",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vajrada Amethyst Fragment",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vayuda Turquoise Fragment",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shivada Jade Fragment",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Prithiva Topaz Fragment",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "minimumAdventureRank": 25
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Agnidus Agate Chunk",
+    "Nagadus Emerald Fragment",
+    "Prithiva Topaz Fragment",
+    "Shivada Jade Fragment",
+    "Vajrada Amethyst Fragment",
+    "Varunada Lazurite Fragment",
+    "Vayuda Turquoise Fragment"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Amber",
+      "Arlecchino",
+      "Bennett",
+      "Chevreuse",
+      "Dehya",
+      "Diluc",
+      "Durin",
+      "Gaming",
+      "Hu Tao",
+      "Klee",
+      "Lyney",
+      "Mavuika",
+      "Nicole",
+      "Thoma",
+      "Xiangling",
+      "Xinyan",
+      "Yanfei",
+      "Yoimiya"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

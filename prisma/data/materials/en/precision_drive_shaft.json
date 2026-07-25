@@ -1,0 +1,67 @@
+{
+  "name": "Precision Drive Shaft",
+  "rarity": 3,
+  "categories": [
+    "LANDCRUISER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "The drive shaft of a Landcruiser refined by the Design Bureau. On the blueprints drawn by the engineers of the north, this unassuming part was once the flawless embodiment of glory and technological advancement, its small metal body encapsulating the wisdom of countless generations. Now it lies in the cold dirt, waiting to be recycled once more.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Close Combat Scout Landcruiser",
+        "Close Combat Storm Landcruiser",
+        "Cutting Edge All-Purpose Scout Landcruiser",
+        "Cutting Edge All-Purpose Storm Landcruiser",
+        "Cutting Edge Fire Support Ground Effect Landcruiser",
+        "Force Recon Ground Effect Landcruiser",
+        "Force Recon Scout Landcruiser",
+        "Force Recon Storm Landcruiser"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Reinforced Drive Shaft",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Aino",
+      "Flins",
+      "Illuga",
+      "Jahoda",
+      "Sandrone",
+      "Varka"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Angelos' Heptades",
+    "Athame Artis",
+    "Lightbearing Moonshard",
+    "Nightweaver's Looking Glass",
+    "Master Key",
+    "Moonweaver's Dawn",
+    "Prospector's Shovel",
+    "Sacrificer's Staff"
+  ],
+  "sellers": []
+}

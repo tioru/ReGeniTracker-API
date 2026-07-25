@@ -1,0 +1,49 @@
+{
+  "name": "Blazing Prismshell",
+  "rarity": 4,
+  "categories": [
+    "FURNACE_SHELL_MOUNTAIN_WEASEL_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A whole piece of radiant shell liberated from a Furnace Shell Mountain Weasel's back after its defeat. It is said that the more Phlogiston a Furnace Shell Mountain Weasel has stored in its back, the higher its status in the pack. The reasoning for this phenomenon may be quite simple: More dominant Furnace Shell Mountain Weasels likely have less need to call on their Phlogiston reserves than their less prominent peers.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Furnace Shell Mountain Weasel"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Warm Back-Shell",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Fractured Halo",
+    "Vivid Notions",
+    "Flame-Forged Insight",
+    "Sequence of Solitude"
+  ],
+  "sellers": []
+}

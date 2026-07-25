@@ -1,0 +1,27 @@
+{
+  "name": "Perles tempestives",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "Des perles parcourues par l'élément Électro que la Manifestation du tonnerre a laissée derrière elle. On raconte que cette dernière apparaît dans les endroits où une haine incommensurable réside. Dans les histoires chantées par les bardes, ce seraient les déceptions et les souffrances insoutenables de la vie qui les poussent à errer éternellement sur des terres brisées.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Thunder Manifestation"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Kujou Sara",
+      "Raiden Shogun"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

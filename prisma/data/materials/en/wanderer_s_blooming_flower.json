@@ -1,0 +1,50 @@
+{
+  "name": "Wanderer's Blooming Flower",
+  "rarity": 4,
+  "categories": [
+    "HILICHURL_ROGUE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A blooming wild flower that a Hilichurl Rogue treasured, bereft of any special qualities. The eternal outlander asks not for reward, but only to see their deeds come to fruition...",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Anemo Hilichurl Rogue",
+        "Hydro Hilichurl Rogue"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Treasured Flower",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Jadefall's Splendor",
+    "Ballad of the Fjords",
+    "Ibis Piercer",
+    "Scion of the Blazing Sun"
+  ],
+  "sellers": []
+}

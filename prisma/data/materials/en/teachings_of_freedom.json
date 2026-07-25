@@ -1,0 +1,41 @@
+{
+  "name": "Teachings of Freedom",
+  "rarity": 2,
+  "categories": [
+    "FREEDOM_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Freedom is the spirit of the land of the wind. The freedom to live is one of such. It is the freedom to live freely and healthily without concerns of one's own safety.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Forsaken Rift",
+      "rotation": "Frosted Altar",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Freedom"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Aloy",
+      "Amber",
+      "Barbara",
+      "Diona",
+      "Klee",
+      "Sucrose",
+      "Tartaglia",
+      "Traveler (Anemo)",
+      "Traveler (Geo)",
+      "Traveler (Unaligned)",
+      "Varka"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

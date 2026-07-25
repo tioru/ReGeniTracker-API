@@ -1,0 +1,34 @@
+{
+  "name": "Essence de rosée sacrée pure",
+  "rarity": 5,
+  "categories": [
+    "SACRED_DEWDROPS"
+  ],
+  "description": "Matériau d'élévation d'arme. Une solution dense et pure, dérivée et raffinée des gouttes de la vaste mer primordiale. L'ancien roi divin croyait autrefois que cela apporterait la vie éternelle et une sagesse infinie, mais en écoutant attentivement... Il prophétisait doucement, faiblement, la fin ultime où toute chose se dissoudrait en une seule... C'était autrefois la grande symphonie inachevée du roi divin... Un ichor doré sans limite et sans source, remplaçant les eaux primitives sauvages, et les glorieux sages immortels apportant une illumination semblable à un nectar dans les coins ignorants du monde. Mais les illusions du roi divin ont finalement sombré dans les profondeurs de l'abîme noir, et avec les ravages du temps, l'ichor doré a finalement été corrodé par la soupe primordiale... L'accordeur a fermé les yeux sur les mauvais présages et, soutenant son corps brisé, a continué à donner la vie à ses compatriotes selon les plans autrefois établis, afin que l'ancien ordre puisse un jour revenir... Aujourd'hui encore, de nombreux poètes et peintres fous de Fontaine voient dans l'apocalypse vécue par Boethius un rappel du cycle inéluctable du monde.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Échos des marées profondes",
+      "rotation": "Artisanat",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Silvershower Heartstrings",
+    "Splendor of Tranquil Waters",
+    "Symphonist of Scents",
+    "Tome of the Eternal Flow",
+    "Finale of the Deep",
+    "Flowing Purity",
+    "The Dockhand's Assistant"
+  ],
+  "sellers": []
+}

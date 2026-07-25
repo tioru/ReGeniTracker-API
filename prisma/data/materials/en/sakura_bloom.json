@@ -1,0 +1,36 @@
+{
+  "name": "Sakura Bloom",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES",
+    "COOKING_INGREDIENTS"
+  ],
+  "description": "Blossoms from the Sacred Sakura at the Grand Narukami Shrine, filled with a fondness for Inazuma.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the wild on Narukami Island"
+    }
+  ],
+  "usedIn": [
+    "\"Snow on the Hearth\"",
+    "Drink 455",
+    "Electroculus Resonance Stone",
+    "Fake Fly Bait",
+    "Quiet Elegance",
+    "Sakura Mochi",
+    "Sakura Shrimp Crackers",
+    "Sakura Tempura",
+    "Summer Festival Fish",
+    "Tricolor Dango"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Kamisato Ayaka",
+      "Kamisato Ayato"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

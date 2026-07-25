@@ -1,0 +1,27 @@
+{
+  "name": "Plume de veilleur déchu",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "Une plume déchue récupérée dans un recoin du monde des mortels après avoir vaincu un veilleur déchu. Par rapport aux véritables envoyés divins, ces veilleurs ailés ressemblent davantage aux « anges » des légendes populaires. Peut-être parce que leur créateur n'a pas su comprendre le dessein divin des ailés célestes et n'a pu que proposer une imitation maladroite de l'ombre projetée par leurs idéaux.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "The Open-Eyed"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Linnea",
+      "Sandrone"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Circuit du chaos",
+  "rarity": 3,
+  "categories": [
+    "HUMANOID_RUIN_MACHINE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un circuit qui commandait les mouvements d'une structure antique. De nos jours, personne ne sait comment il fonctionne.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Ruin Grader",
+        "Ruin Guard",
+        "Ruin Hunter"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Chaos Device",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Chaos Core",
+    "NRE (Menu 30)"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Amos' Bow",
+    "Freedom-Sworn",
+    "Lost Prayer to the Sacred Winds",
+    "Skyward Spine",
+    "Wolf's Gravestone",
+    "Alley Hunter",
+    "Cinnabar Spindle",
+    "Favonius Greatsword",
+    "Favonius Lance",
+    "Favonius Warbow",
+    "Frostbearer",
+    "Royal Bow",
+    "Royal Greatsword",
+    "Sacrificial Fragments",
+    "Sacrificial Sword",
+    "Wolf-Fang",
+    "Otherworldly Story",
+    "Recurve Bow",
+    "Traveler's Handy Sword",
+    "White Iron Greatsword",
+    "Iron Point",
+    "Beginner's Protector"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Teachings of Equity",
+  "rarity": 2,
+  "categories": [
+    "EQUITY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "The shore of the Nation of Water is equity. Equity sets boundaries on rights. Without equity, the rights granted by law will be abused, and become a tool to damage our virtuous customs.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pale Forgotten Glory",
+      "rotation": "Rhyming Rhythm",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Equity"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Lyney",
+      "Navia",
+      "Neuvillette",
+      "Sigewinne",
+      "Traveler (Hydro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

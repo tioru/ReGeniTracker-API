@@ -1,0 +1,34 @@
+{
+  "name": "Turbid Prism",
+  "rarity": 3,
+  "categories": [
+    "PRIMAL_CONSTRUCT_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "An old component obtained from defeating a Primal Construct. It is said that these machines are different from those ruin machines that come from deep within the desert, for they were not made as heralds of destruction or conquest.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Primal Construct: Prospector",
+        "Primal Construct: Repulsor",
+        "Primal Construct: Reshaper"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Radiant Prism"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "A Thousand Floating Dreams",
+    "Key of Khaj-Nisut",
+    "Toukabou Shigure",
+    "Xiphos' Moonlight"
+  ],
+  "sellers": []
+}

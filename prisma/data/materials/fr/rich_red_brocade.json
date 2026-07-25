@@ -1,0 +1,78 @@
+{
+  "name": "Brocart rouge luxueux",
+  "rarity": 3,
+  "categories": [
+    "THE_EREMITES_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Une pièce de brocart rouge avec des motifs dorés tissés à l'intérieur. Le peuple perdu qui a vu le jour parmi les sables dorés du désert entonne parfois un chant dont la signification a été oubliée depuis longtemps pour louer le soleil brûlant qui illumine la terre comme jamais et se lamenter devant les dernières lueurs du crépuscule. La chanson se termine par la répétition de mots inconnus, qui seraient les noms de leurs anciennes divinités. Lorsque le roi du désert était en vie, ses sujets se couvraient les yeux par crainte d'être brûlés par sa radiance semblable à celle du soleil.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Eremite Axe Vanguard",
+        "Eremite Crossbow",
+        "Eremite Daythunder",
+        "Eremite Desert Clearwater",
+        "Eremite Floral Ring-Dancer",
+        "Eremite Galehunter",
+        "Eremite Linebreaker",
+        "Eremite Ravenbeak Halberdier",
+        "Eremite Scorching Loremaster",
+        "Eremite Stone Enchanter",
+        "Eremite Sunfrost",
+        "Eremite Sword-Dancer"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Trimmed Red Silk",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Alhaitham",
+      "Candace",
+      "Dehya",
+      "Dori",
+      "Faruzan",
+      "Sethos"
+    ],
+    "talent": [
+      "Alhaitham",
+      "Candace",
+      "Dehya",
+      "Dori",
+      "Faruzan",
+      "Sethos"
+    ]
+  },
+  "usedByWeapons": [
+    "Beacon of the Reed Sea",
+    "Hunter's Path",
+    "Key of Khaj-Nisut",
+    "Light of Foliar Incision",
+    "Forest Regalia",
+    "Ibis Piercer",
+    "Sapwood Blade",
+    "Xiphos' Moonlight"
+  ],
+  "sellers": []
+}

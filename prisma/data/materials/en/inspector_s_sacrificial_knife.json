@@ -1,0 +1,61 @@
+{
+  "name": "Inspector's Sacrificial Knife",
+  "rarity": 4,
+  "categories": [
+    "FATUI_PYRO_AGENT_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "In the hands of its lord, this fierce weapon has handled many \"debts.\" No one has eyes in the back of their heads, and this weapon and its related techniques are designed around that weakness.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Fatui Pyro Agent"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Agent's Sacrificial Knife",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Primordial Jade Winged-Spear",
+    "Summit Shaper",
+    "Blackcliff Agate",
+    "Blackcliff Longsword",
+    "Blackcliff Warbow",
+    "Crescent Pike",
+    "Fading Twilight",
+    "Lion's Roar",
+    "Lithic Blade",
+    "Rust",
+    "Solar Pearl",
+    "Whiteblind",
+    "Dark Iron Sword",
+    "Emerald Orb",
+    "Slingshot",
+    "White Tassel"
+  ],
+  "sellers": []
+}

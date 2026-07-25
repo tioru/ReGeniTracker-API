@@ -1,0 +1,61 @@
+{
+  "name": "Guide to Ballad",
+  "rarity": 3,
+  "categories": [
+    "BALLAD_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Poetry is the soul of the land of the wind. Poetry is the manifestations of the will to encourage. In the dark days, the gales in the streets and alleyways whisper words of fury, like the battle drums, like the low rumbling before the storm.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Forsaken Rift",
+      "rotation": "Realm of Slumber",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Ballad",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Ballad"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Albedo",
+      "Dahlia",
+      "Durin",
+      "Fischl",
+      "Kaeya",
+      "Lisa",
+      "Mika",
+      "Rosaria",
+      "Traveler (Anemo)",
+      "Traveler (Geo)",
+      "Traveler (Unaligned)",
+      "Venti"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

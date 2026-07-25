@@ -1,0 +1,53 @@
+{
+  "name": "Masque du cornu",
+  "rarity": 4,
+  "categories": [
+    "ONI_MASKS"
+  ],
+  "description": "Matériau d'élévation d'arme. Dans les chansons oni, Torachiyo était un jeune homme élégant, fort de corps et beau de visage. Il était autrefois un lieutenant bien-aimé de la Shogun, et la suivit dans les royaumes abyssaux pour repousser le mal, gagnant la renommée d'oni malgré leur nombre décroissant. Personne ne chante désormais plus ces chansons, sauf le masque d'un oni cornu, qui, même sous cette forme, possède toujours un pouvoir extraordinaire.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour des sables mouvants",
+      "rotation": "Enseveli dans les sables",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Mask of the Tiger's Bite",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 350
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Mask of the Kijin"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Engulfing Lightning",
+    "Kagura's Verity",
+    "Polar Star",
+    "\"The Catch\"",
+    "Kagotsurube Isshin",
+    "Kitain Cross Spear",
+    "Tamayuratei no Ohanashi",
+    "Wavebreaker's Fin"
+  ],
+  "sellers": []
+}

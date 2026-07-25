@@ -1,0 +1,52 @@
+{
+  "name": "Branche marine de jade",
+  "rarity": 4,
+  "categories": [
+    "BRANCHES_OF_A_DISTANT_SEA"
+  ],
+  "description": "Matériau d'élévation d'arme. En fuyant dans l'Outre-mer, la divinité qui avait tout perdu a rencontré les personnes abandonnées qui ne possédaient rien dans les profondeurs de l'océan. C'est ainsi qu'elle a choisi de rester et de devenir leur « Orobashi no Mikoto », leur « Divinité des tréfonds ». Il est dit que la grande divinité serpent brisa un jour toutes les branches de corail de son corps pour éclairer ses enfants qui étaient recroquevillés dans l'obscurité. On dit également qu'elle utilisa ces branches de corail pour créer une immense échelle permettant à ces mêmes enfants de remonter à la surface pour contempler la lumière du jour.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour des sables mouvants",
+      "rotation": "Sables engloutis",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Jeweled Branch of a Distant Sea",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 350
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Golden Branch of a Distant Sea"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Everlasting Moonglow",
+    "Mistsplitter Reforged",
+    "Uraku Misugiri",
+    "Akuoumaru",
+    "Amenoma Kageuchi",
+    "Hakushin Ring",
+    "Oathsworn Eye"
+  ],
+  "sellers": []
+}

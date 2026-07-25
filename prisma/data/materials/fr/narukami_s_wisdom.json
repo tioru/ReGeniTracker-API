@@ -1,0 +1,38 @@
+{
+  "name": "Sagesse de Narukami",
+  "rarity": 2,
+  "categories": [
+    "NARUKAMI_S_MAGATAMAS"
+  ],
+  "description": "Matériau d'élévation d'arme. Par le passé, les anciens escaladaient le sommet maintenant connu sous le nom de Mont Yougou et sculptaient du bois carbonisé par la foudre en un crochet incurvé pour l'offrir en effigie à la force tonitruante qui illuminait les cieux et secouait la terre. Cette forme deviendra finalement le symbole du Mitsudomoe Électro, symbolisant la faveur, la sagesse et la puissance de l'Électro, ainsi que les personnes qui représentent ces valeurs.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour des sables mouvants",
+      "rotation": "Autel des sables",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Narukami's Joy"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Haran Geppaku Futsu",
+    "Redhorn Stonethresher",
+    "Sunny Morning Sleep-In",
+    "Thundering Pulse",
+    "Hamayumi",
+    "Katsuragikiri Nagamasa",
+    "Mouun's Moon",
+    "Predator",
+    "Toukabou Shigure"
+  ],
+  "sellers": []
+}

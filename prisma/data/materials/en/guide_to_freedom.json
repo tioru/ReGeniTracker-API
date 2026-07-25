@@ -1,0 +1,60 @@
+{
+  "name": "Guide to Freedom",
+  "rarity": 3,
+  "categories": [
+    "FREEDOM_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Freedom is the spirit of the land of the wind. The freedom of travel is one of such. It is the freedom to traverse the land freely without being obstructed.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Forsaken Rift",
+      "rotation": "Frosted Altar",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Freedom",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Freedom"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Aloy",
+      "Amber",
+      "Barbara",
+      "Diona",
+      "Klee",
+      "Sucrose",
+      "Tartaglia",
+      "Traveler (Anemo)",
+      "Traveler (Geo)",
+      "Traveler (Unaligned)",
+      "Varka"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

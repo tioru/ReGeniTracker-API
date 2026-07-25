@@ -1,0 +1,57 @@
+{
+  "name": "Axe du chaos",
+  "rarity": 3,
+  "categories": [
+    "RUIN_SENTINEL_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Provient d'un ancien mécanisme des ruines désormais inactif. La haute technologie et la puissance de cette machine ont été perdues quand elle n'a pas réussi à maintenir son intégrité structurelle.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Ruin Cruiser",
+        "Ruin Defender",
+        "Ruin Destroyer",
+        "Ruin Scout"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Chaos Gear",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Chaos Oculus"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Engulfing Lightning",
+    "Mistsplitter Reforged",
+    "Uraku Misugiri",
+    "\"The Catch\"",
+    "Amenoma Kageuchi",
+    "Katsuragikiri Nagamasa",
+    "Kitain Cross Spear"
+  ],
+  "sellers": []
+}

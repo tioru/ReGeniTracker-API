@@ -1,0 +1,30 @@
+{
+  "name": "Lightning Prism",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "An Electro Hypostasis channels nearby elemental energy to repair damaged elemental entities. Contains the essence of Electro energy. A common prism separates white light into component colors; a Lightning Prism, however, channels flowing energy and weaves them into lightning. It will continue to do so even after the Electro Hypostasis has been defeated.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Electro Hypostasis"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Beidou",
+      "Fischl",
+      "Keqing",
+      "Lisa",
+      "Razor"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Philosophies of Transience",
+  "rarity": 4,
+  "categories": [
+    "TRANSIENCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Transience is the dream of the nation of thunder. The fleeting nature of this mortal world is the essence of beauty, for are our lives in this world not akin to the levin flash? Yet the might of the divine comes suddenly, and before the roar of eternity, who can stand?",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Violet Court",
+      "rotation": "Reign of Violet",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Transience",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Kirara",
+      "Sangonomiya Kokomi",
+      "Shikanoin Heizou",
+      "Thoma",
+      "Traveler (Electro)",
+      "Yoimiya",
+      "Yumemizuki Mizuki"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

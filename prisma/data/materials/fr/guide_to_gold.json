@@ -1,0 +1,58 @@
+{
+  "name": "Guide de l'Or",
+  "rarity": 3,
+  "categories": [
+    "GOLD_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'or est le symbole du pays de la roche. Il représente la transformation et le lien unissant le port, les monts, les terres et les hommes de Liyue : le travail se transforme en or, et ce dernier apporte la prospérité en retour.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Manoir Taishan",
+      "rotation": "Cercle brûlant",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Gold",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Gold"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Baizhu",
+      "Beidou",
+      "Traveler (Geo)",
+      "Xianyun",
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei",
+      "Zhongli",
+      "Zibai"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

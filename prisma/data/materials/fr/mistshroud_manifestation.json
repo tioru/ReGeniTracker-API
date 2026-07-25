@@ -1,0 +1,34 @@
+{
+  "name": "Incarnation de brumevoile",
+  "rarity": 2,
+  "categories": [
+    "WASTELAND_WILD_HUNT_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un fragment trouvé dans le brouillard de la Chasse sauvage. Comme un flocon de neige qui se forme dans l'air, il a été créé par la manifestation et la solidification d'un pouvoir sombre venu d'un autre monde.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Wilderness Exile",
+        "Wilderness Hunter"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Mistshroud Plate"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Bloodsoaked Ruins",
+    "Lightbearing Moonshard",
+    "Prospector's Shovel",
+    "Sacrificer's Staff",
+    "Snare Hook"
+  ],
+  "sellers": []
+}

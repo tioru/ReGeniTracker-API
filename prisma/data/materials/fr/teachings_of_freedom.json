@@ -1,0 +1,41 @@
+{
+  "name": "Enseignement de la Liberté",
+  "rarity": 2,
+  "categories": [
+    "FREEDOM_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. La liberté est l'esprit du royaume du vent. La liberté de vivre est une d'entre elles, c'est-à-dire, être libre de vivre en bonne santé et sans jamais se soucier du danger.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Gorge de l'oubli",
+      "rotation": "Autel givré",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Freedom"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Aloy",
+      "Amber",
+      "Barbara",
+      "Diona",
+      "Klee",
+      "Sucrose",
+      "Tartaglia",
+      "Traveler (Anemo)",
+      "Traveler (Geo)",
+      "Traveler (Unaligned)",
+      "Varka"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

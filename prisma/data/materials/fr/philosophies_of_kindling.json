@@ -1,0 +1,49 @@
+{
+  "name": "Philosophie du Petit bois",
+  "rarity": 4,
+  "categories": [
+    "KINDLING_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. Offrir du petit bois est la règle établie dans la patrie du feu. Offrir du petit bois, c'est offrir un sacrifice avant d'obtenir quelque chose, même si cela ne garantit pas toujours une réponse ou un retour. La véritable signification réside dans le fait de payer un prix sans attendre de récompense, car à la fin, le jour viendra certainement où les fruits seront récoltés.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Ruines flamboyantes",
+      "rotation": "Illusions",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Kindling",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Citlali",
+      "Kinich",
+      "Ororon",
+      "Traveler (Pyro)",
+      "Xilonen"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

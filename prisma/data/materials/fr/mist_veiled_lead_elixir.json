@@ -1,0 +1,47 @@
+{
+  "name": "Plomb karstique",
+  "rarity": 2,
+  "categories": [
+    "ELIXIRS"
+  ],
+  "description": "Matériau d'élévation d'arme. Le Karst Jueyun est la demeure des Adeptes puissants et éclairés qui maîtrisent les arts occultes.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Palais secret de Lianshan",
+      "rotation": "Ruines grondantes",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Mist Veiled Mercury Elixir"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Calamity Queller",
+    "Crane's Echoing Call",
+    "Primordial Jade Cutter",
+    "The Unforged",
+    "Blackcliff Pole",
+    "Blackcliff Slasher",
+    "Dragon's Bane",
+    "Eye of Perception",
+    "Prototype Amber",
+    "Prototype Crescent",
+    "Prototype Rancour",
+    "Rainslasher",
+    "Royal Spear",
+    "Debate Club",
+    "Fillet Blade",
+    "Halberd",
+    "Messenger",
+    "Twin Nephrite"
+  ],
+  "sellers": []
+}

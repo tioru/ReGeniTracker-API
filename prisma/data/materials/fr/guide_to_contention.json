@@ -1,0 +1,35 @@
+{
+  "name": "Guide de la Compétition",
+  "rarity": 3,
+  "categories": [
+    "CONTENTION_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. La compétition est le principe qui régit tout dans la patrie du feu. Bien que les humains ne puissent pas voler à la vitesse des bêtes ailées, ni égaler la souplesse des Blobs, ils ont néanmoins leurs propres forces. Parfois, comprendre à la fois pourquoi et comment rivaliser est la clé pour se connaître soi-même.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Ruines flamboyantes",
+      "rotation": "Reconversion",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Contention"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Iansan",
+      "Mavuika",
+      "Mualani",
+      "Skirk",
+      "Traveler (Pyro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

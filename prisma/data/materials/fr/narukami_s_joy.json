@@ -1,0 +1,57 @@
+{
+  "name": "Joie de Narukami",
+  "rarity": 3,
+  "categories": [
+    "NARUKAMI_S_MAGATAMAS"
+  ],
+  "description": "Matériau d'élévation d'arme. Ceux qui appartiennent aux Commissions du Shogunat sont ceux qui administrent et exercent le pouvoir. Dans les contes remplis de monstres du passé, ceux à qui Son Excellence la Shogun faisait profondément confiance portaient sur eux des talismans avec ce dessin accroché, et tout comme le mot « Commission » signifie « servir joyeusement » dans l'ancienne langue, ceux qui recevaient sa faveur la lui rendaient avec amour et loyauté. Pourtant, après un certain temps, plus rien ne fut comme avant.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour des sables mouvants",
+      "rotation": "Autel des sables",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Narukami's Wisdom",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Narukami's Affection"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Haran Geppaku Futsu",
+    "Redhorn Stonethresher",
+    "Sunny Morning Sleep-In",
+    "Thundering Pulse",
+    "Hamayumi",
+    "Katsuragikiri Nagamasa",
+    "Mouun's Moon",
+    "Predator",
+    "Toukabou Shigure"
+  ],
+  "sellers": []
+}

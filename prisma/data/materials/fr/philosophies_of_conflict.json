@@ -1,0 +1,50 @@
+{
+  "name": "Philosophie du Conflit",
+  "rarity": 4,
+  "categories": [
+    "CONFLICT_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. Le conflit est considéré comme une raison dans la patrie du feu. Le principe du conflit est que toutes les parties impliquées doivent affronter leurs propres désirs avec la plus grande sincérité. C'est seulement alors, au milieu du combat ou du débat, qu'elles peuvent rester conscientes de ce qu'elles souhaitent obtenir et rester fidèles à leurs objectifs initiaux.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Ruines flamboyantes",
+      "rotation": "Retournement",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Conflict",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Chasca",
+      "Ifa",
+      "Ineffa",
+      "Kachina",
+      "Traveler (Pyro)",
+      "Varesa"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

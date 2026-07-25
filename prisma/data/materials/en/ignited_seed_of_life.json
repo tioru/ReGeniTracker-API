@@ -1,0 +1,53 @@
+{
+  "name": "Ignited Seed of Life",
+  "rarity": 3,
+  "categories": [
+    "AVATAR_OF_LAVA_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A condensed pile of burning matter obtained from the body of a defeated Avatar of Lava. It emits a slight heat. Attempting to stop a stone pile of this size from incessantly burning away would be a hard task indeed. It is said that this is some primordial form of life.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Eroding Avatar of Lava",
+        "Fluid Avatar of Lava"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Ignited Stone",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Ignited Seeing Eye"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Fang of the Mountain King",
+    "Sunny Morning Sleep-In",
+    "Earth Shaker",
+    "Flower-Wreathed Feathers",
+    "Mountain-Bracing Bolt"
+  ],
+  "sellers": []
+}

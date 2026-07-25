@@ -1,0 +1,50 @@
+{
+  "name": "Arbre de transmission cassé",
+  "rarity": 1,
+  "categories": [
+    "LANDCRUISER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "L'arbre de transmission d'un Patrouilleur terrestre détruit au combat. Un artisanat de précision ne résistera jamais à l'usure excessive, tout comme les idéaux les plus nobles ne ramèneront jamais ceux qui sont morts en vain pour la cause d'autrui. De plus, les pièces mécaniques produites en masse peuvent difficilement être qualifiées de précises, et les idéaux produits en masse ne peuvent pas être considérés comme de véritables idéaux.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Close Combat Scout Landcruiser",
+        "Close Combat Storm Landcruiser",
+        "Cutting Edge All-Purpose Scout Landcruiser",
+        "Cutting Edge All-Purpose Storm Landcruiser",
+        "Cutting Edge Fire Support Ground Effect Landcruiser",
+        "Force Recon Ground Effect Landcruiser",
+        "Force Recon Scout Landcruiser",
+        "Force Recon Storm Landcruiser"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Reinforced Drive Shaft"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Aino",
+      "Flins",
+      "Illuga",
+      "Jahoda",
+      "Sandrone",
+      "Varka"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Angelos' Heptades",
+    "Athame Artis",
+    "Lightbearing Moonshard",
+    "Nightweaver's Looking Glass",
+    "Master Key",
+    "Moonweaver's Dawn",
+    "Prospector's Shovel",
+    "Sacrificer's Staff"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Branchie mousseplume",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Une espèce particulière en forme de plume qui pousse en bord de mer. Elles ressemblent à des herbiers marins, mais il s'agit en réalité d'un corail d'eau douce avec une apparence unique.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Natlan"
+    }
+  ],
+  "usedIn": [
+    "Pyroculus Resonance Stone"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Motolinia",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

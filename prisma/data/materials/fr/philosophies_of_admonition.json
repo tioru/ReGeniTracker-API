@@ -1,0 +1,49 @@
+{
+  "name": "Philosophie de l'Admonestation",
+  "rarity": 4,
+  "categories": [
+    "ADMONITION_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'admonestation est la branche de la nation de la sagesse. Elle est accomplie par de bonnes actions. Les gestes donnent un sens aux mots. Ce n'est qu'en tenant ses intentions, ses paroles et ses actions que des fruits charnus mûriront de l'arbre de la sagesse.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Tour de l'ignorance",
+      "rotation": "Pleine lune",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Admonition",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Candace",
+      "Cyno",
+      "Faruzan",
+      "Tighnari",
+      "Traveler (Dendro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

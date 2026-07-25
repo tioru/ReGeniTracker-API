@@ -1,0 +1,48 @@
+{
+  "name": "Philosophie de l'Élysium",
+  "rarity": 4,
+  "categories": [
+    "ELYSIUM_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude L'élysium est le rêve de la terre sous la lune. Nous partageons rarement les mêmes rêves de paradis. Pour ceux qui ne souhaitent pas se contenter du présent, il n'existe pas de plus grand paradis que Nod-Krai. Pourtant, pour le reste des gens, la vérité est tout autre.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Capitale sans-lumière",
+      "rotation": "Illusions",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Elysium",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Aino",
+      "Illuga",
+      "Nefer",
+      "Nicole"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

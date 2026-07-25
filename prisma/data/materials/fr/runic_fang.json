@@ -1,0 +1,28 @@
+{
+  "name": "Croc runique",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "Un « croc » qui a permis à la mystérieuse machine antique à l'apparence de serpent de creuser dans les profondeurs de la montagne. Il présente des gravures de runes funestes. D'après la légende, des serpents géants se tapissent dans les entrailles du sol. Nourrissant une haine et une malveillance éternelle envers la surface, ils creusent d'immenses tunnels sans que personne ne sache leur but sinistre.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Ruin Serpent"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Kuki Shinobu",
+      "Shikanoin Heizou",
+      "Yelan"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

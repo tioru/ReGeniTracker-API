@@ -1,0 +1,56 @@
+{
+  "name": "Philosophie de la Résistance",
+  "rarity": 4,
+  "categories": [
+    "RESISTANCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. La résistance est l'échine du royaume du vent. Elle a marqué son histoire à travers les âges. Certains se sont soulevé pour que la poésie de Mondstadt se répande aussi librement que le vent à travers les terres.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Gorge de l'oubli",
+      "rotation": "Abîme gelée",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Resistance",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Bennett",
+      "Diluc",
+      "Eula",
+      "Jean",
+      "Lohen",
+      "Mona",
+      "Noelle",
+      "Prune",
+      "Razor",
+      "Traveler (Anemo)",
+      "Traveler (Geo)",
+      "Traveler (Unaligned)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

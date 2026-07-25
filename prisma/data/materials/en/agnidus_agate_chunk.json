@@ -1,0 +1,180 @@
+{
+  "name": "Agnidus Agate Chunk",
+  "rarity": 4,
+  "categories": [
+    "AGNIDUS_AGATE",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension material. \"A pilgrimage for a wish; a battle to earn a name... Burnt to cinders for a dream.\"",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 60,
+      "names": [
+        "\"Statue of Marble and Brass\"",
+        "Algorithm of Semi-Intransient Matrix of Overseer Network",
+        "Emperor of Fire and Iron",
+        "Holawaqa Ngoubou",
+        "Iniquitous Baptist",
+        "Lava Dragon Statue",
+        "Primo Geovishap",
+        "Pyro Hypostasis",
+        "Pyro Regisvine",
+        "Radiant Moonfly",
+        "Super-Heavy Landrover: Mechanized Fortress",
+        "Tenebrous Papilla"
+      ]
+    },
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 60,
+      "names": [
+        "Andrius",
+        "Azhdaha (Weekly Boss)",
+        "Exalted Master of the Heretical Path",
+        "La Signora",
+        "Lord of Eroded Primal Fire",
+        "The Game Before the Gate",
+        "The Knave"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Agnidus Agate Fragment",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 900
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Varunada Lazurite Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Nagadus Emerald Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vajrada Amethyst Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vayuda Turquoise Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shivada Jade Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Prithiva Topaz Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        }
+      ],
+      "minimumAdventureRank": 35
+    }
+  ],
+  "usedIn": [
+    "Agnidus Agate Gemstone",
+    "Nagadus Emerald Chunk",
+    "Prithiva Topaz Chunk",
+    "Shivada Jade Chunk",
+    "Vajrada Amethyst Chunk",
+    "Varunada Lazurite Chunk",
+    "Vayuda Turquoise Chunk"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Amber",
+      "Arlecchino",
+      "Bennett",
+      "Chevreuse",
+      "Dehya",
+      "Diluc",
+      "Durin",
+      "Gaming",
+      "Hu Tao",
+      "Klee",
+      "Lyney",
+      "Mavuika",
+      "Nicole",
+      "Thoma",
+      "Xiangling",
+      "Xinyan",
+      "Yanfei",
+      "Yoimiya"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

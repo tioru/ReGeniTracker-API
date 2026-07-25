@@ -1,0 +1,66 @@
+{
+  "name": "Roche lustrée de Guyun",
+  "rarity": 3,
+  "categories": [
+    "GUYUN_PILLARS"
+  ],
+  "description": "Matériau d'élévation d'arme. La Forêt de pierre de Guyun n'est pas un simple endroit avec vue agréable sur la mer ; il s'agit d'un cimetière où gisent d'anciennes divinités maléfiques de Liyue. Des miasmes envahissaient les lieux de manière récurrente, jusqu'à l'arrivée d'un certain jeune homme.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Palais secret de Lianshan",
+      "rotation": "Autel du nuage d'orage",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Luminous Sands from Guyun",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Relic from Guyun"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aqua Simulacra",
+    "Jadefall's Splendor",
+    "Primordial Jade Winged-Spear",
+    "Summit Shaper",
+    "Blackcliff Agate",
+    "Blackcliff Longsword",
+    "Blackcliff Warbow",
+    "Crescent Pike",
+    "Lion's Roar",
+    "Lithic Blade",
+    "Rust",
+    "Sacrificial Jade",
+    "Solar Pearl",
+    "Whiteblind",
+    "Dark Iron Sword",
+    "Emerald Orb",
+    "Slingshot",
+    "White Tassel"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Spectral Nucleus",
+  "rarity": 3,
+  "categories": [
+    "SPECTER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "A complete energy core that can sometimes be found after defeating Specters. There is a debate among those who just have to divide the world into winners and losers: what floats better — a Specter or an Anemo Slime?",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Anemo Specter",
+        "Cryo Specter",
+        "Dendro Specter",
+        "Electro Specter",
+        "Geo Specter",
+        "Hydro Specter",
+        "Pyro Specter"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Spectral Heart",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Aloy",
+      "Chiori",
+      "Gorou",
+      "Kirara",
+      "Kuki Shinobu",
+      "Sangonomiya Kokomi"
+    ],
+    "talent": [
+      "Aloy",
+      "Chiori",
+      "Gorou",
+      "Kirara",
+      "Kuki Shinobu",
+      "Sangonomiya Kokomi"
+    ]
+  },
+  "usedByWeapons": [
+    "Aqua Simulacra",
+    "Everlasting Moonglow",
+    "Kagura's Verity",
+    "Polar Star",
+    "Sunny Morning Sleep-In",
+    "\"The Catch\"",
+    "Dialogues of the Desert Sages",
+    "Kagotsurube Isshin",
+    "Mailed Flower",
+    "Mouun's Moon",
+    "Oathsworn Eye"
+  ],
+  "sellers": []
+}

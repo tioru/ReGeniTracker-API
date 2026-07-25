@@ -1,0 +1,29 @@
+{
+  "name": "Spring of the First Dewdrop",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "A limpid drop of dew floating amidst the waters of Morte Region. It is different from other pure water bodies, as though it is a conglomeration of even more pure and primordial Elemental Energy.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found underwater surrounding the Tower of Ipsissimus in Morte Region"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Pahsiv",
+      "currency": "Tidalga",
+      "cost": 2,
+      "stock": 15,
+      "restock": "NEVER"
+    }
+  ]
+}

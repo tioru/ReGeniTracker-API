@@ -1,0 +1,28 @@
+{
+  "name": "Ensnaring Gaze",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "An object obtained after defeating the monster known as the Tenebrous Papilla. It may look like a piece of fruit, but it is not. Formed from energy that has condensed in a single spot, its \"eye\" seems to gaze out from a distant, dark otherworld.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Tenebrous Papilla"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Chasca",
+      "Iansan",
+      "Skirk"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

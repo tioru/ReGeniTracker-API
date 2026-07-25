@@ -1,0 +1,34 @@
+{
+  "name": "Philosophie de l'Ordre",
+  "rarity": 4,
+  "categories": [
+    "ORDER_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'ordre est le bouclier de la patrie de l'eau. Toute loi à Fontaine sert à maintenir un ordre stable. L'équité et la justice viennent de l'ordre et servent l'ordre. Comme la surface immobile et sans ondulations de ses eaux, l'ordre est la pierre angulaire de l'existence de Fontaine.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pâle gloire oubliée",
+      "rotation": "Psaume",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Arlecchino",
+      "Chevreuse",
+      "Emilie",
+      "Lynette",
+      "Traveler (Hydro)",
+      "Wriothesley"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

@@ -269,6 +269,37 @@ function parseFrFields(pageTitle: string, content: string): FrFields | null {
   };
 }
 
+const HTTP_HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)',
+};
+const httpsAgent = new https.Agent({ rejectUnauthorized: false });
+
+function sleep(ms: number) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+async function withRetry<T>(
+  label: string,
+  fn: () => Promise<T>,
+  attempts = 3,
+): Promise<T> {
+  let lastErr: unknown;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      return await fn();
+    } catch (err) {
+      lastErr = err;
+      if (i < attempts - 1) {
+        console.warn(
+          `⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`,
+        );
+        await sleep(800 * (i + 1));
+      }
+    }
+  }
+  throw lastErr;
+}
+
 async function fetchFrFieldsBatch(
   titles: string[],
 ): Promise<Map<string, FrFields>> {
@@ -285,8 +316,8 @@ async function fetchFrFieldsBatch(
 
   const response = await axios.get(FR_API_URL, {
     params,
-    headers: { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' },
-    httpsAgent: new https.Agent({ rejectUnauthorized: false }),
+    headers: HTTP_HEADERS,
+    httpsAgent,
   });
 
   const pages = response.data?.query?.pages ?? [];
@@ -299,11 +330,170 @@ async function fetchFrFieldsBatch(
   return result;
 }
 
+// Version unitaire de fetchFrFieldsBatch, utilisée par les repli ci-dessous
+// (titre deviné/trouvé un par un, pas de bénéfice à grouper).
+async function fetchFrFieldsSingle(title: string): Promise<FrFields | null> {
+  try {
+    const batch = await withRetry(`fetch page FR "${title}"`, () =>
+      fetchFrFieldsBatch([title]),
+    );
+    return batch.get(title) ?? null;
+  } catch (err) {
+    console.warn(`⚠️  Échec du fetch FR pour "${title}": ${err}`);
+    return null;
+  }
+}
+
+// Repli 1 : le langlink [[fr:...]] groupé (fetchRawPage) peut manquer côté
+// cache/continuation même quand il existe réellement sur le wiki (cf. NOTE
+// dans fetchRawPage) — une requête dédiée par page le retrouve parfois.
+async function fetchFrTitleDirect(pageTitle: string): Promise<string | null> {
+  try {
+    return await withRetry(`fetch langlink FR "${pageTitle}"`, async () => {
+      const response = await axios.get(EN_API_URL, {
+        params: {
+          action: 'query',
+          titles: pageTitle,
+          prop: 'langlinks',
+          lllang: 'fr',
+          format: 'json',
+          formatversion: '2',
+        },
+        headers: HTTP_HEADERS,
+        httpsAgent,
+      });
+      const page = response.data?.query?.pages?.[0];
+      return page?.langlinks?.[0]?.title ?? null;
+    });
+  } catch (err) {
+    console.warn(
+      `⚠️  Échec du fetch langlink FR pour "${pageTitle}" après plusieurs tentatives: ${err}`,
+    );
+    return null;
+  }
+}
+
+// Repli 2 : quand aucun langlink n'existe (page EN pas encore cross-linkée
+// vers le wiki FR récemment créé, cf. cas "6EQUJ5"), la page FR partage
+// souvent exactement le même titre que la page EN, éventuellement suffixé de
+// "(succès)"/"(rang N)" en cas d'ambiguïté (cf. stripFrPageTitleSuffixes).
+async function guessFrFieldsByTitle(
+  entryTitle: string,
+): Promise<FrFields | null> {
+  for (const candidate of [entryTitle, `${entryTitle} (succès)`]) {
+    const fields = await fetchFrFieldsSingle(candidate);
+    if (fields) return fields;
+  }
+  return null;
+}
+
+// Repli 3 : la page FR existe sous un titre différent (ex: décoration avec
+// guillemets français « ... »). On cherche par titre sur le wiki FR puis on
+// vérifie chaque candidat via son propre langlink [[en:...]] pour confirmer
+// qu'il pointe bien vers NOTRE page EN, avant d'accepter la traduction (évite
+// de faire correspondre un succès à un autre par similarité de titre).
+async function searchFrPageTitles(query: string): Promise<string[]> {
+  try {
+    return await withRetry(`search FR "${query}"`, async () => {
+      const response = await axios.get(FR_API_URL, {
+        params: {
+          action: 'query',
+          list: 'search',
+          srsearch: query,
+          srnamespace: '0',
+          srlimit: '5',
+          format: 'json',
+          formatversion: '2',
+        },
+        headers: HTTP_HEADERS,
+        httpsAgent,
+      });
+      const results = response.data?.query?.search ?? [];
+      return results.map((r: { title: string }) => r.title);
+    });
+  } catch (err) {
+    console.warn(`⚠️  Échec de la recherche FR pour "${query}": ${err}`);
+    return [];
+  }
+}
+
+async function fetchEnLanglinkOfFrPage(
+  frPageTitle: string,
+): Promise<string | null> {
+  try {
+    return await withRetry(`fetch langlink EN de "${frPageTitle}"`, async () => {
+      const response = await axios.get(FR_API_URL, {
+        params: {
+          action: 'query',
+          titles: frPageTitle,
+          prop: 'langlinks',
+          lllang: 'en',
+          format: 'json',
+          formatversion: '2',
+        },
+        headers: HTTP_HEADERS,
+        httpsAgent,
+      });
+      const page = response.data?.query?.pages?.[0];
+      return page?.langlinks?.[0]?.title ?? null;
+    });
+  } catch (err) {
+    console.warn(
+      `⚠️  Échec du fetch langlink EN pour "${frPageTitle}": ${err}`,
+    );
+    return null;
+  }
+}
+
+async function searchFrFieldsByTitle(
+  entry: RawAchievement,
+): Promise<FrFields | null> {
+  const candidates = await searchFrPageTitles(entry.title);
+  for (const candidateTitle of candidates) {
+    const enBack = await fetchEnLanglinkOfFrPage(candidateTitle);
+    if (enBack === entry.pageTitle) {
+      const fields = await fetchFrFieldsSingle(candidateTitle);
+      if (fields) return fields;
+    }
+  }
+  return null;
+}
+
+// Chaîne de repli complète pour un succès sans traduction FR résolue via le
+// langlink groupé initial (fetchAll) : retry direct -> titre deviné -> recherche
+// + vérification par langlink retour. Chaque étape ne coûte des requêtes que
+// pour les entrées effectivement en échec (39 sur ~1758 en pratique).
+async function resolveFrFieldsFallback(
+  entry: RawAchievement,
+): Promise<FrFields | null> {
+  const directTitle = await fetchFrTitleDirect(entry.pageTitle);
+  if (directTitle) {
+    const fields = await fetchFrFieldsSingle(directTitle);
+    if (fields) return fields;
+  }
+
+  const guessed = await guessFrFieldsByTitle(entry.title);
+  if (guessed) return guessed;
+
+  return searchFrFieldsByTitle(entry);
+}
+
 // L'API MediaWiki accepte jusqu'à 50 titres par requête (utilisateurs non-bot).
+// Résultat indexé par pageTitle EN (et non plus par frTitle) : cela permet de
+// couvrir aussi bien le chemin rapide (langlink groupé) que les repli
+// ci-dessus, qui ne connaissent pas nécessairement de frTitle a priori.
 async function fetchAllFrFields(
-  frTitles: string[],
+  achievements: RawAchievement[],
 ): Promise<Map<string, FrFields>> {
-  const merged = new Map<string, FrFields>();
+  const result = new Map<string, FrFields>();
+
+  const withTitle = achievements.filter(
+    (a): a is RawAchievement & { frTitle: string } => a.frTitle !== null,
+  );
+  const pageTitleByFrTitle = new Map(
+    withTitle.map((a) => [a.frTitle, a.pageTitle]),
+  );
+  const frTitles = withTitle.map((a) => a.frTitle);
   const chunkSize = 50;
   const totalChunks = Math.ceil(frTitles.length / chunkSize);
 
@@ -311,10 +501,29 @@ async function fetchAllFrFields(
     const chunk = frTitles.slice(i, i + chunkSize);
     console.log(`Fetching FR batch ${i / chunkSize + 1}/${totalChunks}...`);
     const batch = await fetchFrFieldsBatch(chunk);
-    for (const [k, v] of batch) merged.set(k, v);
-    await new Promise((r) => setTimeout(r, 500));
+    for (const [frTitle, fields] of batch) {
+      const pageTitle = pageTitleByFrTitle.get(frTitle);
+      if (pageTitle) result.set(pageTitle, fields);
+    }
+    await sleep(500);
   }
-  return merged;
+
+  const unresolved = achievements.filter((a) => !result.has(a.pageTitle));
+  if (unresolved.length > 0) {
+    console.log(
+      `Attempting FR fallback resolution for ${unresolved.length} achievement(s) without a usable langlink...`,
+    );
+    for (const entry of unresolved) {
+      const fields = await resolveFrFieldsFallback(entry);
+      if (fields) {
+        result.set(entry.pageTitle, fields);
+        console.log(`  ✅ Resolved FR via fallback for "${entry.pageTitle}"`);
+      }
+      await sleep(300);
+    }
+  }
+
+  return result;
 }
 
 // ── Cache ─────────────────────────────────────────────────────────────────────
@@ -369,15 +578,16 @@ interface LocalizedText {
 }
 
 // Pour l'anglais, les champs traduits sont déjà portés par l'entrée EN elle-même.
-// Pour les autres langues, on va chercher la traduction via le lien interlangue
-// [[fr:...]] capturé sur la page EN ; si la page n'existe pas sur ce wiki, on saute.
+// Pour les autres langues, la traduction a été résolue en amont par
+// fetchAllFrFields (langlink groupé, ou l'un des repli en cas d'échec) et
+// indexée par pageTitle EN ; si rien n'a pu être résolu, on saute.
 function resolveLocalizedText(
   lang: Lang,
   entry: RawAchievement,
-  frFieldsByFrTitle: Map<string, FrFields>,
+  frFieldsByPageTitle: Map<string, FrFields>,
 ): LocalizedText | null {
   if (lang === 'en') return entry;
-  return (entry.frTitle && frFieldsByFrTitle.get(entry.frTitle)) || null;
+  return frFieldsByPageTitle.get(entry.pageTitle) || null;
 }
 
 function writeAchievementFile(
@@ -408,7 +618,7 @@ function writeAchievementFile(
 function writeAchievementFiles(
   lang: Lang,
   achievements: RawAchievement[],
-  frFieldsByFrTitle: Map<string, FrFields>,
+  frFieldsByPageTitle: Map<string, FrFields>,
   versionFilter?: string[],
 ) {
   const dir = outputDir(lang);
@@ -435,7 +645,7 @@ function writeAchievementFiles(
     const baseSlug = slugify(title);
 
     for (const entry of entries) {
-      const text = resolveLocalizedText(lang, entry, frFieldsByFrTitle);
+      const text = resolveLocalizedText(lang, entry, frFieldsByPageTitle);
       if (!text) {
         console.warn(
           `⚠️  No ${lang} translation found for "${entry.pageTitle}", skipping.`,
@@ -514,7 +724,10 @@ async function main() {
     saveJsonCache(CACHE_PATH, achievements, 'EN');
   }
 
-  let frFieldsByFrTitle = new Map<string, FrFields>();
+  // Indexé par pageTitle EN (cf. fetchAllFrFields) : couvre à la fois le
+  // chemin rapide (langlink groupé) et les repli pour les pages sans langlink
+  // utilisable.
+  let frFieldsByPageTitle = new Map<string, FrFields>();
   if (lang === 'fr') {
     if (useCache) {
       const cached = loadJsonCache<Record<string, FrFields>>(FR_CACHE_PATH);
@@ -522,26 +735,27 @@ async function main() {
         console.error('❌ No FR cache found. Run with --fetch fr first.');
         process.exit(1);
       }
-      frFieldsByFrTitle = new Map(Object.entries(cached));
+      frFieldsByPageTitle = new Map(Object.entries(cached));
       console.log(
-        `Loaded ${frFieldsByFrTitle.size} FR translations from cache.`,
+        `Loaded ${frFieldsByPageTitle.size} FR translations from cache.`,
       );
     } else {
-      const frTitles = achievements
-        .map((a) => a.frTitle)
-        .filter((t): t is string => t !== null);
       console.log(
-        `Fetching ${frTitles.length} FR translations from wiki (this will take a while)...`,
+        `Fetching FR translations for ${achievements.length} achievements from wiki (this will take a while)...`,
       );
-      frFieldsByFrTitle = await fetchAllFrFields(frTitles);
-      saveJsonCache(FR_CACHE_PATH, Object.fromEntries(frFieldsByFrTitle), 'FR');
+      frFieldsByPageTitle = await fetchAllFrFields(achievements);
+      saveJsonCache(
+        FR_CACHE_PATH,
+        Object.fromEntries(frFieldsByPageTitle),
+        'FR',
+      );
     }
   }
 
   writeAchievementFiles(
     lang,
     achievements,
-    frFieldsByFrTitle,
+    frFieldsByPageTitle,
     versionFilter.length ? versionFilter : undefined,
   );
 }

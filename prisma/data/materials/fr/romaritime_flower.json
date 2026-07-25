@@ -1,0 +1,43 @@
+{
+  "name": "Fleur romaritime",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Une fleur bleue éthérée et élégante. Ses pistils tendres sont élastiques et absorbent l'eau, ce qui en fait une matière première idéale pour diverses nécessités du quotidien.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found mainly in or around bodies of water in Fontaine"
+    }
+  ],
+  "usedIn": [
+    "Gateau Debord: Magnifique",
+    "Hydroculus Resonance Stone",
+    "Petit Gateau Debord: Revised Version"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Freminet",
+      "Sigewinne"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Hinterman",
+      "currency": "",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Xana",
+      "currency": "Strange Part",
+      "cost": 1,
+      "stock": 1,
+      "restock": "NEVER"
+    }
+  ]
+}

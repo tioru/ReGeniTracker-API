@@ -1,0 +1,53 @@
+{
+  "name": "Philosophie de la Diligence",
+  "rarity": 4,
+  "categories": [
+    "DILIGENCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. Le goût du travail est l'essence du pays de la roche. Les Liyuéens croient que chacun peut se faire une place sur la terre des dieux grâce à sa sagesse et à sa force, mais aussi à la sueur de son front.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Manoir Taishan",
+      "rotation": "Au cœur des flammes",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Diligence",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Chongyun",
+      "Ganyu",
+      "Hu Tao",
+      "Kaedehara Kazuha",
+      "Lan Yan",
+      "Traveler (Geo)",
+      "Xiangling",
+      "Yaoyao",
+      "Yun Jin"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

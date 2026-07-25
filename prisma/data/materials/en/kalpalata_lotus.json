@@ -1,0 +1,34 @@
+{
+  "name": "Kalpalata Lotus",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the mountains of Sumeru"
+    }
+  ],
+  "usedIn": [
+    "Nameless Taboo Medicine of the Royal Court"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Dori",
+      "Nahida"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Aramani",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

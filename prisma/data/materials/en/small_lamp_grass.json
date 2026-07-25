@@ -1,0 +1,39 @@
+{
+  "name": "Small Lamp Grass",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES",
+    "COOKING_INGREDIENTS"
+  ],
+  "description": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the wild in Mondstadt, especially Whispering Woods"
+    }
+  ],
+  "usedIn": [
+    "\"Once Upon a Time in Mondstadt\"",
+    "\"Pile 'Em Up\"",
+    "Sunshine Sprat",
+    "Woodland Dream"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Amber",
+      "Diluc",
+      "Fischl"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Flora",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

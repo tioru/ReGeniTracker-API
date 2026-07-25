@@ -1,0 +1,41 @@
+{
+  "name": "Naku Weed",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Even on windless days, this plant will tremble lightly amid the cries of thunder. The part of it that resembles petals are in fact extensions of the leaves meant to protect the fragile flower.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in areas of high Electro concentration in Inazuma, especially Seirai Island"
+    }
+  ],
+  "usedIn": [
+    "Electroculus Resonance Stone"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Kuki Shinobu",
+      "Yoimiya"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Aoi",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Babak",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

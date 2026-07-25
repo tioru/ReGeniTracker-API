@@ -1,0 +1,27 @@
+{
+  "name": "Écaille nuageuse",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "L'écaille froide et solide d'un Suanni solitaire. Elle conserve son énergie mystique pure même après être tombée et ne peut pas être endommagée par les armes ordinaires. Les bêtes ordinaires peuvent parfois être affectées par l'énergie mystique dispersée et devenir plus puissantes que la normale. Cependant, l'énergie mystique des suannis vient d'eux-mêmes, c'est pourquoi leur cheffe est souvent considérée comme l'égale des Adeptes.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Solitary Suanni"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Sethos",
+      "Xianyun"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

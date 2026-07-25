@@ -1,0 +1,168 @@
+{
+  "name": "Prithiva Topaz Chunk",
+  "rarity": 4,
+  "categories": [
+    "PRITHIVA_TOPAZ",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension material. \"The currencies that flow through this land are my flesh and blood. For thus did I become the guarantor of the people's hard work, wisdom, and future.\"",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 60,
+      "names": [
+        "\"Statue of Marble and Brass\"",
+        "Geo Hypostasis",
+        "Golden Wolflord",
+        "Perpetual Mechanical Array",
+        "Primo Geovishap",
+        "Prototype Cal. Breguet",
+        "Radiant Moongecko",
+        "Ruin Serpent",
+        "The Open-Eyed"
+      ]
+    },
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 60,
+      "names": [
+        "Andrius",
+        "Azhdaha (Weekly Boss)"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Prithiva Topaz Fragment",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 900
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Agnidus Agate Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Varunada Lazurite Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Nagadus Emerald Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vajrada Amethyst Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vayuda Turquoise Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shivada Jade Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        }
+      ],
+      "minimumAdventureRank": 35
+    }
+  ],
+  "usedIn": [
+    "Agnidus Agate Chunk",
+    "Nagadus Emerald Chunk",
+    "Prithiva Topaz Gemstone",
+    "Shivada Jade Chunk",
+    "Vajrada Amethyst Chunk",
+    "Varunada Lazurite Chunk",
+    "Vayuda Turquoise Chunk"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Albedo",
+      "Arataki Itto",
+      "Chiori",
+      "Gorou",
+      "Illuga",
+      "Kachina",
+      "Linnea",
+      "Navia",
+      "Ningguang",
+      "Noelle",
+      "Xilonen",
+      "Yun Jin",
+      "Zhongli",
+      "Zibai"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

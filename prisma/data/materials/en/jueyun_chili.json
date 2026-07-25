@@ -1,0 +1,55 @@
+{
+  "name": "Jueyun Chili",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES",
+    "COOKING_INGREDIENTS"
+  ],
+  "description": "A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the wild in Minlin, Qingce Village and Stone Gate"
+    }
+  ],
+  "usedIn": [
+    "Black-Back Perch Stew",
+    "Chili-Mince Cornbread Buns",
+    "Flash-Fried Filet",
+    "Humbly Enough",
+    "Jade Parcels",
+    "Jueyun Chili Chicken",
+    "Jueyun Guoba",
+    "Mint Salad",
+    "Minty Meat Rolls",
+    "Qingce Household Dish",
+    "Qingce Stir Fry",
+    "Rockin' Riffin' Chicken!",
+    "Stir-Fried Filet",
+    "Wanmin Restaurant's Boiled Fish"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Xiangling",
+      "Yaoyao"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Chef Mao",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Fengtai",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

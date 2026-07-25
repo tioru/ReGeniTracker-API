@@ -1,0 +1,48 @@
+{
+  "name": "Souhait d'appareil artistique",
+  "rarity": 5,
+  "categories": [
+    "ARTFUL_DEVICES"
+  ],
+  "description": "Matériau d'élévation d'arme. « Les pauvres, les affamés, les misérables, les opprimés ! Vous, mes frères et sœurs ici présents ! » « Si vous avez aussi goûté à l'injustice des mains cruelles du destin ! Si vous avez aussi pleuré sur le sort de vos voisins la nuit ! » « Si vous avez rêvé d'un endroit à l'abri de la peur ou d'un monde où personne ne verse de larmes ! » « Rejoignez-nous, vos frères et sœurs, et brisons nos chaînes ! » « Laissez les morts enterrer les morts, parce que vous vous relèverez ! Avec les trésors de ceux d'en haut, nous construirons un Élysium sans frontières ! »",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour lunaire perdue",
+      "rotation": "Ombres",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Artful Device Inheritance",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Angelos' Heptades",
+    "Nightweaver's Looking Glass",
+    "Blackmarrow Lantern",
+    "Dawning Frost",
+    "Serenity's Call"
+  ],
+  "sellers": []
+}

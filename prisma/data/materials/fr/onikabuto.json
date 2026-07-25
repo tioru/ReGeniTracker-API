@@ -1,0 +1,26 @@
+{
+  "name": "Scarabuto",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Un scarabée étrange qui peuple les zones riches en énergie Électro. Son tempérament docile et sédentaire ne pourrait pas contraster plus avec la forme féroce et démoniaque qui orne sa carapace.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in areas of high Electro concentration in Inazuma, especially Mikage Furnace and Mt. Yougou"
+    }
+  ],
+  "usedIn": [
+    "Electro Treasure Compass"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Arataki Itto",
+      "Shikanoin Heizou"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

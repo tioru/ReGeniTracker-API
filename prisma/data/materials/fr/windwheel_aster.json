@@ -1,0 +1,35 @@
+{
+  "name": "Chrysanthème à aubes",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Une plante qui aime le vent. Pour les habitants de Mondstadt qui vénèrent le vent et la liberté, les chrysanthèmes à aubes sont les « vents visibles ».",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found near the Statue of The Seven at Windrise and Dawn Winery, and all around Stormterror's Lair"
+    }
+  ],
+  "usedIn": [
+    "Wind Catcher"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Bennett",
+      "Sucrose",
+      "Traveler"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Flora",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

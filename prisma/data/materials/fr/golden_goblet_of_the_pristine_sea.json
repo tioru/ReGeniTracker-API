@@ -1,0 +1,35 @@
+{
+  "name": "Gobelet d'or de la mer immaculée",
+  "rarity": 5,
+  "categories": [
+    "GOBLETS_OF_THE_PRISTINE_SEA"
+  ],
+  "description": "Matériau d'élévation d'arme. Lorsque l'usurpateur de la ville engloutie a joué le dernier mouvement de la symphonie dorée, son musicien préféré a volé le gobelet d'or débordant d'ichor. Choqué par la trahison téméraire du roi divin, le musicien convoqua les derniers gardes et utilisa l'insoluble ichor pour sceller le dragon sous la haute tour, avant de le faire sombrer dans l'abîme avec la capitale. Par la suite, ce noble voleur a disparu silencieusement de l'histoire, et seule la Troupe dorée se souvient fidèlement de sa prophétie.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Échos des marées profondes",
+      "rotation": "Artifice",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Cashflow Supervision",
+    "Crimson Moon's Semblance",
+    "Lumidouce Elegy",
+    "\"Ultimate Overlord's Mega Magic Sword\"",
+    "Ballad of the Fjords",
+    "Portable Power Saw",
+    "Rightful Reward",
+    "Tidal Shadow"
+  ],
+  "sellers": []
+}

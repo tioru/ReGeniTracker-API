@@ -1,0 +1,31 @@
+{
+  "name": "Fragment d'appareil artistique",
+  "rarity": 2,
+  "categories": [
+    "ARTFUL_DEVICES"
+  ],
+  "description": "Matériau d'élévation d'arme. Un dispositif sophistiqué autrefois appelé « Sept outils du grand voleur ». Les rumeurs disent qu'il a été fabriqué par le maître voleur, Reed Miller. Tout comme les premiers Pilleurs de trésors venaient de tous horizons, cette combinaison d'outils a été conçue pour briser des limites artificielles, chaînes ou frontières. Il convient d'observer que ce dispositif contient plus de sept outils, mais que les gens ont l'habitude d'utiliser le chiffre sept pour dire qu'il y en a beaucoup. Peut-être est-ce pour la même raison qu'on croit qu'il n'existe que sept formes d'ordre dans le monde ?",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour lunaire perdue",
+      "rotation": "Ombres",
+      "minimumLevel": 1
+    }
+  ],
+  "usedIn": [
+    "Artful Device Replica"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Angelos' Heptades",
+    "Nightweaver's Looking Glass",
+    "Blackmarrow Lantern",
+    "Dawning Frost",
+    "Serenity's Call"
+  ],
+  "sellers": []
+}

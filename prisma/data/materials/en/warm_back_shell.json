@@ -1,0 +1,51 @@
+{
+  "name": "Warm Back-Shell",
+  "rarity": 3,
+  "categories": [
+    "FURNACE_SHELL_MOUNTAIN_WEASEL_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A portion of shell removed from a Furnace Shell Mountain Weasel's back after its defeat. Furnace Shell Mountain Weasels accumulate Phlogiston in their shells from feeding to be used in emergencies. The sight of them blazing fiery trails over the Sacred Mountain has not been seen since ancient times.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Furnace Shell Mountain Weasel"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Cold-Cracked Shellshard",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Blazing Prismshell"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Fractured Halo",
+    "Vivid Notions",
+    "Flame-Forged Insight",
+    "Sequence of Solitude"
+  ],
+  "sellers": []
+}

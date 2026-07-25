@@ -1,0 +1,65 @@
+{
+  "name": "Boreal Wolf's Nostalgia",
+  "rarity": 5,
+  "categories": [
+    "BOREAL_WOLF_TEETH"
+  ],
+  "description": "The Wolf King, believing himself to despise humans, thought himself unable to envision a happy life for humanity, making him unworthy of becoming the Lord of the Winds of the world. Therefore, he chose to disappear. Yet, in truth, he gazes on the ones abandoned by the world ever so gently.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cecilia Garden",
+      "rotation": "Submerged Valley",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Boreal Wolf's Broken Fang",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Elegy for the End",
+    "Gest of the Mighty Wolf",
+    "Skyward Atlas",
+    "Skyward Blade",
+    "Skyward Harp",
+    "Skyward Pride",
+    "Ballad of the Boundless Blue",
+    "Deathmatch",
+    "Dodoco Tales",
+    "Dragonspine Spear",
+    "Missive Windspear",
+    "Sacrificial Bow",
+    "Sacrificial Greatsword",
+    "Sword of Descension",
+    "The Black Sword",
+    "The Flute",
+    "The Widsith",
+    "Wine and Song",
+    "Bloodtainted Greatsword",
+    "Harbinger of Dawn",
+    "Sharpshooter's Oath",
+    "Thrilling Tales of Dragon Slayers"
+  ],
+  "sellers": []
+}

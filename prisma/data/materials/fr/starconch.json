@@ -1,0 +1,33 @@
+{
+  "name": "Conque d'étoile",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Un coquillage creux échoué sur la plage. Plaquez-le contre votre oreille et vous entendrez l'appel de la mer.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found on the beaches of Liyue and Dragonspine"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Gaming",
+      "Tartaglia",
+      "Yelan"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Bolai",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

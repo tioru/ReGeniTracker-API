@@ -1,0 +1,51 @@
+{
+  "name": "Mistshroud Helmet",
+  "rarity": 4,
+  "categories": [
+    "WASTELAND_WILD_HUNT_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A helmet found in the mists of the Wild Hunt. Perhaps because the sullying presence from beyond this world has fed from the memories of the Ley Lines, its shape appears oddly similar to the relics of a lost kingdom.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Wilderness Exile",
+        "Wilderness Hunter"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Mistshroud Plate",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Bloodsoaked Ruins",
+    "Lightbearing Moonshard",
+    "Prospector's Shovel",
+    "Sacrificer's Staff",
+    "Snare Hook"
+  ],
+  "sellers": []
+}

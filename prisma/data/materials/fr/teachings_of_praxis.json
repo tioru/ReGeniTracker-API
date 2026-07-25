@@ -1,0 +1,32 @@
+{
+  "name": "Enseignement de l'Usage",
+  "rarity": 2,
+  "categories": [
+    "PRAXIS_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'usage est la racine de la nation de la sagesse. Il naît d'une volonté inébranlable. La sagesse se manifeste à travers la quête de la bonté. Lorsque cette dernière est absente, l'ingéniosité et l'éloquence le sont également.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Tour de l'ignorance",
+      "rotation": "Discipline",
+      "minimumLevel": 1
+    }
+  ],
+  "usedIn": [
+    "Guide to Praxis"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Collei",
+      "Dehya",
+      "Nilou",
+      "Sethos",
+      "Wanderer"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

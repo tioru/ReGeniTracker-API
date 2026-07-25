@@ -1,23 +1,28 @@
 {
   "name": "Morceau d'émeraude nagadus",
   "rarity": 4,
-  "categories": ["NAGADUS_EMERALD", "ASCENSION_GEMS"],
+  "categories": [
+    "NAGADUS_EMERALD",
+    "ASCENSION_GEMS"
+  ],
   "description": "Matériau d'élévation de personnage. « J'ai fait un très long rêve... » « Il y avait des gens qui se tenaient la main et dansaient en cercle : des sages et des simples d'esprit, des danseuses et des guerriers, des marionnettes et des statues de divinités... »",
   "sources": [
     {
       "type": "BOSS",
       "minimumLevel": 60,
       "names": [
-        "Champieffroi panaché",
-        "Hypostase Dendro",
-        "Lunillon radieux",
-        "Roi yumkasaure glouton de la montagne"
+        "Dendro Hypostasis",
+        "Jadeplume Terrorshroom",
+        "Kongamato",
+        "Radiant Moonfly"
       ]
     },
     {
       "type": "WEEKLY_BOSS",
       "minimumLevel": 60,
-      "names": ["Garde de l'oasis d'Apep"]
+      "names": [
+        "Guardian of Apep's Oasis"
+      ]
     },
     {
       "type": "ALCHEMY",
@@ -26,73 +31,116 @@
           "subtype": "CRAFTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Fragment d'émeraude nagadus", "quantity": 3 },
-            { "item": "Mora", "quantity": 900 }
+            {
+              "item": "Nagadus Emerald Fragment",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 900
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Morceau d'agate agnidus", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 9 }
+            {
+              "item": "Agnidus Agate Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Morceau de lazurite varunada", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 9 }
+            {
+              "item": "Varunada Lazurite Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Morceau d'améthyste vajrada", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 9 }
+            {
+              "item": "Vajrada Amethyst Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Morceau de turquoise vayuda", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 9 }
+            {
+              "item": "Vayuda Turquoise Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Morceau de jade shivada", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 9 }
+            {
+              "item": "Shivada Jade Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Morceau de topaze prithiva", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 9 }
+            {
+              "item": "Prithiva Topaz Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
           ]
         }
-      ]
+      ],
+      "minimumAdventureRank": 35
     }
   ],
   "usedIn": [
-    "Morceau d'agate agnidus",
-    "Morceau d'améthyste vajrada",
-    "Morceau de jade shivada",
-    "Morceau de lazurite varunada",
-    "Morceau de topaze prithiva",
-    "Morceau de turquoise vayuda",
-    "Pierre d'émeraude nagadus"
+    "Agnidus Agate Chunk",
+    "Nagadus Emerald Gemstone",
+    "Prithiva Topaz Chunk",
+    "Shivada Jade Chunk",
+    "Vajrada Amethyst Chunk",
+    "Varunada Lazurite Chunk",
+    "Vayuda Turquoise Chunk"
   ],
   "usedByCharacters": {
     "ascension": [
-      "Al­hai­tham",
+      "Alhaitham",
       "Baizhu",
       "Collei",
       "Emilie",

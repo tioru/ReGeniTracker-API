@@ -1,7 +1,10 @@
 {
   "name": "Nagadus Emerald Chunk",
   "rarity": 4,
-  "categories": ["NAGADUS_EMERALD", "ASCENSION_GEMS"],
+  "categories": [
+    "NAGADUS_EMERALD",
+    "ASCENSION_GEMS"
+  ],
   "description": "Character Ascension material. \"I had a very, very long dream...\" \"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\"",
   "sources": [
     {
@@ -17,7 +20,9 @@
     {
       "type": "WEEKLY_BOSS",
       "minimumLevel": 60,
-      "names": ["Guardian of Apep's Oasis"]
+      "names": [
+        "Guardian of Apep's Oasis"
+      ]
     },
     {
       "type": "ALCHEMY",
@@ -26,73 +31,116 @@
           "subtype": "CRAFTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Na­ga­dus Em­er­ald Fragment", "quantity": 3 },
-            { "item": "Mora", "quantity": 900 }
+            {
+              "item": "Nagadus Emerald Fragment",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 900
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Ag­ni­dus A­gate Chunk", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 9 }
+            {
+              "item": "Agnidus Agate Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Varunada Lazurite Chunk", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 9 }
+            {
+              "item": "Varunada Lazurite Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Vajrada Amethyst Chunk", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 9 }
+            {
+              "item": "Vajrada Amethyst Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Vayuda Turquoise Chunk", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 9 }
+            {
+              "item": "Vayuda Turquoise Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Shivada Jade Chunk", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 9 }
+            {
+              "item": "Shivada Jade Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Prithiva Topaz Chunk", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 9 }
+            {
+              "item": "Prithiva Topaz Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
           ]
         }
-      ]
+      ],
+      "minimumAdventureRank": 35
     }
   ],
   "usedIn": [
     "Agnidus Agate Chunk",
+    "Nagadus Emerald Gemstone",
     "Prithiva Topaz Chunk",
     "Shivada Jade Chunk",
     "Vajrada Amethyst Chunk",
     "Varunada Lazurite Chunk",
-    "Vayuda Turquoise Chunk",
-    "Nagadus Emerald Gemstone"
+    "Vayuda Turquoise Chunk"
   ],
   "usedByCharacters": {
     "ascension": [
-      "Al­hai­tham",
+      "Alhaitham",
       "Baizhu",
       "Collei",
       "Emilie",

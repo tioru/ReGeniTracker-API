@@ -1,0 +1,51 @@
+{
+  "name": "Œil lucide enflammé",
+  "rarity": 4,
+  "categories": [
+    "AVATAR_OF_LAVA_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Le noyau d'un Avatar de lave vaincu. Il dégage une chaleur considérable. On dit qu'une fois qu'un tel noyau s'est formé, laissé à lui-même, il se développera en un nouvel Avatar de lave. Dans les temps anciens, on croyait que toutes les formes de vie pouvaient être retracées jusqu'à la conflagration, et que dans l'étincelle de la matière brûlante se trouvaient les origines de l'âme et de la sagesse sensible. Peut-être que l'existence même des Avatars de lave confirmerait une telle croyance... Ou peut-être était-ce l'émergence de cette théorie elle-même qui explique comment ils en sont venus à habiter les terres de Natlan...",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Eroding Avatar of Lava",
+        "Fluid Avatar of Lava"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Ignited Seed of Life",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Fang of the Mountain King",
+    "Sunny Morning Sleep-In",
+    "Earth Shaker",
+    "Flower-Wreathed Feathers",
+    "Mountain-Bracing Bolt"
+  ],
+  "sellers": []
+}

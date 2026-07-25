@@ -1,0 +1,58 @@
+{
+  "name": "Guide to Gold",
+  "rarity": 3,
+  "categories": [
+    "GOLD_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Gold is the symbol of the land of Geo. Gold symbolizes conversion. This is the unspoken understanding between Liyue's mountains, land, city, and people. In Liyue, industriousness is converted into gold, and gold into prosperity.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Taishan Mansion",
+      "rotation": "Circle of Embers",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Gold",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Gold"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Baizhu",
+      "Beidou",
+      "Traveler (Geo)",
+      "Xianyun",
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei",
+      "Zhongli",
+      "Zibai"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

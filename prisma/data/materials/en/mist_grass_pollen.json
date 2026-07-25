@@ -1,0 +1,48 @@
+{
+  "name": "Mist Grass Pollen",
+  "rarity": 2,
+  "categories": [
+    "FATUI_CICIN_MAGE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Strange spores created by Mist Grass in enclosed spaces. They are the Cicins' favorite food.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Fatui Cryo Cicin Mage",
+        "Fatui Electro Cicin Mage"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Mist Grass"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Calamity Queller",
+    "Primordial Jade Cutter",
+    "The Unforged",
+    "Blackcliff Pole",
+    "Blackcliff Slasher",
+    "Dragon's Bane",
+    "Dragonspine Spear",
+    "Eye of Perception",
+    "Prototype Amber",
+    "Prototype Crescent",
+    "Prototype Rancour",
+    "Rainslasher",
+    "Royal Spear",
+    "Sacrificial Jade",
+    "Debate Club",
+    "Fillet Blade",
+    "Halberd",
+    "Messenger",
+    "Twin Nephrite"
+  ],
+  "sellers": []
+}

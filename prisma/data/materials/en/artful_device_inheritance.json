@@ -1,0 +1,50 @@
+{
+  "name": "Artful Device Inheritance",
+  "rarity": 4,
+  "categories": [
+    "ARTFUL_DEVICES"
+  ],
+  "description": "Word on the street is that the legendary thief, Reed Miller, has been sentenced to death several times, yet he's always managed to escape at the last minute with the help of his friends — and his tools. In some versions of these stories, several of his followers willingly died in his place for their revered King of Elysium. Naturally, these versions can't compete with the more popular drunken stories full of romance and bliss. Since there has never been a shackle that could restrain the legendary thief, it is only natural to assume that no ending could do the same.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Lost Mooncourt",
+      "rotation": "Radiant Splendor",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Artful Device Replica",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 350
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Artful Device Wish"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Angelos' Heptades",
+    "Nightweaver's Looking Glass",
+    "Blackmarrow Lantern",
+    "Dawning Frost",
+    "Serenity's Call"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Guide de l'Ingénuité",
+  "rarity": 3,
+  "categories": [
+    "INGENUITY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'ingénuité est la nervure de la nation de la sagesse. Elle guide les paroles honnêtes. Réfléchir avec intelligence, attention et bonté permet de rester dans le droit chemin. Seuls ceux dont l'âme est emplie de dédain et de méchanceté sont capables de paroles abjectes.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Tour de l'ignorance",
+      "rotation": "Trait d'esprit",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Ingenuity",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Ingenuity"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Alhaitham",
+      "Dori",
+      "Kaveh",
+      "Layla",
+      "Nahida",
+      "Traveler (Dendro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Morceau de diamant scintillant",
+  "rarity": 4,
+  "categories": [
+    "BRILLIANT_DIAMOND",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Matériau d'élévation de personnage. « Bienvenue au monde »",
+  "sources": [
+    {
+      "type": "ADVENTURE_RANK_REWARD",
+      "rewards": [
+        {
+          "adventureRank": 35,
+          "quantity": 3
+        },
+        {
+          "adventureRank": 38,
+          "quantity": 3
+        },
+        {
+          "adventureRank": 40,
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

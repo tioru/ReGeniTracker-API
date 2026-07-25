@@ -1,0 +1,50 @@
+{
+  "name": "Philosophies of Light",
+  "rarity": 4,
+  "categories": [
+    "LIGHT_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Light is the yearning of the land of thunder. Though they must live forever on the earth, humanity will always reach for the light. Mortals will pursue and surpass, and they will never stop. A sealed eternity may, perhaps, look magnificent, but its essence is death.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Violet Court",
+      "rotation": "Vine-Infested Ruins",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Light",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Chiori",
+      "Gorou",
+      "Raiden Shogun",
+      "Sayu",
+      "Traveler (Electro)",
+      "Yae Miko"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

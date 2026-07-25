@@ -1,0 +1,38 @@
+{
+  "name": "Teachings of Diligence",
+  "rarity": 2,
+  "categories": [
+    "DILIGENCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Industriousness is the foundation of the land of Geo. Diligence is having the bravery and strength to conquer mountains and seas and to pursue gold and prosperity through honest, hard work.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Taishan Mansion",
+      "rotation": "Heart of the Flames",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Diligence"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Chongyun",
+      "Ganyu",
+      "Hu Tao",
+      "Kaedehara Kazuha",
+      "Lan Yan",
+      "Xiangling",
+      "Yaoyao",
+      "Yun Jin"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

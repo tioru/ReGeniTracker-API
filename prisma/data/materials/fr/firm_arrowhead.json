@@ -1,0 +1,69 @@
+{
+  "name": "Pointe de flèche robuste",
+  "rarity": 1,
+  "categories": [
+    "HILICHURL_SHOOTER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Une pointe de flèche rudimentaire. Bien que son état laisse à désirer, elle peut se révéler mortelle si la flèche est tirée au bon moment.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Cryo Hilichurl Shooter",
+        "Electro Hilichurl Shooter",
+        "Hilichurl Shooter",
+        "Pyro Hilichurl Shooter"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Sharp Arrowhead"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Amber",
+      "Collei",
+      "Dahlia",
+      "Diona",
+      "Fischl",
+      "Lohen"
+    ],
+    "talent": [
+      "Amber",
+      "Collei",
+      "Dahlia",
+      "Diona",
+      "Fischl",
+      "Lohen",
+      "Traveler (Geo)"
+    ]
+  },
+  "usedByWeapons": [
+    "Aquila Favonia",
+    "Skyward Atlas",
+    "Skyward Harp",
+    "Thundering Pulse",
+    "Blackcliff Longsword",
+    "Favonius Sword",
+    "Hamayumi",
+    "King's Squire",
+    "Lithic Blade",
+    "Lithic Spear",
+    "Predator",
+    "Prototype Amber",
+    "Sacrificial Greatsword",
+    "Snare Hook",
+    "Song of Stillness",
+    "The Stringless",
+    "The Viridescent Hunt",
+    "Black Tassel",
+    "Bloodtainted Greatsword",
+    "Cool Steel",
+    "Raven Bow",
+    "Silver Sword",
+    "Dull Blade"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Talisman en fer de la rosée",
+  "rarity": 3,
+  "categories": [
+    "TALISMANS_OF_THE_FOREST_DEW"
+  ],
+  "description": "Matériau d'élévation d'arme. Plus tard, la maîtresse des plantes enseigna les secrets de la forge du fer noir aux humains. Et c'est ainsi que les mortels à l'esprit innocent apprirent à se servir du feu et des lames acérées. La maîtresse des plantes se réjouit de voir une telle chose : certes, le feu et le métal pouvaient la blesser, mais maîtriser ces deux choses allait permettre aux humains de devenir puissants.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Tour de la fierté",
+      "rotation": "Nuages souillés",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Copper Talisman of the Forest Dew",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Silver Talisman of the Forest Dew"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Key of Khaj-Nisut",
+    "Light of Foliar Incision",
+    "Dialogues of the Desert Sages",
+    "Forest Regalia",
+    "Ibis Piercer",
+    "Sapwood Blade",
+    "Xiphos' Moonlight"
+  ],
+  "sellers": []
+}

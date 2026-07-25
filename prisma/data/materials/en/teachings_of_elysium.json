@@ -1,0 +1,34 @@
+{
+  "name": "Teachings of Elysium",
+  "rarity": 2,
+  "categories": [
+    "ELYSIUM_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "\"Elysium\" is the dream of the land beneath the moon. There are those who are desperate to get in, and those who are desperate to get out. Perhaps Elysium is not a place one can ever truly reach.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Lightless Capital",
+      "rotation": "Shadowed Legacy",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Elysium"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Aino",
+      "Illuga",
+      "Nefer",
+      "Nicole"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

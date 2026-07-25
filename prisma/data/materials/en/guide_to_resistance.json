@@ -1,0 +1,61 @@
+{
+  "name": "Guide to Resistance",
+  "rarity": 3,
+  "categories": [
+    "RESISTANCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Resistance is the backbone of the city of Wind. The history of Mondstadt is one of resistances. People rose up to grant the citizens of Mondstadt the freedom they now enjoy, like the Anemo Archon blowing away the snow, or like Vennessa rising up to fight.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Forsaken Rift",
+      "rotation": "Frozen Abyss",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Resistance",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Resistance"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Bennett",
+      "Diluc",
+      "Eula",
+      "Jean",
+      "Lohen",
+      "Mona",
+      "Noelle",
+      "Prune",
+      "Razor",
+      "Traveler (Anemo)",
+      "Traveler (Geo)",
+      "Traveler (Unaligned)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

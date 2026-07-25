@@ -1,0 +1,34 @@
+{
+  "name": "Rainbow Rose",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "A delicate and tender pink flower. Despite their name, Rainbow Roses are essentially more akin to Lilies.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the wilds of Beryl Region and surrounding the Fountain of Lucine"
+    }
+  ],
+  "usedIn": [
+    "Hydroculus Resonance Stone"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Arlecchino",
+      "Lyney"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Eugenie",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

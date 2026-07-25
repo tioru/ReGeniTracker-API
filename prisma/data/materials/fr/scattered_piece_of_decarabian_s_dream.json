@@ -1,0 +1,63 @@
+{
+  "name": "Rêve brisé de Décarabian",
+  "rarity": 5,
+  "categories": [
+    "DECARABIAN_TILES"
+  ],
+  "description": "Matériau d'élévation d'arme. Le peuple ne révérait pas le seigneur de la tour par respect ou par admiration, mais par peur de la tempête qui s'abattrait sur eux. Cet objet représente son ambition brisée par Barbatos. Décarabian avait déployé des moyens démesurés pour réaliser son rêve. Même brisé, il reste puissant.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pépinière de cécilias",
+      "rotation": "Ville de réflexions",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Fragment of Decarabian's Epic",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aquila Favonia",
+    "Athame Artis",
+    "Disaster and Remorse",
+    "Song of Broken Pines",
+    "Cinnabar Spindle",
+    "Favonius Codex",
+    "Favonius Sword",
+    "Mitternachts Waltz",
+    "Royal Grimoire",
+    "Royal Longsword",
+    "Snow-Tombed Starsilver",
+    "The Alley Flash",
+    "The Bell",
+    "The Stringless",
+    "The Viridescent Hunt",
+    "Wolf-Fang",
+    "Cool Steel",
+    "Ferrous Shadow",
+    "Magic Guide",
+    "Raven Bow"
+  ],
+  "sellers": []
+}

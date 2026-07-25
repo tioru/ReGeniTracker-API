@@ -1,0 +1,37 @@
+{
+  "name": "Teachings of Transience",
+  "rarity": 2,
+  "categories": [
+    "TRANSIENCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Transience is the dream of the nation of thunder. Fleeting glories are the highest expression of mortal beauty, for are we mortals not like the flashing lightning itself? Like a lovely dream or blossoming spark, we shall leave a gorgeous mark on the eternal night sky.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Violet Court",
+      "rotation": "Reign of Violet",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Transience"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Kirara",
+      "Sangonomiya Kokomi",
+      "Shikanoin Heizou",
+      "Thoma",
+      "Traveler (Electro)",
+      "Yoimiya",
+      "Yumemizuki Mizuki"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

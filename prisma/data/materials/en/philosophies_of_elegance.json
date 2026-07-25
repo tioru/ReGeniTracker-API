@@ -1,0 +1,50 @@
+{
+  "name": "Philosophies of Elegance",
+  "rarity": 4,
+  "categories": [
+    "ELEGANCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Elegance is the form of the nation of thunder. Elegance abhors vulgarity, and the elegant ever walk alone. Resisting base evils, unmoved by base loves, never taking refuge in base ignorance — that is how one perceives the chasm between the elegant and the contemptuous.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Violet Court",
+      "rotation": "Thundering Valley",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Elegance",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Arataki Itto",
+      "Kamisato Ayaka",
+      "Kamisato Ayato",
+      "Kujou Sara",
+      "Kuki Shinobu",
+      "Traveler (Electro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

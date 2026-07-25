@@ -1,0 +1,183 @@
+{
+  "name": "Éclat d'agate agnidus",
+  "rarity": 2,
+  "categories": [
+    "AGNIDUS_AGATE",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Matériau d'élévation de personnage.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 1,
+      "names": [
+        "\"Statue of Marble and Brass\"",
+        "Algorithm of Semi-Intransient Matrix of Overseer Network",
+        "Emperor of Fire and Iron",
+        "Holawaqa Ngoubou",
+        "Iniquitous Baptist",
+        "Lava Dragon Statue",
+        "Primo Geovishap",
+        "Pyro Hypostasis",
+        "Pyro Regisvine",
+        "Radiant Moonfly",
+        "Super-Heavy Landrover: Mechanized Fortress",
+        "Tenebrous Papilla"
+      ]
+    },
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 1,
+      "names": [
+        "Andrius",
+        "Azhdaha (Weekly Boss)",
+        "Exalted Master of the Heretical Path",
+        "La Signora",
+        "Lord of Eroded Primal Fire",
+        "The Game Before the Gate",
+        "The Knave"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Varunada Lazurite Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Nagadus Emerald Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vajrada Amethyst Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vayuda Turquoise Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shivada Jade Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Prithiva Topaz Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Agnidus Agate Fragment",
+    "Nagadus Emerald Sliver",
+    "Prithiva Topaz Sliver",
+    "Shivada Jade Sliver",
+    "Vajrada Amethyst Sliver",
+    "Varunada Lazurite Sliver",
+    "Vayuda Turquoise Sliver"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Amber",
+      "Arlecchino",
+      "Bennett",
+      "Chevreuse",
+      "Dehya",
+      "Diluc",
+      "Durin",
+      "Gaming",
+      "Hu Tao",
+      "Klee",
+      "Lyney",
+      "Mavuika",
+      "Nicole",
+      "Thoma",
+      "Xiangling",
+      "Xinyan",
+      "Yanfei",
+      "Yoimiya"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Marjorie",
+      "currency": "Sigil",
+      "cost": 10,
+      "stock": 6,
+      "restock": "NEVER"
+    },
+    {
+      "name": "Xingxi",
+      "currency": "Sigil",
+      "cost": 10,
+      "stock": 12,
+      "restock": "NEVER"
+    }
+  ]
+}

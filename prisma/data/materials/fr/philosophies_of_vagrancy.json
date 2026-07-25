@@ -1,0 +1,48 @@
+{
+  "name": "Philosophie de l'Errance",
+  "rarity": 4,
+  "categories": [
+    "VAGRANCY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude L'errance est la vie de la terre sous la lune. À travers le tonnerre et les tempêtes, à travers les montagnes et les champs de neige, bien que blessé et fatigué, le vagabond ne s'arrête pas... et ne s'arrêtera pas tant qu'il n'aura pas trouvé un endroit qu'il puisse appeler son foyer.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Capitale sans-lumière",
+      "rotation": "Retournement",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Vagrancy",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Flins",
+      "Jahoda",
+      "Linnea",
+      "Sandrone"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

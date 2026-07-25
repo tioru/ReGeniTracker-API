@@ -1,0 +1,56 @@
+{
+  "name": "Guide to Transience",
+  "rarity": 3,
+  "categories": [
+    "TRANSIENCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Transience is the dream of the nation of thunder. We find the greatest joys in mortal life in transient dreams, for is life itself not like the shadow of the thunder? Pursue your dreams into the clouds if you wish, and enjoy the unexpected silence of the dim lamp-lit nights.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Violet Court",
+      "rotation": "Reign of Violet",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Transience",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Transience"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Kirara",
+      "Sangonomiya Kokomi",
+      "Shikanoin Heizou",
+      "Thoma",
+      "Traveler (Electro)",
+      "Yoimiya",
+      "Yumemizuki Mizuki"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

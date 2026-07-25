@@ -1,0 +1,44 @@
+{
+  "name": "Tombaie",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Une baie juteuse laissant un goût sucré et rafraîchissant en bouche. Dans le passé, ce fruit offrait quelque réconfort à ceux qui surveillaient les tempêtes.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the wild around Stormbearer Mountains and Stormbearer Point"
+    }
+  ],
+  "usedIn": [
+    "Boredom-Busting Bubblegum",
+    "Mint Bubblegum",
+    "Red Dye"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Lisa",
+      "Noelle",
+      "Rosaria"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Chloris",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Eugenie",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

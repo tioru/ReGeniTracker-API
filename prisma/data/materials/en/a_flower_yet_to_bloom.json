@@ -1,0 +1,33 @@
+{
+  "name": "A Flower Yet to Bloom",
+  "rarity": 2,
+  "categories": [
+    "HILICHURL_ROGUE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A wild flower that a Hilichurl Rogue treasured. It was plucked before it could bloom. The hilichurl takes nothing with it in its sojourn across the wilderness save this flower.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Anemo Hilichurl Rogue",
+        "Hydro Hilichurl Rogue"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Treasured Flower"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Jadefall's Splendor",
+    "Ballad of the Fjords",
+    "Ibis Piercer",
+    "Scion of the Blazing Sun"
+  ],
+  "sellers": []
+}

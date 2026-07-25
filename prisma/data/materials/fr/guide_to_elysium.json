@@ -1,0 +1,53 @@
+{
+  "name": "Guide de l'Élysium",
+  "rarity": 3,
+  "categories": [
+    "ELYSIUM_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude L'élysium est le rêve de la terre sous la lune. Créer un paradis sans frontières ni distinctions sur une terre débordante d'amertume et de tristesse... Même si cela n'est qu'une illusion enfantine, cela peut pourtant être une fondation pour l'avenir.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Capitale sans-lumière",
+      "rotation": "Illusions",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Elysium",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Elysium"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Aino",
+      "Illuga",
+      "Nefer",
+      "Nicole"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

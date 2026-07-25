@@ -1,0 +1,27 @@
+{
+  "name": "Evergloom Ring",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "A mystical weapon obtained after defeating the Four-Armed Envoy of dark tidings. Rings are shaped like passageways, which is why arcane formations that are meant to produce some mystical effect are often ring-shaped. Such rings are perhaps gateways intended to guide the universe itself.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Iniquitous Baptist"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Baizhu",
+      "Kirara"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

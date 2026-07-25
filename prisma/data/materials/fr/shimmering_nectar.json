@@ -1,0 +1,85 @@
+{
+  "name": "Nectar miroitant",
+  "rarity": 2,
+  "categories": [
+    "WHOPPERFLOWER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Un nectar de Fleur mensongère concentré en éléments. Toute la communauté scientifique s'accorde généralement sur le fait que les Fleurs mensongères occupent une place à part parmi les plantes élémentaires, mais nombre d'interrogations demeurent quant à leurs habitudes prédatrices.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Cryo Whopperflower",
+        "Electro Whopperflower",
+        "Pyro Whopperflower"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Whopperflower Nectar",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Energy Nectar"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Furina",
+      "Ganyu",
+      "Hu Tao",
+      "Keqing",
+      "Lan Yan",
+      "Mona",
+      "Sayu",
+      "Shenhe",
+      "Sucrose"
+    ],
+    "talent": [
+      "Furina",
+      "Ganyu",
+      "Hu Tao",
+      "Keqing",
+      "Lan Yan",
+      "Mona",
+      "Sayu",
+      "Shenhe",
+      "Sucrose"
+    ]
+  },
+  "usedByWeapons": [
+    "Calamity Queller",
+    "Disaster and Remorse",
+    "Lumidouce Elegy",
+    "Ballad of the Fjords",
+    "Blackcliff Warbow",
+    "Deathmatch",
+    "Favonius Warbow",
+    "Frostbearer",
+    "Iron Sting",
+    "Mountain-Bracing Bolt",
+    "Serpent Spine",
+    "Solar Pearl",
+    "The Bell",
+    "Windblume Ode",
+    "Ferrous Shadow",
+    "Halberd"
+  ],
+  "sellers": []
+}

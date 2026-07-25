@@ -1,20 +1,25 @@
 {
   "name": "Whopperflower Nectar",
   "rarity": 1,
-  "categories": [],
+  "categories": [
+    "WHOPPERFLOWER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
   "description": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elemental energy. The taste of the nectar has a hint of Sweet Flower in it.",
   "sources": [
     {
       "type": "COMMON_ENEMY",
       "minimumLevel": 1,
       "names": [
-        "Pyro Whopperflower",
         "Cryo Whopperflower",
-        "Electro Whopperflower"
+        "Electro Whopperflower",
+        "Pyro Whopperflower"
       ]
     }
   ],
-  "usedIn": ["Shimmering Nectar"],
+  "usedIn": [
+    "Shimmering Nectar"
+  ],
   "usedByCharacters": {
     "ascension": [
       "Furina",
@@ -40,14 +45,15 @@
     ]
   },
   "usedByWeapons": [
-    "Ca­lam­i­ty Quel­ler",
-    "Lu­mi­douce El­e­gy",
-    "Bal­lad of the Fjords",
-    "Black­cliff War­bow",
-    "Death­match",
-    "Favonius War­bow",
-    "Frost­bear­er",
-    "Iron St­ing",
+    "Calamity Queller",
+    "Disaster and Remorse",
+    "Lumidouce Elegy",
+    "Ballad of the Fjords",
+    "Blackcliff Warbow",
+    "Deathmatch",
+    "Favonius Warbow",
+    "Frostbearer",
+    "Iron Sting",
     "Mountain-Bracing Bolt",
     "Serpent Spine",
     "Solar Pearl",

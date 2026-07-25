@@ -1,0 +1,64 @@
+{
+  "name": "Fragment d'os fossilisé",
+  "rarity": 4,
+  "categories": [
+    "VISHAP_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Fragment d'os obtenu parfois après avoir vaincu des Élémentosaures. Tous les Élémentosaures rêvent de devenir un jour dragon, et vénèrent avec passion ce type de fossile ; peut-être pensent-ils bénéficier ainsi de la longévité et de la puissance des vrais dragons.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Bolteater Bathysmal Vishap Hatchling",
+        "Geovishap",
+        "Geovishap Hatchling",
+        "Primordial Bathysmal Vishap",
+        "Primordial Bathysmal Vishap Hatchling",
+        "Rimebiter Bathysmal Vishap Hatchling"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Sturdy Bone Shard",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Memory of Dust",
+    "Vortex Vanquisher",
+    "Ballad of the Boundless Blue",
+    "Compound Bow",
+    "Iron Sting",
+    "Lithic Spear",
+    "Luxurious Sea-Lord",
+    "Mappa Mare",
+    "Prototype Archaic",
+    "Prototype Starglitter",
+    "Serpent Spine",
+    "Black Tassel",
+    "Skyrider Greatsword",
+    "Skyrider Sword"
+  ],
+  "sellers": []
+}

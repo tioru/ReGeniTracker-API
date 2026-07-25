@@ -1,0 +1,50 @@
+{
+  "name": "Unyielding Delusion of the Far-North Scions",
+  "rarity": 3,
+  "categories": [
+    "THE_FAR_NORTH_SCIONS"
+  ],
+  "description": "The grand city of gold and white stone was no more. Following the moonlight's pale guidance, its exiled inhabitants wandered to a desolate foreign land. The glory and prowess of the past had dried up like morning dew, yet the earliest delusion still flowed beneath the skin of the proud, unlike the graves now lost to time. Like farmers breeding their crops, the Archpriestesses who served the moonlight, for generation after generation, selected the purest bloodlines closest to their progenitors, no matter the cost...",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Lost Mooncourt",
+      "rotation": "Lunar Oblation",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Sundered Glory of the Far-North Scions",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Oblation of the Far-North Scions"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "A Teaspoon of Transcendence",
+    "Nocturne's Curtain Call",
+    "Etherlight Spindlelute",
+    "Master Key",
+    "Moonweaver's Dawn"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Philosophies of Kindling",
+  "rarity": 4,
+  "categories": [
+    "KINDLING_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Offering up kindling is the established rule of the Nation of Pyro. What is meant by offering kindling is to offer up a sacrifice before one obtains something, though it does not always guarantee a response or return. Its true meaning lies in paying a price without expecting a reward — for in the end, the day when the fruits will be reaped is sure to come.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Blazing Ruins",
+      "rotation": "Myriad Illusions",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Kindling",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Citlali",
+      "Kinich",
+      "Ororon",
+      "Traveler (Pyro)",
+      "Xilonen"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

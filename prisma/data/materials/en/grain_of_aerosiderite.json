@@ -1,0 +1,46 @@
+{
+  "name": "Grain of Aerosiderite",
+  "rarity": 2,
+  "categories": [
+    "AEROSIDERITE"
+  ],
+  "description": "A black meteor once fell beyond Liyue's Sea of Clouds, said to have fallen to vanquish a monster. However, it was stained by powerful tainted blood, so this item no longer possesses the pure power of Rex Lapis.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Hidden Palace of Lianshan Formula",
+      "rotation": "Trial Grounds of Thunder",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Piece of Aerosiderite"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Lightbearing Moonshard",
+    "Memory of Dust",
+    "Staff of Homa",
+    "Vortex Vanquisher",
+    "Cloudforged",
+    "Compound Bow",
+    "Fading Twilight",
+    "Iron Sting",
+    "Lithic Spear",
+    "Luxurious Sea-Lord",
+    "Mappa Mare",
+    "Prototype Archaic",
+    "Prototype Starglitter",
+    "Serpent Spine",
+    "Black Tassel",
+    "Skyrider Greatsword",
+    "Skyrider Sword"
+  ],
+  "sellers": []
+}

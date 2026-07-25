@@ -1,0 +1,58 @@
+{
+  "name": "Dark Statuette",
+  "rarity": 3,
+  "categories": [
+    "THE_BLACK_SERPENTS_MATERIAL",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "An idol made in the likeness of some unknown, one-eyed person. You can feel a strange warmth emanating from within as you hold onto it, like the shoulder of a dear friend. Perhaps this icon can indeed give people who understand its significance the courage to carry on.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Abyss Herald: Wicked Torrents",
+        "Abyss Lector: Fathomless Flames",
+        "Abyss Lector: Violet Lightning",
+        "Black Serpent Knight: Windcutter",
+        "Shadowy Husk: Defender",
+        "Shadowy Husk: Line Breaker",
+        "Shadowy Husk: Standard Bearer"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Gloomy Statuette",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Deathly Statuette"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aqua Simulacra",
+    "Haran Geppaku Futsu",
+    "Fruit of Fulfillment",
+    "Kagotsurube Isshin",
+    "Missive Windspear"
+  ],
+  "sellers": []
+}

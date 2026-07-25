@@ -1,0 +1,53 @@
+{
+  "name": "Entraves du Chevalier du Croc de Lion",
+  "rarity": 2,
+  "categories": [
+    "GLADIATOR_SHACKLES"
+  ],
+  "description": "Matériau d'élévation d'arme. Les humains aiment exagérer les exploits de leurs héros, au point de faire de simples entraves de véritables ennemis de la liberté. Celles-ci ont été donc bénies par des pouvoirs extraordinaires pour cette raison.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pépinière de cécilias",
+      "rotation": "Capitale assoiffée",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Chains of the Dandelion Gladiator"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Amos' Bow",
+    "Freedom-Sworn",
+    "Lost Prayer to the Sacred Winds",
+    "Skyward Spine",
+    "The Daybreak Chronicles",
+    "Wolf's Gravestone",
+    "Alley Hunter",
+    "Favonius Greatsword",
+    "Favonius Lance",
+    "Favonius Warbow",
+    "Festering Desire",
+    "Frostbearer",
+    "Mailed Flower",
+    "Royal Bow",
+    "Royal Greatsword",
+    "Sacrificial Fragments",
+    "Sacrificial Sword",
+    "Windblume Ode",
+    "Otherworldly Story",
+    "Recurve Bow",
+    "Traveler's Handy Sword",
+    "White Iron Greatsword",
+    "Iron Point",
+    "Beginner's Protector"
+  ],
+  "sellers": []
+}

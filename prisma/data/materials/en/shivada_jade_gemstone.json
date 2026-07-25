@@ -1,0 +1,180 @@
+{
+  "name": "Shivada Jade Gemstone",
+  "rarity": 5,
+  "categories": [
+    "SHIVADA_JADE",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension material. \"Sorry... to also have you shoulder the grievances of the world. \"Since you could endure my bitter cold, you must have the desire to burn? \"Then, burn away the old world for me.\"",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 75,
+      "names": [
+        "Aeonblight Drake",
+        "Coral Defenders",
+        "Cryo Hypostasis",
+        "Cryo Regisvine",
+        "Frostnight Herra",
+        "Icewind Suite",
+        "Iniquitous Baptist",
+        "Maguu Kenki",
+        "Perpetual Mechanical Array",
+        "Primo Geovishap",
+        "Super-Heavy Landrover: Mechanized Fortress",
+        "Wayward Hermetic Spiritspeaker"
+      ]
+    },
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 75,
+      "names": [
+        "Andrius",
+        "Azhdaha (Weekly Boss)",
+        "Childe",
+        "Exalted Master of the Heretical Path",
+        "Heretic of the False Moon",
+        "La Signora"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shivada Jade Chunk",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Agnidus Agate Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Varunada Lazurite Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Nagadus Emerald Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vajrada Amethyst Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vayuda Turquoise Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Prithiva Topaz Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
+          ]
+        }
+      ],
+      "minimumAdventureRank": 45
+    }
+  ],
+  "usedIn": [
+    "Agnidus Agate Gemstone",
+    "Nagadus Emerald Gemstone",
+    "Prithiva Topaz Gemstone",
+    "Vajrada Amethyst Gemstone",
+    "Varunada Lazurite Gemstone",
+    "Vayuda Turquoise Gemstone"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Aloy",
+      "Charlotte",
+      "Chongyun",
+      "Citlali",
+      "Diona",
+      "Escoffier",
+      "Eula",
+      "Freminet",
+      "Ganyu",
+      "Kaeya",
+      "Kamisato Ayaka",
+      "Layla",
+      "Lohen",
+      "Mika",
+      "Qiqi",
+      "Rosaria",
+      "Sandrone",
+      "Shenhe",
+      "Skirk",
+      "Wriothesley"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

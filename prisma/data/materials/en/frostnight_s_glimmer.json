@@ -1,0 +1,39 @@
+{
+  "name": "Frostnight's Glimmer",
+  "rarity": 2,
+  "categories": [
+    "FROSTNIGHT_SCION_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A fragment taken from the horned crown of a defeated Frostnight Scion. Legend has it that in the distant past, these noble creatures were servants to the Golden City, their eyes reflecting the holiest and brightest light of heaven. That light has long since been extinguished, but these scions that lost their master still roam beneath the frosty moon, keeping an oath that no one now remembers.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Blazing Brilliance: Frostnight Scion",
+        "Gilded Sunshard: Frostnight Scion",
+        "Gleaming Charge: Frostnight Scion",
+        "Icy Crystal: Frostnight Scion",
+        "Surging Currents: Frostnight Scion",
+        "Tangled Vines: Frostnight Scion",
+        "Veiled Cloudchaser: Frostnight Scion"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Frostnight's Glow"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Athame Artis",
+    "Nightweaver's Looking Glass",
+    "Blackmarrow Lantern",
+    "Dawning Frost",
+    "Serenity's Call"
+  ],
+  "sellers": []
+}

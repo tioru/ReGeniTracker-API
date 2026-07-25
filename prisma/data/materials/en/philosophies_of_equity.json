@@ -1,0 +1,49 @@
+{
+  "name": "Philosophies of Equity",
+  "rarity": 4,
+  "categories": [
+    "EQUITY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "The shore of the Nation of Water is equity. Equity is the foundation upon which Fontaine was founded. Equity requires the continuous and steady support of morality and law, and morality and law constantly change based upon the invariant principle of equity.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pale Forgotten Glory",
+      "rotation": "Rhyming Rhythm",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Equity",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Lyney",
+      "Navia",
+      "Neuvillette",
+      "Sigewinne",
+      "Traveler (Hydro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

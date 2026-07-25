@@ -1,0 +1,34 @@
+{
+  "name": "Philosophies of Justice",
+  "rarity": 4,
+  "categories": [
+    "JUSTICE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "The sword of the Nation of Water is justice. The law of Fontaine walks with the sword of justice in hand. Justice means judgment and reconciliation, the blade of judgment arrests the actions of evil, while reconciliation maintains order.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pale Forgotten Glory",
+      "rotation": "Admonishing Engraving",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Charlotte",
+      "Clorinde",
+      "Escoffier",
+      "Freminet",
+      "Furina",
+      "Traveler (Hydro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

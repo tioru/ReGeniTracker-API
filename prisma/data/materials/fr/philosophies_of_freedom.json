@@ -1,0 +1,55 @@
+{
+  "name": "Philosophie de la Liberté",
+  "rarity": 4,
+  "categories": [
+    "FREEDOM_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. La liberté est l'esprit du royaume du vent. La liberté de chanter est une d'entre elles, c'est-à-dire, être libre de fredonner sur l'air du vent les terres de l'Archon Anémo.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Gorge de l'oubli",
+      "rotation": "Autel givré",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Freedom",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Aloy",
+      "Amber",
+      "Barbara",
+      "Diona",
+      "Klee",
+      "Sucrose",
+      "Tartaglia",
+      "Traveler (Anemo)",
+      "Traveler (Geo)",
+      "Traveler (Unaligned)",
+      "Varka"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

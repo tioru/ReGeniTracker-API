@@ -1,0 +1,38 @@
+{
+  "name": "Chaos Gear",
+  "rarity": 2,
+  "categories": [
+    "RUIN_SENTINEL_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Comes from a now-inactive ancient Ruin machine. This is the energy source of that biomimetic mechanism.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Ruin Cruiser",
+        "Ruin Defender",
+        "Ruin Destroyer",
+        "Ruin Scout"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Chaos Axis"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Engulfing Lightning",
+    "Mistsplitter Reforged",
+    "Uraku Misugiri",
+    "\"The Catch\"",
+    "Amenoma Kageuchi",
+    "Katsuragikiri Nagamasa",
+    "Kitain Cross Spear"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Philosophie de la Lumière",
+  "rarity": 4,
+  "categories": [
+    "LIGHT_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. La lumière est le désir de la nation du tonnerre. Bien qu'elle doive vivre sur la terre, l'humanité aspirera toujours à la lumière. Les mortels se dépasseront toujours et ils ne s'arrêteront jamais. Une éternité scellée peut sembler magnifique, mais son essence est la mort.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour violette",
+      "rotation": "Ruines des ronces",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Light",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Chiori",
+      "Gorou",
+      "Raiden Shogun",
+      "Sayu",
+      "Traveler (Electro)",
+      "Yae Miko"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

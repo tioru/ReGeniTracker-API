@@ -1,0 +1,51 @@
+{
+  "name": "Coquille brisée chaude",
+  "rarity": 3,
+  "categories": [
+    "FURNACE_SHELL_MOUNTAIN_WEASEL_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Une partie de la coquille sur le dos d'une Belette des montagnes à coquille fournaise que vous avez obtenue après l'avoir battue. La Belette des montagnes à coquille fournaise se nourrit de phlogistique pour l'accumuler dans sa carapace et s'en sert en cas d'urgence. Les traînées flamboyantes que cela génère n'ont pas été aperçues depuis les temps anciens sur la Montagne sacrée.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Furnace Shell Mountain Weasel"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Cold-Cracked Shellshard",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Blazing Prismshell"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Fractured Halo",
+    "Vivid Notions",
+    "Flame-Forged Insight",
+    "Sequence of Solitude"
+  ],
+  "sellers": []
+}

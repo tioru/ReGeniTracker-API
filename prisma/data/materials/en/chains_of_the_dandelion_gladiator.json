@@ -1,0 +1,72 @@
+{
+  "name": "Chains of the Dandelion Gladiator",
+  "rarity": 3,
+  "categories": [
+    "GLADIATOR_SHACKLES"
+  ],
+  "description": "The chains that once bound the great hero Vennessa. In truth, all gladiators would have worn chains in that era, and Vennessa was but one of many.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cecilia Garden",
+      "rotation": "Ruins of Thirsting Capital",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Fetters of the Dandelion Gladiator",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Shackles of the Dandelion Gladiator"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Amos' Bow",
+    "Freedom-Sworn",
+    "Lost Prayer to the Sacred Winds",
+    "Skyward Spine",
+    "The Daybreak Chronicles",
+    "Wolf's Gravestone",
+    "Alley Hunter",
+    "Favonius Greatsword",
+    "Favonius Lance",
+    "Favonius Warbow",
+    "Festering Desire",
+    "Frostbearer",
+    "Mailed Flower",
+    "Royal Bow",
+    "Royal Greatsword",
+    "Sacrificial Fragments",
+    "Sacrificial Sword",
+    "Windblume Ode",
+    "Otherworldly Story",
+    "Recurve Bow",
+    "Traveler's Handy Sword",
+    "White Iron Greatsword",
+    "Iron Point",
+    "Beginner's Protector"
+  ],
+  "sellers": []
+}

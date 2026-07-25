@@ -1,0 +1,32 @@
+{
+  "name": "Glowing Hornshroom",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "A fungus that emits a faint light in the darkness. It is so named because its shape resembles the horny crest of an Iktomisaurus.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Tezcatepetonco Range near the \"Masters of the Night-Wind\""
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Ineffa",
+      "Ororon"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Kofitse",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 8,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

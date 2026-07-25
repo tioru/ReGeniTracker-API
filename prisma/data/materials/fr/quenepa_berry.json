@@ -1,0 +1,45 @@
+{
+  "name": "Baie de quenettier",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES",
+    "COOKING_INGREDIENTS"
+  ],
+  "description": "Des baies bleuâtres et juteuses qui poussent en grande quantité à proximité de la tribu des Êtres des canopées, les flamboigrenades et ces dernières ayant des formes similaires.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Natlan"
+    }
+  ],
+  "usedIn": [
+    "Blue Dye",
+    "Fruits Aplenty",
+    "Gentle Sea Breeze",
+    "Pyroculus Resonance Stone"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Citlali",
+      "Kachina"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Cintli",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Kuzmich",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 10,
+      "restock": "NEVER"
+    }
+  ]
+}

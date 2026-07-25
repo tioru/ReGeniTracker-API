@@ -1,0 +1,35 @@
+{
+  "name": "Teachings of Order",
+  "rarity": 2,
+  "categories": [
+    "ORDER_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "The shield of the Nation of Water is order. All law in Fontaine ultimately serves to maintain a stable order. Without order, there is chaos, and there can be no fairness in chaos.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pale Forgotten Glory",
+      "rotation": "Chiming Recitation",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Order"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Arlecchino",
+      "Chevreuse",
+      "Emilie",
+      "Lynette",
+      "Wriothesley"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

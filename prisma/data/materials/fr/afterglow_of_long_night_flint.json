@@ -1,0 +1,50 @@
+{
+  "name": "Lueur de silex de longue nuit",
+  "rarity": 3,
+  "categories": [
+    "LONG_NIGHT_FLINTS"
+  ],
+  "description": "Matériau d'élévation d'arme. La lumière d'une lanterne peut dissiper l'obscurité, et les gens habitant près des frontières croyaient que les maisons des vivants seraient protégées des esprits maléfiques tant que les lanternes des Gardiens de lumière étaient allumées. Les guerriers qui avaient juré de veiller la nuit le croyaient aussi. C'est pourquoi, l'homme a affronté un mal aussi imposant qu'une montagne, vêtu d'une armure pour protéger sa chair fragile, comme attiré par un aimant. Jusqu'à ce que la marée noire engloutisse sa chair, ou que sa chair dévore la marée noire, il est impossible de différencier les deux.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour lunaire perdue",
+      "rotation": "Observation",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Ember of Long Night Flint",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Flare of Long Night Flint"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Bloodsoaked Ruins",
+    "Golden Frostbound Oath",
+    "Prospector's Shovel",
+    "Sacrificer's Staff",
+    "Snare Hook"
+  ],
+  "sellers": []
+}

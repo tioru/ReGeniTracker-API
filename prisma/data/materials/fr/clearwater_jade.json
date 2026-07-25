@@ -1,0 +1,33 @@
+{
+  "name": "Jade cristallin",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES",
+    "MINERALS"
+  ],
+  "description": "Un jade du Vallon Chenyu, nommé ainsi en raison de sa surface fraîche et rafraîchissante, ressemblant beaucoup à un cristal d'eau claire.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Chenyu Vale"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Lan Yan",
+      "Xianyun"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Fengtai",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

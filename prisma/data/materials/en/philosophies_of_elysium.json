@@ -1,0 +1,48 @@
+{
+  "name": "Philosophies of Elysium",
+  "rarity": 4,
+  "categories": [
+    "ELYSIUM_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "\"Elysium\" is the dream of the land beneath the moon. Seldom do we share the same dreams of paradise. For those who wish not to settle for the present, there is no greater paradise than Nod-Krai. Yet for all the rest, the truth is quite the opposite.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Lightless Capital",
+      "rotation": "Shadowed Legacy",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Elysium",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Aino",
+      "Illuga",
+      "Nefer",
+      "Nicole"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

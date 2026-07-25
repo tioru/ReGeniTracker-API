@@ -1,0 +1,38 @@
+{
+  "name": "Engrenage du chaos",
+  "rarity": 2,
+  "categories": [
+    "RUIN_SENTINEL_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Provient d'un ancien mécanisme des ruines désormais inactif. C'est la source d'énergie de ce mécanisme biomimétique.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Ruin Cruiser",
+        "Ruin Defender",
+        "Ruin Destroyer",
+        "Ruin Scout"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Chaos Axis"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Engulfing Lightning",
+    "Mistsplitter Reforged",
+    "Uraku Misugiri",
+    "\"The Catch\"",
+    "Amenoma Kageuchi",
+    "Katsuragikiri Nagamasa",
+    "Kitain Cross Spear"
+  ],
+  "sellers": []
+}

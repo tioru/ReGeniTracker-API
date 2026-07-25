@@ -1,0 +1,37 @@
+{
+  "name": "Noyau de faille",
+  "rarity": 2,
+  "categories": [
+    "BREACHER_PRIMUS_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un fragment laissé par un Primus briseur. Il ne ressemble à aucune autre forme de vie sur terre.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Large Overgrown Breacher Primus",
+        "Large Shatterstone Breacher Primus",
+        "Overgrown Breacher Primus",
+        "Shatterstone Breacher Primus"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Foreign Synapse"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Tome of the Eternal Flow",
+    "Verdict",
+    "Flowing Purity",
+    "Portable Power Saw",
+    "Rightful Reward",
+    "Tidal Shadow"
+  ],
+  "sellers": []
+}

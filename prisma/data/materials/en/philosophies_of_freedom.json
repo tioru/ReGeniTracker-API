@@ -1,0 +1,55 @@
+{
+  "name": "Philosophies of Freedom",
+  "rarity": 4,
+  "categories": [
+    "FREEDOM_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Freedom is the spirit of the land of the wind. To sing is one such freedom. To sing on the land created by the Anemo Archon is to send your heart away with the song on the wind.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Forsaken Rift",
+      "rotation": "Frosted Altar",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Freedom",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Aloy",
+      "Amber",
+      "Barbara",
+      "Diona",
+      "Klee",
+      "Sucrose",
+      "Tartaglia",
+      "Traveler (Anemo)",
+      "Traveler (Geo)",
+      "Traveler (Unaligned)",
+      "Varka"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

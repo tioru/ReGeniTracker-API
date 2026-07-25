@@ -1,0 +1,78 @@
+{
+  "name": "Xenochromatic Crystal",
+  "rarity": 3,
+  "categories": [
+    "FONTEMER_ABERRANT_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "A large crystal obtained from a defeated Fontemer Aberrant. It contains a mysterious energy. All rivers and seas originate in Fontaine, but the water loses all its unique properties once it flows outside Fontaine's borders.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Angelic Sea Hare",
+        "Armored Crab",
+        "Ball Octopus",
+        "Blubberbeast",
+        "Bubbler Seahorse",
+        "Bubbly Seahorse",
+        "Cherubic Sea Hare",
+        "Hat Jellyfish",
+        "Hunter's Ray",
+        "Sternshield Crab"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Transoceanic Chunk",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Clorinde",
+      "Freminet",
+      "Navia",
+      "Neuvillette",
+      "Sigewinne"
+    ],
+    "talent": [
+      "Clorinde",
+      "Freminet",
+      "Navia",
+      "Neuvillette",
+      "Sigewinne",
+      "Traveler (Hydro)"
+    ]
+  },
+  "usedByWeapons": [
+    "Cashflow Supervision",
+    "Silvershower Heartstrings",
+    "Splendor of Tranquil Waters",
+    "Symphonist of Scents",
+    "The First Great Magic",
+    "Flame-Forged Insight",
+    "Fleuve Cendre Ferryman",
+    "Flowing Purity",
+    "Range Gauge",
+    "Sword of Narzissenkreuz",
+    "The Dockhand's Assistant"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Coque marquée",
+  "rarity": 4,
+  "categories": [
+    "CONSECRATED_BEAST_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "La coque d'une bête sacralisée sur laquelle figurent des inscriptions anciennes. Sur cette carapace pâle persistent faiblement les chagrins d'un âge lointain. Le jour viendra où les os des bêtes deviendront de la poussière blanche dispersée par le vent, et alors, les défunts exaltés pourront enfin saluer leur dernier repos...",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Consecrated Fanged Beast",
+        "Consecrated Flying Serpent",
+        "Consecrated Horned Crocodile",
+        "Consecrated Red Vulture",
+        "Consecrated Scorpion"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Sturdy Shell",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Beacon of the Reed Sea",
+    "Light of Foliar Incision",
+    "Mailed Flower",
+    "Talking Stick"
+  ],
+  "sellers": []
+}

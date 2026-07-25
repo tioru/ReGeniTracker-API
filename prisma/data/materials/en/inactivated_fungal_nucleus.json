@@ -1,0 +1,46 @@
+{
+  "name": "Inactivated Fungal Nucleus",
+  "rarity": 2,
+  "categories": [
+    "STATE_SHIFTED_FUNGUS_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Body tissue left behind by a Fungus that has been exposed to intense elemental stimulation. Its soothing texture makes it shockingly good for stress relief. However, frequent usage can also easily lead to the Fungi multiplying, and thus the material is not suitable for any commercial use.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Floating Anemo Fungus",
+        "Floating Dendro Fungus",
+        "Floating Hydro Fungus",
+        "Grounded Geoshroom",
+        "Grounded Hydroshroom",
+        "Stretchy Anemo Fungus",
+        "Stretchy Electro Fungus",
+        "Stretchy Geo Fungus",
+        "Stretchy Pyro Fungus",
+        "Whirling Cryo Fungus",
+        "Whirling Electro Fungus",
+        "Whirling Pyro Fungus",
+        "Winged Cryoshroom",
+        "Winged Dendroshroom"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Dormant Fungal Nucleus"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Hunter's Path",
+    "Tulaytullah's Remembrance",
+    "End of the Line",
+    "King's Squire",
+    "Wandering Evenstar"
+  ],
+  "sellers": []
+}

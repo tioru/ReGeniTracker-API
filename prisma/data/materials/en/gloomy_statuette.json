@@ -1,0 +1,39 @@
+{
+  "name": "Gloomy Statuette",
+  "rarity": 2,
+  "categories": [
+    "THE_BLACK_SERPENTS_MATERIAL",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "An idol made in the likeness of some unknown person. Even though this carving has seen many years pass, it still has not been damaged in any way. It seems that its previous owner must have cherished it like some holy icon.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Abyss Herald: Wicked Torrents",
+        "Abyss Lector: Fathomless Flames",
+        "Abyss Lector: Violet Lightning",
+        "Black Serpent Knight: Windcutter",
+        "Shadowy Husk: Defender",
+        "Shadowy Husk: Line Breaker",
+        "Shadowy Husk: Standard Bearer"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Dark Statuette"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aqua Simulacra",
+    "Haran Geppaku Futsu",
+    "Fruit of Fulfillment",
+    "Kagotsurube Isshin",
+    "Missive Windspear"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Copper Talisman of the Forest Dew",
+  "rarity": 2,
+  "categories": [
+    "TALISMANS_OF_THE_FOREST_DEW"
+  ],
+  "description": "Under the instructions of the First Sage, the ancestors of the forest people made these talismans using withered trees to commemorate the Lord of Verdure. The talisman's shape was inspired by the forest dew. It symbolizes the permeation of wisdom into mortal minds.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Tower of Abject Pride",
+      "rotation": "Tainted Clouds",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Iron Talisman of the Forest Dew"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Key of Khaj-Nisut",
+    "Light of Foliar Incision",
+    "Dialogues of the Desert Sages",
+    "Forest Regalia",
+    "Ibis Piercer",
+    "Sapwood Blade",
+    "Xiphos' Moonlight"
+  ],
+  "sellers": []
+}

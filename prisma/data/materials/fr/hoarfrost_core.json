@@ -1,0 +1,31 @@
+{
+  "name": "Duramen de glace",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "Duramen d'un Arbre congelé. Une forte énergie Cryo s'en dégage. L'énergie et les pensées qui pullulent au fond de la terre finissent tôt ou tard par émerger à la surface. Le givre froid et endeuillé finit alors par s'attacher aux créatures qu'il rencontre ; et même les plantes et arbres deviennent alors gigantesques et menaçants.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Cryo Regisvine"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Chongyun",
+      "Diona",
+      "Ganyu",
+      "Kaeya",
+      "Qiqi",
+      "Rosaria"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

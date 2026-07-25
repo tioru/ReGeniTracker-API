@@ -1,0 +1,55 @@
+{
+  "name": "Scoop of Tainted Water",
+  "rarity": 3,
+  "categories": [
+    "TAINTED_HYDRO_PHANTASM_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Water obtained from a defeated Tainted Hydro Phantasm. The life force in it has yet to ebb away. Today, with the Oceanids extirpated from Fontaine, strange elemental life forms that are far from elegant have appeared in the waters.",
+  "sources": [
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Drop of Tainted Water",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Tainted Water-Splitting Phantasm",
+        "Tainted Water-Spouting Phantasm"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Newborn Tainted Hydro Phantasm"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Splendor of Tranquil Waters",
+    "Symphonist of Scents",
+    "The First Great Magic",
+    "Finale of the Deep",
+    "Fleuve Cendre Ferryman",
+    "Range Gauge",
+    "Song of Stillness"
+  ],
+  "sellers": []
+}

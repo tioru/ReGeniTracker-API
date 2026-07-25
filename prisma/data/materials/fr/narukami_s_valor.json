@@ -1,0 +1,52 @@
+{
+  "name": "Vaillance de Narukami",
+  "rarity": 5,
+  "categories": [
+    "NARUKAMI_S_MAGATAMAS"
+  ],
+  "description": "Matériau d'élévation d'arme. Le trésor de la déesse du tonnerre est sa majesté, et cette majesté est incarnée par sa vaillance et sa colère. Sa colère vient de l'amour qui persiste dans son cœur, et sa vaillance est renforcée par cette colère. Ainsi, quiconque bloquera le chemin vers l'éternité ou lèvera la main sur le peuple d'Inazuma deviendra son ennemi. On raconte qu'il existait quatre grands esprits, trois renards divins et deux grandes épées, mais que le symbole de Son Excellence, la toute-puissante Narukami Ogosho, ne pouvait être qu'un seul coup, invincible et brillant comme une météorite.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour des sables mouvants",
+      "rotation": "Autel des sables",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Narukami's Affection",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Haran Geppaku Futsu",
+    "Redhorn Stonethresher",
+    "Sunny Morning Sleep-In",
+    "Thundering Pulse",
+    "Hamayumi",
+    "Katsuragikiri Nagamasa",
+    "Mouun's Moon",
+    "Predator",
+    "Toukabou Shigure"
+  ],
+  "sellers": []
+}

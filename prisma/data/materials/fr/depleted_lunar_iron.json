@@ -1,0 +1,46 @@
+{
+  "name": "Fer de lune vide",
+  "rarity": 3,
+  "categories": [
+    "PRECURSOR_S_SECRET_SOURCE_MATRIX_OF_OVERSEER_NETWORK_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un noyau prélevé à l'intérieur d'une ancienne machine qui a erré sur la surface lunaire. Il semble différent des métaux que l'on trouve habituellement en Teyvat. Il était immaculé face à l'impureté terrestre, éternel et exempt des sept calamités et des huit souffrances, et il aspirait jadis à chanter dans le vide infini. Pourtant, lorsque tous les calculs furent achevés, il ne restait dans le palais lunaire que du fer froid et inutile.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Precursor's Secret Source Matrix of Overseer Network"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Fractured Lunar Iron",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Unblemished Lunar Iron"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

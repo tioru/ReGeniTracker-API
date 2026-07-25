@@ -1,0 +1,63 @@
+{
+  "name": "Noyau fongique robuste",
+  "rarity": 4,
+  "categories": [
+    "STATE_SHIFTED_FUNGUS_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Du tissu organique d'un Fongus qui a été exposé à une stimulation élémentaire intense. On pense généralement que les Fongus ont évolué et gagné en mobilité pour mieux disperser leurs spores. Un poète a un jour affirmé que les Fongus avaient un rêve commun dans lequel leurs spores recouvraient chaque parcelle des montagnes et des océans, et que le monde était plus paisible que jamais. Puis les Fongus se transformèrent en poissons, en oiseaux, en bêtes, en hommes et en dieux qui dépendaient tous de la pluie, de la terre et de leur propre espèce qui était revenue sur terre pour survivre.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Floating Anemo Fungus",
+        "Floating Dendro Fungus",
+        "Floating Hydro Fungus",
+        "Grounded Geoshroom",
+        "Grounded Hydroshroom",
+        "Stretchy Anemo Fungus",
+        "Stretchy Electro Fungus",
+        "Stretchy Geo Fungus",
+        "Stretchy Pyro Fungus",
+        "Whirling Cryo Fungus",
+        "Whirling Electro Fungus",
+        "Whirling Pyro Fungus",
+        "Winged Cryoshroom",
+        "Winged Dendroshroom"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Dormant Fungal Nucleus",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Hunter's Path",
+    "Tulaytullah's Remembrance",
+    "End of the Line",
+    "King's Squire",
+    "Wandering Evenstar"
+  ],
+  "sellers": []
+}

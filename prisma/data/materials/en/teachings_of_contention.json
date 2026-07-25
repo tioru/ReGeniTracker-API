@@ -1,0 +1,35 @@
+{
+  "name": "Teachings of Contention",
+  "rarity": 2,
+  "categories": [
+    "CONTENTION_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Contention is the principle by which all is weighed in the Nation of Pyro. What defines strength, and what weakness? Only victory and defeat. The results of a contest are more convincing than any words.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Blazing Ruins",
+      "rotation": "Sublime Turning",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Contention"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Iansan",
+      "Mavuika",
+      "Mualani",
+      "Skirk",
+      "Traveler (Pyro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

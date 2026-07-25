@@ -1,0 +1,58 @@
+{
+  "name": "Statuette maudite",
+  "rarity": 3,
+  "categories": [
+    "THE_BLACK_SERPENTS_MATERIAL",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Une statuette sculptée à l'effigie d'une personne inconnue qui ne possédait qu'un œil. Vous sentez une chaleur s'en dégager lorsque vous la tenez, comme si c'était l'épaule d'un ami cher. Peut-être que cette statuette peut donner le courage de persévérer aux gens qui comprennent son importance.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Abyss Herald: Wicked Torrents",
+        "Abyss Lector: Fathomless Flames",
+        "Abyss Lector: Violet Lightning",
+        "Black Serpent Knight: Windcutter",
+        "Shadowy Husk: Defender",
+        "Shadowy Husk: Line Breaker",
+        "Shadowy Husk: Standard Bearer"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Gloomy Statuette",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Deathly Statuette"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aqua Simulacra",
+    "Haran Geppaku Futsu",
+    "Fruit of Fulfillment",
+    "Kagotsurube Isshin",
+    "Missive Windspear"
+  ],
+  "sellers": []
+}

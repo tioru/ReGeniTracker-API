@@ -1,0 +1,51 @@
+{
+  "name": "Splintered Hilt",
+  "rarity": 3,
+  "categories": [
+    "PRAETORIAN_GOLEM_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A stone hilt obtained from an ancient statue. The chips and grooves speak to the brutal battles its owner once weathered.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Praetorian Golem"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Ruined Hilt",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Still-Smoldering Hilt"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Crimson Moon's Semblance",
+    "Lumidouce Elegy",
+    "Cloudforged",
+    "Flute of Ezpitzal"
+  ],
+  "sellers": []
+}

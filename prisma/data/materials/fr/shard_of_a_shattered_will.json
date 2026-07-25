@@ -1,0 +1,38 @@
+{
+  "name": "Fragment de volonté brisée",
+  "rarity": 2,
+  "categories": [
+    "WAYOB_MANIFESTATION_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un fragment qui abrite une Manifestation de Wayob. Il s'agit d'un éclat brisé d'une idole de pierre. Sa capacité à canaliser la volonté et le pouvoir des Wayobs est également extrêmement limitée.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Biting-Cold Wayob Manifestation",
+        "Burning-Aflame Wayob Manifestation",
+        "Flow-Inverted Wayob Manifestation",
+        "Foliar-Swift Wayob Manifestation",
+        "Rock-Cavernous Wayob Manifestation",
+        "Thundering Wayob Manifestation"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Locus of a Clear Will"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Starcaller's Watch",
+    "Surf's Up",
+    "Ring of Yaxche",
+    "Sturdy Bone",
+    "Waveriding Whirl"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Lakelight Lily",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "A clear and clean azure flower, it is born where Water Veins come together. It has a simple, cool, and elegant fragrance, pungent and refreshing yet gentle.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found near bodies of water in Erinnyes Forest"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Emilie",
+      "Furina"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Pahsiv",
+      "currency": "Tidalga",
+      "cost": 2,
+      "stock": 15,
+      "restock": "NEVER"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Poignée enflammée délavée",
+  "rarity": 2,
+  "categories": [
+    "DOMAIN_KEEPER_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Les restes de la poignée d'une épée enflammée autrefois maniée par un Protecteur du royaume. Une épée de feu ardent était autrefois le symbole de la protection. Dotée de l'autorité de l'« espace », elle scellait la frontière entre l'éternité et l'instant éphémère.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Domain Keeper"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Fractured Flaming Hilt"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Angelos' Heptades",
+    "Golden Frostbound Oath"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Rukkhashava Mushrooms",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Before Where the Boat of Consciousness Lies A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest. Therefore, they are considered by the people of Sumeru to be the holy crystallization of Rukkhadevata's legacy. After Where the Boat of Consciousness Lies A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the wild in the Ashavan Realm and Lokapala Jungle"
+    }
+  ],
+  "usedIn": [
+    "Dendroculus Resonance Stone",
+    "Forest Watcher's Choice",
+    "Mushroom Hodgepodge",
+    "Potato Boat",
+    "Tandoori Roast Chicken"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Collei",
+      "Wanderer"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Aramani",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Ashpazi",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

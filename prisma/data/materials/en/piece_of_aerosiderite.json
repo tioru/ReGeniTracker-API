@@ -1,0 +1,65 @@
+{
+  "name": "Piece of Aerosiderite",
+  "rarity": 3,
+  "categories": [
+    "AEROSIDERITE"
+  ],
+  "description": "Rumors of sea monsters are commonplace in Liyue, since the other shore is an unknown region that lies outside of Teyvat. Without the protection of The Seven, all that lies beyond is unknown chaos. Only power beyond the order of Teyvat is able to stain the power of Rex Lapis black.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Hidden Palace of Lianshan Formula",
+      "rotation": "Trial Grounds of Thunder",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Grain of Aerosiderite",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Bit of Aerosiderite"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Lightbearing Moonshard",
+    "Memory of Dust",
+    "Staff of Homa",
+    "Vortex Vanquisher",
+    "Cloudforged",
+    "Compound Bow",
+    "Fading Twilight",
+    "Iron Sting",
+    "Lithic Spear",
+    "Luxurious Sea-Lord",
+    "Mappa Mare",
+    "Prototype Archaic",
+    "Prototype Starglitter",
+    "Serpent Spine",
+    "Black Tassel",
+    "Skyrider Greatsword",
+    "Skyrider Sword"
+  ],
+  "sellers": []
+}

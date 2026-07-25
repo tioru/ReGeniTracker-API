@@ -1,0 +1,35 @@
+{
+  "name": "Enseignement du Conflit",
+  "rarity": 2,
+  "categories": [
+    "CONFLICT_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. Le conflit est considéré comme une raison dans la patrie du feu. Plutôt que d'éviter les conflits, il faut faire face aux confrontations de front. Une fois le résultat manifesté, la voie à suivre doit être déterminée en conséquence.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Ruines flamboyantes",
+      "rotation": "Retournement",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Conflict"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Chasca",
+      "Ifa",
+      "Ineffa",
+      "Kachina",
+      "Varesa"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

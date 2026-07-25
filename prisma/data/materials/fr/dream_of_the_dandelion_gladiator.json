@@ -1,0 +1,65 @@
+{
+  "name": "Idéaux du Chevalier du Croc de Lion",
+  "rarity": 5,
+  "categories": [
+    "GLADIATOR_SHACKLES"
+  ],
+  "description": "Matériau d'élévation d'arme. Lorsque Vennessa fut affranchie, ses responsabilités ne furent que plus grandes au fil du temps. Incarnation de la liberté, elle tint successivement sur ses épaules le bien-être de la tribu, puis celui de Mondstadt tout entière et enfin du monde entier. Son vœu le plus cher était celui d'un monde plus fort et indépendant.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pépinière de cécilias",
+      "rotation": "Capitale assoiffée",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shackles of the Dandelion Gladiator",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Amos' Bow",
+    "Freedom-Sworn",
+    "Lost Prayer to the Sacred Winds",
+    "Skyward Spine",
+    "The Daybreak Chronicles",
+    "Wolf's Gravestone",
+    "Alley Hunter",
+    "Favonius Greatsword",
+    "Favonius Lance",
+    "Favonius Warbow",
+    "Festering Desire",
+    "Frostbearer",
+    "Mailed Flower",
+    "Royal Bow",
+    "Royal Greatsword",
+    "Sacrificial Fragments",
+    "Sacrificial Sword",
+    "Windblume Ode",
+    "Otherworldly Story",
+    "Recurve Bow",
+    "Traveler's Handy Sword",
+    "White Iron Greatsword"
+  ],
+  "sellers": []
+}

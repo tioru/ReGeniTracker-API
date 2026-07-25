@@ -1,0 +1,52 @@
+{
+  "name": "Treasured Flower",
+  "rarity": 3,
+  "categories": [
+    "HILICHURL_ROGUE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A wild flower that a Hilichurl Rogue treasured, bereft of any special qualities. Flowers can be used as gifts or offerings to express one's feelings in many cultures.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Anemo Hilichurl Rogue",
+        "Hydro Hilichurl Rogue"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "A Flower Yet to Bloom",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Wanderer's Blooming Flower"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Jadefall's Splendor",
+    "Ballad of the Fjords",
+    "Ibis Piercer",
+    "Scion of the Blazing Sun"
+  ],
+  "sellers": []
+}

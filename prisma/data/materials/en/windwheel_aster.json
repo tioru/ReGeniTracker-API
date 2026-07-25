@@ -1,0 +1,35 @@
+{
+  "name": "Windwheel Aster",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found near the Statue of The Seven at Windrise and Dawn Winery, and all around Stormterror's Lair"
+    }
+  ],
+  "usedIn": [
+    "Wind Catcher"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Bennett",
+      "Sucrose",
+      "Traveler"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Flora",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

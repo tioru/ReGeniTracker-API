@@ -1,22 +1,25 @@
 {
   "name": "Varunada Lazurite Gemstone",
   "rarity": 5,
-  "categories": ["VARUNADA_LAZURITE", "ASCENSION_GEMS"],
-  "description": "Character Ascension material. \"My ideals have no stains. \nI must correct you. People here bear no sins in the eyes of the gods... Only laws and the Tribunal can judge someone. They can judge even me. So praise my magnificence and purity.\"",
+  "categories": [
+    "VARUNADA_LAZURITE",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension material. \"My ideals have no stains. I must correct you. People here bear no sins in the eyes of the gods... Only laws and the Tribunal can judge someone. They can judge even me. So praise my magnificence and purity.\"",
   "sources": [
     {
       "type": "BOSS",
       "minimumLevel": 75,
       "names": [
-        "Oceanid",
-        "Frostnight Herra",
         "Aeonblight Drake",
-        "Secret Source Automaton: Overseer Device",
-        "Solitary Suanni",
-        "Hydro Tulpa",
+        "Frostnight Herra",
         "Hydro Hypostasis",
+        "Hydro Tulpa",
+        "Iniquitous Baptist",
         "Primo Geovishap",
-        "Iniquitous Baptist"
+        "Rhodeia of Loch",
+        "Secret Source Automaton: Overseer Device",
+        "Solitary Suanni"
       ]
     },
     {
@@ -24,12 +27,12 @@
       "minimumLevel": 75,
       "names": [
         "All-Devouring Narwhal",
-        "The Doctor",
-        "Shouki no Kami, the Prodigal",
+        "Azhdaha (Weekly Boss)",
         "Childe",
-        "Azhadaha",
-        "The Game Before The Gate",
-        "Stormterror"
+        "Everlasting Lord of Arcane Wisdom",
+        "Heretic of the False Moon",
+        "Stormterror Dvalin",
+        "The Game Before the Gate"
       ]
     },
     {
@@ -39,59 +42,102 @@
           "subtype": "CRAFTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Va­ru­na­da La­zu­rite Chunk", "quantity": 3 },
-            { "item": "Mora", "quantity": 2700 }
+            {
+              "item": "Varunada Lazurite Chunk",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 2
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Ag­ni­dus A­gate Gem­stone", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 27 }
+            {
+              "item": "Agnidus Agate Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Nagadus Emerald Gemstone", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 27 }
+            {
+              "item": "Nagadus Emerald Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Vajrada Amethyst Gemstone", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 27 }
+            {
+              "item": "Vajrada Amethyst Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Vayuda Turquoise Gemstone", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 27 }
+            {
+              "item": "Vayuda Turquoise Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Shivada Jade Gemstone", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 27 }
+            {
+              "item": "Shivada Jade Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Prithiva Topaz Gemstone", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 27 }
+            {
+              "item": "Prithiva Topaz Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         }
-      ]
+      ],
+      "minimumAdventureRank": 45
     }
   ],
   "usedIn": [
@@ -113,7 +159,7 @@
       "Kamisato Ayato",
       "Mona",
       "Mualani",
-      "Neuvilette",
+      "Neuvillette",
       "Nilou",
       "Sangonomiya Kokomi",
       "Sigewinne",

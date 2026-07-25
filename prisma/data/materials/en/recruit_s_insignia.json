@@ -1,0 +1,77 @@
+{
+  "name": "Recruit's Insignia",
+  "rarity": 1,
+  "categories": [
+    "FATUI_SKIRMISHER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Fatui Skirmisher - Anemoboxer Vanguard",
+        "Fatui Skirmisher - Cryogunner Legionnaire",
+        "Fatui Skirmisher - Electrohammer Vanguard",
+        "Fatui Skirmisher - Geochanter Bracer",
+        "Fatui Skirmisher - Hydrogunner Legionnaire",
+        "Fatui Skirmisher - Pyroslinger Bracer"
+      ]
+    },
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Fatui Cryo Cicin Mage",
+        "Fatui Electro Cicin Mage",
+        "Fatui Pyro Agent"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Sergeant's Insignia"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Arlecchino",
+      "Diluc",
+      "Lyney",
+      "Mika",
+      "Ningguang",
+      "Rosaria",
+      "Tartaglia",
+      "Yelan"
+    ],
+    "talent": [
+      "Arlecchino",
+      "Diluc",
+      "Lyney",
+      "Mika",
+      "Ningguang",
+      "Rosaria",
+      "Tartaglia",
+      "Yelan"
+    ]
+  },
+  "usedByWeapons": [
+    "Elegy for the End",
+    "Gest of the Mighty Wolf",
+    "Primordial Jade Winged-Spear",
+    "Blackcliff Pole",
+    "Blackcliff Slasher",
+    "Cloudforged",
+    "Compound Bow",
+    "Dragonspine Spear",
+    "Favonius Greatsword",
+    "Festering Desire",
+    "Moonpiercer",
+    "Prototype Rancour",
+    "Royal Grimoire",
+    "Royal Spear",
+    "Skyrider Sword",
+    "Twin Nephrite",
+    "White Tassel"
+  ],
+  "sellers": []
+}

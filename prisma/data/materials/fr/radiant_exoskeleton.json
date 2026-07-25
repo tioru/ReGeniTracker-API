@@ -1,0 +1,53 @@
+{
+  "name": "Exosquelette radieux",
+  "rarity": 4,
+  "categories": [
+    "RADIANT_BEAST_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un morceau géant d'os émettant une lueur froide, pris du corps d'une bête lumineuse. Ces bêtes bénis par l'ancien pouvoir de la lune sont capables de manipuler leur exosquelette grâce à la lumière qui a imprégné leur moelle pendant de longues années. Même si leurs os se détachent, ils peuvent les commander comme n'importe quelle autre partie de leur corps.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Radiant Antelope",
+        "Radiant Bladehorn",
+        "Radiant Glacial Wolf",
+        "Radiant Lunapod"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Glowing Remains",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Disaster and Remorse",
+    "Reliquary of Truth",
+    "Etherlight Spindlelute",
+    "Master Key",
+    "Moonweaver's Dawn"
+  ],
+  "sellers": []
+}

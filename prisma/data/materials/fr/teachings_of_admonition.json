@@ -1,0 +1,32 @@
+{
+  "name": "Enseignement de l'Admonestation",
+  "rarity": 2,
+  "categories": [
+    "ADMONITION_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'admonestation est la branche de la nation de la sagesse. Elle provient d'un cœur pur et seuls les mots clairs et bienveillants peuvent exprimer une extrême sagesse et libérer les germes de la connaissance des chaînes de l'arrogance.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Tour de l'ignorance",
+      "rotation": "Pleine lune",
+      "minimumLevel": 1
+    }
+  ],
+  "usedIn": [
+    "Guide to Admonition"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Candace",
+      "Cyno",
+      "Faruzan",
+      "Tighnari",
+      "Traveler (Dendro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

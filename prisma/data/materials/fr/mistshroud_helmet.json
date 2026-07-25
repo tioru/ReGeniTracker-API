@@ -1,0 +1,51 @@
+{
+  "name": "Casque de brumevoile",
+  "rarity": 4,
+  "categories": [
+    "WASTELAND_WILD_HUNT_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un casque trouvé dans le brouillard de la Chasse sauvage. Peut-être qu'une entité souillée d'un autre monde a absorbé les souvenirs des lignes énergétiques pour lui donner la forme d'une relique du royaume perdu ?",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Wilderness Exile",
+        "Wilderness Hunter"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Mistshroud Plate",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Bloodsoaked Ruins",
+    "Lightbearing Moonshard",
+    "Prospector's Shovel",
+    "Sacrificer's Staff",
+    "Snare Hook"
+  ],
+  "sellers": []
+}

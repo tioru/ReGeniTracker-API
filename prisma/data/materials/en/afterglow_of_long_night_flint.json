@@ -1,0 +1,50 @@
+{
+  "name": "Afterglow of Long Night Flint",
+  "rarity": 3,
+  "categories": [
+    "LONG_NIGHT_FLINTS"
+  ],
+  "description": "Lighting a lamp can dispel darkness, and so the people of the borderlands believed that as long as the lamps of the Lightkeepers were lit, the home of the living would be free of evil spirits. The warriors who had sworn to watch over the night believed the same. That is why, like moths to a flame, man faced a mountain of evil clad in armor to protect his fragile flesh. Until the black tide consumes his flesh, or his flesh devours the black tide, the two cannot be told apart.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Lost Mooncourt",
+      "rotation": "Prayers Sung",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Ember of Long Night Flint",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Flare of Long Night Flint"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Bloodsoaked Ruins",
+    "Golden Frostbound Oath",
+    "Prospector's Shovel",
+    "Sacrificer's Staff",
+    "Snare Hook"
+  ],
+  "sellers": []
+}

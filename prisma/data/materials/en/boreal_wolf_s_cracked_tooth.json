@@ -1,0 +1,74 @@
+{
+  "name": "Boreal Wolf's Cracked Tooth",
+  "rarity": 3,
+  "categories": [
+    "BOREAL_WOLF_TEETH"
+  ],
+  "description": "The life of a wolf is not without violence; broken bones or cracked teeth are nothing special. Andrius found humans to be a disappointment, but believed babies to be innocent. If both the wolf pack and the adopted children chose each other, then they become a Lupical, a fated family.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cecilia Garden",
+      "rotation": "Submerged Valley",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Boreal Wolf's Milk Tooth",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Boreal Wolf's Broken Fang"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Elegy for the End",
+    "Gest of the Mighty Wolf",
+    "Skyward Atlas",
+    "Skyward Blade",
+    "Skyward Harp",
+    "Skyward Pride",
+    "Ballad of the Boundless Blue",
+    "Deathmatch",
+    "Dodoco Tales",
+    "Dragonspine Spear",
+    "Missive Windspear",
+    "Sacrificial Bow",
+    "Sacrificial Greatsword",
+    "Sword of Descension",
+    "The Black Sword",
+    "The Flute",
+    "The Widsith",
+    "Wine and Song",
+    "Bloodtainted Greatsword",
+    "Harbinger of Dawn",
+    "Sharpshooter's Oath",
+    "Thrilling Tales of Dragon Slayers",
+    "Old Merc's Pal",
+    "Seasoned Hunter's Bow",
+    "Hunter's Bow",
+    "Waster Greatsword"
+  ],
+  "sellers": []
+}

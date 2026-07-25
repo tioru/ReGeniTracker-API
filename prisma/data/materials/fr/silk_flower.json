@@ -1,0 +1,55 @@
+{
+  "name": "Fleur de soie",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Une plante qui fleurit à la manière des nuages arc-en-ciel de Liyue. Elle peut être utilisée pour fabriquer des tissus extrêmement lisses et soyeux.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Liyue Harbor and Wangshu Inn"
+    }
+  ],
+  "usedIn": [
+    "Fabric"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Hu Tao",
+      "Xingqiu"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Fengtai",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Ms. Bai",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Qiuwei",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Verr Goldet",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

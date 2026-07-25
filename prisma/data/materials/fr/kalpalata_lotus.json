@@ -1,0 +1,34 @@
+{
+  "name": "Kalpalotus",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "La fleur produite par une liane poussant sur les falaises. On l'appelle lotus uniquement parce qu'elle en a l'apparence, mais en dehors de cela, ces deux plantes ne partagent aucune similitude.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the mountains of Sumeru"
+    }
+  ],
+  "usedIn": [
+    "Nameless Taboo Medicine of the Royal Court"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Dori",
+      "Nahida"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Aramani",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

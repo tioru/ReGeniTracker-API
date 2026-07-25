@@ -1,0 +1,34 @@
+{
+  "name": "Conteneur du chaos",
+  "rarity": 2,
+  "categories": [
+    "RUIN_DRAKE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Provient d'un ancien Dragon des ruines désormais inactif. Les Dragons des ruines peuvent absorber l'énergie élémentaire et la stocker dans un composant situé à l'intérieur de leur « cou ».",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Ruin Drake: Earthguard",
+        "Ruin Drake: Skywatch"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Chaos Module"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Staff of the Scarlet Sands",
+    "Forest Regalia",
+    "Makhaira Aquamarine",
+    "Moonpiercer",
+    "Sapwood Blade"
+  ],
+  "sellers": []
+}

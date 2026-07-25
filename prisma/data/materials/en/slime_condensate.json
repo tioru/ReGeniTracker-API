@@ -1,0 +1,85 @@
+{
+  "name": "Slime Condensate",
+  "rarity": 1,
+  "categories": [
+    "SLIME_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Anemo Slime",
+        "Cryo Slime",
+        "Dendro Slime",
+        "Electro Slime",
+        "Geo Slime",
+        "Hydro Slime",
+        "Large Anemo Slime",
+        "Large Cryo Slime",
+        "Large Dendro Slime",
+        "Large Electro Slime",
+        "Large Geo Slime",
+        "Large Hydro Slime",
+        "Large Pyro Slime",
+        "Mutant Electro Slime",
+        "Pyro Slime"
+      ]
+    }
+  ],
+  "usedIn": [
+    "False Worm Bait",
+    "Slime Secretions"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Arataki Itto",
+      "Columbina",
+      "Gaming",
+      "Lisa",
+      "Venti",
+      "Xiangling",
+      "Xiao",
+      "Yaoyao",
+      "Zhongli"
+    ],
+    "talent": [
+      "Arataki Itto",
+      "Columbina",
+      "Gaming",
+      "Lisa",
+      "Venti",
+      "Xiangling",
+      "Xiao",
+      "Yaoyao",
+      "Zhongli"
+    ]
+  },
+  "usedByWeapons": [
+    "Amos' Bow",
+    "Lost Prayer to the Sacred Winds",
+    "Skyward Blade",
+    "Skyward Pride",
+    "Staff of Homa",
+    "Alley Hunter",
+    "Favonius Lance",
+    "Luxurious Sea-Lord",
+    "Mappa Mare",
+    "Missive Windspear",
+    "Royal Greatsword",
+    "Sacrificial Bow",
+    "Snow-Tombed Starsilver",
+    "Talking Stick",
+    "The Black Sword",
+    "The Flute",
+    "Harbinger of Dawn",
+    "Magic Guide",
+    "Sharpshooter's Oath",
+    "White Iron Greatsword",
+    "Old Merc's Pal",
+    "Waster Greatsword"
+  ],
+  "sellers": []
+}

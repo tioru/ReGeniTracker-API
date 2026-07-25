@@ -1,0 +1,43 @@
+{
+  "name": "Dandelion Seed",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the wild in Mondstadt"
+    }
+  ],
+  "usedIn": [
+    "Anemoculus Resonance Stone",
+    "Gushing Essential Oil",
+    "Windbarrier Potion"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Eula",
+      "Jean"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Babak",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Karpillia",
+      "currency": "Mora",
+      "cost": 60000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

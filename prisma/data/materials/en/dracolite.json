@@ -1,0 +1,30 @@
+{
+  "name": "Dracolite",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES",
+    "MINERALS"
+  ],
+  "description": "Formed gradually in areas rich in Phlogiston, these red, scale-like crystals are blazing-hot to the touch.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Atocpan"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Kofitse",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

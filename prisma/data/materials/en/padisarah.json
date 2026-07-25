@@ -1,0 +1,40 @@
+{
+  "name": "Padisarah",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES",
+    "COOKING_INGREDIENTS"
+  ],
+  "description": "A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Sumeru City"
+    }
+  ],
+  "usedIn": [
+    "Biryani",
+    "Dendro Treasure Compass",
+    "Duel Soul",
+    "Gilded Tajine",
+    "Goldflame Tajine",
+    "Padisarah Pudding",
+    "Swirling Steps",
+    "Tahchin",
+    "Tandoori Roast Chicken"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Jut",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Frostnight's Glow",
+  "rarity": 3,
+  "categories": [
+    "FROSTNIGHT_SCION_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A chunk taken from the horned crown of a defeated Frostnight Scion. In the oldest sagas of the Frostmoon Scions, the glow of these noble creatures was described as the \"unsullied mercy of the divine emissary\" by the philosophers of the far north. Though this mercy could not prevent the fall of the Golden City or save her descendants from exile, the same glow still courses through their horned crowns, waiting for a dream that may never return.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Blazing Brilliance: Frostnight Scion",
+        "Gilded Sunshard: Frostnight Scion",
+        "Gleaming Charge: Frostnight Scion",
+        "Icy Crystal: Frostnight Scion",
+        "Surging Currents: Frostnight Scion",
+        "Tangled Vines: Frostnight Scion",
+        "Veiled Cloudchaser: Frostnight Scion"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Frostnight's Glimmer",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Frostnight's Glory"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Athame Artis",
+    "Nightweaver's Looking Glass",
+    "Blackmarrow Lantern",
+    "Dawning Frost",
+    "Serenity's Call"
+  ],
+  "sellers": []
+}

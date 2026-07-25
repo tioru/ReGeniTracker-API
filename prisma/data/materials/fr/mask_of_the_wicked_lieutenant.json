@@ -1,0 +1,37 @@
+{
+  "name": "Masque du lieutenant pernicieux",
+  "rarity": 2,
+  "categories": [
+    "ONI_MASKS"
+  ],
+  "description": "Matériau d'élévation d'arme. Les contes folkloriques parlent d'un oni du nom de Torachiyo. Torachiyo était un guerrier très doué à tel point qu'on raconte qu'il pouvait danser au milieu de mille lames, les robes juunihitoe déchiquetées volant comme des pétales de violette, sans subir la moindre blessure. Pourtant, cet oni finira par trahir la Shogun et se révolter, se privant d'un bras et d'une corne dans la bataille avant de s'enfuir et de se tuer dans un accès de folie furieuse. On dit que les oni têtus cachent souvent de la peur et de la détresse dans leur cœur. Ils fantasment sur l'éternité tout en craignant le moment présent, et être engloutis par la terreur ou la colère est leur juste récompense. Ce masque représente Torachiyo, les crocs dénudés.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour des sables mouvants",
+      "rotation": "Enseveli dans les sables",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Mask of the Tiger's Bite"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Engulfing Lightning",
+    "Kagura's Verity",
+    "Polar Star",
+    "\"The Catch\"",
+    "Kagotsurube Isshin",
+    "Kitain Cross Spear",
+    "Tamayuratei no Ohanashi",
+    "Wavebreaker's Fin"
+  ],
+  "sellers": []
+}

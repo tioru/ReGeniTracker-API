@@ -1,0 +1,32 @@
+{
+  "name": "Lys lacmineux",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Une fleur bleue, claire et pure qui pousse là où des veines d'eau se rejoignent. Elle possède un parfum frais et élégant, à la fois vif et doux.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found near bodies of water in Erinnyes Forest"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Emilie",
+      "Furina"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Pahsiv",
+      "currency": "Tidalga",
+      "cost": 2,
+      "stock": 15,
+      "restock": "NEVER"
+    }
+  ]
+}

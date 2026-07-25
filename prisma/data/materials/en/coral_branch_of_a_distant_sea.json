@@ -1,0 +1,36 @@
+{
+  "name": "Coral Branch of a Distant Sea",
+  "rarity": 2,
+  "categories": [
+    "BRANCHES_OF_A_DISTANT_SEA"
+  ],
+  "description": "Watatsumi Island is the furthest from Narukami Island in the Inazuman island chain, and its name means \"the god of the oceans\" in the island's ancient tongue. Legend has it that when the great serpent first arose within the abyssal nation of ever-night, its fluorescent body was covered in myriad-colored coral.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Court of Flowing Sand",
+      "rotation": "Sunken Sands",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Jeweled Branch of a Distant Sea"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Everlasting Moonglow",
+    "Mistsplitter Reforged",
+    "Uraku Misugiri",
+    "Akuoumaru",
+    "Amenoma Kageuchi",
+    "Hakushin Ring",
+    "Oathsworn Eye"
+  ],
+  "sellers": []
+}

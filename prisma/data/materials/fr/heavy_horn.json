@@ -1,0 +1,58 @@
+{
+  "name": "Corne lourde",
+  "rarity": 2,
+  "categories": [
+    "MITACHURL_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Une corne utilisée par les Brutocollinus pour prévenir leurs alliés d'un danger imminent. Bien que cet objet soit déjà bien endommagé, il n'est pas près de rendre l'âme.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Blazing Axe Mitachurl",
+        "Crackling Axe Mitachurl",
+        "Frostarm Lawachurl",
+        "Ice Shieldwall Mitachurl",
+        "Rock Shieldwall Mitachurl",
+        "Stonehide Lawachurl",
+        "Thunderhelm Lawachurl",
+        "Wooden Shieldwall Mitachurl"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Black Bronze Horn"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aquila Favonia",
+    "Elegy for the End",
+    "Song of Broken Pines",
+    "The Daybreak Chronicles",
+    "Favonius Codex",
+    "Favonius Sword",
+    "Festering Desire",
+    "Mitternachts Waltz",
+    "Royal Grimoire",
+    "Royal Longsword",
+    "Snow-Tombed Starsilver",
+    "The Alley Flash",
+    "The Bell",
+    "The Stringless",
+    "The Viridescent Hunt",
+    "Cool Steel",
+    "Ferrous Shadow",
+    "Magic Guide",
+    "Raven Bow",
+    "Pocket Grimoire",
+    "Silver Sword",
+    "Apprentice's Notes",
+    "Dull Blade"
+  ],
+  "sellers": []
+}

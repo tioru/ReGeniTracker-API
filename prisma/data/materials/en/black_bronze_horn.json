@@ -1,0 +1,77 @@
+{
+  "name": "Black Bronze Horn",
+  "rarity": 3,
+  "categories": [
+    "MITACHURL_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A metallic monster horn that can only be obtained from especially strong hilichurls, since blowing on the horn takes real strength.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Blazing Axe Mitachurl",
+        "Crackling Axe Mitachurl",
+        "Frostarm Lawachurl",
+        "Ice Shieldwall Mitachurl",
+        "Rock Shieldwall Mitachurl",
+        "Stonehide Lawachurl",
+        "Thunderhelm Lawachurl",
+        "Wooden Shieldwall Mitachurl"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Heavy Horn",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Black Crystal Horn"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aquila Favonia",
+    "Elegy for the End",
+    "Song of Broken Pines",
+    "The Daybreak Chronicles",
+    "Favonius Codex",
+    "Favonius Sword",
+    "Festering Desire",
+    "Mitternachts Waltz",
+    "Royal Grimoire",
+    "Royal Longsword",
+    "Snow-Tombed Starsilver",
+    "The Alley Flash",
+    "The Bell",
+    "The Stringless",
+    "The Viridescent Hunt",
+    "Cool Steel",
+    "Ferrous Shadow",
+    "Magic Guide",
+    "Raven Bow",
+    "Pocket Grimoire",
+    "Silver Sword",
+    "Apprentice's Notes",
+    "Dull Blade"
+  ],
+  "sellers": []
+}

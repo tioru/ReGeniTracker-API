@@ -1,0 +1,72 @@
+{
+  "name": "Mur abattu de Décarabian",
+  "rarity": 3,
+  "categories": [
+    "DECARABIAN_TILES"
+  ],
+  "description": "Matériau d'élévation d'arme. Décarabian, fier de son œuvre, était vénéré du haut de sa tour. Cependant, il ignorait que le peuple ne se prosternait pas ni par respect ni par admiration.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pépinière de cécilias",
+      "rotation": "Ville de réflexions",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Tile of Decarabian's Tower",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Fragment of Decarabian's Epic"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aquila Favonia",
+    "Athame Artis",
+    "Disaster and Remorse",
+    "Song of Broken Pines",
+    "Cinnabar Spindle",
+    "Favonius Codex",
+    "Favonius Sword",
+    "Mitternachts Waltz",
+    "Royal Grimoire",
+    "Royal Longsword",
+    "Snow-Tombed Starsilver",
+    "The Alley Flash",
+    "The Bell",
+    "The Stringless",
+    "The Viridescent Hunt",
+    "Wolf-Fang",
+    "Cool Steel",
+    "Ferrous Shadow",
+    "Magic Guide",
+    "Raven Bow",
+    "Pocket Grimoire",
+    "Silver Sword",
+    "Apprentice's Notes",
+    "Dull Blade"
+  ],
+  "sellers": []
+}

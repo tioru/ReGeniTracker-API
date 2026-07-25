@@ -1,0 +1,61 @@
+{
+  "name": "Mist Veiled Primo Elixir",
+  "rarity": 5,
+  "categories": [
+    "ELIXIRS"
+  ],
+  "description": "An elixir of the highest quality. It embodies a state of intertwining order and chaos, and is said to mirror how the world was when it was first created. Of course, a certain someone knows that this was not the case.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Hidden Palace of Lianshan Formula",
+      "rotation": "Thundering Ruins",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Mist Veiled Gold Elixir",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Calamity Queller",
+    "Crane's Echoing Call",
+    "Primordial Jade Cutter",
+    "The Unforged",
+    "Blackcliff Pole",
+    "Blackcliff Slasher",
+    "Dragon's Bane",
+    "Eye of Perception",
+    "Prototype Amber",
+    "Prototype Crescent",
+    "Prototype Rancour",
+    "Rainslasher",
+    "Royal Spear",
+    "Debate Club",
+    "Fillet Blade",
+    "Halberd",
+    "Messenger",
+    "Twin Nephrite"
+  ],
+  "sellers": []
+}

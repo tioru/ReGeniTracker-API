@@ -1,0 +1,55 @@
+{
+  "name": "Guide de la Lumière",
+  "rarity": 3,
+  "categories": [
+    "LIGHT_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. La lumière est le désir de la nation du tonnerre. Bien que les rayons du soleil soient bloqués par des couches de nuages, il y a encore des gens au pays du dieu du tonnerre qui rêvent de percer cette mer de colère foudroyante pour poursuivre la gloire du divin, ne craignant pas d'être cruellement frappés.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour violette",
+      "rotation": "Ruines des ronces",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Light",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Light"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Chiori",
+      "Gorou",
+      "Raiden Shogun",
+      "Sayu",
+      "Traveler (Electro)",
+      "Yae Miko"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

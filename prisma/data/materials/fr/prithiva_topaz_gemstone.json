@@ -1,0 +1,167 @@
+{
+  "name": "Pierre de topaze prithiva",
+  "rarity": 5,
+  "categories": [
+    "PRITHIVA_TOPAZ",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Matériau d'élévation de personnage. « Toutes les monnaies qui circulent sur le continent font partie de mon corps. » « Je garantis la sueur, la sagesse et l'avenir des humains de cette manière. » « C'est la confiance que je place en vous. Si vous la trahissez, vous tacherez mon sang. »",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 75,
+      "names": [
+        "\"Statue of Marble and Brass\"",
+        "Geo Hypostasis",
+        "Golden Wolflord",
+        "Perpetual Mechanical Array",
+        "Primo Geovishap",
+        "Prototype Cal. Breguet",
+        "Radiant Moongecko",
+        "Ruin Serpent",
+        "The Open-Eyed"
+      ]
+    },
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 75,
+      "names": [
+        "Andrius",
+        "Azhdaha (Weekly Boss)"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Prithiva Topaz Chunk",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Agnidus Agate Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Varunada Lazurite Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Nagadus Emerald Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vajrada Amethyst Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vayuda Turquoise Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shivada Jade Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
+          ]
+        }
+      ],
+      "minimumAdventureRank": 45
+    }
+  ],
+  "usedIn": [
+    "Agnidus Agate Gemstone",
+    "Nagadus Emerald Gemstone",
+    "Shivada Jade Gemstone",
+    "Vajrada Amethyst Gemstone",
+    "Varunada Lazurite Gemstone",
+    "Vayuda Turquoise Gemstone"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Albedo",
+      "Arataki Itto",
+      "Chiori",
+      "Gorou",
+      "Illuga",
+      "Kachina",
+      "Linnea",
+      "Navia",
+      "Ningguang",
+      "Noelle",
+      "Xilonen",
+      "Yun Jin",
+      "Zhongli",
+      "Zibai"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

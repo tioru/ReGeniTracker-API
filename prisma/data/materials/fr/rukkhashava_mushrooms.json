@@ -1,0 +1,45 @@
+{
+  "name": "Champignon sacramental",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Un champignon qui pousse en couches successives telle une mer de nuages et que l'on trouve principalement sur les arbres au cœur de la forêt tropicale.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the wild in the Ashavan Realm and Lokapala Jungle"
+    }
+  ],
+  "usedIn": [
+    "Dendroculus Resonance Stone",
+    "Forest Watcher's Choice",
+    "Mushroom Hodgepodge",
+    "Potato Boat",
+    "Tandoori Roast Chicken"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Collei",
+      "Wanderer"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Aramani",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Ashpazi",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

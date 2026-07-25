@@ -1,0 +1,47 @@
+{
+  "name": "Mist Veiled Lead Elixir",
+  "rarity": 2,
+  "categories": [
+    "ELIXIRS"
+  ],
+  "description": "Jueyun Karst is the realm of the mighty and illuminated adepti. But other than the ability to control the elements of the world, Jueyun Karst is also home to three other untold secrets: Alchemy, Sigils, and Sub-Space Creation.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Hidden Palace of Lianshan Formula",
+      "rotation": "Thundering Ruins",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Mist Veiled Mercury Elixir"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Calamity Queller",
+    "Crane's Echoing Call",
+    "Primordial Jade Cutter",
+    "The Unforged",
+    "Blackcliff Pole",
+    "Blackcliff Slasher",
+    "Dragon's Bane",
+    "Eye of Perception",
+    "Prototype Amber",
+    "Prototype Crescent",
+    "Prototype Rancour",
+    "Rainslasher",
+    "Royal Spear",
+    "Debate Club",
+    "Fillet Blade",
+    "Halberd",
+    "Messenger",
+    "Twin Nephrite"
+  ],
+  "sellers": []
+}

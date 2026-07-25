@@ -1,0 +1,53 @@
+{
+  "name": "Guide to Elysium",
+  "rarity": 3,
+  "categories": [
+    "ELYSIUM_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "\"Elysium\" is the dream of the land beneath the moon. To create a paradise without borders or distinctions upon a land overflowing with bitterness and sorrow — though it might be but a childish delusion, it may yet be a foundation for the future.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Lightless Capital",
+      "rotation": "Shadowed Legacy",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Elysium",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Elysium"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Aino",
+      "Illuga",
+      "Nefer",
+      "Nicole"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

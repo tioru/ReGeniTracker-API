@@ -1,0 +1,38 @@
+{
+  "name": "Movement of an Ancient Chord",
+  "rarity": 4,
+  "categories": [
+    "ANCIENT_CHORDS"
+  ],
+  "description": "In that great disaster, the golden palace sank with its throne, the music was shattered, the notes turned to silence... But the remnants of that empire never gave up their desire for salvation and to surpass fate. To save their waning civilization and their desire to transcend, the Golden Troupe played melodies most wondrous, enticing children to offer their precious souls to the sleeping golems.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Echoes of the Deep Tides",
+      "rotation": "Robotic Ruse",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Echo of an Ancient Chord"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Absolution",
+    "The First Great Magic",
+    "Verdict",
+    "Fleuve Cendre Ferryman",
+    "Prospector's Drill",
+    "Range Gauge",
+    "Sequence of Solitude",
+    "Song of Stillness",
+    "Sword of Narzissenkreuz"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Divine Body from Guyun",
+  "rarity": 5,
+  "categories": [
+    "GUYUN_PILLARS"
+  ],
+  "description": "That which lurks within and animates this relic are the divine remains of lamenting gods. They are unrealized ideals, designs for a prosperous humanity that could never be. They may now lie deep within stone and sea, but they will not go quietly into the night.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Hidden Palace of Lianshan Formula",
+      "rotation": "Thundercloud",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Relic from Guyun",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aqua Simulacra",
+    "Jadefall's Splendor",
+    "Primordial Jade Winged-Spear",
+    "Summit Shaper",
+    "Blackcliff Agate",
+    "Blackcliff Longsword",
+    "Blackcliff Warbow",
+    "Crescent Pike",
+    "Lion's Roar",
+    "Lithic Blade",
+    "Rust",
+    "Sacrificial Jade",
+    "Solar Pearl",
+    "Whiteblind",
+    "Dark Iron Sword",
+    "Emerald Orb",
+    "Slingshot",
+    "White Tassel"
+  ],
+  "sellers": []
+}

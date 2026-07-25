@@ -1,0 +1,4144 @@
+[
+  {
+    "pageTitle": "Amakumo Fruit",
+    "en": {
+      "name": "Amakumo Fruit",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "The fruit of the Amakumo Grass, which grows on Seirai Island. You can hear it crackling with a tiny current if you hold it up to your ear.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild on Seirai Island"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Kirara",
+          "Raiden Shogun"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Fruit d'Amakumo",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Le fruit de l'herbe d'Amakumo, qui pousse sur l'Île de Seirai. En le mettant contre votre oreille, vous pouvez entendre comme un petit crépitement de courant électrique.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild on Seirai Island"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Kirara",
+          "Raiden Shogun"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Beryl Conch",
+    "en": {
+      "name": "Beryl Conch",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A conch-like structure that gives off a faint glow. Despite the name, it is not a shell but something condensed from pure elemental energy.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found underwater in the Source of All Waters: The Great Fontaine Lake"
+        }
+      ],
+      "usedIn": [
+        "Hydro Treasure Compass"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Charlotte",
+          "Escoffier"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Hinterman",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Xana",
+          "currency": "Strange Part",
+          "cost": 1,
+          "stock": 1,
+          "restock": "NEVER"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Conque de béryl",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une structure en forme de conque qui dégage une faible lueur. Malgré son nom, ce n'est pas une coquille ou un coquillage, mais quelque chose de condensé à partir d'énergie élémentaire pure.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found underwater in the Source of All Waters: The Great Fontaine Lake"
+        }
+      ],
+      "usedIn": [
+        "Hydro Treasure Compass"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Charlotte",
+          "Escoffier"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Hinterman",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Xana",
+          "currency": "Strange Part",
+          "cost": 1,
+          "stock": 1,
+          "restock": "NEVER"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Brilliant Chrysanthemum",
+    "en": {
+      "name": "Brilliant Chrysanthemum",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A flower with a shape like floating wings. Its petals sway in an unbelievably relaxed, serene manner as they are caressed by the wind.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Natlan"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Kuzmich",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 10,
+          "restock": "NEVER"
+        },
+        {
+          "name": "Motolinia",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Chrysanthème brillant",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une fleur en forme d'aile, dont les pétales se balancent tranquillement sous les caresses du vent.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Natlan"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Kuzmich",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 10,
+          "restock": "NEVER"
+        },
+        {
+          "name": "Motolinia",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Calla Lily",
+    "en": {
+      "name": "Calla Lily",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "A flower that grows near water sources. When cooked, the petals have a chunky texture, yet are sweet and a little bitter.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found near lakes in Mondstadt, especially Springvale"
+        }
+      ],
+      "usedIn": [
+        "A Prize Catch",
+        "Calla Lily Seafood Soup",
+        "Rainbow Aster"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Dahlia",
+          "Diona",
+          "Kaeya"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Flora",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Lys calla",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "Une fleur qui pousse près des points d'eau. Ses pétales dodus ont un goût sucré et amer lorsqu'ils sont cuisinés.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found near lakes in Mondstadt, especially Springvale"
+        }
+      ],
+      "usedIn": [
+        "A Prize Catch",
+        "Calla Lily Seafood Soup",
+        "Rainbow Aster"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Dahlia",
+          "Diona",
+          "Kaeya"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Flora",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Cecilia",
+    "en": {
+      "name": "Cecilia",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild on Starsnatch Cliff"
+        }
+      ],
+      "usedIn": [
+        "Anemoculus Resonance Stone"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Albedo",
+          "Venti"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Flora",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Cécilia",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une belle fleur qui porte un nom aussi beau que son apparence, et que l'on trouve seulement où soufflent les vents violents, et est aussi intangible que le cœur d'un vagabond.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild on Starsnatch Cliff"
+        }
+      ],
+      "usedIn": [
+        "Anemoculus Resonance Stone"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Albedo",
+          "Venti"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Flora",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Clearwater Jade",
+    "en": {
+      "name": "Clearwater Jade",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "MINERALS"
+      ],
+      "description": "Jade from Chenyu Vale. Named for its cool, refreshing touch, that is much like clear water.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Chenyu Vale"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Lan Yan",
+          "Xianyun"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Fengtai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Jade cristallin",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "MINERALS"
+      ],
+      "description": "Un jade du Vallon Chenyu, nommé ainsi en raison de sa surface fraîche et rafraîchissante, ressemblant beaucoup à un cristal d'eau claire.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Chenyu Vale"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Lan Yan",
+          "Xianyun"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Fengtai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Cor Lapis",
+    "en": {
+      "name": "Cor Lapis",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "MINERALS"
+      ],
+      "description": "A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found under cliffs in Liyue, especially Mt. Hulao"
+        }
+      ],
+      "usedIn": [
+        "Dustproof Potion",
+        "Geo Treasure Compass",
+        "Geoculus Resonance Stone",
+        "Special Unmoving Essential Oil",
+        "Unmoving Essential Oil",
+        "Yellow Dye"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Chongyun",
+          "Keqing",
+          "Zhongli"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Changshun",
+          "currency": "Mora",
+          "cost": 1500,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Fengtai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Qiuwei",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Cœur de lapis",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "MINERALS"
+      ],
+      "description": "Un cristal précieux condensé par l'élément Géo pur qui se développe souvent avec d'autres minéraux. On l'appelle aussi « cœur de rocher ».",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found under cliffs in Liyue, especially Mt. Hulao"
+        }
+      ],
+      "usedIn": [
+        "Dustproof Potion",
+        "Geo Treasure Compass",
+        "Geoculus Resonance Stone",
+        "Special Unmoving Essential Oil",
+        "Unmoving Essential Oil",
+        "Yellow Dye"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Chongyun",
+          "Keqing",
+          "Zhongli"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Changshun",
+          "currency": "Mora",
+          "cost": 1500,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Fengtai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Qiuwei",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Crystal Marrow",
+    "en": {
+      "name": "Crystal Marrow",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A crystal that contains a sliver of Tatarigami power. Adding this material during smelting will greatly increase the strength and toughness of metals.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found on Orobashi's bones on Yashiori Island and Tatarasuna"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Aloy",
+          "Sayu"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Moelle cristalline",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Un cristal qui contient une partie du pouvoir du Tatarigami. L'ajout de ce matériau lors de la fusion augmentera considérablement la résistance et la dureté des métaux.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found on Orobashi's bones on Yashiori Island and Tatarasuna"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Aloy",
+          "Sayu"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Dandelion Seed",
+    "en": {
+      "name": "Dandelion Seed",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild in Mondstadt"
+        }
+      ],
+      "usedIn": [
+        "Anemoculus Resonance Stone",
+        "Gushing Essential Oil",
+        "Windbarrier Potion"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Eula",
+          "Jean"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Babak",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Karpillia",
+          "currency": "Mora",
+          "cost": 60000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Graines de pissenlit",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Des graines qui volent au gré du vent. Même dépourvues d'aigrettes, elles désirent être emportées très loin.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild in Mondstadt"
+        }
+      ],
+      "usedIn": [
+        "Anemoculus Resonance Stone",
+        "Gushing Essential Oil",
+        "Windbarrier Potion"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Eula",
+          "Jean"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Babak",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Karpillia",
+          "currency": "Mora",
+          "cost": 60000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Dendrobium",
+    "en": {
+      "name": "Dendrobium",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A vibrant plant that has also been named the \"lycoris\" by the poets. It was once thought extinct in the Inazuman archipelago, only to re-emerge now upon the battlefields. It is said that it blooms most enchantingly where much blood was spilled.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild on Kannazuka and Yashiori Island"
+        }
+      ],
+      "usedIn": [
+        "Redrot Bait"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Chiori",
+          "Kujou Sara"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Dendrobium sanglant",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une plante magnifique qui est également appelée « lycoris » par les poètes. On la croyait autrefois éteinte dans l'archipel d'Inazuma, avant de réapparaître sur les champs de bataille. On dit qu'elle fleurit d'un rouge d'autant plus vif là où le sang a été versé.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild on Kannazuka and Yashiori Island"
+        }
+      ],
+      "usedIn": [
+        "Redrot Bait"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Chiori",
+          "Kujou Sara"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Dracolite",
+    "en": {
+      "name": "Dracolite",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "MINERALS"
+      ],
+      "description": "Formed gradually in areas rich in Phlogiston, these red, scale-like crystals are blazing-hot to the touch.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Atocpan"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Kofitse",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Dracolite",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "MINERALS"
+      ],
+      "description": "Formés progressivement dans les régions riches en phlogistique, ces cristaux rouges en forme d'écailles sont brûlants au toucher.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Atocpan"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Kofitse",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Etherwing Moth",
+    "en": {
+      "name": "Etherwing Moth",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A singular entity bathed in a divine, golden radiance, drifting through uncanny interstices as if a moth in flight.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Mondstadt"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Linnea",
+          "Lohen"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Papillon à ailes d'éther",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une forme de vie singulière qui scintille d'une lumière dorée sacrée, dérivant comme un papillon de nuit à travers l'interstice tout aussi mystérieux.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Mondstadt"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Linnea",
+          "Lohen"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Fluorescent Fungus",
+    "en": {
+      "name": "Fluorescent Fungus",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A mushroom that glows like a night-light. Some curious power lies hidden within it.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild on Tsurumi Island"
+        }
+      ],
+      "usedIn": [
+        "Blue Dye"
+      ],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Champignon fluorescent",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Un champignon qui brille comme une lumière dans la nuit. Il renferme un pouvoir incroyable.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild on Tsurumi Island"
+        }
+      ],
+      "usedIn": [
+        "Blue Dye"
+      ],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Frostlamp Flower",
+    "en": {
+      "name": "Frostlamp Flower",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A flower that resembles a candle lamp, commonly found near water. It emits a cold, simple aroma that has a calming effect. The contrasting colors of its stamen and stem are thought to symbolize the two different types of kuuvahki, yet despite this symbolism, it is one of the few rare plants that are immune to kuuvahki's influence. As a result, the Frostmoon Scions sometimes regard it as a symbol of faithlessness and apostasy. It is said that this strangely shaped flower first appeared at the end of the dark calamity five hundred years ago, but this claim has never been rigorously verified.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Nod-Krai"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Durin",
+          "Flins"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Kuzmich",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 10,
+          "restock": "NEVER"
+        },
+        {
+          "name": "Richeza",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Fleur lampe-de-givre",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une fleur ressemblant à un chandelier, que l'on trouve couramment près de l'eau. Elle dégage un parfum frais et léger aux propriétés apaisantes.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Nod-Krai"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Durin",
+          "Flins"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Kuzmich",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 10,
+          "restock": "NEVER"
+        },
+        {
+          "name": "Richeza",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Glaze Lily",
+    "en": {
+      "name": "Glaze Lily",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Liyue Harbor and Qingce Village"
+        }
+      ],
+      "usedIn": [
+        "Geoculus Resonance Stone"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Ningguang",
+          "Yun Jin",
+          "Zibai"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Ms. Bai",
+          "currency": "Mora",
+          "cost": 50000,
+          "stock": 3,
+          "restock": "MONTHLY"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Lys verni",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une fleur qui pousse à Liyue depuis les temps anciens. Elle rassemble les souvenirs de la terre pour les libérer sous forme de parfum à sa fleuraison.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Liyue Harbor and Qingce Village"
+        }
+      ],
+      "usedIn": [
+        "Geoculus Resonance Stone"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Ningguang",
+          "Yun Jin",
+          "Zibai"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Ms. Bai",
+          "currency": "Mora",
+          "cost": 50000,
+          "stock": 3,
+          "restock": "MONTHLY"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Glowing Hornshroom",
+    "en": {
+      "name": "Glowing Hornshroom",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A fungus that emits a faint light in the darkness. It is so named because its shape resembles the horny crest of an Iktomisaurus.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Tezcatepetonco Range near the \"Masters of the Night-Wind\""
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Ineffa",
+          "Ororon"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Kofitse",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 8,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Champicorne brillant",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Un champignon qui émet une faible lueur dans l'obscurité. Son apparence ressemble à la crête en forme de corne d'un iktomisaure.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Tezcatepetonco Range near the \"Masters of the Night-Wind\""
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Ineffa",
+          "Ororon"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Kofitse",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 8,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Henna Berry",
+    "en": {
+      "name": "Henna Berry",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A fruit that grows even in the most hostile of desert environments. Its vibrant crimson fruits are made even more lovely against a backdrop of yellow sand.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the deserts of Sumeru"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Candace",
+          "Faruzan"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Quandong",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Un fruit qui pousse même dans les environnements désertiques les plus hostiles. Ces fruits pourpres vibrants sont rendus encore plus beaux sur un fond de sable jaune.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the deserts of Sumeru"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Candace",
+          "Faruzan"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Jueyun Chili",
+    "en": {
+      "name": "Jueyun Chili",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild in Minlin, Qingce Village and Stone Gate"
+        }
+      ],
+      "usedIn": [
+        "Black-Back Perch Stew",
+        "Chili-Mince Cornbread Buns",
+        "Flash-Fried Filet",
+        "Humbly Enough",
+        "Jade Parcels",
+        "Jueyun Chili Chicken",
+        "Jueyun Guoba",
+        "Mint Salad",
+        "Minty Meat Rolls",
+        "Qingce Household Dish",
+        "Qingce Stir Fry",
+        "Rockin' Riffin' Chicken!",
+        "Stir-Fried Filet",
+        "Wanmin Restaurant's Boiled Fish"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Xiangling",
+          "Yaoyao"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Chef Mao",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Fengtai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Piment de Jueyun",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "Une plante épicée originaire de Liyue. La sentir suffit à faire monter en flèche votre température interne et à vous assoiffer.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild in Minlin, Qingce Village and Stone Gate"
+        }
+      ],
+      "usedIn": [
+        "Black-Back Perch Stew",
+        "Chili-Mince Cornbread Buns",
+        "Flash-Fried Filet",
+        "Humbly Enough",
+        "Jade Parcels",
+        "Jueyun Chili Chicken",
+        "Jueyun Guoba",
+        "Mint Salad",
+        "Minty Meat Rolls",
+        "Qingce Household Dish",
+        "Qingce Stir Fry",
+        "Rockin' Riffin' Chicken!",
+        "Stir-Fried Filet",
+        "Wanmin Restaurant's Boiled Fish"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Xiangling",
+          "Yaoyao"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Chef Mao",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Fengtai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Kalpalata Lotus",
+    "en": {
+      "name": "Kalpalata Lotus",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the mountains of Sumeru"
+        }
+      ],
+      "usedIn": [
+        "Nameless Taboo Medicine of the Royal Court"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Dori",
+          "Nahida"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Aramani",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Kalpalotus",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "La fleur produite par une liane poussant sur les falaises. On l'appelle lotus uniquement parce qu'elle en a l'apparence, mais en dehors de cela, ces deux plantes ne partagent aucune similitude.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the mountains of Sumeru"
+        }
+      ],
+      "usedIn": [
+        "Nameless Taboo Medicine of the Royal Court"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Dori",
+          "Nahida"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Aramani",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Lakelight Lily",
+    "en": {
+      "name": "Lakelight Lily",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A clear and clean azure flower, it is born where Water Veins come together. It has a simple, cool, and elegant fragrance, pungent and refreshing yet gentle.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found near bodies of water in Erinnyes Forest"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Emilie",
+          "Furina"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Pahsiv",
+          "currency": "Tidalga",
+          "cost": 2,
+          "stock": 15,
+          "restock": "NEVER"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Lys lacmineux",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une fleur bleue, claire et pure qui pousse là où des veines d'eau se rejoignent. Elle possède un parfum frais et élégant, à la fois vif et doux.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found near bodies of water in Erinnyes Forest"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Emilie",
+          "Furina"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Pahsiv",
+          "currency": "Tidalga",
+          "cost": 2,
+          "stock": 15,
+          "restock": "NEVER"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Lumidouce Bell",
+    "en": {
+      "name": "Lumidouce Bell",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A serene and tranquil violet flower. It has a light, soft, and lasting scent and is often used for making luxurious perfumes.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the north of the Court of Fontaine"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Chevreuse",
+          "Lynette"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Clochette de Lumidouce",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une fleur violette sereine et tranquille. Elle a un parfum léger, doux et durable et est souvent utilisée pour fabriquer des parfums rares.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the north of the Court of Fontaine"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Chevreuse",
+          "Lynette"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Lumitoile",
+    "en": {
+      "name": "Lumitoile",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A soft-bodied animal that emits a gentle light. Often found climbing the walls of buildings near the water or underwater.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found on beaches and underwater in Liffey Region"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Clorinde",
+          "Neuvillette"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Sombrétoile",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Un animal au corps mou qui émet une faible lumière. On en trouve souvent en train d'escalader les murs des bâtiments près de l'eau ou sous l'eau.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found on beaches and underwater in Liffey Region"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Clorinde",
+          "Neuvillette"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Moonfall Silver",
+    "en": {
+      "name": "Moonfall Silver",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A silver crystal as pure and pristine as moonlight. It possesses almost perfect elemental affinity. In the legacy of the Frostmoon Scions, these crystals were born five hundred years ago alongside the Moon Maiden, and were believed by the Moonchanter at the time to be a gift from the moon, hence the name \"Moonfall Silver\". However, in older documents written by Snezhnayan chroniclers, the descendants of the golden realm were already using secret silver woven by the Frostmoon thousands of years in the past. The threads that connect these two tales are unclear — the only certain thing is that these crystals make excellent elemental conductors in the eyes of Nod-Krai's craftspeople.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Hiisi Island"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Lauma",
+          "Nefer"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Argent de lune déchue",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Un cristal d'argent aussi pur et immaculé que la lumière de la lune, possédant une affinité élémentaire presque parfaite.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Hiisi Island"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Lauma",
+          "Nefer"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Mourning Flower",
+    "en": {
+      "name": "Mourning Flower",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Crimson flowers that bloom on ancient battlefields. They can even flourish in the depths of the desert. Their drooping flowers seem to be in mourning for heroes long past.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the deserts of Sumeru"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Fleur funéraire",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une fleur écarlate pouvant fleurir même sur les anciens champs de bataille ou s'épanouir dans les profondeurs du désert. Ses fleurs tombantes semblent porter le deuil de héros tombés depuis longtemps.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the deserts of Sumeru"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Naku Weed",
+    "en": {
+      "name": "Naku Weed",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Even on windless days, this plant will tremble lightly amid the cries of thunder. The part of it that resembles petals are in fact extensions of the leaves meant to protect the fragile flower.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in areas of high Electro concentration in Inazuma, especially Seirai Island"
+        }
+      ],
+      "usedIn": [
+        "Electroculus Resonance Stone"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Kuki Shinobu",
+          "Yoimiya"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Aoi",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Babak",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Herbe à sanglots",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Même les jours sans vent, cette plante frissonnera au son du tonnerre. La partie qui ressemble à des pétales est en fait une extension de ses feuilles, destinée à protéger cette fleur si fragile.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in areas of high Electro concentration in Inazuma, especially Seirai Island"
+        }
+      ],
+      "usedIn": [
+        "Electroculus Resonance Stone"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Kuki Shinobu",
+          "Yoimiya"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Aoi",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Babak",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Nilotpala Lotus",
+    "en": {
+      "name": "Nilotpala Lotus",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Growing in the forest wetlands, these plants only bloom at night with flowers as bright as the moon.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found near lakes and river banks in Sumeru"
+        }
+      ],
+      "usedIn": [
+        "Dendroculus Resonance Stone"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Layla",
+          "Tighnari"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Nilotpalotus",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Poussant dans les zones humides des forêts, ces plantes ne fleurissent que la nuit, et leurs fleurs projettent la même lueur que la lune.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found near lakes and river banks in Sumeru"
+        }
+      ],
+      "usedIn": [
+        "Dendroculus Resonance Stone"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Layla",
+          "Tighnari"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Noctilucous Jade",
+    "en": {
+      "name": "Noctilucous Jade",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "MINERALS"
+      ],
+      "description": "A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in caves in Liyue, especially Mingyun Village"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Beidou",
+          "Yanfei"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Fengtai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Qiuwei",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Shitou",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Jade noctiluque",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "MINERALS"
+      ],
+      "description": "Un minerai rare qui brille dans l'obscurité. On dit qu'il s'agit du fruit de la condensation des éléments fluctuants entre le ciel et la terre.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in caves in Liyue, especially Mingyun Village"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Beidou",
+          "Yanfei"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Fengtai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Qiuwei",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Shitou",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Onikabuto",
+    "en": {
+      "name": "Onikabuto",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A strange beetle that inhabits areas rich with Electro energy. Its docile and sedentary temperament could not be more different from the fierce, demonic visage displayed on its armored shell.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in areas of high Electro concentration in Inazuma, especially Mikage Furnace and Mt. Yougou"
+        }
+      ],
+      "usedIn": [
+        "Electro Treasure Compass"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Arataki Itto",
+          "Shikanoin Heizou"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Scarabuto",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Un scarabée étrange qui peuple les zones riches en énergie Électro. Son tempérament docile et sédentaire ne pourrait pas contraster plus avec la forme féroce et démoniaque qui orne sa carapace.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in areas of high Electro concentration in Inazuma, especially Mikage Furnace and Mt. Yougou"
+        }
+      ],
+      "usedIn": [
+        "Electro Treasure Compass"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Arataki Itto",
+          "Shikanoin Heizou"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Padisarah",
+    "en": {
+      "name": "Padisarah",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Sumeru City"
+        }
+      ],
+      "usedIn": [
+        "Biryani",
+        "Dendro Treasure Compass",
+        "Duel Soul",
+        "Gilded Tajine",
+        "Goldflame Tajine",
+        "Padisarah Pudding",
+        "Swirling Steps",
+        "Tahchin",
+        "Tandoori Roast Chicken"
+      ],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Jut",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Padisachidée",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "Une plante pure et noble, très exigeante quant à l'environnement dans lequel elle pousse. Son pistil peut être transformé en épices précieuses.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Sumeru City"
+        }
+      ],
+      "usedIn": [
+        "Biryani",
+        "Dendro Treasure Compass",
+        "Duel Soul",
+        "Gilded Tajine",
+        "Goldflame Tajine",
+        "Padisarah Pudding",
+        "Swirling Steps",
+        "Tahchin",
+        "Tandoori Roast Chicken"
+      ],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Jut",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Philanemo Mushroom",
+    "en": {
+      "name": "Philanemo Mushroom",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found under the eaves of houses in the City of Mondstadt, Springvale, Dawn Winery, and Millhaven"
+        }
+      ],
+      "usedIn": [
+        "Anemo Treasure Compass"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Barbara",
+          "Klee",
+          "Mona"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Babak",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Chloris",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Champignon anémophile",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Un champignon qui grandit sous les caresses de la brise. Il prospère comme le vent qui souffle toujours, nourrissant la vie.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found under the eaves of houses in the City of Mondstadt, Springvale, Dawn Winery, and Millhaven"
+        }
+      ],
+      "usedIn": [
+        "Anemo Treasure Compass"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Barbara",
+          "Klee",
+          "Mona"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Babak",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Chloris",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Pine Amber",
+    "en": {
+      "name": "Pine Amber",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A gem formed from the resin of the towering ancient trees that once blanketed Nod-Krai. Over ages, the resin hardened into crystalline amber, now shining with vivid, radiant hues.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Dreadshade Mire"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Illuga",
+          "Nicole"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Kuzmich",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 10,
+          "restock": "NEVER"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Ambre de pin",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une gemme formée à partir de la résine d'imposants arbres anciens qui recouvraient Nod-Krai autrefois. Au fil des siècles, la résine s'est durcie pour former de l'ambre cristallin, qui brille aujourd'hui de couleurs vives et éclatantes.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Dreadshade Mire"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Illuga",
+          "Nicole"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Kuzmich",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 10,
+          "restock": "NEVER"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Portable Bearing",
+    "en": {
+      "name": "Portable Bearing",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A portable bearing of a type that was mass-produced after the Fatui moved into Nod-Krai. Excessively worn units are discarded like obsolete personnel. A few of them have a vestige of kuuvahki left inside. As they are difficult to imitate, they are occasionally used as currency by merchants in Nasha Town. It's said that people tried to forge these bearings for that reason, but went bankrupt in the end because the cost of forging them was higher than their market value.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Lempo Isle"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Aino",
+          "Jahoda"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Roulement portable",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Ces roulements portables ont été produits en masse après l'arrivée des Fatui à Nod-Krai, les unités trop usées étant jetées comme des déchets inutiles.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Lempo Isle"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Aino",
+          "Jahoda"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Qingxin",
+    "en": {
+      "name": "Qingxin",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the heights of Liyue, especially Minlin and Wuwang Hill"
+        }
+      ],
+      "usedIn": [
+        "Fruity Duet",
+        "Fruity Smoothie",
+        "Heat-Quelling Soup",
+        "Jade Fruit Soup",
+        "Jade-Cut Flowers",
+        "Lucky Snow Delight",
+        "Qingxin Flower Cake",
+        "Tianshu Meat"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Ganyu",
+          "Shenhe",
+          "Xiao"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Babak",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Herbalist Gui",
+          "currency": "Mora",
+          "cost": 600,
+          "stock": 10,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Fleur de Qingxin",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "Une fleur blanche translucide qui ne pousse que sur les sommets des montagnes les plus hautes. Au lieu de grandir dans les plaines riches et humides, elle choisit de regarder au loin depuis les sommets des montagnes les plus solitaires.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the heights of Liyue, especially Minlin and Wuwang Hill"
+        }
+      ],
+      "usedIn": [
+        "Fruity Duet",
+        "Fruity Smoothie",
+        "Heat-Quelling Soup",
+        "Jade Fruit Soup",
+        "Jade-Cut Flowers",
+        "Lucky Snow Delight",
+        "Qingxin Flower Cake",
+        "Tianshu Meat"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Ganyu",
+          "Shenhe",
+          "Xiao"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Babak",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Herbalist Gui",
+          "currency": "Mora",
+          "cost": 600,
+          "stock": 10,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Quenepa Berry",
+    "en": {
+      "name": "Quenepa Berry",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "Bluish, juicy berries that grow in large amounts near the Scions of the Canopy. Their shape is similar to that of Flamegranates.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Natlan"
+        }
+      ],
+      "usedIn": [
+        "Blue Dye",
+        "Fruits Aplenty",
+        "Gentle Sea Breeze",
+        "Pyroculus Resonance Stone"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Citlali",
+          "Kachina"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Cintli",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Kuzmich",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 10,
+          "restock": "NEVER"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Baie de quenettier",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "Des baies bleuâtres et juteuses qui poussent en grande quantité à proximité de la tribu des Êtres des canopées, les flamboigrenades et ces dernières ayant des formes similaires.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Natlan"
+        }
+      ],
+      "usedIn": [
+        "Blue Dye",
+        "Fruits Aplenty",
+        "Gentle Sea Breeze",
+        "Pyroculus Resonance Stone"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Citlali",
+          "Kachina"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Cintli",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Kuzmich",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 10,
+          "restock": "NEVER"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Rainbow Rose",
+    "en": {
+      "name": "Rainbow Rose",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A delicate and tender pink flower. Despite their name, Rainbow Roses are essentially more akin to Lilies.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wilds of Beryl Region and surrounding the Fountain of Lucine"
+        }
+      ],
+      "usedIn": [
+        "Hydroculus Resonance Stone"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Arlecchino",
+          "Lyney"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Eugenie",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Rose arc-en-ciel",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une fleur rose délicate et tendre. Malgré leur nom, les roses arc-en-ciel ressemblent davantage aux lys.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wilds of Beryl Region and surrounding the Fountain of Lucine"
+        }
+      ],
+      "usedIn": [
+        "Hydroculus Resonance Stone"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Arlecchino",
+          "Lyney"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Eugenie",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Romaritime Flower",
+    "en": {
+      "name": "Romaritime Flower",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "An ethereal and elegant blue flower. Its tender petals are elastic and water-absorbent, making it the ideal raw material for various daily necessities.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found mainly in or around bodies of water in Fontaine"
+        }
+      ],
+      "usedIn": [
+        "Gateau Debord: Magnifique",
+        "Hydroculus Resonance Stone",
+        "Petit Gateau Debord: Revised Version"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Freminet",
+          "Sigewinne"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Hinterman",
+          "currency": "",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Xana",
+          "currency": "Strange Part",
+          "cost": 1,
+          "stock": 1,
+          "restock": "NEVER"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Fleur romaritime",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une fleur bleue éthérée et élégante. Ses pistils tendres sont élastiques et absorbent l'eau, ce qui en fait une matière première idéale pour diverses nécessités du quotidien.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found mainly in or around bodies of water in Fontaine"
+        }
+      ],
+      "usedIn": [
+        "Gateau Debord: Magnifique",
+        "Hydroculus Resonance Stone",
+        "Petit Gateau Debord: Revised Version"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Freminet",
+          "Sigewinne"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Hinterman",
+          "currency": "",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Xana",
+          "currency": "Strange Part",
+          "cost": 1,
+          "stock": 1,
+          "restock": "NEVER"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Rukkhashava Mushrooms",
+    "en": {
+      "name": "Rukkhashava Mushrooms",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Before Where the Boat of Consciousness Lies A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest. Therefore, they are considered by the people of Sumeru to be the holy crystallization of Rukkhadevata's legacy. After Where the Boat of Consciousness Lies A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild in the Ashavan Realm and Lokapala Jungle"
+        }
+      ],
+      "usedIn": [
+        "Dendroculus Resonance Stone",
+        "Forest Watcher's Choice",
+        "Mushroom Hodgepodge",
+        "Potato Boat",
+        "Tandoori Roast Chicken"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Collei",
+          "Wanderer"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Aramani",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Ashpazi",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Champignon sacramental",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Un champignon qui pousse en couches successives telle une mer de nuages et que l'on trouve principalement sur les arbres au cœur de la forêt tropicale.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild in the Ashavan Realm and Lokapala Jungle"
+        }
+      ],
+      "usedIn": [
+        "Dendroculus Resonance Stone",
+        "Forest Watcher's Choice",
+        "Mushroom Hodgepodge",
+        "Potato Boat",
+        "Tandoori Roast Chicken"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Collei",
+          "Wanderer"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Aramani",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Ashpazi",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Sakura Bloom",
+    "en": {
+      "name": "Sakura Bloom",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "Blossoms from the Sacred Sakura at the Grand Narukami Shrine, filled with a fondness for Inazuma.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild on Narukami Island"
+        }
+      ],
+      "usedIn": [
+        "\"Snow on the Hearth\"",
+        "Drink 455",
+        "Electroculus Resonance Stone",
+        "Fake Fly Bait",
+        "Quiet Elegance",
+        "Sakura Mochi",
+        "Sakura Shrimp Crackers",
+        "Sakura Tempura",
+        "Summer Festival Fish",
+        "Tricolor Dango"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Kamisato Ayaka",
+          "Kamisato Ayato"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Fleur de cerisier",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "Une fleur du cerisier sacré du Sanctuaire de Narukami, remplie d'amour pour Inazuma.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild on Narukami Island"
+        }
+      ],
+      "usedIn": [
+        "\"Snow on the Hearth\"",
+        "Drink 455",
+        "Electroculus Resonance Stone",
+        "Fake Fly Bait",
+        "Quiet Elegance",
+        "Sakura Mochi",
+        "Sakura Shrimp Crackers",
+        "Sakura Tempura",
+        "Summer Festival Fish",
+        "Tricolor Dango"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Kamisato Ayaka",
+          "Kamisato Ayato"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Sand Grease Pupa",
+    "en": {
+      "name": "Sand Grease Pupa",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "You can only find such husks deep in the desert where the Quicksand Eels breed. The hardened shell is meant to protect the Quicksand Eels' larval bodies until they finally acclimate to the conditions of the dry desert.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the deserts of Sumeru"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Alhaitham",
+          "Dehya"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Pupe graisseuse des sables",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "On ne trouve ces carapaces séchées que dans les profondeurs du désert où les anguilles des sables se reproduisent. Leur surface solide est destinée à protéger les corps larvaires des anguilles le temps qu'elles s'acclimatent à l'environnement sec et chaud du désert.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the deserts of Sumeru"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Alhaitham",
+          "Dehya"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Sango Pearl",
+    "en": {
+      "name": "Sango Pearl",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of the moonlight.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild on Watatsumi Island and in Enkanomiya."
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Gorou",
+          "Sangonomiya Kokomi"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Babak",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Yamashiro Kenta",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Perle de corail",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une perle précieuse qui se trouve dans le corail de l'Île de Watatsumi. Elle possède une lueur qui rappelle celle de la lune.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild on Watatsumi Island and in Enkanomiya."
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Gorou",
+          "Sangonomiya Kokomi"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Babak",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Yamashiro Kenta",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Saurian Claw Succulent",
+    "en": {
+      "name": "Saurian Claw Succulent",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A succulent shaped like the paw of a great animal.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Natlan"
+        }
+      ],
+      "usedIn": [
+        "Pyro Treasure Compass",
+        "Strength Tonic"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Ifa",
+          "Kinich"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Cintli",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Kuzmich",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 10,
+          "restock": "NEVER"
+        },
+        {
+          "name": "Motolinia",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Patte saurienne",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une plante charnue en forme de patte d'un grand animal.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Natlan"
+        }
+      ],
+      "usedIn": [
+        "Pyro Treasure Compass",
+        "Strength Tonic"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Ifa",
+          "Kinich"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Cintli",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Kuzmich",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 10,
+          "restock": "NEVER"
+        },
+        {
+          "name": "Motolinia",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Scarab",
+    "en": {
+      "name": "Scarab",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A tenacious beetle that finds repose within the vast ocean of desert sand. The golden pattern on such beetles' shells hints at some deep relationship between them and the ancient ruins that dot the desert.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the desert ruins of Sumeru"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Scarabée",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Un coléoptère tenace qui trouve le repos dans le vaste océan de sable du désert. Le motif doré sur la coquille de ces coléoptères fait allusion à une relation profonde entre ces derniers et les ruines antiques qui parsèment le désert.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the desert ruins of Sumeru"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Sea Ganoderma",
+    "en": {
+      "name": "Sea Ganoderma",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A plant species that only grows in certain regions and islands of the ocean. Though it looks like a fungus of some sort, it actually comes from a substance secreted by certain soft-bodied organisms.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found on beaches and tidal flats of Inazuma"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Kaedehara Kazuha",
+          "Yae Miko",
+          "Yumemizuki Mizuki"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Obata",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Ganoderma marin",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une espèce qui ne pousse que dans certaines régions spéciales de l'océan et des îles. On dirait une sorte de champignon, mais c'est en fait le résultat de la sécrétion et de la prolifération de certains organismes à corps mou.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found on beaches and tidal flats of Inazuma"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Kaedehara Kazuha",
+          "Yae Miko",
+          "Yumemizuki Mizuki"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Obata",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Silk Flower",
+    "en": {
+      "name": "Silk Flower",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Liyue Harbor and Wangshu Inn"
+        }
+      ],
+      "usedIn": [
+        "Fabric"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Hu Tao",
+          "Xingqiu"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Fengtai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Ms. Bai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Qiuwei",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Verr Goldet",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Fleur de soie",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une plante qui fleurit à la manière des nuages arc-en-ciel de Liyue. Elle peut être utilisée pour fabriquer des tissus extrêmement lisses et soyeux.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Liyue Harbor and Wangshu Inn"
+        }
+      ],
+      "usedIn": [
+        "Fabric"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Hu Tao",
+          "Xingqiu"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Fengtai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Ms. Bai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Qiuwei",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Verr Goldet",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Skysplit Gembloom",
+    "en": {
+      "name": "Skysplit Gembloom",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A strange plant whose flower's exterior resembles stone. Only in bloom does it reveal a resplendent, crystal-like core.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Natlan"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Skirk",
+          "Varesa"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Motolinia",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Floraigemme brise-ciel",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une plante étrange dont l'extérieur ressemble à de la pierre. Ce n'est qu'au moment de la floraison qu'elle révèle un cœur resplendissant à l'apparence de cristal.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Natlan"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Skirk",
+          "Varesa"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Motolinia",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Small Lamp Grass",
+    "en": {
+      "name": "Small Lamp Grass",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild in Mondstadt, especially Whispering Woods"
+        }
+      ],
+      "usedIn": [
+        "\"Once Upon a Time in Mondstadt\"",
+        "\"Pile 'Em Up\"",
+        "Sunshine Sprat",
+        "Woodland Dream"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Amber",
+          "Diluc",
+          "Fischl"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Flora",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Herbe à lampe",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "Une plante sauvage qui produit de la lumière une fois la nuit tombée.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild in Mondstadt, especially Whispering Woods"
+        }
+      ],
+      "usedIn": [
+        "\"Once Upon a Time in Mondstadt\"",
+        "\"Pile 'Em Up\"",
+        "Sunshine Sprat",
+        "Woodland Dream"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Amber",
+          "Diluc",
+          "Fischl"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Flora",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Sprayfeather Gill",
+    "en": {
+      "name": "Sprayfeather Gill",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A special feather-shaped species of plant that grows by the seaside. It looks kind of like a seagrass but is in truth a soft-bodied aquatic coral with a unique shape.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Natlan"
+        }
+      ],
+      "usedIn": [
+        "Pyroculus Resonance Stone"
+      ],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Motolinia",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Branchie mousseplume",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une espèce particulière en forme de plume qui pousse en bord de mer. Elles ressemblent à des herbiers marins, mais il s'agit en réalité d'un corail d'eau douce avec une apparence unique.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Natlan"
+        }
+      ],
+      "usedIn": [
+        "Pyroculus Resonance Stone"
+      ],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Motolinia",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Spring of the First Dewdrop",
+    "en": {
+      "name": "Spring of the First Dewdrop",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A limpid drop of dew floating amidst the waters of Morte Region. It is different from other pure water bodies, as though it is a conglomeration of even more pure and primordial Elemental Energy.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found underwater surrounding the Tower of Ipsissimus in Morte Region"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Pahsiv",
+          "currency": "Tidalga",
+          "cost": 2,
+          "stock": 15,
+          "restock": "NEVER"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Source des premières rosées",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une goutte de rosée limpide flottant dans les eaux de la Région mortée. Elle est différente des autres corps d'eau pure, car il semblerait qu'il s'agisse d'un regroupement d'énergie élémentaire encore plus pure et primordiale.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found underwater surrounding the Tower of Ipsissimus in Morte Region"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Pahsiv",
+          "currency": "Tidalga",
+          "cost": 2,
+          "stock": 15,
+          "restock": "NEVER"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Starconch",
+    "en": {
+      "name": "Starconch",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found on the beaches of Liyue and Dragonspine"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Gaming",
+          "Tartaglia",
+          "Yelan"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Bolai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Conque d'étoile",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Un coquillage creux échoué sur la plage. Plaquez-le contre votre oreille et vous entendrez l'appel de la mer.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found on the beaches of Liyue and Dragonspine"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Gaming",
+          "Tartaglia",
+          "Yelan"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Bolai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Subdetection Unit",
+    "en": {
+      "name": "Subdetection Unit",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Detection units produced by Fontaine Research Institute using new models of artificed components. Its original purpose was monitoring all kinds of environmental data.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Fontaine Research Institute of Kinetic Energy Engineering Region, Liffey Region"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Sandrone",
+          "Wriothesley"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Unité de sous-détection",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Cette unité de détection, créée par l'Institut de recherche de Fontaine en utilisant de nouveaux modèles de composants artificiels, était à l'origine destinée au suivi des données environnementales.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Fontaine Research Institute of Kinetic Energy Engineering Region, Liffey Region"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Sandrone",
+          "Wriothesley"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Teardrop of the Moon",
+    "en": {
+      "name": "Teardrop of the Moon",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A clear, radiant azure crystal that holds an exceptionally pure form of kuuvahki. It possesses a near-perfect affinity with all types of elemental energy.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found on the Frost Moon"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": null
+  },
+  {
+    "pageTitle": "Trishiraite",
+    "en": {
+      "name": "Trishiraite",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "MINERALS"
+      ],
+      "description": "A splendorous stone that can be found in the depths of desolate mountains, seemingly formed from congealed elemental energy.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the deserts of Sumeru"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Trishiraite",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "MINERALS"
+      ],
+      "description": "Un minerai splendide qui peut être trouvé dans les profondeurs des montagnes désolées, apparemment formé à partir de la condensation de l'énergie élémentaire.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the deserts of Sumeru"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Valberry",
+    "en": {
+      "name": "Valberry",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the storm watchers' only solace was the sweetness of this fruit and hope for the city's peace.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild around Stormbearer Mountains and Stormbearer Point"
+        }
+      ],
+      "usedIn": [
+        "Boredom-Busting Bubblegum",
+        "Mint Bubblegum",
+        "Red Dye"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Lisa",
+          "Noelle",
+          "Rosaria"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Chloris",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Eugenie",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Tombaie",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une baie juteuse laissant un goût sucré et rafraîchissant en bouche. Dans le passé, ce fruit offrait quelque réconfort à ceux qui surveillaient les tempêtes.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild around Stormbearer Mountains and Stormbearer Point"
+        }
+      ],
+      "usedIn": [
+        "Boredom-Busting Bubblegum",
+        "Mint Bubblegum",
+        "Red Dye"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Lisa",
+          "Noelle",
+          "Rosaria"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Chloris",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Eugenie",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Violetgrass",
+    "en": {
+      "name": "Violetgrass",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "A small flower with strong vitality. It is said that its downward-blooming flower keeps its fragrance from dissipating.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found near cliffs in Liyue"
+        }
+      ],
+      "usedIn": [
+        "Black-Back Perch Stew",
+        "Bountiful Year",
+        "Heat-Quelling Soup",
+        "Jade Fruit Soup",
+        "Stone Harbor Delicacies",
+        "Wanmin Restaurant's Boiled Fish"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Baizhu",
+          "Qiqi",
+          "Xinyan"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Babak",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Fengtai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Herbalist Gui",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Verr Goldet",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Muguet bleu",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES",
+        "COOKING_INGREDIENTS"
+      ],
+      "description": "Une petite fleur qui possède une forte vitalité. On dit qu'elle fleurit vers le bas pour que son parfum dure plus longtemps.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found near cliffs in Liyue"
+        }
+      ],
+      "usedIn": [
+        "Black-Back Perch Stew",
+        "Bountiful Year",
+        "Heat-Quelling Soup",
+        "Jade Fruit Soup",
+        "Stone Harbor Delicacies",
+        "Wanmin Restaurant's Boiled Fish"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Baizhu",
+          "Qiqi",
+          "Xinyan"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Babak",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Fengtai",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Herbalist Gui",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        },
+        {
+          "name": "Verr Goldet",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Windwheel Aster",
+    "en": {
+      "name": "Windwheel Aster",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found near the Statue of The Seven at Windrise and Dawn Winery, and all around Stormterror's Lair"
+        }
+      ],
+      "usedIn": [
+        "Wind Catcher"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Bennett",
+          "Sucrose",
+          "Traveler"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Flora",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Chrysanthème à aubes",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une plante qui aime le vent. Pour les habitants de Mondstadt qui vénèrent le vent et la liberté, les chrysanthèmes à aubes sont les « vents visibles ».",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found near the Statue of The Seven at Windrise and Dawn Winery, and all around Stormterror's Lair"
+        }
+      ],
+      "usedIn": [
+        "Wind Catcher"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Bennett",
+          "Sucrose",
+          "Traveler"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Flora",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Winter Icelea",
+    "en": {
+      "name": "Winter Icelea",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A hardy plant known for withstanding relentless wind and frost, it survives even in the coldest depths of winter.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found at the Pillar of Embla"
+        }
+      ],
+      "usedIn": [
+        "Berry Herbal Candy",
+        "Moonlit Mirage"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Columbina",
+          "Prune"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Kuzmich",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 10,
+          "restock": "NEVER"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Glacelée d'hiver",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Plante rustique réputée pour résister aux vents violents et au gel. Elle survit même aux plus froids des hivers.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found at the Pillar of Embla"
+        }
+      ],
+      "usedIn": [
+        "Berry Herbal Candy",
+        "Moonlit Mirage"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Columbina",
+          "Prune"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Kuzmich",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 10,
+          "restock": "NEVER"
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Withering Purpurbloom",
+    "en": {
+      "name": "Withering Purpurbloom",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A flower, the leaves and petals of which look scorched and withered, that can often be seen in places where ash abounds.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Natlan"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Chasca",
+          "Mavuika"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    },
+    "fr": {
+      "name": "Pourprinfleur fanée",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une fleur dont les feuilles et pétales semblent brûlés et flétris. On la trouve souvent dans les endroits avec beaucoup de cendres.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in Natlan"
+        }
+      ],
+      "usedIn": [],
+      "usedByCharacters": {
+        "ascension": [
+          "Chasca",
+          "Mavuika"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": []
+    }
+  },
+  {
+    "pageTitle": "Wolfhook",
+    "en": {
+      "name": "Wolfhook",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild in Wolvendom"
+        }
+      ],
+      "usedIn": [
+        "Blue Dye",
+        "Fruits of the Festival"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Mika",
+          "Razor",
+          "Varka"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Chloris",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    },
+    "fr": {
+      "name": "Baie à crochet",
+      "rarity": 0,
+      "categories": [
+        "LOCAL_SPECIALTIES"
+      ],
+      "description": "Une baie à crochet qui s'attache souvent aux poils des loups. Si vous la regardez, vous pouvez presque entendre les hurlements des loups dans les bois.",
+      "sources": [
+        {
+          "type": "LOCAL_SPECIALTY",
+          "location": "Found in the wild in Wolvendom"
+        }
+      ],
+      "usedIn": [
+        "Blue Dye",
+        "Fruits of the Festival"
+      ],
+      "usedByCharacters": {
+        "ascension": [
+          "Mika",
+          "Razor",
+          "Varka"
+        ],
+        "talent": []
+      },
+      "usedByWeapons": [],
+      "sellers": [
+        {
+          "name": "Chloris",
+          "currency": "Mora",
+          "cost": 1000,
+          "stock": 5,
+          "restock": "THREE_DAYS"
+        }
+      ]
+    }
+  }
+]

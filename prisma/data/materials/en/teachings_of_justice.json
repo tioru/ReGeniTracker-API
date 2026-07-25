@@ -1,0 +1,35 @@
+{
+  "name": "Teachings of Justice",
+  "rarity": 2,
+  "categories": [
+    "JUSTICE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "The sword of the Nation of Water is justice. The law of Fontaine walks with the sword of justice in hand. Without the guidance of justice, all law is reduced to meaningless words, to be tampered with and slaughtered at a whim.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pale Forgotten Glory",
+      "rotation": "Admonishing Engraving",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Justice"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Charlotte",
+      "Clorinde",
+      "Escoffier",
+      "Freminet",
+      "Furina"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

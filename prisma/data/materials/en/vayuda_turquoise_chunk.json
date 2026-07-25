@@ -1,0 +1,170 @@
+{
+  "name": "Vayuda Turquoise Chunk",
+  "rarity": 4,
+  "categories": [
+    "VAYUDA_TURQUOISE",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension material. \"Still, the winds change direction. Someday, they will blow towards a brighter future...\"",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 60,
+      "names": [
+        "Algorithm of Semi-Intransient Matrix of Overseer Network",
+        "Anemo Hypostasis",
+        "Icewind Suite",
+        "Maguu Kenki",
+        "Setekh Wenut",
+        "Solitary Suanni",
+        "Tenebrous Papilla"
+      ]
+    },
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 60,
+      "names": [
+        "Everlasting Lord of Arcane Wisdom",
+        "Stormterror Dvalin"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vayuda Turquoise Fragment",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 900
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Agnidus Agate Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Varunada Lazurite Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Nagadus Emerald Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vajrada Amethyst Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shivada Jade Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Prithiva Topaz Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        }
+      ],
+      "minimumAdventureRank": 35
+    }
+  ],
+  "usedIn": [
+    "Agnidus Agate Chunk",
+    "Nagadus Emerald Chunk",
+    "Prithiva Topaz Chunk",
+    "Shivada Jade Chunk",
+    "Vajrada Amethyst Chunk",
+    "Varunada Lazurite Chunk",
+    "Vayuda Turquoise Gemstone"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Chasca",
+      "Faruzan",
+      "Ifa",
+      "Jahoda",
+      "Jean",
+      "Kaedehara Kazuha",
+      "Lan Yan",
+      "Lynette",
+      "Prune",
+      "Sayu",
+      "Shikanoin Heizou",
+      "Sucrose",
+      "Varka",
+      "Venti",
+      "Wanderer",
+      "Xianyun",
+      "Xiao",
+      "Yumemizuki Mizuki"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

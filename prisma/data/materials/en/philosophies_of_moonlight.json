@@ -1,0 +1,46 @@
+{
+  "name": "Philosophies of Moonlight",
+  "rarity": 4,
+  "categories": [
+    "MOONLIGHT_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "\"Moonlight\" is the blessing of the land beneath the moon. Praying to the new moon for guidance and fortune is a rite passed down from the days of the first people. Tonight's moonlight seems no different from any other night, yet where is the new moon that people once looked to?",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Lightless Capital",
+      "rotation": "Fallen City",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Moonlight",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Columbina",
+      "Lauma"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

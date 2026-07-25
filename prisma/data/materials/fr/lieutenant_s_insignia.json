@@ -1,0 +1,94 @@
+{
+  "name": "Insigne d'officier",
+  "rarity": 3,
+  "categories": [
+    "FATUI_SKIRMISHER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Un insigne servant à identifier les officiers. Compte tenu de la taille de l'armée des Fatui, ceux qui parviennent à atteindre le rang d'officier doivent sûrement être un minimum doués.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Fatui Skirmisher - Anemoboxer Vanguard",
+        "Fatui Skirmisher - Cryogunner Legionnaire",
+        "Fatui Skirmisher - Electrohammer Vanguard",
+        "Fatui Skirmisher - Geochanter Bracer",
+        "Fatui Skirmisher - Hydrogunner Legionnaire",
+        "Fatui Skirmisher - Pyroslinger Bracer"
+      ]
+    },
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Fatui Cryo Cicin Mage",
+        "Fatui Electro Cicin Mage",
+        "Fatui Pyro Agent"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Sergeant's Insignia",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Arlecchino",
+      "Diluc",
+      "Lyney",
+      "Mika",
+      "Ningguang",
+      "Rosaria",
+      "Tartaglia",
+      "Yelan"
+    ],
+    "talent": [
+      "Arlecchino",
+      "Diluc",
+      "Lyney",
+      "Mika",
+      "Ningguang",
+      "Rosaria",
+      "Tartaglia",
+      "Yelan"
+    ]
+  },
+  "usedByWeapons": [
+    "Elegy for the End",
+    "Gest of the Mighty Wolf",
+    "Primordial Jade Winged-Spear",
+    "Blackcliff Pole",
+    "Blackcliff Slasher",
+    "Cloudforged",
+    "Compound Bow",
+    "Dragonspine Spear",
+    "Favonius Greatsword",
+    "Festering Desire",
+    "Moonpiercer",
+    "Prototype Rancour",
+    "Royal Grimoire",
+    "Royal Spear",
+    "Skyrider Sword",
+    "Twin Nephrite",
+    "White Tassel"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Garde-main ancien",
+  "rarity": 1,
+  "categories": [
+    "NOBUSHI_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Un garde-main qui a connu de nombreuses batailles et qui autrefois était monté sur une lame inazumienne. Pour les épéistes expérimentés, la tsuba permet de bloquer la lame de l'adversaire. Pour les débutants, elle permet de protéger sa propre main.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Kairagi: Dancing Thunder",
+        "Kairagi: Fiery Might",
+        "Nobushi: Hitsukeban",
+        "Nobushi: Jintouban",
+        "Nobushi: Kikouban"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Kageuchi Handguard"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Kamisato Ayaka",
+      "Kamisato Ayato",
+      "Raiden Shogun",
+      "Wanderer",
+      "Yae Miko",
+      "Yumemizuki Mizuki"
+    ],
+    "talent": [
+      "Kamisato Ayaka",
+      "Kamisato Ayato",
+      "Raiden Shogun",
+      "Traveler (Electro)",
+      "Wanderer",
+      "Yae Miko",
+      "Yumemizuki Mizuki"
+    ]
+  },
+  "usedByWeapons": [
+    "Engulfing Lightning",
+    "Haran Geppaku Futsu",
+    "Mistsplitter Reforged",
+    "Redhorn Stonethresher",
+    "Uraku Misugiri",
+    "Akuoumaru",
+    "Amenoma Kageuchi",
+    "Finale of the Deep",
+    "Katsuragikiri Nagamasa",
+    "Tamayuratei no Ohanashi",
+    "Toukabou Shigure",
+    "Wavebreaker's Fin"
+  ],
+  "sellers": []
+}

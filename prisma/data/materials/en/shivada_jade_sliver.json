@@ -1,0 +1,184 @@
+{
+  "name": "Shivada Jade Sliver",
+  "rarity": 2,
+  "categories": [
+    "SHIVADA_JADE",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension Material.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 1,
+      "names": [
+        "Aeonblight Drake",
+        "Coral Defenders",
+        "Cryo Hypostasis",
+        "Cryo Regisvine",
+        "Frostnight Herra",
+        "Icewind Suite",
+        "Iniquitous Baptist",
+        "Maguu Kenki",
+        "Perpetual Mechanical Array",
+        "Primo Geovishap",
+        "Super-Heavy Landrover: Mechanized Fortress",
+        "Wayward Hermetic Spiritspeaker"
+      ]
+    },
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 1,
+      "names": [
+        "Andrius",
+        "Azhdaha (Weekly Boss)",
+        "Childe",
+        "Exalted Master of the Heretical Path",
+        "Heretic of the False Moon",
+        "La Signora"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Agnidus Agate Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Varunada Lazurite Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Nagadus Emerald Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vajrada Amethyst Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vayuda Turquoise Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Prithiva Topaz Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Agnidus Agate Sliver",
+    "Nagadus Emerald Sliver",
+    "Prithiva Topaz Sliver",
+    "Shivada Jade Fragment",
+    "Vajrada Amethyst Sliver",
+    "Varunada Lazurite Sliver",
+    "Vayuda Turquoise Sliver"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Aloy",
+      "Charlotte",
+      "Chongyun",
+      "Citlali",
+      "Diona",
+      "Escoffier",
+      "Eula",
+      "Freminet",
+      "Ganyu",
+      "Kaeya",
+      "Kamisato Ayaka",
+      "Layla",
+      "Lohen",
+      "Mika",
+      "Qiqi",
+      "Rosaria",
+      "Sandrone",
+      "Shenhe",
+      "Skirk",
+      "Wriothesley"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Marjorie",
+      "currency": "Sigil",
+      "cost": 10,
+      "stock": 6,
+      "restock": "NEVER"
+    },
+    {
+      "name": "Xingxi",
+      "currency": "Sigil",
+      "cost": 10,
+      "stock": 12,
+      "restock": "NEVER"
+    }
+  ]
+}

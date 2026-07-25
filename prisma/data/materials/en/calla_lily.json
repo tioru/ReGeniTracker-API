@@ -1,0 +1,38 @@
+{
+  "name": "Calla Lily",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES",
+    "COOKING_INGREDIENTS"
+  ],
+  "description": "A flower that grows near water sources. When cooked, the petals have a chunky texture, yet are sweet and a little bitter.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found near lakes in Mondstadt, especially Springvale"
+    }
+  ],
+  "usedIn": [
+    "A Prize Catch",
+    "Calla Lily Seafood Soup",
+    "Rainbow Aster"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Dahlia",
+      "Diona",
+      "Kaeya"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Flora",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

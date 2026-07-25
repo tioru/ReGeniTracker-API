@@ -1,0 +1,47 @@
+{
+  "name": "Jade noctiluque",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES",
+    "MINERALS"
+  ],
+  "description": "Un minerai rare qui brille dans l'obscurité. On dit qu'il s'agit du fruit de la condensation des éléments fluctuants entre le ciel et la terre.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in caves in Liyue, especially Mingyun Village"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Beidou",
+      "Yanfei"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Fengtai",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Qiuwei",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Shitou",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

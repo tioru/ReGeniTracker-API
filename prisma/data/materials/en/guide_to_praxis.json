@@ -1,0 +1,52 @@
+{
+  "name": "Guide to Praxis",
+  "rarity": 3,
+  "categories": [
+    "PRAXIS_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Praxes are the roots of the nation of wisdom. Praxes validate words of honesty. Though one speaks and acts out of goodwill, one has not yet obtained wisdom. Wisdom, born from action, is a signet pressed upon honest words.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Steeple of Ignorance",
+      "rotation": "Basket of Discipline",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Praxis",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Praxis"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Collei",
+      "Dehya",
+      "Nilou",
+      "Sethos",
+      "Traveler (Dendro)",
+      "Wanderer"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

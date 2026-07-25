@@ -1,0 +1,63 @@
+{
+  "name": "Spores de Fongus",
+  "rarity": 1,
+  "categories": [
+    "FUNGUS_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Une petite quantité de poudre de spores lumineuses laissée par un Fongus. Un éternuement suffit à la faire s'envoler sans aucune trace.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Floating Anemo Fungus",
+        "Floating Dendro Fungus",
+        "Floating Hydro Fungus",
+        "Grounded Geoshroom",
+        "Grounded Hydroshroom",
+        "Stretchy Anemo Fungus",
+        "Stretchy Electro Fungus",
+        "Stretchy Geo Fungus",
+        "Stretchy Pyro Fungus",
+        "Whirling Cryo Fungus",
+        "Whirling Electro Fungus",
+        "Whirling Pyro Fungus",
+        "Winged Cryoshroom",
+        "Winged Dendroshroom"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Luminescent Pollen"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Baizhu",
+      "Kaveh",
+      "Nahida",
+      "Nilou",
+      "Tighnari"
+    ],
+    "talent": [
+      "Baizhu",
+      "Kaveh",
+      "Nahida",
+      "Nilou",
+      "Tighnari",
+      "Traveler (Dendro)"
+    ]
+  },
+  "usedByWeapons": [
+    "A Thousand Floating Dreams",
+    "Jadefall's Splendor",
+    "Reliquary of Truth",
+    "Staff of the Scarlet Sands",
+    "Tulaytullah's Remembrance",
+    "End of the Line",
+    "Fruit of Fulfillment",
+    "Scion of the Blazing Sun",
+    "Wandering Evenstar"
+  ],
+  "sellers": []
+}

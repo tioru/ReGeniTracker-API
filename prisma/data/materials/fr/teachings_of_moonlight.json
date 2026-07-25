@@ -1,0 +1,32 @@
+{
+  "name": "Enseignement de la Lune",
+  "rarity": 2,
+  "categories": [
+    "MOONLIGHT_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude Le clair de lune est la bénédiction de la terre sous la lune. Les choses sont de toutes tailles et les gens ont tous des niveaux de sagesse différents. Pourtant, sous le clair de lune, tous sont égaux.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Capitale sans-lumière",
+      "rotation": "Reconversion",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Moonlight"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Columbina",
+      "Lauma"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

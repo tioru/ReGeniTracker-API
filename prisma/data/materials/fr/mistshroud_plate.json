@@ -1,0 +1,53 @@
+{
+  "name": "Plaque de brumevoile",
+  "rarity": 3,
+  "categories": [
+    "WASTELAND_WILD_HUNT_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Une plaque trouvée dans le brouillard de la Chasse sauvage. Elle provient de l'armure d'un monstre de la Chasse sauvage, mais elle n'a pas disparu avec le brouillard pour une raison inconnue.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Wilderness Exile",
+        "Wilderness Hunter"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Mistshroud Manifestation",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Mistshroud Helmet"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Bloodsoaked Ruins",
+    "Lightbearing Moonshard",
+    "Prospector's Shovel",
+    "Sacrificer's Staff",
+    "Snare Hook"
+  ],
+  "sellers": []
+}

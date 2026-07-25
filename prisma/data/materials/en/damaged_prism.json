@@ -1,0 +1,34 @@
+{
+  "name": "Damaged Prism",
+  "rarity": 2,
+  "categories": [
+    "PRIMAL_CONSTRUCT_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A damaged component obtained from defeating a Primal Construct. These uniquely-shaped machines are the eternal sentinels of the desert ruins, and they possess the power to pierce the mountains and reshape rocks. The same principles that power many mysterious devices above and beneath the earth also power these machines.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Primal Construct: Prospector",
+        "Primal Construct: Repulsor",
+        "Primal Construct: Reshaper"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Turbid Prism"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "A Thousand Floating Dreams",
+    "Key of Khaj-Nisut",
+    "Toukabou Shigure",
+    "Xiphos' Moonlight"
+  ],
+  "sellers": []
+}

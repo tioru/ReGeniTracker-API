@@ -1,0 +1,63 @@
+{
+  "name": "Dague rituelle de l'Usurier",
+  "rarity": 3,
+  "categories": [
+    "FATUI_PYRO_AGENT_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Une arme à la forme étrange, fabriquée grâce à une technologie de pointe snezhnayienne. Il est impossible de la manier sans avoir effectué un entraînement spécial.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Fatui Pyro Agent"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Hunter's Sacrificial Knife",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Inspector's Sacrificial Knife"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Primordial Jade Winged-Spear",
+    "Summit Shaper",
+    "Blackcliff Agate",
+    "Blackcliff Longsword",
+    "Blackcliff Warbow",
+    "Crescent Pike",
+    "Fading Twilight",
+    "Lion's Roar",
+    "Lithic Blade",
+    "Rust",
+    "Solar Pearl",
+    "Whiteblind",
+    "Dark Iron Sword",
+    "Emerald Orb",
+    "Slingshot",
+    "White Tassel"
+  ],
+  "sellers": []
+}

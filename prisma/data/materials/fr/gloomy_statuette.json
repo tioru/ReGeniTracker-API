@@ -1,0 +1,39 @@
+{
+  "name": "Statuette sinistre",
+  "rarity": 2,
+  "categories": [
+    "THE_BLACK_SERPENTS_MATERIAL",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Une statuette sculptée à l'effigie d'une personne inconnue. Elle a été témoin du passage du temps, mais demeure intacte. Son précédent propriétaire semble l'avoir chérie comme une icône sainte.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Abyss Herald: Wicked Torrents",
+        "Abyss Lector: Fathomless Flames",
+        "Abyss Lector: Violet Lightning",
+        "Black Serpent Knight: Windcutter",
+        "Shadowy Husk: Defender",
+        "Shadowy Husk: Line Breaker",
+        "Shadowy Husk: Standard Bearer"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Dark Statuette"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aqua Simulacra",
+    "Haran Geppaku Futsu",
+    "Fruit of Fulfillment",
+    "Kagotsurube Isshin",
+    "Missive Windspear"
+  ],
+  "sellers": []
+}

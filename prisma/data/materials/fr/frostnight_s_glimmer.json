@@ -1,0 +1,39 @@
+{
+  "name": "Lueur de givrenuit",
+  "rarity": 2,
+  "categories": [
+    "FROSTNIGHT_SCION_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un fragment pris de la couronne cornue d'un Héritier de givrenuit après l'avoir vaincu. La légende raconte que dans un passé lointain, ces créatures nobles étaient des serviteurs de la Cité d'or. Leurs yeux reflétaient la lumière la plus brillante du paradis. Cette lumière s'est éteinte depuis longtemps, mais ces serviteurs qui ont perdu leurs maîtres errent toujours sous la lune givrée, honorant un serment dont personne ne se souvient.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Blazing Brilliance: Frostnight Scion",
+        "Gilded Sunshard: Frostnight Scion",
+        "Gleaming Charge: Frostnight Scion",
+        "Icy Crystal: Frostnight Scion",
+        "Surging Currents: Frostnight Scion",
+        "Tangled Vines: Frostnight Scion",
+        "Veiled Cloudchaser: Frostnight Scion"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Frostnight's Glow"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Athame Artis",
+    "Nightweaver's Looking Glass",
+    "Blackmarrow Lantern",
+    "Dawning Frost",
+    "Serenity's Call"
+  ],
+  "sellers": []
+}

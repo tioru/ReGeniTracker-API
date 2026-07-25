@@ -1,0 +1,50 @@
+{
+  "name": "Réplique d'appareil artistique",
+  "rarity": 3,
+  "categories": [
+    "ARTFUL_DEVICES"
+  ],
+  "description": "Matériau d'élévation d'arme. Les outils du maître voleur ont été copiés par de nombreuses personnes, et son nom n'a pas été épargné non plus. Dans un sens, ce ne sont pas les personnes souhaitant quelque chose qui ont volé le nom de Reed Miller, mais plutôt Reed Miller qui a volé l'identité qui était la leur à l'origine. Il n'y a pas de différente entre ces deux points de vue.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour lunaire perdue",
+      "rotation": "Ombres",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Artful Device Fragment",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Artful Device Inheritance"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Angelos' Heptades",
+    "Nightweaver's Looking Glass",
+    "Blackmarrow Lantern",
+    "Dawning Frost",
+    "Serenity's Call"
+  ],
+  "sellers": []
+}

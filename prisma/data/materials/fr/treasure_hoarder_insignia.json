@@ -1,0 +1,79 @@
+{
+  "name": "Insigne des Pilleurs",
+  "rarity": 1,
+  "categories": [
+    "TREASURE_HOARDER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Un insigne porté avec fierté et qui indique le rang de son propriétaire au sein des Pilleurs de trésors. Leur soif de richesse ne pourra jamais être assouvie... Ceci dit, depuis quand peut-on se vanter d'être un voleur ?",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Treasure Hoarders: Crusher",
+        "Treasure Hoarders: Cryo Potioneer",
+        "Treasure Hoarders: Electro Potioneer",
+        "Treasure Hoarders: Gravedigger",
+        "Treasure Hoarders: Handyman",
+        "Treasure Hoarders: Hydro Potioneer",
+        "Treasure Hoarders: Marksman",
+        "Treasure Hoarders: Pugilist",
+        "Treasure Hoarders: Pyro Potioneer",
+        "Treasure Hoarders: Scout",
+        "Treasure Hoarders: Seaman"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Silver Raven Insignia"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Beidou",
+      "Bennett",
+      "Kaedehara Kazuha",
+      "Kaeya",
+      "Prune",
+      "Shikanoin Heizou",
+      "Thoma",
+      "Xinyan",
+      "Yanfei"
+    ],
+    "talent": [
+      "Beidou",
+      "Bennett",
+      "Kaedehara Kazuha",
+      "Kaeya",
+      "Prune",
+      "Shikanoin Heizou",
+      "Thoma",
+      "Xinyan",
+      "Yanfei"
+    ]
+  },
+  "usedByWeapons": [
+    "Primordial Jade Cutter",
+    "The Daybreak Chronicles",
+    "The Unforged",
+    "Vortex Vanquisher",
+    "Ballad of the Boundless Blue",
+    "Crescent Pike",
+    "Kitain Cross Spear",
+    "Lion's Roar",
+    "Makhaira Aquamarine",
+    "Mitternachts Waltz",
+    "Prototype Crescent",
+    "Sacrificial Fragments",
+    "Sword of Descension",
+    "Whiteblind",
+    "Wine and Song",
+    "Emerald Orb",
+    "Fillet Blade",
+    "Messenger",
+    "Skyrider Greatsword",
+    "Seasoned Hunter's Bow",
+    "Hunter's Bow"
+  ],
+  "sellers": []
+}

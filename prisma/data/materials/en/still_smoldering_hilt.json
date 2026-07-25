@@ -1,0 +1,49 @@
+{
+  "name": "Still-Smoldering Hilt",
+  "rarity": 4,
+  "categories": [
+    "PRAETORIAN_GOLEM_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A stone hilt obtained from an ancient statue. Only the recentness of its separation from its owner may explain the as-yet unextinguished flame within.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Praetorian Golem"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Splintered Hilt",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Crimson Moon's Semblance",
+    "Lumidouce Elegy",
+    "Cloudforged",
+    "Flute of Ezpitzal"
+  ],
+  "sellers": []
+}

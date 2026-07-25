@@ -1,0 +1,54 @@
+{
+  "name": "Affection de Narukami",
+  "rarity": 4,
+  "categories": [
+    "NARUKAMI_S_MAGATAMAS"
+  ],
+  "description": "Matériau d'élévation d'arme. Tous les démons qui errent dans le désert ou vivent parmi les mortels sont attirés par la vue de la toute-puissante Narukami Ogosho, représentée par le Mitsudomoe Électro. Bien que leur vie puisse être plus longue que celle de n'importe quelle créature, elle aura nécessairement une fin. Si ceux qui ont une durée de vie limitée aspirent à l'éternité, alors ils ne peuvent que prier pour que « l'éternité » se souvienne d'eux. Et elle a effectivement répondu à leurs prières, se souvenant d'eux, amis et ennemis, et leur gardant une place dans son cœur. Que ce soit les hiboux démoniaques qui résidaient dans la brume et déchiraient les cieux, le Tanuki qui osa pénétrer dans ses jardins impériaux, ou cette femelle oni, belle comme la lune et puissante au combat, qui finit par rivaliser avec elle... Que ce soit le Tengu qui prenait son envol de ses ailes sombres ou la Kitsune Saiguu qui marchait autrefois à ses côtés, mais qui finalement disparut à jamais... Ces innombrables histoires sont dans son cœur, et un jour, elles brilleront à nouveau dans le paradis éternel de ses rêves.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour des sables mouvants",
+      "rotation": "Autel des sables",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Narukami's Joy",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 350
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Narukami's Valor"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Haran Geppaku Futsu",
+    "Redhorn Stonethresher",
+    "Sunny Morning Sleep-In",
+    "Thundering Pulse",
+    "Hamayumi",
+    "Katsuragikiri Nagamasa",
+    "Mouun's Moon",
+    "Predator",
+    "Toukabou Shigure"
+  ],
+  "sellers": []
+}

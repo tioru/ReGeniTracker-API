@@ -1,0 +1,33 @@
+{
+  "name": "Ganoderma marin",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Une espèce qui ne pousse que dans certaines régions spéciales de l'océan et des îles. On dirait une sorte de champignon, mais c'est en fait le résultat de la sécrétion et de la prolifération de certains organismes à corps mou.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found on beaches and tidal flats of Inazuma"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Kaedehara Kazuha",
+      "Yae Miko",
+      "Yumemizuki Mizuki"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Obata",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

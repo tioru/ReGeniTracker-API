@@ -1,0 +1,36 @@
+{
+  "name": "Sublimation de rosée sacrée pure",
+  "rarity": 3,
+  "categories": [
+    "SACRED_DEWDROPS"
+  ],
+  "description": "Matériau d'élévation d'arme. , dit l'accordeur Boethius. L'usurpateur arrogant a autrefois tenté de mélanger l'ichor insoluble avec de l'eau pure, afin de contenir la sagesse et les souvenirs, ce qui permettrait ainsi à ses sujets et serviteurs de se débarrasser de leur corps physique et d'obtenir des vies indépendantes et éternelles. Mais sectionner l'âme du corps est une douleur qui ne peut être supportée par aucune vie ordinaire, et l'ordre de l'usurpateur déchira et brisa leurs âmes... L'ichor fut alors teint en noir par les pleurs et les hurlements de tant d'âmes, et il perdit son harmonie et sa sagesse, ne laissant que le chaos et la folie.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Échos des marées profondes",
+      "rotation": "Artisanat",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Spring of Pure Sacred Dewdrop"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Silvershower Heartstrings",
+    "Splendor of Tranquil Waters",
+    "Symphonist of Scents",
+    "Tome of the Eternal Flow",
+    "Finale of the Deep",
+    "Flowing Purity",
+    "The Dockhand's Assistant"
+  ],
+  "sellers": []
+}

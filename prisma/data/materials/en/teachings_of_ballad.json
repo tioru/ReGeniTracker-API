@@ -1,0 +1,39 @@
+{
+  "name": "Teachings of Ballad",
+  "rarity": 2,
+  "categories": [
+    "BALLAD_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Poetry is the soul of the land of the wind. Poetry is the manifestations of beautiful feelings. On a beautiful day, the breezes carry with them poetry that touches the heart of people like the wind caressing the leaves.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Forsaken Rift",
+      "rotation": "Realm of Slumber",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Ballad"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Albedo",
+      "Dahlia",
+      "Durin",
+      "Fischl",
+      "Kaeya",
+      "Lisa",
+      "Mika",
+      "Rosaria",
+      "Venti"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Écho d'un accord ancien",
+  "rarity": 5,
+  "categories": [
+    "ANCIENT_CHORDS"
+  ],
+  "description": "Matériau d'élévation d'arme. La grande symphonie du roi divin est composée d'innombrables mélodies liées entre elles, mais sa thèse principale est submergée par le destin commun de la patrie de l'eau. Les harmonies de ces années insouciantes et les sonates étaient autrefois la plus grande représentation de la civilisation et de l'ordre, mais lorsque l'empire prospère est descendu dans un terrain de jeu pour les tyrans, les despotes brutaux ont déchiré le lien avec la source sous le couvert de manteaux dorés, et la discorde s'est finalement répandue à travers l'empire... La chanson originale du destin a continué à résonner sur une partition d'or qui s'estompe, imperturbable pour tous... jusqu'à ce que tout soit dissous et que tout retourne au chaos.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Échos des marées profondes",
+      "rotation": "Ruse robotique",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Absolution",
+    "The First Great Magic",
+    "Verdict",
+    "Fleuve Cendre Ferryman",
+    "Prospector's Drill",
+    "Range Gauge",
+    "Sequence of Solitude",
+    "Song of Stillness",
+    "Sword of Narzissenkreuz"
+  ],
+  "sellers": []
+}

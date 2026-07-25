@@ -1,0 +1,56 @@
+{
+  "name": "Ongle dissimulé",
+  "rarity": 3,
+  "categories": [
+    "RIFTWOLF_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Du tissu de chair provenant du corps d'un canidé de faille. Aussi étonnantes qu'elles soient, ces créatures d'Alfisol ne sont rien comparées à Durin, l'Humus.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Rockfond Rifthound",
+        "Rockfond Rifthound Whelp",
+        "Thundercraven Rifthound",
+        "Thundercraven Rifthound Whelp"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Concealed Claw",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Concealed Talon"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Kagura's Verity",
+    "Polar Star",
+    "Redhorn Stonethresher",
+    "Akuoumaru",
+    "Oathsworn Eye",
+    "Wavebreaker's Fin"
+  ],
+  "sellers": []
+}

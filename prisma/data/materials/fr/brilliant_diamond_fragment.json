@@ -1,0 +1,39 @@
+{
+  "name": "Fragment de diamant scintillant",
+  "rarity": 3,
+  "categories": [
+    "BRILLIANT_DIAMOND",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Matériau d'élévation de personnage. « Bienvenue au monde »",
+  "sources": [
+    {
+      "type": "ADVENTURE_RANK_REWARD",
+      "rewards": [
+        {
+          "adventureRank": 25,
+          "quantity": 3
+        },
+        {
+          "adventureRank": 26,
+          "quantity": 2
+        },
+        {
+          "adventureRank": 28,
+          "quantity": 2
+        },
+        {
+          "adventureRank": 30,
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

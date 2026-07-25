@@ -1,0 +1,51 @@
+{
+  "name": "Guide to Admonition",
+  "rarity": 3,
+  "categories": [
+    "ADMONITION_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Admonition is the branches of the nation of wisdom. Admonition is paired with wise thinking. Careful deliberation affords humble words a clarity that convinces the wise and enlightens the foolish. Such words allow wisdom to flow like an unobstructed river.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Steeple of Ignorance",
+      "rotation": "Full Moon",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Admonition",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Admonition"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Candace",
+      "Cyno",
+      "Faruzan",
+      "Tighnari",
+      "Traveler (Dendro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

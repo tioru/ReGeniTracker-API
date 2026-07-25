@@ -1,0 +1,65 @@
+{
+  "name": "Nostalgie du Loup boréal",
+  "rarity": 5,
+  "categories": [
+    "BOREAL_WOLF_TEETH"
+  ],
+  "description": "Matériau d'élévation d'arme. Le Roi Loup décida de se retirer du monde, se pensant indigne de devenir le Roi des Vents. En raison de son mépris pour l'humanité, il s'estimait incapable de contribuer à leur bonheur, mais sa bienveillance envers les parias démontrait bien le contraire.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pépinière de cécilias",
+      "rotation": "Vallée submergée",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Boreal Wolf's Broken Fang",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Elegy for the End",
+    "Gest of the Mighty Wolf",
+    "Skyward Atlas",
+    "Skyward Blade",
+    "Skyward Harp",
+    "Skyward Pride",
+    "Ballad of the Boundless Blue",
+    "Deathmatch",
+    "Dodoco Tales",
+    "Dragonspine Spear",
+    "Missive Windspear",
+    "Sacrificial Bow",
+    "Sacrificial Greatsword",
+    "Sword of Descension",
+    "The Black Sword",
+    "The Flute",
+    "The Widsith",
+    "Wine and Song",
+    "Bloodtainted Greatsword",
+    "Harbinger of Dawn",
+    "Sharpshooter's Oath",
+    "Thrilling Tales of Dragon Slayers"
+  ],
+  "sellers": []
+}

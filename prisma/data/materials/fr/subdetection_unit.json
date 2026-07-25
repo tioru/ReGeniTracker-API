@@ -1,0 +1,24 @@
+{
+  "name": "Unité de sous-détection",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Cette unité de détection, créée par l'Institut de recherche de Fontaine en utilisant de nouveaux modèles de composants artificiels, était à l'origine destinée au suivi des données environnementales.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Fontaine Research Institute of Kinetic Energy Engineering Region, Liffey Region"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Sandrone",
+      "Wriothesley"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

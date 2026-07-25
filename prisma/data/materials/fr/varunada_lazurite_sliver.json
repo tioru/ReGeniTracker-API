@@ -1,35 +1,38 @@
 {
   "name": "Éclat de lazurite varunada",
   "rarity": 2,
-  "categories": ["VARUNADA_LAZURITE", "ASCENSION_GEMS"],
+  "categories": [
+    "VARUNADA_LAZURITE",
+    "ASCENSION_GEMS"
+  ],
   "description": "Matériau d'élévation de personnage.",
   "sources": [
     {
       "type": "BOSS",
       "minimumLevel": 1,
       "names": [
-        "Océanide",
-        "Herra de la nuit glaciale",
-        "Dragon cataclysmique",
-        "Automate de source secrète : Surveillant",
-        "Suanni solitaire",
-        "Tulpa Hydro",
-        "Hypostase Hydro",
-        "Géosaure antique",
-        "Lustrateur inique"
+        "Aeonblight Drake",
+        "Frostnight Herra",
+        "Hydro Hypostasis",
+        "Hydro Tulpa",
+        "Iniquitous Baptist",
+        "Primo Geovishap",
+        "Rhodeia of Loch",
+        "Secret Source Automaton: Overseer Device",
+        "Solitary Suanni"
       ]
     },
     {
       "type": "WEEKLY_BOSS",
       "minimumLevel": 1,
       "names": [
-        "Narval stellavore",
-        "Dottore",
-        "Shouki no Kami, le prodige",
-        "Tartaglia",
-        "Azhadaha",
-        "Jeu d'échecs devant la porte",
-        "Stormterror"
+        "All-Devouring Narwhal",
+        "Azhdaha (Weekly Boss)",
+        "Childe",
+        "Everlasting Lord of Arcane Wisdom",
+        "Heretic of the False Moon",
+        "Stormterror Dvalin",
+        "The Game Before the Gate"
       ]
     },
     {
@@ -39,61 +42,100 @@
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Éclat d'agate agnidus", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 1 }
+            {
+              "item": "Agnidus Agate Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Éclat d'émeraude nagadus", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 1 }
+            {
+              "item": "Nagadus Emerald Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Éclat d'améthyste vajrada", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 1 }
+            {
+              "item": "Vajrada Amethyst Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Éclat de turquoise vayuda", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 1 }
+            {
+              "item": "Vayuda Turquoise Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Éclat de jade shivada", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 1 }
+            {
+              "item": "Shivada Jade Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Éclat de topaze prithiva", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 1 }
+            {
+              "item": "Prithiva Topaz Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         }
       ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
     }
   ],
   "usedIn": [
-    "Éclat d'agate agnidus",
-    "Éclat d'améthyste vajrada",
-    "Éclat d'émeraude nagadus",
-    "Éclat de jade shivada",
-    "Éclat de topaze prithiva",
-    "Éclat de turquoise vayuda",
-    "Fragment de lazurite varunada"
+    "Agnidus Agate Sliver",
+    "Nagadus Emerald Sliver",
+    "Prithiva Topaz Sliver",
+    "Shivada Jade Sliver",
+    "Vajrada Amethyst Sliver",
+    "Varunada Lazurite Fragment",
+    "Vayuda Turquoise Sliver"
   ],
   "usedByCharacters": {
     "ascension": [
@@ -106,7 +148,7 @@
       "Kamisato Ayato",
       "Mona",
       "Mualani",
-      "Neuvilette",
+      "Neuvillette",
       "Nilou",
       "Sangonomiya Kokomi",
       "Sigewinne",
@@ -120,14 +162,14 @@
   "sellers": [
     {
       "name": "Marjorie",
-      "currency": "Sceau Anémo",
+      "currency": "Sigil",
       "cost": 10,
       "stock": 6,
       "restock": "NEVER"
     },
     {
       "name": "Xingxi",
-      "currency": "Sceau Anémo",
+      "currency": "Sigil",
       "cost": 10,
       "stock": 12,
       "restock": "NEVER"

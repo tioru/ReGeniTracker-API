@@ -1,0 +1,35 @@
+{
+  "name": "Old Operative's Pocket Watch",
+  "rarity": 2,
+  "categories": [
+    "FATUI_OPERATIVE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A standard-issue pocket watch given to Fatui Operatives. The erosion and oxidation on the casing serve as a loyal record of its owners' days spent as an instrument, enforcing the Fatui's will.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Frost Operative",
+        "Wind Operative"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Operative's Standard Pocket Watch"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Absolution",
+    "Cashflow Supervision",
+    "\"Ultimate Overlord's Mega Magic Sword\"",
+    "Prospector's Drill",
+    "Sword of Narzissenkreuz",
+    "The Dockhand's Assistant"
+  ],
+  "sellers": []
+}

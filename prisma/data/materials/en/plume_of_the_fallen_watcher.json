@@ -1,0 +1,27 @@
+{
+  "name": "Plume of the Fallen Watcher",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "A fallen feather gathered from a corner of the mortal realm after defeating a Fallen Watcher. Compared to the true divine envoys, these feathered watchers bear a closer resemblance to the \"angels\" of common lore. Perhaps this is because their own creator failed to grasp the divine design of the Winged One above, and can only clumsily imitate the shadow cast by that ideal.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "The Open-Eyed"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Linnea",
+      "Sandrone"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

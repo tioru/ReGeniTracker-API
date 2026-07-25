@@ -1,0 +1,59 @@
+{
+  "name": "Coquille spectrale",
+  "rarity": 1,
+  "categories": [
+    "SPECTER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Un noyau d'énergie qui permet aux Spectres de flotter. Il contient une petite quantité d'énergie élémentaire.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Anemo Specter",
+        "Cryo Specter",
+        "Dendro Specter",
+        "Electro Specter",
+        "Geo Specter",
+        "Hydro Specter",
+        "Pyro Specter"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Spectral Heart"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Aloy",
+      "Chiori",
+      "Gorou",
+      "Kirara",
+      "Kuki Shinobu",
+      "Sangonomiya Kokomi"
+    ],
+    "talent": [
+      "Aloy",
+      "Chiori",
+      "Gorou",
+      "Kirara",
+      "Kuki Shinobu",
+      "Sangonomiya Kokomi"
+    ]
+  },
+  "usedByWeapons": [
+    "Aqua Simulacra",
+    "Everlasting Moonglow",
+    "Kagura's Verity",
+    "Polar Star",
+    "Sunny Morning Sleep-In",
+    "\"The Catch\"",
+    "Dialogues of the Desert Sages",
+    "Kagotsurube Isshin",
+    "Mailed Flower",
+    "Mouun's Moon",
+    "Oathsworn Eye"
+  ],
+  "sellers": []
+}

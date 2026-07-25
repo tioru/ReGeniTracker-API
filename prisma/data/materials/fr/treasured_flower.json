@@ -1,0 +1,52 @@
+{
+  "name": "Fleur précieuse",
+  "rarity": 3,
+  "categories": [
+    "HILICHURL_ROGUE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Une fleur sauvage qu'un Brutovéreux chérissait, dépourvue cependant de toute qualité particulière. Dans de nombreuses cultures, les fleurs peuvent être utilisées comme cadeaux ou offrandes pour exprimer ses sentiments.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Anemo Hilichurl Rogue",
+        "Hydro Hilichurl Rogue"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "A Flower Yet to Bloom",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Wanderer's Blooming Flower"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Jadefall's Splendor",
+    "Ballad of the Fjords",
+    "Ibis Piercer",
+    "Scion of the Blazing Sun"
+  ],
+  "sellers": []
+}

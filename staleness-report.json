@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-07-25T22:15:00.885Z",
+  "categories": [
+    {
+      "category": "enemies",
+      "cacheFile": "enemies-raw-cache.json",
+      "lastScrapedAt": "2026-07-25T01:28:43+02:00",
+      "lastScrapedAtSource": "git",
+      "totalPages": 155,
+      "checkedPages": 155,
+      "changedSinceScrape": [
+        {
+          "pageTitle": "Exalted Master of the Heretical Path",
+          "lastEditedAt": "2026-07-25T21:06:51Z"
+        }
+      ],
+      "missingOnWiki": [],
+      "errors": []
+    },
+    {
+      "category": "domains",
+      "cacheFile": "domains-raw-cache.json",
+      "lastScrapedAt": "2026-07-23T13:46:54+02:00",
+      "lastScrapedAtSource": "git",
+      "totalPages": 267,
+      "checkedPages": 267,
+      "changedSinceScrape": [
+        {
+          "pageTitle": "Binding Field of Universal Nirvana",
+          "lastEditedAt": "2026-07-25T21:07:17Z"
+        }
+      ],
+      "missingOnWiki": [],
+      "errors": []
+    },
+    {
+      "category": "artifacts",
+      "cacheFile": "artifacts-raw-cache.json",
+      "lastScrapedAt": "2026-07-23T23:59:20+02:00",
+      "lastScrapedAtSource": "git",
+      "totalPages": 57,
+      "checkedPages": 57,
+      "changedSinceScrape": [],
+      "missingOnWiki": [],
+      "errors": []
+    },
+    {
+      "category": "weapons",
+      "cacheFile": "weapons-raw-cache.json",
+      "lastScrapedAt": "2026-07-22T22:48:50+02:00",
+      "lastScrapedAtSource": "git",
+      "totalPages": 233,
+      "checkedPages": 233,
+      "changedSinceScrape": [
+        {
+          "pageTitle": "Alley Hunter",
+          "lastEditedAt": "2026-07-23T16:22:41Z"
+        },
+        {
+          "pageTitle": "Absolution",
+          "lastEditedAt": "2026-07-24T19:05:23Z"
+        },
+        {
+          "pageTitle": "Lumidouce Elegy",
+          "lastEditedAt": "2026-07-24T19:05:54Z"
+        },
+        {
+          "pageTitle": "Skyrider Greatsword",
+          "lastEditedAt": "2026-07-24T19:15:18Z"
+        },
+        {
+          "pageTitle": "Skyrider Sword",
+          "lastEditedAt": "2026-07-24T19:13:18Z"
+        },
+        {
+          "pageTitle": "Splendor of Tranquil Waters",
+          "lastEditedAt": "2026-07-24T19:08:11Z"
+        },
+        {
+          "pageTitle": "The Alley Flash",
+          "lastEditedAt": "2026-07-23T16:44:14Z"
+        },
+        {
+          "pageTitle": "The First Great Magic",
+          "lastEditedAt": "2026-07-24T19:04:19Z"
+        },
+        {
+          "pageTitle": "Tome of the Eternal Flow",
+          "lastEditedAt": "2026-07-24T19:09:27Z"
+        },
+        {
+          "pageTitle": "Verdict",
+          "lastEditedAt": "2026-07-24T19:05:01Z"
+        }
+      ],
+      "missingOnWiki": [],
+      "errors": []
+    },
+    {
+      "category": "materials",
+      "cacheFile": "materials-raw-cache.json",
+      "lastScrapedAt": "2026-07-25T21:20:29.750Z",
+      "lastScrapedAtSource": "mtime",
+      "totalPages": 58,
+      "checkedPages": 58,
+      "changedSinceScrape": [],
+      "missingOnWiki": [],
+      "errors": [
+        "Cache non commité : date de dernier scrape approximée par la date de modification disque (moins fiable qu'un historique git)"
+      ]
+    },
+    {
+      "category": "achievements",
+      "cacheFile": "achievements-raw-cache.json",
+      "lastScrapedAt": "2026-07-21T00:19:06+02:00",
+      "lastScrapedAtSource": "git",
+      "totalPages": 1758,
+      "checkedPages": 1758,
+      "changedSinceScrape": [
+        {
+          "pageTitle": "\"Deep Blue\"",
+          "lastEditedAt": "2026-07-24T07:20:37Z"
+        },
+        {
+          "pageTitle": "\"Sic Semper Tyrannis\"",
+          "lastEditedAt": "2026-07-24T15:10:18Z"
+        },
+        {
+          "pageTitle": "25 Gansas",
+          "lastEditedAt": "2026-07-21T00:45:41Z"
+        },
+        {
+          "pageTitle": "A Fall of Moondust",
+          "lastEditedAt": "2026-07-21T00:35:52Z"
+        },
+        {
+          "pageTitle": "Bifröst",
+          "lastEditedAt": "2026-07-23T23:16:11Z"
+        },
+        {
+          "pageTitle": "Blue Moon",
+          "lastEditedAt": "2026-07-25T18:50:01Z"
+        }
+      ],
+      "missingOnWiki": [],
+      "errors": []
+    }
+  ]
+}

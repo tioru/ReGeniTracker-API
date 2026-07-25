@@ -1,0 +1,48 @@
+{
+  "name": "Philosophies of Vagrancy",
+  "rarity": 4,
+  "categories": [
+    "VAGRANCY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "\"Vagrancy\" is the living of the land beneath the moon. Through thunder and storms, across mountains and snowfields, though scarred and weary, the wanderer does not stop — nor will they till they find a place to call home.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Lightless Capital",
+      "rotation": "Overturned Roost",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Vagrancy",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Flins",
+      "Jahoda",
+      "Linnea",
+      "Sandrone"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

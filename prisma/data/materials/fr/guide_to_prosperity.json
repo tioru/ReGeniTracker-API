@@ -1,0 +1,57 @@
+{
+  "name": "Guide de la Prospérité",
+  "rarity": 3,
+  "categories": [
+    "PROSPERITY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. La prospérité est l'aspiration du pays de la roche. Récompenser le labeur avec de l'or, telle était la promesse faite aux enfants de Liyue.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Manoir Taishan",
+      "rotation": "Autel des flammes",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Prosperity",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Prosperity"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Gaming",
+      "Keqing",
+      "Ningguang",
+      "Qiqi",
+      "Shenhe",
+      "Traveler (Geo)",
+      "Xiao",
+      "Yelan"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

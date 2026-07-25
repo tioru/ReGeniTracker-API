@@ -1,0 +1,61 @@
+{
+  "name": "Corps divin de Guyun",
+  "rarity": 5,
+  "categories": [
+    "GUYUN_PILLARS"
+  ],
+  "description": "Matériau d'élévation d'arme. Les esprits de divinités oubliées animent cette relique. Ils incarnent des idéaux pour l'humanité qui ne virent jamais le jour, et reposent maintenant dans la pierre et les mers, sans jamais pouvoir disparaître vraiment.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Palais secret de Lianshan",
+      "rotation": "Autel du nuage d'orage",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Relic from Guyun",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aqua Simulacra",
+    "Jadefall's Splendor",
+    "Primordial Jade Winged-Spear",
+    "Summit Shaper",
+    "Blackcliff Agate",
+    "Blackcliff Longsword",
+    "Blackcliff Warbow",
+    "Crescent Pike",
+    "Lion's Roar",
+    "Lithic Blade",
+    "Rust",
+    "Sacrificial Jade",
+    "Solar Pearl",
+    "Whiteblind",
+    "Dark Iron Sword",
+    "Emerald Orb",
+    "Slingshot",
+    "White Tassel"
+  ],
+  "sellers": []
+}

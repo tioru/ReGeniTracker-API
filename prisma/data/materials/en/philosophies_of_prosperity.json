@@ -1,0 +1,52 @@
+{
+  "name": "Philosophies of Prosperity",
+  "rarity": 4,
+  "categories": [
+    "PROSPERITY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Prosperity is the people's pursuit in the land of Geo. Prosperity is Liyue's past, present, and future. This prosperity is unmatched and unobtainable by any other nations - it all belongs to Liyue and its inhabitants.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Taishan Mansion",
+      "rotation": "Altar of Flames",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Prosperity",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Gaming",
+      "Keqing",
+      "Ningguang",
+      "Qiqi",
+      "Shenhe",
+      "Traveler (Geo)",
+      "Xiao",
+      "Yelan"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

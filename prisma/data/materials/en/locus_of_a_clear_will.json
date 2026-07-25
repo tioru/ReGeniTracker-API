@@ -1,0 +1,57 @@
+{
+  "name": "Locus of a Clear Will",
+  "rarity": 3,
+  "categories": [
+    "WAYOB_MANIFESTATION_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A jade idol that houses a Wayob Manifestation. You can roughly make out the form of an idol figurine. It has a greater capacity for channeling the Wayob's will and power.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Biting-Cold Wayob Manifestation",
+        "Burning-Aflame Wayob Manifestation",
+        "Flow-Inverted Wayob Manifestation",
+        "Foliar-Swift Wayob Manifestation",
+        "Rock-Cavernous Wayob Manifestation",
+        "Thundering Wayob Manifestation"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shard of a Shattered Will",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Sigil of a Striding Will"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Starcaller's Watch",
+    "Surf's Up",
+    "Ring of Yaxche",
+    "Sturdy Bone",
+    "Waveriding Whirl"
+  ],
+  "sellers": []
+}

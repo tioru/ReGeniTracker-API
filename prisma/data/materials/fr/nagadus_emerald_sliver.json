@@ -1,23 +1,28 @@
 {
   "name": "Éclat d'émeraude nagadus",
   "rarity": 2,
-  "categories": ["NAGADUS_EMERALD", "ASCENSION_GEMS"],
+  "categories": [
+    "NAGADUS_EMERALD",
+    "ASCENSION_GEMS"
+  ],
   "description": "Matériau d'élévation de personnage.",
   "sources": [
     {
       "type": "BOSS",
       "minimumLevel": 1,
       "names": [
-        "Champieffroi panaché",
-        "Hypostase Dendro",
-        "Lunillon radieux",
-        "Roi yumkasaure glouton de la montagne"
+        "Dendro Hypostasis",
+        "Jadeplume Terrorshroom",
+        "Kongamato",
+        "Radiant Moonfly"
       ]
     },
     {
       "type": "WEEKLY_BOSS",
       "minimumLevel": 1,
-      "names": ["Garde de l'oasis d'Apep"]
+      "names": [
+        "Guardian of Apep's Oasis"
+      ]
     },
     {
       "type": "ALCHEMY",
@@ -26,65 +31,104 @@
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Éclat d'agate agnidus", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 1 }
+            {
+              "item": "Agnidus Agate Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Éclat de lazurite varunada", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 1 }
+            {
+              "item": "Varunada Lazurite Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Éclat d'améthyste vajrada", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 1 }
+            {
+              "item": "Vajrada Amethyst Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Éclat de turquoise vayuda", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 1 }
+            {
+              "item": "Vayuda Turquoise Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Éclat de jade shivada", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 1 }
+            {
+              "item": "Shivada Jade Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Éclat de topaze prithiva", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 1 }
+            {
+              "item": "Prithiva Topaz Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         }
       ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
     }
   ],
   "usedIn": [
-    "Éclat d'agate agnidus",
-    "Éclat d'améthyste vajrada",
-    "Éclat de jade shivada",
-    "Éclat de lazurite varunada",
-    "Éclat de topaze prithiva",
-    "Éclat de turquoise vayuda",
-    "Fragment d'émeraude nagadus"
+    "Agnidus Agate Sliver",
+    "Nagadus Emerald Fragment",
+    "Prithiva Topaz Sliver",
+    "Shivada Jade Sliver",
+    "Vajrada Amethyst Sliver",
+    "Varunada Lazurite Sliver",
+    "Vayuda Turquoise Sliver"
   ],
   "usedByCharacters": {
     "ascension": [
-      "Al­hai­tham",
+      "Alhaitham",
       "Baizhu",
       "Collei",
       "Emilie",

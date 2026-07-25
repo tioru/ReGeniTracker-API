@@ -1,0 +1,51 @@
+{
+  "name": "Philosophie de l'Éphémère",
+  "rarity": 4,
+  "categories": [
+    "TRANSIENCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'éphémère est le rêve de la nation du tonnerre. C'est la nature éphémère de ce monde mortel qui est l'essence de sa beauté, car nos vies en ce monde sont tels des éclairs fugaces. Et pourtant, voilà que se manifeste la puissance du divin. Qui peut donc faire face au rugissement de l'éternité ?",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour violette",
+      "rotation": "Règne violet",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Transience",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Kirara",
+      "Sangonomiya Kokomi",
+      "Shikanoin Heizou",
+      "Thoma",
+      "Traveler (Electro)",
+      "Yoimiya",
+      "Yumemizuki Mizuki"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

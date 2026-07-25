@@ -1,0 +1,83 @@
+{
+  "name": "Nectar élémentaire",
+  "rarity": 3,
+  "categories": [
+    "WHOPPERFLOWER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Un nectar de Fleur mensongère épais et collant, empli d'énergie. La Fleur mensongère, comme son nom l'indique, trompe sa proie pour s'alimenter – peut-être dans le but d'évoluer vers une forme plus puissante ?",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Cryo Whopperflower",
+        "Electro Whopperflower",
+        "Pyro Whopperflower"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shimmering Nectar",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Furina",
+      "Ganyu",
+      "Hu Tao",
+      "Keqing",
+      "Lan Yan",
+      "Mona",
+      "Sayu",
+      "Shenhe",
+      "Sucrose"
+    ],
+    "talent": [
+      "Furina",
+      "Ganyu",
+      "Hu Tao",
+      "Keqing",
+      "Lan Yan",
+      "Mona",
+      "Sayu",
+      "Shenhe",
+      "Sucrose"
+    ]
+  },
+  "usedByWeapons": [
+    "Calamity Queller",
+    "Disaster and Remorse",
+    "Lumidouce Elegy",
+    "Ballad of the Fjords",
+    "Blackcliff Warbow",
+    "Deathmatch",
+    "Favonius Warbow",
+    "Frostbearer",
+    "Iron Sting",
+    "Mountain-Bracing Bolt",
+    "Serpent Spine",
+    "Solar Pearl",
+    "The Bell",
+    "Windblume Ode",
+    "Ferrous Shadow",
+    "Halberd"
+  ],
+  "sellers": []
+}

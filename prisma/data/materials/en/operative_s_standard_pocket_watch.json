@@ -1,0 +1,54 @@
+{
+  "name": "Operative's Standard Pocket Watch",
+  "rarity": 3,
+  "categories": [
+    "FATUI_OPERATIVE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A standard-issue pocket watch given to Fatui Operatives. The head of the watch is not well-designed, as the outer casing has way too many sharp angles, which can cause excessive wear and tear on clothes. As such, there will always be those who will stuff this watch into a more practical, less distinctive casing for use.",
+  "sources": [
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Old Operative's Pocket Watch",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Frost Operative",
+        "Wind Operative"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Operative's Constancy"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Absolution",
+    "Cashflow Supervision",
+    "\"Ultimate Overlord's Mega Magic Sword\"",
+    "Prospector's Drill",
+    "Sword of Narzissenkreuz",
+    "The Dockhand's Assistant"
+  ],
+  "sellers": []
+}

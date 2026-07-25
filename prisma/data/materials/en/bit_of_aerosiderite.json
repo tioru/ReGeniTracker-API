@@ -1,0 +1,62 @@
+{
+  "name": "Bit of Aerosiderite",
+  "rarity": 4,
+  "categories": [
+    "AEROSIDERITE"
+  ],
+  "description": "The coastal nations of Teyvat refer to the region beyond the protection of The Seven as the Dark Sea. It is said that many defeated gods refused to live under the new order of The Seven, so they fled to remote islands and became evil gods. However, their powers came from the same source as Rex Lapis, separate from this all-devouring darkness.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Hidden Palace of Lianshan Formula",
+      "rotation": "Trial Grounds of Thunder",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Piece of Aerosiderite",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 350
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Chunk of Aerosiderite"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Lightbearing Moonshard",
+    "Memory of Dust",
+    "Staff of Homa",
+    "Vortex Vanquisher",
+    "Cloudforged",
+    "Compound Bow",
+    "Fading Twilight",
+    "Iron Sting",
+    "Lithic Spear",
+    "Luxurious Sea-Lord",
+    "Mappa Mare",
+    "Prototype Archaic",
+    "Prototype Starglitter",
+    "Serpent Spine",
+    "Black Tassel",
+    "Skyrider Greatsword",
+    "Skyrider Sword"
+  ],
+  "sellers": []
+}

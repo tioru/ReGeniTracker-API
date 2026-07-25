@@ -1,0 +1,32 @@
+{
+  "name": "Aileron plumeux",
+  "rarity": 2,
+  "categories": [
+    "XUANWEN_BEAST_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un aileron prélevé sur le dos d'une Bête de Xuanwen vaincue. Même si les Bêtes de Xuanwen ne peuvent pas voler sur de longues distances, ces ailerons semblables à des plumes leur permettent de pourchasser rapidement leur proie.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Xuanwen Beast"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Lunar Fin"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Crane's Echoing Call",
+    "Silvershower Heartstrings",
+    "Chain Breaker",
+    "Dialogues of the Desert Sages"
+  ],
+  "sellers": []
+}

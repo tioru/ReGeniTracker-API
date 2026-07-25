@@ -1,0 +1,36 @@
+{
+  "name": "Guide to Justice",
+  "rarity": 3,
+  "categories": [
+    "JUSTICE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "The sword of the Nation of Water is justice. The law of Fontaine walks with the sword of justice in hand. Justice must be blind, and those who wield the sword of justice must not be led astray by their own interests or affairs.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pale Forgotten Glory",
+      "rotation": "Admonishing Engraving",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Justice"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Charlotte",
+      "Clorinde",
+      "Escoffier",
+      "Freminet",
+      "Furina",
+      "Traveler (Hydro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

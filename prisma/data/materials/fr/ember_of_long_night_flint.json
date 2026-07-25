@@ -1,0 +1,31 @@
+{
+  "name": "Braise de silex de longue nuit",
+  "rarity": 2,
+  "categories": [
+    "LONG_NIGHT_FLINTS"
+  ],
+  "description": "Matériau d'élévation d'arme. Dans la poésie du monde des mortels, la lumière est souvent une métaphore de l'espoir. Les feux s'éteignent en silence et révèlent le chemin à suivre dans l'obscurité qui précède l'aube. Cependant, le forge-torche originel et l'ami avec lequel il peignait l'Élysium dans son enfance n'ont jamais su où ce chemin illuminé les mènerait, jusqu'au moment où les lumières se sont éteintes.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour lunaire perdue",
+      "rotation": "Observation",
+      "minimumLevel": 1
+    }
+  ],
+  "usedIn": [
+    "Afterglow of Long Night Flint"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Bloodsoaked Ruins",
+    "Golden Frostbound Oath",
+    "Prospector's Shovel",
+    "Sacrificer's Staff",
+    "Snare Hook"
+  ],
+  "sellers": []
+}

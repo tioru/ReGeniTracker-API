@@ -1,0 +1,35 @@
+{
+  "name": "Teachings of Light",
+  "rarity": 2,
+  "categories": [
+    "LIGHT_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Light is the yearning of the land of thunder. The ruler who claims to have perceived all forever aims to hoard celestial glory. But this vision that cannot be shared only leads people to long for it more fiercely, like moths diving into the flame.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Violet Court",
+      "rotation": "Vine-Infested Ruins",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Light"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Chiori",
+      "Gorou",
+      "Raiden Shogun",
+      "Sayu",
+      "Yae Miko"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

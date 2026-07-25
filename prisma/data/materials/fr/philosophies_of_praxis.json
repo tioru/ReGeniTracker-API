@@ -1,0 +1,50 @@
+{
+  "name": "Philosophie de l'Usage",
+  "rarity": 4,
+  "categories": [
+    "PRAXIS_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'usage est la racine de la nation de la sagesse. Il fait pousser les fruits de la sagesse. L'acte pratiqué se donne un sens. L'union des actions, des paroles et des pensées est le seul moyen qu'ont les sages d'atteindre la perfection.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Tour de l'ignorance",
+      "rotation": "Discipline",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Praxis",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Collei",
+      "Dehya",
+      "Nilou",
+      "Sethos",
+      "Traveler (Dendro)",
+      "Wanderer"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

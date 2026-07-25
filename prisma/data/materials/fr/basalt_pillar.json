@@ -1,0 +1,29 @@
+{
+  "name": "Pilier de basalte",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "Un pilier formé avec une carapace d'Hypostase Géo et que de l'énergie Géo intense parcourt. Ce monument est une preuve que l'élément Géo est le plus lourd d'entre tous. L'Hypostase Géo voulait peut-être se rapprocher du ciel plutôt que de combattre ses ennemis...",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Geo Hypostasis"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Albedo",
+      "Ningguang",
+      "Noelle",
+      "Zhongli"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

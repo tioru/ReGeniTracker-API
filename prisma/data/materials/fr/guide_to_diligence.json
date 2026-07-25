@@ -1,0 +1,58 @@
+{
+  "name": "Guide de la Diligence",
+  "rarity": 3,
+  "categories": [
+    "DILIGENCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. Le goût du travail est l'essence du pays de la roche. Il coule dans les veines des Liyuéens, qui deviennent capables de transformer la roche en or grâce à lui. La prospérité de son port commercial n'est guère étonnante.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Manoir Taishan",
+      "rotation": "Au cœur des flammes",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Diligence",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Diligence"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Chongyun",
+      "Ganyu",
+      "Hu Tao",
+      "Kaedehara Kazuha",
+      "Lan Yan",
+      "Traveler (Geo)",
+      "Xiangling",
+      "Yaoyao",
+      "Yun Jin"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Guide de l'Élégance",
+  "rarity": 3,
+  "categories": [
+    "ELEGANCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'élégance est l'apparence de la nation du tonnerre. L'élégance évite l'arrogance. Les élégants sont toujours humbles, et ce n'est qu'en rejetant la vanité et la négligence que l'on voit la véritable beauté, même dans l'apparence la plus inesthétique.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour violette",
+      "rotation": "Vallée foudroyée",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Elegance",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Elegance"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Arataki Itto",
+      "Kamisato Ayaka",
+      "Kamisato Ayato",
+      "Kujou Sara",
+      "Kuki Shinobu",
+      "Traveler (Electro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

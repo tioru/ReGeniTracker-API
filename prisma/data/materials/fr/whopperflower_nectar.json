@@ -1,20 +1,25 @@
 {
   "name": "Nectar de Fleur mensongère",
   "rarity": 1,
-  "categories": [],
+  "categories": [
+    "WHOPPERFLOWER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
   "description": "Nectar extrait du pistil d'une Fleur mensongère. Il contient des traces d'éléments. Son goût rappelle celui de la fleur sucrante.",
   "sources": [
     {
       "type": "COMMON_ENEMY",
       "minimumLevel": 1,
       "names": [
-        "Fleur mensongère Pyro",
-        "Fleur mensongère Cryo",
-        "Fleur mensongère Électro"
+        "Cryo Whopperflower",
+        "Electro Whopperflower",
+        "Pyro Whopperflower"
       ]
     }
   ],
-  "usedIn": ["Nectar miroitant"],
+  "usedIn": [
+    "Shimmering Nectar"
+  ],
   "usedByCharacters": {
     "ascension": [
       "Furina",
@@ -40,21 +45,22 @@
     ]
   },
   "usedByWeapons": [
-    "Étouffeur de calamités",
-    "Élégie de Lumidouce",
-    "Ballade des fjords",
-    "Arc de guerre de Rochenoire",
-    "Scion de la victoire",
-    "Arc de chasse de Favonius",
-    "Fruit du permafrost",
-    "Piqûre de fer",
-    "Clou soutenant les montagnes",
-    "Ossature du dragon",
-    "Perle solaire",
-    "Épée-horloge",
-    "Ode aux alizées",
-    "Ombre ferreuse",
-    "Hallebarde"
+    "Calamity Queller",
+    "Disaster and Remorse",
+    "Lumidouce Elegy",
+    "Ballad of the Fjords",
+    "Blackcliff Warbow",
+    "Deathmatch",
+    "Favonius Warbow",
+    "Frostbearer",
+    "Iron Sting",
+    "Mountain-Bracing Bolt",
+    "Serpent Spine",
+    "Solar Pearl",
+    "The Bell",
+    "Windblume Ode",
+    "Ferrous Shadow",
+    "Halberd"
   ],
   "sellers": []
 }

@@ -1,0 +1,34 @@
+{
+  "name": "Prisme sombre",
+  "rarity": 2,
+  "categories": [
+    "MIRROR_MAIDEN_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Ce prisme pouvait autrefois polariser la lumière, mais il s'est assombri au fil des ans.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Mirror Maiden"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Crystal Prism"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Everlasting Moonglow",
+    "Thundering Pulse",
+    "Hakushin Ring",
+    "Hamayumi",
+    "Mouun's Moon",
+    "Predator"
+  ],
+  "sellers": []
+}

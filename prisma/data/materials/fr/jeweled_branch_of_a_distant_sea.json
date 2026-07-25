@@ -1,0 +1,55 @@
+{
+  "name": "Branche marine de gemme",
+  "rarity": 3,
+  "categories": [
+    "BRANCHES_OF_A_DISTANT_SEA"
+  ],
+  "description": "Matériau d'élévation d'arme. Ce corail ne peut être trouvé nulle part en Teyvat. C'est un cadeau que le Grand serpent a obtenu lorsqu'il a fait irruption dans l'Outre-mer. Pour ce serpent abyssal, ces coraux signifiaient la puissance, et son pouvoir diminuait à mesure que ces coraux disparaissaient. En d'autres termes, ces coraux contiennent une puissance bien au-delà de la norme.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour des sables mouvants",
+      "rotation": "Sables engloutis",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Coral Branch of a Distant Sea",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Jade Branch of a Distant Sea"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Everlasting Moonglow",
+    "Mistsplitter Reforged",
+    "Uraku Misugiri",
+    "Akuoumaru",
+    "Amenoma Kageuchi",
+    "Hakushin Ring",
+    "Oathsworn Eye"
+  ],
+  "sellers": []
+}

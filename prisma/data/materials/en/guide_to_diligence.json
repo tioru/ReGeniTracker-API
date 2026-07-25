@@ -1,0 +1,58 @@
+{
+  "name": "Guide to Diligence",
+  "rarity": 3,
+  "categories": [
+    "DILIGENCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Industriousness is the foundation of the land of Geo. Industriousness is the catalyst that flows in the blood of the people of Liyue, able to turn rocks into gold. It is what lies behind the greatness of its great commercial port.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Taishan Mansion",
+      "rotation": "Heart of the Flames",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Diligence",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Diligence"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Chongyun",
+      "Ganyu",
+      "Hu Tao",
+      "Kaedehara Kazuha",
+      "Lan Yan",
+      "Traveler (Geo)",
+      "Xiangling",
+      "Yaoyao",
+      "Yun Jin"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

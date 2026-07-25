@@ -1,0 +1,49 @@
+{
+  "name": "Philosophies of Admonition",
+  "rarity": 4,
+  "categories": [
+    "ADMONITION_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Admonition is the branches of the nation of wisdom. Admonition is completed by good deeds. What is done confers real meaning upon what is said. When one's mind, words, and deeds are aligned, their nourishment shall guarantee the fruition of wisdom's tree.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Steeple of Ignorance",
+      "rotation": "Full Moon",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Admonition",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Candace",
+      "Cyno",
+      "Faruzan",
+      "Tighnari",
+      "Traveler (Dendro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

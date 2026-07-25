@@ -1,0 +1,60 @@
+{
+  "name": "Chunk of Aerosiderite",
+  "rarity": 5,
+  "categories": [
+    "AEROSIDERITE"
+  ],
+  "description": "When Khaenri'ah was destroyed, a great sinner created endless monsters with dark, alien blood flowing through their veins. They rampaged across the land, destroying all in their paths. They were mutated lifeforms, and the mutations were caused by powers from beyond this world. The black serpentine dragon Durin that attacked Mondstadt was one such mutated being.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Hidden Palace of Lianshan Formula",
+      "rotation": "Trial Grounds of Thunder",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Bit of Aerosiderite",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Lightbearing Moonshard",
+    "Memory of Dust",
+    "Staff of Homa",
+    "Vortex Vanquisher",
+    "Cloudforged",
+    "Compound Bow",
+    "Fading Twilight",
+    "Iron Sting",
+    "Lithic Spear",
+    "Luxurious Sea-Lord",
+    "Mappa Mare",
+    "Prototype Archaic",
+    "Prototype Starglitter",
+    "Serpent Spine",
+    "Black Tassel",
+    "Skyrider Greatsword",
+    "Skyrider Sword"
+  ],
+  "sellers": []
+}

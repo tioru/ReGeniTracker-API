@@ -1,0 +1,27 @@
+{
+  "name": "Brilliant Diamond Sliver",
+  "rarity": 2,
+  "categories": [
+    "BRILLIANT_DIAMOND",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension material. \"Welcome to this world.\"",
+  "sources": [
+    {
+      "type": "ADVENTURE_RANK_REWARD",
+      "rewards": [
+        {
+          "adventureRank": 15,
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

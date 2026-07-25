@@ -1,0 +1,35 @@
+{
+  "name": "Vieille montre à gousset d'opérateur",
+  "rarity": 2,
+  "categories": [
+    "FATUI_OPERATIVE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Une montre de poche standard donnée aux agents des Fatui. L'érosion et l'oxydation du boîtier témoignent des journées passées par son propriétaire en tant qu'exécuteur.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Frost Operative",
+        "Wind Operative"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Operative's Standard Pocket Watch"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Absolution",
+    "Cashflow Supervision",
+    "\"Ultimate Overlord's Mega Magic Sword\"",
+    "Prospector's Drill",
+    "Sword of Narzissenkreuz",
+    "The Dockhand's Assistant"
+  ],
+  "sellers": []
+}

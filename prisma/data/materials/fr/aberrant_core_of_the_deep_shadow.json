@@ -1,0 +1,49 @@
+{
+  "name": "Noyau aberrant des fonds",
+  "rarity": 3,
+  "categories": [
+    "FISHER_OF_HIDDEN_DEPTHS_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Les restes d'un pêcheur venu d'un autre monde, abandonnés après la dissolution de son corps. Un noyau dont les fonctions se sont totalement arrêtées, et dont la structure ne ressemble à aucun organe d'aucune créature connue sur cette terre.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Fisher of Hidden Depths"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Fractured Eye of the Deep Shadow",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Hooked Beak of the Deep Shadow"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Gest of the Mighty Wolf",
+    "Nocturne's Curtain Call"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Pommeau rayé",
+  "rarity": 3,
+  "categories": [
+    "PRAETORIAN_GOLEM_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un pommeau en pierre obtenu à partir d'une statue ancienne. Les éclats et les rayures témoignent des batailles brutales que son propriétaire a endurées.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Praetorian Golem"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Ruined Hilt",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Still-Smoldering Hilt"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Crimson Moon's Semblance",
+    "Lumidouce Elegy",
+    "Cloudforged",
+    "Flute of Ezpitzal"
+  ],
+  "sellers": []
+}

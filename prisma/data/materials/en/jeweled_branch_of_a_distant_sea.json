@@ -1,0 +1,55 @@
+{
+  "name": "Jeweled Branch of a Distant Sea",
+  "rarity": 3,
+  "categories": [
+    "BRANCHES_OF_A_DISTANT_SEA"
+  ],
+  "description": "This coral cannot be found anywhere in Teyvat, but was a gift that the great serpent obtained when it broke into the Dark Sea. For that abyssal snake, to be filled with coral was to be mighty, and its power would be shaved away as those corals were lost. In other words, those corals contain power far beyond the norm.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Court of Flowing Sand",
+      "rotation": "Sunken Sands",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Coral Branch of a Distant Sea",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Jade Branch of a Distant Sea"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Everlasting Moonglow",
+    "Mistsplitter Reforged",
+    "Uraku Misugiri",
+    "Akuoumaru",
+    "Amenoma Kageuchi",
+    "Hakushin Ring",
+    "Oathsworn Eye"
+  ],
+  "sellers": []
+}

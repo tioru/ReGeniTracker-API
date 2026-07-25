@@ -1,0 +1,88 @@
+{
+  "name": "Sharp Arrowhead",
+  "rarity": 2,
+  "categories": [
+    "HILICHURL_SHOOTER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "A well-made arrowhead. Sharp enough to penetrate armor with the ease of a rock through the surface of water.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Cryo Hilichurl Shooter",
+        "Electro Hilichurl Shooter",
+        "Hilichurl Shooter",
+        "Pyro Hilichurl Shooter"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Firm Arrowhead",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Weathered Arrowhead"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Amber",
+      "Collei",
+      "Dahlia",
+      "Diona",
+      "Fischl",
+      "Lohen"
+    ],
+    "talent": [
+      "Amber",
+      "Collei",
+      "Dahlia",
+      "Diona",
+      "Fischl",
+      "Lohen",
+      "Traveler (Geo)"
+    ]
+  },
+  "usedByWeapons": [
+    "Aquila Favonia",
+    "Skyward Atlas",
+    "Skyward Harp",
+    "Thundering Pulse",
+    "Blackcliff Longsword",
+    "Favonius Sword",
+    "Hamayumi",
+    "King's Squire",
+    "Lithic Blade",
+    "Lithic Spear",
+    "Predator",
+    "Prototype Amber",
+    "Sacrificial Greatsword",
+    "Snare Hook",
+    "Song of Stillness",
+    "The Stringless",
+    "The Viridescent Hunt",
+    "Black Tassel",
+    "Bloodtainted Greatsword",
+    "Cool Steel",
+    "Raven Bow",
+    "Silver Sword",
+    "Dull Blade"
+  ],
+  "sellers": []
+}

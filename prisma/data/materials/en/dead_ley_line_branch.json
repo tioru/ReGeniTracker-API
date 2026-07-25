@@ -1,0 +1,57 @@
+{
+  "name": "Dead Ley Line Branch",
+  "rarity": 2,
+  "categories": [
+    "ABYSS_MAGE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Fragile branches from deep within the earth. Even after years of aging, from beneath it's mottled surface you can see that its power is not yet entirely lost.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Abyss Herald: Wicked Torrents",
+        "Abyss Lector: Fathomless Flames",
+        "Abyss Lector: Violet Lightning",
+        "Cryo Abyss Mage",
+        "Electro Abyss Mage",
+        "Hydro Abyss Mage",
+        "Pyro Abyss Mage"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Dead Ley Line Leaves"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Skyward Atlas",
+    "Skyward Blade",
+    "Skyward Harp",
+    "Skyward Pride",
+    "Staff of Homa",
+    "Deathmatch",
+    "Dodoco Tales",
+    "Sacrificial Bow",
+    "Sacrificial Greatsword",
+    "Sword of Descension",
+    "The Black Sword",
+    "The Flute",
+    "The Widsith",
+    "Windblume Ode",
+    "Wine and Song",
+    "Bloodtainted Greatsword",
+    "Harbinger of Dawn",
+    "Sharpshooter's Oath",
+    "Thrilling Tales of Dragon Slayers",
+    "Old Merc's Pal",
+    "Seasoned Hunter's Bow",
+    "Hunter's Bow",
+    "Waster Greatsword"
+  ],
+  "sellers": []
+}

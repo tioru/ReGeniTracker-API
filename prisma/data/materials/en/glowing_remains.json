@@ -1,0 +1,55 @@
+{
+  "name": "Glowing Remains",
+  "rarity": 3,
+  "categories": [
+    "RADIANT_BEAST_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A faintly glowing piece of bone taken from the exterior of a glowing beast. It is the remains of an exoskeleton in which a vestige of the ancient power of the moon still lingers. It emanates a deep hue that still lingers long after being separated from its body, steeped as it is in the power of the moon.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Radiant Antelope",
+        "Radiant Bladehorn",
+        "Radiant Glacial Wolf",
+        "Radiant Lunapod"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Lightless Bone",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Radiant Exoskeleton"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Disaster and Remorse",
+    "Reliquary of Truth",
+    "Etherlight Spindlelute",
+    "Master Key",
+    "Moonweaver's Dawn"
+  ],
+  "sellers": []
+}

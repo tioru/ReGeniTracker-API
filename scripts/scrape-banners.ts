@@ -150,11 +150,50 @@ function createHttpsAgent(): https.Agent {
   return new https.Agent({ keepAlive: true });
 }
 
+// Le wiki fandom coupe parfois la connexion (ECONNRESET) ou renvoie un 429/503
+// après une rafale de requêtes rapprochées. On retente avec un backoff
+// exponentiel plutôt que d'abandonner l'occurrence : sans ça, une bannière
+// pourtant valide finit marquée en échec dans les logs (vu en pratique sur la
+// fin d'un scraping --all, ~7 occurrences perdues pour rien).
+const RETRYABLE_CODES = new Set([
+  'ECONNRESET',
+  'ETIMEDOUT',
+  'ECONNABORTED',
+  'EAI_AGAIN',
+]);
+
+function isRetryableError(err: any): boolean {
+  if (RETRYABLE_CODES.has(err?.code)) return true;
+  const status = err?.response?.status;
+  return status === 429 || status === 503;
+}
+
+async function axiosGetWithRetry(
+  url: string,
+  config: Record<string, unknown>,
+  maxRetries = 4,
+): Promise<any> {
+  let attempt = 0;
+  for (;;) {
+    try {
+      return await axios.get(url, config);
+    } catch (err: any) {
+      if (attempt >= maxRetries || !isRetryableError(err)) throw err;
+      const delay = 1000 * 2 ** attempt;
+      console.error(
+        `  ⚠️  ${err.code ?? err.response?.status} — retry ${attempt + 1}/${maxRetries} dans ${delay}ms...`,
+      );
+      await new Promise((r) => setTimeout(r, delay));
+      attempt++;
+    }
+  }
+}
+
 async function fetchPageWikitext(
   pageTitle: string,
   lang: string,
 ): Promise<string> {
-  const response = await axios.get(getApiUrl(lang), {
+  const response = await axiosGetWithRetry(getApiUrl(lang), {
     params: {
       action: 'query',
       titles: pageTitle,
@@ -184,7 +223,7 @@ async function fetchExpandTemplate(
   contextTitle: string,
   lang: string,
 ): Promise<string> {
-  const response = await axios.get(getApiUrl(lang), {
+  const response = await axiosGetWithRetry(getApiUrl(lang), {
     params: {
       action: 'expandtemplates',
       text: templateCall,
@@ -206,7 +245,7 @@ async function fetchRenderedHtml(
   pageTitle: string,
   lang: string,
 ): Promise<string> {
-  const response = await axios.get(getApiUrl(lang), {
+  const response = await axiosGetWithRetry(getApiUrl(lang), {
     params: {
       action: 'parse',
       page: pageTitle,
@@ -239,7 +278,7 @@ async function fetchAllOccurrencesViaPrefix(
   const dateRegex = new RegExp(`\\/${PAGE_DATE_PATTERN}$`);
 
   do {
-    const response: any = await axios.get(getApiUrl(lang), {
+    const response: any = await axiosGetWithRetry(getApiUrl(lang), {
       params: {
         action: 'query',
         list: 'allpages',
@@ -279,7 +318,7 @@ async function fetchCategoryFileMembers(
   let cmcontinue: string | undefined = undefined;
 
   do {
-    const response: any = await axios.get(getApiUrl(lang), {
+    const response: any = await axiosGetWithRetry(getApiUrl(lang), {
       params: {
         action: 'query',
         list: 'categorymembers',

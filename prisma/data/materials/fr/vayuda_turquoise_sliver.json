@@ -1,0 +1,173 @@
+{
+  "name": "Éclat de turquoise vayuda",
+  "rarity": 2,
+  "categories": [
+    "VAYUDA_TURQUOISE",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Matériau d'élévation de personnage.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 1,
+      "names": [
+        "Algorithm of Semi-Intransient Matrix of Overseer Network",
+        "Anemo Hypostasis",
+        "Icewind Suite",
+        "Maguu Kenki",
+        "Setekh Wenut",
+        "Solitary Suanni",
+        "Tenebrous Papilla"
+      ]
+    },
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 1,
+      "names": [
+        "Everlasting Lord of Arcane Wisdom",
+        "Stormterror Dvalin"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Agnidus Agate Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Varunada Lazurite Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Nagadus Emerald Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vajrada Amethyst Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shivada Jade Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Prithiva Topaz Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Agnidus Agate Sliver",
+    "Nagadus Emerald Sliver",
+    "Prithiva Topaz Sliver",
+    "Shivada Jade Sliver",
+    "Vajrada Amethyst Sliver",
+    "Varunada Lazurite Sliver",
+    "Vayuda Turquoise Fragment"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Chasca",
+      "Faruzan",
+      "Ifa",
+      "Jahoda",
+      "Jean",
+      "Kaedehara Kazuha",
+      "Lan Yan",
+      "Lynette",
+      "Prune",
+      "Sayu",
+      "Shikanoin Heizou",
+      "Sucrose",
+      "Varka",
+      "Venti",
+      "Wanderer",
+      "Xianyun",
+      "Xiao",
+      "Yumemizuki Mizuki"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Marjorie",
+      "currency": "Sigil",
+      "cost": 10,
+      "stock": 6,
+      "restock": "NEVER"
+    },
+    {
+      "name": "Xingxi",
+      "currency": "Sigil",
+      "cost": 10,
+      "stock": 12,
+      "restock": "NEVER"
+    }
+  ]
+}

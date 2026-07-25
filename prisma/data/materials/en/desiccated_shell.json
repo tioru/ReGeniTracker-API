@@ -1,0 +1,36 @@
+{
+  "name": "Desiccated Shell",
+  "rarity": 2,
+  "categories": [
+    "CONSECRATED_BEAST_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "The ruined shell of a Consecrated Beast. A tangible effigy to the grand calamity that devoured the lands of yore, usually only discovered in places few dare tread.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Consecrated Fanged Beast",
+        "Consecrated Flying Serpent",
+        "Consecrated Horned Crocodile",
+        "Consecrated Red Vulture",
+        "Consecrated Scorpion"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Sturdy Shell"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Beacon of the Reed Sea",
+    "Light of Foliar Incision",
+    "Mailed Flower",
+    "Talking Stick"
+  ],
+  "sellers": []
+}

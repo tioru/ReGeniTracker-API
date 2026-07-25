@@ -1,0 +1,53 @@
+{
+  "name": "Philosophies of Gold",
+  "rarity": 4,
+  "categories": [
+    "GOLD_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Gold is the symbol of the land of Geo. Gold is the wealth of Liyue, but Liyue's true wealth is the hearts of its people that shine like gold.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Taishan Mansion",
+      "rotation": "Circle of Embers",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Gold",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Baizhu",
+      "Beidou",
+      "Traveler (Geo)",
+      "Xianyun",
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei",
+      "Zhongli",
+      "Zibai"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

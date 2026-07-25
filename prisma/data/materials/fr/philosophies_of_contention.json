@@ -1,0 +1,49 @@
+{
+  "name": "Philosophie de la Compétition",
+  "rarity": 4,
+  "categories": [
+    "CONTENTION_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. La compétition est le principe qui régit tout dans la patrie du feu. Son but est de vous rendre plus fort. Une fois l'issue d'une compétition décidée, le vainqueur acquiert la confiance nécessaire pour être sûr de la direction qu'il prend, tandis que le perdant acquiert des connaissances sur la manière dont il doit devenir plus fort. Au-delà de la victoire ou de la défaite, c'est là le véritable sens de la compétition.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Ruines flamboyantes",
+      "rotation": "Reconversion",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Contention",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Iansan",
+      "Mavuika",
+      "Mualani",
+      "Skirk",
+      "Traveler (Pyro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

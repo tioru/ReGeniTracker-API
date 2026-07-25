@@ -1,0 +1,55 @@
+{
+  "name": "Guide to Conflict",
+  "rarity": 3,
+  "categories": [
+    "CONFLICT_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Conflict is considered reason in the Nation of Pyro. Conflicts can always be resolved by greater powers. This fact means that they can always be managed, as opposed to developing into something uncontrollable. Conflict is also a kind of limitation, preventing people from endless shirking of responsibilities without weighing the costs. It demands that participants settle their scores decisively and efficiently.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Blazing Ruins",
+      "rotation": "Return",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Conflict",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Conflict"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Chasca",
+      "Ifa",
+      "Ineffa",
+      "Kachina",
+      "Traveler (Pyro)",
+      "Varesa"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

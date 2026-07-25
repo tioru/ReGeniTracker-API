@@ -1,0 +1,73 @@
+{
+  "name": "Parchemin divinatoire",
+  "rarity": 1,
+  "categories": [
+    "SAMACHURL_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Un parchemin qui semble parler de magie. Il dégage une étrange chaleur.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Anemo Samachurl",
+        "Cryo Samachurl",
+        "Dendro Samachurl",
+        "Electro Samachurl",
+        "Geo Samachurl",
+        "Hydro Samachurl"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Sealed Scroll"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Albedo",
+      "Barbara",
+      "Cyno",
+      "Klee",
+      "Layla",
+      "Qiqi",
+      "Xianyun",
+      "Yoimiya"
+    ],
+    "talent": [
+      "Albedo",
+      "Barbara",
+      "Cyno",
+      "Klee",
+      "Layla",
+      "Qiqi",
+      "Traveler (Anemo)",
+      "Traveler (Geo)",
+      "Traveler (Unaligned)",
+      "Xianyun",
+      "Yoimiya"
+    ]
+  },
+  "usedByWeapons": [
+    "Crane's Echoing Call",
+    "Freedom-Sworn",
+    "Skyward Spine",
+    "Wolf's Gravestone",
+    "Blackcliff Agate",
+    "Dragon's Bane",
+    "Fading Twilight",
+    "Favonius Codex",
+    "Hakushin Ring",
+    "Rainslasher",
+    "Royal Bow",
+    "Sacrificial Jade",
+    "Sacrificial Sword",
+    "The Alley Flash",
+    "Recurve Bow",
+    "Thrilling Tales of Dragon Slayers",
+    "Traveler's Handy Sword",
+    "Iron Point",
+    "Beginner's Protector"
+  ],
+  "sellers": []
+}

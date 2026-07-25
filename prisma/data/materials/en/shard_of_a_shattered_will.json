@@ -1,0 +1,38 @@
+{
+  "name": "Shard of a Shattered Will",
+  "rarity": 2,
+  "categories": [
+    "WAYOB_MANIFESTATION_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A fragment that houses a Wayob Manifestation. It is a broken shard of a shattered stone idol. Its capacity for channeling the Wayob's will and power is also extremely limited.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Biting-Cold Wayob Manifestation",
+        "Burning-Aflame Wayob Manifestation",
+        "Flow-Inverted Wayob Manifestation",
+        "Foliar-Swift Wayob Manifestation",
+        "Rock-Cavernous Wayob Manifestation",
+        "Thundering Wayob Manifestation"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Locus of a Clear Will"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Starcaller's Watch",
+    "Surf's Up",
+    "Ring of Yaxche",
+    "Sturdy Bone",
+    "Waveriding Whirl"
+  ],
+  "sellers": []
+}

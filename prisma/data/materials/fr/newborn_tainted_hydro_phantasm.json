@@ -1,0 +1,53 @@
+{
+  "name": "Jeune Fantasme Hydro croupi",
+  "rarity": 4,
+  "categories": [
+    "TAINTED_HYDRO_PHANTASM_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Une nouvelle forme de vie apparue après la dispersion d'un Fantasme Hydro croupi, actuellement emprisonnée à l'intérieur d'une bouteille. La vie contenue dans les eaux est intangible, et la vie intangible est née de l'eau et emprunte sa forme.",
+  "sources": [
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Scoop of Tainted Water",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Tainted Water-Splitting Phantasm",
+        "Tainted Water-Spouting Phantasm"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Splendor of Tranquil Waters",
+    "Symphonist of Scents",
+    "The First Great Magic",
+    "Finale of the Deep",
+    "Fleuve Cendre Ferryman",
+    "Range Gauge",
+    "Song of Stillness"
+  ],
+  "sellers": []
+}

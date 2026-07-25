@@ -1,0 +1,184 @@
+{
+  "name": "Fragment de jade shivada",
+  "rarity": 3,
+  "categories": [
+    "SHIVADA_JADE",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Matériau d'élévation de personnage. « Pardon... »",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 40,
+      "names": [
+        "Aeonblight Drake",
+        "Coral Defenders",
+        "Cryo Hypostasis",
+        "Cryo Regisvine",
+        "Frostnight Herra",
+        "Icewind Suite",
+        "Iniquitous Baptist",
+        "Maguu Kenki",
+        "Perpetual Mechanical Array",
+        "Primo Geovishap",
+        "Super-Heavy Landrover: Mechanized Fortress",
+        "Wayward Hermetic Spiritspeaker"
+      ]
+    },
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 40,
+      "names": [
+        "Andrius",
+        "Azhdaha (Weekly Boss)",
+        "Childe",
+        "Exalted Master of the Heretical Path",
+        "Heretic of the False Moon",
+        "La Signora"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shivada Jade Sliver",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 300
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Agnidus Agate Fragment",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Varunada Lazurite Fragment",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Nagadus Emerald Fragment",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vajrada Amethyst Fragment",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vayuda Turquoise Fragment",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Prithiva Topaz Fragment",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "minimumAdventureRank": 25
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Agnidus Agate Fragment",
+    "Nagadus Emerald Fragment",
+    "Prithiva Topaz Fragment",
+    "Shivada Jade Chunk",
+    "Vajrada Amethyst Fragment",
+    "Varunada Lazurite Fragment",
+    "Vayuda Turquoise Fragment"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Aloy",
+      "Charlotte",
+      "Chongyun",
+      "Citlali",
+      "Diona",
+      "Escoffier",
+      "Eula",
+      "Freminet",
+      "Ganyu",
+      "Kaeya",
+      "Kamisato Ayaka",
+      "Layla",
+      "Lohen",
+      "Mika",
+      "Qiqi",
+      "Rosaria",
+      "Sandrone",
+      "Shenhe",
+      "Skirk",
+      "Wriothesley"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

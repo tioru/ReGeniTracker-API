@@ -1,0 +1,81 @@
+{
+  "name": "Sifflet en bois de sentinelle",
+  "rarity": 1,
+  "categories": [
+    "SAUROFORM_TRIBAL_WARRIOR_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Le symbole d'une sentinelle tribale de Natlan. Les guerriers ne sont pas nés guerriers. Ils doivent d'abord acquérir des compétences de combat en apprenant sous la tutelle de ceux qui l'ont déjà fait. C'est là l'origine du poste de stagiaire des sentinelles.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Ferocious Warrior: Grappler",
+        "Ferocious Warrior: Human Ram",
+        "Ferocious Warrior: Wrestler",
+        "Flowing Blade Grease-Saw",
+        "Flowing Blade Harpoon-Thrower",
+        "Flowing Blade Skirmisher",
+        "Forged Sand Interrogator",
+        "Forged Sand Javelineer",
+        "Forged Sand Shieldbreaker",
+        "Iktomisaurus Warrior: Cryocrystal Cannon",
+        "Iktomisaurus Warrior: Icy Tidebearer",
+        "Koholasaurus Warrior: Reefsplitter",
+        "Koholasaurus Warrior: Waveshuttler",
+        "Qucusaurus Warrior: Blazing Sky",
+        "Qucusaurus Warrior: Heartstar Hammer",
+        "Spiritspeaker Warrior: Contemplator",
+        "Spiritspeaker Warrior: Determinator",
+        "Spiritspeaker Warrior: Psychokinetic",
+        "Swiftstep Armed Courier",
+        "Swiftstep Seeker",
+        "Swiftstep Storm Scout",
+        "Tatankasaurus Warrior: Skybreaker",
+        "Tatankasaurus Warrior: Spiritlight Chaser",
+        "Tepetlisaurus Warrior: Rockbreaker Blade",
+        "Tepetlisaurus Warrior: Shard Striker",
+        "Winged Warrior: Feathershedder",
+        "Winged Warrior: Skymaster",
+        "Winged Warrior: Skysoarer",
+        "Yumkasaurus Warrior: Flowing Skyfire",
+        "Yumkasaurus Warrior: Whirling Leaves"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Warrior's Metal Whistle"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Iansan",
+      "Ineffa",
+      "Kachina",
+      "Mavuika",
+      "Mualani",
+      "Xilonen"
+    ],
+    "talent": [
+      "Iansan",
+      "Ineffa",
+      "Kachina",
+      "Mavuika",
+      "Mualani",
+      "Traveler (Pyro)",
+      "Xilonen"
+    ]
+  },
+  "usedByWeapons": [
+    "Astral Vulture's Crimson Plumage",
+    "Azurelight",
+    "Fang of the Mountain King",
+    "Starcaller's Watch",
+    "Calamity of Eshu",
+    "Earth Shaker",
+    "Flower-Wreathed Feathers",
+    "Footprint of the Rainbow",
+    "Sturdy Bone"
+  ],
+  "sellers": []
+}

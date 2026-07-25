@@ -1,0 +1,80 @@
+{
+  "name": "Soie rouge brodée",
+  "rarity": 2,
+  "categories": [
+    "THE_EREMITES_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Un morceau de soie rouge garni de décorations simples. Un guerrier aguerri peut détecter les faiblesses dans les yeux de son ennemi et en tirer ainsi profit. Les Érémites ont perdu leur maître il y a fort longtemps, et aujourd'hui, ils ne font plus confiance qu'à eux-mêmes. On dit qu'ils sont plus que convaincus que toutes les choses du monde les trahissent, même leurs propres yeux.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Eremite Axe Vanguard",
+        "Eremite Crossbow",
+        "Eremite Daythunder",
+        "Eremite Desert Clearwater",
+        "Eremite Floral Ring-Dancer",
+        "Eremite Galehunter",
+        "Eremite Linebreaker",
+        "Eremite Ravenbeak Halberdier",
+        "Eremite Scorching Loremaster",
+        "Eremite Stone Enchanter",
+        "Eremite Sunfrost",
+        "Eremite Sword-Dancer"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Faded Red Satin",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Rich Red Brocade"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Alhaitham",
+      "Candace",
+      "Dehya",
+      "Dori",
+      "Faruzan",
+      "Sethos"
+    ],
+    "talent": [
+      "Alhaitham",
+      "Candace",
+      "Dehya",
+      "Dori",
+      "Faruzan",
+      "Sethos"
+    ]
+  },
+  "usedByWeapons": [
+    "Beacon of the Reed Sea",
+    "Hunter's Path",
+    "Key of Khaj-Nisut",
+    "Light of Foliar Incision",
+    "Forest Regalia",
+    "Ibis Piercer",
+    "Sapwood Blade",
+    "Xiphos' Moonlight"
+  ],
+  "sellers": []
+}

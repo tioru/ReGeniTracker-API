@@ -1,0 +1,50 @@
+{
+  "name": "Fleur de Qingxin",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES",
+    "COOKING_INGREDIENTS"
+  ],
+  "description": "Une fleur blanche translucide qui ne pousse que sur les sommets des montagnes les plus hautes. Au lieu de grandir dans les plaines riches et humides, elle choisit de regarder au loin depuis les sommets des montagnes les plus solitaires.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the heights of Liyue, especially Minlin and Wuwang Hill"
+    }
+  ],
+  "usedIn": [
+    "Fruity Duet",
+    "Fruity Smoothie",
+    "Heat-Quelling Soup",
+    "Jade Fruit Soup",
+    "Jade-Cut Flowers",
+    "Lucky Snow Delight",
+    "Qingxin Flower Cake",
+    "Tianshu Meat"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Ganyu",
+      "Shenhe",
+      "Xiao"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Babak",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Herbalist Gui",
+      "currency": "Mora",
+      "cost": 600,
+      "stock": 10,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

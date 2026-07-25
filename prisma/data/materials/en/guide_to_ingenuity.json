@@ -1,0 +1,52 @@
+{
+  "name": "Guide to Ingenuity",
+  "rarity": 3,
+  "categories": [
+    "INGENUITY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Ingenuity is the leaf-veins of the nation of wisdom. Ingenuity sets words of integrity on the right path. One who thinks out of goodwill and in a clever and careful fashion never deviates from the path of boons. Yet one who thinks with contempt and malice shall taint their words with despicable colors.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Steeple of Ignorance",
+      "rotation": "Witticism",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Ingenuity",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Ingenuity"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Alhaitham",
+      "Dori",
+      "Kaveh",
+      "Layla",
+      "Nahida",
+      "Traveler (Dendro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Sturdy Shell",
+  "rarity": 3,
+  "categories": [
+    "CONSECRATED_BEAST_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "The sturdy shell of a Consecrated Beast. The remains of a ruinous beast that once gnawed at the flesh of great, fallen beings. Even should the beasts sup a sliver of power from the gods of yesteryear, they too will greet the same end as said gods.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Consecrated Fanged Beast",
+        "Consecrated Flying Serpent",
+        "Consecrated Horned Crocodile",
+        "Consecrated Red Vulture",
+        "Consecrated Scorpion"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Desiccated Shell",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Marked Shell"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Beacon of the Reed Sea",
+    "Light of Foliar Incision",
+    "Mailed Flower",
+    "Talking Stick"
+  ],
+  "sellers": []
+}

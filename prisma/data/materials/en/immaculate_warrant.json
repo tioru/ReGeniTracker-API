@@ -1,0 +1,71 @@
+{
+  "name": "Immaculate Warrant",
+  "rarity": 2,
+  "categories": [
+    "FATUI_OPRICHNIKI_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "A warrant issued to members of the Fatui Oprichniki. One wonders if the exquisite styling might hide a price paid for its owner's promotion.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Oprichniki Bombardier",
+        "Oprichniki Fireblade Shock Trooper",
+        "Oprichniki Grenadier",
+        "Oprichniki Hailstorm Cannoneer",
+        "Oprichniki Line Trooper",
+        "Oprichniki Medic",
+        "Oprichniki Support Trooper",
+        "Oprichniki Thunderblitz Gvardiya",
+        "Oprichniki Vanguard"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Tattered Warrant",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Frost-Etched Warrant"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Durin",
+      "Lauma",
+      "Linnea",
+      "Nefer",
+      "Nicole",
+      "Zibai"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "A Teaspoon of Transcendence",
+    "Bloodsoaked Ruins",
+    "Golden Frostbound Oath",
+    "Nocturne's Curtain Call",
+    "Blackmarrow Lantern",
+    "Dawning Frost",
+    "Etherlight Spindlelute",
+    "Rainbow Serpent's Rain Bow",
+    "Serenity's Call"
+  ],
+  "sellers": []
+}

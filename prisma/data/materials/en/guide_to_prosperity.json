@@ -1,0 +1,57 @@
+{
+  "name": "Guide to Prosperity",
+  "rarity": 3,
+  "categories": [
+    "PROSPERITY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Prosperity is the people's pursuit in the land of Geo. Prosperity is the promise made by Liyue to its children: To repay the hard-working laborers with enough gold to brighten up this land.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Taishan Mansion",
+      "rotation": "Altar of Flames",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Prosperity",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Prosperity"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Gaming",
+      "Keqing",
+      "Ningguang",
+      "Qiqi",
+      "Shenhe",
+      "Traveler (Geo)",
+      "Xiao",
+      "Yelan"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

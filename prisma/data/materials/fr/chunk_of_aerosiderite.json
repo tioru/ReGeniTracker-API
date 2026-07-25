@@ -1,0 +1,60 @@
+{
+  "name": "Morceau d'aérosidérite noire",
+  "rarity": 5,
+  "categories": [
+    "AEROSIDERITE"
+  ],
+  "description": "Matériau d'élévation d'arme. Après la chute de Khaenri'ah, un hérétique créa une armée de monstres au sang noir en faisant appel à des forces maléfiques d'un autre monde. Ceux-ci détruisirent et pillèrent tout ce qui se dressait devant eux. Durin, le dragon serpentin était une de ces abominations.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Palais secret de Lianshan",
+      "rotation": "Terrain d'ancien tonnerre",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Bit of Aerosiderite",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Lightbearing Moonshard",
+    "Memory of Dust",
+    "Staff of Homa",
+    "Vortex Vanquisher",
+    "Cloudforged",
+    "Compound Bow",
+    "Fading Twilight",
+    "Iron Sting",
+    "Lithic Spear",
+    "Luxurious Sea-Lord",
+    "Mappa Mare",
+    "Prototype Archaic",
+    "Prototype Starglitter",
+    "Serpent Spine",
+    "Black Tassel",
+    "Skyrider Greatsword",
+    "Skyrider Sword"
+  ],
+  "sellers": []
+}

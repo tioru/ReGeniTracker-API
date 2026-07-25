@@ -1,0 +1,27 @@
+{
+  "name": "Éclat de diamant scintillant",
+  "rarity": 2,
+  "categories": [
+    "BRILLIANT_DIAMOND",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Matériau d'élévation de personnage. « Bienvenue au monde »",
+  "sources": [
+    {
+      "type": "ADVENTURE_RANK_REWARD",
+      "rewards": [
+        {
+          "adventureRank": 15,
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

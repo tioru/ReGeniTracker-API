@@ -1,0 +1,55 @@
+{
+  "name": "Œil du chaos",
+  "rarity": 4,
+  "categories": [
+    "RUIN_SENTINEL_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Provient d'un ancien mécanisme des ruines désormais inactif. Le mot « ruines » fait référence aux zones dans lesquelles ils sont les plus actifs. Cependant, les mécanismes des ruines n'ont en réalité que peu de points communs avec les débris dans lesquels ils se trouvent habituellement. Dans un passé lointain, ces ruines appartenaient à une civilisation assez puissante pour presque toucher le dôme du firmament, pendant qu'elles restaient à attendre dans les tréfonds de la terre, l'ordre de se soulever et de renverser tous les royaumes.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Ruin Cruiser",
+        "Ruin Defender",
+        "Ruin Destroyer",
+        "Ruin Scout"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Chaos Axis",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Engulfing Lightning",
+    "Mistsplitter Reforged",
+    "Uraku Misugiri",
+    "\"The Catch\"",
+    "Amenoma Kageuchi",
+    "Katsuragikiri Nagamasa",
+    "Kitain Cross Spear"
+  ],
+  "sellers": []
+}

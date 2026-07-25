@@ -1,0 +1,52 @@
+{
+  "name": "Jade Branch of a Distant Sea",
+  "rarity": 4,
+  "categories": [
+    "BRANCHES_OF_A_DISTANT_SEA"
+  ],
+  "description": "Fleeing into the Dark Sea, the god that had lost everything met the abandoned people who had nothing within the ocean depths. Thus it elected to remain and become their \"Orobashi no Mikoto,\" their \"Watatsumi Omikami.\" It is said that the great snake god once broke off all the coral branches on its body to give light to the children who were curled up in the darkness. They also say that it used these coral branches to create a huge ladder to allow those children to once again reach the surface and see the light of day.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Court of Flowing Sand",
+      "rotation": "Sunken Sands",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Jeweled Branch of a Distant Sea",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 350
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Golden Branch of a Distant Sea"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Everlasting Moonglow",
+    "Mistsplitter Reforged",
+    "Uraku Misugiri",
+    "Akuoumaru",
+    "Amenoma Kageuchi",
+    "Hakushin Ring",
+    "Oathsworn Eye"
+  ],
+  "sellers": []
+}

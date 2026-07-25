@@ -1,0 +1,37 @@
+{
+  "name": "Griffe dissimulée",
+  "rarity": 2,
+  "categories": [
+    "RIFTWOLF_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Le tissu résiduel provenant du corps d'un canidé de faille. En toute logique, cet objet qui n'appartient guère à ce monde n'aurait pas dû subsister après l'anéantissement de ces créatures anormales.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Rockfond Rifthound",
+        "Rockfond Rifthound Whelp",
+        "Thundercraven Rifthound",
+        "Thundercraven Rifthound Whelp"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Concealed Unguis"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Kagura's Verity",
+    "Polar Star",
+    "Redhorn Stonethresher",
+    "Akuoumaru",
+    "Oathsworn Eye",
+    "Wavebreaker's Fin"
+  ],
+  "sellers": []
+}

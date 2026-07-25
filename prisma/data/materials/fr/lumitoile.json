@@ -1,0 +1,24 @@
+{
+  "name": "Sombrétoile",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Un animal au corps mou qui émet une faible lumière. On en trouve souvent en train d'escalader les murs des bâtiments près de l'eau ou sous l'eau.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found on beaches and underwater in Liffey Region"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Clorinde",
+      "Neuvillette"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

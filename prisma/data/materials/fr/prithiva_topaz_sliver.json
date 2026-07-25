@@ -1,0 +1,171 @@
+{
+  "name": "Éclat de topaze prithiva",
+  "rarity": 2,
+  "categories": [
+    "PRITHIVA_TOPAZ",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Matériau d'élévation de personnage.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 1,
+      "names": [
+        "\"Statue of Marble and Brass\"",
+        "Geo Hypostasis",
+        "Golden Wolflord",
+        "Perpetual Mechanical Array",
+        "Primo Geovishap",
+        "Prototype Cal. Breguet",
+        "Radiant Moongecko",
+        "Ruin Serpent",
+        "The Open-Eyed"
+      ]
+    },
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 1,
+      "names": [
+        "Andrius",
+        "Azhdaha (Weekly Boss)"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Agnidus Agate Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Varunada Lazurite Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Nagadus Emerald Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vajrada Amethyst Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vayuda Turquoise Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shivada Jade Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Agnidus Agate Sliver",
+    "Nagadus Emerald Sliver",
+    "Prithiva Topaz Fragment",
+    "Shivada Jade Sliver",
+    "Vajrada Amethyst Sliver",
+    "Varunada Lazurite Sliver",
+    "Vayuda Turquoise Sliver"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Albedo",
+      "Arataki Itto",
+      "Chiori",
+      "Gorou",
+      "Illuga",
+      "Kachina",
+      "Linnea",
+      "Navia",
+      "Ningguang",
+      "Noelle",
+      "Xilonen",
+      "Yun Jin",
+      "Zhongli",
+      "Zibai"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Marjorie",
+      "currency": "Sigil",
+      "cost": 10,
+      "stock": 6,
+      "restock": "NEVER"
+    },
+    {
+      "name": "Xingxi",
+      "currency": "Sigil",
+      "cost": 10,
+      "stock": 12,
+      "restock": "NEVER"
+    }
+  ]
+}

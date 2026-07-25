@@ -1,0 +1,58 @@
+{
+  "name": "Brillance de givrenuit",
+  "rarity": 3,
+  "categories": [
+    "FROSTNIGHT_SCION_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un morceau pris de la couronne cornue d'un Héritier de givrenuit après l'avoir vaincu. Dans les plus anciennes histoires des Descendants de givrelune, la lueur de ces créatures nobles était décrite comme « la miséricorde pure de l'émissaire divin » par les philosophes de l'extrême nord. Bien que cette merci n'ait pas permis de sauver la cité dorée ou d'épargner l'exil à ses descendants, sa lueur traverse leurs couronnes en attendant un rêve qui ne reviendra peut-être jamais.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Blazing Brilliance: Frostnight Scion",
+        "Gilded Sunshard: Frostnight Scion",
+        "Gleaming Charge: Frostnight Scion",
+        "Icy Crystal: Frostnight Scion",
+        "Surging Currents: Frostnight Scion",
+        "Tangled Vines: Frostnight Scion",
+        "Veiled Cloudchaser: Frostnight Scion"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Frostnight's Glimmer",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Frostnight's Glory"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Athame Artis",
+    "Nightweaver's Looking Glass",
+    "Blackmarrow Lantern",
+    "Dawning Frost",
+    "Serenity's Call"
+  ],
+  "sellers": []
+}

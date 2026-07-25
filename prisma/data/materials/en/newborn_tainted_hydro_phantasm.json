@@ -1,0 +1,53 @@
+{
+  "name": "Newborn Tainted Hydro Phantasm",
+  "rarity": 4,
+  "categories": [
+    "TAINTED_HYDRO_PHANTASM_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A new lifeform that arose from the dispersed Tainted Hydro Phantasm. It is trapped inside a bottle. The life contained within the waters is formless, and formless life is born of water and gains water's shape.",
+  "sources": [
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Scoop of Tainted Water",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Tainted Water-Splitting Phantasm",
+        "Tainted Water-Spouting Phantasm"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Splendor of Tranquil Waters",
+    "Symphonist of Scents",
+    "The First Great Magic",
+    "Finale of the Deep",
+    "Fleuve Cendre Ferryman",
+    "Range Gauge",
+    "Song of Stillness"
+  ],
+  "sellers": []
+}

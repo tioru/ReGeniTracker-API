@@ -1,0 +1,24 @@
+{
+  "name": "Fruit d'Amakumo",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Le fruit de l'herbe d'Amakumo, qui pousse sur l'Île de Seirai. En le mettant contre votre oreille, vous pouvez entendre comme un petit crépitement de courant électrique.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the wild on Seirai Island"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Kirara",
+      "Raiden Shogun"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

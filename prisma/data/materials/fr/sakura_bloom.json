@@ -1,0 +1,36 @@
+{
+  "name": "Fleur de cerisier",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES",
+    "COOKING_INGREDIENTS"
+  ],
+  "description": "Une fleur du cerisier sacré du Sanctuaire de Narukami, remplie d'amour pour Inazuma.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the wild on Narukami Island"
+    }
+  ],
+  "usedIn": [
+    "\"Snow on the Hearth\"",
+    "Drink 455",
+    "Electroculus Resonance Stone",
+    "Fake Fly Bait",
+    "Quiet Elegance",
+    "Sakura Mochi",
+    "Sakura Shrimp Crackers",
+    "Sakura Tempura",
+    "Summer Festival Fish",
+    "Tricolor Dango"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Kamisato Ayaka",
+      "Kamisato Ayato"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

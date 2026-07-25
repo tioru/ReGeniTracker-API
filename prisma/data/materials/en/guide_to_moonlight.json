@@ -1,0 +1,51 @@
+{
+  "name": "Guide to Moonlight",
+  "rarity": 3,
+  "categories": [
+    "MOONLIGHT_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "\"Moonlight\" is the blessing of the land beneath the moon. The cloud-veiled moonlight glows but faintly over the boundless dark wilds. Yet its fragile glimmer is a guide through the endless night.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Lightless Capital",
+      "rotation": "Fallen City",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Moonlight",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Moonlight"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Columbina",
+      "Lauma"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

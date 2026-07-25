@@ -1,0 +1,29 @@
+{
+  "name": "Basalt Pillar",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "A pillar formed by the shell of a Geo Hypostasis. Composed of high-density Geo energy, it is a testament to Geo's status as the heaviest of the elements. Maybe the reason a Geo Hypostasis creates this pillar out of its shell and raises itself is just to get closer to the sky, not to combat enemies.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Geo Hypostasis"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Albedo",
+      "Ningguang",
+      "Noelle",
+      "Zhongli"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

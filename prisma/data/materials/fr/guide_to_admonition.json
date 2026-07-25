@@ -1,0 +1,51 @@
+{
+  "name": "Guide de l'Admonestation",
+  "rarity": 3,
+  "categories": [
+    "ADMONITION_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'admonestation est la branche de la nation de la sagesse. Elle va de pair avec la pensée ingénieuse. Une réflexion consciencieuse permet de s'exprimer clairement et humblement pour convaincre les sages et éclairer les ignorants. De telles paroles donnent la possibilité à la sagesse de couler librement, comme une rivière sans barrage.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Tour de l'ignorance",
+      "rotation": "Pleine lune",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Admonition",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Admonition"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Candace",
+      "Cyno",
+      "Faruzan",
+      "Tighnari",
+      "Traveler (Dendro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

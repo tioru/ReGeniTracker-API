@@ -1,0 +1,55 @@
+{
+  "name": "Cœur de lapis",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES",
+    "MINERALS"
+  ],
+  "description": "Un cristal précieux condensé par l'élément Géo pur qui se développe souvent avec d'autres minéraux. On l'appelle aussi « cœur de rocher ».",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found under cliffs in Liyue, especially Mt. Hulao"
+    }
+  ],
+  "usedIn": [
+    "Dustproof Potion",
+    "Geo Treasure Compass",
+    "Geoculus Resonance Stone",
+    "Special Unmoving Essential Oil",
+    "Unmoving Essential Oil",
+    "Yellow Dye"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Chongyun",
+      "Keqing",
+      "Zhongli"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Changshun",
+      "currency": "Mora",
+      "cost": 1500,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Fengtai",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Qiuwei",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Coque desséchée",
+  "rarity": 2,
+  "categories": [
+    "CONSECRATED_BEAST_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "La coque desséchée d'une bête sacralisée. Une preuve de la calamité qui a ravagé le monde dans le passé, et qui aujourd'hui ne peut être trouvée que dans des endroits où personne n'ose s'aventurer.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Consecrated Fanged Beast",
+        "Consecrated Flying Serpent",
+        "Consecrated Horned Crocodile",
+        "Consecrated Red Vulture",
+        "Consecrated Scorpion"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Sturdy Shell"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Beacon of the Reed Sea",
+    "Light of Foliar Incision",
+    "Mailed Flower",
+    "Talking Stick"
+  ],
+  "sellers": []
+}

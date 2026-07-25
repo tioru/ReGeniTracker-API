@@ -1,0 +1,57 @@
+{
+  "name": "Chaos Axis",
+  "rarity": 3,
+  "categories": [
+    "RUIN_SENTINEL_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Comes from a now-inactive ancient Ruin machine. Even the great techniques and unknown power of this device must come to nothing should the machine that contained them ever fail to maintain structural integrity.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Ruin Cruiser",
+        "Ruin Defender",
+        "Ruin Destroyer",
+        "Ruin Scout"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Chaos Gear",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Chaos Oculus"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Engulfing Lightning",
+    "Mistsplitter Reforged",
+    "Uraku Misugiri",
+    "\"The Catch\"",
+    "Amenoma Kageuchi",
+    "Katsuragikiri Nagamasa",
+    "Kitain Cross Spear"
+  ],
+  "sellers": []
+}

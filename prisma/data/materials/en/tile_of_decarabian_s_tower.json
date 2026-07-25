@@ -1,0 +1,53 @@
+{
+  "name": "Tile of Decarabian's Tower",
+  "rarity": 2,
+  "categories": [
+    "DECARABIAN_TILES"
+  ],
+  "description": "The place now known as Stormterror's Lair was once the capital city of Decarabian, the God of Storms. Since this dream of prosperity was created entirely by his divine might, the broken pieces left behind by the shattering of that dream still possess great power.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cecilia Garden",
+      "rotation": "City of Reflections",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Debris of Decarabian's City"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aquila Favonia",
+    "Athame Artis",
+    "Disaster and Remorse",
+    "Song of Broken Pines",
+    "Cinnabar Spindle",
+    "Favonius Codex",
+    "Favonius Sword",
+    "Mitternachts Waltz",
+    "Royal Grimoire",
+    "Royal Longsword",
+    "Snow-Tombed Starsilver",
+    "The Alley Flash",
+    "The Bell",
+    "The Stringless",
+    "The Viridescent Hunt",
+    "Wolf-Fang",
+    "Cool Steel",
+    "Ferrous Shadow",
+    "Magic Guide",
+    "Raven Bow",
+    "Pocket Grimoire",
+    "Silver Sword",
+    "Apprentice's Notes",
+    "Dull Blade"
+  ],
+  "sellers": []
+}

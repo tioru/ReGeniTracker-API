@@ -1,0 +1,84 @@
+{
+  "name": "Pointe de flèche usée",
+  "rarity": 3,
+  "categories": [
+    "HILICHURL_SHOOTER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Une vieille pointe de flèche recouverte de sang. Elle a perdu son tranchant depuis longtemps et ne sert plus d'arme. Cependant, les chasseurs la portent fièrement à leur cou comme une amulette ou une médaille.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Cryo Hilichurl Shooter",
+        "Electro Hilichurl Shooter",
+        "Hilichurl Shooter",
+        "Pyro Hilichurl Shooter"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Sharp Arrowhead",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Amber",
+      "Collei",
+      "Dahlia",
+      "Diona",
+      "Fischl",
+      "Lohen"
+    ],
+    "talent": [
+      "Amber",
+      "Collei",
+      "Dahlia",
+      "Diona",
+      "Fischl",
+      "Lohen",
+      "Traveler (Geo)"
+    ]
+  },
+  "usedByWeapons": [
+    "Aquila Favonia",
+    "Skyward Atlas",
+    "Skyward Harp",
+    "Thundering Pulse",
+    "Blackcliff Longsword",
+    "Favonius Sword",
+    "Hamayumi",
+    "King's Squire",
+    "Lithic Blade",
+    "Lithic Spear",
+    "Predator",
+    "Prototype Amber",
+    "Sacrificial Greatsword",
+    "Snare Hook",
+    "Song of Stillness",
+    "The Stringless",
+    "The Viridescent Hunt",
+    "Black Tassel",
+    "Bloodtainted Greatsword",
+    "Cool Steel",
+    "Raven Bow"
+  ],
+  "sellers": []
+}

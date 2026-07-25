@@ -1,0 +1,44 @@
+{
+  "name": "Dague de chasse rituelle",
+  "rarity": 2,
+  "categories": [
+    "FATUI_PYRO_AGENT_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Une arme tranchante en alliage. Elle n'a plus de propriétaire depuis longtemps, mais sa lame brille toujours d'un éclat menaçant.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Fatui Pyro Agent"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Agent's Sacrificial Knife"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Primordial Jade Winged-Spear",
+    "Summit Shaper",
+    "Blackcliff Agate",
+    "Blackcliff Longsword",
+    "Blackcliff Warbow",
+    "Crescent Pike",
+    "Fading Twilight",
+    "Lion's Roar",
+    "Lithic Blade",
+    "Rust",
+    "Solar Pearl",
+    "Whiteblind",
+    "Dark Iron Sword",
+    "Emerald Orb",
+    "Slingshot",
+    "White Tassel"
+  ],
+  "sellers": []
+}

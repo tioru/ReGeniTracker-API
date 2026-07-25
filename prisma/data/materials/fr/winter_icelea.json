@@ -1,0 +1,35 @@
+{
+  "name": "Glacelée d'hiver",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Plante rustique réputée pour résister aux vents violents et au gel. Elle survit même aux plus froids des hivers.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found at the Pillar of Embla"
+    }
+  ],
+  "usedIn": [
+    "Berry Herbal Candy",
+    "Moonlit Mirage"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Columbina",
+      "Prune"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Kuzmich",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 10,
+      "restock": "NEVER"
+    }
+  ]
+}

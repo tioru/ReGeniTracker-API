@@ -1,0 +1,32 @@
+{
+  "name": "Feathery Fin",
+  "rarity": 2,
+  "categories": [
+    "XUANWEN_BEAST_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A fin fragment taken from a defeated Xuanwen Beast's back. Even though Xuanwen Beasts can't fly over long distances, these feather-like fins enable them to swiftly pursue their prey.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Xuanwen Beast"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Lunar Fin"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Crane's Echoing Call",
+    "Silvershower Heartstrings",
+    "Chain Breaker",
+    "Dialogues of the Desert Sages"
+  ],
+  "sellers": []
+}

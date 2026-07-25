@@ -1,0 +1,52 @@
+{
+  "name": "Rêve dominant du pouvoir brûlant",
+  "rarity": 4,
+  "categories": [
+    "SCORCHING_MIGHTS"
+  ],
+  "description": "Matériau d'élévation d'arme. Autrefois, le clair de lune argenté et les sources turquoise décoraient cette belle oasis idyllique. Mais lorsque la reine des fleurs fana au milieu d'une tempête de sable qui rendit même le soleil invisible, ce paradis doré où régnait l'insouciance fut submergé par la mort. Les chants des tribus érémites racontent comment la lune argentée éclaira la robe écarlate d'Al-Ahmar, le roi endeuillé, ce qui le fit sombrer dans la folie. Dans une chanson triste, le roi solitaire, qui ne parvient pas à se défaire de ses souvenirs du passé, érige un rêve immortel au milieu du désert. C'est un endroit où l'eau des sources pures converge sans être perturbée, un lieu éclairé par la lumière d'un soleil couchant éternel.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Tour de la fierté",
+      "rotation": "Karma",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Remnant Glow of Scorching Might",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 350
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Olden Days of Scorching Might"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Beacon of the Reed Sea",
+    "Hunter's Path",
+    "Tulaytullah's Remembrance",
+    "End of the Line",
+    "King's Squire",
+    "Makhaira Aquamarine",
+    "Scion of the Blazing Sun"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Vis du chaos",
+  "rarity": 4,
+  "categories": [
+    "RUIN_DRAKE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Provient d'un ancien Dragon des ruines désormais inactif. Parmi les anciens royaumes perdus, il y avait un groupe de personnes qui étaient obsédées par l'idée de mimétisme. Qu'il s'agisse des éléments purs et ordonnés des Hypostases ou de l'ancien pouvoir primitif des dragons, ces personnes pensaient qu'ils pouvaient tous être reproduits et modifiés au point de surpasser leurs homologues naturels. Ainsi, une forme corporelle supérieure et immaculée pourrait remplacer l'ordre voué à la décomposition et à la destruction.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Ruin Drake: Earthguard",
+        "Ruin Drake: Skywatch"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Chaos Module",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Staff of the Scarlet Sands",
+    "Forest Regalia",
+    "Makhaira Aquamarine",
+    "Moonpiercer",
+    "Sapwood Blade"
+  ],
+  "sellers": []
+}

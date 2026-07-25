@@ -1,0 +1,53 @@
+{
+  "name": "Module du chaos",
+  "rarity": 3,
+  "categories": [
+    "RUIN_DRAKE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Provient d'un ancien Dragon des ruines désormais inactif. Les dragons étaient autrefois l'incarnation charnelle la plus primitive et la plus ancienne des éléments suprêmes jusqu'à ce qu'ils soient vaincus, conquis ou assimilés.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Ruin Drake: Earthguard",
+        "Ruin Drake: Skywatch"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Chaos Storage",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Chaos Bolt"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Staff of the Scarlet Sands",
+    "Forest Regalia",
+    "Makhaira Aquamarine",
+    "Moonpiercer",
+    "Sapwood Blade"
+  ],
+  "sellers": []
+}

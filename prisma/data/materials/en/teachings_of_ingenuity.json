@@ -1,0 +1,32 @@
+{
+  "name": "Teachings of Ingenuity",
+  "rarity": 2,
+  "categories": [
+    "INGENUITY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Ingenuity is the leaf-veins of the nation of wisdom. Ingenuity springs forth from benevolent consideration. They say that \"a poisonous tree bears no kind fruit.\" Similarly, ingenious nascent ideas are always born from determined and benign minds, for only they are worthy bearers of wisdom.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Steeple of Ignorance",
+      "rotation": "Witticism",
+      "minimumLevel": 1
+    }
+  ],
+  "usedIn": [
+    "Guide to Ingenuity"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Alhaitham",
+      "Dori",
+      "Kaveh",
+      "Layla",
+      "Nahida"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

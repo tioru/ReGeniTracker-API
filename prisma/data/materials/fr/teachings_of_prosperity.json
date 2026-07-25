@@ -1,0 +1,38 @@
+{
+  "name": "Enseignement de la Prospérité",
+  "rarity": 2,
+  "categories": [
+    "PROSPERITY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. La prospérité est l'aspiration du pays de la roche. Elle assure la paix et la sécurité de Liyue, cité bâtie conjointement par les dieux et par les hommes.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Manoir Taishan",
+      "rotation": "Autel des flammes",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Prosperity"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Gaming",
+      "Keqing",
+      "Ningguang",
+      "Qiqi",
+      "Shenhe",
+      "Traveler (Geo)",
+      "Xiao",
+      "Yelan"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

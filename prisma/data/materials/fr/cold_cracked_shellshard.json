@@ -1,0 +1,32 @@
+{
+  "name": "Coquille brisée froide",
+  "rarity": 2,
+  "categories": [
+    "FURNACE_SHELL_MOUNTAIN_WEASEL_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un morceau de la coquille sur le dos d'une Belette des montagnes à coquille fournaise que vous avez obtenu après l'avoir battue. Autrefois brûlant, ce morceau s'est depuis longtemps refroidi. Il a perdu son éclat qui ressemblait à du feu.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Furnace Shell Mountain Weasel"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Warm Back-Shell"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Fractured Halo",
+    "Vivid Notions",
+    "Flame-Forged Insight",
+    "Sequence of Solitude"
+  ],
+  "sellers": []
+}

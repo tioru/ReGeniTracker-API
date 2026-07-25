@@ -1,0 +1,38 @@
+{
+  "name": "Teachings of Gold",
+  "rarity": 2,
+  "categories": [
+    "GOLD_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Gold is the symbol of the land of Geo. Gold is the blood that flows deep within Liyue's veins, the muscle that makes up Liyue's beating heart, and the bones that make Liyue stand proud.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Taishan Mansion",
+      "rotation": "Circle of Embers",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Gold"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Baizhu",
+      "Beidou",
+      "Xianyun",
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei",
+      "Zhongli",
+      "Zibai"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

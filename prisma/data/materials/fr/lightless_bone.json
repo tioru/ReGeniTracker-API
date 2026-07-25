@@ -1,0 +1,36 @@
+{
+  "name": "Os nélucide",
+  "rarity": 2,
+  "categories": [
+    "RADIANT_BEAST_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un morceau d'os terne pris du corps d'une bête lumineuse. Il s'agit d'une partie de l'exosquelette d'un monstre imprégné de l'ancien pouvoir de la lune, qui a perdu la lumière et les secrets qu'il renfermait autrefois.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Radiant Antelope",
+        "Radiant Bladehorn",
+        "Radiant Glacial Wolf",
+        "Radiant Lunapod"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Glowing Remains"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Disaster and Remorse",
+    "Reliquary of Truth",
+    "Etherlight Spindlelute",
+    "Master Key",
+    "Moonweaver's Dawn"
+  ],
+  "sellers": []
+}

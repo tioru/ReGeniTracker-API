@@ -1,0 +1,76 @@
+{
+  "name": "Famed Handguard",
+  "rarity": 3,
+  "categories": [
+    "NOBUSHI_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "An intricately-made handguard that was mounted upon a famed weapon. Some believe that swords have souls and lives of their own, and thus deserve their own names. Those who love their blades will be acknowledged by them in turn. But those who see their swords as friends or even lovers should be warned that this relationship is built on death and bloodshed. The passions of those who dance with their blade amid crimson showers must surely be cooled someday by fickle steel.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Kairagi: Dancing Thunder",
+        "Kairagi: Fiery Might",
+        "Nobushi: Hitsukeban",
+        "Nobushi: Jintouban",
+        "Nobushi: Kikouban"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Kageuchi Handguard",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Kamisato Ayaka",
+      "Kamisato Ayato",
+      "Raiden Shogun",
+      "Wanderer",
+      "Yae Miko",
+      "Yumemizuki Mizuki"
+    ],
+    "talent": [
+      "Kamisato Ayaka",
+      "Kamisato Ayato",
+      "Raiden Shogun",
+      "Traveler (Electro)",
+      "Wanderer",
+      "Yae Miko",
+      "Yumemizuki Mizuki"
+    ]
+  },
+  "usedByWeapons": [
+    "Engulfing Lightning",
+    "Haran Geppaku Futsu",
+    "Mistsplitter Reforged",
+    "Redhorn Stonethresher",
+    "Uraku Misugiri",
+    "Akuoumaru",
+    "Amenoma Kageuchi",
+    "Finale of the Deep",
+    "Katsuragikiri Nagamasa",
+    "Tamayuratei no Ohanashi",
+    "Toukabou Shigure",
+    "Wavebreaker's Fin"
+  ],
+  "sellers": []
+}

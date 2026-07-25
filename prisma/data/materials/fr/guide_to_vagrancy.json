@@ -1,0 +1,53 @@
+{
+  "name": "Guide de l'Errance",
+  "rarity": 3,
+  "categories": [
+    "VAGRANCY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude L'errance est la vie de la terre sous la lune. Vivre, c'est errer, car aucun de nous ne peut s'installer dans ce monde. Ce dont on se souvient, ce n'est pas du moment de l'arrivée, mais des empreintes qu'on laisse en chemin.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Capitale sans-lumière",
+      "rotation": "Retournement",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Vagrancy",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Vagrancy"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Flins",
+      "Jahoda",
+      "Linnea",
+      "Sandrone"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

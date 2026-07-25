@@ -1,0 +1,50 @@
+{
+  "name": "Oasis Garden's Truth",
+  "rarity": 5,
+  "categories": [
+    "OASIS_GARDENS"
+  ],
+  "description": "\"Who would worship a departed god?\" The Lord of Flowers was once in alliance with two other gods. Apart from wisdom and power, she also brought mercy and joy to her people. Just as the earth needs more than the burning sunshine and pouring rain, to the people of the Lord of Flowers, joy and love, singing and music, and wine and extravagance were just as vital as strength and sensibility. It is said that flowers blossom so that they may enjoy a spectacular death, and that death was precisely the wholehearted pursuit of the Lord of Flowers — for death adds bitterness to lost joy, and intensifies with time across endless memories. The ignorant Lord of Deserts was never aware of her reasoning. He only reveled in her immense charm and grace — and as misguided as such fervent affections might be, they were well within the calculations of the Lord of Flowers.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Tower of Abject Pride",
+      "rotation": "Obsession",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Oasis Garden's Mourning",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "A Thousand Floating Dreams",
+    "Reliquary of Truth",
+    "Staff of the Scarlet Sands",
+    "Fruit of Fulfillment",
+    "Moonpiercer",
+    "Talking Stick",
+    "Wandering Evenstar"
+  ],
+  "sellers": []
+}

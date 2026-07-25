@@ -1,0 +1,35 @@
+{
+  "name": "Teachings of Elegance",
+  "rarity": 2,
+  "categories": [
+    "ELEGANCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Elegance is the form of the nation of thunder. Elegance brooks no flattery, and the elegant are ever noble. They are like the sea eagles who soar on high to contend with the resounding storms. They will not cater to philistine vulgarity, as one would not cast a flower crown into the mud, staining its dignity.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Violet Court",
+      "rotation": "Thundering Valley",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Elegance"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Arataki Itto",
+      "Kamisato Ayaka",
+      "Kamisato Ayato",
+      "Kujou Sara",
+      "Kuki Shinobu"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

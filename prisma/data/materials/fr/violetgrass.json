@@ -1,0 +1,62 @@
+{
+  "name": "Muguet bleu",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES",
+    "COOKING_INGREDIENTS"
+  ],
+  "description": "Une petite fleur qui possède une forte vitalité. On dit qu'elle fleurit vers le bas pour que son parfum dure plus longtemps.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found near cliffs in Liyue"
+    }
+  ],
+  "usedIn": [
+    "Black-Back Perch Stew",
+    "Bountiful Year",
+    "Heat-Quelling Soup",
+    "Jade Fruit Soup",
+    "Stone Harbor Delicacies",
+    "Wanmin Restaurant's Boiled Fish"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Baizhu",
+      "Qiqi",
+      "Xinyan"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Babak",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Fengtai",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Herbalist Gui",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Verr Goldet",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

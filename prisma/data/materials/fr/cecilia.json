@@ -1,0 +1,34 @@
+{
+  "name": "Cécilia",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Une belle fleur qui porte un nom aussi beau que son apparence, et que l'on trouve seulement où soufflent les vents violents, et est aussi intangible que le cœur d'un vagabond.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the wild on Starsnatch Cliff"
+    }
+  ],
+  "usedIn": [
+    "Anemoculus Resonance Stone"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Albedo",
+      "Venti"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Flora",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

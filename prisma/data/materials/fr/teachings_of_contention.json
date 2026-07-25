@@ -1,0 +1,35 @@
+{
+  "name": "Enseignement de la Compétition",
+  "rarity": 2,
+  "categories": [
+    "CONTENTION_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. La compétition est le principe qui régit tout dans la patrie du feu. Qu'est-ce qui définit la force et la faiblesse ? Seules la victoire et la défaite. Les résultats d'une compétition sont plus convaincants que n'importe quel mot.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Ruines flamboyantes",
+      "rotation": "Reconversion",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Contention"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Iansan",
+      "Mavuika",
+      "Mualani",
+      "Skirk",
+      "Traveler (Pyro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

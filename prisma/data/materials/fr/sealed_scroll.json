@@ -1,0 +1,92 @@
+{
+  "name": "Parchemin sigillé",
+  "rarity": 2,
+  "categories": [
+    "SAMACHURL_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Un ancien parchemin aux dessins étranges. En reproduisant les gestes des personnages, il est possible de recréer une certaine magie miraculeuse.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Anemo Samachurl",
+        "Cryo Samachurl",
+        "Dendro Samachurl",
+        "Electro Samachurl",
+        "Geo Samachurl",
+        "Hydro Samachurl"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Divining Scroll",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Forbidden Curse Scroll"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Albedo",
+      "Barbara",
+      "Cyno",
+      "Klee",
+      "Layla",
+      "Qiqi",
+      "Xianyun",
+      "Yoimiya"
+    ],
+    "talent": [
+      "Albedo",
+      "Barbara",
+      "Cyno",
+      "Klee",
+      "Layla",
+      "Qiqi",
+      "Traveler (Anemo)",
+      "Traveler (Geo)",
+      "Traveler (Unaligned)",
+      "Xianyun",
+      "Yoimiya"
+    ]
+  },
+  "usedByWeapons": [
+    "Crane's Echoing Call",
+    "Freedom-Sworn",
+    "Skyward Spine",
+    "Wolf's Gravestone",
+    "Blackcliff Agate",
+    "Dragon's Bane",
+    "Fading Twilight",
+    "Favonius Codex",
+    "Hakushin Ring",
+    "Rainslasher",
+    "Royal Bow",
+    "Sacrificial Jade",
+    "Sacrificial Sword",
+    "The Alley Flash",
+    "Recurve Bow",
+    "Thrilling Tales of Dragon Slayers",
+    "Traveler's Handy Sword",
+    "Iron Point",
+    "Beginner's Protector"
+  ],
+  "sellers": []
+}

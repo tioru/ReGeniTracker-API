@@ -1,0 +1,53 @@
+{
+  "name": "Philosophies of Diligence",
+  "rarity": 4,
+  "categories": [
+    "DILIGENCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Industriousness is the foundation of the land of Geo. Industriousness is believing in one's own ability to earn a place in the land of the gods through sweat, wisdom, and power.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Taishan Mansion",
+      "rotation": "Heart of the Flames",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Diligence",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Chongyun",
+      "Ganyu",
+      "Hu Tao",
+      "Kaedehara Kazuha",
+      "Lan Yan",
+      "Traveler (Geo)",
+      "Xiangling",
+      "Yaoyao",
+      "Yun Jin"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Ambre de pin",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Une gemme formée à partir de la résine d'imposants arbres anciens qui recouvraient Nod-Krai autrefois. Au fil des siècles, la résine s'est durcie pour former de l'ambre cristallin, qui brille aujourd'hui de couleurs vives et éclatantes.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Dreadshade Mire"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Illuga",
+      "Nicole"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Kuzmich",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 10,
+      "restock": "NEVER"
+    }
+  ]
+}

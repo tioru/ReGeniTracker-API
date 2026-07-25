@@ -1,0 +1,53 @@
+{
+  "name": "Graine enflammée",
+  "rarity": 3,
+  "categories": [
+    "AVATAR_OF_LAVA_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un amas condensé de matière brûlante obtenu à partir du corps d'un Avatar de lave vaincu. Il dégage une légère chaleur. Il serait très difficile d'empêcher un amas de pierres de cette taille de brûler sans cesse. On dit qu'il s'agit d'une forme de vie primordiale.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Eroding Avatar of Lava",
+        "Fluid Avatar of Lava"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Ignited Stone",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Ignited Seeing Eye"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Fang of the Mountain King",
+    "Sunny Morning Sleep-In",
+    "Earth Shaker",
+    "Flower-Wreathed Feathers",
+    "Mountain-Bracing Bolt"
+  ],
+  "sellers": []
+}

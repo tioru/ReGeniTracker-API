@@ -1,0 +1,29 @@
+{
+  "name": "Cœur d'eau pure",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "Un noyau d'eau pure, récupéré auprès d'une Océanide. Même tombé au milieu d'un lac, il ne perd rien de sa pureté. Les Océanides sont des créatures d'une extrême pureté, dont le désir de ressembler aux êtres vivant sur la terre ferme est très puissant. Elles prennent alors forme terrestre – après tout, elles n'ont ni besoin de respirer, ni besoin de se sustenter...",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Rhodeia of Loch"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Barbara",
+      "Mona",
+      "Tartaglia",
+      "Xingqiu"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

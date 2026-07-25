@@ -1,0 +1,55 @@
+{
+  "name": "Gentillesse du jardin d'oasis",
+  "rarity": 3,
+  "categories": [
+    "OASIS_GARDENS"
+  ],
+  "description": "Matériau d'élévation d'arme. Les textes anciens enfouis sous le sable évoquent une reine des fleurs qui est aussi la maîtresse des songes. Elle prodiguait des rêves aux exilés, aux aliénés et aux simples d'esprit, dans lesquels ils purent vivre de belles choses. Bien qu'ils furent pauvres au point de ne posséder que le fer noir de leurs bols, les humains étaient entièrement sous le charme de la reine des fleurs. Ils se perdaient dans sa beauté et dans sa miséricorde sans limites.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Tour de la fierté",
+      "rotation": "Obsession",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Oasis Garden's Reminiscence",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Oasis Garden's Mourning"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "A Thousand Floating Dreams",
+    "Reliquary of Truth",
+    "Staff of the Scarlet Sands",
+    "Fruit of Fulfillment",
+    "Moonpiercer",
+    "Talking Stick",
+    "Wandering Evenstar"
+  ],
+  "sellers": []
+}

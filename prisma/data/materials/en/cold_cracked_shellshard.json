@@ -1,0 +1,32 @@
+{
+  "name": "Cold-Cracked Shellshard",
+  "rarity": 2,
+  "categories": [
+    "FURNACE_SHELL_MOUNTAIN_WEASEL_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A chunk of shell carved from a Furnace Shell Mountain Weasel's back after its defeat. Where it once blazed brightly, this piece has long since gone cold. The fire-like luster it once held is no more.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Furnace Shell Mountain Weasel"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Warm Back-Shell"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Fractured Halo",
+    "Vivid Notions",
+    "Flame-Forged Insight",
+    "Sequence of Solitude"
+  ],
+  "sellers": []
+}

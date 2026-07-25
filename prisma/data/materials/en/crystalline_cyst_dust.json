@@ -1,0 +1,80 @@
+{
+  "name": "Crystalline Cyst Dust",
+  "rarity": 3,
+  "categories": [
+    "FUNGUS_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "A huge lump of spore powder collected from a structurally complete spore cyst. Put it in an appropriate environment, and the area might be filled with a thriving aggregation of Floating Fungi later...",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Floating Anemo Fungus",
+        "Floating Dendro Fungus",
+        "Floating Hydro Fungus",
+        "Grounded Geoshroom",
+        "Grounded Hydroshroom",
+        "Stretchy Anemo Fungus",
+        "Stretchy Electro Fungus",
+        "Stretchy Geo Fungus",
+        "Stretchy Pyro Fungus",
+        "Whirling Cryo Fungus",
+        "Whirling Electro Fungus",
+        "Whirling Pyro Fungus",
+        "Winged Cryoshroom",
+        "Winged Dendroshroom"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Luminescent Pollen",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Baizhu",
+      "Kaveh",
+      "Nahida",
+      "Nilou",
+      "Tighnari"
+    ],
+    "talent": [
+      "Baizhu",
+      "Kaveh",
+      "Nahida",
+      "Nilou",
+      "Tighnari",
+      "Traveler (Dendro)"
+    ]
+  },
+  "usedByWeapons": [
+    "A Thousand Floating Dreams",
+    "Jadefall's Splendor",
+    "Reliquary of Truth",
+    "Staff of the Scarlet Sands",
+    "Tulaytullah's Remembrance",
+    "End of the Line",
+    "Fruit of Fulfillment",
+    "Scion of the Blazing Sun",
+    "Wandering Evenstar"
+  ],
+  "sellers": []
+}

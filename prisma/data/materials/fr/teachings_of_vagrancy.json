@@ -1,0 +1,34 @@
+{
+  "name": "Enseignement de l'Errance",
+  "rarity": 2,
+  "categories": [
+    "VAGRANCY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude L'errance est la vie de la terre sous la lune. Profitez d'un moment de répit, puis partez avant que le ciel ne s'assombrisse. L'aube n'est pas la fin, mais le début d'un nouveau voyage.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Capitale sans-lumière",
+      "rotation": "Retournement",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Vagrancy"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Flins",
+      "Jahoda",
+      "Linnea",
+      "Sandrone"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

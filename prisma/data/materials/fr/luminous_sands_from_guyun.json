@@ -1,0 +1,47 @@
+{
+  "name": "Sable lumineux de Guyun",
+  "rarity": 2,
+  "categories": [
+    "GUYUN_PILLARS"
+  ],
+  "description": "Matériau d'élévation d'arme. La Forêt de pierre de Guyun se dresse sur l'endroit où la lance de Morax a transpercé ses ennemis. Avec le temps, les piliers de pierre s'imprégnèrent de l'esprit de ces derniers à un tel point que certains résidus maudits se déposent dessus.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Palais secret de Lianshan",
+      "rotation": "Autel du nuage d'orage",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Lustrous Stone from Guyun"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aqua Simulacra",
+    "Jadefall's Splendor",
+    "Primordial Jade Winged-Spear",
+    "Summit Shaper",
+    "Blackcliff Agate",
+    "Blackcliff Longsword",
+    "Blackcliff Warbow",
+    "Crescent Pike",
+    "Lion's Roar",
+    "Lithic Blade",
+    "Rust",
+    "Sacrificial Jade",
+    "Solar Pearl",
+    "Whiteblind",
+    "Dark Iron Sword",
+    "Emerald Orb",
+    "Slingshot",
+    "White Tassel"
+  ],
+  "sellers": []
+}

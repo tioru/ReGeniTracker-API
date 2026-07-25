@@ -1,0 +1,36 @@
+{
+  "name": "Chrysanthème brillant",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Une fleur en forme d'aile, dont les pétales se balancent tranquillement sous les caresses du vent.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Natlan"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Kuzmich",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 10,
+      "restock": "NEVER"
+    },
+    {
+      "name": "Motolinia",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Enseignement de l'Élégance",
+  "rarity": 2,
+  "categories": [
+    "ELEGANCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'élégance est l'apparence de la nation du tonnerre. L'élégance n'aime pas la flatterie et les élégants sont toujours nobles. Ils sont comme ces grands oiseaux des mers qui planent au-dessus des tempêtes retentissantes. Ils ne répondent pas à la vulgarité, comme on ne jette pas une couronne de fleurs dans la boue, sans éclabousser sa propre dignité.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour violette",
+      "rotation": "Vallée foudroyée",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Elegance"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Arataki Itto",
+      "Kamisato Ayaka",
+      "Kamisato Ayato",
+      "Kujou Sara",
+      "Kuki Shinobu"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Guide de l'Équité",
+  "rarity": 3,
+  "categories": [
+    "EQUITY_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'équité est le rivage de la patrie de l'eau. L'équité est le fondement sur lequel Fontaine a été fondée. L'équité constitue la norme de la loi. Si la loi perd l'essence de l'équité, elle deviendra un échiquier joué pour le profit.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pâle gloire oubliée",
+      "rotation": "Rime rythmique",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Equity",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Equity"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Lyney",
+      "Navia",
+      "Neuvillette",
+      "Sigewinne",
+      "Traveler (Hydro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

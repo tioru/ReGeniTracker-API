@@ -1,0 +1,48 @@
+{
+  "name": "Embrasement de silex de longue nuit",
+  "rarity": 5,
+  "categories": [
+    "LONG_NIGHT_FLINTS"
+  ],
+  "description": "Matériau d'élévation d'arme. Au cours des longues années où la nuit s'est emparée de la terre, le forge-torche originel alluma le feu qui dissipa les ténèbres et jura de combattre la marée noire, obtenant ainsi l'édit royal qui fonda les Gardiens de lumière. Contrairement aux Chasseurs de la Maréchaussée des hautes mers, les Gardiens de lumière qui patrouillaient la nuit n'avaient pas d'anciennes techniques d'un empire perdu à leur disposition ou des titres et rangs prestigieux. Ils ne pouvaient compter que sur leur corps fragile vêtu d'une armure en argent, les épées et les lanternes dans leurs mains et un serment ancien qui a traversé des générations. Peu importe le nombre d'âmes qui périssent sous la faible lueur des lanternes, la calamité sombre ne pourra jamais battre la détermination des mortels. La nuit peut seulement voler la vie, mais pas le jour qui finira toujours par se lever.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour lunaire perdue",
+      "rotation": "Observation",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Flare of Long Night Flint",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Bloodsoaked Ruins",
+    "Golden Frostbound Oath",
+    "Prospector's Shovel",
+    "Sacrificer's Staff",
+    "Snare Hook"
+  ],
+  "sellers": []
+}

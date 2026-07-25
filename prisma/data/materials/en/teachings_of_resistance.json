@@ -1,0 +1,39 @@
+{
+  "name": "Teachings of Resistance",
+  "rarity": 2,
+  "categories": [
+    "RESISTANCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Resistance is the backbone of the land of the wind. The history of Mondstadt is one of resistances. People rose up to prevent past conflicts from ever being forgotten, like sprouts breaking through the soil, like the eternal wind eroding through stone walls.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Forsaken Rift",
+      "rotation": "Frozen Abyss",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Resistance"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Bennett",
+      "Diluc",
+      "Eula",
+      "Jean",
+      "Lohen",
+      "Mona",
+      "Noelle",
+      "Prune",
+      "Razor"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

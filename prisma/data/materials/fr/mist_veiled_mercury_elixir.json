@@ -1,0 +1,66 @@
+{
+  "name": "Mercure karstique",
+  "rarity": 3,
+  "categories": [
+    "ELIXIRS"
+  ],
+  "description": "Matériau d'élévation d'arme. Grâce aux talismans, les Adeptes peuvent insuffler une quantité de leurs pouvoirs sous forme de symboles. L'illusion leur permet de créer une projection cosmique grâce à leur esprit. La fabrication de ce type de matière est un art secret ; n'importe qui assez fou pour ingérer ces billes le regretterait fortement.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Palais secret de Lianshan",
+      "rotation": "Ruines grondantes",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Mist Veiled Lead Elixir",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Mist Veiled Gold Elixir"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Calamity Queller",
+    "Crane's Echoing Call",
+    "Primordial Jade Cutter",
+    "The Unforged",
+    "Blackcliff Pole",
+    "Blackcliff Slasher",
+    "Dragon's Bane",
+    "Eye of Perception",
+    "Prototype Amber",
+    "Prototype Crescent",
+    "Prototype Rancour",
+    "Rainslasher",
+    "Royal Spear",
+    "Debate Club",
+    "Fillet Blade",
+    "Halberd",
+    "Messenger",
+    "Twin Nephrite"
+  ],
+  "sellers": []
+}

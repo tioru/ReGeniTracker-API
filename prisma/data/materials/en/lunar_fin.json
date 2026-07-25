@@ -1,0 +1,32 @@
+{
+  "name": "Lunar Fin",
+  "rarity": 3,
+  "categories": [
+    "XUANWEN_BEAST_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A fin taken from a defeated Xuanwen Beast's back. The soft, moonlight-esque glow on the fin gives off a sense of serenity.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Xuanwen Beast"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Chasmlight Fin"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Crane's Echoing Call",
+    "Silvershower Heartstrings",
+    "Chain Breaker",
+    "Dialogues of the Desert Sages"
+  ],
+  "sellers": []
+}

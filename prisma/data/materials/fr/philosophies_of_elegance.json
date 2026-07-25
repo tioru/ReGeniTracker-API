@@ -1,0 +1,50 @@
+{
+  "name": "Philosophie de l'Élégance",
+  "rarity": 4,
+  "categories": [
+    "ELEGANCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'élégance est l'apparence de la nation du tonnerre. L'élégance abhorre la vulgarité, et l'élégant marche toujours seul. Résister aux vils maux, ne pas se laisser émouvoir par l'amour de la médiocrité, ne jamais se réfugier dans la basse ignorance, voilà comment on perçoit l'abîme entre l'élégant et le méprisant.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour violette",
+      "rotation": "Vallée foudroyée",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Elegance",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Arataki Itto",
+      "Kamisato Ayaka",
+      "Kamisato Ayato",
+      "Kujou Sara",
+      "Kuki Shinobu",
+      "Traveler (Electro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

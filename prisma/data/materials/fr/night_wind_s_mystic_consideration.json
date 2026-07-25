@@ -1,0 +1,34 @@
+{
+  "name": "Considération mystique du vent nocturne",
+  "rarity": 2,
+  "categories": [
+    "NIGHT_WIND_S_MYSTICS"
+  ],
+  "description": "Matériau d'élévation d'arme. Dans les temps anciens, les shamans, les prêtres et ceux que l'on appelait les mystiques étaient toujours à la recherche de méthodes leur permettant de communiquer avec le royaume souterrain silencieux. Il en a été ainsi depuis que les Wayobs ont commencé à progressivement se manifester, réagissant à la résonance entre les héros solitaires et le noctâme. L'envoûtement, la désincarnation et la théurgie étaient les principales méthodes qu'ils choisissaient, chacune accomplie à l'aide d'outils rituels méticuleusement polis.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Ancienne tour de guet",
+      "rotation": "Estimation",
+      "minimumLevel": 1
+    }
+  ],
+  "usedIn": [
+    "Night-Wind's Mystic Premonition"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Astral Vulture's Crimson Plumage",
+    "Azurelight",
+    "Peak Patrol Song",
+    "Ash-Graven Drinking Horn",
+    "Chain Breaker",
+    "Flower-Wreathed Feathers",
+    "Fruitful Hook",
+    "Rainbow Serpent's Rain Bow"
+  ],
+  "sellers": []
+}

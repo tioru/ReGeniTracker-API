@@ -1,12 +1,25 @@
 {
   "name": "Champignon anémophile",
-  "rarity": 1,
-  "categories": [],
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
   "description": "Un champignon qui grandit sous les caresses de la brise. Il prospère comme le vent qui souffle toujours, nourrissant la vie.",
-  "sources": [],
-  "usedIn": ["Détecteur de trésors Anémo"],
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found under the eaves of houses in the City of Mondstadt, Springvale, Dawn Winery, and Millhaven"
+    }
+  ],
+  "usedIn": [
+    "Anemo Treasure Compass"
+  ],
   "usedByCharacters": {
-    "ascension": ["Barbara", "Klee", "Mona"],
+    "ascension": [
+      "Barbara",
+      "Klee",
+      "Mona"
+    ],
     "talent": []
   },
   "usedByWeapons": [],

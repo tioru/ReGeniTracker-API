@@ -1,0 +1,32 @@
+{
+  "name": "Prisme radieux",
+  "rarity": 4,
+  "categories": [
+    "PRIMAL_CONSTRUCT_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un composant de fabrication subtile que vous avez obtenu après avoir vaincu une Structure primale. Le roi du désert a autrefois fait un rêve et a jadis formulé beaucoup de promesses. Il est dit dans les légendes du désert que ces machines avaient à l'origine été créées pour réaliser ces promesses. Aujourd'hui, cependant, ces promesses et ce rêve ont été oubliés et ne survivent qu'à l'intérieur de la mémoire mécanique de ces engins.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Primal Construct: Prospector",
+        "Primal Construct: Repulsor",
+        "Primal Construct: Reshaper"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "A Thousand Floating Dreams",
+    "Key of Khaj-Nisut",
+    "Toukabou Shigure",
+    "Xiphos' Moonlight"
+  ],
+  "sellers": []
+}

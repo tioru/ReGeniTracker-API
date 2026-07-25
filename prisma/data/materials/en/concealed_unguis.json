@@ -1,0 +1,56 @@
+{
+  "name": "Concealed Unguis",
+  "rarity": 3,
+  "categories": [
+    "RIFTWOLF_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Body tissue left behind by one of the Riftwolves. Though they are quite wondrous indeed, these hunting hounds of \"Alfisol\" are nothing of note before Durin of \"Humus.\"",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Rockfond Rifthound",
+        "Rockfond Rifthound Whelp",
+        "Thundercraven Rifthound",
+        "Thundercraven Rifthound Whelp"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Concealed Claw",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Concealed Talon"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Kagura's Verity",
+    "Polar Star",
+    "Redhorn Stonethresher",
+    "Akuoumaru",
+    "Oathsworn Eye",
+    "Wavebreaker's Fin"
+  ],
+  "sellers": []
+}

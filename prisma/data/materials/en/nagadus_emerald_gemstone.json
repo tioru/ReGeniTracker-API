@@ -1,23 +1,28 @@
 {
-  "name": "Pierre d'émeraude nagadus",
+  "name": "Nagadus Emerald Gemstone",
   "rarity": 5,
-  "categories": ["NAGADUS_EMERALD", "ASCENSION_GEMS"],
-  "description": "Matériau d'élévation de personnage. « J'ai fait un très long rêve... » « Il y avait des gens qui se tenaient la main et dansaient en cercle : des sages et des simples d'esprit, des danseuses et des guerriers, des marionnettes et des statues de divinités... » « Ces gens qui dansaient ensemble étaient une représentation de l'univers. Vivre a toujours été une fin, et la sagesse, le moyen d'y parvenir. »",
+  "categories": [
+    "NAGADUS_EMERALD",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension material. \"I had a very, very long dream...\" \"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\" \"That dancing circle embodied everything about the universe. Life has always been the end, while it is wisdom that shall be the means.\"",
   "sources": [
     {
       "type": "BOSS",
       "minimumLevel": 75,
       "names": [
-        "Champieffroi panaché",
-        "Hypostase Dendro",
-        "Lunillon radieux",
-        "Roi yumkasaure glouton de la montagne"
+        "Dendro Hypostasis",
+        "Jadeplume Terrorshroom",
+        "Kongamato",
+        "Radiant Moonfly"
       ]
     },
     {
       "type": "WEEKLY_BOSS",
       "minimumLevel": 75,
-      "names": ["Garde de l'oasis d'Apep"]
+      "names": [
+        "Guardian of Apep's Oasis"
+      ]
     },
     {
       "type": "ALCHEMY",
@@ -26,72 +31,115 @@
           "subtype": "CRAFTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Morceau d'émeraude nagadus", "quantity": 3 },
-            { "item": "Mora", "quantity": 2700 }
+            {
+              "item": "Nagadus Emerald Chunk",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 2
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Pierre d'agate agnidus", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 27 }
+            {
+              "item": "Agnidus Agate Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Pierre de lazurite varunada", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 27 }
+            {
+              "item": "Varunada Lazurite Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Pierre d'améthyste vajrada", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 27 }
+            {
+              "item": "Vajrada Amethyst Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Pierre de turquoise vayuda", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 27 }
+            {
+              "item": "Vayuda Turquoise Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Pierre de jade shivada", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 27 }
+            {
+              "item": "Shivada Jade Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Pierre de topaze prithiva", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 27 }
+            {
+              "item": "Prithiva Topaz Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         }
-      ]
+      ],
+      "minimumAdventureRank": 45
     }
   ],
   "usedIn": [
-    "Pierre d'agate agnidus",
-    "Pierre d'améthyste vajrada",
-    "Pierre de jade shivada",
-    "Pierre de lazurite varunada",
-    "Pierre de topaze prithiva",
-    "Pierre de turquoise vayuda"
+    "Agnidus Agate Gemstone",
+    "Prithiva Topaz Gemstone",
+    "Shivada Jade Gemstone",
+    "Vajrada Amethyst Gemstone",
+    "Varunada Lazurite Gemstone",
+    "Vayuda Turquoise Gemstone"
   ],
   "usedByCharacters": {
     "ascension": [
-      "Al­hai­tham",
+      "Alhaitham",
       "Baizhu",
       "Collei",
       "Emilie",

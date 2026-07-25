@@ -1,0 +1,69 @@
+{
+  "name": "Arbre de transmission renforcé",
+  "rarity": 2,
+  "categories": [
+    "LANDCRUISER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "L'arbre de transmission renforcé d'un Patrouilleur terrestre. Il a fallu d'innombrables destructions pour qu'une amélioration insignifiante soit mise en place. D'une certaine manière, le système administratif de l'Armurerie royale est beaucoup plus complexe que les machines qu'il construit. Après tout, même les Patrouilleurs terrestres les plus avancés ne prennent pas des mois ou des années à achever.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Close Combat Scout Landcruiser",
+        "Close Combat Storm Landcruiser",
+        "Cutting Edge All-Purpose Scout Landcruiser",
+        "Cutting Edge All-Purpose Storm Landcruiser",
+        "Cutting Edge Fire Support Ground Effect Landcruiser",
+        "Force Recon Ground Effect Landcruiser",
+        "Force Recon Scout Landcruiser",
+        "Force Recon Storm Landcruiser"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Broken Drive Shaft",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Precision Drive Shaft"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Aino",
+      "Flins",
+      "Illuga",
+      "Jahoda",
+      "Sandrone",
+      "Varka"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Angelos' Heptades",
+    "Athame Artis",
+    "Lightbearing Moonshard",
+    "Nightweaver's Looking Glass",
+    "Master Key",
+    "Moonweaver's Dawn",
+    "Prospector's Shovel",
+    "Sacrificer's Staff"
+  ],
+  "sellers": []
+}

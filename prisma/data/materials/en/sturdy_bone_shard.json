@@ -1,0 +1,66 @@
+{
+  "name": "Sturdy Bone Shard",
+  "rarity": 3,
+  "categories": [
+    "VISHAP_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A fragment of an unknown creature's bones that appear to be prized by Geovishaps for some reason. The fragment appears to be quite aged. Despite being dragon-like beasts with no spoken language, they still seem to have some sort of special affection for these bone shards.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Bolteater Bathysmal Vishap Hatchling",
+        "Geovishap",
+        "Geovishap Hatchling",
+        "Primordial Bathysmal Vishap",
+        "Primordial Bathysmal Vishap Hatchling",
+        "Rimebiter Bathysmal Vishap Hatchling"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Fragile Bone Shard",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Fossilized Bone Shard"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Memory of Dust",
+    "Vortex Vanquisher",
+    "Ballad of the Boundless Blue",
+    "Compound Bow",
+    "Iron Sting",
+    "Lithic Spear",
+    "Luxurious Sea-Lord",
+    "Mappa Mare",
+    "Prototype Archaic",
+    "Prototype Starglitter",
+    "Serpent Spine",
+    "Black Tassel",
+    "Skyrider Greatsword",
+    "Skyrider Sword"
+  ],
+  "sellers": []
+}

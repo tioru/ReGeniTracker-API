@@ -1,0 +1,49 @@
+{
+  "name": "Philosophies of Contention",
+  "rarity": 4,
+  "categories": [
+    "CONTENTION_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Contention is the principle by which all is weighed in the Nation of Pyro. Its purpose is to make yourself stronger. After the outcome of a competition has been decided, the victor gains the confidence to be sure of their direction, while the loser gains insights on how they must become stronger. Beyond winning or losing, this is the true meaning of contention.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Blazing Ruins",
+      "rotation": "Sublime Turning",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Contention",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Iansan",
+      "Mavuika",
+      "Mualani",
+      "Skirk",
+      "Traveler (Pyro)"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

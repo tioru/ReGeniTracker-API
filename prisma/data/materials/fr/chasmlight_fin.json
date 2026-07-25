@@ -1,0 +1,30 @@
+{
+  "name": "Aileron ténébreux",
+  "rarity": 4,
+  "categories": [
+    "XUANWEN_BEAST_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un élégant aileron prélevé sur le dos d'une Bête de Xuanwen vaincue. La faible lueur qu'il émet contient des traces d'énergie mystique. Dans le calme de la nuit, même les bêtes les plus violentes sombrent brièvement dans un sommeil paisible, se rappelant d'époques où les rêves n'appartenaient pas seulement aux humains.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Xuanwen Beast"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Crane's Echoing Call",
+    "Silvershower Heartstrings",
+    "Chain Breaker",
+    "Dialogues of the Desert Sages"
+  ],
+  "sellers": []
+}

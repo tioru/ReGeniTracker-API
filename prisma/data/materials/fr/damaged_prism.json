@@ -1,0 +1,34 @@
+{
+  "name": "Prisme endommagé",
+  "rarity": 2,
+  "categories": [
+    "PRIMAL_CONSTRUCT_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un composant endommagé que vous avez obtenu après avoir vaincu une Structure primale. Ces machines aux formes singulières sont les protectrices éternelles des ruines du désert et sont assez puissantes pour percer les montagnes et remodeler les rochers. Les principes de fonctionnement de ces machines sont similaires aux nombreux mécanismes mystérieux à la surface et sous terre.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Primal Construct: Prospector",
+        "Primal Construct: Repulsor",
+        "Primal Construct: Reshaper"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Turbid Prism"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "A Thousand Floating Dreams",
+    "Key of Khaj-Nisut",
+    "Toukabou Shigure",
+    "Xiphos' Moonlight"
+  ],
+  "sellers": []
+}

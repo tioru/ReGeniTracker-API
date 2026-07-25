@@ -1,0 +1,51 @@
+{
+  "name": "Prisme polarisant",
+  "rarity": 4,
+  "categories": [
+    "MIRROR_MAIDEN_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un prisme qui peut dévier la lumière. Dans l'obscurité, de tels prismes peuvent diffuser une faible lumière sur une zone plus large. Peut-être est-ce dû à cette caractéristique que ce genre de prismes peut apporter une certaine quiétude à ceux dont le cœur est souvent enveloppé de ténèbres.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Mirror Maiden"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Crystal Prism",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Everlasting Moonglow",
+    "Thundering Pulse",
+    "Hakushin Ring",
+    "Hamayumi",
+    "Mouun's Moon",
+    "Predator"
+  ],
+  "sellers": []
+}

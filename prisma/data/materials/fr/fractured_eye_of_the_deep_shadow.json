@@ -1,0 +1,30 @@
+{
+  "name": "Œil fracturé des fonds",
+  "rarity": 2,
+  "categories": [
+    "FISHER_OF_HIDDEN_DEPTHS_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Les restes d'un pêcheur venu d'un autre monde, laissés après la dissolution de son corps. Une fois sa carapace fissurée, la malveillance qu'elle renfermait s'est également dissipée.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Fisher of Hidden Depths"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Aberrant Core of the Deep Shadow"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Gest of the Mighty Wolf",
+    "Nocturne's Curtain Call"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Goutte d'eau croupie",
+  "rarity": 2,
+  "categories": [
+    "TAINTED_HYDRO_PHANTASM_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Une petite goutte d'eau obtenue en vainquant un Fantasme Hydro croupi. La force vitale qu'elle contient ne s'est pas encore complètement dissipée.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Tainted Water-Splitting Phantasm",
+        "Tainted Water-Spouting Phantasm"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Scoop of Tainted Water"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Splendor of Tranquil Waters",
+    "Symphonist of Scents",
+    "The First Great Magic",
+    "Finale of the Deep",
+    "Fleuve Cendre Ferryman",
+    "Range Gauge",
+    "Song of Stillness"
+  ],
+  "sellers": []
+}

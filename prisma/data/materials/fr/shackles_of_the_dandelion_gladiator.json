@@ -1,0 +1,69 @@
+{
+  "name": "Menottes du Chevalier du Croc de Lion",
+  "rarity": 4,
+  "categories": [
+    "GLADIATOR_SHACKLES"
+  ],
+  "description": "Matériau d'élévation d'arme. Vennessa ne fut jamais véritablement entravée par ses chaînes. Contrairement à sa terre natale, Mondstadt ne possédait pas le minerai ou le feu pour forger des entraves susceptibles de l'enchaîner indéfiniment. La seule chose qui la retenait en ce lieu était la responsabilité qu'elle avait envers les siens.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pépinière de cécilias",
+      "rotation": "Capitale assoiffée",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Chains of the Dandelion Gladiator",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 350
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Dream of the Dandelion Gladiator"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Amos' Bow",
+    "Freedom-Sworn",
+    "Lost Prayer to the Sacred Winds",
+    "Skyward Spine",
+    "The Daybreak Chronicles",
+    "Wolf's Gravestone",
+    "Alley Hunter",
+    "Favonius Greatsword",
+    "Favonius Lance",
+    "Favonius Warbow",
+    "Festering Desire",
+    "Frostbearer",
+    "Mailed Flower",
+    "Royal Bow",
+    "Royal Greatsword",
+    "Sacrificial Fragments",
+    "Sacrificial Sword",
+    "Windblume Ode",
+    "Otherworldly Story",
+    "Recurve Bow",
+    "Traveler's Handy Sword",
+    "White Iron Greatsword",
+    "Iron Point",
+    "Beginner's Protector"
+  ],
+  "sellers": []
+}

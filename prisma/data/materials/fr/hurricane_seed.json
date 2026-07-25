@@ -1,0 +1,30 @@
+{
+  "name": "Graine d'ouragan",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "La forme effondrée d'une Hypostase Anémo après avoir été vaincue. Elle contient un pouvoir Anémo d'une grande pureté. La légende raconte qu'un petit papillon fragile possède également le pouvoir de provoquer un ouragan. Ce papillon fait partie du vent pur, attendant avec patience le jour pour invoquer à nouveau l'ouragan.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Anemo Hypostasis"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Wind Catcher"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Jean",
+      "Sucrose",
+      "Venti"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

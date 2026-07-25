@@ -1,0 +1,59 @@
+{
+  "name": "Tattered Warrant",
+  "rarity": 1,
+  "categories": [
+    "FATUI_OPRICHNIKI_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "A warrant issued to members of the Fatui Oprichniki. One wonders what resolve drove its bearer to sign up.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Oprichniki Bombardier",
+        "Oprichniki Fireblade Shock Trooper",
+        "Oprichniki Grenadier",
+        "Oprichniki Hailstorm Cannoneer",
+        "Oprichniki Line Trooper",
+        "Oprichniki Medic",
+        "Oprichniki Support Trooper",
+        "Oprichniki Thunderblitz Gvardiya",
+        "Oprichniki Vanguard"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Immaculate Warrant"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Durin",
+      "Lauma",
+      "Linnea",
+      "Nefer",
+      "Nicole",
+      "Zibai"
+    ],
+    "talent": [
+      "Durin",
+      "Lauma",
+      "Linnea",
+      "Nefer",
+      "Nicole",
+      "Zibai"
+    ]
+  },
+  "usedByWeapons": [
+    "A Teaspoon of Transcendence",
+    "Bloodsoaked Ruins",
+    "Golden Frostbound Oath",
+    "Nocturne's Curtain Call",
+    "Blackmarrow Lantern",
+    "Dawning Frost",
+    "Etherlight Spindlelute",
+    "Rainbow Serpent's Rain Bow",
+    "Serenity's Call"
+  ],
+  "sellers": []
+}

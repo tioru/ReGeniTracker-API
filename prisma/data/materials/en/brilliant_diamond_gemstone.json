@@ -1,0 +1,35 @@
+{
+  "name": "Brilliant Diamond Gemstone",
+  "rarity": 5,
+  "categories": [
+    "BRILLIANT_DIAMOND",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension material. \"Welcome to this world.\"",
+  "sources": [
+    {
+      "type": "ADVENTURE_RANK_REWARD",
+      "rewards": [
+        {
+          "adventureRank": 41,
+          "quantity": 2
+        },
+        {
+          "adventureRank": 42,
+          "quantity": 2
+        },
+        {
+          "adventureRank": 45,
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

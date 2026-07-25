@@ -1,0 +1,63 @@
+{
+  "name": "Squelette sacré de Guyun",
+  "rarity": 4,
+  "categories": [
+    "GUYUN_PILLARS"
+  ],
+  "description": "Matériau d'élévation d'arme. La lance de pierre possède une sphère lumineuse formée par le pouvoir des ennemis du Souverain de la Roche. Il n'était pas l'objet de leur haine, car corrompus depuis bien longtemps, elle faisait désormais naturellement partie d'eux.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Palais secret de Lianshan",
+      "rotation": "Autel du nuage d'orage",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Lustrous Stone from Guyun",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 350
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Divine Body from Guyun"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aqua Simulacra",
+    "Jadefall's Splendor",
+    "Primordial Jade Winged-Spear",
+    "Summit Shaper",
+    "Blackcliff Agate",
+    "Blackcliff Longsword",
+    "Blackcliff Warbow",
+    "Crescent Pike",
+    "Lion's Roar",
+    "Lithic Blade",
+    "Rust",
+    "Sacrificial Jade",
+    "Solar Pearl",
+    "Whiteblind",
+    "Dark Iron Sword",
+    "Emerald Orb",
+    "Slingshot",
+    "White Tassel"
+  ],
+  "sellers": []
+}

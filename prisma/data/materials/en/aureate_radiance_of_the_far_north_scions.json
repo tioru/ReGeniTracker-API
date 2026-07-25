@@ -1,0 +1,48 @@
+{
+  "name": "Aureate Radiance of the Far-North Scions",
+  "rarity": 5,
+  "categories": [
+    "THE_FAR_NORTH_SCIONS"
+  ],
+  "description": "With the unblessed birth of the prophesied son, a millennia-long plan ushered in a bleak twilight. A scheme born of cunning was shattered by foolish betrayal. The youth who was supposed to be king took the maid who was supposed to serve him and stole the secret treasure that was supposed to be his, only to reject the crowns that fate had ordained for him. In time, the king who was destined to rule Elysium went down in history as an unpardonable thief, and by the time the true new moon shone upon the land, the far north's final wish of golden grandeur had already been buried by a priestess, who had never believed in any god, in the empty grave of her king.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Lost Mooncourt",
+      "rotation": "Lunar Oblation",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Oblation of the Far-North Scions",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "A Teaspoon of Transcendence",
+    "Nocturne's Curtain Call",
+    "Etherlight Spindlelute",
+    "Master Key",
+    "Moonweaver's Dawn"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Philosophie de la Poésie",
+  "rarity": 4,
+  "categories": [
+    "BALLAD_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. La poésie est l'âme du royaume du vent. Elle existe pour être transmise à travers les générations. Bien que rien ne soit éternel, le vent soufflera toujours ces mots doux au-delà des cieux, à travers les terres et les mers du monde entier.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Gorge de l'oubli",
+      "rotation": "Royaume endormi",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Ballad",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Albedo",
+      "Dahlia",
+      "Durin",
+      "Fischl",
+      "Kaeya",
+      "Lisa",
+      "Mika",
+      "Rosaria",
+      "Traveler (Anemo)",
+      "Traveler (Geo)",
+      "Traveler (Unaligned)",
+      "Venti"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Guide de la Poésie",
+  "rarity": 3,
+  "categories": [
+    "BALLAD_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. La poésie est l'âme du royaume du vent. Elle existe pour donner du courage à ceux qui en ont besoin. Pendant les jours sombres, les bourrasques soufflaient des mots de colère dans les rues, comme des tambours de guerre qui annoncent une tempête à venir.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Gorge de l'oubli",
+      "rotation": "Royaume endormi",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Ballad",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Ballad"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Albedo",
+      "Dahlia",
+      "Durin",
+      "Fischl",
+      "Kaeya",
+      "Lisa",
+      "Mika",
+      "Rosaria",
+      "Traveler (Anemo)",
+      "Traveler (Geo)",
+      "Traveler (Unaligned)",
+      "Venti"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Winter Icelea",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "A hardy plant known for withstanding relentless wind and frost, it survives even in the coldest depths of winter.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found at the Pillar of Embla"
+    }
+  ],
+  "usedIn": [
+    "Berry Herbal Candy",
+    "Moonlit Mirage"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Columbina",
+      "Prune"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Kuzmich",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 10,
+      "restock": "NEVER"
+    }
+  ]
+}

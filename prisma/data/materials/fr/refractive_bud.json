@@ -1,0 +1,48 @@
+{
+  "name": "Bourgeon réfractif",
+  "rarity": 2,
+  "categories": [
+    "TENEBROUS_MIMESIS_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un bourgeon de feuille laissé par un Miméflore obombrée lors de son élimination. On dit que lorsque cette créature a émergé de la marée noire, les premières choses qu'elle a fait pousser étaient ces bourgeons tendres capables de dévier la puissance élémentaire.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Tenebrous Mimesis - Anemo Hilichurl Rogue",
+        "Tenebrous Mimesis - Crackling Axe Mitachurl",
+        "Tenebrous Mimesis - Iktomisaurus Warrior: Icy Tidebearer",
+        "Tenebrous Mimesis - Qucusaurus Warrior: Blazing Sky",
+        "Tenebrous Mimesis - Qucusaurus Warrior: Heartstar Hammer",
+        "Tenebrous Mimesis - Ruin Guard",
+        "Tenebrous Mimesis - Secret Source Automaton: Hunter-Seeker",
+        "Tenebrous Mimesis - Tepetlisaurus Warrior: Rockbreaker Blade",
+        "Tenebrous Mimesis - Tepetlisaurus Warrior: Shard Striker",
+        "Tenebrous Mimesis - Yumkasaurus Warrior: Flowing Skyfire",
+        "Tenebrous Mimesis: Geovishap Hatchling",
+        "Tenebrous Mimesis: Koholasaurus",
+        "Tenebrous Mimesis: Tatankasaurus",
+        "Tenebrous Mimesis: Tepetlisaurus",
+        "Tenebrous Mimesis: Yumkasaurus",
+        "Tenebrous Mimiflora"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Bewildering Broadleaf"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Astral Vulture's Crimson Plumage",
+    "Azurelight",
+    "Calamity of Eshu",
+    "Rainbow Serpent's Rain Bow",
+    "Tamayuratei no Ohanashi"
+  ],
+  "sellers": []
+}

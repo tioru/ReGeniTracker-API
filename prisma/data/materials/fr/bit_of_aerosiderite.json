@@ -1,0 +1,62 @@
+{
+  "name": "Fragment d'aérosidérite noire",
+  "rarity": 4,
+  "categories": [
+    "AEROSIDERITE"
+  ],
+  "description": "Matériau d'élévation d'arme. « Outre-mer » est le surnom des terres inconnues qui s'étendent au-delà de la côte de Teyvat. Jadis, de nombreuses anciennes divinités refusèrent de vivre sous l'ordre des Sept Archons et se réfugièrent dans des régions lointaines et devinrent maléfiques. Bien que l'histoire en soit ainsi, la source de leurs pouvoirs était la même que celle du Souverain de la Roche.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Palais secret de Lianshan",
+      "rotation": "Terrain d'ancien tonnerre",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Piece of Aerosiderite",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 350
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Chunk of Aerosiderite"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Lightbearing Moonshard",
+    "Memory of Dust",
+    "Staff of Homa",
+    "Vortex Vanquisher",
+    "Cloudforged",
+    "Compound Bow",
+    "Fading Twilight",
+    "Iron Sting",
+    "Lithic Spear",
+    "Luxurious Sea-Lord",
+    "Mappa Mare",
+    "Prototype Archaic",
+    "Prototype Starglitter",
+    "Serpent Spine",
+    "Black Tassel",
+    "Skyrider Greatsword",
+    "Skyrider Sword"
+  ],
+  "sellers": []
+}

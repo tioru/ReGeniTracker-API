@@ -1,0 +1,29 @@
+{
+  "name": "Source des premières rosées",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Une goutte de rosée limpide flottant dans les eaux de la Région mortée. Elle est différente des autres corps d'eau pure, car il semblerait qu'il s'agisse d'un regroupement d'énergie élémentaire encore plus pure et primordiale.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found underwater surrounding the Tower of Ipsissimus in Morte Region"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Pahsiv",
+      "currency": "Tidalga",
+      "cost": 2,
+      "stock": 15,
+      "restock": "NEVER"
+    }
+  ]
+}

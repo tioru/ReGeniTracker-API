@@ -1,0 +1,27 @@
+{
+  "name": "Fleur cristalline",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "Un cristal de glace d'une extrême pureté qui s'est formé à partir de la floraison d'une Hypostase Cryo. Les cristaux glacés grandissent et fleurissent selon leurs propres lois du froid, jusqu'à ce qu'un jour une fleur hivernale éclose et gèle tout. Peut-être est-ce le temps stagnant et ce cœur qui ne fond jamais qui sont l'essence de cette fleur éternelle.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Cryo Hypostasis"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Aloy",
+      "Eula"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

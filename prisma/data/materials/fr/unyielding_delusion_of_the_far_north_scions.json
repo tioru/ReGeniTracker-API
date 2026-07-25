@@ -1,0 +1,50 @@
+{
+  "name": "Illusion inflexible des héritiers du grand nord",
+  "rarity": 3,
+  "categories": [
+    "THE_FAR_NORTH_SCIONS"
+  ],
+  "description": "Matériau d'élévation d'arme. La grande cité d'or et de pierre blanche n'était plus. Ses habitants exilés arrivèrent sur une terre étrangère désolée en suivant la faible lueur de la lune. La gloire et les exploits du passé s'évaporèrent comme la rosée du matin, mais les illusions des premiers jours demeuraient encore bien vivantes chez les orgueilleux, contrairement aux tombes perdues dans le temps. Comme des fermiers qui élaguaient leurs champs, les grands prêtres qui vénéraient le clair de lune firent la sélection des lignées les plus pures et les plus proches de leurs progéniteurs pendant des générations, peu importe le prix...",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour lunaire perdue",
+      "rotation": "Estimation",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Sundered Glory of the Far-North Scions",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Oblation of the Far-North Scions"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "A Teaspoon of Transcendence",
+    "Nocturne's Curtain Call",
+    "Etherlight Spindlelute",
+    "Master Key",
+    "Moonweaver's Dawn"
+  ],
+  "sellers": []
+}

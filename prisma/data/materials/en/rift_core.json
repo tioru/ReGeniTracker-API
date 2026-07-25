@@ -1,0 +1,37 @@
+{
+  "name": "Rift Core",
+  "rarity": 2,
+  "categories": [
+    "BREACHER_PRIMUS_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A shard left by Breacher Primus. It bears no resemblance to any other known form of life in the world.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Large Overgrown Breacher Primus",
+        "Large Shatterstone Breacher Primus",
+        "Overgrown Breacher Primus",
+        "Shatterstone Breacher Primus"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Foreign Synapse"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Tome of the Eternal Flow",
+    "Verdict",
+    "Flowing Purity",
+    "Portable Power Saw",
+    "Rightful Reward",
+    "Tidal Shadow"
+  ],
+  "sellers": []
+}

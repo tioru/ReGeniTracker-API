@@ -1,0 +1,76 @@
+{
+  "name": "Noyau spectral",
+  "rarity": 3,
+  "categories": [
+    "SPECTER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Un noyau d'énergie intégral qui peut être ramassé après avoir vaincu un Spectre. Un débat revient souvent parmi ceux qui aiment diviser le monde entre gagnants et perdants : Lequel flotte le mieux dans les airs ? Un Anémoblob ou un Spectre ?",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Anemo Specter",
+        "Cryo Specter",
+        "Dendro Specter",
+        "Electro Specter",
+        "Geo Specter",
+        "Hydro Specter",
+        "Pyro Specter"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Spectral Heart",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Aloy",
+      "Chiori",
+      "Gorou",
+      "Kirara",
+      "Kuki Shinobu",
+      "Sangonomiya Kokomi"
+    ],
+    "talent": [
+      "Aloy",
+      "Chiori",
+      "Gorou",
+      "Kirara",
+      "Kuki Shinobu",
+      "Sangonomiya Kokomi"
+    ]
+  },
+  "usedByWeapons": [
+    "Aqua Simulacra",
+    "Everlasting Moonglow",
+    "Kagura's Verity",
+    "Polar Star",
+    "Sunny Morning Sleep-In",
+    "\"The Catch\"",
+    "Dialogues of the Desert Sages",
+    "Kagotsurube Isshin",
+    "Mailed Flower",
+    "Mouun's Moon",
+    "Oathsworn Eye"
+  ],
+  "sellers": []
+}

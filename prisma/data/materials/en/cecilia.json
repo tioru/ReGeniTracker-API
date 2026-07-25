@@ -1,0 +1,34 @@
+{
+  "name": "Cecilia",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in the wild on Starsnatch Cliff"
+    }
+  ],
+  "usedIn": [
+    "Anemoculus Resonance Stone"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Albedo",
+      "Venti"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Flora",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

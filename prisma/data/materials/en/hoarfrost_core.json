@@ -1,0 +1,31 @@
+{
+  "name": "Hoarfrost Core",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "The exposed core of a defeated Cryo Regisvine. Pure Cryo elements are contained within it. Energy and thoughts that swell deep within the earth will eventually erupt on the surface. Even the deathly silent frost will attach to living things on the ground, turning even ordinary vegetation like vines into huge, vicious predators.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Cryo Regisvine"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Chongyun",
+      "Diona",
+      "Ganyu",
+      "Kaeya",
+      "Qiqi",
+      "Rosaria"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

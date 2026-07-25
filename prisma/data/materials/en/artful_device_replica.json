@@ -1,0 +1,50 @@
+{
+  "name": "Artful Device Replica",
+  "rarity": 3,
+  "categories": [
+    "ARTFUL_DEVICES"
+  ],
+  "description": "Just as the legendary thief's tools have been imitated by countless others, so has his name. In a sense, it was not the people who thirsted for something more who stole Reed Miller's name, but rather Reed Miller who stole the identity that was originally theirs alone. These viewpoints are just two sides of the same coin.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Lost Mooncourt",
+      "rotation": "Radiant Splendor",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Artful Device Fragment",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Artful Device Inheritance"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Angelos' Heptades",
+    "Nightweaver's Looking Glass",
+    "Blackmarrow Lantern",
+    "Dawning Frost",
+    "Serenity's Call"
+  ],
+  "sellers": []
+}

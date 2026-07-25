@@ -1,0 +1,52 @@
+{
+  "name": "Operative's Constancy",
+  "rarity": 4,
+  "categories": [
+    "FATUI_OPERATIVE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "An accessory with a Delusion mounted on it. This is source of the Fatui Operative's power. That said, taking it off would not detract from the fact that said Operative has physical abilities far beyond that of ordinary humans, forged through long years of training and combat experience. As for them, they are well-aware that they have sacrificed their past, present, and future upon the altar of the Fatui's ideal paradise, such that the damage they cause themselves on account of using a Delusion's power matters not at all.",
+  "sources": [
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Operative's Standard Pocket Watch",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Frost Operative",
+        "Wind Operative"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Absolution",
+    "Cashflow Supervision",
+    "\"Ultimate Overlord's Mega Magic Sword\"",
+    "Prospector's Drill",
+    "Sword of Narzissenkreuz",
+    "The Dockhand's Assistant"
+  ],
+  "sellers": []
+}

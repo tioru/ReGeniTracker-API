@@ -1,0 +1,53 @@
+{
+  "name": "Tuile cassée de Décarabian",
+  "rarity": 2,
+  "categories": [
+    "DECARABIAN_TILES"
+  ],
+  "description": "Matériau d'élévation d'arme. L'endroit qu'on nomme l'Antre de Stormterror aujourd'hui était autrefois une cité construite par Décarabian, le dieu des tempêtes. Ce beau rêve prospère a été créé par le pouvoir de l'Archon, et même après sa destruction, les tuiles cassées et les fragments dispersés laissés derrière possèdent toujours une grande puissance.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pépinière de cécilias",
+      "rotation": "Ville de réflexions",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Debris of Decarabian's City"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aquila Favonia",
+    "Athame Artis",
+    "Disaster and Remorse",
+    "Song of Broken Pines",
+    "Cinnabar Spindle",
+    "Favonius Codex",
+    "Favonius Sword",
+    "Mitternachts Waltz",
+    "Royal Grimoire",
+    "Royal Longsword",
+    "Snow-Tombed Starsilver",
+    "The Alley Flash",
+    "The Bell",
+    "The Stringless",
+    "The Viridescent Hunt",
+    "Wolf-Fang",
+    "Cool Steel",
+    "Ferrous Shadow",
+    "Magic Guide",
+    "Raven Bow",
+    "Pocket Grimoire",
+    "Silver Sword",
+    "Apprentice's Notes",
+    "Dull Blade"
+  ],
+  "sellers": []
+}

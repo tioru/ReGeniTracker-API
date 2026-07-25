@@ -1,0 +1,33 @@
+{
+  "name": "Sea Ganoderma",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "A plant species that only grows in certain regions and islands of the ocean. Though it looks like a fungus of some sort, it actually comes from a substance secreted by certain soft-bodied organisms.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found on beaches and tidal flats of Inazuma"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Kaedehara Kazuha",
+      "Yae Miko",
+      "Yumemizuki Mizuki"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Obata",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Pine Amber",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "A gem formed from the resin of the towering ancient trees that once blanketed Nod-Krai. Over ages, the resin hardened into crystalline amber, now shining with vivid, radiant hues.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Dreadshade Mire"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Illuga",
+      "Nicole"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Kuzmich",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 10,
+      "restock": "NEVER"
+    }
+  ]
+}

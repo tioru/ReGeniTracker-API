@@ -1,22 +1,25 @@
 {
   "name": "Varunada Lazurite Sliver",
   "rarity": 2,
-  "categories": ["VARUNADA_LAZURITE", "ASCENSION_GEMS"],
+  "categories": [
+    "VARUNADA_LAZURITE",
+    "ASCENSION_GEMS"
+  ],
   "description": "Character Ascension Material.",
   "sources": [
     {
       "type": "BOSS",
       "minimumLevel": 1,
       "names": [
-        "Oceanid",
-        "Frostnight Herra",
         "Aeonblight Drake",
-        "Secret Source Automaton: Overseer Device",
-        "Solitary Suanni",
-        "Hydro Tulpa",
+        "Frostnight Herra",
         "Hydro Hypostasis",
+        "Hydro Tulpa",
+        "Iniquitous Baptist",
         "Primo Geovishap",
-        "Iniquitous Baptist"
+        "Rhodeia of Loch",
+        "Secret Source Automaton: Overseer Device",
+        "Solitary Suanni"
       ]
     },
     {
@@ -24,12 +27,12 @@
       "minimumLevel": 1,
       "names": [
         "All-Devouring Narwhal",
-        "The Doctor",
-        "Shouki no Kami, the Prodigal",
+        "Azhdaha (Weekly Boss)",
         "Childe",
-        "Azhadaha",
-        "The Game Before The Gate",
-        "Stormterror"
+        "Everlasting Lord of Arcane Wisdom",
+        "Heretic of the False Moon",
+        "Stormterror Dvalin",
+        "The Game Before the Gate"
       ]
     },
     {
@@ -39,51 +42,90 @@
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Ag­ni­dus A­gate Sliver", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 1 }
+            {
+              "item": "Agnidus Agate Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Nagadus Emerald Sliver", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 1 }
+            {
+              "item": "Nagadus Emerald Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Vajrada Amethyst Sliver", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 1 }
+            {
+              "item": "Vajrada Amethyst Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Vayuda Turquoise Sliver", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 1 }
+            {
+              "item": "Vayuda Turquoise Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Shivada Jade Sliver", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 1 }
+            {
+              "item": "Shivada Jade Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Prithiva Topaz Sliver", "quantity": 1 },
-            { "item": "Dust of Azote", "quantity": 1 }
+            {
+              "item": "Prithiva Topaz Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
           ]
         }
       ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
     }
   ],
   "usedIn": [
@@ -92,8 +134,8 @@
     "Prithiva Topaz Sliver",
     "Shivada Jade Sliver",
     "Vajrada Amethyst Sliver",
-    "Vayuda Turquoise Sliver",
-    "Varunada Lazurite Fragment"
+    "Varunada Lazurite Fragment",
+    "Vayuda Turquoise Sliver"
   ],
   "usedByCharacters": {
     "ascension": [
@@ -106,7 +148,7 @@
       "Kamisato Ayato",
       "Mona",
       "Mualani",
-      "Neuvilette",
+      "Neuvillette",
       "Nilou",
       "Sangonomiya Kokomi",
       "Sigewinne",
@@ -120,14 +162,14 @@
   "sellers": [
     {
       "name": "Marjorie",
-      "currency": "Anemo Sigil",
+      "currency": "Sigil",
       "cost": 10,
       "stock": 6,
       "restock": "NEVER"
     },
     {
       "name": "Xingxi",
-      "currency": "Anemo Sigil",
+      "currency": "Sigil",
       "cost": 10,
       "stock": 12,
       "restock": "NEVER"

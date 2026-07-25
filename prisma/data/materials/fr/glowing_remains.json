@@ -1,0 +1,55 @@
+{
+  "name": "Restes lumineux",
+  "rarity": 3,
+  "categories": [
+    "RADIANT_BEAST_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un morceau d'os émettant une faible lueur, pris du corps d'une bête lumineuse. Il s'agit d'un vestige provenant d'un exosquelette ayant retenu un fragment de l'ancien pouvoir de la lune. Il émet une lueur de couleur foncée qui persiste longtemps, même après avoir été séparé de son corps.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Radiant Antelope",
+        "Radiant Bladehorn",
+        "Radiant Glacial Wolf",
+        "Radiant Lunapod"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Lightless Bone",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Radiant Exoskeleton"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Disaster and Remorse",
+    "Reliquary of Truth",
+    "Etherlight Spindlelute",
+    "Master Key",
+    "Moonweaver's Dawn"
+  ],
+  "sellers": []
+}

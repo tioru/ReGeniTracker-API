@@ -1,0 +1,36 @@
+{
+  "name": "Dernier écho du pouvoir brûlant",
+  "rarity": 2,
+  "categories": [
+    "SCORCHING_MIGHTS"
+  ],
+  "description": "Matériau d'élévation d'arme. Jadis, le peuple du roi du désert sculpta des insignes royaux à l'image d'un scarabée robuste en l'honneur du soleil rouge qui ponctue les aubes et les crépuscules ainsi que le temps qui ne cesse de s'écouler. Bien que le nom du roi ne soit plus jamais mentionné par quiconque, ces petits insignes royaux ont survécu jusqu'à nos jours, laissant entrevoir la gloire des jours d'autrefois. Ces insignes voyagent aux quatre coins du pays avec les descendants des tribus érémites, contant silencieusement l'histoire des temps anciens.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Tour de la fierté",
+      "rotation": "Karma",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Remnant Glow of Scorching Might"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Beacon of the Reed Sea",
+    "Hunter's Path",
+    "Tulaytullah's Remembrance",
+    "End of the Line",
+    "King's Squire",
+    "Makhaira Aquamarine",
+    "Scion of the Blazing Sun"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Cloudseam Scale",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "Cold and solid scales from a Solitary Suanni. They retain pure adeptal energy even after falling off and cannot be damaged by ordinary weapons. Ordinary beasts can sometimes be affected by errant adeptal energy and become more powerful than usual. However, a suanni's adeptal energy originates from within themselves, which is why their leader is often regarded as equal to adepti.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Solitary Suanni"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Sethos",
+      "Xianyun"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

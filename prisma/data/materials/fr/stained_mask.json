@@ -1,0 +1,117 @@
+{
+  "name": "Masque sale",
+  "rarity": 2,
+  "categories": [
+    "HILICHURL_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Un masque en os taché par une substance non identifiée qui dégage une odeur étrange. Un Brutocollinus le porterait même dans cet état.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Anemo Samachurl",
+        "Cryo Hilichurl Grenadier",
+        "Cryo Hilichurl Shooter",
+        "Cryo Samachurl",
+        "Dendro Samachurl",
+        "Electro Hilichurl Grenadier",
+        "Electro Hilichurl Shooter",
+        "Electro Samachurl",
+        "Geo Samachurl",
+        "Hilichurl",
+        "Hilichurl Berserker",
+        "Hilichurl Fighter",
+        "Hilichurl Grenadier",
+        "Hilichurl Shooter",
+        "Hydro Samachurl",
+        "Ice Shield Hilichurl Guard",
+        "Pyro Hilichurl Shooter",
+        "Rock Shield Hilichurl Guard",
+        "Wooden Shield Hilichurl Guard"
+      ]
+    },
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Blazing Axe Mitachurl",
+        "Crackling Axe Mitachurl",
+        "Frostarm Lawachurl",
+        "Ice Shieldwall Mitachurl",
+        "Rock Shieldwall Mitachurl",
+        "Stonehide Lawachurl",
+        "Thunderhelm Lawachurl",
+        "Wooden Shieldwall Mitachurl"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Damaged Mask",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Ominous Mask"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Chongyun",
+      "Eula",
+      "Jean",
+      "Kujou Sara",
+      "Noelle",
+      "Razor",
+      "Traveler",
+      "Xingqiu",
+      "Yun Jin"
+    ],
+    "talent": [
+      "Chongyun",
+      "Eula",
+      "Jean",
+      "Kujou Sara",
+      "Noelle",
+      "Razor",
+      "Xingqiu",
+      "Yun Jin"
+    ]
+  },
+  "usedByWeapons": [
+    "Memory of Dust",
+    "Song of Broken Pines",
+    "Summit Shaper",
+    "Cinnabar Spindle",
+    "Dodoco Tales",
+    "Eye of Perception",
+    "Prototype Archaic",
+    "Prototype Starglitter",
+    "Ring of Yaxche",
+    "Royal Longsword",
+    "Rust",
+    "The Widsith",
+    "Wolf-Fang",
+    "Dark Iron Sword",
+    "Debate Club",
+    "Otherworldly Story",
+    "Slingshot",
+    "Pocket Grimoire",
+    "Apprentice's Notes"
+  ],
+  "sellers": []
+}

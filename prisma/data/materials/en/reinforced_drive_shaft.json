@@ -1,0 +1,69 @@
+{
+  "name": "Reinforced Drive Shaft",
+  "rarity": 2,
+  "categories": [
+    "LANDCRUISER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "The reinforced drive shaft of a Landcruiser. It took countless reports of destruction to bring about this insignificant improvement. In a sense, the administrative system of the Royal Armory Palace is several times more complex than the machinery it builds. After all, even the most advanced Landcruisers don't take months or even years to build.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Close Combat Scout Landcruiser",
+        "Close Combat Storm Landcruiser",
+        "Cutting Edge All-Purpose Scout Landcruiser",
+        "Cutting Edge All-Purpose Storm Landcruiser",
+        "Cutting Edge Fire Support Ground Effect Landcruiser",
+        "Force Recon Ground Effect Landcruiser",
+        "Force Recon Scout Landcruiser",
+        "Force Recon Storm Landcruiser"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Broken Drive Shaft",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Precision Drive Shaft"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Aino",
+      "Flins",
+      "Illuga",
+      "Jahoda",
+      "Sandrone",
+      "Varka"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Angelos' Heptades",
+    "Athame Artis",
+    "Lightbearing Moonshard",
+    "Nightweaver's Looking Glass",
+    "Master Key",
+    "Moonweaver's Dawn",
+    "Prospector's Shovel",
+    "Sacrificer's Staff"
+  ],
+  "sellers": []
+}

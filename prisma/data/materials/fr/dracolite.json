@@ -1,0 +1,30 @@
+{
+  "name": "Dracolite",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES",
+    "MINERALS"
+  ],
+  "description": "Formés progressivement dans les régions riches en phlogistique, ces cristaux rouges en forme d'écailles sont brûlants au toucher.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Atocpan"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Kofitse",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

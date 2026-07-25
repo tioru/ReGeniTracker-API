@@ -1,0 +1,47 @@
+{
+  "name": "Fragment d'os fragile",
+  "rarity": 2,
+  "categories": [
+    "VISHAP_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Fragment d'os retrouvé sur le corps d'un Élémentosaure. Malgré sa fragilité, une mystérieuse puissance semble s'en dégager.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Bolteater Bathysmal Vishap Hatchling",
+        "Geovishap",
+        "Geovishap Hatchling",
+        "Primordial Bathysmal Vishap",
+        "Primordial Bathysmal Vishap Hatchling",
+        "Rimebiter Bathysmal Vishap Hatchling"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Sturdy Bone Shard"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Memory of Dust",
+    "Vortex Vanquisher",
+    "Ballad of the Boundless Blue",
+    "Compound Bow",
+    "Iron Sting",
+    "Lithic Spear",
+    "Luxurious Sea-Lord",
+    "Mappa Mare",
+    "Prototype Archaic",
+    "Prototype Starglitter",
+    "Serpent Spine",
+    "Black Tassel",
+    "Skyrider Greatsword",
+    "Skyrider Sword"
+  ],
+  "sellers": []
+}

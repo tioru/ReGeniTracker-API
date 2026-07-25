@@ -1,0 +1,180 @@
+{
+  "name": "Vajrada Amethyst Chunk",
+  "rarity": 4,
+  "categories": [
+    "VAJRADA_AMETHYST",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension material. \"This body is the noblest and most eminent of all in this world. It should hold absolute control over this world.\"",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 60,
+      "names": [
+        "Coral Defenders",
+        "Electro Hypostasis",
+        "Electro Regisvine",
+        "Iniquitous Baptist",
+        "Knuckle Duckle",
+        "Lord of the Hidden Depths: Whisperer of Nightmares",
+        "Millennial Pearl Seahorse",
+        "Primo Geovishap",
+        "Secret Source Automaton: Configuration Device",
+        "Tenebrous Papilla",
+        "Thunder Manifestation"
+      ]
+    },
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 60,
+      "names": [
+        "Azhdaha (Weekly Boss)",
+        "Childe",
+        "Everlasting Lord of Arcane Wisdom",
+        "Exalted Master of the Heretical Path",
+        "Heretic of the False Moon",
+        "Magatsu Mitake Narukami no Mikoto",
+        "Stormterror Dvalin",
+        "The Game Before the Gate"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vajrada Amethyst Fragment",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 900
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Agnidus Agate Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Varunada Lazurite Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Nagadus Emerald Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vayuda Turquoise Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shivada Jade Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Prithiva Topaz Chunk",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 9
+            }
+          ]
+        }
+      ],
+      "minimumAdventureRank": 35
+    }
+  ],
+  "usedIn": [
+    "Agnidus Agate Chunk",
+    "Nagadus Emerald Chunk",
+    "Prithiva Topaz Chunk",
+    "Shivada Jade Chunk",
+    "Vajrada Amethyst Gemstone",
+    "Varunada Lazurite Chunk",
+    "Vayuda Turquoise Chunk"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Beidou",
+      "Clorinde",
+      "Cyno",
+      "Dori",
+      "Fischl",
+      "Flins",
+      "Iansan",
+      "Ineffa",
+      "Keqing",
+      "Kujou Sara",
+      "Kuki Shinobu",
+      "Lisa",
+      "Ororon",
+      "Raiden Shogun",
+      "Razor",
+      "Sethos",
+      "Varesa",
+      "Yae Miko"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

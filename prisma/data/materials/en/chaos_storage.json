@@ -1,0 +1,34 @@
+{
+  "name": "Chaos Storage",
+  "rarity": 2,
+  "categories": [
+    "RUIN_DRAKE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Comes from a now-inactive ancient Ruin Drake. Ruin Drakes can absorb Elemental Energy from the outside and store it in this component inside their \"neck.\"",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Ruin Drake: Earthguard",
+        "Ruin Drake: Skywatch"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Chaos Module"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Staff of the Scarlet Sands",
+    "Forest Regalia",
+    "Makhaira Aquamarine",
+    "Moonpiercer",
+    "Sapwood Blade"
+  ],
+  "sellers": []
+}

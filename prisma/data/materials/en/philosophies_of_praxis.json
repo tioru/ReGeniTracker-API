@@ -1,0 +1,50 @@
+{
+  "name": "Philosophies of Praxis",
+  "rarity": 4,
+  "categories": [
+    "PRAXIS_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Praxes are the roots of the nation of wisdom. Praxes bring forth the fruit of wisdom. Practice grants itself meaning, and it is only by treading a path that unites action, speech, and thought that the wise may reach perfection.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Steeple of Ignorance",
+      "rotation": "Basket of Discipline",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Praxis",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Collei",
+      "Dehya",
+      "Nilou",
+      "Sethos",
+      "Traveler (Dendro)",
+      "Wanderer"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

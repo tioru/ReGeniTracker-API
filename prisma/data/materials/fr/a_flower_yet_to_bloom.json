@@ -1,0 +1,33 @@
+{
+  "name": "Fleur non épanouie d'origine inconnue",
+  "rarity": 2,
+  "categories": [
+    "HILICHURL_ROGUE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Une fleur sauvage qu'un Brutovéreux chérissait, cueillie avant qu'elle ne puisse fleurir. Ce type de Brutocollinus erre dans les bois sans se charger d'objets, en dehors de ces fleurs qui n'ont pas encore fleuri.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Anemo Hilichurl Rogue",
+        "Hydro Hilichurl Rogue"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Treasured Flower"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Jadefall's Splendor",
+    "Ballad of the Fjords",
+    "Ibis Piercer",
+    "Scion of the Blazing Sun"
+  ],
+  "sellers": []
+}

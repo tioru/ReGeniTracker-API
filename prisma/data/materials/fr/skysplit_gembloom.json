@@ -1,0 +1,32 @@
+{
+  "name": "Floraigemme brise-ciel",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Une plante étrange dont l'extérieur ressemble à de la pierre. Ce n'est qu'au moment de la floraison qu'elle révèle un cœur resplendissant à l'apparence de cristal.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Natlan"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Skirk",
+      "Varesa"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Motolinia",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

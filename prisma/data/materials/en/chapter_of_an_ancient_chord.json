@@ -1,0 +1,38 @@
+{
+  "name": "Chapter of an Ancient Chord",
+  "rarity": 3,
+  "categories": [
+    "ANCIENT_CHORDS"
+  ],
+  "description": "Legends say that the survivors of that ancient dynasty once cast a harp out of black iron to commemorate and mourn. A harp cast of black iron cannot be played. To mourn that ancient dynasty that was once so proud of its golden music, those remaining forged this heavy instrument and its yet weightier silence. But no matter what, the black iron harp remained as silent as that lost era.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Echoes of the Deep Tides",
+      "rotation": "Robotic Ruse",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Movement of an Ancient Chord"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Absolution",
+    "The First Great Magic",
+    "Verdict",
+    "Fleuve Cendre Ferryman",
+    "Prospector's Drill",
+    "Range Gauge",
+    "Sequence of Solitude",
+    "Song of Stillness",
+    "Sword of Narzissenkreuz"
+  ],
+  "sellers": []
+}

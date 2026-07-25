@@ -1,0 +1,32 @@
+{
+  "name": "Radiant Prism",
+  "rarity": 4,
+  "categories": [
+    "PRIMAL_CONSTRUCT_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "An exquisite component obtained from defeating a Primal Construct. The lord of the barren desert once had a dream, and once made a great many promises. The legends of the desert say that these machines were originally vehicles for these unknown promises, which now live on only within their mechanical memory banks.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Primal Construct: Prospector",
+        "Primal Construct: Repulsor",
+        "Primal Construct: Reshaper"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "A Thousand Floating Dreams",
+    "Key of Khaj-Nisut",
+    "Toukabou Shigure",
+    "Xiphos' Moonlight"
+  ],
+  "sellers": []
+}

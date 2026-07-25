@@ -1,0 +1,33 @@
+{
+  "name": "Starconch",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found on the beaches of Liyue and Dragonspine"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Gaming",
+      "Tartaglia",
+      "Yelan"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Bolai",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

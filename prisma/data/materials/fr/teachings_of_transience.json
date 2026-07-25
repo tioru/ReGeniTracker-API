@@ -1,0 +1,37 @@
+{
+  "name": "Enseignement de l'Éphémère",
+  "rarity": 2,
+  "categories": [
+    "TRANSIENCE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'éphémère est le rêve de la nation du tonnerre. Les gloires éphémères sont la plus haute expression de la beauté mortelle, car nous autres, mortels, sommes tels des éclairs dans la nuit. Comme un beau rêve ou une étincelle qui s'embrase, nous laissons une empreinte magnifique sur le ciel nocturne éternel.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cour violette",
+      "rotation": "Règne violet",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Transience"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Kirara",
+      "Sangonomiya Kokomi",
+      "Shikanoin Heizou",
+      "Thoma",
+      "Traveler (Electro)",
+      "Yoimiya",
+      "Yumemizuki Mizuki"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

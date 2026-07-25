@@ -1,12 +1,25 @@
 {
   "name": "Philanemo Mushroom",
-  "rarity": 1,
-  "categories": [],
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
   "description": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
-  "sources": [],
-  "usedIn": ["Anemo Treasure Compass"],
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found under the eaves of houses in the City of Mondstadt, Springvale, Dawn Winery, and Millhaven"
+    }
+  ],
+  "usedIn": [
+    "Anemo Treasure Compass"
+  ],
   "usedByCharacters": {
-    "ascension": ["Barbara", "Klee", "Mona"],
+    "ascension": [
+      "Barbara",
+      "Klee",
+      "Mona"
+    ],
     "talent": []
   },
   "usedByWeapons": [],

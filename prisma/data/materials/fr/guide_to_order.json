@@ -1,0 +1,36 @@
+{
+  "name": "Guide de l'Ordre",
+  "rarity": 3,
+  "categories": [
+    "ORDER_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'ordre est le bouclier de la patrie de l'eau. Toute loi à Fontaine sert à maintenir un ordre stable. Sans la garantie offerte par l'ordre, la justice se réduira à une violence sans limites, une arme utilisée par tous contre tous.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pâle gloire oubliée",
+      "rotation": "Psaume",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Order"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Arlecchino",
+      "Chevreuse",
+      "Emilie",
+      "Lynette",
+      "Traveler (Hydro)",
+      "Wriothesley"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

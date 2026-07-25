@@ -1,0 +1,36 @@
+{
+  "name": "Talisman en cuivre de la rosée",
+  "rarity": 2,
+  "categories": [
+    "TALISMANS_OF_THE_FOREST_DEW"
+  ],
+  "description": "Matériau d'élévation d'arme. Sous les instructions du Premier sage, les ancêtres du peuple de la forêt tropicale ont fabriqué ces talismans à l'aide d'arbres flétris pour honorer celle qui régna sur les arbres et les fleurs. La forme du talisman s'inspire de la rosée de la forêt. Elle symbolise l'imprégnation de la sagesse dans les esprits des mortels.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Tour de la fierté",
+      "rotation": "Nuages souillés",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Iron Talisman of the Forest Dew"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Key of Khaj-Nisut",
+    "Light of Foliar Incision",
+    "Dialogues of the Desert Sages",
+    "Forest Regalia",
+    "Ibis Piercer",
+    "Sapwood Blade",
+    "Xiphos' Moonlight"
+  ],
+  "sellers": []
+}

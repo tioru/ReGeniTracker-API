@@ -1,0 +1,83 @@
+{
+  "name": "Energy Nectar",
+  "rarity": 3,
+  "categories": [
+    "WHOPPERFLOWER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "A thick and sticky honey that is full of energy. The Whopperflower hunts by tricking its prey, a process it uses to possibly evolve into a more powerful and pure form.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Cryo Whopperflower",
+        "Electro Whopperflower",
+        "Pyro Whopperflower"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shimmering Nectar",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Furina",
+      "Ganyu",
+      "Hu Tao",
+      "Keqing",
+      "Lan Yan",
+      "Mona",
+      "Sayu",
+      "Shenhe",
+      "Sucrose"
+    ],
+    "talent": [
+      "Furina",
+      "Ganyu",
+      "Hu Tao",
+      "Keqing",
+      "Lan Yan",
+      "Mona",
+      "Sayu",
+      "Shenhe",
+      "Sucrose"
+    ]
+  },
+  "usedByWeapons": [
+    "Calamity Queller",
+    "Disaster and Remorse",
+    "Lumidouce Elegy",
+    "Ballad of the Fjords",
+    "Blackcliff Warbow",
+    "Deathmatch",
+    "Favonius Warbow",
+    "Frostbearer",
+    "Iron Sting",
+    "Mountain-Bracing Bolt",
+    "Serpent Spine",
+    "Solar Pearl",
+    "The Bell",
+    "Windblume Ode",
+    "Ferrous Shadow",
+    "Halberd"
+  ],
+  "sellers": []
+}

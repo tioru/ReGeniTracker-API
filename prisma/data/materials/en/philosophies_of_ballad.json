@@ -1,0 +1,56 @@
+{
+  "name": "Philosophies of Ballad",
+  "rarity": 4,
+  "categories": [
+    "BALLAD_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Poetry is the soul of the land of the wind. Poetry is the manifestations of the desire to spread the word. Though nothing is eternal, though nothing will be the same, the wind's poetry will still spread beyond the skies, the land, the seas to every corner of the world.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Forsaken Rift",
+      "rotation": "Realm of Slumber",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Ballad",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Albedo",
+      "Dahlia",
+      "Durin",
+      "Fischl",
+      "Kaeya",
+      "Lisa",
+      "Mika",
+      "Rosaria",
+      "Traveler (Anemo)",
+      "Traveler (Geo)",
+      "Traveler (Unaligned)",
+      "Venti"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

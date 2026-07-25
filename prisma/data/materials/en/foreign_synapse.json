@@ -1,0 +1,56 @@
+{
+  "name": "Foreign Synapse",
+  "rarity": 3,
+  "categories": [
+    "BREACHER_PRIMUS_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A shard left by Breacher Primus. This strange life form originates in Elynas and inhabits the area.",
+  "sources": [
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Rift Core",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Large Overgrown Breacher Primus",
+        "Large Shatterstone Breacher Primus",
+        "Overgrown Breacher Primus",
+        "Shatterstone Breacher Primus"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Alien Life Core"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Tome of the Eternal Flow",
+    "Verdict",
+    "Flowing Purity",
+    "Portable Power Saw",
+    "Rightful Reward",
+    "Tidal Shadow"
+  ],
+  "sellers": []
+}

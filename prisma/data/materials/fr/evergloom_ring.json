@@ -1,0 +1,27 @@
+{
+  "name": "Anneau de sombreur éternelle",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "Un catalyseur orbiculaire qui a été obtenu après avoir vaincu un émissaire à quatre bras chuchotant de lugubres évangiles. Les cercles représentant des passages, les motifs arcaniques pouvant déclencher des effets mystérieux en sont souvent composées. Ce genre d'anneau est peut-être même un instrument pour guider le flux de l'univers...",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Iniquitous Baptist"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Baizhu",
+      "Kirara"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

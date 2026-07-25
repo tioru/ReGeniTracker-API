@@ -1,0 +1,41 @@
+{
+  "name": "Herbe à sanglots",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Même les jours sans vent, cette plante frissonnera au son du tonnerre. La partie qui ressemble à des pétales est en fait une extension de ses feuilles, destinée à protéger cette fleur si fragile.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in areas of high Electro concentration in Inazuma, especially Seirai Island"
+    }
+  ],
+  "usedIn": [
+    "Electroculus Resonance Stone"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Kuki Shinobu",
+      "Yoimiya"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Aoi",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Babak",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

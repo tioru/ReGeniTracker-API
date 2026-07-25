@@ -1,0 +1,39 @@
+{
+  "name": "Frostlamp Flower",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "A flower that resembles a candle lamp, commonly found near water. It emits a cold, simple aroma that has a calming effect. The contrasting colors of its stamen and stem are thought to symbolize the two different types of kuuvahki, yet despite this symbolism, it is one of the few rare plants that are immune to kuuvahki's influence. As a result, the Frostmoon Scions sometimes regard it as a symbol of faithlessness and apostasy. It is said that this strangely shaped flower first appeared at the end of the dark calamity five hundred years ago, but this claim has never been rigorously verified.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Nod-Krai"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Durin",
+      "Flins"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Kuzmich",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 10,
+      "restock": "NEVER"
+    },
+    {
+      "name": "Richeza",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    }
+  ]
+}

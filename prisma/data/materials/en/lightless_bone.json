@@ -1,0 +1,36 @@
+{
+  "name": "Lightless Bone",
+  "rarity": 2,
+  "categories": [
+    "RADIANT_BEAST_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A dull piece of bone taken from the exterior of a glowing beast. It is a fragment from the exoskeleton of a monster infused with the ancient power of the moon. Along with the vanished light, it has also lost the secrets once hidden within.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Radiant Antelope",
+        "Radiant Bladehorn",
+        "Radiant Glacial Wolf",
+        "Radiant Lunapod"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Glowing Remains"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Disaster and Remorse",
+    "Reliquary of Truth",
+    "Etherlight Spindlelute",
+    "Master Key",
+    "Moonweaver's Dawn"
+  ],
+  "sellers": []
+}

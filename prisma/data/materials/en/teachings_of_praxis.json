@@ -1,0 +1,32 @@
+{
+  "name": "Teachings of Praxis",
+  "rarity": 2,
+  "categories": [
+    "PRAXIS_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Praxes are the roots of the nation of wisdom. Praxes stem from an unwavering will. All wisdom is manifested through the unyielding pursuit of goodness. Where goodness is not practiced, ingenuity and eloquence wither.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Steeple of Ignorance",
+      "rotation": "Basket of Discipline",
+      "minimumLevel": 1
+    }
+  ],
+  "usedIn": [
+    "Guide to Praxis"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Collei",
+      "Dehya",
+      "Nilou",
+      "Sethos",
+      "Wanderer"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

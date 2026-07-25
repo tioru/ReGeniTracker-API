@@ -1,0 +1,38 @@
+{
+  "name": "Narukami's Wisdom",
+  "rarity": 2,
+  "categories": [
+    "NARUKAMI_S_MAGATAMAS"
+  ],
+  "description": "In the past, the ancients would climb the peak now known as Mt. Yougou and bend wood that had been charred by lightning into a hook to offer as an effigy unto the thundering force that lit up the skies and shook the earth. This shape would eventually become the \"Electro Mitsudomoe\" symbol, symbolizing the favor, wisdom, and might of Electro, and also the people who represent these values.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Court of Flowing Sand",
+      "rotation": "Altar of Sands",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Narukami's Joy"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Haran Geppaku Futsu",
+    "Redhorn Stonethresher",
+    "Sunny Morning Sleep-In",
+    "Thundering Pulse",
+    "Hamayumi",
+    "Katsuragikiri Nagamasa",
+    "Mouun's Moon",
+    "Predator",
+    "Toukabou Shigure"
+  ],
+  "sellers": []
+}

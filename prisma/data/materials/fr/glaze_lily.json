@@ -1,0 +1,35 @@
+{
+  "name": "Lys verni",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "Une fleur qui pousse à Liyue depuis les temps anciens. Elle rassemble les souvenirs de la terre pour les libérer sous forme de parfum à sa fleuraison.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found in Liyue Harbor and Qingce Village"
+    }
+  ],
+  "usedIn": [
+    "Geoculus Resonance Stone"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Ningguang",
+      "Yun Jin",
+      "Zibai"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Ms. Bai",
+      "currency": "Mora",
+      "cost": 50000,
+      "stock": 3,
+      "restock": "MONTHLY"
+    }
+  ]
+}

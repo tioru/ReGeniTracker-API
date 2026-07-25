@@ -1,0 +1,51 @@
+{
+  "name": "Polarizing Prism",
+  "rarity": 4,
+  "categories": [
+    "MIRROR_MAIDEN_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A prism that can bend light. In the darkness, these prisms can spread thin light into a wider area. Perhaps this is due to this quirk that these prisms can grant a measure of peace to those whose hearts are oft shrouded in darkness.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Mirror Maiden"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Crystal Prism",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Everlasting Moonglow",
+    "Thundering Pulse",
+    "Hakushin Ring",
+    "Hamayumi",
+    "Mouun's Moon",
+    "Predator"
+  ],
+  "sellers": []
+}

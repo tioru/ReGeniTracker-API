@@ -1,0 +1,55 @@
+{
+  "name": "Remnant Glow of Scorching Might",
+  "rarity": 3,
+  "categories": [
+    "SCORCHING_MIGHTS"
+  ],
+  "description": "To weave together myriad thoughts and reign over countless souls — this is the essence of power. However, power is not cold-blooded tyranny. Its true ideal, at its heart, is to create a utopia free of worry, schemes, and slavery. It was just as the silent lord saw in the crystal's secrets, and just as the lost companion had once taught. The dark insect insignia and the steel judgment thus laid the foundations of the kingdom's rules.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Tower of Abject Pride",
+      "rotation": "Leading Karma",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Echo of Scorching Might",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Dream of Scorching Might"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Beacon of the Reed Sea",
+    "Hunter's Path",
+    "Tulaytullah's Remembrance",
+    "End of the Line",
+    "King's Squire",
+    "Makhaira Aquamarine",
+    "Scion of the Blazing Sun"
+  ],
+  "sellers": []
+}

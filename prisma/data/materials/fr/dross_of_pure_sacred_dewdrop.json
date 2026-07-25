@@ -1,0 +1,36 @@
+{
+  "name": "Résidu de rosée sacrée pure",
+  "rarity": 2,
+  "categories": [
+    "SACRED_DEWDROPS"
+  ],
+  "description": "Matériau d'élévation d'arme. Les légendes disent qu'avant la naissance de la vie, il existait une mer primordiale dense. C'est l'origine la plus pure de toutes choses, et un jour, elle engloutira également toute vie... Et les choses qui n'en sont pas issues seront filtrées, ne devenant que des détritus flottants. , demanda le jeune accordeur au grand usurpateur, réfléchissant à cette énigme.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Échos des marées profondes",
+      "rotation": "Artisanat",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Sublimation of Pure Sacred Dewdrop"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Silvershower Heartstrings",
+    "Splendor of Tranquil Waters",
+    "Symphonist of Scents",
+    "Tome of the Eternal Flow",
+    "Finale of the Deep",
+    "Flowing Purity",
+    "The Dockhand's Assistant"
+  ],
+  "sellers": []
+}

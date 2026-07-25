@@ -1,0 +1,35 @@
+{
+  "name": "Enseignement de la Justice",
+  "rarity": 2,
+  "categories": [
+    "JUSTICE_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. La justice est l'épée de la patrie de l'eau. La loi de Fontaine marche avec l'épée de la justice à la main. Sans la direction de la justice, toute loi est réduite à des mots vides de sens, à falsifier et à massacrer au gré des caprices.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pâle gloire oubliée",
+      "rotation": "Maxime",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Justice"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Charlotte",
+      "Clorinde",
+      "Escoffier",
+      "Freminet",
+      "Furina"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

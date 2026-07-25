@@ -1,0 +1,56 @@
+{
+  "name": "Statuette maléfique",
+  "rarity": 4,
+  "categories": [
+    "THE_BLACK_SERPENTS_MATERIAL",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Une statuette à un œil qui émet une certaine énergie et dont la matière première est inconnue. En la regardant, vous pouvez presque entendre un murmure à peine audible... « Vois, mon enfant. Tout ce qui se trouve sous le trône du ciel finira détruit dans la tourmente. L'obscurité de la sérénité éternelle nous enveloppera tous. »",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Abyss Herald: Wicked Torrents",
+        "Abyss Lector: Fathomless Flames",
+        "Abyss Lector: Violet Lightning",
+        "Black Serpent Knight: Windcutter",
+        "Shadowy Husk: Defender",
+        "Shadowy Husk: Line Breaker",
+        "Shadowy Husk: Standard Bearer"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Dark Statuette",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aqua Simulacra",
+    "Haran Geppaku Futsu",
+    "Fruit of Fulfillment",
+    "Kagotsurube Isshin",
+    "Missive Windspear"
+  ],
+  "sellers": []
+}

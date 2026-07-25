@@ -1,0 +1,50 @@
+{
+  "name": "Flare of Long Night Flint",
+  "rarity": 4,
+  "categories": [
+    "LONG_NIGHT_FLINTS"
+  ],
+  "description": "The insignia of the Lightkeepers is a nightingale holding a burning wick in its beak. It is said that in the past, the nightingale insignia belonged to a renowned noble house in the northern kingdom. In the shadow untouched by light, a boy, who would become a legendary thief, carved his first raven insignia with his friend in imitation of the nightingale. But that was many years ago. Nowadays, the raven insignia can be seen everywhere, but the nightingale that the raven once looked up to still dwells on its tower, lamenting the winter city to the light.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Lost Mooncourt",
+      "rotation": "Prayers Sung",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Afterglow of Long Night Flint",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 350
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Blaze of Long Night Flint"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Bloodsoaked Ruins",
+    "Golden Frostbound Oath",
+    "Prospector's Shovel",
+    "Sacrificer's Staff",
+    "Snare Hook"
+  ],
+  "sellers": []
+}

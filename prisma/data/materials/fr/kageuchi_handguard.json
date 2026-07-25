@@ -1,0 +1,78 @@
+{
+  "name": "Garde-main kageuchi",
+  "rarity": 2,
+  "categories": [
+    "NOBUSHI_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Un garde-main que l'on monte sur une épée de valeur. Inazuma a une longue tradition de fabrication d'épées. Lorsqu'un artisan veut forger une épée, il fabrique souvent plusieurs exemplaires du même modèle pour en sélectionner le meilleur, le shinuchi, les autres étant appelés les kageuchi.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Kairagi: Dancing Thunder",
+        "Kairagi: Fiery Might",
+        "Nobushi: Hitsukeban",
+        "Nobushi: Jintouban",
+        "Nobushi: Kikouban"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Old Handguard",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Famed Handguard"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Kamisato Ayaka",
+      "Kamisato Ayato",
+      "Raiden Shogun",
+      "Wanderer",
+      "Yae Miko",
+      "Yumemizuki Mizuki"
+    ],
+    "talent": [
+      "Kamisato Ayaka",
+      "Kamisato Ayato",
+      "Raiden Shogun",
+      "Traveler (Electro)",
+      "Wanderer",
+      "Yae Miko",
+      "Yumemizuki Mizuki"
+    ]
+  },
+  "usedByWeapons": [
+    "Engulfing Lightning",
+    "Haran Geppaku Futsu",
+    "Mistsplitter Reforged",
+    "Redhorn Stonethresher",
+    "Uraku Misugiri",
+    "Akuoumaru",
+    "Amenoma Kageuchi",
+    "Finale of the Deep",
+    "Katsuragikiri Nagamasa",
+    "Tamayuratei no Ohanashi",
+    "Toukabou Shigure",
+    "Wavebreaker's Fin"
+  ],
+  "sellers": []
+}

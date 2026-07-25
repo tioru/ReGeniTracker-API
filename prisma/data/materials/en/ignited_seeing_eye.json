@@ -1,0 +1,51 @@
+{
+  "name": "Ignited Seeing Eye",
+  "rarity": 4,
+  "categories": [
+    "AVATAR_OF_LAVA_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "A core retrieved from within the body of a defeated Avatar of Lava. It emits a considerable heat. It is said that once such a core has formed, left to itself, it will develop into a new Avatar of Lava. In ancient times, it was once believed that all forms of life could be traced back to conflagration, and that in the spark of burning matter lay the origins of the soul and sentient wisdom. Perhaps the very existence of Avatar of Lava would bear out such a belief - or perhaps it was the emergence of this theory itself that explains how they came to inhabit the land of Natlan...",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Eroding Avatar of Lava",
+        "Fluid Avatar of Lava"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Ignited Seed of Life",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Fang of the Mountain King",
+    "Sunny Morning Sleep-In",
+    "Earth Shaker",
+    "Flower-Wreathed Feathers",
+    "Mountain-Bracing Bolt"
+  ],
+  "sellers": []
+}

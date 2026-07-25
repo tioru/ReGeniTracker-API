@@ -1,0 +1,69 @@
+{
+  "name": "Fragment of Decarabian's Epic",
+  "rarity": 4,
+  "categories": [
+    "DECARABIAN_TILES"
+  ],
+  "description": "Andrius once declared war upon Decarabian, but failed to even scratch the capital of the Lord of the Tower. If it were not for the song of freedom that shattered the city in an instant, Decarabian's dream would have gone on forever.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Cecilia Garden",
+      "rotation": "City of Reflections",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Debris of Decarabian's City",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 350
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Scattered Piece of Decarabian's Dream"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Aquila Favonia",
+    "Athame Artis",
+    "Disaster and Remorse",
+    "Song of Broken Pines",
+    "Cinnabar Spindle",
+    "Favonius Codex",
+    "Favonius Sword",
+    "Mitternachts Waltz",
+    "Royal Grimoire",
+    "Royal Longsword",
+    "Snow-Tombed Starsilver",
+    "The Alley Flash",
+    "The Bell",
+    "The Stringless",
+    "The Viridescent Hunt",
+    "Wolf-Fang",
+    "Cool Steel",
+    "Ferrous Shadow",
+    "Magic Guide",
+    "Raven Bow",
+    "Pocket Grimoire",
+    "Silver Sword",
+    "Apprentice's Notes",
+    "Dull Blade"
+  ],
+  "sellers": []
+}

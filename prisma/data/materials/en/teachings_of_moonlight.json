@@ -1,0 +1,32 @@
+{
+  "name": "Teachings of Moonlight",
+  "rarity": 2,
+  "categories": [
+    "MOONLIGHT_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "\"Moonlight\" is the blessing of the land beneath the moon. Things come in all sizes, and people come in all states of wisdom. Yet under the moonlight, all are equal.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Lightless Capital",
+      "rotation": "Fallen City",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Moonlight"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Columbina",
+      "Lauma"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

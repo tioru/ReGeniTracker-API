@@ -1,0 +1,67 @@
+{
+  "name": "Bewildering Broadleaf",
+  "rarity": 3,
+  "categories": [
+    "TENEBROUS_MIMESIS_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "An arrow-shaped leaf dropped by the monster known as the Tenebrous Mimiflora after being vanquished. After corroding the Ley Lines and extracting the memories within, the creature grows these leaves as a means of storing the information it has deciphered. There may be a close link between these intricately patterned leaves and the forms that their host can mimic.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Tenebrous Mimesis - Anemo Hilichurl Rogue",
+        "Tenebrous Mimesis - Crackling Axe Mitachurl",
+        "Tenebrous Mimesis - Iktomisaurus Warrior: Icy Tidebearer",
+        "Tenebrous Mimesis - Qucusaurus Warrior: Blazing Sky",
+        "Tenebrous Mimesis - Qucusaurus Warrior: Heartstar Hammer",
+        "Tenebrous Mimesis - Ruin Guard",
+        "Tenebrous Mimesis - Secret Source Automaton: Hunter-Seeker",
+        "Tenebrous Mimesis - Tepetlisaurus Warrior: Rockbreaker Blade",
+        "Tenebrous Mimesis - Tepetlisaurus Warrior: Shard Striker",
+        "Tenebrous Mimesis - Yumkasaurus Warrior: Flowing Skyfire",
+        "Tenebrous Mimesis: Geovishap Hatchling",
+        "Tenebrous Mimesis: Koholasaurus",
+        "Tenebrous Mimesis: Tatankasaurus",
+        "Tenebrous Mimesis: Tepetlisaurus",
+        "Tenebrous Mimesis: Yumkasaurus",
+        "Tenebrous Mimiflora"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Refractive Bud",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Illusory Leafcoil"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Astral Vulture's Crimson Plumage",
+    "Azurelight",
+    "Calamity of Eshu",
+    "Rainbow Serpent's Rain Bow",
+    "Tamayuratei no Ohanashi"
+  ],
+  "sellers": []
+}

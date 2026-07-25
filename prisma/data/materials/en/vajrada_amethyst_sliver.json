@@ -1,0 +1,183 @@
+{
+  "name": "Vajrada Amethyst Sliver",
+  "rarity": 2,
+  "categories": [
+    "VAJRADA_AMETHYST",
+    "ASCENSION_GEMS"
+  ],
+  "description": "Character Ascension Material.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 1,
+      "names": [
+        "Coral Defenders",
+        "Electro Hypostasis",
+        "Electro Regisvine",
+        "Iniquitous Baptist",
+        "Knuckle Duckle",
+        "Lord of the Hidden Depths: Whisperer of Nightmares",
+        "Millennial Pearl Seahorse",
+        "Primo Geovishap",
+        "Secret Source Automaton: Configuration Device",
+        "Tenebrous Papilla",
+        "Thunder Manifestation"
+      ]
+    },
+    {
+      "type": "WEEKLY_BOSS",
+      "minimumLevel": 1,
+      "names": [
+        "Azhdaha (Weekly Boss)",
+        "Childe",
+        "Everlasting Lord of Arcane Wisdom",
+        "Exalted Master of the Heretical Path",
+        "Heretic of the False Moon",
+        "Magatsu Mitake Narukami no Mikoto",
+        "Stormterror Dvalin",
+        "The Game Before the Gate"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Agnidus Agate Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Varunada Lazurite Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Nagadus Emerald Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Vayuda Turquoise Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Shivada Jade Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "subtype": "CONVERTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Prithiva Topaz Sliver",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Agnidus Agate Sliver",
+    "Nagadus Emerald Sliver",
+    "Prithiva Topaz Sliver",
+    "Shivada Jade Sliver",
+    "Vajrada Amethyst Fragment",
+    "Varunada Lazurite Sliver",
+    "Vayuda Turquoise Sliver"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Beidou",
+      "Clorinde",
+      "Cyno",
+      "Dori",
+      "Fischl",
+      "Flins",
+      "Iansan",
+      "Ineffa",
+      "Keqing",
+      "Kujou Sara",
+      "Kuki Shinobu",
+      "Lisa",
+      "Ororon",
+      "Raiden Shogun",
+      "Razor",
+      "Sethos",
+      "Varesa",
+      "Yae Miko"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Marjorie",
+      "currency": "Sigil",
+      "cost": 10,
+      "stock": 6,
+      "restock": "NEVER"
+    },
+    {
+      "name": "Xingxi",
+      "currency": "Sigil",
+      "cost": 10,
+      "stock": 12,
+      "restock": "NEVER"
+    }
+  ]
+}

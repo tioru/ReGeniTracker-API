@@ -1,0 +1,37 @@
+{
+  "name": "Silver Goblet of the Pristine Sea",
+  "rarity": 4,
+  "categories": [
+    "GOBLETS_OF_THE_PRISTINE_SEA"
+  ],
+  "description": "In the years when the golden shroud covered the land, pure spring water had to be hidden away in concealed mountain streams, and the Lochknights were born in these sanctuaries. The knights swear by armor of silver, to protect the spirits born from pure water, to protect their fellows who also keep faith in the one true font, resisting the omnipresent golden power that blotted out the sky and outshone the sun. But that is an ancient legend... Not long after the empire collapsed and sank, the knights who resisted the usurper shed their armor, and their stories were hidden in a tangled web of stories and ballads.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Echoes of the Deep Tides",
+      "rotation": "Curious Contraptions",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Golden Goblet of the Pristine Sea"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Cashflow Supervision",
+    "Crimson Moon's Semblance",
+    "Lumidouce Elegy",
+    "\"Ultimate Overlord's Mega Magic Sword\"",
+    "Ballad of the Fjords",
+    "Portable Power Saw",
+    "Rightful Reward",
+    "Tidal Shadow"
+  ],
+  "sellers": []
+}

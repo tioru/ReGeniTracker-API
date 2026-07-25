@@ -1,0 +1,34 @@
+{
+  "name": "Philosophies of Order",
+  "rarity": 4,
+  "categories": [
+    "ORDER_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "The shield of the Nation of Water is order. All law in Fontaine ultimately serves to maintain a stable order. Equity and justice come from order, and serve order. Like the still, ripple-less surface of the waters of Fontaine, order is the cornerstone of Fontaine's existence.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pale Forgotten Glory",
+      "rotation": "Chiming Recitation",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Arlecchino",
+      "Chevreuse",
+      "Emilie",
+      "Lynette",
+      "Traveler (Hydro)",
+      "Wriothesley"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

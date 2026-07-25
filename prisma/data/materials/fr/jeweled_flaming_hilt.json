@@ -1,0 +1,47 @@
+{
+  "name": "Poignée enflammée ornée",
+  "rarity": 4,
+  "categories": [
+    "DOMAIN_KEEPER_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Les restes de la poignée d'une épée enflammée autrefois maniée par un Protecteur du royaume. Une épée de feu ardent était jadis le symbole du jugement. Dotée de l'autorité de l'« espace », elle proclamait la volonté absolue et infaillible du divin.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Domain Keeper"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Fractured Flaming Hilt",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Angelos' Heptades",
+    "Golden Frostbound Oath"
+  ],
+  "sellers": []
+}

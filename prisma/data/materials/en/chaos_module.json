@@ -1,0 +1,53 @@
+{
+  "name": "Chaos Module",
+  "rarity": 3,
+  "categories": [
+    "RUIN_DRAKE_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Comes from a now-inactive ancient Ruin Drake. The dragons were once the most primitive and ancient bodily form of the supreme elements until they were defeated, conquered, or assimilated.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Ruin Drake: Earthguard",
+        "Ruin Drake: Skywatch"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Chaos Storage",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Chaos Bolt"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Staff of the Scarlet Sands",
+    "Forest Regalia",
+    "Makhaira Aquamarine",
+    "Moonpiercer",
+    "Sapwood Blade"
+  ],
+  "sellers": []
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Enseignement de l'Ordre",
+  "rarity": 2,
+  "categories": [
+    "ORDER_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude. L'ordre est le bouclier de la patrie de l'eau. Toute loi à Fontaine sert à maintenir un ordre stable. Sans ordre, il y a chaos, et il ne peut y avoir d'équité dans le chaos.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Pâle gloire oubliée",
+      "rotation": "Psaume",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Guide to Order"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Arlecchino",
+      "Chevreuse",
+      "Emilie",
+      "Lynette",
+      "Wriothesley"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

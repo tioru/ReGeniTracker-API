@@ -1,0 +1,46 @@
+{
+  "name": "Philosophie de la Lune",
+  "rarity": 4,
+  "categories": [
+    "MOONLIGHT_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Matériau d'amélioration d'aptitude Le clair de lune est la bénédiction de la terre sous la lune. Prier la nouvelle lune pour obtenir conseils et fortune est un rite transmis depuis l'époque des premiers peuples. Le clair de lune de ce soir ne semble pas différent des autres, mais où est donc cette nouvelle lune que les hommes attendaient autrefois ?",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Capitale sans-lumière",
+      "rotation": "Reconversion",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Guide to Moonlight",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 550
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Columbina",
+      "Lauma"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

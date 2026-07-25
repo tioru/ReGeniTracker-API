@@ -1,0 +1,48 @@
+{
+  "name": "Artful Device Wish",
+  "rarity": 5,
+  "categories": [
+    "ARTFUL_DEVICES"
+  ],
+  "description": "\"The poor, the starving, the wretched, the oppressed! My exiled brothers and sisters!\" \"If you, too, have tasted indignities at the cruel hands of fate! If you, too, have wept in the night at the plight of your neighbors!\" \"If you, too, have longed for a shelter from fear! If you, too, have dreamed of a world where no tears are shed!\" \"Then join us, your brothers and sisters, in breaking the chains of slavery!\" \"Let the dead bury the dead, for you will rise up, and with the treasures of the haughty, we will build an Elysium without boundaries!\"",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Lost Mooncourt",
+      "rotation": "Radiant Splendor",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Artful Device Inheritance",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Angelos' Heptades",
+    "Nightweaver's Looking Glass",
+    "Blackmarrow Lantern",
+    "Dawning Frost",
+    "Serenity's Call"
+  ],
+  "sellers": []
+}

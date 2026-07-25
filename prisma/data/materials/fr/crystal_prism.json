@@ -1,0 +1,53 @@
+{
+  "name": "Prisme de cristal",
+  "rarity": 3,
+  "categories": [
+    "MIRROR_MAIDEN_MATERIALS",
+    "ELITE_ENEMY_DROPS"
+  ],
+  "description": "Un prisme qui peut dévier la lumière. Il est possible de créer des illusions à l'aide de tels prismes, ce qui en fait, dans un sens, des appareils capables d'influencer le cœur des hommes.",
+  "sources": [
+    {
+      "type": "ELITE_ENEMY",
+      "minimumLevel": 40,
+      "names": [
+        "Mirror Maiden"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Dismal Prism",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Polarizing Prism"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Everlasting Moonglow",
+    "Thundering Pulse",
+    "Hakushin Ring",
+    "Hamayumi",
+    "Mouun's Moon",
+    "Predator"
+  ],
+  "sellers": []
+}

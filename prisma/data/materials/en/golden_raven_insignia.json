@@ -1,0 +1,101 @@
+{
+  "name": "Golden Raven Insignia",
+  "rarity": 3,
+  "categories": [
+    "TREASURE_HOARDER_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "A raven insignia that symbolizes the pride and the guiding principle of the Treasure Hoarders. Whether it's hidden amidst the vastness of the land or in the depths of the seas, as long as there are treasures to be hunted down, the spirit of Treasure Hoarders, who will stop at nothing to acquire them, will never die.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 60,
+      "names": [
+        "Treasure Hoarders: Crusher",
+        "Treasure Hoarders: Cryo Potioneer",
+        "Treasure Hoarders: Electro Potioneer",
+        "Treasure Hoarders: Gravedigger",
+        "Treasure Hoarders: Handyman",
+        "Treasure Hoarders: Hydro Potioneer",
+        "Treasure Hoarders: Marksman",
+        "Treasure Hoarders: Pugilist",
+        "Treasure Hoarders: Pyro Potioneer",
+        "Treasure Hoarders: Scout",
+        "Treasure Hoarders: Seaman"
+      ]
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Silver Raven Insignia",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usedIn": [
+    "Anemo Treasure Compass",
+    "Dendro Treasure Compass",
+    "Electro Treasure Compass",
+    "Geo Treasure Compass",
+    "Hydro Treasure Compass",
+    "Pyro Treasure Compass"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Beidou",
+      "Bennett",
+      "Kaedehara Kazuha",
+      "Kaeya",
+      "Prune",
+      "Shikanoin Heizou",
+      "Thoma",
+      "Xinyan",
+      "Yanfei"
+    ],
+    "talent": [
+      "Beidou",
+      "Bennett",
+      "Kaedehara Kazuha",
+      "Kaeya",
+      "Prune",
+      "Shikanoin Heizou",
+      "Thoma",
+      "Xinyan",
+      "Yanfei"
+    ]
+  },
+  "usedByWeapons": [
+    "Primordial Jade Cutter",
+    "The Daybreak Chronicles",
+    "The Unforged",
+    "Vortex Vanquisher",
+    "Ballad of the Boundless Blue",
+    "Crescent Pike",
+    "Kitain Cross Spear",
+    "Lion's Roar",
+    "Makhaira Aquamarine",
+    "Mitternachts Waltz",
+    "Prototype Crescent",
+    "Sacrificial Fragments",
+    "Sword of Descension",
+    "Whiteblind",
+    "Wine and Song",
+    "Emerald Orb",
+    "Fillet Blade",
+    "Messenger",
+    "Skyrider Greatsword"
+  ],
+  "sellers": []
+}

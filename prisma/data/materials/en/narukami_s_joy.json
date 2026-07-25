@@ -1,0 +1,57 @@
+{
+  "name": "Narukami's Joy",
+  "rarity": 3,
+  "categories": [
+    "NARUKAMI_S_MAGATAMAS"
+  ],
+  "description": "Those who belong to the Shogunate Commissions are those who administer and exercise power. In the monster-filled tales of the ancient past, those who were deeply trusted by the Shogun would bear talismans with this hooked design on their person, and just as the word \"commission\" means to \"joyfully serve\" in the old tongue, those who received her favor would return it with love and loyalty. Yet, after a certain point in time, nothing would be as it was before.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Court of Flowing Sand",
+      "rotation": "Altar of Sands",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Narukami's Wisdom",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Narukami's Affection"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Haran Geppaku Futsu",
+    "Redhorn Stonethresher",
+    "Sunny Morning Sleep-In",
+    "Thundering Pulse",
+    "Hamayumi",
+    "Katsuragikiri Nagamasa",
+    "Mouun's Moon",
+    "Predator",
+    "Toukabou Shigure"
+  ],
+  "sellers": []
+}

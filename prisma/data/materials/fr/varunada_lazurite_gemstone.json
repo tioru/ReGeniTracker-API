@@ -1,35 +1,38 @@
 {
   "name": "Pierre de lazurite varunada",
   "rarity": 5,
-  "categories": ["VARUNADA_LAZURITE", "ASCENSION_GEMS"],
+  "categories": [
+    "VARUNADA_LAZURITE",
+    "ASCENSION_GEMS"
+  ],
   "description": "Matériau d'élévation de personnage. « Mes idéaux sont purs. » « Je me dois de te corriger : personne ici n'est impur aux yeux des dieux, et seuls les lois et le tribunal peuvent déclarer un jugement. » « Ils peuvent même me juger. Louez donc ma grandeur et ma pureté. »",
   "sources": [
     {
       "type": "BOSS",
       "minimumLevel": 75,
       "names": [
-        "Océanide",
-        "Herra de la nuit glaciale",
-        "Dragon cataclysmique",
-        "Automate de source secrète : Surveillant",
-        "Suanni solitaire",
-        "Tulpa Hydro",
-        "Hypostase Hydro",
-        "Géosaure antique",
-        "Lustrateur inique"
+        "Aeonblight Drake",
+        "Frostnight Herra",
+        "Hydro Hypostasis",
+        "Hydro Tulpa",
+        "Iniquitous Baptist",
+        "Primo Geovishap",
+        "Rhodeia of Loch",
+        "Secret Source Automaton: Overseer Device",
+        "Solitary Suanni"
       ]
     },
     {
       "type": "WEEKLY_BOSS",
       "minimumLevel": 75,
       "names": [
-        "Narval stellavore",
-        "Dottore",
-        "Shouki no Kami, le prodige",
-        "Tartaglia",
-        "Azhadaha",
-        "Jeu d'échecs devant la porte",
-        "Stormterror"
+        "All-Devouring Narwhal",
+        "Azhdaha (Weekly Boss)",
+        "Childe",
+        "Everlasting Lord of Arcane Wisdom",
+        "Heretic of the False Moon",
+        "Stormterror Dvalin",
+        "The Game Before the Gate"
       ]
     },
     {
@@ -39,68 +42,111 @@
           "subtype": "CRAFTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Morceau de lazurite varunada", "quantity": 3 },
-            { "item": "Mora", "quantity": 2700 }
+            {
+              "item": "Varunada Lazurite Chunk",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 2
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Pierre d'agate agnidus", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 27 }
+            {
+              "item": "Agnidus Agate Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Pierre d'émeraude nagadus", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 27 }
+            {
+              "item": "Nagadus Emerald Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Pierre d'améthyste vajrada", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 27 }
+            {
+              "item": "Vajrada Amethyst Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Pierre de turquoise vayuda", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 27 }
+            {
+              "item": "Vayuda Turquoise Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Pierre de jade shivada", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 27 }
+            {
+              "item": "Shivada Jade Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         },
         {
           "subtype": "CONVERTING",
           "resultQuantity": 1,
           "ingredients": [
-            { "item": "Pierre de topaze prithiva", "quantity": 1 },
-            { "item": "Poudre d'azote", "quantity": 27 }
+            {
+              "item": "Prithiva Topaz Gemstone",
+              "quantity": 1
+            },
+            {
+              "item": "Dust of Azoth",
+              "quantity": 27
+            }
           ]
         }
-      ]
+      ],
+      "minimumAdventureRank": 45
     }
   ],
   "usedIn": [
-    "Pierre d'agate agnidus",
-    "Pierre d'améthyste vajrada",
-    "Pierre d'émeraude nagadus",
-    "Pierre de jade shivada",
-    "Pierre de topaze prithiva",
-    "Pierre de turquoise vayuda"
+    "Agnidus Agate Gemstone",
+    "Nagadus Emerald Gemstone",
+    "Prithiva Topaz Gemstone",
+    "Shivada Jade Gemstone",
+    "Vajrada Amethyst Gemstone",
+    "Vayuda Turquoise Gemstone"
   ],
   "usedByCharacters": {
     "ascension": [
@@ -113,7 +159,7 @@
       "Kamisato Ayato",
       "Mona",
       "Mualani",
-      "Neuvilette",
+      "Neuvillette",
       "Nilou",
       "Sangonomiya Kokomi",
       "Sigewinne",

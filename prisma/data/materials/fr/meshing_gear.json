@@ -1,0 +1,65 @@
+{
+  "name": "Engrenage de maillage",
+  "rarity": 1,
+  "categories": [
+    "CLOCKWORK_MEKA_MATERIALS",
+    "GENERAL_ENEMY_DROPS"
+  ],
+  "description": "Un engrenage de Méka horlogoïde. C'est une partie cruciale de la structure de transmission, et l'ensemble du système fonctionnera mal si ce module est absent.",
+  "sources": [
+    {
+      "type": "COMMON_ENEMY",
+      "minimumLevel": 1,
+      "names": [
+        "Annihilation Specialist Mek",
+        "Area Alert Mek",
+        "Arithmetic Enhancer Mek",
+        "Assault Specialist Mek",
+        "Construction Specialist Mek",
+        "Deepwater Assault Mek",
+        "Geological Survey Mek",
+        "Nimble Harvester Mek",
+        "Recon Log Mek",
+        "Suppression Specialist Mek",
+        "Underwater Patrol Mek",
+        "Underwater Survey Mek"
+      ]
+    }
+  ],
+  "usedIn": [
+    "Mechanical Spur Gear"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Charlotte",
+      "Chevreuse",
+      "Emilie",
+      "Escoffier",
+      "Lynette",
+      "Skirk",
+      "Wriothesley"
+    ],
+    "talent": [
+      "Charlotte",
+      "Chevreuse",
+      "Emilie",
+      "Escoffier",
+      "Lynette",
+      "Skirk",
+      "Wriothesley"
+    ]
+  },
+  "usedByWeapons": [
+    "Absolution",
+    "Crimson Moon's Semblance",
+    "Tome of the Eternal Flow",
+    "Verdict",
+    "\"Ultimate Overlord's Mega Magic Sword\"",
+    "Portable Power Saw",
+    "Prospector's Drill",
+    "Rightful Reward",
+    "Sequence of Solitude",
+    "Tidal Shadow"
+  ],
+  "sellers": []
+}

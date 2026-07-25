@@ -1,0 +1,27 @@
+{
+  "name": "Engrenage artificié de rechange : Coppelia",
+  "rarity": 4,
+  "categories": [
+    "NORMAL_BOSS_DROPS"
+  ],
+  "description": "Un engrenage horlogoïde de rechange appartenant à Coppelia, qui sert à alimenter la danseuse artificiée. Selon la vision de son créateur, l'histoire de la danseuse artificiée aux articulations délicates se termine par un moment joyeux. Coppelia enverra donc quiconque tentera de perturber ce moment dans un chapitre de malheur avec ses superbes compétences de combat.",
+  "sources": [
+    {
+      "type": "BOSS",
+      "minimumLevel": 30,
+      "names": [
+        "Icewind Suite"
+      ]
+    }
+  ],
+  "usedIn": [],
+  "usedByCharacters": {
+    "ascension": [
+      "Chiori",
+      "Lynette"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}

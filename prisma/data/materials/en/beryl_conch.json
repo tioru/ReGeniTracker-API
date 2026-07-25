@@ -1,0 +1,41 @@
+{
+  "name": "Beryl Conch",
+  "rarity": 0,
+  "categories": [
+    "LOCAL_SPECIALTIES"
+  ],
+  "description": "A conch-like structure that gives off a faint glow. Despite the name, it is not a shell but something condensed from pure elemental energy.",
+  "sources": [
+    {
+      "type": "LOCAL_SPECIALTY",
+      "location": "Found underwater in the Source of All Waters: The Great Fontaine Lake"
+    }
+  ],
+  "usedIn": [
+    "Hydro Treasure Compass"
+  ],
+  "usedByCharacters": {
+    "ascension": [
+      "Charlotte",
+      "Escoffier"
+    ],
+    "talent": []
+  },
+  "usedByWeapons": [],
+  "sellers": [
+    {
+      "name": "Hinterman",
+      "currency": "Mora",
+      "cost": 1000,
+      "stock": 5,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Xana",
+      "currency": "Strange Part",
+      "cost": 1,
+      "stock": 1,
+      "restock": "NEVER"
+    }
+  ]
+}

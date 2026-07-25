@@ -1,0 +1,38 @@
+{
+  "name": "Chapitre d'un accord ancien",
+  "rarity": 3,
+  "categories": [
+    "ANCIENT_CHORDS"
+  ],
+  "description": "Matériau d'élévation d'arme. Les légendes disent que les survivants de cette ancienne dynastie ont jadis coulé une lyre en fer noir pour commémorer et faire le deuil. Une lyre moulée en fer noir ne peut pas être jouée. Pour faire le deuil de cette ancienne dynastie qui était autrefois si fière de sa musique dorée, ceux qui sont restés ont forgé cet instrument lourd au silence encore plus lourd. Mais la lyre de fer noir reste aussi silencieuse que cette époque perdue.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Échos des marées profondes",
+      "rotation": "Ruse robotique",
+      "minimumLevel": 1
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Movement of an Ancient Chord"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": []
+  },
+  "usedByWeapons": [
+    "Absolution",
+    "The First Great Magic",
+    "Verdict",
+    "Fleuve Cendre Ferryman",
+    "Prospector's Drill",
+    "Range Gauge",
+    "Sequence of Solitude",
+    "Song of Stillness",
+    "Sword of Narzissenkreuz"
+  ],
+  "sellers": []
+}

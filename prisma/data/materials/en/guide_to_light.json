@@ -1,0 +1,55 @@
+{
+  "name": "Guide to Light",
+  "rarity": 3,
+  "categories": [
+    "LIGHT_BOOKS",
+    "TALENT_BOOKS"
+  ],
+  "description": "Light is the yearning of the land of thunder. Though the sun rays themselves should be blocked by layers upon layers of clouds, there are still those in the thunder god's land who dream of piercing that wrathful sea of lightning to pursue the glory of the divine, fearing not that they shall be cruelly struck down.",
+  "sources": [
+    {
+      "type": "DOMAIN",
+      "domain": "Violet Court",
+      "rotation": "Vine-Infested Ruins",
+      "minimumLevel": 1
+    },
+    {
+      "type": "ALCHEMY",
+      "recipes": [
+        {
+          "subtype": "CRAFTING",
+          "resultQuantity": 1,
+          "ingredients": [
+            {
+              "item": "Teachings of Light",
+              "quantity": 3
+            },
+            {
+              "item": "Mora",
+              "quantity": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAMETRIC_TRANSFORMER"
+    }
+  ],
+  "usedIn": [
+    "Philosophies of Light"
+  ],
+  "usedByCharacters": {
+    "ascension": [],
+    "talent": [
+      "Chiori",
+      "Gorou",
+      "Raiden Shogun",
+      "Sayu",
+      "Traveler (Electro)",
+      "Yae Miko"
+    ]
+  },
+  "usedByWeapons": [],
+  "sellers": []
+}
