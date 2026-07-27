@@ -903,10 +903,65 @@ function extractWeaponsFromWikitextFr(wikitext: string): {
   }
 
   return {
-    featured5Star: byRarity['5'] ?? [],
-    featured4Star: byRarity['4'] ?? [],
-    featured3Star: byRarity['3'] ?? [],
+    featured5Star: translateWeaponNamesFr(byRarity['5'] ?? []),
+    featured4Star: translateWeaponNamesFr(byRarity['4'] ?? []),
+    featured3Star: translateWeaponNamesFr(byRarity['3'] ?? []),
   };
+}
+
+// Certaines armes (ex: les 3★ de "Beginners' Wish") n'ont tout simplement pas
+// de nom traduit dans le wikitext de la page bannière FR — le wiki les y
+// laisse en anglais. On contourne en allant chercher la traduction dans
+// prisma/data/weapons/{en,fr}, déjà complet à 233/233, plutôt que d'essayer
+// de re-dériver un slug (celui de ce fichier et celui de scrape-weapons.ts
+// divergent sur les apostrophes : "hunters_path" vs "hunter_s_path").
+const WEAPONS_DIR = path.resolve(__dirname, '../prisma/data/weapons');
+let weaponNameEnToFr: Map<string, string> | null = null;
+let weaponNamesFr: Set<string> | null = null;
+
+function loadWeaponNameMaps(): {
+  enToFr: Map<string, string>;
+  frNames: Set<string>;
+} {
+  if (weaponNameEnToFr && weaponNamesFr) {
+    return { enToFr: weaponNameEnToFr, frNames: weaponNamesFr };
+  }
+  const enToFr = new Map<string, string>();
+  const frNames = new Set<string>();
+  const enDir = path.join(WEAPONS_DIR, 'en');
+  const frDir = path.join(WEAPONS_DIR, 'fr');
+  if (fs.existsSync(enDir) && fs.existsSync(frDir)) {
+    for (const file of fs.readdirSync(enDir)) {
+      const frPath = path.join(frDir, file);
+      if (!fs.existsSync(frPath)) continue;
+      const enName = JSON.parse(fs.readFileSync(path.join(enDir, file), 'utf8')).name;
+      const frName = JSON.parse(fs.readFileSync(frPath, 'utf8')).name;
+      if (enName && frName) {
+        enToFr.set(enName, frName);
+        frNames.add(frName);
+      }
+    }
+  }
+  weaponNameEnToFr = enToFr;
+  weaponNamesFr = frNames;
+  return { enToFr, frNames };
+}
+
+// Selon la page bannière, le wikitext FR liste déjà les armes en français
+// (ex: "Envie de voyage") ou les laisse en anglais faute de traduction sur le
+// wiki (ex: "Vœux recommandés pour les débutants") — on ne peut pas savoir à
+// l'avance dans quel cas on est. On ne traduit donc que si le nom matche une
+// entrée EN connue ; s'il matche déjà un nom FR connu, on ne fait rien (pas
+// un échec) ; seul un nom ne matchant ni l'un ni l'autre déclenche un warning.
+function translateWeaponNamesFr(names: string[]): string[] {
+  const { enToFr, frNames } = loadWeaponNameMaps();
+  return names.map((name) => {
+    const translated = enToFr.get(name);
+    if (translated) return translated;
+    if (frNames.has(name)) return name;
+    console.warn(`  ⚠ pas de traduction FR trouvée pour l'arme "${name}", nom EN conservé`);
+    return name;
+  });
 }
 
 async function buildStandardBannerFr(
@@ -938,6 +993,47 @@ async function buildStandardBannerFr(
   };
 }
 
+// Le wikitext FR d'une occurrence contient parfois une coquille sur la
+// section "Durée" (ex: "Ballade en pintes/17.10.2023" affiche "Du 17 octobre
+// 2023 ... au 17 octobre 2023", alors que la bannière dure bien 3 semaines
+// comme sur la page EN) — vu aussi sur des écarts d'un jour. Plutôt que de
+// faire confiance au texte FR, on résout la page EN correspondante via le
+// lien interlangue MediaWiki (prop=langlinks) — fiable même quand les noms
+// diffèrent totalement (ex: "Prestance du héron" → "The Heron's Court") — et
+// on prend releaseDate/endDate directement dessus.
+async function fetchLanglinkTitle(
+  pageTitle: string,
+  lang: string,
+  targetLang: string,
+): Promise<string | null> {
+  const response = await axiosGetWithRetry(getApiUrl(lang), {
+    params: {
+      action: 'query',
+      titles: pageTitle,
+      prop: 'langlinks',
+      lllang: targetLang,
+      format: 'json',
+      formatversion: '2',
+    },
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)',
+      Accept: 'application/json',
+    },
+    httpsAgent: createHttpsAgent(),
+  });
+  const page = response.data?.query?.pages?.[0];
+  return page?.langlinks?.[0]?.title ?? null;
+}
+
+async function fetchDatesFromEnCounterpart(
+  frPageTitle: string,
+): Promise<{ releaseDate: string; endDate: string } | null> {
+  const enTitle = await fetchLanglinkTitle(frPageTitle, 'fr', 'en');
+  if (!enTitle) return null;
+  const enWikitext = await fetchPageWikitext(enTitle, 'en');
+  return extractDatesEn(enWikitext);
+}
+
 async function scrapeBannerOccurrenceFr(
   pageTitle: string,
   lang: string,
@@ -949,7 +1045,16 @@ async function scrapeBannerOccurrenceFr(
 
   if (type === 'unknown') return null;
 
-  const { releaseDate, endDate } = extractDatesFr(wikitext);
+  let { releaseDate, endDate } = extractDatesFr(wikitext);
+  const enDates = await fetchDatesFromEnCounterpart(pageTitle);
+  if (enDates) {
+    releaseDate = enDates.releaseDate || releaseDate;
+    endDate = enDates.endDate || endDate;
+  } else {
+    console.warn(
+      `  ⚠ pas de correspondance EN trouvée pour "${pageTitle}", dates FR conservées (à vérifier)`,
+    );
+  }
   const name = extractBannerNameFr(pageTitle);
 
   if (type === 'character')
