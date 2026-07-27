@@ -18146,7 +18146,27 @@
       "rewards": [],
       "levels": []
     },
-    "fr": null
+    "fr": {
+      "name": "Ruines mystérieuses",
+      "domainType": "Domaine de quête",
+      "location": {
+        "mainLocation": "Sumeru",
+        "subLocation": "Désert hypostyle"
+      },
+      "description": "Mysterious ruins that have been hidden deep under layers of sand. An incomprehensible power seems to flow within...",
+      "recommendedElements": [
+        "Pyro",
+        "Electro",
+        "Cryo"
+      ],
+      "releaseVersion": "3.1",
+      "quest": {
+        "name": "Secret of the Scorching Desert",
+        "type": "Archon"
+      },
+      "rewards": [],
+      "levels": []
+    }
   },
   {
     "pageTitle": "Reminiscent Drift",
@@ -18168,7 +18188,23 @@
       "rewards": [],
       "levels": []
     },
-    "fr": null
+    "fr": {
+      "name": "Dérive réminiscente",
+      "domainType": "Domaine de quête",
+      "location": {
+        "mainLocation": "Sumeru",
+        "subLocation": "Forêt d'Avidya"
+      },
+      "description": "The memories of a certain puppet. He can be The Balladeer, Harbinger of the Fatui, and he can also be the kabukimono who was once sighted in Tatarasuna.",
+      "recommendedElements": [],
+      "releaseVersion": "3.3",
+      "quest": {
+        "name": "The Kabukimono's Finale",
+        "type": "Archon"
+      },
+      "rewards": [],
+      "levels": []
+    }
   },
   {
     "pageTitle": "Secret Cavern",
@@ -18193,7 +18229,26 @@
       "rewards": [],
       "levels": []
     },
-    "fr": null
+    "fr": {
+      "name": "Caverne secrète",
+      "domainType": "Domaine de quête",
+      "location": {
+        "mainLocation": "Sumeru",
+        "subLocation": "Royaume d'Ashavan"
+      },
+      "description": "Ilyas guided you here. It seems to be the place where Siraj does his experiments...",
+      "recommendedElements": [
+        "Dendro",
+        "Electro"
+      ],
+      "releaseVersion": "3.4",
+      "quest": {
+        "name": "Pride and Prejudice",
+        "type": "Story"
+      },
+      "rewards": [],
+      "levels": []
+    }
   },
   {
     "pageTitle": "Somalata Inland Sea",
@@ -18263,7 +18318,71 @@
         }
       ]
     },
-    "fr": null
+    "fr": {
+      "name": "Mer intérieure de somalatas",
+      "domainType": "Domaine à usage unique",
+      "location": {
+        "mainLocation": "Sumeru",
+        "subLocation": "Royaume de Farakhkert"
+      },
+      "description": "The fragrant sea underneath the desert is still as luxuriant today as it has always been. Nobody knows when the marvelous sentient Fungi moved in and became part of the ecology of the underground ocean.",
+      "recommendedElements": [
+        "Hydro"
+      ],
+      "releaseVersion": "3.6",
+      "rewards": [],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Mer intérieure de somalatas I",
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat all enemies",
+              "enemies": [
+                {
+                  "name": "Stretchy Electro Fungus",
+                  "number": 2
+                },
+                {
+                  "name": "Floating Dendro Fungus",
+                  "number": 1
+                },
+                {
+                  "name": "Grounded Geoshroom",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat all enemies",
+              "enemies": [
+                {
+                  "name": "Floating Anemo Fungus",
+                  "number": 2
+                },
+                {
+                  "name": "Winged Dendroshroom",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wave": 3,
+              "description": "Defeat all enemies",
+              "enemies": [
+                {
+                  "name": "Consecrated Horned Crocodile",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "pageTitle": "Purification Spring",
