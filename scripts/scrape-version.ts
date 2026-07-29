@@ -4,8 +4,12 @@ import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
-const API_URL = 'https://genshin-impact.fandom.com/api.php';
-const OUTPUT_DIR = path.resolve(__dirname, '../prisma/data/versions/en');
+const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
+const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
+const OUTPUT_DIR = (lang: 'en' | 'fr') =>
+  path.resolve(__dirname, `../prisma/data/versions/${lang}`);
+const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
+const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -66,8 +70,11 @@ interface VersionData {
 
 // ── API ───────────────────────────────────────────────────────────────────────
 
-async function fetchPageWikitext(pageTitle: string): Promise<string> {
-  const response = await axios.get(API_URL, {
+async function fetchPageWikitext(
+  pageTitle: string,
+  apiUrl: string = EN_API_URL,
+): Promise<string> {
+  const response = await axios.get(apiUrl, {
     params: {
       action: 'query',
       titles: pageTitle, // ← titre brut, sans préfixe
@@ -77,11 +84,8 @@ async function fetchPageWikitext(pageTitle: string): Promise<string> {
       format: 'json',
       formatversion: '2',
     },
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)',
-      Accept: 'application/json',
-    },
-    httpsAgent: new https.Agent({ rejectUnauthorized: false }),
+    headers: { ...HTTP_HEADERS, Accept: 'application/json' },
+    httpsAgent,
   });
 
   const pages = response.data?.query?.pages;
@@ -93,6 +97,217 @@ async function fetchPageWikitext(pageTitle: string): Promise<string> {
 
 async function fetchWikitext(versionNumber: string): Promise<string> {
   return fetchPageWikitext(`Version/${versionNumber}`);
+}
+
+// ── FR: traduction des noms via les langlinks du wiki EN ────────────────────
+//
+// Les pages "Version/X.Y" partagent le même titre sur le wiki EN et le wiki
+// FR (vérifié sur Version/5.0 et Version/5.8), donc pas besoin de langlinks
+// pour la page de version elle-même. En revanche, chaque entité citée dans
+// son contenu (personnage, arme, domaine, artefact, ennemi, région, quête...)
+// a sa PROPRE page avec un titre FR différent : on résout ces traductions en
+// lot via les langlinks des pages EN déjà identifiées par le scraping normal,
+// même pattern que resolveFrMaterialNamesToEnglish dans scrape-weapons.ts
+// (mais dans l'autre sens : EN → FR).
+//
+// Limite connue : ça suppose que le nom nettoyé (cleanWikiLink) correspond au
+// titre réel de la page EN, ce qui est vrai pour les liens simples
+// "[[Nom]]" (cas très majoritaire ici) mais pas pour les liens à alias
+// "[[Page|Alias affiché]]" où l'alias est perdu dès le parsing initial. Dans
+// ce cas (ou si la page n'a simplement pas de version FR), la traduction
+// échoue silencieusement (avec warning) et on retombe sur le nom EN.
+async function fetchLangLinksFr(names: string[]): Promise<Map<string, string>> {
+  const map = new Map<string, string>();
+  const unique = [...new Set(names)].filter(Boolean);
+  const chunkSize = 50;
+
+  for (let i = 0; i < unique.length; i += chunkSize) {
+    const chunk = unique.slice(i, i + chunkSize);
+    // MediaWiki pagine les langlinks au sein même d'un lot de titres (lllimit
+    // par défaut = 10) : sur un lot de 29 titres, seuls les premiers
+    // renvoient déjà leur langlinks, les suivants nécessitent de rejouer la
+    // requête avec les paramètres "continue" jusqu'à ce qu'il n'y en ait
+    // plus plus — sinon la traduction échoue silencieusement pour la
+    // majorité du lot.
+    let continueParams: Record<string, string> | undefined;
+    do {
+      try {
+        const response = await axios.get(EN_API_URL, {
+          params: {
+            action: 'query',
+            titles: chunk.join('|'),
+            prop: 'langlinks',
+            lllang: 'fr',
+            lllimit: 'max',
+            format: 'json',
+            formatversion: '2',
+            ...continueParams,
+          },
+          headers: { ...HTTP_HEADERS, Accept: 'application/json' },
+          httpsAgent,
+        });
+        const pages = response.data?.query?.pages ?? [];
+        for (const page of pages) {
+          const frTitle = page.langlinks?.[0]?.title;
+          if (frTitle) map.set(page.title, frTitle);
+        }
+        continueParams = response.data?.continue;
+      } catch (err) {
+        console.warn(`⚠️  Échec de la résolution des noms FR pour un lot: ${err}`);
+        continueParams = undefined;
+      }
+      await new Promise((r) => setTimeout(r, 300));
+    } while (continueParams);
+  }
+  return map;
+}
+
+function translate(name: string, map: Map<string, string>): string {
+  const translated = map.get(name);
+  if (!translated) {
+    console.warn(`⚠️  Pas de traduction FR trouvée pour "${name}", conservé en anglais.`);
+  }
+  return translated ?? name;
+}
+
+// Titre narratif de la version ('''Titre''' est la version X.Y de
+// [[Genshin Impact]].), constaté identique en structure sur toutes les pages
+// FR de version (cf. Version/5.0, Version/5.8). Le champ infobox "nom" ne
+// contient lui que "Version X.Y", pas le titre narratif souhaité ici.
+function extractStoryTitleFr(wikitext: string): string | null {
+  const match = wikitext.match(/'''([^']+)'''\s+est la version/);
+  return match ? cleanWikiLink(match[1]).trim() : null;
+}
+
+// "Chapter X" → "Chapitre X" : les noms de chapitre d'Archon Quest ne sont
+// pas de véritables pages wiki traduisibles via langlinks (ce sont des
+// libellés génériques), donc simple substitution plutôt qu'une résolution.
+function translateArchonChapterName(chapterName: string): string {
+  return chapterName.replace(/Chapter/gi, 'Chapitre');
+}
+
+// "Xxx Chapter" → "Xxx" : constaté sur fr/1.0.json (ex: "Pavo Ocellus
+// Chapter" → "Pavo Ocellus") — le nom latin du chapitre de Story Quest n'est
+// lui-même jamais traduit, seul le suffixe générique "Chapter" est retiré.
+function translateStoryChapter(chapter: string): string {
+  return chapter.replace(/\s+Chapter$/i, '').trim();
+}
+
+function translateQuestsFr(
+  quests: VersionData['newQuests'],
+  map: Map<string, string>,
+): VersionData['newQuests'] {
+  return {
+    archonQuests: quests.archonQuests.map((q) => ({
+      chapter: q.chapter,
+      chapterName: translateArchonChapterName(q.chapterName),
+      acts: q.acts.map((a) => ({ act: a.act, name: translate(a.name, map) })),
+    })),
+    storyQuests: quests.storyQuests.map((q) => ({
+      chapter: translateStoryChapter(q.chapter),
+      character: translate(q.character, map),
+      acts: q.acts.map((a) => ({ act: a.act, name: translate(a.name, map) })),
+    })),
+    worldQuests: quests.worldQuests.map((name) => translate(name, map)),
+    hangoutQuests: quests.hangoutQuests.map((q) => ({
+      character: translate(q.character, map),
+      acts: q.acts.map((a) => ({ act: a.act, name: translate(a.name, map) })),
+    })),
+  };
+}
+
+// Construit la version FR à partir des données EN déjà scrapées : même
+// structure, noms traduits via langlinks (repli sur le nom EN si la
+// traduction échoue). Retourne null si la page FR de la version elle-même
+// est introuvable (version pas encore traduite sur le wiki FR).
+async function buildFrVersionData(
+  enData: VersionData,
+  versionNumber: string,
+): Promise<VersionData | null> {
+  let frWikitext: string | null = null;
+  try {
+    frWikitext = await fetchPageWikitext(`Version/${versionNumber}`, FR_API_URL);
+  } catch {
+    frWikitext = null;
+  }
+
+  const frName = frWikitext ? extractStoryTitleFr(frWikitext) : null;
+  if (!frWikitext) {
+    console.warn(
+      `⚠️  "Version/${versionNumber}": page FR introuvable, fichier fr/ non généré.`,
+    );
+    return null;
+  }
+  if (!frName) {
+    console.warn(
+      `⚠️  "Version/${versionNumber}": titre narratif FR introuvable, repli sur le nom EN.`,
+    );
+  }
+
+  const namesToTranslate = new Set<string>([
+    ...enData.newCharacters,
+    ...Object.values(enData.newWeapons).flat(),
+    ...enData.banners.characters,
+    ...enData.banners.weapons,
+    ...enData.newDomains,
+    ...enData.newArtifacts,
+    ...enData.newEnnemies.common,
+    ...enData.newEnnemies.elite,
+    ...enData.newEnnemies.boss.normal,
+    ...enData.newEnnemies.boss.weekly,
+    ...enData.mapExpansion.flatMap((m) => [m.mainRegion, ...m.subRegion]),
+    ...enData.events,
+    ...enData.newQuests.worldQuests,
+    ...enData.newQuests.archonQuests.flatMap((q) => q.acts.map((a) => a.name)),
+    ...enData.newQuests.storyQuests.flatMap((q) => q.acts.map((a) => a.name)),
+    ...enData.newQuests.hangoutQuests.flatMap((q) => q.acts.map((a) => a.name)),
+  ]);
+
+  console.log(`Translating ${namesToTranslate.size} names to French...`);
+  const map = await fetchLangLinksFr([...namesToTranslate]);
+
+  const translateList = (names: string[]) => names.map((n) => translate(n, map));
+  const translateWeapons = (
+    weapons: VersionData['newWeapons'],
+  ): VersionData['newWeapons'] => {
+    const result: VersionData['newWeapons'] = {};
+    for (const [key, names] of Object.entries(weapons) as [
+      keyof typeof weapons,
+      string[],
+    ][]) {
+      result[key] = translateList(names);
+    }
+    return result;
+  };
+
+  return {
+    number: enData.number,
+    name: frName ?? enData.name,
+    releaseDate: enData.releaseDate,
+    endDate: enData.endDate,
+    newCharacters: translateList(enData.newCharacters),
+    mapExpansion: enData.mapExpansion.map((m) => ({
+      mainRegion: translate(m.mainRegion, map),
+      subRegion: translateList(m.subRegion),
+    })),
+    newWeapons: translateWeapons(enData.newWeapons),
+    banners: {
+      characters: translateList(enData.banners.characters),
+      weapons: translateList(enData.banners.weapons),
+    },
+    events: translateList(enData.events),
+    newDomains: translateList(enData.newDomains),
+    newArtifacts: translateList(enData.newArtifacts),
+    newEnnemies: {
+      common: translateList(enData.newEnnemies.common),
+      elite: translateList(enData.newEnnemies.elite),
+      boss: {
+        normal: translateList(enData.newEnnemies.boss.normal),
+        weekly: translateList(enData.newEnnemies.boss.weekly),
+      },
+    },
+    newQuests: translateQuestsFr(enData.newQuests, map),
+  };
 }
 
 async function fetchEnemyType(enemyName: string): Promise<EnemyCategory> {
@@ -744,16 +959,25 @@ async function main() {
     process.exit(1);
   }
 
-  if (!fs.existsSync(OUTPUT_DIR)) {
-    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-  }
+  const enDir = OUTPUT_DIR('en');
+  const frDir = OUTPUT_DIR('fr');
+  fs.mkdirSync(enDir, { recursive: true });
+  fs.mkdirSync(frDir, { recursive: true });
 
   for (const version of versions) {
     try {
       const data = await scrapeVersion(version);
-      const filePath = path.join(OUTPUT_DIR, `${version}_generated.json`);
-      fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
-      console.log(`✅ Version ${version} → ${filePath}`);
+      const enPath = path.join(enDir, `${version}_generated.json`);
+      fs.writeFileSync(enPath, JSON.stringify(data, null, 2), 'utf-8');
+      console.log(`✅ Version ${version} (en) → ${enPath}`);
+
+      const frData = await buildFrVersionData(data, version);
+      if (frData) {
+        const frPath = path.join(frDir, `${version}_generated.json`);
+        fs.writeFileSync(frPath, JSON.stringify(frData, null, 2), 'utf-8');
+        console.log(`✅ Version ${version} (fr) → ${frPath}`);
+      }
+
       await new Promise((r) => setTimeout(r, 1500));
     } catch (err: any) {
       console.error(`❌ Failed to scrape version ${version}:`, err.message);
