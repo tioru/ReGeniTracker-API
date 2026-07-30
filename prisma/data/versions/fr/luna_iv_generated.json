@@ -1,21 +1,68 @@
 {
-  "number": "Luna IV",
+  "number": "6.3",
+  "cycleLabel": "Luna IV",
   "name": "A Traveler on a Winter's Night",
+  "subtitle": "Chant de l'astre de la nuit - Final",
+  "description": "Pâle lueur lunaire, pourquoi te disperses-tu, silencieuse et invisible ?<br>Et toi, hérétique né, pourquoi ne te caches-tu plus dans les ténèbres ?<br><br>Au cours de son voyage solitaire dans des couloirs inconnus de tous, seule une chanson sans nom l'accompagne :<br>« Dors, dors maintenant, ma douce petite colombe...<br>...<br>... que la lune t'accompagne dans ton sommeil. »",
   "releaseDate": "2026-01-14",
   "endDate": "2026-02-25",
-  "newCharacters": [
-    "Columbina",
-    "Zibai",
-    "Illuga"
-  ],
-  "mapExpansion": [
+  "previousVersion": "Luna III",
+  "nextVersion": "Luna V",
+  "links": [
     {
-      "mainRegion": "Nod-Krai: The Lament of the Cliff-Shadowed Hollow",
-      "subRegion": [
-        "Surplomb de videmer",
-        "Plaine Chassevague",
-        "Pic cendrévoile"
-      ]
+      "url": "https://genshin.hoyoverse.com/en/news/detail/162159",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/162081",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=6f51a15085c947f7#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_LwGS1oxt0J/index.html",
+      "label": "Preview Page"
+    }
+  ],
+  "images": [
+    "Splashscreen A Traveler on a Winter's Night.png",
+    "Splashscreen Somnias a Luna.png",
+    "Splashscreen Harmonious Abundance.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Columbina",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Zibai",
+      "rarity": 5,
+      "element": "Geo",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Illuga",
+      "rarity": 4,
+      "element": "Geo",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [
+    {
+      "name": "Alors que le ciel et la terre sont recréés",
+      "character": "Traveler, with Additional Talent"
+    },
+    {
+      "name": "Rêverie de bambous sous la pluie",
+      "character": "Yaoyao"
+    },
+    {
+      "name": "Cadeau mélusin",
+      "character": "Neuvillette"
     }
   ],
   "newWeapons": {
@@ -26,32 +73,54 @@
   },
   "banners": {
     "characters": [
-      "Rêve sous l'ombre lunaire",
-      "Exaltation astrale",
-      "Abondance harmonieuse",
-      "Décret des profondeurs"
+      {
+        "name": "Rêve sous l'ombre lunaire",
+        "featured": "Columbina",
+        "phase": 1
+      },
+      {
+        "name": "Exaltation astrale",
+        "featured": "Ineffa",
+        "phase": 1
+      },
+      {
+        "name": "Abondance harmonieuse",
+        "featured": "Zibai & Illuga",
+        "phase": 2
+      },
+      {
+        "name": "Décret des profondeurs",
+        "featured": "Neuvillette & Illuga",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Ode à la lune d'argent sous les lanternes",
-    "Exercice de patrouille nocturne",
-    "Chasse aux instants décisifs",
-    "Reflux des lignes énergétiques",
-    "May Fortune Find You: Springs Premonition",
-    "Cadeau du Nouvel An"
+  "mapExpansion": [
+    {
+      "mainRegion": "Nod-Krai: The Lament of the Cliff-Shadowed Hollow",
+      "subRegion": [
+        "Surplomb de videmer",
+        "Plaine Chassevague",
+        "Pic cendrévoile"
+      ]
+    }
   ],
   "newDomains": [
     "Trésors des enfants-lunes",
     "Institut de la fausse lune"
   ],
-  "newArtifacts": [
-    "Aubade d'astre et de lune",
-    "Journée sculptée par les vents ascendants"
+  "newSystems": [
+    "Réaction élémentaire",
+    "Sélénocristallisation",
+    "Points de rassemblement",
+    "The Witch's Garden",
+    "Bastion de Favonius",
+    "Campement de la falaise"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [
       "The Doctor",
       "Fishers of Hidden Depths"
@@ -69,6 +138,33 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Cigogne à cou cendré",
+    "Aigle à couronne",
+    "Gecko à dos épineux"
+  ],
+  "newArtifacts": [
+    "Aubade d'astre et de lune",
+    "Journée sculptée par les vents ascendants"
+  ],
+  "newMaterials": [
+    "Ambre de pin",
+    "Glacelée d'hiver"
+  ],
+  "newMonsterDrops": [
+    "Boss hebdomadaire",
+    "Masque du médecin vertueux",
+    "Contrainte du fou",
+    "Élixir de l'hérétique",
+    "Boss normal",
+    "Reste flétri de l'aile du cauchemar",
+    "Elite",
+    "Œil fracturé des fonds",
+    "Noyau aberrant des fonds",
+    "Bec crochu des fonds"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -90,5 +186,149 @@
       "Punishment Befits the Guilty"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Ode à la lune d'argent sous les lanternes",
+    "Exercice de patrouille nocturne",
+    "Chasse aux instants décisifs",
+    "Reflux des lignes énergétiques",
+    "May Fortune Find You: Springs Premonition",
+    "Cadeau du Nouvel An"
+  ],
+  "newRecipes": [
+    "Rouleaux de printemps croustillants",
+    "Marmite aux légumes",
+    "Fantôme de champignon",
+    "Joie au coin du feu",
+    "Délice dans la neige",
+    "Bonbons aux herbes et aux baies"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Mirage sous la lune",
+    "Saveur printanière",
+    "Soupe de veillée"
+  ],
+  "newAchievements": [
+    "Succès/Nod-Krai : Élysium d'errances au clair de lune - II",
+    "Succès/Promenade dans le monde mortel - Partie VI",
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Thème Columbina - Un jour...",
+    "Thème Zibai - Vue voilée",
+    "Thème Illuga - Oiseau de cauchemar",
+    "Thème Succès - Vue lointaine",
+    "Thème Nod-Krai - Longue nuit",
+    "Thème PB - Ode sous la lanterne"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Coin à soi",
+    "Boisson à volonté",
+    "« Soin de la cité vigilante »",
+    "Commandement déterminé",
+    "« Forge de la cité vigilante »",
+    "Cabane mobile lumineuse",
+    "« Refuge de la cité vigilante »",
+    "Scintillement de vie",
+    "« Solitude de la cité vigilante »",
+    "« Starshyna en marche »",
+    "« À mes compagnons »",
+    "Chaleur accueillante",
+    "« Murmures au clair de lune »",
+    "Barrière métallique réglable",
+    "Arbre de fortune",
+    "Verdure florissante",
+    "Bannière de Piramida",
+    "Lanterne de Grand Zhanzhu « Bloqueur de chemin »",
+    "Lanterne de Grand Zhanzhu « Grand bloqueur de chemin »",
+    "Phare « Lumière à travers les nuages »",
+    "Lampe légère en métal",
+    "Luxuriance florissante",
+    "Bac à sable « Démo anticipée »",
+    "Lit de convalescence simple",
+    "Brancard simple « Transport en douceur »",
+    "Râtelier d'armes simple « Utilisation pratique »",
+    "Lampadaire debout « Efficience max »",
+    "Lanterne céleste éclatante « Beau début de printemps »",
+    "Lanterne céleste éclatante « À la prochaine, mes amis »",
+    "Lanterne céleste éclatante « Fortune et bonheur »",
+    "Lanterne céleste éclatante « Chance jusqu'au bout »",
+    "Lanterne céleste éclatante « Que vos souhaits se réalisent »",
+    "Lanterne céleste éclatante « Que mon vœu aille loin »",
+    "Lanterne céleste éclatante « Solo de fortune »",
+    "Lanterne céleste éclatante « Douces senteurs dans le vent »",
+    "Galop du cheval blanc",
+    "Statue de sorcière « Moment magique »"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [
+    "Bref historique de ceux nés de l'étoile pâle",
+    "Murmures nocturnes de la frontière lointaine",
+    "Contes portés par le vent du nord"
+  ],
+  "newTcgCards": {
+    "characterCards": [
+      "Ororon",
+      "Skirk",
+      "Crococornu sacralisé"
+    ],
+    "actionCards": [
+      "Veillée d'appel d'étoiles",
+      "Perception forgée par les flammes",
+      "Pompon teint",
+      "Bona and Cocouik",
+      "Mer brisée",
+      "\"An Adventure Through the Morning Mist\"",
+      "Tonatiuh"
+    ]
+  },
+  "otherAdditions": [
+    "New Fishing Points in Nod-Krai.",
+    "New Radiant Spincrystals in Nod-Krai.",
+    "Adds Set 46 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Adds Local Legends: Hexadecatonic Mandragora, Hiljetta, and \"The Homesick Lone Wolf\".",
+    "Adds some of the Harvestable seeds from Nod-Krai to the Seed Dispensary."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "February 1, 2026",
+    "requiredElements": [
+      "Pyro",
+      "Hydro",
+      "Geo"
+    ],
+    "openingCharacters": [
+      "Yoimiya",
+      "Gaming",
+      "Yelan",
+      "Barbara",
+      "Chiori",
+      "Yun Jin"
+    ],
+    "guestCharacters": [
+      "Ineffa",
+      "Flins",
+      "Nefer",
+      "Lauma"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members gain a 60% Electro DMG Bonus.",
+      "All party members gain a 60% Hydro DMG Bonus.",
+      "All party members gain a 60% Geo DMG Bonus.",
+      "All party members gain a 60% Hydro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First half: The active character's Charged Attack DMG is increased by 75%.",
+      "Second half: Lunar Reaction DMG is increased by 75%.",
+      "First half: Lunar-Charged DMG is increased by 75%.",
+      "Second half: Lunar-Crystallize DMG is increased by 75%."
+    ],
+    "blessingName": "Surgestrike Moon",
+    "blessingEffect": "When a character triggers a Lunar reaction (Lunar-Bloom, Lunar-Charged, or Lunar-Crystallize) on an opponent, a shockwave will be unleashed at the opponent's position, dealing True DMG. This effect can be triggered once every 3s."
   }
 }

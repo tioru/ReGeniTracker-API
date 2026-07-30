@@ -1,12 +1,57 @@
 {
   "number": "4.8",
+  "cycleLabel": null,
   "name": "Un été entre fables et écailles",
+  "subtitle": null,
+  "description": "Voici quelques essentiels pour l'été :<br />un parfum rafraîchissant pour apaiser les émotions agitées sous le soleil brûlant,<br />un nouveau livre de contes pour égayer des vacances oisives,<br />ainsi qu'une pointe de danger pour satisfaire la curiosité de ceux qui veulent connaître les secrets.",
   "releaseDate": "2024-07-17",
   "endDate": "2024-08-28",
-  "newCharacters": [
-    "Émilie"
+  "previousVersion": "4.7",
+  "nextVersion": "5.0",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/124837",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/124763",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=c72abd9836ff4747#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20240706preview-5y4ic7/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/124539",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Summertide Scales and Tales.png",
+    "Splashscreen Ambrosial Essence Discerner of Enigmas.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Émilie",
+      "rarity": 5,
+      "element": "Dendro",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [
+    {
+      "name": "Brise de Sabaa",
+      "character": "Nilou"
+    },
+    {
+      "name": "Fantôme en bottes",
+      "character": "Kirara"
+    }
+  ],
   "newWeapons": {
     "5Star": [
       "Élégie de Lumidouce"
@@ -14,25 +59,38 @@
   },
   "banners": {
     "characters": [
-      "Au nom de la Rosula",
-      "Lotus tournoyant",
-      "Essence ambrosiale",
-      "Discerneuse d'énigmes"
+      {
+        "name": "Au nom de la Rosula",
+        "featured": "Navia",
+        "phase": 1
+      },
+      {
+        "name": "Lotus tournoyant",
+        "featured": "Nilou",
+        "phase": 1
+      },
+      {
+        "name": "Essence ambrosiale",
+        "featured": "Emilie",
+        "phase": 2
+      },
+      {
+        "name": "Discerneuse d'énigmes",
+        "featured": "Yelan",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Un été entre fables et écailles",
-    "Ballon piaf'tatrac",
-    "Outside the Canvas, Inside the Lens: Dew-Kissed Chapter",
-    "Energy Amplifier: Lemma",
-    "Abondance de maîtrise"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Envisaged Echoes (Imaginarium Theater)",
+    "Added \"Longer-Term Encounter Points\" (Adventure Encounters)"
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -40,6 +98,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -64,5 +128,159 @@
       "An Odd Textual Mystery"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Un été entre fables et écailles",
+    "Ballon piaf'tatrac",
+    "Outside the Canvas, Inside the Lens: Dew-Kissed Chapter",
+    "Energy Amplifier: Lemma",
+    "Abondance de maîtrise"
+  ],
+  "newRecipes": [
+    "Boudi-glacé",
+    "Combo croissant croustillant",
+    "Fricassée de poulet"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Festin aux fumets fragrants"
+  ],
+  "newAchievements": [],
+  "newNamecards": [
+    "Thème Émilie - Note de fond",
+    "Thème PB - Ersatz"
+  ],
+  "newGadgets": [
+    "Yelena (gadget)"
+  ],
+  "newFurnishings": [
+    "« Café de l'après-midi »",
+    "Unité boum-boum",
+    "Wagon de marchandises « Ras bord »",
+    "Sentinelle attrape-vent consciencieuse",
+    "Unité ding-dong",
+    "Abri léger et portable",
+    "Statuette de conte « Comme il se doit »",
+    "Statuette de conte « Doigté léger »",
+    "Statuette de conte « Un autre ! »",
+    "Statuette de conte « Incarnation du courage »",
+    "Statuette de conte « Pinson amical »",
+    "Statuette de conte « Feuille de lotus rebondissante »",
+    "Statuette de conte « Brève pause »",
+    "Statuette de conte « Coquille de noix »",
+    "Statuette de conte « À ne pas imiter »",
+    "Statuette de conte « Vision envisagée »",
+    "Statuette de conte « L'évidence même »",
+    "Statuette de conte « Excellent compagnonnage »",
+    "Statuette de conte « Instructrice de vol »",
+    "Statuette de conte « Point focal »",
+    "Statuette de conte « Voyage libre »",
+    "Statuette de conte « Chapelier »",
+    "Statuette de conte « Rêve imminent »",
+    "Statuette de conte « Jouons ! »",
+    "Statuette de conte « Étoile miraculeuse »",
+    "Statuette de conte « Némésis de la nuit »",
+    "Statuette de conte « Ininflammable et inexplosable »",
+    "Statuette de conte « Rien du tout »",
+    "Statuette de conte : Grenouille-gami bondissante",
+    "Statuette de conte « Preuve de courage »",
+    "Statuette de conte « À l'aide ! »",
+    "Statuette de conte « Floraison éparse »",
+    "Statuette de conte « Héros inflexible »",
+    "Statuette de conte « Trajectoire stable »",
+    "Statuette de conte « Contrôle de qualité strict »",
+    "Statuette de conte « Colle forte »",
+    "Statuette de conte « Forcément »",
+    "Statuette de conte « Pouvoir de la sagesse »",
+    "Statuette de conte « Épée la plus tranchante »",
+    "Statuette de conte « Session d'entraînement »",
+    "Statuette de conte « Insensible à la tempête »",
+    "Statuette de conte « Véritable point de vue »",
+    "Statuette de conte « Attention à vos pas »",
+    "Statuette de conte « Chant au boulot »",
+    "Statuette de conte « On ne me voit pas ! »",
+    "Colonne musicale étoilée du Jardin",
+    "Porte des étoiles",
+    "Fruit brillant de la Forêt",
+    "« Bonne étagère » de la Forêt",
+    "« Bonne étagère » de la Métropole",
+    "« Bonne étagère » des Mines",
+    "Conte à couverture rigide « Simulanka »",
+    "Joie allègre de la Forêt",
+    "Cabane magique de la Forêt",
+    "Maison ludique de la Métropole « Chef d'orchestre »",
+    "Maison ludique de la Métropole « Cymbaliste »",
+    "Maison ludique de la Métropole « Trompettiste »",
+    "Houppierond polyvalent",
+    "Maquette d'origami « Dure »",
+    "Maquette d'origami « Bond et saut »",
+    "Maquette d'origami « Bedon rond »",
+    "Maquette d'origami « Zoum »",
+    "Tapis cocasse « Drame des cartes »",
+    "Forteresse tranquille",
+    "Feuilles d'appel de pluie",
+    "Beauté originelle de la Forêt",
+    "Bloc en pierre rectangulaire",
+    "Panneau d'horaire de station",
+    "Wagon de repos « Zzz »",
+    "Danseur gracieux",
+    "Locomotive brise-vagues",
+    "Fenêtre sur les prophéties"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Chevreuse",
+      "Navia",
+      "Opérateur Fatui du givre"
+    ],
+    "actionCards": [
+      "« Méga épée magique du suzerain ultime »",
+      "Foret de prospecteur",
+      "Triomphe du Gladiateur",
+      "Serene",
+      "\"I'd Rather Lose Money Myself...\"",
+      "Tada!"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 33 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "New \"Hide UI\" function: You can enable/disable it in the \"Settings > Other\" menu (you can also enable/disable it using specific shortcuts on PC). When enabled, the main interface will hide UI elements such as map and party information.",
+    "New functions in the Dialogue Screen:",
+    "# \"Dialogue Review\": You can open the \"Dialogue Review\" interface while playing through the story to view the dialogue records for this segment of the story or listen to the voice-overs again.",
+    "# \"Hide Dialogue Screen\": You can hide the dialogue screen while playing through the story."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": null,
+    "requiredElements": [
+      "Hydro",
+      "Cryo",
+      "Anemo"
+    ],
+    "openingCharacters": [
+      "Furina",
+      "Barbara",
+      "Kamisato Ayaka",
+      "Diona",
+      "Xiao",
+      "Faruzan"
+    ],
+    "guestCharacters": [
+      "Émilie",
+      "Dehya",
+      "Nahida",
+      "Xiangling"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 75% Dendro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Searing Moon",
+    "blessingEffect": "When characters attack Burning opponents, their CRIT Rate is increased by 15% and their CRIT DMG is increased by 30%."
   }
 }

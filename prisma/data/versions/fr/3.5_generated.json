@@ -1,13 +1,54 @@
 {
   "number": "3.5",
+  "cycleLabel": null,
   "name": "Souffle des alizées",
+  "subtitle": null,
+  "description": "Certains disent que le destin se cache dans le vent, comme le parfum des fleurs, la pluie et la rosée...<br>Pour eux, telle est l'insurmontable loi de la nature. D'autres aspirent à trouver leur destin et vont jusqu'à tenter de le tracer eux-mêmes. Mais tout cela n'est-il pas justement pas le fruit du sort ?",
   "releaseDate": "2023-03-01",
   "endDate": "2023-04-12",
-  "newCharacters": [
-    "Dehya",
-    "Mika"
+  "previousVersion": "3.4",
+  "nextVersion": "3.6",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/105440",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/105414",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?page_sn=800dab08f99748a7#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20230218preview-z6n9lj/index.html",
+      "label": "Website"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/105344",
+      "label": "Developers Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Windblume's Breath.png",
+    "Splashscreen The Heron's Court The Transcendent One Returns.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Dehya",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Mika",
+      "rarity": 4,
+      "element": "Cryo",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Balise de la mer de roseaux"
@@ -18,25 +59,35 @@
   },
   "banners": {
     "characters": [
-      "Brasier aurique",
-      "Arbitre du crépuscule",
-      "Prestance du héron",
-      "Retour de la sublimée"
+      {
+        "name": "Brasier aurique",
+        "featured": "Dehya",
+        "phase": 1
+      },
+      {
+        "name": "Arbitre du crépuscule",
+        "featured": "Cyno",
+        "phase": 1
+      },
+      {
+        "name": "Prestance du héron",
+        "featured": "Kamisato Ayaka & Mika",
+        "phase": 2
+      },
+      {
+        "name": "Retour de la sublimée",
+        "featured": "Shenhe & Mika",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Souffle des alizées",
-    "Spices from the West: Northerly Search",
-    "Théâtre fongique",
-    "Vibro-Crystal Verification",
-    "Reflux des lignes énergétiques"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [
       "Apôtre de l'Abîme - Frimas",
@@ -47,6 +98,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -62,5 +119,43 @@
         ]
       }
     ]
+  },
+  "events": [
+    "Souffle des alizées",
+    "Spices from the West: Northerly Search",
+    "Théâtre fongique",
+    "Vibro-Crystal Verification",
+    "Reflux des lignes énergétiques"
+  ],
+  "newRecipes": [],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Adds some prompts for loading screens.",
+    "Added Set 21 of \"Paimon's Paintings\" chat emojis.",
+    "The gadget \"Festive Drum\" can now be purchased from Mikoshi Genichirou, the owner of Inazuma's Netsuke no Gen Crafts.",
+    "You can directly teleport to the Mansion's location within the Serenitea Pot using the Map.",
+    "A guide to Archon Quests will be added to the \"Adventurer Handbook: Guide\" page. For each Archon Quest Act completed, Travelers can claim the corresponding rewards on this page.",
+    "New Heated Battle Mode in Genius Invokation TCG: The number of Elemental Dice required to play the first card from your hand every round will be reduced by two and the number of Elemental Dice required to use the first character skill each round Will be reduced by one."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members receive a 75% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Determined Moon",
+    "blessingEffect": "After a character's HP decreases, all party members will gain a stack of Implacable: DMG dealt will be increased by 8% for 8s. This effect can be triggered once every 0.3s. Max 4 stacks. Each stack's duration is counted independently."
   }
 }

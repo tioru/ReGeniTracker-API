@@ -1,13 +1,54 @@
 {
   "number": "3.5",
+  "cycleLabel": null,
   "name": "Windblume's Breath",
+  "subtitle": null,
+  "description": "Some say fate hides in the wind, like the fragrance of flowers, like rain and dew...<br>Such is the law of nature, absolute and insurmountable.<br>Others, on the other hand, strive to seek out their own destinies, or even go as far as to reweave the threads of fate.<br>But at the end of it all, is this not an orchestration of fate?",
   "releaseDate": "2023-03-01",
   "endDate": "2023-04-12",
-  "newCharacters": [
-    "Dehya",
-    "Mika"
+  "previousVersion": "3.4",
+  "nextVersion": "3.6",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/105440",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/105414",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?page_sn=800dab08f99748a7#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20230218preview-z6n9lj/index.html",
+      "label": "Website"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/105344",
+      "label": "Developers Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Windblume's Breath.png",
+    "Splashscreen The Heron's Court The Transcendent One Returns.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Dehya",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Mika",
+      "rarity": 4,
+      "element": "Cryo",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Beacon of the Reed Sea"
@@ -18,25 +59,35 @@
   },
   "banners": {
     "characters": [
-      "Auric Blaze",
-      "Twilight Arbiter",
-      "The Heron's Court",
-      "The Transcendent One Returns"
+      {
+        "name": "Auric Blaze",
+        "featured": "Dehya",
+        "phase": 1
+      },
+      {
+        "name": "Twilight Arbiter",
+        "featured": "Cyno",
+        "phase": 1
+      },
+      {
+        "name": "The Heron's Court",
+        "featured": "Kamisato Ayaka & Mika",
+        "phase": 2
+      },
+      {
+        "name": "The Transcendent One Returns",
+        "featured": "Shenhe & Mika",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Windblume's Breath",
-    "Spices from the West: Northerly Search",
-    "Fungus Mechanicus",
-    "Vibro-Crystal Verification",
-    "Ley Line Overflow"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [
       "Abyss Herald: Frost Fall",
@@ -47,6 +98,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -62,5 +119,43 @@
         ]
       }
     ]
+  },
+  "events": [
+    "Windblume's Breath",
+    "Spices from the West: Northerly Search",
+    "Fungus Mechanicus",
+    "Vibro-Crystal Verification",
+    "Ley Line Overflow"
+  ],
+  "newRecipes": [],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Adds some prompts for loading screens.",
+    "Added Set 21 of \"Paimon's Paintings\" chat emojis.",
+    "The gadget \"Festive Drum\" can now be purchased from Mikoshi Genichirou, the owner of Inazuma's Netsuke no Gen Crafts.",
+    "You can directly teleport to the Mansion's location within the Serenitea Pot using the Map.",
+    "A guide to Archon Quests will be added to the \"Adventurer Handbook: Guide\" page. For each Archon Quest Act completed, Travelers can claim the corresponding rewards on this page.",
+    "New Heated Battle Mode in Genius Invokation TCG: The number of Elemental Dice required to play the first card from your hand every round will be reduced by two and the number of Elemental Dice required to use the first character skill each round Will be reduced by one."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members receive a 75% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Determined Moon",
+    "blessingEffect": "After a character's HP decreases, all party members will gain a stack of Implacable: DMG dealt will be increased by 8% for 8s. This effect can be triggered once every 0.3s. Max 4 stacks. Each stack's duration is counted independently."
   }
 }

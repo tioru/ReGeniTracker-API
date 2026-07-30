@@ -1,11 +1,93 @@
 {
-  "number": "Luna VIII",
+  "number": "6.7",
+  "cycleLabel": "Luna VIII",
   "name": "Fontinalia ensoleillé en été",
+  "subtitle": "Chant de l'astre de la nuit - Scherzo",
+  "description": "Alors que nous nous promenons tranquillement sous le ciel nocturne du début de l'été, nous apercevons la nouvelle lune qui se lève dans le reflet de l'eau.<br>Inutile de se presser. On finit toujours par rentrer chez soi. Autant prêter l'oreille aux chants qui rythment le chemin.",
   "releaseDate": "2026-07-01",
   "endDate": "2026-08-12",
-  "newCharacters": [
-    "Sandrone"
+  "previousVersion": "Luna VII",
+  "nextVersion": "7.0",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/165076",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/165001",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=ed504b9f27204b1e#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/164999",
+      "label": "Paimon's Version Update Notes"
+    }
   ],
+  "images": [
+    "Splashscreen Sunny Summer Fontinalia.png",
+    "Splashscreen To the Looking-Glass the Mademoiselle Said.png",
+    "Splashscreen Wonderland Treasure Breezes Meet the Fatebound Sea.png",
+    "Splashscreen When We Look Up at the Moon.png",
+    "Splashscreen Somnias a Luna Reign of Serenity.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Sandrone",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [
+    {
+      "name": "Murmures d'étoiles et de fumée",
+      "character": "Citlali"
+    },
+    {
+      "name": "Variations de Hurlock",
+      "character": "Charlotte"
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Une cuillerée de transcendance"
+    ]
+  },
+  "banners": {
+    "characters": [
+      {
+        "name": "Prophétie sous les astres",
+        "featured": "Witch's Revelation Lightrace Wish",
+        "phase": 1
+      },
+      {
+        "name": "Au miroir, la mademoiselle a déclaré",
+        "featured": "Sandrone",
+        "phase": 1
+      },
+      {
+        "name": "Murmures d'une nuit étoilée",
+        "featured": "Citlali",
+        "phase": 1
+      },
+      {
+        "name": "Rêve sous l'ombre lunaire",
+        "featured": "Columbina",
+        "phase": 2
+      },
+      {
+        "name": "Règne de sérénité",
+        "featured": "Raiden Shogun",
+        "phase": 2
+      }
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
   "mapExpansion": [
     {
       "mainRegion": "Dunanna Pit",
@@ -20,33 +102,18 @@
       ]
     }
   ],
-  "newWeapons": {
-    "5Star": [
-      "Une cuillerée de transcendance"
-    ]
-  },
-  "banners": {
-    "characters": [
-      "Prophétie sous les astres",
-      "Au miroir, la mademoiselle a déclaré",
-      "Murmures d'une nuit étoilée",
-      "Rêve sous l'ombre lunaire",
-      "Règne de sérénité"
-    ],
-    "weapons": [
-      "Incarnation divine"
-    ]
-  },
-  "events": [
-    "Sunny Summer Fontinalia (Event)",
-    "Visée terminale à longue portée",
-    "Délire disco décontracté dansant",
-    "Reflux des lignes énergétiques",
-    "When We Look Up at the Moon"
-  ],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Réaction élémentaire",
+    "Astroconduction",
+    "Witch's Revelation",
+    "Répertoire aux mille mélodies",
+    "Nod-Krai: Where Roads Are Pledged to Cross",
+    "Score Theme",
+    "Dovefeather Moondew",
+    "Ancient Moon's Remnant"
+  ],
+  "newMonsters": {
     "common": [
       "Blob prismatique",
       "Mushteshir"
@@ -59,6 +126,21 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Baleine givreuse lunière",
+    "Moonglow Jellyfish"
+  ],
+  "newArtifacts": [],
+  "newMaterials": [
+    "Teardrop of the Moon"
+  ],
+  "newMonsterDrops": [
+    "Poignée enflammée délavée",
+    "Fer de lune vide",
+    "Fer de lune immaculé"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -72,5 +154,114 @@
       "Within the Sequence"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Sunny Summer Fontinalia (Event)",
+    "Visée terminale à longue portée",
+    "Délire disco décontracté dansant",
+    "Reflux des lignes énergétiques",
+    "When We Look Up at the Moon"
+  ],
+  "newRecipes": [
+    "Travers de porc à la vapeur de bouleau",
+    "Pain de seigle au poisson"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Ensemble du goûteron"
+  ],
+  "newAchievements": [
+    "Unfettered Crescent",
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Sandrone: Tea Break",
+    "Nod-Krai: Moonbright",
+    "Travel Notes: Sunny Summer"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Banner of the Wingalet",
+    "Camp Barrier: Treatment Area",
+    "Infinite Recursion Formula",
+    "Keys of Ingenuity",
+    "Large Cargo Crate: Reliable Support",
+    "Medium Cargo Crate: Basic Supplies",
+    "Medium Metal Scrap Barrel",
+    "Moon Envoy of Silver Radiance",
+    "Movable Small Spotlight",
+    "Nasha Stall: Deep-Rooted Traditions",
+    "Ripples in Miniature",
+    "Signalless Tower",
+    "Standing Street Lamp: Beacon in the Misty Night",
+    "Tea Party Carpet: Soft to the Touch",
+    "Tea Party Cart: Dessert Time",
+    "Tea Party Chair: Crimson and Gold",
+    "Tea Party Cup: Refreshing Flavor",
+    "Tea Party Dining Table: The Perfect Gathering",
+    "Unusable Legacy",
+    "Vessel of the Past",
+    "Wingalet Rules of Conduct"
+  ],
+  "newFurnishingSets": [
+    "Goûteron de farniente"
+  ],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Chevalier des Serpents noirs - Fendeur de vent",
+      "Nefer",
+      "Spiritoratrice excentrique isolée"
+    ],
+    "actionCards": [
+      "Fête fun-tastique des cham-p'tit-gnons",
+      "The Power of Research",
+      "Nightmare Omen",
+      "Elemental Transfiguration: Aquabreeze Blessing",
+      "Elemental Transfiguration: Thunderbloom Blessing",
+      "Tarte aux lakkabaies"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 50 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Souvenir Shop Available: After upgrading all 6 Meeting Points in the Nod-Krai region and the 2 Ancient Moon's Remnants in the Frost Moon area to their max level, Travelers can use Luna Sigils to purchase items from the Voynich Guild in Nod-Krai.",
+    "After the Version Luna VIII update, the weapons \"Cashflow Supervision\" (Catalyst) and \"Kagura's Verity\" (Catalyst) will gain new enhancement effects.",
+    "There will be new Fishing Points and \"Radiant Spincrystals\" in the new areas."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "August 1, 2026",
+    "requiredElements": [
+      "Hydro",
+      "Electro",
+      "Cryo"
+    ],
+    "openingCharacters": [
+      "Yelan",
+      "Aino",
+      "Flins",
+      "Ororon",
+      "Skirk",
+      "Layla"
+    ],
+    "guestCharacters": [
+      "Arlecchino",
+      "Chevreuse",
+      "Kaedehara Kazuha",
+      "Tighnari"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": "July 16",
+    "floor11Disorder": [
+      "All characters in the party gain a 60% Cryo DMG Bonus.",
+      "All characters in the party gain a 60% Electro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Characters' Superconduct DMG increased by 200% and Stellar-Conduct DMG increased by 75%.",
+      "Second Half: Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%."
+    ],
+    "blessingName": "Ice-Surging Moon",
+    "blessingEffect": "When the active character deals Cryo DMG to opponents with Charged Attacks, their attacks will unleash a shockwave at the opponent's position that deals True DMG. This can trigger once every 3s."
   }
 }

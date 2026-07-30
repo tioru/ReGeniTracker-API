@@ -1,12 +1,44 @@
 {
   "number": "2.6",
+  "cycleLabel": null,
   "name": "Zéphyr sur le jardin violet",
+  "subtitle": null,
+  "description": "Un vaste vent souffle à travers les champs et rencontre la poésie et les images illustres du jardin violet. La lumière pure d'une vallée profonde et isolée illumine un coin de l'abîme sombre. À la surface de l'eau miroitante, les histoires du passé émergent peu à peu...",
   "releaseDate": "2022-03-30",
   "endDate": "2022-05-31",
-  "newCharacters": [
-    "Kamisato Ayato"
+  "previousVersion": "2.5",
+  "nextVersion": "2.7",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/20284",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/20184",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://webstatic-sea.hoyoverse.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=494fb89914d6406b#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://webstatic-sea.hoyoverse.com/ys/event/e20220319-previ-fd5q/index.html",
+      "label": "Website"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Zephyr of the Violet Garden.png",
+    "Splashscreen The Heron's Court.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Kamisato Ayato",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Sword"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Lune ondulante de Futsu"
@@ -14,32 +46,30 @@
   },
   "banners": {
     "characters": [
-      "Excursion azurée",
-      "Ballade en pintes",
-      "Prestance du héron"
+      {
+        "name": "Excursion azurée",
+        "featured": "Kamisato Ayato",
+        "phase": null
+      },
+      {
+        "name": "Ballade en pintes",
+        "featured": "Venti",
+        "phase": null
+      },
+      {
+        "name": "Prestance du héron",
+        "featured": "Kamisato Ayaka",
+        "phase": null
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Phase 1",
-    "Hues of the Violet Garden",
-    "Hors de la toile, dans l'objectif",
-    "Phase 2",
-    "Vibro-Crystal Research",
-    "Reflux des lignes énergétiques",
-    "Merveilleuses marchandises",
-    "Phase 3",
-    "Spices From the West",
-    "Abondance de maîtrise"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [
-    "Au-delà cinabrin",
-    "Échos d'une offrande"
-  ],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -47,6 +77,18 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Belette foudrazurée",
+    "Luciolichance"
+  ],
+  "newArtifacts": [
+    "Au-delà cinabrin",
+    "Échos d'une offrande"
+  ],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -68,5 +110,65 @@
       "The Missing Miner"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Phase 1",
+    "Hues of the Violet Garden",
+    "Hors de la toile, dans l'objectif",
+    "Phase 2",
+    "Vibro-Crystal Research",
+    "Reflux des lignes énergétiques",
+    "Merveilleuses marchandises",
+    "Phase 3",
+    "Spices From the West",
+    "Abondance de maîtrise"
+  ],
+  "newRecipes": [
+    "Élégance tranquille",
+    "Sandwich à la viande",
+    "Aster arc-en-ciel"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "Succès/Au défi ! - Partie V",
+    "Succès/Gouffre éclairé",
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Thème Kamisato Ayato - Ondulation",
+    "Thème Lumen - Pierre de lumière",
+    "Thème Succès - Coup de tonnerre",
+    "Thème Succès - Gouffre",
+    "Thème PB - Irodori"
+  ],
+  "newGadgets": [
+    "Adjuvant de pierre de lumen"
+  ],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "\"Radiant Spincrystals\" have been added to Mondstadt, Liyue, and Inazuma.",
+    "The Teapot Traveling Salesman has added some \"Radiant Spincrystals\" which can be purchased after obtaining and completing the corresponding World Quests in Inazuma.",
+    "After completing Raiden Shogun's Story Quest \"Imperatrix Umbrosa Chapter: Act II,\" Ritou will add a shop where you can purchase \"Sango Pearls,\" \"Unagi Meat,\" and 2-Star \"Lucky Dog\" Artifacts.",
+    "The redirect link to the \"Adventurer Handbook: Bosses\" screen has been added under the \"Sources\" for certain Development Items.",
+    "Adds a shortcut for opening the Party Setup Screen on mobile platforms: on the main interface, tap and hold the avatar of any character to quickly access the Party Setup Screen.",
+    "Adds some prompts for loading screens.",
+    "New Loot Drops from \"Abyss Heralds,\" and \"Abyss Lectors\": \"Gloomy Statuette,\" \"Dark Statuette,\" and \"Deathly Statuette.\""
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 75% Anemo DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Sheet-Ice Moon",
+    "blessingEffect": "After a character's Normal Attack hits an opponent, this opponent will be afflicted with a Mark of Ending. After 10s, this Mark of Ending will be removed, dealing True DMG to this opponent. When a character's Normal Attack hits an opponent with a Mark of Ending, the DMG dealt by the Mark of Ending's removal will be increased. This DMG can be increased 9 times."
   }
 }

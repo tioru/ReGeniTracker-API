@@ -1,12 +1,50 @@
 {
-  "number": "Luna V",
+  "number": "6.4",
+  "cycleLabel": "Luna V",
   "name": "Homeward, He Who Caught the Wind",
+  "subtitle": "Song of the Welkin Moon: Variation",
+  "description": "Familiar skies, familiar faces, and unfamiliar stories...<br>People often say that the further you go, the more important it is to remember where you started, and know your way home.<br>\"However, winds change their course.\"<br>Blowing toward where they are needed most, at the moment they are meant to arrive.",
   "releaseDate": "2026-02-25",
   "endDate": "2026-04-08",
-  "newCharacters": [
-    "Varka"
+  "previousVersion": "Luna IV",
+  "nextVersion": "Luna VI",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/162806",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/162712",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=a20865449b12434f#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_myGzVjTyki/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/162716",
+      "label": "System Update Overview"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Homeward, He Who Caught the Wind.png",
+    "Splashscreen The Northerly Wind's Song of Triumph.png",
+    "Splashscreen Wonderland Treasure Cloud Edge's Glory.png",
+    "Splashscreen Void Star's Advent La Chanson Cerise.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Varka",
+      "rarity": 5,
+      "element": "Anemo",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Gest of the Mighty Wolf"
@@ -14,27 +52,53 @@
   },
   "banners": {
     "characters": [
-      "The Northerly Wind's Song of Triumph",
-      "The Lone Light Knocks at Night",
-      "Ode to the Dawn Breeze",
-      "Void Star's Advent",
-      "La Chanson Cerise"
+      {
+        "name": "The Northerly Wind's Song of Triumph",
+        "featured": "Varka",
+        "phase": 1
+      },
+      {
+        "name": "The Lone Light Knocks at Night",
+        "featured": "Flins",
+        "phase": 1
+      },
+      {
+        "name": "Ode to the Dawn Breeze",
+        "featured": "Mondstadt Chronicled Wish",
+        "phase": 1
+      },
+      {
+        "name": "Void Star's Advent",
+        "featured": "Skirk",
+        "phase": 2
+      },
+      {
+        "name": "La Chanson Cerise",
+        "featured": "Escoffier",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Homeward, He Who Caught the Wind",
-    "Sightseeing With Friends",
-    "Operation Stronghold Defense",
-    "Overflowing Abundance",
-    "Raiment Collection: Dawn Breeze",
-    "Starlight Voyage: Gallant Stride"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Serenitea Pot",
+    "Shadowflit Archipelago (Nod-Krai Realm Layout)",
+    "Nod-Krai Gift Sets",
+    "Genius Invokation TCG",
+    "Nod-Krai Card Back",
+    "Nod-Krai Card Box",
+    "Repertoire of Myriad Melodies",
+    "Nod-Krai: Gateway to the Borderland Elysium Album",
+    "Score Themes",
+    "Elysium and the Moon",
+    "Frostmoon Prayers",
+    "Mysterious White Star"
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -44,6 +108,14 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [
+    "Prismatic Severed Tail"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -52,5 +124,160 @@
       "Stories to Sate the Glass and Scroll"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Homeward, He Who Caught the Wind",
+    "Sightseeing With Friends",
+    "Operation Stronghold Defense",
+    "Overflowing Abundance",
+    "Raiment Collection: Dawn Breeze",
+    "Starlight Voyage: Gallant Stride"
+  ],
+  "newRecipes": [
+    "Golden-Tempered Jade"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Hearty Indulgence"
+  ],
+  "newAchievements": [
+    "Wonders of the World category"
+  ],
+  "newNamecards": [
+    "Varka: Lead Wolf",
+    "Travel Notes: Northerly Winds"
+  ],
+  "newGadgets": [
+    "Harmonic Keys"
+  ],
+  "newFurnishings": [
+    "Banner of the Lightkeepers",
+    "Base Alloy Flooring",
+    "Base Auxiliary Building: Multipurpose Greenhouse",
+    "Base Auxiliary Building: Secret Space",
+    "Base Auxiliary Building: Water Tower",
+    "Base Gate: Access Logic",
+    "Base Paneled Ceiling",
+    "Base Pillar: Universal Beacon",
+    "Base Platform: Solid Foundation",
+    "Base Vault Door",
+    "Base Wall: Line of Obstruction",
+    "Base Windwheel: Auxiliary Power",
+    "Base's Cooling Secret",
+    "Base's Soft Tranquility",
+    "Bestest Little Nest",
+    "Bounty Hunter",
+    "Branches Against the Blue Sky",
+    "Clear Echoes on the Base",
+    "Clink-Clank House of Storage",
+    "Cookie Round",
+    "Crescent Moon Wave",
+    "Dodoco's Duet",
+    "Fluffy Fuzzball",
+    "Fluffy Little Rug",
+    "Frost Moon Carpet: Limpid Hue",
+    "Frost Moon Round Table: A Soft Blue Sky",
+    "Frost Moon Small Table: Aroma of Fresh Fruit",
+    "Frost Moon Stone Bed: Fresh & Cool",
+    "Gentle Embrace",
+    "Hotel Wardrobe: Extra Room",
+    "Indoor Bookshelf: Readerly Leisure",
+    "Indoor Counter: Visitor's Welcome",
+    "Indoor Low Table: Unique Importance",
+    "Iron Wolf",
+    "Jumbo Sparks 'n' Splash Statue",
+    "Kerplunk-a-tron Windmill Base",
+    "Knuckle-rock",
+    "Leisuretime Lightning",
+    "Moonlight Citrine Tree",
+    "Moonlight Swaying",
+    "Pedunculate Oak Wood \"Moonrest\" Backed Chair",
+    "Rimehorn Glimmer",
+    "Seafoam Swordsong",
+    "Shimmer-o-Sway",
+    "Slumbering Rose",
+    "Someone's Notes",
+    "Steadfast as Iron",
+    "Tavern Wall Lamp: Hovering Hallway Light",
+    "Towering Cabinet",
+    "Town Railing: Blue, Blue Waves",
+    "Town Railing: Convenient Bench",
+    "Treasure Guardians",
+    "Twigsprout Tree",
+    "Twisty Mushroom",
+    "Whispers of the Verdant Grove",
+    "Wibbly Wobbly Fishie Pot",
+    "Windborne Bouquet",
+    "Windward Orange Tree"
+  ],
+  "newFurnishingSets": [
+    "A Comfy Room for Guests From Near and Far",
+    "Bustling Border Town",
+    "Crescent Moon Serenity",
+    "Pre-Battle Respite",
+    "Promising Workshops",
+    "Solitary Light in the Long Night",
+    "Sweet Slumber Beneath the Moon",
+    "The Bestest and Warmest Home",
+    "The Orderly Grid of Secrets",
+    "Tranquil Prayer Under the Moon",
+    "Wilderness of the Far North"
+  ],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Ineffa",
+      "Mika",
+      "Goldflame Qucusaur Tyrant"
+    ],
+    "actionCards": [
+      "Silvermoon Hall",
+      "Tideseal Stone",
+      "Frostmoon Enclave",
+      "Nasha Town",
+      "Kuuvahki Experimental Design Bureau",
+      "Genius's Upgrade Technique",
+      "Clink Clank Legion",
+      "Elemental Transfiguration: Vaporize Blessing",
+      "Elemental Transfiguration: Superconduct Blessing"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 47 of \"Paimon's Paintings\" chat emojis."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "March 1, 2026",
+    "requiredElements": [
+      "Electro",
+      "Cryo",
+      "Anemo"
+    ],
+    "openingCharacters": [
+      "Varesa",
+      "Dori",
+      "Eula",
+      "Mika",
+      "Xianyun",
+      "Sayu"
+    ],
+    "guestCharacters": [
+      "Furina",
+      "Columbina",
+      "Durin",
+      "Bennett"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": "March 16",
+    "floor11Disorder": [
+      "All characters in the party gain a 60% Anemo DMG Bonus.",
+      "All party members receive a 60% Cryo DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Anemo DMG dealt by the active character increased by 75%.",
+      "Second Half: Characters' Normal Attack Cryo DMG increased by 75%."
+    ],
+    "blessingName": "Windlash Moon",
+    "blessingEffect": "When a character triggers a Swirl reaction on an opponent, they gain 1 stack of Windlash, and when the stack count reaches 4, a shockwave is unleashed at the opponent's position, dealing True DMG and consuming all stacks of Windlash at the same time. Up to 1 stack of Windlash can be gained every 0.1s. A shockwave can be unleashed this way every 6s."
   }
 }

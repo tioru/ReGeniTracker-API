@@ -1,13 +1,50 @@
 {
   "number": "3.3",
+  "cycleLabel": null,
   "name": "All Senses Clear, All Existence Void",
+  "subtitle": null,
+  "description": "There have been a multitude of kaidan and legends surrounding [[Inazuma]] since ancient times.<br>Some of these tales, naturally, are linked to the generations of long-lived [[youkai]].<br>While others may just be mere glimpses of long-forgotten stories...",
   "releaseDate": "2022-12-07",
   "endDate": "2023-01-18",
-  "newCharacters": [
-    "Wanderer",
-    "Faruzan"
+  "previousVersion": "3.2",
+  "nextVersion": "3.4",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/27964",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/26079",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?page_sn=15efceb8cc5b4eb4#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20221126prev-18kfmk/index.html",
+      "label": "Website"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen All Senses Clear, All Existence Void.png",
+    "Splashscreen Reign of Serenity Azure Excursion.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Wanderer",
+      "rarity": 5,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Faruzan",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Bow"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Tulaytullah's Remembrance"
@@ -18,30 +55,37 @@
   },
   "banners": {
     "characters": [
-      "From Ashes Reborn",
-      "Oni's Royale",
-      "Reign of Serenity",
-      "Azure Excursion"
+      {
+        "name": "From Ashes Reborn",
+        "featured": "Wanderer & Faruzan",
+        "phase": 1
+      },
+      {
+        "name": "Oni's Royale",
+        "featured": "Arataki Itto & Faruzan",
+        "phase": 1
+      },
+      {
+        "name": "Reign of Serenity",
+        "featured": "Raiden Shogun",
+        "phase": 2
+      },
+      {
+        "name": "Azure Excursion",
+        "featured": "Kamisato Ayato",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Akitsu Kimodameshi",
-    "Across the Wilderness",
-    "Windtrace",
-    "Misty Dungeon: Realm of Sand",
-    "Ley Line Overflow"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "City of Gold"
   ],
-  "newArtifacts": [
-    "Desert Pavilion Chronicle",
-    "Flower of Paradise Lost"
-  ],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -49,6 +93,15 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [
+    "Desert Pavilion Chronicle",
+    "Flower of Paradise Lost"
+  ],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -60,5 +113,42 @@
       "Ascension Challenge IV"
     ],
     "hangoutQuests": []
-  }
+  },
+  "events": [
+    "Akitsu Kimodameshi",
+    "Across the Wilderness",
+    "Windtrace",
+    "Misty Dungeon: Realm of Sand",
+    "Ley Line Overflow"
+  ],
+  "newRecipes": [],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Adds some prompts for loading screens.",
+    "Adds search function for Furnishings in Furnishing Creation interface and Serenitea Pot editing menu.",
+    "After Trust Rank reaches Level 10, the purchase limit cap of products in Realm Depot > Furnishings will be raised.",
+    "Adds the source of the Furnishing in the item description.",
+    "Adds Coral Butterfly to items sold by the Teapot Traveling Salesman.",
+    "Stellar Reunion Adjustments:",
+    "Interface Optimization: Adds access to Genius Invokation TCG to \"Returner's Journey.\"",
+    "Event Adjustment: Updates the completion conditions of certain \"Homeward Path\" missions.",
+    "Adds a new Battle Pass Mission in \"Battle Pass > Weekly Missions\": Complete Invokation TCG Weekly Guest Challenges 2 times.",
+    "Add Turkish and Italian Languages.",
+    "In the content updated in version 3.3, there are text errors for some English voice-over lines.",
+    "Akitsu Yuugen should be: Akitsu Yuugei",
+    "Akitsu Hazura should beAkitsu Haneasobi"
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": null
 }

@@ -1,12 +1,48 @@
 {
   "number": "5.4",
+  "cycleLabel": null,
   "name": "Clair de lune en rêve",
+  "subtitle": null,
+  "description": "La vie n'est qu'un voyage entre rêves et cauchemars.<br>Dans les moments d'angoisse ou de peur, lorsqu'on se sent étouffer,<br>il est important de s'accorder une pause, de savourer la douceur des rêves<br>et de briser nos cauchemars en mille morceaux.",
   "releaseDate": "2025-02-12",
   "endDate": "2025-03-26",
-  "newCharacters": [
-    "Yumemizuki Mizuki"
+  "previousVersion": "5.3",
+  "nextVersion": "5.5",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/154285",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/129813",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=28d733e32540401d#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_mDZ7Xhhdj3/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/129560",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Moonlight Amidst Dreams.png",
+    "Splashscreen Chanson of Many Waters Tempestuous Destiny.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Yumemizuki Mizuki",
+      "rarity": 5,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Matinée flânée sous le soleil"
@@ -17,27 +53,35 @@
   },
   "banners": {
     "characters": [
-      "Rêverie dérivant à l'aube",
-      "Mélusinité romaritime",
-      "Chant de toutes les eaux",
-      "Destin tumultueux"
+      {
+        "name": "Rêverie dérivant à l'aube",
+        "featured": "Yumemizuki Mizuki",
+        "phase": 1
+      },
+      {
+        "name": "Mélusinité romaritime",
+        "featured": "Sigewinne",
+        "phase": 1
+      },
+      {
+        "name": "Chant de toutes les eaux",
+        "featured": "Furina",
+        "phase": 2
+      },
+      {
+        "name": "Destin tumultueux",
+        "featured": "Wriothesley",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Mythes du Festival des mikawas",
-    "Travelers' Tales: Anthology Chapter",
-    "Royaume de la vaillance tempérée",
-    "Chasse aux poissons invasifs",
-    "Publicitairement parlant",
-    "Reflux des lignes énergétiques",
-    "Tapirus Somniator (événement)"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -45,6 +89,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -61,5 +111,94 @@
     ],
     "worldQuests": [],
     "hangoutQuests": []
+  },
+  "events": [
+    "Mythes du Festival des mikawas",
+    "Travelers' Tales: Anthology Chapter",
+    "Royaume de la vaillance tempérée",
+    "Chasse aux poissons invasifs",
+    "Publicitairement parlant",
+    "Reflux des lignes énergétiques",
+    "Tapirus Somniator (événement)"
+  ],
+  "newRecipes": [
+    "Manju des Bains"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Guérison onirique"
+  ],
+  "newAchievements": [],
+  "newNamecards": [
+    "Thème Yumemizuki Mizuki - Mange-cauchemars",
+    "Thème Célébration - Embrasement",
+    "Thème PB - Rêverie"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "« Roi boum-boum »",
+    "« Doux rêves »",
+    "Trophée Tanuki",
+    "Fond festif « Comme un beau rêve »",
+    "Panneau festif « Akitsu Harpastum »",
+    "Panneau festif « Bunshin illusoire »",
+    "Panneau festif « Rêvasserie »",
+    "Clôture d'enclos « Simple frontière »",
+    "Porte d'enclos « Cadre fondamental »",
+    "Moulin d'enclos « Choix de cuisine »",
+    "Matelas en paille d'enclos « Lit de fortune »"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Arlecchino",
+      "Kinich"
+    ],
+    "actionCards": [
+      "Clan des fleurplumes",
+      "Little Tepetlisaur — Treasure Hunter at Large",
+      "Source toujours"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 38 of \"Paimon's Paintings\" chat emojis."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "March 1, 2025",
+    "requiredElements": [
+      "Hydro",
+      "Electro",
+      "Cryo"
+    ],
+    "openingCharacters": [
+      "Kamisato Ayato",
+      "Barbara",
+      "Shogun Raiden",
+      "Ororon",
+      "Eula",
+      "Layla"
+    ],
+    "guestCharacters": [
+      "Yumemizuki Mizuki",
+      "Navia",
+      "Xinyan",
+      "Thomas"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members have their Elemental Mastery increased by 200.",
+      "All characters in the party gain a 75% Electro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Swirl DMG dealt by the active character increased by 600%.",
+      "Second Half: Characters' Charged Attack Cryo DMG increased by 75%.",
+      "First Half: Characters' Elemental Skill Hydro DMG increased by 75%.",
+      "Second Half: Characters' Plunging Attack DMG increased by 75%."
+    ],
+    "blessingName": "Blessing of the Abyssal Moon:",
+    "blessingEffect": "Stirring Moon: When a character receives healing, a shockwave will be unleashed at the character's position, dealing True DMG to nearby opponents. This effect can be triggered once every 3s."
   }
 }

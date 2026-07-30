@@ -1,14 +1,69 @@
 {
   "number": "5.3",
+  "cycleLabel": null,
   "name": "Ode à la résurrection incandescente",
+  "subtitle": null,
+  "description": "La prophétie a révélé le prix de la vie, mais elle n'a pas éteint les restes d'espoir.<br />La distance entre l'étoile du soir et l'aube trace la frontière entre la vie et la mort.<br />Même lorsque le soleil se couche derrière les montagnes, quelqu'un allumera une flamme pour repousser les ténèbres.",
   "releaseDate": "2025-01-01",
   "endDate": "2025-02-12",
-  "newCharacters": [
-    "Mavuika",
-    "Citlali",
-    "Lan Yan"
+  "previousVersion": "5.2",
+  "nextVersion": "5.4",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/127791",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/127655",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=b0f94ebdcdaf42cc#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_QaiBDjkyxb/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/127431",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Incandescent Ode of Resurrection.png",
+    "Splashscreen The Hearth's Ashen Shadow Illuminating Lightning.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Mavuika",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Citlali",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Lan Yan",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    }
+  ],
+  "newOutfits": [
+    {
+      "name": "Cerises sous neige",
+      "character": "Hu Tao"
+    },
+    {
+      "name": "Gaieté du Nouvel An",
+      "character": "Xiangling"
+    }
+  ],
   "newWeapons": {
     "5Star": [
       "Mille soleils brûlants",
@@ -17,34 +72,44 @@
   },
   "banners": {
     "characters": [
-      "Embrasement du feu ancien",
-      "Murmures d'une nuit étoilée",
-      "L'ombre cendrée de l'âtre",
-      "Éclair illuminant",
-      "Mémoire des jades et des pierres",
-      "Characters: Baizhu, Shenhe, Keqing, Ganyu, Xiao, Tartaglia, Qiqi",
-      "Weapons: Primordial Jade Cutter, Summit Shaper, The Unforged, Calamity Queller, Primordial Jade Winged-Spear, Jadefall's Splendor, Memory of Dust, Polar Star, Amos' Bow"
+      {
+        "name": "Embrasement du feu ancien",
+        "featured": "Mavuika",
+        "phase": 1
+      },
+      {
+        "name": "Murmures d'une nuit étoilée",
+        "featured": "Citlali",
+        "phase": 1
+      },
+      {
+        "name": "L'ombre cendrée de l'âtre",
+        "featured": "Arlecchino & Lan Yan",
+        "phase": 2
+      },
+      {
+        "name": "Éclair illuminant",
+        "featured": "Clorinde & Lan Yan",
+        "phase": 2
+      },
+      {
+        "name": "Mémoire des jades et des pierres",
+        "featured": "Chronicled Wish",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Festival des lanternes/Talismans printaniers",
-    "Lantern-Lit Gathering",
-    "May Fortune Find You: Spring's Premonition",
-    "Preuve d'une bravoure sans faille",
-    "Sur la piste des béhémoths",
-    "Chaotique castagne de scarabées de Shuyu",
-    "Abondance de prospérité",
-    "Comme le soleil brûlant (événement)",
-    "Souvenirs regorgeant de couleurs (événement)"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "Registre de stèle"
   ],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Répertoire aux mille mélodies"
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -56,6 +121,17 @@
       ]
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [
+    "Talisman d'une terre mystérieuse",
+    "Corne érodée",
+    "Rayon érodé",
+    "Plume érodée"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -84,5 +160,177 @@
         ]
       }
     ]
+  },
+  "events": [
+    "Festival des lanternes/Talismans printaniers",
+    "Lantern-Lit Gathering",
+    "May Fortune Find You: Spring's Premonition",
+    "Preuve d'une bravoure sans faille",
+    "Sur la piste des béhémoths",
+    "Chaotique castagne de scarabées de Shuyu",
+    "Abondance de prospérité",
+    "Comme le soleil brûlant (événement)",
+    "Souvenirs regorgeant de couleurs (événement)"
+  ],
+  "newRecipes": [
+    "Ode magmique",
+    "Gâteau aux fleurs de Qingxin",
+    "Prunes ivres en neige"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Hymne aux flammes harmonieuses",
+    "Art secret",
+    "Fleurs taillées en jade"
+  ],
+  "newAchievements": [
+    "Succès/Promenade dans le monde mortel - Partie V",
+    "Succès/Au défi ! - Partie X",
+    "Répertoire aux mille mélodies",
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Thème Mavuika - Couronne solaire",
+    "Thème Citlali - Étoile opaline",
+    "Thème Lan Yan - Hirondelle argentée",
+    "Thème Succès - Omnivision",
+    "Thème Succès - Embrasement",
+    "Thème Succès - Répertoire",
+    "Thème PB - Feu nouveau"
+  ],
+  "newGadgets": [
+    "Ukulélé",
+    "Tambour djem djem"
+  ],
+  "newFurnishings": [
+    "Agave sans âge",
+    "« Saveurs séduisantes du sanctifeu »",
+    "Mora d'augure « Prospérité florissante »",
+    "Mora d'augure « Prime somptueuse »",
+    "« Être témoin »",
+    "« Or noir du royaume ardent »",
+    "Lumière éclatante de la Cité de braise",
+    "« Apogée des couleurs et teintes »",
+    "« Contenance curieuse du sanctifeu »",
+    "« Restes divins, laissés pour pacifier l'au-delà »",
+    "Portail de résidence « Devoir sacré »",
+    "Mur de résidence « Panneau de graffitis »",
+    "Mur de résidence « Lignes directrices »",
+    "Mur de résidence « Épopée artistique »",
+    "Mur de résidence « Perspective déformée »",
+    "Masque des huit adeptes « Jument céladon aux yeux dorés »",
+    "Masque des huit adeptes « Oiseau jadé aux ailes argentées »",
+    "Masque des huit adeptes « Papillon solitaire de la flamme pourpre »",
+    "Masque des huit adeptes « Sage Hu »",
+    "Masque des huit adeptes « Sage Jian »",
+    "Masque des huit adeptes « Sonde-Brises »",
+    "Masque des huit adeptes « Gamin Wuwang »",
+    "Masque des huit adeptes « Pêcheur Yunlai »",
+    "Tapis de la Foire « Chaleur et passion »",
+    "Table de la Foire « Au naturel »",
+    "« Stratégie commerciale de la Foire »",
+    "« Pensées ordonnées de la Foire »",
+    "« Trésors et joyaux de la Foire »",
+    "« Le plus beau des paysages »",
+    "Trace de l'ennemi",
+    "« Compagnons pour toujours »",
+    "Bois de chauffage parfumé",
+    "« Glorieuses teintes du sanctifeu »",
+    "Fongus clair-obscur",
+    "Pilier protecteur « Abondance de shamans »",
+    "Pilier protecteur « Exaltation héroïque »",
+    "Pilier protecteur « Foultitude d'étincelles »",
+    "Pilier protecteur « Myriade de guerriers »",
+    "Plafonnier d'héronliptique « Nuée des merveilles »",
+    "Bâton de guerre d'entraînement",
+    "Hampe de javelot",
+    "Dernier recours",
+    "Toile tendance de haute tour",
+    "Brasero ardent de haute tour",
+    "Arène d'épreuves de haute tour",
+    "Plafond rayonnant de haute tour",
+    "Porte robuste de haute tour",
+    "Escalier texturé de haute tour",
+    "« Puissent-ils trouver le répit »",
+    "« Puissent-ils ne pas tomber »",
+    "« Puissent-ils ne pas s'égarer »",
+    "« Inspiration des couleurs et teintes »",
+    "Résidence natlanoise « Haute tour »",
+    "Abondance en minerais",
+    "« Notre destination »",
+    "Lanterne phlogistique « Couvre-pluie »",
+    "Pèlerinage à coup de marteau",
+    "Pèlerinage de la flamme",
+    "Composition de branches de prunier « Printemps infini »",
+    "Gril portable multi-usages",
+    "Promesse d'abondance",
+    "Flamme de satiété",
+    "Secrets de la bonne santé",
+    "« Éclaboussure des couleurs et teintes »",
+    "Paravent printanier « Un soupçon de rouge »",
+    "Paravent printanier « Un parfum dans l'air »",
+    "Marches « Perfectionnement » du Stade",
+    "Lit « Repos paisible » en pierre",
+    "Doux plumage",
+    "Bras solide de l'arc de guerre",
+    "Souffle des vagues",
+    "Pancarte « Expérience enchanteresse » en bois",
+    "Cabane tissée « Stries rythmiques »",
+    "Cabane tissée « Indigo serein »"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Mualani",
+      "Clorinde"
+    ],
+    "actionCards": [
+      "Masque à plumes du guerrier-démon",
+      "Qucusaure",
+      "Peuple des sources",
+      "Pilgrimage of the Return of the Sacred Flame",
+      "Abundant Phlogiston",
+      "Pop-maiz"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 37 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "New Serenitea Pot Realm Layout: \"Tletl Ilhuicatl\": Unlocked after using the item \"Scroll of the Fiery Firmament.\""
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "February 1, 2025",
+    "requiredElements": [
+      "Pyro",
+      "Hydro",
+      "Anemo"
+    ],
+    "openingCharacters": [
+      "Hu Tao",
+      "Gaming",
+      "Mona",
+      "Xingqiu",
+      "Venti",
+      "Shikanoin Heizou"
+    ],
+    "guestCharacters": [
+      "Clorinde",
+      "Ororon",
+      "Citlali",
+      "Yun Jin"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members receive a 75% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Pyro DMG dealt by all party members' Normal Attacks increased by 75%.",
+      "Second Half: All party members' Nightsoul-aligned DMG increased by 75%."
+    ],
+    "blessingName": "Blessing of the Abyssal Moon:",
+    "blessingEffect": "Scorching Moon: After a party member triggers a Pyro-related reaction, a shockwave will be unleashed at the character's position, dealing True DMG to nearby opponents. This effect can be triggered once every 3s."
   }
 }

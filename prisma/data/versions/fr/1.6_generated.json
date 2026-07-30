@@ -1,10 +1,41 @@
 {
   "number": "1.6",
+  "cycleLabel": null,
   "name": "Odyssée estivale dans les îles",
+  "subtitle": null,
+  "description": "Dans la chaleur de l'été, une mystérieuse lettre est retrouvée sur le rebord d'une fenêtre, alors qu'un étrange brouillard tournoie au loin.<br>Partons à la recherche de la vérité en suivant le bruit des vagues. Des étincelles dansent à l'horizon, tandis que le soleil fuyant brille dans le ciel.<br>Pour sauver sa « meilleure amie », le plus jeune des chevaliers est prêt à partir à l'aventure. En avant !",
   "releaseDate": "2021-06-09",
   "endDate": "2021-07-21",
+  "previousVersion": "1.5",
+  "nextVersion": "2.0",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/13423",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/13274",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210603prepage/index.html?utm_source=officialweb&utm_medium=news#/",
+      "label": "Version 1.6 Website"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/12469",
+      "label": "Developer's Discussion 4/29"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/12952",
+      "label": "May 24 Developer's Discussion"
+    }
+  ],
+  "images": [
+    "Splashscreen Midsummer Island Adventure.png",
+    "Splashscreen Leaves in the Wind.png"
+  ],
   "newCharacters": [],
-  "mapExpansion": [],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Serment de la liberté"
@@ -16,27 +47,25 @@
   },
   "banners": {
     "characters": [
-      "Foulées étincelantes",
-      "Feuilles dans le vent"
+      {
+        "name": "Foulées étincelantes",
+        "featured": "Klee",
+        "phase": null
+      },
+      {
+        "name": "Feuilles dans le vent",
+        "featured": "Kaedehara Kazuha",
+        "phase": null
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Odyssée estivale dans les îles",
-    "Act I: Main Cannon, Make Ready... Fire!",
-    "Act II: Whirlpool off to Starboard... Full Speed Ahead!",
-    "Act III: Samurai Sighted... To Arms!",
-    "Act IV: Harpastum Bombs Loaded... Blow 'Em Away!",
-    "Guerre sans fin",
-    "Combadaboum",
-    "Légendes martiales du vent",
-    "Echoing Tales"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -46,6 +75,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -61,5 +96,32 @@
       "Big Badaboom Battle"
     ],
     "hangoutQuests": []
-  }
+  },
+  "events": [
+    "Odyssée estivale dans les îles",
+    "Act I: Main Cannon, Make Ready... Fire!",
+    "Act II: Whirlpool off to Starboard... Full Speed Ahead!",
+    "Act III: Samurai Sighted... To Arms!",
+    "Act IV: Harpastum Bombs Loaded... Blow 'Em Away!",
+    "Guerre sans fin",
+    "Combadaboum",
+    "Légendes martiales du vent",
+    "Echoing Tales"
+  ],
+  "newRecipes": [],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": null
 }

@@ -1,23 +1,58 @@
 {
-  "number": "Luna I",
+  "number": "6.0",
+  "cycleLabel": "Luna I",
   "name": "A Dance of Snowy Tides and Hoarfrost Groves",
+  "subtitle": "Song of the Welkin Moon: Segue",
+  "description": "Wayfarer who has traveled the world, perhaps this is your first time here.<br>Enjoy the wine and revelry beneath the gentle moon's gaze.<br>But beware too, of the spirits and lies, and the cold moon's pallid rays.",
   "releaseDate": "2025-09-10",
   "endDate": "2025-10-22",
-  "newCharacters": [
-    "Lauma",
-    "Flins",
-    "Aino"
-  ],
-  "mapExpansion": [
+  "previousVersion": "5.8",
+  "nextVersion": "Luna II",
+  "links": [
     {
-      "mainRegion": "Nod-Krai",
-      "subRegion": [
-        "Lempo Isle",
-        "Hiisi Island",
-        "Paha Isle"
-      ]
+      "url": "https://genshin.hoyoverse.com/en/news/detail/159349",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/159275",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=830a69a8c2164ed6#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_6UDde01Ygr/index.html",
+      "label": "Preview Page"
     }
   ],
+  "images": [
+    "Splashscreen A Dance of Snowy Tides and Hoarfrost Groves.png",
+    "Splashscreen Moonsong of the Groves.png",
+    "Splashscreen Genshin Impact 5th Anniversary.png",
+    "Splashscreen The Lone Light Knocks at Night.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Lauma",
+      "rarity": 5,
+      "element": "Dendro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Flins",
+      "rarity": 5,
+      "element": "Electro",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Aino",
+      "rarity": 4,
+      "element": "Hydro",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Nightweaver's Looking Glass",
@@ -35,36 +70,73 @@
   },
   "banners": {
     "characters": [
-      "Moonsong of the Groves",
-      "The Moongrass' Enlightenment",
-      "Roving Chalice of Dewgrass",
-      "Characters: Dehya, Alhaitham, Wanderer, Cyno, Nilou, Tighnari",
-      "Weapons: Light of Foliar Incision, Key of Khaj-Nisut, Beacon of the Reed Sea, Staff of the Scarlet Sands, Tulaytullah's Remembrance, Hunter's Path",
-      "The Lone Light Knocks at Night",
-      "Discerner of Enigmas"
+      {
+        "name": "Moonsong of the Groves",
+        "featured": "Lauma",
+        "phase": 1
+      },
+      {
+        "name": "The Moongrass' Enlightenment",
+        "featured": "Nahida",
+        "phase": 1
+      },
+      {
+        "name": "Roving Chalice of Dewgrass",
+        "featured": "Chronicled Wish",
+        "phase": 1
+      },
+      {
+        "name": "The Lone Light Knocks at Night",
+        "featured": "Flins & Aino",
+        "phase": 2
+      },
+      {
+        "name": "Discerner of Enigmas",
+        "featured": "Yelan & Aino",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Clink Clank Clash",
-    "Lightgleaner's Journey",
-    "Dodoco's Blow-Up-Erative Bomb-Nanza",
-    "Overflowing Favor",
-    "Rainbow's End: Silvery Flux",
-    "Uncover Lunar Realms, Hone the Eventide Radiance"
+  "mapExpansion": [
+    {
+      "mainRegion": "Nod-Krai",
+      "subRegion": [
+        "Lempo Isle",
+        "Hiisi Island",
+        "Paha Isle"
+      ]
+    }
   ],
   "newDomains": [
     "Lost Mooncourt",
     "Lightless Capital",
     "Frostladen Machinery"
   ],
-  "newArtifacts": [
-    "Silken Moon's Serenade",
-    "Night of the Sky's Unveiling"
+  "newSystems": [
+    "Kuuvahki",
+    "Elemental Reaction",
+    "Lunar-Bloom",
+    "Moonsign",
+    "Luna Treasure Compass",
+    "Treasure Compass",
+    "Silvermoon Hall: Selenic Chronicles",
+    "Valiant Chronicles",
+    "Avatar Frame",
+    "Travelers' Tales",
+    "Travel Accounts",
+    "Repertoire of Myriad Melodies",
+    "Encounter: Memories of a Boundless Journey album",
+    "Score Themes",
+    "Falcon Wings Ablaze",
+    "Wisdom of Cherried Frost",
+    "Red-Hot Meter",
+    "To Temper Thyself and Journey Far",
+    "Masterless Stella Fortuna"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [
       "Oprichniki Fireblade Shock Trooper",
       "Oprichniki Hailstorm Cannoneer",
@@ -103,6 +175,79 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Dualblaze Longplume Ibis",
+    "Puffin",
+    "Dusky Goat",
+    "Chestnut Goat",
+    "Chic Badger",
+    "Blunthorn Rhino",
+    "Atapetra Conch",
+    "Rimehorn Deer",
+    "Frostfin Whale",
+    "Moonglow Firefly",
+    "Rock Crab"
+  ],
+  "newArtifacts": [
+    "Silken Moon's Serenade",
+    "Night of the Sky's Unveiling"
+  ],
+  "newMaterials": [
+    "Portable Bearing",
+    "Frostlamp Flower",
+    "Moonfall Silver",
+    "Icy Pebble",
+    "Nocturnal Blossom",
+    "Lakkaberry",
+    "Midsommar Berry"
+  ],
+  "newMonsterDrops": [
+    "Boss",
+    "Precision Kuuvahki Stamping Die",
+    "Lightbearing Scale-Feather",
+    "Elite",
+    "Frostnight's Glimmer",
+    "Frostnight's Glow",
+    "Frostnight's Glory",
+    "Lightless Bone",
+    "Glowing Remains",
+    "Radiant Exoskeleton",
+    "Mistshroud Manifestation",
+    "Mistshroud Plate",
+    "Mistshroud Helmet",
+    "Normal",
+    "Broken Drive Shaft",
+    "Reinforced Drive Shaft",
+    "Precision Drive Shaft",
+    "Tattered Warrant",
+    "Immaculate Warrant",
+    "Frost-Etched Warrant"
+  ],
+  "newTalentMaterials": [
+    "Teachings of Moonlight",
+    "Guide to Moonlight",
+    "Philosophies of Moonlight",
+    "Teachings of Elysium",
+    "Guide to Elysium",
+    "Philosophies of Elysium",
+    "Teachings of Vagrancy",
+    "Guide to Vagrancy",
+    "Philosophies of Vagrancy"
+  ],
+  "newWeaponAscensionMaterials": [
+    "Artful Device Fragment",
+    "Artful Device Replica",
+    "Artful Device Inheritance",
+    "Artful Device Wish",
+    "Ember of Long Night Flint",
+    "Afterglow of Long Night Flint",
+    "Flare of Long Night Flint",
+    "Blaze of Long Night Flint",
+    "Sundered Glory of the Far-North Scions",
+    "Unyielding Delusion of the Far-North Scions",
+    "Oblation of the Far-North Scions",
+    "Aureate Radiance of the Far-North Scions"
+  ],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -135,5 +280,167 @@
       "and more"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Clink Clank Clash",
+    "Lightgleaner's Journey",
+    "Dodoco's Blow-Up-Erative Bomb-Nanza",
+    "Overflowing Favor",
+    "Rainbow's End: Silvery Flux",
+    "Uncover Lunar Realms, Hone the Eventide Radiance"
+  ],
+  "newRecipes": [
+    "Smoked Fish Steak",
+    "Borderland Crispbread",
+    "Today's Boon",
+    "Lakkaberry Krumkakes",
+    "Lakkaberry Madame",
+    "Nod-Krai Hot Dog",
+    "Midsommar Torte",
+    "Crispy Roast",
+    "Berries and Fried Meat",
+    "Roulette Special",
+    "Fruit Tandem Turnovers"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Thunderclap Slash!",
+    "Whisper in the Woods",
+    "Long Night Alight",
+    "Clink-Clank Confectionery Cup"
+  ],
+  "newAchievements": [
+    "Nod-Krai: An Elysium of Moonlight and Wanderings (I)",
+    "Meetings in Outrealm: Series VI",
+    "Wonders of the World"
+  ],
+  "newNamecards": [
+    "Lauma: Branched Antlers",
+    "Flins: Oathkeeper's Lantern",
+    "Aino: Whoopsie Ducksie",
+    "Nod-Krai: Moonlight",
+    "Nod-Krai: Sacred Realm",
+    "Achievement: Time Apart",
+    "Travel Notes: Glacial Moon"
+  ],
+  "newGadgets": [
+    "Rotor Hovering Daybed",
+    "Ujola Cat"
+  ],
+  "newFurnishings": [
+    "\"Clink-Clank Krumkake Craftshop\"",
+    "Aqueous Sprigs",
+    "Blanket of Stars",
+    "City Street Lamp: Clear Path Ahead",
+    "Cloud-Wrapped Moon",
+    "Colossal Assisted Movement Pivot",
+    "Dining Bench: Steadfast",
+    "Dodoco's Gallant Knight",
+    "Dodoco's Marvelous Magic",
+    "Dodoco's Radiant Flash",
+    "Dodoco's Sparks 'n' Splash",
+    "From Here I Gaze",
+    "Gloomy Lighthouse: Eternal Light of Hope",
+    "Glug in One Go",
+    "Heavy Hooffall",
+    "Ice Cream Cutie",
+    "Leisurely Feast",
+    "Little Cover",
+    "Little Round-Belly",
+    "Lunar Semblance: Whispers of Faded Radiance",
+    "Mechanical Figurine: Flash of Inspiration",
+    "Mechanical Ornament: Beep-Bop",
+    "Mechanical Ornament: Waaaaah",
+    "Medium Cargo Hold: Swift Transport",
+    "Moonlit Quietude",
+    "Nasha Market: Forge of a Thousand Trials",
+    "Nasha Market: Impenetrable Vault",
+    "Nasha Market: Lure of Lingering Fragrance",
+    "Nasha Market: Seeing Is Believing",
+    "Nasha Market: Seize the Dawn",
+    "Nasha Market: Wares Worth Staying For",
+    "Nasha Stall: Emergency Provisions",
+    "Nasha Stall: Unending Search",
+    "Painted Pedunculate Oak Wood Barrel",
+    "Pale Moonlight Guides the Way Home",
+    "Pedunculate Oak Wood \"Moonward\" Backed Chair",
+    "Porky-Worky Chef",
+    "Rusty Sheet-Metal Workbench",
+    "Shadow of the Frostmoon",
+    "Silver Fir Wood Round Low Table",
+    "Simple Luminescent Lamp",
+    "Small Cargo Container: Safe Stowage",
+    "Soft-Hued Hydrangeas",
+    "Steelbound Secrecy",
+    "Twilight Threaded Leaves",
+    "Twin-Handled Hanging Pot: Hot Soup",
+    "Uncertain Boundaries",
+    "Warmth Shared With Friends",
+    "Workshop Cabin: Ship Ashore",
+    "Workshop Cabin: Steady Shroom"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Iansan",
+      "Yumemizuki Mizuki",
+      "Lord of Eroded Primal Fire"
+    ],
+    "actionCards": [
+      "Aqua Simulacra",
+      "Royal Masque",
+      "Unfinished Reverie",
+      "Fragment of Harmonic Whimsy",
+      "Fell Dragon's Awakening",
+      "Narration Footnotes",
+      "\"A Blessing From 'M'\"",
+      "\"Revelrous Beats\""
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 43 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Another 2 sets of Artifacts are available to exchange in the Mystic Offering system:",
+    "Artifact Strongbox: Scroll of the Hero of Cinder City",
+    "Artifact Strongbox: Obsidian Codex",
+    "After the Version Luna I update, \"Long-Term Encounter Points\" will be reset."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "October 1, 2025",
+    "requiredElements": [
+      "Hydro",
+      "Electro",
+      "Geo"
+    ],
+    "openingCharacters": [
+      "Yelan",
+      "Aino",
+      "Varesa",
+      "Iansan",
+      "Arataki Itto",
+      "Gorou"
+    ],
+    "guestCharacters": [
+      "Lauma",
+      "Baizhu",
+      "Charlotte",
+      "Ifa"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 60% Electro DMG Bonus.",
+      "All characters in the party gain a 60% Dendro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%.",
+      "Second Half: Characters' Bloom DMG increased by 200% and Lunar-Bloom DMG increased by 75%.",
+      "First Half: Characters' Bloom DMG increased by 200% and Lunar-Bloom DMG increased by 75%.",
+      "Second Half: Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%."
+    ],
+    "blessingName": "Surging Moon",
+    "blessingEffect": "When a character triggers Hydro-related reactions, a shockwave will be released at the opponent's position, dealing True DMG. This effect can be triggered once every 2s."
   }
 }

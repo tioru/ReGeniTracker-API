@@ -1,12 +1,99 @@
 {
   "number": "4.4",
+  "cycleLabel": null,
   "name": "Busards colorés dans la brise printanière",
+  "subtitle": null,
+  "description": "Une bête joyeuse s'élève pendant le printemps précoce et le vent de la bonne fortune souffle entre les nuages.<br />Les cerfs-volants s'envolent dans le ciel telles des grues sauvages, tandis que des ruisseaux serpentent à travers une vallée aux trésors cachés.",
   "releaseDate": "2024-01-31",
   "endDate": "2024-03-13",
-  "newCharacters": [
-    "Xianyun",
-    "Gaming"
+  "previousVersion": "4.3",
+  "nextVersion": "4.5",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/122141",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/122050",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=e77618c712a04029#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20240120preview/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/119426",
+      "label": "Developer's Discussion"
+    }
   ],
+  "images": [
+    "Splashscreen Vibrant Harriers Aloft in Spring Breeze.png",
+    "Splashscreen Everbloom Violet Invitation to Mundane Life.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Xianyun",
+      "rarity": 5,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Gaming",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [
+    {
+      "name": "Rosée de fleur de givre",
+      "character": "Shenhe"
+    },
+    {
+      "name": "Bourgeon du crépuscule",
+      "character": "Ganyu"
+    },
+    {
+      "name": "Pluie de bambous",
+      "character": "Xingqiu"
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Écho de la grue"
+    ]
+  },
+  "banners": {
+    "characters": [
+      {
+        "name": "La grue s'envole vers les cieux",
+        "featured": "Xianyun & Gaming",
+        "phase": 1
+      },
+      {
+        "name": "Dessillement de l'herbe lunaire",
+        "featured": "Nahida & Gaming",
+        "phase": 1
+      },
+      {
+        "name": "Invitation scintillante",
+        "featured": "Xiao",
+        "phase": 2
+      },
+      {
+        "name": "Infinité violette",
+        "featured": "Yae Miko",
+        "phase": 2
+      }
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
   "mapExpansion": [
     {
       "mainRegion": "Chenyu Vale, Liyue",
@@ -29,34 +116,11 @@
       ]
     }
   ],
-  "newWeapons": {
-    "5Star": [
-      "Écho de la grue"
-    ]
-  },
-  "banners": {
-    "characters": [
-      "La grue s'envole vers les cieux",
-      "Dessillement de l'herbe lunaire",
-      "Invitation scintillante",
-      "Infinité violette"
-    ],
-    "weapons": [
-      "Incarnation divine"
-    ]
-  },
-  "events": [
-    "Festival des lanternes/Busards colorés dans la brise printanière",
-    "Richesses honorables",
-    "Of Kites and New Sights",
-    "Hôte d'exception",
-    "Périple sur un terrain brutonigmatique",
-    "Frénésie triomphale",
-    "Abondance de maîtrise"
-  ],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Bénédiction du Jade votif"
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [
       "Bête de Xuanwen"
@@ -68,6 +132,24 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Brebis pelucheuse",
+    "Luminsecte malachitin",
+    "Pélican à bec vermillon",
+    "Tortue litojade",
+    "Canard à velours d'automne"
+  ],
+  "newArtifacts": [],
+  "newMaterials": [
+    "Adepthé de Chenyu"
+  ],
+  "newMonsterDrops": [
+    "Aileron plumeux",
+    "Aileron lunaire",
+    "Aileron ténébreux"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -98,5 +180,142 @@
       "Silently the Butterfly Crosses the Valley"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Festival des lanternes/Busards colorés dans la brise printanière",
+    "Richesses honorables",
+    "Of Kites and New Sights",
+    "Hôte d'exception",
+    "Périple sur un terrain brutonigmatique",
+    "Frénésie triomphale",
+    "Abondance de maîtrise"
+  ],
+  "newRecipes": [
+    "Char siu au miel",
+    "Infusion de Chenyu",
+    "Œufs jadeveines au thé",
+    "Pigeon fumé au thé",
+    "Double croustillant frit",
+    "Boulette braisée",
+    "Soupe de Guhua au poisson et à l'agneau",
+    "Pleine lune au thé exquis",
+    "Canard aux huit trésors",
+    "Joyaux du palais",
+    "Cordes vibrantes sur bruissement de roseaux",
+    "Humilité satisfaisante",
+    "Doux foyer"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Allégresse englobante",
+    "P'tit yum cha"
+  ],
+  "newAchievements": [
+    "Succès/Splendeur du jade",
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Thème Xianyun - Nuage blanc",
+    "Thème Gaming - Man Chai",
+    "Thème Succès - Vallée adeptale",
+    "Thème Chenyu - Pluie de jade",
+    "Thème PB - Vol coloré",
+    "Album: The Stellar Moments"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "« Au secours ! »",
+    "« Louche de la créature marine sereine »",
+    "« P—Pas du tout ! »",
+    "« Rien que de la colère pour le peuple »",
+    "« C'est moi la championne ! »",
+    "Lanterne poisson artisanale « Abondance de carpes »",
+    "Lanterne poisson artisanale « Profits printaniers »",
+    "Paravent de banquet « Hirondelle lamentant et moineaux gazouillants »",
+    "Paravent de banquet « Papillons dansants et poissons bondissants »",
+    "Lanterne brillante « Paix et joie »",
+    "Cerf-volant de fête « Tout va bien »",
+    "Cerf-volant de fête « Danse des papillons »",
+    "Cerf-volant de fête « Richesse et prospérité »",
+    "Cerf-volant de fête « Abondance à venir »",
+    "Fleugivrier rouge",
+    "Panneau en bois de cèdre parfumé",
+    "Ossalamier condensé",
+    "Statue de Brutoshaman mystifiant",
+    "Lampe à pied du port « Zeste de parfum »",
+    "Lampadaire du port « Le bon vient en pair »",
+    "Statuette de Jade votif « Discours feutré »",
+    "Table à thé carrée « Accueil convivial »",
+    "Tambour de pierre « Grondement solennel »",
+    "Origistreur apaisant",
+    "Siège à thé « Brise légère »",
+    "Caverne du vallon « Éventail des profondeurs »",
+    "Gâble du vallon « À l'abri de la pluie »",
+    "Gâble du vallon « Brise-vent et coupe-feu »",
+    "Portail du vallon « Cour animée »",
+    "Portail du vallon « Montagnes au-delà du seuil »",
+    "Pavillon du vallon « Douce lumière du jour »",
+    "Pergola du vallon « Soleil et pluie »",
+    "Résidence du vallon « Complexité personnalisée »",
+    "Résidence du vallon « Bâtiment mesuré »",
+    "Résidence du vallon « Tendre campagne »",
+    "Résidence du vallon « Concentration totale »",
+    "Résidence du vallon « Majestueuse montagne »",
+    "Résidence du vallon « Sérénité »",
+    "Scène du vallon « Mer de nuages ondulants »",
+    "Arche en pierre du vallon « Présage récurrent d'abondance »",
+    "Lanterne en pierre du vallon « Chandelle éternelle »",
+    "Escalier en pierre du vallon « Première pierre »",
+    "Mur de pierre du vallon « Carpe et penne »",
+    "Mur de pierre du vallon « Fleurs et saules »",
+    "Mur de pierre du vallon « Rivière de jade »",
+    "Échoppe du vallon « Plaisir du thé »",
+    "Corridor du vallon « Commencements lointains »",
+    "Corridor du vallon « Fondations solides pour prospérer »",
+    "Mur d'angle du vallon « Rassemblement de vagues »",
+    "Tour de guet du vallon « Vigilance »",
+    "Tenue de danse de wushou « Suanni rugissant »",
+    "Marionnette de danse de wushou « Suanni endormi »"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Sayu",
+      "Thomas",
+      "Hypostase Cryo",
+      "Hippocampe perlé millénaire"
+    ],
+    "actionCards": [
+      "Visage du vétéran",
+      "Jeht",
+      "Silver and Melus",
+      "Rouleaux de viande au matsutake",
+      "Machine Assembly Line",
+      "Sunyata Flower",
+      "Lame d'aubier"
+    ]
+  },
+  "otherAdditions": [
+    "New Books:",
+    "Time Trekker",
+    "New Function: Fast Equip Artifacts",
+    "Quick Configuration: A set of Artifacts will be put together for your reference based on data from recently active players. When generating a configuration, it will only consider Artifacts not already equipped by other characters.",
+    "Custom Configuration: Custom Configuration data will be based on the settings laid out for each character. When using a Custom Configuration, you can configure based on conditions such as Artifact Main Affix, Set Type, and Minor Affixes and choose whether or not to use Artifacts that haven't already been equipped. The configuration created by Custom Configuration can be adjusted, with alternative Artifacts sorted based on the overall priority levels of their Artifact Set and Affixes. When \"Other Options\" > \"All\" is selected in Custom Configuration, when the configuration includes Artifacts already equipped by another character, the Artifacts will be removed and equipped to the target character.",
+    "Adds the \"Borderless Mode\" fullscreen option in \"Display Mode\" in \"Settings / Graphics\" interface on PC.",
+    "New Fishing Points and \"Radiant Spincrystals\" in Liyue.",
+    "New Fish: Jade Heartfeather Bass",
+    "Adds Set 29 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens"
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 75% Anemo DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Ascendant Moon",
+    "blessingEffect": "When a character receives healing, it will be counted. When the count reaches a total of 16, a shockwave will be unleashed at the character's position, dealing True DMG to nearby opponents and clearing the count. 1 such shockwave can be unleashed every 8s."
   }
 }

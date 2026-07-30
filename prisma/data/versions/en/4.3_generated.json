@@ -1,13 +1,54 @@
 {
   "number": "4.3",
+  "cycleLabel": null,
   "name": "Roses and Muskets",
+  "subtitle": null,
+  "description": "As the curtain rises on the Fontinalia Film Festival, it seems that everyone's where they should be — the director, the producer, the art director, and of course, the actors themselves...<br>Now, all that's left is to time it so the muskets fire and the roses bloom only at the perfect moments. We'll leave that to you lot then.",
   "releaseDate": "2023-12-20",
   "endDate": "2024-01-31",
-  "newCharacters": [
-    "Navia",
-    "Chevreuse"
+  "previousVersion": "4.2",
+  "nextVersion": "4.4",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/114101",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/114066",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=a83a337fc36f4981#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20231209preview-yh731z/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/113872",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Roses and Muskets.png",
+    "Splashscreen Reign of Serenity Tapestry of Golden Flames.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Navia",
+      "rarity": 5,
+      "element": "Geo",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Chevreuse",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Verdict"
@@ -18,31 +59,37 @@
   },
   "banners": {
     "characters": [
-      "In the Name of the Rosula",
-      "The Heron's Court",
-      "Reign of Serenity",
-      "Tapestry of Golden Flames"
+      {
+        "name": "In the Name of the Rosula",
+        "featured": "Navia",
+        "phase": 1
+      },
+      {
+        "name": "The Heron's Court",
+        "featured": "Kamisato Ayaka",
+        "phase": 1
+      },
+      {
+        "name": "Reign of Serenity",
+        "featured": "Raiden Shogun & Chevreuse",
+        "phase": 2
+      },
+      {
+        "name": "Tapestry of Golden Flames",
+        "featured": "Yoimiya & Chevreuse",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Roses and Muskets",
-    "Arataki Blazing Armor Beetle Battle Boot Camp",
-    "Lost Riches",
-    "Dance of Resolute Will",
-    "Marvelous Merchandise",
-    "Gazing Up at Eternity, Looking Down at the World"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "Waterfall Wen"
   ],
-  "newArtifacts": [
-    "Nighttime Whispers in the Echoing Woods",
-    "Song of Days Past"
-  ],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -50,6 +97,15 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [
+    "Nighttime Whispers in the Echoing Woods",
+    "Song of Days Past"
+  ],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -68,5 +124,127 @@
       "Leroy Quest Chain"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Roses and Muskets",
+    "Arataki Blazing Armor Beetle Battle Boot Camp",
+    "Lost Riches",
+    "Dance of Resolute Will",
+    "Marvelous Merchandise",
+    "Gazing Up at Eternity, Looking Down at the World"
+  ],
+  "newRecipes": [
+    "Rainbow Macarons",
+    "Feast-O's",
+    "Fontinalia Mousse"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "\"Pick What You Like!\"",
+    "Sin: The Kind that Doesn't Need to be Dealt With"
+  ],
+  "newAchievements": [
+    "Wonders of the World"
+  ],
+  "newNamecards": [
+    "Navia: Rosula",
+    "Chevreuse: Type II",
+    "Travel Notes: Time Inscribed"
+  ],
+  "newGadgets": [
+    "Mini Seelie: Brilliance"
+  ],
+  "newFurnishings": [
+    "\"A Simple Residence in Poisson\"",
+    "\"A Thousand Texts in the Central Hub\"",
+    "\"Boxing Target of the Forbidden Fortress\"",
+    "\"Celebration of an Ad-Hoc Performance\"",
+    "\"Court of Justice's Authenticity\"",
+    "\"Court of Justice's Respect\"",
+    "\"Momentary Rest in the Central Hub\"",
+    "\"Musketeer Pictures Prize Commemoration\"",
+    "\"Overburdening of the Forbidden Fortress\"",
+    "\"Peaceful Purple Dream\"",
+    "\"Poisson Door Frame\"",
+    "\"Poisson Trigger-Transmission Fishing Rod\"",
+    "\"Poisson's Seasonal Produce\"",
+    "\"Quick Temporary Workshed\"",
+    "\"Rest Time in the Central Hub\"",
+    "\"Stable Work Station in the Central Hub\"",
+    "\"The Arena Where Fists Reemerge\"",
+    "\"The Leisure of Daily Meetings\"",
+    "\"The Wisdom of Poisson\"",
+    "Annex's Golden Mosaic",
+    "Annex's Mirror-Sheen Floor Tile",
+    "Annex's Spotless Dome",
+    "Annex's Swirling Light",
+    "Area Marker: Downward",
+    "Area Marker: Upward",
+    "Bookshelf: Focused Effect",
+    "Bookshelf: Free Reading",
+    "Bookshelf: Speedy Browsing",
+    "Bronze Curio: Ancient Golden Visage",
+    "Common-Use Note Holder",
+    "Courtyard Archway: Moment of Glory",
+    "Courtyard Corridor: Manifold Corners",
+    "Courtyard Corridor: The Mora Dividend",
+    "Courtyard Pavilion: Amidst the Rivers",
+    "Courtyard Wall: A Bit of Scenery",
+    "Film Poster: The Two Musketeers",
+    "Flowering Shrub: Amidst Harbor Mists",
+    "Fontaine Villa: Illusory Annex",
+    "Forbidden Zone Floor Lamp: Ironhammer",
+    "Forbidden Zone Floor Lamp: Nightlight",
+    "Indoor Lamp: The Twilight Sea",
+    "Linden Wood \"Subduing Seat\" Backed Chair",
+    "Mallow Wood \"Multi-Model\" Wardrobe",
+    "Mallow Wood \"Viewing Rites\" Chair",
+    "Ornamental Shrub: Aquadew View",
+    "Production Rack: Custom Build",
+    "Production Rack: The Basics",
+    "Simulation Device: Ideal Accuracy",
+    "Stabilization Mek: Pwetty Pwease",
+    "Standard Music Stand: Accurate Tuning"
+  ],
+  "newFurnishingSets": [
+    "Continuous Clockwork Inspiration",
+    "Court of Justice's Booming Commerce",
+    "Court of Justice's Fresh Mist",
+    "Court of Justice's Placid Days",
+    "Full Force Forward in the Forbidden Fortress",
+    "Garb for Glorious Gourmet",
+    "Key to a Stable Work-Rest Cycle",
+    "Perfectly-Drawn Focus",
+    "Poisson the Unassuming",
+    "Strict Adherence to Office Codes",
+    "The Nation of Hydro's Mottled Colors",
+    "Undersea Merusea's Luster",
+    "Wellspring of Rule Violation Prevention"
+  ],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "New Books:",
+    "The Two Musketeers",
+    "New Item:",
+    "\"Swirling Scene in a Bottle\".",
+    "New Serenitea Pot Realm Layout: \"Swirling Isles\".",
+    "Adds Set 28 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "New \"Recommended Sets\" function on characters' Artifacts screens, where recommended Artifact set information based on recently active players will now be shown as a reference to help Travelers when choosing Artifacts.",
+    "New \"Artifact Locking\" function, where you can add, set, and activate different Artifact settings by going into your Inventory > Artifacts > Artifact Auto-Lock menu. After you have activated \"Artifact Auto-Lock,\" you will automatically lock 5-star Artifacts that meet said settings upon gaining them."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members receive a 75% Geo DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Sturdy Moon",
+    "blessingEffect": "After a character obtains an Elemental Shard created by the Crystallize reaction, they will gain the Redoubtable state. Active characters in this state deal 15% increased DMG. This state lasts for 8s and can stack up to 3 times, with the duration of each stack counted independently."
   }
 }

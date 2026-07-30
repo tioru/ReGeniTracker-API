@@ -1,19 +1,64 @@
 {
   "number": "4.0",
+  "cycleLabel": null,
   "name": "Alors que la bruine tombe sans raison",
+  "subtitle": null,
+  "description": "Une fine bruine envahit les rues comme du brouillard.<br>Si vous ne comprenez pas comment sont réalisés les tours de magie, profitez simplement du spectacle.<br>Mais si la farce n'est qu'une façade, pourquoi pleurer sans raison ?",
   "releaseDate": "2023-08-16",
   "endDate": "2023-09-27",
-  "newCharacters": [
-    "Lyney",
-    "Lynette",
-    "Fréminet"
-  ],
-  "mapExpansion": [
+  "previousVersion": "3.8",
+  "nextVersion": "4.1",
+  "links": [
     {
-      "mainRegion": "Fontaine",
-      "subRegion": []
+      "url": "https://genshin.hoyoverse.com/en/news/detail/112690",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/112650",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=42ba3f50708f4c6f#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20230805preview/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/111908",
+      "label": "Developer's Discussion 06/20"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/112476",
+      "label": "Developer's Discussion 08/02"
     }
   ],
+  "images": [
+    "Splashscreen As Light Rain Falls Without Reason.png",
+    "Splashscreen Gentry of Hermitage Farewell of Snezhnaya.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Lyney",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Lynette",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Fréminet",
+      "rarity": 4,
+      "element": "Cryo",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "La première grande magie"
@@ -34,34 +79,50 @@
   },
   "banners": {
     "characters": [
-      "L'artifice du clair-obscur",
-      "Discerneuse d'énigmes",
-      "Monts et marchés",
-      "Adieux au Nord"
+      {
+        "name": "L'artifice du clair-obscur",
+        "featured": "Lyney & Lynette",
+        "phase": 1
+      },
+      {
+        "name": "Discerneuse d'énigmes",
+        "featured": "Yelan & Lynette",
+        "phase": 1
+      },
+      {
+        "name": "Monts et marchés",
+        "featured": "Zhongli & Freminet",
+        "phase": 2
+      },
+      {
+        "name": "Adieux au Nord",
+        "featured": "Tartaglia & Freminet",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Méga-méli-mélo de Mékas",
-    "Histoire naturelle : Héritage de la nation Hydro",
-    "Études des lumières et ombres : Une Fontaine d'enchantements",
-    "Verdict des lames",
-    "Reflux des lignes énergétiques",
-    "Le rideau ne tombe jamais sur la magie",
-    "Primordial Waters (Battle Pass)"
+  "mapExpansion": [
+    {
+      "mainRegion": "Fontaine",
+      "subRegion": []
+    }
   ],
   "newDomains": [
     "Dénouement des péchés",
     "Échos des marées profondes",
     "Pâle gloire oubliée"
   ],
-  "newArtifacts": [
-    "Troupe dorée",
-    "Chasseur de la Maréchaussée"
+  "newSystems": [
+    "Arkhe",
+    "Diving (Fontaine's Blessing)",
+    "Fontaine de Lucine",
+    "Fontaine Reputation System",
+    "Fontaine Expeditions, Daily Commissions, and more"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [
       "Mek de reconnaissance",
       "Mek amplificateur",
@@ -101,6 +162,48 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Oie aux ailes enneigées",
+    "Oie aux ailes sombres",
+    "Fulmar à huppe plate",
+    "Goéland ichthyaète or-violet",
+    "Cotingidé gris-bleu",
+    "Cotingidé rouge-marron",
+    "Pigeon rhipidure magenta",
+    "Pigeon rhipidure viride",
+    "Passereau à huppe rouge",
+    "Passereau à huppe bleue",
+    "Chien de chasse alezan",
+    "Chien de chasse gris acier",
+    "Chien de chasse ambre",
+    "Papillon cristallin Hydro",
+    "Loutre tranquille",
+    "Caniche demoiselle",
+    "Caniche de garde",
+    "Caniche gentilhomme"
+  ],
+  "newArtifacts": [
+    "Troupe dorée",
+    "Chasseur de la Maréchaussée"
+  ],
+  "newMaterials": [
+    "Marcotte",
+    "Fruit bullé",
+    "Rose arc-en-ciel",
+    "Clochette de Lumidouce",
+    "Fleur romaritime",
+    "Maréalgue",
+    "Conque de béryl",
+    "Lotus pluvieux",
+    "Bois d'hibiscus",
+    "Bois de tilleul",
+    "Bois de frêne",
+    "Bois de cyprès",
+    "Bois de torche"
+  ],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [
       {
@@ -168,5 +271,112 @@
       "Were It So Easy"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Méga-méli-mélo de Mékas",
+    "Histoire naturelle : Héritage de la nation Hydro",
+    "Études des lumières et ombres : Une Fontaine d'enchantements",
+    "Verdict des lames",
+    "Reflux des lignes énergétiques",
+    "Le rideau ne tombe jamais sur la magie",
+    "Primordial Waters (Battle Pass)"
+  ],
+  "newRecipes": [
+    "Confit de canard",
+    "Velouté de champignons",
+    "Aspic du pêcheur",
+    "Lasagnes",
+    "Soupe fraîche de Poisson",
+    "Foie gras de Fontaine",
+    "Baguette à l'ail",
+    "Soupe fontainoise à l'oignon",
+    "Poisson-frites",
+    "Pâte de fruits",
+    "Île flottante",
+    "Madeleine de conque",
+    "Ragoût de Tasses",
+    "Tarte poissonchant",
+    "Steak tartare",
+    "Trio fruité",
+    "Poularde en vessie",
+    "Onctueux aux fruits",
+    "Duo du verger"
+  ],
+  "newFormulas": [
+    "Appât aigre",
+    "Appât clignotant"
+  ],
+  "newSpecialtyDishes": [
+    "Passe-passe cubique",
+    "Sirotage tranquille",
+    "Pause de l'oiseau de mer"
+  ],
+  "newAchievements": [
+    "Succès/Promenade dans le monde mortel - Partie IV",
+    "Succès/Rencontres dans un autre monde - Partie IV",
+    "Succès/Fontaine - Danse de la rosée blanche (1)",
+    "Wonders of the World category"
+  ],
+  "newNamecards": [
+    "Thème Lyney - Simulacre",
+    "Thème Lynette - Intégrité",
+    "Thème Fréminet - Progrès",
+    "Thème Fontaine - Jugement",
+    "Thème Succès - Chemins",
+    "Thème Succès - Vogue",
+    "Thème Fontaine - Technologie",
+    "Thème Fontaine - Actualités",
+    "Thème PB - Source des eaux"
+  ],
+  "newGadgets": [
+    "Pierre de résonance Hydroculus",
+    "Détecteur de trésors Hydro",
+    "Souffleur éolien",
+    "Piège à papillons cristallins"
+  ],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Adds some of the Harvestable seeds from Fontaine to the Seed Dispensary.",
+    "Adds Set 25 of \"Paimon's Paintings\" chat emojis.",
+    "Introduction of the Multi-Layered Map function.",
+    "Added 5 new types of Battle Pass Weapons that can be selected from the BP Bounty.",
+    "Addition of Genius Invokation TCG Observe Duel Function.",
+    "Auto Add 4-Star Artifacts in destruction function.",
+    "Increased Artifact Inventory Limit from 1,500 to 1,800.",
+    "Added Fontaine-related text into Midlander Billet origin descriptions.",
+    "Added 8 Artifact Sets that can be exchanged to \"Mystic Offering\" in the Crafting Bench:",
+    "Artifact Strongbox: Tenacity of the Millelith",
+    "Artifact Strongbox: Pale Flame",
+    "Artifact Strongbox: Shimenawa's Reminiscence",
+    "Artifact Strongbox: Emblem of Severed Fate",
+    "Artifact Strongbox: Husk of Opulent Dreams",
+    "Artifact Strongbox: Ocean-Hued Clam",
+    "Artifact Strongbox: Vermillion Hereafter",
+    "Artifact Strongbox: Echoes of an Offering",
+    "New functions in the Party Setup Screen:",
+    "Characters' entrance and idle animations",
+    "Background of the Party Setup Screen will change based on your current region.",
+    "Support for Gyroscope controller on some platforms for:",
+    "PC：DualSense™ Wireless Controller, DUALSHOCK®4 Wireless Controller",
+    "PS4™：DUALSHOCK®4 Wireless Controller",
+    "PS5™：DualSense™ Wireless Controller, DualSense Edge™ Wireless Controller",
+    "Added Global Illumination on PlayStation® and PC"
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 60% Pyro DMG Bonus.",
+      "All characters in the party gain a 60% Hydro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Keen Moon",
+    "blessingEffect": "When a character recovers HP, that character gains 10% increased ATK for 10s. Max 3 stacks. Each stack will be counted independently. When a character loses HP, that character gains 40 Elemental Mastery for 10s. Max 3 stacks. Each stack will be counted independently. The effects from recovering and losing HP are independent from each other, and stacks are counted independently."
   }
 }

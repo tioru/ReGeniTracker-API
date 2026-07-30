@@ -1,13 +1,54 @@
 {
   "number": "4.3",
+  "cycleLabel": null,
   "name": "Roses et mousquets",
+  "subtitle": null,
+  "description": "Le rideau est sur le point de se lever sur le Festival cinématographique de Fontinalia. Réalisateurs, producteurs, acteurs, directeurs artistiques... Tous semblent être arrivés au bon endroit.<br>Il ne vous reste plus qu'à faire retentir les mousquets et à faire fleurir les roses au bon moment.",
   "releaseDate": "2023-12-20",
   "endDate": "2024-01-31",
-  "newCharacters": [
-    "Navia",
-    "Chevreuse"
+  "previousVersion": "4.2",
+  "nextVersion": "4.4",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/114101",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/114066",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=a83a337fc36f4981#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20231209preview-yh731z/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/113872",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Roses and Muskets.png",
+    "Splashscreen Reign of Serenity Tapestry of Golden Flames.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Navia",
+      "rarity": 5,
+      "element": "Geo",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Chevreuse",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Condamneur"
@@ -18,31 +59,37 @@
   },
   "banners": {
     "characters": [
-      "Au nom de la Rosula",
-      "Prestance du héron",
-      "Règne de sérénité",
-      "Draperie d'étincelles dorées"
+      {
+        "name": "Au nom de la Rosula",
+        "featured": "Navia",
+        "phase": 1
+      },
+      {
+        "name": "Prestance du héron",
+        "featured": "Kamisato Ayaka",
+        "phase": 1
+      },
+      {
+        "name": "Règne de sérénité",
+        "featured": "Raiden Shogun & Chevreuse",
+        "phase": 2
+      },
+      {
+        "name": "Draperie d'étincelles dorées",
+        "featured": "Yoimiya & Chevreuse",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Roses et mousquets",
-    "Le super entraînement éblouissant aux combats de scarabées d'Arataki",
-    "Richesses perdues",
-    "Valse de volonté résolue",
-    "Merveilleuses marchandises",
-    "Contemplant l'éternité en haut, regardant le monde en bas"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "Ville des cascades"
   ],
-  "newArtifacts": [
-    "Murmure nocturne en forêt d'échos",
-    "Chanson des jours d'antan"
-  ],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -50,6 +97,15 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [
+    "Murmure nocturne en forêt d'échos",
+    "Chanson des jours d'antan"
+  ],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -68,5 +124,127 @@
       "Leroy Quest Chain"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Roses et mousquets",
+    "Le super entraînement éblouissant aux combats de scarabées d'Arataki",
+    "Richesses perdues",
+    "Valse de volonté résolue",
+    "Merveilleuses marchandises",
+    "Contemplant l'éternité en haut, regardant le monde en bas"
+  ],
+  "newRecipes": [
+    "Macarons arc-en-ciel",
+    "Rondélice",
+    "Mousse fontinalienne"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "« À vous de choisir ! »",
+    "Péché : Dont il est inutile de s'occuper"
+  ],
+  "newAchievements": [
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Thème Navia - Rosula",
+    "Thème Chevreuse - Type II",
+    "Thème PB - Marque du temps"
+  ],
+  "newGadgets": [
+    "Mini-fée brillante"
+  ],
+  "newFurnishings": [
+    "« Simple résidence de Poisson »",
+    "Tabularium de la station centrale",
+    "« Pattes d'ours de la Forteresse interdite »",
+    "« Célébration d'une prestation ponctuelle »",
+    "« Authenticité de la cour de justice »",
+    "« Respect de la cour de justice »",
+    "Sérénité de la station centrale",
+    "« Souvenir commémoratif du Studio mousquetairesque »",
+    "« Surcharge de la Forteresse interdite »",
+    "« Rêve violet paisible »",
+    "« Chambranle de Poisson »",
+    "« Canne à pêche à gâchette de Poisson »",
+    "« Saisonnalité de Poisson »",
+    "Établi temporaire rapide",
+    "Repos de la station centrale",
+    "Plan de travail sécurisé de la station centrale",
+    "« L'arène où les poings renaissent »",
+    "« Placidité des réunions quotidiennes »",
+    "« Sagesse de Poisson »",
+    "Mosaïque dorée de l'Annexe",
+    "Parquet miroir de l'Annexe",
+    "Dôme immaculé de l'Annexe",
+    "Lumière tourbillonnante de l'Annexe",
+    "Marqueur de zone « En bas »",
+    "Marqueur de zone « En haut »",
+    "Présentoir à livres « Effet de concentration »",
+    "Présentoir à livres « Lecture libre »",
+    "Présentoir à livres « Feuilletage rapide »",
+    "Bronze curieux « Ancien visage doré »",
+    "Porte-notes universel",
+    "Arche de cour « Instant glorieux »",
+    "Couloir de cour « Coin d'abondance »",
+    "Couloir de cour « Partage de moras »",
+    "Pavillon de cour « Au milieu des rivières »",
+    "Mur de cour « Coin de paysage »",
+    "Affiche de film « Les deux mousquetaires »",
+    "Arbuste fleuri « Port dans la brume »",
+    "Villa fontainoise « Annexe illusoire »",
+    "Lanterne à pied prohibée « Marteau de fer »",
+    "Lanterne à pied prohibée « Veilleuse »",
+    "Lampe d'intérieur « Mer crépusculaire »",
+    "Chaise à dossier « Assise périlleuse » en bois de tilleul",
+    "Armoire « Modèle multiple » en bois d'hibiscus",
+    "Siège « Respect d'étiquette » en bois d'hibiscus",
+    "Arbuste ornemental « Paysage de rosée »",
+    "Étagère de production « Personnalisée »",
+    "Étagère de production « Basique »",
+    "Simulateur « Précision idéale »",
+    "Mécanisme de stabilisation « Siouplaît »",
+    "Pupitre standard « Accordage précis »"
+  ],
+  "newFurnishingSets": [
+    "Inspiration horlogoïde continue",
+    "« Prospérité de la cour de justice »",
+    "« Effluve de la cour de justice »",
+    "« Routine de la cour de justice »",
+    "« Avancée de la Forteresse interdite »",
+    "Tenue de gourmet glorieux",
+    "Clé d'un cycle travail-repos stable",
+    "Concentration parfaite",
+    "Poisson la modeste",
+    "Respect strict des normes de travail",
+    "Couleurs tachetées de la nation Hydro",
+    "Lustre sous-marin de Mérusea",
+    "Source de prévention des violations de règles"
+  ],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "New Books:",
+    "The Two Musketeers",
+    "New Item:",
+    "\"Swirling Scene in a Bottle\".",
+    "New Serenitea Pot Realm Layout: \"Swirling Isles\".",
+    "Adds Set 28 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "New \"Recommended Sets\" function on characters' Artifacts screens, where recommended Artifact set information based on recently active players will now be shown as a reference to help Travelers when choosing Artifacts.",
+    "New \"Artifact Locking\" function, where you can add, set, and activate different Artifact settings by going into your Inventory > Artifacts > Artifact Auto-Lock menu. After you have activated \"Artifact Auto-Lock,\" you will automatically lock 5-star Artifacts that meet said settings upon gaining them."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members receive a 75% Geo DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Sturdy Moon",
+    "blessingEffect": "After a character obtains an Elemental Shard created by the Crystallize reaction, they will gain the Redoubtable state. Active characters in this state deal 15% increased DMG. This state lasts for 8s and can stack up to 3 times, with the duration of each stack counted independently."
   }
 }

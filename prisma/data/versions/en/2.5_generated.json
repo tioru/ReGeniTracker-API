@@ -1,12 +1,44 @@
 {
   "number": "2.5",
+  "cycleLabel": null,
   "name": "When the Sakura Bloom",
+  "subtitle": null,
+  "description": "The ancient [[Sacred Sakura]] stands on the peak of [[Mt. Yougou]], its roots running long and deep into the earth, stretching endlessly.<br>Underneath its shadow, there are people who wholeheartedly wish for blessings, a kitsune who is amused at the floating world, and a god who yearns for transient eternity.<br>Everything in this world changes, people come and go, but the Sacred Sakura blooms brilliantly every year, its petals going where the wind leads.",
   "releaseDate": "2022-02-16",
   "endDate": "2022-03-30",
-  "newCharacters": [
-    "Yae Miko"
+  "previousVersion": "2.4",
+  "nextVersion": "2.6",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/19525",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/19383",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=d4a30f5deded490c",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20220207-previ/index.html",
+      "label": "Website"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen When the Sakura Bloom.png",
+    "Splashscreen Reign of Serenity Drifting Luminescence.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Yae Miko",
+      "rarity": 5,
+      "element": "Electro",
+      "weaponType": "Catalyst"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Kagura's Verity"
@@ -17,27 +49,33 @@
   },
   "banners": {
     "characters": [
-      "Everbloom Violet",
-      "Reign of Serenity",
-      "Drifting Luminescence"
+      {
+        "name": "Everbloom Violet",
+        "featured": "Yae Miko",
+        "phase": null
+      },
+      {
+        "name": "Reign of Serenity",
+        "featured": "Raiden Shogun",
+        "phase": null
+      },
+      {
+        "name": "Drifting Luminescence",
+        "featured": "Sangonomiya Kokomi",
+        "phase": null
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Three Realms Gateway Offering",
-    "Divine Ingenuity",
-    "Of Drink A-Dreaming",
-    "Hyakunin Ikki",
-    "Overflowing Mastery"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "Trounce Domain",
     "End of the Oneiric Euthymia"
   ],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -45,6 +83,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -71,5 +115,57 @@
     ],
     "worldQuests": [],
     "hangoutQuests": []
+  },
+  "events": [
+    "Three Realms Gateway Offering",
+    "Divine Ingenuity",
+    "Of Drink A-Dreaming",
+    "Hyakunin Ikki",
+    "Overflowing Mastery"
+  ],
+  "newRecipes": [
+    "Sangayaki",
+    "Udon Noodles",
+    "Fukuuchi Udon"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "Added to the \"Wonders of the World\" category."
+  ],
+  "newNamecards": [
+    "Celebration: Binge Vessel",
+    "Yae Miko: Kitsune Dreaming",
+    "Travel Notes: Awakening"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Leisure Device: On the Pulse",
+    "Sub-Space Cabochon: In Soaring Flight"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Dynamic Range\" and \"Output Settings\" newly added in Settings > Audio.",
+    "Newly added icon hints to the Artifacts filtering interface.",
+    "Adds the feature of adding Weapons at once to the Destruction System.",
+    "Adds some prompts for loading screens."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 60% Electro DMG Bonus.",
+      "All party members gain 30% Healing Bonus."
+    ],
+    "floor12Disorder": [
+      "For this floor only, the ley line flow will be normal."
+    ],
+    "blessingName": "Phase I: Lightning Moon",
+    "blessingEffect": "When opponents take Electro-Charged DMG, their Electro RES decreases by 10% for 10s. Max 4 stacks. Each stack's duration is independent. Each enemy can receive this effect once every 1.2s."
   }
 }

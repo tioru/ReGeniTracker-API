@@ -1,12 +1,86 @@
 {
   "number": "3.6",
+  "cycleLabel": null,
   "name": "A Parade of Providence",
+  "subtitle": null,
+  "description": "Joy and sorrow are constant companions to life, and the endless flow of history's long river runs ever unceasing.<br>Life is but a journey, with love and beauty as its salves, and wisdom, as its balm.",
   "releaseDate": "2023-04-12",
   "endDate": "2023-05-24",
-  "newCharacters": [
-    "Baizhu",
-    "Kaveh"
+  "previousVersion": "3.5",
+  "nextVersion": "3.7",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/111044",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/111020",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/vert.html?page_sn=3eb66fc49d674891#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/e0406bluepostsubject_769/index.html",
+      "label": "New Contents Display Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20230401preview-84u4sh/index.html",
+      "label": "Website"
+    }
   ],
+  "images": [
+    "Splashscreen A Parade of Providence.png",
+    "Splashscreen Immaculate Pulse Adrift in the Harbor.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Baizhu",
+      "rarity": 5,
+      "element": "Dendro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Kaveh",
+      "rarity": 4,
+      "element": "Dendro",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [],
+  "newWeapons": {
+    "5Star": [
+      "Jadefall's Splendor"
+    ]
+  },
+  "banners": {
+    "characters": [
+      {
+        "name": "The Moongrass' Enlightenment",
+        "featured": "Nahida",
+        "phase": 1
+      },
+      {
+        "name": "Twirling Lotus",
+        "featured": "Nilou",
+        "phase": 1
+      },
+      {
+        "name": "Immaculate Pulse",
+        "featured": "Baizhu & Kaveh",
+        "phase": 2
+      },
+      {
+        "name": "Adrift in the Harbor",
+        "featured": "Ganyu & Kaveh",
+        "phase": 2
+      }
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
+  },
   "mapExpansion": [
     {
       "mainRegion": "Gavireh Lajavard, Girdle of the Sands, Sumeru",
@@ -17,40 +91,16 @@
       "subRegion": []
     }
   ],
-  "newWeapons": {
-    "5Star": [
-      "Jadefall's Splendor"
-    ]
-  },
-  "banners": {
-    "characters": [
-      "The Moongrass' Enlightenment",
-      "Twirling Lotus",
-      "Immaculate Pulse",
-      "Adrift in the Harbor"
-    ],
-    "weapons": [
-      "Epitome Invocation"
-    ]
-  },
-  "events": [
-    "A Parade of Providence",
-    "Fulminating Sandstorm",
-    "Brewing Developments",
-    "Overflowing Mastery",
-    "The Recollector's Path"
-  ],
   "newDomains": [
     "Molten Iron Fortress",
     "Somalata Inland Sea",
     "Purification Spring",
     "The Realm of Beginnings"
   ],
-  "newArtifacts": [
-    "Nymph's Dream",
-    "Vourukasha's Glow"
+  "newSystems": [
+    "The Gift of Amrita"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [],
     "elite": [
       "Anemo Hilichurl Rogue",
@@ -67,6 +117,28 @@
       ]
     }
   },
+  "newWildlife": [
+    "Tent Tortoise"
+  ],
+  "newArtifacts": [
+    "Nymph's Dream",
+    "Vourukasha's Glow"
+  ],
+  "newMaterials": [
+    "Mourning Flower",
+    "Trishiraite"
+  ],
+  "newMonsterDrops": [
+    "A Flower Yet to Bloom",
+    "Treasured Flower",
+    "Wanderer's Blooming Flower",
+    "Everamber",
+    "Primordial Greenbloom",
+    "Worldspan Fern",
+    "Evergloom Ring"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -111,5 +183,42 @@
         ]
       }
     ]
+  },
+  "events": [
+    "A Parade of Providence",
+    "Fulminating Sandstorm",
+    "Brewing Developments",
+    "Overflowing Mastery",
+    "The Recollector's Path"
+  ],
+  "newRecipes": [],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "New invitation duels and guest challenges added to the Player List.",
+    "New Duel Replay Function for Genius Invokation TCG",
+    "Tree of Dreams, Vanarana: Increase in the Level Cap of Tree of Dreams to Level 50. After the Tree of Dreams's Favor Level reaches its maximum, Dendro Sigils can be exchanged by approaching Khalid at Menakeri's Treasure Shop.",
+    "Added Set 22 of \"Paimon's Paintings\" chat emojis.",
+    "New Replication System Function: New Guest Authorization: Guests can generate Replicas upon obtaining approval from the Serenitea Pot's host."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 75% Dendro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Reverberating Moon",
+    "blessingEffect": "When the active character's HP decreases, a shockwave will be unleashed at the character's position, dealing True DMG to nearby opponents. This effect can be triggered once every 0.8s."
   }
 }

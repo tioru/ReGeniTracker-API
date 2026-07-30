@@ -1,13 +1,54 @@
 {
   "number": "2.7",
+  "cycleLabel": null,
   "name": "Hidden Dreams in the Depths",
+  "subtitle": null,
+  "description": "The mysteries in the depths of [[The Chasm: Underground Mines",
   "releaseDate": "2022-05-31",
   "endDate": "2022-07-13",
-  "newCharacters": [
-    "Yelan",
-    "Kuki Shinobu"
+  "previousVersion": "2.6",
+  "nextVersion": "2.8",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/21303",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/21202",
+      "label": "Update Notice May 27"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=371e3e01de9a42b4#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20220430-previ-xozn/index.html",
+      "label": "Version 2.7 Website"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/21052",
+      "label": "Update Notice May 19"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Hidden Dreams in the Depths.png",
+    "Splashscreen Oni's Royale 2.7.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Yelan",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Kuki Shinobu",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Sword"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Aqua Simulacra"
@@ -18,23 +59,30 @@
   },
   "banners": {
     "characters": [
-      "Discerner of Enigmas",
-      "Invitation to Mundane Life",
-      "Oni's Royale"
+      {
+        "name": "Discerner of Enigmas",
+        "featured": "Yelan",
+        "phase": null
+      },
+      {
+        "name": "Invitation to Mundane Life",
+        "featured": "Xiao",
+        "phase": null
+      },
+      {
+        "name": "Oni's Royale",
+        "featured": "Arataki Itto, Kuki Shinobu",
+        "phase": null
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Perilous Trail",
-    "A Muddy Bizarre Adventure",
-    "The Almighty Arataki Great and Glorious Drumalong Festival",
-    "Core of the Apparatus"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -42,6 +90,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -72,5 +126,51 @@
         ]
       }
     ]
+  },
+  "events": [
+    "Perilous Trail",
+    "A Muddy Bizarre Adventure",
+    "The Almighty Arataki Great and Glorious Drumalong Festival",
+    "Core of the Apparatus"
+  ],
+  "newRecipes": [
+    "Dew-Dipped Shrimp",
+    "Omurice Waltz"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "Additions to:",
+    "Wonders of the World",
+    "Memories of the Heart"
+  ],
+  "newNamecards": [
+    "Yelan: Throw",
+    "Kuki Shinobu: Net",
+    "Travel Notes: Divine Will"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Added \"Challenge Features\" descriptions to Domains of Blessing, Forgery, and Mastery with a high Recommended Party Level.",
+    "The gadget \"Floral Zither\" can now be purchased from the NPC Granny Shan in Liyue Harbor.",
+    "Added Sets 7–14 of Genshin Impact \"Paimon's Paintings\" chat emojis.",
+    "Added Character level-up guides: Travelers can check Characters' Talent recommendations and Artifact Main Attribute references."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "DMG dealt by claymore-wielding characters increased by 75%."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Closing Moon",
+    "blessingEffect": "After the active character uses an Elemental Skill, >Normal Attack DMG is increased by 16% for 8s. Max 3 stacks. Stacks are counted independently."
   }
 }

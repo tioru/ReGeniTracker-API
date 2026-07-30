@@ -1,12 +1,48 @@
 {
   "number": "5.1",
+  "cycleLabel": null,
   "name": "The Rainbow Destined to Burn",
+  "subtitle": null,
+  "description": "\"What is meant by offering kindling is the act of offering up a sacrifice before one obtains something.\"<br />Before setting foot on the battlefield, people often say \"victory at all costs.\"<br />And when the stakes are laid out, there will always be those who have to make the hardest of choices.",
   "releaseDate": "2024-10-09",
   "endDate": "2024-11-20",
-  "newCharacters": [
-    "Xilonen"
+  "previousVersion": "5.0",
+  "nextVersion": "5.2",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126305",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126209",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/vert.html?page_sn=9d3796456160459f#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_uqJ_R_Dbh9/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126061",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen The Rainbow Destined to Burn.png",
+    "Splashscreen Moment of Bloom The Moongrass' Enlightenment.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Xilonen",
+      "rarity": 5,
+      "element": "Geo",
+      "weaponType": "Sword"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Peak Patrol Song"
@@ -19,28 +55,35 @@
   },
   "banners": {
     "characters": [
-      "Forgefire's Blessing",
-      "Of Silken Clouds Woven",
-      "The Moongrass' Enlightenment",
-      "Moment of Bloom"
+      {
+        "name": "Forgefire's Blessing",
+        "featured": "Xilonen",
+        "phase": 1
+      },
+      {
+        "name": "Of Silken Clouds Woven",
+        "featured": "Chiori",
+        "phase": 1
+      },
+      {
+        "name": "The Moongrass' Enlightenment",
+        "featured": "Nahida",
+        "phase": 2
+      },
+      {
+        "name": "Moment of Bloom",
+        "featured": "Hu Tao",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Chromatic Ode of Candies and Roses",
-    "Feast of Pursuit",
-    "Reminiscent Regimen: Thrill",
-    "Aphid Treasure Trace",
-    "Marvelous Merchandise",
-    "The Rainbow Destined to Burn (Event)",
-    "A Prayer for Blessings, Told to Crested Peaks (Event)",
-    "Land of Vibrant Stone and Flaming Springs"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [
       "Tenebrous Mimiflora"
@@ -52,10 +95,130 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [
+    "Gold-Inscribed Secret Source Core"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
     "worldQuests": [],
     "hangoutQuests": []
+  },
+  "events": [
+    "Chromatic Ode of Candies and Roses",
+    "Feast of Pursuit",
+    "Reminiscent Regimen: Thrill",
+    "Aphid Treasure Trace",
+    "Marvelous Merchandise",
+    "The Rainbow Destined to Burn (Event)",
+    "A Prayer for Blessings, Told to Crested Peaks (Event)",
+    "Land of Vibrant Stone and Flaming Springs"
+  ],
+  "newRecipes": [
+    "BBQ Beef Heart Skewers",
+    "Xocoatl"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Fruit-Flavored Milk Candies"
+  ],
+  "newAchievements": [
+    "Wonders of the World"
+  ],
+  "newNamecards": [
+    "Xilonen: Cue Point",
+    "Travel Notes: Sabzeruz"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "\"One-Legged Round Shield\"",
+    "\"Sorry to Keep You Waiting, Dear Archon\"",
+    "Bipedal Puppet: Shaky-Quaky",
+    "Countless Services",
+    "Echoes of the Shore",
+    "Fair's Distribution",
+    "Fair's Feasting and Drinking",
+    "Fair's Fresh Vegetables",
+    "Fair's Splendid Textiles",
+    "Four-Legged Tower Shield",
+    "Javelin Imminent",
+    "May This Moment Last Forever",
+    "Model Dish: Not to Be Missed",
+    "Model Dish: The Usual Selection",
+    "Mountain Fireworks",
+    "Nameless and Silent",
+    "Peach Palm Wood \"Fulcrum\" Container",
+    "Phlogiston Desk Lamp: Sufficiently Weighty",
+    "Phlogiston Floor Lamp: Cost-Effective Convenience",
+    "Phlogiston Hanging Lamp: Road Guide",
+    "Quadripedal Puppet: Ready-Steady",
+    "Riding the Tranquil Waters",
+    "Stadium \"Round Seating\" Bench",
+    "Stadium \"Speedy Snack\" Round Stool",
+    "Stadium's \"Spicy Feast\" Backed Chair",
+    "The Distance Between It and the Flames",
+    "Towards Greater Heights",
+    "Traveler on the Road",
+    "Unbeaten Hero",
+    "Vibrant Pot: Born in Flames",
+    "Weary Rug: Lay Down Your Burden",
+    "Windtracker"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Chiori",
+      "Eremite Floral Ring-Dancer",
+      "Abyss Lector: Violet Lightning"
+    ],
+    "actionCards": [
+      "Portable Power Saw",
+      "Conductor's Top Hat",
+      "Tepetlisaurus",
+      "Stage Tepetl",
+      "Eremite Teatime",
+      "Saurus Crackers",
+      "Spirit of Omen: Pyro Scorpion"
+    ]
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": {
+    "startDateRaw": "November 1",
+    "requiredElements": [
+      "Pyro",
+      "Electro",
+      "Dendro"
+    ],
+    "openingCharacters": [
+      "Klee",
+      "Xinyan",
+      "Yae Miko",
+      "Dori",
+      "Tighnari",
+      "Kirara"
+    ],
+    "guestCharacters": [
+      "Xilonen",
+      "Chiori",
+      "Xingqiu",
+      "Layla"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members gain a 75% Geo DMG Bonus.",
+      "All party members gain a 60% Geo DMG Bonus.",
+      "All party members gain a 60% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Blessing of the Abyssal Moon:",
+    "blessingEffect": "Rugged Moon: After a character uses an Elemental Skill, said character's DEF increases by 60% for 9s."
   }
 }

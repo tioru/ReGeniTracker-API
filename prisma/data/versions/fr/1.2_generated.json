@@ -1,21 +1,46 @@
 {
   "number": "1.2",
+  "cycleLabel": null,
   "name": "Craie et Dragon",
+  "subtitle": null,
+  "description": "}}",
   "releaseDate": "2020-12-23",
   "endDate": "2021-02-03",
-  "newCharacters": [
-    "Albedo",
-    "Ganyu"
-  ],
-  "mapExpansion": [
+  "previousVersion": "1.1",
+  "nextVersion": "1.3",
+  "links": [
     {
-      "mainRegion": "Monts Dosdragon",
-      "subRegion": [
-        "New Feature of Dragonspine - Frostbearing Tree",
-        "New Domain of Dragonspine - Peak of Vindagnyr"
-      ]
+      "url": "https://genshin.hoyoverse.com/en/news/detail/7632",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20201216new/index.html",
+      "label": "Version 1.2 Website"
+    },
+    {
+      "url": "https://www.hoyolab.com/article/97951",
+      "label": "Developer's Discussion"
     }
   ],
+  "images": [
+    "Splashscreen The Chalk Prince and the Dragon.png",
+    "Splashscreen Adrift in the Harbor.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Albedo",
+      "rarity": 5,
+      "element": "Geo",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Ganyu",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Bow"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Tranche-sommets"
@@ -29,25 +54,35 @@
   },
   "banners": {
     "characters": [
-      "Nouvelles mystérieuses",
-      "Doute passager"
+      {
+        "name": "Nouvelles mystérieuses",
+        "featured": "Albedo",
+        "phase": null
+      },
+      {
+        "name": "Doute passager",
+        "featured": "Ganyu",
+        "phase": null
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Craie et Dragon",
-    "Richesses perdues",
-    "Symphonie Hypostase",
-    "Merveilleuses marchandises"
+  "mapExpansion": [
+    {
+      "mainRegion": "Monts Dosdragon",
+      "subRegion": [
+        "New Feature of Dragonspine - Frostbearing Tree",
+        "New Domain of Dragonspine - Peak of Vindagnyr"
+      ]
+    }
   ],
   "newDomains": [],
-  "newArtifacts": [
-    "Briseur de glace",
-    "Âme des profondeurs"
+  "newSystems": [
+    "\"Stellar Reunion\" Returnee Event"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [
       "Brutoshaman Cryo",
       "Brutocollinus avec bouclier de glace",
@@ -65,6 +100,15 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [
+    "Briseur de glace",
+    "Âme des profondeurs"
+  ],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -87,5 +131,32 @@
       "Eat It While It's Hot"
     ],
     "hangoutQuests": []
-  }
+  },
+  "events": [
+    "Craie et Dragon",
+    "Richesses perdues",
+    "Symphonie Hypostase",
+    "Merveilleuses marchandises"
+  ],
+  "newRecipes": [
+    "Universal Peace - Wanmin Restaurant",
+    "Jueyun Guoba - Qingce Village Mill",
+    "Sunshine Sprat - Princeps Cretaceus Chapter: Act I",
+    "Goulash - Ah, Fresh Meat!"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": null
 }

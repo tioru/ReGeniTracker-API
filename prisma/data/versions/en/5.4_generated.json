@@ -1,12 +1,48 @@
 {
   "number": "5.4",
+  "cycleLabel": null,
   "name": "Moonlight Amidst Dreams",
+  "subtitle": null,
+  "description": "Life is like weaving between sweet dreams and nightmares.<br>When you feel tense, terrified, and unable to breathe,<br>Please take a moment to rest and savor the sweetness of delectable dreams.<br>Rip, tear, and devour your nightmares.",
   "releaseDate": "2025-02-12",
   "endDate": "2025-03-26",
-  "newCharacters": [
-    "Yumemizuki Mizuki"
+  "previousVersion": "5.3",
+  "nextVersion": "5.5",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/154285",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/129813",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=28d733e32540401d#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_mDZ7Xhhdj3/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/129560",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Moonlight Amidst Dreams.png",
+    "Splashscreen Chanson of Many Waters Tempestuous Destiny.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Yumemizuki Mizuki",
+      "rarity": 5,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Sunny Morning Sleep-In"
@@ -17,27 +53,35 @@
   },
   "banners": {
     "characters": [
-      "Dawn's Drifting Reverie",
-      "Romaritime Meluserenity",
-      "Chanson of Many Waters",
-      "Tempestuous Destiny"
+      {
+        "name": "Dawn's Drifting Reverie",
+        "featured": "Yumemizuki Mizuki",
+        "phase": 1
+      },
+      {
+        "name": "Romaritime Meluserenity",
+        "featured": "Sigewinne",
+        "phase": 1
+      },
+      {
+        "name": "Chanson of Many Waters",
+        "featured": "Furina",
+        "phase": 2
+      },
+      {
+        "name": "Tempestuous Destiny",
+        "featured": "Wriothesley",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Enchanted Tales of the Mikawa Festival",
-    "Travelers' Tales: Anthology Chapter",
-    "Realm of Tempered Valor",
-    "Invasive Fish Wrangler",
-    "Reel Ad-Venture",
-    "Ley Line Overflow",
-    "Tapirus Somniator Chapter (Event)"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -45,6 +89,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -61,5 +111,94 @@
     ],
     "worldQuests": [],
     "hangoutQuests": []
+  },
+  "events": [
+    "Enchanted Tales of the Mikawa Festival",
+    "Travelers' Tales: Anthology Chapter",
+    "Realm of Tempered Valor",
+    "Invasive Fish Wrangler",
+    "Reel Ad-Venture",
+    "Ley Line Overflow",
+    "Tapirus Somniator Chapter (Event)"
+  ],
+  "newRecipes": [
+    "Bathhouse Manjuu"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Dreams of Healing"
+  ],
+  "newAchievements": [],
+  "newNamecards": [
+    "Yumemizuki Mizuki: Nightmare Devourer",
+    "Celebration: Scorch",
+    "Travel Notes: Wondrous Reverie"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "\"Kaboom King\"",
+    "\"Sweet Dreams\"",
+    "\"Tanuki Game Award\"",
+    "Festive Backdrop: Sweet as Dreams Should Be",
+    "Festive Showcase: Akitsu Harpastum",
+    "Festive Showcase: Bunshin Phantasm",
+    "Festive Showcase: Daydream",
+    "Paddock Fence: Simple Boundary",
+    "Paddock Gate: Foundational Framework",
+    "Paddock Millstone: Perfect Prep Companion",
+    "Paddock Straw Mattress: Makeshift Bed"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Arlecchino",
+      "Kinich"
+    ],
+    "actionCards": [
+      "\"Flower-Feather Clan\"",
+      "Little Tepetlisaur — Treasure Hunter at Large",
+      "Hot Spring O'Clock"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 38 of \"Paimon's Paintings\" chat emojis."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "March 1, 2025",
+    "requiredElements": [
+      "Hydro",
+      "Electro",
+      "Cryo"
+    ],
+    "openingCharacters": [
+      "Kamisato Ayato",
+      "Barbara",
+      "Raiden Shogun",
+      "Ororon",
+      "Eula",
+      "Layla"
+    ],
+    "guestCharacters": [
+      "Yumemizuki Mizuki",
+      "Navia",
+      "Xinyan",
+      "Thoma"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members have their Elemental Mastery increased by 200.",
+      "All characters in the party gain a 75% Electro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Swirl DMG dealt by the active character increased by 600%.",
+      "Second Half: Characters' Charged Attack Cryo DMG increased by 75%.",
+      "First Half: Characters' Elemental Skill Hydro DMG increased by 75%.",
+      "Second Half: Characters' Plunging Attack DMG increased by 75%."
+    ],
+    "blessingName": "Blessing of the Abyssal Moon:",
+    "blessingEffect": "Stirring Moon: When a character receives healing, a shockwave will be unleashed at the character's position, dealing True DMG to nearby opponents. This effect can be triggered once every 3s."
   }
 }

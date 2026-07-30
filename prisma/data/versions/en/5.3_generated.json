@@ -1,14 +1,69 @@
 {
   "number": "5.3",
+  "cycleLabel": null,
   "name": "Incandescent Ode of Resurrection",
+  "subtitle": null,
+  "description": "The prophecy has proclaimed the price of life, but it has not extinguished the remnants of hope.<br>The distance between the evening stars and the dawn is akin to the boundary between life and death.<br>When the sun slumbers beneath the mountains, someone will ignite a flame to dispel the darkness.",
   "releaseDate": "2025-01-01",
   "endDate": "2025-02-12",
-  "newCharacters": [
-    "Mavuika",
-    "Citlali",
-    "Lan Yan"
+  "previousVersion": "5.2",
+  "nextVersion": "5.4",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/127791",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/127655",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=b0f94ebdcdaf42cc#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_QaiBDjkyxb/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/127431",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Incandescent Ode of Resurrection.png",
+    "Splashscreen The Hearth's Ashen Shadow Illuminating Lightning.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Mavuika",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Citlali",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Lan Yan",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    }
+  ],
+  "newOutfits": [
+    {
+      "name": "Cherries Snow-Laden",
+      "character": "Hu Tao"
+    },
+    {
+      "name": "New Year's Cheer",
+      "character": "Xiangling"
+    }
+  ],
   "newWeapons": {
     "5Star": [
       "A Thousand Blazing Suns",
@@ -17,34 +72,44 @@
   },
   "banners": {
     "characters": [
-      "Ancient Flame Ablaze",
-      "Starry Night's Whispers",
-      "The Hearth's Ashen Shadow",
-      "Illuminating Lightning",
-      "Remembrance of Jade and Stone",
-      "Characters: Baizhu, Shenhe, Keqing, Ganyu, Xiao, Tartaglia, Qiqi",
-      "Weapons: Primordial Jade Cutter, Summit Shaper, The Unforged, Calamity Queller, Primordial Jade Winged-Spear, Jadefall's Splendor, Memory of Dust, Polar Star, Amos' Bow"
+      {
+        "name": "Ancient Flame Ablaze",
+        "featured": "Mavuika",
+        "phase": 1
+      },
+      {
+        "name": "Starry Night's Whispers",
+        "featured": "Citlali",
+        "phase": 1
+      },
+      {
+        "name": "The Hearth's Ashen Shadow",
+        "featured": "Arlecchino & Lan Yan",
+        "phase": 2
+      },
+      {
+        "name": "Illuminating Lightning",
+        "featured": "Clorinde & Lan Yan",
+        "phase": 2
+      },
+      {
+        "name": "Remembrance of Jade and Stone",
+        "featured": "Chronicled Wish",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Springtime Charms",
-    "Lantern-Lit Gathering",
-    "May Fortune Find You: Spring's Premonition",
-    "Emblem of Steadfast Valor",
-    "On the Trail of Behemoths",
-    "Shuyu's Baffling Beetle Battle Bowl",
-    "Overflowing Abundance",
-    "As the Blazing Sun (Event)",
-    "Memories Flowing With Color (Event)"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "Stone Stele Records"
   ],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Repertoire of Myriad Melodies"
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -56,6 +121,17 @@
       ]
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [
+    "Talisman of the Enigmatic Land",
+    "Eroded Horn",
+    "Eroded Sunfire",
+    "Eroded Scale-Feather"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -84,5 +160,177 @@
         ]
       }
     ]
+  },
+  "events": [
+    "Springtime Charms",
+    "Lantern-Lit Gathering",
+    "May Fortune Find You: Spring's Premonition",
+    "Emblem of Steadfast Valor",
+    "On the Trail of Behemoths",
+    "Shuyu's Baffling Beetle Battle Bowl",
+    "Overflowing Abundance",
+    "As the Blazing Sun (Event)",
+    "Memories Flowing With Color (Event)"
+  ],
+  "newRecipes": [
+    "Magmic Ode",
+    "Qingxin Flower Cake",
+    "Drunken Plums in Snow"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Hymn of Gathered Flame",
+    "Secret Art",
+    "Jade-Cut Flowers"
+  ],
+  "newAchievements": [
+    "Mortal Travails: Series V",
+    "Challenger: Series X",
+    "Repertoire of Myriad Melodies",
+    "Wonders of the World"
+  ],
+  "newNamecards": [
+    "Mavuika: Sun-Crowned",
+    "Citlali: Opalstar",
+    "Lan Yan: Silver Swallow",
+    "Achievement: All-Seeing",
+    "Achievement: Blaze",
+    "Achievement: Repertoire",
+    "Travel Notes: The Flame Renewed"
+  ],
+  "newGadgets": [
+    "Ukulele",
+    "Djem Djem Drum"
+  ],
+  "newFurnishings": [
+    "Ageless Agave",
+    "Alluring Flavors of the Sacred Flame",
+    "Auspicious Mora: \"Flowing Fortune\"",
+    "Auspicious Mora: \"Splendid Bounty\"",
+    "Bear Witness",
+    "Black Gold of the Blazing Realm",
+    "By Cinder City's Glowing Light",
+    "Climax of Colors and Hues",
+    "Curious Countenances of the Sacred Flame",
+    "Divine Remains, Left to Pacify the Nether",
+    "Dwelling Portal: Sacred Duty",
+    "Dwelling Wall: Graffiti Panel",
+    "Dwelling Wall: Guiding Lines",
+    "Dwelling Wall: Journey Through Art",
+    "Dwelling Wall: Warped Perspective",
+    "Eight Adepts Mask: \"Gold-Eyed Celadon Mare\"",
+    "Eight Adepts Mask: \"Jade-Plumed Silverwing\"",
+    "Eight Adepts Mask: \"Lone Butterfly of the Crimson Flame\"",
+    "Eight Adepts Mask: \"Sage Hu\"",
+    "Eight Adepts Mask: \"Sage Jian\"",
+    "Eight Adepts Mask: \"Wind Reader\"",
+    "Eight Adepts Mask: \"Wuwang Kid\"",
+    "Eight Adepts Mask: \"Yunlai Angler\"",
+    "Fair Carpet: Warmth and Passion",
+    "Fair Table: Uncut Original",
+    "Fair's Simple Sales Strategy",
+    "Fair's Thoughts in Order",
+    "Fair's Treasures and Trinkets",
+    "Fairest of Scenes",
+    "Foe's Trace",
+    "Forever in Arms",
+    "Fragrant Firewood",
+    "Glorious Hues of the Sacred Flame",
+    "Gloomglow Fungi",
+    "Guardian Pillar: Abundant Shamans",
+    "Guardian Pillar: Exalted Heroes",
+    "Guardian Pillar: Innumerable Sparks",
+    "Guardian Pillar: Myriad Warriors",
+    "Heron-Spiral Downlight: \"A Thousand Wondrous Vistas\"",
+    "Initiate's War Club",
+    "Javelin's Shaft",
+    "Last Resort",
+    "Lofty Tower's Fashionable Canvas",
+    "Lofty Tower's Flaming Brazier",
+    "Lofty Tower's Floor of Trials",
+    "Lofty Tower's Radiant Ceiling",
+    "Lofty Tower's Sturdy Door",
+    "Lofty Tower's Textured Stairs",
+    "May They Find Respite",
+    "May They Not Fall",
+    "May They Not Get Lost",
+    "Musings on Colors and Hues",
+    "Natlan Dwelling: \"Lofty Tower\"",
+    "Ore's Abundance",
+    "Our Destination",
+    "Phlogiston Lamp: Rain Cover",
+    "Pilgrimage by the Hammer's Blow",
+    "Pilgrimage of Flame",
+    "Plum Branch Arrangement: \"Boundless Spring\"",
+    "Portable All-Purpose Grill",
+    "Promise of Abundance",
+    "Sated Flare",
+    "Secrets of Good Health",
+    "Spattered Colors and Hues",
+    "Springtime Folding Screen: A Touch of Red",
+    "Springtime Folding Screen: Fragrance Fills the Air",
+    "Stadium's \"Tempered\" Steps",
+    "Stone Bed: Peaceful Sleep",
+    "Sweet Down",
+    "Warbow's Strongarm",
+    "Wave's Wisp",
+    "Wooden Signboard: Enchanting Experience",
+    "Woven Hut: Rhythmic Stripes",
+    "Woven Hut: Serene Indigo"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Mualani",
+      "Clorinde"
+    ],
+    "actionCards": [
+      "Demon-Warrior's Feather Mask",
+      "Qucusaurus",
+      "\"People of the Springs\"",
+      "Pilgrimage of the Return of the Sacred Flame",
+      "Abundant Phlogiston",
+      "Puff Pops"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 37 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "New Serenitea Pot Realm Layout: \"Tletl Ilhuicatl\": Unlocked after using the item \"Scroll of the Fiery Firmament.\""
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "February 1, 2025",
+    "requiredElements": [
+      "Pyro",
+      "Hydro",
+      "Anemo"
+    ],
+    "openingCharacters": [
+      "Hu Tao",
+      "Gaming",
+      "Mona",
+      "Xingqiu",
+      "Venti",
+      "Shikanoin Heizou"
+    ],
+    "guestCharacters": [
+      "Clorinde",
+      "Ororon",
+      "Citlali",
+      "Yun Jin"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members receive a 75% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Pyro DMG dealt by all party members' Normal Attacks increased by 75%.",
+      "Second Half: All party members' Nightsoul-aligned DMG increased by 75%."
+    ],
+    "blessingName": "Blessing of the Abyssal Moon:",
+    "blessingEffect": "Scorching Moon: After a party member triggers a Pyro-related reaction, a shockwave will be unleashed at the character's position, dealing True DMG to nearby opponents. This effect can be triggered once every 3s."
   }
 }

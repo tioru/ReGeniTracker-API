@@ -1,14 +1,56 @@
 {
   "number": "2.2",
+  "cycleLabel": null,
   "name": "Dans les méandres de la brume",
+  "subtitle": null,
+  "description": "Les épreuves des guerriers sont dissimulées dans les donjons, le passé enfoui dans les méandres de la brume.<br>Lorsque le voile du mystère se lève, peu importe qu'il soit question d'un soldat prêt à se battre, ou encore d'un voyageur venu d'une terre lointaine, la vérité sera faite.",
   "releaseDate": "2021-10-13",
   "endDate": "2021-11-24",
-  "newCharacters": [
-    "Thomas",
-    "Aloy",
-    "Aloy"
+  "previousVersion": "2.1",
+  "nextVersion": "2.3",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16488",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16369",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20211004-preview/index.html?game_biz=hk4e_global&mhy_presentation_style=fullscreen&mhy_landscape=true",
+      "label": "Version 2.2 Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16321",
+      "label": "Developer's Discussion 10/06"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Into the Perilous Labyrinth of Fog.png",
+    "Splashscreen Moment of Bloom 2.2.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Thomas",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Aloy",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Aloy",
+      "rarity": null,
+      "element": null,
+      "weaponType": null
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Étoile polaire"
@@ -21,26 +63,28 @@
   },
   "banners": {
     "characters": [
-      "Adieux au Nord",
-      "Floraison écarlate"
+      {
+        "name": "Adieux au Nord",
+        "featured": "Tartaglia",
+        "phase": null
+      },
+      {
+        "name": "Floraison écarlate",
+        "featured": "Hu Tao & Thoma",
+        "phase": null
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Guerrier du labyrinthe",
-    "Ombre des anciens",
-    "Tuned to the World's Sounds",
-    "Rêve de floraison",
-    "Reflux des lignes énergétiques"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "One Time Domain",
     "Moshiri Kara"
   ],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -48,6 +92,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -57,5 +107,65 @@
       "Clean House"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Guerrier du labyrinthe",
+    "Ombre des anciens",
+    "Tuned to the World's Sounds",
+    "Rêve de floraison",
+    "Reflux des lignes énergétiques"
+  ],
+  "newRecipes": [
+    "« Chaleur »",
+    "Ragoût de radis et de poisson",
+    "Wakatakeni",
+    "Mizu manju aux baies",
+    "Soba"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "New Category",
+    "Succès/Chroniques de la mer de brouillard",
+    "Additions",
+    "Succès/Merveilles du monde",
+    "Succès/Souvenirs du cœur"
+  ],
+  "newNamecards": [
+    "Thème PB - Général céleste",
+    "Thème Thomas - Brassards ardents",
+    "Thème Inazuma - Plume d'aigle"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Enceintes",
+    "Bâtiments",
+    "Topographie",
+    "Tree",
+    "Shrub",
+    "Floating Platform (New Category)",
+    "Roche dimensionnelle « Chaîne céleste »",
+    "Paysages",
+    "Bâtiments principaux",
+    "Décorations d'extérieur",
+    "Paving (New Category)"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "dealt by party members increased by 60%.",
+      "dealt by party members increased by 60%."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase 1: Vanguard Moon",
+    "blessingEffect": "After the challenge begins, when a character's Elemental Energy is greater than or equal to 50%, they will gain a 6.5% ATK Bonus every second. Max 10 stacks. When a character's Elemental Energy is less than 30%, the ATK Bonus gained this way will be cleared."
   }
 }

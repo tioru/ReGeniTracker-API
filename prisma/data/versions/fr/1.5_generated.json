@@ -1,13 +1,58 @@
 {
   "number": "1.5",
+  "cycleLabel": null,
   "name": "Toute la lueur sur la jadéite",
+  "subtitle": null,
+  "description": "La clarté de la lune traverse les branches tandis que le rugissement du dragon s'élève dans le ciel. Le soleil perce parfois, mais un cœur de pierre ne s'émeut pas facilement.<br>Les contrats sont scellés dans les flammes écarlates, et le flot gelé de la vengeance s'écoule par vagues. Mais loin du combat se trouve un royaume de sérénité, qu'une douce mélodie emplit à jamais.",
   "releaseDate": "2021-04-28",
   "endDate": "2021-06-09",
-  "newCharacters": [
-    "Eula",
-    "Yanfei"
+  "previousVersion": "1.4",
+  "nextVersion": "1.6",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/12376",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/12241",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210422newver/index.html",
+      "label": "Version 1.5 Website"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/11938",
+      "label": "Developer's Discussion 4/16"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/11949",
+      "label": "Developer's Discussion 4/17"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/12054",
+      "label": "Serenitea Pot System Details"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Beneath the Light of Jadeite.png",
+    "Splashscreen Born of Ocean Swell.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Eula",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Yanfei",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Catalyst"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Ode au chant du vent"
@@ -15,20 +60,25 @@
   },
   "banners": {
     "characters": [
-      "Monts et marchés",
-      "Flots dansants"
+      {
+        "name": "Monts et marchés",
+        "featured": "Zhongli & Yanfei",
+        "phase": null
+      },
+      {
+        "name": "Flots dansants",
+        "featured": "Eula",
+        "phase": null
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [
-    "Ténacité du Millelithe",
-    "Flamme blême"
-  ],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [
       "Azhdaha"
     ],
@@ -42,6 +92,15 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [
+    "Ténacité du Millelithe",
+    "Flamme blême"
+  ],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -51,5 +110,60 @@
       "Quand la piste refroidit"
     ],
     "hangoutQuests": []
-  }
+  },
+  "events": [],
+  "newRecipes": [],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Gadgets",
+    "Serenitea Pot",
+    "Recipes",
+    "Stormcrest Pie",
+    "\"My Way\"",
+    "Crab Roe Tofu",
+    "Stir-Fried Fish Noodles",
+    "Cured Pork Dry Hotpot",
+    "Inventory Category",
+    "Furnishings",
+    "Precious Items",
+    "Dream Solvent",
+    "Transient Resin",
+    "Vial of Adeptal Speed",
+    "Sanctifying Unction",
+    "Sanctifying Essence",
+    "Achievements",
+    "A Realm Beyond: Series I",
+    "Memories of the Heart",
+    "etc.",
+    "Namecards",
+    "Celebration: Fruit of Wisdom",
+    "Celebration: Peekaboo!",
+    "Yanfei: Impartial",
+    "Eula: Ice-Sealed",
+    "Travel Notes: Sub-Space Recreation",
+    "Achievement: Tea Time",
+    "Spiral Abyss",
+    "Floor 11 Ley Line Disorders changed to:",
+    "Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed.",
+    "dealt by all party members increased by 75%.",
+    "Updates the monster lineup on Floor 11 of the Spiral Abyss.",
+    "Updates the monster lineup on Floor 12 of the Spiral Abyss.",
+    "Starting from the first time that the Lunar Phase refreshes after updating to Version 1.5, the three Lunar Phases will be as follows:",
+    "Phase 1: Blade-Dance Moon<br>When a character scores consecutive hits on an opponent with Normal Attacks within 2s, this character's is increased by 5% for 10s. This effect stacks up to 5 times, and only 1 stack is added at a time regardless of how many enemies are hit in one strike. When 5 stacks have been obtained, further hits on opponents will unleash shockwaves that deal AoE DMG. A shockwave can be created in this manner once every 1s.",
+    "Phase 2: Thorny Moon<br>A backlash will occur when opponents hit a character protected by a shield, unleashing a shockwave that deals AoE DMG. Can occur once every 6s.",
+    "Phase 3: Rebellious Moon<br>When a character scores Normal, Charged, and Plunging Attack hits that deal to opponents, this character's CRIT Rate is increased by 3% for 10s. This effect stacks up to 5 times, and only 1 stack is added at a time regardless of how many enemies are hit in one strike. When 5 stacks have been obtained, CRIT Hits on opponents will unleash shockwaves that deal AoE DMG. A shockwave can be created in this manner once every 1s."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": null
 }

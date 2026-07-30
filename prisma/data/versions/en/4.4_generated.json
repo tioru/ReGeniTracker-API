@@ -1,12 +1,99 @@
 {
   "number": "4.4",
+  "cycleLabel": null,
   "name": "Vibrant Harriers Aloft in Spring Breeze",
+  "subtitle": null,
+  "description": "Spring has come early, and in its wake a rising beast, gazing up towards the clouds against an auspicious breeze.<br>Soaring up like wild cranes the harlequin kites ascend, while a stream flows back through a vale of hidden treasures.",
   "releaseDate": "2024-01-31",
   "endDate": "2024-03-13",
-  "newCharacters": [
-    "Xianyun",
-    "Gaming"
+  "previousVersion": "4.3",
+  "nextVersion": "4.5",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/122141",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/122050",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=e77618c712a04029#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20240120preview/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/119426",
+      "label": "Developer's Discussion"
+    }
   ],
+  "images": [
+    "Splashscreen Vibrant Harriers Aloft in Spring Breeze.png",
+    "Splashscreen Everbloom Violet Invitation to Mundane Life.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Xianyun",
+      "rarity": 5,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Gaming",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [
+    {
+      "name": "Frostflower Dew",
+      "character": "Shenhe"
+    },
+    {
+      "name": "Twilight Blossom",
+      "character": "Ganyu"
+    },
+    {
+      "name": "Bamboo Rain",
+      "character": "Xingqiu"
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Crane's Echoing Call"
+    ]
+  },
+  "banners": {
+    "characters": [
+      {
+        "name": "The Crane Soars Skyward",
+        "featured": "Xianyun & Gaming",
+        "phase": 1
+      },
+      {
+        "name": "The Moongrass' Enlightenment",
+        "featured": "Nahida & Gaming",
+        "phase": 1
+      },
+      {
+        "name": "Invitation to Mundane Life",
+        "featured": "Xiao",
+        "phase": 2
+      },
+      {
+        "name": "Everbloom Violet",
+        "featured": "Yae Miko",
+        "phase": 2
+      }
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
+  },
   "mapExpansion": [
     {
       "mainRegion": "Chenyu Vale, Liyue",
@@ -29,34 +116,11 @@
       ]
     }
   ],
-  "newWeapons": {
-    "5Star": [
-      "Crane's Echoing Call"
-    ]
-  },
-  "banners": {
-    "characters": [
-      "The Crane Soars Skyward",
-      "The Moongrass' Enlightenment",
-      "Invitation to Mundane Life",
-      "Everbloom Violet"
-    ],
-    "weapons": [
-      "Epitome Invocation"
-    ]
-  },
-  "events": [
-    "Vibrant Harriers Aloft in Spring Breeze",
-    "May Fortune Find You",
-    "Of Kites and New Sights",
-    "Receiver of Friends From Afar",
-    "Journey Through Hilinigmatic Terrain",
-    "Triumphant Frenzy",
-    "Overflowing Mastery"
-  ],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Rainjade's Benediction"
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [
       "Xuanwen Beast"
@@ -68,6 +132,24 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Fluff-Fleece Goat",
+    "Malachitin Lumibug",
+    "Redbill Pelican",
+    "Jadestone Turtle",
+    "Velvetfall Duck"
+  ],
+  "newArtifacts": [],
+  "newMaterials": [
+    "Chenyu Adeptea"
+  ],
+  "newMonsterDrops": [
+    "Feathery Fin",
+    "Lunar Fin",
+    "Chasmlight Fin"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -98,5 +180,142 @@
       "Silently the Butterfly Crosses the Valley"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Vibrant Harriers Aloft in Spring Breeze",
+    "May Fortune Find You",
+    "Of Kites and New Sights",
+    "Receiver of Friends From Afar",
+    "Journey Through Hilinigmatic Terrain",
+    "Triumphant Frenzy",
+    "Overflowing Mastery"
+  ],
+  "newRecipes": [
+    "Honey Char Siu",
+    "Chenyu Brew",
+    "Jadevein Tea Eggs",
+    "Tea-Smoked Squab",
+    "Deep-Fried Doublecrisp",
+    "Braised Meatball",
+    "Guhua Fish & Lamb Soup",
+    "Fine Tea, Full Moon",
+    "Eight-Treasure Duck",
+    "The Palace Jewels",
+    "Trembling Strings and Rushing Reeds",
+    "Humbly Enough",
+    "Right at Home"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Encompassing Gladness",
+    "Yummy Yum Cha"
+  ],
+  "newAchievements": [
+    "Chenyu's Splendor",
+    "Wonders of the World"
+  ],
+  "newNamecards": [
+    "Xianyun: White Clouds",
+    "Gaming: Man Chai",
+    "Achievement: Adeptal Valley",
+    "Chenyu: Rainjade Rite",
+    "Travel Notes: Vibrant Harriers",
+    "Album: The Stellar Moments"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "\"Help!!!\"",
+    "\"Ladle of the Leisurely Sea-Beast\"",
+    "\"N-No Way!\"",
+    "\"Naught but Indignation for the People's Lot\"",
+    "\"The Title of Champion Is Mine!\"",
+    "Artisanal Fish Lantern: Carp's Well",
+    "Artisan Fish Lantern: Spring Profits",
+    "Banquet Screen: Crying Swallows and Chirping Sparrows",
+    "Banquet Screen: Dancing Butterflies and Leaping Fish",
+    "Brilliant Lantern: Peace and Joy",
+    "Celebratory Kite: All's Well",
+    "Celebratory Kite: Butterfly Dance",
+    "Celebratory Kite: Prosperity and Wealth",
+    "Celebratory Kite: Successive Prosperity",
+    "Crimson Qiuyue Frostflower",
+    "Fragrant Cedar Wood Announcement Board",
+    "Hung Condensed Bladebone",
+    "Mega Mystifying Samachurl Statue",
+    "Port Floor Light: Wisp of Fragrance",
+    "Port Street Light: Good Things Come in Pairs",
+    "Rainjade Statuette: Tender Discourse",
+    "Square Tea Table: Friendly Welcome",
+    "Stone Drum: Sonic Reverberation",
+    "Suspensus Somnium Mechanism",
+    "Tea Chair: Cool Breeze",
+    "Valley Cave: The Fan's Winding Path",
+    "Valley Gable: Rain Shelter",
+    "Valley Gable: Warding Wind and Fire",
+    "Valley Gate: Bustling Yard",
+    "Valley Gate: Mountains Beyond the Gate",
+    "Valley Pavilion: Warm Daylight",
+    "Valley Pergola: Sun and Rain",
+    "Valley Residence: Custom Complexity",
+    "Valley Residence: Measured Building",
+    "Valley Residence: Tender Countryside",
+    "Valley Residence: Total Focus",
+    "Valley Residence: Towering Mountains",
+    "Valley Residence: Tranquility",
+    "Valley Stage: Billowing Cloud Waves",
+    "Valley Stone Archway: Recurring Omen of Abundance",
+    "Valley Stone Lamp: Everbright Light",
+    "Valley Stone Steps: Foundation Stone",
+    "Valley Stone Wall: Carp and Kite",
+    "Valley Stone Wall: Flowers and Willows",
+    "Valley Stone Wall: Jade Belt River",
+    "Valley Store: The Leisure of Tea",
+    "Valley Veranda: Distant Beginnings",
+    "Valley Veranda: From Solid Foundations to Thrive",
+    "Valley Wall Corner: Like Gathering Waves",
+    "Valley Watchtower: Vigilance",
+    "Wushou Dance Costume: Roaring Suanni",
+    "Wushou Dance Doll: Sleepy Suanni"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Sayu",
+      "Thoma",
+      "Cryo Hypostasis",
+      "Millennial Pearl Seahorse"
+    ],
+    "actionCards": [
+      "Veteran's Visage",
+      "Jeht",
+      "Silver and Melus",
+      "Matsutake Meat Rolls",
+      "Machine Assembly Line",
+      "Sunyata Flower",
+      "Sapwood Blade"
+    ]
+  },
+  "otherAdditions": [
+    "New Books:",
+    "Time Trekker",
+    "New Function: Fast Equip Artifacts",
+    "Quick Configuration: A set of Artifacts will be put together for your reference based on data from recently active players. When generating a configuration, it will only consider Artifacts not already equipped by other characters.",
+    "Custom Configuration: Custom Configuration data will be based on the settings laid out for each character. When using a Custom Configuration, you can configure based on conditions such as Artifact Main Affix, Set Type, and Minor Affixes and choose whether or not to use Artifacts that haven't already been equipped. The configuration created by Custom Configuration can be adjusted, with alternative Artifacts sorted based on the overall priority levels of their Artifact Set and Affixes. When \"Other Options\" > \"All\" is selected in Custom Configuration, when the configuration includes Artifacts already equipped by another character, the Artifacts will be removed and equipped to the target character.",
+    "Adds the \"Borderless Mode\" fullscreen option in \"Display Mode\" in \"Settings / Graphics\" interface on PC.",
+    "New Fishing Points and \"Radiant Spincrystals\" in Liyue.",
+    "New Fish: Jade Heartfeather Bass",
+    "Adds Set 29 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens"
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 75% Anemo DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Ascendant Moon",
+    "blessingEffect": "When a character receives healing, it will be counted. When the count reaches a total of 16, a shockwave will be unleashed at the character's position, dealing True DMG to nearby opponents and clearing the count. 1 such shockwave can be unleashed every 8s."
   }
 }

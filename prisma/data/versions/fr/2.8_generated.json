@@ -1,12 +1,53 @@
 {
   "number": "2.8",
+  "cycleLabel": null,
   "name": "Summer Fantasia",
+  "subtitle": null,
+  "description": "Le plus fort de l'été est une période merveilleuse de l'année, et il y a toujours de nombreux événements étranges et intéressants qui se déroulent. Une lame maudite d'origine inconnue, une mystérieuse affaire non résolue et les îles familières mais pas trop familières au loin... \"Ô guerriers chevronnés, ne craignez pas les profondeurs du désespoir et de la mort nées du chaos !\". \"Car la Princesse, la plus sainte des souveraines du royaume où la nuit est sacrée, prononcera donc le verdict de la victoire.\" Ainsi, chacun a suivi le chemin de son destin, prêt à affronter des rencontres et des défis inconnus.",
   "releaseDate": "2022-07-13",
   "endDate": "2022-08-24",
-  "newCharacters": [
-    "Shikanoin Heizou"
+  "previousVersion": "2.7",
+  "nextVersion": "3.0",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/22212",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/22074",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=c82261e0fe0f432d#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20220703prev-wiz6/index.html",
+      "label": "Website"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Summer Fantasia.png",
+    "Splashscreen Tapestry of Golden Flames 2.8.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Shikanoin Heizou",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    }
+  ],
+  "newOutfits": [
+    {
+      "name": "Songe de la nuit éternelle",
+      "character": "Fischl 4-Star"
+    },
+    {
+      "name": "Nuit écarlate",
+      "character": "Diluc 5-Star"
+    }
+  ],
   "newWeapons": {
     "4Star": [
       "Kagotsurube Isshin",
@@ -20,16 +61,10 @@
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Séjour estival à la mer",
-    "Exercice réminiscent",
-    "Visions résonnantes",
-    "Conflit secret",
-    "Cadre mécanique perpétuel"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -37,6 +72,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -74,5 +115,61 @@
         ]
       }
     ]
+  },
+  "events": [
+    "Séjour estival à la mer",
+    "Exercice réminiscent",
+    "Visions résonnantes",
+    "Conflit secret",
+    "Cadre mécanique perpétuel"
+  ],
+  "newRecipes": [
+    "Vérité unique"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "Memories of the Heart category"
+  ],
+  "newNamecards": [
+    "Thème Shikanoin Heizou - Temari",
+    "Thème PB - Azur marin"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Fleuron d'allegro « Accord spécial »",
+    "Cosmos intérieur",
+    "Été de Dodoco",
+    "Sac de voyage de Dodoco",
+    "Four Dodo de Dodoco",
+    "Sieste de plage de Dodoco",
+    "Vitrine de collection de Dodoco",
+    "Parasol de plage de Dodoco",
+    "Légendaire empereur scarabuto",
+    "Photo-souvenir du théâtre du crépuscule",
+    "Marche-tempête",
+    "Tranquillité stellaire"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "\"Adventurer Handbook - Guide\" page.",
+    "\"Adventurer Handbook - Embattle\" page.",
+    "Fragile Resin tutorial.",
+    "Some Loading Screen prompts."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members receive a 75% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Valiant Moon",
+    "blessingEffect": "When a character takes the field, they will gain 1 Fortitude stack every 2s. This will increase their ATK by 20%. Max 3 stacks. When characters with 3 Fortitude stacks hit opponents with Charged Attacks, a shockwave will be unleashed at the opponents' position, dealing True DMG. A shockwave can be unleashed in this manner once every 2s. When the character leaves the field, all their Fortitude stacks will be cleared."
   }
 }

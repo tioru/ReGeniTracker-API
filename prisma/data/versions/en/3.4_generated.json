@@ -1,13 +1,63 @@
 {
   "number": "3.4",
+  "cycleLabel": null,
   "name": "The Exquisite Night Chimes",
+  "subtitle": null,
+  "description": "Sing, where the fireworks are in full bloom.<br>Dance, where the wind sweeps the sand.<br>Ancient melodies dissipate in the dreamscapes of memories.<br>For only in legends,<br>is the water still clear, and the meadows evergreen.",
   "releaseDate": "2023-01-18",
   "endDate": "2023-03-01",
-  "newCharacters": [
-    "Alhaitham",
-    "Yaoyao"
+  "previousVersion": "3.3",
+  "nextVersion": "3.5",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/105081",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://www.hoyolab.com/article/15052123",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?page_sn=b6472467bdcd440b#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20230107preview-x2wqn1/index.html",
+      "label": "Website"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/28517",
+      "label": "Developers Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen The Exquisite Night Chimes.png",
+    "Splashscreen Moment of Bloom Discerner of Enigmas.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Alhaitham",
+      "rarity": 5,
+      "element": "Dendro",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Yaoyao",
+      "rarity": 4,
+      "element": "Dendro",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [
+    {
+      "name": "Springbloom Missive",
+      "character": "Kamisato Ayaka"
+    },
+    {
+      "name": "A Sobriquet Under Shade",
+      "character": "Lisa"
+    }
+  ],
   "newWeapons": {
     "5Star": [
       "Light of Foliar Incision"
@@ -15,31 +65,38 @@
   },
   "banners": {
     "characters": [
-      "Caution in Confidence",
-      "Invitation to Mundane Life",
-      "Moment of Bloom",
-      "Discerner of Enigmas"
+      {
+        "name": "Caution in Confidence",
+        "featured": "Alhaitham & Yaoyao",
+        "phase": 1
+      },
+      {
+        "name": "Invitation to Mundane Life",
+        "featured": "Xiao & Yaoyao",
+        "phase": 1
+      },
+      {
+        "name": "Moment of Bloom",
+        "featured": "Hu Tao",
+        "phase": 2
+      },
+      {
+        "name": "Discerner of Enigmas",
+        "featured": "Yelan",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "The Exquisite Night Chimes",
-    "Fortuitous Invitation",
-    "May Fortune Find You",
-    "Iridescent Splendor",
-    "Almighty Arataki Extraordinary and Exhilarating Extreme Beetle Brawl",
-    "Warrior's Spirit",
-    "Second Blooming",
-    "Overflowing Mastery"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "Fane of Panjvahe",
     "City of the Deceased"
   ],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [
       "Eremite Scorching Loremaster",
       "Eremite Floral Ring-Dancer"
@@ -56,6 +113,14 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Flying Serpent"
+  ],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -80,5 +145,50 @@
       "The Fallen Falcon"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "The Exquisite Night Chimes",
+    "Fortuitous Invitation",
+    "May Fortune Find You",
+    "Iridescent Splendor",
+    "Almighty Arataki Extraordinary and Exhilarating Extreme Beetle Brawl",
+    "Warrior's Spirit",
+    "Second Blooming",
+    "Overflowing Mastery"
+  ],
+  "newRecipes": [],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "A brand-new Battle Pass-exclusive Furnishing Blueprint as compensation to Travelers who have unlocked Version 3.3's Gnostic Chorus.",
+    "Adds some prompts for loading screens.",
+    "Added Sets 15–20 of \"Paimon's Paintings\" chat emojis.",
+    "New casual PvP \"Heated Battle Mode\" in Genius Invokation TCG that skips Roll Phase and go straight to getting 8 Omni Element Dice",
+    "Add Match History function to Genius Invokation TCG.",
+    "New invitation duels and guest challenges added to the Player List.",
+    "Adds markers for Teleport Waypoints and Domains in non-outdoor areas on the map.",
+    "The gadget \"Launch Tube\" and other fireworks can now be purchased from the NPC Granny Shan in Liyue Harbor.",
+    "Consecrated Scorpions and Scorpions are added to the area around the Serpent's Head in Yashiori Island.",
+    "Tree of Dreams, Vanarana: Increase in the Level Cap of Tree of Dreams to Level 40."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 75% Dendro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Thorn-Twisted Moon",
+    "blessingEffect": "The Dendro RES and Electro RES will be decreased by 30% for opponents that are under the Quickened state. This effect will be removed 2s after the Quickened state ends."
   }
 }

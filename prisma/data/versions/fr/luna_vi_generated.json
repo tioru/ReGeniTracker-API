@@ -1,11 +1,79 @@
 {
-  "number": "Luna VI",
+  "number": "6.5",
+  "cycleLabel": "Luna VI",
   "name": "Retour prophétisé",
+  "subtitle": "Chant de l'astre de la nuit - Rondeau",
+  "description": "Dès que nous ouvrons les yeux, nous commençons à découvrir le monde.<br>Nous entendons poésie et chants, qui guident les nivéoles vers le royaume des mortels, et les hommes vers un espace-temps infini.<br>Nul besoin de se lamenter sur le passé ou l'avenir, car ce monde est assez vaste pour engloutir toute mélancolie.",
   "releaseDate": "2026-04-08",
   "endDate": "2026-05-20",
-  "newCharacters": [
-    "Linnea"
+  "previousVersion": "Luna V",
+  "nextVersion": "Luna VII",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/163454",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://www.hoyolab.com/article/44512349",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=a8dca8609c7346de#/index",
+      "label": "Version Highlights"
+    }
   ],
+  "images": [
+    "Splashscreen Augured Homecoming.png",
+    "Splashscreen Ya-hoho! Compendium.png",
+    "Splashscreen Wonderland Treasures Scales Aflame.png",
+    "Splashscreen Moonsong of the Groves Temptation of the Crimson Sands.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Linnea",
+      "rarity": 5,
+      "element": "Geo",
+      "weaponType": "Bow"
+    }
+  ],
+  "newOutfits": [],
+  "newWeapons": {
+    "5Star": [
+      "Serment de gel doré"
+    ]
+  },
+  "banners": {
+    "characters": [
+      {
+        "name": "Compendium Ya-hoho !",
+        "featured": "Linnea",
+        "phase": 1
+      },
+      {
+        "name": "Transpercement au sillage écarlate",
+        "featured": "Chasca",
+        "phase": 1
+      },
+      {
+        "name": "Chant lunaire des bosquets",
+        "featured": "Lauma",
+        "phase": 2
+      },
+      {
+        "name": "Tentation des sables écarlates",
+        "featured": "Nefer",
+        "phase": 2
+      },
+      {
+        "name": "Quiétude sous la rosée",
+        "featured": "Fontaine Chronicled Wish",
+        "phase": 2
+      }
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
   "mapExpansion": [
     {
       "mainRegion": "Windrest Peak, Mondstadt",
@@ -16,32 +84,11 @@
       "subRegion": []
     }
   ],
-  "newWeapons": {
-    "5Star": [
-      "Serment de gel doré"
-    ]
-  },
-  "banners": {
-    "characters": [
-      "Compendium Ya-hoho !",
-      "Transpercement au sillage écarlate",
-      "Chant lunaire des bosquets",
-      "Tentation des sables écarlates",
-      "Quiétude sous la rosée"
-    ],
-    "weapons": [
-      "Incarnation divine"
-    ]
-  },
-  "events": [
-    "Où récifs et vagues se rencontrent",
-    "Cinégraphie rapide",
-    "Mesures topographiques et cartographiques",
-    "Reflux des lignes énergétiques"
-  ],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Temple de l'espace : Noyau de mémoire"
+  ],
+  "newMonsters": {
     "common": [
       "Churldric",
       "\"Prince Mahavasudeva-Yava\""
@@ -56,6 +103,26 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Goéland ichthyaète de vigivent",
+    "Cerf aux cornes camelées",
+    "Papillon à ailes d'éther"
+  ],
+  "newArtifacts": [],
+  "newMaterials": [
+    "Papillon à ailes d'éther",
+    "Fleur de Vent-repos"
+  ],
+  "newMonsterDrops": [
+    "Boss normal",
+    "Plume de veilleur déchu",
+    "Elite",
+    "Poignée enflammée délavée",
+    "Poignée enflammée fracturée",
+    "Poignée enflammée ornée"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -77,5 +144,120 @@
       "Winds Beneath the Tower of Silence"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Où récifs et vagues se rencontrent",
+    "Cinégraphie rapide",
+    "Mesures topographiques et cartographiques",
+    "Reflux des lignes énergétiques"
+  ],
+  "newRecipes": [
+    "Burger au poisson du port",
+    "Assiette matinale de Meulavre"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Iridescence à l'ombre d'un arbre"
+  ],
+  "newAchievements": [
+    "Succès/Souffle de la montagne démoniaque",
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Thème Linnea - Résonance de cliquetis",
+    "Thème Mondstadt - Tour de guet",
+    "Thème Temple vide - Souvenirs débordants",
+    "Thème PB - Retour"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "« Tout croc, tout grognement »",
+    "« Anomalie du Temple »",
+    "Cascade de pluie",
+    "Splendeur florissante",
+    "Berceau de parfum",
+    "Flux cramoisi",
+    "Écho du silence",
+    "Confluence parfumée",
+    "« Regard du Temple »",
+    "Gribouillage de Mamère",
+    "Éclat chatoyant",
+    "Super canonnier",
+    "Rambarde ajourée de temple",
+    "« Murmures du Temple »",
+    "Balise de calibrage « Vent du nord invincible »",
+    "Balise de calibrage « Chevalier du Croc de Lion »",
+    "Balise de calibrage « Chevalier aux Embruns »",
+    "Réverbère de ville « Lanterne tamisée »",
+    "Premier modèle de baliste de Guizhong « Engagement coopératif »",
+    "Massif floral décoratif « Ordre verdoyant »",
+    "Plante décorative en pot « Parfum bourgeonnant »",
+    "Pavillon des trésors cachés",
+    "Automate de valse pneumousia",
+    "Petite vitrine en verre sur pied",
+    "Lampe murale de temple « Éclat chaleureux »",
+    "Panneau de village « De tout, de rien et tout le reste »"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Dahlia",
+      "Aino",
+      "Caniné sacralisé"
+    ],
+    "actionCards": [
+      "Crochet de capture",
+      "Boudiné",
+      "Lépine-Pauline",
+      "Elemental Transfiguration: Bloom Blessing",
+      "Elemental Transfiguration: Lava Blessing",
+      "Moonsign: Ascendant Gleam",
+      "Moon and Homeland",
+      "Cleaning Time",
+      "The Chasm"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 48 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Adds new Fish: Cerulean Doppeldrake"
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "May 1, 2026",
+    "requiredElements": [
+      "Pyro",
+      "Hydro",
+      "Dendro"
+    ],
+    "openingCharacters": [
+      "Dehya",
+      "Yanfei",
+      "Kamisato Ayato",
+      "Dahlia",
+      "Kinich",
+      "Kirara"
+    ],
+    "guestCharacters": [
+      "Varka",
+      "Razor",
+      "Albedo",
+      "Zibai"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": "April 16",
+    "floor11Disorder": [
+      "All party members have their Elemental Mastery increased by 200.",
+      "All party members receive a 75% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Lunar-Crystallize DMG is increased by 75%.",
+      "Second Half: Active characters' Normal and Charged Attack DMG is increased by 75%.",
+      "First Half: All party members receive a 75% Pyro DMG Bonus.",
+      "Second Half: Lunar-Bloom DMG is increased by 75%."
+    ],
+    "blessingName": "Rumbling Moon",
+    "blessingEffect": "When \"Moondrift Harmony\" is triggered, a shockwave is unleashed at the character's position to deal True DMG to opponents. This effect can be triggered once every 4s."
   }
 }

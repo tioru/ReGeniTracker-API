@@ -1,13 +1,50 @@
 {
   "number": "2.3",
+  "cycleLabel": null,
   "name": "Ombres au cœur du blizzard",
+  "subtitle": null,
+  "description": "Le froid glacial fait tressaillir, mais les mystères de la vie s'y épanouissent...<br>Suivez les ombres qui sont tapies dans la neige, attendez que les cendres soient balayées et que la poussière retombe.<br>Pour information, les éléments ci-dessus ne sont en aucun cas liés à Arataki Itto, le premier et plus grand chef du gang Arataki.",
   "releaseDate": "2021-11-24",
   "endDate": "2022-01-05",
-  "newCharacters": [
-    "Arataki Itto",
-    "Gorou"
+  "previousVersion": "2.2",
+  "nextVersion": "2.4",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17278",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17190",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210601blue_post/index.html?page_sn=630488a1549049f0",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20211113pre/index.html",
+      "label": "Website"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Shadows Amidst Snowstorms.png",
+    "Splashscreen Oni's Royale.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Arataki Itto",
+      "rarity": 5,
+      "element": "Geo",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Gorou",
+      "rarity": 4,
+      "element": "Geo",
+      "weaponType": "Bow"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Brise-pierre de corne rouge"
@@ -18,27 +55,30 @@
   },
   "banners": {
     "characters": [
-      "Nouvelles mystérieuses",
-      "Flots dansants",
-      "Baroud d'Oni"
+      {
+        "name": "Nouvelles mystérieuses",
+        "featured": "Albedo",
+        "phase": null
+      },
+      {
+        "name": "Flots dansants",
+        "featured": "Eula",
+        "phase": null
+      },
+      {
+        "name": "Baroud d'Oni",
+        "featured": "Arataki Itto & Gorou",
+        "phase": null
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Ombres au cœur du blizzard",
-    "Bantan Sango : Le chien guerrier",
-    "Misty Dungeon: Realm of Light",
-    "Energy Amplifier Fruition",
-    "Merveilleuses marchandises"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [
-    "Coquille des rêves opulents",
-    "Palourde aux teintes océaniques"
-  ],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -48,6 +88,15 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [
+    "Coquille des rêves opulents",
+    "Palourde aux teintes océaniques"
+  ],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -68,5 +117,50 @@
       "Silhouette dans la neige : Retrouvailles"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Ombres au cœur du blizzard",
+    "Bantan Sango : Le chien guerrier",
+    "Misty Dungeon: Realm of Light",
+    "Energy Amplifier Fruition",
+    "Merveilleuses marchandises"
+  ],
+  "newRecipes": [
+    "Chazuke à l'anguille",
+    "Cinq trésors marinés",
+    "Craquelins aux crevettes cerises",
+    "Légende victorieuse",
+    "Voie du puissant"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "Added more to \"Wonders of the World\"",
+    "Added more to \"Memories of the Heart\""
+  ],
+  "newNamecards": [
+    "Thème PB - Lyratum",
+    "Thème Gorou - Chien serein",
+    "Thème Itto - Visage d'Oni"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "dealt by all party members increased by 60%.",
+      "dealt by all party members' increased by 60%."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Exacting Moon",
+    "blessingEffect": "You will obtain 1 Extract stack after obtaining a shard created through the Crystallize reaction, which will increase the DMG dealt by your active character by 8% for 10s. Max 3 stacks. When characters possessing 3 stacks obtain more Crystallize reaction-created shards, they will unleash a shockwave that deals True DMG to opponents. Shockwaves created this way can occur every 3s."
   }
 }

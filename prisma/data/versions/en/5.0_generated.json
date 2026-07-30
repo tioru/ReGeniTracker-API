@@ -1,19 +1,60 @@
 {
   "number": "5.0",
+  "cycleLabel": null,
   "name": "Flowers Resplendent on the Sun-Scorched Sojourn",
+  "subtitle": null,
+  "description": "A competition as fierce as a roaring inferno, and a clash as dazzling as a cascade of iridescent gems.<br>On a hallowed night, the sparks ignited by warriors fall like stars, converging into the triumphant return of the sacred flame.",
   "releaseDate": "2024-08-28",
   "endDate": "2024-10-09",
-  "newCharacters": [
-    "Mualani",
-    "Kinich",
-    "Kachina"
-  ],
-  "mapExpansion": [
+  "previousVersion": "4.8",
+  "nextVersion": "5.1",
+  "links": [
     {
-      "mainRegion": "Natlan",
-      "subRegion": []
+      "url": "https://genshin.hoyoverse.com/en/news/detail/125553",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/125458",
+      "label": "Update Maintenance Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=8c0399aea4d14c33#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20240817preview-6y2ic4/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/125238",
+      "label": "Developer's Discussion"
     }
   ],
+  "images": [
+    "Splashscreen Flowers Resplendent on the Sun-Scorched Sojourn.png",
+    "Splashscreen Seeker of Flame-Wrought Secrets Reign of Serenity.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Mualani",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Kinich",
+      "rarity": 5,
+      "element": "Dendro",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Kachina",
+      "rarity": 4,
+      "element": "Geo",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Fang of the Mountain King",
@@ -30,39 +71,50 @@
   },
   "banners": {
     "characters": [
-      "Sharktacular Surfari",
-      "Leaves in the Wind",
-      "Seeker of Flame-Wrought Secrets",
-      "Reign of Serenity"
+      {
+        "name": "Sharktacular Surfari",
+        "featured": "Mualani & Kachina",
+        "phase": 1
+      },
+      {
+        "name": "Leaves in the Wind",
+        "featured": "Kaedehara Kazuha & Kachina",
+        "phase": 1
+      },
+      {
+        "name": "Seeker of Flame-Wrought Secrets",
+        "featured": "Kinich",
+        "phase": 2
+      },
+      {
+        "name": "Reign of Serenity",
+        "featured": "Raiden Shogun",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Traces of Artistry",
-    "Of Thorns and Crowns",
-    "Dodoco's Boom-Bastic Escapades",
-    "Mementos of Teyvat",
-    "Ley Line Overflow",
-    "Brilliant Dawn",
-    "Gift for a New Horizon: A Thank-You Gift",
-    "A Quest to Kindle Ancient Flames",
-    "Flowers Resplendent on the Sun-Scorched Sojourn (Event)",
-    "Where the Springs Return (Event)",
-    "Yupanqui's Turnfire (Event)",
-    "Turbo Twirly!"
+  "mapExpansion": [
+    {
+      "mainRegion": "Natlan",
+      "subRegion": []
+    }
   ],
   "newDomains": [
     "Ancient Watchtower",
     "Blazing Ruins",
     "Sanctum of Rainbow Spirits"
   ],
-  "newArtifacts": [
-    "Obsidian Codex",
-    "Scroll of the Hero of Cinder City"
+  "newSystems": [
+    "Saurian Indwelling",
+    "Phlogiston",
+    "Nightsoul's Blessing",
+    "Tribe Reputation (Natlan Reputation)",
+    "Tablet of Tona"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [
       "Koholasaurus",
       "Tepetlisaurus",
@@ -101,6 +153,85 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Red Flamingo",
+    "Halberd-Crest Bird",
+    "Thick-Feathered Ruffed Pheasant",
+    "Flowcurrent Bird",
+    "Alpaca",
+    "Brown Deer",
+    "Flying Squirrel",
+    "Capybara",
+    "Pyro Crystalfly",
+    "Blue Mountain Spoonbill",
+    "Flowfire Bird",
+    "Phlogiston Aphid",
+    "Crystal Beetle",
+    "Long-Necked Rhino"
+  ],
+  "newArtifacts": [
+    "Obsidian Codex",
+    "Scroll of the Hero of Cinder City"
+  ],
+  "newMaterials": [
+    "Grainfruit",
+    "Candlecap Mushroom",
+    "Embercore Flower",
+    "Spinel Fruit",
+    "Cacahuatl",
+    "Saurian Claw Succulent",
+    "Quenepa Berry",
+    "Brilliant Chrysanthemum",
+    "Sprayfeather Gill",
+    "The Cornerstone of Stars and Flames"
+  ],
+  "newMonsterDrops": [
+    "Boss",
+    "Mark of the Binding Blessing",
+    "Overripe Flamegranate",
+    "Elite",
+    "Shard of a Shattered Will",
+    "Locus of a Clear Will",
+    "Sigil of a Striding Will",
+    "Ignited Stone",
+    "Ignited Seed of Life",
+    "Ignited Seeing Eye",
+    "Axis of the Secret Source",
+    "Sheath of the Secret Source",
+    "Heart of the Secret Source",
+    "Normal",
+    "Juvenile Fang",
+    "Seasoned Fang",
+    "Tyrant's Fang",
+    "Sentry's Wooden Whistle",
+    "Warrior's Metal Whistle",
+    "Saurian-Crowned Warrior's Golden Whistle"
+  ],
+  "newTalentMaterials": [
+    "Teachings of Contention",
+    "Guide to Contention",
+    "Philosophies of Contention",
+    "Teachings of Kindling",
+    "Guide to Kindling",
+    "Philosophies of Kindling",
+    "Teachings of Conflict",
+    "Guide to Conflict",
+    "Philosophies of Conflict"
+  ],
+  "newWeaponAscensionMaterials": [
+    "Blazing Sacrificial Heart's Terror",
+    "Blazing Sacrificial Heart's Hesitance",
+    "Blazing Sacrificial Heart's Resolve",
+    "Blazing Sacrificial Heart's Splendor",
+    "Delirious Decadence of the Sacred Lord",
+    "Delirious Desolation of the Sacred Lord",
+    "Delirious Demeanor of the Sacred Lord",
+    "Delirious Divinity of the Sacred Lord",
+    "Night-Wind's Mystic Consideration",
+    "Night-Wind's Mystic Premonition",
+    "Night-Wind's Mystic Augury",
+    "Night-Wind's Mystic Revelation"
+  ],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -120,5 +251,192 @@
       "World Level Ascension"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Traces of Artistry",
+    "Of Thorns and Crowns",
+    "Dodoco's Boom-Bastic Escapades",
+    "Mementos of Teyvat",
+    "Ley Line Overflow",
+    "Brilliant Dawn",
+    "Gift for a New Horizon: A Thank-You Gift",
+    "A Quest to Kindle Ancient Flames",
+    "Flowers Resplendent on the Sun-Scorched Sojourn (Event)",
+    "Where the Springs Return (Event)",
+    "Yupanqui's Turnfire (Event)",
+    "Turbo Twirly!"
+  ],
+  "newRecipes": [
+    "Meatnado",
+    "Apple Roly Poly",
+    "Grainfruit Chips",
+    "Grilled Fish in Mint Sauce",
+    "Grainfruit Meat Soup",
+    "Cup O' Grainfruit",
+    "Tatacos",
+    "Saurus Crackers",
+    "Stuffed N' Mashed Potatoes",
+    "Chocolate",
+    "Blazed Meat Stew",
+    "Fried Shrimp Beanballs",
+    "Sour Sauce Kipper",
+    "Forest of Color",
+    "Glittering Gemstones",
+    "Hot Spring O'Clock",
+    "Puff Pops",
+    "Delights of Wondrous Wanderings",
+    "Golden Apple Pastry"
+  ],
+  "newFormulas": [
+    "Strength Tonic"
+  ],
+  "newSpecialtyDishes": [
+    "Pass the Luck",
+    "Saurian Hunter's Reward",
+    "Impeccably Organized"
+  ],
+  "newAchievements": [
+    "Meetings in Outrealm: Series V",
+    "Imaginarium Theater: The Second Folio",
+    "Natlan: The Land of Fire and Competition (I)",
+    "Duelist: Series I",
+    "Wonders of the World"
+  ],
+  "newNamecards": [
+    "Mualani: Sharky",
+    "Kinich: Ajaw",
+    "Kachina: Twirly",
+    "Natlan: Divine Army",
+    "Natlan: Fiery Dragon",
+    "Achievement: Endpoint",
+    "Achievement: Feline Fortune",
+    "Natlan: Return of the Flame",
+    "Achievement: Lord of the Night",
+    "Travel Notes: Primal Fire"
+  ],
+  "newGadgets": [
+    "Artifact Transmuter",
+    "Firstborn Firesprite",
+    "Kaboom Box",
+    "Pyroculus Resonance Stone",
+    "Pyro Treasure Compass"
+  ],
+  "newFurnishings": [
+    "\"Azure Gem of the Springs\"",
+    "\"Balustrade of the Springs\"",
+    "\"Ceaseless Clash\"",
+    "\"Compact Long Table: Courier's Edition\"",
+    "\"Courier's System of Sort and Dispatch\"",
+    "\"Courier's Timely Dispatch\"",
+    "\"Even-Handed Judgment\"",
+    "\"Flag of Huitztlan\"",
+    "\"Hanging Post of Coatepec Mountain\"",
+    "\"Mega-Mighty Boulder Breaker\"",
+    "\"Mighty Meaty Fireball\"",
+    "\"Nanatzcayan Artistry\"",
+    "\"Riding the Inferno\"",
+    "\"Sales Savvy 101\"",
+    "\"Skiff of the Springs\"",
+    "\"Surging Harmonies of the Springs\"",
+    "\"Tailored Courier Service\"",
+    "\"Tequemecan Dance-Off\"",
+    "\"Tequemecan Ingenuity\"",
+    "\"Tequemecan Stronghold\"",
+    "\"Tequemecan Treasures\"",
+    "\"Throne of Purr-fection\"",
+    "\"Way to the Extreme\"",
+    "\"Wings of the Springs\"",
+    "Ashen Aratiku Wood \"Nifty\" Street Lamp",
+    "Flammabomb Wood \"Dancer\" Street Lamp",
+    "Hot Spring Retreat: Go With the Flow",
+    "Hot Spring Retreat: Marketing Strategy",
+    "Hot Spring Retreat: Secret Menu",
+    "Hot Spring Retreat: Tidal Surge",
+    "Hot Spring Retreat: Top Choice",
+    "Huitztlan Campground: Companions' Connection",
+    "Huitztlan Campground: Distribution Hub",
+    "Huitztlan Campground: Foolproof Plan",
+    "Huitztlan Campground: Multi-Purpose Space",
+    "Huitztlan Campground: Sort and Order",
+    "Huitztlan Campground: Steadfast in the Storm",
+    "Stonehut of Echoes: Alpha Dragon",
+    "Stonehut of Echoes: High-Top Boots",
+    "Stonehut of Echoes: Standard Workshop",
+    "White Chestnut Oak Wood \"Harpoon\" Street Lamp",
+    "White Chestnut Oak Wood \"Raw Finish\" Low Table",
+    "White Chestnut Oak Wood \"Twilight\" Floor Lamp"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [
+    "Maawe and Monetoo",
+    "Records of Hanan Pacha",
+    "The Tale of Qoyllor and Ukuku",
+    "The Volcano Lord and the Shadow Pins"
+  ],
+  "newTcgCards": {
+    "characterCards": [
+      "Freminet",
+      "Xianyun",
+      "Hydro Hilichurl Rogue"
+    ],
+    "actionCards": [
+      "Atea",
+      "Edict of Absolution",
+      "Koholasaurus",
+      "Saurian Dining Buddies",
+      "Stadium of the Sacred Flame",
+      "Xenochromatic Hunter's Ray",
+      "Yumkasaurus"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 34 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Adds new Character Event Wish mechanic \"Capturing Radiance.\" For more information, please visit the \"Wish\" interface in the game.",
+    "Reduces the maximum amount of Fate Points required from 2 to 1 in the Weapon Event Wish \"Epitomized Path.\"",
+    "Adds new Artifact Salvage function. Artifacts that have not been enhanced and leveled up can be salvaged into Sanctifying Unction and Sanctifying Essence in Inventory > Artifacts.",
+    "Adds some new adjustments to the Artifacts system:",
+    "# Adds the gadget \"Artifact Transmuter,\" which can be obtained by completing the quests in \"Adventurer Handbook > Experience\" and can be used to extract and redeem Artifacts.",
+    "# Adds new Consumable \"Sanctifying Elixir\": Use the \"Artifact Transmuter\" to extract a certain number of 5-star Artifacts that have been enhanced to \"+4\" or above, and convert them into \"Sanctifying Elixir\" (You can convert Artifacts into 1 \"Sanctifying Elixir\" per version). You can also obtain \"Sanctifying Elixir\" by exploring the open world.",
+    "# You can exchange for certain components of certain Artifact sets by using the \"Sanctifying Elixir\" in the \"Artifact Transmuter.\" Apart from that, you can also determine the Main Affix and two Minor Affixes (Different Artifact components require different amounts of \"Sanctifying Elixir.\" The same set of Artifacts can only be exchanged once in each version).",
+    "Adds new event \"Turbo Twirly!\": Progress through Archon Quest Chapter V: Act I \"Flowers Resplendent on the Sun-Scorched Sojourn\" and invite the character \"Mottled Gold Yet Unsmelted\" Kachina (Geo).",
+    "Adds World Level 9. Upon reaching Adventure Rank 58, Travelers can complete corresponding World Level Ascension Quests to increase their World Level. After the World Level increases, the levels of monsters and bosses will increase, the challenge difficulty and the rewards dropped will also be increased (Travelers who have reached Adventure Rank 58 before the version update can complete Ascension Quests to increase their World Level after the version update).",
+    "Adds the Borderland Billet series.",
+    "Adds Borderland Billet Conversion for various Weapon types in \"Crafting Bench > Conversion\": Use Dream Solvent to convert Billets of other types to Borderland Billets for the same Weapon type, or change Borderland Billets to Billets of other types for the same Weapon type.",
+    "Adds another 8 sets of Artifacts available to exchange in the Mystic Offering system: Artifact Strongbox: Deepwood Memories, Artifact Strongbox: Gilded Dreams, Artifact Strongbox: Desert Pavilion Chronicle, Artifact Strongbox: Flower of Paradise Lost, Artifact Strongbox: Nymph's Dream, Artifact Strongbox: Vourukasha's Glow,Artifact Strongbox: Marechaussee Hunter, and Artifact Strongbox: Golden Troupe.",
+    "Adds some of the Harvestable seeds from Natlan to the Seed Dispensary.",
+    "You can use the Omni-Ubiquity Net to capture certain Natlan creatures."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": null,
+    "requiredElements": [
+      "Pyro",
+      "Hydro",
+      "Dendro"
+    ],
+    "openingCharacters": [
+      "Dehya",
+      "Xiangling",
+      "Mualani",
+      "Candace",
+      "Emilie",
+      "Yaoyao"
+    ],
+    "guestCharacters": [
+      "Kaedehara Kazuha",
+      "Kachina",
+      "Clorinde",
+      "Raiden Shogun"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": "September 16",
+    "floor11Disorder": [
+      "All party members gain a 60% Dendro DMG Bonus.",
+      "All party members receive a 60% Hydro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Contending Moon",
+    "blessingEffect": "After the active character uses an Elemental Skill, Normal Attack and Elemental Skill DMG is increased by 40% for 12s. For characters in Nightsoul's Blessing, this effect is enhanced: Normal Attack and Elemental Skill DMG is increased by 80%."
   }
 }

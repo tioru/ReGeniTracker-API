@@ -1,19 +1,60 @@
 {
   "number": "5.0",
+  "cycleLabel": null,
   "name": "Flowers Resplendent on the Sun-Scorched Sojourn",
+  "subtitle": null,
+  "description": "Une compétition aussi féroce qu'un brasier rugissant, un affrontement aussi éblouissant qu'une cascade de pierres précieuses irisées.<br />Lors de la nuit sacrée, les étincelles allumées par les guerriers tombent comme des étoiles, convergeant vers le retour triomphal du sanctifeu.",
   "releaseDate": "2024-08-28",
   "endDate": "2024-10-09",
-  "newCharacters": [
-    "Mualani",
-    "Kinich",
-    "Kachina"
-  ],
-  "mapExpansion": [
+  "previousVersion": "4.8",
+  "nextVersion": "5.1",
+  "links": [
     {
-      "mainRegion": "Natlan",
-      "subRegion": []
+      "url": "https://genshin.hoyoverse.com/en/news/detail/125553",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/125458",
+      "label": "Update Maintenance Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=8c0399aea4d14c33#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20240817preview-6y2ic4/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/125238",
+      "label": "Developer's Discussion"
     }
   ],
+  "images": [
+    "Splashscreen Flowers Resplendent on the Sun-Scorched Sojourn.png",
+    "Splashscreen Seeker of Flame-Wrought Secrets Reign of Serenity.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Mualani",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Kinich",
+      "rarity": 5,
+      "element": "Dendro",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Kachina",
+      "rarity": 4,
+      "element": "Geo",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Croc du roi de la montagne",
@@ -30,39 +71,50 @@
   },
   "banners": {
     "characters": [
-      "Surfari requinfini",
-      "Feuilles dans le vent",
-      "Recherche de secrets nés du feu",
-      "Règne de sérénité"
+      {
+        "name": "Surfari requinfini",
+        "featured": "Mualani & Kachina",
+        "phase": 1
+      },
+      {
+        "name": "Feuilles dans le vent",
+        "featured": "Kaedehara Kazuha & Kachina",
+        "phase": 1
+      },
+      {
+        "name": "Recherche de secrets nés du feu",
+        "featured": "Kinich",
+        "phase": 2
+      },
+      {
+        "name": "Règne de sérénité",
+        "featured": "Raiden Shogun",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Traces d'art",
-    "Of Thorns and Crowns",
-    "Dodoco's Boom-Bastic Escapades",
-    "Souvenirs de Teyvat",
-    "Reflux des lignes énergétiques",
-    "Aube brillante",
-    "Anniversaire/Genshin Impact/4",
-    "Errance à la recherche de flammes ardentes",
-    "Flowers Resplendent on the Sun-Scorched Sojourn (Event)",
-    "Où les sources reviennent (événement)",
-    "Le mnémofeu de Yupanqui (événement)",
-    "Virevolturbo !"
+  "mapExpansion": [
+    {
+      "mainRegion": "Natlan",
+      "subRegion": []
+    }
   ],
   "newDomains": [
     "Ancienne tour de guet",
     "Ruines flamboyantes",
     "Sanctuaire des esprits arc-en-ciel"
   ],
-  "newArtifacts": [
-    "Codex d'obsidienne",
-    "Parchemin du héros de la Cité de braise"
+  "newSystems": [
+    "Saurian Indwelling",
+    "Phlogistique",
+    "Bénédiction noctâme",
+    "Tribe Reputation (Natlan Reputation)",
+    "Tablet of Tona"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [
       "Koholasaure",
       "Tepetlisaure",
@@ -101,6 +153,85 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Flamant antigone",
+    "Bulbul hallebardé",
+    "Faisan bienplumé",
+    "Oiseau fluxeau",
+    "Alpaga",
+    "Cerf brun",
+    "Polatouche",
+    "Capybara",
+    "Papillon cristallin Pyro",
+    "Spatule bleu montagne",
+    "Oiseau flufeu",
+    "Puceron phlogistique",
+    "Scarabée cristallin",
+    "Rhinocéros à long cou"
+  ],
+  "newArtifacts": [
+    "Codex d'obsidienne",
+    "Parchemin du héros de la Cité de braise"
+  ],
+  "newMaterials": [
+    "Granifruit",
+    "Candélapignon",
+    "Fleur braisée",
+    "Fruit spinelle",
+    "Cacahuatl",
+    "Patte saurienne",
+    "Baie de quenettier",
+    "Chrysanthème brillant",
+    "Branchie mousseplume",
+    "Pierre angulaire des étoiles et des flammes"
+  ],
+  "newMonsterDrops": [
+    "Boss",
+    "Marque de bénédiction liante",
+    "Flamboigrenade surmûre",
+    "Elite",
+    "Fragment de volonté brisée",
+    "Image de volonté claire",
+    "Sceau de volonté errante",
+    "Pierre enflammée",
+    "Graine enflammée",
+    "Œil lucide enflammé",
+    "Axe de la source secrète",
+    "Gaine de la source secrète",
+    "Noyau de la source secrète",
+    "Normal",
+    "Croc juvénile",
+    "Croc mature",
+    "Croc de tyran",
+    "Sifflet en bois de sentinelle",
+    "Sifflet en métal de guerrier",
+    "Sifflet en or de guerrier couronné par les sauriens"
+  ],
+  "newTalentMaterials": [
+    "Enseignement de la Compétition",
+    "Guide de la Compétition",
+    "Philosophie de la Compétition",
+    "Enseignement du Petit bois",
+    "Guide du Petit bois",
+    "Philosophie du Petit bois",
+    "Enseignement du Conflit",
+    "Guide du Conflit",
+    "Philosophie du Conflit"
+  ],
+  "newWeaponAscensionMaterials": [
+    "Terreur du cœur sacrificiel flamboyant",
+    "Hésitation du cœur sacrificiel flamboyant",
+    "Résolution du cœur sacrificiel flamboyant",
+    "Splendeur du cœur sacrificiel flamboyant",
+    "Décadence délirante du seigneur sacré",
+    "Désolation délirante du seigneur sacré",
+    "Attitude délirante du seigneur sacré",
+    "Divinité délirante du seigneur sacré",
+    "Considération mystique du vent nocturne",
+    "Prémonition mystique du vent nocturne",
+    "Augure mystique du vent nocturne",
+    "Révélation mystique du vent nocturne"
+  ],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -120,5 +251,192 @@
       "Élévation du Niveau du monde"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Traces d'art",
+    "Of Thorns and Crowns",
+    "Dodoco's Boom-Bastic Escapades",
+    "Souvenirs de Teyvat",
+    "Reflux des lignes énergétiques",
+    "Aube brillante",
+    "Anniversaire/Genshin Impact/4",
+    "Errance à la recherche de flammes ardentes",
+    "Flowers Resplendent on the Sun-Scorched Sojourn (Event)",
+    "Où les sources reviennent (événement)",
+    "Le mnémofeu de Yupanqui (événement)",
+    "Virevolturbo !"
+  ],
+  "newRecipes": [
+    "Viande-tourbillon",
+    "Rouleau de pomme",
+    "Chips granifruitées",
+    "Poisson grillé à la menthe",
+    "Soupe à la viande granifruitée",
+    "Fruti-coupe",
+    "Tacoloco",
+    "Biscuits sauriennaurus",
+    "Rondelles de patates farcies",
+    "Chocolats assortis",
+    "Ragoût enflammé",
+    "Boulettes haricots-crevettes",
+    "Sour Sauce Kipper",
+    "Forêt de couleurs",
+    "Gemmes étincelantes",
+    "Source toujours",
+    "Pop-maiz",
+    "Délices d'errances merveilleuses",
+    "Bâtonnet aux pommes"
+  ],
+  "newFormulas": [
+    "Tonique de force"
+  ],
+  "newSpecialtyDishes": [
+    "Transmission de chance",
+    "Récompense du chasseur de saurien",
+    "Organisation impeccable"
+  ],
+  "newAchievements": [
+    "Succès/Rencontres dans un autre monde - Partie V",
+    "Succès/Théâtre de l'imaginarium - Partie II",
+    "Succès/Natlan : Terre d'alliance du feu et de compétition - I",
+    "Succès/Duelliste - Partie I",
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Thème Mualani - Requinou",
+    "Thème Kinich - Ajaw",
+    "Thème Kachina - Virevolturbo",
+    "Thème Natlan - Armée divine",
+    "Thème Natlan - Dragon incandescent",
+    "Thème Succès - Extrémité",
+    "Thème Succès - Fortune féline",
+    "Thème Natlan - Aux flammes",
+    "Thème Succès - Seigneur de la nuit",
+    "Thème PB - Feu primaire"
+  ],
+  "newGadgets": [
+    "Transmutateur d'artéfact",
+    "Spirifeu premier-né",
+    "Boîte-daboum",
+    "Pierre de résonance Pyroculus",
+    "Détecteur de trésors Pyro"
+  ],
+  "newFurnishings": [
+    "« Gemme azur des sources »",
+    "« Balustrade des sources »",
+    "Conflit incessant",
+    "Table longue compacte de coursier",
+    "Système de tri de coursier",
+    "Livraison express de coursier",
+    "« Punition équitable »",
+    "Bannière des Huitztlans",
+    "Pilier suspendu de la Montagne Coatepec",
+    "Méga-puissant concasseur",
+    "« Feu charnu »",
+    "« Art des Nanatzcayens »",
+    "Chevauchée flamboyante",
+    "« Les bases de la vente »",
+    "« Embarcation des sources »",
+    "« Harmonie déferlante des sources »",
+    "Service personnalisé de coursier",
+    "« Danse de Tequemecan »",
+    "« Ingénuité de Tequemecan »",
+    "« Protection de Tequemecan »",
+    "« Trésors de Tequemecan »",
+    "Trône des ronrons",
+    "« Direction de l'extrême »",
+    "« Ailes des sources »",
+    "Lampadaire « Confort » en bois d'aratiku cendré",
+    "Lampadaire « Danseur » en bois de flammabombe",
+    "Retraite thermale « En suivant la marche »",
+    "Retraite thermale « Stratégie marketing »",
+    "Retraite thermale « Menu secret »",
+    "Retraite thermale « Marée déferlante »",
+    "Retraite thermale « Premier choix »",
+    "Campement des Huitztlans « Lien de compagnon »",
+    "Campement des Huitztlans « Centre de distribution »",
+    "Campement des Huitztlans « Plan sans faille »",
+    "Campement des Huitztlans « Espace multi-usages »",
+    "Campement des Huitztlans « Tri ordonné »",
+    "Campement des Huitztlans « Vent sans pitié »",
+    "Hutte en pierre d'écho « Dragon alpha »",
+    "Hutte en pierre d'écho « Bottes hautes »",
+    "Hutte en pierre d'écho « Atelier standard »",
+    "Lampadaire « Harpon » en bois de chênetaignier blanc",
+    "Table basse « Finition brute » en bois de chênetaignier blanc",
+    "Lampadaire « Crépuscule » en bois de chênetaignier blanc"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [
+    "Maawe et les monetoos",
+    "Registre de Hanan Pacha",
+    "Le conte de Qoyllor et Ukuku",
+    "Le seigneur du volcan et les épingles d'ombre"
+  ],
+  "newTcgCards": {
+    "characterCards": [
+      "Fréminet",
+      "Xianyun",
+      "Brutovéreux Hydro"
+    ],
+    "actionCards": [
+      "Atea",
+      "Edict of Absolution",
+      "Koholasaure",
+      "Saurian Dining Buddies",
+      "Stade du sanctifeu",
+      "Xenochromatic Hunter's Ray",
+      "Yumkasaure"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 34 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Adds new Character Event Wish mechanic \"Capturing Radiance.\" For more information, please visit the \"Wish\" interface in the game.",
+    "Reduces the maximum amount of Fate Points required from 2 to 1 in the Weapon Event Wish \"Epitomized Path.\"",
+    "Adds new Artifact Salvage function. Artifacts that have not been enhanced and leveled up can be salvaged into Sanctifying Unction and Sanctifying Essence in Inventory > Artifacts.",
+    "Adds some new adjustments to the Artifacts system:",
+    "# Adds the gadget \"Artifact Transmuter,\" which can be obtained by completing the quests in \"Adventurer Handbook > Experience\" and can be used to extract and redeem Artifacts.",
+    "# Adds new Consumable \"Sanctifying Elixir\": Use the \"Artifact Transmuter\" to extract a certain number of 5-star Artifacts that have been enhanced to \"+4\" or above, and convert them into \"Sanctifying Elixir\" (You can convert Artifacts into 1 \"Sanctifying Elixir\" per version). You can also obtain \"Sanctifying Elixir\" by exploring the open world.",
+    "# You can exchange for certain components of certain Artifact sets by using the \"Sanctifying Elixir\" in the \"Artifact Transmuter.\" Apart from that, you can also determine the Main Affix and two Minor Affixes (Different Artifact components require different amounts of \"Sanctifying Elixir.\" The same set of Artifacts can only be exchanged once in each version).",
+    "Adds new event \"Turbo Twirly!\": Progress through Archon Quest Chapter V: Act I \"Flowers Resplendent on the Sun-Scorched Sojourn\" and invite the character \"Mottled Gold Yet Unsmelted\" Kachina (Geo).",
+    "Adds World Level 9. Upon reaching Adventure Rank 58, Travelers can complete corresponding World Level Ascension Quests to increase their World Level. After the World Level increases, the levels of monsters and bosses will increase, the challenge difficulty and the rewards dropped will also be increased (Travelers who have reached Adventure Rank 58 before the version update can complete Ascension Quests to increase their World Level after the version update).",
+    "Adds the Borderland Billet series.",
+    "Adds Borderland Billet Conversion for various Weapon types in \"Crafting Bench > Conversion\": Use Dream Solvent to convert Billets of other types to Borderland Billets for the same Weapon type, or change Borderland Billets to Billets of other types for the same Weapon type.",
+    "Adds another 8 sets of Artifacts available to exchange in the Mystic Offering system: Artifact Strongbox: Deepwood Memories, Artifact Strongbox: Gilded Dreams, Artifact Strongbox: Desert Pavilion Chronicle, Artifact Strongbox: Flower of Paradise Lost, Artifact Strongbox: Nymph's Dream, Artifact Strongbox: Vourukasha's Glow,Artifact Strongbox: Marechaussee Hunter, and Artifact Strongbox: Golden Troupe.",
+    "Adds some of the Harvestable seeds from Natlan to the Seed Dispensary.",
+    "You can use the Omni-Ubiquity Net to capture certain Natlan creatures."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": null,
+    "requiredElements": [
+      "Pyro",
+      "Hydro",
+      "Dendro"
+    ],
+    "openingCharacters": [
+      "Dehya",
+      "Xiangling",
+      "Mualani",
+      "Candace",
+      "Émilie",
+      "Yaoyao"
+    ],
+    "guestCharacters": [
+      "Kaedehara Kazuha",
+      "Kachina",
+      "Clorinde",
+      "Shogun Raiden"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": "September 16",
+    "floor11Disorder": [
+      "All party members gain a 60% Dendro DMG Bonus.",
+      "All party members receive a 60% Hydro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Contending Moon",
+    "blessingEffect": "After the active character uses an Elemental Skill, Normal Attack and Elemental Skill DMG is increased by 40% for 12s. For characters in Nightsoul's Blessing, this effect is enhanced: Normal Attack and Elemental Skill DMG is increased by 80%."
   }
 }

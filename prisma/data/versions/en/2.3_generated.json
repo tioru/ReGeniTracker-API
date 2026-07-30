@@ -1,13 +1,50 @@
 {
   "number": "2.3",
+  "cycleLabel": null,
   "name": "Shadows Amidst Snowstorms",
+  "subtitle": null,
+  "description": "The biting cold of the frozen land causes many to falter, but the secrets of life slowly grow within...<br>Follow the shadows that lurk in the snow, and wait for the ashes to sweep away and the dust to settle.<br><br>Just for the record, the above has absolutely nothing to do with the founder and leader of the [[Arataki Gang]]: [[Arataki Itto]].",
   "releaseDate": "2021-11-24",
   "endDate": "2022-01-05",
-  "newCharacters": [
-    "Arataki Itto",
-    "Gorou"
+  "previousVersion": "2.2",
+  "nextVersion": "2.4",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17278",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17190",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210601blue_post/index.html?page_sn=630488a1549049f0",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20211113pre/index.html",
+      "label": "Website"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Shadows Amidst Snowstorms.png",
+    "Splashscreen Oni's Royale.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Arataki Itto",
+      "rarity": 5,
+      "element": "Geo",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Gorou",
+      "rarity": 4,
+      "element": "Geo",
+      "weaponType": "Bow"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Redhorn Stonethresher"
@@ -18,27 +55,30 @@
   },
   "banners": {
     "characters": [
-      "Secretum Secretorum",
-      "Born of Ocean Swell",
-      "Oni's Royale"
+      {
+        "name": "Secretum Secretorum",
+        "featured": "Albedo",
+        "phase": null
+      },
+      {
+        "name": "Born of Ocean Swell",
+        "featured": "Eula",
+        "phase": null
+      },
+      {
+        "name": "Oni's Royale",
+        "featured": "Arataki Itto & Gorou",
+        "phase": null
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Shadows Amidst Snowstorms",
-    "Bantan Sango Case Files: The Warrior Dog",
-    "Misty Dungeon: Realm of Light",
-    "Energy Amplifier Fruition",
-    "Marvelous Merchandise"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [
-    "Husk of Opulent Dreams",
-    "Ocean-Hued Clam"
-  ],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -48,6 +88,15 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [
+    "Husk of Opulent Dreams",
+    "Ocean-Hued Clam"
+  ],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -68,5 +117,50 @@
       "Snowy Silhouette: Reunion"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Shadows Amidst Snowstorms",
+    "Bantan Sango Case Files: The Warrior Dog",
+    "Misty Dungeon: Realm of Light",
+    "Energy Amplifier Fruition",
+    "Marvelous Merchandise"
+  ],
+  "newRecipes": [
+    "Unagi Chazuke",
+    "Five Pickled Treasures",
+    "Sakura Shrimp Crackers",
+    "Victorious Legend",
+    "Way of the Strong"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "Added more to \"Wonders of the World\"",
+    "Added more to \"Memories of the Heart\""
+  ],
+  "newNamecards": [
+    "Travel Notes: Lyratum",
+    "Gorou: Leisurely Hound",
+    "Itto: Oni Face"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "dealt by all party members increased by 60%.",
+      "dealt by all party members' increased by 60%."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Exacting Moon",
+    "blessingEffect": "You will obtain 1 Extract stack after obtaining a shard created through the Crystallize reaction, which will increase the DMG dealt by your active character by 8% for 10s. Max 3 stacks. When characters possessing 3 stacks obtain more Crystallize reaction-created shards, they will unleash a shockwave that deals True DMG to opponents. Shockwaves created this way can occur every 3s."
   }
 }

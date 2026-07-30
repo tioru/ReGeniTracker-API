@@ -1,12 +1,86 @@
 {
   "number": "3.6",
+  "cycleLabel": null,
   "name": "Célébration de la providence",
+  "subtitle": null,
+  "description": "Joie et tristesse nous accompagnent toujours dans la vie, ainsi que tout au long du fleuve qu'est l'histoire.<br>La vie est un voyage où amour, beauté et sagesse sont des remèdes.",
   "releaseDate": "2023-04-12",
   "endDate": "2023-05-24",
-  "newCharacters": [
-    "Baizhu",
-    "Kaveh"
+  "previousVersion": "3.5",
+  "nextVersion": "3.7",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/111044",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/111020",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/vert.html?page_sn=3eb66fc49d674891#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/e0406bluepostsubject_769/index.html",
+      "label": "New Contents Display Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20230401preview-84u4sh/index.html",
+      "label": "Website"
+    }
   ],
+  "images": [
+    "Splashscreen A Parade of Providence.png",
+    "Splashscreen Immaculate Pulse Adrift in the Harbor.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Baizhu",
+      "rarity": 5,
+      "element": "Dendro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Kaveh",
+      "rarity": 4,
+      "element": "Dendro",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [],
+  "newWeapons": {
+    "5Star": [
+      "Splendeur de l'azur"
+    ]
+  },
+  "banners": {
+    "characters": [
+      {
+        "name": "Dessillement de l'herbe lunaire",
+        "featured": "Nahida",
+        "phase": 1
+      },
+      {
+        "name": "Lotus tournoyant",
+        "featured": "Nilou",
+        "phase": 1
+      },
+      {
+        "name": "Pouls immaculé",
+        "featured": "Baizhu & Kaveh",
+        "phase": 2
+      },
+      {
+        "name": "Doute passager",
+        "featured": "Ganyu & Kaveh",
+        "phase": 2
+      }
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
   "mapExpansion": [
     {
       "mainRegion": "Gavireh Lajavard, Girdle of the Sands, Sumeru",
@@ -17,40 +91,16 @@
       "subRegion": []
     }
   ],
-  "newWeapons": {
-    "5Star": [
-      "Splendeur de l'azur"
-    ]
-  },
-  "banners": {
-    "characters": [
-      "Dessillement de l'herbe lunaire",
-      "Lotus tournoyant",
-      "Pouls immaculé",
-      "Doute passager"
-    ],
-    "weapons": [
-      "Incarnation divine"
-    ]
-  },
-  "events": [
-    "Célébration de la providence",
-    "Sables vociférants",
-    "Développement de mixtions",
-    "Abondance de maîtrise",
-    "Chemin des souvenirs passés"
-  ],
   "newDomains": [
     "Forteresse de fer en fusion",
     "Mer intérieure de somalatas",
     "Source d'expiation",
     "Royaume des commencements"
   ],
-  "newArtifacts": [
-    "Rêve de la nymphe",
-    "Lueur du vourukasha"
+  "newSystems": [
+    "Bénédiction d'amrita"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [],
     "elite": [
       "Brutovéreux Anémo",
@@ -67,6 +117,28 @@
       ]
     }
   },
+  "newWildlife": [
+    "Tortue bosselée"
+  ],
+  "newArtifacts": [
+    "Rêve de la nymphe",
+    "Lueur du vourukasha"
+  ],
+  "newMaterials": [
+    "Fleur funéraire",
+    "Trishiraite"
+  ],
+  "newMonsterDrops": [
+    "Fleur non épanouie d'origine inconnue",
+    "Fleur précieuse",
+    "Fleur épanouie d'un nomade",
+    "Constambre",
+    "Floraison première de l'oasis",
+    "Fougère du monde luxuriant",
+    "Anneau de sombreur éternelle"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -111,5 +183,42 @@
         ]
       }
     ]
+  },
+  "events": [
+    "Célébration de la providence",
+    "Sables vociférants",
+    "Développement de mixtions",
+    "Abondance de maîtrise",
+    "Chemin des souvenirs passés"
+  ],
+  "newRecipes": [],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "New invitation duels and guest challenges added to the Player List.",
+    "New Duel Replay Function for Genius Invokation TCG",
+    "Tree of Dreams, Vanarana: Increase in the Level Cap of Tree of Dreams to Level 50. After the Tree of Dreams's Favor Level reaches its maximum, Dendro Sigils can be exchanged by approaching Khalid at Menakeri's Treasure Shop.",
+    "Added Set 22 of \"Paimon's Paintings\" chat emojis.",
+    "New Replication System Function: New Guest Authorization: Guests can generate Replicas upon obtaining approval from the Serenitea Pot's host."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 75% Dendro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Reverberating Moon",
+    "blessingEffect": "When the active character's HP decreases, a shockwave will be unleashed at the character's position, dealing True DMG to nearby opponents. This effect can be triggered once every 0.8s."
   }
 }

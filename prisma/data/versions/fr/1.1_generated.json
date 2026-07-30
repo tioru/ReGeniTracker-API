@@ -1,15 +1,58 @@
 {
   "number": "1.1",
+  "cycleLabel": null,
   "name": "Une étoile en approche",
+  "subtitle": null,
+  "description": "}}",
   "releaseDate": "2020-11-11",
   "endDate": "2020-12-23",
-  "newCharacters": [
-    "Tartaglia",
-    "Diona",
-    "Zhongli",
-    "Xinyan"
+  "previousVersion": "1.0",
+  "nextVersion": "1.2",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/6638",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/6526",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/6085",
+      "label": "Developers Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen A New Star Approaches.png",
+    "Splashscreen Gentry of Hermitage.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Tartaglia",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Diona",
+      "rarity": 4,
+      "element": "Cryo",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Zhongli",
+      "rarity": 5,
+      "element": "Geo",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Xinyan",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Chaînes mortelles",
@@ -22,24 +65,60 @@
   },
   "banners": {
     "characters": [
-      "Adieux au Nord",
-      "Monts et marchés"
+      {
+        "name": "Adieux au Nord",
+        "featured": "Tartaglia & Diona",
+        "phase": null
+      },
+      {
+        "name": "Monts et marchés",
+        "featured": "Zhongli & Xinyan",
+        "phase": null
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Astres évanouis",
-    "Hymne fervent",
-    "Défi de planage",
-    "Servir chaud"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "Entrer dans la Chambre d'Or"
   ],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "City Reputation System",
+    "New Gadgets from City Reputation System",
+    "Pierre de résonance Anémoculus",
+    "Pierre de résonance Géoculus",
+    "Poche nutritive V30",
+    "Fiole attrape-vent",
+    "Téléporteur de poche",
+    "Résine condensée",
+    "Chaudron d'Adepte",
+    "Détecteur de trésors Anémo",
+    "Détecteur de trésors Géo",
+    "New City Features from City Reputation System",
+    "Mining Outcrop Search",
+    "Merchant Discounts",
+    "New Namecard Styles from City Reputation System",
+    "Mondstadt - Hero's Fame",
+    "Mondstadt - Blessing",
+    "Liyue - A Thousand Ships",
+    "Liyue - In the Clouds",
+    "New Recipes from City Reputation System",
+    "Ragoût de pommes du nord",
+    "Sandwich de l'aventurier",
+    "Tourte de lune",
+    "Boulettes de crevettes dorées",
+    "Beignets lotus",
+    "Viande façon Dubhe",
+    "New Wind Gliders from City Reputation System",
+    "Ailes du firmament",
+    "Ailes du vol d'or",
+    "Exploration Progress System",
+    "Archive System",
+    "Character Archive System"
+  ],
+  "newMonsters": {
     "common": [
       "Brutocollinus étrange"
     ],
@@ -49,6 +128,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -86,5 +171,30 @@
       "Ministry Missions"
     ],
     "hangoutQuests": []
-  }
+  },
+  "events": [
+    "Astres évanouis",
+    "Hymne fervent",
+    "Défi de planage",
+    "Servir chaud"
+  ],
+  "newRecipes": [
+    "Pâté aux trois saveurs",
+    "Soupe de porc aux pousses de bambou"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": null
 }

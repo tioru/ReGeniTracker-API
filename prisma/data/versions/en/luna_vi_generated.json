@@ -1,11 +1,79 @@
 {
-  "number": "Luna VI",
+  "number": "6.5",
+  "cycleLabel": "Luna VI",
   "name": "Augured Homecoming",
+  "subtitle": "Song of the Welkin Moon: Rondo",
+  "description": "From the moment we open our eyes, we begin to perceive the world.<br>We hear poetry, we hear songs — they guide the fae to the mortal realm, and people into endless time and space.<br>There is no need to feel sorrow for the past or the future, for this world is vast enough to swallow all melancholy.",
   "releaseDate": "2026-04-08",
   "endDate": "2026-05-20",
-  "newCharacters": [
-    "Linnea"
+  "previousVersion": "Luna V",
+  "nextVersion": "Luna VII",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/163454",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://www.hoyolab.com/article/44512349",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=a8dca8609c7346de#/index",
+      "label": "Version Highlights"
+    }
   ],
+  "images": [
+    "Splashscreen Augured Homecoming.png",
+    "Splashscreen Ya-hoho! Compendium.png",
+    "Splashscreen Wonderland Treasures Scales Aflame.png",
+    "Splashscreen Moonsong of the Groves Temptation of the Crimson Sands.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Linnea",
+      "rarity": 5,
+      "element": "Geo",
+      "weaponType": "Bow"
+    }
+  ],
+  "newOutfits": [],
+  "newWeapons": {
+    "5Star": [
+      "Golden Frostbound Oath"
+    ]
+  },
+  "banners": {
+    "characters": [
+      {
+        "name": "Ya-hoho! Compendium",
+        "featured": "Linnea",
+        "phase": 1
+      },
+      {
+        "name": "Piercing Shot's Crimson Wake",
+        "featured": "Chasca",
+        "phase": 1
+      },
+      {
+        "name": "Moonsong of the Groves",
+        "featured": "Lauma",
+        "phase": 2
+      },
+      {
+        "name": "Temptation of the Crimson Sands",
+        "featured": "Nefer",
+        "phase": 2
+      },
+      {
+        "name": "Dewlit Tranquility",
+        "featured": "Fontaine Chronicled Wish",
+        "phase": 2
+      }
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
+  },
   "mapExpansion": [
     {
       "mainRegion": "Windrest Peak, Mondstadt",
@@ -16,32 +84,11 @@
       "subRegion": []
     }
   ],
-  "newWeapons": {
-    "5Star": [
-      "Golden Frostbound Oath"
-    ]
-  },
-  "banners": {
-    "characters": [
-      "Ya-hoho! Compendium",
-      "Piercing Shot's Crimson Wake",
-      "Moonsong of the Groves",
-      "Temptation of the Crimson Sands",
-      "Dewlit Tranquility"
-    ],
-    "weapons": [
-      "Epitome Invocation"
-    ]
-  },
-  "events": [
-    "Where Waves Meet the Reef",
-    "Rapid Capture",
-    "Surveying & Mapping Studies",
-    "Ley Line Overflow"
-  ],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Temple of Space: Memory Core"
+  ],
+  "newMonsters": {
     "common": [
       "Churldric",
       "\"Prince Mahavasudeva-Yava\""
@@ -56,6 +103,26 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Windvigil Angler Gull",
+    "Camelhorn Deer",
+    "Etherwing Moth"
+  ],
+  "newArtifacts": [],
+  "newMaterials": [
+    "Etherwing Moth",
+    "Windrest Flower"
+  ],
+  "newMonsterDrops": [
+    "Normal Boss",
+    "Plume of the Fallen Watcher",
+    "Elite",
+    "Faded Flaming Hilt",
+    "Fractured Flaming Hilt",
+    "Jeweled Flaming Hilt"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -77,5 +144,120 @@
       "Winds Beneath the Tower of Silence"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Where Waves Meet the Reef",
+    "Rapid Capture",
+    "Surveying & Mapping Studies",
+    "Ley Line Overflow"
+  ],
+  "newRecipes": [
+    "Harbor Fish Burger",
+    "Millhaven's Morning Plate"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Iridescence Under the Tree's Shade"
+  ],
+  "newAchievements": [
+    "Demon Mountain's Breath",
+    "Wonders of the World"
+  ],
+  "newNamecards": [
+    "Linnea: Rattling Resonance",
+    "Mondstadt: Watchtower",
+    "Empty Temple: Overflowing Memories",
+    "Travel Notes: Homecoming"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "\"All Fangs and Snarls\"",
+    "\"Anomaly of the Temple\"",
+    "\"As Rainfall Cascades\"",
+    "\"Blooming Splendor\"",
+    "\"Cradle of Fragrance\"",
+    "\"Crimson Flow\"",
+    "\"Echoes of Silence\"",
+    "\"Fragrant Confluence\"",
+    "\"Gaze of the Temple\"",
+    "\"Mamere's Doodle\"",
+    "\"Shimmering Luster\"",
+    "\"Super Cannoneer\"",
+    "\"Temple Openwork Railing\"",
+    "\"Whispers of the Temple\"",
+    "Calibration Beacon: \"Invincible Northwind\"",
+    "Calibration Beacon: \"Lionfang Knight\"",
+    "Calibration Beacon: \"Spindrift Knight\"",
+    "City Street Lamp: \"Low Lanternlight\"",
+    "Cooperative Engagement Early-Model Guizhong Ballista",
+    "Decorative Flower Bed: \"Verdant Order\"",
+    "Decorative Potted Plant: \"Budding Fragrance\"",
+    "Pavilion of Hidden Treasures",
+    "Pneuma-Ousia Waltzing Automaton",
+    "Small Standing Glass Display Case",
+    "Temple Wall Lamp: \"Warm Radiance\"",
+    "Town Noticeboard: \"Odds, Ends, and Everything Between\""
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Dahlia",
+      "Aino",
+      "Consecrated Fanged Beast"
+    ],
+    "actionCards": [
+      "Snare Hook",
+      "Blubberbeast",
+      "Lepine-Pauline",
+      "Elemental Transfiguration: Bloom Blessing",
+      "Elemental Transfiguration: Lava Blessing",
+      "Moonsign: Ascendant Gleam",
+      "Moon and Homeland",
+      "Cleaning Time",
+      "The Chasm"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 48 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Adds new Fish: Cerulean Doppeldrake"
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "May 1, 2026",
+    "requiredElements": [
+      "Pyro",
+      "Hydro",
+      "Dendro"
+    ],
+    "openingCharacters": [
+      "Dehya",
+      "Yanfei",
+      "Kamisato Ayato",
+      "Dahlia",
+      "Kinich",
+      "Kirara"
+    ],
+    "guestCharacters": [
+      "Varka",
+      "Razor",
+      "Albedo",
+      "Zibai"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": "April 16",
+    "floor11Disorder": [
+      "All party members have their Elemental Mastery increased by 200.",
+      "All party members receive a 75% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Lunar-Crystallize DMG is increased by 75%.",
+      "Second Half: Active characters' Normal and Charged Attack DMG is increased by 75%.",
+      "First Half: All party members receive a 75% Pyro DMG Bonus.",
+      "Second Half: Lunar-Bloom DMG is increased by 75%."
+    ],
+    "blessingName": "Rumbling Moon",
+    "blessingEffect": "When \"Moondrift Harmony\" is triggered, a shockwave is unleashed at the character's position to deal True DMG to opponents. This effect can be triggered once every 4s."
   }
 }

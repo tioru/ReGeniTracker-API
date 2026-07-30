@@ -1,11 +1,80 @@
 {
   "number": "4.6",
+  "cycleLabel": null,
   "name": "Two Worlds Aflame, the Crimson Night Fades",
+  "subtitle": null,
+  "description": "Tout plan nécessite quelqu'un pour l'exécuter.<br />Laissez la lueur de la lune sanglante teindre la neige et le givre,<br />faites résonner la mélodie cachée dans les eaux profondes,<br />libérez les secrets du sable.<br />Enfin, attendez l'arrivée de l'inévitable destin.",
   "releaseDate": "2024-04-24",
   "endDate": "2024-06-05",
-  "newCharacters": [
-    "Arlecchino"
+  "previousVersion": "4.5",
+  "nextVersion": "4.7",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123426",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://www.hoyolab.com/article/27518305",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=68d4658994104b5b#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20240413preview-pvtga2/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123161",
+      "label": "Developer's Discussion"
+    }
   ],
+  "images": [
+    "Splashscreen Two Worlds Aflame, the Crimson Night Fades.png",
+    "Splashscreen From Ashes Reborn Immaculate Pulse.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Arlecchino",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [],
+  "newWeapons": {
+    "5Star": [
+      "Semblance de la lune écarlate"
+    ]
+  },
+  "banners": {
+    "characters": [
+      {
+        "name": "L'ombre cendrée de l'âtre",
+        "featured": "Arlecchino",
+        "phase": 1
+      },
+      {
+        "name": "L'artifice du clair-obscur",
+        "featured": "Lyney",
+        "phase": 1
+      },
+      {
+        "name": "Renaissant des cendres",
+        "featured": "Wanderer",
+        "phase": 2
+      },
+      {
+        "name": "Pouls immaculé",
+        "featured": "Baizhu",
+        "phase": 2
+      }
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
   "mapExpansion": [
     {
       "mainRegion": "Mer d'antan",
@@ -21,38 +90,16 @@
       ]
     }
   ],
-  "newWeapons": {
-    "5Star": [
-      "Semblance de la lune écarlate"
-    ]
-  },
-  "banners": {
-    "characters": [
-      "L'ombre cendrée de l'âtre",
-      "L'artifice du clair-obscur",
-      "Renaissant des cendres",
-      "Pouls immaculé"
-    ],
-    "weapons": [
-      "Incarnation divine"
-    ]
-  },
-  "events": [
-    "Iridescent Arataki Rockin' For Life Tour de Force of Awesomeness",
-    "Windtrace: Seekers and Strategy",
-    "À la recherche de sauriens singuliers",
-    "Vibro-Crystal Applications",
-    "Abondance de maîtrise"
-  ],
   "newDomains": [
     "Théâtre fané",
     "Ruines éparses"
   ],
-  "newArtifacts": [
-    "Rêverie incomplète",
-    "Fragment d'harmonie divergente"
+  "newSystems": [
+    "Mysterious Grimoire",
+    "Washer Octopus",
+    "Wonderchime Flowers and Allochromatic Anemones"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [],
     "elite": [
       "Prétorien golem"
@@ -66,6 +113,24 @@
       ]
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [
+    "Rêverie incomplète",
+    "Fragment d'harmonie divergente"
+  ],
+  "newMaterials": [
+    "Bougie vacillante",
+    "Plume soyeuse",
+    "Verdict négatif",
+    "Fragment d'une mélodie dorée"
+  ],
+  "newMonsterDrops": [
+    "Pommeau abîmé",
+    "Pommeau rayé",
+    "Pommeau incandescent"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -98,5 +163,106 @@
       "Daydreams Beyond Space and Time"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Iridescent Arataki Rockin' For Life Tour de Force of Awesomeness",
+    "Windtrace: Seekers and Strategy",
+    "À la recherche de sauriens singuliers",
+    "Vibro-Crystal Applications",
+    "Abondance de maîtrise"
+  ],
+  "newRecipes": [
+    "Soufflé bullé"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Traces du fourneau"
+  ],
+  "newAchievements": [
+    "Succès/Rhapsodie en mer antique",
+    "Succès/Au défi ! - Partie IX",
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Thème PB - Rock-athon",
+    "Thème Arlecchino - Édit",
+    "Thème Succès - Baleinier",
+    "Thème Fontaine - Harmonisation",
+    "Thème Fontaine - Lucine"
+  ],
+  "newGadgets": [
+    "Ancient Autoharmonic Music Box",
+    "Cor de vent-nuit"
+  ],
+  "newFurnishings": [
+    "Clochette de blandouce",
+    "Goutte de rosée bleue",
+    "Gloire cristalline",
+    "Serpent tapi",
+    "Bouquet blanc d'inspiration",
+    "Corne enragée de la légion",
+    "Lyre spéculaire",
+    "« Origine de la musique »",
+    "« Résidence tranquille de la Cité mélomane »",
+    "« Résidence ingénieuse de la Cité mélomane »",
+    "« Parfum salubre »",
+    "« Sonnailles de la Cité mélomane »",
+    "« Atelier de la Cité mélomane »",
+    "Tapis fontainois « Carré et droit »",
+    "Garde-corps d'hôtel « Feuilles de menthe »",
+    "Garde-corps d'hôtel « Arc scénique »",
+    "Banc « Mélodie cachée » en bois d'hibiscus",
+    "Siège « Clic clac » en bois d'hibiscus",
+    "Cadre de porte « Douce mélodie » en bois d'hibiscus",
+    "Clôture « Marées » en bois d'hibiscus",
+    "Table longue « Souvenirs gravés » en bois d'hibiscus",
+    "Boîte aux lettres « Rangement » en bois d'hibiscus",
+    "Table ronde « Thé d'hospitalité » en bois d'hibiscus",
+    "Luminaire mécanique « Réflexions nocturnes »",
+    "Engin modèle « Ère du progrès »",
+    "Cabane du village musical « Harmonie de mardouce »",
+    "Lampadaire du village musical « Éclairage de sécurité »",
+    "Lanterne simple « Matériaux locaux »",
+    "Statue tenant une épée « Garde éternelle »",
+    "Âtre mural « Bûches chassant les ténèbres »"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [
+    "Anecdota septentrionalis"
+  ],
+  "newTcgCards": {
+    "characterCards": [
+      "Apôtre de l'Abîme - Torrent",
+      "Kuki Shinobu",
+      "Empereur du feu ferreux",
+      "Faruzan"
+    ],
+    "actionCards": [
+      "Récompense légitime",
+      "Couronne d'améthyste",
+      "Taroumaru",
+      "The White Glove and the Fisherman",
+      "Île de Seirai",
+      "Underwater Treasure Hunt",
+      "Macarons arc-en-ciel"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 31 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Adds 17 World Quest-related avatars that will be unlocked after completing World Quests in accordance with the corresponding unlock criteria (Refer to \"Paimon Menu > Change Avatar\" in-game for the specific unlock criteria. For Travelers who have already completed the corresponding World Quests before the version update, the corresponding avatars will be automatically unlocked after the version update.)",
+    "Fountain of Lucine: Increase in the Level Cap of Fountain of Lucine to Level 50. After the Fountain of Lucine reaches its maximum level, Hydro Sigils can be exchanged with Mequignon at Bertin's House of Curiosities.",
+    "Adds the \"Focused Experience Mode\" function:",
+    "# This function can be enabled for certain quests in the \"Quest\" menu. Once enabled, Travelers can prevent locations and characters involved in said quest from being occupied by other quests, which improves the experience of the current quest.",
+    "# Function Access Unlock Criteria: Complete Archon Quest Prologue: Act III \"Song of the Dragon and Freedom\"",
+    "# In Version 4.6, the \"Focused Experience Mode\" function will be available for Arlecchino's Story Quest - Ignis Purgatorius Chapter: Act I \"When the Hearth-Flame Goes Out.\" The \"Focused Experience Mode\" function will gradually be made available for more quests in subsequent versions."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Flame-Fanning Moon",
+    "blessingEffect": "When a character triggers Vaporize, Overloaded, Melt, Burning, Burgeon, Pyro Swirl, or Pyro Crystallize reactions on an opponent, the opponent's All Elemental RES and Physical RES is reduced by 30% for 4s."
   }
 }

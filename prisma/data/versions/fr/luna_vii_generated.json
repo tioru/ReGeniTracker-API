@@ -1,14 +1,54 @@
 {
-  "number": "Luna VII",
+  "number": "6.6",
+  "cycleLabel": "Luna VII",
   "name": "Vérité du Purana",
+  "subtitle": "Chant de l'astre de la nuit - Andante",
+  "description": "D'un rêve absurde, on peut entrevoir un avenir sans issue définie.<br>Certains considèrent ce monde comme une chaîne qui entrave l'esprit humain, mais la vie et la sagesse nous suggèrent des réponses différentes.",
   "releaseDate": "2026-05-20",
   "endDate": "2026-07-01",
-  "newCharacters": [
-    "Nicole",
-    "Lohen",
-    "Prune"
+  "previousVersion": "Luna VI",
+  "nextVersion": "Luna VIII",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/164256",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/164213",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=1365aaf7a87644f2#/index",
+      "label": "Version Highlights"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Truth Amongst the Pages of Purana.png",
+    "Splashscreen Angel's Reverie.png",
+    "Splashscreen Wonderland Treasure Prismatic Flutter.png",
+    "Splashscreen Frostedge Nocturne.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Nicole",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Lohen",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Prune",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Heptades des anges",
@@ -17,29 +57,48 @@
   },
   "banners": {
     "characters": [
-      "Rêverie de l'ange",
-      "Rubedo, né de pierre blanche",
-      "Nocturne sur le fil du givre",
-      "Embrasement du feu ancien"
+      {
+        "name": "Rêverie de l'ange",
+        "featured": "Nicole & Prune",
+        "phase": 1
+      },
+      {
+        "name": "Rubedo, né de pierre blanche",
+        "featured": "Durin & Prune",
+        "phase": 1
+      },
+      {
+        "name": "Nocturne sur le fil du givre",
+        "featured": "Lohen",
+        "phase": 2
+      },
+      {
+        "name": "Embrasement du feu ancien",
+        "featured": "Mavuika",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Amis fantasmagoriques",
-    "Les épreuves du brave guerrier",
-    "Poursuite aux couleurs kaléidoscopiques"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "Thorny Crown of the Mountain Wind",
     "Binding Field of Universal Nirvana"
   ],
-  "newArtifacts": [
-    "Don céleste",
-    "Désenchantement dans l'ombre profonde"
+  "newSystems": [
+    "Guiding Notes function for active quest",
+    "Quest Saving notification",
+    "Répertoire aux mille mélodies",
+    "Hexerei: Ballad of Whimsical Polyphony Album",
+    "Score Themes",
+    "Flamme éclipsante",
+    "Rafale pourfendeuse de démons",
+    "Forger son caractère et son chemin",
+    "Tempered in Practice weekly rewards"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -49,6 +108,19 @@
       ]
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [
+    "Don céleste",
+    "Désenchantement dans l'ombre profonde"
+  ],
+  "newMaterials": [],
+  "newMonsterDrops": [
+    "Résine contrefaite",
+    "Branche flétrie et tordue",
+    "Pousse profane"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -69,5 +141,97 @@
       "A Window Into the World"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Amis fantasmagoriques",
+    "Les épreuves du brave guerrier",
+    "Poursuite aux couleurs kaléidoscopiques"
+  ],
+  "newRecipes": [
+    "Tofu farci à la viande hachée",
+    "Chewing-gum à la menthe"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Coffre doré",
+    "Bonbon bullé brise-ennui",
+    "Tournette spéciale"
+  ],
+  "newAchievements": [
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Nicole: Heavenly Stairway",
+    "Thème Lohen - Bienveillance",
+    "Prune: Judgment",
+    "Thème PB - Don de splendeur"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Miniature en pierre",
+    "Imaginary Friend: Descartes",
+    "Imaginary Friend: Dodoco",
+    "Imaginary Friend: Gena",
+    "Imaginary Friend: Tuantuan",
+    "Imaginary Friend: Yuegui"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Flins",
+      "Lauma",
+      "Experimental Field Generator"
+    ],
+    "actionCards": [
+      "Elemental Transfiguration: Rimegrass Blessing",
+      "Elemental Transfiguration: Stormgale Blessing",
+      "Rideau du Gladiateur",
+      "Netochka",
+      "Roulette spéciale",
+      "The Other Side of the Frostmoon"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 49 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Two new Artifacts available for redemption in the Mystic Offering system:",
+    "Artifact Strongbox: Long Night's Oath",
+    "Artifact Strongbox: Finale of the Deep Galleries"
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "June 1, 2026",
+    "requiredElements": [
+      "Pyro",
+      "Cryo",
+      "Geo"
+    ],
+    "openingCharacters": [
+      "Klee",
+      "Xiangling",
+      "Kamisato Ayaka",
+      "Chongyun",
+      "Albedo",
+      "Noëlle"
+    ],
+    "guestCharacters": [
+      "Sangonomiya Kokomi",
+      "Aino",
+      "Prune",
+      "Fischl"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": "June 16",
+    "floor11Disorder": [
+      "All party members receive a 60% Cryo DMG Bonus.",
+      "All party members gain a 60% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Characters' Elemental Skill DMG increased by 75%.",
+      "Second Half: All party members receive a 75% Pyro DMG Bonus."
+    ],
+    "blessingName": "Frost-Surging Moon",
+    "blessingEffect": "When an off-field character triggers Cryo-related reactions to opponents, a shockwave will be released at the opponent's position, dealing True DMG. This effect can be triggered once every 3.5s."
   }
 }

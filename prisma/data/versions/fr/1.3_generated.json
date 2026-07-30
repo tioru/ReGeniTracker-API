@@ -1,13 +1,46 @@
 {
   "number": "1.3",
+  "cycleLabel": null,
   "name": "All That Glitters",
+  "subtitle": null,
+  "description": "}}",
   "releaseDate": "2021-02-03",
   "endDate": "2021-03-17",
-  "newCharacters": [
-    "Xiao",
-    "Hu Tao"
+  "previousVersion": "1.2",
+  "nextVersion": "1.4",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/8418",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210128warmup/index.html",
+      "label": "Version 1.3 Website"
+    },
+    {
+      "url": "https://www.hoyolab.com/article/142150",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen All That Glitters.png",
+    "Splashscreen Moment of Bloom.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Xiao",
+      "rarity": 5,
+      "element": "Anemo",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Hu Tao",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "4Star": [
       "Lance des Millelithes",
@@ -20,26 +53,30 @@
   },
   "banners": {
     "characters": [
-      "Invitation scintillante",
-      "Danse des lanternes",
-      "Floraison écarlate"
+      {
+        "name": "Invitation scintillante",
+        "featured": "Xiao",
+        "phase": null
+      },
+      {
+        "name": "Danse des lanternes",
+        "featured": "Keqing",
+        "phase": null
+      },
+      {
+        "name": "Floraison écarlate",
+        "featured": "Hu Tao",
+        "phase": null
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Festival des lanternes/10.02.2021",
-    "Richesses honorables",
-    "Stand by Me",
-    "Reflux des lignes énergétiques",
-    "Les couleurs de la fortune",
-    "Chasse au Géosaure",
-    "Illumination de la lanterne"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [
       "Géosaure"
@@ -51,6 +88,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -62,5 +105,51 @@
       "Trésor de Tianqiu"
     ],
     "hangoutQuests": []
-  }
+  },
+  "events": [
+    "Festival des lanternes/10.02.2021",
+    "Richesses honorables",
+    "Stand by Me",
+    "Reflux des lignes énergétiques",
+    "Les couleurs de la fortune",
+    "Chasse au Géosaure",
+    "Illumination de la lanterne"
+  ],
+  "newRecipes": [
+    "Œufs de pleine lune",
+    "Ormeau végétarien",
+    "Délicatesses du Port de pierre"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "Nucléo-transmutation",
+    "Ricochet !",
+    "C'est à vous ça ?",
+    "Pénalty",
+    "... Lézard, Spock.",
+    "Non-respect des normes de construction",
+    "Respect de l'architecture",
+    "Le vent va, le vent vient",
+    "Fusion du noyau",
+    "Vertigo",
+    "Collecte de dette",
+    "« Je... fonds... »",
+    "Un des Quatre Vents, vraiment ?",
+    "Touche-touche"
+  ],
+  "newNamecards": [],
+  "newGadgets": [
+    "Transformateur paramétrique"
+  ],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": null
 }

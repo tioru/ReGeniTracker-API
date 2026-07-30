@@ -1,11 +1,80 @@
 {
   "number": "4.6",
+  "cycleLabel": null,
   "name": "Two Worlds Aflame, the Crimson Night Fades",
+  "subtitle": null,
+  "description": "All plans need someone to enact them.<br>May frost blush under the crimson moon,<br>A symphony resound from the depths,<br>And let sandswept secrets sleep no more,<br>Til there's naught but to await an inescapable fate.}}",
   "releaseDate": "2024-04-24",
   "endDate": "2024-06-05",
-  "newCharacters": [
-    "Arlecchino"
+  "previousVersion": "4.5",
+  "nextVersion": "4.7",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123426",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://www.hoyolab.com/article/27518305",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=68d4658994104b5b#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20240413preview-pvtga2/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123161",
+      "label": "Developer's Discussion"
+    }
   ],
+  "images": [
+    "Splashscreen Two Worlds Aflame, the Crimson Night Fades.png",
+    "Splashscreen From Ashes Reborn Immaculate Pulse.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Arlecchino",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [],
+  "newWeapons": {
+    "5Star": [
+      "Crimson Moon's Semblance"
+    ]
+  },
+  "banners": {
+    "characters": [
+      {
+        "name": "The Hearth's Ashen Shadow",
+        "featured": "Arlecchino",
+        "phase": 1
+      },
+      {
+        "name": "Conjuring Chiaroscuro",
+        "featured": "Lyney",
+        "phase": 1
+      },
+      {
+        "name": "From Ashes Reborn",
+        "featured": "Wanderer",
+        "phase": 2
+      },
+      {
+        "name": "Immaculate Pulse",
+        "featured": "Baizhu",
+        "phase": 2
+      }
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
+  },
   "mapExpansion": [
     {
       "mainRegion": "Sea of Bygone Eras",
@@ -21,38 +90,16 @@
       ]
     }
   ],
-  "newWeapons": {
-    "5Star": [
-      "Crimson Moon's Semblance"
-    ]
-  },
-  "banners": {
-    "characters": [
-      "The Hearth's Ashen Shadow",
-      "Conjuring Chiaroscuro",
-      "From Ashes Reborn",
-      "Immaculate Pulse"
-    ],
-    "weapons": [
-      "Epitome Invocation"
-    ]
-  },
-  "events": [
-    "Iridescent Arataki Rockin' For Life Tour de Force of Awesomeness",
-    "Windtrace: Seekers and Strategy",
-    "Specially-Shaped Saurian Search",
-    "Vibro-Crystal Applications",
-    "Overflowing Mastery"
-  ],
   "newDomains": [
     "Faded Theater",
     "Scattered Ruins"
   ],
-  "newArtifacts": [
-    "Unfinished Reverie",
-    "Fragment of Harmonic Whimsy"
+  "newSystems": [
+    "Mysterious Grimoire",
+    "Washer Octopus",
+    "Wonderchime Flowers and Allochromatic Anemones"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [],
     "elite": [
       "Praetorian Golem"
@@ -66,6 +113,24 @@
       ]
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [
+    "Unfinished Reverie",
+    "Fragment of Harmonic Whimsy"
+  ],
+  "newMaterials": [
+    "Fading Candle",
+    "Silken Feather",
+    "Denial and Judgment",
+    "Fragment of a Golden Melody"
+  ],
+  "newMonsterDrops": [
+    "Ruined Hilt",
+    "Splintered Hilt",
+    "Still-Smoldering Hilt"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -98,5 +163,106 @@
       "Daydreams Beyond Space and Time"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Iridescent Arataki Rockin' For Life Tour de Force of Awesomeness",
+    "Windtrace: Seekers and Strategy",
+    "Specially-Shaped Saurian Search",
+    "Vibro-Crystal Applications",
+    "Overflowing Mastery"
+  ],
+  "newRecipes": [
+    "Bulle Souffle"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Hearthfire's Trail"
+  ],
+  "newAchievements": [
+    "Rhapsodia in the Ancient Sea",
+    "Challenger: Series IX",
+    "Wonders of the World"
+  ],
+  "newNamecards": [
+    "Travel Notes: The Realms Rocked",
+    "Arlecchino: Edict",
+    "Achievement: Whalewrangler",
+    "Fontaine: Attunement",
+    "Fontaine: Lucine"
+  ],
+  "newGadgets": [
+    "Ancient Autoharmonic Music Box",
+    "Nightwind Horn"
+  ],
+  "newFurnishings": [
+    "\"Blancdouce Bell\"",
+    "\"Blue Dewdrop\"",
+    "\"Crystalline Glory\"",
+    "\"Hidden Serpent\"",
+    "\"Inspiration's Pure White Blossoms\"",
+    "\"Legion's Furious Horns\"",
+    "\"Mirror-Reflection Lyre\"",
+    "\"Origin of Music\"",
+    "\"Peaceful Residence in the Musicmaking Town\"",
+    "\"Resourceful Residence in the Musicmaking Town\"",
+    "\"Salubrious Fragrance\"",
+    "\"Tolling of the Musicmaking Town\"",
+    "\"Workshop in the Musicmaking Town\"",
+    "Fontainian Carpet: \"Fair and Square\"",
+    "Hotel Railing: \"Fresh Mint Leaves\"",
+    "Hotel Railing: \"Perfect Viewing Arc\"",
+    "Mallow Wood Bench: \"Hidden Melody\"",
+    "Mallow Wood Chair: \"E-Z Fold\"",
+    "Mallow Wood Doorframe: \"Gentle Melody\"",
+    "Mallow Wood Fence: \"Tides\"",
+    "Mallow Wood Long Table: \"Engraved Memories\"",
+    "Mallow Wood Mailbox: \"Storage\"",
+    "Mallow Wood Round Table: \"A Shared Drink\"",
+    "Meka Luminaire: \"Silent Night's Contemplation\"",
+    "Model Meka: \"Age of Progress\"",
+    "Music Town's Hut: \"Mardouce Harmony\"",
+    "Music Town's Streetlamp: \"Safety Lighting\"",
+    "Simple Lighting: \"Locally Sourced Materials\"",
+    "Sword-Bearing Statue: \"Eternal Watch\"",
+    "Wall-Hearth: \"The Firewood that Banishes the Dark\""
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [
+    "Anecdota Septentrionalis"
+  ],
+  "newTcgCards": {
+    "characterCards": [
+      "Abyss Herald: Wicked Torrents",
+      "Kuki Shinobu",
+      "Emperor of Fire and Iron",
+      "Faruzan"
+    ],
+    "actionCards": [
+      "Rightful Reward",
+      "Amethyst Crown",
+      "Taroumaru",
+      "The White Glove and the Fisherman",
+      "Seirai Island",
+      "Underwater Treasure Hunt",
+      "Rainbow Macarons"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 31 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Adds 17 World Quest-related avatars that will be unlocked after completing World Quests in accordance with the corresponding unlock criteria (Refer to \"Paimon Menu > Change Avatar\" in-game for the specific unlock criteria. For Travelers who have already completed the corresponding World Quests before the version update, the corresponding avatars will be automatically unlocked after the version update.)",
+    "Fountain of Lucine: Increase in the Level Cap of Fountain of Lucine to Level 50. After the Fountain of Lucine reaches its maximum level, Hydro Sigils can be exchanged with Mequignon at Bertin's House of Curiosities.",
+    "Adds the \"Focused Experience Mode\" function:",
+    "# This function can be enabled for certain quests in the \"Quest\" menu. Once enabled, Travelers can prevent locations and characters involved in said quest from being occupied by other quests, which improves the experience of the current quest.",
+    "# Function Access Unlock Criteria: Complete Archon Quest Prologue: Act III \"Song of the Dragon and Freedom\"",
+    "# In Version 4.6, the \"Focused Experience Mode\" function will be available for Arlecchino's Story Quest - Ignis Purgatorius Chapter: Act I \"When the Hearth-Flame Goes Out.\" The \"Focused Experience Mode\" function will gradually be made available for more quests in subsequent versions."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Flame-Fanning Moon",
+    "blessingEffect": "When a character triggers Vaporize, Overloaded, Melt, Burning, Burgeon, Pyro Swirl, or Pyro Crystallize reactions on an opponent, the opponent's All Elemental RES and Physical RES is reduced by 30% for 4s."
   }
 }

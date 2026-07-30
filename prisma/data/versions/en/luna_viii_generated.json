@@ -1,11 +1,87 @@
 {
-  "number": "Luna VIII",
+  "number": "6.7",
+  "cycleLabel": "Luna VIII",
   "name": "Sunny Summer Fontinalia",
+  "subtitle": "Song of the Welkin Moon: Scherzo",
+  "description": "From its reflection upon the water, we learn that the new moon has risen. Beneath the early summer night sky, we wander free and unhurried.<br>There is no need to hurry. Home is the destination we are sure to reach. Until then, let us listen to the songs along the way.",
   "releaseDate": "2026-07-01",
   "endDate": "2026-08-12",
-  "newCharacters": [
-    "Sandrone"
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/165076",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/165001",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=ed504b9f27204b1e#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/164999",
+      "label": "Paimon's Version Update Notes"
+    }
   ],
+  "images": [
+    "Splashscreen Sunny Summer Fontinalia.png",
+    "Splashscreen To the Looking-Glass the Mademoiselle Said.png",
+    "Splashscreen Wonderland Treasure Breezes Meet the Fatebound Sea.png",
+    "Splashscreen When We Look Up at the Moon.png",
+    "Splashscreen Somnias a Luna Reign of Serenity.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Sandrone",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [
+    {
+      "name": "Whispers of Stars and Smoke",
+      "character": "Citlali"
+    },
+    {
+      "name": "Hurlock Variations",
+      "character": "Charlotte"
+    }
+  ],
+  "newWeapons": {
+    "5Star": ["A Teaspoon of Transcendence"]
+  },
+  "banners": {
+    "characters": [
+      {
+        "name": "Heavenlit Prophecy",
+        "featured": "Witch's Revelation Lightrace Wish",
+        "phase": 1
+      },
+      {
+        "name": "To the Looking-Glass the Mademoiselle Said",
+        "featured": "Sandrone",
+        "phase": 1
+      },
+      {
+        "name": "Starry Night's Whispers",
+        "featured": "Citlali",
+        "phase": 1
+      },
+      {
+        "name": "Somnias a Luna",
+        "featured": "Columbina",
+        "phase": 2
+      },
+      {
+        "name": "Reign of Serenity",
+        "featured": "Raiden Shogun",
+        "phase": 2
+      }
+    ],
+    "weapons": ["Epitome Invocation"]
+  },
   "mapExpansion": [
     {
       "mainRegion": "Dunanna Pit",
@@ -13,52 +89,38 @@
     },
     {
       "mainRegion": "Frost Moon",
-      "subRegion": [
-        "Lunar Highlands",
-        "Moontide Sea",
-        "Dark Side of the Moon"
-      ]
+      "subRegion": ["Lunar Highlands", "Moontide Sea", "Dark Side of the Moon"]
     }
   ],
-  "newWeapons": {
-    "5Star": [
-      "A Teaspoon of Transcendence"
-    ]
-  },
-  "banners": {
-    "characters": [
-      "Heavenlit Prophecy",
-      "To the Looking-Glass the Mademoiselle Said",
-      "Starry Night's Whispers",
-      "Somnias a Luna",
-      "Reign of Serenity"
-    ],
-    "weapons": [
-      "Epitome Invocation"
-    ]
-  },
-  "events": [
-    "Sunny Summer Fontinalia (Event)",
-    "Final Long-Range Sightlines",
-    "Dance Dance Easy-Breezy Disco",
-    "Ley Line Overflow",
-    "When We Look Up at the Moon"
-  ],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
-    "common": [
-      "Prism Slime",
-      "Mushteshir"
-    ],
-    "elite": [
-      "Precursor's Secret Source Matrix of Overseer Network"
-    ],
+  "newSystems": [
+    "Elemental Reaction",
+    "Stellar-Conduct",
+    "Witch's Revelation",
+    "Repertoire of Myriad Melodies",
+    "Nod-Krai: Where Roads Are Pledged to Cross",
+    "Score Theme",
+    "Dovefeather Moondew",
+    "Ancient Moon's Remnant"
+  ],
+  "newMonsters": {
+    "common": ["Prism Slime", "Mushteshir"],
+    "elite": ["Precursor's Secret Source Matrix of Overseer Network"],
     "boss": {
       "normal": [],
       "weekly": []
     }
   },
+  "newWildlife": ["Moonglow Frostfin Whale", "Moonglow Jellyfish"],
+  "newArtifacts": [],
+  "newMaterials": ["Teardrop of the Moon"],
+  "newMonsterDrops": [
+    "Fractured Lunar Iron",
+    "Depleted Lunar Iron",
+    "Unblemished Lunar Iron"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -72,5 +134,93 @@
       "Within the Sequence"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Sunny Summer Fontinalia (Event)",
+    "Final Long-Range Sightlines",
+    "Dance Dance Easy-Breezy Disco",
+    "Ley Line Overflow",
+    "When We Look Up at the Moon"
+  ],
+  "newRecipes": ["Birch-Steamed Pork Ribs", "Meat-Filled Rye Bun"],
+  "newFormulas": [],
+  "newSpecialtyDishes": ["Tea Party Polyphony"],
+  "newAchievements": ["Unfettered Crescent", "Wonders of the World"],
+  "newNamecards": [
+    "Sandrone: Tea Break",
+    "Nod-Krai: Moonbright",
+    "Travel Notes: Sunny Summer"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Banner of the Wingalet",
+    "Camp Barrier: Treatment Area",
+    "Infinite Recursion Formula",
+    "Keys of Ingenuity",
+    "Large Cargo Crate: Reliable Support",
+    "Medium Cargo Crate: Basic Supplies",
+    "Medium Metal Scrap Barrel",
+    "Moon Envoy of Silver Radiance",
+    "Movable Small Spotlight",
+    "Nasha Stall: Deep-Rooted Traditions",
+    "Ripples in Miniature",
+    "Signalless Tower",
+    "Standing Street Lamp: Beacon in the Misty Night",
+    "Tea Party Carpet: Soft to the Touch",
+    "Tea Party Cart: Dessert Time",
+    "Tea Party Chair: Crimson and Gold",
+    "Tea Party Cup: Refreshing Flavor",
+    "Tea Party Dining Table: The Perfect Gathering",
+    "Unusable Legacy",
+    "Vessel of the Past",
+    "Wingalet Rules of Conduct"
+  ],
+  "newFurnishingSets": ["A Tea Party at Leisure"],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Black Serpent Knight: Windcutter",
+      "Nefer",
+      "Wayward Hermetic Spiritspeaker"
+    ],
+    "actionCards": [
+      "Lil' Fungi's Fun-Tastic Fiesta",
+      "The Power of Research",
+      "Nightmare Omen",
+      "Elemental Transfiguration: Aquabreeze Blessing",
+      "Elemental Transfiguration: Thunderbloom Blessing",
+      "Lakkaberry Pie"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 50 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Souvenir Shop Available: After upgrading all 6 Meeting Points in the Nod-Krai region and the 2 Ancient Moon's Remnants in the Frost Moon area to their max level, Travelers can use Luna Sigils to purchase items from the Voynich Guild in Nod-Krai.",
+    "After the Version Luna VIII update, the weapons \"Cashflow Supervision\" (Catalyst) and \"Kagura's Verity\" (Catalyst) will gain new enhancement effects.",
+    "There will be new Fishing Points and \"Radiant Spincrystals\" in the new areas."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "August 1, 2026",
+    "requiredElements": ["Hydro", "Electro", "Cryo"],
+    "openingCharacters": ["Yelan", "Aino", "Flins", "Ororon", "Skirk", "Layla"],
+    "guestCharacters": [
+      "Arlecchino",
+      "Chevreuse",
+      "Kaedehara Kazuha",
+      "Tighnari"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": "July 16",
+    "floor11Disorder": [
+      "All characters in the party gain a 60% Cryo DMG Bonus.",
+      "All characters in the party gain a 60% Electro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Characters' Superconduct DMG increased by 200% and Stellar-Conduct DMG increased by 75%.",
+      "Second Half: Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%."
+    ],
+    "blessingName": "Ice-Surging Moon",
+    "blessingEffect": "When the active character deals Cryo DMG to opponents with Charged Attacks, their attacks will unleash a shockwave at the opponent's position that deals True DMG. This can trigger once every 3s."
   }
 }

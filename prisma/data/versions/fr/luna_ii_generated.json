@@ -1,13 +1,52 @@
 {
-  "number": "Luna II",
+  "number": "6.1",
+  "cycleLabel": "Luna II",
   "name": "Élégie sous la lune évanescente",
+  "subtitle": "Chant de l'astre de la nuit - Reprise",
+  "description": "Ô voyageur traversant la mer de sable, pourquoi vous attardez-vous sous le clair de lune ?<br>Ô bête à bout de forces, pourquoi hurlez-vous dans une nuit sans lune ?<br>Les secrets ne peuvent rester enfouis sous terre à jamais. Le clair de lune percera le cours de l'histoire pour illuminer chaque ombre oubliée.",
   "releaseDate": "2025-10-22",
   "endDate": "2025-12-03",
-  "newCharacters": [
-    "Nefer",
-    "Manekin"
+  "previousVersion": "Luna I",
+  "nextVersion": "Luna III",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/160521",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/160360",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=1aa56503e1c74306#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_df1bhOOLAB/index.html",
+      "label": "Preview Page"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen An Elegy for Faded Moonlight.png",
+    "Splashscreen Temptation of the Crimson Sands.png",
+    "Splashscreen Wonderland Treasure Phantom Night Candlelight.png",
+    "Splashscreen The Hearth's Ashen Shadow Gentry of Hermitage.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Nefer",
+      "rarity": 5,
+      "element": "Dendro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Manekin",
+      "rarity": null,
+      "element": null,
+      "weaponType": null
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Reliquaire de la vérité"
@@ -19,24 +58,43 @@
   },
   "banners": {
     "characters": [
-      "Tentation des sables écarlates",
-      "Chant de toutes les eaux",
-      "L'ombre cendrée de l'âtre",
-      "Monts et marchés"
+      {
+        "name": "Tentation des sables écarlates",
+        "featured": "Nefer",
+        "phase": 1
+      },
+      {
+        "name": "Chant de toutes les eaux",
+        "featured": "Furina",
+        "phase": 1
+      },
+      {
+        "name": "L'ombre cendrée de l'âtre",
+        "featured": "Arlecchino",
+        "phase": 2
+      },
+      {
+        "name": "Monts et marchés",
+        "featured": "Zhongli",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Exploration des ruines : Centre sécuriterrain",
-    "Délire disco dynamique dansant",
-    "Séjour saurien",
-    "Abondance de prospérité"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Miliastra Wonderland: Gameplay Open Beta. A variety of custom stages from creators go live, featuring new social features, event gameplay, and customization content.",
+    "Chroniques",
+    "Ode",
+    "Explore Wonderlands",
+    "Invitation to Wonderland: A Curious Awakening",
+    "Wonderland Level",
+    "Lobby"
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -46,6 +104,14 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [
+    "Corne radieuse"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -61,5 +127,109 @@
       "The Spurious Cannot Be Made Genuine"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Exploration des ruines : Centre sécuriterrain",
+    "Délire disco dynamique dansant",
+    "Séjour saurien",
+    "Abondance de prospérité"
+  ],
+  "newRecipes": [
+    "Lohikeitto",
+    "Tarte aux lakkabaies"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Secret échangé"
+  ],
+  "newAchievements": [
+    "Wonders of the World category"
+  ],
+  "newNamecards": [
+    "Thème Nefer - Secrets",
+    "Thème PB - Ruines d'antan",
+    "Thème Nod-Krai - Clair de lune"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Bateau de nuages",
+    "« Déduction et induction »",
+    "Haut-parleur d'usine « Coup de fouet »",
+    "Armoire d'usine « Entassement en pagaille »",
+    "Table longue d'usine « Pas une minute à perdre »",
+    "Tabouret d'usine « Outil polyvalent »",
+    "Amitié chahutée",
+    "Chaise en coudrier avec dossier jade",
+    "« Secrets cachés »",
+    "Table longue d'intérieur « Marques d'affection »",
+    "Tapis d'intérieur « Douceur et moelleux »",
+    "Tapis d'intérieur « Nuit étoilée »",
+    "Chat en boule",
+    "Arbre pour chat multifonction en chêne blanc",
+    "Panneau de fête « Prêt à danser »",
+    "Panneau de fête « Grâce en mouvement »",
+    "Compagnon-résolveur « Zen et efficace »",
+    "« Question tarifée »",
+    "« Quiétude et douceur »",
+    "Lit de taverne « Ni bon, ni mauvais »",
+    "Cible de taverne « Tir valide »",
+    "Table carrée de taverne « Auto-défense »",
+    "Sélection musicale d'ivresse"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Varesa",
+      "Ifa",
+      "Tulpa Hydro"
+    ],
+    "actionCards": [
+      "Lueur de la lune éternelle",
+      "Monocle de dragon démoniaque",
+      "Ancien rituel royal",
+      "Guilde des aventuriers",
+      "An Ancient Sacrifice of Sacred Brocade",
+      "Infusion de Chenyu",
+      "Vallon Chenyu"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 44 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "November 1, 2025",
+    "requiredElements": [
+      "Hydro",
+      "Electro",
+      "Dendro"
+    ],
+    "openingCharacters": [
+      "Furina",
+      "Barbara",
+      "Cyno",
+      "Ororon",
+      "Alhaitham",
+      "Yaoyao"
+    ],
+    "guestCharacters": [
+      "Arlecchino",
+      "Zhongli",
+      "Diona",
+      "Lynette"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members have their Elemental Mastery increased by 200."
+    ],
+    "floor12Disorder": [
+      "First Half: Characters' Bloom DMG increased by 200% and Lunar-Bloom DMG increased by 75%.",
+      "Characters' Normal Attack Pyro DMG increased by 75%."
+    ],
+    "blessingName": "Oathbound Moon",
+    "blessingEffect": "When the active character's Bond of Life value increases or decreases, a shockwave will be unleashed, dealing True DMG to nearby opponents."
   }
 }

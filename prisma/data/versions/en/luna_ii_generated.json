@@ -1,13 +1,52 @@
 {
-  "number": "Luna II",
+  "number": "6.1",
+  "cycleLabel": "Luna II",
   "name": "An Elegy for Faded Moonlight",
+  "subtitle": "Song of the Welkin Moon: Reprise",
+  "description": "Wayfarer traversing an ocean of sand, why do you linger beneath the moonlight?<br>Weary beast, dragging your worn-out limbs, why do you roar to the moonless night sky?<br>Secrets cannot stay buried forever. The moonlight will shine through the tide of history and cast light upon every solitary shadow.",
   "releaseDate": "2025-10-22",
   "endDate": "2025-12-03",
-  "newCharacters": [
-    "Nefer",
-    "Wonderland Manekin"
+  "previousVersion": "Luna I",
+  "nextVersion": "Luna III",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/160521",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/160360",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=1aa56503e1c74306#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_df1bhOOLAB/index.html",
+      "label": "Preview Page"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen An Elegy for Faded Moonlight.png",
+    "Splashscreen Temptation of the Crimson Sands.png",
+    "Splashscreen Wonderland Treasure Phantom Night Candlelight.png",
+    "Splashscreen The Hearth's Ashen Shadow Gentry of Hermitage.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Nefer",
+      "rarity": 5,
+      "element": "Dendro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Wonderland Manekin",
+      "rarity": null,
+      "element": null,
+      "weaponType": null
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Reliquary of Truth"
@@ -19,24 +58,43 @@
   },
   "banners": {
     "characters": [
-      "Temptation of the Crimson Sands",
-      "Chanson of Many Waters",
-      "The Hearth's Ashen Shadow",
-      "Gentry of Hermitage"
+      {
+        "name": "Temptation of the Crimson Sands",
+        "featured": "Nefer",
+        "phase": 1
+      },
+      {
+        "name": "Chanson of Many Waters",
+        "featured": "Furina",
+        "phase": 1
+      },
+      {
+        "name": "The Hearth's Ashen Shadow",
+        "featured": "Arlecchino",
+        "phase": 2
+      },
+      {
+        "name": "Gentry of Hermitage",
+        "featured": "Zhongli",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Ruins Exploration: Fieldwise Center",
-    "Dance Dance Dynamic Disco",
-    "Saurian Sojourn",
-    "Overflowing Abundance"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Miliastra Wonderland: Gameplay Open Beta. A variety of custom stages from creators go live, featuring new social features, event gameplay, and customization content.",
+    "Miliastra Pass",
+    "Ode",
+    "Explore Wonderlands",
+    "Invitation to Wonderland: A Curious Awakening",
+    "Wonderland Level",
+    "Lobby"
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -46,6 +104,14 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [
+    "Radiant Antler"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -61,5 +127,109 @@
       "The Spurious Cannot Be Made Genuine"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Ruins Exploration: Fieldwise Center",
+    "Dance Dance Dynamic Disco",
+    "Saurian Sojourn",
+    "Overflowing Abundance"
+  ],
+  "newRecipes": [
+    "Lohikeitto",
+    "Lakkaberry Pie"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Secrets Exchanged"
+  ],
+  "newAchievements": [
+    "Wonders of the World category"
+  ],
+  "newNamecards": [
+    "Nefer: Secrets",
+    "Travel Notes: Bygone Ruins",
+    "Nod-Krai: Moonlight"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Boat of Clouds",
+    "Deduction and Induction",
+    "Factory Broadcast: \"Invigoration\"",
+    "Factory Cabinet: \"Slapdash Storage\"",
+    "Factory Long Table: \"No Time to Waste\"",
+    "Factory Stool: Multirole Seating Device",
+    "Friends Through Friction",
+    "Hazelwood Jade-Backed Chair",
+    "Hidden Secrets",
+    "Indoor Long Table: \"Marks of Love\"",
+    "Indoor Rug: \"Soft and Plush\"",
+    "Indoor Rug: \"Starlit Night\"",
+    "Loafing Kitty",
+    "Multifunctional Pedunculate Oak Wood Cat Tree",
+    "Party Standee: \"Raring to Go\"",
+    "Party Standee: \"Grace in Motion\"",
+    "Puzzlepal: \"Keep Calm and Carry On\"",
+    "Question With a Price Tag",
+    "Quiet and Cozy",
+    "Tavern Bed: \"Not Great, Not Terrible\"",
+    "Tavern Dartboard: \"Valid Throw\"",
+    "Tavern Square Table: \"Self-Defense\"",
+    "Tipsy Playlist"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Varesa",
+      "Ifa",
+      "Hydro Tulpa"
+    ],
+    "actionCards": [
+      "Everlasting Moonglow",
+      "Fell Dragon's Monocle",
+      "Noblesse Oblige",
+      "Adventurers' Guild",
+      "An Ancient Sacrifice of Sacred Brocade",
+      "Chenyu Brew",
+      "Chenyu Vale"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 44 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "November 1, 2025",
+    "requiredElements": [
+      "Hydro",
+      "Electro",
+      "Dendro"
+    ],
+    "openingCharacters": [
+      "Furina",
+      "Barbara",
+      "Cyno",
+      "Ororon",
+      "Alhaitham",
+      "Yaoyao"
+    ],
+    "guestCharacters": [
+      "Arlecchino",
+      "Zhongli",
+      "Diona",
+      "Lynette"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members have their Elemental Mastery increased by 200."
+    ],
+    "floor12Disorder": [
+      "First Half: Characters' Bloom DMG increased by 200% and Lunar-Bloom DMG increased by 75%.",
+      "Characters' Normal Attack Pyro DMG increased by 75%."
+    ],
+    "blessingName": "Oathbound Moon",
+    "blessingEffect": "When the active character's Bond of Life value increases or decreases, a shockwave will be unleashed, dealing True DMG to nearby opponents."
   }
 }

@@ -1,13 +1,55 @@
 {
-  "number": "Luna III",
+  "number": "6.2",
+  "cycleLabel": "Luna III",
   "name": "Une nocturne au grand nord",
+  "subtitle": "Chant de l'astre de la nuit - Interlude",
+  "description": "Pour défier le destin, vous pouvez fuir le tumulte du monde et vous aventurer dans la nuit fantôme.<br>Le voile lunaire enveloppe la rivière tranquille, tandis que des lanternes paisibles éclairent le chemin à suivre.<br>Le foyer est toujours là, appelant chaque âme égarée.",
   "releaseDate": "2025-12-03",
   "endDate": "2026-01-14",
-  "newCharacters": [
-    "Durin",
-    "Jahoda"
+  "previousVersion": "Luna II",
+  "nextVersion": "Luna IV",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/161275",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/161138",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=8b1ab2d98664411d#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_w4YUDp9Hah/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://www.hoyolab.com/article/42577649",
+      "label": "Paimon's Version Update Notes"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen A Nocturne of the Far North.png",
+    "Splashscreen Rubedo, of White Stone Born.png",
+    "Splashscreen Forgefire's Blessing Cornucopia of Contention.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Durin",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Jahoda",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Bow"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Athame Artis",
@@ -19,24 +61,49 @@
   },
   "banners": {
     "characters": [
-      "Rubedo, né de pierre blanche",
-      "Ballade en pintes",
-      "Cornucopia de la discorde",
-      "Faveur du feu forgé"
+      {
+        "name": "Rubedo, né de pierre blanche",
+        "featured": "Durin & Jahoda",
+        "phase": 1
+      },
+      {
+        "name": "Ballade en pintes",
+        "featured": "Venti & Jahoda",
+        "phase": 1
+      },
+      {
+        "name": "Cornucopia de la discorde",
+        "featured": "Varesa",
+        "phase": 2
+      },
+      {
+        "name": "Faveur du feu forgé",
+        "featured": "Xilonen",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Périple enneigé des âmes embrasées",
-    "Ballon piaf'tatrac",
-    "Clash héroïque : Bagarre de sauriens",
-    "Merveilleuses marchandises"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Miliastra Wonderland: Component Sharing Platform Becomes Available. Creator prefabricated components are now open-source, enabling richer creative experiences.",
+    "Cour givrée",
+    "Invitation to Wonderland: In Search of Inspiration",
+    "Devoir de la sorcière",
+    "Hexerei: Secret Rite (Sucrose, Mona, Durin, Klee, Albedo, Venti, Fischl, Razor)",
+    "Répertoire aux mille mélodies",
+    "Special Features",
+    "Before performing a score, you can choose from various \"Specializations\" to enrich your performance experience, such as increasing or lowering the difficulty, or taking on additional challenges.",
+    "\"Specialization\" effects can be applied to scores from official albums as well as pieces created by other performers.",
+    "Successfully performing a score with difficulty-enhancing Specialization effects will earn you the corresponding medal.",
+    "Co-op Ensemble Function",
+    "You can initiate Co-Op Ensemble on the Score Selection Page. (Also available in the Serenitea Pot).",
+    "In Co-Op Ensemble, all participants perform individually and compete to gain the highest rating. The initiator can select special options to increase or decrease the score's difficulty or create special challenges. Certain special options will not take effect in Co-Op Ensemble."
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -46,6 +113,18 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Loup à poil clair"
+  ],
+  "newArtifacts": [],
+  "newMaterials": [
+    "Cœur affiné"
+  ],
+  "newMonsterDrops": [
+    "Noyau kuuvahkique militaire de type cyclique"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -67,5 +146,110 @@
       "Collaborative Commission"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Périple enneigé des âmes embrasées",
+    "Ballon piaf'tatrac",
+    "Clash héroïque : Bagarre de sauriens",
+    "Merveilleuses marchandises"
+  ],
+  "newRecipes": [
+    "Boisson 455"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Ragoût de pommes (version d'essai)",
+    "Devoir d'après-cours"
+  ],
+  "newAchievements": [
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Thème Durin - Cœur radieux",
+    "Thème Jahoda - Aide",
+    "Thème PB - Givre-flamme"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Chuchotement de brume rosée",
+    "Éclat d'appétit",
+    "Le tourne-grabuge de Dodoco",
+    "Dragon en action",
+    "« Éclat et lueur »",
+    "Chapardeur gourmand",
+    "Grilleur suprême",
+    "« Petit pinson »",
+    "Roulette chanceuse",
+    "Maître-belette",
+    "As de la seconde",
+    "Pétales sans parfum",
+    "Saurienneau éclaireur",
+    "Étamine lumineuse",
+    "Âme embrasée « Fietena »",
+    "Bonhomme embrasé de neige « Gentille guerrière »",
+    "Annonce de taverne « Murmures urbains »",
+    "Le voyageur solitaire",
+    "Éclat intemporel",
+    "« À tes côtés »",
+    "Détecteur portable utilitaire",
+    "Tour bipolaire droite à trépied",
+    "Salut au passé",
+    "Poney à bascule"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Gaming",
+      "Escoffier",
+      "Chevalier des Serpents noirs - Casseur de pierre"
+    ],
+    "actionCards": [
+      "Rêve de la nymphe",
+      "Seymour",
+      "Lost Legacies in the Sand",
+      "The Narzissenkreuz Adventure",
+      "Plan to Save the World",
+      "Tour d'ipsissimus"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 45 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "January 1, 2026",
+    "requiredElements": [
+      "Pyro",
+      "Hydro",
+      "Electro"
+    ],
+    "openingCharacters": [
+      "Mavuika",
+      "Yanfei",
+      "Sigewinne",
+      "Dahlia",
+      "Clorinde",
+      "Iansan"
+    ],
+    "guestCharacters": [
+      "Xilonen",
+      "Xianyun",
+      "Venti",
+      "Collei"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members gain a 60% Pyro DMG Bonus.",
+      "All characters in the party gain a 60% Electro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Non-active characters gain a 75% Pyro DMG Bonus.",
+      "Second Half: Characters' Plunging Attack DMG increased by 75%."
+    ],
+    "blessingName": "Whirlwind Moon",
+    "blessingEffect": "When the active character triggers Swirl on an opponent, a shockwave will be unleashed at the opponent's position, dealing True DMG. This effect can be triggered once every 2s."
   }
 }

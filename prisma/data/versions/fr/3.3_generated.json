@@ -1,13 +1,50 @@
 {
   "number": "3.3",
+  "cycleLabel": null,
   "name": "Sens libérés et identité perdue",
+  "subtitle": null,
+  "description": "Depuis les temps anciens, les légendes de kaidan ne manquent pas à Inazuma.<br>Certaines sont naturellement liés aux histoires de fantômes et de démons transmises de génération en génération.<br>D'autres ne sont peut-être que de pâles aperçus des reliques du passé...",
   "releaseDate": "2022-12-07",
   "endDate": "2023-01-18",
-  "newCharacters": [
-    "Nomade",
-    "Faruzan"
+  "previousVersion": "3.2",
+  "nextVersion": "3.4",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/27964",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/26079",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?page_sn=15efceb8cc5b4eb4#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20221126prev-18kfmk/index.html",
+      "label": "Website"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen All Senses Clear, All Existence Void.png",
+    "Splashscreen Reign of Serenity Azure Excursion.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Nomade",
+      "rarity": 5,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Faruzan",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Bow"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Mémoire de Tulaytullah"
@@ -18,30 +55,37 @@
   },
   "banners": {
     "characters": [
-      "Renaissant des cendres",
-      "Baroud d'Oni",
-      "Règne de sérénité",
-      "Excursion azurée"
+      {
+        "name": "Renaissant des cendres",
+        "featured": "Wanderer & Faruzan",
+        "phase": 1
+      },
+      {
+        "name": "Baroud d'Oni",
+        "featured": "Arataki Itto & Faruzan",
+        "phase": 1
+      },
+      {
+        "name": "Règne de sérénité",
+        "featured": "Raiden Shogun",
+        "phase": 2
+      },
+      {
+        "name": "Excursion azurée",
+        "featured": "Kamisato Ayato",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Kimodameshi d'Akitsu",
-    "Traque dans la nature",
-    "Poursuite du vent",
-    "Misty Dungeon: Realm of Sand",
-    "Reflux des lignes énergétiques"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "Cité d'or"
   ],
-  "newArtifacts": [
-    "Chronique du Pavillon du désert",
-    "Fleur du paradis perdu"
-  ],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -49,6 +93,15 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [
+    "Chronique du Pavillon du désert",
+    "Fleur du paradis perdu"
+  ],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -60,5 +113,42 @@
       "Défi d'élévation : Légende"
     ],
     "hangoutQuests": []
-  }
+  },
+  "events": [
+    "Kimodameshi d'Akitsu",
+    "Traque dans la nature",
+    "Poursuite du vent",
+    "Misty Dungeon: Realm of Sand",
+    "Reflux des lignes énergétiques"
+  ],
+  "newRecipes": [],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Adds some prompts for loading screens.",
+    "Adds search function for Furnishings in Furnishing Creation interface and Serenitea Pot editing menu.",
+    "After Trust Rank reaches Level 10, the purchase limit cap of products in Realm Depot > Furnishings will be raised.",
+    "Adds the source of the Furnishing in the item description.",
+    "Adds Coral Butterfly to items sold by the Teapot Traveling Salesman.",
+    "Stellar Reunion Adjustments:",
+    "Interface Optimization: Adds access to Genius Invokation TCG to \"Returner's Journey.\"",
+    "Event Adjustment: Updates the completion conditions of certain \"Homeward Path\" missions.",
+    "Adds a new Battle Pass Mission in \"Battle Pass > Weekly Missions\": Complete Invokation TCG Weekly Guest Challenges 2 times.",
+    "Add Turkish and Italian Languages.",
+    "In the content updated in version 3.3, there are text errors for some English voice-over lines.",
+    "Akitsu Yuugen should be: Akitsu Yuugei",
+    "Akitsu Hazura should beAkitsu Haneasobi"
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": null
 }

@@ -1,16 +1,68 @@
 {
   "number": "2.1",
+  "cycleLabel": null,
   "name": "Caresse sélénite sur les mortels",
+  "subtitle": null,
+  "description": "Les vœux de tous se rassemblent au clair de lune. Soyez témoins de la force du tonnerre, contemplez la beauté de la fumée qui s'échappe des cheminées et la lueur des lanternes.<br>La lumière sélénite illumine, la roche demeure solide depuis des millénaires. Un moment éphémère s'attarde alors que le monde continue de suivre son cours.",
   "releaseDate": "2021-09-01",
   "endDate": "2021-10-13",
-  "newCharacters": [
-    "Shogun Raiden",
-    "Sangonomiya Kokomi",
-    "Kujou Sara",
-    "Aloy",
-    "Aloy is only obtainable by PSN players in Version 2.1 and will be delivered via in-game mail to players with Adventure Rank 20 or above. Other platforms will receive Aloy in Version 2.2."
+  "previousVersion": "2.0",
+  "nextVersion": "2.2",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/15513",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/15383",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=c473a7d281024854&mode=fullscreen&lang=en#/update",
+      "label": "Version 2.1 Preview Page"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210820-preview/index.html",
+      "label": "Version 2.1 Website"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Floating World Under the Moonlight.png",
+    "Splashscreen Drifting Luminescence.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Shogun Raiden",
+      "rarity": 5,
+      "element": "Electro",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Sangonomiya Kokomi",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Kujou Sara",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Aloy",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Aloy is only obtainable by PSN players in Version 2.1 and will be delivered via in-game mail to players with Adventure Rank 20 or above. Other platforms will receive Aloy in Version 2.2.",
+      "rarity": null,
+      "element": null,
+      "weaponType": null
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Lumière du faucheur",
@@ -24,34 +76,43 @@
   },
   "banners": {
     "characters": [
-      "Règne de sérénité",
-      "Luminescence à la dérive"
+      {
+        "name": "Règne de sérénité",
+        "featured": "Raiden Shogun & Kujou Sara",
+        "phase": null
+      },
+      {
+        "name": "Luminescence à la dérive",
+        "featured": "Sangonomiya Kokomi",
+        "phase": null
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Liesse au clair de lune",
-    "Moonchase Tales",
-    "Moonlight Seeker",
-    "Trail of Delicacies",
-    "Nuages et étoiles filantes",
-    "Hyakunin Ikki",
-    "Royaume lunaire",
-    "Sur les traces des spectres",
-    "Engraved Wishes Web Event",
-    "Side by Side We Venture Web Event",
-    "Initial Top-Up Bonus Reset"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "Trounce Domain",
     "Tenshukaku, Île de Narukami",
     "One Time Domain",
     "Palais de l'étang"
   ],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Pêche",
+    "Bait",
+    "Fausse mouche",
+    "Ver factice",
+    "Appât de pâte de fruit",
+    "Appât fétide",
+    "Fishing Rods",
+    "Pêchelune",
+    "Canne sauvage",
+    "Moulinevent",
+    "Faiseur de vœux",
+    "Fishing Point Map Pin"
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -59,6 +120,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -97,5 +164,84 @@
       "Espèces en recrudescence"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Liesse au clair de lune",
+    "Moonchase Tales",
+    "Moonlight Seeker",
+    "Trail of Delicacies",
+    "Nuages et étoiles filantes",
+    "Hyakunin Ikki",
+    "Royaume lunaire",
+    "Sur les traces des spectres",
+    "Engraved Wishes Web Event",
+    "Side by Side We Venture Web Event",
+    "Initial Top-Up Bonus Reset"
+  ],
+  "newRecipes": [
+    "Sushi aux crevettes",
+    "Sushi à l'œuf",
+    "Filets d'anguille grillés",
+    "Omelette au riz sauté",
+    "Taiyaki",
+    "Fourre-tout exquis",
+    "Pudding de riz",
+    "Viande braisée",
+    "Tofu oncidium",
+    "Pâté miaou revigorant",
+    "Wotou aux épices",
+    "Gelée rassasiante",
+    "Étonnant stratagème",
+    "Foi en l'éternité"
+  ],
+  "newFormulas": [
+    "Appât de pâte de fruit",
+    "Ver factice",
+    "Appât fétide",
+    "Fausse mouche"
+  ],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "Succès/Guide de pêche en Teyvat - Partie I",
+    "Succès/Inazuma : Archipel de la foudre éternelle - II",
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Thème PB - Désilune",
+    "Thème Shogun Raiden - Révélation",
+    "Thème Sangonomiya Kokomi - Profondeurs",
+    "Thème Kujou Sara - Tengu",
+    "Thème Aloy - Aube",
+    "Thème Succès - Clous",
+    "Thème Inazuma - Emblème de Sangonomiya",
+    "Celebration: Tuneful Delight",
+    "Thème Célébration - Ikki"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "« Bassin mystique »",
+    "Autel de rituel",
+    "Tambour militaire « Réverbération anti-formation »"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "When opponents are defeated, all party members will be affected by the \"Corrosion\" status.",
+      "Characters being Corroded will lose a fraction of their HP every second. Active characters can be brought down by Corrosion. When a non-active character's HP is less than 15%, they will no longer lose HP due to Corrosion.",
+      "Corrosion lasts 10s and can stack. The duration of each stack is counted independently."
+    ],
+    "floor12Disorder": [
+      "For this floor only, the ley line flow will be normal."
+    ],
+    "blessingName": "Phase I:",
+    "blessingEffect": "Renewing Moon<br>After a character uses an Elemental Burst, all party members' ATK is increased by 6.5% for 15s. Maximum 7 stacks. When 7 stacks are reached, the active character's Normal Attacks will unleash a shockwave at the position of the opponent it hits, dealing AoE DMG. A shockwave can be unleashed in this manner once every 2s."
   }
 }

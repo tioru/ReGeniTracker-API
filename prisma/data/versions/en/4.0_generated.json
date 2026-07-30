@@ -1,19 +1,64 @@
 {
   "number": "4.0",
+  "cycleLabel": null,
   "name": "As Light Rain Falls Without Reason",
+  "subtitle": null,
+  "description": "The streets are gray, the fine drizzle like mist.<br>If you don't understand the tricks, just sit back and enjoy the show.<br>But if the farce is all facade, why cry for no reason?",
   "releaseDate": "2023-08-16",
   "endDate": "2023-09-27",
-  "newCharacters": [
-    "Lyney",
-    "Lynette",
-    "Freminet"
-  ],
-  "mapExpansion": [
+  "previousVersion": "3.8",
+  "nextVersion": "4.1",
+  "links": [
     {
-      "mainRegion": "Fontaine",
-      "subRegion": []
+      "url": "https://genshin.hoyoverse.com/en/news/detail/112690",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/112650",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=42ba3f50708f4c6f#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20230805preview/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/111908",
+      "label": "Developer's Discussion 06/20"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/112476",
+      "label": "Developer's Discussion 08/02"
     }
   ],
+  "images": [
+    "Splashscreen As Light Rain Falls Without Reason.png",
+    "Splashscreen Gentry of Hermitage Farewell of Snezhnaya.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Lyney",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Lynette",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Freminet",
+      "rarity": 4,
+      "element": "Cryo",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "The First Great Magic"
@@ -34,34 +79,50 @@
   },
   "banners": {
     "characters": [
-      "Conjuring Chiaroscuro",
-      "Discerner of Enigmas",
-      "Gentry of Hermitage",
-      "Farewell of Snezhnaya"
+      {
+        "name": "Conjuring Chiaroscuro",
+        "featured": "Lyney & Lynette",
+        "phase": 1
+      },
+      {
+        "name": "Discerner of Enigmas",
+        "featured": "Yelan & Lynette",
+        "phase": 1
+      },
+      {
+        "name": "Gentry of Hermitage",
+        "featured": "Zhongli & Freminet",
+        "phase": 2
+      },
+      {
+        "name": "Farewell of Snezhnaya",
+        "featured": "Tartaglia & Freminet",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Mega Meka Melee",
-    "Relic Records: Creations of the Hydro Nation",
-    "Studies in Light and Shadow: A Fontaine of Enchantment",
-    "Verdict of Blades",
-    "Ley Line Overflow",
-    "The Curtain Never Falls on Magic",
-    "Primordial Waters (Battle Pass)"
+  "mapExpansion": [
+    {
+      "mainRegion": "Fontaine",
+      "subRegion": []
+    }
   ],
   "newDomains": [
     "Denouement of Sin",
     "Echoes of the Deep Tides",
     "Pale Forgotten Glory"
   ],
-  "newArtifacts": [
-    "Golden Troupe",
-    "Marechaussee Hunter"
+  "newSystems": [
+    "Arkhe",
+    "Diving (Fontaine's Blessing)",
+    "Fountain of Lucine",
+    "Fontaine Reputation System",
+    "Fontaine Expeditions, Daily Commissions, and more"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [
       "Recon Log Mek",
       "Arithmetic Enhancer Mek",
@@ -101,6 +162,48 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Snow-Winged Goose",
+    "Darkwing Goose",
+    "Flatcrest Fulmar",
+    "Violetgold Angler Gull",
+    "Slate Umbrellafinch",
+    "Burgundy Umbrellafinch",
+    "Magenta Fantail Pigeon",
+    "Viridian Fantail Pigeon",
+    "Redcrown Finch",
+    "Bluecrown Finch",
+    "Chestnut Hunting Hound",
+    "Glittergray Hunting Hound",
+    "Amber Hunting Hound",
+    "Hydro Crystalfly",
+    "Leisurely Otter",
+    "Lady Poodle",
+    "Guard Poodle",
+    "Gentleman Poodle"
+  ],
+  "newArtifacts": [
+    "Golden Troupe",
+    "Marechaussee Hunter"
+  ],
+  "newMaterials": [
+    "Marcotte",
+    "Bulle Fruit",
+    "Rainbow Rose",
+    "Lumidouce Bell",
+    "Romaritime Flower",
+    "Tidalga",
+    "Beryl Conch",
+    "Pluie Lotus",
+    "Mallow Wood",
+    "Linden Wood",
+    "Ash Wood",
+    "Cypress Wood",
+    "Torch Wood"
+  ],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [
       {
@@ -168,5 +271,112 @@
       "Were It So Easy"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Mega Meka Melee",
+    "Relic Records: Creations of the Hydro Nation",
+    "Studies in Light and Shadow: A Fontaine of Enchantment",
+    "Verdict of Blades",
+    "Ley Line Overflow",
+    "The Curtain Never Falls on Magic",
+    "Primordial Waters (Battle Pass)"
+  ],
+  "newRecipes": [
+    "Duck Confit",
+    "Cream of Mushroom Soup",
+    "Fontaine Aspic",
+    "Lasagna",
+    "Poisson Seafood Soup",
+    "Fontainian Foie Gras",
+    "Garlic Baguette",
+    "Fontainian Onion Soup",
+    "Fish and Chips",
+    "Pate de Fruit",
+    "Ile flottante",
+    "Conch Madeleine",
+    "Tasses Ragout",
+    "Poissonchant Pie",
+    "Steak Tartare",
+    "Fruity Trio",
+    "Vessie Chicken",
+    "Fruity Smoothie",
+    "Fruity Duet"
+  ],
+  "newFormulas": [
+    "Sour Bait",
+    "Flashing Maintenance Mek Bait"
+  ],
+  "newSpecialtyDishes": [
+    "Cubic Tricks",
+    "A Leisurely Sip",
+    "\"Seabird's Sojourn\""
+  ],
+  "newAchievements": [
+    "Mortal Travails: Series IV",
+    "Meetings in Outrealm: Series IV",
+    "Fontaine: Dance of the Dew-White Springs (I)",
+    "Wonders of the World category"
+  ],
+  "newNamecards": [
+    "Lyney: Pretense",
+    "Lynette: Earnestness",
+    "Freminet: Progress",
+    "Fontaine: Judgment",
+    "Achievement: Orbits",
+    "Achievement: Mariner",
+    "Fontaine: Wondrous Machine",
+    "Fontaine: Big News",
+    "Travel Notes: Primordial Waters"
+  ],
+  "newGadgets": [
+    "Hydroculus Resonance Stone",
+    "Hydro Treasure Compass",
+    "Wind-Powered Wind Generator",
+    "Crystalfly Trap"
+  ],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Adds some of the Harvestable seeds from Fontaine to the Seed Dispensary.",
+    "Adds Set 25 of \"Paimon's Paintings\" chat emojis.",
+    "Introduction of the Multi-Layered Map function.",
+    "Added 5 new types of Battle Pass Weapons that can be selected from the BP Bounty.",
+    "Addition of Genius Invokation TCG Observe Duel Function.",
+    "Auto Add 4-Star Artifacts in destruction function.",
+    "Increased Artifact Inventory Limit from 1,500 to 1,800.",
+    "Added Fontaine-related text into Midlander Billet origin descriptions.",
+    "Added 8 Artifact Sets that can be exchanged to \"Mystic Offering\" in the Crafting Bench:",
+    "Artifact Strongbox: Tenacity of the Millelith",
+    "Artifact Strongbox: Pale Flame",
+    "Artifact Strongbox: Shimenawa's Reminiscence",
+    "Artifact Strongbox: Emblem of Severed Fate",
+    "Artifact Strongbox: Husk of Opulent Dreams",
+    "Artifact Strongbox: Ocean-Hued Clam",
+    "Artifact Strongbox: Vermillion Hereafter",
+    "Artifact Strongbox: Echoes of an Offering",
+    "New functions in the Party Setup Screen:",
+    "Characters' entrance and idle animations",
+    "Background of the Party Setup Screen will change based on your current region.",
+    "Support for Gyroscope controller on some platforms for:",
+    "PC：DualSense™ Wireless Controller, DUALSHOCK®4 Wireless Controller",
+    "PS4™：DUALSHOCK®4 Wireless Controller",
+    "PS5™：DualSense™ Wireless Controller, DualSense Edge™ Wireless Controller",
+    "Added Global Illumination on PlayStation® and PC"
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 60% Pyro DMG Bonus.",
+      "All characters in the party gain a 60% Hydro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Keen Moon",
+    "blessingEffect": "When a character recovers HP, that character gains 10% increased ATK for 10s. Max 3 stacks. Each stack will be counted independently. When a character loses HP, that character gains 40 Elemental Mastery for 10s. Max 3 stacks. Each stack will be counted independently. The effects from recovering and losing HP are independent from each other, and stacks are counted independently."
   }
 }

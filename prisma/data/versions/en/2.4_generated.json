@@ -1,13 +1,53 @@
 {
   "number": "2.4",
+  "cycleLabel": null,
   "name": "Fleeting Colors in Flight",
+  "subtitle": null,
+  "description": "Where light can barely reach, a treacherous foe lies in wait in the shadows.<br>In a realm void of sunlight, the remaining kindlings still burn.<br>And where the sun shines, people's hopes spring eternal.<br>These heartfelt wishes sparkle as bright as fireworks blooming in the sky.",
   "releaseDate": "2022-01-05",
   "endDate": "2022-02-16",
-  "newCharacters": [
-    "Shenhe",
-    "Yun Jin"
+  "previousVersion": "2.3",
+  "nextVersion": "2.5",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18465",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18271",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210601blue_post/index.html?page_sn=f7247cf0ab2c416b",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20211227-pre/index.html",
+      "label": "Website"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17850",
+      "label": "Developer's Discussion 12/24"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Fleeting Colors in Flight.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Shenhe",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Yun Jin",
+      "rarity": 4,
+      "element": "Geo",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Calamity Queller"
@@ -15,27 +55,35 @@
   },
   "banners": {
     "characters": [
-      "The Transcendent One Returns",
-      "Invitation to Mundane Life",
-      "Gentry of Hermitage",
-      "Adrift in the Harbor"
+      {
+        "name": "The Transcendent One Returns",
+        "featured": "Shenhe & Yun Jin",
+        "phase": null
+      },
+      {
+        "name": "Invitation to Mundane Life",
+        "featured": "Xiao & Yun Jin",
+        "phase": null
+      },
+      {
+        "name": "Gentry of Hermitage",
+        "featured": "Zhongli",
+        "phase": null
+      },
+      {
+        "name": "Adrift in the Harbor",
+        "featured": "Ganyu",
+        "phase": null
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Fleeting Colors in Flight",
-    "Prosperous Partnerships",
-    "May Fortune Find You",
-    "Flowing Lights and Colors",
-    "A Study in Potions",
-    "Eight Locales Over Mountains and Seas",
-    "Windtrace"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -43,6 +91,15 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Deep Sea Unagi (Capturable)",
+    "Floating Ray"
+  ],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -83,5 +140,71 @@
         ]
       }
     ]
+  },
+  "events": [
+    "Fleeting Colors in Flight",
+    "Prosperous Partnerships",
+    "May Fortune Find You",
+    "Flowing Lights and Colors",
+    "A Study in Potions",
+    "Eight Locales Over Mountains and Seas",
+    "Windtrace"
+  ],
+  "newRecipes": [
+    "Dragon Beard Noodles",
+    "Heartstring Noodles",
+    "Cloud-Shrouded Jade",
+    "Bountiful Year"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "New Category The Light of Day",
+    "\"Wonders of the World\" and \"Memories of the Heart\"."
+  ],
+  "newNamecards": [
+    "Travel Notes: Flowing Hues",
+    "Shenhe: Comb",
+    "Yun Jin: Rhyme",
+    "Inazuma: Tokoyo"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Speedy Rhythm",
+    "Speedy Rhythm: Verdance",
+    "Speedy Rhythm: Ultramarine",
+    "Speedy Rhythm: Antler Brown",
+    "Speedy Rhythm: Mallow Mauve",
+    "Euphonium Unbound",
+    "Euphonium Unbound: Soaring",
+    "Euphonium Unbound: Winding"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Gift Mail Box for Birthday Mail",
+    "Serenitea Pot Custom Grouping Furnishings",
+    "Sacred Sakura's Favor level has been increased to 50",
+    "Unlocks Netsuke no Gen Crafts Shop",
+    "New shortcut wheel customization function. You can customize the shortcut wheel's system function access on \"Settings > Controls\" (This feature will be available after you reach Adventure Rank 20 or higher).",
+    "Adds some prompts for loading screens",
+    "New controller compatibility function: press R3 to display a list of tracked objectives.",
+    "After completing the Story Quest \"Lupus Minor Chapter: Act I,\" Rifthound Whelps will appear in Mondstadt's Wolvendom and its vicinity."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members' Normal Attack DMG increased by 50%."
+    ],
+    "floor12Disorder": [
+      "Certain opponents in this challenge possess the Honed Spirit effect, which grants them 10% Physical and All Elemental RES. When opponents with Honed Spirit take hits from attacks that are considered Normal Attack DMG, they will lose 3% Physical and All Elemental RES. A maximum of 30% of each may be lost this way. The RES lost this way will be reset every 20s."
+    ],
+    "blessingName": null,
+    "blessingEffect": null
   }
 }

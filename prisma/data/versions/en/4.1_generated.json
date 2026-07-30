@@ -1,22 +1,54 @@
 {
   "number": "4.1",
+  "cycleLabel": null,
   "name": "To the Stars Shining in the Depths",
+  "subtitle": null,
+  "description": "Deep below the surface vast lie secrets from the distant past.<br>When someone brings them to light someday, they'll make their return on the crest of a wave.",
   "releaseDate": "2023-09-27",
   "endDate": "2023-11-08",
-  "newCharacters": [
-    "Wriothesley",
-    "Neuvillette"
-  ],
-  "mapExpansion": [
+  "previousVersion": "4.0",
+  "nextVersion": "4.2",
+  "links": [
     {
-      "mainRegion": "Liffey Region",
-      "subRegion": []
+      "url": "https://genshin.hoyoverse.com/en/news/detail/113142",
+      "label": "Update Details"
     },
     {
-      "mainRegion": "Fontaine Research Institute of Kinetic Energy Engineering Region",
-      "subRegion": []
+      "url": "https://genshin.hoyoverse.com/en/news/detail/113097",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=56075b48c1ec4dad#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20230916preview/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/112972",
+      "label": "Developer's Discussion 09/13"
     }
   ],
+  "images": [
+    "Splashscreen To the Stars Shining in the Depths.png",
+    "Splashscreen Tempestuous Destiny Ballad in Goblets.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Wriothesley",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Neuvillette",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Catalyst"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Tome of the Eternal Flow",
@@ -32,28 +64,47 @@
   },
   "banners": {
     "characters": [
-      "Decree of the Deeps",
-      "Moment of Bloom",
-      "Tempestuous Destiny",
-      "Ballad in Goblets"
+      {
+        "name": "Decree of the Deeps",
+        "featured": "Neuvillette",
+        "phase": 1
+      },
+      {
+        "name": "Moment of Bloom",
+        "featured": "Hu Tao",
+        "phase": 1
+      },
+      {
+        "name": "Tempestuous Destiny",
+        "featured": "Wriothesley",
+        "phase": 2
+      },
+      {
+        "name": "Ballad in Goblets",
+        "featured": "Venti",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Waterborne Poetry",
-    "Dodoco's Bomb-Tastic Adventure",
-    "Radiant Harvest",
-    "The Peaks and Troughs of Life",
-    "The Forge Realm's Temper: Clever Strategems",
-    "Overflowing Mastery",
-    "Bathing in Flowing Moonlight",
-    "Treasures Along the Road: A Thank-You Gift"
+  "mapExpansion": [
+    {
+      "mainRegion": "Liffey Region",
+      "subRegion": []
+    },
+    {
+      "mainRegion": "Fontaine Research Institute of Kinetic Energy Engineering Region",
+      "subRegion": []
+    }
   ],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Adventure Encounters",
+    "Completing quests, participating in events, carrying out exploration, and collecting materials will reward Encounter Points. These points can be exchanged for the same rewards as from Daily Commissions. Encounter Points can be earned after reaching Adventure Rank 35 or completing Archon Quest Chapter II: Act III - Omnipresence Over Mortals."
+  ],
+  "newMonsters": {
     "common": [
       "Experimental Field Generator",
       "Deepwater Assault Mek",
@@ -70,6 +121,21 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Subdetection Unit"
+  ],
+  "newArtifacts": [],
+  "newMaterials": [
+    "Lumitoile",
+    "Subdetection Unit"
+  ],
+  "newMonsterDrops": [
+    "Old Operative's Pocket Watch",
+    "Operative's Standard Pocket Watch",
+    "Operative's Constancy"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [
       {
@@ -124,5 +190,80 @@
       "Initial Facts"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Waterborne Poetry",
+    "Dodoco's Bomb-Tastic Adventure",
+    "Radiant Harvest",
+    "The Peaks and Troughs of Life",
+    "The Forge Realm's Temper: Clever Strategems",
+    "Overflowing Mastery",
+    "Bathing in Flowing Moonlight",
+    "Treasures Along the Road: A Thank-You Gift"
+  ],
+  "newRecipes": [
+    "Boudin Noir aux Pommes",
+    "Tripes du Port",
+    "Consommé",
+    "Tomates Narbonnaises",
+    "Cassoulet",
+    "Crepes Suzette",
+    "Trout Amandine",
+    "Barbeque Ribs",
+    "Coffee Bavarois",
+    "Haggis"
+  ],
+  "newFormulas": [
+    "\"Pure Water\""
+  ],
+  "newSpecialtyDishes": [
+    "Secret Sauce BBQ Ribs",
+    "\"Consommé Purete\""
+  ],
+  "newAchievements": [],
+  "newNamecards": [
+    "Neuvillette: Surge",
+    "Wriothesley: Detention",
+    "Travel Notes: Falling Star",
+    "Achievement: Perpetual",
+    "Celebration: Euphonia",
+    "Fontaine: Redemption"
+  ],
+  "newGadgets": [
+    "Itty Bitty Octobaby",
+    "Portable Aerodynamic Gelatinous Bubble Generator"
+  ],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Resounding Melodies Bundle",
+    "Adds Set 26 of \"Paimon's Paintings\" chat emojis.",
+    "Adds the \"Mute When Minimized\" function to the PC platform.",
+    "Fountain of Lucine: Increase in the Level Cap of Fountain of Lucine to Level 30.",
+    "The weekly Guest Challenge gameplay will be upgraded into the Sennight Gauntlet system:",
+    "# The Sennight Gauntlet system will unlock at Player Level 2.",
+    "# The rewards in the original \"Guest Challenge\" system will be issued in the \"Sennight Gauntlet\" system.",
+    "# Win Guest Challenges, matchmade Co-Op duels, or Arena of Champions matches to earn Sennight Gauntlet rewards, including Player EXP and Lucky Coins. Rewards will further increase as your Player Level increases.",
+    "# Player EXP and Lucky Coins earned from the Sennight Gauntlet are subject to the weekly limit, and the total rewards obtained through different game modes cannot exceed the limit.",
+    "# The Sennight Gauntlet Rewards will refresh each Monday, and the weekly rewards for the Sennight Gauntlet will be determined based on your Player Level at that time:<br>Player Level 1-4: Up to 2,400 Lucky Coins and 800 Player EXP<br>Player Level 5-6: Up to 3,600 Lucky Coins and 800 Player EXP<br>Player Level 7-9: Up to 4,800 Lucky Coins and 800 Player EXP<br>Player Level 10: Up to 6,000 Lucky Coins.",
+    "The Forge Realm's Temper is once again available. The theme of this edition is \"The Forge Realm's Temper: Clever Strategems\":",
+    "# During The Forge Realm's Temper: Clever Strategems, you can select the parameters for each stage. Parameters that may be set include: stage difficulty, enemy health, and the round limit for the match.",
+    "# After you complete the stage battle, you will gain a score and the corresponding rewards based on the highest score you got in the stage."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members receive a 60% Cryo DMG Bonus.",
+      "All party members receive a 60% Hydro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Cleaving Moon",
+    "blessingEffect": "When the character's HP increases or decreases, their Normal Attack and Charged Attack DMG will be increased by 16% for 6s. This effect can be triggered once every 0.5s. Max 3 stacks."
   }
 }

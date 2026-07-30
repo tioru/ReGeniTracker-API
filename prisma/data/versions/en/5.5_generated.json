@@ -1,12 +1,90 @@
 {
   "number": "5.5",
+  "cycleLabel": null,
   "name": "Day of the Flame's Return",
+  "subtitle": null,
+  "description": "In Natlan, hosting a heart-pounding, adrenaline-pumping competition is a marvelous undertaking.<br>But organizing one so thrilling that it unites all six tribes? That is truly a magnificent feat, indeed.<br>And so, as they have done countless times in centuries of yore, humans and saurians once again race across this ancient land.<br>The spirit of competition burns eternal, just like the flames of Natlan.",
   "releaseDate": "2025-03-26",
   "endDate": "2025-05-07",
-  "newCharacters": [
-    "Varesa",
-    "Iansan"
+  "previousVersion": "5.4",
+  "nextVersion": "5.6",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/155172",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/155094",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=80371af0526542f9#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_MfTXnpAAy6/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/154650",
+      "label": "Developer's Discussion 03/12"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/129560",
+      "label": "Developer's Discussion 01/22"
+    }
   ],
+  "images": [
+    "Splashscreen Day of the Flame's Return.png",
+    "Splashscreen Forgefire's Blessing Ballad in Goblets.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Varesa",
+      "rarity": 5,
+      "element": "Electro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Iansan",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [],
+  "newWeapons": {
+    "5Star": [
+      "Vivid Notions"
+    ]
+  },
+  "banners": {
+    "characters": [
+      {
+        "name": "Cornucopia of Contention",
+        "featured": "Varesa & Iansan",
+        "phase": 1
+      },
+      {
+        "name": "The Crane Soars Skyward",
+        "featured": "Xianyun & Iansan",
+        "phase": 1
+      },
+      {
+        "name": "Forgefire's Blessing",
+        "featured": "Xilonen",
+        "phase": 2
+      },
+      {
+        "name": "Ballad in Goblets",
+        "featured": "Venti",
+        "phase": 2
+      }
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
+  },
   "mapExpansion": [
     {
       "mainRegion": "Atocpan",
@@ -17,39 +95,18 @@
       "subRegion": []
     }
   ],
-  "newWeapons": {
-    "5Star": [
-      "Vivid Notions"
-    ]
-  },
-  "banners": {
-    "characters": [
-      "Cornucopia of Contention",
-      "The Crane Soars Skyward",
-      "Forgefire's Blessing",
-      "Ballad in Goblets"
-    ],
-    "weapons": [
-      "Epitome Invocation"
-    ]
-  },
-  "events": [
-    "Tournament of Glory in Bloom",
-    "Quirky Quaking Arena",
-    "Rhythm Ball Meztli",
-    "Unlimited Fighting Championship",
-    "Overflowing Favor",
-    "The Sacred Mountain and Sanctified Land",
-    "Mushroom Realm Mystery (Event)"
-  ],
   "newDomains": [
     "Derelict Masonry Dock"
   ],
-  "newArtifacts": [
-    "Long Night's Oath",
-    "Finale of the Deep Galleries"
+  "newSystems": [
+    "Additions to Saurian Indwelling",
+    "Tatankasaur",
+    "Tona's Flame's Restitution",
+    "Increase in the Level Cap of Tona's Flame to Level 40.",
+    "Additions to Repertoire of Myriad Melodies",
+    "Land of Tleyaoyotl"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [
       "Tatankasaurus",
       "Tatankasaur Whelp",
@@ -70,6 +127,29 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Ancient Firewalker Spoonbill",
+    "Ancient Glazeback Turtle",
+    "Ancient Red-Mane Boar",
+    "Ancient Scarlet-Plume Finch"
+  ],
+  "newArtifacts": [
+    "Long Night's Oath",
+    "Finale of the Deep Galleries"
+  ],
+  "newMaterials": [
+    "Skysplit Gembloom",
+    "Dracolite",
+    "Red Berryshroom"
+  ],
+  "newMonsterDrops": [
+    "Cold-Cracked Shellshard",
+    "Warm Back-Shell",
+    "Blazing Prismshell",
+    "Sparkless Statue Core"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -83,5 +163,142 @@
       "Additions to In the Footsteps of the Chosen of Dragons Quest Chain"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Tournament of Glory in Bloom",
+    "Quirky Quaking Arena",
+    "Rhythm Ball Meztli",
+    "Unlimited Fighting Championship",
+    "Overflowing Favor",
+    "The Sacred Mountain and Sanctified Land",
+    "Mushroom Realm Mystery (Event)"
+  ],
+  "newRecipes": [
+    "Magma Eggs",
+    "Puffed Grainfruit Bars",
+    "Cheesy Mushroom Skewer",
+    "Fruits Aplenty",
+    "Harvest's Boon",
+    "Cheesy Crab Hotpot"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Mt. Mushroom (For One)",
+    "Gold-Standard Healthy Meal"
+  ],
+  "newAchievements": [
+    "Sacred Mountain's Fading Glow",
+    "Duelist: Series III",
+    "Wonders of the World"
+  ],
+  "newNamecards": [
+    "Varesa: Powerhouse",
+    "Iansan: Unyielding",
+    "Natlan: Draconic Gaze",
+    "Achievement: Tranquil Peace",
+    "Travel Notes: Blooming Glory"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "\"Aligned\" Volcanic Stone Stool",
+    "\"Parting is the beginning of a new reunion\"",
+    "\"Return to the flames, return to the path.\"",
+    "Ancient Red-Mane Boar",
+    "Ancient Scarlet-Plume Finch",
+    "Aguara",
+    "Art of Transport",
+    "Barbell Rack: Heftiest Load",
+    "Courtyard Pillars",
+    "Eat What You Sow",
+    "Fixed Torch: Extremity",
+    "Fixed Torch: Safeguard",
+    "Grainfruit Puffer",
+    "Hut of Plenty: Permanent Pick",
+    "Hut of Plenty: Stopgap Selection",
+    "Land of Plenty's Bounds",
+    "Land of Plenty's Contention",
+    "Land of Plenty's Sentinel",
+    "Model Dish: Saurus Crackers",
+    "Ornamental Secret Source Scout Sweeper",
+    "Portrait of Heroic Might",
+    "Saurian's Might",
+    "Storage 101",
+    "The Sanctum's Floating Miracle",
+    "Villa of Plenty: Everyday Essentials",
+    "Villa of Plenty: Stow-Pro Storeroom"
+  ],
+  "newFurnishingSets": [
+    "Arena's Toast to Triumph",
+    "Born Among Searing Flames",
+    "Carefully Considered Words",
+    "Children of Echoes' Passion",
+    "Companions' Haven",
+    "Flower-Feather Clan's Conquest",
+    "Fomenting Fashion at the Fair",
+    "Gallant March of the Collective of Plenty",
+    "Masters of the Night-Wind's Tranquility",
+    "People of the Springs' Relaxation",
+    "Scions of the Canopy's Duty",
+    "Sleep Now, Rest Your Weary Head",
+    "Treading the Untrodden Path"
+  ],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Emilie",
+      "Kachina"
+    ],
+    "actionCards": [
+      "Waverider",
+      "\"Masters of the Night-Wind\"",
+      "In the Name of the Extreme",
+      "Mystique Soup"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 39 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Adds some of the Harvestable seeds from Natlan to the Seed Dispensary.",
+    "Adds Natlan wildlife that can be captured by the Omni-Ubiquity Net: Ancient Scarlet-Plume Finch and Ancient Red-Mane Boar.",
+    "Adds new Fish: Secret Source Scout Sweeper.",
+    "Another 4 sets of Artifacts are available to exchange in the Mystic Offering system:",
+    "Artifact Strongbox: Song of Days Past",
+    "Artifact Strongbox: Nighttime Whispers in the Echoing Woods",
+    "Artifact Strongbox: Fragment of Harmonic Whimsy",
+    "Artifact Strongbox: Unfinished Reverie"
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "April 1, 2025",
+    "requiredElements": [
+      "Pyro",
+      "Electro",
+      "Anemo"
+    ],
+    "openingCharacters": [
+      "Yoimiya",
+      "Thoma",
+      "Clorinde",
+      "Beidou",
+      "Xiao",
+      "Sucrose"
+    ],
+    "guestCharacters": [
+      "Xilonen",
+      "Alhaitham",
+      "Yaoyao",
+      "Mika"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members gain a 75% Cryo DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Characters' Elemental Skill Geo DMG increased by 75%.",
+      "Second Half: Characters' Elemental Skill Cryo DMG increased by 75%."
+    ],
+    "blessingName": "Blessing of the Abyssal Moon:",
+    "blessingEffect": "Dreadfrost Moon: When a character triggers Cryo-related reactions, a shockwave will be released at the opponent's position, dealing True DMG. This effect can be triggered once every 4s."
   }
 }

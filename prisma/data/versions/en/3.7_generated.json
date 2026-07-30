@@ -1,12 +1,44 @@
 {
   "number": "3.7",
+  "cycleLabel": null,
   "name": "Duel! The Summoners' Summit!",
+  "subtitle": null,
+  "description": "A game of cards is much like life: Fortune decides the hand you are dealt, while experience might let you shift the tides of possibility toward all that could be.<br>Life is much like a game of cards: Victory is but the culminating point in the journey — the thrills of the duel, however, represent strings to melodies everlasting.",
   "releaseDate": "2023-05-24",
   "endDate": "2023-07-05",
-  "newCharacters": [
-    "Kirara"
+  "previousVersion": "3.6",
+  "nextVersion": "3.8",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/111578",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/111532",
+      "label": "Update Maintenance Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=2a7685f0fd0c4437#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20230514preview-a9v8et/index.html",
+      "label": "Preview Page"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Duel! The Summoners' Summit!.png",
+    "Splashscreen Leaves in the Wind Caution in Confidence.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Kirara",
+      "rarity": 4,
+      "element": "Dendro",
+      "weaponType": "Sword"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "4Star": [
       "Ibis Piercer"
@@ -14,25 +46,35 @@
   },
   "banners": {
     "characters": [
-      "Tapestry of Golden Flames",
-      "Everbloom Violet",
-      "Leaves in the Wind",
-      "Caution in Confidence"
+      {
+        "name": "Tapestry of Golden Flames",
+        "featured": "Yoimiya & Kirara",
+        "phase": 1
+      },
+      {
+        "name": "Everbloom Violet",
+        "featured": "Yae Miko & Kirara",
+        "phase": 1
+      },
+      {
+        "name": "Leaves in the Wind",
+        "featured": "Kaedehara Kazuha",
+        "phase": 2
+      },
+      {
+        "name": "Caution in Confidence",
+        "featured": "Alhaitham",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Duel! The Summoners' Summit!",
-    "Divine Ingenuity: Collector's Chapter",
-    "Feast of the Departed Warriors",
-    "Fayz Trials: Hypothesis",
-    "Ley Line Overflow"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -40,6 +82,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -68,5 +116,40 @@
         ]
       }
     ]
+  },
+  "events": [
+    "Duel! The Summoners' Summit!",
+    "Divine Ingenuity: Collector's Chapter",
+    "Feast of the Departed Warriors",
+    "Fayz Trials: Hypothesis",
+    "Ley Line Overflow"
+  ],
+  "newRecipes": [],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Added some prompts for loading screens.",
+    "Added Set 23 of \"Paimon's Paintings\" chat emojis.",
+    "Added Gadget Quickswap Function: After adding Gadgets to the Quickswap Menu, hold the Gadget icon to quickswap Gadgets. The Quickswap Menu can contain 4 Gadgets."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members' Normal Attack DMG increased by 50%."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Drumming Moon",
+    "blessingEffect": "After the character's Normal Attack hits an opponent, this opponent will be afflicted with a Sign of Snaring. After 3s, the Sign will be removed, dealing True DMG to this opponent. After a character's Normal Attack hits an opponent with a Sign of Snaring, the DMG dealt by the Sign's removal will be increased. This DMG can be increased for no more than 9 times."
   }
 }

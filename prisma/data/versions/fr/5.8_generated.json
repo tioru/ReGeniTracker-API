@@ -1,17 +1,56 @@
 {
   "number": "5.8",
+  "cycleLabel": null,
   "name": "Été de plomb à la station",
+  "subtitle": null,
+  "description": "À Natlan, il fait une chaleur étouffante toute l'année. Là-bas, chaque jour ressemble à des vacances d'été.<br>Laissez donc votre devoir, la nourriture de Paimon, l'héritage de l'ancienne civilisation des dragons, les visiteurs de Nod-Krai et la lettre du Grand Maître de côté pendant quelque temps.<br>Profitez plutôt des repas et du logement gratuits, sans oublier toutes les activités amusantes qui vous attendent !",
   "releaseDate": "2025-07-30",
   "endDate": "2025-09-10",
-  "newCharacters": [
-    "Ineffa"
-  ],
-  "mapExpansion": [
+  "previousVersion": "5.7",
+  "nextVersion": "Luna I",
+  "links": [
     {
-      "mainRegion": "Station balnéaire Brisedouce",
-      "subRegion": [
-        "Mare Jivari (Small Part)"
-      ]
+      "url": "https://genshin.hoyoverse.com/en/news/detail/158026",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/157971",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=09cce4ccbe0e42f9#/indexindex",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_9LuGk_WEfM/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/157683",
+      "label": "Developer's Discussion"
+    }
+  ],
+  "images": [
+    "Splashscreen Sunspray Summer Resort.png",
+    "Splashscreen Astral Actuation.png",
+    "Splashscreen Sharktacular Surfari Piercing Shot's Crimson Wake.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Ineffa",
+      "rarity": 5,
+      "element": "Electro",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [
+    {
+      "name": "Aventures en flamboyantes couleurs",
+      "character": "Bennett"
+    },
+    {
+      "name": "Banquet paisible",
+      "character": "Yelan"
     }
   ],
   "newWeapons": {
@@ -24,26 +63,55 @@
   },
   "banners": {
     "characters": [
-      "Exaltation astrale",
-      "Murmures d'une nuit étoilée",
-      "Surfari requinfini",
-      "Transpercement au sillage écarlate"
+      {
+        "name": "Exaltation astrale",
+        "featured": "Ineffa",
+        "phase": 1
+      },
+      {
+        "name": "Murmures d'une nuit étoilée",
+        "featured": "Citlali",
+        "phase": 1
+      },
+      {
+        "name": "Surfari requinfini",
+        "featured": "Mualani",
+        "phase": 2
+      },
+      {
+        "name": "Transpercement au sillage écarlate",
+        "featured": "Chasca",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Été de plomb à la station (événement)",
-    "Sur les traces de pistes évanescentes",
-    "Mementos of Teyvat: Prelude of the Frozen Veil",
-    "Natlan: Plains of Flowing Flames (Event)",
-    "An Easy-Breezy Natlan in an Easy-Breezy Summer!",
-    "Reflux des lignes énergétiques"
+  "mapExpansion": [
+    {
+      "mainRegion": "Station balnéaire Brisedouce",
+      "subRegion": [
+        "Mare Jivari (Small Part)"
+      ]
+    }
   ],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Réaction élémentaire",
+    "Sélénocution",
+    "When Electro meets Hydro, and certain other conditions are met, a special Lunar-Charged reaction occurs, and a thundercloud forms. This thundercloud will continuously release bursts of lightning at nearby targets who are affected by both Electro and Hydro, dealing Electro DMG.",
+    "This DMG can trigger CRIT Hits, and the DMG dealt is based on all characters who have applied elements during the reaction.",
+    "Saurian Indwelling",
+    "Asha",
+    "Répertoire aux mille mélodies",
+    "Natlan: Plains of Flowing Flames album",
+    "Score Themes",
+    "Feu ardent parcourant l'obscurité",
+    "Rêve éternel de sérénité",
+    "Adds new instrument \"Leaping Spirit Piano\" that can be purchased from the Djembe Studios."
+  ],
+  "newMonsters": {
     "common": [
       "Bakunawa",
       "Pipilpan Idol"
@@ -54,6 +122,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -75,5 +149,140 @@
       "Sunnyshine Alpaca Park's Souvenirs"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Été de plomb à la station (événement)",
+    "Sur les traces de pistes évanescentes",
+    "Mementos of Teyvat: Prelude of the Frozen Veil",
+    "Natlan: Plains of Flowing Flames (Event)",
+    "An Easy-Breezy Natlan in an Easy-Breezy Summer!",
+    "Reflux des lignes énergétiques"
+  ],
+  "newRecipes": [
+    "Brise marine",
+    "Gâteau-nanas",
+    "Bisque de crevettes",
+    "Mini-ashas farcis"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "Succès/Un été de cendres et de barbarifigues",
+    "Wonders of the World category."
+  ],
+  "newNamecards": [
+    "Thème Ineffa - Ordre",
+    "Thème Natlan - Roue des flammes",
+    "Thème PB - Brisedouce"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Grande boîte-cadeau colorée",
+    "Cryptex cliquetant",
+    "« Menace chocolatée »",
+    "« Bonne étoile »",
+    "« Mademoiselle aigre-douce »",
+    "« Souvenir d'un lointain voyage »",
+    "« Brille ! Pipilpan ! »",
+    "Lueur d'une longue journée",
+    "Pot de peinture d'asha « Déchaînement »",
+    "Bouée-pendule d'eau",
+    "Instant café",
+    "Haut-parleur de danse « Onde lumixplosive »",
+    "Scène de clash dansant « Rythme festif »",
+    "Transat de plage « Mine éclatante »",
+    "« Détente de Brisedouce »",
+    "« Vagabondage de Brisedouce »",
+    "« Logis de Brisedouce »",
+    "« Cocon de Brisedouce »",
+    "« Nuitée de Brisedouce »",
+    "« Nature de Brisedouce »",
+    "« Accords de la rue »",
+    "« Feux d'artifice pétillants »",
+    "Composant de mécanisme floral",
+    "Shérif alpaga moelleux",
+    "Joyeux balancement",
+    "Douce nuit d'été",
+    "Cri de guerre héroïque",
+    "Trampoline des 7e cieux",
+    "Péripétie entre vents et vagues",
+    "Haie paysagère « Élégance verdoyante »",
+    "« Roi des courants »",
+    "Statue de marché « Vacances chatoyantes »",
+    "Bougeoir miniature « Mini-soleil »",
+    "Engin modèle « Bonus badaboum »",
+    "Cocotier luxuriant",
+    "Tabouret du vent nocturne « Harmonieuse unité » en pierre",
+    "Parasol de plage « Sable et brise marine »",
+    "Cible « Cadence de guerre » en métal",
+    "Réinvention des couleurs",
+    "Synchronie rythmique",
+    "Bouée de sauvetage d'urgence",
+    "« Chevalier incisif »",
+    "« Errant rapide »",
+    "Lampadaire debout en bois de flammabombe",
+    "Tablette de tona « Unité »",
+    "Boss pierreux inflexible",
+    "Requin à vagues",
+    "Modèle « Soleil » en bois",
+    "Méthode mercantile de Xochicuicatl"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Shikanoin Heizou",
+      "Lan Yan",
+      "Gluttonous Yumkasaur Mountain King"
+    ],
+    "actionCards": [
+      "Couronne sans couronne",
+      "Ronde des pensées fanées",
+      "Calligraphy Tavern",
+      "Métropole constellaire",
+      "Forest Blessing",
+      "Gift of the Goddess of Prophecy",
+      "Harvest Time",
+      "Awesome, Bro"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 42 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Increase in the Level Cap of Tona's Flame's Restitution to Level 50. After Tona's Flame reaches its maximum level, Pyro Sigils can be exchanged with Siyah at Natlan's Saurian Relics Association."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "August 1, 2025",
+    "requiredElements": [
+      "Electro",
+      "Cryo",
+      "Anemo"
+    ],
+    "openingCharacters": [
+      "Yae Miko",
+      "Kuki Shinobu",
+      "Ganyu",
+      "Layla",
+      "Yumemizuki Mizuki",
+      "Sucrose"
+    ],
+    "guestCharacters": [
+      "Neuvillette",
+      "Xingqiu",
+      "Nahida",
+      "Gaming"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 75% Electro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Characters' Electro-Charged and Lunar-Charged DMG increased by 75%.",
+      "Second Half: Characters' Nightsoul-aligned DMG dealt to opponents increased by 75%."
+    ],
+    "blessingName": "Wavering Moon",
+    "blessingEffect": "When a character triggers Hydro-related reactions (including Lunar-Charged), a shockwave will be released at the opponent's position, dealing True DMG. This effect can be triggered once every 3s."
   }
 }

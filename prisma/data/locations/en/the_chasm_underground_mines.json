@@ -1,0 +1,16 @@
+{
+  "name": "The Chasm: Underground Mines",
+  "type": "Area",
+  "parent": "The Chasm (Subregion)",
+  "description": "It has its own map tab and exploration progress separated from the main map Teyvat.",
+  "image": "The Chasm Underground Mines.png",
+  "subLocations": [
+    "Ad-Hoc Main Tunnel",
+    "Nameless Ruins",
+    "Stony Halls",
+    "The Chasm: Main Mining Area",
+    "The Glowing Narrows",
+    "The Serpent's Cave",
+    "Underground Waterway"
+  ]
+}

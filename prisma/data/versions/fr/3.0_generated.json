@@ -1,27 +1,56 @@
 {
   "number": "3.0",
+  "cycleLabel": null,
   "name": "The Morn a Thousand Roses Brings",
+  "subtitle": null,
+  "description": "Vois de tes yeux la verdure luxuriante enserrant les montagnes, savourez avec votre nez les roses parfumées recouvrant les prairies. Écoutez le chant des oiseaux flamboyants au lever du jour, écoutez-les dévoiler une sagesse réduite au silence depuis des siècles.",
   "releaseDate": "2022-08-24",
   "endDate": "2022-09-28",
-  "newCharacters": [
-    "Tighnari",
-    "Collei",
-    "Dori"
-  ],
-  "mapExpansion": [
+  "previousVersion": "2.8",
+  "nextVersion": "3.1",
+  "links": [
     {
-      "mainRegion": "Sumeru",
-      "subRegion": [
-        "Forêt d'Avidya",
-        "Selve de Lokapala",
-        "Vallée d'Ardravi",
-        "Royaume d'Ashavan",
-        "Champ de Vissudha",
-        "Vanarana",
-        "Pépinière perdue"
-      ]
+      "url": "https://genshin.hoyoverse.com/en/news/detail/23268",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/23126",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=32a647eecbec4b37#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20220814prev/index.html",
+      "label": "Website"
     }
   ],
+  "images": [
+    "Splashscreen The Morn a Thousand Roses Brings.png",
+    "Splashscreen Adrift in the Harbor Drifting Luminescence.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Tighnari",
+      "rarity": null,
+      "element": null,
+      "weaponType": null
+    },
+    {
+      "name": "Collei",
+      "rarity": null,
+      "element": null,
+      "weaponType": null
+    },
+    {
+      "name": "Dori",
+      "rarity": null,
+      "element": null,
+      "weaponType": null
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "La voie du chasseur"
@@ -37,21 +66,44 @@
   },
   "banners": {
     "characters": [
-      "Veillée écologique",
-      "Monts et marchés",
-      "Doute passager",
-      "Luminescence à la dérive"
+      {
+        "name": "Veillée écologique",
+        "featured": "Tighnari & Collei",
+        "phase": 1
+      },
+      {
+        "name": "Monts et marchés",
+        "featured": "Zhongli & Collei",
+        "phase": 1
+      },
+      {
+        "name": "Doute passager",
+        "featured": "Ganyu & Dori",
+        "phase": 2
+      },
+      {
+        "name": "Luminescence à la dérive",
+        "featured": "Sangonomiya Kokomi & Dori",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Sculpture d'innocence",
-    "Fayz Trials",
-    "Analyse de tablettes",
-    "Richesses perdues",
-    "Reflux des lignes énergétiques"
+  "mapExpansion": [
+    {
+      "mainRegion": "Sumeru",
+      "subRegion": [
+        "Forêt d'Avidya",
+        "Selve de Lokapala",
+        "Vallée d'Ardravi",
+        "Royaume d'Ashavan",
+        "Champ de Vissudha",
+        "Vanarana",
+        "Pépinière perdue"
+      ]
+    }
   ],
   "newDomains": [
     "Tour de la fierté",
@@ -62,11 +114,8 @@
     "Coordonnées du soleil et de la pluie",
     "Vallée des ténèbres"
   ],
-  "newArtifacts": [
-    "Souvenir de forêt",
-    "Rêve doré"
-  ],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [
       "Fongus Dendro flottant",
       "Fongus Électro tournoyant",
@@ -99,6 +148,69 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Épinocroc",
+    "Tigre rishboland",
+    "Bête de somme hirsute",
+    "Fauconuit",
+    "Porpignon",
+    "Lézard à queue rouge",
+    "Grenouille arboricole",
+    "Papillon cristallin Dendro"
+  ],
+  "newArtifacts": [
+    "Souvenir de forêt",
+    "Rêve doré"
+  ],
+  "newMaterials": [
+    "Bois d'épiphanie",
+    "Bois radiant",
+    "Fruit harra",
+    "Kalpalotus",
+    "Bois de karmaphalien",
+    "Nilotpalotus",
+    "Padisachidée",
+    "Champignon sacramental",
+    "Épice",
+    "Viparyas",
+    "Pêche zaytun"
+  ],
+  "newMonsterDrops": [
+    "Satin rouge délavé",
+    "Soie rouge brodée",
+    "Brocart rouge luxueux",
+    "Noyau fongique inactivé",
+    "Noyau fongique dormant",
+    "Noyau fongique robuste",
+    "Conteneur du chaos",
+    "Module du chaos",
+    "Vis du chaos"
+  ],
+  "newTalentMaterials": [
+    "Enseignement de l'Admonestation",
+    "Guide de l'Admonestation",
+    "Philosophie de l'Admonestation",
+    "Enseignement de l'Ingénuité",
+    "Guide de l'Ingénuité",
+    "Philosophie de l'Ingénuité",
+    "Enseignement de l'Usage",
+    "Guide de l'Usage",
+    "Philosophie de l'Usage"
+  ],
+  "newWeaponAscensionMaterials": [
+    "Talisman en cuivre de la rosée",
+    "Talisman en fer de la rosée",
+    "Talisman en argent de la rosée",
+    "Talisman en or de la rosée",
+    "Souvenir du jardin d'oasis",
+    "Gentillesse du jardin d'oasis",
+    "Deuil du jardin d'oasis",
+    "Vérité du jardin d'oasis",
+    "Dernier écho du pouvoir brûlant",
+    "Éclat subsistant du pouvoir brûlant",
+    "Rêve dominant du pouvoir brûlant",
+    "Passé glorieux du pouvoir brûlant"
+  ],
   "newQuests": {
     "archonQuests": [
       {
@@ -160,5 +272,45 @@
       "Trees and Dreams"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Sculpture d'innocence",
+    "Fayz Trials",
+    "Analyse de tablettes",
+    "Richesses perdues",
+    "Reflux des lignes énergétiques"
+  ],
+  "newRecipes": [],
+  "newFormulas": [
+    "Appât de rosée"
+  ],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [
+    "Pierre de résonance Dendroculus",
+    "Détecteur de trésors Dendro",
+    "The Boon of the Elder Tree",
+    "Modèle d'essai de lampe à ultra-brûleur",
+    "Stabilisateur de ligne de pêche",
+    "Mini-fée moussue"
+  ],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 75% Dendro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase 1: Efflorescent Moon",
+    "blessingEffect": "After characters deal DMG to opponents with a Dendro Core (including Burgeon and Hyperbloom), their ATK will be increased by 15% for 8s. This effect can stack up to 4 times, and can be triggered once every 0.1s."
   }
 }

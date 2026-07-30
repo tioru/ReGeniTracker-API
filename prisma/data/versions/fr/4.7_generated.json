@@ -1,14 +1,60 @@
 {
   "number": "4.7",
+  "cycleLabel": null,
   "name": "Un éternel rêve entrelacé",
+  "subtitle": null,
+  "description": "Les gens se sentent souvent prisonniers de leur passé.<br />Tous ces regrets non résolus,<br />et toutes ces questions sans réponse...<br />Tout cela pourrait rentrer dans l'ordre à l'avenir,<br />ou peut-être que cela continuera à se répéter en rêve.",
   "releaseDate": "2024-06-05",
   "endDate": "2024-07-17",
-  "newCharacters": [
-    "Clorinde",
-    "Sigewinne",
-    "Sethos"
+  "previousVersion": "4.6",
+  "nextVersion": "4.8",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123975",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123929",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=47004f0895264167#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20240525preview-d6s2mc/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123758",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen An Everlasting Dream Intertwined.png",
+    "Splashscreen Romaritime Meluserenity Chanson of Many Waters.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Clorinde",
+      "rarity": 5,
+      "element": "Electro",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Sigewinne",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Sethos",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Bow"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Absolution",
@@ -20,25 +66,37 @@
   },
   "banners": {
     "characters": [
-      "Éclair illuminant",
-      "Prudence en toute confidence",
-      "Mélusinité romaritime",
-      "Chant de toutes les eaux"
+      {
+        "name": "Éclair illuminant",
+        "featured": "Clorinde & Sethos",
+        "phase": 1
+      },
+      {
+        "name": "Prudence en toute confidence",
+        "featured": "Alhaitham & Sethos",
+        "phase": 1
+      },
+      {
+        "name": "Mélusinité romaritime",
+        "featured": "Sigewinne",
+        "phase": 2
+      },
+      {
+        "name": "Chant de toutes les eaux",
+        "featured": "Furina",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Simulation d'amélioration de sécurité mutuelle",
-    "Formes infinies les plus martiales",
-    "Doubles turbulences en plein air",
-    "Recueil d'écrits méditatifs",
-    "Reflux des lignes énergétiques"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Théâtre de l'imaginarium"
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -46,6 +104,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -74,5 +138,110 @@
       "Une histoire sans début ni fin"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Simulation d'amélioration de sécurité mutuelle",
+    "Formes infinies les plus martiales",
+    "Doubles turbulences en plein air",
+    "Recueil d'écrits méditatifs",
+    "Reflux des lignes énergétiques"
+  ],
+  "newRecipes": [
+    "Magret de canard en sauce bullée"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "« Gibier en sac »",
+    "Repas équilibré",
+    "Shawarma hyper-aromatique"
+  ],
+  "newAchievements": [
+    "Succès/Théâtre de l'imaginarium - Partie I",
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Thème Clorinde - Jeu de rôle",
+    "Thème Sigewinne - Traitement",
+    "Thème Sethos - Fragment de Ba",
+    "Thème Succès - Poésie",
+    "Thème PB - Simulnation"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "« Lueur qui s'estompe »",
+    "Crococanon amélioré",
+    "Engin modèle « Mode musical standard »",
+    "Carillons du village musical « Passereau gazouillant »",
+    "Statue tenant une épée « Esthétique de l'incomplétude »"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [
+    "La firme féline",
+    "La petite sorcière et le feu inextinguible"
+  ],
+  "newTcgCards": {
+    "characterCards": [
+      "Furina",
+      "Kaveh",
+      "Wriothesley",
+      "Xinyan",
+      "Yun Jin",
+      "Narval stellavore",
+      "Serpent volant sacralisé",
+      "Scorpion sacralisé",
+      "Garde de l'oasis d'Apep"
+    ],
+    "actionCards": [
+      "Supervision de trésorerie",
+      "Chalutier",
+      "Fleur du paradis perdu",
+      "Apparat de la forêt",
+      "Troupe dorée",
+      "Chasseur de la Maréchaussée",
+      "Splendeur des eaux calmes",
+      "Ruines du Laboratoire central",
+      "Kusava",
+      "Sir Arthur",
+      "Mausolée du roi Deshret",
+      "Countdown to the Show: 3",
+      "Vicious Ancient Battle",
+      "Water and Justice"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 32 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": null,
+    "requiredElements": [
+      "Pyro",
+      "Electro",
+      "Anemo"
+    ],
+    "openingCharacters": [
+      "Arlecchino",
+      "Thomas",
+      "Clorinde",
+      "Kuki Shinobu",
+      "Nomade",
+      "Faruzan"
+    ],
+    "guestCharacters": [
+      "Baizhu",
+      "Sigewinne",
+      "Alhaitham",
+      "Wriothesley"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 60% Electro DMG Bonus.",
+      "All party members receive a 60% Hydro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "After the Version 4.7 update, the Abyssal Moon Spire will reset itself every month, with a new Lunar Phase occurring on the sixteenth day. The \"Star's Bounty\" rewards for earning 9 Abyssal Stars from the Abyssal Moon Spire, that is Floors 9 – 12 of the Spiral Abyss, are increased.",
+    "blessingEffect": null
   }
 }

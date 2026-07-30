@@ -1,14 +1,54 @@
 {
-  "number": "Luna VII",
+  "number": "6.6",
+  "cycleLabel": "Luna VII",
   "name": "Truth Amongst the Pages of Purana",
+  "subtitle": "Song of the Welkin Moon: Andante",
+  "description": "In an absurd dream, a future yet undecided comes briefly into view.<br>Some see this world as shackles forged for the human mind. Yet, life and wisdom suggest something different.",
   "releaseDate": "2026-05-20",
   "endDate": "2026-07-01",
-  "newCharacters": [
-    "Nicole",
-    "Lohen",
-    "Prune"
+  "previousVersion": "Luna VI",
+  "nextVersion": "Luna VIII",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/164256",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/164213",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=1365aaf7a87644f2#/index",
+      "label": "Version Highlights"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Truth Amongst the Pages of Purana.png",
+    "Splashscreen Angel's Reverie.png",
+    "Splashscreen Wonderland Treasure Prismatic Flutter.png",
+    "Splashscreen Frostedge Nocturne.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Nicole",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Lohen",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Prune",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Angelos' Heptades",
@@ -17,29 +57,48 @@
   },
   "banners": {
     "characters": [
-      "Angel's Reverie",
-      "Rubedo, of White Stone Born",
-      "Frostedge Nocturne",
-      "Ancient Flame Ablaze"
+      {
+        "name": "Angel's Reverie",
+        "featured": "Nicole & Prune",
+        "phase": 1
+      },
+      {
+        "name": "Rubedo, of White Stone Born",
+        "featured": "Durin & Prune",
+        "phase": 1
+      },
+      {
+        "name": "Frostedge Nocturne",
+        "featured": "Lohen",
+        "phase": 2
+      },
+      {
+        "name": "Ancient Flame Ablaze",
+        "featured": "Mavuika",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Phantasmal Pals",
-    "Trials of the Brave Warrior",
-    "Kaleidoscopic Color Chase"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "Thorny Crown of the Mountain Wind",
     "Binding Field of Universal Nirvana"
   ],
-  "newArtifacts": [
-    "Celestial Gift",
-    "Disenchantment in Deep Shadow"
+  "newSystems": [
+    "Guiding Notes function for active quest",
+    "Quest Saving notification",
+    "Repertoire of Myriad Melodies",
+    "Hexerei: Ballad of Whimsical Polyphony Album",
+    "Score Themes",
+    "Eclipsing Flame",
+    "Demon-Slaying Gale",
+    "To Temper Thyself and Journey Far",
+    "Tempered in Practice weekly rewards"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -49,6 +108,19 @@
       ]
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [
+    "Celestial Gift",
+    "Disenchantment in Deep Shadow"
+  ],
+  "newMaterials": [],
+  "newMonsterDrops": [
+    "Counterfeit Resin",
+    "Twisted Withered Branch",
+    "Profaned Sprout"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -69,5 +141,97 @@
       "A Window Into the World"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Phantasmal Pals",
+    "Trials of the Brave Warrior",
+    "Kaleidoscopic Color Chase"
+  ],
+  "newRecipes": [
+    "Stuffed Tofu with Minced Meat",
+    "Mint Bubblegum"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Gilded Chest",
+    "Boredom-Busting Bubblegum",
+    "Spinning Special"
+  ],
+  "newAchievements": [
+    "Wonders of the World"
+  ],
+  "newNamecards": [
+    "Nicole: Heavenly Stairway",
+    "Lohen: Benevolence",
+    "Prune: Judgment",
+    "Travel Notes: Gift of Splendor"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "\"Miniature Stonecraft\"",
+    "Imaginary Friend: Descartes",
+    "Imaginary Friend: Dodoco",
+    "Imaginary Friend: Gena",
+    "Imaginary Friend: Tuantuan",
+    "Imaginary Friend: Yuegui"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Flins",
+      "Lauma",
+      "Experimental Field Generator"
+    ],
+    "actionCards": [
+      "Elemental Transfiguration: Rimegrass Blessing",
+      "Elemental Transfiguration: Stormgale Blessing",
+      "Gladiator's Finale",
+      "Netochka",
+      "Roulette Special",
+      "The Other Side of the Frostmoon"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 49 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Two new Artifacts available for redemption in the Mystic Offering system:",
+    "Artifact Strongbox: Long Night's Oath",
+    "Artifact Strongbox: Finale of the Deep Galleries"
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "June 1, 2026",
+    "requiredElements": [
+      "Pyro",
+      "Cryo",
+      "Geo"
+    ],
+    "openingCharacters": [
+      "Klee",
+      "Xiangling",
+      "Kamisato Ayaka",
+      "Chongyun",
+      "Albedo",
+      "Noelle"
+    ],
+    "guestCharacters": [
+      "Sangonomiya Kokomi",
+      "Aino",
+      "Prune",
+      "Fischl"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": "June 16",
+    "floor11Disorder": [
+      "All party members receive a 60% Cryo DMG Bonus.",
+      "All party members gain a 60% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Characters' Elemental Skill DMG increased by 75%.",
+      "Second Half: All party members receive a 75% Pyro DMG Bonus."
+    ],
+    "blessingName": "Frost-Surging Moon",
+    "blessingEffect": "When an off-field character triggers Cryo-related reactions to opponents, a shockwave will be released at the opponent's position, dealing True DMG. This effect can be triggered once every 3.5s."
   }
 }

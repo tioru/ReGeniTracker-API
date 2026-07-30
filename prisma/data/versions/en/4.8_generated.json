@@ -1,12 +1,57 @@
 {
   "number": "4.8",
+  "cycleLabel": null,
   "name": "Summertide Scales and Tales",
+  "subtitle": null,
+  "description": "Here are some summer essentials:<br>A refreshing fragrance to soothe restless emotions in the sweltering sun,<br>A storybook you've never read to brighten a lackadaisical holiday,<br>And just a hint of looming peril to satisfy curious minds eager for secrets.",
   "releaseDate": "2024-07-17",
   "endDate": "2024-08-28",
-  "newCharacters": [
-    "Emilie"
+  "previousVersion": "4.7",
+  "nextVersion": "5.0",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/124837",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/124763",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=c72abd9836ff4747#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20240706preview-5y4ic7/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/124539",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Summertide Scales and Tales.png",
+    "Splashscreen Ambrosial Essence Discerner of Enigmas.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Emilie",
+      "rarity": 5,
+      "element": "Dendro",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [
+    {
+      "name": "Breeze of Sabaa",
+      "character": "Nilou"
+    },
+    {
+      "name": "Phantom in Boots",
+      "character": "Kirara"
+    }
+  ],
   "newWeapons": {
     "5Star": [
       "Lumidouce Elegy"
@@ -14,25 +59,38 @@
   },
   "banners": {
     "characters": [
-      "In the Name of the Rosula",
-      "Twirling Lotus",
-      "Ambrosial Essence",
-      "Discerner of Enigmas"
+      {
+        "name": "In the Name of the Rosula",
+        "featured": "Navia",
+        "phase": 1
+      },
+      {
+        "name": "Twirling Lotus",
+        "featured": "Nilou",
+        "phase": 1
+      },
+      {
+        "name": "Ambrosial Essence",
+        "featured": "Emilie",
+        "phase": 2
+      },
+      {
+        "name": "Discerner of Enigmas",
+        "featured": "Yelan",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Summertide Scales and Tales",
-    "Bing-Bang Finchball",
-    "Outside the Canvas, Inside the Lens: Dew-Kissed Chapter",
-    "Energy Amplifier: Lemma",
-    "Overflowing Mastery"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Envisaged Echoes (Imaginarium Theater)",
+    "Added \"Longer-Term Encounter Points\" (Adventure Encounters)"
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -40,6 +98,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -64,5 +128,159 @@
       "An Odd Textual Mystery"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Summertide Scales and Tales",
+    "Bing-Bang Finchball",
+    "Outside the Canvas, Inside the Lens: Dew-Kissed Chapter",
+    "Energy Amplifier: Lemma",
+    "Overflowing Mastery"
+  ],
+  "newRecipes": [
+    "Blubbercream",
+    "Crisp Croissant Combo",
+    "Fricassee de Poulet"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "A Fragrant Feast of Flavors"
+  ],
+  "newAchievements": [],
+  "newNamecards": [
+    "Emilie: Base Note",
+    "Travel Notes: Fanciful Fabrication"
+  ],
+  "newGadgets": [
+    "\"Yelena\""
+  ],
+  "newFurnishings": [
+    "Afternoon Coffee",
+    "Boom-Boom Unit",
+    "Brimming Freight Car",
+    "Conscientious Windcatcher Sentinel",
+    "Ding-Dong Unit",
+    "Easy Breezy Shelter Canopy",
+    "Fairytale Figurine: 'Twas Meant to Be",
+    "Fairytale Figurine: A Light Touch",
+    "Fairytale Figurine: Another!",
+    "Fairytale Figurine: Avatar of Valor",
+    "Fairytale Figurine: Birdy the Friendly",
+    "Fairytale Figurine: Bouncy Lotus Leaf",
+    "Fairytale Figurine: Brief Respite",
+    "Fairytale Figurine: Call Me A Nut",
+    "Fairytale Figurine: Don't Try This At Home",
+    "Fairytale Figurine: Envisaged in the Heart",
+    "Fairytale Figurine: Evidently So",
+    "Fairytale Figurine: Excellent Companion",
+    "Fairytale Figurine: Flying Instructor",
+    "Fairytale Figurine: Focal Point",
+    "Fairytale Figurine: Free Journey",
+    "Fairytale Figurine: Hatter",
+    "Fairytale Figurine: Imminent Dream",
+    "Fairytale Figurine: Let's Play",
+    "Fairytale Figurine: Miraculous Star",
+    "Fairytale Figurine: Night's Nemesis",
+    "Fairytale Figurine: Non-Flammable, Non-Explosive",
+    "Fairytale Figurine: Not a Chance",
+    "Fairytale Figurine: Pop-Up Paper Frog",
+    "Fairytale Figurine: Proof of Valor",
+    "Fairytale Figurine: Save Me!",
+    "Fairytale Figurine: Scattering Blossoms",
+    "Fairytale Figurine: Steadfast Hero",
+    "Fairytale Figurine: Steady Course",
+    "Fairytale Figurine: Strict Quality Control",
+    "Fairytale Figurine: Superglue",
+    "Fairytale Figurine: Sure Thing",
+    "Fairytale Figurine: The Power of Wisdom",
+    "Fairytale Figurine: The Sharpest Sword",
+    "Fairytale Figurine: Training Time",
+    "Fairytale Figurine: Unbowed by the Storm",
+    "Fairytale Figurine: Veritable Vantage",
+    "Fairytale Figurine: Watch Your Footing",
+    "Fairytale Figurine: We Sing Heigh-Ho",
+    "Fairytale Figurine: You Can't See Me",
+    "Garden Stellar Musical Pillar",
+    "Gate of Stars",
+    "Glowing Forest Fruit",
+    "Good Shelf: In the Forest of Blessings",
+    "Good Shelf: Metropole Cityscape",
+    "Good Shelf: Mining Traces",
+    "Hardcover Storybook: \"Simulanka\"",
+    "Joyous Forest Party",
+    "Magical Forest Hut",
+    "Metropole Funhouse: Conductor",
+    "Metropole Funhouse: Cymbalist",
+    "Metropole Funhouse: Trumpeter",
+    "Multipurpose Crownosphere",
+    "Origami Model: Hard As Can Be",
+    "Origami Model: Hop, Skip, and a Jump",
+    "Origami Model: Round Rummy Tum",
+    "Origami Model: Whoooosh!",
+    "Peculiar Rug: \"Drama of Cards\"",
+    "Plain Citadel",
+    "Precipitation Inducing Leaves",
+    "Primordial Forest Beauty",
+    "Rectangular Rock Block",
+    "Schedule-Abiding Train Station Sign",
+    "Snoozy Rest Car",
+    "Swaying Dancer",
+    "Wavesmasher Locomotive",
+    "Window to Prophecy"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Chevreuse",
+      "Navia",
+      "Frost Operative"
+    ],
+    "actionCards": [
+      "\"Ultimate Overlord's Mega Magic Sword\"",
+      "Prospector's Drill",
+      "Gladiator's Triumphus",
+      "Serene",
+      "\"I'd Rather Lose Money Myself...\"",
+      "Tada!"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 33 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "New \"Hide UI\" function: You can enable/disable it in the \"Settings > Other\" menu (you can also enable/disable it using specific shortcuts on PC). When enabled, the main interface will hide UI elements such as map and party information.",
+    "New functions in the Dialogue Screen:",
+    "# \"Dialogue Review\": You can open the \"Dialogue Review\" interface while playing through the story to view the dialogue records for this segment of the story or listen to the voice-overs again.",
+    "# \"Hide Dialogue Screen\": You can hide the dialogue screen while playing through the story."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": null,
+    "requiredElements": [
+      "Hydro",
+      "Cryo",
+      "Anemo"
+    ],
+    "openingCharacters": [
+      "Furina",
+      "Barbara",
+      "Kamisato Ayaka",
+      "Diona",
+      "Xiao",
+      "Faruzan"
+    ],
+    "guestCharacters": [
+      "Emilie",
+      "Dehya",
+      "Nahida",
+      "Xiangling"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 75% Dendro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Searing Moon",
+    "blessingEffect": "When characters attack Burning opponents, their CRIT Rate is increased by 15% and their CRIT DMG is increased by 30%."
   }
 }

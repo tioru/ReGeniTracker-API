@@ -1,14 +1,56 @@
 {
   "number": "2.2",
+  "cycleLabel": null,
   "name": "Into the Perilous Labyrinth of Fog",
+  "subtitle": null,
+  "description": "The trials of the warriors are hidden in the domain, the sorrowful past buried in the hazy fog.<br>When the veil of mystery is lifted, regardless if you are a martial artist craving for combat or a Traveler from a distant land, all will be revealed.",
   "releaseDate": "2021-10-13",
   "endDate": "2021-11-24",
-  "newCharacters": [
-    "Thoma",
-    "Aloy",
-    "Aloy"
+  "previousVersion": "2.1",
+  "nextVersion": "2.3",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16488",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16369",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20211004-preview/index.html?game_biz=hk4e_global&mhy_presentation_style=fullscreen&mhy_landscape=true",
+      "label": "Version 2.2 Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16321",
+      "label": "Developer's Discussion 10/06"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Into the Perilous Labyrinth of Fog.png",
+    "Splashscreen Moment of Bloom 2.2.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Thoma",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Aloy",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Aloy",
+      "rarity": null,
+      "element": null,
+      "weaponType": null
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Polar Star"
@@ -21,26 +63,28 @@
   },
   "banners": {
     "characters": [
-      "Farewell of Snezhnaya",
-      "Moment of Bloom"
+      {
+        "name": "Farewell of Snezhnaya",
+        "featured": "Tartaglia",
+        "phase": null
+      },
+      {
+        "name": "Moment of Bloom",
+        "featured": "Hu Tao & Thoma",
+        "phase": null
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Labyrinth Warriors",
-    "Shadow of the Ancients",
-    "Tuned to the World's Sounds",
-    "Dreams of Bloom",
-    "Ley Line Overflow"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "One Time Domain",
     "Moshiri Kara"
   ],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -48,6 +92,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -57,5 +107,65 @@
       "Clean House"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Labyrinth Warriors",
+    "Shadow of the Ancients",
+    "Tuned to the World's Sounds",
+    "Dreams of Bloom",
+    "Ley Line Overflow"
+  ],
+  "newRecipes": [
+    "\"Warmth\"",
+    "Radish and Fish Stew",
+    "Wakatakeni",
+    "Berry Mizu Manjuu",
+    "Soba Noodles"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "New Category",
+    "The Chronicles of the Sea of Fog",
+    "Additions",
+    "Wonders of the World",
+    "Memories of the Heart"
+  ],
+  "newNamecards": [
+    "Travel Notes: Heavenly General",
+    "Thoma: Blazing Guard",
+    "Inazuma: Eagleplume"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Courtyard",
+    "Building",
+    "Landform",
+    "Tree",
+    "Shrub",
+    "Floating Platform (New Category)",
+    "Sub-Space Boulder: Sky Range",
+    "Landscape",
+    "Main Building",
+    "Outdoor Furnishing",
+    "Paving (New Category)"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "dealt by party members increased by 60%.",
+      "dealt by party members increased by 60%."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase 1: Vanguard Moon",
+    "blessingEffect": "After the challenge begins, when a character's Elemental Energy is greater than or equal to 50%, they will gain a 6.5% ATK Bonus every second. Max 10 stacks. When a character's Elemental Energy is less than 30%, the ATK Bonus gained this way will be cleared."
   }
 }

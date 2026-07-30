@@ -1,0 +1,12 @@
+{
+  "name": "Hauts du Mornevent",
+  "type": "Région",
+  "parent": "Mondstadt",
+  "description": "Les Hauts du Mornevent sont une région de Mondstadt. Cette région abrite le joli village de Deauclaire et le plus grand domaine vinicole de Mondstadt, le Domaine de l'Aurore. C'est dans cette région que se trouve aussi le Territoire des Loups. Il s'agit de l'une des régions les plus rustiques de Mondstadt, entre ses source d'eau clair, ses vergers et ses forêts luxuriantes. Toutefois, le Territoire des Loups est très fréquenté par de nombreux ennemis, c'est pourquoi les mondstadtois ont tendance à l'éviter.",
+  "image": "Hauts du Mornevent.png",
+  "subLocations": [
+    "Domaine de l'Aurore",
+    "Deauclaire",
+    "Territoire des Loups"
+  ]
+}

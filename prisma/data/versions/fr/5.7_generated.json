@@ -1,13 +1,55 @@
 {
   "number": "5.7",
+  "cycleLabel": null,
   "name": "A Space and Time for You",
+  "subtitle": null,
+  "description": "Au cours de votre voyage, prenez le temps de vous arrêter et d'observer ce monde.<br>En un instant, certains voient leur terre natale réduite en cendres, tandis que d'autres sont réunis avec leurs proches.<br>Nul ne peut promettre que le chemin sera sans embûches, mais on peut toujours espérer qu'il mènera à une fin heureuse.",
   "releaseDate": "2025-06-18",
   "endDate": "2025-07-30",
-  "newCharacters": [
-    "Skirk",
-    "Dahlia"
+  "previousVersion": "5.6",
+  "nextVersion": "5.8",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/157064",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/156934",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=c0526e0c93f5480e#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_EG5wNuW5DL/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/156641",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Void Star's Advent.png",
+    "Splashscreen A Space and Time for You.png",
+    "Splashscreen Ancient Flame Ablaze Ambrosial Essence.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Skirk",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Dahlia",
+      "rarity": 4,
+      "element": "Hydro",
+      "weaponType": "Sword"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Éclazur"
@@ -15,27 +57,37 @@
   },
   "banners": {
     "characters": [
-      "Avènement de l'étoile du néant",
-      "Retour de la sublimée",
-      "Embrasement du feu ancien",
-      "Essence ambrosiale"
+      {
+        "name": "Avènement de l'étoile du néant",
+        "featured": "Skirk & Dahlia",
+        "phase": 1
+      },
+      {
+        "name": "Retour de la sublimée",
+        "featured": "Shenhe & Dahlia",
+        "phase": 1
+      },
+      {
+        "name": "Embrasement du feu ancien",
+        "featured": "Mavuika",
+        "phase": 2
+      },
+      {
+        "name": "Essence ambrosiale",
+        "featured": "Emilie",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Stygian Onslaught: Incursion Repeller",
-    "Bataille aux formations spéculées",
-    "Feu férocement furieux",
-    "Reminiscent Regimen: Frenzy",
-    "Travelers' Tales: Gilded Chapter",
-    "Abondance de prospérité",
-    "Crystallina (événement)"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Artifact Reshape (Dust of Enlightenment)"
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -43,6 +95,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -61,5 +119,98 @@
       "Carnage chtonien"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Stygian Onslaught: Incursion Repeller",
+    "Bataille aux formations spéculées",
+    "Feu férocement furieux",
+    "Reminiscent Regimen: Frenzy",
+    "Travelers' Tales: Gilded Chapter",
+    "Abondance de prospérité",
+    "Crystallina (événement)"
+  ],
+  "newRecipes": [
+    "Festin carnassier",
+    "Nectar aux neuf fruits",
+    "Tarte aux bulles de lait"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Prime de l'Abîme",
+    "Discussion joyeuse en soirée"
+  ],
+  "newAchievements": [
+    "Wonders of the World category"
+  ],
+  "newNamecards": [
+    "Thème Skirk - Ombre solitaire",
+    "Thème Dahlia - Devoir sacré",
+    "Thème PB - Spéculation"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "« Dans la fumée et brume »",
+    "Rêve de forêt paisible",
+    "Sans-sommeil",
+    "Traces de tepetlisaure"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Chasca",
+      "Citlali",
+      "Mavuika"
+    ],
+    "actionCards": [
+      "L'assistant du docker",
+      "Diadème des saints",
+      "Parchemin du héros de la Cité de braise",
+      "Rawr! Rawr!",
+      "Fight for Death",
+      "Feu et guerre",
+      "Flying Squad, Attack!",
+      "Fruits of Training",
+      "Récolte favorable"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 41 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "July 1, 2025",
+    "requiredElements": [
+      "Pyro",
+      "Hydro",
+      "Cryo"
+    ],
+    "openingCharacters": [
+      "Lyney",
+      "Xiangling",
+      "Tartaglia",
+      "Dahlia",
+      "Wriothesley",
+      "Rosalia"
+    ],
+    "guestCharacters": [
+      "Émilie",
+      "Kinich",
+      "Lan Yan",
+      "Noëlle"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members receive a 60% Cryo DMG Bonus.",
+      "All party members gain a 60% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Cryo DMG dealt by all party members increased by 75%.",
+      "Second Half: All party members' Nightsoul-aligned DMG increased by 75%."
+    ],
+    "blessingName": "Bitterfreeze Moon",
+    "blessingEffect": "When a character triggers Cryo-related reactions, a shockwave will be released at the opponent's position, dealing True DMG to nearby opponents. This effect can be triggered once every 2.5s."
   }
 }

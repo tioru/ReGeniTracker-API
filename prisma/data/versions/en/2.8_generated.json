@@ -1,12 +1,53 @@
 {
   "number": "2.8",
+  "cycleLabel": null,
   "name": "Summer Fantasia",
+  "subtitle": null,
+  "description": "The height of summer is a wonderful time of the year, and there are always many strange, interesting events taking place.<br>A cursed blade of unknown origin, a mysterious unsolved case, and the familiar but not too familiar islands far at sea...<br>\"O seasoned warriors, fear not the depths of despair and death borne from chaos!\"<br>\"For the Prinzessin, holiest of sovereigns of the kingdom where the night is sacred, will therefore declare the verdict of victory.\"<br>And so, everyone followed the path of their destiny, ready to take on unknown encounters and challenges.",
   "releaseDate": "2022-07-13",
   "endDate": "2022-08-24",
-  "newCharacters": [
-    "Shikanoin Heizou"
+  "previousVersion": "2.7",
+  "nextVersion": "3.0",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/22212",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/22074",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=c82261e0fe0f432d#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20220703prev-wiz6/index.html",
+      "label": "Website"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Summer Fantasia.png",
+    "Splashscreen Tapestry of Golden Flames 2.8.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Shikanoin Heizou",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    }
+  ],
+  "newOutfits": [
+    {
+      "name": "Ein Immernachtstraum",
+      "character": "Fischl 4-Star"
+    },
+    {
+      "name": "Red Dead of Night",
+      "character": "Diluc 5-Star"
+    }
+  ],
   "newWeapons": {
     "4Star": [
       "Kagotsurube Isshin",
@@ -20,16 +61,10 @@
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Summertime Odyssey",
-    "Reminiscent Regimen",
-    "Resonating Visions",
-    "Hidden Strife",
-    "Evermotion Mechanical Painting"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -37,6 +72,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -74,5 +115,61 @@
         ]
       }
     ]
+  },
+  "events": [
+    "Summertime Odyssey",
+    "Reminiscent Regimen",
+    "Resonating Visions",
+    "Hidden Strife",
+    "Evermotion Mechanical Painting"
+  ],
+  "newRecipes": [
+    "The Only Truth"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "Memories of the Heart category"
+  ],
+  "newNamecards": [
+    "Shikanoin Heizou: Temari",
+    "Travel Notes: Azure Main"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Allegro Bloom: Special Tuning",
+    "Cosmos Within",
+    "Dodoco's Summertime",
+    "Dodoco's Travel Bag",
+    "Dodoco's Dodo Stove",
+    "Dodoco's Beach Nap",
+    "Dodoco's Collection Cupboard",
+    "Dodoco's Sunshade Umbrella",
+    "Fabled Emperor Onikabuto",
+    "Keepsake Photo of Twilight Theater",
+    "Storm Braver",
+    "Tranquil Starlight"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "\"Adventurer Handbook - Guide\" page.",
+    "\"Adventurer Handbook - Embattle\" page.",
+    "Fragile Resin tutorial.",
+    "Some Loading Screen prompts."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members receive a 75% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Valiant Moon",
+    "blessingEffect": "When a character takes the field, they will gain 1 Fortitude stack every 2s. This will increase their ATK by 20%. Max 3 stacks. When characters with 3 Fortitude stacks hit opponents with Charged Attacks, a shockwave will be unleashed at the opponents' position, dealing True DMG. A shockwave can be unleashed in this manner once every 2s. When the character leaves the field, all their Fortitude stacks will be cleared."
   }
 }

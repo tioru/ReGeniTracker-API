@@ -1,17 +1,56 @@
 {
   "number": "5.8",
+  "cycleLabel": null,
   "name": "Sunspray Summer Resort",
+  "subtitle": null,
+  "description": "[[Natlan]]'s a hot place all year round. If you put your mind to it, every day can be considered a summer vacation.<br>So why not set aside your commissions, Paimon's treats, stories of the ancient dragons' civilization, visitors from [[Nod-Krai]], as well as a letter from the [[Varka",
   "releaseDate": "2025-07-30",
   "endDate": "2025-09-10",
-  "newCharacters": [
-    "Ineffa"
-  ],
-  "mapExpansion": [
+  "previousVersion": "5.7",
+  "nextVersion": "Luna I",
+  "links": [
     {
-      "mainRegion": "Easybreeze Holiday Resort",
-      "subRegion": [
-        "Mare Jivari (Small Part)"
-      ]
+      "url": "https://genshin.hoyoverse.com/en/news/detail/158026",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/157971",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=09cce4ccbe0e42f9#/indexindex",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_9LuGk_WEfM/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/157683",
+      "label": "Developer's Discussion"
+    }
+  ],
+  "images": [
+    "Splashscreen Sunspray Summer Resort.png",
+    "Splashscreen Astral Actuation.png",
+    "Splashscreen Sharktacular Surfari Piercing Shot's Crimson Wake.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Ineffa",
+      "rarity": 5,
+      "element": "Electro",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [
+    {
+      "name": "Adventures in Blazing Hue",
+      "character": "Bennett"
+    },
+    {
+      "name": "Tranquil Banquet",
+      "character": "Yelan"
     }
   ],
   "newWeapons": {
@@ -24,26 +63,55 @@
   },
   "banners": {
     "characters": [
-      "Astral Actuation",
-      "Starry Night's Whispers",
-      "Sharktacular Surfari",
-      "Piercing Shot's Crimson Wake"
+      {
+        "name": "Astral Actuation",
+        "featured": "Ineffa",
+        "phase": 1
+      },
+      {
+        "name": "Starry Night's Whispers",
+        "featured": "Citlali",
+        "phase": 1
+      },
+      {
+        "name": "Sharktacular Surfari",
+        "featured": "Mualani",
+        "phase": 2
+      },
+      {
+        "name": "Piercing Shot's Crimson Wake",
+        "featured": "Chasca",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Sunspray Summer Resort (Event)",
-    "Tracing Vanishing Trails",
-    "Mementos of Teyvat: Prelude of the Frozen Veil",
-    "Natlan: Plains of Flowing Flames (Event)",
-    "An Easy-Breezy Natlan in an Easy-Breezy Summer!",
-    "Ley Line Overflow"
+  "mapExpansion": [
+    {
+      "mainRegion": "Easybreeze Holiday Resort",
+      "subRegion": [
+        "Mare Jivari (Small Part)"
+      ]
+    }
   ],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Elemental Reaction",
+    "Lunar-Charged",
+    "When Electro meets Hydro, and certain other conditions are met, a special Lunar-Charged reaction occurs, and a thundercloud forms. This thundercloud will continuously release bursts of lightning at nearby targets who are affected by both Electro and Hydro, dealing Electro DMG.",
+    "This DMG can trigger CRIT Hits, and the DMG dealt is based on all characters who have applied elements during the reaction.",
+    "Saurian Indwelling",
+    "Asha",
+    "Repertoire of Myriad Melodies",
+    "Natlan: Plains of Flowing Flames album",
+    "Score Themes",
+    "Blazing Sunfire Scours the Gloom",
+    "Eternal Dreams of Serenity",
+    "Adds new instrument \"Leaping Spirit Piano\" that can be purchased from the Djembe Studios."
+  ],
+  "newMonsters": {
     "common": [
       "Bakunawa",
       "Pipilpan Idol"
@@ -54,6 +122,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -75,5 +149,140 @@
       "Sunnyshine Alpaca Park's Souvenirs"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Sunspray Summer Resort (Event)",
+    "Tracing Vanishing Trails",
+    "Mementos of Teyvat: Prelude of the Frozen Veil",
+    "Natlan: Plains of Flowing Flames (Event)",
+    "An Easy-Breezy Natlan in an Easy-Breezy Summer!",
+    "Ley Line Overflow"
+  ],
+  "newRecipes": [
+    "Gentle Sea Breeze",
+    "Nanas Cake",
+    "Shrimp Bisque",
+    "Mini Asha Pockets"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "A Summer of Ash and Prickly Pears",
+    "Wonders of the World category."
+  ],
+  "newNamecards": [
+    "Ineffa: Command",
+    "Natlan: Wheel of Flame",
+    "Travel Notes: Easy Breezy"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "\"Colorful Grand Gift Box\"",
+    "\"Crackle-Clatter Cryptex\"",
+    "\"Dark Chocolate Menace\"",
+    "\"Lucky Star\"",
+    "\"Miss Sweet-and-Sour\"",
+    "\"Reminiscences of a Distant Journey\"",
+    "\"Shine On, Pipilpan!\"",
+    "Aglow Through the Lingering Day",
+    "Ashas' Paint Drum: Rampage",
+    "Bobbly-Wobbly Water Donut",
+    "Coffee Time",
+    "Dance Speaker – \"Lightburst Shock\"",
+    "Dance-Off Stage: \"Revelrous Rhythm\"",
+    "Deckchair: Healthy Glow",
+    "Easy-Breezy Comfort",
+    "Easy-Breezy Flutterby",
+    "Easy-Breezy Guest House",
+    "Easy-Breezy Nest",
+    "Easy-Breezy Nights",
+    "Easy-Breezy Wilderness",
+    "Fighting Chords",
+    "Fizzy Fireworks",
+    "Flower-Shaped Machine Component",
+    "Fluffy Alpaca Sheriff",
+    "Fly Higher Together",
+    "Gentle Night Sky",
+    "Heroic Warcry",
+    "High-Flyers' Trampoline",
+    "Journey Through Wind and Waves",
+    "Landscape Hedge - \"Verdant Elegance\"",
+    "Lord of the Ocean Tides",
+    "Market Statue: Vibrant Vacation",
+    "Miniature Candlestand: Miniature \"Sun\"",
+    "Model Contraption: Boom Boom Buff",
+    "Multicolored Coconut Tree",
+    "Night-Wind Stone Stool: Harmonious Unity",
+    "Parasol: Sand and the Sea Breeze",
+    "Plated Target: Rhythm of War",
+    "Reimagined Colors",
+    "Rhythmic Synchrony",
+    "Savey-Wavey Life Ring",
+    "Sir Capy of the Long Incisors",
+    "Speedy Wanderer",
+    "Standing Flammabomb Wood Street Lamp",
+    "Tablet of Tona - \"United as One\"",
+    "Unyielding Master of Stone",
+    "Wavey Shark",
+    "Wooden Model: \"Sun\"",
+    "Xochicuicatl Marketing Method"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Shikanoin Heizou",
+      "Lan Yan",
+      "Gluttonous Yumkasaur Mountain King"
+    ],
+    "actionCards": [
+      "Crownless Crown",
+      "Whimsical Dance of the Withered",
+      "Calligraphy Tavern",
+      "Constellation Metropole",
+      "Forest Blessing",
+      "Gift of the Goddess of Prophecy",
+      "Harvest Time",
+      "Awesome, Bro"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 42 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Increase in the Level Cap of Tona's Flame's Restitution to Level 50. After Tona's Flame reaches its maximum level, Pyro Sigils can be exchanged with Siyah at Natlan's Saurian Relics Association."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "August 1, 2025",
+    "requiredElements": [
+      "Electro",
+      "Cryo",
+      "Anemo"
+    ],
+    "openingCharacters": [
+      "Yae Miko",
+      "Kuki Shinobu",
+      "Ganyu",
+      "Layla",
+      "Yumemizuki Mizuki",
+      "Sucrose"
+    ],
+    "guestCharacters": [
+      "Neuvillette",
+      "Xingqiu",
+      "Nahida",
+      "Gaming"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 75% Electro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Characters' Electro-Charged and Lunar-Charged DMG increased by 75%.",
+      "Second Half: Characters' Nightsoul-aligned DMG dealt to opponents increased by 75%."
+    ],
+    "blessingName": "Wavering Moon",
+    "blessingEffect": "When a character triggers Hydro-related reactions (including Lunar-Charged), a shockwave will be released at the opponent's position, dealing True DMG. This effect can be triggered once every 3s."
   }
 }

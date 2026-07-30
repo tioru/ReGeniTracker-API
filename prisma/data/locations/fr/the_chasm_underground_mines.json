@@ -1,0 +1,16 @@
+{
+  "name": "Mines souterraines du Gouffre",
+  "type": "Région",
+  "parent": "Gouffre",
+  "description": "Les Mines souterraines du Gouffre est une région de Liyue. Elles sont un réseau de tunnels profonds situé sous le Gouffre, célèbre pour ses vastes cavernes et ses filons miniers. Ce lieu, autrefois un centre d'extraction de richesses naturelles, est désormais envahi par des créatures et des mystères. L'atmosphère sombre et labyrinthique des mines cache de nombreux secrets, tout en restant un endroit dangereux et rempli de trésors enfouis.",
+  "image": "Mines souterraines du Gouffre.jpg",
+  "subLocations": [
+    "Tunnel principal temporaire",
+    "Nameless Ruins",
+    "Hall rocheux",
+    "Carrière principale du Gouffre",
+    "Goulet lumineux",
+    "Grotte du serpent",
+    "Canal souterrain"
+  ]
+}

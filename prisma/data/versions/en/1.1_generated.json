@@ -1,15 +1,58 @@
 {
   "number": "1.1",
+  "cycleLabel": null,
   "name": "A New Star Approaches",
+  "subtitle": null,
+  "description": "The [[The Seven",
   "releaseDate": "2020-11-11",
   "endDate": "2020-12-23",
-  "newCharacters": [
-    "Tartaglia",
-    "Diona",
-    "Zhongli",
-    "Xinyan"
+  "previousVersion": "1.0",
+  "nextVersion": "1.2",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/6638",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/6526",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/6085",
+      "label": "Developers Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen A New Star Approaches.png",
+    "Splashscreen Gentry of Hermitage.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Tartaglia",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Diona",
+      "rarity": 4,
+      "element": "Cryo",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Zhongli",
+      "rarity": 5,
+      "element": "Geo",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Xinyan",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Memory of Dust",
@@ -22,24 +65,60 @@
   },
   "banners": {
     "characters": [
-      "Farewell of Snezhnaya",
-      "Gentry of Hermitage"
+      {
+        "name": "Farewell of Snezhnaya",
+        "featured": "Tartaglia & Diona",
+        "phase": null
+      },
+      {
+        "name": "Gentry of Hermitage",
+        "featured": "Zhongli & Xinyan",
+        "phase": null
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Unreconciled Stars",
-    "Baptism of Song",
-    "Gliding Challenge",
-    "While It's Warm"
-  ],
+  "mapExpansion": [],
   "newDomains": [
     "Enter the Golden House"
   ],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "City Reputation System",
+    "New Gadgets from City Reputation System",
+    "Anemoculus Resonance Stone",
+    "Geoculus Resonance Stone",
+    "NRE (Menu 30)",
+    "Wind Catcher",
+    "Portable Waypoint",
+    "Condensed Resin",
+    "Adepti Seeker's Stove",
+    "Anemo Treasure Compass",
+    "Geo Treasure Compass",
+    "New City Features from City Reputation System",
+    "Mining Outcrop Search",
+    "Merchant Discounts",
+    "New Namecard Styles from City Reputation System",
+    "Mondstadt - Hero's Fame",
+    "Mondstadt - Blessing",
+    "Liyue - A Thousand Ships",
+    "Liyue - In the Clouds",
+    "New Recipes from City Reputation System",
+    "Northern Apple Stew",
+    "Adventurer's Breakfast Sandwich",
+    "Moon Pie",
+    "Golden Shrimp Balls",
+    "Lotus Flower Crisp",
+    "Tianshu Meat",
+    "New Wind Gliders from City Reputation System",
+    "Wings of Azure Wind",
+    "Wings of Golden Flight",
+    "Exploration Progress System",
+    "Archive System",
+    "Character Archive System"
+  ],
+  "newMonsters": {
     "common": [
       "Unusual Hilichurl"
     ],
@@ -49,6 +128,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -86,5 +171,30 @@
       "Ministry Missions"
     ],
     "hangoutQuests": []
-  }
+  },
+  "events": [
+    "Unreconciled Stars",
+    "Baptism of Song",
+    "Gliding Challenge",
+    "While It's Warm"
+  ],
+  "newRecipes": [
+    "Triple-Layered Consommé",
+    "Bamboo Shoot Soup"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": null
 }

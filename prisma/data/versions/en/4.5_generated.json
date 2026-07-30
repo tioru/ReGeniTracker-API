@@ -1,12 +1,48 @@
 {
   "number": "4.5",
+  "cycleLabel": null,
   "name": "Blades Weaving Betwixt Brocade",
+  "subtitle": null,
+  "description": "Mondstadt's alchemy industry is booming, driven by a soaring demand for all kinds of potions to overcome the trials and tribulations of daily life.<br>But not every problem in life has such a simple, ready-made solution.<br>In the subjective world of art and fashion, Chiori continues to make her mark by doing things in her own, unorthodox, inimitable way.",
   "releaseDate": "2024-03-13",
   "endDate": "2024-04-24",
-  "newCharacters": [
-    "Chiori"
+  "previousVersion": "4.4",
+  "nextVersion": "4.6",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/122817",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/122785",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=3719b7221f4c4efc#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20230302preview-2hu94k/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/122658",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Blades Weaving Betwixt Brocade.png",
+    "Splashscreen Decree of the Deeps Leaves in the Wind.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Chiori",
+      "rarity": 5,
+      "element": "Geo",
+      "weaponType": "Sword"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Uraku Misugiri"
@@ -17,28 +53,40 @@
   },
   "banners": {
     "characters": [
-      "Of Silken Clouds Woven",
-      "Oni's Royale",
-      "Ode to the Dawn Breeze",
-      "5-Star Characters: Eula, Mona, Albedo, Klee, Diluc, Jean",
-      "5-Star Weapons: Beacon of the Reed Sea, Song of Broken Pines, Wolf's Gravestone, Skyward Pride, Lost Prayer to the Sacred Winds, Skyward Atlas, Skyward Blade, Aquila Favonia, Hunter's Path, Skyward Harp",
-      "Decree of the Deeps",
-      "Leaves in the Wind"
+      {
+        "name": "Of Silken Clouds Woven",
+        "featured": "Chiori",
+        "phase": 1
+      },
+      {
+        "name": "Oni's Royale",
+        "featured": "Arataki Itto",
+        "phase": 1
+      },
+      {
+        "name": "Ode to the Dawn Breeze",
+        "featured": "Chronicled Wish",
+        "phase": 1
+      },
+      {
+        "name": "Decree of the Deeps",
+        "featured": "Neuvillette",
+        "phase": 2
+      },
+      {
+        "name": "Leaves in the Wind",
+        "featured": "Kaedehara Kazuha",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Alchemical Ascension",
-    "Feline Fortress Furrdyssey",
-    "Rolling Crossfire",
-    "The Great Fayz Reaction Debate",
-    "Ley Line Overflow"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -46,6 +94,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -72,5 +126,104 @@
         ]
       }
     ]
+  },
+  "events": [
+    "Alchemical Ascension",
+    "Feline Fortress Furrdyssey",
+    "Rolling Crossfire",
+    "The Great Fayz Reaction Debate",
+    "Ley Line Overflow"
+  ],
+  "newRecipes": [
+    "Mega-Meaty Sushi"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "\"Fashion Show\""
+  ],
+  "newAchievements": [
+    "Memories of the Heart category"
+  ],
+  "newNamecards": [
+    "Chiori: Spectacular Sleeves",
+    "Travel Notes: Arcane Amassing"
+  ],
+  "newGadgets": [
+    "\"Fateometer\""
+  ],
+  "newFurnishings": [
+    "\"Cider Lakelight\"",
+    "\"Fresh Buds From Mountains and Waters\"",
+    "\"Mellow Tea in a Red Clay Pot\"",
+    "\"Port's Fabulous Flavors\"",
+    "\"Sacred Source of Tea\"",
+    "\"Site of Artful Ascension\"",
+    "\"Tea Harvest's Fishery Inspiration\"",
+    "\"Tea Harvest's Formula for Fragrance\"",
+    "\"Tea Harvest's Multifunction Rack\"",
+    "\"Tea Harvest's Stockpiling and Transport\"",
+    "\"Tea Harvest's Sun-Dried Fragrance\"",
+    "\"Tea Village Stone Bench: Safe, Spacious, Sturdy\"",
+    "Cleverly Crafted Cabinet: Regular Organization",
+    "Cleverly Crafted Cauldron: Potion Plans Aplenty",
+    "Cleverly Crafted Contraption: Born in Blessed Bitterness",
+    "Cleverly Crafted Shelf: Hot Sales Strategy",
+    "Crimson Qiuyue Frostflower",
+    "Handmade Brooch: \"Woven Dreams\"",
+    "Hung Condensed Bladebone",
+    "Let the Desert Bloom (Global Release)",
+    "Sir Pouncelot (Furnishing)",
+    "Snow-Blanketed Shade",
+    "Stoneshrouding Salutation",
+    "Sub-Space Boulder: Caution",
+    "Sub-Space Boulder: Pillar",
+    "Teahouse Bench: Simple Seating",
+    "Teahouse Long Table: Tools of Nostalgia",
+    "Teahouse Stove: A Capital Cook",
+    "Teahouse Stove: Slow Steaming",
+    "Teahouse Tool: Clear View",
+    "Teahouse Tool: Dry Storage",
+    "Teahouse Tool: Miniscule Misses Make a Mile",
+    "Teahouse Tool: Qualitea Review",
+    "Tea Village Stone Table: Cultured Leisure",
+    "Throne of Meower",
+    "Valley Residence: It's Classified",
+    "Verdant Screen"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Fatui Electro Cicin Mage",
+      "Neuvillette",
+      "Charlotte",
+      "Kirara"
+    ],
+    "actionCards": [
+      "Tome of the Eternal Flow",
+      "Golden Troupe's Reward",
+      "Fortress of Meropide",
+      "Lumenstone Adjuvant",
+      "Controlled Directional Blast",
+      "Day of Resistance: Moment of Shattered Dreams"
+    ]
+  },
+  "otherAdditions": [
+    "New Books:",
+    "Perinheri",
+    "Adds Set 30 of \"Paimon's Paintings\" chat emojis.",
+    "New \"Training Guide\" function:",
+    "# The \"Training Guide\" will provide character building recommendations for \"Character Level,\" \"Weapon,\" \"Artifacts,\" and \"Character Talents\" based on the data of recently active players as well as the maximum World Level unlocked. Additionally, for Travelers who have not yet unlocked World Level 6, when they fail a challenge (e.g.: open world battles where all party members fall in battle, Domains, Trounce Domains, and other challenges and domains where players are defeated), the game interface will display tips according to the current data of the party's characters. Travelers can follow the prompts and head to the \"Training Guide\" to view suggestions for building characters to boost their adventure prowess.",
+    "# Function Unlock Criteria: Reach Adventure Rank 12 or above and complete the World Quest \"Welcome to the Adventurers' Guild.\""
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members receive a 75% Geo DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Sundered Moon",
+    "blessingEffect": "When characters create Geo Constructs, unleash a shockwave at the character's location, dealing True DMG to nearby opponents. 1 such shockwave can be unleashed every 6s."
   }
 }

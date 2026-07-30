@@ -1,13 +1,55 @@
 {
   "number": "5.6",
+  "cycleLabel": null,
   "name": "Paralogisme",
+  "subtitle": null,
+  "description": "Découvrez la provenance des épices en goûtant une simple cuillerée de soupe, et suivez la lumière à travers les ombres.<br>En cette saison du vent et des fleurs, une partie d'échecs s'est engagée, où vérité et mensonge s'entremêlent.<br>Ceux qui relèveront le défi pourraient s'approcher un peu plus de la vérité.",
   "releaseDate": "2025-05-07",
   "endDate": "2025-06-18",
-  "newCharacters": [
-    "Escoffier",
-    "Ifa"
+  "previousVersion": "5.5",
+  "nextVersion": "5.7",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/155739",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/155716",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=82543e14bca04d72#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_vAmlTfcglR/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/155593",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Paralogism.png",
+    "Splashscreen Paralogism 2.png",
+    "Splashscreen Seeker of Flame-Wrought Secrets Reign of Serenity 2.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Escoffier",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Ifa",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Symphoniste des senteurs"
@@ -18,29 +60,40 @@
   },
   "banners": {
     "characters": [
-      "La chanson cerise",
-      "Au nom de la Rosula",
-      "Recherche de secrets nés du feu",
-      "Règne de sérénité",
-      "Tonnerre déchirant les hautes plaines",
-      "Characters: Kamisato Ayaka, Kamisato Ayato, Yoimiya, Chiori, Yae Miko, Arataki Itto, Sangonomiya Kokomi, Kaedehara Kazuha",
-      "Weapons: Uraku Misugiri, Haran Geppaku Futsu, Mistsplitter Reforged, Freedom-Sworn, Redhorn Stonethresher, Kagura's Verity, Everlasting Moonglow, Thundering Pulse"
+      {
+        "name": "La chanson cerise",
+        "featured": "Escoffier & Ifa",
+        "phase": 1
+      },
+      {
+        "name": "Au nom de la Rosula",
+        "featured": "Navia & Ifa",
+        "phase": 1
+      },
+      {
+        "name": "Recherche de secrets nés du feu",
+        "featured": "Kinich",
+        "phase": 2
+      },
+      {
+        "name": "Règne de sérénité",
+        "featured": "Raiden Shogun",
+        "phase": 2
+      },
+      {
+        "name": "Tonnerre déchirant les hautes plaines",
+        "featured": "Chronicled Wish",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Valse virevoltante",
-    "Simulation de déluge déchaîné",
-    "Légendes brûlantes : Baston transfrontalière",
-    "Chronique des stratagèmes changeants",
-    "Reflux des lignes énergétiques",
-    "Plus précieux que tout (événement)"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -52,6 +105,17 @@
       ]
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [
+    "Échantillon ascensionné : Cavalier",
+    "Échantillon ascensionné : Tour",
+    "Échantillon ascensionné : Dame",
+    "Accumulateur d'air de source secrète"
+  ],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -68,5 +132,94 @@
     ],
     "worldQuests": [],
     "hangoutQuests": []
+  },
+  "events": [
+    "Valse virevoltante",
+    "Simulation de déluge déchaîné",
+    "Légendes brûlantes : Baston transfrontalière",
+    "Chronique des stratagèmes changeants",
+    "Reflux des lignes énergétiques",
+    "Plus précieux que tout (événement)"
+  ],
+  "newRecipes": [
+    "Petit gâteau Debord modifié",
+    "Bonbons coquillages"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Gâteau Debord splendide",
+    "Soutien émotionnel"
+  ],
+  "newAchievements": [
+    "Wonders of the World category"
+  ],
+  "newNamecards": [
+    "Thème Escoffier - Délice",
+    "Thème Ifa - Poto",
+    "Thème PB - Balletica"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Sculpture exquise",
+    "Scène de cinéma « Congrégation colorée »",
+    "Panneau de cinéma « Surintendante Chevalmarin »",
+    "Grand théâtre de répertoire",
+    "Ramdam festif"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Sethos",
+      "Xilonen"
+    ],
+    "actionCards": [
+      "Tatankasaure",
+      "Collectif de l'abondance",
+      "Art of Sleepy Meditation",
+      "À gorge enjouée"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 40 of \"Paimon's Paintings\" chat emojis."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "June 1, 2025",
+    "requiredElements": [
+      "Electro",
+      "Cryo",
+      "Dendro"
+    ],
+    "openingCharacters": [
+      "Cyno",
+      "Fischl",
+      "Qiqi",
+      "Mika",
+      "Nahida",
+      "Collei"
+    ],
+    "guestCharacters": [
+      "Furina",
+      "Dehya",
+      "Xiangling",
+      "Xingqiu"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members receive a 60% Cryo DMG Bonus.",
+      "All party members gain a 60% Dendro DMG Bonus.",
+      "All party members receive a 60% Cryo DMG Bonus.",
+      "All party members gain a 60% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Characters' Elemental Skill Cryo DMG increased by 75%.",
+      "Second Half: Characters' Elemental Skill Dendro DMG increased by 75%.",
+      "First Half: When characters have 0 Energy, DMG +75%.",
+      "Second Half: Characters' Normal Attack Cryo DMG increased by 75%."
+    ],
+    "blessingName": "Interwoven Moon",
+    "blessingEffect": "When a character's Elemental Skill hits an opponent, it will be counted (1 count can be triggered every 0.9s). When the count reaches 3, a shockwave will be unleashed at the hit opponent's location, dealing True DMG and resetting the count."
   }
 }

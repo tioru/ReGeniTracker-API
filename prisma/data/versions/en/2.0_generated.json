@@ -1,23 +1,64 @@
 {
   "number": "2.0",
+  "cycleLabel": null,
   "name": "The Immovable God and the Eternal Euthymia",
+  "subtitle": null,
+  "description": "A foreign thunderstorm tears the sky apart, splitting eternity. Flashes of lightning cut through the darkness, as a god's will manifests.<br>Overcome endless thunderstorms, set foot on the island of cherry blossoms, and witness the Eternity pursued by Her Excellency, the [[Almighty Narukami Ogosho]].",
   "releaseDate": "2021-07-21",
   "endDate": "2021-09-01",
-  "newCharacters": [
-    "Kamisato Ayaka",
-    "Yoimiya",
-    "Sayu"
-  ],
-  "mapExpansion": [
+  "previousVersion": "1.6",
+  "nextVersion": "2.1",
+  "links": [
     {
-      "mainRegion": "Inazuma",
-      "subRegion": [
-        "Narukami Island",
-        "Kannazuka",
-        "Yashiori Island"
-      ]
+      "url": "https://genshin.hoyoverse.com/en/news/detail/14450",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=9fd204af957e4b13&mode=fullscreen",
+      "label": "Version 2.0 Preview Page"
+    },
+    {
+      "url": "https://www.hoyolab.com/article/567649",
+      "label": "Update Notice I"
+    },
+    {
+      "url": "https://www.hoyolab.com/article/567638",
+      "label": "Update Notice II"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210715-prepage/index.html",
+      "label": "Version 2.0 Website"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/13803",
+      "label": "Developer's Discussion 6/30"
     }
   ],
+  "images": [
+    "Splashscreen The Immovable God and the Eternal Euthymia.png",
+    "Splashscreen Tapestry of Golden Flames.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Kamisato Ayaka",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Yoimiya",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Sayu",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Thundering Pulse",
@@ -33,19 +74,30 @@
   },
   "banners": {
     "characters": [
-      "The Heron's Court",
-      "Tapestry of Golden Flames"
+      {
+        "name": "The Heron's Court",
+        "featured": "Kamisato Ayaka",
+        "phase": null
+      },
+      {
+        "name": "Tapestry of Golden Flames",
+        "featured": "Yoimiya & Sayu",
+        "phase": null
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Thunder Sojourn",
-    "Lost Riches",
-    "Theater Mechanicus: Stage of Wonders",
-    "Phantom Flow",
-    "Ley Line Overflow"
+  "mapExpansion": [
+    {
+      "mainRegion": "Inazuma",
+      "subRegion": [
+        "Narukami Island",
+        "Kannazuka",
+        "Yashiori Island"
+      ]
+    }
   ],
   "newDomains": [
     "Court of Flowing Sand",
@@ -55,11 +107,8 @@
     "Shakkei Pavilion",
     "Formation Estate"
   ],
-  "newArtifacts": [
-    "Emblem of Severed Fate",
-    "Shimenawa's Reminiscence"
-  ],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [
       "Kairagi: Fiery Might",
       "Kairagi: Dancing Thunder",
@@ -85,6 +134,20 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [
+    "Emblem of Severed Fate",
+    "Shimenawa's Reminiscence"
+  ],
+  "newMaterials": [
+    "Yumemiru Wood",
+    "Maple Wood",
+    "Aralia Wood",
+    "Otogi Wood"
+  ],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -138,5 +201,100 @@
       "Temaria Game"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Thunder Sojourn",
+    "Lost Riches",
+    "Theater Mechanicus: Stage of Wonders",
+    "Phantom Flow",
+    "Ley Line Overflow"
+  ],
+  "newRecipes": [
+    "Egg Roll",
+    "Mixed Yakisoba",
+    "Miso Soup",
+    "Tonkotsu Ramen",
+    "Tuna Sushi",
+    "Tricolor Dango",
+    "Tri-Flavored Skewer",
+    "Dry-Braised Salted Fish",
+    "Onigiri",
+    "Sashimi Platter",
+    "Sakura Tempura",
+    "Crab Roe Kourayaki",
+    "Imported Poultry",
+    "Konda Cuisine",
+    "Rice Cake Soup",
+    "Butter Crab",
+    "Sakura Mochi",
+    "\"Snow on the Hearth\"",
+    "All-Weather Beauty",
+    "Summer Festival Fish",
+    "Dizziness-Be-Gone no Jutsu"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "Mortal Travails: Series II",
+    "Challenger: Series IV",
+    "Meetings in Outrealm: Series II",
+    "A Realm Beyond: Series III",
+    "Inazuma: The Islands of Thunder and Eternity - Series I",
+    "the Wonders of the World category"
+  ],
+  "newNamecards": [
+    "Inazuma: Sacred Sakura",
+    "Travel Notes: Grand Narukami Shrine",
+    "Kamisato Ayaka: Folding Fan",
+    "Yoimiya: Auratus Spark",
+    "Sayu: Muji-Muji Daruma",
+    "Inazuma: Kamisato Crest",
+    "Inazuma: Raiden Emblem",
+    "Achievement: Gate",
+    "Achievement: Traversal",
+    "Achievement: Stone Dragon",
+    "Achievement: Full Bloom",
+    "Inazuma: Kujou Insignia",
+    "Celebration: Wondrous Calculation"
+  ],
+  "newGadgets": [
+    "Seed Dispensary",
+    "Red Feather Fan",
+    "Electroculus Resonance Stone",
+    "Electro Treasure Compass",
+    "Memento Lens",
+    "Mini Seelie: Viola",
+    "Artifact Strongbox: Gladiator's Finale",
+    "Artifact Strongbox: Wanderer's Troupe",
+    "Artifact Strongbox: Bloodstained Chivalry",
+    "Artifact Strongbox: Noblesse Oblige"
+  ],
+  "newFurnishings": [
+    "A Path of Value: Luxuriant Glebe",
+    "A Path of Value: Orderly Meadow",
+    "A Path of Value: Jade Field",
+    "Sub-Space Waypoint"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "dealt by all party members increased by 60%.",
+      "dealt by all party members increased by 60%."
+    ],
+    "floor12Disorder": [
+      "Energy Tides are present in this challenge. They will switch between Elemental High Tide and Elemental Low Tide in 10s cycles.",
+      "During High Tide, a large amount of Elemental Particles will be generated when a character's attack hits opponents, restoring 10 Elemental Energy. This effect can occur once every 2.8s.",
+      "During Low Tide, all characters in the party cannot gain Elemental Energy."
+    ],
+    "blessingName": "Floor 9 Ley Line Disorder changed to:",
+    "blessingEffect": "A Plasma Field will be generated at the edge of the challenge area once the challenge begins. While within the field, characters will be hit by a lightning strike once every 5s and take . The area covered by the field will gradually expand as the challenge proceeds."
   }
 }

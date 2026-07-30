@@ -1,14 +1,60 @@
 {
   "number": "4.7",
+  "cycleLabel": null,
   "name": "An Everlasting Dream Intertwined",
+  "subtitle": null,
+  "description": "People often feel trapped by the past.<br>All those unresolved regrets,<br>And all those unanswered questions.<br>Perhaps there'll come a day when they'll be set right,<br>Or maybe they'll just keep playing out in your dreams.",
   "releaseDate": "2024-06-05",
   "endDate": "2024-07-17",
-  "newCharacters": [
-    "Clorinde",
-    "Sigewinne",
-    "Sethos"
+  "previousVersion": "4.6",
+  "nextVersion": "4.8",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123975",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123929",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=47004f0895264167#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20240525preview-d6s2mc/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123758",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen An Everlasting Dream Intertwined.png",
+    "Splashscreen Romaritime Meluserenity Chanson of Many Waters.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Clorinde",
+      "rarity": 5,
+      "element": "Electro",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Sigewinne",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Sethos",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Bow"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Absolution",
@@ -20,25 +66,37 @@
   },
   "banners": {
     "characters": [
-      "Illuminating Lightning",
-      "Caution in Confidence",
-      "Romaritime Meluserenity",
-      "Chanson of Many Waters"
+      {
+        "name": "Illuminating Lightning",
+        "featured": "Clorinde & Sethos",
+        "phase": 1
+      },
+      {
+        "name": "Caution in Confidence",
+        "featured": "Alhaitham & Sethos",
+        "phase": 1
+      },
+      {
+        "name": "Romaritime Meluserenity",
+        "featured": "Sigewinne",
+        "phase": 2
+      },
+      {
+        "name": "Chanson of Many Waters",
+        "featured": "Furina",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Mutual Security Enhancing Simulation",
-    "Endless Forms Most Martial",
-    "Spino Doubleblaster",
-    "Record of Reflective Writing",
-    "Ley Line Overflow"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Imaginarium Theater"
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -46,6 +104,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -74,5 +138,110 @@
       "Unbegun, Unending Story"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Mutual Security Enhancing Simulation",
+    "Endless Forms Most Martial",
+    "Spino Doubleblaster",
+    "Record of Reflective Writing",
+    "Ley Line Overflow"
+  ],
+  "newRecipes": [
+    "Bulle Sauce Duck Breast"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "\"Tagged and Bagged\"",
+    "Well-Balanced Meal",
+    "Super-Dee-Duper Delicious Meat Roll"
+  ],
+  "newAchievements": [
+    "Imaginarium Theater: The First Folio",
+    "Wonders of the World"
+  ],
+  "newNamecards": [
+    "Clorinde: Roleplay",
+    "Sigewinne: Treatment",
+    "Sethos: Ba Fragment",
+    "Achievement: Poetic Pages",
+    "Travel Notes: Simulnation"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "\"Fading Afterglow\"",
+    "Improved Crococannon",
+    "Model Contraption: Standard Musical Mode",
+    "Music Town's Breeze Bells: \"Cheeping Finches\"",
+    "Sword-Bearing Statue: \"Aesthetics of Incompleteness\""
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [
+    "The Feline Firm",
+    "The Little Witch and the Undying Fire"
+  ],
+  "newTcgCards": {
+    "characterCards": [
+      "Furina",
+      "Kaveh",
+      "Wriothesley",
+      "Xinyan",
+      "Yun Jin",
+      "All-Devouring Narwhal",
+      "Consecrated Flying Serpent",
+      "Consecrated Scorpion",
+      "Guardian of Apep's Oasis"
+    ],
+    "actionCards": [
+      "Cashflow Supervision",
+      "End of the Line",
+      "Flower of Paradise Lost",
+      "Forest Regalia",
+      "Golden Troupe",
+      "Marechaussee Hunter",
+      "Splendor of Tranquil Waters",
+      "Central Laboratory Ruins",
+      "Kusava",
+      "Sir Arthur",
+      "The Mausoleum of King Deshret",
+      "Countdown to the Show: 3",
+      "Vicious Ancient Battle",
+      "Water and Justice"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 32 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": null,
+    "requiredElements": [
+      "Pyro",
+      "Electro",
+      "Anemo"
+    ],
+    "openingCharacters": [
+      "Arlecchino",
+      "Thoma",
+      "Clorinde",
+      "Kuki Shinobu",
+      "Wanderer",
+      "Faruzan"
+    ],
+    "guestCharacters": [
+      "Baizhu",
+      "Sigewinne",
+      "Alhaitham",
+      "Wriothesley"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 60% Electro DMG Bonus.",
+      "All party members receive a 60% Hydro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "After the Version 4.7 update, the Abyssal Moon Spire will reset itself every month, with a new Lunar Phase occurring on the sixteenth day. The \"Star's Bounty\" rewards for earning 9 Abyssal Stars from the Abyssal Moon Spire, that is Floors 9 – 12 of the Spiral Abyss, are increased.",
+    "blessingEffect": null
   }
 }

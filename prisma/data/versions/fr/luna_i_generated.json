@@ -1,23 +1,58 @@
 {
-  "number": "Luna I",
+  "number": "6.0",
+  "cycleLabel": "Luna I",
   "name": "Ballet parmi marées enneigées et bosquets givrés",
+  "subtitle": "Chant de l'astre de la nuit - Enchaînement",
+  "description": "Voyageur qui a parcouru tous les coins du monde, c'est peut-être votre première visite ici.<br>Savourez le bon vin et les éclats de rire, ainsi que la douceur de la lune.<br>Mais prenez garde aux âmes mortes et aux mensonges, ainsi qu'au pâle clair de lune dans le silence glacé.",
   "releaseDate": "2025-09-10",
   "endDate": "2025-10-22",
-  "newCharacters": [
-    "Lauma",
-    "Flins",
-    "Aino"
-  ],
-  "mapExpansion": [
+  "previousVersion": "5.8",
+  "nextVersion": "Luna II",
+  "links": [
     {
-      "mainRegion": "Nod-Krai",
-      "subRegion": [
-        "Île de Lempo",
-        "Île de Hiisi",
-        "Île de Paha"
-      ]
+      "url": "https://genshin.hoyoverse.com/en/news/detail/159349",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/159275",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=830a69a8c2164ed6#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_6UDde01Ygr/index.html",
+      "label": "Preview Page"
     }
   ],
+  "images": [
+    "Splashscreen A Dance of Snowy Tides and Hoarfrost Groves.png",
+    "Splashscreen Moonsong of the Groves.png",
+    "Splashscreen Genshin Impact 5th Anniversary.png",
+    "Splashscreen The Lone Light Knocks at Night.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Lauma",
+      "rarity": 5,
+      "element": "Dendro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Flins",
+      "rarity": 5,
+      "element": "Electro",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Aino",
+      "rarity": 4,
+      "element": "Hydro",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Miroir du tisse-nuit",
@@ -35,36 +70,73 @@
   },
   "banners": {
     "characters": [
-      "Chant lunaire des bosquets",
-      "Dessillement de l'herbe lunaire",
-      "Calice vagabond de l'herbe de rosée",
-      "Characters: Dehya, Alhaitham, Wanderer, Cyno, Nilou, Tighnari",
-      "Weapons: Light of Foliar Incision, Key of Khaj-Nisut, Beacon of the Reed Sea, Staff of the Scarlet Sands, Tulaytullah's Remembrance, Hunter's Path",
-      "Lumière solitaire en visite nocturne",
-      "Discerneuse d'énigmes"
+      {
+        "name": "Chant lunaire des bosquets",
+        "featured": "Lauma",
+        "phase": 1
+      },
+      {
+        "name": "Dessillement de l'herbe lunaire",
+        "featured": "Nahida",
+        "phase": 1
+      },
+      {
+        "name": "Calice vagabond de l'herbe de rosée",
+        "featured": "Chronicled Wish",
+        "phase": 1
+      },
+      {
+        "name": "Lumière solitaire en visite nocturne",
+        "featured": "Flins & Aino",
+        "phase": 2
+      },
+      {
+        "name": "Discerneuse d'énigmes",
+        "featured": "Yelan & Aino",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Clash Cling-clang",
-    "Épopée de glane-lumière",
-    "Bastonnade bombastique de Dodoco",
-    "Abondance de bénédiction",
-    "Anniversaire/Genshin Impact/5",
-    "Uncover Lunar Realms, Hone the Eventide Radiance"
+  "mapExpansion": [
+    {
+      "mainRegion": "Nod-Krai",
+      "subRegion": [
+        "Île de Lempo",
+        "Île de Hiisi",
+        "Île de Paha"
+      ]
+    }
   ],
   "newDomains": [
     "Cour lunaire perdue",
     "Capitale sans-lumière",
     "Machinerie givrée"
   ],
-  "newArtifacts": [
-    "Sérénade de la lune soyeuse",
-    "Nuit de la révélation céleste"
+  "newSystems": [
+    "Kuuvahki",
+    "Réaction élémentaire",
+    "Sélénofleurissement",
+    "Moonsign",
+    "Détecteur de trésors Luna",
+    "Détecteur de trésors",
+    "Hall d'argenlune : Chroniques séléniques",
+    "Valiant Chronicles",
+    "Avatar Frame",
+    "Travelers' Tales",
+    "Travel Accounts",
+    "Répertoire aux mille mélodies",
+    "Encounter: Memories of a Boundless Journey album",
+    "Score Themes",
+    "Ailes incandescentes du faucon",
+    "Sagesse du givre cerise",
+    "Tempo brûlant",
+    "Forger son caractère et son chemin",
+    "Stella Fortuna orpheline"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [
       "Opritchniki Fatui : Troupier lame-de-feu",
       "Opritchniki Fatui : Canonnier grêleur",
@@ -103,6 +175,79 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Ibis longplumé double-éclat",
+    "Macareux",
+    "Chèvre du crépuscule",
+    "Chèvre de châtaigne",
+    "Blaireau chic",
+    "Rhinocéros à corne émoussée",
+    "Conque fossiroche",
+    "Cerf aux cornes givrées",
+    "Baleine givreuse",
+    "Luciolune",
+    "Granicrabe"
+  ],
+  "newArtifacts": [
+    "Sérénade de la lune soyeuse",
+    "Nuit de la révélation céleste"
+  ],
+  "newMaterials": [
+    "Roulement portable",
+    "Fleur lampe-de-givre",
+    "Argent de lune déchue",
+    "Galet gelé",
+    "Fleur nocturne",
+    "Lakkabaie",
+    "Baie du solstice"
+  ],
+  "newMonsterDrops": [
+    "Boss",
+    "Moule d'estampage kuuvahkique de précision",
+    "Plume-écaille luminifère",
+    "Elite",
+    "Lueur de givrenuit",
+    "Brillance de givrenuit",
+    "Gloire de givrenuit",
+    "Os nélucide",
+    "Restes lumineux",
+    "Exosquelette radieux",
+    "Incarnation de brumevoile",
+    "Plaque de brumevoile",
+    "Casque de brumevoile",
+    "Normal",
+    "Arbre de transmission cassé",
+    "Arbre de transmission renforcé",
+    "Arbre de transmission raffiné",
+    "Mandat en lambeaux",
+    "Mandat immaculé",
+    "Mandat gelé"
+  ],
+  "newTalentMaterials": [
+    "Enseignement de la Lune",
+    "Guide de la Lune",
+    "Philosophie de la Lune",
+    "Enseignement de l'Élysium",
+    "Guide de l'Élysium",
+    "Philosophie de l'Élysium",
+    "Enseignement de l'Errance",
+    "Guide de l'Errance",
+    "Philosophie de l'Errance"
+  ],
+  "newWeaponAscensionMaterials": [
+    "Fragment d'appareil artistique",
+    "Réplique d'appareil artistique",
+    "Succession d'appareil artistique",
+    "Souhait d'appareil artistique",
+    "Braise de silex de longue nuit",
+    "Lueur de silex de longue nuit",
+    "Flamme de silex de longue nuit",
+    "Embrasement de silex de longue nuit",
+    "Gloire brisée des héritiers du grand nord",
+    "Illusion inflexible des héritiers du grand nord",
+    "Oblation des héritiers du grand nord",
+    "Rayonnement doré des héritiers du grand nord"
+  ],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -135,5 +280,167 @@
       "and more"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Clash Cling-clang",
+    "Épopée de glane-lumière",
+    "Bastonnade bombastique de Dodoco",
+    "Abondance de bénédiction",
+    "Anniversaire/Genshin Impact/5",
+    "Uncover Lunar Realms, Hone the Eventide Radiance"
+  ],
+  "newRecipes": [
+    "Filet de poisson fumé",
+    "Galettes croquantes des confins",
+    "Grâce du jour",
+    "Knieperties aux lakkabaies",
+    "Poulet mariné aux lakkabaies",
+    "Hot-dog de Nod-Krai",
+    "Tourteau du solstice",
+    "Rôti croustillant",
+    "Fricassée de viande aux baies",
+    "Roulette spéciale",
+    "Roulés double-fruits"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Éclair-déchiquetage !",
+    "Chuchotis sylvestre",
+    "Brasier des longues nuits",
+    "Coupe confiserie de Cling-clang"
+  ],
+  "newAchievements": [
+    "Succès/Nod-Krai : Élysium d'errances au clair de lune - I",
+    "Succès/Rencontres dans un autre monde - Partie VI",
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Thème Lauma - Bois ramifiés",
+    "Thème Flins - Lanterne de serment",
+    "Thème Aino - Aïe aïe canard",
+    "Thème Nod-Krai - Clair de lune",
+    "Thème Nod-Krai - Terre sacrée",
+    "Thème Succès - Séparation",
+    "Thème PB - Frigilune"
+  ],
+  "newGadgets": [
+    "Hélico-lit",
+    "Chat d'Ujola"
+  ],
+  "newFurnishings": [
+    "Knieperterie Cling-clang (Décoration)",
+    "Ramifications aquarelles",
+    "Couverture d'étoiles",
+    "Réverbère de ville « Route dégagée »",
+    "Lune enlacée de nuages",
+    "Pivot colossal d'assistance au mouvement",
+    "Banc de restaurant « Inébranlable »",
+    "Chevalier intrépide de Dodoco",
+    "Magie merveilleuse de Dodoco",
+    "Éclair radieux de Dodoco",
+    "Étincelles explosives de Dodoco",
+    "« D'ici, je contemple »",
+    "Phare voilé « Lueur d'espoir éternelle »",
+    "« D'un glou, d'un seul »",
+    "Tonne des hardes",
+    "Choupette glacée",
+    "Banquet des loisirs",
+    "Petit abri",
+    "P'tit grosventre",
+    "Semblance lunaire « Murmure d'éclat passé »",
+    "Figurine mécanique « Éclair de génie »",
+    "Ornement mécanique « Bip-bop »",
+    "Ornement mécanique « Ouaaah »",
+    "Soute moyenne « Transport efficace »",
+    "Quiétude sous la lune",
+    "Marché de Nasha « Forge des mille essais »",
+    "Marché de Nasha « Bastion sécurisé »",
+    "Marché de Nasha « Fragrance envoûtante »",
+    "Marché de Nasha « À voir pour le croire »",
+    "Marché de Nasha « Devancer l'aube »",
+    "Marché de Nasha « Marchandises qui captivent »",
+    "Étal de Nasha « Approvisionnement temporaire »",
+    "Étal de Nasha « Chasse aux passants »",
+    "Tonnelet peint en chêne blanc",
+    "Pâle lune guidant le voyage",
+    "Chaise à dossier « Vers la lune » en chêne blanc",
+    "Chef rondouillard",
+    "Établi de tôle rouillée",
+    "Ombre de givrelune",
+    "Table basse ronde en sapin blanc",
+    "Lanterne simple auto-lumineuse",
+    "Petit conteneur « Rangement sûr »",
+    "Hortensia aux teintes douces",
+    "Confidentialité d'acier",
+    "Crépuscule brodé dans les feuilles",
+    "Chaudron à deux anses « Soupe fumante »",
+    "Démarcation subtile",
+    "Warmth Shared With Friends",
+    "Cabine de knieperterie « Navire au sec »",
+    "Cabine de knieperterie « Champignon solide »"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Iansan",
+      "Yumemizuki Mizuki",
+      "Érodé seigneur du feu primordial"
+    ],
+    "actionCards": [
+      "Simulacre d'eau",
+      "Masque du Noble",
+      "Rêverie incomplète",
+      "Fragment d'harmonie divergente",
+      "Fell Dragon's Awakening",
+      "Narration Footnotes",
+      "\"A Blessing From 'M'\"",
+      "\"Revelrous Beats\""
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 43 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Another 2 sets of Artifacts are available to exchange in the Mystic Offering system:",
+    "Artifact Strongbox: Scroll of the Hero of Cinder City",
+    "Artifact Strongbox: Obsidian Codex",
+    "After the Version Luna I update, \"Long-Term Encounter Points\" will be reset."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "October 1, 2025",
+    "requiredElements": [
+      "Hydro",
+      "Electro",
+      "Geo"
+    ],
+    "openingCharacters": [
+      "Yelan",
+      "Aino",
+      "Varesa",
+      "Iansan",
+      "Arataki Itto",
+      "Gorou"
+    ],
+    "guestCharacters": [
+      "Lauma",
+      "Baizhu",
+      "Charlotte",
+      "Ifa"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 60% Electro DMG Bonus.",
+      "All characters in the party gain a 60% Dendro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%.",
+      "Second Half: Characters' Bloom DMG increased by 200% and Lunar-Bloom DMG increased by 75%.",
+      "First Half: Characters' Bloom DMG increased by 200% and Lunar-Bloom DMG increased by 75%.",
+      "Second Half: Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%."
+    ],
+    "blessingName": "Surging Moon",
+    "blessingEffect": "When a character triggers Hydro-related reactions, a shockwave will be released at the opponent's position, dealing True DMG. This effect can be triggered once every 2s."
   }
 }

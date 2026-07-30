@@ -11,14 +11,37 @@ const OUTPUT_DIR = (lang: 'en' | 'fr') =>
 const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
+const ELEMENT_NAMES = ['Pyro', 'Hydro', 'Anemo', 'Electro', 'Dendro', 'Cryo', 'Geo'];
+
+// ── Helpers génériques ───────────────────────────────────────────────────────
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+async function withRetry<T>(
+  label: string,
+  fn: () => Promise<T>,
+  attempts = 3,
+): Promise<T> {
+  let lastErr: unknown;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      return await fn();
+    } catch (err) {
+      lastErr = err;
+      if (i < attempts - 1) {
+        console.warn(`⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`);
+        await sleep(800 * (i + 1));
+      }
+    }
+  }
+  throw lastErr;
+}
+
 // ── Types ─────────────────────────────────────────────────────────────────────
 
-type EnemyCategory =
-  | 'common'
-  | 'elite'
-  | 'normalBoss'
-  | 'weeklyBoss'
-  | 'unknown';
+type EnemyCategory = 'common' | 'elite' | 'normalBoss' | 'weeklyBoss' | 'unknown';
 
 interface MapExpansion {
   mainRegion: string;
@@ -34,38 +57,116 @@ interface EnemiesData {
   };
 }
 
+interface Link {
+  label: string;
+  url: string;
+}
+
+interface CharacterEntry {
+  name: string;
+  rarity: 4 | 5 | null;
+  element: string | null;
+  weaponType: string | null;
+}
+
+interface OutfitEntry {
+  name: string;
+  character: string;
+}
+
+interface BannerCharacterEntry {
+  name: string;
+  featured: string;
+  phase: number | null;
+}
+
+interface TcgCards {
+  characterCards: string[];
+  actionCards: string[];
+}
+
+interface ImaginariumTheater {
+  startDateRaw: string | null;
+  requiredElements: string[];
+  openingCharacters: string[];
+  guestCharacters: string[];
+}
+
+interface SpiralAbyssSeason {
+  startDateRaw: string | null;
+  floor11Disorder: string[];
+  floor12Disorder: string[];
+  blessingName: string | null;
+  blessingEffect: string | null;
+}
+
+interface QuestsData {
+  archonQuests: {
+    chapter: string;
+    chapterName: string;
+    acts: { act: number; name: string }[];
+  }[];
+  storyQuests: {
+    chapter: string;
+    character: string;
+    acts: { act: number; name: string }[];
+  }[];
+  worldQuests: string[];
+  hangoutQuests: {
+    character: string;
+    acts: { act: number; name: string }[];
+  }[];
+}
+
 interface VersionData {
   number: string;
+  cycleLabel: string | null;
   name: string;
+  subtitle: string | null;
+  description: string;
   releaseDate: string;
   endDate: string;
-  mapExpansion: MapExpansion[];
-  newCharacters: string[];
+  previousVersion: string | null;
+  nextVersion: string | null;
+  links: Link[];
+  images: string[];
+
+  newCharacters: CharacterEntry[];
+  newOutfits: OutfitEntry[];
   newWeapons: Partial<
     Record<'1Star' | '2Star' | '3Star' | '4Star' | '5Star', string[]>
   >;
-  banners: { characters: string[]; weapons: string[] };
-  events: string[];
+  banners: { characters: BannerCharacterEntry[]; weapons: string[] };
+
+  mapExpansion: MapExpansion[];
   newDomains: string[];
+  newSystems: string[];
+  newMonsters: EnemiesData;
+  newWildlife: string[];
+
   newArtifacts: string[];
-  newEnnemies: EnemiesData;
-  newQuests: {
-    archonQuests: {
-      chapter: string;
-      chapterName: string;
-      acts: { act: number; name: string }[];
-    }[];
-    storyQuests: {
-      chapter: string;
-      character: string;
-      acts: { act: number; name: string }[];
-    }[];
-    worldQuests: string[];
-    hangoutQuests: {
-      character: string;
-      acts: { act: number; name: string }[];
-    }[];
-  };
+  newMaterials: string[];
+  newMonsterDrops: string[];
+  newTalentMaterials: string[];
+  newWeaponAscensionMaterials: string[];
+
+  newQuests: QuestsData;
+  events: string[];
+
+  newRecipes: string[];
+  newFormulas: string[];
+  newSpecialtyDishes: string[];
+  newAchievements: string[];
+  newNamecards: string[];
+  newGadgets: string[];
+  newFurnishings: string[];
+  newFurnishingSets: string[];
+  newBooks: string[];
+  newTcgCards: TcgCards;
+  otherAdditions: string[];
+
+  imaginariumTheater: ImaginariumTheater | null;
+  spiralAbyss: SpiralAbyssSeason | null;
 }
 
 // ── API ───────────────────────────────────────────────────────────────────────
@@ -95,8 +196,19 @@ async function fetchPageWikitext(
   return content;
 }
 
-async function fetchWikitext(versionNumber: string): Promise<string> {
-  return fetchPageWikitext(`Version/${versionNumber}`);
+// Retire les blocs <!-- ... --> avant tout parsing : sinon des libellés
+// ";Section" laissés en commentaire (ex: ";New Domains" désactivé sur Luna
+// VIII) ou des liens commentés (|link4 = <!--[...]-->) pollueraient
+// l'extraction de sections/liens comme s'ils étaient réellement présents.
+function stripComments(wikitext: string): string {
+  return wikitext.replace(/<!--[\s\S]*?-->/g, '');
+}
+
+async function fetchWikitext(versionArg: string): Promise<string> {
+  const raw = await withRetry(`fetch wikitext "Version/${versionArg}"`, () =>
+    fetchPageWikitext(`Version/${versionArg}`),
+  );
+  return stripComments(raw);
 }
 
 // ── FR: traduction des noms via les langlinks du wiki EN ────────────────────
@@ -132,20 +244,22 @@ async function fetchLangLinksFr(names: string[]): Promise<Map<string, string>> {
     let continueParams: Record<string, string> | undefined;
     do {
       try {
-        const response = await axios.get(EN_API_URL, {
-          params: {
-            action: 'query',
-            titles: chunk.join('|'),
-            prop: 'langlinks',
-            lllang: 'fr',
-            lllimit: 'max',
-            format: 'json',
-            formatversion: '2',
-            ...continueParams,
-          },
-          headers: { ...HTTP_HEADERS, Accept: 'application/json' },
-          httpsAgent,
-        });
+        const response = await withRetry(`langlinks FR (lot de ${chunk.length})`, () =>
+          axios.get(EN_API_URL, {
+            params: {
+              action: 'query',
+              titles: chunk.join('|'),
+              prop: 'langlinks',
+              lllang: 'fr',
+              lllimit: 'max',
+              format: 'json',
+              formatversion: '2',
+              ...continueParams,
+            },
+            headers: { ...HTTP_HEADERS, Accept: 'application/json' },
+            httpsAgent,
+          }),
+        );
         const pages = response.data?.query?.pages ?? [];
         for (const page of pages) {
           const frTitle = page.langlinks?.[0]?.title;
@@ -156,7 +270,7 @@ async function fetchLangLinksFr(names: string[]): Promise<Map<string, string>> {
         console.warn(`⚠️  Échec de la résolution des noms FR pour un lot: ${err}`);
         continueParams = undefined;
       }
-      await new Promise((r) => setTimeout(r, 300));
+      await sleep(300);
     } while (continueParams);
   }
   return map;
@@ -179,6 +293,24 @@ function extractStoryTitleFr(wikitext: string): string | null {
   return match ? cleanWikiLink(match[1]).trim() : null;
 }
 
+// Sous-titre narratif FR (ex: "Chant de l'astre de la nuit - Scherzo"),
+// constaté sous la forme 'est la version Luna VIII, ou version « Xxx », de'
+// dans la phrase d'intro FR — uniquement présent quand la version EN a un
+// title2. Absent sinon (retombe sur null, jamais sur l'EN qui n'est pas une
+// traduction valide en soi).
+function extractSubtitleFr(wikitext: string): string | null {
+  const match = wikitext.match(/ou version\s*«\s*([^»]+?)\s*»/);
+  return match ? cleanWikiLink(match[1]).trim() : null;
+}
+
+// Description FR : le champ infobox "|description = " existe aussi bien sur
+// {{Version}} (EN) que {{Infobox Version}} (FR), avec la même clé — pas
+// besoin de langlinks, une simple relecture du wikitext FR suffit.
+function extractDescriptionFr(wikitext: string): string | null {
+  const match = wikitext.match(/\|\s*description\s*=\s*([^\n|]+)/);
+  return match ? match[1].trim() : null;
+}
+
 // "Chapter X" → "Chapitre X" : les noms de chapitre d'Archon Quest ne sont
 // pas de véritables pages wiki traduisibles via langlinks (ce sont des
 // libellés génériques), donc simple substitution plutôt qu'une résolution.
@@ -193,10 +325,7 @@ function translateStoryChapter(chapter: string): string {
   return chapter.replace(/\s+Chapter$/i, '').trim();
 }
 
-function translateQuestsFr(
-  quests: VersionData['newQuests'],
-  map: Map<string, string>,
-): VersionData['newQuests'] {
+function translateQuestsFr(quests: QuestsData, map: Map<string, string>): QuestsData {
   return {
     archonQuests: quests.archonQuests.map((q) => ({
       chapter: q.chapter,
@@ -220,47 +349,82 @@ function translateQuestsFr(
 // structure, noms traduits via langlinks (repli sur le nom EN si la
 // traduction échoue). Retourne null si la page FR de la version elle-même
 // est introuvable (version pas encore traduite sur le wiki FR).
+//
+// Champs volontairement NON traduits (comme "effects" pour les armes /
+// artefacts ailleurs dans le projet) : les textes libres (banners.featured,
+// otherAdditions, imaginariumTheater/spiralAbyss hors noms de personnages,
+// requiredElements) n'ont pas de page wiki correspondante à résoudre via
+// langlinks — un vrai passage de traduction humaine ou un LLM serait
+// nécessaire, hors scope d'un scraper. Les noms d'éléments (Hydro, Pyro...)
+// restent identiques en FR dans le jeu, donc copiés tels quels.
 async function buildFrVersionData(
   enData: VersionData,
   versionNumber: string,
 ): Promise<VersionData | null> {
   let frWikitext: string | null = null;
   try {
-    frWikitext = await fetchPageWikitext(`Version/${versionNumber}`, FR_API_URL);
+    frWikitext = stripComments(
+      await withRetry(`fetch wikitext FR "Version/${versionNumber}"`, () =>
+        fetchPageWikitext(`Version/${versionNumber}`, FR_API_URL),
+      ),
+    );
   } catch {
     frWikitext = null;
   }
 
-  const frName = frWikitext ? extractStoryTitleFr(frWikitext) : null;
   if (!frWikitext) {
     console.warn(
       `⚠️  "Version/${versionNumber}": page FR introuvable, fichier fr/ non généré.`,
     );
     return null;
   }
+
+  const frName = extractStoryTitleFr(frWikitext);
   if (!frName) {
     console.warn(
       `⚠️  "Version/${versionNumber}": titre narratif FR introuvable, repli sur le nom EN.`,
     );
   }
+  const frSubtitle = enData.subtitle ? extractSubtitleFr(frWikitext) : null;
+  const frDescription = extractDescriptionFr(frWikitext);
 
   const namesToTranslate = new Set<string>([
-    ...enData.newCharacters,
+    ...enData.newCharacters.map((c) => c.name),
+    ...enData.newOutfits.flatMap((o) => [o.name, o.character]),
     ...Object.values(enData.newWeapons).flat(),
-    ...enData.banners.characters,
+    ...enData.banners.characters.map((b) => b.name),
     ...enData.banners.weapons,
     ...enData.newDomains,
+    ...enData.newSystems,
+    ...enData.newWildlife,
     ...enData.newArtifacts,
-    ...enData.newEnnemies.common,
-    ...enData.newEnnemies.elite,
-    ...enData.newEnnemies.boss.normal,
-    ...enData.newEnnemies.boss.weekly,
+    ...enData.newMaterials,
+    ...enData.newMonsterDrops,
+    ...enData.newTalentMaterials,
+    ...enData.newWeaponAscensionMaterials,
+    ...enData.newMonsters.common,
+    ...enData.newMonsters.elite,
+    ...enData.newMonsters.boss.normal,
+    ...enData.newMonsters.boss.weekly,
     ...enData.mapExpansion.flatMap((m) => [m.mainRegion, ...m.subRegion]),
     ...enData.events,
     ...enData.newQuests.worldQuests,
     ...enData.newQuests.archonQuests.flatMap((q) => q.acts.map((a) => a.name)),
     ...enData.newQuests.storyQuests.flatMap((q) => q.acts.map((a) => a.name)),
     ...enData.newQuests.hangoutQuests.flatMap((q) => q.acts.map((a) => a.name)),
+    ...enData.newRecipes,
+    ...enData.newFormulas,
+    ...enData.newSpecialtyDishes,
+    ...enData.newAchievements,
+    ...enData.newNamecards,
+    ...enData.newGadgets,
+    ...enData.newFurnishings,
+    ...enData.newFurnishingSets,
+    ...enData.newBooks,
+    ...enData.newTcgCards.characterCards,
+    ...enData.newTcgCards.actionCards,
+    ...(enData.imaginariumTheater?.openingCharacters ?? []),
+    ...(enData.imaginariumTheater?.guestCharacters ?? []),
   ]);
 
   console.log(`Translating ${namesToTranslate.size} names to French...`);
@@ -282,37 +446,89 @@ async function buildFrVersionData(
 
   return {
     number: enData.number,
+    cycleLabel: enData.cycleLabel,
     name: frName ?? enData.name,
+    subtitle: frSubtitle,
+    description: frDescription ?? enData.description,
     releaseDate: enData.releaseDate,
     endDate: enData.endDate,
-    newCharacters: translateList(enData.newCharacters),
+    previousVersion: enData.previousVersion,
+    nextVersion: enData.nextVersion,
+    links: enData.links,
+    images: enData.images,
+
+    newCharacters: enData.newCharacters.map((c) => ({
+      ...c,
+      name: translate(c.name, map),
+    })),
+    newOutfits: enData.newOutfits.map((o) => ({
+      name: translate(o.name, map),
+      character: translate(o.character, map),
+    })),
+    newWeapons: translateWeapons(enData.newWeapons),
+    banners: {
+      characters: enData.banners.characters.map((b) => ({
+        ...b,
+        name: translate(b.name, map),
+      })),
+      weapons: translateList(enData.banners.weapons),
+    },
+
     mapExpansion: enData.mapExpansion.map((m) => ({
       mainRegion: translate(m.mainRegion, map),
       subRegion: translateList(m.subRegion),
     })),
-    newWeapons: translateWeapons(enData.newWeapons),
-    banners: {
-      characters: translateList(enData.banners.characters),
-      weapons: translateList(enData.banners.weapons),
-    },
-    events: translateList(enData.events),
     newDomains: translateList(enData.newDomains),
-    newArtifacts: translateList(enData.newArtifacts),
-    newEnnemies: {
-      common: translateList(enData.newEnnemies.common),
-      elite: translateList(enData.newEnnemies.elite),
+    newSystems: translateList(enData.newSystems),
+    newMonsters: {
+      common: translateList(enData.newMonsters.common),
+      elite: translateList(enData.newMonsters.elite),
       boss: {
-        normal: translateList(enData.newEnnemies.boss.normal),
-        weekly: translateList(enData.newEnnemies.boss.weekly),
+        normal: translateList(enData.newMonsters.boss.normal),
+        weekly: translateList(enData.newMonsters.boss.weekly),
       },
     },
+    newWildlife: translateList(enData.newWildlife),
+
+    newArtifacts: translateList(enData.newArtifacts),
+    newMaterials: translateList(enData.newMaterials),
+    newMonsterDrops: translateList(enData.newMonsterDrops),
+    newTalentMaterials: translateList(enData.newTalentMaterials),
+    newWeaponAscensionMaterials: translateList(enData.newWeaponAscensionMaterials),
+
     newQuests: translateQuestsFr(enData.newQuests, map),
+    events: translateList(enData.events),
+
+    newRecipes: translateList(enData.newRecipes),
+    newFormulas: translateList(enData.newFormulas),
+    newSpecialtyDishes: translateList(enData.newSpecialtyDishes),
+    newAchievements: translateList(enData.newAchievements),
+    newNamecards: translateList(enData.newNamecards),
+    newGadgets: translateList(enData.newGadgets),
+    newFurnishings: translateList(enData.newFurnishings),
+    newFurnishingSets: translateList(enData.newFurnishingSets),
+    newBooks: translateList(enData.newBooks),
+    newTcgCards: {
+      characterCards: translateList(enData.newTcgCards.characterCards),
+      actionCards: translateList(enData.newTcgCards.actionCards),
+    },
+    otherAdditions: enData.otherAdditions,
+
+    imaginariumTheater: enData.imaginariumTheater && {
+      startDateRaw: enData.imaginariumTheater.startDateRaw,
+      requiredElements: enData.imaginariumTheater.requiredElements,
+      openingCharacters: translateList(enData.imaginariumTheater.openingCharacters),
+      guestCharacters: translateList(enData.imaginariumTheater.guestCharacters),
+    },
+    spiralAbyss: enData.spiralAbyss,
   };
 }
 
 async function fetchEnemyType(enemyName: string): Promise<EnemyCategory> {
   try {
-    const wikitext = await fetchPageWikitext(enemyName.replace(/ /g, '_'));
+    const wikitext = await withRetry(`fetch type ennemi "${enemyName}"`, () =>
+      fetchPageWikitext(enemyName.replace(/ /g, '_')),
+    );
     const match = wikitext.match(/\|type\s*=\s*([^\n|]+)/);
     if (!match) return 'unknown';
 
@@ -329,6 +545,15 @@ async function fetchEnemyType(enemyName: string): Promise<EnemyCategory> {
 }
 
 // ── Nettoyage wikitext ────────────────────────────────────────────────────────
+
+// Résout les templates d'éléments ({{Cryo}}, {{Hydro}}...) en texte brut
+// AVANT cleanWikiLink, qui sinon supprimerait purement et simplement tout
+// template {{...}} — nécessaire pour extraire l'élément d'un personnage
+// depuis une ligne du type "(5-Star {{Cryo}} Claymore)".
+function resolveElementTemplates(text: string): string {
+  const pattern = new RegExp(`\\{\\{(${ELEMENT_NAMES.join('|')})\\}\\}`, 'gi');
+  return text.replace(pattern, '$1');
+}
 
 function cleanWikiLink(text: string): string {
   return text
@@ -399,19 +624,50 @@ function extractMonsterNames(section: string): string[] {
 
 // ── Template parser ───────────────────────────────────────────────────────────
 
-function parseTemplate(wikitext: string): {
-  name: string;
+interface TemplateFields {
+  title: string;
+  title2: string;
+  version: string;
+  number: string;
   date: string;
+  prev: string;
   next: string;
-} {
+  description: string;
+  links: Link[];
+  images: string[];
+}
+
+function parseTemplateFields(wikitext: string): TemplateFields {
   const get = (key: string): string => {
     const match = wikitext.match(new RegExp(`\\|\\s*${key}\\s*=\\s*([^\n|]+)`));
     return match ? match[1].trim() : '';
   };
+
+  const links: Link[] = [];
+  for (let i = 1; i <= 9; i++) {
+    const raw = get(`link${i}`);
+    if (!raw) continue;
+    const match = raw.match(/\[(\S+)\s+([^\]]+)\]/);
+    if (match) links.push({ url: match[1], label: match[2].trim() });
+  }
+
+  const images: string[] = [];
+  for (let i = 1; i <= 9; i++) {
+    const raw = get(`image${i}`);
+    if (raw) images.push(raw);
+  }
+
   return {
-    name: get('title'),
+    title: get('title'),
+    title2: get('title2'),
+    version: get('version'),
+    number: get('number'),
     date: get('date'),
+    prev: get('prev'),
     next: get('next'),
+    description: get('description'),
+    links,
+    images,
   };
 }
 
@@ -450,7 +706,7 @@ async function classifyEnnemies(ennemies: string[]): Promise<EnemiesData> {
         result.common.push(ennemy);
     }
 
-    await new Promise((r) => setTimeout(r, 300));
+    await sleep(300);
   }
 
   return result;
@@ -471,25 +727,73 @@ function mergeWeapons(
   return result;
 }
 
+function romanToInt(s: string): number {
+  if (/^\d+$/.test(s)) return parseInt(s, 10);
+  const map: Record<string, number> = { I: 1, V: 5, X: 10, L: 50, C: 100 };
+  let result = 0;
+  for (let i = 0; i < s.length; i++) {
+    const curr = map[s[i]] ?? 0;
+    const next = map[s[i + 1]] ?? 0;
+    result += curr < next ? -curr : curr;
+  }
+  return result;
+}
+
+function chapterToKey(chapterName: string): string {
+  if (/prologue/i.test(chapterName)) return 'prologue';
+  if (/interlude/i.test(chapterName)) return 'interlude';
+  const match = chapterName.match(/Chapter\s+([IVX\d]+)/i);
+  return match
+    ? String(romanToInt(match[1]))
+    : chapterName.toLowerCase().replace(/\s+/g, '_');
+}
+
 // ── Parsers ───────────────────────────────────────────────────────────────────
 
-function parseCharacters(section: string): string[] {
+function parseCharacters(section: string): CharacterEntry[] {
   return section
     .split('\n')
     .filter((line) => /^\*{1}\s*/.test(line))
     .map((line) => {
-      const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
+      const clean = cleanWikiLink(
+        resolveElementTemplates(line).replace(/^\*+\s*/, ''),
+      );
+
+      const meta = clean.match(/\((\d)-Star\s+(\w+)\s+(\w+)\)/);
+      const rarity = meta ? ((parseInt(meta[1], 10) as 4 | 5) ?? null) : null;
+      const element = meta ? meta[2] : null;
+      const weaponType = meta ? meta[3] : null;
+
       // Format: "Title" Name (X-Star Element Weapon)
       const withQuote = clean.match(/"[^"]*"\s+([^(]+)\s*\(/);
-      if (withQuote) return withQuote[1].trim();
       // Format: Name (X-Star Element Weapon)
       const withoutQuote = clean.match(/^([^(]+)\s*\(\d-Star/);
-      if (withoutQuote) return withoutQuote[1].trim();
       // Fallback : avant parenthèse
       const fallback = clean.match(/^([^(]+)/);
-      return fallback ? fallback[1].trim() : clean;
+      const name = (
+        withQuote?.[1] ??
+        withoutQuote?.[1] ??
+        fallback?.[1] ??
+        clean
+      ).trim();
+
+      return { name, rarity, element, weaponType };
     })
-    .filter(Boolean);
+    .filter((c) => Boolean(c.name));
+}
+
+function parseOutfits(section: string): OutfitEntry[] {
+  return section
+    .split('\n')
+    .filter((line) => /^\*+\s*/.test(line))
+    .map((line) => cleanWikiLink(line.replace(/^\*+\s*/, '')))
+    .filter(Boolean)
+    .map((clean) => {
+      const match = clean.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
+      return match
+        ? { name: match[1].trim(), character: match[2].trim() }
+        : { name: clean, character: '' };
+    });
 }
 
 function parseWeapons(section: string): VersionData['newWeapons'] {
@@ -528,28 +832,43 @@ function parseWeapons(section: string): VersionData['newWeapons'] {
   return weapons;
 }
 
-// 1. Bannières : nettoyer les lignes [[File:...]] avant de parser
+// Bannières : nettoyer les lignes [[File:...]] avant de parser, suivre le
+// "Phase I"/"Phase II" (niveau 1) pour associer chaque bannière (niveau 2) à
+// sa phase, et extraire le contenu entre parenthèses en tant que "featured"
+// (personnage vedette, ou libellé de wish partagée — pas toujours un nom de
+// personnage, cf. commentaire dans buildFrVersionData).
 function parseBanners(section: string): VersionData['banners'] {
   const banners: VersionData['banners'] = {
     characters: [],
     weapons: ['Epitome Invocation'],
   };
+  let currentPhase: number | null = null;
 
-  // Filtre uniquement les lignes ** (niveau 2) et ignore les [[File:...]]
   section
     .split('\n')
-    .filter((line) => /^\*{2}\s*/.test(line) && !line.includes('[[File:'))
+    .filter((line) => /^\*+\s*/.test(line) && !line.includes('[[File:'))
     .forEach((line) => {
+      const depth = (line.match(/^\*+/) ?? [''])[0].length;
       const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
       if (!clean) return;
 
-      const bannerName = clean.replace(/\s*\([^)]+\)\s*$/, '').trim();
+      if (depth === 1) {
+        const phaseMatch = clean.match(/^Phase\s+([IVX]+)/i);
+        if (phaseMatch) currentPhase = romanToInt(phaseMatch[1]);
+        return;
+      }
+
+      if (depth !== 2) return;
+
+      const match = clean.match(/^(.*?)\s*\(([^)]*)\)\s*$/);
+      const bannerName = (match ? match[1] : clean).trim();
+      const featured = match ? match[2].trim() : '';
       if (!bannerName) return;
 
       if (bannerName.toLowerCase().includes('epitome')) {
         banners.weapons.push(bannerName);
       } else {
-        banners.characters.push(bannerName);
+        banners.characters.push({ name: bannerName, featured, phase: currentPhase });
       }
     });
 
@@ -569,31 +888,10 @@ function cleanDomainName(name: string): string {
   return name.replace(/\s*\([^)]+\)\s*$/, '').trim();
 }
 
-function romanToInt(s: string): number {
-  if (/^\d+$/.test(s)) return parseInt(s, 10);
-  const map: Record<string, number> = { I: 1, V: 5, X: 10, L: 50, C: 100 };
-  let result = 0;
-  for (let i = 0; i < s.length; i++) {
-    const curr = map[s[i]] ?? 0;
-    const next = map[s[i + 1]] ?? 0;
-    result += curr < next ? -curr : curr;
-  }
-  return result;
-}
-
-function chapterToKey(chapterName: string): string {
-  if (/prologue/i.test(chapterName)) return 'prologue';
-  if (/interlude/i.test(chapterName)) return 'interlude';
-  const match = chapterName.match(/Chapter\s+([IVX\d]+)/i);
-  return match
-    ? String(romanToInt(match[1]))
-    : chapterName.toLowerCase().replace(/\s+/g, '_');
-}
-
 // 2. Quêtes : tout parser depuis la section "New Quests" en vrac
 // en distinguant archon/story/hangout/world par le contenu de chaque ligne
-function parseQuests(section: string): VersionData['newQuests'] {
-  const result: VersionData['newQuests'] = {
+function parseQuests(section: string): QuestsData {
+  const result: QuestsData = {
     archonQuests: [],
     storyQuests: [],
     worldQuests: [],
@@ -853,9 +1151,7 @@ function parseDomains(section: string): string[] {
     const depth = (line.match(/^\*+/) ?? [''])[0].length;
     if (!line.match(/^\*+\s/)) return;
 
-    const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''))
-      .replace(/\s*\([^)]+\)\s*$/, '') // retire les suffixes (One-Time Domain), etc.
-      .trim();
+    const clean = cleanDomainName(cleanWikiLink(line.replace(/^\*+\s*/, '')));
 
     if (!clean) return;
 
@@ -881,74 +1177,277 @@ function parseDomains(section: string): string[] {
   return domains;
 }
 
+function parseTcgCards(section: string): TcgCards {
+  const result: TcgCards = { characterCards: [], actionCards: [] };
+  let currentGroup: 'character' | 'action' | null = null;
+
+  section
+    .split('\n')
+    .filter((line) => /^\*+\s*/.test(line))
+    .forEach((line) => {
+      const depth = (line.match(/^\*+/) ?? [''])[0].length;
+      const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
+      if (!clean) return;
+
+      if (depth === 1) {
+        if (/character cards/i.test(clean)) currentGroup = 'character';
+        else if (/action cards/i.test(clean)) currentGroup = 'action';
+        else currentGroup = null;
+        return;
+      }
+
+      if (depth === 2 && currentGroup) {
+        const list =
+          currentGroup === 'character' ? result.characterCards : result.actionCards;
+        list.push(clean);
+      }
+      // depth >= 3 (sous-cartes de talent, variantes...) ignoré
+    });
+
+  return result;
+}
+
+// Saison d'Imaginarium Theater : texte libre, on cherche les phrases-clés
+// ("Required Elemental Types:", "Opening Characters:", "Special Guest
+// Stars:") indépendamment de leur profondeur de puce exacte, qui a varié
+// d'une version à l'autre. Retourne null si aucune de ces phrases n'est
+// trouvée (mécanique absente ou wording totalement différent).
+function parseImaginariumTheater(section: string): ImaginariumTheater | null {
+  if (!section.trim()) return null;
+
+  const lines = section
+    .split('\n')
+    .filter((l) => /^\*+\s*/.test(l))
+    .map((l) => cleanWikiLink(resolveElementTemplates(l)));
+
+  const dateLine = lines.find((l) => /available on|come online on/i.test(l));
+  const dateMatch = dateLine?.match(
+    /(?:available on|come online on)\s+([A-Z][a-z]+ \d{1,2}(?:, \d{4})?)/i,
+  );
+
+  const splitList = (line: string | undefined, label: RegExp): string[] =>
+    line
+      ? line
+          .replace(label, '')
+          .split(/,|\band\b/)
+          .map((s) => s.trim())
+          .filter(Boolean)
+      : [];
+
+  const requiredElements = splitList(
+    lines.find((l) => /Required Elemental Types:/i.test(l)),
+    /^.*Required Elemental Types:\s*/i,
+  );
+  const openingCharacters = splitList(
+    lines.find((l) => /Opening Characters:/i.test(l)),
+    /^.*Opening Characters:\s*/i,
+  );
+  const guestCharacters = splitList(
+    lines.find((l) => /Special Guest Stars:/i.test(l)),
+    /^.*Special Guest Stars:\s*/i,
+  );
+
+  if (!dateMatch && !requiredElements.length && !openingCharacters.length) {
+    return null;
+  }
+
+  return {
+    startDateRaw: dateMatch ? dateMatch[1] : null,
+    requiredElements,
+    openingCharacters,
+    guestCharacters,
+  };
+}
+
+// Saison de Spiral Abyss : la profondeur de nesting utilisée pour rattacher
+// Floor 11/12 et la bénédiction saisonnière à leurs lignes de détail a varié
+// d'une version à l'autre (ex: puce niveau 1 sur 5.0, niveau 2 sur Luna
+// VIII) — on suit donc la profondeur de la ligne d'en-tête qui a ouvert le
+// groupe courant ("groupDepth") plutôt qu'une profondeur absolue : toute
+// ligne plus profonde appartient au groupe, toute ligne à profondeur égale
+// ou moindre le referme. Le nom de la bénédiction elle-même a aussi changé
+// de libellé au fil du temps ("Blessing of the Abyssal Moon", "Lunar
+// Phase"...) : on prend la première ligne suivant "Updated the monster
+// lineup" qui n'est pas une simple phrase de transition, quel que soit son
+// libellé exact.
+function parseSpiralAbyssSeason(section: string): SpiralAbyssSeason | null {
+  if (!section.trim()) return null;
+
+  const lines = section.split('\n').filter((l) => /^\*+\s*/.test(l));
+  const floor11Disorder: string[] = [];
+  const floor12Disorder: string[] = [];
+  const blessingEffect: string[] = [];
+  let blessingName: string | null = null;
+  let dateRaw: string | null = null;
+
+  let mode: 'floor11' | 'floor12' | 'blessing' | null = null;
+  let groupDepth = 0;
+  let awaitingBlessingHeader = false;
+
+  for (const line of lines) {
+    const depth = (line.match(/^\*+/) ?? [''])[0].length;
+    const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
+    if (!clean) continue;
+
+    if (!dateRaw) {
+      const dateMatch = clean.match(
+        /(?:come online on|will come online on|take effect after the Spiral Abyss update on)\s+([A-Z][a-z]+ \d{1,2}(?:, \d{4})?)/i,
+      );
+      if (dateMatch) dateRaw = dateMatch[1];
+    }
+
+    // Une ligne à une profondeur <= à celle du groupe ouvert le referme.
+    if (mode && depth <= groupDepth) mode = null;
+
+    if (mode) {
+      if (mode === 'floor11') floor11Disorder.push(clean);
+      else if (mode === 'floor12') floor12Disorder.push(clean);
+      else if (mode === 'blessing') blessingEffect.push(clean);
+      continue;
+    }
+
+    if (/Floor 11.*Disorder/i.test(clean)) {
+      mode = 'floor11';
+      groupDepth = depth;
+      awaitingBlessingHeader = false;
+      continue;
+    }
+    if (/Floor 12.*Disorders?/i.test(clean)) {
+      mode = 'floor12';
+      groupDepth = depth;
+      awaitingBlessingHeader = false;
+      continue;
+    }
+    if (/Updated the monster lineup/i.test(clean)) {
+      awaitingBlessingHeader = true;
+      continue;
+    }
+    if (
+      awaitingBlessingHeader &&
+      !blessingName &&
+      !/^(?:Starting from|The above)/i.test(clean)
+    ) {
+      const labelMatch = clean.match(
+        /^(?:Blessing of the Abyssal Moon|Lunar Phases?)\s*:?\s*(.*)$/i,
+      );
+      blessingName = (labelMatch ? labelMatch[1] : clean).trim() || clean;
+      mode = 'blessing';
+      groupDepth = depth;
+      awaitingBlessingHeader = false;
+      continue;
+    }
+  }
+
+  if (!dateRaw && !floor11Disorder.length && !floor12Disorder.length && !blessingName) {
+    return null;
+  }
+
+  return {
+    startDateRaw: dateRaw,
+    floor11Disorder,
+    floor12Disorder,
+    blessingName,
+    blessingEffect: blessingEffect.length ? blessingEffect.join(' ') : null,
+  };
+}
+
 // ── Scraper principal ─────────────────────────────────────────────────────────
 
-async function scrapeVersion(versionNumber: string): Promise<VersionData> {
-  console.log(`Fetching wikitext for version ${versionNumber}...`);
-  const wikitext = await fetchWikitext(versionNumber);
+async function scrapeVersion(versionArg: string): Promise<VersionData> {
+  console.log(`Fetching wikitext for version ${versionArg}...`);
+  const wikitext = await fetchWikitext(versionArg);
+  const tpl = parseTemplateFields(wikitext);
 
-  const { name, date, next } = parseTemplate(wikitext);
+  // Les pages du cycle "Luna" portent |version = "Luna VIII" (libellé narratif)
+  // et |number = "6.7" (le vrai numéro de patch) ; les pages numériques
+  // classiques n'ont que |version = "5.0" et pas de |number du tout.
+  const isCyclePage = Boolean(tpl.number);
+  const number = isCyclePage ? tpl.number : tpl.version;
+  const cycleLabel = isCyclePage ? tpl.version : null;
 
   // Récupère endDate depuis la prochaine version
   let endDate = '';
-  if (next) {
+  if (tpl.next) {
     try {
-      const nextWikitext = await fetchWikitext(next);
-      const { date: nextDate } = parseTemplate(nextWikitext);
-      endDate = nextDate;
-      await new Promise((r) => setTimeout(r, 500));
+      const nextWikitext = await fetchWikitext(tpl.next);
+      const nextTpl = parseTemplateFields(nextWikitext);
+      endDate = nextTpl.date;
+      await sleep(500);
     } catch {
-      console.warn(`⚠️  Could not fetch next version ${next} for endDate`);
+      console.warn(`⚠️  Could not fetch next version ${tpl.next} for endDate`);
     }
   }
 
   const newContentSection = extractMainSection(wikitext, 'New Content');
+  const sub = (label: string) => extractSubsection(newContentSection, label);
 
   // Classification des monstres en boss / monstres normaux
-  const allEnnemies = extractMonsterNames(
-    extractSubsection(newContentSection, 'New Monsters'),
-  );
+  const allEnnemies = extractMonsterNames(sub('New Monsters'));
   console.log(`Classifying ${allEnnemies.length} monsters...`);
-  const ennemies = await classifyEnnemies(allEnnemies);
+  const newMonsters = await classifyEnnemies(allEnnemies);
 
   return {
-    number: versionNumber,
-    name,
-    releaseDate: date,
+    number,
+    cycleLabel,
+    name: tpl.title,
+    subtitle: tpl.title2 || null,
+    description: tpl.description,
+    releaseDate: tpl.date,
     endDate,
-    newCharacters: parseCharacters(
-      extractSubsection(newContentSection, 'New Characters'),
-    ),
-    mapExpansion: parseMapExpansion(
-      extractSubsection(newContentSection, 'New Region') ||
-        extractSubsection(newContentSection, 'New Regions') ||
-        extractSubsection(newContentSection, 'New Areas'),
-    ),
+    previousVersion: tpl.prev || null,
+    nextVersion: tpl.next || null,
+    links: tpl.links,
+    images: tpl.images,
+
+    newCharacters: parseCharacters(sub('New Characters')),
+    newOutfits: parseOutfits(sub('New Outfits')),
     newWeapons: mergeWeapons(
       // "New Equipment" : libellé utilisé sur les pages de version ~1.2-1.6,
       // remplacé par "New Weapons" sur les versions plus récentes.
-      mergeWeapons(
-        parseWeapons(extractSubsection(newContentSection, 'New Weapons')),
-        parseWeapons(extractSubsection(newContentSection, 'New Equipment')),
-      ),
-      parseWeapons(
-        extractSubsection(newContentSection, 'New Forgeable Weapons'),
-      ),
+      mergeWeapons(parseWeapons(sub('New Weapons')), parseWeapons(sub('New Equipment'))),
+      parseWeapons(sub('New Forgeable Weapons')),
     ),
-    banners: parseBanners(extractSubsection(newContentSection, 'Event Wishes')),
-    events: parseSimpleList(
-      extractSubsection(newContentSection, 'New Events'),
-    ).map((e) => e.replace(/\s*\(Permanent\)\s*$/i, '').trim()),
-    newDomains: parseDomains(
-      extractSubsection(newContentSection, 'New Domains'),
+    banners: parseBanners(sub('Event Wishes')),
+
+    mapExpansion: parseMapExpansion(
+      sub('New Region') || sub('New Regions') || sub('New Areas'),
     ),
-    newArtifacts: parseSimpleList(
-      extractSubsection(newContentSection, 'New Artifact Sets'),
-    ).concat(
-      parseSimpleList(extractSubsection(newContentSection, 'New Artifacts')),
+    newDomains: parseDomains(sub('New Domains')),
+    newSystems: parseSimpleList(sub('New Systems')),
+    newMonsters,
+    newWildlife: parseSimpleList(sub('New Wildlife')),
+
+    newArtifacts: parseSimpleList(sub('New Artifact Sets')).concat(
+      parseSimpleList(sub('New Artifacts')),
     ),
-    newEnnemies: ennemies,
-    newQuests: parseQuests(extractSubsection(newContentSection, 'New Quests')),
+    newMaterials: parseSimpleList(sub('New Materials')),
+    newMonsterDrops: parseSimpleList(sub('New Monster Drops')),
+    newTalentMaterials: parseSimpleList(sub('New Talent Level-Up Materials')),
+    newWeaponAscensionMaterials: parseSimpleList(
+      sub('New Weapon Ascension Materials'),
+    ),
+
+    newQuests: parseQuests(sub('New Quests')),
+    events: parseSimpleList(sub('New Events')).map((e) =>
+      e.replace(/\s*\(Permanent\)\s*$/i, '').trim(),
+    ),
+
+    newRecipes: parseSimpleList(sub('New Recipes')),
+    newFormulas: parseSimpleList(sub('New Formula')),
+    newSpecialtyDishes: parseSimpleList(sub('New Character Specialty Dishes')),
+    newAchievements: parseSimpleList(sub('New Achievements')).map((a) =>
+      a.replace(/^Additions to\s+/i, '').trim(),
+    ),
+    newNamecards: parseSimpleList(sub('New Namecards')),
+    newGadgets: parseSimpleList(sub('New Gadgets')),
+    newFurnishings: parseSimpleList(sub('New Furnishings')),
+    newFurnishingSets: parseSimpleList(sub('New Furnishing Sets')),
+    newBooks: parseSimpleList(sub('New Books')),
+    newTcgCards: parseTcgCards(sub('New Genius Invokation TCG Cards')),
+    otherAdditions: parseSimpleList(sub('Other Additions')),
+
+    imaginariumTheater: parseImaginariumTheater(sub('Imaginarium Theater')),
+    spiralAbyss: parseSpiralAbyssSeason(sub('Spiral Abyss')),
   };
 }
 
@@ -995,7 +1494,7 @@ async function main() {
         console.log(`✅ Version ${version} (fr) → ${frPath}`);
       }
 
-      await new Promise((r) => setTimeout(r, 1500));
+      await sleep(1500);
     } catch (err: any) {
       console.error(`❌ Failed to scrape version ${version}:`, err.message);
     }

@@ -1,13 +1,55 @@
 {
-  "number": "Luna III",
+  "number": "6.2",
+  "cycleLabel": "Luna III",
   "name": "A Nocturne of the Far North",
+  "subtitle": "Song of the Welkin Moon: Interlude",
+  "description": "To defy fate, you may flee the clamor of the world and venture into the phantom night.<br>The moon's veil shrouds the silent river, while tranquil lanterns illuminate the path ahead.<br>Homeland is always there, calling out to every lost soul.",
   "releaseDate": "2025-12-03",
   "endDate": "2026-01-14",
-  "newCharacters": [
-    "Durin",
-    "Jahoda"
+  "previousVersion": "Luna II",
+  "nextVersion": "Luna IV",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/161275",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/161138",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=8b1ab2d98664411d#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_w4YUDp9Hah/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://www.hoyolab.com/article/42577649",
+      "label": "Paimon's Version Update Notes"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen A Nocturne of the Far North.png",
+    "Splashscreen Rubedo, of White Stone Born.png",
+    "Splashscreen Forgefire's Blessing Cornucopia of Contention.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Durin",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Jahoda",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Bow"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Athame Artis",
@@ -19,24 +61,49 @@
   },
   "banners": {
     "characters": [
-      "Rubedo, of White Stone Born",
-      "Ballad in Goblets",
-      "Cornucopia of Contention",
-      "Forgefire's Blessing"
+      {
+        "name": "Rubedo, of White Stone Born",
+        "featured": "Durin & Jahoda",
+        "phase": 1
+      },
+      {
+        "name": "Ballad in Goblets",
+        "featured": "Venti & Jahoda",
+        "phase": 1
+      },
+      {
+        "name": "Cornucopia of Contention",
+        "featured": "Varesa",
+        "phase": 2
+      },
+      {
+        "name": "Forgefire's Blessing",
+        "featured": "Xilonen",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Soulblazers' Snowbound Journey",
-    "Bing-Bang Finchball",
-    "Heroic Clash: Saurian Brawl",
-    "Marvelous Merchandise"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Miliastra Wonderland: Component Sharing Platform Becomes Available. Creator prefabricated components are now open-source, enabling richer creative experiences.",
+    "Frosty Court",
+    "Invitation to Wonderland: In Search of Inspiration",
+    "Witch's Homework",
+    "Hexerei: Secret Rite (Sucrose, Mona, Durin, Klee, Albedo, Venti, Fischl, Razor)",
+    "Repertoire of Myriad Melodies",
+    "Special Features",
+    "Before performing a score, you can choose from various \"Specializations\" to enrich your performance experience, such as increasing or lowering the difficulty, or taking on additional challenges.",
+    "\"Specialization\" effects can be applied to scores from official albums as well as pieces created by other performers.",
+    "Successfully performing a score with difficulty-enhancing Specialization effects will earn you the corresponding medal.",
+    "Co-op Ensemble Function",
+    "You can initiate Co-Op Ensemble on the Score Selection Page. (Also available in the Serenitea Pot).",
+    "In Co-Op Ensemble, all participants perform individually and compete to gain the highest rating. The initiator can select special options to increase or decrease the score's difficulty or create special challenges. Certain special options will not take effect in Co-Op Ensemble."
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -46,6 +113,18 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Pale-Furred Wolf"
+  ],
+  "newArtifacts": [],
+  "newMaterials": [
+    "Refined Heart"
+  ],
+  "newMonsterDrops": [
+    "Cyclic Military Kuuvahki Core"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -67,5 +146,110 @@
       "Collaborative Commission"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Soulblazers' Snowbound Journey",
+    "Bing-Bang Finchball",
+    "Heroic Clash: Saurian Brawl",
+    "Marvelous Merchandise"
+  ],
+  "newRecipes": [
+    "Drink 455"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Apple Stew (Trial Version)",
+    "\"After-Class Practice\""
+  ],
+  "newAchievements": [
+    "Wonders of the World"
+  ],
+  "newNamecards": [
+    "Durin: Radiant Heart",
+    "Jahoda: Helping Hand",
+    "Travel Notes: Blazing Snow"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Blushmist Whisper",
+    "Burst of Appetite",
+    "Dodoco's Whirly Gig",
+    "Dragon on the Move",
+    "Gleam & Glow",
+    "Gourmet Bandit",
+    "Grillmaster Supreme",
+    "Little Finchie",
+    "Lucky Spin",
+    "Master Weaselmind",
+    "One-Sec Whiz",
+    "Petals Without Perfume",
+    "\"Saury-Saury Scout\"",
+    "Softglow Stamen",
+    "Soulblazer: Fietena",
+    "Soulblaze Snowman: The Warrior",
+    "Tavern Notice: Whispers of the Street",
+    "The Lonely Wayfarer",
+    "Timeless Shine",
+    "Together with You",
+    "Utility Pocket Detector",
+    "Vertical Bipolar Tri-Leg Tower",
+    "Waving to Yesterday",
+    "Wobbly Pony Ride"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Gaming",
+      "Escoffier",
+      "Black Serpent Knight: Rockbreaker Ax"
+    ],
+    "actionCards": [
+      "Nymph's Dream",
+      "Seymour",
+      "Lost Legacies in the Sand",
+      "The Narzissenkreuz Adventure",
+      "Plan to Save the World",
+      "Tower of Ipsissimus"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 45 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "January 1, 2026",
+    "requiredElements": [
+      "Pyro",
+      "Hydro",
+      "Electro"
+    ],
+    "openingCharacters": [
+      "Mavuika",
+      "Yanfei",
+      "Sigewinne",
+      "Dahlia",
+      "Clorinde",
+      "Iansan"
+    ],
+    "guestCharacters": [
+      "Xilonen",
+      "Xianyun",
+      "Venti",
+      "Collei"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members gain a 60% Pyro DMG Bonus.",
+      "All characters in the party gain a 60% Electro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Non-active characters gain a 75% Pyro DMG Bonus.",
+      "Second Half: Characters' Plunging Attack DMG increased by 75%."
+    ],
+    "blessingName": "Whirlwind Moon",
+    "blessingEffect": "When the active character triggers Swirl on an opponent, a shockwave will be unleashed at the opponent's position, dealing True DMG. This effect can be triggered once every 2s."
   }
 }

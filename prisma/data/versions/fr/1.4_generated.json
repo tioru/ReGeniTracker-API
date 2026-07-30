@@ -1,12 +1,44 @@
 {
   "number": "1.4",
+  "cycleLabel": null,
   "name": "Invitations des alizées",
+  "subtitle": null,
+  "description": "}}",
   "releaseDate": "2021-03-17",
   "endDate": "2021-04-28",
-  "newCharacters": [
-    "Rosalia"
+  "previousVersion": "1.3",
+  "nextVersion": "1.5",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/9368",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://www.hoyolab.com/article/244378",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210309prediction/index.html",
+      "label": "Version 1.4 Website"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/8986",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Invitation of Windblume.png",
+    "Splashscreen Farewell of Snezhnaya.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Rosalia",
+      "rarity": 4,
+      "element": "Cryo",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Ultime soupir"
@@ -20,24 +52,25 @@
   },
   "banners": {
     "characters": [
-      "Ballade en pintes",
-      "Adieux au Nord"
+      {
+        "name": "Ballade en pintes",
+        "featured": "Venti",
+        "phase": null
+      },
+      {
+        "name": "Adieux au Nord",
+        "featured": "Tartaglia & Rosaria",
+        "phase": null
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Invitation des alizées",
-    "Désir d'Océanide",
-    "Contending Tides",
-    "Hangout Events",
-    "Merveilleuses marchandises",
-    "Gastronomie étrangère"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [
       "Apôtre de l'Abîme - Torrent"
@@ -47,6 +80,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -89,5 +128,41 @@
         ]
       }
     ]
-  }
+  },
+  "events": [
+    "Invitation des alizées",
+    "Désir d'Océanide",
+    "Contending Tides",
+    "Hangout Events",
+    "Merveilleuses marchandises",
+    "Gastronomie étrangère"
+  ],
+  "newRecipes": [
+    "Croquants aux crevettes",
+    "Gelée de menthe",
+    "Salade de menthe froide",
+    "Rouleaux de viande à la menthe",
+    "Burger de poulet",
+    "Nuggets de poulet",
+    "Purée de pommes de terre"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [
+    "Lyre de la brise",
+    "Ballon souvenir de la Fête des alizées",
+    "Endora la curieuse"
+  ],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": null
 }

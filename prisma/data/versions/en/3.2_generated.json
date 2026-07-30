@@ -1,13 +1,50 @@
 {
   "number": "3.2",
+  "cycleLabel": null,
   "name": "Akasha Pulses, the Kalpa Flame Rises",
+  "subtitle": null,
+  "description": "The classified project that involves the collective effort of [[Sumeru Akademiya",
   "releaseDate": "2022-11-02",
   "endDate": "2022-12-07",
-  "newCharacters": [
-    "Nahida",
-    "Layla"
+  "previousVersion": "3.1",
+  "nextVersion": "3.3",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/25356",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/25244",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?page_sn=3f55a94e68c74458#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20221024prev/index.html",
+      "label": "Website"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Akasha Pulses, the Kalpa Flame Rises.png",
+    "Splashscreen Everbloom Violet Farewell of Snezhnaya.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Nahida",
+      "rarity": 5,
+      "element": "Dendro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Layla",
+      "rarity": 4,
+      "element": "Cryo",
+      "weaponType": "Sword"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "A Thousand Floating Dreams"
@@ -15,25 +52,37 @@
   },
   "banners": {
     "characters": [
-      "The Moongrass' Enlightenment",
-      "Tapestry of Golden Flames",
-      "Everbloom Violet",
-      "Farewell of Snezhnaya"
+      {
+        "name": "The Moongrass' Enlightenment",
+        "featured": "Nahida",
+        "phase": 1
+      },
+      {
+        "name": "Tapestry of Golden Flames",
+        "featured": "Yoimiya",
+        "phase": 1
+      },
+      {
+        "name": "Everbloom Violet",
+        "featured": "Yae Miko & Layla",
+        "phase": 2
+      },
+      {
+        "name": "Farewell of Snezhnaya",
+        "featured": "Tartaglia & Layla",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Fabulous Fungus Frenzy",
-    "Adventurer's Trials",
-    "Hypostatic Symphony: Dissonant Verse",
-    "Outside the Canvas, Inside the Lens: Greenery Chapter",
-    "Marvelous Merchandise"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Serenitea Pot System: \"Replication\""
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -45,6 +94,12 @@
       ]
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -64,5 +119,40 @@
       "Next Time, On King of Invokations..."
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Fabulous Fungus Frenzy",
+    "Adventurer's Trials",
+    "Hypostatic Symphony: Dissonant Verse",
+    "Outside the Canvas, Inside the Lens: Greenery Chapter",
+    "Marvelous Merchandise"
+  ],
+  "newRecipes": [],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Adds some prompts for loading screens.",
+    "New Item: Nature's True Fruit.",
+    "New Serenitea Pot Realm Layout: \"Sublime Spicewood\"."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members have their Elemental Mastery increased by 200."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Hailing Moon",
+    "blessingEffect": "When characters deal DMG to an opponent, a shockwave will be unleashed at that opponent's position, dealing True DMG. Each Elemental DMG Type (including Physical DMG) can unleash a shockwave this way every 8s."
   }
 }

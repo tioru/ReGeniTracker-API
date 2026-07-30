@@ -1,13 +1,53 @@
 {
   "number": "2.4",
+  "cycleLabel": null,
   "name": "Couleurs éphémères en vol",
+  "subtitle": null,
+  "description": "Là où la lumière peut à peine atteindre, un ennemi traître guette dans l'ombre. Dans un royaume dépourvu de lumière solaire, les petits bois restants brûlent encore. Et là où le soleil brille, les espoirs des gens deviennent éternels. Ces souhaits sincères scintillent aussi brillants que des feux d'artifice fleurissant dans le ciel.",
   "releaseDate": "2022-01-05",
   "endDate": "2022-02-16",
-  "newCharacters": [
-    "Shenhe",
-    "Yun Jin"
+  "previousVersion": "2.3",
+  "nextVersion": "2.5",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18465",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18271",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210601blue_post/index.html?page_sn=f7247cf0ab2c416b",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20211227-pre/index.html",
+      "label": "Website"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17850",
+      "label": "Developer's Discussion 12/24"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Fleeting Colors in Flight.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Shenhe",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Yun Jin",
+      "rarity": 4,
+      "element": "Geo",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Étouffeur de calamités"
@@ -15,27 +55,35 @@
   },
   "banners": {
     "characters": [
-      "Retour de la sublimée",
-      "Invitation scintillante",
-      "Monts et marchés",
-      "Doute passager"
+      {
+        "name": "Retour de la sublimée",
+        "featured": "Shenhe & Yun Jin",
+        "phase": null
+      },
+      {
+        "name": "Invitation scintillante",
+        "featured": "Xiao & Yun Jin",
+        "phase": null
+      },
+      {
+        "name": "Monts et marchés",
+        "featured": "Zhongli",
+        "phase": null
+      },
+      {
+        "name": "Doute passager",
+        "featured": "Ganyu",
+        "phase": null
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Festival des lanternes/Couleurs éphémères en vol",
-    "Prosperous Partnerships",
-    "Richesses honorables",
-    "Flowing Lights and Colors",
-    "Potiologie",
-    "Huit sites au-delà des montagnes et des mers",
-    "Poursuite du vent"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -43,6 +91,15 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Deep Sea Unagi (Capturable)",
+    "Raie flottante"
+  ],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -83,5 +140,71 @@
         ]
       }
     ]
+  },
+  "events": [
+    "Festival des lanternes/Couleurs éphémères en vol",
+    "Prosperous Partnerships",
+    "Richesses honorables",
+    "Flowing Lights and Colors",
+    "Potiologie",
+    "Huit sites au-delà des montagnes et des mers",
+    "Poursuite du vent"
+  ],
+  "newRecipes": [
+    "Barbe à dragon",
+    "Nouilles du cœur",
+    "Jade de nuages",
+    "Année d'abondance"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "New Category The Light of Day",
+    "\"Wonders of the World\" and \"Memories of the Heart\"."
+  ],
+  "newNamecards": [
+    "Thème PB - Teinte fluide",
+    "Thème Shenhe - Peigne",
+    "Thème Yun Jin - Rime",
+    "Thème Inazuma - Tokoyo"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Speedy Rhythm",
+    "Rythme effréné « Verdoyance »",
+    "Rythme effréné « Bleu outremer »",
+    "Rythme effréné « Basane »",
+    "Rythme effréné « Zinzolin »",
+    "Euphonium Unbound",
+    "Euphonie céleste « Envolée »",
+    "Euphonie céleste « Entrelacs »"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Gift Mail Box for Birthday Mail",
+    "Serenitea Pot Custom Grouping Furnishings",
+    "Sacred Sakura's Favor level has been increased to 50",
+    "Unlocks Netsuke no Gen Crafts Shop",
+    "New shortcut wheel customization function. You can customize the shortcut wheel's system function access on \"Settings > Controls\" (This feature will be available after you reach Adventure Rank 20 or higher).",
+    "Adds some prompts for loading screens",
+    "New controller compatibility function: press R3 to display a list of tracked objectives.",
+    "After completing the Story Quest \"Lupus Minor Chapter: Act I,\" Rifthound Whelps will appear in Mondstadt's Wolvendom and its vicinity."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members' Normal Attack DMG increased by 50%."
+    ],
+    "floor12Disorder": [
+      "Certain opponents in this challenge possess the Honed Spirit effect, which grants them 10% Physical and All Elemental RES. When opponents with Honed Spirit take hits from attacks that are considered Normal Attack DMG, they will lose 3% Physical and All Elemental RES. A maximum of 30% of each may be lost this way. The RES lost this way will be reset every 20s."
+    ],
+    "blessingName": null,
+    "blessingEffect": null
   }
 }

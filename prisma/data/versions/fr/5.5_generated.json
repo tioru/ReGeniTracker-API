@@ -1,12 +1,90 @@
 {
   "number": "5.5",
+  "cycleLabel": null,
   "name": "Jour du retour des flammes",
+  "subtitle": null,
+  "description": "À Natlan, plus une compétition est intense et spectaculaire, mieux c'est.<br>Alors organiser une compétition si sensationnelle qu'elle réunit les six tribus ? C'est tout simplement exceptionnel, un vrai régal.<br>Comme tant de fois au fil des siècles, humains et sauriens s'élancent à nouveau dans une course sur ces terres ancestrales.<br>À l'image de la flamme éternelle de Natlan, cette tradition ne s'éteint jamais.",
   "releaseDate": "2025-03-26",
   "endDate": "2025-05-07",
-  "newCharacters": [
-    "Varesa",
-    "Iansan"
+  "previousVersion": "5.4",
+  "nextVersion": "5.6",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/155172",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/155094",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=80371af0526542f9#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_MfTXnpAAy6/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/154650",
+      "label": "Developer's Discussion 03/12"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/129560",
+      "label": "Developer's Discussion 01/22"
+    }
   ],
+  "images": [
+    "Splashscreen Day of the Flame's Return.png",
+    "Splashscreen Forgefire's Blessing Ballad in Goblets.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Varesa",
+      "rarity": 5,
+      "element": "Electro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Iansan",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Polearm"
+    }
+  ],
+  "newOutfits": [],
+  "newWeapons": {
+    "5Star": [
+      "Notions colorées"
+    ]
+  },
+  "banners": {
+    "characters": [
+      {
+        "name": "Cornucopia de la discorde",
+        "featured": "Varesa & Iansan",
+        "phase": 1
+      },
+      {
+        "name": "La grue s'envole vers les cieux",
+        "featured": "Xianyun & Iansan",
+        "phase": 1
+      },
+      {
+        "name": "Faveur du feu forgé",
+        "featured": "Xilonen",
+        "phase": 2
+      },
+      {
+        "name": "Ballade en pintes",
+        "featured": "Venti",
+        "phase": 2
+      }
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
   "mapExpansion": [
     {
       "mainRegion": "Atocpan",
@@ -17,39 +95,18 @@
       "subRegion": []
     }
   ],
-  "newWeapons": {
-    "5Star": [
-      "Notions colorées"
-    ]
-  },
-  "banners": {
-    "characters": [
-      "Cornucopia de la discorde",
-      "La grue s'envole vers les cieux",
-      "Faveur du feu forgé",
-      "Ballade en pintes"
-    ],
-    "weapons": [
-      "Incarnation divine"
-    ]
-  },
-  "events": [
-    "Tournoi de la gloire en floraison",
-    "Arène aux trémulements trépidants",
-    "Balles en rythme : Meztlis",
-    "Tournoi de combat extrême sans limites",
-    "Abondance de bénédiction",
-    "The Sacred Mountain and Sanctified Land",
-    "Le mystère du royaume fongique (événement)"
-  ],
   "newDomains": [
     "Quai de maçonnerie abandonné"
   ],
-  "newArtifacts": [
-    "Serment de la longue nuit",
-    "Finale des galeries profondes"
+  "newSystems": [
+    "Additions to Saurian Indwelling",
+    "Tatankasaur",
+    "Restitution de la Flamme de tona",
+    "Increase in the Level Cap of Tona's Flame to Level 40.",
+    "Additions to Repertoire of Myriad Melodies",
+    "Land of Tleyaoyotl"
   ],
-  "newEnnemies": {
+  "newMonsters": {
     "common": [
       "Tatankasaure",
       "Jeune tatankasaure",
@@ -70,6 +127,29 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Ancienne spatule flamboyante",
+    "Ancienne tortue lustrée",
+    "Ancien sanglier rougeoyant",
+    "Ancien pinson écarlate"
+  ],
+  "newArtifacts": [
+    "Serment de la longue nuit",
+    "Finale des galeries profondes"
+  ],
+  "newMaterials": [
+    "Floraigemme brise-ciel",
+    "Dracolite",
+    "Champibaie rouge"
+  ],
+  "newMonsterDrops": [
+    "Coquille brisée froide",
+    "Coquille brisée chaude",
+    "Caraprisme enflammé",
+    "Noyau inerte de statue"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -83,5 +163,142 @@
       "Additions to In the Footsteps of the Chosen of Dragons Quest Chain"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Tournoi de la gloire en floraison",
+    "Arène aux trémulements trépidants",
+    "Balles en rythme : Meztlis",
+    "Tournoi de combat extrême sans limites",
+    "Abondance de bénédiction",
+    "The Sacred Mountain and Sanctified Land",
+    "Le mystère du royaume fongique (événement)"
+  ],
+  "newRecipes": [
+    "Œufs magmiques",
+    "Boudibarres granifruitées",
+    "Brochette de champignons au fromage",
+    "Fruitée chargée",
+    "Récolte favorable",
+    "Cocotte de crabe au fromage"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Champi-mont (Portion individuelle)",
+    "Repas sain de premier ordre"
+  ],
+  "newAchievements": [
+    "Succès/Lueur déclinante de la Montagne sacrée",
+    "Succès/Duelliste - Partie III",
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Thème Varesa - Puissance",
+    "Thème Iansan - Motivation",
+    "Thème Natlan - Pupille saurienne",
+    "Thème Succès - Sérénité",
+    "Thème PB - Gloire florale"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Banc en pierre volcanique « Alignement »",
+    "« La séparation est le début d'une nouvelle réunion »",
+    "« Retourner aux flammes, retourner au chemin. »",
+    "Ancien sanglier rougeoyant",
+    "Ancien pinson écarlate",
+    "Aguara",
+    "« Art du transport »",
+    "Support à haltères « Charge la plus lourde »",
+    "« Piliers de cour »",
+    "Rassasiement mérité",
+    "Torche fixe « Extrême »",
+    "Torche fixe « Protection »",
+    "Gonfleur de granifruits",
+    "Cabane de l'abondance « Option permanente »",
+    "Cabane de l'abondance « Option improvisée »",
+    "« Liens des terres de l'abondance »",
+    "« Confrontation des terres de l'abondance »",
+    "« Sentinelle des terres de l'abondance »",
+    "Plat modèle « Biscuits sauriennaurus »",
+    "Patrouilleur de source secrète (Ornemental)",
+    "Portrait de la puissance héroïque",
+    "Robustesse saurienne",
+    "« Bases de l'entreposage »",
+    "Miracle flottant du ciel",
+    "Villa de l'abondance « Essentiels du quotidien »",
+    "Villa de l'abondance « Astuces d'entreposage »"
+  ],
+  "newFurnishingSets": [
+    "Toast victorieux au Stade",
+    "Naissance dans un berceau ardent",
+    "Mots mûrement réfléchis",
+    "Passion des Enfants des échos",
+    "Refuge des compagnons",
+    "Conquête du Clan des fleurplumes",
+    "Création des tendances de la Foire",
+    "Avancée fière du Collectif de l'abondance",
+    "Tranquillité des Maîtres du vent nocturne",
+    "Relaxation du Peuple des sources",
+    "Devoir des Êtres des canopées",
+    "« Dormez et reposez cet esprit fatigué »",
+    "Fouler des sentiers inconnus"
+  ],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Émilie",
+      "Kachina"
+    ],
+    "actionCards": [
+      "Barge",
+      "Maîtres du vent nocturne",
+      "In the Name of the Extreme",
+      "Soupe mystique"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 39 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Adds some of the Harvestable seeds from Natlan to the Seed Dispensary.",
+    "Adds Natlan wildlife that can be captured by the Omni-Ubiquity Net: Ancient Scarlet-Plume Finch and Ancient Red-Mane Boar.",
+    "Adds new Fish: Secret Source Scout Sweeper.",
+    "Another 4 sets of Artifacts are available to exchange in the Mystic Offering system:",
+    "Artifact Strongbox: Song of Days Past",
+    "Artifact Strongbox: Nighttime Whispers in the Echoing Woods",
+    "Artifact Strongbox: Fragment of Harmonic Whimsy",
+    "Artifact Strongbox: Unfinished Reverie"
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "April 1, 2025",
+    "requiredElements": [
+      "Pyro",
+      "Electro",
+      "Anemo"
+    ],
+    "openingCharacters": [
+      "Yoimiya",
+      "Thomas",
+      "Clorinde",
+      "Beidou",
+      "Xiao",
+      "Sucrose"
+    ],
+    "guestCharacters": [
+      "Xilonen",
+      "Alhaitham",
+      "Yaoyao",
+      "Mika"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members gain a 75% Cryo DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Characters' Elemental Skill Geo DMG increased by 75%.",
+      "Second Half: Characters' Elemental Skill Cryo DMG increased by 75%."
+    ],
+    "blessingName": "Blessing of the Abyssal Moon:",
+    "blessingEffect": "Dreadfrost Moon: When a character triggers Cryo-related reactions, a shockwave will be released at the opponent's position, dealing True DMG. This effect can be triggered once every 4s."
   }
 }

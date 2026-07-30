@@ -1,22 +1,54 @@
 {
   "number": "4.2",
+  "cycleLabel": null,
   "name": "Masquerade of the Guilty",
+  "subtitle": null,
+  "description": "\"Now that my magic is spent,<br>Please, O judge, lift the chains from my soul!<br>Never again consign me to dance alone upon this lonely isle.<br>My last glimmer of hope I offer up to you.\"",
   "releaseDate": "2023-11-08",
   "endDate": "2023-12-20",
-  "newCharacters": [
-    "Furina",
-    "Charlotte"
-  ],
-  "mapExpansion": [
+  "previousVersion": "4.1",
+  "nextVersion": "4.3",
+  "links": [
     {
-      "mainRegion": "Erinnyes Forest",
-      "subRegion": []
+      "url": "https://genshin.hoyoverse.com/en/news/detail/113561",
+      "label": "Update Details"
     },
     {
-      "mainRegion": "Morte Region",
-      "subRegion": []
+      "url": "https://genshin.hoyoverse.com/en/news/detail/113507",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=883d227dfc21476d#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20231028preview/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/113402",
+      "label": "Developer's Discussion"
     }
   ],
+  "images": [
+    "Splashscreen Masquerade of the Guilty.png",
+    "Splashscreen Azure Excursion Twilight Arbiter.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Furina",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Charlotte",
+      "rarity": 4,
+      "element": "Cryo",
+      "weaponType": "Catalyst"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Splendor of Tranquil Waters"
@@ -27,25 +59,46 @@
   },
   "banners": {
     "characters": [
-      "Chanson of Many Waters",
-      "Immaculate Pulse",
-      "Twilight Arbiter",
-      "Azure Excursion"
+      {
+        "name": "Chanson of Many Waters",
+        "featured": "Furina & Charlotte",
+        "phase": 1
+      },
+      {
+        "name": "Immaculate Pulse",
+        "featured": "Baizhu & Charlotte",
+        "phase": 1
+      },
+      {
+        "name": "Twilight Arbiter",
+        "featured": "Cyno",
+        "phase": 2
+      },
+      {
+        "name": "Azure Excursion",
+        "featured": "Kamisato Ayato",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Thelxie's Fantastic Adventures",
-    "Lil' Fungi's Fun-Tastic Fiesta",
-    "Graph Adversarial Technology Experiment Log",
-    "Misty Dungeon: Realm of Water",
-    "Ley Line Overflow"
+  "mapExpansion": [
+    {
+      "mainRegion": "Erinnyes Forest",
+      "subRegion": []
+    },
+    {
+      "mainRegion": "Morte Region",
+      "subRegion": []
+    }
   ],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "New Xenochromatic Creature: Xenochromatic Ball Octopus."
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -57,6 +110,15 @@
       ]
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [
+    "Lakelight Lily",
+    "Spring of the First Dewdrop"
+  ],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -87,5 +149,60 @@
       "The Long-Failed \"Graph Adversarial Technology\"..."
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Thelxie's Fantastic Adventures",
+    "Lil' Fungi's Fun-Tastic Fiesta",
+    "Graph Adversarial Technology Experiment Log",
+    "Misty Dungeon: Realm of Water",
+    "Ley Line Overflow"
+  ],
+  "newRecipes": [
+    "La Lettre a Focalors",
+    "Blubber Profiterole"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Pour la Justice",
+    "Exclusive Scoop: Gourmet Column"
+  ],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [
+    "Special Analysis Zoom Lens"
+  ],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "New Fish:",
+    "Maintenance Mek: Gold Leader",
+    "New Books:",
+    "La Chanson d'Erinnyes",
+    "Tales of a Snow-Winged Goose",
+    "The Fall of the Faded Castle",
+    "Adds Set 27 of \"Paimon's Paintings\" chat emojis.",
+    "Increases custom marker limit to 200, and adds the batch marker deletion feature.",
+    "Adds the \"Trounce Domain: Quick Challenge\" function: once you reach Adventure Rank 40, you can Quick Challenge locked Trounce Domains through your Adventurer Handbook in Single Player Mode.",
+    "Adds the \"Lower Difficulty\" feature for Domains containing powerful enemies in quests: this feature can be activated by voluntarily leaving the Domain or after failing the challenge. The next time you start this challenge, you will start at the lower difficulty.",
+    "Fountain of Lucine: Increase in the Level Cap of Fountain of Lucine to Level 40.",
+    "Adds \"Deck Sharing Code\" feature: in the \"Edit\" or \"Preview Deck\" menu, you can view the share code of the current deck or use the share code to import a corresponding deck, create a new deck or overwrite the current deck.",
+    "The maximum number of decks in the \"Deck List\" will be increased to 20. The initial deck limit as well as the deck limit unlocked by increasing Player Level will be increased to 4.",
+    "Adds the \"Accelerate Duel\" function"
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 60% Electro DMG Bonus.",
+      "All party members receive a 60% Hydro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Tidal Moon",
+    "blessingEffect": "When a character's HP increases or decreases, it will be counted. When it reaches a total of 12, a shockwave will be unleashed at the character's position, dealing True DMG to nearby opponents and clearing the count. 1 such shockwave can be unleashed every 4s."
   }
 }

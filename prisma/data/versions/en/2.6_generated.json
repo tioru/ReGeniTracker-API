@@ -1,12 +1,44 @@
 {
   "number": "2.6",
+  "cycleLabel": null,
   "name": "Zephyr of the Violet Garden",
+  "subtitle": null,
+  "description": "A vast wind breezes across the fields and encounters the illustrious poetry and pictures of the violet garden.<br>The pure light of a deep, secluded valley illuminates a corner of the dark abyss.<br>On the surface of the reflective water, stories of the past are gradually emerging...",
   "releaseDate": "2022-03-30",
   "endDate": "2022-05-31",
-  "newCharacters": [
-    "Kamisato Ayato"
+  "previousVersion": "2.5",
+  "nextVersion": "2.7",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/20284",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/20184",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://webstatic-sea.hoyoverse.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=494fb89914d6406b#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://webstatic-sea.hoyoverse.com/ys/event/e20220319-previ-fd5q/index.html",
+      "label": "Website"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Zephyr of the Violet Garden.png",
+    "Splashscreen The Heron's Court.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Kamisato Ayato",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Sword"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Haran Geppaku Futsu"
@@ -14,32 +46,30 @@
   },
   "banners": {
     "characters": [
-      "Azure Excursion",
-      "Ballad in Goblets",
-      "The Heron's Court"
+      {
+        "name": "Azure Excursion",
+        "featured": "Kamisato Ayato",
+        "phase": null
+      },
+      {
+        "name": "Ballad in Goblets",
+        "featured": "Venti",
+        "phase": null
+      },
+      {
+        "name": "The Heron's Court",
+        "featured": "Kamisato Ayaka",
+        "phase": null
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Phase 1",
-    "Hues of the Violet Garden",
-    "Outside the Canvas, Inside the Lens",
-    "Phase 2",
-    "Vibro-Crystal Research",
-    "Ley Line Overflow",
-    "Marvelous Merchandise",
-    "Phase 3",
-    "Spices From the West",
-    "Overflowing Mastery"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [
-    "Vermillion Hereafter",
-    "Echoes of an Offering"
-  ],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -47,6 +77,18 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Bluethunder Weasel",
+    "Lucklight Fly"
+  ],
+  "newArtifacts": [
+    "Vermillion Hereafter",
+    "Echoes of an Offering"
+  ],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -68,5 +110,65 @@
       "The Missing Miner"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Phase 1",
+    "Hues of the Violet Garden",
+    "Outside the Canvas, Inside the Lens",
+    "Phase 2",
+    "Vibro-Crystal Research",
+    "Ley Line Overflow",
+    "Marvelous Merchandise",
+    "Phase 3",
+    "Spices From the West",
+    "Overflowing Mastery"
+  ],
+  "newRecipes": [
+    "Quiet Elegance",
+    "Katsu Sandwich",
+    "Rainbow Aster"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "Challenger: Series V",
+    "Chasmlighter",
+    "Wonders of the World"
+  ],
+  "newNamecards": [
+    "Kamisato Ayato: Ripple",
+    "Lumens: Stone of Light",
+    "Achievement: Thunderclap",
+    "Achievement: Chasm",
+    "Travel Notes: Irodori"
+  ],
+  "newGadgets": [
+    "Lumenstone Adjuvant"
+  ],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "\"Radiant Spincrystals\" have been added to Mondstadt, Liyue, and Inazuma.",
+    "The Teapot Traveling Salesman has added some \"Radiant Spincrystals\" which can be purchased after obtaining and completing the corresponding World Quests in Inazuma.",
+    "After completing Raiden Shogun's Story Quest \"Imperatrix Umbrosa Chapter: Act II,\" Ritou will add a shop where you can purchase \"Sango Pearls,\" \"Unagi Meat,\" and 2-Star \"Lucky Dog\" Artifacts.",
+    "The redirect link to the \"Adventurer Handbook: Bosses\" screen has been added under the \"Sources\" for certain Development Items.",
+    "Adds a shortcut for opening the Party Setup Screen on mobile platforms: on the main interface, tap and hold the avatar of any character to quickly access the Party Setup Screen.",
+    "Adds some prompts for loading screens.",
+    "New Loot Drops from \"Abyss Heralds,\" and \"Abyss Lectors\": \"Gloomy Statuette,\" \"Dark Statuette,\" and \"Deathly Statuette.\""
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 75% Anemo DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Sheet-Ice Moon",
+    "blessingEffect": "After a character's Normal Attack hits an opponent, this opponent will be afflicted with a Mark of Ending. After 10s, this Mark of Ending will be removed, dealing True DMG to this opponent. When a character's Normal Attack hits an opponent with a Mark of Ending, the DMG dealt by the Mark of Ending's removal will be increased. This DMG can be increased 9 times."
   }
 }

@@ -1,33 +1,82 @@
 {
   "number": "3.8",
+  "cycleLabel": null,
   "name": "Un paradis estival mystérieux !",
+  "subtitle": null,
+  "description": "« Bienvenue au Mirage de veluriyam. J'espère que vous pourrez vous détendre et profiter d'un peu de répit après votre voyage fatigant. »<br>Ce que l'on raconte est vrai. L'été est un port où le soleil brûlant peut accoster et un paradis où les voyageurs peuvent se reposer. Il n'y a rien de mal à profiter des jours de vacances éphémères pour passer un agréable moment, n'est-ce pas ?",
   "releaseDate": "2023-07-05",
   "endDate": "2023-08-16",
+  "previousVersion": "3.7",
+  "nextVersion": "4.0",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/112174",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/112157",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=e19ddf5c83c041c9#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20230624preview/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/111908",
+      "label": "Developer's Discussion 06/20"
+    }
+  ],
+  "images": [
+    "Splashscreen Secret Summer Paradise.png",
+    "Splashscreen Drifting Luminescence From Ashes Reborn.png"
+  ],
   "newCharacters": [],
-  "mapExpansion": [],
+  "newOutfits": [
+    {
+      "name": "Lumière stellaire en fleurs",
+      "character": "Klee"
+    },
+    {
+      "name": "Ombre nautique",
+      "character": "Kaeya"
+    }
+  ],
   "newWeapons": {},
   "banners": {
     "characters": [
-      "Flots dansants",
-      "Foulées étincelantes",
-      "Luminescence à la dérive",
-      "Renaissant des cendres"
+      {
+        "name": "Flots dansants",
+        "featured": "Eula",
+        "phase": 1
+      },
+      {
+        "name": "Foulées étincelantes",
+        "featured": "Klee",
+        "phase": 1
+      },
+      {
+        "name": "Luminescence à la dérive",
+        "featured": "Sangonomiya Kokomi",
+        "phase": 2
+      },
+      {
+        "name": "Renaissant des cendres",
+        "featured": "Wanderer",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Paradis estival mystérieux !",
-    "Vision partagée",
-    "Prospection périlleuse",
-    "Adventurer's Trials: Advanced",
-    "The Forge Realm's Temper: Endless Swarm",
-    "Abondance de maîtrise"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -35,6 +84,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -57,5 +112,41 @@
         ]
       }
     ]
+  },
+  "events": [
+    "Paradis estival mystérieux !",
+    "Vision partagée",
+    "Prospection périlleuse",
+    "Adventurer's Trials: Advanced",
+    "The Forge Realm's Temper: Endless Swarm",
+    "Abondance de maîtrise"
+  ],
+  "newRecipes": [],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [
+    "Adds some prompts for loading screens.",
+    "Adds Set 24 of \"Paimon's Paintings\" chat emojis.",
+    "Adds link in the Source section of \"Dust of Azoth\" for the Stardust Exchange page."
+  ],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members receive a 75% Physical DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase I: Fleeting Moon",
+    "blessingEffect": "Within 10s after the character enters the field, the character's Normal, Charged, and Plunging Attacks will deal 30% increased DMG. Their ATK SPD will also be increased by 10%. This effect will be canceled when the character leaves the field."
   }
 }

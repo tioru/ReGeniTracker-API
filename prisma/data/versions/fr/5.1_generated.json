@@ -1,12 +1,48 @@
 {
   "number": "5.1",
+  "cycleLabel": null,
   "name": "The Rainbow Destined to Burn",
+  "subtitle": null,
+  "description": "« Offrir du petit bois, c'est offrir un sacrifice avant d'obtenir quelque chose. »<br />Avant de s'engager sur le champ de bataille, les gens disent souvent qu'ils veulent « la victoire à tout prix ».<br />Pourtant, lorsque les enjeux sont réels, quelqu'un doit toujours faire les choix les plus difficiles.",
   "releaseDate": "2024-10-09",
   "endDate": "2024-11-20",
-  "newCharacters": [
-    "Xilonen"
+  "previousVersion": "5.0",
+  "nextVersion": "5.2",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126305",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126209",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/vert.html?page_sn=9d3796456160459f#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_uqJ_R_Dbh9/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126061",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen The Rainbow Destined to Burn.png",
+    "Splashscreen Moment of Bloom The Moongrass' Enlightenment.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Xilonen",
+      "rarity": 5,
+      "element": "Geo",
+      "weaponType": "Sword"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Chanson de patrouille de sommet"
@@ -19,28 +55,35 @@
   },
   "banners": {
     "characters": [
-      "Faveur du feu forgé",
-      "Tissé de nuages soyeux",
-      "Dessillement de l'herbe lunaire",
-      "Floraison écarlate"
+      {
+        "name": "Faveur du feu forgé",
+        "featured": "Xilonen",
+        "phase": 1
+      },
+      {
+        "name": "Tissé de nuages soyeux",
+        "featured": "Chiori",
+        "phase": 1
+      },
+      {
+        "name": "Dessillement de l'herbe lunaire",
+        "featured": "Nahida",
+        "phase": 2
+      },
+      {
+        "name": "Floraison écarlate",
+        "featured": "Hu Tao",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Ode chromatique de bonbons et de roses",
-    "Fête de poursuite",
-    "Reminiscent Regimen: Thrill",
-    "Sur la piste du trésor des pucerons",
-    "Merveilleuses marchandises",
-    "The Rainbow Destined to Burn (Event)",
-    "Prière de bénédiction sur les sommets dentelés (événement)",
-    "Land of Vibrant Stone and Flaming Springs"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [],
     "elite": [
       "Miméflore obombrée"
@@ -52,10 +95,130 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [
+    "Noyau source aux motifs dorés secrets"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
     "worldQuests": [],
     "hangoutQuests": []
+  },
+  "events": [
+    "Ode chromatique de bonbons et de roses",
+    "Fête de poursuite",
+    "Reminiscent Regimen: Thrill",
+    "Sur la piste du trésor des pucerons",
+    "Merveilleuses marchandises",
+    "The Rainbow Destined to Burn (Event)",
+    "Prière de bénédiction sur les sommets dentelés (événement)",
+    "Land of Vibrant Stone and Flaming Springs"
+  ],
+  "newRecipes": [
+    "Cœurs de bœuf en brochette",
+    "Xocoatl"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Bonbons au lait goût fruit"
+  ],
+  "newAchievements": [
+    "Succès/Merveilles du monde"
+  ],
+  "newNamecards": [
+    "Thème Xilonen - En rythme",
+    "Thème PB - Sabzeruz"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Bouclier circulaire à un pied",
+    "« Mes excuses pour l'attente, cher Archon »",
+    "Marionnette bipède « Secou-remou »",
+    "« Innombrables services »",
+    "Échos du rivage",
+    "« Répartition de la Foire »",
+    "« Festin et beuverie à la Foire »",
+    "« Légumes frais de la Foire »",
+    "« Splendides textiles de la Foire »",
+    "Bouclier de tour à quatre pieds",
+    "« Lancer du javelot imminent »",
+    "Moment qui durera pour toujours",
+    "Plat modèle « À ne pas manquer »",
+    "Plat modèle « Choix habituel »",
+    "« Feux d'artifice des montagnes »",
+    "« Silencieux sans nom »",
+    "Étagère « Pivot » en bois de palmier-pêcher",
+    "Lampe phlogistique de table « Poids suffisant »",
+    "Lampadaire phlogistique « Praticité rentable »",
+    "Lampe phlogistique murale « Guide routier »",
+    "Marionnette quadrupède « Prêt et calme »",
+    "« Navigation sur les eaux calmes »",
+    "Banc « Assise ronde » du Stade",
+    "Tabouret rond « Collation rapide » du Stade",
+    "Chaise à dossier « Festin épicé » du Stade",
+    "Distance avec les flammes",
+    "« Vers de plus hauts sommets »",
+    "« Vagabondage sur les routes »",
+    "« Héros invaincu »",
+    "Pot vibrant « Né des flammes »",
+    "Tapis de repos « Fardeau allégé »",
+    "« Traqueur de vent »"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Chiori",
+      "Pirouettière florale des Érémites",
+      "Chantre de l'Abîme - Foudre pourpre"
+    ],
+    "actionCards": [
+      "Scie électrique portative",
+      "Haut-de-forme du chef d'orchestre",
+      "Tepetlisaure",
+      "Stage Tepetl",
+      "Eremite Teatime",
+      "Biscuits sauriennaurus",
+      "Spirit of Omen: Pyro Scorpion"
+    ]
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": {
+    "startDateRaw": "November 1",
+    "requiredElements": [
+      "Pyro",
+      "Electro",
+      "Dendro"
+    ],
+    "openingCharacters": [
+      "Klee",
+      "Xinyan",
+      "Yae Miko",
+      "Dori",
+      "Tighnari",
+      "Kirara"
+    ],
+    "guestCharacters": [
+      "Xilonen",
+      "Chiori",
+      "Xingqiu",
+      "Layla"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members gain a 75% Geo DMG Bonus.",
+      "All party members gain a 60% Geo DMG Bonus.",
+      "All party members gain a 60% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Blessing of the Abyssal Moon:",
+    "blessingEffect": "Rugged Moon: After a character uses an Elemental Skill, said character's DEF increases by 60% for 9s."
   }
 }

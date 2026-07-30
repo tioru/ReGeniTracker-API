@@ -1,13 +1,55 @@
 {
   "number": "5.7",
+  "cycleLabel": null,
   "name": "A Space and Time for You",
+  "subtitle": null,
+  "description": "Take a break from your journey to explore the world.<br>In that fleeting moment, someone's homeland was destroyed, and someone was reunited with their family.<br>No one can guarantee that this journey will go smoothly. All we can hope for is to reach a happy ending.",
   "releaseDate": "2025-06-18",
   "endDate": "2025-07-30",
-  "newCharacters": [
-    "Skirk",
-    "Dahlia"
+  "previousVersion": "5.6",
+  "nextVersion": "5.8",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/157064",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/156934",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=c0526e0c93f5480e#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_EG5wNuW5DL/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/156641",
+      "label": "Developer's Discussion"
+    }
   ],
-  "mapExpansion": [],
+  "images": [
+    "Splashscreen Void Star's Advent.png",
+    "Splashscreen A Space and Time for You.png",
+    "Splashscreen Ancient Flame Ablaze Ambrosial Essence.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Skirk",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Dahlia",
+      "rarity": 4,
+      "element": "Hydro",
+      "weaponType": "Sword"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Azurelight"
@@ -15,27 +57,37 @@
   },
   "banners": {
     "characters": [
-      "Void Star's Advent",
-      "The Transcendent One Returns",
-      "Ancient Flame Ablaze",
-      "Ambrosial Essence"
+      {
+        "name": "Void Star's Advent",
+        "featured": "Skirk & Dahlia",
+        "phase": 1
+      },
+      {
+        "name": "The Transcendent One Returns",
+        "featured": "Shenhe & Dahlia",
+        "phase": 1
+      },
+      {
+        "name": "Ancient Flame Ablaze",
+        "featured": "Mavuika",
+        "phase": 2
+      },
+      {
+        "name": "Ambrosial Essence",
+        "featured": "Emilie",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Stygian Onslaught: Incursion Repeller",
-    "Battle of Imagined Arrays",
-    "Fearsome Ferocious Firepower",
-    "Reminiscent Regimen: Frenzy",
-    "Travelers' Tales: Gilded Chapter",
-    "Overflowing Abundance",
-    "Crystallina Chapter (Event)"
-  ],
+  "mapExpansion": [],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Artifact Reshape (Dust of Enlightenment)"
+  ],
+  "newMonsters": {
     "common": [],
     "elite": [],
     "boss": {
@@ -43,6 +95,12 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [],
+  "newMaterials": [],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -61,5 +119,98 @@
       "Stygian Onslaught"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Stygian Onslaught: Incursion Repeller",
+    "Battle of Imagined Arrays",
+    "Fearsome Ferocious Firepower",
+    "Reminiscent Regimen: Frenzy",
+    "Travelers' Tales: Gilded Chapter",
+    "Overflowing Abundance",
+    "Crystallina Chapter (Event)"
+  ],
+  "newRecipes": [
+    "Meat-Lover's Feast",
+    "Nine-Fruit Nectar",
+    "Bubblemilk Pie"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "\"Abyssal Bounty\"",
+    "\"Chatter of Joyful Nights\""
+  ],
+  "newAchievements": [
+    "Wonders of the World category"
+  ],
+  "newNamecards": [
+    "Skirk: Lone Shadow",
+    "Dahlia: Sacred Duty",
+    "Travel Notes: Speculation"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "In the Smoke and Mists",
+    "Peaceful Forest Dream",
+    "Sleepless",
+    "Tepetlisaur Traces"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Chasca",
+      "Citlali",
+      "Mavuika"
+    ],
+    "actionCards": [
+      "The Dockhand's Assistant",
+      "Crown of the Saints",
+      "Scroll of the Hero of Cinder City",
+      "Rawr! Rawr!",
+      "Fight for Death",
+      "Fire and War",
+      "Flying Squad, Attack!",
+      "Fruits of Training",
+      "Harvest's Boon"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Set 41 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "July 1, 2025",
+    "requiredElements": [
+      "Pyro",
+      "Hydro",
+      "Cryo"
+    ],
+    "openingCharacters": [
+      "Lyney",
+      "Xiangling",
+      "Tartaglia",
+      "Dahlia",
+      "Wriothesley",
+      "Rosaria"
+    ],
+    "guestCharacters": [
+      "Emilie",
+      "Kinich",
+      "Lan Yan",
+      "Noelle"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All party members receive a 60% Cryo DMG Bonus.",
+      "All party members gain a 60% Pyro DMG Bonus."
+    ],
+    "floor12Disorder": [
+      "First Half: Cryo DMG dealt by all party members increased by 75%.",
+      "Second Half: All party members' Nightsoul-aligned DMG increased by 75%."
+    ],
+    "blessingName": "Bitterfreeze Moon",
+    "blessingEffect": "When a character triggers Cryo-related reactions, a shockwave will be released at the opponent's position, dealing True DMG to nearby opponents. This effect can be triggered once every 2.5s."
   }
 }

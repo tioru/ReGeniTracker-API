@@ -1,12 +1,91 @@
 {
   "number": "5.2",
+  "cycleLabel": null,
   "name": "Tapestry of Spirit and Flame",
+  "subtitle": null,
+  "description": "Les gens découvrent le monde en observant le ciel et se trouvent eux-mêmes en se regardant dans le miroir.<br />Avancez au-delà du brouillard et enregistrez tout ce que vous savez.",
   "releaseDate": "2024-11-20",
   "endDate": "2025-01-01",
-  "newCharacters": [
-    "Chasca",
-    "Ororon"
+  "previousVersion": "5.1",
+  "nextVersion": "5.3",
+  "links": [
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126992",
+      "label": "Update Details"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126956",
+      "label": "Update Maintenance Preview"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=614870cbd6764349#/index",
+      "label": "Version Highlights"
+    },
+    {
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_5kX9OCsTQR/index.html",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126730",
+      "label": "Developer's Discussion"
+    }
   ],
+  "images": [
+    "Splashscreen Tapestry of Spirit and Flame.png",
+    "Splashscreen Decree of the Deeps Gentry of Hermitage.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Chasca",
+      "rarity": 5,
+      "element": "Anemo",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Ororon",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Bow"
+    }
+  ],
+  "newOutfits": [],
+  "newWeapons": {
+    "5Star": [
+      "Plumage cramoisi du vautour astral"
+    ],
+    "4Star": [
+      "Plumard de fleurs",
+      "Tourbillon sur les vagues",
+      "La calamité d'Eshu"
+    ]
+  },
+  "banners": {
+    "characters": [
+      {
+        "name": "Transpercement au sillage écarlate",
+        "featured": "Chasca & Ororon",
+        "phase": 1
+      },
+      {
+        "name": "L'artifice du clair-obscur",
+        "featured": "Lyney & Ororon",
+        "phase": 1
+      },
+      {
+        "name": "Décret des profondeurs",
+        "featured": "Neuvillette",
+        "phase": 2
+      },
+      {
+        "name": "Monts et marchés",
+        "featured": "Zhongli",
+        "phase": 2
+      }
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
   "mapExpansion": [
     {
       "mainRegion": "Monts Tezcatepetonco",
@@ -21,40 +100,18 @@
       "subRegion": []
     }
   ],
-  "newWeapons": {
-    "5Star": [
-      "Plumage cramoisi du vautour astral"
-    ],
-    "4Star": [
-      "Plumard de fleurs",
-      "Tourbillon sur les vagues",
-      "La calamité d'Eshu"
-    ]
-  },
-  "banners": {
-    "characters": [
-      "Transpercement au sillage écarlate",
-      "L'artifice du clair-obscur",
-      "Décret des profondeurs",
-      "Monts et marchés"
-    ],
-    "weapons": [
-      "Incarnation divine"
-    ]
-  },
-  "events": [
-    "Rouleaux de recherche iktomispirituelle",
-    "Adventurer's Trials: Metamorphosis",
-    "Simulation de tempête violente",
-    "Heated Battle Mode: Automatic Artistry",
-    "Convoi griffu",
-    "Reflux des lignes énergétiques",
-    "De fleurs fanées et de plumes tombantes (événement)",
-    "Facing the Windborne Cliff and City of Flowing Ash"
-  ],
   "newDomains": [],
-  "newArtifacts": [],
-  "newEnnemies": {
+  "newSystems": [
+    "Additions to Saurian Indwelling",
+    "Qucusaure",
+    "Iktomisaure",
+    "Additions to Tribe Reputation",
+    "Clan des fleurplumes (Tribu)",
+    "Maîtres du vent nocturne (Tribu)",
+    "Natlan Fishing Association",
+    "Fishing Points and Radiant Spincrystals added to Natlan"
+  ],
+  "newMonsters": {
     "common": [
       "Qucusaure",
       "Iktomisaure",
@@ -82,6 +139,22 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Chèvre cacaua"
+  ],
+  "newArtifacts": [],
+  "newMaterials": [
+    "Pourprinfleur fanée",
+    "Champicorne brillant"
+  ],
+  "newMonsterDrops": [
+    "Regard enchevêtrant",
+    "Bourgeon réfractif",
+    "Feuillage déroutant",
+    "Cœur illusoire de feuille"
+  ],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [],
@@ -102,5 +175,146 @@
       "and more"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Rouleaux de recherche iktomispirituelle",
+    "Adventurer's Trials: Metamorphosis",
+    "Simulation de tempête violente",
+    "Heated Battle Mode: Automatic Artistry",
+    "Convoi griffu",
+    "Reflux des lignes énergétiques",
+    "De fleurs fanées et de plumes tombantes (événement)",
+    "Facing the Windborne Cliff and City of Flowing Ash"
+  ],
+  "newRecipes": [
+    "Dolmas granifruités",
+    "Montagnes, mers et cieux",
+    "Gâteau volcanique",
+    "Soupe mystique",
+    "À gorge enjouée"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [
+    "Instant de repos",
+    "Ceviche au miel"
+  ],
+  "newAchievements": [
+    "Succès/Natlan : Terre d'alliance du feu et de compétition - II",
+    "Succès/Duelliste - Partie II",
+    "the Wonders of the World"
+  ],
+  "newNamecards": [
+    "Thème Chasca - Chargée à bloc",
+    "Thème Ororon - Nocturnal",
+    "Thème Natlan - Rêves éphémères",
+    "Thème Succès - Esprit combatif",
+    "Thème PB - Spiritissage"
+  ],
+  "newGadgets": [],
+  "newFurnishings": [
+    "Bannière de clairvoyance « Burkina »",
+    "Bannière de clairvoyance « Citlali »",
+    "Bannière de clairvoyance « Menilek »",
+    "Bannière de clairvoyance « Ororon »",
+    "Bannière de clairvoyance « Sanhaj »",
+    "Bannière de clairvoyance « Sundjatta »",
+    "Bannière de clairvoyance « Tupac »",
+    "Bannière de clairvoyance « Wanjiru »",
+    "Envolée première",
+    "Aspiration infinie",
+    "« Pensées affamées »",
+    "« Petit gaillard, grand héros ! »",
+    "Lagon lavaïque",
+    "« Notre chemin »",
+    "« Allez, debout ! »",
+    "« Racines solides »",
+    "« Spiritualité et scellement »",
+    "Poche du vent des montagnes",
+    "Attache au sommet de la Falaise Quahuacan",
+    "Tisons de la Cité de braise",
+    "Méditant silencieux",
+    "Peinture des Tlalocans",
+    "Réceptacle de purification et de calme",
+    "« Enseignements des plus jeunes »",
+    "Plateforme « Griffe géante » en bois d'aratiku cendré",
+    "Escalier « Minimalisme » en bois d'aratiku cendré",
+    "Maquette de clairvoyance « Encensoir de projection »",
+    "Maquette de clairvoyance « Métier à tisser spirituel »",
+    "Cadeau de compagnon « Inspiration esthétique »",
+    "Cadeau de compagnon « Atout essentiel »",
+    "Cadeau de compagnon « Rock libre »",
+    "Cadeau de compagnon « Contes joyeux »",
+    "Cadeau de compagnon « Enjouement animé »",
+    "Cadeau de compagnon « Volonté protectrice »",
+    "Torche fixe « Quête de victoire »",
+    "Ballon « Avertissement » du Clan des fleurplumes",
+    "Résidence des fleurplumes « Souci du détail »",
+    "Résidence des fleurplumes « Logique du vol »",
+    "Écurie des fleurplumes « Repos des sauriens »",
+    "Architecture du vent nocturne « Fondement mystique »",
+    "Cabane du vent nocturne « Voie habituelle »",
+    "Architecture du vent nocturne « Besoin d'échanges »",
+    "Lampadaire phlogistique « Chemin de retour »",
+    "Réverbère phlogistique « Chemin en avant »",
+    "Réverbère phlogistique « Trio »",
+    "Tonneau polyvalent à cordes",
+    "Maison des fleurplumes « Mesure de secours »",
+    "Clôture de Tezcatepetonco « Voie de la découverte »",
+    "Clôture de Tezcatepetonco « Parcours du soleil »",
+    "Cible en bois « Plan d'entraînement »"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [
+      "Rosalia",
+      "Sigewinne",
+      "Loup alpha doré"
+    ],
+    "actionCards": [
+      "Pureté fluide",
+      "Beauté fugace de la Demoiselle",
+      "Iktomisaure",
+      "Êtres des canopées",
+      "Ultimate Surfing Buddy!",
+      "Gemmes étincelantes"
+    ]
+  },
+  "otherAdditions": [
+    "Adds Glowing Hornshroom Harvestable seeds to the Seed Dispensary.",
+    "Adds Set 36 of \"Paimon's Paintings\" chat emojis.",
+    "Adds some prompts for loading screens.",
+    "Adds Natlan wildlife that can be captured by the Omni-Ubiquity Net."
+  ],
+  "imaginariumTheater": {
+    "startDateRaw": "December 1, 2024",
+    "requiredElements": [
+      "Hydro",
+      "Electro",
+      "Anemo"
+    ],
+    "openingCharacters": [
+      "Sangonomiya Kokomi",
+      "Xingqiu",
+      "Shogun Raiden",
+      "Kujou Sara",
+      "Jean",
+      "Lynette"
+    ],
+    "guestCharacters": [
+      "Lyney",
+      "Bennett",
+      "Zhongli",
+      "Collei"
+    ]
+  },
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "Characters' Charged Attack DMG increased by 75%."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Blessing of the Abyssal Moon:",
+    "blessingEffect": "Shield-Piercing Moon: All party members' Shield Strength is increased by 20%. While the active character is protected by a Shield, when they deal DMG to opponents, their attacks will unleash a shockwave at the opponents' position that deals True DMG. This can trigger once every 5s."
   }
 }

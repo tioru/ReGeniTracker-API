@@ -1,27 +1,56 @@
 {
   "number": "3.0",
+  "cycleLabel": null,
   "name": "The Morn a Thousand Roses Brings",
+  "subtitle": null,
+  "description": "See with thine eyes the luxuriant verdure embowering the mountains,<br>Savor with thine nose the fragrant roses overlaying the meadows.<br>Hear the larking of flamboyant birds at daybreak,<br>Hear them unveil wisdom silenced for centuries.",
   "releaseDate": "2022-08-24",
   "endDate": "2022-09-28",
-  "newCharacters": [
-    "Tighnari",
-    "Collei",
-    "Dori"
-  ],
-  "mapExpansion": [
+  "previousVersion": "2.8",
+  "nextVersion": "3.1",
+  "links": [
     {
-      "mainRegion": "Sumeru",
-      "subRegion": [
-        "Avidya Forest",
-        "Lokapala Jungle",
-        "Ardravi Valley",
-        "Ashavan Realm",
-        "Vissudha Field",
-        "Vanarana",
-        "Lost Nursery"
-      ]
+      "url": "https://genshin.hoyoverse.com/en/news/detail/23268",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/23126",
+      "label": "Update Notice"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=32a647eecbec4b37#/update",
+      "label": "Preview Page"
+    },
+    {
+      "url": "https://act.hoyoverse.com/ys/event/e20220814prev/index.html",
+      "label": "Website"
     }
   ],
+  "images": [
+    "Splashscreen The Morn a Thousand Roses Brings.png",
+    "Splashscreen Adrift in the Harbor Drifting Luminescence.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Tighnari",
+      "rarity": null,
+      "element": null,
+      "weaponType": null
+    },
+    {
+      "name": "Collei",
+      "rarity": null,
+      "element": null,
+      "weaponType": null
+    },
+    {
+      "name": "Dori",
+      "rarity": null,
+      "element": null,
+      "weaponType": null
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Hunter's Path"
@@ -37,21 +66,44 @@
   },
   "banners": {
     "characters": [
-      "Viridescent Vigil",
-      "Gentry of Hermitage",
-      "Adrift in the Harbor",
-      "Drifting Luminescence"
+      {
+        "name": "Viridescent Vigil",
+        "featured": "Tighnari & Collei",
+        "phase": 1
+      },
+      {
+        "name": "Gentry of Hermitage",
+        "featured": "Zhongli & Collei",
+        "phase": 1
+      },
+      {
+        "name": "Adrift in the Harbor",
+        "featured": "Ganyu & Dori",
+        "phase": 2
+      },
+      {
+        "name": "Drifting Luminescence",
+        "featured": "Sangonomiya Kokomi & Dori",
+        "phase": 2
+      }
     ],
     "weapons": [
       "Epitome Invocation"
     ]
   },
-  "events": [
-    "Graven Innocence",
-    "Fayz Trials",
-    "Tablet Analytics",
-    "Lost Riches",
-    "Ley Line Overflow"
+  "mapExpansion": [
+    {
+      "mainRegion": "Sumeru",
+      "subRegion": [
+        "Avidya Forest",
+        "Lokapala Jungle",
+        "Ardravi Valley",
+        "Ashavan Realm",
+        "Vissudha Field",
+        "Vanarana",
+        "Lost Nursery"
+      ]
+    }
   ],
   "newDomains": [
     "Tower of Abject Pride",
@@ -62,11 +114,8 @@
     "The Coordinates of Sun and Rain",
     "The Dark Valley"
   ],
-  "newArtifacts": [
-    "Deepwood Memories",
-    "Gilded Dreams"
-  ],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [
       "Floating Dendro Fungus",
       "Whirling Electro Fungus",
@@ -99,6 +148,69 @@
       "weekly": []
     }
   },
+  "newWildlife": [
+    "Spinocrocodile",
+    "Rishboland Tiger",
+    "Shaggy Sumpter Beast",
+    "Dusk Bird",
+    "Shroomboar",
+    "Red Tailed Lizard",
+    "Forest Tree Frog",
+    "Dendro Crystalfly"
+  ],
+  "newArtifacts": [
+    "Deepwood Memories",
+    "Gilded Dreams"
+  ],
+  "newMaterials": [
+    "Adhigama Wood",
+    "Brightwood",
+    "Harra Fruit",
+    "Kalpalata Lotus",
+    "Karmaphala Wood",
+    "Nilotpala Lotus",
+    "Padisarah",
+    "Rukkhashava Mushrooms",
+    "Spice",
+    "Viparyas",
+    "Zaytun Peach"
+  ],
+  "newMonsterDrops": [
+    "Faded Red Satin",
+    "Trimmed Red Silk",
+    "Rich Red Brocade",
+    "Inactivated Fungal Nucleus",
+    "Dormant Fungal Nucleus",
+    "Robust Fungal Nucleus",
+    "Chaos Storage",
+    "Chaos Module",
+    "Chaos Bolt"
+  ],
+  "newTalentMaterials": [
+    "Teachings of Admonition",
+    "Guide to Admonition",
+    "Philosophies of Admonition",
+    "Teachings of Ingenuity",
+    "Guide to Ingenuity",
+    "Philosophies of Ingenuity",
+    "Teachings of Praxis",
+    "Guide to Praxis",
+    "Philosophies of Praxis"
+  ],
+  "newWeaponAscensionMaterials": [
+    "Copper Talisman of the Forest Dew",
+    "Iron Talisman of the Forest Dew",
+    "Silver Talisman of the Forest Dew",
+    "Golden Talisman of the Forest Dew",
+    "Oasis Garden's Reminiscence",
+    "Oasis Garden's Kindness",
+    "Oasis Garden's Mourning",
+    "Oasis Garden's Truth",
+    "Echo of Scorching Might",
+    "Remnant Glow of Scorching Might",
+    "Dream of Scorching Might",
+    "Olden Days of Scorching Might"
+  ],
   "newQuests": {
     "archonQuests": [
       {
@@ -160,5 +272,45 @@
       "Trees and Dreams"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Graven Innocence",
+    "Fayz Trials",
+    "Tablet Analytics",
+    "Lost Riches",
+    "Ley Line Overflow"
+  ],
+  "newRecipes": [],
+  "newFormulas": [
+    "Sugardew Bait"
+  ],
+  "newSpecialtyDishes": [],
+  "newAchievements": [],
+  "newNamecards": [],
+  "newGadgets": [
+    "Dendroculus Resonance Stone",
+    "Dendro Treasure Compass",
+    "The Boon of the Elder Tree",
+    "Ultra-Hot Burner Lamp Test Model",
+    "Fishing Line Stabilizer",
+    "Mini Seelie: Moss"
+  ],
+  "newFurnishings": [],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "All characters in the party gain a 75% Dendro DMG Bonus."
+    ],
+    "floor12Disorder": [],
+    "blessingName": "Phase 1: Efflorescent Moon",
+    "blessingEffect": "After characters deal DMG to opponents with a Dendro Core (including Burgeon and Hyperbloom), their ATK will be increased by 15% for 8s. This effect can stack up to 4 times, and can be triggered once every 0.1s."
   }
 }

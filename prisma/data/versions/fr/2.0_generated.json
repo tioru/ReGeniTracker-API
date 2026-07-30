@@ -1,23 +1,64 @@
 {
   "number": "2.0",
+  "cycleLabel": null,
   "name": "Divinité impitoyable et euthymie éternelle",
+  "subtitle": null,
+  "description": "L'orage d'une terre étrangère fend le ciel, déchire l'immuable. La foudre rompt l'obscurité, la loi divine est omniprésente.<br>Traversez la tempête sans fin, foulez le sol de l'île aux cerisiers et soyez témoins de la quête d'« éternité » de son Excellence.",
   "releaseDate": "2021-07-21",
   "endDate": "2021-09-01",
-  "newCharacters": [
-    "Kamisato Ayaka",
-    "Yoimiya",
-    "Sayu"
-  ],
-  "mapExpansion": [
+  "previousVersion": "1.6",
+  "nextVersion": "2.1",
+  "links": [
     {
-      "mainRegion": "Inazuma",
-      "subRegion": [
-        "Île de Narukami",
-        "Kannazuka",
-        "Île de Yashiori"
-      ]
+      "url": "https://genshin.hoyoverse.com/en/news/detail/14450",
+      "label": "Patch Notes"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=9fd204af957e4b13&mode=fullscreen",
+      "label": "Version 2.0 Preview Page"
+    },
+    {
+      "url": "https://www.hoyolab.com/article/567649",
+      "label": "Update Notice I"
+    },
+    {
+      "url": "https://www.hoyolab.com/article/567638",
+      "label": "Update Notice II"
+    },
+    {
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210715-prepage/index.html",
+      "label": "Version 2.0 Website"
+    },
+    {
+      "url": "https://genshin.hoyoverse.com/en/news/detail/13803",
+      "label": "Developer's Discussion 6/30"
     }
   ],
+  "images": [
+    "Splashscreen The Immovable God and the Eternal Euthymia.png",
+    "Splashscreen Tapestry of Golden Flames.png"
+  ],
+  "newCharacters": [
+    {
+      "name": "Kamisato Ayaka",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Yoimiya",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Sayu",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Claymore"
+    }
+  ],
+  "newOutfits": [],
   "newWeapons": {
     "5Star": [
       "Pulsation du tonnerre",
@@ -33,19 +74,30 @@
   },
   "banners": {
     "characters": [
-      "Prestance du héron",
-      "Draperie d'étincelles dorées"
+      {
+        "name": "Prestance du héron",
+        "featured": "Kamisato Ayaka",
+        "phase": null
+      },
+      {
+        "name": "Draperie d'étincelles dorées",
+        "featured": "Yoimiya & Sayu",
+        "phase": null
+      }
     ],
     "weapons": [
       "Incarnation divine"
     ]
   },
-  "events": [
-    "Fracas du tonnerre",
-    "Richesses perdues",
-    "Theater Mechanicus: Stage of Wonders",
-    "Phantom Flow",
-    "Reflux des lignes énergétiques"
+  "mapExpansion": [
+    {
+      "mainRegion": "Inazuma",
+      "subRegion": [
+        "Île de Narukami",
+        "Kannazuka",
+        "Île de Yashiori"
+      ]
+    }
   ],
   "newDomains": [
     "Cour des sables mouvants",
@@ -55,11 +107,8 @@
     "Pavillon Shakkei",
     "Domaine de formation"
   ],
-  "newArtifacts": [
-    "Emblème du destin brisé",
-    "Réminiscence nostalgique"
-  ],
-  "newEnnemies": {
+  "newSystems": [],
+  "newMonsters": {
     "common": [
       "Oni des mers - Menace de feu",
       "Oni des mers - Danse d'éclairs",
@@ -85,6 +134,20 @@
       "weekly": []
     }
   },
+  "newWildlife": [],
+  "newArtifacts": [
+    "Emblème du destin brisé",
+    "Réminiscence nostalgique"
+  ],
+  "newMaterials": [
+    "Bois de rêve",
+    "Bois d'érable",
+    "Bois de cèdre inazumien",
+    "Bois de dulcinier"
+  ],
+  "newMonsterDrops": [],
+  "newTalentMaterials": [],
+  "newWeaponAscensionMaterials": [],
   "newQuests": {
     "archonQuests": [],
     "storyQuests": [
@@ -138,5 +201,100 @@
       "Temaria Game"
     ],
     "hangoutQuests": []
+  },
+  "events": [
+    "Fracas du tonnerre",
+    "Richesses perdues",
+    "Theater Mechanicus: Stage of Wonders",
+    "Phantom Flow",
+    "Reflux des lignes énergétiques"
+  ],
+  "newRecipes": [
+    "Omelette roulée",
+    "Yakisoba",
+    "Soupe miso",
+    "Tonkotsu ramen",
+    "Sushi au thon",
+    "Dango trois couleurs",
+    "Brochettes trois saveurs",
+    "Ayu grillé",
+    "Onigiris",
+    "Assortiment de sashimis",
+    "Tempuras de sakura",
+    "Kourayaki d'œufs de crabe",
+    "Volaille importée",
+    "Ragoût de Konda",
+    "Soupe de galettes de riz",
+    "Crabe au beurre",
+    "Mochis de fleur de cerisier",
+    "« Neige sur la fournaise »",
+    "Beauté de tout temps",
+    "Poissons du festival d'été",
+    "Dizziness-Be-Gone no Jutsu"
+  ],
+  "newFormulas": [],
+  "newSpecialtyDishes": [],
+  "newAchievements": [
+    "Succès/Promenade dans le monde mortel - Partie II",
+    "Succès/Au défi ! - Partie IV",
+    "Succès/Rencontres dans un autre monde - Partie II",
+    "Succès/Plus qu'un royaume - Partie III",
+    "Succès/Inazuma : Archipel de la foudre éternelle - I",
+    "the Wonders of the World category"
+  ],
+  "newNamecards": [
+    "Thème Inazuma - Cerisier sacré",
+    "Thème PB - Sanctuaire de Narukami",
+    "Thème Kamisato Ayaka - Éventail",
+    "Thème Yoimiya - Étincelle dorée",
+    "Thème Sayu - Daruma Muji-muji",
+    "Thème Inazuma - Armoiries des Kamisato",
+    "Thème Inazuma - Emblème de Raiden",
+    "Thème Succès - Porte",
+    "Thème Succès - Traversée",
+    "Thème Succès - Dragon de pierre",
+    "Thème Succès - Pleine floraison",
+    "Thème Inazuma - Insigne de Kujou",
+    "Thème Célébration - Ingéniosité"
+  ],
+  "newGadgets": [
+    "Boîte à graines",
+    "Éventail à plumes rouges",
+    "Pierre de résonance Électroculus",
+    "Détecteur de trésors Électro",
+    "Lentille de réminiscence",
+    "Mini-fée violette",
+    "Artifact Strongbox: Gladiator's Finale",
+    "Artifact Strongbox: Wanderer's Troupe",
+    "Artifact Strongbox: Bloodstained Chivalry",
+    "Artifact Strongbox: Noblesse Oblige"
+  ],
+  "newFurnishings": [
+    "Champ « Glèbe luxuriant »",
+    "Champ « Zone humide »",
+    "Champ « Plantation de jade »",
+    "Téléporteur intradimensionnel"
+  ],
+  "newFurnishingSets": [],
+  "newBooks": [],
+  "newTcgCards": {
+    "characterCards": [],
+    "actionCards": []
+  },
+  "otherAdditions": [],
+  "imaginariumTheater": null,
+  "spiralAbyss": {
+    "startDateRaw": null,
+    "floor11Disorder": [
+      "dealt by all party members increased by 60%.",
+      "dealt by all party members increased by 60%."
+    ],
+    "floor12Disorder": [
+      "Energy Tides are present in this challenge. They will switch between Elemental High Tide and Elemental Low Tide in 10s cycles.",
+      "During High Tide, a large amount of Elemental Particles will be generated when a character's attack hits opponents, restoring 10 Elemental Energy. This effect can occur once every 2.8s.",
+      "During Low Tide, all characters in the party cannot gain Elemental Energy."
+    ],
+    "blessingName": "Floor 9 Ley Line Disorder changed to:",
+    "blessingEffect": "A Plasma Field will be generated at the edge of the challenge area once the challenge begins. While within the field, characters will be hit by a lightning strike once every 5s and take . The area covered by the field will gradually expand as the challenge proceeds."
   }
 }
