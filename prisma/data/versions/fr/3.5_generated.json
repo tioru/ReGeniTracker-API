@@ -1,0 +1,66 @@
+{
+  "number": "3.5",
+  "name": "Souffle des alizées",
+  "releaseDate": "2023-03-01",
+  "endDate": "2023-04-12",
+  "newCharacters": [
+    "Dehya",
+    "Mika"
+  ],
+  "mapExpansion": [],
+  "newWeapons": {
+    "5Star": [
+      "Balise de la mer de roseaux"
+    ],
+    "4Star": [
+      "Fleur de mailles"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Brasier aurique",
+      "Arbitre du crépuscule",
+      "Prestance du héron",
+      "Retour de la sublimée"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Souffle des alizées",
+    "Spices from the West: Northerly Search",
+    "Théâtre fongique",
+    "Vibro-Crystal Verification",
+    "Reflux des lignes énergétiques"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [],
+    "elite": [
+      "Apôtre de l'Abîme - Frimas",
+      "Chevalier des Serpents noirs - Casseur de pierre"
+    ],
+    "boss": {
+      "normal": [],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [],
+    "worldQuests": [],
+    "hangoutQuests": [
+      {
+        "character": "Faruzan",
+        "acts": [
+          {
+            "act": 1,
+            "name": "A Confounding Conundrum"
+          }
+        ]
+      }
+    ]
+  }
+}

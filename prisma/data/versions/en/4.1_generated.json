@@ -1,0 +1,128 @@
+{
+  "number": "4.1",
+  "name": "To the Stars Shining in the Depths",
+  "releaseDate": "2023-09-27",
+  "endDate": "2023-11-08",
+  "newCharacters": [
+    "Wriothesley",
+    "Neuvillette"
+  ],
+  "mapExpansion": [
+    {
+      "mainRegion": "Liffey Region",
+      "subRegion": []
+    },
+    {
+      "mainRegion": "Fontaine Research Institute of Kinetic Energy Engineering Region",
+      "subRegion": []
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Tome of the Eternal Flow",
+      "Cashflow Supervision"
+    ],
+    "4Star": [
+      "The Dockhand's Assistant",
+      "Portable Power Saw",
+      "Prospector's Drill",
+      "Range Gauge",
+      "Ballad of the Boundless Blue"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Decree of the Deeps",
+      "Moment of Bloom",
+      "Tempestuous Destiny",
+      "Ballad in Goblets"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
+  },
+  "events": [
+    "Waterborne Poetry",
+    "Dodoco's Bomb-Tastic Adventure",
+    "Radiant Harvest",
+    "The Peaks and Troughs of Life",
+    "The Forge Realm's Temper: Clever Strategems",
+    "Overflowing Mastery",
+    "Bathing in Flowing Moonlight",
+    "Treasures Along the Road: A Thank-You Gift"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [
+      "Experimental Field Generator",
+      "Deepwater Assault Mek",
+      "Thorny Cyst"
+    ],
+    "elite": [
+      "Frost Operative",
+      "Wind Operative"
+    ],
+    "boss": {
+      "normal": [
+        "Millennial Pearl Seahorse"
+      ],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [
+      {
+        "chapter": "4",
+        "chapterName": "Chapter IV",
+        "acts": [
+          {
+            "act": 3,
+            "name": "To the Stars Shining in the Depths"
+          },
+          {
+            "act": 4,
+            "name": "Cataclysm's Quickening"
+          }
+        ]
+      }
+    ],
+    "storyQuests": [
+      {
+        "chapter": "Diluvies Chapter",
+        "character": "Neuvillette",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Remains of the Past Day"
+          }
+        ]
+      },
+      {
+        "chapter": "Cerberus Chapter",
+        "character": "Wriothesley",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Reborn in the Land of Grievances"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "Unfinished Comedy Quest Chain",
+      "Fontaine Research Institute Chronicles Quest Chain",
+      "Scenes from Life in Meropide Quest Series",
+      "Villains",
+      "Both Brains and Brawn",
+      "Treacherous Light of the Depths",
+      "Road to the Singularity",
+      "Our Purpose Is in Another Canal",
+      "In Search of Lost Time",
+      "A Letter",
+      "Riddles Awaiting Answers",
+      "Initial Facts"
+    ],
+    "hangoutQuests": []
+  }
+}

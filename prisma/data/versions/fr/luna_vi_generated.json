@@ -1,0 +1,81 @@
+{
+  "number": "Luna VI",
+  "name": "Retour prophétisé",
+  "releaseDate": "2026-04-08",
+  "endDate": "2026-05-20",
+  "newCharacters": [
+    "Linnea"
+  ],
+  "mapExpansion": [
+    {
+      "mainRegion": "Windrest Peak, Mondstadt",
+      "subRegion": []
+    },
+    {
+      "mainRegion": "Temple de l'espace",
+      "subRegion": []
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Serment de gel doré"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Compendium Ya-hoho !",
+      "Transpercement au sillage écarlate",
+      "Chant lunaire des bosquets",
+      "Tentation des sables écarlates",
+      "Quiétude sous la rosée"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Où récifs et vagues se rencontrent",
+    "Cinégraphie rapide",
+    "Mesures topographiques et cartographiques",
+    "Reflux des lignes énergétiques"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [
+      "Churldric",
+      "\"Prince Mahavasudeva-Yava\""
+    ],
+    "elite": [
+      "Protecteur du royaume"
+    ],
+    "boss": {
+      "normal": [
+        "Veilleur : Veille déchue"
+      ],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Alcyon",
+        "character": "Linnea",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Up! Toward Homecoming Wings"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "A Long Day in the Mountains quest series",
+      "Le sanglier s'arrêtant pour les fleurs",
+      "Submerged Dragon, Soaring Phoenix",
+      "Winds Beneath the Tower of Silence"
+    ],
+    "hangoutQuests": []
+  }
+}

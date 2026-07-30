@@ -1,0 +1,91 @@
+{
+  "number": "1.2",
+  "name": "Craie et Dragon",
+  "releaseDate": "2020-12-23",
+  "endDate": "2021-02-03",
+  "newCharacters": [
+    "Albedo",
+    "Ganyu"
+  ],
+  "mapExpansion": [
+    {
+      "mainRegion": "Monts Dosdragon",
+      "subRegion": [
+        "New Feature of Dragonspine - Frostbearing Tree",
+        "New Domain of Dragonspine - Peak of Vindagnyr"
+      ]
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Tranche-sommets"
+    ],
+    "4Star": [
+      "Croc suppurant",
+      "Tombe-neige en argétoile",
+      "Lance Dosdragon",
+      "Fruit du permafrost"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Nouvelles mystérieuses",
+      "Doute passager"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Craie et Dragon",
+    "Richesses perdues",
+    "Symphonie Hypostase",
+    "Merveilleuses marchandises"
+  ],
+  "newDomains": [],
+  "newArtifacts": [
+    "Briseur de glace",
+    "Âme des profondeurs"
+  ],
+  "newEnnemies": {
+    "common": [
+      "Brutoshaman Cryo",
+      "Brutocollinus avec bouclier de glace",
+      "Grenadier Brutocollinus Cryo",
+      "Cryoluciole"
+    ],
+    "elite": [
+      "Brutoviandu avec bouclier de glace",
+      "Chef Brutogivré",
+      "Mage cryoluciole des Fatui",
+      "Colosse des ruines"
+    ],
+    "boss": {
+      "normal": [],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [],
+    "worldQuests": [
+      "La créature des montagnes",
+      "Dent suppurante",
+      "Enquête alpestre",
+      "Enquête alpestre, bis",
+      "Royaume sous les neiges",
+      "Richesses de Dosdragon",
+      "Attention, c'est froid !",
+      "Viande (assez) fraîche",
+      "Return of the Jade Chamber?",
+      "Fishing for Jade",
+      "Snapshots",
+      "Tant que les fleurs sont fraîches...",
+      "La fraîcheur des fleurs",
+      "Rations d'urgence",
+      "À moitié congelé",
+      "Eat It While It's Hot"
+    ],
+    "hangoutQuests": []
+  }
+}

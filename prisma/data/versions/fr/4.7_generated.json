@@ -1,0 +1,78 @@
+{
+  "number": "4.7",
+  "name": "Un éternel rêve entrelacé",
+  "releaseDate": "2024-06-05",
+  "endDate": "2024-07-17",
+  "newCharacters": [
+    "Clorinde",
+    "Sigewinne",
+    "Sethos"
+  ],
+  "mapExpansion": [],
+  "newWeapons": {
+    "5Star": [
+      "Absolution",
+      "Corde de pluie blanche"
+    ],
+    "4Star": [
+      "Nimbus-forgé"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Éclair illuminant",
+      "Prudence en toute confidence",
+      "Mélusinité romaritime",
+      "Chant de toutes les eaux"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Simulation d'amélioration de sécurité mutuelle",
+    "Formes infinies les plus martiales",
+    "Doubles turbulences en plein air",
+    "Recueil d'écrits méditatifs",
+    "Reflux des lignes énergétiques"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [],
+    "elite": [],
+    "boss": {
+      "normal": [],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Rapperia",
+        "character": "Clorinde",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Silent Night"
+          }
+        ]
+      },
+      {
+        "chapter": "Nereides",
+        "character": "Sigewinne",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Warmth of Lies"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "Une histoire sans début ni fin"
+    ],
+    "hangoutQuests": []
+  }
+}

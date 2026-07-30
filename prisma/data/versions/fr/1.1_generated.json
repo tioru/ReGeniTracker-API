@@ -1,0 +1,90 @@
+{
+  "number": "1.1",
+  "name": "Une étoile en approche",
+  "releaseDate": "2020-11-11",
+  "endDate": "2020-12-23",
+  "newCharacters": [
+    "Tartaglia",
+    "Diona",
+    "Zhongli",
+    "Xinyan"
+  ],
+  "mapExpansion": [],
+  "newWeapons": {
+    "5Star": [
+      "Chaînes mortelles",
+      "Perceur prismatique",
+      "Lame brute"
+    ],
+    "4Star": [
+      "Lance de chasse royale"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Adieux au Nord",
+      "Monts et marchés"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Astres évanouis",
+    "Hymne fervent",
+    "Défi de planage",
+    "Servir chaud"
+  ],
+  "newDomains": [
+    "Entrer dans la Chambre d'Or"
+  ],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [
+      "Brutocollinus étrange"
+    ],
+    "elite": [],
+    "boss": {
+      "normal": [],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Monoceros Caeli",
+        "character": "Tartaglia",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Mighty Cyclops' Adventure!"
+          }
+        ]
+      },
+      {
+        "chapter": "Historia Antiqua",
+        "character": "Zhongli",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Sal Flore"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "Affaires de la Guilde des aventuriers",
+      "Necessary Procedures",
+      "Words Worth Their Weight in Mora",
+      "Changchang's Little Friend",
+      "The Secret of Nantianmen",
+      "An Ode to Yonder City",
+      "Endless Research",
+      "Chevalier de Mondstadt",
+      "L'art de miner",
+      "Ministry Missions"
+    ],
+    "hangoutQuests": []
+  }
+}

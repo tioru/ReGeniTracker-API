@@ -1,0 +1,142 @@
+{
+  "number": "2.0",
+  "name": "The Immovable God and the Eternal Euthymia",
+  "releaseDate": "2021-07-21",
+  "endDate": "2021-09-01",
+  "newCharacters": [
+    "Kamisato Ayaka",
+    "Yoimiya",
+    "Sayu"
+  ],
+  "mapExpansion": [
+    {
+      "mainRegion": "Inazuma",
+      "subRegion": [
+        "Narukami Island",
+        "Kannazuka",
+        "Yashiori Island"
+      ]
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Thundering Pulse",
+      "Mistsplitter Reforged"
+    ],
+    "4Star": [
+      "Hamayumi",
+      "Amenoma Kageuchi",
+      "Kitain Cross Spear",
+      "Katsuragikiri Nagamasa",
+      "Hakushin Ring"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "The Heron's Court",
+      "Tapestry of Golden Flames"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
+  },
+  "events": [
+    "Thunder Sojourn",
+    "Lost Riches",
+    "Theater Mechanicus: Stage of Wonders",
+    "Phantom Flow",
+    "Ley Line Overflow"
+  ],
+  "newDomains": [
+    "Court of Flowing Sand",
+    "Violet Court",
+    "Momiji-Dyed Court",
+    "Empty Boat of a Thousand Gates",
+    "Shakkei Pavilion",
+    "Formation Estate"
+  ],
+  "newArtifacts": [
+    "Emblem of Severed Fate",
+    "Shimenawa's Reminiscence"
+  ],
+  "newEnnemies": {
+    "common": [
+      "Kairagi: Fiery Might",
+      "Kairagi: Dancing Thunder",
+      "Nobushi: Hitsukeban",
+      "Nobushi: Jintouban",
+      "Nobushi: Kikouban",
+      "Ruin Sentinel",
+      "Electro Hilichurl Grenadier",
+      "Electro Samachurl",
+      "Electro Whopperflower"
+    ],
+    "elite": [
+      "Mirror Maiden",
+      "Crackling Axe Mitachurl",
+      "Electro Abyss Mage",
+      "Thunderhelm Lawachurl"
+    ],
+    "boss": {
+      "normal": [
+        "Pyro Hypostasis",
+        "Perpetual Mechanical Array"
+      ],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Grus Nivis Chapter",
+        "character": "Kamisato Ayaka",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Whispers of the Crane and the White Rabbit"
+          }
+        ]
+      },
+      {
+        "chapter": "Carassius Auratus Chapter",
+        "character": "Yoimiya",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Dreamlike Timelessness"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "The Art of Horticulture",
+      "Sacred Sakura Cleansing Ritual",
+      "The Farmer's Treasure",
+      "Hiromi's Watch",
+      "The Gourmet Supremos",
+      "Tatara Tales",
+      "\"The Seventh Samurai\"",
+      "Sakura Arborism",
+      "Dreams of Sword Art",
+      "Orobashi's Legacy",
+      "Fate of a Fighter",
+      "Gazing Three Thousand Miles Away",
+      "Treatment on the Island",
+      "Sinister Instruction",
+      "Yae Publishing House's Invitation",
+      "Chisato's Letter",
+      "O Archon, Have I Done Right?",
+      "International Travel Log",
+      "Home Lies Over the Ocean",
+      "In Another Land",
+      "Battle of Revenge",
+      "Pizza From Another Land",
+      "The Ritou Road",
+      "Katheryne in Inazuma",
+      "The Commission's Commission",
+      "Temaria Game"
+    ],
+    "hangoutQuests": []
+  }
+}

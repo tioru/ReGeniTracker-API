@@ -1,0 +1,124 @@
+{
+  "number": "3.1",
+  "name": "Le roi Deshret et les trois mages",
+  "releaseDate": "2022-09-28",
+  "endDate": "2022-11-02",
+  "newCharacters": [
+    "Cyno",
+    "Nilou",
+    "Candace"
+  ],
+  "mapExpansion": [],
+  "newWeapons": {
+    "5Star": [
+      "Clé de Khaj-Nisut",
+      "Bâton des sables écarlates"
+    ],
+    "4Star": [
+      "Clair de lune de Xiphos",
+      "Aigue-marine de Makhaira",
+      "Étoile du soir errante",
+      "Lance du vent saisonnier"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Arbitre du crépuscule",
+      "Ballade en pintes",
+      "Lotus tournoyant",
+      "Nouvelles mystérieuses"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Ballades et ambroisies",
+    "Chasse aux vents",
+    "Périple à la recherche des étoiles",
+    "Hyakunin Ikki",
+    "Chemin de jade étincelant",
+    "Anniversaire/Genshin Impact/2",
+    "Curtain of Leaves - Spiral Abyss Challenge"
+  ],
+  "newDomains": [
+    "Jardin des piliers infinis",
+    "Seuil des sables écarlates",
+    "Autel des mirages"
+  ],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [
+      "Chasseuse éventée des Érémites",
+      "Enchanteur graveleux des Érémites",
+      "Fongus Anémo flottant",
+      "Fongus Pyro tournoyant",
+      "Fongus Électro extensible",
+      "Champigéo terré"
+    ],
+    "elite": [
+      "Structure primale : Prospecteur",
+      "Structure primale : Répulseur",
+      "Structure primale : Remodeleur"
+    ],
+    "boss": {
+      "normal": [
+        "Dragon cataclysmique",
+        "Algorithme de semi-intransition matriciaire d'observation en néo-réseau"
+      ],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [
+      {
+        "chapter": "3",
+        "chapterName": "Chapitre III:",
+        "acts": [
+          {
+            "act": 3,
+            "name": "Dreams, Emptiness, Deception"
+          },
+          {
+            "act": 4,
+            "name": "King Deshret and the Three Magi"
+          }
+        ]
+      }
+    ],
+    "storyQuests": [
+      {
+        "chapter": "Lupus Aureus",
+        "character": "Cyno",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Les sables de la solitude"
+          }
+        ]
+      },
+      {
+        "chapter": "Lotos Somno",
+        "character": "Nilou",
+        "acts": [
+          {
+            "act": 1,
+            "name": "To the Wise"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "Golden Slumber Quest Chain",
+      "Old Notes and New Friends Quest Chain",
+      "Afratu's Dilemma",
+      "The Exile Quest Chain",
+      "A Gifted Rose Quest Chain",
+      "Join the Eremites and Embrace a Wonderful New Life!",
+      "Blooming Sands",
+      "Gourmet Supremos: Within Our Duties<ref group=\"Note>Released in Version 3.0, but was only made accessible in 3.1.</ref>",
+      "Gourmet Supremos: Cleanup"
+    ],
+    "hangoutQuests": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "number": "3.8",
+  "name": "Un paradis estival mystérieux !",
+  "releaseDate": "2023-07-05",
+  "endDate": "2023-08-16",
+  "newCharacters": [],
+  "mapExpansion": [],
+  "newWeapons": {},
+  "banners": {
+    "characters": [
+      "Flots dansants",
+      "Foulées étincelantes",
+      "Luminescence à la dérive",
+      "Renaissant des cendres"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Paradis estival mystérieux !",
+    "Vision partagée",
+    "Prospection périlleuse",
+    "Adventurer's Trials: Advanced",
+    "The Forge Realm's Temper: Endless Swarm",
+    "Abondance de maîtrise"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [],
+    "elite": [],
+    "boss": {
+      "normal": [],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [],
+    "worldQuests": [
+      "Purbiruni's Commandment",
+      "Recollections of a Fontainian",
+      "A Starry Night, as Remembered",
+      "Daiya's Three-Day Reverie",
+      "Returning Curios",
+      "Capturing Light and Shadow"
+    ],
+    "hangoutQuests": [
+      {
+        "character": "Kaeya",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Shenanigans and Sweet Wine"
+          }
+        ]
+      }
+    ]
+  }
+}

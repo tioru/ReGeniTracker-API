@@ -1,0 +1,88 @@
+{
+  "number": "5.3",
+  "name": "Ode à la résurrection incandescente",
+  "releaseDate": "2025-01-01",
+  "endDate": "2025-02-12",
+  "newCharacters": [
+    "Mavuika",
+    "Citlali",
+    "Lan Yan"
+  ],
+  "mapExpansion": [],
+  "newWeapons": {
+    "5Star": [
+      "Mille soleils brûlants",
+      "Veillée d'appel d'étoiles"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Embrasement du feu ancien",
+      "Murmures d'une nuit étoilée",
+      "L'ombre cendrée de l'âtre",
+      "Éclair illuminant",
+      "Mémoire des jades et des pierres",
+      "Characters: Baizhu, Shenhe, Keqing, Ganyu, Xiao, Tartaglia, Qiqi",
+      "Weapons: Primordial Jade Cutter, Summit Shaper, The Unforged, Calamity Queller, Primordial Jade Winged-Spear, Jadefall's Splendor, Memory of Dust, Polar Star, Amos' Bow"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Festival des lanternes/Talismans printaniers",
+    "Lantern-Lit Gathering",
+    "May Fortune Find You: Spring's Premonition",
+    "Preuve d'une bravoure sans faille",
+    "Sur la piste des béhémoths",
+    "Chaotique castagne de scarabées de Shuyu",
+    "Abondance de prospérité",
+    "Comme le soleil brûlant (événement)",
+    "Souvenirs regorgeant de couleurs (événement)"
+  ],
+  "newDomains": [
+    "Registre de stèle"
+  ],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [],
+    "elite": [],
+    "boss": {
+      "normal": [
+        "Spiritoratrice excentrique isolée"
+      ],
+      "weekly": [
+        "Érodé seigneur du feu primordial"
+      ]
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Sol Invictus",
+        "character": "Mavuika",
+        "acts": [
+          {
+            "act": 1,
+            "name": "As the Blazing Sun"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "Pour la brise de la liberté"
+    ],
+    "hangoutQuests": [
+      {
+        "character": "Memories Flowing With Color",
+        "acts": [
+          {
+            "act": 3,
+            "name": "The Truth of the Battle of Seven Colors"
+          }
+        ]
+      }
+    ]
+  }
+}

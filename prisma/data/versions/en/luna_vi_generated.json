@@ -1,0 +1,81 @@
+{
+  "number": "Luna VI",
+  "name": "Augured Homecoming",
+  "releaseDate": "2026-04-08",
+  "endDate": "2026-05-20",
+  "newCharacters": [
+    "Linnea"
+  ],
+  "mapExpansion": [
+    {
+      "mainRegion": "Windrest Peak, Mondstadt",
+      "subRegion": []
+    },
+    {
+      "mainRegion": "Temple of Space",
+      "subRegion": []
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Golden Frostbound Oath"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Ya-hoho! Compendium",
+      "Piercing Shot's Crimson Wake",
+      "Moonsong of the Groves",
+      "Temptation of the Crimson Sands",
+      "Dewlit Tranquility"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
+  },
+  "events": [
+    "Where Waves Meet the Reef",
+    "Rapid Capture",
+    "Surveying & Mapping Studies",
+    "Ley Line Overflow"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [
+      "Churldric",
+      "\"Prince Mahavasudeva-Yava\""
+    ],
+    "elite": [
+      "Domain Keeper"
+    ],
+    "boss": {
+      "normal": [
+        "The Open-Eyed"
+      ],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Alcyon Chapter",
+        "character": "Linnea",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Up! Toward Homecoming Wings"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "A Long Day in the Mountains quest series",
+      "Forest Boar Pauses for the Bloom",
+      "Submerged Dragon, Soaring Phoenix",
+      "Winds Beneath the Tower of Silence"
+    ],
+    "hangoutQuests": []
+  }
+}

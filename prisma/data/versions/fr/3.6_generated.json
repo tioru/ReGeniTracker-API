@@ -1,0 +1,115 @@
+{
+  "number": "3.6",
+  "name": "Célébration de la providence",
+  "releaseDate": "2023-04-12",
+  "endDate": "2023-05-24",
+  "newCharacters": [
+    "Baizhu",
+    "Kaveh"
+  ],
+  "mapExpansion": [
+    {
+      "mainRegion": "Gavireh Lajavard, Girdle of the Sands, Sumeru",
+      "subRegion": []
+    },
+    {
+      "mainRegion": "Realm of Farakhkert, Girdle of the Sands, Sumeru",
+      "subRegion": []
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Splendeur de l'azur"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Dessillement de l'herbe lunaire",
+      "Lotus tournoyant",
+      "Pouls immaculé",
+      "Doute passager"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Célébration de la providence",
+    "Sables vociférants",
+    "Développement de mixtions",
+    "Abondance de maîtrise",
+    "Chemin des souvenirs passés"
+  ],
+  "newDomains": [
+    "Forteresse de fer en fusion",
+    "Mer intérieure de somalatas",
+    "Source d'expiation",
+    "Royaume des commencements"
+  ],
+  "newArtifacts": [
+    "Rêve de la nymphe",
+    "Lueur du vourukasha"
+  ],
+  "newEnnemies": {
+    "common": [],
+    "elite": [
+      "Brutovéreux Anémo",
+      "Brutovéreux Hydro",
+      "Caniné sacralisé",
+      "Crococornu sacralisé"
+    ],
+    "boss": {
+      "normal": [
+        "Lustrateur inique"
+      ],
+      "weekly": [
+        "Garde de l'oasis d'Apep"
+      ]
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Lagenaria",
+        "character": "Baizhu",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Heart of Healing"
+          }
+        ]
+      },
+      {
+        "chapter": "Sapientia Oromasdis",
+        "character": "Nahida",
+        "acts": [
+          {
+            "act": 2,
+            "name": "Retour à la maison"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "An Artist Adrift",
+      "Another Home There May Yet Be",
+      "Heart of Amrita",
+      "Khvarena of Good and Evil Quest Chain",
+      "Lightcall Resonance",
+      "Monumental Study Quest Chain",
+      "Pale Fire Quest Chain"
+    ],
+    "hangoutQuests": [
+      {
+        "character": "Layla",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Ever Silent Stars"
+          }
+        ]
+      }
+    ]
+  }
+}

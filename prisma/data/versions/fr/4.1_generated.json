@@ -1,0 +1,128 @@
+{
+  "number": "4.1",
+  "name": "Vers les étoiles brillant dans les profondeurs",
+  "releaseDate": "2023-09-27",
+  "endDate": "2023-11-08",
+  "newCharacters": [
+    "Wriothesley",
+    "Neuvillette"
+  ],
+  "mapExpansion": [
+    {
+      "mainRegion": "Région de Liffey",
+      "subRegion": []
+    },
+    {
+      "mainRegion": "Région de l'Institut de recherche d'ingénierie cinétique de Fontaine",
+      "subRegion": []
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Tome du flux éternel",
+      "Supervision de trésorerie"
+    ],
+    "4Star": [
+      "L'assistant du docker",
+      "Scie électrique portative",
+      "Foret de prospecteur",
+      "Jauge de portée",
+      "Ballade d'un azur infini"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Décret des profondeurs",
+      "Floraison écarlate",
+      "Destin tumultueux",
+      "Ballade en pintes"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Poésie sur eau",
+    "Aventure extravaboum de Dodoco",
+    "Collecte luminescente",
+    "Aléas de la vie",
+    "The Forge Realm's Temper: Clever Strategems",
+    "Abondance de maîtrise",
+    "Réflectance lunaire",
+    "Anniversaire/Genshin Impact/3"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [
+      "Experimental Field Generator",
+      "Mek d'assaut",
+      "Thorny Cyst"
+    ],
+    "elite": [
+      "Opérateur Fatui du givre",
+      "Opérateur Fatui du vent"
+    ],
+    "boss": {
+      "normal": [
+        "Hippocampe perlé millénaire"
+      ],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [
+      {
+        "chapter": "4",
+        "chapterName": "Chapitre IV",
+        "acts": [
+          {
+            "act": 3,
+            "name": "To the Stars Shining in the Depths"
+          },
+          {
+            "act": 4,
+            "name": "Cataclysm's Quickening"
+          }
+        ]
+      }
+    ],
+    "storyQuests": [
+      {
+        "chapter": "Diluvies",
+        "character": "Neuvillette",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Remains of the Past Day"
+          }
+        ]
+      },
+      {
+        "chapter": "Cerberus",
+        "character": "Wriothesley",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Reborn in the Land of Grievances"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "Unfinished Comedy Quest Chain",
+      "Fontaine Research Institute Chronicles Quest Chain",
+      "Scenes from Life in Meropide Quest Series",
+      "Villains",
+      "Both Brains and Brawn",
+      "Treacherous Light of the Depths",
+      "Road to the Singularity",
+      "Our Purpose Is in Another Canal",
+      "In Search of Lost Time",
+      "A Letter",
+      "Riddles Awaiting Answers",
+      "Initial Facts"
+    ],
+    "hangoutQuests": []
+  }
+}

@@ -373,7 +373,7 @@ function extractSubsection(wikitext: string, label: string): string {
 
 function extractMonsterNames(section: string): string[] {
   const names: string[] = [];
-  const lines = section.split('\n').filter((l) => /^\*+\s/.test(l));
+  const lines = section.split('\n').filter((l) => /^\*+\s*/.test(l));
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
@@ -476,7 +476,7 @@ function mergeWeapons(
 function parseCharacters(section: string): string[] {
   return section
     .split('\n')
-    .filter((line) => /^\*{1}\s/.test(line))
+    .filter((line) => /^\*{1}\s*/.test(line))
     .map((line) => {
       const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
       // Format: "Title" Name (X-Star Element Weapon)
@@ -505,7 +505,7 @@ function parseWeapons(section: string): VersionData['newWeapons'] {
   // Prend TOUS les niveaux (1 et 2) qui contiennent un pattern de rareté
   section
     .split('\n')
-    .filter((line) => /^\*+\s/.test(line))
+    .filter((line) => /^\*+\s*/.test(line))
     .forEach((line) => {
       const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
 
@@ -538,7 +538,7 @@ function parseBanners(section: string): VersionData['banners'] {
   // Filtre uniquement les lignes ** (niveau 2) et ignore les [[File:...]]
   section
     .split('\n')
-    .filter((line) => /^\*{2}\s/.test(line) && !line.includes('[[File:'))
+    .filter((line) => /^\*{2}\s*/.test(line) && !line.includes('[[File:'))
     .forEach((line) => {
       const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
       if (!clean) return;
@@ -559,7 +559,7 @@ function parseBanners(section: string): VersionData['banners'] {
 function parseSimpleList(section: string): string[] {
   return section
     .split('\n')
-    .filter((line) => /^\*{1}\s/.test(line))
+    .filter((line) => /^\*{1}\s*/.test(line))
     .map((line) => cleanWikiLink(line.replace(/^\*+\s*/, '')))
     .filter(Boolean);
 }
@@ -600,7 +600,7 @@ function parseQuests(section: string): VersionData['newQuests'] {
     hangoutQuests: [],
   };
 
-  const lines = section.split('\n').filter((l) => /^\*+\s/.test(l));
+  const lines = section.split('\n').filter((l) => /^\*+\s*/.test(l));
 
   let currentChapterName = '';
   let currentSection = '';
@@ -827,7 +827,7 @@ function parseMapExpansion(section: string): MapExpansion[] {
 
   section
     .split('\n')
-    .filter((line) => /^\*+\s/.test(line))
+    .filter((line) => /^\*+\s*/.test(line))
     .forEach((line) => {
       const depth = (line.match(/^\*+/) ?? [''])[0].length;
       const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
@@ -925,7 +925,12 @@ async function scrapeVersion(versionNumber: string): Promise<VersionData> {
         extractSubsection(newContentSection, 'New Areas'),
     ),
     newWeapons: mergeWeapons(
-      parseWeapons(extractSubsection(newContentSection, 'New Weapons')),
+      // "New Equipment" : libellé utilisé sur les pages de version ~1.2-1.6,
+      // remplacé par "New Weapons" sur les versions plus récentes.
+      mergeWeapons(
+        parseWeapons(extractSubsection(newContentSection, 'New Weapons')),
+        parseWeapons(extractSubsection(newContentSection, 'New Equipment')),
+      ),
       parseWeapons(
         extractSubsection(newContentSection, 'New Forgeable Weapons'),
       ),
@@ -945,6 +950,17 @@ async function scrapeVersion(versionNumber: string): Promise<VersionData> {
     newEnnemies: ennemies,
     newQuests: parseQuests(extractSubsection(newContentSection, 'New Quests')),
   };
+}
+
+// Nom de fichier sûr pour les identifiants de version non numériques (ex:
+// "Luna I" → "luna_i"), qui contiendraient sinon un espace dans le nom de
+// fichier. Le champ "number" dans le JSON garde lui la valeur d'origine.
+function slugifyVersionFilename(version: string): string {
+  return version
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9.]+/g, '_')
+    .replace(/^_+|_+$/g, '');
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
@@ -967,13 +983,14 @@ async function main() {
   for (const version of versions) {
     try {
       const data = await scrapeVersion(version);
-      const enPath = path.join(enDir, `${version}_generated.json`);
+      const filename = `${slugifyVersionFilename(version)}_generated.json`;
+      const enPath = path.join(enDir, filename);
       fs.writeFileSync(enPath, JSON.stringify(data, null, 2), 'utf-8');
       console.log(`✅ Version ${version} (en) → ${enPath}`);
 
       const frData = await buildFrVersionData(data, version);
       if (frData) {
-        const frPath = path.join(frDir, `${version}_generated.json`);
+        const frPath = path.join(frDir, filename);
         fs.writeFileSync(frPath, JSON.stringify(frData, null, 2), 'utf-8');
         console.log(`✅ Version ${version} (fr) → ${frPath}`);
       }

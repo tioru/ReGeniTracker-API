@@ -1,0 +1,75 @@
+{
+  "number": "2.5",
+  "name": "Quand les sakura fleurissent",
+  "releaseDate": "2022-02-16",
+  "endDate": "2022-03-30",
+  "newCharacters": [
+    "Yae Miko"
+  ],
+  "mapExpansion": [],
+  "newWeapons": {
+    "5Star": [
+      "Vérité de Kagura"
+    ],
+    "4Star": [
+      "Œil d'assermentation"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Infinité violette",
+      "Règne de sérénité",
+      "Luminescence à la dérive"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Three Realms Gateway Offering",
+    "Ingéniosité divine",
+    "Une gorgée d'un rêve d'ivresse",
+    "Hyakunin Ikki",
+    "Abondance de maîtrise"
+  ],
+  "newDomains": [
+    "Trounce Domain",
+    "Fin de l'euthymie onirique"
+  ],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [],
+    "elite": [],
+    "boss": {
+      "normal": [],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Imperatrix Umbrosa",
+        "character": "Raiden Shogun",
+        "acts": [
+          {
+            "act": 2,
+            "name": "\"Transient Dreams\""
+          }
+        ]
+      },
+      {
+        "chapter": "Divina Vulpes",
+        "character": "Yae Miko",
+        "acts": [
+          {
+            "act": 1,
+            "name": "\"The Great Narukami Offering\""
+          }
+        ]
+      }
+    ],
+    "worldQuests": [],
+    "hangoutQuests": []
+  }
+}

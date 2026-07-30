@@ -1,0 +1,102 @@
+{
+  "number": "4.4",
+  "name": "Busards colorés dans la brise printanière",
+  "releaseDate": "2024-01-31",
+  "endDate": "2024-03-13",
+  "newCharacters": [
+    "Xianyun",
+    "Gaming"
+  ],
+  "mapExpansion": [
+    {
+      "mainRegion": "Chenyu Vale, Liyue",
+      "subRegion": [
+        "Vallon Chenyu : Vallon supérieur",
+        "Vallon Chenyu : Mont du sud",
+        "Mont Laixin"
+      ]
+    },
+    {
+      "mainRegion": "Locations",
+      "subRegion": [
+        "Village de Qiaoying",
+        "Port Yilong",
+        "Antre jadéique",
+        "Mont Lingmeng",
+        "Vallée Yaodie",
+        "Mont Xuanlian",
+        "Rempart de Chizhang"
+      ]
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Écho de la grue"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "La grue s'envole vers les cieux",
+      "Dessillement de l'herbe lunaire",
+      "Invitation scintillante",
+      "Infinité violette"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Festival des lanternes/Busards colorés dans la brise printanière",
+    "Richesses honorables",
+    "Of Kites and New Sights",
+    "Hôte d'exception",
+    "Périple sur un terrain brutonigmatique",
+    "Frénésie triomphale",
+    "Abondance de maîtrise"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [],
+    "elite": [
+      "Bête de Xuanwen"
+    ],
+    "boss": {
+      "normal": [
+        "Suanni solitaire"
+      ],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Grus Serena",
+        "character": "Xianyun",
+        "acts": [
+          {
+            "act": 1,
+            "name": "A Thousand Moonlit Miles"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "Chenyu's Blessings of Sunken Jade Quest Chain",
+      "The Cloud-Padded Path to the Chiwang Repose",
+      "Threefold Expectations",
+      "Promenade inoubliable sur la montagne céleste",
+      "Parchemins et manuels de Guhua",
+      "Héros caché de la vallée secrète",
+      "The Roaming Abode",
+      "The Dealing Sands",
+      "Our Chenyu Vale Trek",
+      "Chili Con Cloudy",
+      "Qiaoying, the Village of Many Tales",
+      "Acclimatation temporaire",
+      "Silently the Butterfly Crosses the Valley"
+    ],
+    "hangoutQuests": []
+  }
+}

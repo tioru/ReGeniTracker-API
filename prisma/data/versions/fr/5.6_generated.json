@@ -1,0 +1,72 @@
+{
+  "number": "5.6",
+  "name": "Paralogisme",
+  "releaseDate": "2025-05-07",
+  "endDate": "2025-06-18",
+  "newCharacters": [
+    "Escoffier",
+    "Ifa"
+  ],
+  "mapExpansion": [],
+  "newWeapons": {
+    "5Star": [
+      "Symphoniste des senteurs"
+    ],
+    "4Star": [
+      "Séquence de solitude"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "La chanson cerise",
+      "Au nom de la Rosula",
+      "Recherche de secrets nés du feu",
+      "Règne de sérénité",
+      "Tonnerre déchirant les hautes plaines",
+      "Characters: Kamisato Ayaka, Kamisato Ayato, Yoimiya, Chiori, Yae Miko, Arataki Itto, Sangonomiya Kokomi, Kaedehara Kazuha",
+      "Weapons: Uraku Misugiri, Haran Geppaku Futsu, Mistsplitter Reforged, Freedom-Sworn, Redhorn Stonethresher, Kagura's Verity, Everlasting Moonglow, Thundering Pulse"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Valse virevoltante",
+    "Simulation de déluge déchaîné",
+    "Légendes brûlantes : Baston transfrontalière",
+    "Chronique des stratagèmes changeants",
+    "Reflux des lignes énergétiques",
+    "Plus précieux que tout (événement)"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [],
+    "elite": [],
+    "boss": {
+      "normal": [
+        "Automate de source secrète : Surveillant"
+      ],
+      "weekly": [
+        "Jeu d'échecs devant la porte"
+      ]
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Dulciaria Structura",
+        "character": "Escoffier",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Treasured Above All"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [],
+    "hangoutQuests": []
+  }
+}

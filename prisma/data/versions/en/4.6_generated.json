@@ -1,0 +1,102 @@
+{
+  "number": "4.6",
+  "name": "Two Worlds Aflame, the Crimson Night Fades",
+  "releaseDate": "2024-04-24",
+  "endDate": "2024-06-05",
+  "newCharacters": [
+    "Arlecchino"
+  ],
+  "mapExpansion": [
+    {
+      "mainRegion": "Sea of Bygone Eras",
+      "subRegion": [
+        "Remuria's remains"
+      ]
+    },
+    {
+      "mainRegion": "Nostoi Region",
+      "subRegion": [
+        "Petrichor",
+        "Faded Castle"
+      ]
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Crimson Moon's Semblance"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "The Hearth's Ashen Shadow",
+      "Conjuring Chiaroscuro",
+      "From Ashes Reborn",
+      "Immaculate Pulse"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
+  },
+  "events": [
+    "Iridescent Arataki Rockin' For Life Tour de Force of Awesomeness",
+    "Windtrace: Seekers and Strategy",
+    "Specially-Shaped Saurian Search",
+    "Vibro-Crystal Applications",
+    "Overflowing Mastery"
+  ],
+  "newDomains": [
+    "Faded Theater",
+    "Scattered Ruins"
+  ],
+  "newArtifacts": [
+    "Unfinished Reverie",
+    "Fragment of Harmonic Whimsy"
+  ],
+  "newEnnemies": {
+    "common": [],
+    "elite": [
+      "Praetorian Golem"
+    ],
+    "boss": {
+      "normal": [
+        "\"Statue of Marble and Brass\""
+      ],
+      "weekly": [
+        "The Knave"
+      ]
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Ignis Purgatorius Chapter",
+        "character": "Arlecchino",
+        "acts": [
+          {
+            "act": 1,
+            "name": "When the Hearth-Flame Goes Out"
+          }
+        ]
+      },
+      {
+        "chapter": "Lupus Aureus Chapter",
+        "character": "Cyno",
+        "acts": [
+          {
+            "act": 2,
+            "name": "Oathkeeper"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "Canticles of Harmony Quest Chain",
+      "For Yesterday and Tomorrow",
+      "Latecoming Homecoming",
+      "Where His Life Lies",
+      "Daydreams Beyond Space and Time"
+    ],
+    "hangoutQuests": []
+  }
+}

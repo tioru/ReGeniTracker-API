@@ -1,0 +1,164 @@
+{
+  "number": "3.0",
+  "name": "The Morn a Thousand Roses Brings",
+  "releaseDate": "2022-08-24",
+  "endDate": "2022-09-28",
+  "newCharacters": [
+    "Tighnari",
+    "Collei",
+    "Dori"
+  ],
+  "mapExpansion": [
+    {
+      "mainRegion": "Sumeru",
+      "subRegion": [
+        "Forêt d'Avidya",
+        "Selve de Lokapala",
+        "Vallée d'Ardravi",
+        "Royaume d'Ashavan",
+        "Champ de Vissudha",
+        "Vanarana",
+        "Pépinière perdue"
+      ]
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "La voie du chasseur"
+    ],
+    "4Star": [
+      "Chalutier",
+      "Le valet du roi",
+      "Lame d'aubier",
+      "Perce-lune",
+      "Apparat de la forêt",
+      "Le fruit de l'accomplissement"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Veillée écologique",
+      "Monts et marchés",
+      "Doute passager",
+      "Luminescence à la dérive"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Sculpture d'innocence",
+    "Fayz Trials",
+    "Analyse de tablettes",
+    "Richesses perdues",
+    "Reflux des lignes énergétiques"
+  ],
+  "newDomains": [
+    "Tour de la fierté",
+    "Tour de l'ignorance",
+    "Tour de l'illumination",
+    "Ombre du parasol",
+    "Fragment d'enfance",
+    "Coordonnées du soleil et de la pluie",
+    "Vallée des ténèbres"
+  ],
+  "newArtifacts": [
+    "Souvenir de forêt",
+    "Rêve doré"
+  ],
+  "newEnnemies": {
+    "common": [
+      "Fongus Dendro flottant",
+      "Fongus Électro tournoyant",
+      "Fongus Cryo tournoyant",
+      "Fongus Pyro extensible",
+      "Fongus Anémo extensible",
+      "Fongus Géo extensible",
+      "Champihydro terré",
+      "Champidendro ailé",
+      "Champicryo ailé",
+      "Lanceuse de hache des Érémites",
+      "Arbalétrier des Érémites",
+      "Hallebardier des Érémites",
+      "Brise-formation des Érémites",
+      "Épéiste des Érémites",
+      "Ablutionneuse des Érémites",
+      "Givre solaire des Érémites",
+      "Foudre diurne des Érémites",
+      "Spectre Dendro"
+    ],
+    "elite": [
+      "Dragon des ruines terrestre",
+      "Dragon des ruines aérien"
+    ],
+    "boss": {
+      "normal": [
+        "Arbre foudroyé",
+        "Champieffroi panaché"
+      ],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [
+      {
+        "chapter": "3",
+        "chapterName": "Chapitre III",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Through Mists of Smoke and Forests Dark"
+          },
+          {
+            "act": 2,
+            "name": "The Morn a Thousand Roses Brings"
+          }
+        ]
+      }
+    ],
+    "storyQuests": [
+      {
+        "chapter": "Vulpes Zerda",
+        "character": "Tighnari",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Unanswerable Problems"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "Aranaga's Memory",
+      "Aranakin's Old Friend",
+      "Aragaru's Drawing",
+      "Memory's Final Chapter",
+      "Courage Is in the Heart",
+      "Legends of the Stone Lock",
+      "Giving Flowers",
+      "Gourmet Supremos: Within Our Duties",
+      "The Price",
+      "Adventure Takes Courage!",
+      "Garcia's Paean: A Gift of Compatibility",
+      "The Path of Papers",
+      "For a Dream I Tarry",
+      "Cost-Effective Hook",
+      "Even Beasts Stumble",
+      "Treasure of Wisdom: A New Plan",
+      "Aranyaka Quest Chain",
+      "Until Vana is Healed",
+      "Vimana Agama Quest Chain",
+      "Varuna Gatha Quest Chain",
+      "Agnihotra Sutra Quest Chain",
+      "An Unwavering Culinary Dream Quest Chain",
+      "The Foolish Fatuus",
+      "A Short Encounter with a Rare Bird",
+      "Where Are the Fierce Creatures?",
+      "Corps of Thirty Recruitment",
+      "Static Views",
+      "Static Views, Part 2",
+      "Trees and Dreams"
+    ],
+    "hangoutQuests": []
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "number": "1.1",
+  "name": "A New Star Approaches",
+  "releaseDate": "2020-11-11",
+  "endDate": "2020-12-23",
+  "newCharacters": [
+    "Tartaglia",
+    "Diona",
+    "Zhongli",
+    "Xinyan"
+  ],
+  "mapExpansion": [],
+  "newWeapons": {
+    "5Star": [
+      "Memory of Dust",
+      "Vortex Vanquisher",
+      "The Unforged"
+    ],
+    "4Star": [
+      "Royal Spear"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Farewell of Snezhnaya",
+      "Gentry of Hermitage"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
+  },
+  "events": [
+    "Unreconciled Stars",
+    "Baptism of Song",
+    "Gliding Challenge",
+    "While It's Warm"
+  ],
+  "newDomains": [
+    "Enter the Golden House"
+  ],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [
+      "Unusual Hilichurl"
+    ],
+    "elite": [],
+    "boss": {
+      "normal": [],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Monoceros Caeli Chapter",
+        "character": "Tartaglia",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Mighty Cyclops' Adventure!"
+          }
+        ]
+      },
+      {
+        "chapter": "Historia Antiqua Chapter",
+        "character": "Zhongli",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Sal Flore"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "The Adventurers' Guild's Affairs",
+      "Necessary Procedures",
+      "Words Worth Their Weight in Mora",
+      "Changchang's Little Friend",
+      "The Secret of Nantianmen",
+      "An Ode to Yonder City",
+      "Endless Research",
+      "Knight of the Realm",
+      "Mine Craft",
+      "Ministry Missions"
+    ],
+    "hangoutQuests": []
+  }
+}

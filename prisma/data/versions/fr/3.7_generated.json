@@ -1,0 +1,72 @@
+{
+  "number": "3.7",
+  "name": "Duel au Pic des invoqueurs",
+  "releaseDate": "2023-05-24",
+  "endDate": "2023-07-05",
+  "newCharacters": [
+    "Kirara"
+  ],
+  "mapExpansion": [],
+  "newWeapons": {
+    "4Star": [
+      "Perceur d'ibis"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Draperie d'étincelles dorées",
+      "Infinité violette",
+      "Feuilles dans le vent",
+      "Prudence en toute confidence"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Duel au Pic des invoqueurs",
+    "Divine Ingenuity: Collector's Chapter",
+    "Liturgie des guerriers défunts",
+    "Fayz Trials: Hypothesis",
+    "Reflux des lignes énergétiques"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [],
+    "elite": [],
+    "boss": {
+      "normal": [],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Carassius Auratus",
+        "character": "Yoimiya",
+        "acts": [
+          {
+            "act": 2,
+            "name": "Voyage avec les étoiles"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "Un client de Liyue"
+    ],
+    "hangoutQuests": [
+      {
+        "character": "Kaveh",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Pendulum of Weal and Woe"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "number": "1.4",
+  "name": "Invitations des alizées",
+  "releaseDate": "2021-03-17",
+  "endDate": "2021-04-28",
+  "newCharacters": [
+    "Rosalia"
+  ],
+  "mapExpansion": [],
+  "newWeapons": {
+    "5Star": [
+      "Ultime soupir"
+    ],
+    "4Star": [
+      "Éclair des impasses",
+      "Traqueur des impasses",
+      "Vins et chants",
+      "Ode aux alizées"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Ballade en pintes",
+      "Adieux au Nord"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Invitation des alizées",
+    "Désir d'Océanide",
+    "Contending Tides",
+    "Hangout Events",
+    "Merveilleuses marchandises",
+    "Gastronomie étrangère"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [],
+    "elite": [
+      "Apôtre de l'Abîme - Torrent"
+    ],
+    "boss": {
+      "normal": [],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [],
+    "worldQuests": [],
+    "hangoutQuests": [
+      {
+        "character": "Barbara",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Wellspring of Healing"
+          }
+        ]
+      },
+      {
+        "character": "Bennett",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Merveilleux voyage"
+          }
+        ]
+      },
+      {
+        "character": "Chongyun",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Signs of Evil"
+          }
+        ]
+      },
+      {
+        "character": "Noelle",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Chivalric Training"
+          }
+        ]
+      }
+    ]
+  }
+}

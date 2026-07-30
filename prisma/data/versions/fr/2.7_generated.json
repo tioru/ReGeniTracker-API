@@ -1,0 +1,76 @@
+{
+  "number": "2.7",
+  "name": "Rêves enfouis dans les profondeurs",
+  "releaseDate": "2022-05-31",
+  "endDate": "2022-07-13",
+  "newCharacters": [
+    "Yelan",
+    "Kuki Shinobu"
+  ],
+  "mapExpansion": [],
+  "newWeapons": {
+    "5Star": [
+      "Simulacre d'eau"
+    ],
+    "4Star": [
+      "Crépuscule couchant"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Discerneuse d'énigmes",
+      "Invitation scintillante",
+      "Baroud d'Oni"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Sentier périlleux",
+    "Une aventure boueuse bizarre",
+    "Le Festival des tambours harmonieux du sublime Arataki",
+    "Fourneau des machines"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [],
+    "elite": [],
+    "boss": {
+      "normal": [],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Umbrabilis Orchis",
+        "character": "Yelan",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Calculated Gambit"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "On the Stage, Behind the Stage",
+      "The Tales Behind the Fan",
+      "Garcia's Paean"
+    ],
+    "hangoutQuests": [
+      {
+        "character": "Kuki Shinobu",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Gang's Daily Deeds"
+          }
+        ]
+      }
+    ]
+  }
+}

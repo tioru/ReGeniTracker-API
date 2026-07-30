@@ -1,0 +1,71 @@
+{
+  "number": "Luna III",
+  "name": "Une nocturne au grand nord",
+  "releaseDate": "2025-12-03",
+  "endDate": "2026-01-14",
+  "newCharacters": [
+    "Durin",
+    "Jahoda"
+  ],
+  "mapExpansion": [],
+  "newWeapons": {
+    "5Star": [
+      "Athame Artis",
+      "Les chroniques de l'aube"
+    ],
+    "4Star": [
+      "Arc pluvial du serpent arc-en-ciel"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Rubedo, né de pierre blanche",
+      "Ballade en pintes",
+      "Cornucopia de la discorde",
+      "Faveur du feu forgé"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Périple enneigé des âmes embrasées",
+    "Ballon piaf'tatrac",
+    "Clash héroïque : Bagarre de sauriens",
+    "Merveilleuses marchandises"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [],
+    "elite": [],
+    "boss": {
+      "normal": [
+        "Croiseur terrestre super-lourd : Forteresse mécanisée"
+      ],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Draco Rubedo",
+        "character": "Durin",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Magic Known as Storytelling"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "Chance Commission",
+      "The Empty Courtyard",
+      "They Who Abandoned the Past",
+      "Collaborative Commission"
+    ],
+    "hangoutQuests": []
+  }
+}

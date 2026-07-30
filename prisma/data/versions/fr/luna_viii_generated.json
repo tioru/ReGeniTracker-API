@@ -1,0 +1,76 @@
+{
+  "number": "Luna VIII",
+  "name": "Fontinalia ensoleillé en été",
+  "releaseDate": "2026-07-01",
+  "endDate": "2026-08-12",
+  "newCharacters": [
+    "Sandrone"
+  ],
+  "mapExpansion": [
+    {
+      "mainRegion": "Dunanna Pit",
+      "subRegion": []
+    },
+    {
+      "mainRegion": "Frost Moon",
+      "subRegion": [
+        "Lunar Highlands",
+        "Moontide Sea",
+        "Dark Side of the Moon"
+      ]
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Une cuillerée de transcendance"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Prophétie sous les astres",
+      "Au miroir, la mademoiselle a déclaré",
+      "Murmures d'une nuit étoilée",
+      "Rêve sous l'ombre lunaire",
+      "Règne de sérénité"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Sunny Summer Fontinalia (Event)",
+    "Visée terminale à longue portée",
+    "Délire disco décontracté dansant",
+    "Reflux des lignes énergétiques",
+    "When We Look Up at the Moon"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [
+      "Blob prismatique",
+      "Mushteshir"
+    ],
+    "elite": [
+      "Précurseur de source secrète avec matrice d'observation neuronale"
+    ],
+    "boss": {
+      "normal": [],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [],
+    "worldQuests": [
+      "Moon Gazing Quest Chain",
+      "The Unmanned Vessel Quest Chain",
+      "Witch's Revelation Quests",
+      "Sandrone's Portable Tea Table Quests",
+      "Beneath the Lunar Sea",
+      "Origine de la séquence",
+      "Within the Sequence"
+    ],
+    "hangoutQuests": []
+  }
+}

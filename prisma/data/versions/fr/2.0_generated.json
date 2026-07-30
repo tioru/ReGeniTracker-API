@@ -1,0 +1,142 @@
+{
+  "number": "2.0",
+  "name": "Divinité impitoyable et euthymie éternelle",
+  "releaseDate": "2021-07-21",
+  "endDate": "2021-09-01",
+  "newCharacters": [
+    "Kamisato Ayaka",
+    "Yoimiya",
+    "Sayu"
+  ],
+  "mapExpansion": [
+    {
+      "mainRegion": "Inazuma",
+      "subRegion": [
+        "Île de Narukami",
+        "Kannazuka",
+        "Île de Yashiori"
+      ]
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Pulsation du tonnerre",
+      "Reflet de tranche-brume"
+    ],
+    "4Star": [
+      "Arc d'exorcisme",
+      "Lame kageuchi d'Amenoma",
+      "Lance en croix de Kitain",
+      "Espadon de Nagamasa",
+      "Anneau des Hakushin"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Prestance du héron",
+      "Draperie d'étincelles dorées"
+    ],
+    "weapons": [
+      "Incarnation divine"
+    ]
+  },
+  "events": [
+    "Fracas du tonnerre",
+    "Richesses perdues",
+    "Theater Mechanicus: Stage of Wonders",
+    "Phantom Flow",
+    "Reflux des lignes énergétiques"
+  ],
+  "newDomains": [
+    "Cour des sables mouvants",
+    "Cour violette",
+    "Cour Momiji",
+    "Navire aux mille portes",
+    "Pavillon Shakkei",
+    "Domaine de formation"
+  ],
+  "newArtifacts": [
+    "Emblème du destin brisé",
+    "Réminiscence nostalgique"
+  ],
+  "newEnnemies": {
+    "common": [
+      "Oni des mers - Menace de feu",
+      "Oni des mers - Danse d'éclairs",
+      "Nobushi - Hitsukeban",
+      "Nobushi - Jintouban",
+      "Nobushi - Kikouban",
+      "Ruin Sentinel",
+      "Grenadier Brutocollinus Électro",
+      "Brutoshaman Électro",
+      "Fleur mensongère Électro"
+    ],
+    "elite": [
+      "Suivante miroir des Fatui",
+      "Brutoviandu avec hache Électro",
+      "Électromage de l'Abîme",
+      "Chef Brutoélectrique"
+    ],
+    "boss": {
+      "normal": [
+        "Hypostase Pyro",
+        "Matrice mécanique perpétuelle"
+      ],
+      "weekly": []
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Grus Nivis",
+        "character": "Kamisato Ayaka",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Whispers of the Crane and the White Rabbit"
+          }
+        ]
+      },
+      {
+        "chapter": "Carassius Auratus",
+        "character": "Yoimiya",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Intemporalité onirique"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "L'art de l'horticulture",
+      "Sacred Sakura Cleansing Ritual",
+      "The Farmer's Treasure",
+      "Hiromi's Watch",
+      "The Gourmet Supremos",
+      "Tatara Tales",
+      "\"The Seventh Samurai\"",
+      "Sakura Arborism",
+      "Dreams of Sword Art",
+      "Orobashi's Legacy",
+      "Fate of a Fighter",
+      "Gazing Three Thousand Miles Away",
+      "Treatment on the Island",
+      "Sinister Instruction",
+      "Yae Publishing House's Invitation",
+      "La lettre de Chisato",
+      "O Archon, Have I Done Right?",
+      "International Travel Log",
+      "Home Lies Over the Ocean",
+      "In Another Land",
+      "Battle of Revenge",
+      "Pizza From Another Land",
+      "The Ritou Road",
+      "Katheryne in Inazuma",
+      "The Commission's Commission",
+      "Temaria Game"
+    ],
+    "hangoutQuests": []
+  }
+}

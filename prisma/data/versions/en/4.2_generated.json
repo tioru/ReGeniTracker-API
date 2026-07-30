@@ -1,0 +1,91 @@
+{
+  "number": "4.2",
+  "name": "Masquerade of the Guilty",
+  "releaseDate": "2023-11-08",
+  "endDate": "2023-12-20",
+  "newCharacters": [
+    "Furina",
+    "Charlotte"
+  ],
+  "mapExpansion": [
+    {
+      "mainRegion": "Erinnyes Forest",
+      "subRegion": []
+    },
+    {
+      "mainRegion": "Morte Region",
+      "subRegion": []
+    }
+  ],
+  "newWeapons": {
+    "5Star": [
+      "Splendor of Tranquil Waters"
+    ],
+    "4Star": [
+      "Sword of Narzissenkreuz"
+    ]
+  },
+  "banners": {
+    "characters": [
+      "Chanson of Many Waters",
+      "Immaculate Pulse",
+      "Twilight Arbiter",
+      "Azure Excursion"
+    ],
+    "weapons": [
+      "Epitome Invocation"
+    ]
+  },
+  "events": [
+    "Thelxie's Fantastic Adventures",
+    "Lil' Fungi's Fun-Tastic Fiesta",
+    "Graph Adversarial Technology Experiment Log",
+    "Misty Dungeon: Realm of Water",
+    "Ley Line Overflow"
+  ],
+  "newDomains": [],
+  "newArtifacts": [],
+  "newEnnemies": {
+    "common": [],
+    "elite": [],
+    "boss": {
+      "normal": [
+        "Hydro Tulpa"
+      ],
+      "weekly": [
+        "All-Devouring Narwhal"
+      ]
+    }
+  },
+  "newQuests": {
+    "archonQuests": [],
+    "storyQuests": [
+      {
+        "chapter": "Animula Choragi Chapter",
+        "character": "Furina",
+        "acts": [
+          {
+            "act": 1,
+            "name": "\"The Little Oceanid\""
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "In the Wake of Narcissus Quest Chain",
+      "The Wild Fairy of Erinnyes Quest Chain",
+      "Questioning Melusine and Answering Machine Quest Chain",
+      "An Expected Plan",
+      "An Expected Lie",
+      "Wish-Fulfilling Treasure Hunt",
+      "Through the Looking Glass",
+      "Pursuit",
+      "Pursuit",
+      "Happy Birthday",
+      "Free Verse",
+      "Impromptu Poem of the Crimson Dawn",
+      "The Long-Failed \"Graph Adversarial Technology\"..."
+    ],
+    "hangoutQuests": []
+  }
+}
