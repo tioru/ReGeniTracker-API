@@ -483,10 +483,20 @@ function loadCache(): CachedBook[] | null {
   }
 }
 
-function saveCache(data: CachedBook[]) {
+// Fusionne par pageTitle avec le cache existant plutôt que d'écraser : un
+// --fetch-category "Books" suivi d'un --fetch-category "Book Collections"
+// (ou un --fetch ciblé sur quelques titres pour tester un correctif) doit
+// accumuler dans le même fichier, pas remplacer son contenu par le seul lot
+// du run en cours.
+function saveCache(newData: CachedBook[]) {
+  const existing = loadCache() ?? [];
+  const merged = new Map(existing.map((b) => [b.pageTitle, b]));
+  for (const book of newData) merged.set(book.pageTitle, book);
+  const data = [...merged.values()];
+
   fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
   fs.writeFileSync(CACHE_PATH, JSON.stringify(data, null, 2), 'utf-8');
-  console.log(`✅ Cache saved (${data.length} entries)`);
+  console.log(`✅ Cache saved (${data.length} entries, ${newData.length} fetched this run)`);
 }
 
 // ── Output ────────────────────────────────────────────────────────────────
