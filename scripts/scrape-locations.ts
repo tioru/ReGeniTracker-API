@@ -84,7 +84,17 @@ interface LocationOutput {
   parent: string | null;
   description: string;
   image: string | null;
+  imageLocalName: string | null;
   subLocations: string[];
+}
+
+// "image" reste le nom de fichier exact du wiki (nécessaire pour
+// reconstruire l'URL réelle sur le CDN Fandom, sensible à la casse) ;
+// "imageLocalName" en est une version normalisée (minuscules, espaces ->
+// "_") pour qui veut nommer un fichier téléchargé localement.
+function normalizeImageLocalName(image: string | null): string | null {
+  if (!image) return null;
+  return image.toLowerCase().replace(/ /g, '_');
 }
 
 interface CachedLocation {
@@ -533,6 +543,30 @@ async function fetchEnHtml(pageTitle: string): Promise<string> {
   }
 }
 
+// Repli quand {{Location Intro}} n'a pas de paramètre "description" en clair
+// dans le wikitext : le template génère alors lui-même une phrase à partir
+// des champs de l'infobox (type/area/region/subregion, voire event pour les
+// zones à durée limitée) via un module Lua, invisible dans le wikitext mais
+// bien présent une fois la page rendue (cf. audit : "Ardravi Valley is an
+// area located in Dharma Forest, Sumeru." — absent du wikitext, présent au
+// rendu). On récupère ce texte directement plutôt que de tenter de
+// reproduire la logique du module Lua, ce qui capture aussi les cas plus
+// élaborés (zones d'événement avec un texte rédigé à la main, ex: Golden
+// Apple Archipelago) sans code spécifique par cas.
+function parseIntroTextFromHtml(html: string): string {
+  const asideEnd = html.indexOf('</aside>');
+  if (asideEnd === -1) return '';
+  const rest = html.slice(asideEnd + '</aside>'.length);
+  const stopMarkers = ['<div id="toc"', '<h2'];
+  let stopIdx = rest.length;
+  for (const marker of stopMarkers) {
+    const idx = rest.indexOf(marker);
+    if (idx !== -1 && idx < stopIdx) stopIdx = idx;
+  }
+  const $ = cheerio.load('<div>' + rest.slice(0, stopIdx) + '</div>');
+  return $('div').text().replace(/\s+/g, ' ').trim();
+}
+
 function parseOtherLanguagesField(content: string, lang: string): string | null {
   const block = extractBracedBlock(content, '{{Other Languages');
   if (!block) return null;
@@ -642,6 +676,7 @@ function buildLocationOutput(
     parent: parentName,
     description,
     image,
+    imageLocalName: normalizeImageLocalName(image),
     subLocations: childrenNames,
   };
 }
@@ -677,13 +712,30 @@ async function main() {
 
     frContentByPageTitle = new Map();
     let i = 0;
+    let renderedDescriptions = 0;
     for (const loc of rawByPageTitle.values()) {
       i++;
       console.log(`  Enriching "${loc.pageTitle}" (${i}/${rawByPageTitle.size})...`);
+
+      // {{Location Intro}} sans description= en clair : on va chercher le
+      // texte généré au rendu (cf. parseIntroTextFromHtml) avant de
+      // résoudre la page FR, pour que loc.description soit déjà correct
+      // quand il sert de repli dans le bloc FR plus bas.
+      if (!loc.description.trim() && (loc.type === 'Area' || loc.type === 'Subarea')) {
+        const html = await fetchEnHtml(loc.pageTitle);
+        const rendered = parseIntroTextFromHtml(html);
+        if (rendered) {
+          loc.description = rendered;
+          renderedDescriptions++;
+        }
+        await sleep(300);
+      }
+
       const frResolved = await resolveFrTitleAndContent(loc);
       frContentByPageTitle.set(loc.pageTitle, frResolved);
       await sleep(300);
     }
+    console.log(`  ${renderedDescriptions} description(s) EN récupérée(s) via le rendu HTML (repli {{Location Intro}} sans description= en clair).`);
 
     fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
     fs.writeFileSync(

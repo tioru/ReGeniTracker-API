@@ -2,12 +2,13 @@
   "name": "Erinnyes Forest",
   "type": "Area",
   "parent": "Fontaine",
-  "description": "",
+  "description": "Erinnyes Forest is an area located in Fontaine.",
   "image": "Erinnyes Forest.png",
+  "imageLocalName": "erinnyes_forest.png",
   "subLocations": [
-    "Loch Urania",
     "Foggy Forest Path",
     "Lumidouce Harbor",
+    "Loch Urania",
     "Weeping Willow of the Lake"
   ]
 }

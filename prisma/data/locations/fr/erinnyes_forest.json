@@ -4,10 +4,11 @@
   "parent": "Fontaine",
   "description": "La Forêt d'Erinnyes est une des région de Fontaine.",
   "image": "Forêt d'Erinnyes.png",
+  "imageLocalName": "forêt_d'erinnyes.png",
   "subLocations": [
+    "Chemin forestier brumeux",
+    "Port de Lumidouce",
     "Loch Urania",
-    "Foggy Forest Path",
-    "Lumidouce Harbor",
     "Saule pleureur du lac"
   ]
 }
