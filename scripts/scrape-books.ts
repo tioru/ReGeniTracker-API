@@ -299,7 +299,7 @@ function parseBookInfoboxEn(pageTitle: string, content: string): BookOutput | nu
       category: 'BOOK',
       rarity: parseInt(fields['quality'] ?? '', 10) || 0,
       region: cleanOptionalField(fields['region_location'] ?? fields['region_lore']),
-      author: null,
+      author: cleanOptionalField(fields['author']),
       publisher: null,
       illustrator: null,
       description: cleanWikitext(fields['description'] ?? '') || null,
@@ -333,7 +333,14 @@ function extractFrDescriptionFallback(content: string, block: string): string | 
   if (idx === -1) return null;
   const after = content.slice(idx + block.length, idx + block.length + 4000);
 
-  const headingMatch = after.match(/==+\s*Description\s*==+\s*\n+([\s\S]+?)(?:\n\s*\n|\n==|$)/i);
+  // Le premier paragraphe suivant l'infobox peut être précédé d'une phrase
+  // d'intro générique (ex: "'''X''' est un objet de quête...") avant la
+  // véritable section de description, dont le titre varie selon la page
+  // ("==Description==", "==Texte==", ...) — on prend donc le contenu du
+  // premier titre de section rencontré, quel que soit son nom, plutôt que de
+  // chercher spécifiquement "Description" (ce qui faisait remonter le titre
+  // "==Texte==" lui-même comme description sur les pages qui l'utilisent).
+  const headingMatch = after.match(/==+\s*[^=\n]+?\s*==+\s*\n+([\s\S]+?)(?:\n\s*\n|\n==|$)/);
   const target = headingMatch ? headingMatch[1] : after.match(/^\s*([\s\S]+?)(?:\n\s*\n|\n==|$)/)?.[1];
   if (!target) return null;
   return cleanWikitext(target) || null;
@@ -551,7 +558,15 @@ async function main() {
       process.exit(1);
     }
 
-    books = await scrapeAll(pageTitles);
+    const scraped = await scrapeAll(pageTitles);
+
+    // Fusionne avec le cache existant par pageTitle plutôt que d'écraser le
+    // fichier avec uniquement le lot du run en cours — un --fetch ciblé sur
+    // quelques titres (ex: pour valider un correctif) ne doit pas effacer le
+    // reste du cache.
+    const merged = new Map((loadCache() ?? []).map((b) => [b.pageTitle, b]));
+    for (const b of scraped) merged.set(b.pageTitle, b);
+    books = [...merged.values()];
     saveCache(books);
   }
 
