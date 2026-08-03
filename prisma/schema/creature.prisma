@@ -1,0 +1,43 @@
+// ── Creature ──────────────────────────────────────────────────────────────────
+
+model Creature {
+  id             Int                   @id @default(autoincrement())
+  name           String                @unique
+  releaseVersion String?
+  translations   CreatureTranslation[]
+  drops          CreatureDrop[]
+}
+
+model CreatureTranslation {
+  id          Int      @id @default(autoincrement())
+  language    String
+  name        String
+  family      String?
+  group       String?
+  location    String?
+  description String?
+  image       String?
+  bait        String?
+  creature    Creature @relation(fields: [creatureId], references: [id])
+  creatureId  Int
+
+  @@unique([creatureId, language])
+}
+
+model CreatureDrop {
+  id           Int                       @id @default(autoincrement())
+  quantity     Int
+  translations CreatureDropTranslation[]
+  creature     Creature                  @relation(fields: [creatureId], references: [id])
+  creatureId   Int
+}
+
+model CreatureDropTranslation {
+  id       Int          @id @default(autoincrement())
+  language String
+  itemName String
+  drop     CreatureDrop @relation(fields: [dropId], references: [id])
+  dropId   Int
+
+  @@unique([dropId, language])
+}

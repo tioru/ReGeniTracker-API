@@ -5,6 +5,7 @@ import { seedCharacters } from './seeds/character.seed';
 import { seedMaterials } from './seeds/material.seed';
 import { seedWeapons } from './seeds/weapon.seed';
 import { seedBanners } from './seeds/banner.seed';
+import { seedCreatures } from './seeds/creature.seed';
 
 const pool = new pg.Pool({ connectionString: process.env.DATABASE_URL });
 const adapter = new PrismaPg(pool);
@@ -15,6 +16,7 @@ async function main() {
   await seedCharacters(prisma);
   await seedWeapons(prisma);    // avant banners — les bannières référencent Weapon.name
   await seedBanners(prisma);
+  await seedCreatures(prisma);
 }
 
 main()
