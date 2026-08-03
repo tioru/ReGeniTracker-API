@@ -1,0 +1,77 @@
+// ── Shared ────────────────────────────────────────────────────────────────────
+//
+// Modèles et enums utilisés par plusieurs entités (Character, Material, Weapon,
+// Banner...). Regroupés ici plutôt que dans le fichier d'une entité en
+// particulier pour ne pas laisser croire qu'ils lui appartiennent exclusivement.
+
+// ── Character <-> Material ──────────────────────────────────────────────────
+
+enum CharacterMaterialType {
+  ASCENSION
+  TALENT
+}
+
+model CharacterMaterialUse {
+  id          Int                   @id @default(autoincrement())
+  type        CharacterMaterialType
+  material    Material              @relation(fields: [materialId], references: [id])
+  materialId  Int
+  character   Character             @relation(fields: [characterId], references: [id])
+  characterId Int
+}
+
+model AscensionMaterialItem {
+  id                  Int               @id @default(autoincrement())
+  quantity            Int
+  ascensionMaterial   AscensionMaterial @relation(fields: [ascensionMaterialId], references: [id])
+  ascensionMaterialId Int
+  material            Material          @relation(fields: [materialId], references: [id])
+  materialId          Int
+}
+
+// ── Weapon <-> Material ──────────────────────────────────────────────────────
+
+model WeaponAscensionMaterialItem {
+  id                  Int                     @id @default(autoincrement())
+  quantity            Int
+  ascensionMaterial   WeaponAscensionMaterial @relation(fields: [ascensionMaterialId], references: [id])
+  ascensionMaterialId Int
+  material            Material                @relation(fields: [materialId], references: [id])
+  materialId          Int
+}
+
+// ── Banner <-> Character / Weapon ────────────────────────────────────────────
+
+model BannerCharacter {
+  id          Int           @id @default(autoincrement())
+  rarity      Int
+  role        FeaturedRoles
+  banner      Banner        @relation(fields: [bannerId], references: [id])
+  bannerId    Int
+  character   Character     @relation(fields: [characterId], references: [id])
+  characterId Int
+
+  @@unique([bannerId, characterId])
+}
+
+model BannerWeapon {
+  id       Int           @id @default(autoincrement())
+  rarity   Int
+  role     FeaturedRoles
+  banner   Banner        @relation(fields: [bannerId], references: [id])
+  bannerId Int
+  weapon   Weapon        @relation(fields: [weaponId], references: [id])
+  weaponId Int
+
+  @@unique([bannerId, weaponId])
+}
+
+// ── Material <-> Weapon (vente / restock) ───────────────────────────────────
+
+enum RestockType {
+  NEVER
+  DAILY
+  WEEKLY
+  MONTHLY
+  THREE_DAYS
+}

@@ -1,0 +1,39 @@
+// ── Banner ──────────────────────────────────────────────────────────────────
+//
+// BannerCharacter/BannerWeapon (jonction avec Character/Weapon) sont définis
+// dans shared.prisma.
+
+model Banner {
+  id           Int                 @id @default(autoincrement())
+  name         String
+  type         BannerTypes
+  releaseDate  DateTime
+  endDate      DateTime
+  translations BannerTranslation[]
+  characters   BannerCharacter[]
+  weapons      BannerWeapon[]
+
+  @@unique([name, releaseDate])
+}
+
+model BannerTranslation {
+  id       Int    @id @default(autoincrement())
+  language String
+  name     String
+  banner   Banner @relation(fields: [bannerId], references: [id])
+  bannerId Int
+
+  @@unique([bannerId, language])
+}
+
+// ── Enums ─────────────────────────────────────────────────────────────────────
+
+enum BannerTypes {
+  CHARACTER
+  WEAPON
+}
+
+enum FeaturedRoles {
+  BOOSTED
+  OTHER
+}

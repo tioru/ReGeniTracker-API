@@ -1,0 +1,113 @@
+// ── Weapon ──────────────────────────────────────────────────────────────────
+
+model Weapon {
+  id                 Int                       @id @default(autoincrement())
+  name               String                    @unique
+  rarity             Int
+  type               WeaponTypes
+  releaseDate        DateTime?
+  secondaryStatType  WeaponSecondaryStatType?
+  effects            String[]
+  translations       WeaponTranslation[]
+  levels             WeaponLevel[]
+  ascensionMaterials WeaponAscensionMaterial[]
+  sellers            WeaponSeller[]
+  refinements        WeaponRefinement[]
+  banners            BannerWeapon[]
+}
+
+model WeaponTranslation {
+  id          Int     @id @default(autoincrement())
+  language    String
+  name        String
+  description String?
+  history     String?
+  weapon      Weapon  @relation(fields: [weaponId], references: [id])
+  weaponId    Int
+
+  @@unique([weaponId, language])
+}
+
+model WeaponLevel {
+  id                 Int     @id @default(autoincrement())
+  level              String // "1", "2", ..., "20_ASC", "21"...
+  baseAtk            Int
+  secondaryStatValue String? // ex: "13.3%", absent sur les armes 1★/2★ sans stat secondaire
+  weapon             Weapon  @relation(fields: [weaponId], references: [id])
+  weaponId           Int
+}
+
+model WeaponAscensionMaterial {
+  id       Int                           @id @default(autoincrement())
+  level    Int
+  weapon   Weapon                        @relation(fields: [weaponId], references: [id])
+  weaponId Int
+  items    WeaponAscensionMaterialItem[]
+}
+
+model WeaponSeller {
+  id           Int                       @id @default(autoincrement())
+  cost         Int
+  stock        Int
+  restock      RestockType
+  translations WeaponSellerTranslation[]
+  weapon       Weapon                    @relation(fields: [weaponId], references: [id])
+  weaponId     Int
+}
+
+model WeaponSellerTranslation {
+  id       Int          @id @default(autoincrement())
+  language String
+  name     String
+  currency String
+  seller   WeaponSeller @relation(fields: [sellerId], references: [id])
+  sellerId Int
+
+  @@unique([sellerId, language])
+}
+
+// Rang de raffinement (1 à 5). Le coût de montée en rang est toujours réglé
+// en Mora côté wiki (jamais un autre matériau), d'où un simple compteur plutôt
+// qu'une relation vers Material ; vide (null) au rang 5 (rang maximum).
+model WeaponRefinement {
+  id           Int                           @id @default(autoincrement())
+  rank         Int
+  upgradeCost  Int?
+  weapon       Weapon                        @relation(fields: [weaponId], references: [id])
+  weaponId     Int
+  translations WeaponRefinementTranslation[]
+
+  @@unique([weaponId, rank])
+}
+
+model WeaponRefinementTranslation {
+  id           Int              @id @default(autoincrement())
+  language     String
+  title        String
+  descriptions String[]
+  refinement   WeaponRefinement @relation(fields: [refinementId], references: [id])
+  refinementId Int
+
+  @@unique([refinementId, language])
+}
+
+// ── Enums ─────────────────────────────────────────────────────────────────────
+
+enum WeaponTypes {
+  SWORD
+  CLAYMORE
+  POLEARM
+  BOW
+  CATALYST
+}
+
+enum WeaponSecondaryStatType {
+  ATK
+  HP
+  DEF
+  CRIT_RATE
+  CRIT_DMG
+  ENERGY_RECHARGE
+  ELEMENTAL_MASTERY
+  PHYSICAL_DMG_BONUS
+}

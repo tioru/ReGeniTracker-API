@@ -1,0 +1,113 @@
+// ── Artifact ──────────────────────────────────────────────────────────────────
+
+model ArtifactSet {
+  id             Int                      @id @default(autoincrement())
+  name           String                   @unique
+  releaseVersion String
+  effects        String[]
+  translations   ArtifactSetTranslation[]
+  obtaining      ArtifactObtainingTier[]
+  pieces         ArtifactPiece[]
+  bonuses        ArtifactSetBonus[]
+}
+
+model ArtifactSetTranslation {
+  id            Int         @id @default(autoincrement())
+  language      String
+  name          String
+  artifactSet   ArtifactSet @relation(fields: [artifactSetId], references: [id])
+  artifactSetId Int
+
+  @@unique([artifactSetId, language])
+}
+
+model ArtifactObtainingTier {
+  id            Int              @id @default(autoincrement())
+  rarity        Int
+  artifactSet   ArtifactSet      @relation(fields: [artifactSetId], references: [id])
+  artifactSetId Int
+  sources       ArtifactSource[]
+
+  @@unique([artifactSetId, rarity])
+}
+
+model ArtifactSource {
+  id           Int                         @id @default(autoincrement())
+  type         ArtifactSourceTypes
+  tier         ArtifactObtainingTier       @relation(fields: [tierId], references: [id])
+  tierId       Int
+  translations ArtifactSourceTranslation[]
+}
+
+model ArtifactSourceTranslation {
+  id       Int            @id @default(autoincrement())
+  language String
+  name     String
+  source   ArtifactSource @relation(fields: [sourceId], references: [id])
+  sourceId Int
+
+  @@unique([sourceId, language])
+}
+
+model ArtifactPiece {
+  id            Int                        @id @default(autoincrement())
+  slot          ArtifactPieceSlot
+  artifactSet   ArtifactSet                @relation(fields: [artifactSetId], references: [id])
+  artifactSetId Int
+  translations  ArtifactPieceTranslation[]
+
+  @@unique([artifactSetId, slot])
+}
+
+model ArtifactPieceTranslation {
+  id          Int           @id @default(autoincrement())
+  language    String
+  name        String
+  description String
+  piece       ArtifactPiece @relation(fields: [pieceId], references: [id])
+  pieceId     Int
+
+  @@unique([pieceId, language])
+}
+
+model ArtifactSetBonus {
+  id            Int                           @id @default(autoincrement())
+  pieces        Int
+  artifactSet   ArtifactSet                   @relation(fields: [artifactSetId], references: [id])
+  artifactSetId Int
+  translations  ArtifactSetBonusTranslation[]
+
+  @@unique([artifactSetId, pieces])
+}
+
+model ArtifactSetBonusTranslation {
+  id       Int              @id @default(autoincrement())
+  language String
+  effect   String
+  bonus    ArtifactSetBonus @relation(fields: [bonusId], references: [id])
+  bonusId  Int
+
+  @@unique([bonusId, language])
+}
+
+// ── Enums ─────────────────────────────────────────────────────────────────────
+
+enum ArtifactSourceTypes {
+  DOMAIN
+  STRONGBOX
+  RELIQUARY
+  SHOP
+  BOSS
+  NORMAL_BOSS
+  WEEKLY_BOSS
+  ELITE_ENEMY
+  OTHER
+}
+
+enum ArtifactPieceSlot {
+  FLOWER_OF_LIFE
+  PLUME_OF_DEATH
+  SANDS_OF_EON
+  GOBLET_OF_EONOTHEM
+  CIRCLET_OF_LOGOS
+}

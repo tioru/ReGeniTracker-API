@@ -1,0 +1,131 @@
+// ── Material ──────────────────────────────────────────────────────────────────
+
+model Material {
+  id                       Int                           @id @default(autoincrement())
+  name                     String                        @unique
+  rarity                   Int?
+  categories               MaterialCategories[]
+  translations             MaterialTranslation[]
+  sources                  MaterialSource[]
+  sellers                  MaterialSeller[]
+  usedIn                   MaterialUse[]
+  usedByCharacters         CharacterMaterialUse[]
+  ascensionMaterials       AscensionMaterialItem[]
+  weaponAscensionMaterials WeaponAscensionMaterialItem[]
+}
+
+model MaterialTranslation {
+  id          Int      @id @default(autoincrement())
+  language    String
+  name        String
+  description String?
+  material    Material @relation(fields: [materialId], references: [id])
+  materialId  Int
+
+  @@unique([materialId, language])
+}
+
+model MaterialSource {
+  id           Int                         @id @default(autoincrement())
+  type         MaterialSourceTypes
+  minimumLevel Int?
+  recipes      AlchemyRecipe[]
+  translations MaterialSourceTranslation[]
+  material     Material                    @relation(fields: [materialId], references: [id])
+  materialId   Int
+}
+
+model MaterialSourceTranslation {
+  id       Int            @id @default(autoincrement())
+  language String
+  names    String[]
+  source   MaterialSource @relation(fields: [sourceId], references: [id])
+  sourceId Int
+
+  @@unique([sourceId, language])
+}
+
+model AlchemyRecipe {
+  id             Int                @id @default(autoincrement())
+  subtype        AlchemySubTypes
+  resultQuantity Int
+  ingredients    RecipeIngredient[]
+  source         MaterialSource     @relation(fields: [sourceId], references: [id])
+  sourceId       Int
+}
+
+model RecipeIngredient {
+  id           Int                           @id @default(autoincrement())
+  quantity     Int
+  translations RecipeIngredientTranslation[]
+  recipe       AlchemyRecipe                 @relation(fields: [recipeId], references: [id])
+  recipeId     Int
+}
+
+model RecipeIngredientTranslation {
+  id           Int              @id @default(autoincrement())
+  language     String
+  item         String
+  ingredient   RecipeIngredient @relation(fields: [ingredientId], references: [id])
+  ingredientId Int
+
+  @@unique([ingredientId, language])
+}
+
+model MaterialSeller {
+  id           Int                         @id @default(autoincrement())
+  cost         Int
+  stock        Int
+  restock      RestockType
+  translations MaterialSellerTranslation[]
+  material     Material                    @relation(fields: [materialId], references: [id])
+  materialId   Int
+}
+
+model MaterialSellerTranslation {
+  id       Int            @id @default(autoincrement())
+  language String
+  name     String
+  currency String
+  seller   MaterialSeller @relation(fields: [sellerId], references: [id])
+  sellerId Int
+
+  @@unique([sellerId, language])
+}
+
+model MaterialUse {
+  id           Int                      @id @default(autoincrement())
+  translations MaterialUseTranslation[]
+  material     Material                 @relation(fields: [materialId], references: [id])
+  materialId   Int
+}
+
+model MaterialUseTranslation {
+  id       Int         @id @default(autoincrement())
+  language String
+  itemName String
+  use      MaterialUse @relation(fields: [useId], references: [id])
+  useId    Int
+
+  @@unique([useId, language])
+}
+
+// ── Enums ─────────────────────────────────────────────────────────────────────
+
+enum MaterialCategories {
+  NAGADUS_EMERALD
+  VARUNADA_LAZURITE
+  ASCENSION_GEMS
+}
+
+enum MaterialSourceTypes {
+  COMMON_ENEMY
+  BOSS
+  WEEKLY_BOSS
+  ALCHEMY
+}
+
+enum AlchemySubTypes {
+  CRAFTING
+  CONVERTING
+}

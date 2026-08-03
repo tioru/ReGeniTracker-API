@@ -1,10 +1,19 @@
 import * as fs from 'node:fs';
-import { PrismaClient, WeaponTypes } from "@prisma/client";
+import { PrismaClient, WeaponTypes, WeaponSecondaryStatType } from "@prisma/client";
 import { WeaponHelper } from "./weaponHelper";
 import { WeaponData } from "../../../../src/model/data/weapon/weapon";
 import { BUFFER_ENCODING, ENGLISH_INDEX } from '../../../../constants';
 
-
+const SECONDARY_STAT_TYPE_BY_LABEL: Record<string, WeaponSecondaryStatType> = {
+    'ATK': 'ATK',
+    'HP': 'HP',
+    'DEF': 'DEF',
+    'CRIT Rate': 'CRIT_RATE',
+    'CRIT DMG': 'CRIT_DMG',
+    'Energy Recharge': 'ENERGY_RECHARGE',
+    'Elemental Mastery': 'ELEMENTAL_MASTERY',
+    'Physical DMG Bonus': 'PHYSICAL_DMG_BONUS',
+};
 
 export class WeaponHelperImpl implements WeaponHelper {
     loadJson(fullPath: string): WeaponData {
@@ -12,20 +21,38 @@ export class WeaponHelperImpl implements WeaponHelper {
     }
 
     public async upsertWeapon(prisma: PrismaClient, weaponData: WeaponData): Promise<{ id: number; name: string; rarity: number; type: WeaponTypes }> {
+        const secondaryStatType = this.resolveSecondaryStatType(weaponData);
+
         return prisma.weapon.upsert({
             where: { name: weaponData.name },
             update: {
                 rarity: weaponData.rarity,
                 type: weaponData.type,
                 releaseDate: weaponData.releaseDate ? new Date(weaponData.releaseDate) : null,
+                secondaryStatType,
+                effects: weaponData.effects ?? [],
             },
             create: {
                 name: weaponData.name,
                 rarity: weaponData.rarity,
                 type: weaponData.type,
                 releaseDate: weaponData.releaseDate ? new Date(weaponData.releaseDate) : null,
+                secondaryStatType,
+                effects: weaponData.effects ?? [],
             }
         });
+    }
+
+    private resolveSecondaryStatType(weaponData: WeaponData): WeaponSecondaryStatType | null {
+        const label = weaponData.secondaryAttribute?.type;
+        if (!label) return null;
+
+        const type = SECONDARY_STAT_TYPE_BY_LABEL[label];
+        if (!type) {
+            console.warn(`⚠️  Stat secondaire inconnue pour "${weaponData.name}": "${label}"`);
+            return null;
+        }
+        return type;
     }
 
     public async upsertWeaponTranslations(prisma: PrismaClient, weaponId: number, translations: { language: string; weaponData: WeaponData }[]): Promise<void> {
@@ -51,11 +78,18 @@ export class WeaponHelperImpl implements WeaponHelper {
     public async levelsRecreate(prisma: PrismaClient, weaponId: number, weaponData: WeaponData): Promise<void> {
         await prisma.weaponLevel.deleteMany({ where: { weaponId } });
 
-        const levels = Object.entries(weaponData.levels).map(([level, levelData]) => ({
-            weaponId,
-            level,
-            baseAtk: levelData.baseAtk,
-        }));
+        const secondaryLevels = weaponData.secondaryAttribute?.levels ?? {};
+        const levels = Object.entries(weaponData.levels).map(([level, levelData]) => {
+            const secondaryLevelData = secondaryLevels[level];
+            const secondaryStatValue = secondaryLevelData ? Object.values(secondaryLevelData)[0] : null;
+
+            return {
+                weaponId,
+                level,
+                baseAtk: levelData.baseAtk,
+                secondaryStatValue,
+            };
+        });
 
         await prisma.weaponLevel.createMany({ data: levels });
     }
@@ -145,6 +179,45 @@ export class WeaponHelperImpl implements WeaponHelper {
         }
     }
 
+    public async refinementsRecreate(prisma: PrismaClient, weaponId: number, translations: { language: string; weaponData: WeaponData }[]): Promise<void> {
+        const existingRefinements = await prisma.weaponRefinement.findMany({
+            where: { weaponId },
+            select: { id: true },
+        });
+        const refinementIds = existingRefinements.map((refinement) => refinement.id);
+
+        if (refinementIds.length > 0) {
+            await prisma.weaponRefinementTranslation.deleteMany({
+                where: { refinementId: { in: refinementIds } },
+            });
+            await prisma.weaponRefinement.deleteMany({ where: { id: { in: refinementIds } } });
+        }
+
+        const enRefinementLevels = translations[ENGLISH_INDEX].weaponData.weaponRefinementLevel ?? {};
+
+        for (const [rank, enRefinement] of Object.entries(enRefinementLevels)) {
+            const createdRefinement = await prisma.weaponRefinement.create({
+                data: {
+                    weaponId,
+                    rank: parseInt(rank, 10),
+                    upgradeCost: enRefinement.upgradeCost[0]?.quantity ?? null,
+                },
+            });
+
+            for (const { language, weaponData } of translations) {
+                const refinement = weaponData.weaponRefinementLevel?.[rank] ?? enRefinement;
+                await prisma.weaponRefinementTranslation.create({
+                    data: {
+                        refinementId: createdRefinement.id,
+                        language,
+                        title: refinement.title,
+                        descriptions: refinement.descriptions,
+                    },
+                });
+            }
+        }
+    }
+
     public async seedWeapon( prisma: PrismaClient, translations: { language: string; weaponData: WeaponData }[]): Promise<void> {
         const weapon = await this.upsertWeapon(prisma, translations[ENGLISH_INDEX].weaponData);
         console.log(`Weapon upserted (id: ${weapon.id})`);
@@ -160,5 +233,8 @@ export class WeaponHelperImpl implements WeaponHelper {
         
         await this.sellersRecreate(prisma, weapon.id, translations);
         console.log(`Sellers recreated`);
+
+        await this.refinementsRecreate(prisma, weapon.id, translations);
+        console.log(`Refinements recreated`);
     }
 }

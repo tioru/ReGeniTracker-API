@@ -8,5 +8,6 @@ export interface WeaponHelper {
     levelsRecreate(prisma: PrismaClient, weaponId: number, weaponData: WeaponData): Promise<void>;
     ascensionMaterialsRecreate(prisma: PrismaClient, weaponId: number, translations: { language: string; weaponData: WeaponData }[]): Promise<void>;
     sellersRecreate(prisma: PrismaClient, weaponId: number, translations: { language: string; weaponData: WeaponData }[]): Promise<void>;
+    refinementsRecreate(prisma: PrismaClient, weaponId: number, translations: { language: string; weaponData: WeaponData }[]): Promise<void>;
     seedWeapon(prisma: PrismaClient, translations: { language: string; weaponData: WeaponData }[]): Promise<void>;
 }
