@@ -8,7 +8,8 @@ model Banner {
   name         String
   type         BannerTypes
   releaseDate  DateTime
-  endDate      DateTime
+  endDate      DateTime? // null pour les bannières permanentes (novice/standard)
+  mechanic     BannerMechanic? // uniquement renseigné pour les bannières chronicled
   translations BannerTranslation[]
   characters   BannerCharacter[]
   weapons      BannerWeapon[]
@@ -31,6 +32,14 @@ model BannerTranslation {
 enum BannerTypes {
   CHARACTER
   WEAPON
+  NOVICE
+  STANDARD
+  CHRONICLED
+}
+
+enum BannerMechanic {
+  CHRONICLED
+  LIGHTRACE
 }
 
 enum FeaturedRoles {

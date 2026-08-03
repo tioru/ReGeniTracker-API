@@ -3,9 +3,10 @@ import { WeaponRaritySplitData } from "./weaponRaritySplit";
 
 export interface BannerData {
     name: string;
-    type: 'character' | 'weapon';
+    type: 'character' | 'weapon' | 'novice' | 'standard' | 'chronicled';
     releaseDate: string;
-    endDate: string;
+    endDate?: string; // absent pour les bannières permanentes (novice/standard)
+    mechanic?: 'chronicled' | 'lightrace'; // uniquement pour type "chronicled"
 
     boostedCharacters?: CharacterRaritySplitData;
     otherCharacters?: CharacterRaritySplitData;

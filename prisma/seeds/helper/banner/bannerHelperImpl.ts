@@ -14,30 +14,126 @@ const RARITY_MAP: Record<string, number> = {
   featured5Star: 5,
 };
 
+const TYPE_MAP: Record<BannerData['type'], NormalizedBannerData['type']> = {
+  character: 'CHARACTER',
+  weapon: 'WEAPON',
+  novice: 'NOVICE',
+  standard: 'STANDARD',
+  chronicled: 'CHRONICLED',
+};
+
+const MECHANIC_MAP: Record<NonNullable<BannerData['mechanic']>, NonNullable<NormalizedBannerData['mechanic']>> = {
+  chronicled: 'CHRONICLED',
+  lightrace: 'LIGHTRACE',
+};
+
+// Alias de noms de personnages FR -> EN non dérivables automatiquement (accents
+// et ordre des mots sont gérés par normalizeToken ; ceci ne couvre que les cas
+// où le nom FR est une vraie traduction distincte). Pas de source fiable pour
+// les dériver en masse : prisma/data/characters/ ne contient encore que Mona
+// (cf. tableau de bord "État de prisma/data"), donc pas de table de traduction
+// des noms de personnages à interroger comme pour les armes (buildWeaponFrNameMap
+// ci-dessous). Complété au fil des occurrences trouvées par le warning de
+// pairForLanguage plutôt que deviné à l'avance.
+const CHARACTER_NAME_ALIASES_FR_TO_EN: Record<string, string> = {
+  Nomade: 'Wanderer',
+  Mizuki: 'Yumemizuki Mizuki',
+};
+
+function normalizeToken(name: string, aliases?: Record<string, string>): string {
+  const aliased = (aliases && aliases[name]) || name;
+  return aliased
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(Boolean)
+    .sort()
+    .join(' ');
+}
+
+function asArray<T>(value: T | T[] | undefined): T[] {
+  if (value === undefined) return [];
+  return Array.isArray(value) ? value : [value];
+}
+
 export class BannerHelperImpl implements BannerHelper {
     loadJson(fullPath: string): BannerData {
         return JSON.parse(fs.readFileSync(fullPath, BUFFER_ENCODING)) as BannerData;
+    }
+
+    public async buildWeaponFrNameMap(prisma: PrismaClient): Promise<Map<string, string>> {
+        const translations = await prisma.weaponTranslation.findMany({
+            where: { language: 'fr' },
+            include: { weapon: true },
+        });
+        return new Map(translations.map((t) => [t.name, t.weapon.name]));
+    }
+
+    // Empreinte de contenu utilisée pour associer un fichier EN à son équivalent
+    // FR (dont le nom de fichier est traduit, cf. NOTE dans bannerHelper.ts) :
+    // date de sortie + nom(s) du/des personnage(s) 5★ mis en avant, langue-
+    // invariants une fois les noms d'armes retraduits vers l'EN (les noms de
+    // personnages ne le nécessitent presque jamais, cf. CHARACTER_NAME_ALIASES_FR_TO_EN
+    // pour les rares exceptions).
+    public computeFingerprint(bannerData: BannerData, weaponFrNameMap: Map<string, string>): string {
+        const translateWeapon = (name: string) => weaponFrNameMap.get(name) ?? name;
+        const translateCharacter = (name: string) => normalizeToken(name, CHARACTER_NAME_ALIASES_FR_TO_EN);
+
+        let names: string[];
+        switch (bannerData.type) {
+            case 'character':
+                names = asArray(bannerData.boostedCharacters?.featured5Star).map(translateCharacter);
+                break;
+            case 'weapon':
+                names = asArray(bannerData.boostedWeapons?.featured5Star).map(translateWeapon).map((n) => normalizeToken(n));
+                break;
+            default: // novice, standard, chronicled : pas de distinction boosted/other
+                names = asArray(bannerData.characters?.featured5Star).map(translateCharacter);
+                break;
+        }
+        return bannerData.releaseDate + '|' + names.sort().join(',');
     }
 
     public normalize(bannerData: BannerData): NormalizedBannerData {
         const characters: NormalizedEntryData[] = [];
         const weapons: NormalizedEntryData[] = [];
 
-        if (bannerData.type === 'character') {
-            this.flattenCharacterSplit(bannerData.boostedCharacters, 'BOOSTED', characters);
-            this.flattenCharacterSplit(bannerData.otherCharacters, 'OTHER', characters);
-            this.flattenWeaponSplit(bannerData.weapons, 'OTHER', weapons);
-        } else {
-            this.flattenWeaponSplit(bannerData.boostedWeapons, 'BOOSTED', weapons);
-            this.flattenWeaponSplit(bannerData.otherWeapons, 'OTHER', weapons);
-            this.flattenCharacterSplit(bannerData.characters, 'OTHER', characters);
+        switch (bannerData.type) {
+            case 'character':
+                this.flattenCharacterSplit(bannerData.boostedCharacters, 'BOOSTED', characters);
+                this.flattenCharacterSplit(bannerData.otherCharacters, 'OTHER', characters);
+                this.flattenWeaponSplit(bannerData.weapons, 'OTHER', weapons);
+                break;
+            case 'weapon':
+                this.flattenWeaponSplit(bannerData.boostedWeapons, 'BOOSTED', weapons);
+                this.flattenWeaponSplit(bannerData.otherWeapons, 'OTHER', weapons);
+                this.flattenCharacterSplit(bannerData.characters, 'OTHER', characters);
+                break;
+            case 'novice':
+            case 'standard':
+                // Bannières permanentes : un seul pool à odds de base, aucune
+                // notion de rate-up (mêmes semantics que otherCharacters/otherWeapons
+                // ci-dessus).
+                this.flattenCharacterSplit(bannerData.characters, 'OTHER', characters);
+                this.flattenWeaponSplit(bannerData.weapons, 'OTHER', weapons);
+                break;
+            case 'chronicled':
+                // Pas de rate-up individuel non plus, mais contrairement à
+                // novice/standard ce groupe restreint est bien mis en avant par
+                // rapport au pool général (odds élevées pour tous, à égalité) :
+                // BOOSTED reflète mieux cette réalité que OTHER.
+                this.flattenCharacterSplit(bannerData.characters, 'BOOSTED', characters);
+                this.flattenWeaponSplit(bannerData.weapons, 'BOOSTED', weapons);
+                break;
         }
 
         return {
             name: bannerData.name,
-            type: bannerData.type === 'character' ? 'CHARACTER' : 'WEAPON',
+            type: TYPE_MAP[bannerData.type],
             releaseDate: new Date(bannerData.releaseDate),
-            endDate: new Date(bannerData.endDate),
+            endDate: bannerData.endDate ? new Date(bannerData.endDate) : null,
+            mechanic: bannerData.mechanic ? MECHANIC_MAP[bannerData.mechanic] : null,
             characters,
             weapons,
         };
@@ -50,13 +146,18 @@ export class BannerHelperImpl implements BannerHelper {
         if (reference.releaseDate.getTime() !== other.releaseDate.getTime()) {
             console.warn(`⚠️  [${language}] releaseDate différente pour "${reference.name}"`);
         }
-        if (reference.endDate.getTime() !== other.endDate.getTime()) {
+        const refEndTime = reference.endDate?.getTime() ?? null;
+        const otherEndTime = other.endDate?.getTime() ?? null;
+        if (refEndTime !== otherEndTime) {
             console.warn(`⚠️  [${language}] endDate différente pour "${reference.name}"`);
+        }
+        if (reference.mechanic !== other.mechanic) {
+            console.warn(`⚠️  [${language}] mechanic différent pour "${reference.name}": ${reference.mechanic} vs ${other.mechanic}`);
         }
 
         this.compareEntryLists(reference.characters, other.characters, language, reference.name, 'characters');
         this.compareEntryLists(reference.weapons, other.weapons, language, reference.name, 'weapons');
-    } 
+    }
 
     private async charactersRecreate(prisma: PrismaClient, bannerId: number, entries: NormalizedEntryData[]): Promise<void> {
         await prisma.bannerCharacter.deleteMany({ where: { bannerId } });
@@ -153,12 +254,14 @@ export class BannerHelperImpl implements BannerHelper {
             update: {
                 type: reference.type,
                 endDate: reference.endDate,
+                mechanic: reference.mechanic,
             },
             create: {
                 name: reference.name,
                 type: reference.type,
                 releaseDate: reference.releaseDate,
                 endDate: reference.endDate,
+                mechanic: reference.mechanic,
             },
         });
 

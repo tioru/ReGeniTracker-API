@@ -35,6 +35,19 @@ export function weaponName(entry: BannerWeaponWithRelations, language: string): 
     return translation?.name ?? entry.weapon.name;
 }
 
+const TYPE_OUT_MAP: Record<BannerWithRelations['type'], BannerOut['type']> = {
+    CHARACTER: 'character',
+    WEAPON: 'weapon',
+    NOVICE: 'novice',
+    STANDARD: 'standard',
+    CHRONICLED: 'chronicled',
+};
+
+const MECHANIC_OUT_MAP: Record<NonNullable<BannerWithRelations['mechanic']>, NonNullable<BannerOut['mechanic']>> = {
+    CHRONICLED: 'chronicled',
+    LIGHTRACE: 'lightrace',
+};
+
 export function mapBanner(bannerWithRelations: BannerWithRelations, language: string): BannerOut {
     const pickedTranslation = pickTranslation(bannerWithRelations.translations, language);
 
@@ -44,24 +57,43 @@ export function mapBanner(bannerWithRelations: BannerWithRelations, language: st
 
     const base = {
         name: pickedTranslation.name,
-        type: bannerWithRelations.type === 'CHARACTER' ? ('character' as const) : ('weapon' as const),
+        type: TYPE_OUT_MAP[bannerWithRelations.type],
         releaseDate: bannerWithRelations.releaseDate,
         endDate: bannerWithRelations.endDate,
+        ...(bannerWithRelations.mechanic ? { mechanic: MECHANIC_OUT_MAP[bannerWithRelations.mechanic] } : {}),
     };
 
-    if (bannerWithRelations.type === 'CHARACTER') {
-        return {
-            ...base,
-            boostedCharacters: mapCharacterSplit(bannerWithRelations.characters, 'BOOSTED', language),
-            otherCharacters: mapCharacterSplit(bannerWithRelations.characters, 'OTHER', language),
-            weapons: mapWeaponSplit(bannerWithRelations.weapons, 'OTHER', language),
-        };
+    switch (bannerWithRelations.type) {
+        case 'CHARACTER':
+            return {
+                ...base,
+                boostedCharacters: mapCharacterSplit(bannerWithRelations.characters, 'BOOSTED', language),
+                otherCharacters: mapCharacterSplit(bannerWithRelations.characters, 'OTHER', language),
+                weapons: mapWeaponSplit(bannerWithRelations.weapons, 'OTHER', language),
+            };
+        case 'WEAPON':
+            return {
+                ...base,
+                boostedWeapons: mapWeaponSplit(bannerWithRelations.weapons, 'BOOSTED', language),
+                otherWeapons: mapWeaponSplit(bannerWithRelations.weapons, 'OTHER', language),
+                characters: mapCharacterSplit(bannerWithRelations.characters, 'OTHER', language),
+            };
+        case 'NOVICE':
+        case 'STANDARD':
+            // Bannières permanentes : un seul pool à odds de base, pas de rate-up
+            // (cf. bannerHelperImpl.normalize, role toujours "OTHER" pour ces types).
+            return {
+                ...base,
+                characters: mapCharacterSplit(bannerWithRelations.characters, 'OTHER', language),
+                weapons: mapWeaponSplit(bannerWithRelations.weapons, 'OTHER', language),
+            };
+        case 'CHRONICLED':
+            // Groupe restreint mis en avant à égalité, sans rate-up individuel
+            // (role toujours "BOOSTED" pour ce type, cf. bannerHelperImpl.normalize).
+            return {
+                ...base,
+                characters: mapCharacterSplit(bannerWithRelations.characters, 'BOOSTED', language),
+                weapons: mapWeaponSplit(bannerWithRelations.weapons, 'BOOSTED', language),
+            };
     }
-
-    return {
-        ...base,
-        boostedWeapons: mapWeaponSplit(bannerWithRelations.weapons, 'BOOSTED', language),
-        otherWeapons: mapWeaponSplit(bannerWithRelations.weapons, 'OTHER', language),
-        characters: mapCharacterSplit(bannerWithRelations.characters, 'OTHER', language),
-    };
 }
