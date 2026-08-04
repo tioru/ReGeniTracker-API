@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Dew-Dipped Shrimp",
+  "name": "Crevettes à la rosée",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Yelan. On trouve parmi les ingrédients du nouveau thé de rosée livré directement du Village de Qiaoying à la maison de thé, qu'on utilise pour frire rapidement des crevettes de rivière fraîchement pêchées. À la vue, le plat est d'une couleur élégante ; à l'odeur, on sent le parfum d'un thé lointain ; au goût, il est à la fois tendre et a une consistance élastique... Une petite minute, pourquoi est-elle en train d'apporter une assiette de piment ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente la force du bouclier de tous les personnages de l'équipe de 35 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Shield Strength",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Shrimp Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 3
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Yelan",
+  "baseDish": "Crevettes sautées"
+}

@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Unagi Chazuke",
+  "name": "Unagi Chazuke",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "A light and tasty main dish. Well-boiled tea is poured over rice with unagi on top and allowed to steep quietly until the rice grains have absorbed the fragrance of the tea. When combined with the lingering sweet aftertaste of the bowl of unagi, you can eat half a bowl before Paimon can say \"Whoa!\"",
+    "suspicious": "A light and tasty main dish. The overly bland tea soup has been all but overpowered by the taste of the unagi, but you can probably still eat this if you slurried it into some sort of porridge.",
+    "delicious": "A light and tasty main dish. The tea and soup weave an elegant, fragrant melody punctuated by the pure white grains, while the unagi, baptized in coal-fire, provides tender, gentle decoration to the mix. The various aromas of eel and tea and the light sweetness of rice mix well on your tongue into something truly sublime. A triple threat not to be trifled with, indeed."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Healing Bonus by 17% for 300s.",
+    "suspicious": "Increases all party members' Healing Bonus by 15% for 300s.",
+    "delicious": "Increases all party members' Healing Bonus by 20% for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "Healing Improvement",
+      "values": {
+        "suspicious": 15,
+        "normal": 17,
+        "delicious": 20
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Sold by Shimura Kanbei",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Eel Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Rice",
+      "quantity": 3
+    },
+    {
+      "item": "Seagrass",
+      "quantity": 3
+    },
+    {
+      "item": "Salt",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Wanderer",
+    "name": "Shimi Chazuke"
+  },
+  "character": null,
+  "baseDish": null
+}

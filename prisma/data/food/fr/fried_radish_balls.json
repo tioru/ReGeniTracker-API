@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Fried Radish Balls",
+  "name": "Boulettes de radis frites",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Parfumées et croustillantes, mangez-les tant qu'elles sont chaudes ! Cette recette est originaire de Liyue.",
+    "suspicious": "Ces boulettes sont bien trop grasses et une boisson ne serait pas de refus pour faire passer ce goût de graisse.",
+    "delicious": "C'est fou ce qu'on peut faire à partir de simples radis ! Ce plat représente bien l'esprit de la cuisine liyuéenne."
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 81 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente l'ATQ de tous les personnages de l'équipe de 66 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente l'ATQ de tous les personnages de l'équipe de 95 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 66,
+        "normal": 81,
+        "delicious": 95
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Disponible dès le début du jeu",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Radish",
+      "quantity": 2
+    },
+    {
+      "item": "Pepper",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

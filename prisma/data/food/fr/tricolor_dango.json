@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Tricolor Dango",
+  "name": "Dango trois couleurs",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Une collation sucrée et gluante. Le riz gluant a été réduit en poudre et roulé en boule avant d'être cuit à la vapeur. Les couleurs des fleurs de cerisier et des gueules-de-loup rendent ces dango encore plus agréables à regarder.",
+    "suspicious": "Une collation sucrée et gluante. On soupçonne un manque d'eau lors du processus de cuisson qui a causé des fissures un peu partout. Si vous l'enfournez un peu trop rapidement, vous risquez de vous étouffer...",
+    "delicious": "Une collation sucrée et gluante. La brillance de ces dango est telle la rosée du matin sur les bosquets de fleurs et de branches luxuriantes. Observer les fleurs en dégustant cette collation vous procurera un sentiment de joie, comme si l'année à venir allait être aussi magnifique que les pétales volants devant vous."
+  },
+  "effectTexts": {
+    "normal": "Restaure 32 % des PV max du personnage sélectionné et 1 250 PV supplémentaires.",
+    "suspicious": "Restaure 30 % des PV max du personnage sélectionné et 600 PV supplémentaires.",
+    "delicious": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 30,
+        "normal": 32,
+        "delicious": 34
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 600,
+        "normal": 1250,
+        "delicious": 1900
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Vendu par Kiminami Anna",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Milk",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 2
+    },
+    {
+      "item": "Sakura Bloom",
+      "quantity": 2
+    },
+    {
+      "item": "Rice",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Yoimiya",
+    "name": "Poissons du festival d'été"
+  },
+  "character": null,
+  "baseDish": null
+}

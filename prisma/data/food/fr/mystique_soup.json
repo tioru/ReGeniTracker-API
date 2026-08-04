@@ -1,0 +1,46 @@
+{
+  "pageTitle": "Mystique Soup",
+  "name": "Soupe mystique",
+  "rarity": 4,
+  "category": "OTHER_DISHES",
+  "effectType": "Special Effect",
+  "descriptions": {
+    "normal": "Une boisson à base de granifruits. Inventée à l'origine comme un type de médicament par un certain shaman des Maîtres du vent nocturne, la recette a été modifiée au fil du temps pour finalement devenir une boisson courante lors des réunions sociales.",
+    "suspicious": "Une boisson à base de granifruits. La coupe est remplie d'un liquide calme et brillant, coloré comme une pierre précieuse avec un dégradé époustouflant. Son parfum subtil et sa douceur délicate se combinent pour évoquer les mystères d'une ancienne tribu, laissant dans la bouche de ceux qui en prennent l'envie d'en boire plus.",
+    "delicious": "Une boisson à base de granifruits. Une seule gorgée et toutes vos papilles commencent à picoter... C'est presque comme un arrière-goût sans fin, car la saveur est si intense qu'elle persiste sur le bout de la langue, intacte même après avoir bu un verre d'eau."
+  },
+  "effectTexts": {
+    "normal": "Une petite surprise des Maîtres du vent nocturne.",
+    "suspicious": "Une petite surprise des Maîtres du vent nocturne.",
+    "delicious": "Une petite surprise des Maîtres du vent nocturne."
+  },
+  "effectVariables": [],
+  "region": "Natlan",
+  "recipeHint": "Niv. 2 de Réputation des Maîtres du vent nocturne",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Grainfruit",
+      "quantity": 1
+    },
+    {
+      "item": "Embercore Flower",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    }
+  ],
+  "sources": [
+    "Redemption code from Genshin Impact × TOMORO Coffee"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

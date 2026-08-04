@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Universal Peace",
+  "name": "Paix universelle",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Un plat de résistance aux mille couleurs. Le riz gluant est accompagné de différents ingrédients sucrés. Ceux qui apprécient ce plat accordent, dit-on, plus d'importance à ce qu'il représente qu'à son goût : l'idée de la paix universelle et de la prospérité. Et celui qui le prépare avec ces idéaux en tête ne peut le rater, paraît-il.",
+    "suspicious": "Un plat de résistance aux mille couleurs. Il a perdu trop d'eau pendant la cuisson. À ce stade, il faut de l'imagination (et un peu d'eau supplémentaire) pour retrouver le goût voulu.",
+    "delicious": "Un plat de résistance aux mille couleurs. Le fruit confit aigre-doux se marie à la riche sensation en bouche du riz, comme reliés par des fils invisibles. Même après en avoir avalé une bouchée, le léger parfum reste sur vos lèvres, augmentant encore votre sentiment de satisfaction."
+  },
+  "effectTexts": {
+    "normal": "Restaure 32 % des PV max du personnage sélectionné et 1 250 PV supplémentaires.",
+    "suspicious": "Restaure 30 % des PV max du personnage sélectionné et 600 PV supplémentaires.",
+    "delicious": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 30,
+        "normal": 32,
+        "delicious": 34
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 600,
+        "normal": 1250,
+        "delicious": 1900
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Chef Mao",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Rice",
+      "quantity": 4
+    },
+    {
+      "item": "Lotus Head",
+      "quantity": 2
+    },
+    {
+      "item": "Carrot",
+      "quantity": 2
+    },
+    {
+      "item": "Berry",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Ganyu",
+    "name": "Paix prospère"
+  },
+  "character": null,
+  "baseDish": null
+}

@@ -1,0 +1,80 @@
+{
+  "pageTitle": "Midsommar Torte",
+  "name": "Midsommar Torte",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A small cake made from Midsommar Berries. The cake base is first baked, then drizzled with berry jam and Smetana before being topped with a decorative Midsommar Berry. Its sweet taste and adorable appearance make it a small but popular surprise on festival days.",
+    "suspicious": "A small cake made from Midsommar Berries. The frosting is uneven and messy, leaving the Midsommar Berry on top barely able to stay in place. There are cracks visible in the base... Maybe it's best to close your eyes before taking a bite.",
+    "delicious": "A small cake made from Midsommar Berries. One spoonful is all it takes to whisk you away to a lush berry forest. Amid the vibrant, lively sweetness, there is a hint of refreshing tartness imparted by the Smetana. This cake raises the festive mood to the peak!"
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 1200 HP.",
+    "suspicious": "Revives a character and restores 900 HP.",
+    "delicious": "Revives a character and restores 1500 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Sold by Katya",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Midsommar Berry",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 2
+    },
+    {
+      "item": "Smetana",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Katya",
+      "currency": "Mora",
+      "cost": 5550,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Aino",
+    "name": "Clink-Clank Confectionery Cup"
+  },
+  "character": null,
+  "baseDish": null
+}

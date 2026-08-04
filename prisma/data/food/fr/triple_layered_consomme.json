@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Triple-Layered Consommé",
+  "name": "Pâté aux trois saveurs",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Un plat très bien présenté. Le jambon, la volaille et les pousses de bambou sont coupés en fines lanières de même longueur, mijotés à feu vif, placés au centre d'une assiette creuse et servis avec le bouillon. Le résultat est très savoureux.",
+    "suspicious": "Un plat bien présenté. À première vue, il semble délicieux, mais lorsque vous le goûtez, vous découvrez qu'il n'a pas de goût. Peut-être le bouillon contient-il trop d'eau ?",
+    "delicious": "Un plat très bien présenté. L'uniformité des bandes révèle la technique impeccable du couteau. Plus qu'un plat, c'est une œuvre d'art. Lorsque vous vous décidez enfin à y goûter, vous vous rendez compte que ce serait du pur gaspillage de faire d'un plat à la saveur si exquise une œuvre d'art."
+  },
+  "effectTexts": {
+    "normal": "Augmente la force du bouclier de tous les personnages de l'équipe de 25 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente la force du bouclier de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente la force du bouclier de tous les personnages de l'équipe de 30 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Shield Strength",
+      "values": {
+        "suspicious": 20,
+        "normal": 25,
+        "delicious": 30
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Chef Mao",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Ham",
+      "quantity": 2
+    },
+    {
+      "item": "Fowl",
+      "quantity": 2
+    },
+    {
+      "item": "Bamboo Shoot",
+      "quantity": 1
+    },
+    {
+      "item": "Mushroom",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Fontinalia Mousse",
+  "name": "Mousse fontinalienne",
+  "rarity": 4,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Un vrai dessert bleu du Festival Fontinalia, dont la mousse est façonnée à l'image d'un bourgeon de lys lacmineux. Après que les coutumes du Festival ont été modifiées pour se concentrer davantage sur la dégustation de sucreries, la mousse fontinalienne est rapidement devenue une recette fontainoise très appréciée. N'oubliez pas de la partager avec tous ceux qui vous demandent « Du sucré ou un procès » !",
+    "suspicious": "Un vrai dessert bleu du Festival Fontinalia. Un peu disgracieux par sa forme, celui-ci fait penser à une Fleur mensongère Cryo. Le lys lacmineux choisi à l'époque comme référence serait-il en fait une variante de la Fleur mensongère ? Vous feriez mieux de vous en débarrasser discrètement... Servir quelque chose comme ça pendant le festival pourrait vous apporter des ennuis !",
+    "delicious": "Un vrai dessert bleu du Festival Fontinalia, sa couleur cristalline n'a rien à envier à la lumière diffusée par les vagues. Son élégance est celle de pétales tombant avec grâce, sa texture aérée s'apparente à un flocon de neige sur votre langue. Déguster un tel met constitue sans doute la chose la plus agréable du festival !"
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 272 pts et leur taux CRIT de 8 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente l'ATQ de tous les personnages de l'équipe de 224 pts et leur taux CRIT de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente l'ATQ de tous les personnages de l'équipe de 320 pts et leur taux CRIT de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 224,
+        "normal": 272,
+        "delicious": 320
+      }
+    },
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 8,
+        "delicious": 10
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Événement Roses et mousquets",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 3
+    },
+    {
+      "item": "Cream",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

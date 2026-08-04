@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Golden Fried Chicken",
+  "name": "Nuggets de poulet",
+  "rarity": 4,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Viande de volaille hachée, agrémentée puis frite. Les morceaux de viande sont roulés dans une préparation réunissant tous les condiments avant d'être frits à température élevée. L'odeur suffit à évoquer à n'importe qui le goût inimitable de la viande tendre et croustillante et à faire saliver. Bien peu sont capables de résister à un nugget de poulet sortant juste de la cuisine.",
+    "suspicious": "Viande de volaille hachée, agrémentée puis frite. La température de l'huile n'a sans doute pas été maîtrisée comme il fallait, et la peau qui devrait être croustillante est toute molle, donnant l'impression que le plat est plus gras qu'il ne devrait l'être.",
+    "delicious": "Viande de volaille hachée, agrémentée puis frite. La peau craquante et dorée a conservé le jus de la viande, pour un plaisir absolu à chaque fois que vous mordez dedans. L'odeur exquise persistera sur vos doigts bien après que vous ayez englouti ce repas jusqu'à ne laisser qu'un tas de petits os."
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 272 pts et leur taux CRIT de 8 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente l'ATQ de tous les personnages de l'équipe de 224 pts et leur taux CRIT de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente l'ATQ de tous les personnages de l'équipe de 320 pts et leur taux CRIT de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 224,
+        "normal": 272,
+        "delicious": 320
+      }
+    },
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 8,
+        "delicious": 10
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Événement Gastronomie étrangère",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 4
+    },
+    {
+      "item": "Butter",
+      "quantity": 4
+    },
+    {
+      "item": "Pepper",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

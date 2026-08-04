@@ -1,0 +1,52 @@
+{
+  "pageTitle": "Lantern Rite Special Lotus Seed and Bird Egg Soup",
+  "name": "Lantern Rite Special Lotus Seed and Bird Egg Soup",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "Traditional cuisine made to celebrate Lantern Rite. The clear, gold colors of the egg custard have been embellished with several lotus roots. Regardless of whether it is breakfast or a post-meal snack, its superior nutritional value can greatly nourish the body.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' sprinting Stamina consumption by 25% for 900s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Yi'nian",
+      "currency": "Mora",
+      "cost": 1550,
+      "stock": 15,
+      "restock": "NEVER"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": "Lotus Seed and Bird Egg Soup"
+}

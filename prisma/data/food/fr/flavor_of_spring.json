@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Flavor of Spring",
+  "name": "Saveur printanière",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Zibai. Sa couleur brille comme de l'ambre doré, rappelant ses yeux. Son arôme est aussi familier qu'un simple rouleau de printemps, mais chaque bouchée croustillante révèle une résistance inattendue... Serait-ce une recette secrète de l'ancien royaume de Lang-Gan ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente la DÉF de tous les personnages de l'équipe de 282 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 3
+    },
+    {
+      "item": "Bamboo Shoot",
+      "quantity": 2
+    },
+    {
+      "item": "Mushroom",
+      "quantity": 2
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Zibai",
+  "baseDish": "Rouleaux de printemps croustillants"
+}

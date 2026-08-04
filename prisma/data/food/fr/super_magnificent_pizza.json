@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Super Magnificent Pizza",
+  "name": "Super pizza suprême",
+  "rarity": 4,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Une somptueuse pizza. Si vous étalez d'abord une base de jambon avant d'ajouter de la viande hachée en petits morceaux, vous obtenez un plat qui procure un sentiment de satisfaction inégalé. Après cuisson, le subtil goût carbonisé de la viande et la saveur crémeuse du fromage forment une combinaison vraiment alléchante.",
+    "suspicious": "Une somptueuse pizza. Si l'on passe outre la graisse un instant, les morceaux de viande froide peuvent toujours être ingurgités, mais la pâte rassise pose tout de même un défi. Avec sa dureté, peut-être pourriez-vous assommer un Brutocollinus avec...",
+    "delicious": "Une somptueuse pizza. Au milieu de la chaleur qui monte à la sortie du four, vous tirez doucement sur les bords croustillants... Une véritable cascade de fromage jaillit, enveloppée d'un arôme dense de viande qui satisfait les papilles et donne une merveilleuse sensation de plénitude."
+  },
+  "effectTexts": {
+    "normal": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 35 % et leur taux CRIT de 8 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 25 % et leur taux CRIT de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 45 % et leur taux CRIT de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Physical DMG Bonus",
+      "values": {
+        "suspicious": 25,
+        "normal": 35,
+        "delicious": 45
+      }
+    },
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 8,
+        "delicious": 10
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Nouvelles recettes Mail",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Ham",
+      "quantity": 2
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Cheese",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

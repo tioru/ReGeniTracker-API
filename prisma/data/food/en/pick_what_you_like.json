@@ -1,0 +1,69 @@
+{
+  "pageTitle": "\"Pick What You Like!\"",
+  "name": "\"Pick What You Like!\"",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "\"Come on, pick the one you like!\" Along with the familiar cries of joy, you see before your eyes the aesthetically pleasing double-layered dessert stand and the neat rows of macarons with different expressions painted onto them. One thought suddenly fascinates you... What expression would Navia make if you were to give in to greed and steal all of them for yourself?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 1500s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Climbing Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 3
+    },
+    {
+      "item": "Sugar",
+      "quantity": 2
+    },
+    {
+      "item": "Almond",
+      "quantity": 2
+    },
+    {
+      "item": "Bulle Fruit",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Navia",
+  "baseDish": "Rainbow Macarons"
+}

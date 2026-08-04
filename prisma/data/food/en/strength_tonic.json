@@ -1,0 +1,68 @@
+{
+  "pageTitle": "Strength Tonic",
+  "name": "Strength Tonic",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "A potion of mysterious origins that has a simple formula. Some might even call it a healthy drink. As the name suggests, it can make people stronger.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Physical DMG by 45%, Crit Rate by 10%, and DMG taken by 20% for 30s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Physical DMG",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "DMG Taken",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Obtained from Soncoyoc",
+  "recipeSubtype": "CRAFTING",
+  "ingredients": [
+    {
+      "item": "Mora",
+      "quantity": 100
+    },
+    {
+      "item": "Candlecap Mushroom",
+      "quantity": 2
+    },
+    {
+      "item": "Saurian Claw Succulent",
+      "quantity": 1
+    }
+  ],
+  "sources": [
+    "Alchemy",
+    "Redemption code from Genshin Impact × TOMORO Coffee"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Surf, Turf, and Perch",
+  "name": "Surf, Turf, and Perch",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "A large platter with a mix of meat and vegetables. Various ingredients from the sea, land, and air have been roasted and mixed together. There's something for everyone here, making it a must-have at any important banquet in Natlan.",
+    "suspicious": "A large platter with a mix of meat and vegetables. First, you find yourself biting into a half-raw skewer of meat; next, a chunk of charred fish. The contrast is so jarring that you simply can't muster up the courage to take a third bite...",
+    "delicious": "A large platter with a mix of meat and vegetables. Thick, juicy chunks of meat have soaked up all the spices, mingling delightfully with the crispness of the fruit and vegetables on the tip of your tongue, touching more than just your taste buds, as your stomach is also moved to satisfaction. No wonder this dish has so many loyal fans."
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s.",
+    "suspicious": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s.",
+    "delicious": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Gliding Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Exquisite Chest",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 2
+    },
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Fish",
+      "quantity": 2
+    },
+    {
+      "item": "Grainfruit",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Chasca",
+    "name": "Moment of Respite"
+  },
+  "character": null,
+  "baseDish": null
+}

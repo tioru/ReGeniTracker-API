@@ -1,0 +1,63 @@
+{
+  "pageTitle": "Drunken Plums in Snow",
+  "name": "Prunes ivres en neige",
+  "rarity": 4,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Un élégant plat de Liyue. La couche qui ressemble à de la neige est douce et aérée. Elle fond doucement sur la langue comme des flocons de neige qui tombent dessus. Ensuite, la chair de crabe fraîche et au goût intense enveloppe rapidement vos papilles gustatives, comme des fleurs de prunier radieuses et resplendissantes s'épanouissant au milieu d'une chute de neige solitaire et sereine, captivante et enchanteresse.",
+    "suspicious": "Un élégant plat de Liyue. La présentation finale a l'air impeccable, mais dans la chair de crabe soigneusement décortiquée se cachent de petits morceaux de carapace qui passent inaperçus. Avant de se laisser tenter, il faut arriver à passer outre le fait que vos dents ont des chances de s'y cogner.",
+    "delicious": "Un élégant plat de Liyue. La couche qui ressemble à de la neige est douce et aérée. Elle fond doucement sur la langue comme des flocons de neige qui tombent dessus. Ensuite, la chair de crabe fraîche et au goût intense enveloppe rapidement vos papilles gustatives, comme des fleurs de prunier radieuses et resplendissantes s'épanouissant au milieu d'une chute de neige solitaire et sereine, captivante et enchanteresse."
+  },
+  "effectTexts": {
+    "normal": "Augmente la DÉF de tous les personnages de l'équipe de 261 pts et l'effet des soins de 8 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente la DÉF de tous les personnages de l'équipe de 215 pts et l'effet des soins de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente la DÉF de tous les personnages de l'équipe de 308 pts et l'effet des soins de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 215,
+        "normal": 261,
+        "delicious": 308
+      }
+    },
+    {
+      "label": "Healing Improvement",
+      "values": {
+        "suspicious": 6,
+        "normal": 8,
+        "delicious": 10
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Quête Festivité à Liyue, calamité des huit adeptes de l'événement Talismans printaniers",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Crab",
+      "quantity": 2
+    },
+    {
+      "item": "Ham",
+      "quantity": 2
+    },
+    {
+      "item": "Crab Roe",
+      "quantity": 1
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    }
+  ],
+  "sources": [
+    "May Fortune Find You: Spring's Premonition"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

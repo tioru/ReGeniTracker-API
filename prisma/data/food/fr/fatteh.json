@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Fatteh",
+  "name": "Fatteh",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Un plat de longue date de Sumeru. Le pain cuit est d'abord émietté avant d'être mélangé avec des haricots glabres bouillis et une sauce au yaourt, le tout étant finalement dégusté directement. Cette recette est transmise depuis longtemps et possède de nombreuses variantes, mais elles partagent toutes un point commun : elles sont à la fois simples et délicieuses.",
+    "suspicious": "Un plat de longue date de Sumeru. Si on avait la patience d'enlever les haricots glabres mi-cuits et les morceaux brûlés de biscuit, la sauce au yaourt qui reste pourrait passer pour un dessert...",
+    "delicious": "Un plat de longue date de Sumeru. Avec les haricots glabres enrobés de la douceur soyeuse de la sauce au yaourt, la texture lisse du plat accueille votre langue comme un rêve béat. Et même après votre réveil, vous pouvez encore sentir le goût nourrissant du pain cuit entre vos lèvres..."
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 400 PV.",
+    "suspicious": "Réanime un personnage et restaure 250 PV.",
+    "delicious": "Réanime un personnage et restaure 550 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 250,
+        "normal": 400,
+        "delicious": 550
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Vendu par Lambad",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Glabrous Beans",
+      "quantity": 2
+    },
+    {
+      "item": "Milk",
+      "quantity": 2
+    },
+    {
+      "item": "Mint",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Kaveh",
+    "name": "La détermination"
+  },
+  "character": null,
+  "baseDish": null
+}

@@ -1,0 +1,52 @@
+{
+  "pageTitle": "Piramida Nightingale",
+  "name": "Piramida Nightingale",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "A drink whose colors are clear and elegant — this one does not appear to contain any alcohol. Legend has it that the Torchforger, Solovei, once gifted someone a nightingale, and that moment served as the inspiration for this drink. Now, only the nightingale's song remains, lingering amid the tranquil night.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 30% of Max HP and an additional 1,750 HP to the selected character.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

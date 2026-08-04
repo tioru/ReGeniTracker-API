@@ -22,6 +22,7 @@ model Character {
   constellations     Constellation[]
   materialUses       CharacterMaterialUse[]
   banners            BannerCharacter[]
+  foodSpecialDishes  Food[]
 }
 
 model CharacterLevel {

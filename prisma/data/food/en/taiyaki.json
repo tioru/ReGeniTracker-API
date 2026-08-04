@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Taiyaki",
+  "name": "Taiyaki",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "A snack shaped like a snapper. The crisp exterior wraps the sweet filling within and is very popular amongst Inazumans. It is said that in the beginning, this was just a cylindrical snack, but constant improvements wound up shaping it into the cutesy image of a fish.",
+    "suspicious": "A snack shaped like a snapper. The filling is way too sweet, with a single small bite leaving you in dire need of some water to wash it all down. Even the sweetest of teeth will find stomaching this a rather tall order.",
+    "delicious": "A snack shaped like a snapper. Fresh out of the oven, this taiyaki gives off a titillating aroma while it is still a mite scalding to the touch. A single bite causes the sweetness to melt in your mouth instantly. The feeling is akin to watching a fish in a pool bathed in sunset's gleam, it's scales attaining a golden sheen."
+  },
+  "effectTexts": {
+    "normal": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+    "suspicious": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+    "delicious": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 26,
+        "normal": 28,
+        "delicious": 30
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 450,
+        "normal": 620,
+        "delicious": 790
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Sold by Kiminami Anna",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Sunsettia",
+      "quantity": 3
+    },
+    {
+      "item": "Milk",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Chiori",
+    "name": "\"Fashion Show\""
+  },
+  "character": null,
+  "baseDish": null
+}

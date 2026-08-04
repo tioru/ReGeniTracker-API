@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Harbor Fish Burger",
+  "name": "Harbor Fish Burger",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "A fish burger. Freshly baked bread is sliced open. Then, layers of crisp greens, seasoned fish fillet, and sliced onions are added to it. Finally, it is finished with a drizzle of sauce. The burger has a savory-tart flavor that truly whets the appetite.",
+    "suspicious": "A fish burger. It features a fillet of a dull, greyish hue that fills one with hesitation. A bitter surge assaults your senses from the very first bite, just like a cup of frigid seawater utterly douses any lingering sparks of hope. It seems excessive marinating has stripped the fish of the freshness it once possessed...",
+    "delicious": "A fish burger. The hearty bread, tender fish, and crunchy toppings create a collision of textures that compels one to devour it in great, eager bites. Local rumors claim some families have uprooted their entire lives to Dornman Port just for a daily taste of this authentic delicacy. It seems those tales were no exaggeration..."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Max HP by 22% for 300s",
+    "suspicious": "Increases all party members' Max HP by 20% for 300s",
+    "delicious": "Increases all party members' Max HP by 25% for 300s"
+  },
+  "effectVariables": [
+    {
+      "label": "HP Increase",
+      "values": {
+        "suspicious": 20,
+        "normal": 22,
+        "delicious": 25
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Exquisite Chest",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    },
+    {
+      "item": "Windrest Flower",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

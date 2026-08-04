@@ -1,0 +1,60 @@
+{
+  "pageTitle": "Qingxin Flower Cake",
+  "name": "Gâteau aux fleurs de Qingxin",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Un gâteau à base de fleurs. Préparée avec des pétales de Qingxin encore scintillants de leur rosée matinale, la garniture est enveloppée de plusieurs couches composées de deux types de pâtisserie différents : une croûte feuilletée et une pâte au beurre. Cuits à la perfection, les gâteaux aux fleurs de Qingxin sont meilleurs tout juste sortis du four.",
+    "suspicious": "Un gâteau à base de fleurs. Sa texture sèche et dure, ainsi que son goût fade ne rappellent en rien la nature délicate que l'on prête aux fleurs. C'est à se demander si la garniture n'a pas été faite avec bouts de papier...",
+    "delicious": "Un gâteau à base de fleurs. Rien qu'avec une petite bouchée, les fleurs qui se balancent dans les montagnes s'épanouissent dans votre bouche, et leur doux parfum s'immisce dans votre âme. Lorsque vous finissez de manger votre part à contrecœur, un léger parfum subsiste sur le bout de vos doigts..."
+  },
+  "effectTexts": {
+    "normal": "Restaure 50 pts d'endurance.",
+    "suspicious": "Restaure 40 pts d'endurance.",
+    "delicious": "Restaure 60 pts d'endurance."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 40,
+        "normal": 50,
+        "delicious": 60
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Lianfang",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Qingxin",
+      "quantity": 1
+    },
+    {
+      "item": "Flour",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Lan Yan",
+    "name": "Fleurs taillées en jade"
+  },
+  "character": null,
+  "baseDish": null
+}

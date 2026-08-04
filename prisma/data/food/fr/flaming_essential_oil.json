@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Flaming Essential Oil",
+  "name": "Huile essentielle Pyro",
+  "rarity": 3,
+  "category": "ESSENTIAL_OILS",
+  "effectType": "Pyro DMG Up",
+  "descriptions": {
+    "normal": "Un onguent qui a une forte affinité avec l'élément Pyro et peut augmenter les DGT infligés par l'élément Pyro. Fabriquée à partir des matériaux qui ont engendré des éléments Pyro. Après l'application, vous pouvez concentrer plus efficacement les éléments Pyro et devenez plus passionné.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente les DGT Pyro de 25 % pour toute l'équipe pendant 300 s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Pyro DMG Bonus",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Available by default",
+  "recipeSubtype": "CRAFTING",
+  "ingredients": [
+    {
+      "item": "Frog (Material)",
+      "quantity": 1
+    },
+    {
+      "item": "Flaming Flower Stamen",
+      "quantity": 1
+    },
+    {
+      "item": "Mora",
+      "quantity": 100
+    }
+  ],
+  "sources": [
+    "Alchemy"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

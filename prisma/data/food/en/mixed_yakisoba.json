@@ -1,0 +1,68 @@
+{
+  "pageTitle": "Mixed Yakisoba",
+  "name": "Mixed Yakisoba",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "One of Inazuma's common household dishes. One merely needs to stir-fry the noodles and side dishes evenly before serving, making this an easy-to-make and filling dish. It is no wonder, then, that this dish is so sought after among Inazumans.",
+    "suspicious": "One of Inazuma's common household dishes. Both the noodles and the side dishes show signs of having been burned black, testament to the tragedy that must have befallen earlier.",
+    "delicious": "One of Inazuma's common household dishes. Some mysterious art of seasoning has been imparted upon the slightly curled noodles and ordinary side dishes. Smooth, springy, rich... the magic at work on the plate is such that one will never tire of cleaning it out."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 400 HP.",
+    "suspicious": "Revives a character and restores 250 HP.",
+    "delicious": "Revives a character and restores 550 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 250,
+        "normal": 400,
+        "delicious": 550
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Sold by Shimura Kanbei",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Cabbage",
+      "quantity": 2
+    },
+    {
+      "item": "Raw Meat",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Arataki Itto",
+    "name": "Way of the Strong"
+  },
+  "character": null,
+  "baseDish": null
+}

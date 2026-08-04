@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Traditionally-Made Charcoal-Baked Ajilenakh Cake",
+  "name": "Charbon d'ajilenakh traditionnel",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Faruzan. Ces gâteaux sucrés à la couleur sombre qui reposent sur un lit de sauce verte à la menthe ressemblent à un mécanisme mystérieux. Faruzan a remarqué votre perplexité avant de se redresser et de vous affirmer avec confiance qu'il s'agit d'un plat traditionnel de Sumeru et que c'est délicieux. Mais... les Sumériens d'antan avaient-ils vraiment des goûts aussi particuliers ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 20 % des PV max, puis encore 1 500 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Ajilenakh Nut",
+      "quantity": 2
+    },
+    {
+      "item": "Flour",
+      "quantity": 1
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Faruzan",
+  "baseDish": "Charbon d'ajilenakh"
+}

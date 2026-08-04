@@ -1,0 +1,48 @@
+{
+  "pageTitle": "Vegetarian Abalone",
+  "name": "Ormeau végétarien",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Un plat végétarien riche en saveurs. Les matsutake ont été émincés et frits jusqu'à ce qu'ils soient dorés avant que la sauce ne soit versée. La fausse viande de matsutake est généreuse et possède un goût similaire à celui de l'ormeau, assez pour vous faire croire qu'il s'agit du fruit de mer.",
+    "suspicious": "Un plat végétarien riche en saveurs. La sauce trop épaisse gâche la fraîcheur des ingrédients et les condiments donnent un goût pâteux en bouche dont vous n'arrivez pas à vous débarrasser même avec plusieurs verres d'eau.",
+    "delicious": "Un plat végétarien riche en saveurs. Grâce à sa sauce, les matsutake ont un goût frais et une texture tendre qui rivalisent avec ceux des coquilles St Jacques et de l'ormeau ; si bien que vous aurez du mal à faire la différence. Vos clients ne pourront qu'être émerveillés à la découverte de la vérité."
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 400 PV.",
+    "suspicious": "Réanime un personnage et restaure 250 PV.",
+    "delicious": "Réanime un personnage et restaure 550 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 250,
+        "normal": 400,
+        "delicious": 550
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Gui l'herboriste",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Matsutake",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Hu Tao",
+    "name": "Parade des esprits"
+  },
+  "character": null,
+  "baseDish": null
+}

@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Long Night Alight",
+  "name": "Brasier des longues nuits",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Flins. Les fines tranches de poisson scintillent d'une lueur rouge orangé translucide, digne d'une pierre précieuse. Un arôme boisé et fumé sublime la fraîcheur du poisson, tel un doux air de musique classique. La précision du contrôle de la chaleur révèle une maîtrise culinaire exemplaire, véritable reflet du talent de Flins.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 16 % des PV max du personnage sélectionné et 1 350 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 1
+    },
+    {
+      "item": "Salt",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Flins",
+  "baseDish": "Filet de poisson fumé"
+}

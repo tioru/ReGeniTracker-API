@@ -1,0 +1,44 @@
+{
+  "pageTitle": "Lantern Rite Special Jewelry Soup",
+  "name": "Lantern Rite Special Jewelry Soup",
+  "rarity": 2,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Traditional cuisine made to celebrate Lantern Rite. Snapdragon, tofu, and lotus seeds are put into boiling water and simmered. Jewelry Soup earned its luxurious name from the look of the ingredients used, but contrary to its name, the soup is commonly prepared and served in ordinary households.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' DEF by 126 for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Yi'nian",
+      "currency": "Mora",
+      "cost": 1775,
+      "stock": 15,
+      "restock": "NEVER"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": "Jewelry Soup"
+}

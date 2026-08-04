@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Tri-Flavored Skewer",
+  "name": "Brochettes trois saveurs",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Un assortiment de brochettes. Vous pouvez déguster trois saveurs à la fois avec ce plat, ce qui l'a rendu aussi populaire. Si vous ne savez pas avec quel vin l'accompagner, vous ne pouvez pas vous tromper avec ces trois arômes différents.",
+    "suspicious": "Un assortiment de brochettes. Le bâton de bambou brûlé et les ingrédients de couleur terne dégagent une odeur innommable. Ne mangez pas ça en pleine nature, ou vous aller attirer les Brutocollinus...",
+    "delicious": "Un assortiment de brochettes. Le contrôle de la température hautement maîtrisé a libéré des bulles d'huiles grésillantes. Les nombreux assaisonnements accentuent la saveur des différents ingrédients. S'il y en avait un peu moins, ce serait trop fade, un peu plus, le goût serait trop fort. Cet équilibre parfait révèle les compétences culinaires exceptionnelles de celui qui a fait ce plat."
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 194 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente l'ATQ de tous les personnages de l'équipe de 160 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente l'ATQ de tous les personnages de l'équipe de 228 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 160,
+        "normal": 194,
+        "delicious": 228
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Restaurant de Kiminami Anna",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 1
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 2
+    },
+    {
+      "item": "Raw Meat",
+      "quantity": 4
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

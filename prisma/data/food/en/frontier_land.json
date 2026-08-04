@@ -1,0 +1,44 @@
+{
+  "pageTitle": "Frontier Land",
+  "name": "Frontier Land",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "A layered drink of shifting shades — this one does not appear to contain any alcohol. The inspiration for this concoction is said to be Nod-Krai itself, with an initial icy chill that gives way to smoky, astringent notes. It's worth noting that the alcoholic version of this drink is a daily staple for many of the region's veteran adventurers.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 80 Stamina.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

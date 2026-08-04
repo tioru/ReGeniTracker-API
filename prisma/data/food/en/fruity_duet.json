@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Fruity Duet",
+  "name": "Fruity Duet",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "A dual-flavored fruity beverage. Add a thick layer of pulp at the bottom and then pour in a smoothie made out of juice and tea. Its layered flavors of fresh fruit are so tempting that no one is able to refuse the drink.",
+    "suspicious": "A dual-flavored fruity beverage. The pulp at the bottom tastes just as bitter as drinking it makes you feel... How about making another cup to dispel that bitterness from your mouth and heart?",
+    "delicious": "A dual-flavored fruity beverage. A small sip sends you to a beach paradise, the fragrance of fruit dancing upon your lips as you lie upon the white sands, watching the orange sun slowly rising, warming your heart and lifting your spirits."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 194 for 300s.",
+    "suspicious": "Increases all party members' ATK by 160 for 300s.",
+    "delicious": "Increases all party members' ATK by 228 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 160,
+        "normal": 194,
+        "delicious": 228
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "New Recipe Rewards Mail",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Sunsettia",
+      "quantity": 1
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    },
+    {
+      "item": "Qingxin",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [
+    "Redemption code from Genshin Impact × Happy Lemon",
+    "Redemption code from Genshin Impact × Gong cha",
+    "Redemption code from Genshin Impact × LiHO TEA",
+    "Redemption code from Genshin Impact × HEYTEA"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

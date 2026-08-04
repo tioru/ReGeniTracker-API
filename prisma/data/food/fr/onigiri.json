@@ -1,0 +1,68 @@
+{
+  "pageTitle": "Onigiri",
+  "name": "Onigiris",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Un plat à emporter fait à base de riz. Il est simple à faire et reste délicieux à température ambiante, ce qui l'a rendu très populaire auprès des civils et des soldats.",
+    "suspicious": "Un plat à emporter fait à base de riz. Il a une forme à peu près triangulaire, mais il est si lâche qu'il menace de se désintégrer quand vous le prenez en main. Oui, se désintégrer, tout comme l'appétit de celui qui aurait le malheur de vouloir le manger.",
+    "delicious": "Un plat à emporter fait à base de riz. L'algue croustillante ajoute un peu d'umami à la douceur terre-à-terre du riz gluant. Pour la touche finale, le poisson frais contenu dans la boule de riz frappe avec force, et la satisfaction qu'il apporte au corps et à l'esprit sonne comme le clairon de la victoire."
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 20 % des PV max, puis 390 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 18 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 22 % des PV max, puis 470 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 18,
+        "normal": 20,
+        "delicious": 22
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 300,
+        "normal": 390,
+        "delicious": 470
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Quête Les Gourmets suprêmes : les plongeurs des profondeurs",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 2
+    },
+    {
+      "item": "Rice",
+      "quantity": 1
+    },
+    {
+      "item": "Seagrass",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Sayu",
+    "name": "Remède contre le tournis 2.0"
+  },
+  "character": null,
+  "baseDish": null
+}

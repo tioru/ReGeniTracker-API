@@ -1,0 +1,75 @@
+{
+  "pageTitle": "Noodles with Mountain Delicacies",
+  "name": "Noodles with Mountain Delicacies",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Noodles in a meat-and-vegetable sauce. The sauce has a rustic flavor, and there's a generous amount of it mixed in with the noodles. A humble but enduringly popular dish.",
+    "suspicious": "Noodles in a meat-and-vegetable sauce. The moisture has been sucked right out of this dish, causing the noodles to become dry. You might choke on them even if you chew slowly.",
+    "delicious": "Noodles in a meat-and-vegetable sauce. The seemingly ordinary noodles has absorbed the essence of the mountainous delicacies. A single mouthful is enough to taste its extreme freshness."
+  },
+  "effectTexts": {
+    "normal": "Restores 50 Stamina.",
+    "suspicious": "Restores 40 Stamina.",
+    "delicious": "Restores 60 Stamina."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 40,
+        "normal": 50,
+        "delicious": 60
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mushroom",
+      "quantity": 3
+    },
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Licai",
+      "currency": "Mora",
+      "cost": 2150,
+      "stock": 2,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Verr Goldet",
+      "currency": "Mora",
+      "cost": 2150,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Chongyun",
+    "name": "Cold Noodles with Mountain Delicacies"
+  },
+  "character": null,
+  "baseDish": null
+}

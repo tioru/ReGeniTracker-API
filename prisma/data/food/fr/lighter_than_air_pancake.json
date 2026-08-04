@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Lighter-Than-Air Pancake",
+  "name": "Pancakes moelleux",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Noëlle. Ces pancakes sont la collation servie aux chevaliers de l'Ordre de Favonius. C'est comme si vous mordiez dans un nuage sucré... et puis le sourire de Noëlle fait chaud au cœur !",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 15 % des PV max, puis encore 550 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Berry",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Noëlle",
+  "baseDish": "Pancakes"
+}

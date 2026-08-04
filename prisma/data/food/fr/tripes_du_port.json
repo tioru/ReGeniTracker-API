@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Tripes du Port",
+  "name": "Tripes du port",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Un plat d'abats. Pour le préparer, coupez les ingrédients en morceaux, mettez-les dans une casserole, scellez avec de la pâte et laissez cuire. Une telle recette est née dans une ville portuaire dont l'histoire a depuis longtemps été engloutie par la montée des mers, mais elle prévaut toujours à Fontaine.",
+    "suspicious": "Un plat d'abats. La texture de l'estomac de la vache ressemble à de la peau d'animal séchée au vent et elle est totalement impossible à mâcher. Pire encore, un étrange goût se répand dans votre bouche, c'est comme si vous aviez relevé le défi du « plus gros mangeur(de la « plus grosse mangeuse) de conserves périmées »... Abandonner pourrait être votre meilleure option...",
+    "delicious": "Un plat d'abats. L'estomac de vache, friable mais moelleux, a un goût presque fruité, différent des délices surprenants qui prennent d'assaut le monde. Ce plat déborde d'une riche saveur traditionnelle, et une fois que vous avez pris une bouchée, vous ne pouvez tout simplement pas vous arrêter !"
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 1 200 PV.",
+    "suspicious": "Réanime un personnage et restaure 900 PV.",
+    "delicious": "Réanime un personnage et restaure 1 500 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Vendu par Sanguinetti",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 3
+    },
+    {
+      "item": "Carrot",
+      "quantity": 3
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    },
+    {
+      "item": "Fermented Juice",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

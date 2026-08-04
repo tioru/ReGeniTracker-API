@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Sunset Berry Tea",
+  "name": "Sunset Berry Tea",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "A fruity drink with a pleasantly sour taste. This scented tea gives off the pleasant aroma of fresh fruit. Its cold and refreshing taste is sure to dispel the stifling heat with each gulp.",
+    "suspicious": "A fruity drink with a pleasantly sour taste. You added sugar to temper the sourness of the tea but accidentally lost control of the added quantity. What should have been a thirst-quenching beverage has now become a throat-clenching liquid. Water, let's have some more water...",
+    "delicious": "A fruity drink with a pleasantly sour taste. The redolence of tea carries your thoughts away. With one sip of this tea, you feel as if you are lazing in a flourishing orchard, tipsy in the gentle breeze that carries a fruity scent."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 194 for 300s.",
+    "suspicious": "Increases all party members' ATK by 160 for 300s.",
+    "delicious": "Increases all party members' ATK by 228 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 160,
+        "normal": 194,
+        "delicious": 228
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "New Recipe Rewards Mail",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Sunsettia",
+      "quantity": 3
+    },
+    {
+      "item": "Berry",
+      "quantity": 3
+    },
+    {
+      "item": "Sugar",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

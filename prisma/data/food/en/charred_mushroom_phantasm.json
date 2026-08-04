@@ -1,0 +1,46 @@
+{
+  "pageTitle": "Charred Mushroom Phantasm",
+  "name": "Charred Mushroom Phantasm",
+  "rarity": 3,
+  "category": "OTHER_DISHES",
+  "effectType": "Special Effect",
+  "descriptions": {
+    "normal": "A bread with a sauteed vegetable filling. Haphazardly cooked over a barely controlled fire, it comes out as a pitch-black charcoal mushroom. Just looking at it is enough to intimidate, and taking a bite could be downright risky...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [],
+  "region": "Nod-Krai",
+  "recipeHint": "A Memory of Warmth",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mushroom",
+      "quantity": 3
+    },
+    {
+      "item": "Rye Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    },
+    {
+      "item": "Midsommar Berry",
+      "quantity": 2
+    }
+  ],
+  "sources": [
+    "Overcooking Mushroom Phantasm in Beryna's oven"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": "Mushroom Phantasm"
+}

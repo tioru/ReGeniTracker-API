@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Cream of Mushroom Soup",
+  "name": "Velouté de champignons",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Une bisque que l'on trouve un peu partout. Mélangez les ingrédients cuits jusqu'à ce qu'ils soient liquéfiés et chauffez la soupe avec de la crème jusqu'à ce qu'elle s'épaississe, et voilà : un plat simple qui réchauffe les estomacs ainsi que les cœurs...",
+    "suspicious": "Une bisque que l'on trouve un peu partout. Une petite gorgée, et le goût bizarre vous fige déjà... Vous ne pouvez pas vous empêcher de prier : « Archons d'en haut, dites-moi, s'il vous plaît, que ce n'est pas de la terre que je mange »...",
+    "delicious": "Une bisque que l'on trouve un peu partout. Sa texture crémeuse ressemble à un vêtement soyeux, et vous semblez danser sur scène dans cette belle tenue... Le rideau est tombé, mais le souvenir persiste."
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 400 PV.",
+    "suspicious": "Réanime un personnage et restaure 250 PV.",
+    "delicious": "Réanime un personnage et restaure 550 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 250,
+        "normal": 400,
+        "delicious": 550
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Vendu par Sanguinetti",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mushroom",
+      "quantity": 3
+    },
+    {
+      "item": "Cream",
+      "quantity": 3
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Sanguinetti",
+      "currency": "Mora",
+      "cost": 1625,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

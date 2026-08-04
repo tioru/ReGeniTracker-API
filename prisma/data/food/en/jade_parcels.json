@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Jade Parcels",
+  "name": "Jade Parcels",
+  "rarity": 4,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "An exquisite-looking dish. The ham's sweetness is locked inside the fresh vegetables, drizzled with a spicy broth. Delicious is an understatement.",
+    "suspicious": "An exquisite-looking dish. Food ingredients of different degrees of doneness are wrapped in shriveled vegetables. It looks depressing to say the least.",
+    "delicious": "An exquisite-looking dish. The sweetness of ham and the crisp lotus seeds are a match made in heaven. The aromatic broth pours down like the dawning light, caressing your tongue with an unworldly delicious taste."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s.",
+    "suspicious": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s.",
+    "delicious": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 224,
+        "normal": 272,
+        "delicious": 320
+      }
+    },
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 8,
+        "delicious": 10
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Complete step 11 of Cooking Showdown",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Lotus Head",
+      "quantity": 3
+    },
+    {
+      "item": "Jueyun Chili",
+      "quantity": 2
+    },
+    {
+      "item": "Cabbage",
+      "quantity": 2
+    },
+    {
+      "item": "Ham",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

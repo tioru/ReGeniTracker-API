@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Feast-O's",
+  "name": "Rondélice",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Des régals frits dorés. La purée de poulet est façonnée en forme circulaire avec les rondelles d'oignon. La purée de poisson et la purée de pommes de terre sont pressées et façonnées en galettes rondes. Plongez ensuite le tout dans l'huile bouillante et les rondélices prendront forme avec le grésillement de l'huile.",
+    "suspicious": "Des régals frits dorés. Il a fallu une éternité pour éliminer l'excès d'huile et lorsque vous les goûtez, vous remarquez immédiatement à quel point ils ont ramolli et perdu tout leur croquant. Qui sait, peut-être que les goélands de la côte en voudront ?",
+    "delicious": "Des régals frits dorés. Fraîchement sortis de l'huile, leur arôme met immédiatement l'eau à la bouche. La rondelle de poulet et d'oignon dans la main gauche, et la rondelle de poisson et de purée de pommes de terre dans la droite. Légers et croustillants, les Rondélices sauront ravir vos papilles."
+  },
+  "effectTexts": {
+    "normal": "Augmente le bonus de soins de tous les personnages de l'équipe de 17 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente le bonus de soins de tous les personnages de l'équipe de 15 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente le bonus de soins de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Healing Improvement",
+      "values": {
+        "suspicious": 15,
+        "normal": 17,
+        "delicious": 20
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Vendu par Louis",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Onion",
+      "quantity": 3
+    },
+    {
+      "item": "Fowl",
+      "quantity": 3
+    },
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Potato",
+      "quantity": 3
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Chevreuse",
+    "name": "Péché : Dont il est inutile de s'occuper"
+  },
+  "character": null,
+  "baseDish": null
+}

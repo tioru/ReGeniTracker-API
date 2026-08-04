@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Chenyu Brew",
+  "name": "Infusion de Chenyu",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Du thé ordinaire de Liyue. Parfois, la vie est comparée à l'arrière-goût sucré qu'on savoure en sirotant une tasse de thé.",
+    "suspicious": "Du thé ordinaire de Liyue. Vous vous retrouvez à le siroter de manière répétée pour confirmer que oui, ce soi-disant thé a le goût de l'eau... Un problème de température trop basse ou une infusion trop rapide ?",
+    "delicious": "Du thé ordinaire de Liyue. Votre première gorgée fait ressortir la saveur d'une brise légère et élégante, les doux parfums du Vallon Chenyu descendant sur vos lèvres et votre langue. Écoutez, est-ce la douce musique des sources des montagnes qui chantent à vos oreilles ?"
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 9 % des PV max, puis 260 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 8 % des PV max, puis 210 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 10 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 8,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": 210,
+        "normal": 260,
+        "delicious": 300
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Lianfang",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Chenyu Adeptea",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Lianfang",
+      "currency": "Mora",
+      "cost": 530,
+      "stock": 10,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

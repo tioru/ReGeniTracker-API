@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Dreams of Healing",
+  "name": "Guérison onirique",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Yumemizuki Mizuki. Ces deux adorables pains en forme de mini-Baku sont blottis l'un contre l'autre, les yeux bien fermés. Mignons et insouciants, ils vous donnent envie d'en savoir plus sur les beaux rêves dans lesquels ils sont perdus... Peut-être qu'une fois que vous aurez pris une bouchée, vous pourrez partager leurs merveilleuses rêveries...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 130 pts d'endurance.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 4
+    },
+    {
+      "item": "Lavender Melon",
+      "quantity": 3
+    },
+    {
+      "item": "Sugar",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Yumemizuki Mizuki",
+  "baseDish": "Manju des Bains"
+}

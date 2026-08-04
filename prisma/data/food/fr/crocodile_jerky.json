@@ -1,0 +1,38 @@
+{
+  "pageTitle": "Crocodile Jerky",
+  "name": "Viande séchée de crocodile",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "De la viande de crocodile séchée préparée selon une recette spéciale de la tribu des Tanit. Bien qu'un peu difficile à mâcher, la facilité de conservation de la viande en fait un mets délicat couramment consommé par les chasseurs de la tribu. Malgré son goût de volaille, la valeur nutritive de la viande de crocodile est réputée être huit fois supérieure à celle de la chair de bêtes plus typiques...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 114 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [
+    "Investigation spot in Yuften's tent."
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

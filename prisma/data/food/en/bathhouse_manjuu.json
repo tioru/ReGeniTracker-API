@@ -1,0 +1,60 @@
+{
+  "pageTitle": "Bathhouse Manjuu",
+  "name": "Bathhouse Manjuu",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "A filled Inazuman dessert. These moreish morsels have a pleasant sweetness and are a fantastic source of energy. Originally handed out to bathers at the Aisa Bathhouse, these special snacks have since become a reliably welcome present for all occasions.",
+    "suspicious": "A filled Inazuman dessert. The dry, hard outer casing contains an even drier filling, the cloying sweetness of which makes it difficult to swallow. If you don't wish to drown your anticipation in disappointment, it's probably a good idea not to eat these before enjoying a good soak...",
+    "delicious": "A filled Inazuman dessert. The crispy, flaky outer casing protects a rich and delicate filling, its sweetness dissolving on your tongue like worries melting away in a hot spring. As you eat, your tiredness vanishes without a trace, leaving you relaxed and at ease."
+  },
+  "effectTexts": {
+    "normal": "Restores 85 Stamina.",
+    "suspicious": "Restores 70 Stamina.",
+    "delicious": "Restores 100 Stamina."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 70,
+        "normal": 85,
+        "delicious": 100
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Sold by Shimura Kanbei",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 4
+    },
+    {
+      "item": "Lavender Melon",
+      "quantity": 3
+    },
+    {
+      "item": "Sugar",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Yumemizuki Mizuki",
+    "name": "Dreams of Healing"
+  },
+  "character": null,
+  "baseDish": null
+}

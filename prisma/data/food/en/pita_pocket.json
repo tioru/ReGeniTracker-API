@@ -1,0 +1,80 @@
+{
+  "pageTitle": "Pita Pocket",
+  "name": "Pita Pocket",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "A bread with varied fillings. The flat dough has puffed up in the oven, reminding you of a lovely Pufferfish. The bread is usually cut in the middle into two separate \"pockets,\" hence the name, \"Pita Pocket.\" It is said that people of Sumeru used to dip the bread in sauce. But nowadays, people usually stuff the \"pockets\" with different fillings and then take big mouthfuls.",
+    "suspicious": "A bread with varied fillings. The pastry shell feels like sand, and the firm fillings present an unpleasant color... Only a lost traveler who has been starving for days would willingly accept this Pita Pocket.",
+    "delicious": "A bread with varied fillings. Aromatic meat and crunchy vegetables are the leading actors of this big show. The sauce, or the \"gaffer,\" has expertly focused the limelight on their duet, while each \"pocket\" is full of surprises, just like a magician's bag."
+  },
+  "effectTexts": {
+    "normal": "Restores 32% of Max HP and an additional 1250 HP to the selected character.",
+    "suspicious": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+    "delicious": "Restores 34% of Max HP and an additional 1900 HP to the selected character."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 30,
+        "normal": 32,
+        "delicious": 34
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 600,
+        "normal": 1250,
+        "delicious": 1900
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Complete Silent Seeker of Knowledge",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Tomato",
+      "quantity": 2
+    },
+    {
+      "item": "Milk",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Ashpazi",
+      "currency": "Mora",
+      "cost": 5550,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Collei",
+    "name": "Yearning"
+  },
+  "character": null,
+  "baseDish": null
+}

@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Grilled Tiger Fish",
+  "name": "Grilled Tiger Fish",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "A fish kebab grilled over an open flame. The fish is a fresh catch straight from the harbor, lightly seasoned and swiftly grilled. Its aroma attracts the street cats. Indeed, freshness is the secret of flavor.",
+    "suspicious": "A fish kebab grilled over an open flame. You can barely see that this charred lump is indeed grilled fish, and upon further investigation, the fish scales mixed in confirm that this is indeed the case.",
+    "delicious": "A fish kebab grilled over an open flame. The shimmering golden skin has locked the fresh and tender meat in. You cannot help but sigh in satisfaction as you chew on it. Not a scrap of meat here will go uneaten, not even those stuck firmly to the bamboo stick."
+  },
+  "effectTexts": {
+    "normal": "Restores 9% of Max HP and an additional 1000 HP to the selected character.",
+    "suspicious": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+    "delicious": "Restores 10% of Max HP and an additional 1200 HP to the selected character."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 8,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 800,
+        "normal": 1000,
+        "delicious": 1200
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Sold by Chef Mao",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 1
+    },
+    {
+      "item": "Pepper",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Chen the Sharp",
+      "currency": "Mora",
+      "cost": 380,
+      "stock": 10,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Keqing",
+    "name": "Survival Grilled Fish"
+  },
+  "character": null,
+  "baseDish": null
+}

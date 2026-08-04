@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Tri-Flavored Skewer",
+  "name": "Tri-Flavored Skewer",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "A pieced-together skewer. Three different cooking processes can be tasted at a go in this dish, which has made it very popular. If you are ever at a loss at to what to pair with some wine, there's no going wrong with one of these.",
+    "suspicious": "A pieced-together skewer. The burnt bamboo stick and the dull-colored ingredients give off a smell that must not be named. If you were to make this out in the wild, you might just attract some hilichurls...",
+    "delicious": "A pieced-together skewer. The highly-refined temperature control has released sizzling blooms of oils. The many seasonings accentuate the flavor of the various ingredients. If there was but a little less of them, it would be too plain; if a little more, too dense. This keen balance reveals the craftsman's heart within the chef."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 194 for 300s.",
+    "suspicious": "Increases all party members' ATK by 160 for 300s.",
+    "delicious": "Increases all party members' ATK by 228 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 160,
+        "normal": 194,
+        "delicious": 228
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Sold by Kiminami Anna",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 1
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 2
+    },
+    {
+      "item": "Raw Meat",
+      "quantity": 4
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

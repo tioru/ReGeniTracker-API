@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Exclusive Scoop: Gourmet Column",
+  "name": "Exclusive Scoop: Gourmet Column",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "A snack that she stuffed in your hands while you accompany her on a relentless pursuit for exclusive scoops. You glance at her skipping beside you, and the excited rhythm of her steps slowly overlaps with the crackling of crispy fried fish fillets in your mouth... Though this latest news has yet to be turned into a finished story, the joy and contentment in your heart has already reached its peak.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 130 Stamina.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Salt",
+      "quantity": 1
+    },
+    {
+      "item": "Potato",
+      "quantity": 3
+    },
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Charlotte",
+  "baseDish": "Fish and Chips"
+}

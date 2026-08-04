@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Nanas Cake",
+  "name": "Nanas Cake",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "A cake with a fascinating shape. Mix the paste well, then place into a mold and heat until fully cooked. The edges are particularly susceptible to burning. If you're looking for a perfect golden color on your Nanas Cake, the most important thing is to control the heat.",
+    "suspicious": "A cake with a fascinating shape. It was a little deformed when you took it out of the pot, and its texture is a bit too soft. You can't help but think back on the cooking process... and how the cake tastes like it's just been dredged up from the sea.",
+    "delicious": "A cake with a fascinating shape. Its golden sheen reminds you of the sunset in Villa Guiztli. Made in the jovial likeness of a Nanasian, you can't help but feel a sense of delight from just looking at it. Bathed in the sweet aroma of eggs and cream, you wish you could preserve those joyful moments spent with everyone in Villa Guiztli forever."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 194 for 300s.",
+    "suspicious": "Increases all party members' ATK by 160 for 300s.",
+    "delicious": "Increases all party members' ATK by 228 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 160,
+        "normal": 194,
+        "delicious": 228
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Complete step 1 of A Curtain Call for a Colorful Summer Night!",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 4
+    },
+    {
+      "item": "Cacahuatl",
+      "quantity": 2
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

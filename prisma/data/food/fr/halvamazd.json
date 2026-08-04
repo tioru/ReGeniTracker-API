@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Halvamazd",
+  "name": "Halvamazd",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Nahida. Le terme « mazd » signifie sagesse en sumérien et personne ne peut résister à ce genre de « sagesse ». Un sourire apparaît dans les yeux de Nahida : « L'anémone de mer a aidé le petit poisson à grandir, et ce dernier veut évidemment lui rendre la pareille. »",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente la DÉF de tous les personnages de l'équipe de 282 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "DEF Up",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Ajilenakh Nut",
+      "quantity": 4
+    },
+    {
+      "item": "Almond",
+      "quantity": 2
+    },
+    {
+      "item": "Butter",
+      "quantity": 2
+    },
+    {
+      "item": "Sumeru Rose",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Nahida",
+  "baseDish": "Nougat d'ajilenakh"
+}

@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Fruity Duet",
+  "name": "Duo du verger",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Une boisson fruitée à double saveur. N'oubliez pas d'ajouter une épaisse couche de pulpe au fond avant de verser le liquide crémeux à base de jus et de thé ! Ses saveurs successives de fruits frais sont si tentantes que personne ne peut refuser cette boisson...",
+    "suspicious": "Une boisson fruitée à double saveur. La pulpe au fond a un goût un peu amer et votre humeur est devenue... Que diriez-vous d'en préparer un nouveau pour dissiper cette amertume de votre bouche et de votre cœur ?",
+    "delicious": "Une boisson fruitée à double saveur. Une petite gorgée vous envoie sur une plage paradisiaque, le parfum des fruits dansant sur vos lèvres alors que vous vous allongez sur le sable blanc tandis qu'un soleil orange se lève lentement, réchauffant votre cœur et revigorant votre esprit."
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 194 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente l'ATQ de tous les personnages de l'équipe de 160 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente l'ATQ de tous les personnages de l'équipe de 228 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 160,
+        "normal": 194,
+        "delicious": 228
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Nouvelles recettes Mail",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Sunsettia",
+      "quantity": 1
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    },
+    {
+      "item": "Qingxin",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [
+    "Redemption code from Genshin Impact × Happy Lemon",
+    "Redemption code from Genshin Impact × Gong cha",
+    "Redemption code from Genshin Impact × LiHO TEA",
+    "Redemption code from Genshin Impact × HEYTEA"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

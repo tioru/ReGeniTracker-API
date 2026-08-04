@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Emotional Support",
+  "name": "Soutien émotionnel",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire d'Ifa. « Allez mange, poto. » Les voix d'un humain et d'un saurien résonnent alors qu'Ifa vous apporte une assiette remplie de biscuits et que Cacucu le suit avec une tasse de xocoatl en agitant ses ailes. Votre nervosité se dissipe grâce à ces différents arômes... Beau travail, poto !",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente la DÉF de tous les personnages de l'équipe de 282 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "DEF Increase",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Cacahuatl",
+      "quantity": 3
+    },
+    {
+      "item": "Mint",
+      "quantity": 3
+    },
+    {
+      "item": "Milk",
+      "quantity": 3
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Ifa",
+  "baseDish": "Xocoatl"
+}

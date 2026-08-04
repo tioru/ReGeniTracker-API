@@ -1,0 +1,55 @@
+{
+  "pageTitle": "Bubblemilk Pie",
+  "name": "Bubblemilk Pie",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "An innovative stuffed dessert. Crispy puff pastry, creamy filling, and the surprising sensation of bubbles bursting in sequence... This post-meal treat brings satisfaction to every taste bud. Remember to enjoy it while it's warm!",
+    "suspicious": "An innovative stuffed dessert. The bursting bubbles send waves of pain across your tongue — combined with the imagery of their green and crispy coatings, the experience is not unlike cramming exploding Dendro Cores into your mouth...",
+    "delicious": "An innovative stuffed dessert. This sweet indulgence begins with a crisp crackle of golden crust. Warm filling then cascades across your palate as bubbles meet and pop between your teeth, taking you on a journey across an unending spectrum of textures... This is the perfect finale to any feast!"
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' DEF by 200 for 300s.",
+    "suspicious": "Increases all party members' DEF by 165 for 300s.",
+    "delicious": "Increases all party members' DEF by 235 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 165,
+        "normal": 200,
+        "delicious": 235
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "New Recipe Rewards Mail Using Masked Ball Invitation Letter",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Milk",
+      "quantity": 4
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Butter",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [
+    "Redemption code from Genshin Impact × KFC"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

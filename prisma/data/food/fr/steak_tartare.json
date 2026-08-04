@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Steak Tartare",
+  "name": "Steak tartare",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Un plat de viande fraîche qui est servi cru. La viande de choix hachée et assaisonnée se marie parfaitement avec le jaune d'œuf cru. On ne sait pas qui a eu cette idée, mais il est probable que ce soit le résultat d'une tentative désespérée d'un aventurier affamé de garder son ventre plein...",
+    "suspicious": "Un plat de viande fraîche qui est servi cru. La viande hachée, qui est rouge rouille et légèrement aigre, dégage une aura inquiétante. Ce plat ne semble plus comestible par l'homme... Ça ne conviendrait même plus à un méka...",
+    "delicious": "Un plat de viande fraîche qui est servi cru. Cette viande tendre bien hachée et enrobée de jaune d'œuf a un goût exceptionnellement juteux et sucré. Le jus aromatique de la viande remplit votre bouche de ravissement, apportant le délice le plus pur et le plus ancien."
+  },
+  "effectTexts": {
+    "normal": "Restaure 32 % des PV max du personnage sélectionné et 1 250 PV supplémentaires.",
+    "suspicious": "Restaure 30 % des PV max du personnage sélectionné et 600 PV supplémentaires.",
+    "delicious": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 30,
+        "normal": 32,
+        "delicious": 34
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 600,
+        "normal": 1250,
+        "delicious": 1900
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Réputation de Fontaine",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 3
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 3
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    },
+    {
+      "item": "Marcotte",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Arlecchino",
+    "name": "Traces du fourneau"
+  },
+  "character": null,
+  "baseDish": null
+}

@@ -1,0 +1,68 @@
+{
+  "pageTitle": "Tea Break Pancake",
+  "name": "Pancakes",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Une pile de pancakes servis à l'heure du thé chez les bourgeois. Seules les meilleures baies sont sélectionnées pour agrémenter ce plat.",
+    "suspicious": "Une pile de pancakes qui sent le brûlé. Ce plat reste mangeable grâce aux baies qui l'agrémentent.",
+    "delicious": "Une pile de pancakes moelleux comme des nuages et qui dégagent une odeur divine. Quel délice !"
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 400 PV.",
+    "suspicious": "Réanime un personnage et restaure 250 PV.",
+    "delicious": "Réanime un personnage et restaure 550 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 250,
+        "normal": 400,
+        "delicious": 550
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Vendu par Sara",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Berry",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Noelle",
+    "name": "Pancakes moelleux"
+  },
+  "character": null,
+  "baseDish": null
+}

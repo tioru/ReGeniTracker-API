@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Grilled Fish in Mint Sauce",
+  "name": "Grilled Fish in Mint Sauce",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Grilled Fish doused in a delicious sauce. The fish is scored, stuffed with spices, then baked. Once cooked, a thick mint sauce is generously drizzled over the top. The refreshing aroma of the fish is enough to whet anyone's appetite.",
+    "suspicious": "Grilled Fish doused in a delicious sauce. The thick sauce has all but drowned out the fish's natural flavors, and the strident taste of mint has all but wiped that of Grilled Fish out.",
+    "delicious": "Grilled Fish doused in a delicious sauce. Crisp, fragrant fish skin, tender fish meat... Ordinary methods, extraordinary flavor."
+  },
+  "effectTexts": {
+    "normal": "Restores 9% of Max HP and an additional 1000 HP to the selected character.",
+    "suspicious": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+    "delicious": "Restores 10% of Max HP and an additional 1200 HP to the selected character."
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 8,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": 800,
+        "normal": 1000,
+        "delicious": 1200
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Sold by Cipac",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 1
+    },
+    {
+      "item": "Mint",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Skirk",
+    "name": "\"Abyssal Bounty\""
+  },
+  "character": null,
+  "baseDish": null
+}

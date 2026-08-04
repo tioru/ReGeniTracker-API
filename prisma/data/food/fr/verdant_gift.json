@@ -1,0 +1,46 @@
+{
+  "pageTitle": "Verdant Gift",
+  "name": "Présent verdoyant",
+  "rarity": 4,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Une création originale d'Escoffier. Une salade d'asperges présentée comme un bouquet vert et luxuriant, accompagnée d'une sauce jaune-orange. La bouchée croquante donne une sensation de fraîcheur, comme si la vitalité des jeunes pousses avait été capturée au moment même où elles sortent de terre. Plutôt que la chaleur et les saveurs, se pourrait-il qu'Escoffier contrôle le temps lui-même en cuisine ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 320 pts et leur taux CRIT de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [
+    "Constant Off-the-Cuff Cookery"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

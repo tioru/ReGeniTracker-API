@@ -1,0 +1,99 @@
+{
+  "pageTitle": "Fisherman's Toast",
+  "name": "Fisherman's Toast",
+  "rarity": 2,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Onion-covered toast. A favorite amongst fishermen, they will stuff a bag with it and sit by the river all day.",
+    "suspicious": "Onion-covered toast. Not quite cooked right. You'll notice its imperfection, even if you eat it while fishing.",
+    "delicious": "Onion-covered toast. Exudes a wonderful aroma. Are the fish biting for the bait, or is it the toast they're after?"
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' DEF by 107 for 300s.",
+    "suspicious": "Increases all party members' DEF by 88 for 300s.",
+    "delicious": "Increases all party members' DEF by 126 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 88,
+        "normal": 107,
+        "delicious": 126
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Available by default",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Tomato",
+      "quantity": 2
+    },
+    {
+      "item": "Onion",
+      "quantity": 1
+    },
+    {
+      "item": "Milk",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Benthem",
+      "currency": "Mora",
+      "cost": 1550,
+      "stock": 2,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Chef Mao",
+      "currency": "Mora",
+      "cost": 1025,
+      "stock": 5,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Frith",
+      "currency": "Mora",
+      "cost": 1550,
+      "stock": 2,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Lambad",
+      "currency": "Mora",
+      "cost": 1550,
+      "stock": 2,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Sara",
+      "currency": "Mora",
+      "cost": 1025,
+      "stock": 5,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Shimura Kanbei",
+      "currency": "Mora",
+      "cost": 1250,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Klee",
+    "name": "Fish-Flavored Toast"
+  },
+  "character": null,
+  "baseDish": null
+}

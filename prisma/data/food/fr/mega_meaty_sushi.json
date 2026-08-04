@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Mega-Meaty Sushi",
+  "name": "Sushis bien viandus",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Des sushis à base de viande grillée. Couche après couche, la viande, fine et tendre, s'entasse comme la terre et les pierres forment une montagne, la délicate pâte de radis formant son sommet enneigé. Ce plat n'est pas seulement un régal pour les yeux, mais aussi pour la bouche.",
+    "suspicious": "Des sushis à base de viande grillée. Les tranches de viande tombent dans tous les sens, sèches comme du bois de chauffage. Manger cela, c'est comme gravir un sommet semé de périls : c'est une expédition où reculer à mi-chemin pourrait s'avérer judicieux...",
+    "delicious": "Des sushis à base de viande grillée. La viande tendre et juteuse remplit rapidement tous les coins et recoins de la bouche. Conquérir l'assiette entière, c'est comme si vous vous teniez au sommet d'un haut pic, observant le monde d'en bas avec une pure satisfaction et un contentement qui surgit du plus profond de votre être."
+  },
+  "effectTexts": {
+    "normal": "Restaure 32 % des PV max du personnage sélectionné et 1 250 PV supplémentaires.",
+    "suspicious": "Restaure 30 % des PV max du personnage sélectionné et 600 PV supplémentaires.",
+    "delicious": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 30,
+        "normal": 32,
+        "delicious": 34
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 600,
+        "normal": 1250,
+        "delicious": 1900
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Nouvelles recettes Mail",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Rice",
+      "quantity": 3
+    },
+    {
+      "item": "Radish",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

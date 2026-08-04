@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Duck Confit",
+  "name": "Duck Confit",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "A pan-fried dish. The duck leg has been seasoned with spices and salt and then rinsed clean before being poached in duck fat. The confit is seared before being served. The meat goes deliciously well with potatoes sautéed in duck fat.",
+    "suspicious": "A pan-fried dish. The duck leg seems ready to fall apart at any moment, and the first bite coats your mouth with grease. There's even something that doesn't quite fit with this texture— ugh, is that a duck feather?",
+    "delicious": "A pan-fried dish. With the magic of \"confit,\" the plump and meaty duck leg is cooked until crispy on the outside and meltingly tender on the inside — one cannot help but exclaim that every second spent on this dish is worth it!"
+  },
+  "effectTexts": {
+    "normal": "Restores 9% of Max HP and an additional 1000 HP to the selected character.",
+    "suspicious": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+    "delicious": "Restores 10% of Max HP and an additional 1200 HP to the selected character."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 8,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 800,
+        "normal": 1000,
+        "delicious": 1200
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Sold by Sanguinetti",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 1
+    },
+    {
+      "item": "Potato",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

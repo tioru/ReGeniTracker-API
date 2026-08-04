@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Surveyor's Breakfast Sandwich",
+  "name": "Surveyor's Breakfast Sandwich",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "The luxurious spread before you is a veritable hillock of ingredients, and as you take a small bite, each clearly-demarcated layer of flavor and savory spice spreads throughout your mouth, as if you have climbed some mountain of gourmet. Are these the culinary skills he has honed while with the Knights?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 274 for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 4
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Ham",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Mika",
+  "baseDish": "Adventurer's Breakfast Sandwich"
+}

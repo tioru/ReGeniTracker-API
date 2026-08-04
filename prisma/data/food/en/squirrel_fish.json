@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Squirrel Fish",
+  "name": "Squirrel Fish",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "A hard-to-prepare fish dish. The fish is first completely deboned before crisscross cuts are made on the skin. The fish is then coated in flour and deep-fried to a golden-brown color, then served with ketchup drizzled on top. It is tender and juicy on the inside and crispy on the outside. The dish resembles a squirrel's tail to a certain degree, hence the name.",
+    "suspicious": "A hard-to-prepare fish dish. Sure, you can make out the shape of the fish, but you can't see how it's related to any squirrel. It just proves that the more complicated the dish is to prepare, the harder it is to prepare it well.",
+    "delicious": "A hard-to-prepare fish dish. The fish is expertly handled to exhibit an elegant shape; however, the exquisitely balanced sweet-and-sour taste is really where the dish truly comes alive. The culinary skills involved in preparing this dish can impress even the greatest chefs of Liyue."
+  },
+  "effectTexts": {
+    "normal": "Restores 32% of Max HP and an additional 1250 HP to the selected character.",
+    "suspicious": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+    "delicious": "Restores 34% of Max HP and an additional 1900 HP to the selected character."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 30,
+        "normal": 32,
+        "delicious": 34
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 600,
+        "normal": 1250,
+        "delicious": 1900
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Sold by Chef Mao",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 4
+    },
+    {
+      "item": "Tomato",
+      "quantity": 2
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

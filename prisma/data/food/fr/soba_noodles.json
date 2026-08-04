@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Soba Noodles",
+  "name": "Soba",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Un plat de nouilles simple. Les nouilles de sarrasin sont cuites puis refroidies. Elles présentent une texture lisse et sont fermes comme il le faut. Les ingrédients simples et bon marché pour la préparation de ce plat en ont fait un mets très populaire à Inazuma.",
+    "suspicious": "Un plat de nouilles simple. La texture rêche des nouilles râpe la langue et celles-ci laissent un arrière-goût amer après les avoir avalées. Si bien qu'on pourrait se demander si ce sont vraiment des nouilles ?",
+    "delicious": "Un plat de nouilles simple. La saveur unique du sarrasin ressort parfaitement. Une fois qu'elles glissent dans votre bouche, les nouilles flexibles vous laissent un arrière-goût de douceur tel un air de musique ancienne que l'on entend depuis un couloir tranquille."
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 9 % des PV max, puis 260 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 8 % des PV max, puis 210 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 10 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 8,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 210,
+        "normal": 260,
+        "delicious": 300
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Vendu par Kiminami Anna",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 1
+    },
+    {
+      "item": "Seagrass",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

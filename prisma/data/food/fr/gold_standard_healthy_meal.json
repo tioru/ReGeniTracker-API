@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Gold-Standard Healthy Meal",
+  "name": "Repas sain de premier ordre",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Spécialité culinaire d'Iansan. Un repas de qualité supérieure, préparé par une entraîneuse de première classe. Les ingrédients les plus frais ont été répartis en portions parfaites et regorgent de nutriments aux innombrables bienfaits ! Si vous arrivez à en manger tous les jours, vous deviendrez peut-être un élève en or.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 15 % des PV max, puis encore 550 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Grainfruit",
+      "quantity": 2
+    },
+    {
+      "item": "Tomato",
+      "quantity": 1
+    },
+    {
+      "item": "Onion",
+      "quantity": 1
+    },
+    {
+      "item": "Mint",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Iansan",
+  "baseDish": "Forêt de couleurs"
+}

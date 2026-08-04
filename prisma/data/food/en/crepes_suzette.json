@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Crepes Suzette",
+  "name": "Crepes Suzette",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "Crepes with fillings. Fry the crepes first, then serve them with jam, cream, and fruit slices. In fact, the recipe has quite a few variants. The dish's taste differs according to the different ingredients used.",
+    "suspicious": "Crepes with fillings. The first bite is so bland you wonder if you've lost your sense of taste. The second bite is so unbearably sweet that you wish you actually had lost it... Such a stimulating culinary experience is like riding a waverider into a storm: Even if you make it to the shore, you'll be traumatized.",
+    "delicious": "Crepes with fillings. The light cream and delectable jam are composed into a symphony of flavor, folded into a masterfully cooked soft crepe, as though robed in silken perfection, inviting your tongue to join an elegant, endless waltz of culinary delight."
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s.",
+    "suspicious": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s.",
+    "delicious": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Gliding Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Sold by Arouet",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bulle Fruit",
+      "quantity": 2
+    },
+    {
+      "item": "Cream",
+      "quantity": 1
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    },
+    {
+      "item": "Flour",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

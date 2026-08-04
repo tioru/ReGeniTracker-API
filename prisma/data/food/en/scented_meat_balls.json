@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Scented Meat Balls",
+  "name": "Scented Meat Balls",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "A dish with ground meat as its base. After crushing the wheat and cooking it over a fire, ground meat was added to form the outer layer. Onions and meat were then stir-fried to make the filling. Finally, the mixture was molded into balls and deep-fried until golden. Enjoying meat by the mouthful has never been this easy!",
+    "suspicious": "A dish with ground meat as its base. One may find it hard to guess what's inside based on its dull appearance. If you try taking a small bite… Yep, there's wheat in there. It'll probably scrape your lips if you're not careful enough.",
+    "delicious": "A dish with ground meat as its base. The crunchy and chewy coating wraps around the savory filling, giving it a layered texture that's easily a cut above regular meatballs. Try eating one, and its irresistible aroma will leave you brimming with satisfaction."
+  },
+  "effectTexts": {
+    "normal": "Has a chance to restore 26 of Max HP and an additional 950 HP to the selected character.",
+    "suspicious": "Has a chance to restore 24 of Max HP and an additional 450 HP to the selected character.",
+    "delicious": "Has a chance to restore 28 of Max HP and an additional 1400 HP to the selected character."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 24,
+        "normal": 26,
+        "delicious": 28
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 450,
+        "normal": 950,
+        "delicious": 1400
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Sold by Lambad",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mysterious Meat",
+      "quantity": 3
+    },
+    {
+      "item": "Wheat",
+      "quantity": 2
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    },
+    {
+      "item": "Spice",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

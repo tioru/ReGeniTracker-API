@@ -1,0 +1,60 @@
+{
+  "pageTitle": "Cream Stew",
+  "name": "Ragoût à la crème",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "Ragoût de viande et de légumes. La sauce épaisse et crémeuse se marie à la perfection avec la viande et les légumes tendres.",
+    "suspicious": "Un ragoût de viande et de légumes. Un peu sec pour un plat à la crème...",
+    "delicious": "Ragoût de viande et de légumes. Les ingrédients baignent tranquillement dans la sauce riche et crémeuse. Vous avez presque envie de les imiter..."
+  },
+  "effectTexts": {
+    "normal": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 20 % lors du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 15 % lors du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 25 % lors du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Vendu par Sara",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Cream",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Barbara",
+    "name": "Ragoût épicé"
+  },
+  "character": null,
+  "baseDish": null
+}

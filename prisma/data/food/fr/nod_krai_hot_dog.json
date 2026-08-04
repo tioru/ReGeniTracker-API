@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Nod-Krai Hot Dog",
+  "name": "Hot-dog de Nod-Krai",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Un classique des plats pratiques à manger. Une saucisse dans du pain, des oignons frits, une généreuse dose de sauce... Et voilà, un délicieux hot-dog de Nod-Krai !",
+    "suspicious": "Un classique des plats pratiques à manger. La saucisse est trop sèche et le pain est trop mou, donnant la désagréable impression de mâcher une éponge... Il faudrait vraiment avoir très faim pour manger un hot-dog comme celui-ci...",
+    "delicious": "Un classique des plats pratiques à manger. La saucisse fraîchement cuite accompagnée de pain frais... À chaque bouchée, l'irrésistible arôme de gras envahit le palais. Il se dévore en un rien de temps, vous donnant envie d'en reprendre un deuxième."
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 9 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 12 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 9,
+        "delicious": 12
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Venndu par Katya",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 1
+    },
+    {
+      "item": "Onion",
+      "quantity": 1
+    },
+    {
+      "item": "Tomato",
+      "quantity": 1
+    },
+    {
+      "item": "Sausage",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Katya",
+      "currency": "Mora",
+      "cost": 2000,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

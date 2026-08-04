@@ -1,0 +1,61 @@
+{
+  "pageTitle": "A Stunning Stratagem",
+  "name": "Étonnant stratagème",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Sangonomiya Kokomi. L'œuf est emballé comme une bourse, puis la queue de poisson à l'extrémité est petite et mignonne. Vous ne pouvez pas vous empêcher de vous demander ce qu'il se trouve à l'intérieur, mais vous n'arrivez pas à vous résoudre à manger un plat aussi joli... En regardant le petit sourire sur le visage de Kokomi, vous vous rendez compte que vous êtes dans son piège.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 16 % des PV max du personnage sélectionné et 1 350 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    },
+    {
+      "item": "Rice",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Sangonomiya Kokomi",
+  "baseDish": "Sushi à l'œuf"
+}

@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Apple Stew (Trial Version)",
+  "name": "Apple Stew (Trial Version)",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Imitating your every move at the stove, Durin prepared the very first dish of his life. Within its rich, fruity aroma lay his nascent understanding of this world's cuisine. Along its slightly crisped edges rested the fruits of his effort to restrain his own power.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 40% of Max HP and an additional 2,350 HP to the selected character.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 3
+    },
+    {
+      "item": "Apple",
+      "quantity": 3
+    },
+    {
+      "item": "Butter",
+      "quantity": 1
+    },
+    {
+      "item": "Pepper",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Durin",
+  "baseDish": "Northern Apple Stew"
+}

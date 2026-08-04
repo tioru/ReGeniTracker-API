@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Berries and Fried Meat",
+  "name": "Fricassée de viande aux baies",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "De la viande sautée accompagnée de purée de pommes de terre. La viande est finement tranchée, sautée, puis mijotée avant d'être déposée sur un lit de purée de pommes de terre. On la déguste généralement avec des baies écrasées. C'est nutritif et rassasiant !",
+    "suspicious": "De la viande sautée accompagnée de purée de pommes de terre. La viande a l'air cuite, mais elle a un fort goût de sang. Si l'on peut oublier le fait qu'elle est probablement toujours crue, le goût en lui-même n'est pas si mauvais...",
+    "delicious": "De la viande sautée accompagnée de purée de pommes de terre. La viande persillée est savoureuse et délicieuse. Associée à la douceur naturelle des baies, elle donne l'impression de parcourir la nature sauvage. Une vraie source de plaisir qui ressource l'âme !"
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 400 PV.",
+    "suspicious": "Réanime un personnage et restaure 250 PV.",
+    "delicious": "Réanime un personnage et restaure 550 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 250,
+        "normal": 400,
+        "delicious": 550
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Vendu par Demyan",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 1
+    },
+    {
+      "item": "Potato",
+      "quantity": 1
+    },
+    {
+      "item": "Midsommar Berry",
+      "quantity": 1
+    },
+    {
+      "item": "Lakkaberry",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Demyan",
+      "currency": "Mora",
+      "cost": 1400,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

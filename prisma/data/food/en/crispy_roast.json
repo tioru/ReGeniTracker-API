@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Crispy Roast",
+  "name": "Crispy Roast",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Large chunks of roasted meat. Small square grids are sliced into the meat skin before it is marinated, then placed in the oven — everyday ingredients, simple preparation, authentic flavor.",
+    "suspicious": "Large chunks of roasted meat. Swiftly snatched from the choking black smoke, the roasted meat looks more like charcoal. Before the embers in the grill have faded, it's worth trying to make another batch.",
+    "delicious": "Large chunks of roasted meat. The moment it comes out of the oven, the rich, meaty aroma fills your soul. No wonder so many people from Nod-Krai say this roasted meat is like the warm sun when the cold falls and the biting winds blow."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 194 for 300s.",
+    "suspicious": "Increases all party members' ATK by 160 for 300s.",
+    "delicious": "Increases all party members' ATK by 228 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 160,
+        "normal": 194,
+        "delicious": 228
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Sold by Katya",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Potato",
+      "quantity": 3
+    },
+    {
+      "item": "Salt",
+      "quantity": 2
+    },
+    {
+      "item": "Smetana",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Katya",
+      "currency": "Mora",
+      "cost": 5475,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Fatteh",
+  "name": "Fatteh",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "An ancient Sumeru dish. The baked bread is crumbled and mixed with boiled Glabrous Beans and preprepared yogurt sauce, and then it is ready to be served. This recipe has been passed down for a long time and has many variants, but they all share one thing in common — being simple and delicious.",
+    "suspicious": "An ancient Sumeru dish. Should one have the patience to remove the half-cooked Glabrous Beans and the brittle bits of scorched bread, the yogurt sauce that remains could pass for a dessert...",
+    "delicious": "An ancient Sumeru dish. With the Glabrous Beans coated in the silken smoothness of the yogurt sauce, the smooth texture greets your tongue like a blissful dream. And even after you have awoken, you might still taste the filling fragrance of baked flatbread between your teeth."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 400 HP.",
+    "suspicious": "Revives a character and restores 250 HP.",
+    "delicious": "Revives a character and restores 550 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 250,
+        "normal": 400,
+        "delicious": 550
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Sold by Lambad",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Glabrous Beans",
+      "quantity": 2
+    },
+    {
+      "item": "Milk",
+      "quantity": 2
+    },
+    {
+      "item": "Mint",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Kaveh",
+    "name": "The Endeavor"
+  },
+  "character": null,
+  "baseDish": null
+}

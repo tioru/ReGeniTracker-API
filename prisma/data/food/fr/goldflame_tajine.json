@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Goldflame Tajine",
+  "name": "Tajine de flamme dorée",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Dehya. En ouvrant le couvercle sans prétention, la viande souple qui se présente à l'intérieur est si tendre qu'on pourrait s'enivrer rien qu'à l'idée de la glisser entre ses lèvres... Il semble que les mains de Dehya soient aussi douées en cuisine que sur le champ de bataille.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente les PV max de tous les personnages de l'équipe de 30 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Increase",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Padisarah",
+      "quantity": 2
+    },
+    {
+      "item": "Spice",
+      "quantity": 1
+    },
+    {
+      "item": "Onion",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Dehya",
+  "baseDish": "Tajine érémite"
+}

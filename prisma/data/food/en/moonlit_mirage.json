@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Moonlit Mirage",
+  "name": "Moonlit Mirage",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "The translucent candy looks like droplets of dew gathered from moonlight. Its delicate sweetness flits in and out of reach, as if luring you into a beautiful, fleeting dream. You can't help but wonder at the skill and care that went into making it...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Max HP by 30% for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Increase",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Nocturnal Blossom",
+      "quantity": 2
+    },
+    {
+      "item": "Winter Icelea",
+      "quantity": 2
+    },
+    {
+      "item": "Midsommar Berry",
+      "quantity": 2
+    },
+    {
+      "item": "Lakkaberry",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Columbina",
+  "baseDish": "Berry Herbal Candy"
+}

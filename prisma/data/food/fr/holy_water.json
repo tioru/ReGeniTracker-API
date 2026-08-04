@@ -1,0 +1,36 @@
+{
+  "pageTitle": "Holy Water",
+  "name": "Eau sacrée",
+  "rarity": 3,
+  "category": "OTHER_DISHES",
+  "effectType": "Special Effect",
+  "descriptions": {
+    "normal": "Une petite flasque contenant un liquide transparent sans impuretés qui pourrait être de l'eau de source ordinaire. N'ayez pas de faux espoirs, ne sait-on jamais...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

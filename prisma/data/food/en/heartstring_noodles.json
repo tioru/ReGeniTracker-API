@@ -1,0 +1,44 @@
+{
+  "pageTitle": "Heartstring Noodles",
+  "name": "Heartstring Noodles",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Perhaps this comes from her desire to recreate a flavor that lives only in her memories, but Shenhe has poured much time and effort into both making and plating this dish. The smooth noodles and delectable soup make a great impression indeed, but the most indelible aspects are the dedication and heart put into this dish…",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 274 for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 4
+    },
+    {
+      "item": "Fowl",
+      "quantity": 2
+    },
+    {
+      "item": "Mushroom",
+      "quantity": 2
+    },
+    {
+      "item": "Ham",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Shenhe",
+  "baseDish": "Dragon Beard Noodles"
+}

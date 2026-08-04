@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Unmoving Essential Oil",
+  "name": "Unmoving Essential Oil",
+  "rarity": 3,
+  "category": "ESSENTIAL_OILS",
+  "effectType": "Geo DMG Up",
+  "descriptions": {
+    "normal": "Grants greater affinity for Geo, boosting Geo DMG. You can feel the fine Geo pellets within when applied. It's said to help with physical injuries.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Geo DMG by 25% for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Geo DMG Bonus",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Available by default",
+  "recipeSubtype": "CRAFTING",
+  "ingredients": [
+    {
+      "item": "Cor Lapis",
+      "quantity": 1
+    },
+    {
+      "item": "Mora",
+      "quantity": 100
+    },
+    {
+      "item": "Frog (Material)",
+      "quantity": 1
+    }
+  ],
+  "sources": [
+    "Alchemy"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

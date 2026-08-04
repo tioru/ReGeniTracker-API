@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Today's Boon",
+  "name": "Today's Boon",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "A vegetable salad. The freshest fruits and vegetables are selected and arrayed alongside rye bread and sprinkled with dressing, making for a delicious and satisfying dish that finds its way daily onto the tables of pious Frostmoon Scions.",
+    "suspicious": "A vegetable salad. For some reason, there is an earthy, almost dirt-like flavor, as though you're eating untreated grass. Perhaps a Rimehorn Deer might enjoy this dish better...",
+    "delicious": "A vegetable salad. A vibrant array of vegetables is given sweetness by the presence of juicy berries and delicately garnished with petals, creating a bountiful feast that blossoms across the taste buds."
+  },
+  "effectTexts": {
+    "normal": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+    "suspicious": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+    "delicious": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 26,
+        "normal": 28,
+        "delicious": 30
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 450,
+        "normal": 620,
+        "delicious": 790
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Exquisite Chest in Frostmoon Enclave",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Midsommar Berry",
+      "quantity": 3
+    },
+    {
+      "item": "Lakkaberry",
+      "quantity": 2
+    },
+    {
+      "item": "Nocturnal Blossom",
+      "quantity": 2
+    },
+    {
+      "item": "Mushroom",
+      "quantity": 1
+    }
+  ],
+  "sources": [
+    "Lyylikki after completing Food Matters"
+  ],
+  "sellers": [],
+  "specialDish": {
+    "character": "Lauma",
+    "name": "Whisper in the Woods"
+  },
+  "character": null,
+  "baseDish": null
+}

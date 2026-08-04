@@ -1,0 +1,56 @@
+{
+  "pageTitle": "\"Pile 'Em Up\"",
+  "name": "Empil'tout",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Un plat copieux originaire de Mondstadt riche en viande, pommes de terre et fromage. On le sert surtout pendant le Ludi Harpastum.",
+    "suspicious": "Un plat très généreux, surtout en viande. Les ingrédients ont été empilés n'importe comment. C'est un miracle qu'on ait pu servir ce plat sans que tout s'écroule.",
+    "delicious": "Un plat très généreux, surtout en viande. Les ingrédients ont été empilés correctement et apportent une satisfaction visuelle et gustative. Encore un peu plus haut et ça aurait été parfait..."
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 15 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur.",
+    "suspicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 10 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur.",
+    "delicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 10,
+        "normal": 15,
+        "delicious": 20
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Vendu par Sara",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 3
+    },
+    {
+      "item": "Potato",
+      "quantity": 3
+    },
+    {
+      "item": "Small Lamp Grass",
+      "quantity": 1
+    },
+    {
+      "item": "Cheese",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Diluc",
+    "name": "« Le passé de Mondstadt »"
+  },
+  "character": null,
+  "baseDish": null
+}

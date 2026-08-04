@@ -1,0 +1,59 @@
+{
+  "pageTitle": "Heatshield Potion",
+  "name": "Heatshield Potion",
+  "rarity": 3,
+  "category": "POTIONS",
+  "effectType": "Pyro RES Up",
+  "descriptions": {
+    "normal": "A miraculous potion that boosts Pyro RES and makes one able to withstand high heat. It works not by cooling the body, but by helping the body acclimate to high temperatures.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Pyro RES by 25% for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Elemental RES",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Pyro RES",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Available by default",
+  "recipeSubtype": "CRAFTING",
+  "ingredients": [
+    {
+      "item": "Butterfly Wings",
+      "quantity": 1
+    },
+    {
+      "item": "Flaming Flower Stamen",
+      "quantity": 1
+    },
+    {
+      "item": "Mora",
+      "quantity": 100
+    }
+  ],
+  "sources": [
+    "Alchemy"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

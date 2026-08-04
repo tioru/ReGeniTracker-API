@@ -1,0 +1,44 @@
+{
+  "pageTitle": "Mini Asha Pockets",
+  "name": "Mini-ashas farcis",
+  "rarity": 4,
+  "category": "OTHER_DISHES",
+  "effectType": "Special Effect",
+  "descriptions": {
+    "normal": "D'adorables pâtisseries en forme d'ashas. Après avoir enveloppé de la farce à la viande dans de la pâte, il suffit de façonner cette dernière puis de la faire frire jusqu'à ce qu'elle soit dorée. N'oubliez pas de peindre de petites lunettes de soleil avec de la sauce pour une touche ludique ! On comprend facilement pourquoi ce snack est si populaire. Les ashas sont vraiment adorables, après tout...",
+    "suspicious": "D'adorables pâtisseries en forme d'ashas. Un feu plus fort a été utilisé pour éviter de trop cuire la viande, mais le résultat ressemble plus à des « mini-gâchis farcis » qu'à des ashas. On dirait qu'en manger pourrait gâcher vos vacances, alors peut-être vaut-il mieux oublier que vous avez cuisiné ça...",
+    "delicious": "D'adorables pâtisseries en forme d'ashas. La couche extérieure moelleuse et croustillante scintille d'une couleur dorée comme celle des moras. Le doux parfum d'oignon enveloppe chaque tranche de viande tendre, tel un prélude aux vacances, comme la joie qui vous anime lorsque vous entrez dans votre Station balnéaire estivale."
+  },
+  "effectTexts": {
+    "normal": "Une petite surprise de la Station balnéaire Brisedouce.",
+    "suspicious": "Une petite surprise de la Station balnéaire Brisedouce.",
+    "delicious": "Une petite surprise de la Station balnéaire Brisedouce."
+  },
+  "effectVariables": [],
+  "region": "Natlan",
+  "recipeHint": "Luxurious Chest in Easybreeze Holiday Resort",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 1
+    },
+    {
+      "item": "Onion",
+      "quantity": 1
+    },
+    {
+      "item": "Flour",
+      "quantity": 1
+    },
+    {
+      "item": "Cheese",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

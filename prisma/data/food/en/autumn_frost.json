@@ -1,0 +1,38 @@
+{
+  "pageTitle": "Autumn Frost",
+  "name": "Autumn Frost",
+  "rarity": 4,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Escoffier's inspired creation. Layers of swirling chestnut cream paint the outline of Mont Automnequi, while a dusting of powdered sugar nestles on top, like frost clinging to the mountain slopes. The powerful aroma of chestnuts blends perfectly with the light and airy cream, leaving you licking your lips for more. You might say that Escoffier has summited the pinnacle of the culinary arts with this one.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 42% of Max HP to the selected character and an additional 2,850 HP to the selected character.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [
+    "Constant Off-the-Cuff Cookery"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

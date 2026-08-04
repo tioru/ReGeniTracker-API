@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Super-Dee-Duper Delicious Meat Roll",
+  "name": "Super-Dee-Duper Delicious Meat Roll",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "A subtle coarseness gives the pastry a satisfying, chewy texture. The grilled meat is seasoned in a way that makes it stand out from the usual recipes you'd find in a market, its delicious novelty taking your taste buds by storm. Sensing your desire for more, the unaffected youth sitting to one side gives you a wink and says: \"Secret recipe — you won't find it anywhere else.\"",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 114 for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Spice",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Sethos",
+  "baseDish": "Shawarma Wrap"
+}

@@ -1,0 +1,76 @@
+{
+  "pageTitle": "Panipuri",
+  "name": "Panipuris",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Une collation que l'on mange en la trempant dans la sauce qui l'accompagne. Les boulettes sont d'abord frites dans de l'huile bouillante jusqu'à ce qu'elles deviennent croustillantes, puis percées et remplies d'ingrédients. Servies avec de la sauce verte, ces boulettes de petite taille peuvent être dévorées en une seule bouchée. Elles sont un des aliments de cuisine de rue les plus courants à Sumeru.",
+    "suspicious": "Une collation que l'on mange en la trempant dans la sauce qui l'accompagne. La sauce verte dégage une odeur un peu inhabituelle, et sa couleur n'inspire pas confiance... Peut-être est-il préférable de la jeter et de manger les boulettes directement.",
+    "delicious": "Une collation que l'on mange en la trempant dans la sauce qui l'accompagne. Des boulettes croquantes toutes rondes comme des Blobs. Trempez-les dans cette mystérieuse sauce aux couleurs vives, et portez-les à votre bouche. Les sensations de fraîcheur, d'aigreur et de picotement viendront tour à tour envahir votre langue et exploser tel un feu d'artifice de saveurs fantaisistes. Pas étonnant que certains habitants de Sumeru soient si obsédés par ce mets..."
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 400 PV.",
+    "suspicious": "Réanime un personnage et restaure 250 PV.",
+    "delicious": "Réanime un personnage et restaure 550 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 250,
+        "normal": 400,
+        "delicious": 550
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Vendu par Jahangir",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Potato",
+      "quantity": 2
+    },
+    {
+      "item": "Glabrous Beans",
+      "quantity": 2
+    },
+    {
+      "item": "Spice",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Jahangir",
+      "currency": "Mora",
+      "cost": 1725,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Nefer",
+    "name": "Secret échangé"
+  },
+  "character": null,
+  "baseDish": null
+}

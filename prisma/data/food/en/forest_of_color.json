@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Forest of Color",
+  "name": "Forest of Color",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A salad made from fresh fruit and vegetables. Blanch the Grainfruit, chop the other ingredients, drizzle over the sauce, then stir until evenly mixed. Extremely simple to make, but even more importantly, it's so healthy that no matter how much you eat, you won't feel stressed!",
+    "suspicious": "A salad made from fresh fruit and vegetables. Each bite of this is no different from eating raw fruits and vegetables straight up... And once you give it any consideration, you realize that you forgot to add sauce.",
+    "delicious": "A salad made from fresh fruit and vegetables. Sweet, sour, and many others constitute a forest of flavor for you to wander through, leaving you with a lasting touch of freshness from your taste buds to your heart."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 400 HP.",
+    "suspicious": "Revives a character and restores 250 HP.",
+    "delicious": "Revives a character and restores 550 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 250,
+        "normal": 400,
+        "delicious": 550
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Complete step 1 of To the Night, What is the Night's",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Grainfruit",
+      "quantity": 2
+    },
+    {
+      "item": "Tomato",
+      "quantity": 1
+    },
+    {
+      "item": "Onion",
+      "quantity": 1
+    },
+    {
+      "item": "Mint",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Iansan",
+    "name": "Gold-Standard Healthy Meal"
+  },
+  "character": null,
+  "baseDish": null
+}

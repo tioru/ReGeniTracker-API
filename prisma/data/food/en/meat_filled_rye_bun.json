@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Meat-Filled Rye Bun",
+  "name": "Meat-Filled Rye Bun",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Fish-stuffed bread. The fish has its head and bones removed before being wrapped in bacon, encased in rye dough, and baked. The thickness of the bread is key to keeping the fish juicy.",
+    "suspicious": "Fish-stuffed bread. The bread is hard enough to pass for a shoe sole, while stubborn fish scales cling to your teeth and resist every attempt to scrape them off... One bite in, and you will already be looking for water to rinse your mouth.",
+    "delicious": "Fish-stuffed bread. Crack open its crisp, charred crust, and rich, savory oils come rushing out, followed by the clean sweetness of the fish. In the end, every flavor settles into the hearty crust, now steeped in fragrant juices. A single bite is enough to make even the bitter wind draw back."
+  },
+  "effectTexts": {
+    "normal": "Restores 50 Stamina.",
+    "suspicious": "Restores 40 Stamina.",
+    "delicious": "Restores 60 Stamina."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 40,
+        "normal": 50,
+        "delicious": 60
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Sold by Limppu",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 1
+    },
+    {
+      "item": "Bacon",
+      "quantity": 1
+    },
+    {
+      "item": "Rye Flour",
+      "quantity": 1
+    },
+    {
+      "item": "Salt",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

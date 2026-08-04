@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Fruity Trio",
+  "name": "Fruity Trio",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "A dessert with a romantic flair. Add jam and fillings made from Bulle Fruit into tart shells and spread some meringue over the top before baking in the oven. The dish offers three fruity aromas all in one bite, making it a top choice for post-meal snacks.",
+    "suspicious": "A dessert with a romantic flair. The meringue has been baked to form a passable shape — albeit after several failed attempts that resulted in suspicious, burnt lumps. Unfortunately though, the cooking took so long that the Bulle Fruit now grimaces with frustration and no longer tastes sweet.",
+    "delicious": "A dessert with a romantic flair. The crispy and flaky tart shell and refreshing fruit fillings melt in your mouth. The harmonious coalescence of brown and white colors on the meringue reminds one of a stretch of gilded cloud in the warm sunlight. A pleasant surprise to your tastebuds indeed."
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s.",
+    "suspicious": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s.",
+    "delicious": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Climbing Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Reach Reputation Level 4 in Fontaine",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Jam",
+      "quantity": 1
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    },
+    {
+      "item": "Bulle Fruit",
+      "quantity": 1
+    },
+    {
+      "item": "Marcotte",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Sandrone",
+    "name": "Tea Party Polyphony"
+  },
+  "character": null,
+  "baseDish": null
+}

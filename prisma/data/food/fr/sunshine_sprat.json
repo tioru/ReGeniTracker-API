@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Sunshine Sprat",
+  "name": "Poisson grillé au beurre",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Un plat de poisson délicatement frit au beurre. La cuisson doit être maîtrisée pour conserver au maximum les saveurs du poisson, et assurer ainsi la tendreté du mets en bouche. Les sucs du beurre viennent compléter ce plat aux multiples saveurs.",
+    "suspicious": "Un plat de poisson délicatement frit au beurre. Malheureusement, le poisson a été frit trop longtemps, ce qui l'a privé de toute sa fraîcheur et de sa texture. Au moindre contact, il s'effrite en petits morceaux.",
+    "delicious": "Un plat de poisson délicatement frit au beurre. Le poisson fond dans la bouche, mêlant les saveurs de la terre et de la mer, et créant une expérience inoubliable. Pas étonnant qu'un plat aussi simple se soit fait une place à la table des plus grands restaurants."
+  },
+  "effectTexts": {
+    "normal": "Augmente la force du bouclier de tous les personnages de l'équipe de 25 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente la force du bouclier de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente la force du bouclier de tous les personnages de l'équipe de 30 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Shield Strength",
+      "values": {
+        "suspicious": 20,
+        "normal": 25,
+        "delicious": 30
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "quête d'histoire d'Albedo",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Butter",
+      "quantity": 3
+    },
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Salt",
+      "quantity": 1
+    },
+    {
+      "item": "Small Lamp Grass",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Albedo",
+    "name": "Songe sylvestre"
+  },
+  "character": null,
+  "baseDish": null
+}

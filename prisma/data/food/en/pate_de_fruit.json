@@ -1,0 +1,54 @@
+{
+  "pageTitle": "Pate de Fruit",
+  "name": "Pate de Fruit",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "A gummy candy. It was first created as a way to preserve fruits. With the passage of time, the candy has made its way into every Fontainian's childhood memories. It is sweet and chewy, and one can never have enough of them.",
+    "suspicious": "A gummy candy. The sticky candy is glued to your teeth, making it a challenging task to continue chewing. Although it doesn't take much effort to clean your teeth, the stickiness has completely ruined your sweet moment.",
+    "delicious": "A gummy candy. It fills your mouth with fruity aromas as if a whole orchard were condensed inside the little gummy. Before you know it, you've devoured the entire jar, and not even the frosting on your fingers is spared!"
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' CRIT Rate by 15% for 300s.",
+    "suspicious": "Increases all party members' CRIT Rate by 10% for 300s.",
+    "delicious": "Increases all party members' CRIT Rate by 20% for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 10,
+        "normal": 15,
+        "delicious": 20
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Sold by Louis",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bulle Fruit",
+      "quantity": 1
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [
+    "Constant Off-the-Cuff Cookery"
+  ],
+  "sellers": [],
+  "specialDish": {
+    "character": "Lyney",
+    "name": "Cubic Tricks"
+  },
+  "character": null,
+  "baseDish": null
+}

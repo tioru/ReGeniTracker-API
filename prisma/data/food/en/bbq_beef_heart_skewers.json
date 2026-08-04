@@ -1,0 +1,57 @@
+{
+  "pageTitle": "BBQ Beef Heart Skewers",
+  "name": "BBQ Beef Heart Skewers",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Commonly seen street-stall barbeque. Marinated beef heart is threaded onto skewers before being barbequed over charcoal, grilling forth an enticing aroma and captivating luster. Add on a bit of grilled grainfruit and potato, and you've assembled the eternal golden ensemble of Natlan's street food scene!",
+    "suspicious": "Commonly seen street-stall barbeque. The fire blazed out of control, burning the outside to charcoal in an instant, while inside, the meat is still half raw. Maybe you can cut off the burnt bits and put the rest back over the charcoal, and try grilling it again, but over a smaller flame this time...",
+    "delicious": "Commonly seen street-stall barbeque. The crackling flames and sizzling sounds herald an imminent feast, igniting your craving for that first bite. The firmness of the thick hunks of meat and the abundance of savory juices that burst forth with every bite perfectly complement one another in a culinary experience that might be called bathing in BBQ bliss."
+  },
+  "effectTexts": {
+    "normal": "Restores 50 Stamina.",
+    "suspicious": "Restores 40 Stamina.",
+    "delicious": "Restores 60 Stamina."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 40,
+        "normal": 50,
+        "delicious": 60
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Sold by Cipac",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Potato",
+      "quantity": 2
+    },
+    {
+      "item": "Grainfruit",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

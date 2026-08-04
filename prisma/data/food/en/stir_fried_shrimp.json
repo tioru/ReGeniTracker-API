@@ -1,0 +1,52 @@
+{
+  "pageTitle": "Stir-Fried Shrimp",
+  "name": "Stir-Fried Shrimp",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "A light and smooth dish. The shrimp are quickly sautéed and the sauce thickened. This method of cooking is exceedingly simple and enhances the innate freshness of the shrimp meat, granting it a place at humble home-cooked meals and lavish banquets alike.",
+    "suspicious": "A light and smooth dish. Too much oil was put in a trembling effort to prevent the ingredients from sticking. Despite enduring a special \"deep-frying\" process, the shrimp are still suitably springy — but mind you don't eat too many, or you'll get a sore throat.",
+    "delicious": "A light and smooth dish. The plump shrimp are packed full of freshness just waiting to burst out at first bite, where they create unnumbered waves of dizzying, lovely flavor, like drops of water falling one by one into a still lake, ending just as the sweet aftertaste finally begins to emerge."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Shield Strength by 25% for 300s.",
+    "suspicious": "Increases all party members' Shield Strength by 20% for 300s.",
+    "delicious": "Increases all party members' Shield Strength by 30% for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "Shield Strength",
+      "values": {
+        "suspicious": 20,
+        "normal": 25,
+        "delicious": 30
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Sold by Verr Goldet",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Shrimp Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 3
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Yelan",
+    "name": "Dew-Dipped Shrimp"
+  },
+  "character": null,
+  "baseDish": null
+}

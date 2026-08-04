@@ -1,0 +1,53 @@
+{
+  "pageTitle": "A Leisurely Sip",
+  "name": "A Leisurely Sip",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "It was time for afternoon tea, and Lynette laid down a snack made especially for you. The image of the young lady who taking small sips from the cup and the image of the kitten-shaped dessert seemed to overlap. Your heart was filled with sweetness, but you were also a bit concerned about the state of the kitchenware...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Healing Bonus by 25% for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Healing Improvement",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Butter",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Lynette",
+  "baseDish": "Conch Madeleine"
+}

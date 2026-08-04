@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Apple Roly Poly",
+  "name": "Apple Roly Poly",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Adventure Restore",
+  "descriptions": {
+    "normal": "A traditional apple dessert. The secret to its crispy and delicious flavor lies in the thin pastry crust. Apparently, the best pastry chefs in Mondstadt are said to be capable of making pastries so thin that you could carry on reading even if you placed it over the page.",
+    "suspicious": "A traditional apple dessert. Apples are apples, and dough is dough. To force them into a commonality they do not share is to create an awkward mess that even the most flavorful butter cannot rescue.",
+    "delicious": "A traditional apple dessert. The mere aroma of the apples gives a feeling akin to situating oneself before a warm hearth. Before you can even think to slowly appreciate it, your hands move as if compelled by some other person, knife and fork in tow, reaching out for the next piece."
+  },
+  "effectTexts": {
+    "normal": "After you activate a Petrified Tree, a Ley Line Outcrop, or open a Treasure Chest, restore 18% HP and an extra 900 HP to all party members. This effect can occur once every 5s. Lasts 900s.",
+    "suspicious": "After you activate a Petrified Tree, a Ley Line Outcrop, or open a Treasure Chest, restore 16% HP and an extra 600 HP to all party members. This effect can occur once every 5s. Lasts 900s.",
+    "delicious": "After you activate a Petrified Tree, a Ley Line Outcrop, or open a Treasure Chest, restore 20% HP and an extra 1200 HP to all party members. This effect can occur once every 5s. Lasts 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 16,
+        "normal": 18,
+        "delicious": 20
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": 600,
+        "normal": 900,
+        "delicious": 1200
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Sold by Sara",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Apple",
+      "quantity": 4
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 2
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Butter",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

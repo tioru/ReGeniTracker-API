@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Rockin' Riffin' Chicken!",
+  "name": "Poulet rock 'n' roll",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Xinyan. Ce plat cache un piquant redoutable. Le manger vous fait pleurer mais vous ne pouvez pas vous arrêter ! Seul le diable aurait pu inventer un plat pareil !",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 16 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 2
+    },
+    {
+      "item": "Jueyun Chili",
+      "quantity": 1
+    },
+    {
+      "item": "Pepper",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Xinyan",
+  "baseDish": "Poulet pimenté de Jueyun"
+}

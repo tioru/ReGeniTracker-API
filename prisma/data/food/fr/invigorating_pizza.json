@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Invigorating Pizza",
+  "name": "Pizza revigorante",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Jean. Cette pizza est une œuvre d'art qu'on n'ose pas manger, mais une part suffit pour nous requinquer. Est-ce grâce à ce plat que Jean trouve la force de travailler aussi dur ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 34 % des PV max, puis 980 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mushroom",
+      "quantity": 4
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Cabbage",
+      "quantity": 2
+    },
+    {
+      "item": "Cheese",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Jean",
+  "baseDish": "Pizza aux champignons"
+}

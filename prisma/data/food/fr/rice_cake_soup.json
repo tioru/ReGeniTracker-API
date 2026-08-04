@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Rice Cake Soup",
+  "name": "Soupe de galettes de riz",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Plat vendu sur les marchés. Les ingrédients se sont gorgés de la soupe, ce qui les rend des plus alléchants. On dit qu'au début, ce plat ne contenait que peu d'ingrédients, mais que d'autres ont été ajoutés au fil du temps, ce qui a donné sa forme actuelle.",
+    "suspicious": "Plat vendu sur les marchés. Les ingrédients ont cuit si longtemps qu'ils sont devenus croustillants. La seule façon de les distinguer est d'en prendre une cuillerée pour se lancer dans une analyse plus approfondie.",
+    "delicious": "Plat vendu sur les marchés. La fraîcheur de la soupe légère constitue la toile de fond parfaite pour que la saveur originale des ingrédients s'épanouisse, rappelant la saveur à l'ancienne des marchés d'Inazuma. C'est le plat qui ne manquera pas de vous ragaillardir, lorsque vous le mangerez seul(seule) par une nuit enneigée."
+  },
+  "effectTexts": {
+    "normal": "Augmente la DÉF de tous les personnages de l'équipe de 200 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente la DÉF de tous les personnages de l'équipe de 165 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente la DÉF de tous les personnages de l'équipe de 235 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 165,
+        "normal": 200,
+        "delicious": 235
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Réputation d'Inazuma",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Sausage",
+      "quantity": 2
+    },
+    {
+      "item": "Tofu",
+      "quantity": 1
+    },
+    {
+      "item": "Fish",
+      "quantity": 1
+    },
+    {
+      "item": "Lavender Melon",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Kiminami Anna",
+      "currency": "Mora",
+      "cost": 7425,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

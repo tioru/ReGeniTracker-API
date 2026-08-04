@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Jewelry Soup",
+  "name": "Soupe aux perles et au jade",
+  "rarity": 2,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Une simple soupe de légumes. Les gueules-de-loup, le tofu et les graines de lotus sont mijotés dans de l'eau bouillante. Ce plat a été nommé selon son apparence, et contrairement à ce qu'on pourrait croire, il s'agit une spécialité populaire.",
+    "suspicious": "Une simple soupe de légumes. Sa saveur insipide rappelle celle des légumes pourris des friches agricoles.",
+    "delicious": "Une simple soupe de légumes. Ce plat savoureux dégage une douce odeur de légumes frais, et rivalise avec les mets les plus délicats."
+  },
+  "effectTexts": {
+    "normal": "Augmente la DÉF de tous les personnages de l'équipe de 107 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente la DÉF de tous les personnages de l'équipe de 88 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente la DÉF de tous les personnages de l'équipe de 126 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 88,
+        "normal": 107,
+        "delicious": 126
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Quête L'Adepte des nuages",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Snapdragon",
+      "quantity": 2
+    },
+    {
+      "item": "Tofu",
+      "quantity": 2
+    },
+    {
+      "item": "Lotus Head",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Harris",
+      "currency": "Mora",
+      "cost": 1775,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

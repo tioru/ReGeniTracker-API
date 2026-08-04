@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Hymn of Gathered Flame",
+  "name": "Hymne aux flammes harmonieuses",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Mavuika. Un assortiment de fruits de mer parfaitement grillés, qui forme une symphonie de saveurs. C'est comme si un hymne noble et éternel résonnait dans vos oreilles, conjointement avec l'embrasement de flammes inextinguibles. La mélodie, belle et émouvante, est porteuse d'une force inspirante. Peut-être que cela fait partie de l'immense force de l'Archon Pyro ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT et les DGT CRIT de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "CRIT DMG",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Grainfruit",
+      "quantity": 4
+    },
+    {
+      "item": "Potato",
+      "quantity": 2
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    },
+    {
+      "item": "Fish",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Mavuika",
+  "baseDish": "Ode magmique"
+}

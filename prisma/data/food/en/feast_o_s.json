@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Feast-O's",
+  "name": "Feast-O's",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "A golden brown fried snack. Mashed chicken is shaped into a hollow \"O\" shape by combining them with onion rings. Mashed fish and potatoes are similarly combined into a round form, making up the meat of the \"feast.\" Put them both into a pot of hot oil and presto — your \"Feast-O's\" are born amidst the crackling oil.",
+    "suspicious": "A golden brown fried snack, from which the excess oil was drained after much arduous labor, only to result in a soggy fried slop stripped of any crispiness. Hmm... Might the gulls by the shore be willing to accept such a meager offering?",
+    "delicious": "A golden brown fried snack. Freshly fried and fully fragrant they come, ready to get appetites roaring. With the ring in your left hand and the round in your right, behold, the crest of crispness lies in your grasp. Dig in! Let the flavor flood forth into your mouth."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Healing Bonus by 17% for 300s.",
+    "suspicious": "Increases all party members' Healing Bonus by 15% for 300s.",
+    "delicious": "Increases all party members' Healing Bonus by 20% for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "Healing Improvement",
+      "values": {
+        "suspicious": 15,
+        "normal": 17,
+        "delicious": 20
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Sold by Louis",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Onion",
+      "quantity": 3
+    },
+    {
+      "item": "Fowl",
+      "quantity": 3
+    },
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Potato",
+      "quantity": 3
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Chevreuse",
+    "name": "Sin: The Kind that Doesn't Need to be Dealt With"
+  },
+  "character": null,
+  "baseDish": null
+}

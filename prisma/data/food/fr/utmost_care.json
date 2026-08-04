@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Utmost Care",
+  "name": "Soin extrême",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Candace. L'arôme de ce plat vient au nez bien avant qu'il ne soit servi. Il semblerait que Candace ait aussi un don pour entretenir l'appétit... Cependant, la quantité de riz est bien supérieure à celle d'un riz mélangé d'Aaru traditionnel. Comment est-on censé pouvoir finir cette montagne de « soin extrême, voire excessif » ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 80 pts d'endurance.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Rice",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Glabrous Beans",
+      "quantity": 2
+    },
+    {
+      "item": "Tomato",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Candace",
+  "baseDish": "Riz mélangé d'Aaru"
+}

@@ -1,0 +1,68 @@
+{
+  "pageTitle": "Mint Bubblegum",
+  "name": "Mint Bubblegum",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A soft, chewy candy featuring a blend of two distinct flavors. With a bit of practice, you can blow impressively massive bubbles! Just watch out — if you push it too far and the bubble pops, you'll end up with a face full of sticky goo!",
+    "suspicious": "A soft, chewy candy. You brave the mint's powerful chill, puff up your cheeks, and with great effort finally blow a tiny bubble. Then, just before success is within reach, it leaks with a few sad little pffts, and the whole attempt is ruined...",
+    "delicious": "A soft, chewy candy. Its fresh flavor glides smoothly down your throat, bringing an instantly cool and refreshing sensation. Better still, with a gentle puff, you can blow a clear, glossy bubble. A perfect little treat for passing the time!"
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 1200 HP.",
+    "suspicious": "Revives a character and restores 900 HP.",
+    "delicious": "Revives a character and restores 1500 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Obtained during A Knight's Resolve",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mint",
+      "quantity": 2
+    },
+    {
+      "item": "Valberry",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Lohen",
+    "name": "Boredom-Busting Bubblegum"
+  },
+  "character": null,
+  "baseDish": null
+}

@@ -1,0 +1,68 @@
+{
+  "pageTitle": "Mondstadt Hash Brown",
+  "name": "Galette de pomme de terre mondstadtoise",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Une galette de pomme de terre frite. Elle se laisse manger avec un peu de confiture, et une pincée de pommes de pin écrasées lui donne un côté croustillant. Tout le monde l'adore.",
+    "suspicious": "Une galette de pomme de terre frite. On dit que ce n'est pas une galette mondstadtoise s'il n'y a pas un peu de confiture dessus... mais est-ce que cette chose peut être considérée comme une galette ?",
+    "delicious": "Une galette de pomme de terre frite. Fermez les yeux et goûtez ce qu'il y a de meilleur à Mondstadt."
+  },
+  "effectTexts": {
+    "normal": "Restaure 32 % des PV max du personnage sélectionné et 1 250 PV supplémentaires.",
+    "suspicious": "Restaure 30 % des PV max du personnage sélectionné et 600 PV supplémentaires.",
+    "delicious": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 30,
+        "normal": 32,
+        "delicious": 34
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 600,
+        "normal": 1250,
+        "delicious": 1900
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Finir le donjon Temple du Loup",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Pinecone",
+      "quantity": 2
+    },
+    {
+      "item": "Potato",
+      "quantity": 1
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Razor",
+    "name": "Galette papatte"
+  },
+  "character": null,
+  "baseDish": null
+}

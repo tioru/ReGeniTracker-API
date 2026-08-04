@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Fullmoon Egg",
+  "name": "Œufs de pleine lune",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "L'une des spécialités de Liyue. Les œufs sont mélangés à la farine pour créer une pâte, fourrée ensuite de chair de crevette et de poisson, et travaillée ensuite en une forme évasée, puis agrémentée de morceaux de crevette et mise à cuire à la vapeur. L'ensemble doit son nom à son aspect faisant penser à un nuage entourant la lune.",
+    "suspicious": "L'une des spécialités de Liyue. La pâte enveloppe la viande étroitement. La sensation sèche en bouche donne l'impression de mâchouiller un morceau de gnocchi géant.",
+    "delicious": "L'une des spécialités de Liyue. Prenez une bouchée tant que c'est chaud et savourez le moelleux de la viande hachée et son délicieux jus. Une expérience couronnée par la douceur de la crevette. Un peu comme si se dévoilait sous vos yeux une pleine lune se reflétant sur les eaux, un bateau de pêche accosté au rivage retirant ses filets au son du chant des marins."
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 1 200 PV.",
+    "suspicious": "Réanime un personnage et restaure 900 PV.",
+    "delicious": "Réanime un personnage et restaure 1 500 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Yueshu",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 4
+    },
+    {
+      "item": "Shrimp Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 2
+    },
+    {
+      "item": "Flour",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Yueshu",
+      "currency": "Mora",
+      "cost": 5775,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

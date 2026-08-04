@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Fukuuchi Udon",
+  "name": "Udon porte-bonheur",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Yae Miko. Le tofu frit a été spécialement préparé par la solennelle dame Kitsune. Il paraît que si vous mangez tout d'une traite de bon cœur, vous aurez la protection de la grande Kitsune. Le malheur s'enfuira et la fortune vous sourira !",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 15 % des PV max, puis encore 550 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 1
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Seagrass",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Yae Miko",
+  "baseDish": "Udon"
+}

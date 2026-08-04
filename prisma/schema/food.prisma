@@ -1,0 +1,136 @@
+// ── Food ──────────────────────────────────────────────────────────────────────
+//
+// Clé technique : `pageTitle` (titre de la page wiki EN), pas `name`. Plusieurs
+// récompenses de quête/évènement réutilisent le nom affiché de leur plat "de
+// base" tout en étant des objets distincts (ex: "Apple Cider" vs "Apple Cider
+// (Mika: Deliver By Hand)", toutes deux `name = "Apple Cider"`) — cf. NOTE en
+// tête de scripts/scrape-food.ts. `name` reste donc un simple champ traduit,
+// non unique.
+//
+// `region`, `effectType` et `recipeSubtype` ne sont pas traduits (texte EN /
+// enum réutilisés tels quels côté FR par le scraper) : portés par Food, pas
+// par FoodTranslation. `effectType` reste une String plutôt qu'un enum : c'est
+// un gros ensemble ouvert (24 valeurs observées, un par élément × DMG/RES +
+// quelques effets spéciaux) amené à grandir à chaque région ajoutée au jeu.
+//
+// `character`/`baseDish` modélisent la relation plat "de base" ↔ plat spécial
+// de personnage (ex: Almond Tofu ↔ "Sweet Dream" de Xiao) en relations
+// propres plutôt qu'en texte libre, avec `baseDish` en auto-relation sur
+// Food. Résolues par le seeder en 2e passe (cf. prisma/seeds/food.seed.ts) :
+// l'ordre alphabétique des fichiers ne garantit pas que le plat de base soit
+// seedé avant sa variante (ex: "Hearty Indulgence" avant "Northern Smoked
+// Chicken").
+
+model Food {
+  id            Int    @id @default(autoincrement())
+  pageTitle     String @unique
+  rarity        Int
+  category      FoodCategory
+  effectType    String?
+  region        String?
+  recipeSubtype FoodRecipeType?
+
+  character   Character? @relation(fields: [characterId], references: [id])
+  characterId Int?
+
+  baseDish      Food?  @relation("FoodSpecialDish", fields: [baseDishId], references: [id])
+  baseDishId    Int?
+  specialDishes Food[] @relation("FoodSpecialDish")
+
+  translations    FoodTranslation[]
+  ingredients     FoodIngredient[]
+  sellers         FoodSeller[]
+  effectVariables FoodEffectVariable[]
+}
+
+model FoodTranslation {
+  id       Int    @id @default(autoincrement())
+  language String
+  name     String
+
+  // Suspicious/Normal/Delicious : qualité de cuisson (absentes — null — pour
+  // les objets à qualité fixe : potions, ingrédients bruts, plats spéciaux).
+  descriptionNormal     String
+  descriptionSuspicious String?
+  descriptionDelicious  String?
+  effectTextNormal      String
+  effectTextSuspicious  String?
+  effectTextDelicious   String?
+
+  recipeHint String?
+  sources    String[]
+
+  food   Food @relation(fields: [foodId], references: [id])
+  foodId Int
+
+  @@unique([foodId, language])
+}
+
+model FoodIngredient {
+  id           Int                         @id @default(autoincrement())
+  quantity     Int
+  translations FoodIngredientTranslation[]
+  food         Food                        @relation(fields: [foodId], references: [id])
+  foodId       Int
+}
+
+model FoodIngredientTranslation {
+  id           Int            @id @default(autoincrement())
+  language     String
+  item         String
+  ingredient   FoodIngredient @relation(fields: [ingredientId], references: [id])
+  ingredientId Int
+
+  @@unique([ingredientId, language])
+}
+
+model FoodSeller {
+  id           Int                     @id @default(autoincrement())
+  cost         Int
+  stock        Int
+  restock      RestockType
+  translations FoodSellerTranslation[]
+  food         Food                    @relation(fields: [foodId], references: [id])
+  foodId       Int
+}
+
+model FoodSellerTranslation {
+  id       Int        @id @default(autoincrement())
+  language String
+  name     String
+  currency String
+  seller   FoodSeller @relation(fields: [sellerId], references: [id])
+  sellerId Int
+
+  @@unique([sellerId, language])
+}
+
+// Valeurs numériques par variable d'effet (ex: DEF +215/261/308 ET soins
+// +6/8/10% sur un même plat) — jamais traduites (label = nom d'attribut
+// technique, réutilisé tel quel côté FR par le scraper).
+model FoodEffectVariable {
+  id         Int    @id @default(autoincrement())
+  label      String
+  suspicious Int?
+  normal     Int?
+  delicious  Int?
+  food       Food   @relation(fields: [foodId], references: [id])
+  foodId     Int
+}
+
+// ── Enums ─────────────────────────────────────────────────────────────────────
+
+enum FoodCategory {
+  ATK_BOOSTING_DISHES
+  DEF_BOOSTING_DISHES
+  RECOVERY_DISHES
+  ADVENTURER_S_DISHES
+  OTHER_DISHES
+  POTIONS
+  ESSENTIAL_OILS
+}
+
+enum FoodRecipeType {
+  COOKING
+  CRAFTING
+}

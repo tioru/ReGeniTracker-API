@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Gold-Standard Healthy Meal",
+  "name": "Gold-Standard Healthy Meal",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A gold-standard meal, prepped by a gold-standard coach. The freshest ingredients are portioned to perfection and packed full of nutrients, with too many benefits to count! If you can bear eating it daily, maybe you too shall become a gold-standard trainee.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Grainfruit",
+      "quantity": 2
+    },
+    {
+      "item": "Tomato",
+      "quantity": 1
+    },
+    {
+      "item": "Onion",
+      "quantity": 1
+    },
+    {
+      "item": "Mint",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Iansan",
+  "baseDish": "Forest of Color"
+}

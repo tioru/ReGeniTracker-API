@@ -1,0 +1,63 @@
+{
+  "pageTitle": "Meat-Lover's Feast",
+  "name": "Festin carnassier",
+  "rarity": 4,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Un assortiment de viande et de café. Une escalope de poulet frite et croustillante enveloppée de légumes frais, accompagnée de queues de crevettes décortiquées. Ce mariage audacieux de saveurs de la terre et de l'eau provoque une révélation : les délices culinaires sont pleins de possibilités infinies, comme une aventure en terres inconnues.",
+    "suspicious": "Un assortiment de viande et de café. Il s'agit d'un mélange chaotique d'ingrédients. Au premier coup d'œil, on dirait que ce plat a été fait à partir... de viande et de crevettes ? Malgré son aspect fouillis, il vous rassasiera...",
+    "delicious": "Un assortiment de viande et de café. La sauce spéciale dégage une odeur alléchante qui tourbillonne dans l'air comme si elle était diffusée par l'élément Anémo, tandis que les crevettes fraîches succulentes dansent sur votre langue. Chaque bouchée déborde d'un bonheur juteux et texturé... Pendant que vous vous remplissez la panse, vous priez pour que ce rêve d'amateur de viande ne s'arrête jamais !"
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 272 pts et leur taux CRIT de 8 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente l'ATQ de tous les personnages de l'équipe de 224 pts et leur taux CRIT de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente l'ATQ de tous les personnages de l'équipe de 320 pts et leur taux CRIT de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 224,
+        "normal": 272,
+        "delicious": 320
+      }
+    },
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 8,
+        "delicious": 10
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Nouvelles recettes Mail",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 5
+    },
+    {
+      "item": "Shrimp Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Coffee Beans",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    }
+  ],
+  "sources": [
+    "Redemption code from Genshin Impact × KFC"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

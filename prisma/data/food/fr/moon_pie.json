@@ -1,0 +1,64 @@
+{
+  "pageTitle": "Moon Pie",
+  "name": "Tourte de lune",
+  "rarity": 4,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Un plat typique de Mondstadt. La viande marinée est très savoureuse et reste sucrée et juteuse après avoir été rôtie en pâte feuilletée. C'est un élément essentiel des festivités de Mondstadt.",
+    "suspicious": "Un plat typique de Mondstadt. La meringue jaune brûlé semble à peine passable. Ne laissez pas les habitants de Mondstadt vous voir avec cette chose, ou ils pourraient se sentir le devoir de vous apprendre la recette correcte.",
+    "delicious": "Un plat typique de Mondstadt. Alors que vous coupez une tranche de cette petite tarte à la viande, le parfum laiteux du beurre et le goût riche de la viande s'emparent de vos papilles. La sensation en bouche, rustique et sucrée, vous rappelle les fêtes des récoltes, et dessine un sourire spontané sur votre visage."
+  },
+  "effectTexts": {
+    "normal": "Augmente la force du bouclier de tous les personnages de l'équipe de 30 % et augmente leur DÉF de 200 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente la force du bouclier de tous les personnages de l'équipe de 25 % et augmente leur DÉF de 165 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente la force du bouclier de tous les personnages de l'équipe de 35 % et augmente leur DÉF de 235 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Shield Strength",
+      "values": {
+        "suspicious": 25,
+        "normal": 30,
+        "delicious": 35
+      }
+    },
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 165,
+        "normal": 200,
+        "delicious": 235
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Réputation de Mondstadt",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Butter",
+      "quantity": 3
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 4
+    },
+    {
+      "item": "Raw Meat",
+      "quantity": 4
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Eula",
+    "name": "Tourte tempétueuse"
+  },
+  "character": null,
+  "baseDish": null
+}

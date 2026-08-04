@@ -1,0 +1,64 @@
+{
+  "pageTitle": "Crab Roe Tofu",
+  "name": "Crab Roe Tofu",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A dish with a tender mouthfeel. Crab roe is stir-fried till the oil within oozes out before being added to boiled tofu and accented with broth. Simple, yes, but gloriously fresh.",
+    "suspicious": "A dish with a tender mouthfeel. Even the freshest crab roe cannot mask the taste of over-aged tofu. Crushing it up with your chopsticks and mixing it into the white rice is all you can do to force it down your gullet.",
+    "delicious": "A dish with a tender mouthfeel. The tofu is so tender that it might break if you blew on a spoonful of it. Each granule of the crab roe is plump and filled with crab oil that oozes out onto your lips the moment you have a single bite. Chewing is not needed at all. The food travels down your gullet in a flash, leaving nothing but the memory of its fresh flavor"
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 400 HP.",
+    "suspicious": "Revives a character and restores 250 HP.",
+    "delicious": "Revives a character and restores 550 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 250,
+        "normal": 400,
+        "delicious": 550
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Sold by Chef Mao",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Crab Roe",
+      "quantity": 1
+    },
+    {
+      "item": "Tofu",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Yanfei",
+    "name": "\"My Way\""
+  },
+  "character": null,
+  "baseDish": null
+}

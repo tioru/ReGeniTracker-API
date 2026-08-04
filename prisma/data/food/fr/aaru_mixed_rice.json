@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Aaru Mixed Rice",
+  "name": "Riz mélangé d'Aaru",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Une grande portion d'aliments bien nutritifs. Dans ce plat qui réunit riz, nouilles et haricots, le secret du délice réside dans la saveur aigre-douce conférée par les tomates. En raison de sa nature commune et de son faible prix, ce plat est un excellent choix pour assouvir sa faim... Ce qui est l'une des principales raisons pour lesquelles cette recette s'est propagée du Village d'Aaru au reste de Sumeru.",
+    "suspicious": "Une grande portion d'aliments bien nutritifs. Dans votre hâte, vous n'avez pas bien mélangé les différents ingrédients avant dégustation, ce qui fait que le goût de tomate est envahissant sur une partie du riz tandis que l'autre partie est fade... Il vaut mieux mélanger une nouvelle fois le plat.",
+    "delicious": "Une grande portion d'aliments bien nutritifs. Chaque grain de riz est distinct et uniformément enrobé d'une sauce savoureuse lorsque vous le portez à la cuillère dans votre bouche. Aucune viande huileuse n'a été utilisée pour préparer ce plat, et pourtant son goût est plus que séduisant. Les saveurs s'ajoutent les unes aux autres comme le font les dunes infinies du désert, apportant une satisfaction des plus uniques."
+  },
+  "effectTexts": {
+    "normal": "Restaure 50 pts d'endurance.",
+    "suspicious": "Restaure 40 pts d'endurance.",
+    "delicious": "Restaure 60 pts d'endurance."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 40,
+        "normal": 50,
+        "delicious": 60
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Vendu par Azalai",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Rice",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Glabrous Beans",
+      "quantity": 2
+    },
+    {
+      "item": "Tomato",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Azalai",
+      "currency": "Mora",
+      "cost": 1925,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Candace",
+    "name": "Soin extrême"
+  },
+  "character": null,
+  "baseDish": null
+}

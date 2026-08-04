@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Minty Bean Soup",
+  "name": "Minty Bean Soup",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A rich soup made with simple ingredients. Mints and beans were boiled and ground together to get a smooth texture. The soup was then left on low heat till it thickened. Finally, some beans and mints were sprinkled on the top. This refreshing delicacy tastes equally good whether served hot or cold.",
+    "suspicious": "A rich soup made with simple ingredients. Due to an excess of water, the soup tastes more like a beverage than a proper dish. Why not add some ice and turn it into a bowl of Minty Bean Water, then?",
+    "delicious": "A rich soup made with simple ingredients. The smooth texture caresses your taste buds, filling your mouth with the refreshing scent of beans and mints. The unadorned yet pleasant flavor reminds you of a leisurely walk in the shade. Who can refuse such simple delight?"
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 100 HP.",
+    "suspicious": "Revives a character and restores 50 HP.",
+    "delicious": "Revives a character and restores 150 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 50,
+        "normal": 100,
+        "delicious": 150
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Sold by Lambad",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Glabrous Beans",
+      "quantity": 2
+    },
+    {
+      "item": "Mint",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

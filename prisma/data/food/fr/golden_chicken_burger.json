@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Golden Chicken Burger",
+  "name": "Burger de poulet",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Burger de poitrine de poulet. Les deux pains moelleux contiennent la viande croustillante assortie de plusieurs légumes frais. Nul besoin de couverts pour le déguster : ouvrez la bouche, mordez directement, et laissez-vous envahir par le plaisir simple de la viande craquant sous les dents.",
+    "suspicious": "Un hamburger de volaille. Les filets ont été coupés trop fins, et couverts de trop de farine, donnant l'impression lorsqu'on y goûte de manger une tranche de pain frite entre deux tranches de pain.",
+    "delicious": "Un hamburger de volaille. Les filets sont d'un doré irrésistible, et d'une tendresse à se pâmer. Ajoutez à ceci la fraîcheur des légumes et la saveur de la sauce spéciale : ce plat vous emportera sur un vrai petit nuage."
+  },
+  "effectTexts": {
+    "normal": "Restaure 32 % des PV max du personnage sélectionné et 1 250 PV supplémentaires.",
+    "suspicious": "Restaure 30 % des PV max du personnage sélectionné et 600 PV supplémentaires.",
+    "delicious": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 30,
+        "normal": 32,
+        "delicious": 34
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 600,
+        "normal": 1250,
+        "delicious": 1900
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Événement Gastronomie étrangère",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 4
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Cabbage",
+      "quantity": 2
+    },
+    {
+      "item": "Butter",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

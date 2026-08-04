@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Goulash",
+  "name": "Goulash",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Sheer Cold Resistance",
+  "descriptions": {
+    "normal": "A steaming-hot stew. Hot stew made from Chilled Meat and vegetables chopped into small pieces. Slow-boiled tomatoes give this dish a rich and thick texture. Filling one's stomach with this comforting mixture has a warming effect.",
+    "suspicious": "A steaming-hot stew. There was some flaw in the flame control during the stewing process, leading to a product with a very stiff mouthfeel. You can ignore those flaws if you scarf it all down - it'll keep the cold away regardless.",
+    "delicious": "A steaming-hot stew. Just one spoonful sends a down-to-earth sense of satisfaction welling up from the depths of your heart. The meat's flavor grows with every chew, bringing limitless strength to the eater even in the coldest wintry wastes."
+  },
+  "effectTexts": {
+    "normal": "Somewhat decreases the rate of Sheer Cold accumulation for all party members for 900s.",
+    "suspicious": "Slightly decreases the rate of Sheer Cold accumulation for all party members for 900s.",
+    "delicious": "Decreases the rate of Sheer Cold accumulation for all party members for 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "Sheer Cold",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Complete Ah, Fresh Meat!",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Chilled Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Carrot",
+      "quantity": 2
+    },
+    {
+      "item": "Tomato",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

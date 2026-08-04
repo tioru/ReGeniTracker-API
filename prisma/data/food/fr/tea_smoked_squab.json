@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Tea-Smoked Squab",
+  "name": "Pigeon fumé au thé",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Un plat très populaire. Les parties brûlées des pattes et des ailes du pigeon trahissent d'un manque de contrôle de la chaleur, mais avec un peu de patience, vous pourriez quand même en manger quelques bouts...",
+    "suspicious": "Un plat très populaire. Les parties brûlées des pattes et des ailes du pigeon trahissent d'un manque de contrôle de la chaleur, mais avec un peu de patience, vous pourriez quand même en manger quelques bouts...",
+    "delicious": "Un plat très populaire. La peau translucide du pigeon est croustillante et fine comme une feuille de papier ocre, et la viande est ferme et charnue. Accompagné d'une sauce délicate, ce plat saura conquérir les cœurs et les estomacs."
+  },
+  "effectTexts": {
+    "normal": "Restaure 20 % des PV max du personnage sélectionné et 900 PV supplémentaires.",
+    "suspicious": "Restaure 20 % des PV max du personnage sélectionné et 900 PV supplémentaires.",
+    "delicious": "Restaure 24 % des PV max du personnage sélectionné et 1 500 PV supplémentaires."
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 20,
+        "normal": 22,
+        "delicious": 24
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Lianfang",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Chenyu Adeptea",
+      "quantity": 2
+    },
+    {
+      "item": "Fowl",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Lianfang",
+      "currency": "Mora",
+      "cost": 1575,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

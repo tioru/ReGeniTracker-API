@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Gentle Sea Breeze",
+  "name": "Gentle Sea Breeze",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "A refreshing drink. Its vivid blue-to-white gradient is evocative of cresting waves caressed by the sea breeze. Having a sip of this while on a holiday is sure to fill your heart with ease.",
+    "suspicious": "A refreshing drink. A tidal wave of saltiness almost sweeps you off your feet, with not a single hint of sweet in the whole glass. Is this just a cup of blue-colored brine?",
+    "delicious": "A refreshing drink. The light and gentle bubbles dance on the tip of your tongue. The sweetness of the fruit juice and the salty flavor of the soda blend together in perfect harmony, as though you're stepping through waves in time with the breeze. Cheers and laughter from the resort fill the air..."
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s.",
+    "suspicious": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s.",
+    "delicious": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Climbing Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Complete Hayaq's food delivery challenge",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Quenepa Berry",
+      "quantity": 2
+    },
+    {
+      "item": "Mint",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

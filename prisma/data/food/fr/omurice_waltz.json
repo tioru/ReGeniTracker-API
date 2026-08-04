@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Omurice Waltz",
+  "name": "Waltz d'omurice",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Kuki Shinobu. Une omelette tendre qui semble danser allègrement sur un plateau composé de sauces. Elle enveloppe un riz moelleux parfumé sous sa robe virevoltante. Seule Shinobu, avec sa certification de cuisinière, pouvait préparer un plat qui n'a rien à envier à ceux du chef de la Pagode Uyou !",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Réduit la consommation d'endurance de tous les personnages de l'équipe de 25 % lors de l'escalade et du sprint pendant 1500 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Climbing Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 4
+    },
+    {
+      "item": "Rice",
+      "quantity": 3
+    },
+    {
+      "item": "Tomato",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Kuki Shinobu",
+  "baseDish": "Omelette au riz sauté"
+}

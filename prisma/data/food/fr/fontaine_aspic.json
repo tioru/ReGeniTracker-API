@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Fontaine Aspic",
+  "name": "Aspic du pêcheur",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Un plat froid à base de poissons. Après avoir broyé la chair de poisson en une pâte pour la placer dans un moule rectangulaire, faites-la cuire avant de laisser refroidir le plat. C'est froid sur la langue mais chaud dans le cœur !",
+    "suspicious": "Un plat froid à base de poissons. Cela fait un bon apéritif... Tant que vous pouvez éviter les pièges : les arêtes de poisson pour être plus précis... Cachées dans l'aspic.",
+    "delicious": "Un plat froid à base de poissons. Les œufs de poisson dans l'aspic explosent sur vos papilles, déclenchant de délicieuses surprises. Il ne vous a pas fallu longtemps avant de finir votre assiette. Puisqu'il n'y a personne autour... On peut lécher l'assiette, non ?"
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 9 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 12 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 9,
+        "delicious": 12
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Vendu par Sanguinetti",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 2
+    },
+    {
+      "item": "Fowl",
+      "quantity": 2
+    },
+    {
+      "item": "Cream",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

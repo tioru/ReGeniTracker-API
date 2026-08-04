@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Shrimp Bisque",
+  "name": "Shrimp Bisque",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "A thick, orange-red soup. After stir-frying the spices, add the ingredients and simmer with broth until cooked. Up close, you'll catch a savory aroma laced with fiery, fragrant heat. The vibrant color of the broth whets the appetite at a glance, and it tastes even better.",
+    "suspicious": "A thick, orange-red soup. A single mouthful makes your face burn hot in an instant, giving even the redness of the cooked shrimp a run for its money. After coughing and gagging for a few minutes, you finally manage to breathe again, but by then, you no longer feel like giving the dish another try...",
+    "delicious": "A thick, orange-red soup. Its flavor is warm and rich, the perfect spiciness of the soup blending with sweet shrimp meat and vegetables. It's as though elemental energy is surging through your body, lifting your spirits in an instant."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Healing Bonus by 17% for 300s.",
+    "suspicious": "Increases all party members' Healing Bonus by 15% for 300s.",
+    "delicious": "Increases all party members' Healing Bonus by 20% for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "Healing Improvement",
+      "values": {
+        "suspicious": 15,
+        "normal": 17,
+        "delicious": 20
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Dialogue with Lawaia and then Teuciztli",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Onion",
+      "quantity": 3
+    },
+    {
+      "item": "Potato",
+      "quantity": 3
+    },
+    {
+      "item": "Shrimp Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Grainfruit",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Teuciztli",
+      "currency": "Mora",
+      "cost": 5775,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

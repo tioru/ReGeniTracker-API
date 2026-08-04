@@ -1,0 +1,40 @@
+{
+  "pageTitle": "Honey-Glazed Ceviche",
+  "name": "Ceviche au miel",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire d'Ororon. « C'est pour honorer mes aînés. » Et sans plus attendre, les tranches de poisson sont servies, luisantes de délices juteux. À en juger par leur saveur douce et délicate, on peut dire que la sauce contient très probablement du miel de la plus haute qualité, dont la récolte a dû nécessiter beaucoup de réflexion et d'efforts. Il est rare d'assister à une telle démonstration de respect filial.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 114 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 2
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    },
+    {
+      "item": "Tomato",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Ororon",
+  "baseDish": "Ceviche en sauce aigre"
+}

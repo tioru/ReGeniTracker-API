@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Survival Grilled Fish",
+  "name": "Poisson grillé du survivant",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Keqing. Ce poisson n'a pas été grillé à la flamme, mais frit de l'intérieur grâce à de l'énergie Électro. Vous succomberez à sa saveur exquise dès que vous mordrez sa peau croustillante. C'est donc grâce à ce genre de repas que Keqing survit dans la nature ? On aurait du mal à le croire...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 16 % des PV max du personnage sélectionné et 1 350 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 1
+    },
+    {
+      "item": "Pepper",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Keqing",
+  "baseDish": "Poisson chihu grillé"
+}

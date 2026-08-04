@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Sticky Honey Roast",
+  "name": "Sticky Honey Roast",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "A meat dish in a sweet honey sauce. The carrots take the gamey edge off the meat, and the sauce brings it all together sweetly. The perfect warm dish for a cold winter night.",
+    "suspicious": "A meat dish in a sweet honey sauce. The sauce has stuck like glue to the meat, forming a homogeneous mass that tastes neither of honey nor meat.",
+    "delicious": "A meat dish in a sweet honey sauce. The warm honey draws out the flavor of the meat, creating a flavor explosion akin to bathing in the warm summer sun."
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s.",
+    "suspicious": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s.",
+    "delicious": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Climbing Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Complete step 5 of Sara's Worries Complete the Dawn Winery version of Food Delivery",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 3
+    },
+    {
+      "item": "Carrot",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

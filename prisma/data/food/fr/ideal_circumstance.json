@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Ideal Circumstance",
+  "name": "Circonstance idéale",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Spécialité culinaire d'Alhaitham. Un plat que l'on prépare en ajoutant des légumes et de la viande sur une poêle à frire au fond décoré de motifs. Le chef a dû modifier la recette, car elle est très différente du plat original. Le mot qui apparaît dans le plat signifie « réfléchir ». Selon les mots du chef : « L'idéal serait que tout le monde puisse le faire, mais ce n'est pas possible ».",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 40 % des PV max du personnage sélectionné et 2 350 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 2
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    },
+    {
+      "item": "Spice",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Alhaitham",
+  "baseDish": "Ragoût de Sabz"
+}

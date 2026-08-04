@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Scented Meat Balls",
+  "name": "Boulettes aux épices",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Un plat à base de viande hachée. Tout d'abord, le blé est râpé et cuit, la viande hachée est mélangée pour créer une croûte. Les oignons et la viande sont ensuite sautés pour former la garniture. Enfin, le mélange est malaxé en une boule et frit jusqu'à ce qu'il soit doré. Il suffit de bien contrôler le temps de cuisson pour se régaler à grandes bouchées de cette viande délicieuse.",
+    "suspicious": "Un plat à base de viande hachée. Avec son aspect terne, il est difficile de s'imaginer ce qu'il peut bien contenir. Ça se voit qu'il y a du blé dedans : des brins de blés viennent vous écorcher les lèvres même lorsque vous voulez goûter une petite bouchée.",
+    "delicious": "Un plat à base de viande hachée. L'enrobage croustillant enveloppe une garniture délicieuse et savoureuse, lui donnant une texture plus étagée que les boulettes de viande ordinaires. Une seule bouchée de ce plat est un régal unique qui, avec l'arôme de la viande, vous fera ressentir un sentiment de bonheur inégalé."
+  },
+  "effectTexts": {
+    "normal": "A une chance de restaurer 26 %/32 %/38 % des PV max du personnage sélectionné et 950/1 250/1 550 PV supplémentaires.",
+    "suspicious": "A une chance de restaurer 24 %/30 %/36 % des PV max du personnage sélectionné et 450/600/700 PV supplémentaires.",
+    "delicious": "A une chance de restaurer 28 %/34 %/40 % des PV max du personnage sélectionné et 1 400/1 900/2 350 PV supplémentaires."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 24,
+        "normal": 26,
+        "delicious": 28
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 450,
+        "normal": 950,
+        "delicious": 1400
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Vendu par Lambad",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mysterious Meat",
+      "quantity": 3
+    },
+    {
+      "item": "Wheat",
+      "quantity": 2
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    },
+    {
+      "item": "Spice",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

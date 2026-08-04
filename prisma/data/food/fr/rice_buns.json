@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Rice Buns",
+  "name": "Boules de riz gluant",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Un mets de base, tendre et élastique. Le riz gluant est écrasé avec de la prêle, et la pâte obtenue est ensuite séparée en morceaux qui sont travaillés jusqu'à la forme voulue avant d'être cuits à la vapeur. On les mange aussi bien directement que fourrés. Pratiques à emporter et consistants, il s'agit là de l'un des mets de ce type les plus appréciés des gens de Liyue.",
+    "suspicious": "Un mets de base, tendre et élastique. La pâte n'a pas été suffisamment levée et n'a pas gonflé uniformément pendant le processus de cuisson à la vapeur. La sensation en bouche grossière et pâteuse qui en résulte laisse beaucoup à désirer.",
+    "delicious": "Un mets de base, tendre et élastique. La douceur unique des grains de riz glisse entre vos dents et vos lèvres lorsque vous les mâchez. Qui aurait cru que des ingrédients aussi simples puissent donner un plat aussi agréable et réconfortant ? Généralement préparé par des gens ordinaires, ce plat s'apprécie encore plus après une dure journée de travail."
+  },
+  "effectTexts": {
+    "normal": "Restaure 9 % des PV max du personnage sélectionné et 1 000 PV supplémentaires.",
+    "suspicious": "Restaure 8 % des PV max du personnage sélectionné et 1 000 PV supplémentaires",
+    "delicious": "Restaure 10 % des PV max du personnage sélectionné et 1 000 PV supplémentaires"
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 8,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 800,
+        "normal": 1000,
+        "delicious": 1200
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Chef Mao",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Rice",
+      "quantity": 1
+    },
+    {
+      "item": "Horsetail",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

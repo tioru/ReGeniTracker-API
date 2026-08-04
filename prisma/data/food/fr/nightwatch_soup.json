@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Nightwatch Soup",
+  "name": "Soupe de veillée",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Spécialité culinaire d'Illuga. Un bol fumant de soupe chaude dont une seule gorgée suffit à dissiper la fatigue et apaiser les nerfs tendus au retour de la patrouille nocturne. Un tel effet est sans doute le fruit des années d'expérience du jeune chef d'escouade, qu'il a concentré en une recette qui lui est propre.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 40 % des PV max du personnage sélectionné et 2 350 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Cabbage",
+      "quantity": 3
+    },
+    {
+      "item": "Carrot",
+      "quantity": 3
+    },
+    {
+      "item": "Potato",
+      "quantity": 2
+    },
+    {
+      "item": "Smetana",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Illuga",
+  "baseDish": "Marmite aux légumes"
+}

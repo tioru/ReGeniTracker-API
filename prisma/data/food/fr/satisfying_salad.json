@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Satisfying Salad",
+  "name": "Salade copieuse",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Une salade copieuse composée de pommes de terre et des légumes frais. Un œuf mollet, posé au centre, n'attend qu'à être mangé.",
+    "suspicious": "Une salade de légumes. La cuisson des pommes de terre et de l'œuf est ratée, quel dommage.",
+    "delicious": "Une salade de légumes fraîche, légère et variée. On pourrait en manger pour le restant de nos jours."
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 9 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 12 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 9,
+        "delicious": 12
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Disponible dès le début du jeu",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Cabbage",
+      "quantity": 2
+    },
+    {
+      "item": "Apple",
+      "quantity": 2
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    },
+    {
+      "item": "Potato",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Mona",
+    "name": "Sagesse suprême"
+  },
+  "character": null,
+  "baseDish": null
+}

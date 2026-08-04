@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Invigorating Kitty Meal",
+  "name": "Pâté miaou revigorant",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Un plat à l'apparence mignonne qui a été préparé avec l'aide d'Anna Kiminami et selon les goûts de Neko. Bien qu'il n'ait pas le même goût que s'il avait été cuisiné par Hibiki, Neko semble en être satisfaite. Non assaisonné, ce plat serait un peu fade pour les humains.",
+    "suspicious": "Un plat à l'apparence mignonne. Neko pourrait ne pas l'accepter, car l'ensemble des ingrédients ont été mélangés un peu n'importe comment...",
+    "delicious": "Un plat à l'apparence mignonne. Une préparation simple a préservé la fraîcheur des ingrédients. Même les chats qui d'habitude font peu de cas des humains ne pourront pas s'empêcher d'approcher quand ils auront senti l'odeur de ce mets. On dirait que même les chiens ne peuvent pas y résister..."
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 28 % des PV max, puis 620 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 26 % des PV max, puis 450 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 30 % des PV max, puis 790 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 26,
+        "normal": 28,
+        "delicious": 30
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 450,
+        "normal": 620,
+        "delicious": 790
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Quête Neko est un chat",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 4
+    },
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Rice",
+      "quantity": 1
+    },
+    {
+      "item": "Seagrass",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Kirara",
+    "name": "Bento énergisant"
+  },
+  "character": null,
+  "baseDish": null
+}

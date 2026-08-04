@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Poissonchant Pie",
+  "name": "Tarte poissonchant",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Une tourte au poisson. Lorsque vous mélangez la garniture avant de poser de la pâte directement dessus, la clé réside dans l'agencement correct des têtes de poisson avant la cuisson. De cette façon, lorsque le plat est prêt, chaque poisson regarde vers le haut comme s'il chantait à l'unisson...",
+    "suspicious": "Une tourte au poisson. On se demande comment chaque tête de poisson a fini par regarder dans une direction différente, transformant leur supposée « chanson » en cris désordonnés. Une bouchée suffit pour déclencher l'attaque soudaine d'un goût de gibier, et vos papilles s'avouent déjà vaincues. Vous semblez entendre le poisson gémir... C—Ce doit être une hallucination, non ?",
+    "delicious": "Une tourte au poisson. La graisse de poisson grésille sous une flamme dansante, puis coule dans la pâte alors que la croûte devient dorée et croustillante. Personne ne peut résister à la tentation d'essayer immédiatement ce plat à la sortie du four. C'est comme si les poissons chantaient un hymne romantique et savoureux sur le bout de la langue."
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 1 200 PV.",
+    "suspicious": "Réanime un personnage et restaure 900 PV.",
+    "delicious": "Réanime un personnage et restaure 1 500 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Succès C'est bon avec du poisson",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    },
+    {
+      "item": "Bacon",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

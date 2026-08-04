@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Right at Home",
+  "name": "Right at Home",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "A staple dish made by frying ham, bird eggs, and other ingredients with rice. The wide choice of constituent ingredients that may be chosen and different ways of cooking make it a welcome dish in almost every house in Liyue.",
+    "suspicious": "A staple dish with many ingredients. Insufficient heat and all-too-abundant moisture have left the taste lackluster, lacking the smoky flavor it should have. Better luck next time, preferably while frying on higher heat...",
+    "delicious": "A staple dish with many ingredients. Golden egg yolk coats each grain of rice, the high heat having infused the rich flavor of the ham within. Such a familiar, home-style flavor will surely make any family or friends who've traveled from afar feel right at home."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' DEF by 200 for 300s.",
+    "suspicious": "Increases all party members' DEF by 165 for 300s.",
+    "delicious": "Increases all party members' DEF by 235 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 165,
+        "normal": 200,
+        "delicious": 235
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Receiver of Friends From Afar: Part IV",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Rice",
+      "quantity": 2
+    },
+    {
+      "item": "Ham",
+      "quantity": 2
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    },
+    {
+      "item": "Bamboo Shoot",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

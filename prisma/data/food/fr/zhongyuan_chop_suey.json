@@ -1,0 +1,79 @@
+{
+  "pageTitle": "Zhongyuan Chop Suey",
+  "name": "Chop suey Zhongyuan",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "Abats de viande cuits et assaisonnés. L'odeur de la viande est camouflée par les épices. Beaucoup croient que le nom du plat est une insulte en liyuéen.",
+    "suspicious": "Abats de viande cuits et assaisonnés. Malgré son apparence, ce plat est un vrai délice. Il a dû mal à se vendre, même sur les marchés les plus populaires.",
+    "delicious": "Abats de viande cuits et assaisonnés. Son goût typiquement liyuéen arrache une petite larme de nostalgie aux personnes âgées de la citée portuaire."
+  },
+  "effectTexts": {
+    "normal": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 20 % lors de l'escalade et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 15 % lors de l'escalade et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 25 % lors de l'escalade et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Climbing Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Quête Le goût inoubliable du passé",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 3
+    },
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Salt",
+      "quantity": 2
+    }
+  ],
+  "sources": [
+    "Dialogue with Su Er'niang"
+  ],
+  "sellers": [
+    {
+      "name": "Su Er'niang",
+      "currency": "Mora",
+      "cost": 6600,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

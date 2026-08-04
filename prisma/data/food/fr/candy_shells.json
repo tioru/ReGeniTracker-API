@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Candy Shells",
+  "name": "Bonbons coquillages",
+  "rarity": 4,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Des bonbons aux formes diverses. On raconte qu'une toute petite quantité des bonbons coquillages vendus au Parc cinématographique de Chevalmarin contient de véritables perles, et que le plaisir de les déguster est réservé aux visiteurs les plus chanceux. Peut-être en ferez-vous partie ?",
+    "suspicious": "Des bonbons aux formes diverses. L'enrobage de sucre en poudre a une texture granuleuse, qui rappelle le sable emprisonné dans la coquille d'une huître. Seuls ceux qui sont prêts à se battre contre la grossièreté de cet enrobage auront peut-être le droit de savourer le butin qu'il contient, à savoir un bonbon sucré.",
+    "delicious": "Des bonbons aux formes diverses. Leurs couleurs vives leur donnent l'apparence de pierres précieuses exposées dans une magnifique boîte à bijoux, prêts à faire une jolie surprise. Qu'est-ce qui pourrait rendre quelqu'un plus heureux qu'une visite au Parc cinématographique de Chevalmarin ? Eh bien, une visite et une boîte de bonbons coquillages, bien sûr !"
+  },
+  "effectTexts": {
+    "normal": "Augmente la force du bouclier de tous les personnages de l'équipe de 30 % et augmente leur DÉF de 200 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente la force du bouclier de tous les personnages de l'équipe de 25 % et augmente leur DÉF de 165 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente la force du bouclier de tous les personnages de l'équipe de 35 % et augmente leur DÉF de 235 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Shield Strength",
+      "values": {
+        "suspicious": 25,
+        "normal": 30,
+        "delicious": 36
+      }
+    },
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 165,
+        "normal": 200,
+        "delicious": 235
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Événement Valse virevoltante",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Tidalga",
+      "quantity": 3
+    },
+    {
+      "item": "Bulle Fruit",
+      "quantity": 3
+    },
+    {
+      "item": "Mint",
+      "quantity": 3
+    },
+    {
+      "item": "Sugar",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

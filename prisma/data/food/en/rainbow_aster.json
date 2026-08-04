@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Rainbow Aster",
+  "name": "Rainbow Aster",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "A unique drink. Having featured in the famous light novel \"Pretty Please, Kitsune Guuji?\", it has since been brought to life by Sailing Breeze in collaboration with Yae Publishing House, along with its fascinating flavor. As this version does not contain any bean products, it is slightly different from the special limited edition that was available during the Irodori Festival, but this also means that there is no risk of triggering any bean allergies.",
+    "suspicious": "A most unique drink. It certainly looks alright, and it would taste acceptable, if you ignore the astringency caused by improper handling of the Lavender Melons...",
+    "delicious": "A unique drink. Calla Lilies from Mondstadt and Lavender Melons from Inazuma meet from across mountains and seas before having their flavors blended together to perfection using smooth milk. Novel satisfaction guaranteed — indeed, it is utterly unsurprising that the ill Shogun in the tale was re-energized by the merits of this drink alone."
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s.",
+    "suspicious": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s.",
+    "delicious": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "Gliding Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Complete About That Time We Saved the Tanuki Photo Board",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Milk",
+      "quantity": 3
+    },
+    {
+      "item": "Lavender Melon",
+      "quantity": 2
+    },
+    {
+      "item": "Calla Lily",
+      "quantity": 2
+    },
+    {
+      "item": "Mint",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Karpillia",
+      "currency": "Mora",
+      "cost": 7125,
+      "stock": 1,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Rice Buns",
+  "name": "Rice Buns",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Soft and fluffy buns. The rice and horsetail have been ground into flour and kneaded into dough before being placed into a steaming basket. They can be eaten as-is or with a vegetable filling. Portable and satiating, it is a very popular dish in the Liyue region.",
+    "suspicious": "Soft and fluffy buns. The dough has not been proofed properly, meaning the buns did not puff up evenly during the steaming process. The resulting coarse, hard texture leaves much to be desired.",
+    "delicious": "Soft and fluffy buns. The unique sweetness of the whole grains passes between your teeth and lips as you chew. The relatively nondescript ingredients have been transformed into a true delicacy by your labors. This is one of the simple pleasures of the common folk and tastes best after some good, honest work."
+  },
+  "effectTexts": {
+    "normal": "Restores 9% of Max HP and an additional 1000 HP to the selected character.",
+    "suspicious": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+    "delicious": "Restores 10% of Max HP and an additional 1200 HP to the selected character."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 8,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 800,
+        "normal": 1000,
+        "delicious": 1200
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Sold by Chef Mao",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Rice",
+      "quantity": 1
+    },
+    {
+      "item": "Horsetail",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

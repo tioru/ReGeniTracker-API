@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Veggie Pot Soup",
+  "name": "Veggie Pot Soup",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "A soup prepared by simmering a variety of shredded vegetables with light seasoning. It's mild, flavorful, and great for your health.",
+    "suspicious": "A soup prepared by simmering a variety of shredded vegetables with light seasoning. The long simmer has left the greens soft and limp, a bit mushy in texture. Not exactly appetizing, but it'll fill you up.",
+    "delicious": "A soup prepared by simmering a variety of shredded vegetables with light seasoning. Cooked with simple, minimal techniques, it brings out the purest essence of the vegetables. With just one sip, a comforting warmth spreads from your stomach through your entire body."
+  },
+  "effectTexts": {
+    "normal": "Restores 32% of Max HP and an additional 1250 HP to the selected character.",
+    "suspicious": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+    "delicious": "Restores 34% of Max HP and an additional 1900 HP to the selected character."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 30,
+        "normal": 32,
+        "delicious": 34
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 600,
+        "normal": 1250,
+        "delicious": 1900
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Exquisite Chest",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Cabbage",
+      "quantity": 3
+    },
+    {
+      "item": "Carrot",
+      "quantity": 3
+    },
+    {
+      "item": "Potato",
+      "quantity": 2
+    },
+    {
+      "item": "Smetana",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Illuga",
+    "name": "Nightwatch Soup"
+  },
+  "character": null,
+  "baseDish": null
+}

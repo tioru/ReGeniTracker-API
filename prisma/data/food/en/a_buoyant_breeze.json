@@ -1,0 +1,65 @@
+{
+  "pageTitle": "A Buoyant Breeze",
+  "name": "A Buoyant Breeze",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "Other than the Cecilia flowers used for decoration, the ingredients are no different from normal. But if you taste it carefully, you can taste the flavor of \"a wind that brings hope and tiny twists of fate.\" Perhaps... this is exactly what he wants.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 1800s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Gliding Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Carrot",
+      "quantity": 4
+    },
+    {
+      "item": "Potato",
+      "quantity": 4
+    },
+    {
+      "item": "Onion",
+      "quantity": 4
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Venti",
+  "baseDish": "Barbatos Ratatouille"
+}

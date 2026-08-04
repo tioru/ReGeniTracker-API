@@ -1,0 +1,64 @@
+{
+  "pageTitle": "Qingce Stir Fry",
+  "name": "Délices rustiques de Qingce",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Un plat cuisiné à feu vif. Originellement une spécialité du Village de Qingce, ce mets croustillant et épicé a su gagner les cœurs de tous, si bien qu'il est désormais servi dans les quatre coins de Liyue.",
+    "suspicious": "Un plat cuisiné à feu vif. La préparation est un échec au goût pimenté et amer. Vous feriez mieux de manger du riz blanc seulement si vous voulez pouvoir manger quelque chose...",
+    "delicious": "Un plat cuisiné à feu vif. Son doux parfum suffit à ouvrir votre appétit et son goût épicé stimule vos papilles. Tout à coup, vous voilà capable à dévorer dix bols de riz."
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 194 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente l'ATQ de tous les personnages de l'équipe de 160 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente l'ATQ de tous les personnages de l'équipe de 228 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 160,
+        "normal": 194,
+        "delicious": 228
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Xiaobai",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mushroom",
+      "quantity": 3
+    },
+    {
+      "item": "Lotus Head",
+      "quantity": 2
+    },
+    {
+      "item": "Jueyun Chili",
+      "quantity": 1
+    },
+    {
+      "item": "Cabbage",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Ms. Bai",
+      "currency": "Mora",
+      "cost": 6150,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Yaoyao",
+    "name": "Plat maison de Qingce"
+  },
+  "character": null,
+  "baseDish": null
+}

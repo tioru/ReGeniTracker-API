@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Thunderclap Slash!",
+  "name": "Thunderclap Slash!",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Ineffa shouts \"Thunderclap Slash!\" impassively as krumkakes are launched one after another from her empty arm socket, landing with precision on the plate before you. Intricate patterns and a sweet, delightful flavor confirm the maker's culinary excellence. Your taste buds have no choice but to surrender to the all-conquering \"Thunderclap Slash.\"",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Shield Strength by 35% for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Lakkaberry",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 3
+    },
+    {
+      "item": "Smetana",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Ineffa",
+  "baseDish": "Lakkaberry Krumkakes"
+}

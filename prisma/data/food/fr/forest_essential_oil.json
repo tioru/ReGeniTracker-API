@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Forest Essential Oil",
+  "name": "Huile essentielle Dendro",
+  "rarity": 3,
+  "category": "ESSENTIAL_OILS",
+  "effectType": "Dendro DMG Up",
+  "descriptions": {
+    "normal": "Un onguent qui a une forte affinité avec l'élément Dendro et peut augmenter les DGT infligés par l'élément Dendro. C'est un médicament nourrissant pour l'usage externe. L'appliquer sur la terre peut faire pousser des plantes et vous aidera à guider les éléments Dendro plus facilement",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente les DGT Dendro de 25 % pour toute l'équipe pendant 300 s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Dendro DMG Bonus",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Available by default",
+  "recipeSubtype": "CRAFTING",
+  "ingredients": [
+    {
+      "item": "Lizard Tail",
+      "quantity": 1
+    },
+    {
+      "item": "Sumeru Rose",
+      "quantity": 1
+    },
+    {
+      "item": "Mora",
+      "quantity": 100
+    }
+  ],
+  "sources": [
+    "Alchemy"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

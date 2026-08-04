@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Stone Harbor Delicacies",
+  "name": "Délicatesses du Port de pierre",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Un plat végétarien sauté au wok qui combine trois ingrédients que l'on trouve en abondance dans la région de Liyue. Bien qu'il s'agisse d'une recette assez simple à réaliser, ce plat fait parfaitement ressortir le goût de chaque ingrédient et mérite de figurer aux côtés des plats les plus raffinés.",
+    "suspicious": "Un plat végétarien sauté dans un wok. La température de l'huile n'a pas été maîtrisée, ce qui rend les aliments très gras en bouche. Ceux qui mangeront ce plat hocheront la tête et feront une minute de silence pour le gâchis de muguet bleu rare.",
+    "delicious": "Un plat végétarien sauté dans un wok. Les senteurs de la terre, les fraîcheurs ombragées et la moiteur de la brume sont mises à l'honneur dans cette assiette. Accompagnée simplement de riz blanc, elle procurera tant à vos papilles qu'à votre âme une expérience terrestre enivrante qui vous ravira à loisir."
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 9 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 12 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 9,
+        "delicious": 12
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Licai",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Potato",
+      "quantity": 2
+    },
+    {
+      "item": "Violetgrass",
+      "quantity": 1
+    },
+    {
+      "item": "Matsutake",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Licai",
+      "currency": "Mora",
+      "cost": 1925,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

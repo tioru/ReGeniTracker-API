@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Rice Pudding",
+  "name": "Rice Pudding",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "A dessert made from rice. After cooking the rice beforehand, it is placed into a pot together with the other ingredients, stirred evenly, and steamed. The mouthfeel is fragrant and soft, a perfect denouement to any meal.",
+    "suspicious": "A dessert made from rice. There must have been some miscalculation in the amount of ingredients to use, as this just tastes like a bowl of overly sweet rice. Well, time to grab some plain drink and scarf it down...",
+    "delicious": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?"
+  },
+  "effectTexts": {
+    "normal": "Restores 85 Stamina.",
+    "suspicious": "Restores 70 Stamina.",
+    "delicious": "Restores 100 Stamina."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 70,
+        "normal": 85,
+        "delicious": 100
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Complete Contraption-Contrived Cooking Course: Part II",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 3
+    },
+    {
+      "item": "Rice",
+      "quantity": 2
+    },
+    {
+      "item": "Milk",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

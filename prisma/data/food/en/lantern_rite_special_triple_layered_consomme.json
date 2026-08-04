@@ -1,0 +1,44 @@
+{
+  "pageTitle": "Lantern Rite Special Triple-Layered Consommé",
+  "name": "Lantern Rite Special Triple-Layered Consommé",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Traditional cuisine made to celebrate Lantern Rite. The ham, fowl, and bamboo shoots have been sliced into threads of equal length, and they've been laid out neatly in the soup bowl after being steamed at high heat, before being covered in consommé. The layers are distinct, and the mouthfeel is salty yet fresh.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Shield Strength by 30%.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Shield Strength",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Yi'nian",
+      "currency": "Mora",
+      "cost": 7050,
+      "stock": 10,
+      "restock": "NEVER"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": "Triple-Layered Consommé"
+}

@@ -1,0 +1,53 @@
+{
+  "pageTitle": "A Fragrant Feast of Flavors",
+  "name": "A Fragrant Feast of Flavors",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "The fermented fruit juice holds a subtle floral fragrance that fills your palate with woody scents, while the silken cream glides alongside, imparting both taste and flavor in moderation. The afterglow of the abundant aroma lingers on, an indelible gourmet encounter.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 274 for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 4
+    },
+    {
+      "item": "Fermented Juice",
+      "quantity": 3
+    },
+    {
+      "item": "Onion",
+      "quantity": 3
+    },
+    {
+      "item": "Cream",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Emilie",
+  "baseDish": "Fricassee de Poulet"
+}

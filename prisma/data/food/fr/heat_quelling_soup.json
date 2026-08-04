@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Heat-Quelling Soup",
+  "name": "Soupe apaisante",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Baizhu. « Ce n'est pas vraiment un médicament, simplement quelque chose qui peut soulager une gorge sèche. »... Alors que la voix inquiète de Baizhu résonne dans vos oreilles, un bol de soupe aux fruits accueille votre regard. « Ce plat ne contient pas de sucre, mais il craignait que tu ne sois pas au goût amer, alors il en a ajouté un peu », ajoute Changsheng.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente le bonus de soins de tous les personnages de l'équipe de 25 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Healing Improvement",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Sunsettia",
+      "quantity": 3
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    },
+    {
+      "item": "Qingxin",
+      "quantity": 1
+    },
+    {
+      "item": "Violetgrass",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Baizhu",
+  "baseDish": "Soupe aux fruits de jade"
+}

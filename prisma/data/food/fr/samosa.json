@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Samosa",
+  "name": "Samoussas",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Un encas frit. La farce bien mélangée est enveloppée dans une croûte fine. Une fois façonné en forme de triangle, le mets est frit dans une casserole jusqu'à ce qu'il prenne une couleur dorée. Les farces avec ou sans viande sont très communes, ce qui est une source de discorde récurrente entre omnivores et végétariens.",
+    "suspicious": "Un encas frit. Sa croûte grasse et sa farce trop assaisonnée dissuadent d'en reprendre une deuxième bouchée, malgré la tentative d'équilibrer le goût avec de la menthe.",
+    "delicious": "Un encas frit. Chaque beignet doré et croustillant est rempli d'une farce compacte. Vous en dévorez un, avant d'en prendre un deuxième et de le savourer... Ce plaisir pour vos papilles vous enivre et vous en prenez un autre, puis encore un autre, avant de vous rendre compte que l'assiette est vide."
+  },
+  "effectTexts": {
+    "normal": "Restaure 22 % des PV max du personnage sélectionné et 1 200 PV supplémentaires.",
+    "suspicious": "Restaure 20 % des PV max du personnage sélectionné et 900 PV supplémentaires.",
+    "delicious": "Restaure 24 % des PV max du personnage sélectionné et 1 500 PV supplémentaires."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 20,
+        "normal": 22,
+        "delicious": 24
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Vendu par Jahangir",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Flour",
+      "quantity": 1
+    },
+    {
+      "item": "Spice",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

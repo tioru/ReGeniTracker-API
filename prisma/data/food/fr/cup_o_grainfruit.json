@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Cup O' Grainfruit",
+  "name": "Fruti-coupe",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Une collation à base de granifruits. Les grains sont cassés, puis cuits à la vapeur avec du nectar de fleur braisée. Chacun d'entre eux finit par être juteux, parfumé et irrésistiblement sucré.",
+    "suspicious": "Une collation à base de granifruits. La chaleur excessive a provoqué l'évaporation de la majeure partie de l'humidité et seuls les grains secs et peu appétissants sont restés...",
+    "delicious": "Une collation à base de granifruits. Les grains frais et charnus explosent sur le bout de la langue, comme une fête animée qui laisse un arrière-goût sucré persistant."
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 9 % des PV max, puis 260 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 8 % des PV max, puis 210 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 10 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 8,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 210,
+        "normal": 260,
+        "delicious": 300
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Vendu par Chanca",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Grainfruit",
+      "quantity": 1
+    },
+    {
+      "item": "Embercore Flower",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Chanca",
+      "currency": "Mora",
+      "cost": 530,
+      "stock": 10,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

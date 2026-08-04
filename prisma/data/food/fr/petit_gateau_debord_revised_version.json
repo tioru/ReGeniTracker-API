@@ -1,0 +1,64 @@
+{
+  "pageTitle": "Petit Gateau Debord: Revised Version",
+  "name": "Petit gâteau Debord modifié",
+  "rarity": 4,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Une version plus petite du célèbre gâteau Debord. Même comparées à ce délice, dont seules seize parts sont vendues chaque jour, les aventures extraordinaires que vous avez vécues ensemble sont encore plus précieuses et mémorables. Peut-être qu'Escoffier pensait également la même chose lorsqu'elle a élaboré cette recette…",
+    "suspicious": "Une version plus petite du célèbre gâteau Debord. Ce petit morceau de gâteau est comme un morceau de bois flottant à la dérive dans un vaste océan. L'épaisse sauce au chocolat est comme une vague déferlante, enveloppant non seulement le gâteau, mais aussi une grande partie de l'assiette. Elle semble également avoir chassé toute fringale qui vous restait dans l'estomac.",
+    "delicious": "Une version plus petite du célèbre gâteau Debord. La ganache onctueuse est comme de la soie insaisissable. Elle effleure délicatement votre palais, tandis que de douces mélodies résonnent lors du thé de l'après-midi, enivrant votre cœur… Peut-être que cette douceur apparaîtra à nouveau dans vos rêves cette nuit…"
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 272 pts et leur taux CRIT de 8 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente l'ATQ de tous les personnages de l'équipe de 224 pts et leur taux CRIT de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente l'ATQ de tous les personnages de l'équipe de 320 pts et leur taux CRIT de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 224,
+        "normal": 272,
+        "delicious": 320
+      }
+    },
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 8,
+        "delicious": 10
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Plus précieux que tout",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Romaritime Flower",
+      "quantity": 3
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Cream",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Escoffier",
+    "name": "Gateau Debord: Magnifique"
+  },
+  "character": null,
+  "baseDish": null
+}

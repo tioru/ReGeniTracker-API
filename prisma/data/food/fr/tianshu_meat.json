@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Tianshu Meat",
+  "name": "Viande façon Dubhe",
+  "rarity": 4,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Un plat de viande braisée. La viande maigre et la graisse sont frites avec des épices dans une poêle jusqu'à ce qu'elles soient croustillantes. Le résultat est doux et léger, avec une couleur translucide. On dit qu'il s'agit d'un chef-d'œuvre inventé par l'une des Sept Étoiles de Liyue, la Dubhe, après de longues recherches.",
+    "suspicious": "Un plat de viande braisée. La viande a été cuite trop longtemps, ce qui l'a rendue molle. Les coupes grasses sont écœurantes. Le seul moyen de les avaler est de les envelopper dans des fleurs de Qingxin.",
+    "delicious": "Un plat de viande braisée. Il a une odeur parfumée qui se sent de loin, un goût long et délicat. Il capture en tous points l'essence du plat original... Il aurait toute sa place à la table gastronomique du Pavillon Yuehai."
+  },
+  "effectTexts": {
+    "normal": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 35 % et leur taux CRIT de 8 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 25 % et leur taux CRIT de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 45 % et leur taux CRIT de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Physical DMG Bonus",
+      "values": {
+        "suspicious": 25,
+        "normal": 30,
+        "delicious": 45
+      }
+    },
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 8,
+        "delicious": 10
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Réputation de Liyue",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Sugar",
+      "quantity": 2
+    },
+    {
+      "item": "Qingxin",
+      "quantity": 1
+    },
+    {
+      "item": "Matsutake",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Licai",
+      "currency": "Mora",
+      "cost": 12000,
+      "stock": 2,
+      "restock": "THREE_DAYS"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

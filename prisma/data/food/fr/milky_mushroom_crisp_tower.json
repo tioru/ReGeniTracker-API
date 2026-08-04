@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Milky Mushroom Crisp Tower",
+  "name": "Tour de champignons au lait",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Un amuse-bouche croustillant. Il s'agit essentiellement d'une tranche de pain cuite au four avec des champignons et du fromage. L'odeur de ce plat est capable d'ouvrir l'appétit de n'importe qui. Prenez-en une bouchée, et vous obtiendrez une saveur fraîche et parfumée, ainsi qu'une douceur irrésistible.",
+    "suspicious": "Un amuse-bouche croustillant. Un simple coup d'œil sur les ingrédients tout ratatinés suffit pour se rendre compte qu'il a été laissé de côté beaucoup trop longtemps : le pain a complètement desséché et est devenu tout dur. Il a une sorte d'arrière-goût aigre à la dégustation. La prochaine fois, n'oubliez pas de le manger quand il est encore chaud.",
+    "delicious": "Un amuse-bouche croustillant. Les légères notes crémeuses fondent sur la langue lorsqu'on croque les succulents champignons et le pain croustillant... Ce mets délicieux procure un sentiment de satisfaction inégalé, au point ou il est impossible de ne pas se lécher les doigts pour n'en laisser aucune miette."
+  },
+  "effectTexts": {
+    "normal": "Restaure 32 % des PV max du personnage sélectionné et 1 250 PV supplémentaires.",
+    "suspicious": "Restaure 30 % des PV max du personnage sélectionné et 600 PV supplémentaires.",
+    "delicious": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires."
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 30,
+        "normal": 32,
+        "delicious": 34
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": 600,
+        "normal": 1250,
+        "delicious": 1900
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Nouvelles recettes Mail",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 4
+    },
+    {
+      "item": "Mushroom",
+      "quantity": 3
+    },
+    {
+      "item": "Cheese",
+      "quantity": 2
+    },
+    {
+      "item": "Cream",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

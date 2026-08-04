@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Fontainian Onion Soup",
+  "name": "Soupe fontainoise à l'oignon",
+  "rarity": 2,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Une soupe à l'oignon. Ce plat vous demandera de faire sauter des oignons jusqu'à ce qu'ils soient légèrement dorés, de verser du bouillon de viande, puis de transférer le tout dans un bol à soupe avant d'ajouter des tranches de pain et de saupoudrer de fromage pour enfin chauffer le plat au four. Les chefs chevronnés ne pleurent jamais lorsqu'ils hachent des oignons, et quant à leur astuce... C'est simple, ils laissent les apprentis le faire à leur place.",
+    "suspicious": "Une soupe à l'oignon. Les premières lichées ont bon goût, mais quand vous commencez à l'avaler, le fromage gras vous donne presque des palpitations... Vous n'aurez probablement pas envie de manger de soupe, ni même d'en voir une, pendant toute la semaine suivante.",
+    "delicious": "Une soupe à l'oignon. Le fromage fondant et doré repose sur des tranches de pain croustillantes sur le dessus et moelleuses sur le dessous. Le riche arôme d'oignon se combine à un goût légèrement salé. Une petite gorgée suffit à se réchauffer !"
+  },
+  "effectTexts": {
+    "normal": "Augmente la DÉF de tous les personnages de l'équipe de 107 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente la DÉF de tous les personnages de l'équipe de 88 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente la DÉF de tous les personnages de l'équipe de 126 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 88,
+        "normal": 107,
+        "delicious": 126
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Vendu par Louis",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Onion",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Cheese",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

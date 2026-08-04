@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Der Weisheit Letzter Schluss (Life)",
+  "name": "Der Weisheit Letzter Schluss (Life)",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "A great work from a great astrologer. Its greatest aspect lies with its cost-effectiveness in filling one's stomach.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' CRIT Rate by 16% for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Cabbage",
+      "quantity": 2
+    },
+    {
+      "item": "Apple",
+      "quantity": 2
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    },
+    {
+      "item": "Potato",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Mona",
+  "baseDish": "Satisfying Salad"
+}

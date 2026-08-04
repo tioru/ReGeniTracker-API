@@ -1,0 +1,54 @@
+{
+  "pageTitle": "Pate de Fruit",
+  "name": "Pâte de fruits",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Un bonbon gélifié. D'abord créé comme un moyen de conserver les fruits, ce produit s'est au fur et à mesure frayé un chemin dans les souvenirs d'enfance de tous les Fontainois. Si sucré et si moelleux qu'on n'en a jamais assez...",
+    "suspicious": "Un bonbon gélifié. Le bonbon gluant est collé à vos dents, ce qui rend la tâche de continuer à mâcher bien ardue. Bien qu'il ne sera pas si difficile de vous nettoyer les dents, la viscosité a complètement gâché ce moment sucré.",
+    "delicious": "Un bonbon gélifié. Il remplit votre bouche d'arômes fruités comme si tout un verger était condensé à l'intérieur de la petite gélatine. Avant que vous ne vous en rendiez compte, la jarre est déjà vide, et vous ne voulez même pas épargner le sucre sur vos doigts !"
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 15 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 10,
+        "normal": 15,
+        "delicious": 20
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Vendu par Louis",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bulle Fruit",
+      "quantity": 1
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [
+    "Constant Off-the-Cuff Cookery"
+  ],
+  "sellers": [],
+  "specialDish": {
+    "character": "Lyney",
+    "name": "Passe-passe cubique"
+  },
+  "character": null,
+  "baseDish": null
+}

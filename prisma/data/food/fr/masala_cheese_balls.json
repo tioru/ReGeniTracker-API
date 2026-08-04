@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Masala Cheese Balls",
+  "name": "Boules de fromage au masala",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Un plat aranarien typique. Paimon s'est creusé la tête pour essayer de l'améliorer en dépit du fait que la recette d'origine soit utilisée depuis longtemps à Sumeru. Les épices sont ajoutées d'une manière particulière pour lui donner un arôme captivant dès qu'il sort de la poêle. Les boulettes de fromage ont une texture qui laisse une impression durable sur le palais. Une fois que l'on croque dedans, le fromage fondu jaillit instantanément. Elles sont accompagnées par des pommes de terre cuites tendrement qui donnent une sensation de satiété entière après avoir été mangées.",
+    "suspicious": "Un plat aranarien typique. Paimon s'est creusé la tête pour essayer de l'améliorer en dépit du fait que la recette d'origine soit utilisée depuis longtemps à Sumeru. Les boulettes de fromage ne sont pas assez cuites, et par conséquent, elles ont une texture rigide au lieu d'être fondantes. Quant aux pommes de terre, elles sont pratiquement crues. Il faudra veiller à cuire le plat plus longtemps la prochaine fois...",
+    "delicious": "Un plat aranarien typique. Paimon s'est creusé la tête pour essayer d'améliorer ce plat en dépit du fait que la recette d'origine soit utilisée depuis longtemps à Sumeru. Les épices ont été mélangées aux autres ingrédients d'une manière particulière pour faire ressortir les parfums les plus originaux, éveillant les papilles et ajoutant plusieurs couches de saveur au plat. La boulette de fromage est croustillante à l'extérieur et moelleuse à l'intérieur. Elle se marie délicieusement bien avec des pommes de terre chaudes et fumantes."
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 9 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 12 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 9,
+        "delicious": 12
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Quête L'arôme de la maison",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Potato",
+      "quantity": 2
+    },
+    {
+      "item": "Cheese",
+      "quantity": 1
+    },
+    {
+      "item": "Spice",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Jahangir",
+      "currency": "Mora",
+      "cost": 2025,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

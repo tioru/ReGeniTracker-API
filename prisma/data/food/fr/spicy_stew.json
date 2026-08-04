@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Spicy Stew",
+  "name": "Ragoût épicé",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Barbara. Ne vous laissez pas duper par les carottes coupées en forme de mignonnes petites étoiles, vous aurez quand même la bouche en feu.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 25 % lors du sprint pendant 1 500 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Cream",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Barbara",
+  "baseDish": "Ragoût à la crème"
+}

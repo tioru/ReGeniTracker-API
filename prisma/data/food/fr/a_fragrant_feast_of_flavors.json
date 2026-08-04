@@ -1,0 +1,53 @@
+{
+  "pageTitle": "A Fragrant Feast of Flavors",
+  "name": "Festin aux fumets fragrants",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire d'Émilie. Le jus de fruit fermenté dégage un subtil parfum floral qui remplit votre palais de senteurs boisées, tandis que la crème soyeuse glisse à ses côtés, conférant à la fois goût et saveur avec modération. La rémanence de l'arôme abondant persiste pour une rencontre gourmande indélébile.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 274 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 4
+    },
+    {
+      "item": "Fermented Juice",
+      "quantity": 3
+    },
+    {
+      "item": "Onion",
+      "quantity": 3
+    },
+    {
+      "item": "Cream",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Émilie",
+  "baseDish": "Fricassée de poulet"
+}

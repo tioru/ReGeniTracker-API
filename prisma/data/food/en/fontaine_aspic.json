@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Fontaine Aspic",
+  "name": "Fontaine Aspic",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "A cold dish made from seafood. Grind fish meat into a paste and add it to a rectangular mold to be baked. Leave the dish to cool before serving. It feels cold on the tongue but warm in the heart.",
+    "suspicious": "A cold dish made from seafood. It makes a nice appetizer so long as you can avoid the traps — fish bones to be more precise — hidden within the aspic.",
+    "delicious": "A cold dish made from seafood. The fish roe in the aspic explodes on your tastebuds, igniting delightful surprises. It didn't take long before you clean your plate. Since there is no one around... it's okay to lick the plate, right?"
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' CRIT Rate by 9% for 300s.",
+    "suspicious": "Increases all party members' CRIT Rate by 6% for 300s.",
+    "delicious": "Increases all party members' CRIT Rate by 12% for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 9,
+        "delicious": 12
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Sold by Sanguinetti",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 2
+    },
+    {
+      "item": "Fowl",
+      "quantity": 2
+    },
+    {
+      "item": "Cream",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null
+}

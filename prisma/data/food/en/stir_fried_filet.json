@@ -1,0 +1,79 @@
+{
+  "pageTitle": "Stir-Fried Filet",
+  "name": "Stir-Fried Filet",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Sliced meat flash-fried in a wok. The mild Jueyun Chili adds just the right amount of kick to the delicious aroma of the meat. Perfect as an appetizer and also goes well with rice.",
+    "suspicious": "Slices of meat stir-fried on high heat — but for so long that they are now indistinguishable from the accompanying Jueyun Chili. Best served with rice, if served at all.",
+    "delicious": "Slices of meat stir-fried on high heat. The spiciness is as a blaze amidst a field of snow that ignites your appetite and leaves you craving more."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 100 HP.",
+    "suspicious": "Revives a character and restores 50 HP.",
+    "delicious": "Revives a character and restores 150 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 50,
+        "normal": 100,
+        "delicious": 150
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Random Exquisite Chest in Liyue",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 1
+    },
+    {
+      "item": "Jueyun Chili",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Chen the Sharp",
+      "currency": "Mora",
+      "cost": 900,
+      "stock": 10,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Mr. Zhu",
+      "currency": "Mora",
+      "cost": 900,
+      "stock": 10,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Beidou",
+    "name": "Flash-Fried Filet"
+  },
+  "character": null,
+  "baseDish": null
+}

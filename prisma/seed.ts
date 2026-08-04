@@ -6,6 +6,7 @@ import { seedMaterials } from './seeds/material.seed';
 import { seedWeapons } from './seeds/weapon.seed';
 import { seedBanners } from './seeds/banner.seed';
 import { seedCreatures } from './seeds/creature.seed';
+import { seedFood } from './seeds/food.seed';
 
 const pool = new pg.Pool({ connectionString: process.env.DATABASE_URL });
 const adapter = new PrismaPg(pool);
@@ -17,6 +18,7 @@ async function main() {
   await seedWeapons(prisma);    // avant banners — les bannières référencent Weapon.name
   await seedBanners(prisma);
   await seedCreatures(prisma);
+  await seedFood(prisma);       // après characters — les plats spéciaux référencent Character
 }
 
 main()
