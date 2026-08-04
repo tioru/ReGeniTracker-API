@@ -788,6 +788,25 @@ function parseFrFoodFields(content: string): {
 
 // ── Construction de la sortie finale ─────────────────────────────────────
 
+// Le wiki FR remplit parfois `effet_suspect`/`effet_délicieux` avec le même
+// texte générique que `effet` (ex: "Harvest's Boon"/"Récolte favorable" :
+// "Une petite surprise du Collectif de l'abondance." dupliqué sur les 3
+// champs), même quand le plat n'a AUCUN vrai palier de qualité — l'EN, qui
+// détermine l'existence d'un palier à partir de variables numériques
+// (`eff_suspicious{n}`/`eff_delicious{n}`, cf. `resolveEffectTexts`), fait
+// alors autorité : si l'EN dit qu'un palier n'existe pas (null), on ignore le
+// texte FR même présent, pour ne pas exposer un palier fantôme identique aux
+// deux autres. Si l'EN a un palier réel mais que le wiki FR ne l'a pas
+// renseigné (ex: "Nine-Fruit Nectar"/suspicious), le null FR reste tel quel :
+// c'est un vrai trou de traduction côté wiki, pas une donnée à inventer.
+function buildFrEffectTexts(raw: RawFoodEn, frFields: NonNullable<ReturnType<typeof parseFrFoodFields>>): FoodTieredText {
+  return {
+    normal: frFields.effectTexts.normal,
+    suspicious: raw.effectTexts.suspicious !== null ? frFields.effectTexts.suspicious : null,
+    delicious: raw.effectTexts.delicious !== null ? frFields.effectTexts.delicious : null,
+  };
+}
+
 function buildFoodOutput(
   raw: RawFoodEn,
   lang: 'en' | 'fr',
@@ -804,11 +823,19 @@ function buildFoodOutput(
     category: raw.category,
     effectType: raw.effectType,
     descriptions: lang === 'fr' && frFields ? frFields.descriptions : raw.descriptions,
-    effectTexts: lang === 'fr' && frFields ? frFields.effectTexts : raw.effectTexts,
+    effectTexts: lang === 'fr' && frFields ? buildFrEffectTexts(raw, frFields) : raw.effectTexts,
     // Pas d'équivalent FR fiable pour ces champs (cf. NOTE en tête de fichier) :
     // réutilisés tels quels depuis l'EN.
     effectVariables: raw.effectVariables,
     region: raw.region,
+    // NOTE: `recipeHint` documente le déblocage de la RECETTE, pas le
+    // vendeur du plat déjà préparé (`sellers`) — les deux peuvent légitimement
+    // différer (ex: "Candied Ajilenakh Nut" : recette vendue par Enteka,
+    // plat vendu par Azalai ET Enteka). Vérifié aussi que le wiki FR peut
+    // citer un vendeur de recette absent de la table Shop Availability EN
+    // actuelle (ex: "Xiaobai" sur "Nouilles aux délices de la montagne",
+    // recette-inconnue côté EN) : ne PAS combler le null EN depuis `sellers`,
+    // ça injecterait une donnée non vérifiée/potentiellement fausse.
     recipeHint: (lang === 'fr' && frFields?.recipeHint) || raw.recipeHint,
     recipeSubtype: raw.recipeSubtype,
     ingredients: raw.ingredients,
