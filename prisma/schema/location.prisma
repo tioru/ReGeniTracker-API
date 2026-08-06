@@ -1,0 +1,46 @@
+// ── Location ──────────────────────────────────────────────────────────────────
+//
+// Hiérarchie géographique du wiki (nation > sous-région/région > zone), cf.
+// scripts/scrape-locations.ts : Nation (les 7 pays), Subregion, Area, Subarea.
+// `type` est porté par Location (valeur EN, source de vérité), pas par
+// LocationTranslation : côté FR, "Région" désigne aussi bien une Area qu'une
+// Subregion (champ non fiable pour distinguer les deux), seul le type EN
+// fait foi.
+//
+// `parent`/`parentId` (auto-relation) viennent du champ area/subregion/region
+// de {{Location Infobox}} ; résolus en 2e passe par le seeder (cf.
+// prisma/seeds/location.seed.ts), l'ordre alphabétique des fichiers ne
+// garantissant pas que le parent d'une localisation ait déjà été seedé. Le
+// champ "subLocations" du JSON scrappé n'est volontairement pas stocké : il
+// est entièrement dérivable de la relation inverse `children`.
+
+model Location {
+  id   Int          @id @default(autoincrement())
+  name String       @unique
+  type LocationType
+
+  parent   Location?  @relation("LocationHierarchy", fields: [parentId], references: [id])
+  parentId Int?
+  children Location[] @relation("LocationHierarchy")
+
+  translations LocationTranslation[]
+}
+
+model LocationTranslation {
+  id          Int      @id @default(autoincrement())
+  language    String
+  name        String
+  description String?
+  image       String?
+  location    Location @relation(fields: [locationId], references: [id])
+  locationId  Int
+
+  @@unique([locationId, language])
+}
+
+enum LocationType {
+  NATION
+  SUBREGION
+  AREA
+  SUBAREA
+}

@@ -218,19 +218,49 @@ function parseInfoboxFieldsAccented(block: string): Record<string, string> {
   return fields;
 }
 
+// Certaines pages du wiki (ex: "Dougier's Kingdom" côté FR) contiennent des
+// entités HTML tapées en dur dans le wikitext/titre (ex: "«&nbsp;Royaume&nbsp;»
+// de Dougier") au lieu du caractère réel — jamais rendues côté wiki puisqu'on
+// lit le wikitext brut / le titre de page tel quel, pas le HTML généré. On les
+// décode explicitement plutôt que de les laisser fuiter telles quelles dans
+// les champs "name".
+const HTML_ENTITIES: Record<string, string> = {
+  nbsp: ' ',
+  amp: '&',
+  lt: '<',
+  gt: '>',
+  quot: '"',
+  apos: "'",
+  mdash: '—',
+  ndash: '–',
+  hellip: '…',
+  laquo: '«',
+  raquo: '»',
+};
+
+function decodeHtmlEntities(text: string): string {
+  if (!text || !text.includes('&')) return text;
+  return text
+    .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(parseInt(dec, 10)))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&([a-zA-Z]+);/g, (match, name) => HTML_ENTITIES[name.toLowerCase()] ?? match);
+}
+
 function cleanWikitext(text: string): string {
   if (!text) return '';
-  return text
-    .replace(/<!--[\s\S]*?-->/g, '') // commentaires HTML (ex: |requiredAR = <!-- 27/28/36/45 -->)
-    .replace(/\[\[([^\]|]*)\|([^\]]*)\]\]/g, '$2')
-    .replace(/\[\[([^\]]*)\]\]/g, '$1')
-    .replace(/'''''/g, '')
-    .replace(/'''/g, '')
-    .replace(/''/g, '')
-    .replace(/\{\{Icon\/Element\|([^}|]+)[^}]*\}\}/gi, '$1') // {{Icon/Element|Hydro|25}} -> Hydro
-    .replace(/\{\{[^{}]*\}\}/g, '')
-    .replace(/\s+/g, ' ')
-    .trim();
+  return decodeHtmlEntities(
+    text
+      .replace(/<!--[\s\S]*?-->/g, '') // commentaires HTML (ex: |requiredAR = <!-- 27/28/36/45 -->)
+      .replace(/\[\[([^\]|]*)\|([^\]]*)\]\]/g, '$2')
+      .replace(/\[\[([^\]]*)\]\]/g, '$1')
+      .replace(/'''''/g, '')
+      .replace(/'''/g, '')
+      .replace(/''/g, '')
+      .replace(/\{\{Icon\/Element\|([^}|]+)[^}]*\}\}/gi, '$1') // {{Icon/Element|Hydro|25}} -> Hydro
+      .replace(/\{\{[^{}]*\}\}/g, '')
+      .replace(/\s+/g, ' ')
+      .trim(),
+  );
 }
 
 function toRoman(num: number): string {
@@ -619,11 +649,13 @@ async function fetchBatch(continueParams?: Record<string, string>): Promise<{
 
     const versionMatch = content.match(/\{\{Change History\|([^}|]+)/);
     const version = versionMatch ? versionMatch[1].trim() : '';
-    const frTitle: string | null = page.langlinks?.[0]?.title ?? null;
+    const frTitle: string | null = page.langlinks?.[0]?.title
+      ? decodeHtmlEntities(page.langlinks[0].title)
+      : null;
 
     results.push({
       pageTitle: page.title,
-      title: page.title.trim(),
+      title: decodeHtmlEntities(page.title.trim()),
       domainTypeRaw: fields['type'] ?? '',
       description: cleanWikitext(fields['description'] ?? ''),
       mainLocation: cleanWikitext(fields['region'] ?? fields['nation'] ?? ''),
@@ -744,7 +776,8 @@ async function fetchFrTitleDirect(pageTitle: string): Promise<string | null> {
         httpsAgent,
       });
       const page = response.data?.query?.pages?.[0];
-      return page?.langlinks?.[0]?.title ?? null;
+      const title = page?.langlinks?.[0]?.title;
+      return title ? decodeHtmlEntities(title) : null;
     });
   } catch (err) {
     console.warn(`⚠️  Échec du fetch langlink FR pour "${pageTitle}" après plusieurs tentatives: ${err}`);

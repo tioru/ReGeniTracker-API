@@ -1,0 +1,64 @@
+// ── Book ──────────────────────────────────────────────────────────────────────
+//
+// `category`, `rarity` et `region` ne sont pas traduits (texte EN / enum
+// réutilisés tels quels côté FR par le scraper, cf. NOTE en tête de
+// scripts/scrape-books.ts) : portés par Book, pas par BookTranslation.
+//
+// `description`/`source` ne sont renseignés que pour category = BOOK, et
+// `volumes` uniquement pour category = BOOK_COLLECTION (cf. BookOutput) —
+// les deux restent optionnels/vides plutôt que d'être modélisés en sous-type
+// distinct, à l'image de Food qui garde ses champs de qualité de cuisson
+// nullables pour les objets à qualité fixe.
+
+model Book {
+  id       Int          @id @default(autoincrement())
+  name     String       @unique
+  category BookCategory
+  rarity   Int
+  region   String?
+
+  translations BookTranslation[]
+  volumes      BookVolume[]
+}
+
+model BookTranslation {
+  id          Int     @id @default(autoincrement())
+  language    String
+  name        String
+  author      String?
+  publisher   String?
+  illustrator String?
+  description String?
+  source      String?
+  book        Book    @relation(fields: [bookId], references: [id])
+  bookId      Int
+
+  @@unique([bookId, language])
+}
+
+model BookVolume {
+  id           Int                     @id @default(autoincrement())
+  number       Int
+  book         Book                    @relation(fields: [bookId], references: [id])
+  bookId       Int
+  translations BookVolumeTranslation[]
+
+  @@unique([bookId, number])
+}
+
+model BookVolumeTranslation {
+  id       Int        @id @default(autoincrement())
+  language String
+  location String
+  volume   BookVolume @relation(fields: [volumeId], references: [id])
+  volumeId Int
+
+  @@unique([volumeId, language])
+}
+
+// ── Enums ─────────────────────────────────────────────────────────────────────
+
+enum BookCategory {
+  BOOK
+  BOOK_COLLECTION
+}

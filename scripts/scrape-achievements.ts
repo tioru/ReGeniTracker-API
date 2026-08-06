@@ -99,6 +99,10 @@ function cleanWikitext(text: string): string {
     .replace(/'''/g, '')
     .replace(/''/g, '')
     .replace(/\{\{[^{}]*\}\}/g, '')
+    .replace(/&shy;/gi, '')
+    .replace(/&mdash;/gi, '—')
+    .replace(/&ndash;/gi, '–')
+    .replace(/&nbsp;/gi, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 }
