@@ -1,0 +1,141 @@
+// ── Enemy ─────────────────────────────────────────────────────────────────────
+//
+// Common/Elite Enemies et Normal/Weekly Bosses sont unifiés dans un seul
+// modèle : un Common/Elite Enemy est traité comme un boss à une seule phase
+// (phase 1, dont le nom == le nom de l'ennemi). Ça évite de dupliquer les
+// tables de stats par niveau/résistance en deux jeux parallèles (un pour
+// "l'ennemi" et un pour "la phase de boss") alors que la donnée est
+// structurellement identique — cf. prisma/data/enemies/en/cryo_slime.json
+// (plat) vs la_signora.json (2 phases). `title`/`region`/`area`/`subArea`/
+// `domain` restent vides pour les Common/Elite Enemies (aucun boss).
+//
+// `dropMaterials`/`dropArtefacts` : pool de noms de matériaux/sets d'artéfact
+// (drops pour un Common/Elite Enemy, poolRewards pour un boss). Gardé en
+// String[] non traduit (valeurs EN uniquement) : le wiki FR ne liste pas les
+// mêmes items que l'EN à l'identique (ex: Cryo Slime EN liste 5 matériaux
+// dont Mora/Character EXP, la page FR n'en liste qu'1) — un index par index
+// ne serait pas fiable, contrairement à `EnemyBasicRewardItem` (toujours 4
+// items alignés EN/FR).
+//
+// `EnemyBasicReward` : uniquement pour les bosses (récompenses de première
+// clear du jour, par palier de Domain Level ou de World Level selon le
+// boss — les deux formes existent, jamais les deux à la fois).
+
+model Enemy {
+  id             Int       @id @default(autoincrement())
+  name           String    @unique
+  enemyType      EnemyType
+  region         String?
+  area           String?
+  subArea        String?
+  domain         String?
+  dropMaterials  String[]
+  dropArtefacts  String[]
+  releaseVersion String?
+
+  translations EnemyTranslation[]
+  phases       EnemyPhase[]
+  basicRewards EnemyBasicReward[]
+}
+
+model EnemyTranslation {
+  id       Int     @id @default(autoincrement())
+  language String
+  name     String
+  family   String?
+  group    String?
+  title    String?
+  enemy    Enemy   @relation(fields: [enemyId], references: [id])
+  enemyId  Int
+
+  @@unique([enemyId, language])
+}
+
+model EnemyPhase {
+  id           Int      @id @default(autoincrement())
+  phase        Int
+  hasWeakPoint Boolean
+  abilities    String[]
+  damageTypes  String[]
+  enemy        Enemy    @relation(fields: [enemyId], references: [id])
+  enemyId      Int
+
+  translations EnemyPhaseTranslation[]
+  levelStats   EnemyPhaseLevelStat[]
+  resistance   EnemyPhaseResistance?
+}
+
+model EnemyPhaseTranslation {
+  id       Int        @id @default(autoincrement())
+  language String
+  name     String
+  phase    EnemyPhase @relation(fields: [phaseId], references: [id])
+  phaseId  Int
+
+  @@unique([phaseId, language])
+}
+
+model EnemyPhaseLevelStat {
+  id      Int        @id @default(autoincrement())
+  level   Int
+  hp      Int
+  atk     Int
+  def     Int
+  phase   EnemyPhase @relation(fields: [phaseId], references: [id])
+  phaseId Int
+
+  @@unique([phaseId, level])
+}
+
+model EnemyPhaseResistance {
+  id       Int        @id @default(autoincrement())
+  physical Int
+  pyro     Int
+  hydro    Int
+  electro  Int
+  cryo     Int
+  dendro   Int
+  anemo    Int
+  geo      Int
+  phase    EnemyPhase @relation(fields: [phaseId], references: [id])
+  phaseId  Int        @unique
+}
+
+model EnemyBasicReward {
+  id          Int   @id @default(autoincrement())
+  domainLevel Int?
+  worldLevel  Int?
+  bossLevel   Int
+  enemy       Enemy @relation(fields: [enemyId], references: [id])
+  enemyId     Int
+
+  items EnemyBasicRewardItem[]
+}
+
+model EnemyBasicRewardItem {
+  id            Int              @id @default(autoincrement())
+  quantity      Int
+  basicReward   EnemyBasicReward @relation(fields: [basicRewardId], references: [id])
+  basicRewardId Int
+
+  translations EnemyBasicRewardItemTranslation[]
+}
+
+model EnemyBasicRewardItemTranslation {
+  id           Int                  @id @default(autoincrement())
+  language     String
+  name         String
+  rewardItem   EnemyBasicRewardItem @relation(fields: [rewardItemId], references: [id])
+  rewardItemId Int
+
+  @@unique([rewardItemId, language])
+}
+
+// ── Enums ─────────────────────────────────────────────────────────────────────
+
+enum EnemyType {
+  COMMON_ENEMY
+  ELITE_ENEMY
+  NORMAL_BOSS
+  WEEKLY_BOSS
+}

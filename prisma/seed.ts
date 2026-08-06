@@ -7,6 +7,10 @@ import { seedWeapons } from './seeds/weapon.seed';
 import { seedBanners } from './seeds/banner.seed';
 import { seedCreatures } from './seeds/creature.seed';
 import { seedFood } from './seeds/food.seed';
+import { seedLocations } from './seeds/location.seed';
+import { seedArtifacts } from './seeds/artifact.seed';
+import { seedBooks } from './seeds/book.seed';
+import { seedEnemies } from './seeds/enemy.seed';
 
 const pool = new pg.Pool({ connectionString: process.env.DATABASE_URL });
 const adapter = new PrismaPg(pool);
@@ -19,6 +23,10 @@ async function main() {
   await seedBanners(prisma);
   await seedCreatures(prisma);
   await seedFood(prisma);       // après characters — les plats spéciaux référencent Character
+  await seedLocations(prisma);
+  await seedArtifacts(prisma);  // aucune dépendance vers les autres entités
+  await seedBooks(prisma);      // aucune dépendance vers les autres entités
+  await seedEnemies(prisma);    // aucune dépendance vers les autres entités (drops/récompenses en String[] non liés en FK)
 }
 
 main()
