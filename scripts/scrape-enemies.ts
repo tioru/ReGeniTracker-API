@@ -809,7 +809,6 @@ interface RawInfoboxEnemy {
 }
 
 async function fetchBatch(
-  apiUrl: string,
   category: string,
   gcmcontinue?: string,
 ): Promise<{
@@ -882,7 +881,6 @@ async function fetchBatch(
 }
 
 async function fetchAllForCategory(
-  apiUrl: string,
   category: string,
 ): Promise<RawInfoboxEnemy[]> {
   const all: RawInfoboxEnemy[] = [];
@@ -890,7 +888,7 @@ async function fetchAllForCategory(
   let page = 1;
   do {
     console.log(`Fetching ${category} batch ${page}...`);
-    const { results, nextContinue } = await fetchBatch(apiUrl, category, cont);
+    const { results, nextContinue } = await fetchBatch(category, cont);
     all.push(...results);
     cont = nextContinue;
     page++;
@@ -902,12 +900,11 @@ async function fetchAllForCategory(
 // Complète chaque ennemi avec les phases (stats) et récompenses, extraites du
 // HTML rendu de sa page (1 requête HTTP supplémentaire par ennemi).
 async function enrichWithHtml(
-  apiUrl: string,
   enemy: RawInfoboxEnemy,
 ): Promise<RawEnemy> {
   let html = '';
   try {
-    html = await fetchEnemyHtml(apiUrl, enemy.pageTitle);
+    html = await fetchEnemyHtml(enemy.pageTitle);
   } catch (err) {
     console.warn(`⚠️  Échec du fetch HTML pour "${enemy.pageTitle}": ${err}`);
   }
@@ -1014,7 +1011,7 @@ async function fetchAllInfoboxEnemies(): Promise<RawInfoboxEnemy[]> {
 function loadCache(): CachedEnemy[] | null {
   if (!fs.existsSync(CACHE_PATH)) return null;
   try {
-    return JSON.parse(fs.readFileSync(cachePath, 'utf-8'));
+    return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
   } catch {
     return null;
   }
@@ -1258,31 +1255,17 @@ function writeEnemyFiles(enemies: CachedEnemy[], versionFilter?: string[]) {
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const rawArgs = process.argv.slice(2);
+  const args = process.argv.slice(2);
 
-  const langIdx = rawArgs.indexOf('--lang');
-  const lang = langIdx !== -1 ? rawArgs[langIdx + 1] : 'en';
-  const args =
-    langIdx !== -1
-      ? [...rawArgs.slice(0, langIdx), ...rawArgs.slice(langIdx + 2)]
-      : rawArgs;
-
-  if (
-    args.length === 0 ||
-    !['--fetch', '--cache'].includes(args[0]) ||
-    !API_URLS[lang]
-  ) {
+  if (args.length === 0 || !['--fetch', '--cache'].includes(args[0])) {
     console.error('Usage:');
     console.error(
-      '  Fetch + générer tout    : npx ts-node ... scrape-enemies.ts --fetch [--lang fr]',
+      '  Fetch + générer tout    : npx ts-node ... scrape-enemies.ts --fetch',
     );
     console.error(
-      '  Cache + générer tout     : npx ts-node ... scrape-enemies.ts --cache [--lang fr]',
+      '  Cache + générer tout     : npx ts-node ... scrape-enemies.ts --cache',
     );
     console.error('  Filtrer par version(s)   : ... --cache 2.3 3.0');
-    console.error(
-      `\nLangues disponibles : ${Object.keys(API_URLS).join(', ')}`,
-    );
     process.exit(1);
   }
 
@@ -1292,7 +1275,7 @@ async function main() {
   let enemies: CachedEnemy[];
 
   if (useCache) {
-    const cached = loadCache<RawEnemy>(cachePath);
+    const cached = loadCache();
     if (!cached) {
       console.error('❌ No cache found. Run with --fetch first.');
       process.exit(1);
@@ -1307,11 +1290,7 @@ async function main() {
     saveCache(enemies);
   }
 
-  writeEnemyFiles(
-    outputDir,
-    enemies,
-    versionFilter.length ? versionFilter : undefined,
-  );
+  writeEnemyFiles(enemies, versionFilter.length ? versionFilter : undefined);
 }
 
 main();
