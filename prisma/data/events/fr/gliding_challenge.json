@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Gliding Challenge",
+  "name": "Défi de planage",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2020-12-04T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2020-12-14T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/7154"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/7123"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 430000
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Or",
+          "quantity": 2
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 4
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 21
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.1"
+}

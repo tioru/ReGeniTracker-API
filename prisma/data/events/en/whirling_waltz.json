@@ -1,0 +1,183 @@
+{
+  "pageTitle": "Whirling Waltz",
+  "name": "Whirling Waltz",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "On a stroll through the Court of Fontaine, when you and Paimon head over to a newsstand to purchase a copy of The Steambird, you unexpectedly overhear the familiar voices of old friends. Before you know it, you've been invited to a very special convention...",
+  "timeKnown": true,
+  "startDate": "2025-05-09T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-05-26T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/38644747"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/38666287"
+    }
+  ],
+  "featuredCharacters": [
+    "Basima the Fifth",
+    "Bold Bang Bouldern",
+    "Brest",
+    "Captain Ferment O'Juice",
+    "Consigliere's Ex-Left Hand",
+    "Costentin",
+    "Dehya",
+    "Escoffier",
+    "Furina",
+    "Giustina",
+    "Hajanad",
+    "Helene",
+    "Ironbelly",
+    "Jala",
+    "King of Grilled Fish in Mint Sauce",
+    "Lepine-Pauline",
+    "Lynette",
+    "Lyney",
+    "Marine",
+    "Melies",
+    "Miss Gardemetiquette",
+    "Nusta",
+    "Paimon",
+    "Petit Lumiere",
+    "Roxane",
+    "Sigewinne",
+    "Traveler",
+    "Uncle Scimitar",
+    "Varesa"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Sequence of Solitude"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 990
+        },
+        {
+          "name": "Mora",
+          "quantity": 990000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 4
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 44
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 72
+        },
+        {
+          "name": "Sequence of Solitude",
+          "quantity": 1
+        },
+        {
+          "name": "Composite Bow Tuning Kit",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Equity",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Justice",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Order",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Contention",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Kindling",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Conflict",
+          "quantity": 6
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 18
+        },
+        {
+          "name": "Chapter of an Ancient Chord",
+          "quantity": 6
+        },
+        {
+          "name": "Sublimation of Pure Sacred Dewdrop",
+          "quantity": 6
+        },
+        {
+          "name": "Wine Goblet of the Pristine Sea",
+          "quantity": 6
+        },
+        {
+          "name": "Blazing Sacrificial Heart's Hesitance",
+          "quantity": 6
+        },
+        {
+          "name": "Delirious Desolation of the Sacred Lord",
+          "quantity": 6
+        },
+        {
+          "name": "Night-Wind's Mystic Premonition",
+          "quantity": 6
+        },
+        {
+          "name": "Chevalmarin Amusement Park Commemorative Map",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Film Stand: Surintendante Chevalmarin",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Grand Repertory Playhouse",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Revelrous Outburst",
+          "quantity": 1
+        },
+        {
+          "name": "Film Stage: Colorful Congregation",
+          "quantity": 1
+        },
+        {
+          "name": "Recipe: Candy Shells",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": []
+    }
+  ],
+  "releaseVersion": "5.6"
+}

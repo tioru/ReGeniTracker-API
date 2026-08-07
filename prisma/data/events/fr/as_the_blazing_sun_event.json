@@ -1,0 +1,56 @@
+{
+  "pageTitle": "As the Blazing Sun (Event)",
+  "name": "Comme le soleil brûlant",
+  "type": "In-Game",
+  "groups": [
+    "Story Quest"
+  ],
+  "parentEvent": null,
+  "description": "With the Abyss crisis resolved, the people of Natlan can finally embrace a long-awaited peace. Before long, changes begin to take root in their lives... But the time has not yet come. Forsake not the strength to defend, nor forget the taste of struggle. As long as the sun still hangs high in the sky, battle shall never cease. In the face of this hardship, the warriors will endure; for in the name of what once was, they fight for what will be.",
+  "timeKnown": true,
+  "startDate": "2025-01-01T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-01-21T17:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/35948965"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 60
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 9
+        },
+        {
+          "name": "Noyau source aux motifs dorés secrets",
+          "quantity": 6
+        },
+        {
+          "name": "Pourprinfleur fanée",
+          "quantity": 30
+        },
+        {
+          "name": "Sifflet en métal de guerrier",
+          "quantity": 12
+        },
+        {
+          "name": "Sifflet en bois de sentinelle",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.3"
+}

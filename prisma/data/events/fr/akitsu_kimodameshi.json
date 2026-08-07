@@ -1,0 +1,122 @@
+{
+  "pageTitle": "Akitsu Kimodameshi",
+  "name": "Kimodameshi d'Akitsu",
+  "type": "In-Game",
+  "groups": [
+    "Flagship",
+    "Co-Op"
+  ],
+  "parentEvent": "Mikawa Flower Festival",
+  "description": "The ever-well-informed Paimon has caught wind of a exciting new event hosted by the Yashiro Commission called the \"Test of Courage.\" Experience new amusements and win awesome rewards before it's too late.",
+  "timeKnown": true,
+  "startDate": "2022-12-15T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-01-02T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/14330068"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/14363755"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Toukabou Shigure"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 990
+        },
+        {
+          "name": "Mora",
+          "quantity": 1840000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 48
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 122
+        },
+        {
+          "name": "Branche marine de gemme",
+          "quantity": 12
+        },
+        {
+          "name": "Joie de Narukami",
+          "quantity": 12
+        },
+        {
+          "name": "Masque de la morsure du tigre",
+          "quantity": 12
+        },
+        {
+          "name": "Branche marine de jade",
+          "quantity": 4
+        },
+        {
+          "name": "Affection de Narukami",
+          "quantity": 4
+        },
+        {
+          "name": "Masque du cornu",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Éphémère",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de l'Élégance",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de la Lumière",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de l'Éphémère",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de l'Élégance",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de la Lumière",
+          "quantity": 2
+        },
+        {
+          "name": "Vivacité du kimodameshi",
+          "quantity": 1
+        },
+        {
+          "name": "Pluie florale",
+          "quantity": 1
+        },
+        {
+          "name": "Talc de parapluie",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.3"
+}

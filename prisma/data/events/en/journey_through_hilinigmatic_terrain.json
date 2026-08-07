@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Journey Through Hilinigmatic Terrain",
+  "name": "Journey Through Hilinigmatic Terrain",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Mysterious statues have suddenly appeared in Dadaupa Gorge, and in their villages, the hilichurl tribes are behaving strangely. There must be some secret in the depths of these places for adventurers to discover...",
+  "timeKnown": true,
+  "startDate": "2024-02-29T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-03-11T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/24708406"
+    },
+    {
+      "label": "Gameplay Tips",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/122657"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 330000
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 20
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 20
+        },
+        {
+          "name": "Mega Mystifying Samachurl Statue",
+          "quantity": 1
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 6
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 6
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.4"
+}

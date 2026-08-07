@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Wishful Drops",
+  "name": "Wishful Drops",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "With no warning, the water sources on the border between Mondstadt and Liyue have turned bitter. Could this spell the end of Mondstadt's wine industry?|Version 1.4 Special Program",
+  "timeKnown": true,
+  "startDate": "2021-04-09T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-04-16T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/286280"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/9917"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 230000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 5
+        },
+        {
+          "name": "Endora",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Inquisitive Endora",
+          "quantity": 1
+        },
+        {
+          "name": "Heart of the Spring",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "category": "Original Resin",
+      "rewards": []
+    }
+  ],
+  "releaseVersion": "1.4"
+}

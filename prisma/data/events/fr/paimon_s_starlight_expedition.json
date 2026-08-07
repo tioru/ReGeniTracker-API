@@ -1,0 +1,42 @@
+{
+  "pageTitle": "Paimon's Starlight Expedition",
+  "name": "Expédition stellaire de Paimon",
+  "type": "Web",
+  "groups": [
+    "OST Review"
+  ],
+  "parentEvent": null,
+  "description": "Every star that twinkles is a record of an encounter on our journey. Hey Travelers, come and pass Paimon's test and remember our friends from the journey, together!",
+  "timeKnown": true,
+  "startDate": "2023-01-11T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2023-01-18T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/28767"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyolab.com/bbs/event/20230111ost/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Cyno"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.3"
+}

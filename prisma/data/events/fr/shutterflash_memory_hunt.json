@@ -1,0 +1,111 @@
+{
+  "pageTitle": "Shutterflash Memory Hunt",
+  "name": "Chasse aux instants décisifs",
+  "type": "In-Game",
+  "groups": [
+    "Kamera"
+  ],
+  "parentEvent": null,
+  "description": "A new Kamera is ready for field testing, but its timid operator requires a bit of help... And so the mantle of Teyvat's Special Guest Photographer falls once more across your shoulders. Travel across the land, visit old friends, and capture the moments that show off who they are!",
+  "timeKnown": true,
+  "startDate": "2026-01-16T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-01-26T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/43224970"
+    }
+  ],
+  "featuredCharacters": [
+    "Citlali",
+    "Cyno",
+    "Escoffier",
+    "Eula",
+    "Kachina",
+    "Kaedehara Kazuha",
+    "Nilou",
+    "Noelle",
+    "Skirk",
+    "Yae Miko"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 100000
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Éphémère",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Élégance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Lumière",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Admonestation",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Ingénuité",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Usage",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Équité",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Justice",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Ordre",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Compétition",
+          "quantity": 2
+        },
+        {
+          "name": "Guide du Petit bois",
+          "quantity": 2
+        },
+        {
+          "name": "Guide du Conflit",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna IV"
+}

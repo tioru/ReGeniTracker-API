@@ -1,0 +1,64 @@
+{
+  "pageTitle": "Shared Sight",
+  "name": "Vision partagée",
+  "type": "In-Game",
+  "groups": [
+    "Animal Seeking"
+  ],
+  "parentEvent": null,
+  "description": "Assist the Amurta researcher who is collecting experimental data by using an item called the Inscribed Mirror. Find and recover small animals that have connected to the item to complete said experiment.",
+  "timeKnown": true,
+  "startDate": "2023-08-03T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-08-14T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/20523384"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/112477"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 250000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 24
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 4
+        },
+        {
+          "name": "Talisman en fer de la rosée",
+          "quantity": 8
+        },
+        {
+          "name": "Gentillesse du jardin d'oasis",
+          "quantity": 8
+        },
+        {
+          "name": "Éclat subsistant du pouvoir brûlant",
+          "quantity": 8
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.8"
+}

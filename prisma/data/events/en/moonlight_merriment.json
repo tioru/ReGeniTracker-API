@@ -1,0 +1,166 @@
+{
+  "pageTitle": "Moonlight Merriment",
+  "name": "Moonlight Merriment",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Moonchase Festival",
+  "description": "The autumn moon shines bright, and Liyue Harbor is hard at work preparing for the traditional Moonchase Festival. The preparations for various activities based on the festival's theme are well underway.",
+  "timeKnown": true,
+  "startDate": "2021-09-27T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-10-11T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/15384"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16129"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Luxurious Sea-Lord"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 510
+        },
+        {
+          "name": "Mora",
+          "quantity": 700000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 18
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 18
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Luxurious Sea-Lord",
+          "quantity": 1
+        },
+        {
+          "name": "Emperor's Balsam",
+          "quantity": 4
+        },
+        {
+          "name": "Recipe: Chili-Mince Cornbread Buns",
+          "quantity": 1
+        },
+        {
+          "name": "Recipe: Oncidium Tofu",
+          "quantity": 1
+        },
+        {
+          "name": "Recipe: Rice Pudding",
+          "quantity": 1
+        },
+        {
+          "name": "Recipe: Braised Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 2
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 4
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 4
+        },
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Moonchase Charm",
+          "quantity": 70
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.1"
+}

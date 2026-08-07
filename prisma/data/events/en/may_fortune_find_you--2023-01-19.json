@@ -1,0 +1,48 @@
+{
+  "pageTitle": "May Fortune Find You/2023-01-19",
+  "name": "May Fortune Find You 2023-01-19",
+  "type": "In-Game",
+  "groups": [
+    "Login"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2023-01-19T04:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-02-03T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/15074968"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Intertwined Fate",
+          "quantity": 10
+        },
+        {
+          "name": "Mora",
+          "quantity": 80000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 8
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 18
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.4"
+}

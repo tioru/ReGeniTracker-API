@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Phantasmal Pals",
+  "name": "Amis fantasmagoriques",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "While heading to Aisa Bathhouse to relax, you meet a peculiar child in Chinju Forest, setting the stage for another whimsical adventure...",
+  "timeKnown": true,
+  "startDate": "2026-05-22T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-06-08T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/45098983"
+    },
+    {
+      "label": "Event Introduction",
+      "url": "https://www.hoyolab.com/article/45125943"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon Appearance",
+    "options": [
+      "Super Awesome Magic Key"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 750
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Super clé magique géniale",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VII"
+}

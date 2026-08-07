@@ -1,0 +1,55 @@
+{
+  "pageTitle": "Go Go, Forest Rangers!",
+  "name": "En route, gardes forestiers !",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": "When patrolling the forest, you have to be brave and careful.",
+  "timeKnown": true,
+  "startDate": "2022-08-19T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2022-08-24T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/23055"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20220819tighnari-wmke/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Tighnari",
+    "Collei"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 3
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.8"
+}

@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Triumphant Frenzy",
+  "name": "Triumphant Frenzy",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "In the depths of a mysterious Domain, treacherous foes of even more mysterious origins are preparing for battle... Carefully analyze the opposing lineup and adapt to swiftly dispatch your foes!",
+  "timeKnown": true,
+  "startDate": "2024-02-15T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-02-26T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/24683799"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 450000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 15
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 20
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 15
+        },
+        {
+          "name": "Fine Enhancement Ore",
+          "quantity": 30
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.4"
+}

@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Fleeting Colors in Flight",
+  "name": "Festival des lanternes/Couleurs éphémères en vol",
+  "type": "In-Game",
+  "groups": [
+    "Flagship",
+    "Co-Op"
+  ],
+  "parentEvent": "Lantern Rite Festival",
+  "description": "Look, people are hanging the lights up and breaking out their instruments! It's a new year, and Liyue Harbor is bustling with preparations for the grand celebration of the Lantern Rite Festival... This new year comes amidst the dawning of a new era, and Ningguang and Keqing of the Qixing seem to both have brand-new plans...",
+  "timeKnown": true,
+  "startDate": "2022-01-25T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-02-12T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18164"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18793"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Choose Character",
+    "options": [
+      "Beidou",
+      "Chongyun",
+      "Ningguang",
+      "Xiangling",
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei",
+      "Yun Jin"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "delim = ;",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.4"
+}

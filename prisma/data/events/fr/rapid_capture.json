@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Rapid Capture",
+  "name": "Cinégraphie rapide",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "{{Description |title = 30px Rapid Capture |One day, you and Paimon seem to hear someone arguing near the Fountain of Lucine...",
+  "timeKnown": true,
+  "startDate": "2026-05-06T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-05-18T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/44915430"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 150000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de l'Équité",
+          "quantity": 5
+        },
+        {
+          "name": "Guide de la Justice",
+          "quantity": 5
+        },
+        {
+          "name": "Guide de l'Ordre",
+          "quantity": 5
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VI"
+}

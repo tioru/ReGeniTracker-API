@@ -1,0 +1,55 @@
+{
+  "pageTitle": "The Meaning of Flight",
+  "name": "The Meaning of Flight",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": "During the event, help Chasca select the gift and explore all areas on the map. Find the mother Qucusaurus to obtain in-game item rewards.",
+  "timeKnown": true,
+  "startDate": "2024-11-15T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-11-21T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/34952162"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20241115chasca-yjiwkp/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Chasca",
+    "Cusco"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 40
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.1"
+}

@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Warrior's Spirit",
+  "name": "La voie du guerrier",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "The capacity to bear the weight of charity and mercy; the capability to wield both blade and might. Such is the first precept of the Warrior's Spirit. Yet, with the shifting of ages, past and present have begun to drift. In the same fashion, the Warrior Spirit event of today bears changes as well...",
+  "timeKnown": true,
+  "startDate": "2023-02-09T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-02-20T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/15074939"
+    }
+  ],
+  "featuredCharacters": [
+    "Reina",
+    "Younan",
+    "Sae",
+    "Matsumae",
+    "Ibuki",
+    "Maguu Kengou"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 300000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 20
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 24
+        },
+        {
+          "name": "Guide de l'Éphémère",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Élégance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Lumière",
+          "quantity": 4
+        },
+        {
+          "name": "Branche marine de gemme",
+          "quantity": 4
+        },
+        {
+          "name": "Joie de Narukami",
+          "quantity": 4
+        },
+        {
+          "name": "Masque de la morsure du tigre",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.4"
+}

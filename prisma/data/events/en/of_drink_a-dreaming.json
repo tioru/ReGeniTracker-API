@@ -1,0 +1,90 @@
+{
+  "pageTitle": "Of Drink A-Dreaming",
+  "name": "Of Drink A-Dreaming",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Luka from Mondstadt is inviting people to take part in Bartender Academy Week. He says that those whose customers walk away satisfied will receive impressive rewards...",
+  "timeKnown": true,
+  "startDate": "2022-03-10T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-03-21T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/19841"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/19914"
+    }
+  ],
+  "featuredCharacters": [
+    "Jonas",
+    "Jürgen",
+    "Little Uwe"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 460000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 6
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 8
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 24
+        },
+        {
+          "name": "Celebration: Binge Vessel",
+          "quantity": 1
+        },
+        {
+          "name": "Tavern Shaker: Grumous Oscillation",
+          "quantity": 1
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 2
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 4
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.5"
+}

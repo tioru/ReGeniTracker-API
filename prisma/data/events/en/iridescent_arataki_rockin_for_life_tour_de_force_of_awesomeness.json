@@ -1,0 +1,190 @@
+{
+  "pageTitle": "Iridescent Arataki Rockin' for Life Tour de Force of Awesomeness",
+  "name": "Iridescent Arataki Rockin' for Life Tour de Force of Awesomeness",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "On a certain day, you and Paimon receive an invitation sent by one Arataki Itto, inviting you to take part in an event. Spurred onward by the unbridled passion within, you embark on a journey to Watatsumi Island...",
+  "timeKnown": true,
+  "startDate": "2024-05-06T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-05-27T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/28116868"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123536"
+    }
+  ],
+  "featuredCharacters": [
+    "Aoi",
+    "Tomoki",
+    "Yukio",
+    "Sayu",
+    "Langqing",
+    "Jifang",
+    "Xingxi",
+    "Linlang",
+    "Marjorie",
+    "Flora",
+    "Charles"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Gorou"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Gorou",
+          "quantity": 1
+        },
+        {
+          "name": "Nightwind Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 1330000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 76
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 18
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 42
+        },
+        {
+          "name": "Fine Enhancement Ore",
+          "quantity": 36
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 24
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 5
+        },
+        {
+          "name": "Philosophies of Transience",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Transience",
+          "quantity": 5
+        },
+        {
+          "name": "Philosophies of Elegance",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Elegance",
+          "quantity": 5
+        },
+        {
+          "name": "Philosophies of Light",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Light",
+          "quantity": 5
+        },
+        {
+          "name": "Invitation From the Arataki Gang",
+          "quantity": 1
+        },
+        {
+          "name": "\"I Got Reincarnated as an Onikabuto... And Flipped the World Upside Down\"",
+          "quantity": 1
+        },
+        {
+          "name": "Rock 'n' Roll Dango Milk",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Iridescence Tour Tickets",
+          "quantity": 1120
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.6"
+}

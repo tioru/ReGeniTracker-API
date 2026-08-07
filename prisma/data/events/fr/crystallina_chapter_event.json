@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Crystallina Chapter (Event)",
+  "name": "Crystallina",
+  "type": "In-Game",
+  "groups": [
+    "Story Quest"
+  ],
+  "parentEvent": null,
+  "description": "Vast and unfathomable, the distant universe holds the hopes and dreams of countless souls. Yet when dreams collide, the sound of shattered hope rends the darkness &mdash; that haunting night which cloaks the fall of civilizations too many to measure. Joy and sorrow intertwined without end, forged into one by the unending passage of time &mdash; the past, the future, and the fleeting lives of the now.",
+  "timeKnown": true,
+  "startDate": "2025-06-18T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-07-08T17:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/39353508"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 60
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 9
+        },
+        {
+          "name": "Regard enchevêtrant",
+          "quantity": 6
+        },
+        {
+          "name": "Floraigemme brise-ciel",
+          "quantity": 30
+        },
+        {
+          "name": "Engrenage à coupe droite",
+          "quantity": 12
+        },
+        {
+          "name": "Engrenage de maillage",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.7"
+}

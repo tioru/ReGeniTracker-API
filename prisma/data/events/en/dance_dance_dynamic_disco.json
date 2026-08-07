@@ -1,0 +1,86 @@
+{
+  "pageTitle": "Dance Dance Dynamic Disco",
+  "name": "Dance Dance Dynamic Disco",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "{{Description |title = 30px Dance Dance Dynamic Disco |At the joint invitation of the People of the Springs, the Flower-Feather Clan, and the Children of Echoes, a group of friends from Sumeru has come to Natlan to host a lively \"dance exchange\"... |Map description",
+  "timeKnown": true,
+  "startDate": "2025-11-17T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-11-26T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/42343297"
+    }
+  ],
+  "featuredCharacters": [
+    "Amina",
+    "Mualani",
+    "Mutota",
+    "Nilou",
+    "Uncle Scimitar"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 270000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 2
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Contention",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Kindling",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Conflict",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Admonition",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Ingenuity",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Praxis",
+          "quantity": 4
+        },
+        {
+          "name": "Party Standee: \"Raring to Go\"",
+          "quantity": 1
+        },
+        {
+          "name": "Party Standee: \"Grace in Motion\"",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna II"
+}

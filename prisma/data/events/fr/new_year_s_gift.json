@@ -1,0 +1,37 @@
+{
+  "pageTitle": "New Year's Gift",
+  "name": "Cadeau du Nouvel An",
+  "type": "In-Game",
+  "groups": [
+    "Mail",
+    "Miliastra Wonderland"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2026-01-14T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-02-24T04:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/43211366"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Coffret cadeau : Galop",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna IV"
+}

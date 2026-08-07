@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Chronicle of Shifting Stratagems",
+  "name": "Chronique des stratagèmes changeants",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "In your adventures, you will encounter enemies and obstacles of all shapes and sizes. Don't panic &mdash; analyze your foes, and adjust your lineup to achieve a dazzling victory!",
+  "timeKnown": true,
+  "startDate": "2025-05-27T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-06-09T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/38968109"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 240000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 12
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Or",
+          "quantity": 4
+        },
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Mercure karstique",
+          "quantity": 6
+        },
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 6
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 12
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.6"
+}

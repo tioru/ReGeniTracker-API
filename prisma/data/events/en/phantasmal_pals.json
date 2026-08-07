@@ -1,0 +1,174 @@
+{
+  "pageTitle": "Phantasmal Pals",
+  "name": "Phantasmal Pals",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "While heading to Aisa Bathhouse to relax, you meet a peculiar child in Chinju Forest, setting the stage for another whimsical adventure...",
+  "timeKnown": true,
+  "startDate": "2026-05-22T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-06-08T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/45098983"
+    },
+    {
+      "label": "Event Introduction",
+      "url": "https://www.hoyolab.com/article/45125943"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon Appearance",
+    "options": [
+      "Super Awesome Magic Key"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 910
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Super Awesome Magic Key",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 740000
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 50
+        },
+        {
+          "name": "Fine Enhancement Ore",
+          "quantity": 40
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 58
+        },
+        {
+          "name": "Sanctifying Essence",
+          "quantity": 5
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 28
+        },
+        {
+          "name": "Guide to Elegance",
+          "quantity": 9
+        },
+        {
+          "name": "Guide to Light",
+          "quantity": 9
+        },
+        {
+          "name": "Guide to Transience",
+          "quantity": 9
+        },
+        {
+          "name": "Philosophies of Elegance",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Light",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Transience",
+          "quantity": 2
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Jade Branch of a Distant Sea",
+          "quantity": 3
+        },
+        {
+          "name": "Mask of the One-Horned",
+          "quantity": 3
+        },
+        {
+          "name": "Narukami's Affection",
+          "quantity": 3
+        },
+        {
+          "name": "Photo With the Little Witches and Their Imaginary Friends",
+          "quantity": 1
+        },
+        {
+          "name": "Imaginary Friend: Descartes",
+          "quantity": 1
+        },
+        {
+          "name": "Imaginary Friend: Dodoco",
+          "quantity": 1
+        },
+        {
+          "name": "Imaginary Friend: Gena",
+          "quantity": 1
+        },
+        {
+          "name": "Imaginary Friend: Tuantuan",
+          "quantity": 1
+        },
+        {
+          "name": "Imaginary Friend: Yuegui",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Pals Synergy",
+          "quantity": 1140
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VII"
+}

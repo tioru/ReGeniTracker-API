@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Quirky Quaking Arena",
+  "name": "Arène aux trémulements trépidants",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op",
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "Countless experiences have proven that one's own skills are the most reliable adventuring \"tool.\" Honing various unique abilities in confrontations will undoubtedly benefit future exploits...",
+  "timeKnown": true,
+  "startDate": "2025-04-21T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-05-02T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/38322432"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 100000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 14
+        },
+        {
+          "name": "Guide de la Compétition",
+          "quantity": 4
+        },
+        {
+          "name": "Guide du Petit bois",
+          "quantity": 4
+        },
+        {
+          "name": "Guide du Conflit",
+          "quantity": 4
+        },
+        {
+          "name": "Hésitation du cœur sacrificiel flamboyant",
+          "quantity": 6
+        },
+        {
+          "name": "Désolation délirante du seigneur sacré",
+          "quantity": 6
+        },
+        {
+          "name": "Prémonition mystique du vent nocturne",
+          "quantity": 6
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 8
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.5"
+}

@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Echoing Tales",
+  "name": "Échos du passé",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Collect the Echoing Conches scattered throughout the archipelago to obtain rewards, such as Barbara's outfit, Summertime Sparkle!",
+  "timeKnown": true,
+  "startDate": "2021-06-09T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2021-07-21T05:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/13320"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://x.com/GenshinImpact/status/1402090811475562499"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 360
+        },
+        {
+          "name": "Mora",
+          "quantity": 240000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 20
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 20
+        },
+        {
+          "name": "Summertime Sparkle",
+          "quantity": 1
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.6"
+}

@@ -1,0 +1,50 @@
+{
+  "pageTitle": "Time to Get Moving!",
+  "name": "C'est l'heure de faire un peu d'exercice !",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2026-06-10T12:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-06-25T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/45409131"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20260610sports/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 60
+        },
+        {
+          "name": "Étirement",
+          "quantity": 1
+        },
+        {
+          "name": "Vite",
+          "quantity": 1
+        },
+        {
+          "name": "Géode de recréation",
+          "quantity": 320
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VII"
+}

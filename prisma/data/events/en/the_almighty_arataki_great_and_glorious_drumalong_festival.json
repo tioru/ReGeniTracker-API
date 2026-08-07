@@ -1,0 +1,72 @@
+{
+  "pageTitle": "The Almighty Arataki Great and Glorious Drumalong Festival",
+  "name": "The Almighty Arataki Great and Glorious Drumalong Festival",
+  "type": "In-Game",
+  "groups": [
+    "Rhythm Game"
+  ],
+  "parentEvent": null,
+  "description": "You have received a letter of most formal invitation from the Arataki Gang. It seems that Itto is inviting his friends to some kind of festive outing... So why not open it up?",
+  "timeKnown": true,
+  "startDate": "2022-06-13T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-07-04T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/5350611"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/21461"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 300000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 25
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 8
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 42
+        },
+        {
+          "name": "Arataki's Great and Glorious Drum",
+          "quantity": 1
+        },
+        {
+          "name": "Jeweled Branch of a Distant Sea",
+          "quantity": 6
+        },
+        {
+          "name": "Narukami's Joy",
+          "quantity": 6
+        },
+        {
+          "name": "Mask of the Tiger's Bite",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.7"
+}

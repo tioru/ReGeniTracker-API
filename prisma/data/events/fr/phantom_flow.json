@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Phantom Flow",
+  "name": "Flux spectral",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Shousen, the master of Inazuma's Shinryuu, offers to help the Traveler initiate an imaginary, no-holds-barred fighting tournament, with a chance to win rewards for it.",
+  "timeKnown": true,
+  "startDate": "2021-08-20T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-08-30T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/720087"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/15034"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 290000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 21
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 4
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 34
+        },
+        {
+          "name": "Guide to Elegance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Light",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Transience",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.0"
+}

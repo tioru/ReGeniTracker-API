@@ -1,0 +1,54 @@
+{
+  "pageTitle": "Vibrant Harriers Aloft in Spring Breeze",
+  "name": "Festival des lanternes/Busards colorés dans la brise printanière",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Lantern Rite Festival",
+  "description": "As the year's end approaches, the annual Lantern Rite is about to begin. As is customary, you and Paimon return to Liyue Harbor once again, and as expected, you encounter some familiar faces...",
+  "timeKnown": true,
+  "startDate": "2024-02-05T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-02-26T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/24683838"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/122284"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Choose Character",
+    "options": [
+      "Beidou",
+      "Chongyun",
+      "Gaming",
+      "Ningguang",
+      "Xiangling",
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei",
+      "Yaoyao",
+      "Yun Jin"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "delim = ;",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.4"
+}

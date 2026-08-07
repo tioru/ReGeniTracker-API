@@ -1,0 +1,122 @@
+{
+  "pageTitle": "The Chalk Prince and the Dragon",
+  "name": "The Chalk Prince and the Dragon",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op",
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "Everything was proceeding smoothly, until the unexpected happened... Your adventure across Dragonspine begins!",
+  "timeKnown": true,
+  "startDate": "2020-12-23T14:00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": "2021-01-05T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/7487"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/7624"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Festering Desire"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Festering Desire",
+          "quantity": 1
+        },
+        {
+          "name": "Primogem",
+          "quantity": 660
+        },
+        {
+          "name": "Mora",
+          "quantity": 1340000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 60
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 20
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 180
+        },
+        {
+          "name": "Festering Dragon Marrow",
+          "quantity": 4
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 6
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 6
+        },
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 6
+        },
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 9
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 9
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 9
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 9
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 9
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 9
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.2"
+}

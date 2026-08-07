@@ -1,0 +1,60 @@
+{
+  "pageTitle": "Outland Gastronomy",
+  "name": "Gastronomie étrangère",
+  "type": "In-Game",
+  "groups": [
+    "Login"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-03-17T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2021-04-01T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/9262"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 300
+        },
+        {
+          "name": "Mora",
+          "quantity": 50000
+        },
+        {
+          "name": "Collection de recettes « Goût d'un autre monde »",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 8
+        },
+        {
+          "name": "Recette : Burger de poulet",
+          "quantity": 1
+        },
+        {
+          "name": "Recette : Purée de pommes de terre",
+          "quantity": 1
+        },
+        {
+          "name": "Recette : Nuggets de poulet",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.4"
+}

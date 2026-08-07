@@ -1,0 +1,200 @@
+{
+  "pageTitle": "Alchemical Ascension",
+  "name": "Alchemical Ascension",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "The Knights of Favonius are currently coming up with long-term plans to promote the achievements of alchemy. The person in charge, Lisa, seems to have a good idea and has invited you and Paimon to assist her.",
+  "timeKnown": true,
+  "startDate": "2024-03-14T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-04-01T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/25852855"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/122819"
+    }
+  ],
+  "featuredCharacters": [
+    "Deyou",
+    "Eula",
+    "Beidou",
+    "Diona",
+    "Venti",
+    "Diluc",
+    "Gorou",
+    "Kirara",
+    "Sucrose"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Dialogues of the Desert Sages"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Dialogues of the Desert Sages",
+          "quantity": 1
+        },
+        {
+          "name": "\"Exalted Earth\"",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 840000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 40
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 36
+        },
+        {
+          "name": "Wanderer's Advice",
+          "quantity": 12
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 88
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Freedom",
+          "quantity": 8
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 9
+        },
+        {
+          "name": "Philosophies of Resistance",
+          "quantity": 8
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Ballad",
+          "quantity": 8
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 4
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 6
+        },
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 4
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 6
+        },
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Blueprint: \"Site of Artful Ascension\"",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Cleverly Crafted Cabinet: Regular Organization",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Cleverly Crafted Shelf: Hot Sales Strategy",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Cleverly Crafted Contraption: Born in Blessed Bitterness",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: \"Cider Lakelight\"",
+          "quantity": 1
+        },
+        {
+          "name": "Cleverly Crafted Cauldron: Potion Plans Aplenty",
+          "quantity": 1
+        },
+        {
+          "name": "Felix Felicium",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Funds (Alchemical Ascension)",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.5"
+}

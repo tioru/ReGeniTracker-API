@@ -1,0 +1,162 @@
+{
+  "pageTitle": "Shadows Amidst Snowstorms",
+  "name": "Shadows Amidst Snowstorms",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "Paimon has an odd thought and drags you off to the Mondstadt alchemy shop to seek answers...",
+  "timeKnown": true,
+  "startDate": "2021-11-25T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-12-13T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17274"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17233"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Cinnabar Spindle"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 930
+        },
+        {
+          "name": "Mora",
+          "quantity": 1550000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 76
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 124
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Cinnabar Spindle",
+          "quantity": 1
+        },
+        {
+          "name": "Alkahest",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Freedom",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Resistance",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Ballad",
+          "quantity": 2
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 12
+        },
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 12
+        },
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 4
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 12
+        },
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 4
+        },
+        {
+          "name": "Snowman Torso: Sitting Pretty",
+          "quantity": 1
+        },
+        {
+          "name": "Snowman Torso: Bunny Jump",
+          "quantity": 1
+        },
+        {
+          "name": "Snowman Torso: Egg Fortress Classic",
+          "quantity": 1
+        },
+        {
+          "name": "Snowman Torso: The Assertive One",
+          "quantity": 1
+        },
+        {
+          "name": "Snowman Head: Catsclamation",
+          "quantity": 1
+        },
+        {
+          "name": "Snowman Head: The Rhythm of Laughter",
+          "quantity": 1
+        },
+        {
+          "name": "Snowman Head: Happiness in General",
+          "quantity": 1
+        },
+        {
+          "name": "Snowman Head: Huff-and-Puff",
+          "quantity": 1
+        },
+        {
+          "name": "\"A Portrait of Paimon, the Greatest Companion\"",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Snowstrider Emblem",
+          "quantity": 2880
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.3"
+}

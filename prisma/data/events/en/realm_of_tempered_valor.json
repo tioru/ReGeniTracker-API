@@ -1,0 +1,42 @@
+{
+  "pageTitle": "Realm of Tempered Valor",
+  "name": "Realm of Tempered Valor",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Just as a hero's conquests know no bounds, so too must their training forever go on. Hone your skills through endless challenges and never stop pushing your limits!",
+  "timeKnown": true,
+  "startDate": "2025-02-24T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-03-10T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/37225915"
+    },
+    {
+      "label": "Gameplay Tips",
+      "url": "https://www.hoyolab.com/article/37243428"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Celebration: Scorch",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.4"
+}

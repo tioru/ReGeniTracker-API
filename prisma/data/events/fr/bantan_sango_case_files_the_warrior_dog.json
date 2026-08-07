@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Bantan Sango Case Files: The Warrior Dog",
+  "name": "Bantan Sango : Le chien guerrier",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "A mysterious case has come up in Inazuma, and the Bantan Sango Detective Agency has put out a commission at the Adventurers' Guild for someone who can help them solve the case. They say the pay is good...",
+  "timeKnown": true,
+  "startDate": "2021-12-07T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-12-20T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17132"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17502"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 180000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 12
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Branche marine de gemme",
+          "quantity": 7
+        },
+        {
+          "name": "Masque de la morsure du tigre",
+          "quantity": 7
+        },
+        {
+          "name": "Joie de Narukami",
+          "quantity": 7
+        },
+        {
+          "name": "Kageroumaru",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.3"
+}

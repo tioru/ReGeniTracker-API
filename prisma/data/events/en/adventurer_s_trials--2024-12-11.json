@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Adventurer's Trials/2024-12-11",
+  "name": "Adventurer's Trials: Metamorphosis",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "In order to comprehensively test the speed, agility, and strength of Adventurers, the Adventurers' Guild designed a series of fiendishly challenging stages, and it is said none have yet made it through! However, there are no, and shall never be. barriers that cannot be broken the facts shall bear out this truth!",
+  "timeKnown": true,
+  "startDate": "2024-12-11T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-12-23T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/35477560"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "item1",
+          "quantity": 0
+        },
+        {
+          "name": "item2",
+          "quantity": 0
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "currency1",
+          "quantity": 0
+        },
+        {
+          "name": "currency2",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.2"
+}

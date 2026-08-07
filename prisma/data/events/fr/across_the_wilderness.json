@@ -1,0 +1,64 @@
+{
+  "pageTitle": "Across the Wilderness",
+  "name": "Traque dans la nature",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "The Adventurers' Guild is hosting a special event titled \"Across the Wilderness.\" Find as many Wilderness Balloons as possible within the time limit to earn increasingly better rewards.",
+  "timeKnown": true,
+  "startDate": "2023-01-03T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-01-13T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/14710888"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/14742117"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 280000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 20
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 40
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.3"
+}

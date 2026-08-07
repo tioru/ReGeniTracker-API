@@ -1,0 +1,53 @@
+{
+  "pageTitle": "The Exquisite Night Chimes",
+  "name": "Festival des lanternes/Sous les carillons de l'exquise nuit",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Lantern Rite Festival",
+  "description": "As the year's end draws near, the bustling Lantern Rite is soon approaching. You and Paimon return to Liyue Harbor and find yourselves pleasantly surprised by many old friends, and guest a special guest from abroad.",
+  "timeKnown": true,
+  "startDate": "2023-01-19T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-02-06T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/15074939"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/105077"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Choose Character",
+    "options": [
+      "Beidou",
+      "Chongyun",
+      "Ningguang",
+      "Xiangling",
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei",
+      "Yaoyao",
+      "Yun Jin"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "delim = ;",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.4"
+}

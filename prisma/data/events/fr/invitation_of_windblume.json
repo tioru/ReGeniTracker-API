@@ -1,0 +1,153 @@
+{
+  "pageTitle": "Invitation of Windblume",
+  "name": "Invitation des alizées",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Windblume Festival",
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-03-19T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-04-05T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/9371"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/9439"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Windblume Ode"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 1000
+        },
+        {
+          "name": "Mora",
+          "quantity": 1220000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Ode aux alizées",
+          "quantity": 1
+        },
+        {
+          "name": "« Vents visibles »",
+          "quantity": 4
+        },
+        {
+          "name": "Lyre de la brise",
+          "quantity": 1
+        },
+        {
+          "name": "Ballon souvenir de la Fête des alizées",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 82
+        },
+        {
+          "name": "Poudre d'Azoth",
+          "quantity": 120
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Liberté",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Résistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Poésie",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Prospérité",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Or",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de l'Or",
+          "quantity": 2
+        },
+        {
+          "name": "Entraves du Chevalier du Croc de Lion",
+          "quantity": 6
+        },
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 6
+        },
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 6
+        },
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Mercure karstique",
+          "quantity": 6
+        },
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.4"
+}

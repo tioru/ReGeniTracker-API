@@ -1,0 +1,68 @@
+{
+  "pageTitle": "Record of Reflective Writing",
+  "name": "Recueil d'écrits méditatifs",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "Upon returning to Mondstadt, you encounter a light novelist. Following her script, you embark on a wondrous journey of reading and reverie...",
+  "timeKnown": true,
+  "startDate": "2024-06-18T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-06-24T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/29927820"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/29958398"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 370000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 18
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.7"
+}

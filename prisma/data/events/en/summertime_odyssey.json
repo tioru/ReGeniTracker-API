@@ -1,0 +1,138 @@
+{
+  "pageTitle": "Summertime Odyssey",
+  "name": "Summertime Odyssey",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "As summer comes into its own, Fischl receives an important missive and departs with everyone in town to begin another marvelous sojourn...",
+  "timeKnown": true,
+  "startDate": "2022-07-15T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-08-24T05:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/5958494"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/6012393"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Fischl"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1430
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Fischl",
+          "quantity": 1
+        },
+        {
+          "name": "Ein Immernachtstraum",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 2080000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 110
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 88
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Freedom",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Resistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Ballad",
+          "quantity": 2
+        },
+        {
+          "name": "Blueprint: Allegro Bloom: Special Tuning",
+          "quantity": 1
+        },
+        {
+          "name": "Keepsake Photo of Twilight Theater",
+          "quantity": 1
+        },
+        {
+          "name": "Storm Braver",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Iridescent Flotsam",
+          "quantity": 2400
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.8"
+}

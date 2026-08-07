@@ -1,0 +1,60 @@
+{
+  "pageTitle": "The Peaks and Troughs of Life",
+  "name": "Aléas de la vie",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "You encounter a very nervous researcher by the shore in the southeast of Beryl Region. He seems to be testing a small prototype device...",
+  "timeKnown": true,
+  "startDate": "2023-10-23T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-11-06T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/22464920"
+    },
+    {
+      "label": "Gameplay Tips",
+      "url": "https://www.hoyolab.com/article/22483781"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 270000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 40
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 30
+        },
+        {
+          "name": "Minerai de renforcement raffiné",
+          "quantity": 40
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.1"
+}

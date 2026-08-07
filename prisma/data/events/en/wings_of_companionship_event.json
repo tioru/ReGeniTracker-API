@@ -1,0 +1,37 @@
+{
+  "pageTitle": "Wings of Companionship (Event)",
+  "name": "Wings of Companionship",
+  "type": "In-Game",
+  "groups": [
+    "Mail",
+    "Indefinite"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2020-09-28T10:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": null,
+  "endDateOffset": null,
+  "isIndefinite": true,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://x.com/GenshinImpact/status/1310549822164865025"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Wings of Companionship",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.0"
+}

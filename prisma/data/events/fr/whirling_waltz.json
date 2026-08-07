@@ -1,0 +1,175 @@
+{
+  "pageTitle": "Whirling Waltz",
+  "name": "Valse virevoltante",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "On a stroll through the Court of Fontaine, when you and Paimon head over to a newsstand to purchase a copy of The Steambird, you unexpectedly overhear the familiar voices of old friends. Before you know it, you've been invited to a very special convention...",
+  "timeKnown": true,
+  "startDate": "2025-05-09T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-05-26T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/38644747"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/38666287"
+    }
+  ],
+  "featuredCharacters": [
+    "Basima the Fifth",
+    "Bold Bang Bouldern",
+    "Brest",
+    "Captain Ferment O'Juice",
+    "Consigliere's Ex-Left Hand",
+    "Costentin",
+    "Dehya",
+    "Escoffier",
+    "Furina",
+    "Giustina",
+    "Hajanad",
+    "Helene",
+    "Ironbelly",
+    "Jala",
+    "King of Grilled Fish in Mint Sauce",
+    "Lepine-Pauline",
+    "Lynette",
+    "Lyney",
+    "Marine",
+    "Melies",
+    "Miss Gardemetiquette",
+    "Nusta",
+    "Paimon",
+    "Petit Lumiere",
+    "Roxane",
+    "Sigewinne",
+    "Traveler",
+    "Uncle Scimitar",
+    "Varesa"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Sequence of Solitude"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 990
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 900000
+        },
+        {
+          "name": "Séquence de solitude",
+          "quantity": 1
+        },
+        {
+          "name": "Kit de calibration d'arc composite",
+          "quantity": 4
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 36
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 72
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 18
+        },
+        {
+          "name": "Guide de l'Équité",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de la Justice",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de l'Ordre",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de la Compétition",
+          "quantity": 6
+        },
+        {
+          "name": "Guide du Petit bois",
+          "quantity": 6
+        },
+        {
+          "name": "Guide du Conflit",
+          "quantity": 6
+        },
+        {
+          "name": "Chapitre d'un accord ancien",
+          "quantity": 6
+        },
+        {
+          "name": "Sublimation de rosée sacrée pure",
+          "quantity": 6
+        },
+        {
+          "name": "Gobelet à vin de la mer immaculée",
+          "quantity": 6
+        },
+        {
+          "name": "Hésitation du cœur sacrificiel flamboyant",
+          "quantity": 6
+        },
+        {
+          "name": "Désolation délirante du seigneur sacré",
+          "quantity": 6
+        },
+        {
+          "name": "Prémonition mystique du vent nocturne",
+          "quantity": 6
+        },
+        {
+          "name": "Carte commémorative du Parc de Chevalmarin",
+          "quantity": 1
+        },
+        {
+          "name": "Plan de décoration : Grand théâtre de répertoire",
+          "quantity": 1
+        },
+        {
+          "name": "Plan de décoration : Ramdam festif",
+          "quantity": 1
+        },
+        {
+          "name": "Plan de décoration : Panneau de cinéma « Surintendante Chevalmarin »",
+          "quantity": 1
+        },
+        {
+          "name": "Scène de cinéma « Congrégation colorée »",
+          "quantity": 1
+        },
+        {
+          "name": "Recette : Bonbons coquillages",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.6"
+}

@@ -1,0 +1,135 @@
+{
+  "pageTitle": "Traces of Artistry",
+  "name": "Traces of Artistry",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "At the \"Children of Echoes\" stage, a graffiti expert extends a grand invitation to you and Paimon, \"to travel around Natlan in search of inspiration\"...",
+  "timeKnown": true,
+  "startDate": "2024-08-28T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-09-16T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/32490642"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/125532"
+    }
+  ],
+  "featuredCharacters": [
+    "\"Dopey Dazzler\"",
+    "Kachina",
+    "Kinich",
+    "Mualani"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Ash-Graven Drinking Horn"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 920
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Ash-Graven Drinking Horn",
+          "quantity": 1
+        },
+        {
+          "name": "\"The Sea's Silent Shade\"",
+          "quantity": 4
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 36
+        },
+        {
+          "name": "Mora",
+          "quantity": 740000
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 90
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 30
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 8
+        },
+        {
+          "name": "Philosophies of Contention",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Contention",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophies of Kindling",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Kindling",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophies of Conflict",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Conflict",
+          "quantity": 12
+        },
+        {
+          "name": "Blazing Sacrificial Heart's Hesitance",
+          "quantity": 20
+        },
+        {
+          "name": "Delirious Desolation of the Sacred Lord",
+          "quantity": 20
+        },
+        {
+          "name": "Night-Wind's Mystic Premonition",
+          "quantity": 20
+        },
+        {
+          "name": "Dopey Dazzler's Notes on Graffiti",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Colorful Contemplation",
+          "quantity": 2700
+        },
+        {
+          "name": "Graffiti Kamera",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.0"
+}

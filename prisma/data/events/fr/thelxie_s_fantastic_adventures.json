@@ -1,0 +1,129 @@
+{
+  "pageTitle": "Thelxie's Fantastic Adventures",
+  "name": "Les aventures fantastiques de Thelxie",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "One day, you receive a commission from the Fontaine Fishing Association. In accordance with the commission's requirements, you and Paimon go to Erinnyes to investigate, the curtain rises on a wondrous new adventure...",
+  "timeKnown": true,
+  "startDate": "2023-11-23T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-12-11T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/23129467"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/113734"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Freminet"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 1000
+        },
+        {
+          "name": "Mora",
+          "quantity": 1270000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Fréminet",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 85
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 58
+        },
+        {
+          "name": "Philosophie de l'Équité",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Justice",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de l'Ordre",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de l'Équité",
+          "quantity": 3
+        },
+        {
+          "name": "Guide de la Justice",
+          "quantity": 3
+        },
+        {
+          "name": "Guide de l'Ordre",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment d'émeraude nagadus",
+          "quantity": 4
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 12
+        },
+        {
+          "name": "Prince des Diableautins",
+          "quantity": 1
+        },
+        {
+          "name": "Les aventures fantastiques de Thelxie (Objet de quête)*1$caption>Les aventures fantastiques de Thelxie",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.2"
+}

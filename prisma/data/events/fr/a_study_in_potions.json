@@ -1,0 +1,80 @@
+{
+  "pageTitle": "A Study in Potions",
+  "name": "Potiologie",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "The Mondstadt alchemist Timaeus is attempting to create a legendary alchemical medication. Help him complete this line of research, and you may obtain some rich rewards...",
+  "timeKnown": true,
+  "startDate": "2022-01-07T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-01-17T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18305"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18503"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 270000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 11
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Mercure karstique",
+          "quantity": 6
+        },
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Or",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.4"
+}

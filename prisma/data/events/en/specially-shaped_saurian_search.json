@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Specially-Shaped Saurian Search",
+  "name": "Specially-Shaped Saurian Search",
+  "type": "In-Game",
+  "groups": [
+    "Challenge",
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "One day, you and Paimon receive a mysterious commission from the Adventurers' Guild: \"Protagonist Wanted: You set off on a new journey, searching for wondrous companions...",
+  "timeKnown": true,
+  "startDate": "2024-05-22T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-06-03T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/28846633"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 370000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 15
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 20
+        },
+        {
+          "name": "Guide to Equity",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Justice",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Order",
+          "quantity": 2
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 8
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.6"
+}

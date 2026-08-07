@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Dance Dance Dynamic Disco",
+  "name": "Délire disco dynamique dansant",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "{{Description |title = 30px Dance Dance Dynamic Disco |At the joint invitation of the People of the Springs, the Flower-Feather Clan, and the Children of Echoes, a group of friends from Sumeru has come to Natlan to host a lively \"dance exchange\"... |Map description",
+  "timeKnown": true,
+  "startDate": "2025-11-17T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-11-26T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/42343297"
+    }
+  ],
+  "featuredCharacters": [
+    "Amina",
+    "Mualani",
+    "Mutota",
+    "Nilou",
+    "Uncle Scimitar"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 240000
+        },
+        {
+          "name": "Guide de la Compétition",
+          "quantity": 4
+        },
+        {
+          "name": "Guide du Petit bois",
+          "quantity": 4
+        },
+        {
+          "name": "Guide du Conflit",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Admonestation",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Ingénuité",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Usage",
+          "quantity": 4
+        },
+        {
+          "name": "Panneau de fête « Prêt à danser »",
+          "quantity": 1
+        },
+        {
+          "name": "Panneau de fête « Grâce en mouvement »",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna II"
+}

@@ -1,0 +1,45 @@
+{
+  "pageTitle": "Stellar Reunion",
+  "name": "Réunion stellaire",
+  "type": "In-Game",
+  "groups": [
+    "Indefinite",
+    "Login"
+  ],
+  "parentEvent": null,
+  "description": "Event Rules During the event, returning Travelers can participate and complete objectives in \"Reunion Locales\" and \"Homeward Path\" to claim the corresponding rewards. During the event, you will also receive the \"Reunion Blessing\" and enjoy bonus drops, alongside chances to open Hangout Events without using up Story Keys. \"Reunion Locales\" Exploration Rewards During the event, go to the areas recommended by \"Reunion Locales,\" explore, and complete the designated challenges to claim the corresponding rewards. \"Homeward Path\" Quest Rewards Complete the recommended Archon Quests during the event to claim additional rewards. \"Current Wish\" Level-Up Rewards Complete the designated level-up goals during the event to claim the corresponding rewards. Miliastra Wonderland Play Rewards Complete the designated gameplay objectives during the event to claim the corresponding rewards. \"Passage of Time\" Login Rewards Log in every day to claim rewards (refreshes daily at 4:00 AM //). Only one login reward can be claimed each day for up to 7 days. \"Reunion Blessing\" Temporary Domain Opening During Stellar Reunion, some Domains will not be limited by their usual time restrictions and will remain open. After Stellar Reunion ends, these Domains will go back to their normal schedule, so challenge them while they are available. \"Reunion Blessing\" Double Drop Bonus Returning Travelers receive 21 opportunities across the event period to gain double drops, and up to 3 may be used by Returning Travelers each day. These can be used to obtain double the rewards from Petrified Trees in Domains of Blessing, Forgery, and Mastery, or from Ley Line Blossoms of Revelation and Wealth, using Original Resin. The amount of double drop opportunities refreshes daily at 4:00 AM (//). Be sure to use these opportunities in time! \"Returning Companions\" Key-Free Hangouts You may unlock up to 3 Hangout Events for free during this time. Unlocking said Hangout Events will consume uses of \"Returning Companions\" instead of Story Keys as long as you have uses remaining, so be sure to make use of this opportunity.|Event Guidelines",
+  "timeKnown": true,
+  "startDate": "2020-12-23T14:00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": null,
+  "endDateOffset": null,
+  "isIndefinite": true,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/7489"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 500
+        },
+        {
+          "name": "Résine originelle",
+          "quantity": 5
+        },
+        {
+          "name": "Coffre de base d'arme du nord",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.2"
+}

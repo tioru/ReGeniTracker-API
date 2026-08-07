@@ -1,0 +1,216 @@
+{
+  "pageTitle": "Mutual Security Enhancing Simulation",
+  "name": "Mutual Security Enhancing Simulation",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "In order to improve the security situation throughout Teyvat, the Millelith and the armed forces of neighboring nations are working together to hold a cooperative wargame, seeking ways to improve their tactics...",
+  "timeKnown": true,
+  "startDate": "2024-06-07T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-06-17T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/29523218"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/124026"
+    }
+  ],
+  "featuredCharacters": [
+    "Kuromaro",
+    "Turenna",
+    "Phonia",
+    "Su Ding",
+    "Sido"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Cloudforged"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1000
+        },
+        {
+          "name": "Mora",
+          "quantity": 1020000
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 8
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 80
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 70
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 10
+        },
+        {
+          "name": "Cloudforged",
+          "quantity": 1
+        },
+        {
+          "name": "Cam and Cables of Law",
+          "quantity": 4
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Transience",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Elegance",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Light",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Admonition",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Ingenuity",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Praxis",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Equity",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Justice",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Order",
+          "quantity": 5
+        },
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 5
+        },
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 5
+        },
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 5
+        },
+        {
+          "name": "Jeweled Branch of a Distant Sea",
+          "quantity": 5
+        },
+        {
+          "name": "Narukami's Joy",
+          "quantity": 5
+        },
+        {
+          "name": "Mask of the Tiger's Bite",
+          "quantity": 5
+        },
+        {
+          "name": "Iron Talisman of the Forest Dew",
+          "quantity": 5
+        },
+        {
+          "name": "Oasis Garden's Kindness",
+          "quantity": 5
+        },
+        {
+          "name": "Remnant Glow of Scorching Might",
+          "quantity": 5
+        },
+        {
+          "name": "Chapter of an Ancient Chord",
+          "quantity": 5
+        },
+        {
+          "name": "Sublimation of Pure Sacred Dewdrop",
+          "quantity": 5
+        },
+        {
+          "name": "Wine Goblet of the Pristine Sea",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Analysis Progress",
+          "quantity": 2520
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.7"
+}

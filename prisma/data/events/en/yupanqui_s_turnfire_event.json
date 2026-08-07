@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Yupanqui's Turnfire (Event)",
+  "name": "Yupanqui's Turnfire",
+  "type": "In-Game",
+  "groups": [
+    "Story Quest"
+  ],
+  "parentEvent": null,
+  "description": "In the legends of the Scions of the Canopy, the memory of a great fireball has drifted down through the countless ages of Natlan's past. Its story, etched into an Ancient Name and passed down through generations of heroes, now rests upon the shoulders of a young Saurian hunter. As tribal conflicts grow ever more intense, there may be those that ask &mdash; how well does he understand its meaning, and how does he view the coming crisis? \"By past fuel, and present flame, life marches ever on.\"",
+  "timeKnown": true,
+  "startDate": "2024-09-17T18:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-10-08T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/32490648"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 60
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 9
+        },
+        {
+          "name": "Overripe Flamegranate",
+          "quantity": 6
+        },
+        {
+          "name": "Saurian Claw Succulent",
+          "quantity": 30
+        },
+        {
+          "name": "Seasoned Fang",
+          "quantity": 12
+        },
+        {
+          "name": "Juvenile Fang",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.0"
+}

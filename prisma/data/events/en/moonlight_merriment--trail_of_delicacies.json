@@ -1,0 +1,95 @@
+{
+  "pageTitle": "Moonlight Merriment/Trail of Delicacies",
+  "name": "Trail of Delicacies",
+  "type": "In-Game",
+  "groups": [
+    "Sub"
+  ],
+  "parentEvent": null,
+  "description": "Legend has it that while some adepti were pursuing the adeptal path, they would wander across mountains and rivers, enjoying various gourmet dishes, using such means to quiet their hearts. Their path would be called the \"Trail of Delicacies\" by those who came after. Now, the Adventurers' Guild has combined this fascinating challenge with the traditions of the Moonchase Festival, placing many treasure chests along the Trail of Delicacies. Follow three such Trails, defeat any foes that lurk around them, and the handsome rewards shall be yours!",
+  "timeKnown": true,
+  "startDate": "2021-09-27T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-10-11T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": "Sub Event",
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 300
+        },
+        {
+          "name": "Mora",
+          "quantity": 420000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 6
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Emperor's Balsam",
+          "quantity": 2
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.1"
+}

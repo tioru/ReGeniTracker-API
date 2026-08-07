@@ -1,0 +1,52 @@
+{
+  "pageTitle": "Marvelous Merchandise/2022-05-06",
+  "name": "Marvelous Merchandise 2022-05-06",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2022-05-06T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-05-13T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/20573"
+    }
+  ],
+  "featuredCharacters": [
+    "Liben"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 380
+        },
+        {
+          "name": "Mora",
+          "quantity": 50000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 3
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "category": null,
+      "rewards": []
+    }
+  ],
+  "releaseVersion": "2.6"
+}

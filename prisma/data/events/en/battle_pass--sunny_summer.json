@@ -1,0 +1,675 @@
+{
+  "pageTitle": "Battle Pass/Sunny Summer",
+  "name": "Sunny Summer",
+  "type": "In-Game",
+  "groups": [
+    "Battle Pass"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2026-07-01T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-08-10T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/45647879"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 48
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 42
+        },
+        {
+          "name": "Mora",
+          "quantity": 540000
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 63
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 5
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "category": "Gnostic Hymn",
+      "rewards": [
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 48
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 201
+        },
+        {
+          "name": "Mora",
+          "quantity": 2160000
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 63
+        },
+        {
+          "name": "Sanctifying Essence",
+          "quantity": 45
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 10
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        },
+        {
+          "name": "Intertwined Fate",
+          "quantity": 4
+        },
+        {
+          "name": "Primogem",
+          "quantity": 680
+        },
+        {
+          "name": "Sanctifying Elixir",
+          "quantity": 1
+        },
+        {
+          "name": "Guides of a Journey",
+          "quantity": 7
+        },
+        {
+          "name": "Philosophies of a Journey",
+          "quantity": 2
+        },
+        {
+          "name": "Traveling Bounties",
+          "quantity": 2
+        },
+        {
+          "name": "BP Bounty",
+          "quantity": 1
+        },
+        {
+          "name": "Dust of Enlightenment",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Gnostic Hymn",
+      "rewards": [
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 48
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 201
+        },
+        {
+          "name": "Mora",
+          "quantity": 2160000
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 63
+        },
+        {
+          "name": "Sanctifying Essence",
+          "quantity": 45
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 15
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        },
+        {
+          "name": "Intertwined Fate",
+          "quantity": 4
+        },
+        {
+          "name": "Primogem",
+          "quantity": 680
+        },
+        {
+          "name": "Sanctifying Elixir",
+          "quantity": 1
+        },
+        {
+          "name": "Guides of a Journey",
+          "quantity": 7
+        },
+        {
+          "name": "Philosophies of a Journey",
+          "quantity": 2
+        },
+        {
+          "name": "Traveling Bounties",
+          "quantity": 2
+        },
+        {
+          "name": "BP Bounty",
+          "quantity": 1
+        },
+        {
+          "name": "Dust of Enlightenment",
+          "quantity": 2
+        },
+        {
+          "name": "Travel Notes: Sunny Summer",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Moon Envoy of Silver Radiance",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Gnostic Hymn",
+      "rewards": [
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 48
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 42
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 108
+        },
+        {
+          "name": "Mora",
+          "quantity": 540000
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 5
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "category": "Gnostic Hymn",
+      "rewards": [
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 48
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 201
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 432
+        },
+        {
+          "name": "Mora",
+          "quantity": 2160000
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 10
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        },
+        {
+          "name": "Intertwined Fate",
+          "quantity": 4
+        },
+        {
+          "name": "Primogem",
+          "quantity": 680
+        },
+        {
+          "name": "Sanctifying Elixir",
+          "quantity": 1
+        },
+        {
+          "name": "Guides of a Journey",
+          "quantity": 7
+        },
+        {
+          "name": "Philosophies of a Journey",
+          "quantity": 2
+        },
+        {
+          "name": "Traveling Bounties",
+          "quantity": 2
+        },
+        {
+          "name": "BP Bounty",
+          "quantity": 1
+        },
+        {
+          "name": "Dust of Enlightenment",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Gnostic Hymn",
+      "rewards": [
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 48
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 201
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 432
+        },
+        {
+          "name": "Mora",
+          "quantity": 2160000
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 15
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        },
+        {
+          "name": "Intertwined Fate",
+          "quantity": 4
+        },
+        {
+          "name": "Primogem",
+          "quantity": 680
+        },
+        {
+          "name": "Sanctifying Elixir",
+          "quantity": 1
+        },
+        {
+          "name": "Guides of a Journey",
+          "quantity": 7
+        },
+        {
+          "name": "Philosophies of a Journey",
+          "quantity": 2
+        },
+        {
+          "name": "Traveling Bounties",
+          "quantity": 2
+        },
+        {
+          "name": "BP Bounty",
+          "quantity": 1
+        },
+        {
+          "name": "Dust of Enlightenment",
+          "quantity": 2
+        },
+        {
+          "name": "Travel Notes: Sunny Summer",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Moon Envoy of Silver Radiance",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Gnostic Hymn",
+      "rewards": [
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 63
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 108
+        },
+        {
+          "name": "Mora",
+          "quantity": 540000
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 5
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "category": "Gnostic Hymn",
+      "rewards": [
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 63
+        },
+        {
+          "name": "Sanctifying Essence",
+          "quantity": 45
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 432
+        },
+        {
+          "name": "Mora",
+          "quantity": 2160000
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 10
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        },
+        {
+          "name": "Intertwined Fate",
+          "quantity": 4
+        },
+        {
+          "name": "Primogem",
+          "quantity": 680
+        },
+        {
+          "name": "Sanctifying Elixir",
+          "quantity": 1
+        },
+        {
+          "name": "Philosophies of a Journey",
+          "quantity": 2
+        },
+        {
+          "name": "Traveling Bounties",
+          "quantity": 2
+        },
+        {
+          "name": "Guides of a Journey",
+          "quantity": 7
+        },
+        {
+          "name": "BP Bounty",
+          "quantity": 1
+        },
+        {
+          "name": "Dust of Enlightenment",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Gnostic Hymn",
+      "rewards": [
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 63
+        },
+        {
+          "name": "Sanctifying Essence",
+          "quantity": 45
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 432
+        },
+        {
+          "name": "Mora",
+          "quantity": 2160000
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 15
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        },
+        {
+          "name": "Intertwined Fate",
+          "quantity": 4
+        },
+        {
+          "name": "Primogem",
+          "quantity": 680
+        },
+        {
+          "name": "Sanctifying Elixir",
+          "quantity": 1
+        },
+        {
+          "name": "Guides of a Journey",
+          "quantity": 7
+        },
+        {
+          "name": "Philosophies of a Journey",
+          "quantity": 2
+        },
+        {
+          "name": "Traveling Bounties",
+          "quantity": 2
+        },
+        {
+          "name": "BP Bounty",
+          "quantity": 1
+        },
+        {
+          "name": "Dust of Enlightenment",
+          "quantity": 2
+        },
+        {
+          "name": "Travel Notes: Sunny Summer",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Moon Envoy of Silver Radiance",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Gnostic Hymn",
+      "rewards": [
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 48
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 42
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 108
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 63
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 5
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "category": "Gnostic Hymn",
+      "rewards": [
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 48
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 201
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 432
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 63
+        },
+        {
+          "name": "Sanctifying Essence",
+          "quantity": 45
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 10
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        },
+        {
+          "name": "Intertwined Fate",
+          "quantity": 4
+        },
+        {
+          "name": "Primogem",
+          "quantity": 680
+        },
+        {
+          "name": "Sanctifying Elixir",
+          "quantity": 1
+        },
+        {
+          "name": "Guides of a Journey",
+          "quantity": 7
+        },
+        {
+          "name": "Philosophies of a Journey",
+          "quantity": 2
+        },
+        {
+          "name": "Traveling Bounties",
+          "quantity": 2
+        },
+        {
+          "name": "BP Bounty",
+          "quantity": 1
+        },
+        {
+          "name": "Dust of Enlightenment",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Gnostic Hymn",
+      "rewards": [
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 48
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 201
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 432
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 63
+        },
+        {
+          "name": "Sanctifying Essence",
+          "quantity": 45
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 15
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        },
+        {
+          "name": "Intertwined Fate",
+          "quantity": 4
+        },
+        {
+          "name": "Primogem",
+          "quantity": 680
+        },
+        {
+          "name": "Sanctifying Elixir",
+          "quantity": 1
+        },
+        {
+          "name": "Guides of a Journey",
+          "quantity": 7
+        },
+        {
+          "name": "Philosophies of a Journey",
+          "quantity": 2
+        },
+        {
+          "name": "Traveling Bounties",
+          "quantity": 2
+        },
+        {
+          "name": "BP Bounty",
+          "quantity": 1
+        },
+        {
+          "name": "Dust of Enlightenment",
+          "quantity": 2
+        },
+        {
+          "name": "Travel Notes: Sunny Summer",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Moon Envoy of Silver Radiance",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VIII"
+}

@@ -1,0 +1,50 @@
+{
+  "pageTitle": "Version 5.4 \"Event Calendar\"",
+  "name": "Événement de préinscription pour la version 5.4",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2025-02-07T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-02-19T23:59:59",
+  "endDateOffset": "UTC+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://x.com/GenshinImpact/status/1888438939452661993"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_mDZ7Xhhdj3/index.html?puzzle_screen_index=2"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 30
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 3
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.3"
+}

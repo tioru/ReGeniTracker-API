@@ -1,0 +1,133 @@
+{
+  "pageTitle": "Windblume's Breath",
+  "name": "Souffle des alizées",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Windblume Festival",
+  "description": "The honeyed scents of the Windblume Festival are wafting upon the winds again. During this festival of unparalleled romance, why not come to the city upon the take for a spell and learn to follow the north fragrances riding the winds of freedom? From a note most accidentally discovered, embark again on a journey most fantastical.",
+  "timeKnown": true,
+  "startDate": "2023-03-03T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-03-20T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/16631602"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/105494"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Mailed Flower"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 1000
+        },
+        {
+          "name": "Mora",
+          "quantity": 1600000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Fleur de mailles",
+          "quantity": 1
+        },
+        {
+          "name": "Grâce soyeuse immuable",
+          "quantity": 4
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 54
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 12
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 136
+        },
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 12
+        },
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 4
+        },
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 12
+        },
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 4
+        },
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 12
+        },
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Liberté",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de la Liberté",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Résistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Poésie",
+          "quantity": 2
+        },
+        {
+          "name": "Plan de décoration : Ballon ersatz « Faible murmure »",
+          "quantity": 1
+        },
+        {
+          "name": "Plan de décoration : Ballon ersatz « Rafale sphérique »",
+          "quantity": 1
+        },
+        {
+          "name": "Plan de décoration : Ballon ersatz « Impact fongique »",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.5"
+}

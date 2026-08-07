@@ -1,0 +1,36 @@
+{
+  "pageTitle": "The Stilled Interstice of a Thousand Winds",
+  "name": "L'interstice figé de mille vents",
+  "type": "In-Game",
+  "groups": [
+    "Exploration Mission"
+  ],
+  "parentEvent": null,
+  "description": "The gentle sea breeze carries the scent of fine wine through the bustling port. Yet there are places that even the ever-present wind cannot reach, or rather, it chooses not to. Should one choose to follow a secluded path to the tranquil mountain sanatorium, what might await — peaceful rest, or an adventure beyond mortal imagination?",
+  "timeKnown": true,
+  "startDate": "2026-04-08T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-06-30T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/44512633"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 400
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VI"
+}

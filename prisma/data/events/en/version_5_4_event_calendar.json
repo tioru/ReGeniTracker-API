@@ -1,0 +1,50 @@
+{
+  "pageTitle": "Version 5.4 \"Event Calendar\"",
+  "name": "Version 5.4 \"Event Calendar\"",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2025-02-07T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-02-19T23:59:59",
+  "endDateOffset": "UTC+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://x.com/GenshinImpact/status/1888438939452661993"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_mDZ7Xhhdj3/index.html?puzzle_screen_index=2"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 30
+        },
+        {
+          "name": "Kageuchi Handguard",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.3"
+}

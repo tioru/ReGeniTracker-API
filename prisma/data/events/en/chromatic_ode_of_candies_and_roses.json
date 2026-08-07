@@ -1,0 +1,225 @@
+{
+  "pageTitle": "Chromatic Ode of Candies and Roses",
+  "name": "Chromatic Ode of Candies and Roses",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Sabzeruz Festival",
+  "description": "Paimon's caught wind of how the Sabzeruz Festival is now in full swing in Sumeru, and so you both happily set off, returning to the Nation of Nature and Wisdom...",
+  "timeKnown": true,
+  "startDate": "2024-10-23T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-11-07T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/34402598"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126536"
+    }
+  ],
+  "featuredCharacters": [
+    "Alhaitham",
+    "Arachitta",
+    "Arakaya",
+    "Arasaka",
+    "Arasati",
+    "Aravedana",
+    "Aruj",
+    "Candace",
+    "Collei",
+    "Cyno",
+    "Dehya",
+    "Dharmakirti",
+    "Dori",
+    "Dunyarzad",
+    "Fariha",
+    "Faruzan",
+    "Hatice",
+    "Hizir",
+    "Jahangir",
+    "Kaveh",
+    "Kutbi",
+    "Layla",
+    "Masud",
+    "Mehrak",
+    "Mihir",
+    "Nahida",
+    "Najia",
+    "Nevida",
+    "Nilou",
+    "Paimon",
+    "Rashnu",
+    "Rukn",
+    "Safi",
+    "Sethos",
+    "Sheikh Zubayr",
+    "Shyam",
+    "Sorush",
+    "Tighnari",
+    "Traveler",
+    "Vihar",
+    "Wanderer",
+    "Yakup"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Candace"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 970
+        },
+        {
+          "name": "Mora",
+          "quantity": 520000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 57
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 6
+        },
+        {
+          "name": "Wanderer's Advice",
+          "quantity": 12
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 50
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 48
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Candace",
+          "quantity": 1
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Admonition",
+          "quantity": 5
+        },
+        {
+          "name": "Philosophies of Admonition",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Ingenuity",
+          "quantity": 5
+        },
+        {
+          "name": "Philosophies of Ingenuity",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Praxis",
+          "quantity": 5
+        },
+        {
+          "name": "Philosophies of Praxis",
+          "quantity": 3
+        },
+        {
+          "name": "Copper Talisman of the Forest Dew",
+          "quantity": 5
+        },
+        {
+          "name": "Iron Talisman of the Forest Dew",
+          "quantity": 5
+        },
+        {
+          "name": "Silver Talisman of the Forest Dew",
+          "quantity": 3
+        },
+        {
+          "name": "Oasis Garden's Reminiscence",
+          "quantity": 5
+        },
+        {
+          "name": "Oasis Garden's Kindness",
+          "quantity": 5
+        },
+        {
+          "name": "Oasis Garden's Mourning",
+          "quantity": 3
+        },
+        {
+          "name": "Echo of Scorching Might",
+          "quantity": 5
+        },
+        {
+          "name": "Remnant Glow of Scorching Might",
+          "quantity": 5
+        },
+        {
+          "name": "Dream of Scorching Might",
+          "quantity": 3
+        },
+        {
+          "name": "May This Moment Last Forever",
+          "quantity": 1
+        },
+        {
+          "name": "\"Sorry to Keep You Waiting, Dear Archon\"",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Festive Fervor",
+          "quantity": 1190
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.1"
+}

@@ -1,0 +1,130 @@
+{
+  "pageTitle": "Battle of Imagined Arrays",
+  "name": "Bataille aux formations spéculées",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "{{Description |title=30px Simulation of Theoretical Territory |To answer the strange questions that the children have raised about different monsters, lifeforms, and various warriors, the researchers of the Akademiya have decided to create a game that simulates an adventure of sorts... |Map description",
+  "timeKnown": true,
+  "startDate": "2025-06-20T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-07-07T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/39388504"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/157104"
+    }
+  ],
+  "featuredCharacters": [
+    "Atashye",
+    "Darwishl Fadaweh",
+    "Paimon",
+    "Traveler"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Sethos"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 970
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 1
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 1
+        },
+        {
+          "name": "Philosophie de l'Admonestation",
+          "quantity": 1
+        },
+        {
+          "name": "Philosophie de l'Ingénuité",
+          "quantity": 1
+        },
+        {
+          "name": "Philosophie de l'Usage",
+          "quantity": 1
+        },
+        {
+          "name": "Guide de l'Admonestation",
+          "quantity": 1
+        },
+        {
+          "name": "Guide de l'Ingénuité",
+          "quantity": 1
+        },
+        {
+          "name": "Guide de l'Usage",
+          "quantity": 1
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 1
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 1
+        },
+        {
+          "name": "Fragment d'émeraude nagadus",
+          "quantity": 1
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 1
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 1
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 1
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 1
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 1
+        },
+        {
+          "name": "Sethos",
+          "quantity": 1
+        },
+        {
+          "name": "",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.7"
+}

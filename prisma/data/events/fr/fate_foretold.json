@@ -1,0 +1,43 @@
+{
+  "pageTitle": "Fate Foretold",
+  "name": "Prédestination",
+  "type": "In-Game",
+  "groups": [
+    "Indefinite"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2020-09-28T10:00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": null,
+  "endDateOffset": null,
+  "isIndefinite": true,
+  "links": [],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Lisa",
+          "quantity": 1
+        },
+        {
+          "name": "Kaeya",
+          "quantity": 1
+        },
+        {
+          "name": "Tailleur de pierre (prototype)",
+          "quantity": 1
+        },
+        {
+          "name": "Arc de chasse de Favonius",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.0"
+}

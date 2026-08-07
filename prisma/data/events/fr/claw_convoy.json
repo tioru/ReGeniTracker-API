@@ -1,0 +1,76 @@
+{
+  "pageTitle": "Claw Convoy",
+  "name": "Convoi griffu",
+  "type": "In-Game",
+  "groups": [
+    "Animal Seeking"
+  ],
+  "parentEvent": null,
+  "description": "Put some spring in your step and put your \"discovery\" glasses on, it's time to say \"hi\" to our animal friends!",
+  "timeKnown": true,
+  "startDate": "2024-11-22T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-12-02T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/35053992"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 220000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 18
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 8
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 30
+        },
+        {
+          "name": "Cadeau de compagnon « Volonté protectrice »",
+          "quantity": 1
+        },
+        {
+          "name": "Cadeau de compagnon « Enjouement animé »",
+          "quantity": 1
+        },
+        {
+          "name": "Cadeau de compagnon « Atout essentiel »",
+          "quantity": 1
+        },
+        {
+          "name": "Cadeau de compagnon « Rock libre »",
+          "quantity": 1
+        },
+        {
+          "name": "Cadeau de compagnon « Inspiration esthétique »",
+          "quantity": 1
+        },
+        {
+          "name": "Cadeau de compagnon « Contes joyeux »",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.2"
+}

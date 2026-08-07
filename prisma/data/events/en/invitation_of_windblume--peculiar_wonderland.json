@@ -1,0 +1,68 @@
+{
+  "pageTitle": "Invitation of Windblume/Peculiar Wonderland",
+  "name": "Peculiar Wonderland",
+  "type": "In-Game",
+  "groups": [
+    "Sub"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-03-19T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-04-05T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 240
+        },
+        {
+          "name": "Mora",
+          "quantity": 400000
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Peculiar Collab Coupon",
+          "quantity": 4000
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.4"
+}

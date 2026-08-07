@@ -1,0 +1,41 @@
+{
+  "pageTitle": "Launch Appreciation Rewards",
+  "name": "Launch Appreciation Rewards",
+  "type": "In-Game",
+  "groups": [
+    "Mail",
+    "Celebration"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2020-09-28T10:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2020-11-11T06:00:00",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://x.com/GenshinImpact/status/1310549822164865025"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1600
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.0"
+}

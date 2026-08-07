@@ -1,0 +1,54 @@
+{
+  "pageTitle": "Urgent Orders",
+  "name": "Commandes urgentes",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": "During the event, interact with objects in the environment to gather Inspiration. Help Xilonen complete all forging commissions on time and deliver the forged items to receive in-game item rewards.",
+  "timeKnown": true,
+  "startDate": "2024-10-04T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-10-11T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126128"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20241004xilonen-aevsua/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Xilonen"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.0"
+}

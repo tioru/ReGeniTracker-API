@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Gift for a New Horizon: A Thank-You Gift",
+  "name": "Gift for a New Horizon: A Thank-You Gift",
+  "type": "In-Game",
+  "groups": [
+    "Login",
+    "Mail"
+  ],
+  "parentEvent": null,
+  "description": "Hey, Traveler! Do you remember what special day is coming up soon? We've been traveling together for so long already. The stories from our journey feel like they happened just yesterday — Paimon can remember every bit of it! Recently, we've embarked on a new journey in Natlan, and Paimon can't help but think back to the very first day we began our adventure... You remember that day too, right? Happy Journey Anniversary! Paimon also heard that we'll receive some mysterious little gift. Let's open it together when it arrives!",
+  "timeKnown": true,
+  "startDate": "2024-09-28T00:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-10-08T05:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/33642500"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1600
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 2
+        },
+        {
+          "name": "Sanctifying Elixir",
+          "quantity": 1
+        },
+        {
+          "name": "Firstborn Firesprite",
+          "quantity": 1
+        },
+        {
+          "name": "Kaboom Box",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.0"
+}

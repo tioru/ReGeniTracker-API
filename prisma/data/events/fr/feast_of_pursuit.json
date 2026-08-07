@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Feast of Pursuit",
+  "name": "Fête de poursuite",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Just as the flames never die before they utterly burn out, so too should the pace of the pursuit never falter, even for a moment. Surmount all obstacles, and advance ever onward towards the title of \"Teyvat's Strongest\"!",
+  "timeKnown": true,
+  "startDate": "2024-11-01T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-11-15T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/34613230"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 240000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 18
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 12
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 12
+        },
+        {
+          "name": "Guide de la Compétition",
+          "quantity": 6
+        },
+        {
+          "name": "Guide du Conflit",
+          "quantity": 6
+        },
+        {
+          "name": "Guide du Petit bois",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.1"
+}

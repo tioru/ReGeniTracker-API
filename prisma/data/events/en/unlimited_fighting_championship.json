@@ -1,0 +1,93 @@
+{
+  "pageTitle": "Unlimited Fighting Championship",
+  "name": "Unlimited Fighting Championship",
+  "type": "In-Game",
+  "groups": [
+    "Challenge"
+  ],
+  "parentEvent": null,
+  "description": "No niceties, no holds barred, and no lofty pretenses of glory in battle. This is a raw, all-out, and honest brawl! Has the clean-cut sterility of traditionat bouts left you falling asleep from boredom? Fear not! In Natlan's underground fighting ring, a new tournament is shaping up to be exactly what you're looking for!",
+  "timeKnown": true,
+  "startDate": "2025-04-07T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-04-21T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/38055499"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/38072227"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 200000
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 6
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 16
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 9
+        },
+        {
+          "name": "Guide to Contention",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Kindling",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Conflict",
+          "quantity": 4
+        },
+        {
+          "name": "Blazing Sacrificial Heart's Hesitance",
+          "quantity": 6
+        },
+        {
+          "name": "Delirious Desolation of the Sacred Lord",
+          "quantity": 6
+        },
+        {
+          "name": "Night-Wind's Mystic Premonition",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "currency1",
+          "quantity": 0
+        },
+        {
+          "name": "currency2",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.5"
+}

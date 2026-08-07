@@ -1,0 +1,214 @@
+{
+  "pageTitle": "Hues of the Violet Garden",
+  "name": "Hues of the Violet Garden",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "In Ritou, Kamisato Ayato has invited celebrities from various nations and cultures to take part in the Magnificent Irodori Festival. Aid him in holding the festival and take part in the various special activities available. Enjoy the festival and win great prizes!",
+  "timeKnown": true,
+  "startDate": "2022-04-07T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-04-25T03:59:00",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/4101763"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/4149240"
+    }
+  ],
+  "featuredCharacters": [
+    "Shiho",
+    "Miu",
+    "Kousaka",
+    "Rika"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Xingqiu"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Xingqiu",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 720000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 78
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 28
+        },
+        {
+          "name": "Wanderer's Advice",
+          "quantity": 8
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 66
+        },
+        {
+          "name": "Philosophies of Elegance",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophies of Light",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophies of Transience",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Elegance",
+          "quantity": 29
+        },
+        {
+          "name": "Guide to Light",
+          "quantity": 29
+        },
+        {
+          "name": "Guide to Transience",
+          "quantity": 29
+        },
+        {
+          "name": "Recipe: Rainbow Aster",
+          "quantity": 1
+        },
+        {
+          "name": "\"The Five Kasen\" Nishiki-e",
+          "quantity": 1
+        },
+        {
+          "name": "Statue of Her Excellency, the Almighty Narukami Ogosho, God of Thunder",
+          "quantity": 1
+        },
+        {
+          "name": "Mt. Yougou Night Walk Red Kitsune Doll",
+          "quantity": 1
+        },
+        {
+          "name": "Orange Sakura Kurotobi Flower Vessel",
+          "quantity": 1
+        },
+        {
+          "name": "Gold-Patterned Butterfly Wings Flower Vessel",
+          "quantity": 1
+        },
+        {
+          "name": "Mountain Silhouettes Flower Vessel",
+          "quantity": 1
+        },
+        {
+          "name": "Dawn Kogecha Flower Vessel",
+          "quantity": 1
+        },
+        {
+          "name": "Moonlight on Sand",
+          "quantity": 1
+        },
+        {
+          "name": "Crystal Ripples",
+          "quantity": 1
+        },
+        {
+          "name": "Wild Laurel",
+          "quantity": 1
+        },
+        {
+          "name": "Flourishing Bloom",
+          "quantity": 1
+        },
+        {
+          "name": "Swaying Shion",
+          "quantity": 1
+        },
+        {
+          "name": "Dewdrop Cabochon",
+          "quantity": 1
+        },
+        {
+          "name": "Verdant Leaves in the Balmy Breeze",
+          "quantity": 1
+        },
+        {
+          "name": "Flowing Melodies and Rainbow Branches",
+          "quantity": 1
+        },
+        {
+          "name": "Suzumecha Swirl",
+          "quantity": 1
+        },
+        {
+          "name": "Champagne Bloom",
+          "quantity": 1
+        },
+        {
+          "name": "Fox Ear Tamago",
+          "quantity": 1
+        },
+        {
+          "name": "Lotus in the Rain",
+          "quantity": 1
+        },
+        {
+          "name": "Water Lily's Dreams",
+          "quantity": 1
+        },
+        {
+          "name": "Pale Blush of Brush",
+          "quantity": 1
+        },
+        {
+          "name": "Silhouette of the Wind's Reverie",
+          "quantity": 1
+        },
+        {
+          "name": "Promise of Blue Skies",
+          "quantity": 1
+        },
+        {
+          "name": "Sunset Shadows",
+          "quantity": 1
+        },
+        {
+          "name": "Mirror of the Sun",
+          "quantity": 1
+        },
+        {
+          "name": "Ring of Hearts",
+          "quantity": 1
+        },
+        {
+          "name": "Plume of Wishes",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.6"
+}

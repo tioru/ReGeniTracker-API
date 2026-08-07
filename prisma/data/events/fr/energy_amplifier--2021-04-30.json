@@ -1,0 +1,130 @@
+{
+  "pageTitle": "Energy Amplifier/2021-04-30",
+  "name": "Amplificateur d'énergie/Initiation à l'amplificateur d'énergie",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op",
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "In an effort to gather and research Irminsul Fruit Fragments, Sumeru researcher Hosseini has entrusted a mysterious ancient relic to you for a time: the Energy Amplifier. Help Hosseini to gather Irminsul Fruit Fragments and unleash their power with the Energy Amplifier.",
+  "timeKnown": true,
+  "startDate": "2021-04-30T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-05-17T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/329821"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/12467"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Diona"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 990
+        },
+        {
+          "name": "Mora",
+          "quantity": 1030000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Diona",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 30
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Liberté",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Résistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Poésie",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Prospérité",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 6
+        },
+        {
+          "name": "Thème Célébration - Fruit de la sagesse",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.5"
+}

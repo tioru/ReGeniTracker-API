@@ -1,0 +1,125 @@
+{
+  "pageTitle": "Summertime Odyssey",
+  "name": "Séjour estival à la mer",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "As summer comes into its own, Fischl receives an important missive and departs with everyone in town to begin another marvelous sojourn...",
+  "timeKnown": true,
+  "startDate": "2022-07-15T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-08-24T05:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/5958494"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/6012393"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Fischl"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 840
+        },
+        {
+          "name": "Mora",
+          "quantity": 1660000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Fischl",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 68
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 56
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Liberté",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de la Résistance",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de la Poésie",
+          "quantity": 2
+        },
+        {
+          "name": "Fleuron d'allegro « Accord spécial »",
+          "quantity": 1
+        },
+        {
+          "name": "Photo-souvenir du théâtre du crépuscule",
+          "quantity": 1
+        },
+        {
+          "name": "Marche-tempête",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.8"
+}

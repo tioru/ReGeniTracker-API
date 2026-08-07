@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Where the Springs Return (Event)",
+  "name": "Where the Springs Return",
+  "type": "In-Game",
+  "groups": [
+    "Story Quest"
+  ],
+  "parentEvent": null,
+  "description": "Since the People of the Springs was first established, an ancient legend has circulated within the tribe &mdash; a mysterious island, situated in a rarely visited Domain, promises astonishing wealth and unparalleled glory to those who reach it. Yet, however tempting it might sound, this bounty is far from easily attained. In all their history, only a handful have ever managed to reach this island. It is said that even the top guides from the People of the Springs are unable to guarantee passage through all the trials that must first be passed. But naturally, for someone whose adventures have already taken them across five nations, the opportunity to take up such a challenge is too good to simply pass up. Yet, before you can embark on this journey, it seems that there is a \"condition that must be met\"...",
+  "timeKnown": true,
+  "startDate": "2024-08-28T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-09-17T17:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/32490648"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 60
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 9
+        },
+        {
+          "name": "Mark of the Binding Blessing",
+          "quantity": 6
+        },
+        {
+          "name": "Sprayfeather Gill",
+          "quantity": 30
+        },
+        {
+          "name": "Warrior's Metal Whistle",
+          "quantity": 12
+        },
+        {
+          "name": "Sentry's Wooden Whistle",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.0"
+}

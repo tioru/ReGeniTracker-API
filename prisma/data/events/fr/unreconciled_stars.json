@@ -1,0 +1,156 @@
+{
+  "pageTitle": "Unreconciled Stars",
+  "name": "Astres évanouis",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op",
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "Peculiar meteorites are descending upon Teyvat, bringing a rare sleeping sickness with them. People trapped in deep slumber, mysterious dreams, an unknown star... The crisis draws closer!",
+  "timeKnown": true,
+  "startDate": "2020-11-16T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2020-11-30T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/6751"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/6764"
+    }
+  ],
+  "featuredCharacters": [
+    "Recuperated Victim"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Fischl"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 360
+        },
+        {
+          "name": "Mora",
+          "quantity": 2580000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Fischl",
+          "quantity": 1
+        },
+        {
+          "name": "Résine fragile",
+          "quantity": 1
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 3
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 150
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 150
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophie de la Liberté",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophie de la Résistance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophie de la Poésie",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophie de la Prospérité",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophie de la Diligence",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Or",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophie de l'Or",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 100
+        },
+        {
+          "name": "Minerai de renforcement raffiné",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.1"
+}

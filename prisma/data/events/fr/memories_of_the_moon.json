@@ -1,0 +1,50 @@
+{
+  "pageTitle": "Memories of the Moon",
+  "name": "Souvenirs de la lune",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Take part in the event, unlock the memories with the Moon Maiden, and pre-register for the new version to obtain up Primogems ×160!",
+  "timeKnown": true,
+  "startDate": "2025-12-31T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-01-13T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/43004337"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20251231reserve-ygor75/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 160
+        },
+        {
+          "name": "Mora",
+          "quantity": 40000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna III"
+}

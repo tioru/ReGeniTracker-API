@@ -1,0 +1,37 @@
+{
+  "pageTitle": "The Clink Clank Whiz-Kid!",
+  "name": "The Clink Clank Whiz-Kid!",
+  "type": "In-Game",
+  "groups": [
+    "Archon Quest",
+    "Indefinite"
+  ],
+  "parentEvent": null,
+  "description": "A small but ingenious mind filled with an endless stream of novel ideas, just as the Clink-Clank Krumkake Craftshop is filled with the endless clamor of work. Much like adventuring, the first step in inventing machines is to get moving! As for the second step... \"Ineffa, pleaaase! I'm tireeedddd! I need krumkakes to continueeee!\"",
+  "timeKnown": true,
+  "startDate": "2025-09-10T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": null,
+  "endDateOffset": null,
+  "isIndefinite": true,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40952499"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Aino",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna I"
+}

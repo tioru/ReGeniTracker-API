@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Fungus Mechanicus",
+  "name": "Fungus Mechanicus",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "In a corner of Port Ormos. you and Paimon encounter friends whom you made during inaugural Nilotpala Cup Beast Tamers Tournament. They are currently preparing for the next tournament, and to that effect have come up with a new game with which to advertise for the Beast Tamers Tournament...",
+  "timeKnown": true,
+  "startDate": "2023-03-23T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-04-03T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/17144800"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/17176675"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 300000
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 4
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 30
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 28
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 6
+        },
+        {
+          "name": "Iron Talisman of the Forest Dew",
+          "quantity": 6
+        },
+        {
+          "name": "Oasis Garden's Kindness",
+          "quantity": 6
+        },
+        {
+          "name": "Remnant Glow of Scorching Might",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.5"
+}

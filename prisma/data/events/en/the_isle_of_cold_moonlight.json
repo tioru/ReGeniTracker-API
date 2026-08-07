@@ -1,0 +1,36 @@
+{
+  "pageTitle": "The Isle of Cold Moonlight",
+  "name": "The Isle of Cold Moonlight",
+  "type": "In-Game",
+  "groups": [
+    "Exploration Mission"
+  ],
+  "parentEvent": null,
+  "description": "Ancient ruins sleep beneath the tides of time, where ocean winds whisper across lonely shores. Beneath the purest moonlight, a land of chance and wonder awaits. Through drifting fog and hidden valleys, trace the dancing moonbeams to where all journeys begin.",
+  "timeKnown": true,
+  "startDate": "2025-09-10T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-12-02T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40952493"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 400
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna I"
+}

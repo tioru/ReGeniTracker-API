@@ -1,0 +1,36 @@
+{
+  "pageTitle": "What Did Cyno Say",
+  "name": "What Did Cyno Say?",
+  "type": "Web",
+  "groups": [
+    "Submission"
+  ],
+  "parentEvent": null,
+  "description": "The Traveler and company have set up camp during their adventures. What did Cyno say during their chat?",
+  "timeKnown": true,
+  "startDate": "2024-05-16T10:00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": "2024-05-23T23:59:59",
+  "endDateOffset": "UTC+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123733"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 160
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.6"
+}

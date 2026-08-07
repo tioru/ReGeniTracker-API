@@ -1,0 +1,48 @@
+{
+  "pageTitle": "Thunder Sojourn/Bolt Blitz",
+  "name": "Bolt Blitz",
+  "type": "In-Game",
+  "groups": [
+    "Sub"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-07-22T10:00:00",
+  "startDateOffset": null,
+  "endDate": null,
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": "Sub Event",
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 360
+        },
+        {
+          "name": "Mora",
+          "quantity": 360000
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 36
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Thunder Pellet",
+          "quantity": 1080
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.0"
+}

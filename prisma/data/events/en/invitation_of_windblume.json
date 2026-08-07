@@ -1,0 +1,162 @@
+{
+  "pageTitle": "Invitation of Windblume",
+  "name": "Invitation of Windblume",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Windblume Festival",
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-03-19T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-04-05T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/9371"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/9439"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Windblume Ode"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1000
+        },
+        {
+          "name": "Mora",
+          "quantity": 1220000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 82
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Windblume Ode",
+          "quantity": 1
+        },
+        {
+          "name": "\"The Visible Winds\"",
+          "quantity": 4
+        },
+        {
+          "name": "Windblume Festival Commemorative Balloon",
+          "quantity": 1
+        },
+        {
+          "name": "Windsong Lyre",
+          "quantity": 1
+        },
+        {
+          "name": "Philosophies of Freedom",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 10
+        },
+        {
+          "name": "Philosophies of Resistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 10
+        },
+        {
+          "name": "Philosophies of Ballad",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 10
+        },
+        {
+          "name": "Philosophies of Prosperity",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 10
+        },
+        {
+          "name": "Philosophies of Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 10
+        },
+        {
+          "name": "Philosophies of Gold",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 10
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 6
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 6
+        },
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 6
+        },
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 6
+        },
+        {
+          "name": "Dust of Azoth",
+          "quantity": 120
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Festive Tour Ticket",
+          "quantity": 2400
+        },
+        {
+          "name": "Peculiar Collab Coupon",
+          "quantity": 4000
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.4"
+}

@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Second Blooming",
+  "name": "Deuxième floraison",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "Re-encounter the Witch of Purple Rose in a land rich with her namesake.",
+  "timeKnown": true,
+  "startDate": "2023-01-31T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-02-13T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/15074939"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 300000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 21
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 2
+        },
+        {
+          "name": "Astuces du voyageur",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 25
+        },
+        {
+          "name": "Sobriquet à l'ombre",
+          "quantity": 1
+        },
+        {
+          "name": "Talisman en fer de la rosée",
+          "quantity": 5
+        },
+        {
+          "name": "Gentillesse du jardin d'oasis",
+          "quantity": 5
+        },
+        {
+          "name": "Éclat subsistant du pouvoir brûlant",
+          "quantity": 5
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.4"
+}

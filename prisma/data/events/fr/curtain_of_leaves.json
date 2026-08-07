@@ -1,0 +1,37 @@
+{
+  "pageTitle": "Curtain of Leaves",
+  "name": "Rideau de feuilles",
+  "type": "In-Game",
+  "groups": [
+    "Spiral Abyss",
+    "Indefinite"
+  ],
+  "parentEvent": null,
+  "description": "The Forest Ranger from Sumeru, Collei, seems to be in a bit of a pickle... Somewhere deep in the rainforest, a reckless researcher from the Akademiya has activated a secretly-developed machine to break into a huge, spiraling set of ruins. Collei, investigating nearby, wound up being caught up in the incident, and has lost contact with the outside world. Though her skills and her survival techniques should allow her to escape on her own, her master and friends are worried for her safety nonetheless. So please, would you take a quick gander in there to search for her?",
+  "timeKnown": true,
+  "startDate": "2022-09-28T11:00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": null,
+  "endDateOffset": null,
+  "isIndefinite": true,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/9331348"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Collei",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.1"
+}

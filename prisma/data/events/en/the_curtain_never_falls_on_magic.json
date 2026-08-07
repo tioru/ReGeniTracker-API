@@ -1,0 +1,44 @@
+{
+  "pageTitle": "The Curtain Never Falls on Magic",
+  "name": "The Curtain Never Falls on Magic",
+  "type": "In-Game",
+  "groups": [
+    "Indefinite"
+  ],
+  "parentEvent": null,
+  "description": "\"I never want the magic performances to end... If only the pigeons, balloons, and all manner of strange objects could fly out of my hat without ever stopping, that would be perfect...\" \"That would be a performance of magical power, not of magic tricks.\" Lynette takes a sip of tea. \"Though if you really want, I could continuously create pigeons and balloons for you. It's not like it's hard.\"",
+  "timeKnown": true,
+  "startDate": "2023-08-16T11:00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": null,
+  "endDateOffset": null,
+  "isIndefinite": true,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/20856332"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Lynette",
+          "quantity": 1
+        },
+        {
+          "name": "Lumidouce Bell",
+          "quantity": 3
+        },
+        {
+          "name": "Meshing Gear",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.0"
+}

@@ -1,0 +1,81 @@
+{
+  "pageTitle": "Of Kites and New Sights",
+  "name": "« Cerfs-volants de l'allégresse »",
+  "type": "In-Game",
+  "groups": [
+    "Login",
+    "Mail"
+  ],
+  "parentEvent": "Lantern Rite Gifts",
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2024-02-24T00:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-03-13T05:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/122136"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Intertwined Fate",
+          "quantity": 3
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 3
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 5
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 3
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Mora",
+          "quantity": 50000
+        },
+        {
+          "name": "Chicken Tofu Pudding",
+          "quantity": 5
+        },
+        {
+          "name": "Bountiful Year",
+          "quantity": 5
+        },
+        {
+          "name": "Universal Peace",
+          "quantity": 5
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 13
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.4"
+}

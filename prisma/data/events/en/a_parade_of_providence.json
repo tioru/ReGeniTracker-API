@@ -1,0 +1,159 @@
+{
+  "pageTitle": "A Parade of Providence",
+  "name": "A Parade of Providence",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "Being a momentous celebration for the Akademiya, this year's Akademiya Extravaganza is extra lively. With competitions and amusements aplenty, meet with people from all across Teyvat and join in a time of revelry.",
+  "timeKnown": true,
+  "startDate": "2023-04-27T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-05-15T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/17950597"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/111241"
+    }
+  ],
+  "featuredCharacters": [
+    "Aarav",
+    "Aissa",
+    "Alae",
+    "Alhaitham",
+    "Amur",
+    "Aymar",
+    "Bahador",
+    "Bahar",
+    "Bahir",
+    "Candace",
+    "Collei",
+    "Cyno",
+    "Daneh",
+    "Daya",
+    "Dehya",
+    "Dori",
+    "Farbal",
+    "Faruzan",
+    "Fawara",
+    "Ganjul",
+    "Habib",
+    "Haryadi",
+    "Huvishka",
+    "Huwa",
+    "Jiwani",
+    "Kareena",
+    "Kashmer",
+    "Kaveh",
+    "Layla",
+    "Levi",
+    "Mahar",
+    "Marwa",
+    "Mazaar",
+    "Mehrak",
+    "Morgiana",
+    "Nahida",
+    "Nilou",
+    "Paimon",
+    "Paz",
+    "Qamar",
+    "Rishti",
+    "Sachin",
+    "Sidra",
+    "Suhayb",
+    "Tighnari",
+    "Traveler",
+    "Vasudeva",
+    "Wanderer",
+    "Wiqas"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Faruzan"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 970
+        },
+        {
+          "name": "Faruzan",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 220000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 15
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 28
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 30
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: \"Vahumana Flag\"",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: \"Spantamad Flag\"",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: \"Haravatat Flag\"",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: \"Amurta Flag\"",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: \"Rtawahist Flag\"",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: \"Kshahrewar Flag\"",
+          "quantity": 1
+        },
+        {
+          "name": "\"Monthly Frustration-Be-Gone\"",
+          "quantity": 1
+        },
+        {
+          "name": "\"Spiraling Duet\"",
+          "quantity": 1
+        },
+        {
+          "name": "Akademiya Extravaganza Large Stage",
+          "quantity": 1
+        },
+        {
+          "name": "\"Omnidirector\"",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.6"
+}

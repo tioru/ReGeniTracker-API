@@ -1,0 +1,48 @@
+{
+  "pageTitle": "Passage of Clouds and Stars",
+  "name": "Nuages et étoiles filantes",
+  "type": "In-Game",
+  "groups": [
+    "Login"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-09-28T04:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-10-13T05:59:00",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/780929"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Pierre de la fatalité",
+          "quantity": 10
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 8
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 80000
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.1"
+}

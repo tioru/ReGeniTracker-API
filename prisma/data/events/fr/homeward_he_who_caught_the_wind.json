@@ -1,0 +1,159 @@
+{
+  "pageTitle": "Homeward, He Who Caught the Wind",
+  "name": "De retour, celui qui attrapa le vent",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "{{Description |title = 30px Homeward, He Who Caught the Wind |One day, you and Paimon suddenly receive an invitation from the Knights of Favonius. And so, you return to Mondstadt to take part in a welcome ceremony that feels both familiar and just a little different... |Map description",
+  "timeKnown": true,
+  "startDate": "2026-02-27T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-03-16T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/43941713"
+    },
+    {
+      "label": "Event Description",
+      "url": "https://www.hoyolab.com/article/43957098"
+    }
+  ],
+  "featuredCharacters": [
+    "Dunkhas",
+    "Elishka",
+    "Ematol",
+    "Phonia",
+    "Huffman",
+    "Miles",
+    "Eija",
+    "Vesper",
+    "Valerina",
+    "Helene",
+    "Glenfidia",
+    "Horken",
+    "Hedwig"
+  ],
+  "specialReward": {
+    "type": "Weapon Appearance",
+    "options": [
+      "Phantasmal Gift: Star Omen"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 960
+        },
+        {
+          "name": "Mora",
+          "quantity": 1000000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Cadeau illusoire : Présage étoilé",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 48
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 79
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 18
+        },
+        {
+          "name": "Essence sanctifiante",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 10
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 10
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 10
+        },
+        {
+          "name": "Philosophie de la Liberté",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de la Résistance",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de la Poésie",
+          "quantity": 2
+        },
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 6
+        },
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 2
+        },
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 2
+        },
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 2
+        },
+        {
+          "name": "Rose somnolente",
+          "quantity": 1
+        },
+        {
+          "name": "Bouquet porté du vent",
+          "quantity": 1
+        },
+        {
+          "name": "Lame de vague",
+          "quantity": 1
+        },
+        {
+          "name": "Foudre tranquille",
+          "quantity": 1
+        },
+        {
+          "name": "Duo de Dodoco",
+          "quantity": 1
+        },
+        {
+          "name": "Loup de fer",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna V"
+}

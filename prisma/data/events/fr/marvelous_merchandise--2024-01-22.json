@@ -1,0 +1,48 @@
+{
+  "pageTitle": "Marvelous Merchandise/2024-01-22",
+  "name": "Merveilleuses marchandises/22.01.2024",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "They say that a very striking character has appeared in Mondstadt. He claims to have some \"new deals\" which he could share with some partners.",
+  "timeKnown": true,
+  "startDate": "2024-01-22T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-01-29T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/24467758"
+    }
+  ],
+  "featuredCharacters": [
+    "Liben"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 380
+        },
+        {
+          "name": "Mora",
+          "quantity": 50000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 6
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.3"
+}

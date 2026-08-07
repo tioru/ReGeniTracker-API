@@ -1,0 +1,80 @@
+{
+  "pageTitle": "A Study in Potions",
+  "name": "A Study in Potions",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "The Mondstadt alchemist Timaeus is attempting to create a legendary alchemical medication. Help him complete this line of research, and you may obtain some rich rewards...",
+  "timeKnown": true,
+  "startDate": "2022-01-07T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-01-17T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18305"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18503"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 270000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 11
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 4
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 18
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 4
+        },
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 6
+        },
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.4"
+}

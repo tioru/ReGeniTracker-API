@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Operation Downpour Simulation",
+  "name": "Simulation de déluge déchaîné",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "{{Description |title = 30px Operation Downpour Simulation|In a corner of the Court of Fontaine, Turenna and Enghiene, members of the Special Security and Surveillance Patrol, have set up a new tabletop wargame. The stage is set for you to show off your tactical brilliance...",
+  "timeKnown": true,
+  "startDate": "2025-05-19T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-06-03T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/38831907"
+    }
+  ],
+  "featuredCharacters": [
+    "Enghiene",
+    "Turenna"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 220000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 10
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 20
+        },
+        {
+          "name": "Guide de l'Équité",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Justice",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Ordre",
+          "quantity": 4
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 10
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.6"
+}

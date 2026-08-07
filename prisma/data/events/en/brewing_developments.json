@@ -1,0 +1,60 @@
+{
+  "pageTitle": "Brewing Developments",
+  "name": "Brewing Developments",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "You and Paimon meet a certain strange student by the Wall of Samiel to southwest of the rainforest. She seems to be trying to some kind of mysterious creation...",
+  "timeKnown": true,
+  "startDate": "2023-04-13T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-04-24T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/17591332"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 300000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 18
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 16
+        },
+        {
+          "name": "Guide to Admonition",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Ingenuity",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Praxis",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.6"
+}

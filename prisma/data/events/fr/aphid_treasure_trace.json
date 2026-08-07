@@ -1,0 +1,67 @@
+{
+  "pageTitle": "Aphid Treasure Trace",
+  "name": "Sur la piste du trésor des pucerons",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "Some new little thingamajig has hit the market among the Children of Echoes recently, and after learning about it from Xilonen, situation seems a bit worrying...",
+  "timeKnown": true,
+  "startDate": "2024-10-10T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-10-21T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/34043094"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/34070657"
+    }
+  ],
+  "featuredCharacters": [
+    "Ororon",
+    "Xilonen"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 400
+        },
+        {
+          "name": "Mora",
+          "quantity": 200000
+        },
+        {
+          "name": "Hésitation du cœur sacrificiel flamboyant",
+          "quantity": 6
+        },
+        {
+          "name": "Désolation délirante du seigneur sacré",
+          "quantity": 6
+        },
+        {
+          "name": "Prémonition mystique du vent nocturne",
+          "quantity": 6
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 12
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.1"
+}

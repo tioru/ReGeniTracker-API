@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Flowing Lights and Colors",
+  "name": "Flowing Lights and Colors",
+  "type": "In-Game",
+  "groups": [
+    "Login",
+    "Mail"
+  ],
+  "parentEvent": "Lantern Rite Gifts",
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2022-02-09T00:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-02-16T05:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18230"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Intertwined Fate",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 50000
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 2
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 5
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 18
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 3
+        },
+        {
+          "name": "Golden Crab",
+          "quantity": 10
+        },
+        {
+          "name": "Tianshu Meat",
+          "quantity": 5
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.4"
+}

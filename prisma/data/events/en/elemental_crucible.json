@@ -1,0 +1,80 @@
+{
+  "pageTitle": "Elemental Crucible",
+  "name": "Elemental Crucible",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2020-10-12T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2020-10-19T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/103730"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/103690"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 300
+        },
+        {
+          "name": "Mora",
+          "quantity": 100000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 10
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 6
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 23
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 1
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 1
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 1
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 1
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 1
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.0"
+}

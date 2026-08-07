@@ -1,0 +1,83 @@
+{
+  "pageTitle": "Windtrace/2024-05-14",
+  "name": "Windtrace: Seekers and Strategy",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "The game that passes down Mondstadt's history, Windtrace, is open once more in a new form! Play as the resisting Rebels and evade capture by the Hunter sent by the aristocracy by competing against one another in the Contested Zones until the hour of the hunt ends and obtain Windtrace Coins during the game to earn various rewards.",
+  "timeKnown": true,
+  "startDate": "2024-05-14T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-05-27T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/28436119"
+    }
+  ],
+  "featuredCharacters": [
+    "Gygax"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 240000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 14
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 16
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 4
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 8
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 8
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Windtrace Coin (Seekers and Strategy)",
+          "quantity": 6000
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.6"
+}

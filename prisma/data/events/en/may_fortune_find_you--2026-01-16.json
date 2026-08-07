@@ -1,0 +1,97 @@
+{
+  "pageTitle": "May Fortune Find You/2026-01-16",
+  "name": "May Fortune Find You: Spring's Premonition",
+  "type": "In-Game",
+  "groups": [
+    "Login",
+    "Mail"
+  ],
+  "parentEvent": "Lantern Rite Gifts",
+  "description": "Happy Lantern Rite, Traveler! Your New Year's gifts are ready — let's open them up and take a look! Log in and claim in Mail to receive a total of Intertwined Fate ×10 and Primogems ×1,600, alongside other rewards!",
+  "timeKnown": true,
+  "startDate": "2026-01-16T04:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-02-24T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/43225050"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1600
+        },
+        {
+          "name": "Intertwined Fate",
+          "quantity": 10
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Dust of Enlightenment",
+          "quantity": 1
+        },
+        {
+          "name": "Sanctifying Elixir",
+          "quantity": 1
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 2
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 13
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Mora",
+          "quantity": 130000
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 12
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 3
+        },
+        {
+          "name": "Slow-Cooked Bamboo Shoot Soup",
+          "quantity": 5
+        },
+        {
+          "name": "\"My Way\"",
+          "quantity": 5
+        },
+        {
+          "name": "Eight-Treasure Duck",
+          "quantity": 5
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna IV"
+}

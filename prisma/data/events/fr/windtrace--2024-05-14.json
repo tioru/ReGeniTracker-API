@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Windtrace/2024-05-14",
+  "name": "Poursuite du vent/Poursuite du vent : Jeu de stratagèmes",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "The game that passes down Mondstadt's history, Windtrace, is open once more in a new form! Play as the resisting Rebels and evade capture by the Hunter sent by the aristocracy by competing against one another in the Contested Zones until the hour of the hunt ends and obtain Windtrace Coins during the game to earn various rewards.",
+  "timeKnown": true,
+  "startDate": "2024-05-14T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-05-27T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/28436119"
+    }
+  ],
+  "featuredCharacters": [
+    "Gygax"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 240000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 14
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 16
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 4
+        },
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 8
+        },
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 8
+        },
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 8
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.6"
+}

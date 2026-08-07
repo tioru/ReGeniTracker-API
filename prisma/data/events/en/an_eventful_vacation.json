@@ -1,0 +1,35 @@
+{
+  "pageTitle": "An Eventful Vacation",
+  "name": "An Eventful Vacation",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": "Even those who wield the sword have times when they must lay it down to rest.",
+  "timeKnown": true,
+  "startDate": "2024-05-31T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-06-06T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123910"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20240531clorinde-5k96dd/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Clorinde",
+    "Neuvillette",
+    "Navia",
+    "Charlotte"
+  ],
+  "specialReward": null,
+  "rewardGroups": [],
+  "releaseVersion": "4.6"
+}

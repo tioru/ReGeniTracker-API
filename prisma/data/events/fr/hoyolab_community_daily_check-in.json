@@ -1,0 +1,73 @@
+{
+  "pageTitle": "HoYoLAB Community Daily Check-In",
+  "name": "Connexion quotidienne",
+  "type": "Web",
+  "groups": [
+    "Indefinite",
+    "Login"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-03-01T00:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": null,
+  "endDateOffset": null,
+  "isIndefinite": true,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/217256"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481&lang=en-us"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 60
+        },
+        {
+          "name": "Mora",
+          "quantity": 44000
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 26
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 6
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 16
+        },
+        {
+          "name": "Poulet mariné aux fleurs sucrantes",
+          "quantity": 3
+        },
+        {
+          "name": "Boulettes de radis frites",
+          "quantity": 3
+        },
+        {
+          "name": "Toast du pêcheur",
+          "quantity": 3
+        },
+        {
+          "name": "Tofu aux amandes",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.3"
+}

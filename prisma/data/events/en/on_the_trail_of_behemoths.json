@@ -1,0 +1,73 @@
+{
+  "pageTitle": "On the Trail of Behemoths",
+  "name": "On the Trail of Behemoths",
+  "type": "In-Game",
+  "groups": [
+    "Challenge",
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "One day, while stopping by the Adventurers' Guild, you and Paimon receive a mysterious commission from an \"organization whose details may not be disclosed.\" It seems that this might just be a toughie...",
+  "timeKnown": true,
+  "startDate": "2025-01-14T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-01-27T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/36301798"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 4
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 40
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 36
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 180000
+        },
+        {
+          "name": "Helka's Notes",
+          "quantity": 1
+        },
+        {
+          "name": "Blazing Sacrificial Heart's Hesitance",
+          "quantity": 4
+        },
+        {
+          "name": "Delirious Desolation of the Sacred Lord",
+          "quantity": 4
+        },
+        {
+          "name": "Night-Wind's Mystic Premonition",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.3"
+}

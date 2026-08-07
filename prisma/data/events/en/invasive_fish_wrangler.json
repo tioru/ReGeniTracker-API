@@ -1,0 +1,76 @@
+{
+  "pageTitle": "Invasive Fish Wrangler",
+  "name": "Invasive Fish Wrangler",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "In waters south of Lumidouce Harbor, you encounter a rather peculiar individual who calls herself an \"Unchained Hunter.\" She's currently in the midst of doing everything she can to contain an impending ecological crisis...",
+  "timeKnown": true,
+  "startDate": "2025-03-05T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-03-17T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/37397966"
+    },
+    {
+      "label": "Gameplay Tips",
+      "url": "https://www.hoyolab.com/article/37418165"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 260000
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 8
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 2
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 6
+        },
+        {
+          "name": "Phony Bejeweled Unihornfish",
+          "quantity": 12
+        },
+        {
+          "name": "Chapter of an Ancient Chord",
+          "quantity": 6
+        },
+        {
+          "name": "Sublimation of Pure Sacred Dewdrop",
+          "quantity": 6
+        },
+        {
+          "name": "Wine Goblet of the Pristine Sea",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.4"
+}

@@ -1,0 +1,244 @@
+{
+  "pageTitle": "A Lanternlit Ode to the Silver Moon (Event)",
+  "name": "A Lanternlit Ode to the Silver Moon",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Lantern Rite Festival",
+  "description": "As the Lantern Rite comes around once more, you and Paimon return to a bustling Liyue Harbor...",
+  "timeKnown": true,
+  "startDate": "2026-01-30T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-02-23T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/43503608"
+    },
+    {
+      "label": "Event Description",
+      "url": "https://www.hoyolab.com/article/43490622"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Choose Character",
+    "options": [
+      "Beidou",
+      "Chongyun",
+      "Gaming",
+      "Lan Yan",
+      "Ningguang",
+      "Xiangling",
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei",
+      "Yaoyao",
+      "Yun Jin"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1060
+        },
+        {
+          "name": "Mora",
+          "quantity": 890000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Rainlit Bamboo Reverie",
+          "quantity": 1
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 40
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 32
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 88
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 9
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 9
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 9
+        },
+        {
+          "name": "Philosophies of Diligence",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophies of Gold",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophies of Prosperity",
+          "quantity": 3
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 15
+        },
+        {
+          "name": "Remnant of the Dreadwing",
+          "quantity": 6
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 12
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Immaculate Warrant",
+          "quantity": 12
+        },
+        {
+          "name": "Tattered Warrant",
+          "quantity": 15
+        },
+        {
+          "name": "Glaze Lily",
+          "quantity": 30
+        },
+        {
+          "name": "Auspicious Treasure Tree",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Vibrant Xiao Lantern: \"A Meeting With Friends\"",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Vibrant Xiao Lantern: \"May My Wish Travel Far\"",
+          "quantity": 1
+        },
+        {
+          "name": "Great Zhanzhu Lantern: \"Pathblocker Maximus\"",
+          "quantity": 1
+        },
+        {
+          "name": "Great Zhanzhu Lantern: \"Pathblocker\"",
+          "quantity": 1
+        },
+        {
+          "name": "Vibrant Xiao Lantern: \"Riff of Fortune\"",
+          "quantity": 1
+        },
+        {
+          "name": "Vibrant Xiao Lantern: \"Fortune and Good Tidings\"",
+          "quantity": 1
+        },
+        {
+          "name": "Vibrant Xiao Lantern: \"A Beautiful Start to Spring\"",
+          "quantity": 1
+        },
+        {
+          "name": "Vibrant Xiao Lantern: \"Sweet Scents in the Wind\"",
+          "quantity": 1
+        },
+        {
+          "name": "Vibrant Xiao Lantern: \"Good Luck All the Way\"",
+          "quantity": 1
+        },
+        {
+          "name": "Vibrant Xiao Lantern: \"May All Your Wishes Come True\"",
+          "quantity": 1
+        },
+        {
+          "name": "White Horse Galloping",
+          "quantity": 1
+        },
+        {
+          "name": "Xiao Lantern Flight Manual",
+          "quantity": 1
+        },
+        {
+          "name": "A Fragrant Feast of Flavors",
+          "quantity": 1
+        },
+        {
+          "name": "Extravagant Slumber",
+          "quantity": 1
+        },
+        {
+          "name": "Jade-Cut Flowers",
+          "quantity": 1
+        },
+        {
+          "name": "\"Sweet Dream\"",
+          "quantity": 1
+        },
+        {
+          "name": "Rockin' Riffin' Chicken!",
+          "quantity": 1
+        },
+        {
+          "name": "Yummy Yum Cha",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Fortune Coin",
+          "quantity": 4260
+        },
+        {
+          "name": "Celebratory Xiao Lantern",
+          "quantity": 50
+        },
+        {
+          "name": "Gift Xiao Lantern",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna IV"
+}

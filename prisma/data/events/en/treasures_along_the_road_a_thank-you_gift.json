@@ -1,0 +1,48 @@
+{
+  "pageTitle": "Treasures Along the Road: A Thank-You Gift",
+  "name": "Treasures Along the Road: A Thank-You Gift",
+  "type": "In-Game",
+  "groups": [
+    "Login"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2023-09-28T00:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-11-08T06:00:00",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/21807937"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1600
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 4
+        },
+        {
+          "name": "Itty Bitty Octobaby",
+          "quantity": 1
+        },
+        {
+          "name": "Portable Aerodynamic Gelatinous Bubble Generator",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.1"
+}

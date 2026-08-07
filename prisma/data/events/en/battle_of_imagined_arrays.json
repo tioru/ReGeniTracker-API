@@ -1,0 +1,135 @@
+{
+  "pageTitle": "Battle of Imagined Arrays",
+  "name": "Battle of Imagined Arrays",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "{{Description |title=30px Simulation of Theoretical Territory |To answer the strange questions that the children have raised about different monsters, lifeforms, and various warriors, the researchers of the Akademiya have decided to create a game that simulates an adventure of sorts... |Map description",
+  "timeKnown": true,
+  "startDate": "2025-06-20T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-07-07T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/39388504"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/157104"
+    }
+  ],
+  "featuredCharacters": [
+    "Atashye",
+    "Darwishl Fadaweh",
+    "Paimon",
+    "Traveler"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Sethos"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 970
+        },
+        {
+          "name": "Mora",
+          "quantity": 610000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 45
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 104
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 4
+        },
+        {
+          "name": "Sethos",
+          "quantity": 1
+        },
+        {
+          "name": "Guide to Admonition",
+          "quantity": 10
+        },
+        {
+          "name": "Guide to Ingenuity",
+          "quantity": 15
+        },
+        {
+          "name": "Guide to Praxis",
+          "quantity": 5
+        },
+        {
+          "name": "Philosophies of Admonition",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophies of Ingenuity",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophies of Praxis",
+          "quantity": 3
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Speculative Records",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.7"
+}

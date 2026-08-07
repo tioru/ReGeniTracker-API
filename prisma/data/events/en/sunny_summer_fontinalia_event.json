@@ -1,0 +1,200 @@
+{
+  "pageTitle": "Sunny Summer Fontinalia (Event)",
+  "name": "Sunny Summer Fontinalia",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Fontinalia Festival",
+  "description": "The Fontinalia Film Festival is here, and all kinds of wonderful films are being prepared with great excitement! Let's follow the summer breeze back to Fontaine and take a look. Who knows? We might even run into some old friends there!",
+  "timeKnown": true,
+  "startDate": "2026-07-01T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-08-11T05:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/45647743"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/45662748"
+    }
+  ],
+  "featuredCharacters": [
+    "Archenoul",
+    "Areta",
+    "Chenee",
+    "Frejus",
+    "Galathee",
+    "Graciette",
+    "Hajanad",
+    "Inkanak",
+    "Irimia",
+    "Jala",
+    "Joliot",
+    "Lemta",
+    "Leuca",
+    "Mela",
+    "Ninette",
+    "Ottnit",
+    "Potier",
+    "Rika",
+    "Semaine",
+    "Sonny",
+    "Tres",
+    "Trudaine",
+    "Vermeer",
+    "Veta",
+    "Zhunan"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Charlotte"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1100
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 740000
+        },
+        {
+          "name": "Charlotte",
+          "quantity": 1
+        },
+        {
+          "name": "Hurlock Variations",
+          "quantity": 1
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 36
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 48
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 28
+        },
+        {
+          "name": "Guide to Equity",
+          "quantity": 10
+        },
+        {
+          "name": "Guide to Justice",
+          "quantity": 10
+        },
+        {
+          "name": "Guide to Order",
+          "quantity": 10
+        },
+        {
+          "name": "Guide to Elysium",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Moonlight",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Vagrancy",
+          "quantity": 12
+        },
+        {
+          "name": "Broken Drive Shaft",
+          "quantity": 15
+        },
+        {
+          "name": "Plume of the Fallen Watcher",
+          "quantity": 6
+        },
+        {
+          "name": "Reinforced Drive Shaft",
+          "quantity": 12
+        },
+        {
+          "name": "Subdetection Unit",
+          "quantity": 30
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 11
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Banner of the Wingalet",
+          "quantity": 1
+        },
+        {
+          "name": "Keys of Ingenuity",
+          "quantity": 1
+        },
+        {
+          "name": "Ripples in Miniature",
+          "quantity": 1
+        },
+        {
+          "name": "Wingalet Rules of Conduct",
+          "quantity": 1
+        },
+        {
+          "name": "Ornamental Prismatic Bejeweled Unihornfish",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Venue Popularity",
+          "quantity": 1480
+        },
+        {
+          "name": "Funds (Sunny Summer Fontinalia)",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VIII"
+}

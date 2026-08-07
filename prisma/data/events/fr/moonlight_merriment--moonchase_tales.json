@@ -1,0 +1,55 @@
+{
+  "pageTitle": "Moonlight Merriment/Moonchase Tales",
+  "name": "Contes séléniens",
+  "type": "In-Game",
+  "groups": [
+    "Sub"
+  ],
+  "parentEvent": null,
+  "description": "Paimon, ever-gluttonous, pulls you over to Wanmin Restaurant for a good meal. There, you happen to meet Xiangling, who is deep in thought...",
+  "timeKnown": true,
+  "startDate": "2021-09-27T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-10-11T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": "Sub Event",
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 210
+        },
+        {
+          "name": "Mora",
+          "quantity": 120000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 12
+        },
+        {
+          "name": "Recipe: Chili-Mince Cornbread Buns",
+          "quantity": 1
+        },
+        {
+          "name": "Recipe: Oncidium Tofu",
+          "quantity": 1
+        },
+        {
+          "name": "Recipe: Rice Pudding",
+          "quantity": 1
+        },
+        {
+          "name": "Recipe: Braised Meat",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.1"
+}

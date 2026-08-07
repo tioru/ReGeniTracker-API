@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Mimi Tomo",
+  "name": "Mimi Tomo",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "The word from the merchant trail is that a certain \"Unusual Hilichurl\" has been gathering its fellow 'churls out in the wild recently... If you want to catch this most mysterious creature, you may find that the best strategy is to ingratiate yourself with some hilichurls and enlist their help...",
+  "timeKnown": true,
+  "startDate": "2021-05-27T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-06-08T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/387817"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/13043"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 200000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 24
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 8
+        },
+        {
+          "name": "Handy Handbook of Hilichurlian",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Embroidered Lantern: Lofty Grandeur",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Embroidered Curtains",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Silk Curtains: Fetching the Sanguine Sky",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Floral Screen: Jade and Gold",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Thundering Heavens Drum",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Lantern-Lit Stage: Crescendo",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.5"
+}

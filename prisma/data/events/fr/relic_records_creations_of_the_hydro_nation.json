@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Relic Records: Creations of the Hydro Nation",
+  "name": "Histoire naturelle : Héritage de la nation Hydro",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "The adventure continues as you and Paimon finally arrive in Fontaine. Various splendid landscapes await you in this nation...",
+  "timeKnown": true,
+  "startDate": "2023-08-16T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2023-08-28T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/112653"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 220000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 22
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 50
+        },
+        {
+          "name": "Chapitre d'un accord ancien",
+          "quantity": 6
+        },
+        {
+          "name": "Sublimation de rosée sacrée pure",
+          "quantity": 6
+        },
+        {
+          "name": "Gobelet à vin de la mer immaculée",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.0"
+}

@@ -1,0 +1,138 @@
+{
+  "pageTitle": "Thelxie's Fantastic Adventures",
+  "name": "Thelxie's Fantastic Adventures",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "One day, you receive a commission from the Fontaine Fishing Association. In accordance with the commission's requirements, you and Paimon go to Erinnyes to investigate, the curtain rises on a wondrous new adventure...",
+  "timeKnown": true,
+  "startDate": "2023-11-23T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-12-11T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/23129467"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/113734"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Freminet"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1000
+        },
+        {
+          "name": "Mora",
+          "quantity": 1270000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Freminet",
+          "quantity": 1
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 95
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 68
+        },
+        {
+          "name": "Philosophies of Equity",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Justice",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Order",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Equity",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Justice",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Order",
+          "quantity": 3
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 12
+        },
+        {
+          "name": "Water Imp Prince",
+          "quantity": 1
+        },
+        {
+          "name": "Thelxie's Fantastic Adventures (Quest Item)",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Thelxie's Badge",
+          "quantity": 100
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.2"
+}

@@ -1,0 +1,76 @@
+{
+  "pageTitle": "Vibro-Crystal/2023-03-14",
+  "name": "Vibro-Crystal Verification",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "An engineer from Fontaine has arrived at the outskirts of The Chasm to study harmonic motion between gems known as Vibro-Crystals in an effort to clear the name of his colleague, who had accused of faking his data. Connect Transmitter and Receiver Crystals and attempt to produce various effects that will allow you to defeat your foes with ease.",
+  "timeKnown": true,
+  "startDate": "2023-03-14T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-03-27T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article_pre/10212"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 370000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 12
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 4
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 18
+        },
+        {
+          "name": "Grain of Aerosiderite",
+          "quantity": 10
+        },
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Veiled Lead Elixir",
+          "quantity": 10
+        },
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Luminous Sands from Guyun",
+          "quantity": 10
+        },
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.5"
+}

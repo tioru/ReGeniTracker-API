@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Fearsome Ferocious Firepower",
+  "name": "Feu férocement furieux",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Monsters have appeared among a long-deserted complex of ruins. In order to avert disaster, a certain \"Genius Inventor\" from the Gardes is using his new improved cannon to clear them out — and he's currently looking for a professional to operate it...",
+  "timeKnown": true,
+  "startDate": "2025-07-21T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-07-29T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40075549"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 200000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 15
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de l'Équité",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Justice",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Ordre",
+          "quantity": 2
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.7"
+}

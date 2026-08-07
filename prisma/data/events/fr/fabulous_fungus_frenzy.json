@@ -1,0 +1,132 @@
+{
+  "pageTitle": "Fabulous Fungus Frenzy",
+  "name": "Chahut de Fongus",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "In Sumeru, a certain researcher organizes a fabulous Beast Tamer Tournament with the aid of a wealthy, enigmatic sponsor, and this competition has attracted a sizable number of contestants and audience members alike...",
+  "timeKnown": true,
+  "startDate": "2022-11-10T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-11-28T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/13595311"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/13615037"
+    }
+  ],
+  "featuredCharacters": [
+    "Jutta",
+    "Najah",
+    "Thabit",
+    "Wafiq",
+    "Yanbei",
+    "Yurochka"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Dori"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 990
+        },
+        {
+          "name": "Mora",
+          "quantity": 1610000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 40
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 64
+        },
+        {
+          "name": "Scène de la Coupe des nilotpalotus",
+          "quantity": 1
+        },
+        {
+          "name": "Modèle d'Orbe de sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Guide de l'Admonestation",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de l'Ingénuité",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de l'Usage",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de l'Admonestation",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de l'Ingénuité",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de l'Usage",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'émeraude nagadus",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 6
+        },
+        {
+          "name": "Dori",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.2"
+}

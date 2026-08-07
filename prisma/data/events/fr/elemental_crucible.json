@@ -1,0 +1,80 @@
+{
+  "pageTitle": "Elemental Crucible",
+  "name": "Fourneau élémentaire",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2020-10-12T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2020-10-19T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/103730"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/103690"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 300
+        },
+        {
+          "name": "Mora",
+          "quantity": 100000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 23
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 6
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 10
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 1
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 1
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 1
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 1
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 1
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.0"
+}

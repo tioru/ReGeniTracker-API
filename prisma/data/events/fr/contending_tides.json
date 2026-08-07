@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Contending Tides",
+  "name": "Combat des chefs",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-04-02T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-04-12T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/275307"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 430000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 21
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.4"
+}

@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Vibro-Crystal/2022-04-21",
+  "name": "Vibrocristaux/Cristaulogie",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "A researcher from Fontaine is presently on the outskirts of The Chasm, studying the harmonic motion between gems known as Vibro-Crystals. Connect Transmitter and Receiver Crystals and attempt to produce various effects that will allow you to defeat your foes with ease!",
+  "timeKnown": true,
+  "startDate": "2022-04-21T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-05-05T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/4327864"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/4344104"
+    }
+  ],
+  "featuredCharacters": [
+    "Patrice"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 370000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 12
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Mercure karstique",
+          "quantity": 6
+        },
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.6"
+}

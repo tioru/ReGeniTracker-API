@@ -1,0 +1,59 @@
+{
+  "pageTitle": "Teyvat's Special Delivery",
+  "name": "Teyvat's Special Delivery",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": "With the festival approaching and a surge in deliveries, come and help Kirara deliver packages to share heartfelt wishes to everyone~ There's a special package waiting for you too!",
+  "timeKnown": true,
+  "startDate": "2024-09-27T10:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-10-07T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126112"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/20240927gift-delivery-xmyq9b/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Traveler",
+    "Paimon",
+    "Kirara"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "item1",
+          "quantity": 0
+        },
+        {
+          "name": "item2",
+          "quantity": 0
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "currency1",
+          "quantity": 0
+        },
+        {
+          "name": "currency2",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.0"
+}

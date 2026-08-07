@@ -1,0 +1,129 @@
+{
+  "pageTitle": "Mega Meka Melee",
+  "name": "Méga-méli-mélo de Mékas",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "In the Court of Fontaine, Leschots Clockwork Workshop is preparing for a major commission, but the staff seemed to have encountered difficulties... Help these talented craftspeople complete their masterpiece!",
+  "timeKnown": true,
+  "startDate": "2023-08-24T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-09-11T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/21050724"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/112775"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Bennett"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 1000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 1410000
+        },
+        {
+          "name": "Bennett",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 57
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 12
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 36
+        },
+        {
+          "name": "Guide de l'Équité",
+          "quantity": 12
+        },
+        {
+          "name": "Guide de la Justice",
+          "quantity": 12
+        },
+        {
+          "name": "Guide de l'Ordre",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophie de l'Équité",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de la Justice",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de l'Ordre",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'émeraude nagadus",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 6
+        },
+        {
+          "name": "Aventurier-jouet « Tempo-nneur »",
+          "quantity": 1
+        },
+        {
+          "name": "Essence sanctifiante",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.0"
+}

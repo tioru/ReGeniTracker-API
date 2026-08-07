@@ -1,0 +1,230 @@
+{
+  "pageTitle": "Fleeting Colors in Flight",
+  "name": "Fleeting Colors in Flight",
+  "type": "In-Game",
+  "groups": [
+    "Flagship",
+    "Co-Op"
+  ],
+  "parentEvent": "Lantern Rite Festival",
+  "description": "Look, people are hanging the lights up and breaking out their instruments! It's a new year, and Liyue Harbor is bustling with preparations for the grand celebration of the Lantern Rite Festival... This new year comes amidst the dawning of a new era, and Ningguang and Keqing of the Qixing seem to both have brand-new plans...",
+  "timeKnown": true,
+  "startDate": "2022-01-25T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-02-12T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18164"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18793"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Choose Character",
+    "options": [
+      "Beidou",
+      "Chongyun",
+      "Ningguang",
+      "Xiangling",
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei",
+      "Yun Jin"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 960
+        },
+        {
+          "name": "Mora",
+          "quantity": 1520000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 82
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 84
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Launch Tube",
+          "quantity": 1
+        },
+        {
+          "name": "Recipe: Bountiful Year",
+          "quantity": 1
+        },
+        {
+          "name": "Orchid's Evening Gown",
+          "quantity": 1
+        },
+        {
+          "name": "The Mountain Clouds Let Down Golden Rain",
+          "quantity": 1
+        },
+        {
+          "name": "The Silver Night is Full of Stars",
+          "quantity": 1
+        },
+        {
+          "name": "The Gloom Paints the Cold Blooms",
+          "quantity": 1
+        },
+        {
+          "name": "Fireworks Dance Amidst a Snowy Sky",
+          "quantity": 1
+        },
+        {
+          "name": "Golden Calendula Swirl",
+          "quantity": 1
+        },
+        {
+          "name": "Kindled Trees by the Moonlit Window",
+          "quantity": 1
+        },
+        {
+          "name": "Sparkly Shiny Dodoco!",
+          "quantity": 1
+        },
+        {
+          "name": "Fame and Fortune For a Season",
+          "quantity": 1
+        },
+        {
+          "name": "Unyielding Spirit",
+          "quantity": 1
+        },
+        {
+          "name": "Festival Spotlight",
+          "quantity": 1
+        },
+        {
+          "name": "Wanmin Feast",
+          "quantity": 1
+        },
+        {
+          "name": "Mischievous Villosas",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Festive Fragrance: Goods Piled High",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Festive Fragrance: Of Gold and Jade",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Rainbow Lights: Lovely Night View",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Fine Stall: Splash of Color",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Rainbow Stall: Ultramarine",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Rainbow Stall: Ruby Red",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Rainbow Cloud Flying Satin Pole",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Blooming Candle: Pure as a Lotus",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Rainbow Lights: At Dawn We Celebrate",
+          "quantity": 1
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Prosperity",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Gold",
+          "quantity": 2
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Affluence Talisman",
+          "quantity": 3000
+        },
+        {
+          "name": "Conquest Talisman",
+          "quantity": 2220
+        },
+        {
+          "name": "Immaculate Talisman",
+          "quantity": 2700
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.4"
+}

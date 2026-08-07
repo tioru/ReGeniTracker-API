@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Rainbow's End: Silvery Flux",
+  "name": "Rainbow's End: Silvery Flux",
+  "type": "In-Game",
+  "groups": [
+    "Login",
+    "Mail"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2025-09-28T00:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-10-21T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40952495"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Intertwined Fate",
+          "quantity": 10
+        },
+        {
+          "name": "Dust of Enlightenment",
+          "quantity": 1
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 8
+        },
+        {
+          "name": "Mora",
+          "quantity": 80000
+        },
+        {
+          "name": "Primogem",
+          "quantity": 1600
+        },
+        {
+          "name": "Rotor Hovering Daybed",
+          "quantity": 1
+        },
+        {
+          "name": "Ujola Cat",
+          "quantity": 1
+        },
+        {
+          "name": "Sanctifying Elixir",
+          "quantity": 1
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna I"
+}

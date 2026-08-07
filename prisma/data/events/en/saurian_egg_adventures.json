@@ -1,0 +1,55 @@
+{
+  "pageTitle": "Saurian Egg Adventures",
+  "name": "Saurian Egg Adventures",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": "During the event, help Kinich hatch the Saurian eggs. Successfully hatch a baby Saurian to receive in-game item rewards.",
+  "timeKnown": true,
+  "startDate": "2024-09-12T12:00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": "2024-09-19T23:59:59",
+  "endDateOffset": "UTC+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/125809"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20240912kinich-c8eubx/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Ajaw",
+    "Kinich"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 40
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.0"
+}

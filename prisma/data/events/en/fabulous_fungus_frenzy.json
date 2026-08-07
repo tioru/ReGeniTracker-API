@@ -1,0 +1,165 @@
+{
+  "pageTitle": "Fabulous Fungus Frenzy",
+  "name": "Fabulous Fungus Frenzy",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "In Sumeru, a certain researcher organizes a fabulous Beast Tamer Tournament with the aid of a wealthy, enigmatic sponsor, and this competition has attracted a sizable number of contestants and audience members alike...",
+  "timeKnown": true,
+  "startDate": "2022-11-10T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-11-28T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/13595311"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/13615037"
+    }
+  ],
+  "featuredCharacters": [
+    "Jutta",
+    "Najah",
+    "Thabit",
+    "Wafiq",
+    "Yanbei",
+    "Yurochka"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Dori"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 990
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Dori",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 1610000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 40
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 64
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Admonition",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Admonition",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Ingenuity",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Ingenuity",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Praxis",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Praxis",
+          "quantity": 6
+        },
+        {
+          "name": "Nilotpala Cup Tournament Stage",
+          "quantity": 1
+        },
+        {
+          "name": "Wisdom Orb Model",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Wisdom Orb",
+          "quantity": 1
+        },
+        {
+          "name": "Fungus Medal",
+          "quantity": 2400
+        },
+        {
+          "name": "Mushroom Currency",
+          "quantity": 3000
+        },
+        {
+          "name": "Cyno's Missive",
+          "quantity": 1
+        },
+        {
+          "name": "Haniyyah's Notes",
+          "quantity": 1
+        },
+        {
+          "name": "Special Wisdom Orb",
+          "quantity": 1
+        },
+        {
+          "name": "Mysterious Fatui Letter",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.2"
+}

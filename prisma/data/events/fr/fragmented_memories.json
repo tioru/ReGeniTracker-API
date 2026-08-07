@@ -1,0 +1,42 @@
+{
+  "pageTitle": "Fragmented Memories",
+  "name": "Morceaux de souvenirs",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": "The memories of the past are like pieces of a puzzle... Putting them together allows us to sketch the path we've walked.",
+  "timeKnown": true,
+  "startDate": "2024-05-07T18:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-05-26T11:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123571"
+    },
+    {
+      "label": "Event Pages",
+      "url": "https://act.hoyoverse.com/ys/event/e20240506jigsaw-ih4e10/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.6"
+}

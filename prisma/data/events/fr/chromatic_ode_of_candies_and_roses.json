@@ -1,0 +1,88 @@
+{
+  "pageTitle": "Chromatic Ode of Candies and Roses",
+  "name": "Ode chromatique de bonbons et de roses",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Sabzeruz Festival",
+  "description": "Paimon's caught wind of how the Sabzeruz Festival is now in full swing in Sumeru, and so you both happily set off, returning to the Nation of Nature and Wisdom...",
+  "timeKnown": true,
+  "startDate": "2024-10-23T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-11-07T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/34402598"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126536"
+    }
+  ],
+  "featuredCharacters": [
+    "Alhaitham",
+    "Arachitta",
+    "Arakaya",
+    "Arasaka",
+    "Arasati",
+    "Aravedana",
+    "Aruj",
+    "Candace",
+    "Collei",
+    "Cyno",
+    "Dehya",
+    "Dharmakirti",
+    "Dori",
+    "Dunyarzad",
+    "Fariha",
+    "Faruzan",
+    "Hatice",
+    "Hizir",
+    "Jahangir",
+    "Kaveh",
+    "Kutbi",
+    "Layla",
+    "Masud",
+    "Mehrak",
+    "Mihir",
+    "Nahida",
+    "Najia",
+    "Nevida",
+    "Nilou",
+    "Paimon",
+    "Rashnu",
+    "Rukn",
+    "Safi",
+    "Sethos",
+    "Sheikh Zubayr",
+    "Shyam",
+    "Sorush",
+    "Tighnari",
+    "Traveler",
+    "Vihar",
+    "Wanderer",
+    "Yakup"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Candace"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "delim = ;",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.1"
+}

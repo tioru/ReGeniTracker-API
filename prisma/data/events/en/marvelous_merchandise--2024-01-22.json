@@ -1,0 +1,52 @@
+{
+  "pageTitle": "Marvelous Merchandise/2024-01-22",
+  "name": "Marvelous Merchandise 2024-01-22",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "They say that a very striking character has appeared in Mondstadt. He claims to have some \"new deals\" which he could share with some partners.",
+  "timeKnown": true,
+  "startDate": "2024-01-22T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-01-29T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/24467758"
+    }
+  ],
+  "featuredCharacters": [
+    "Liben"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 380
+        },
+        {
+          "name": "Mora",
+          "quantity": 50000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 3
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "category": null,
+      "rewards": []
+    }
+  ],
+  "releaseVersion": "4.3"
+}

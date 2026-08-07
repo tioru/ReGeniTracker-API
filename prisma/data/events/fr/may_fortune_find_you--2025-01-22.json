@@ -1,0 +1,49 @@
+{
+  "pageTitle": "May Fortune Find You/2025-01-22",
+  "name": "Richesses honorables/22.01.2025",
+  "type": "In-Game",
+  "groups": [
+    "Login",
+    "Mail"
+  ],
+  "parentEvent": "Lantern Rite Gifts",
+  "description": "It's that time of the year again! This year's Lantern Rite is sure to be super lively. Hehe, Paimon's so excited! Ahem! Then let Paimon be the one to say it: Traveler, how about we take a trip back to Liyue Harbor together? Who knows, we might just stumble upon something wonderful~",
+  "timeKnown": true,
+  "startDate": "2025-01-22T04:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-02-11T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/36471182"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Pierre de la fatalité",
+          "quantity": 10
+        },
+        {
+          "name": "Mora",
+          "quantity": 80000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 8
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.3"
+}

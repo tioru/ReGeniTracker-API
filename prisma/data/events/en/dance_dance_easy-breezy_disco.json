@@ -1,0 +1,88 @@
+{
+  "pageTitle": "Dance Dance Easy-Breezy Disco",
+  "name": "Dance Dance Easy-Breezy Disco",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "A courier comes bearing good news — another party is about to kick off at Easybreeze Holiday Resort! This time, unexpected new guests will join the rhythmic ensemble and dance joyfully with us!",
+  "timeKnown": true,
+  "startDate": "2026-07-24T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-08-03T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/45955087"
+    }
+  ],
+  "featuredCharacters": [
+    "Paimon",
+    "Enghiene",
+    "Nusta",
+    "Barbara",
+    "Kachina",
+    "Mualani",
+    "Nilou",
+    "Manaia",
+    "Marine",
+    "Moo",
+    "Sedile"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 260000
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 8
+        },
+        {
+          "name": "Party Standee: \"Shining Gem\"",
+          "quantity": 1
+        },
+        {
+          "name": "Party Standee: \"Popular Idol\"",
+          "quantity": 1
+        },
+        {
+          "name": "Chapter of an Ancient Chord",
+          "quantity": 6
+        },
+        {
+          "name": "Sublimation of Pure Sacred Dewdrop",
+          "quantity": 6
+        },
+        {
+          "name": "Wine Goblet of the Pristine Sea",
+          "quantity": 6
+        },
+        {
+          "name": "Blazing Sacrificial Heart's Hesitance",
+          "quantity": 6
+        },
+        {
+          "name": "Delirious Desolation of the Sacred Lord",
+          "quantity": 6
+        },
+        {
+          "name": "Night-Wind's Mystic Premonition",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VIII"
+}

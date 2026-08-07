@@ -1,0 +1,76 @@
+{
+  "pageTitle": "Vibro-Crystal/2023-03-14",
+  "name": "Vibrocristaux/Cristanalyse",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "An engineer from Fontaine has arrived at the outskirts of The Chasm to study harmonic motion between gems known as Vibro-Crystals in an effort to clear the name of his colleague, who had accused of faking his data. Connect Transmitter and Receiver Crystals and attempt to produce various effects that will allow you to defeat your foes with ease.",
+  "timeKnown": true,
+  "startDate": "2023-03-14T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-03-27T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article_pre/10212"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 370000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 12
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 4
+        },
+        {
+          "name": "Mercure karstique",
+          "quantity": 4
+        },
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Grain d'aérosidérite noire",
+          "quantity": 4
+        },
+        {
+          "name": "Plomb karstique",
+          "quantity": 4
+        },
+        {
+          "name": "Sable lumineux de Guyun",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.5"
+}

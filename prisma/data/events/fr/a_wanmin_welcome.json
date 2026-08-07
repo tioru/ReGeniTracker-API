@@ -1,0 +1,54 @@
+{
+  "pageTitle": "A Wanmin Welcome",
+  "name": "Bienvenue au Restaurant Wanmin",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Liyue Harbor, inside Wanmin Restaurant. &mdash; The aroma of fine food wafts through the street as Wanmin Restaurant hits the peak of a wave of customers. Head Chef Xiangling is busy beyond belief! Quick, Traveler, lend her your aid!",
+  "timeKnown": true,
+  "startDate": "2021-03-16T13:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2021-03-25T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/246512"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210316cooking-sea/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Guoba",
+    "Traveler",
+    "Xiangling"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 150
+        },
+        {
+          "name": "Mora*~",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros*~",
+          "quantity": 1
+        },
+        {
+          "name": "Minerai de renforcement mystique*~",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.4"
+}

@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Alcyon Chapter (Event)",
+  "name": "Alcyon Chapter",
+  "type": "In-Game",
+  "groups": [
+    "Story Quest"
+  ],
+  "parentEvent": null,
+  "description": "\"Go, child of the fae.\" \"Make your way to the villages and towns and seek kinship with the humans...\" \"The world of the fae is rife with a sorrow you do not understand.\" Once upon a time, a young Linnea caught the faint, lilting refrains of a strange little tune. Many years later, the echoes of that song have finally found her once again.",
+  "timeKnown": true,
+  "startDate": "2026-04-08T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-04-28T17:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/44512632"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 60
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 9
+        },
+        {
+          "name": "Plume of the Fallen Watcher",
+          "quantity": 6
+        },
+        {
+          "name": "Etherwing Moth",
+          "quantity": 30
+        },
+        {
+          "name": "Immaculate Warrant",
+          "quantity": 12
+        },
+        {
+          "name": "Tattered Warrant",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VI"
+}

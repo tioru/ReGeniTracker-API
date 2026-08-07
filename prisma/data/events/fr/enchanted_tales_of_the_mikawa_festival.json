@@ -1,0 +1,142 @@
+{
+  "pageTitle": "Enchanted Tales of the Mikawa Festival",
+  "name": "Mythes du Festival des mikawas",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Mikawa Flower Festival",
+  "description": "One day, you receive a letter from Yae Miko, who you haven't heard from in a long while. Following the instructions laid out therein, you make your way to Tenshukaku in Inazuma to discuss an important, festival-related matter...",
+  "timeKnown": true,
+  "startDate": "2025-02-14T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-03-03T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/37008951"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/37033728"
+    }
+  ],
+  "featuredCharacters": [
+    "Aratani",
+    "Hitomi (Inazuma)",
+    "Inagi Hotomi",
+    "Junkichi",
+    "Kamen",
+    "Masuku",
+    "Shigeru",
+    "Takuya",
+    "Tomoki",
+    "Watanabe",
+    "Yata Kouki",
+    "Yukio"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Tamayuratei no Ohanashi"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 850
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 900000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 36
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 84
+        },
+        {
+          "name": "Tamayuratei no Ohanashi",
+          "quantity": 1
+        },
+        {
+          "name": "Flamme phosphorescente fumante",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophie de l'Éphémère",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophie de l'Élégance",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophie de la Lumière",
+          "quantity": 3
+        },
+        {
+          "name": "Guide de l'Éphémère",
+          "quantity": 3
+        },
+        {
+          "name": "Guide de l'Élégance",
+          "quantity": 3
+        },
+        {
+          "name": "Guide de la Lumière",
+          "quantity": 3
+        },
+        {
+          "name": "Branche marine de gemme",
+          "quantity": 12
+        },
+        {
+          "name": "Joie de Narukami",
+          "quantity": 12
+        },
+        {
+          "name": "Masque de la morsure du tigre",
+          "quantity": 12
+        },
+        {
+          "name": "Trophée Tanuki",
+          "quantity": 1
+        },
+        {
+          "name": "« Roi boum-boum »",
+          "quantity": 1
+        },
+        {
+          "name": "Panneau festif « Akitsu Harpastum »",
+          "quantity": 1
+        },
+        {
+          "name": "Panneau festif « Rêvasserie »",
+          "quantity": 1
+        },
+        {
+          "name": "Panneau festif « Bunshin illusoire »",
+          "quantity": 1
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.4"
+}

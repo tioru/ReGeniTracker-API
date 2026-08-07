@@ -1,0 +1,52 @@
+{
+  "pageTitle": "Travelers' Tales (Event)/2025-06-18",
+  "name": "Travelers' Tales: Gilded Chapter",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "A new day in Teyvat is about to begin. As you set off on your journey once more, pay attention to the whispers on the wind. Perhaps the breeze might bring you tidings from your friends...",
+  "timeKnown": true,
+  "startDate": "2025-06-18T10:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-07-29T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/39353507"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/39385925"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 120
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 12
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 120000
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.7"
+}

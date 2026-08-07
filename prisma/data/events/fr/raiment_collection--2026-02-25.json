@@ -1,0 +1,44 @@
+{
+  "pageTitle": "Raiment Collection/2026-02-25",
+  "name": "Collection vestimentaire/25.02.2026",
+  "type": "In-Game",
+  "groups": [
+    "Miliastra Wonderland"
+  ],
+  "parentEvent": null,
+  "description": "After the Version \"Luna V\" update, you can participate in the \"Raiment Collection: Dawn Breeze\" event to progressively unlock with weekly missions and Elite cosmetic set, \"Owl Envoy\" (4-Star) of your choice!",
+  "timeKnown": true,
+  "startDate": "2026-02-25T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-04-08T05:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/43926526"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Messager hibouin (Manekina)",
+          "quantity": 1
+        },
+        {
+          "name": "Messager hibouin (Manekin)",
+          "quantity": 1
+        },
+        {
+          "name": "Géode de recréation",
+          "quantity": 1600
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna V"
+}

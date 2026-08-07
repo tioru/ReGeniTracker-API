@@ -1,0 +1,94 @@
+{
+  "pageTitle": "Reel Ad-Venture",
+  "name": "Reel Ad-Venture",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "One day, you reunite with an old friend at Café Lutece...",
+  "timeKnown": true,
+  "startDate": "2025-03-12T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-03-24T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/37545674"
+    },
+    {
+      "label": "Gameplay Tips",
+      "url": "https://www.hoyolab.com/article/37560626"
+    }
+  ],
+  "featuredCharacters": [
+    "Noelle",
+    "Sucrose",
+    "Timaeus",
+    "Shenhe",
+    "Xiangling",
+    "Chef Mao",
+    "Hu Tao",
+    "Guoba",
+    "Xingqiu",
+    "Chongyun",
+    "Arataki Itto",
+    "Kuki Shinobu",
+    "Akira",
+    "Genta",
+    "Mamoru",
+    "Faruzan",
+    "Collei",
+    "Cyno",
+    "Navia",
+    "Lynette",
+    "Clorinde",
+    "Lyney",
+    "Furina"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 220000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 8
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 8
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 12
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Equity",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Justice",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Order",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.4"
+}

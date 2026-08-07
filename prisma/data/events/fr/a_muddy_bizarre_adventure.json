@@ -1,0 +1,74 @@
+{
+  "pageTitle": "A Muddy Bizarre Adventure",
+  "name": "Une aventure boueuse bizarre",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "For reasons unknown, some dark mud-like substance has come pouring out of the caverns and mines of The Chasm. Help a Sumeru researcher deal with this crisis.",
+  "timeKnown": true,
+  "startDate": "2022-06-22T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-07-04T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/5513175"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/5529138"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 180000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 4
+        },
+        {
+          "name": "Enseignement de la Diligence",
+          "quantity": 8
+        },
+        {
+          "name": "Enseignement de l'Or",
+          "quantity": 8
+        },
+        {
+          "name": "Enseignement de la Prospérité",
+          "quantity": 8
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Or",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.7"
+}

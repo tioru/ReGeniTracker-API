@@ -1,0 +1,81 @@
+{
+  "pageTitle": "Feline Fortress Furrdyssey",
+  "name": "Feline Fortress Furrdyssey",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Your recent travels have seen you and Paimon encounter all manner of strange creatures, but in light of various factors, Paimon would still like to have some fun with cats. As such, you intend to return to Mondstadt and drop by The Cat's Tail...",
+  "timeKnown": true,
+  "startDate": "2024-04-08T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-04-18T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/26819466"
+    },
+    {
+      "label": "Gameplay Tips",
+      "url": "https://www.hoyolab.com/article/26862668"
+    }
+  ],
+  "featuredCharacters": [
+    "Amber",
+    "Bunny",
+    "Dopey",
+    "Dustball",
+    "Fischl",
+    "Mona",
+    "Razor",
+    "Rosaria",
+    "Snowball",
+    "Valerina",
+    "Ematol",
+    "Oz",
+    "Sir Pouncelot",
+    "Albedo"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 220000
+        },
+        {
+          "name": "Throne of Meower",
+          "quantity": 1
+        },
+        {
+          "name": "Sir Pouncelot (Furnishing)",
+          "quantity": 1
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 21
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.5"
+}

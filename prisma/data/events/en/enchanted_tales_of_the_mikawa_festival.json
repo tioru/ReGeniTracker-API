@@ -1,0 +1,159 @@
+{
+  "pageTitle": "Enchanted Tales of the Mikawa Festival",
+  "name": "Enchanted Tales of the Mikawa Festival",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Mikawa Flower Festival",
+  "description": "One day, you receive a letter from Yae Miko, who you haven't heard from in a long while. Following the instructions laid out therein, you make your way to Tenshukaku in Inazuma to discuss an important, festival-related matter...",
+  "timeKnown": true,
+  "startDate": "2025-02-14T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-03-03T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/37008951"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/37033728"
+    }
+  ],
+  "featuredCharacters": [
+    "Aratani",
+    "Hitomi (Inazuma)",
+    "Inagi Hotomi",
+    "Junkichi",
+    "Kamen",
+    "Masuku",
+    "Shigeru",
+    "Takuya",
+    "Tomoki",
+    "Watanabe",
+    "Yata Kouki",
+    "Yukio"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Tamayuratei no Ohanashi"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 970
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Tamayuratei no Ohanashi",
+          "quantity": 1
+        },
+        {
+          "name": "Smoldering Phosphorescent Flame",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 1020000
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 108
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 15
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 48
+        },
+        {
+          "name": "Guide to Elegance",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Light",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Transience",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophies of Elegance",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophies of Light",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophies of Transience",
+          "quantity": 3
+        },
+        {
+          "name": "Jeweled Branch of a Distant Sea",
+          "quantity": 12
+        },
+        {
+          "name": "Mask of the Tiger's Bite",
+          "quantity": 12
+        },
+        {
+          "name": "Narukami's Joy",
+          "quantity": 12
+        },
+        {
+          "name": "Festive Backdrop: Sweet as Dreams Should Be",
+          "quantity": 1
+        },
+        {
+          "name": "Festive Showcase: Akitsu Harpastum",
+          "quantity": 1
+        },
+        {
+          "name": "Festive Showcase: Bunshin Phantasm",
+          "quantity": 1
+        },
+        {
+          "name": "Festive Showcase: Daydream",
+          "quantity": 1
+        },
+        {
+          "name": "\"Kaboom King\"",
+          "quantity": 1
+        },
+        {
+          "name": "\"Tanuki Game Award\"",
+          "quantity": 1
+        },
+        {
+          "name": "Leafy Dreams",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Festival Stamp",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.4"
+}

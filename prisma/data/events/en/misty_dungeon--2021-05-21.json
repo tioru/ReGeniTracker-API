@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Misty Dungeon/2021-05-21",
+  "name": "Battlefront: Misty Dungeon",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-05-21T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-05-31T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/377249"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/12888"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 180000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 28
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 36
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.5"
+}

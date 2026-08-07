@@ -1,0 +1,76 @@
+{
+  "pageTitle": "Moonlight Merriment/Moonlight Seeker",
+  "name": "Chercheur de lune",
+  "type": "In-Game",
+  "groups": [
+    "Sub"
+  ],
+  "parentEvent": null,
+  "description": "During the Moonchase Festival, the Adventurers' Guild will place Moonchase Charms and Mystmoon Chests across the land. Collect these precious items and obtain the rewards prepared by the Guild.",
+  "timeKnown": true,
+  "startDate": "2021-09-27T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-10-11T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": "Sub Event",
+      "rewards": [
+        {
+          "name": "Mora",
+          "quantity": 160000
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 18
+        },
+        {
+          "name": "Luxurious Sea-Lord",
+          "quantity": 1
+        },
+        {
+          "name": "Emperor's Balsam",
+          "quantity": 2
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 4
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 4
+        },
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Moonchase Charm",
+          "quantity": 70
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.1"
+}

@@ -1,0 +1,131 @@
+{
+  "pageTitle": "Perilous Trail (Event)",
+  "name": "Perilous Trail",
+  "type": "In-Game",
+  "groups": [
+    "Flagship",
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "The Traveler and Paimon come once again to The Chasm to investigate the mysteries of the depths, only to meet an unexpected guest and become embroiled in another crisis...",
+  "timeKnown": true,
+  "startDate": "2022-05-31T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2022-06-20T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/4998732"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/21274"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Fading Twilight"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 990
+        },
+        {
+          "name": "Mora",
+          "quantity": 1260000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 84
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 74
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Fading Twilight",
+          "quantity": 1
+        },
+        {
+          "name": "Glowing Gem",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Veiled Lead Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 15
+        },
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 12
+        },
+        {
+          "name": "Relic from Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 12
+        },
+        {
+          "name": "Bit of Aerosiderite",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 9
+        },
+        {
+          "name": "Philosophies of Prosperity",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 9
+        },
+        {
+          "name": "Philosophies of Diligence",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 9
+        },
+        {
+          "name": "Philosophies of Gold",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Moonlit Cragstone",
+          "quantity": 5760
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.7"
+}

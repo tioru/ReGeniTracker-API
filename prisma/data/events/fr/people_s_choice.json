@@ -1,0 +1,37 @@
+{
+  "pageTitle": "People's Choice",
+  "name": "Voix du peuple",
+  "type": "In-Game",
+  "groups": [
+    "Spiral Abyss",
+    "Indefinite"
+  ],
+  "parentEvent": null,
+  "description": "You know Xiangling, from Wanmin Restaurant? The celebrity chef from Liyue who's always on the lookout for novel ingredients. Well, she was talking about how this underground spiral place must contain a load of goodies you'd never find up here on the surface... It seems she waited till we weren't looking and snuck inside. She's gone deeper than we can get to. So maybe you could bring her back? There's no rush, though, a chef like her would never let herself go hungry.",
+  "timeKnown": true,
+  "startDate": "2020-09-28T10:00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": null,
+  "endDateOffset": null,
+  "isIndefinite": true,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/5719"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Xiangling",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.0"
+}

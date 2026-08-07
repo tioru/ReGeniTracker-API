@@ -1,0 +1,180 @@
+{
+  "pageTitle": "Unreconciled Stars",
+  "name": "Unreconciled Stars",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op",
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "Peculiar meteorites are descending upon Teyvat, bringing a rare sleeping sickness with them. People trapped in deep slumber, mysterious dreams, an unknown star... The crisis draws closer!",
+  "timeKnown": true,
+  "startDate": "2020-11-16T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2020-11-30T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/6751"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/6764"
+    }
+  ],
+  "featuredCharacters": [
+    "Recuperated Victim"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Fischl"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 500
+        },
+        {
+          "name": "Fischl",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 2580000
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 1
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 150
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 150
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 12
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 12
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 12
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 12
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 12
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophies of Freedom",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophies of Resistance",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophies of Ballad",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophies of Prosperity",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophies of Diligence",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophies of Gold",
+          "quantity": 4
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 100
+        },
+        {
+          "name": "Slime Secretions",
+          "quantity": 10
+        },
+        {
+          "name": "Stained Mask",
+          "quantity": 10
+        },
+        {
+          "name": "Sealed Scroll",
+          "quantity": 10
+        },
+        {
+          "name": "Sharp Arrowhead",
+          "quantity": 10
+        },
+        {
+          "name": "Silver Raven Insignia",
+          "quantity": 10
+        },
+        {
+          "name": "Sergeant's Insignia",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "category": "Original Resin",
+      "rewards": []
+    },
+    {
+      "category": "Event Items",
+      "rewards": []
+    }
+  ],
+  "releaseVersion": "1.1"
+}

@@ -1,0 +1,52 @@
+{
+  "pageTitle": "Summer Night Mementos",
+  "name": "Souvenirs du festival d'été",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-08-05T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2021-08-11T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/640969"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210805-yoimiya/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Murakami",
+    "Traveler",
+    "Yoimiya"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.0"
+}

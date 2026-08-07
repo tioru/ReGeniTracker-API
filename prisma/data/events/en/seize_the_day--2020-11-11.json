@@ -1,0 +1,48 @@
+{
+  "pageTitle": "Seize the Day/2020-11-11",
+  "name": "Seize the Day 2020-11-11",
+  "type": "In-Game",
+  "groups": [
+    "Login"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2020-11-11T10:00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": "2020-11-25T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/6534"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 300
+        },
+        {
+          "name": "Mora",
+          "quantity": 50000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 8
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 16
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.1"
+}

@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Saurian Sojourn",
+  "name": "Séjour saurien",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "{{Description |title=30px Saurian Sojourn |Born of remembrance for a bygone companion who once stood by his side, Kweku has made it his mission to share with every tribe the art of joyful kinship with the saurians. Now, he brings his teachings to the Children of Echoes... |Map description",
+  "timeKnown": true,
+  "startDate": "2025-10-24T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-11-03T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/41877259"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 1
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 1
+        },
+        {
+          "name": "Hésitation du cœur sacrificiel flamboyant",
+          "quantity": 1
+        },
+        {
+          "name": "Désolation délirante du seigneur sacré",
+          "quantity": 1
+        },
+        {
+          "name": "Prémonition mystique du vent nocturne",
+          "quantity": 1
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna II"
+}

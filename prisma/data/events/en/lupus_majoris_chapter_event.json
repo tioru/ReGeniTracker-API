@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Lupus Majoris Chapter (Event)",
+  "name": "Lupus Majoris Chapter",
+  "type": "In-Game",
+  "groups": [
+    "Story Quest"
+  ],
+  "parentEvent": null,
+  "description": "Through relentless battles, the calamities that once ravaged the north have been quelled. The fate reflected in the Scryglass seems to have been rewritten, and the hour of the expedition's triumphant return draws near. Yet a frigid wind rises from the abyss, laden with wolf howls and the stench of blood, seeking to bar the knights' path home. This is the final expedition. By the sword shall the knight's way be carved; by the heart shall the knight's vow be sworn.",
+  "timeKnown": true,
+  "startDate": "2026-02-25T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-03-17T17:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/43911909"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 60
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 9
+        },
+        {
+          "name": "Prismatic Severed Tail",
+          "quantity": 6
+        },
+        {
+          "name": "Wolfhook",
+          "quantity": 30
+        },
+        {
+          "name": "Reinforced Drive Shaft",
+          "quantity": 12
+        },
+        {
+          "name": "Broken Drive Shaft",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna V"
+}

@@ -1,0 +1,80 @@
+{
+  "pageTitle": "Adventurer's Trials/2022-11-04",
+  "name": "Épreuves des aventuriers",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "Branch Master Cyrus of the Mondstadt Adventurers' Guild has prepared plenty of training challenges to help hone the minds and bodies of rookie adventurers. Nevertheless, he is not sure how hard these challenges are exactly, or whether those new recruits can actually pass. So, he has entrusted you with the work of testing these trials...",
+  "timeKnown": true,
+  "startDate": "2022-11-04T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-11-21T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/13249651"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/25422"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 140000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 2
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 24
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 2
+        },
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de la Liberté",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de la Résistance",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de la Poésie",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.2"
+}

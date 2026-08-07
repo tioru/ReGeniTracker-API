@@ -1,0 +1,42 @@
+{
+  "pageTitle": "Trial of the Bastion",
+  "name": "Trial of the Bastion",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Talalikhin, an adventurer dedicated to studying dangerous phenomena, has devised a new training simulation after compiling intelligence from various factions. This simulation is engineered to hone adventurers' skills in constructing defensive works and holding the line against formidable foes with firearms.",
+  "timeKnown": true,
+  "startDate": "2026-09-07T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-09-17T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "currency1",
+          "quantity": 0
+        },
+        {
+          "name": "currency2",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "7.0"
+}

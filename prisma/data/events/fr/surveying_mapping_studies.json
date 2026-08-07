@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Surveying & Mapping Studies",
+  "name": "Mesures topographiques et cartographiques",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "{{Description |title = 30px Surveying & Mapping Studies |For the purpose of exchanging surveying and mapping experience and making progress together, Mika from the Reconnaissance Company is working with excellent knights from other squads to conduct an interesting surveying and mapping exercise...",
+  "timeKnown": true,
+  "startDate": "2026-04-10T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-04-20T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/44541722"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 180000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 12
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 24
+        },
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 3
+        },
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 3
+        },
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 3
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 12
+        },
+        {
+          "name": "Balise de calibrage « Chevalier du Croc de Lion »",
+          "quantity": 1
+        },
+        {
+          "name": "Balise de calibrage « Vent du nord invincible »",
+          "quantity": 1
+        },
+        {
+          "name": "Balise de calibrage « Chevalier aux Embruns »",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VI"
+}

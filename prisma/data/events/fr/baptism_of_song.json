@@ -1,0 +1,37 @@
+{
+  "pageTitle": "Baptism of Song",
+  "name": "Hymne fervent",
+  "type": "In-Game",
+  "groups": [
+    "Archon Quest",
+    "Indefinite"
+  ],
+  "parentEvent": null,
+  "description": "Have you heard of Deaconess Barbara? Everyone in Mondstadt loves her. There seems to be something on her mind lately, and no one seems to know what's bothering her. If you happen to meet her by chance, why not stay and have a chat with her? It's up to you to help her smile return!",
+  "timeKnown": true,
+  "startDate": "2020-11-11T14:00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": null,
+  "endDateOffset": null,
+  "isIndefinite": true,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/6536"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Barbara",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.1"
+}

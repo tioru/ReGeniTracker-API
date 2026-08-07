@@ -1,0 +1,84 @@
+{
+  "pageTitle": "Dance Dance Easy-Breezy Disco",
+  "name": "Délire disco décontracté dansant",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "A courier comes bearing good news — another party is about to kick off at Easybreeze Holiday Resort! This time, unexpected new guests will join the rhythmic ensemble and dance joyfully with us!",
+  "timeKnown": true,
+  "startDate": "2026-07-24T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-08-03T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/45955087"
+    }
+  ],
+  "featuredCharacters": [
+    "Paimon",
+    "Enghiene",
+    "Nusta",
+    "Barbara",
+    "Kachina",
+    "Mualani",
+    "Nilou",
+    "Manaia",
+    "Marine",
+    "Moo",
+    "Sedile"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 240000
+        },
+        {
+          "name": "Chapitre d'un accord ancien",
+          "quantity": 6
+        },
+        {
+          "name": "Gobelet à vin de la mer immaculée",
+          "quantity": 6
+        },
+        {
+          "name": "Hésitation du cœur sacrificiel flamboyant",
+          "quantity": 6
+        },
+        {
+          "name": "Désolation délirante du seigneur sacré",
+          "quantity": 6
+        },
+        {
+          "name": "Sublimation de rosée sacrée pure",
+          "quantity": 6
+        },
+        {
+          "name": "Prémonition mystique du vent nocturne",
+          "quantity": 6
+        },
+        {
+          "name": "Panneau de fête « Gemme brillante »",
+          "quantity": 1
+        },
+        {
+          "name": "Panneau de fête « Idole populaire »",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VIII"
+}

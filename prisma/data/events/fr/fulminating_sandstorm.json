@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Fulminating Sandstorm",
+  "name": "Sables vociférants",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "In response to the inexplicable dangers lurking amidst the sands, the Akademiya seeks to repel the threat using machines... You encounter an anxious researcher near Aaru Village...",
+  "timeKnown": true,
+  "startDate": "2023-04-21T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-05-01T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/17813963"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/111134"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 170000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 12
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 30
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 28
+        },
+        {
+          "name": "Astuces du voyageur",
+          "quantity": 16
+        },
+        {
+          "name": "Talisman en fer de la rosée",
+          "quantity": 6
+        },
+        {
+          "name": "Gentillesse du jardin d'oasis",
+          "quantity": 6
+        },
+        {
+          "name": "Éclat subsistant du pouvoir brûlant",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.6"
+}

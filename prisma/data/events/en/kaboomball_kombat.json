@@ -1,0 +1,83 @@
+{
+  "pageTitle": "Kaboomball Kombat",
+  "name": "Kaboomball Kombat",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "The amazing, amusing, ball-launching Dodofortresses have been activated! Use your Dodoguard to reflect and return the Kaboomballs they fire and defeat them in Kaboomball Kombat!",
+  "timeKnown": true,
+  "startDate": "2021-07-02T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-07-12T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/503383"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/503422"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 160000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 12
+        },
+        {
+          "name": "Celebration: Kaboomball",
+          "quantity": 1
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Enigma Gear",
+          "quantity": 4200
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.6"
+}

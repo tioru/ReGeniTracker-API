@@ -1,0 +1,90 @@
+{
+  "pageTitle": "While It's Warm",
+  "name": "While It's Warm",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2020-12-11T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2020-12-18T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/7219"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/7244"
+    }
+  ],
+  "featuredCharacters": [
+    "Chef Mao",
+    "Curious Zi'rui",
+    "Hardworking Silio",
+    "Laid Back Ling'guan",
+    "Paimon",
+    "Sara",
+    "Short-Tempered Wallit",
+    "Slacking Angelo",
+    "Smiley Yanxiao",
+    "Tacit Tingfang",
+    "Traveler"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 490000
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 28
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 14
+        },
+        {
+          "name": "Valberry",
+          "quantity": 3
+        },
+        {
+          "name": "Philanemo Mushroom",
+          "quantity": 3
+        },
+        {
+          "name": "Violetgrass",
+          "quantity": 3
+        },
+        {
+          "name": "Cor Lapis",
+          "quantity": 3
+        },
+        {
+          "name": "Jueyun Chili",
+          "quantity": 3
+        },
+        {
+          "name": "Windwheel Aster",
+          "quantity": 3
+        },
+        {
+          "name": "Glaze Lily",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.1"
+}

@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Lunar Realm",
+  "name": "Royaume lunaire",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "An Inazuman fisherwoman, Kujirai Momiji, has always wanted to catch a legendary great fish called the \"Lunar Leviathan.\" She plans to assemble all her old friends and embark on a journey to find it &mdash; and she invites you to join her. Will she attain her wish this time?",
+  "timeKnown": true,
+  "startDate": "2021-09-10T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-09-20T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/15386"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/15743"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 380000
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 7
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 30
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 22
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 20
+        },
+        {
+          "name": "Pêchelune",
+          "quantity": 1
+        },
+        {
+          "name": "Séléneau (Ornemental)",
+          "quantity": 5
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.1"
+}

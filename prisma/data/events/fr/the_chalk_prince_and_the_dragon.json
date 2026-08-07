@@ -1,0 +1,110 @@
+{
+  "pageTitle": "The Chalk Prince and the Dragon",
+  "name": "Craie et Dragon",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op",
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "Everything was proceeding smoothly, until the unexpected happened... Your adventure across Dragonspine begins!",
+  "timeKnown": true,
+  "startDate": "2020-12-23T14:00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": "2021-01-05T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/7487"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/7624"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Festering Desire"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 660
+        },
+        {
+          "name": "Mora",
+          "quantity": 1340000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Croc suppurant",
+          "quantity": 1
+        },
+        {
+          "name": "Moelle de dragon infecté",
+          "quantity": 4
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 60
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 20
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 180
+        },
+        {
+          "name": "Corne lourde",
+          "quantity": 15
+        },
+        {
+          "name": "Insigne de nouvelle recrue",
+          "quantity": 10
+        },
+        {
+          "name": "Entraves du Chevalier du Croc de Lion",
+          "quantity": 3
+        },
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 9
+        },
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 6
+        },
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Mercure karstique",
+          "quantity": 6
+        },
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.2"
+}

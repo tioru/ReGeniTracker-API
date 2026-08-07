@@ -1,0 +1,45 @@
+{
+  "pageTitle": "Shadows Amidst Snowstorms",
+  "name": "Ombres au cœur du blizzard",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "Paimon has an odd thought and drags you off to the Mondstadt alchemy shop to seek answers...",
+  "timeKnown": true,
+  "startDate": "2021-11-25T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-12-13T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17274"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17233"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Cinnabar Spindle"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "delim = ;",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.3"
+}

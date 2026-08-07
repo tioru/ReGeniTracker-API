@@ -1,0 +1,56 @@
+{
+  "pageTitle": "A Traveler on a Winter's Night (Event)",
+  "name": "A Traveler on a Winter's Night",
+  "type": "In-Game",
+  "groups": [
+    "Archon Quest"
+  ],
+  "parentEvent": null,
+  "description": "The moon's light dims, obscured by thick clouds gathering across the Nod-Krai sky — clouds shaped by conspiracy... Where the false and the real intertwine, a battle for the fate of your companions and Nod-Krai has already begun... Will that true moonlight ever return to the land of its home?",
+  "timeKnown": true,
+  "startDate": "2026-01-14T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-02-24T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/43195152"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 560
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 9
+        },
+        {
+          "name": "Radiant Antler",
+          "quantity": 6
+        },
+        {
+          "name": "Winter Icelea",
+          "quantity": 30
+        },
+        {
+          "name": "Slime Secretions",
+          "quantity": 12
+        },
+        {
+          "name": "Slime Condensate",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna IV"
+}

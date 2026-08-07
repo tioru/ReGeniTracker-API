@@ -1,0 +1,75 @@
+{
+  "pageTitle": "Lunar Realm",
+  "name": "Lunar Realm",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "An Inazuman fisherwoman, Kujirai Momiji, has always wanted to catch a legendary great fish called the \"Lunar Leviathan.\" She plans to assemble all her old friends and embark on a journey to find it &mdash; and she invites you to join her. Will she attain her wish this time?",
+  "timeKnown": true,
+  "startDate": "2021-09-10T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-09-20T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/15386"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/15743"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 380000
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 30
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 7
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 22
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 20
+        },
+        {
+          "name": "Moonstringer",
+          "quantity": 1
+        },
+        {
+          "name": "Ornamental Moonfin",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Glowgrass Bait",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.1"
+}

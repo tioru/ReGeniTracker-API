@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Dodoco's Boom-Bastic Escapades",
+  "name": "Dodoco's Boom-Bastic Escapades",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "While visiting Mondstadt's gardens, you and Paimon discover a novel tabletop game featuring the adorable lively Dodoco..",
+  "timeKnown": true,
+  "startDate": "2024-09-09T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-09-23T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/33001020"
+    },
+    {
+      "label": "Event Tips",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/125755"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 120000
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 18
+        },
+        {
+          "name": "Fine Enhancement Ore",
+          "quantity": 18
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 6
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 6
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.0"
+}

@@ -1,0 +1,63 @@
+{
+  "pageTitle": "Hues of the Violet Garden/Theater Mechanicus",
+  "name": "Théâtre mécanique/09.04.2022",
+  "type": "In-Game",
+  "groups": [
+    "Sub"
+  ],
+  "parentEvent": "Theater Mechanicus",
+  "description": "Inazuma's Komakata is promoting the latest version of Theater Mechanicus during the Irodori Festival...",
+  "timeKnown": true,
+  "startDate": "2022-04-09T04:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-04-25T03:59:00",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 160000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 24
+        },
+        {
+          "name": "Astuces du voyageur",
+          "quantity": 4
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 2
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 24
+        },
+        {
+          "name": "Guide de l'Élégance",
+          "quantity": 16
+        },
+        {
+          "name": "Guide de la Lumière",
+          "quantity": 16
+        },
+        {
+          "name": "Guide de l'Éphémère",
+          "quantity": 16
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.6"
+}

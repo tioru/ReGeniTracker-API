@@ -1,0 +1,204 @@
+{
+  "pageTitle": "Of Ballads and Brews",
+  "name": "Ballades et ambroisies",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Weinlesefest",
+  "description": "The harvest season is coming soon, and all of Mondstadt is abuzz with preparations for Weinlesefest. You and Paimon have also returned here on account of a commission from the Adventurers' Guild...",
+  "timeKnown": true,
+  "startDate": "2022-09-29T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-10-17T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/9331346"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/9402660"
+    }
+  ],
+  "featuredCharacters": [
+    "Clemens",
+    "Leah"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Missive Windspear"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 1000
+        },
+        {
+          "name": "Mora",
+          "quantity": 1240000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Lance du vent saisonnier",
+          "quantity": 1
+        },
+        {
+          "name": "Panache des vents changeants",
+          "quantity": 4
+        },
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 19
+        },
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 19
+        },
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 19
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 5
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 5
+        },
+        {
+          "name": "Philosophie de la Poésie",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophie de la Liberté",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophie de la Résistance",
+          "quantity": 5
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 3
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de jade shivada*2Leçons du héros",
+          "quantity": 40
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 20
+        },
+        {
+          "name": "Astuces du voyageur",
+          "quantity": 40
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 25
+        },
+        {
+          "name": "Bidules favoniens",
+          "quantity": 1
+        },
+        {
+          "name": "Charpente « Rouge tombaie »",
+          "quantity": 1
+        },
+        {
+          "name": "Charpente « Vert pissenlit »",
+          "quantity": 1
+        },
+        {
+          "name": "Charpente « Bleu de cidre »",
+          "quantity": 1
+        },
+        {
+          "name": "Devanture « Et bon appétit ! »",
+          "quantity": 1
+        },
+        {
+          "name": "Devanture « Promo imbattable »",
+          "quantity": 1
+        },
+        {
+          "name": "Devanture « Un parfum puissant »",
+          "quantity": 1
+        },
+        {
+          "name": "Accessoire paysager « Adéquatement sucré »",
+          "quantity": 1
+        },
+        {
+          "name": "Accessoire paysager « Cadeau surprise »",
+          "quantity": 1
+        },
+        {
+          "name": "Accessoire paysager « Arôme vif »",
+          "quantity": 1
+        },
+        {
+          "name": "Ornement « Saveur visible »",
+          "quantity": 1
+        },
+        {
+          "name": "Ornement « File ordonnée »",
+          "quantity": 1
+        },
+        {
+          "name": "Ornement « Oisillon serveur »",
+          "quantity": 1
+        },
+        {
+          "name": "Ornement « Juste une bouchée »",
+          "quantity": 1
+        },
+        {
+          "name": "Ornement « Panier de senteurs »",
+          "quantity": 1
+        },
+        {
+          "name": "Ornement « Bienvenue »",
+          "quantity": 1
+        },
+        {
+          "name": "Recette : Jus de fruits du festival",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.1"
+}

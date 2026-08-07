@@ -1,0 +1,43 @@
+{
+  "pageTitle": "May Fortune Find You/2021-02-11",
+  "name": "Richesses honorables/11.02.2021",
+  "type": "In-Game",
+  "groups": [
+    "Login"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-02-11T04:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-02-26T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Pierre de la fatalité",
+          "quantity": 10
+        },
+        {
+          "name": "Mora",
+          "quantity": 80000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 8
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.3"
+}

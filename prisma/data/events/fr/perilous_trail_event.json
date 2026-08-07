@@ -1,0 +1,126 @@
+{
+  "pageTitle": "Perilous Trail (Event)",
+  "name": "Sentier périlleux",
+  "type": "In-Game",
+  "groups": [
+    "Flagship",
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "The Traveler and Paimon come once again to The Chasm to investigate the mysteries of the depths, only to meet an unexpected guest and become embroiled in another crisis...",
+  "timeKnown": true,
+  "startDate": "2022-05-31T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2022-06-20T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/4998732"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/21274"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Fading Twilight"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 990
+        },
+        {
+          "name": "Mora",
+          "quantity": 1260000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 84
+        },
+        {
+          "name": "Plomb karstique",
+          "quantity": 3
+        },
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Mercure karstique",
+          "quantity": 6
+        },
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 6
+        },
+        {
+          "name": "Argent karstique",
+          "quantity": 4
+        },
+        {
+          "name": "Squelette sacré de Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment d'aérosidérite noire",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 9
+        },
+        {
+          "name": "Guide de l'Or",
+          "quantity": 9
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 9
+        },
+        {
+          "name": "Philosophie de la Diligence",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophie de l'Or",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophie de la Prospérité",
+          "quantity": 3
+        },
+        {
+          "name": "Crépuscule couchant",
+          "quantity": 1
+        },
+        {
+          "name": "Gemme lumineuse",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.7"
+}

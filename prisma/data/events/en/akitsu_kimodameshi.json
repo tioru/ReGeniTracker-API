@@ -1,0 +1,131 @@
+{
+  "pageTitle": "Akitsu Kimodameshi",
+  "name": "Akitsu Kimodameshi",
+  "type": "In-Game",
+  "groups": [
+    "Flagship",
+    "Co-Op"
+  ],
+  "parentEvent": "Mikawa Flower Festival",
+  "description": "The ever-well-informed Paimon has caught wind of a exciting new event hosted by the Yashiro Commission called the \"Test of Courage.\" Experience new amusements and win awesome rewards before it's too late.",
+  "timeKnown": true,
+  "startDate": "2022-12-15T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-01-02T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/14330068"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/14363755"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Toukabou Shigure"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 990
+        },
+        {
+          "name": "Mora",
+          "quantity": 1840000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 48
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 122
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Toukabou Shigure",
+          "quantity": 1
+        },
+        {
+          "name": "Parasol Talcum",
+          "quantity": 4
+        },
+        {
+          "name": "Kimodameshi Vivaciousness",
+          "quantity": 1
+        },
+        {
+          "name": "Jeweled Branch of a Distant Sea",
+          "quantity": 12
+        },
+        {
+          "name": "Jade Branch of a Distant Sea",
+          "quantity": 4
+        },
+        {
+          "name": "Narukami's Joy",
+          "quantity": 12
+        },
+        {
+          "name": "Narukami's Affection",
+          "quantity": 4
+        },
+        {
+          "name": "Mask of the Tiger's Bite",
+          "quantity": 12
+        },
+        {
+          "name": "Mask of the One-Horned",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Transience",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Transience",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Elegance",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Elegance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Light",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Light",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Courage Test Ticket",
+          "quantity": 5580
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.3"
+}

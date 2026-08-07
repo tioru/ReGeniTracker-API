@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Sightseeing With Friends",
+  "name": "Sightseeing With Friends",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "{{Description |title = 30px Sightseeing With Friends |The two of you run into several familiar faces at Bayda Harbor in Sumeru. And so, a rather special sightseeing journey begins...",
+  "timeKnown": true,
+  "startDate": "2026-03-16T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-03-26T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/44179332"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 230000
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 28
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 30
+        },
+        {
+          "name": "Fine Enhancement Ore",
+          "quantity": 15
+        },
+        {
+          "name": "Guide to Admonition",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Conflict",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Contention",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Ingenuity",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Kindling",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Praxis",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna V"
+}

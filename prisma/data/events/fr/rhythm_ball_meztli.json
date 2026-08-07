@@ -1,0 +1,64 @@
+{
+  "pageTitle": "Rhythm Ball Meztli",
+  "name": "Balles en rythme : Meztlis",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "One day, you and Paimon receive an enthusiastic invitation from Mualani to attend a new \"music party' at the People of the Springs...",
+  "timeKnown": true,
+  "startDate": "2025-04-28T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-05-06T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/38438084"
+    }
+  ],
+  "featuredCharacters": [
+    "Rhythmos"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 120000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 12
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 24
+        },
+        {
+          "name": "Guide de la Compétition",
+          "quantity": 6
+        },
+        {
+          "name": "Guide du Petit bois",
+          "quantity": 6
+        },
+        {
+          "name": "Guide du Conflit",
+          "quantity": 6
+        },
+        {
+          "name": "Fusion à profusion : Sélections de remix DJ",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.5"
+}

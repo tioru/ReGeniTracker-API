@@ -1,0 +1,157 @@
+{
+  "pageTitle": "Moonlight Merriment",
+  "name": "Liesse au clair de lune",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Moonchase Festival",
+  "description": "The autumn moon shines bright, and Liyue Harbor is hard at work preparing for the traditional Moonchase Festival. The preparations for various activities based on the festival's theme are well underway.",
+  "timeKnown": true,
+  "startDate": "2021-09-27T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-10-11T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/15384"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16129"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Luxurious Sea-Lord"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 920
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 700000
+        },
+        {
+          "name": "Illustre seigneur des mers",
+          "quantity": 1
+        },
+        {
+          "name": "Baume de l'Empereur",
+          "quantity": 4
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 18
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Recette : Wotou aux épices",
+          "quantity": 1
+        },
+        {
+          "name": "Recette : Tofu oncidium",
+          "quantity": 1
+        },
+        {
+          "name": "Recette : Pudding de riz",
+          "quantity": 1
+        },
+        {
+          "name": "Recette : Viande braisée",
+          "quantity": 1
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Or",
+          "quantity": 2
+        },
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 4
+        },
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 4
+        },
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 4
+        },
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Mercure karstique",
+          "quantity": 4
+        },
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.1"
+}

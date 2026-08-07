@@ -1,0 +1,31 @@
+{
+  "pageTitle": "When Flowers Bloom (Event)",
+  "name": "Le temps des fleurs",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2022-03-25T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2022-03-30T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Event Page",
+      "url": "https://webstatic-sea.hoyoverse.com/ys/event/e20220325-ayato-c0xp/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Furuta",
+    "Kamisato Ayaka",
+    "Kamisato Ayato",
+    "Thoma"
+  ],
+  "specialReward": null,
+  "rewardGroups": [],
+  "releaseVersion": "2.5"
+}

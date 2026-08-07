@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Tracing Vanishing Trails",
+  "name": "Tracing Vanishing Trails",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Summer is here, and on your way to Yilong Wharf for tea, you and Paimon run into Yelan. It's not long before you find yourselves embroiled in a special case...",
+  "timeKnown": true,
+  "startDate": "2025-08-14T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-08-25T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40504129"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 180000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 6
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 12
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Equity",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Justice",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Order",
+          "quantity": 4
+        },
+        {
+          "name": "Keepsake Photo With Yelan",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.8"
+}

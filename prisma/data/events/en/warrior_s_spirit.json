@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Warrior's Spirit",
+  "name": "Warrior's Spirit",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "The capacity to bear the weight of charity and mercy; the capability to wield both blade and might. Such is the first precept of the Warrior's Spirit. Yet, with the shifting of ages, past and present have begun to drift. In the same fashion, the Warrior Spirit event of today bears changes as well...",
+  "timeKnown": true,
+  "startDate": "2023-02-09T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-02-20T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/15074939"
+    }
+  ],
+  "featuredCharacters": [
+    "Reina",
+    "Younan",
+    "Sae",
+    "Matsumae",
+    "Ibuki",
+    "Maguu Kengou"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 300000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 20
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 24
+        },
+        {
+          "name": "Jeweled Branch of a Distant Sea",
+          "quantity": 4
+        },
+        {
+          "name": "Narukami's Joy",
+          "quantity": 4
+        },
+        {
+          "name": "Mask of the Tiger's Bite",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Transience",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Elegance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Light",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.4"
+}

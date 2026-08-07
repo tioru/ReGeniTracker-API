@@ -1,0 +1,65 @@
+{
+  "pageTitle": "The Great Banquet of the Adepti",
+  "name": "Festin des Adeptes",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2022-01-28T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2022-02-06T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/19047"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20220128lantern/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Chubby",
+    "Xianyun",
+    "Ganyu",
+    "Guoba",
+    "Madame Ping",
+    "Moon Carver",
+    "Mountain Shaper",
+    "Paimon",
+    "Shenhe",
+    "Traveler",
+    "Tubby",
+    "Xiao",
+    "Yanfei",
+    "Zhongli"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 120
+        },
+        {
+          "name": "Mora",
+          "quantity": 70000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 10
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 10
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.4"
+}

@@ -1,0 +1,49 @@
+{
+  "pageTitle": "May Fortune Find You/2026-01-16",
+  "name": "Richesses honorables/16.01.2026",
+  "type": "In-Game",
+  "groups": [
+    "Login",
+    "Mail"
+  ],
+  "parentEvent": "Lantern Rite Gifts",
+  "description": "Happy Lantern Rite, Traveler! Your New Year's gifts are ready — let's open them up and take a look! Log in and claim in Mail to receive a total of Intertwined Fate ×10 and Primogems ×1,600, alongside other rewards!",
+  "timeKnown": true,
+  "startDate": "2026-01-16T04:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-02-24T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/43225050"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Pierre de la fatalité",
+          "quantity": 10
+        },
+        {
+          "name": "Mora",
+          "quantity": 80000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 8
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna IV"
+}

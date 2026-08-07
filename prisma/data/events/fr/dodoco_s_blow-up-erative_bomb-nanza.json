@@ -1,0 +1,80 @@
+{
+  "pageTitle": "Dodoco's Blow-Up-Erative Bomb-Nanza",
+  "name": "Bastonnade bombastique de Dodoco",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "As you pass by a garden in Mondstadt, you and Paimon run into an enthusiastic adventurer. Following her recommendation, you try out a familiar yet novel tabletop game...",
+  "timeKnown": true,
+  "startDate": "2025-09-29T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-10-13T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/41376249"
+    }
+  ],
+  "featuredCharacters": [
+    "Valerina",
+    "Ematol",
+    "Phonia"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 150000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 24
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 3
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 3
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 3
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 12
+        },
+        {
+          "name": "Éclair radieux de Dodoco",
+          "quantity": 1
+        },
+        {
+          "name": "Magie merveilleuse de Dodoco",
+          "quantity": 1
+        },
+        {
+          "name": "Étincelles explosives de Dodoco",
+          "quantity": 1
+        },
+        {
+          "name": "Chevalier intrépide de Dodoco",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna I"
+}

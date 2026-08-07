@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Rhythm Ball Meztli",
+  "name": "Rhythm Ball Meztli",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "One day, you and Paimon receive an enthusiastic invitation from Mualani to attend a new \"music party' at the People of the Springs...",
+  "timeKnown": true,
+  "startDate": "2025-04-28T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-05-06T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/38438084"
+    }
+  ],
+  "featuredCharacters": [
+    "Rhythmos"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 160000
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 24
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 16
+        },
+        {
+          "name": "Guide to Contention",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Kindling",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Conflict",
+          "quantity": 6
+        },
+        {
+          "name": "Fusion Profusion: DJ Remix Selections",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "currency1",
+          "quantity": 0
+        },
+        {
+          "name": "currency2",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.5"
+}

@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Sunspray Summer Resort (Event)",
+  "name": "Été de plomb à la station",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "The sea breeze wipes away glistening sweat. Summer is the perfect season for adventure and a journey that unfolds accompanied by the scorching sun. Tenochtzitoc, a name unfamiliar until now, is destined to become a stroke of warm color in your memory.",
+  "timeKnown": true,
+  "startDate": "2025-07-30T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-08-18T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40226688"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/40273547"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Flame-Forged Insight"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 1000
+        },
+        {
+          "name": "Aventures en flamboyantes couleurs",
+          "quantity": 1
+        },
+        {
+          "name": "Perception forgée par les flammes",
+          "quantity": 1
+        },
+        {
+          "name": "Moelle cristalline du vagabond",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.8"
+}

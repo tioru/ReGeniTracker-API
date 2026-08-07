@@ -1,0 +1,199 @@
+{
+  "pageTitle": "A Parade of Providence",
+  "name": "Célébration de la providence",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "Being a momentous celebration for the Akademiya, this year's Akademiya Extravaganza is extra lively. With competitions and amusements aplenty, meet with people from all across Teyvat and join in a time of revelry.",
+  "timeKnown": true,
+  "startDate": "2023-04-27T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-05-15T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/17950597"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/111241"
+    }
+  ],
+  "featuredCharacters": [
+    "Aarav",
+    "Aissa",
+    "Alae",
+    "Alhaitham",
+    "Amur",
+    "Aymar",
+    "Bahador",
+    "Bahar",
+    "Bahir",
+    "Candace",
+    "Collei",
+    "Cyno",
+    "Daneh",
+    "Daya",
+    "Dehya",
+    "Dori",
+    "Farbal",
+    "Faruzan",
+    "Fawara",
+    "Ganjul",
+    "Habib",
+    "Haryadi",
+    "Huvishka",
+    "Huwa",
+    "Jiwani",
+    "Kareena",
+    "Kashmer",
+    "Kaveh",
+    "Layla",
+    "Levi",
+    "Mahar",
+    "Marwa",
+    "Mazaar",
+    "Mehrak",
+    "Morgiana",
+    "Nahida",
+    "Nilou",
+    "Paimon",
+    "Paz",
+    "Qamar",
+    "Rishti",
+    "Sachin",
+    "Sidra",
+    "Suhayb",
+    "Tighnari",
+    "Traveler",
+    "Vasudeva",
+    "Wanderer",
+    "Wiqas"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Faruzan"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 970
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Faruzan",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 980000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 54
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 44
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 48
+        },
+        {
+          "name": "Guide de l'Admonestation",
+          "quantity": 26
+        },
+        {
+          "name": "Guide de l'Ingénuité",
+          "quantity": 26
+        },
+        {
+          "name": "Guide de l'Usage",
+          "quantity": 26
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'émeraude nagadus",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 6
+        },
+        {
+          "name": "Grande scène du Festival académique",
+          "quantity": 1
+        },
+        {
+          "name": "Duo en spirale",
+          "quantity": 1
+        },
+        {
+          "name": "Anti-frustrations mensuelles",
+          "quantity": 1
+        },
+        {
+          "name": "Bannière du Vahumana",
+          "quantity": 1
+        },
+        {
+          "name": "Bannière du Spantamad",
+          "quantity": 1
+        },
+        {
+          "name": "Bannière de l'Haravatat",
+          "quantity": 1
+        },
+        {
+          "name": "Bannière de l'Amurta",
+          "quantity": 1
+        },
+        {
+          "name": "Bannière du Rtawahist",
+          "quantity": 1
+        },
+        {
+          "name": "Bannière du Kshahrewar",
+          "quantity": 1
+        },
+        {
+          "name": "« Omnidirecteur »",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.6"
+}

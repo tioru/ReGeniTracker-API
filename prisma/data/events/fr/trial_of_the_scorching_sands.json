@@ -1,0 +1,54 @@
+{
+  "pageTitle": "Trial of the Scorching Sands",
+  "name": "Épreuve du sable brûlant",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": "Thorough preparation is required before entering the desert, or else the blazing sun will burn away all weak-willed souls. But at the same time, the sun's golden rays are capable of reaching into every corner and revealing the shadowy tracks of anyone up to no good.",
+  "timeKnown": true,
+  "startDate": "2022-09-23T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2022-09-28T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/24047"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20220923cyno/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Cyno"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.0"
+}

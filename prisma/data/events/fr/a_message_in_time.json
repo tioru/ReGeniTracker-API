@@ -1,0 +1,34 @@
+{
+  "pageTitle": "A Message in Time",
+  "name": "Des mots qui persistent",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Time flies, we are already celebrating the first anniversary of Genshin Impact! On this memorable day, we have also prepared gifts for everyone! Participate in the event to make your own personalized anniversary card and you will have the chance to win the Blessing of the Welkin Moon prize~",
+  "timeKnown": true,
+  "startDate": "2021-09-29T00:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2021-10-07T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Event Page",
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210930card/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Faveur de l'astre de la nuit",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.1"
+}

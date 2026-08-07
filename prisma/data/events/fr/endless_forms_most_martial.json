@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Endless Forms Most Martial",
+  "name": "Formes infinies les plus martiales",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "The battlefield is constantly changing and never static. Only by grasping new opportunities as they arise can victory be guaranteed. Set up a suitable party based on the special characteristics and effects present, using the advantages they grant to secure your triumph!",
+  "timeKnown": true,
+  "startDate": "2024-06-25T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-07-01T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/30192615"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/124223"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 160000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 24
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 24
+        },
+        {
+          "name": "Minerai de renforcement raffiné",
+          "quantity": 48
+        },
+        {
+          "name": "Guide de l'Équité",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Justice",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Ordre",
+          "quantity": 4
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.7"
+}

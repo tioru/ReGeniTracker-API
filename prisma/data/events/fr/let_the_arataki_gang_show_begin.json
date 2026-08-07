@@ -1,0 +1,52 @@
+{
+  "pageTitle": "Let the Arataki Gang Show Begin!",
+  "name": "Lever de rideau sur le gang Arataki !",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-12-09T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2021-12-13T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17569"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20211208itto/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.3"
+}

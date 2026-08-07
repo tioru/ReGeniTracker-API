@@ -1,0 +1,36 @@
+{
+  "pageTitle": "The Rainbow Destined to Burn (Event)",
+  "name": "The Rainbow Destined to Burn",
+  "type": "In-Game",
+  "groups": [
+    "Archon Quest"
+  ],
+  "parentEvent": null,
+  "description": "The nation of Saurians beckons &mdash; an all-new odyssey is about to begin. New adventures, new encounters, and a vast world that keeps unfurling like a neverending scroll. Standing silently in the midst of that strange land, the Stadium of the Sacred Flame awaits the arrival of heroes...",
+  "timeKnown": true,
+  "startDate": "2024-10-09T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-11-19T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/34010544"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 500
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.1"
+}

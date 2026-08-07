@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Fulminating Sandstorm",
+  "name": "Fulminating Sandstorm",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "In response to the inexplicable dangers lurking amidst the sands, the Akademiya seeks to repel the threat using machines... You encounter an anxious researcher near Aaru Village...",
+  "timeKnown": true,
+  "startDate": "2023-04-21T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-05-01T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/17813963"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/111134"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 160000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 30
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 26
+        },
+        {
+          "name": "Wanderer's Advice",
+          "quantity": 20
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 12
+        },
+        {
+          "name": "Iron Talisman of the Forest Dew",
+          "quantity": 6
+        },
+        {
+          "name": "Oasis Garden's Kindness",
+          "quantity": 6
+        },
+        {
+          "name": "Remnant Glow of Scorching Might",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.6"
+}

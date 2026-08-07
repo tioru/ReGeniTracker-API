@@ -1,0 +1,117 @@
+{
+  "pageTitle": "Labyrinth Warriors",
+  "name": "Guerrier du labyrinthe",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "The great gates of the bizarre and unpredictable Mystic Onmyou Chamber imprison fierce monsters within them. Venture deep into this Domain by yourself and conquer the many perils within, assisting Shiki Taishou to retrieve the fragments of his memories, and you will be able to explore the past that has been sealed within the Domain &mdash; and obtain its various treasures in the meantime.",
+  "timeKnown": true,
+  "startDate": "2021-10-21T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-11-08T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16566"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16582"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Xinyan"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 930
+        },
+        {
+          "name": "Mora",
+          "quantity": 620000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Xinyan",
+          "quantity": 1
+        },
+        {
+          "name": "Shiki Koshou",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 62
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 20
+        },
+        {
+          "name": "Guide de l'Éphémère",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de l'Éphémère",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Élégance",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de l'Élégance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Lumière",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Lumière",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.2"
+}

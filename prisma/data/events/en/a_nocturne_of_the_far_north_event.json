@@ -1,0 +1,36 @@
+{
+  "pageTitle": "A Nocturne of the Far North (Event)",
+  "name": "A Nocturne of the Far North",
+  "type": "In-Game",
+  "groups": [
+    "Archon Quest"
+  ],
+  "parentEvent": null,
+  "description": "The Wild Hunt vanishes, chaos subsides, and the boughs of the Verdant Crest fill out quietly with life. The Moon-Prayer Night, the night when the moon draws closest to Teyvat, is drawing near. For a land and people long fractured, there is no better balm than a delightful night of celebration. So why don't you and I step out together into this night of joy and laughter, amidst the blooming flowers bathed in the light of the moon?",
+  "timeKnown": true,
+  "startDate": "2025-12-03T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-01-13T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/42564003"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 500
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna III"
+}

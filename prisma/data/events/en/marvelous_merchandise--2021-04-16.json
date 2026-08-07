@@ -1,0 +1,52 @@
+{
+  "pageTitle": "Marvelous Merchandise/2021-04-16",
+  "name": "Marvelous Merchandise 2021-04-16",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-04-16T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-04-23T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/295568"
+    }
+  ],
+  "featuredCharacters": [
+    "Liben"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 380
+        },
+        {
+          "name": "Mora",
+          "quantity": 50000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 3
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "category": null,
+      "rewards": []
+    }
+  ],
+  "releaseVersion": "1.4"
+}

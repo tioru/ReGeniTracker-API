@@ -1,0 +1,68 @@
+{
+  "pageTitle": "Night Sky's Grace",
+  "name": "Night Sky's Grace",
+  "type": "In-Game",
+  "groups": [
+    "Login",
+    "Mail"
+  ],
+  "parentEvent": "Lantern Rite Gifts",
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-02-26T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-03-17T05:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Intertwined Fate",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 50000
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 2
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 10
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 20
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 3
+        },
+        {
+          "name": "Golden Crab",
+          "quantity": 5
+        },
+        {
+          "name": "Tianshu Meat",
+          "quantity": 5
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.3"
+}

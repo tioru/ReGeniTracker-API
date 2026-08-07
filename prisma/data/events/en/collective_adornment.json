@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Collective Adornment",
+  "name": "Collective Adornment",
+  "type": "Web",
+  "groups": [
+    "Submission"
+  ],
+  "parentEvent": null,
+  "description": "Dear Traveler, Come choose a Commemorative Avatar Frame to celebrate Genshin Impact's 4th Anniversary~",
+  "timeKnown": true,
+  "startDate": "2024-10-05T14:00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": "2024-10-12T23:59:59",
+  "endDateOffset": "UTC+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126153"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20241005avatar-maker-wvcx1g/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Intertwined Fate",
+          "quantity": 10
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.0"
+}

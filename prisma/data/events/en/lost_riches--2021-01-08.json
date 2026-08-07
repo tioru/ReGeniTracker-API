@@ -1,0 +1,84 @@
+{
+  "pageTitle": "Lost Riches/2021-01-08",
+  "name": "Lost Riches 2021-01-08",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Not long ago, Ulman was the partner of a Treasure-Seeking Seelie, but for reasons unknown, the Seelie suddenly stopped responding to him. However, this Seelie seems to be quite interested in the Traveler. Perhaps you can become its new treasure-hunting partner... Follow the clues in the Treasure Book to discover some hidden riches.",
+  "timeKnown": true,
+  "startDate": "2021-01-08T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-01-18T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/7785"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/7846"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 570000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 46
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 4
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 32
+        }
+      ]
+    },
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Mini Seelie: Dayflower",
+          "quantity": 1
+        },
+        {
+          "name": "Mini Seelie: Rosé",
+          "quantity": 1
+        },
+        {
+          "name": "Mini Seelie: Curcuma",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Treasure-Seeking Seelie",
+          "quantity": 1
+        },
+        {
+          "name": "Iron Coin",
+          "quantity": 840
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.2"
+}

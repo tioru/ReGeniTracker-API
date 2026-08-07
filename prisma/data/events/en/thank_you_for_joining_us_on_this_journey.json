@@ -1,0 +1,41 @@
+{
+  "pageTitle": "Thank You for Joining Us On This Journey",
+  "name": "Thank You for Joining Us On This Journey",
+  "type": "In-Game",
+  "groups": [
+    "Mail",
+    "Celebration"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2020-09-29T12:00:00",
+  "startDateOffset": null,
+  "endDate": "2020-11-11T06:00:00",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/5802"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Intertwined Fate",
+          "quantity": 10
+        },
+        {
+          "name": "Primogem",
+          "quantity": 1760
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.0"
+}

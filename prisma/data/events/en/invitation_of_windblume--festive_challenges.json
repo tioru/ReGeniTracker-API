@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Invitation of Windblume/Festive Challenges",
+  "name": "Festive Challenges",
+  "type": "In-Game",
+  "groups": [
+    "Sub",
+    "Rhythm Game"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-03-19T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-04-05T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 360
+        },
+        {
+          "name": "Mora",
+          "quantity": 240000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 24
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Festive Tour Ticket",
+          "quantity": 2400
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.4"
+}

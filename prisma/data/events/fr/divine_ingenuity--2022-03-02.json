@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Divine Ingenuity/2022-03-02",
+  "name": "Ingéniosité divine/02.03.2022",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "The Adventure's Guild has discovered a strange Domain in the outskirts of Liyue. This Domain seems to change based on the will of the people within it. At their request, you enter this Domain to begin investigating...",
+  "timeKnown": true,
+  "startDate": "2022-03-02T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-03-21T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/19367"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/19754"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 370000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 19
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 30
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 3
+        },
+        {
+          "name": "Guide de l'Or",
+          "quantity": 3
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 3
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 8
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.5"
+}

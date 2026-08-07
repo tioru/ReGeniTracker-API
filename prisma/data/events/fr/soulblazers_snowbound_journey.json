@@ -1,0 +1,120 @@
+{
+  "pageTitle": "Soulblazers' Snowbound Journey",
+  "name": "Périple enneigé des âmes embrasées",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "From the invitation letter, you and Paimon learn that a unique event is being held in Mondstadt: The Dragonspine International Cross Country Challenge. The two of you decide to go back and look in on the competition...",
+  "timeKnown": true,
+  "startDate": "2025-12-19T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-01-05T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/42802603"
+    },
+    {
+      "label": "Cross-Country Race & Fun Games — Event Description",
+      "url": "https://www.hoyolab.com/article/42801770"
+    }
+  ],
+  "featuredCharacters": [
+    "Sumire",
+    "Gaumaru"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Rainbow Serpent's Rain Bow"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 1120
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 48
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 16
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 96
+        },
+        {
+          "name": "Arc pluvial du serpent arc-en-ciel",
+          "quantity": 1
+        },
+        {
+          "name": "Cœur affiné",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Compétition",
+          "quantity": 6
+        },
+        {
+          "name": "Guide du Petit bois",
+          "quantity": 6
+        },
+        {
+          "name": "Guide du Conflit",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Compétition",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie du Petit bois",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie du Conflit",
+          "quantity": 2
+        },
+        {
+          "name": "Hésitation du cœur sacrificiel flamboyant",
+          "quantity": 9
+        },
+        {
+          "name": "Désolation délirante du seigneur sacré",
+          "quantity": 9
+        },
+        {
+          "name": "Prémonition mystique du vent nocturne",
+          "quantity": 9
+        },
+        {
+          "name": "Âme embrasée « Fietena »",
+          "quantity": 1
+        },
+        {
+          "name": "Bonhomme embrasé de neige « Gentille guerrière »",
+          "quantity": 1
+        },
+        {
+          "name": "Saurienneau éclaireur",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna III"
+}

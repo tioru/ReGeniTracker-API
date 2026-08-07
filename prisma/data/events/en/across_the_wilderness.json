@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Across the Wilderness",
+  "name": "Across the Wilderness",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "The Adventurers' Guild is hosting a special event titled \"Across the Wilderness.\" Find as many Wilderness Balloons as possible within the time limit to earn increasingly better rewards.",
+  "timeKnown": true,
+  "startDate": "2023-01-03T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-01-13T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/14710888"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/14742117"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 280000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 20
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 40
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Wilderness Compass",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.3"
+}

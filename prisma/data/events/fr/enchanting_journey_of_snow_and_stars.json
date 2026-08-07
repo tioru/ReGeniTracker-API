@@ -1,0 +1,50 @@
+{
+  "pageTitle": "Enchanting Journey of Snow and Stars",
+  "name": "Lumières et neige éternelle",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-12-29T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2022-01-09T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17922"
+    },
+    {
+      "label": "Second Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18103"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20211229-snow/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 20
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Goulasch",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.3"
+}

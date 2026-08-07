@@ -1,0 +1,178 @@
+{
+  "pageTitle": "Battle Pass/Vivid Flight",
+  "name": "Vivid Flight",
+  "type": "In-Game",
+  "groups": [
+    "Battle Pass"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2024-01-31T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-03-11T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/122136"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 27
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 36
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 96
+        },
+        {
+          "name": "Mora",
+          "quantity": 720000
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 5
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "category": "Gnostic Hymn",
+      "rewards": [
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 27
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 162
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 384
+        },
+        {
+          "name": "Mora",
+          "quantity": 2880000
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 10
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        },
+        {
+          "name": "Intertwined Fate",
+          "quantity": 4
+        },
+        {
+          "name": "Primogem",
+          "quantity": 680
+        },
+        {
+          "name": "Guide to the Original Current",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophies of the Original Current",
+          "quantity": 1
+        },
+        {
+          "name": "Guidance of the Land of Verdure",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophies of the Land of Verdure",
+          "quantity": 1
+        },
+        {
+          "name": "BP Bounty",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Gnostic Chorus",
+      "rewards": [
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 27
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 162
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 384
+        },
+        {
+          "name": "Mora",
+          "quantity": 2880000
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 15
+        },
+        {
+          "name": "Acquaint Fate",
+          "quantity": 5
+        },
+        {
+          "name": "Intertwined Fate",
+          "quantity": 4
+        },
+        {
+          "name": "Primogem",
+          "quantity": 680
+        },
+        {
+          "name": "Guide to the Original Current",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophies of the Original Current",
+          "quantity": 1
+        },
+        {
+          "name": "Guidance of the Land of Verdure",
+          "quantity": 3
+        },
+        {
+          "name": "Philosophies of the Land of Verdure",
+          "quantity": 1
+        },
+        {
+          "name": "BP Bounty",
+          "quantity": 1
+        },
+        {
+          "name": "Travel Notes: Vibrant Harriers",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Artisanal Fish Lantern: Carp's Well",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.4"
+}

@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Draco Rubedo Chapter (Event)",
+  "name": "Draco Rubedo Chapter",
+  "type": "In-Game",
+  "groups": [
+    "Story Quest"
+  ],
+  "parentEvent": null,
+  "description": "Fairy tales often end on a good note... Blessings will be offered, and curses will be broken. Make a sincere wish, and it will come true. Wield your sword with courage, and every foe shall fall. In the end, \"they lived happily ever after.\" But then what? Some readers can't help but ask. As a character born from the pages of a story, Durin sometimes finds himself facing that very question. His story seems to have reached a happy ending in Simulanka, yet he never knows where to start when trying to explain what happened afterward. If only he had his mother's magical touch with words, perhaps then he could turn those experiences into another enchanting story of his own...",
+  "timeKnown": true,
+  "startDate": "2025-12-03T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-01-13T17:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/42564034"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 60
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 9
+        },
+        {
+          "name": "Cyclic Military Kuuvahki Core",
+          "quantity": 6
+        },
+        {
+          "name": "Frostlamp Flower",
+          "quantity": 30
+        },
+        {
+          "name": "Immaculate Warrant",
+          "quantity": 12
+        },
+        {
+          "name": "Tattered Warrant",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna III"
+}

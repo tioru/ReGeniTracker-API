@@ -1,0 +1,123 @@
+{
+  "pageTitle": "Clink Clank Clash",
+  "name": "Clash Cling-clang",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "After familiarizing yourself with Nod-Krai, you and Paimon find yourselves with some time on your hands, but before you can kick back and relax, you discover that Ineffa and Aino have been dragged into a curious crisis...",
+  "timeKnown": true,
+  "startDate": "2025-09-12T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-09-29T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40984422"
+    },
+    {
+      "label": "It's Time for Clink Clank Clash!",
+      "url": "https://www.hoyolab.com/article/40984596"
+    }
+  ],
+  "featuredCharacters": [
+    "Letti"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Etherlight Spindlelute"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 900
+        },
+        {
+          "name": "Mora",
+          "quantity": 480000
+        },
+        {
+          "name": "Lyre du tisse-lumière",
+          "quantity": 1
+        },
+        {
+          "name": "Ficelle dorée",
+          "quantity": 4
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 12
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 48
+        },
+        {
+          "name": "Philosophie de la Lune",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de l'Élysium",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de l'Errance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Lune",
+          "quantity": 10
+        },
+        {
+          "name": "Guide de l'Élysium",
+          "quantity": 10
+        },
+        {
+          "name": "Guide de l'Errance",
+          "quantity": 10
+        },
+        {
+          "name": "Réplique d'appareil artistique",
+          "quantity": 24
+        },
+        {
+          "name": "Lueur de silex de longue nuit",
+          "quantity": 24
+        },
+        {
+          "name": "Illusion inflexible des héritiers du grand nord",
+          "quantity": 24
+        },
+        {
+          "name": "Fragment d'appareil artistique",
+          "quantity": 12
+        },
+        {
+          "name": "Braise de silex de longue nuit",
+          "quantity": 12
+        },
+        {
+          "name": "Gloire brisée des héritiers du grand nord",
+          "quantity": 12
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 24
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna I"
+}

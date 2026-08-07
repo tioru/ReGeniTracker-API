@@ -1,0 +1,36 @@
+{
+  "pageTitle": "Incandescent Ode of Resurrection (Event)",
+  "name": "Incandescent Ode of Resurrection",
+  "type": "In-Game",
+  "groups": [
+    "Archon Quest"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2025-01-01T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-02-11T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/35948960"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 500
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.3"
+}

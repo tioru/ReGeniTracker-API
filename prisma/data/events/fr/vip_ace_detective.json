@@ -1,0 +1,58 @@
+{
+  "pageTitle": "VIP Ace Detective",
+  "name": "Une célèbre détective est sur l'affaire",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": "As far as Lady Furina is concerned, taking the stage to give an exciting performance in person is perhaps a more appealing prospect than sitting back and watching as the daily farce plays out.",
+  "timeKnown": true,
+  "startDate": "2023-11-06T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2023-11-12T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/113483"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20231103furina/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Caron",
+    "Eloffe",
+    "Furina",
+    "Menthe",
+    "Veta"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.1"
+}

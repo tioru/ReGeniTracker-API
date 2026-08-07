@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Five Flushes of Fortune",
+  "name": "Five Flushes of Fortune",
+  "type": "In-Game",
+  "groups": [
+    "Kamera"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-02-03T04:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-02-13T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/8496"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 480
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 8
+        },
+        {
+          "name": "Special Kamera",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": null,
+      "rewards": []
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Kurious Kamera",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.3"
+}

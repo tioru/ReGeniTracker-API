@@ -1,0 +1,97 @@
+{
+  "pageTitle": "Three Realms Gateway Offering",
+  "name": "Offrande d'accès aux Trois Royaumes",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "Enkanomiya has been wrapped up by a darkness of unknown origin. For the sake of Watatsumi Island's future, Kokomi commissions you to once again head down to Enkanomiya...",
+  "timeKnown": true,
+  "startDate": "2022-02-17T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-03-30T05:59:00",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/3370633"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/19524"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Oathsworn Eye"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 540
+        },
+        {
+          "name": "Mora",
+          "quantity": 930000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 39
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 33
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Oathsworn Eye",
+          "quantity": 1
+        },
+        {
+          "name": "Ointment of Sight",
+          "quantity": 4
+        },
+        {
+          "name": "Jeweled Branch of a Distant Sea",
+          "quantity": 9
+        },
+        {
+          "name": "Jade Branch of a Distant Sea",
+          "quantity": 6
+        },
+        {
+          "name": "Narukami's Joy",
+          "quantity": 9
+        },
+        {
+          "name": "Narukami's Affection",
+          "quantity": 6
+        },
+        {
+          "name": "Mask of the Tiger's Bite",
+          "quantity": 9
+        },
+        {
+          "name": "Mask of the One-Horned",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": []
+    }
+  ],
+  "releaseVersion": "2.5"
+}

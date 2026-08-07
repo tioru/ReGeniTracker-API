@@ -1,0 +1,42 @@
+{
+  "pageTitle": "It Starts in Nod-Krai",
+  "name": "Tout commence à Nod-Krai",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2025-08-29T20:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-09-24T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40795580"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20250829reserve-6htzhx/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 160
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.8"
+}

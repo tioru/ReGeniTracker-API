@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Dreams of Bloom",
+  "name": "Dreams of Bloom",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "The Inazuman florist Sakuya wants to promote her shop, \"Sakuya's Flowers,\" so she is organizing a new promotional activity...",
+  "timeKnown": true,
+  "startDate": "2021-11-12T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-11-18T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16809"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17033"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 120000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 6
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 12
+        },
+        {
+          "name": "Sakuya's Special Gardening Package",
+          "quantity": 3
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.2"
+}

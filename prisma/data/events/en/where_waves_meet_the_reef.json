@@ -1,0 +1,183 @@
+{
+  "pageTitle": "Where Waves Meet the Reef",
+  "name": "Where Waves Meet the Reef",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "You and Paimon receive a letter from the Curatorium of Secrets. Nefer seems to have a commission that only you can handle...",
+  "timeKnown": true,
+  "startDate": "2026-04-27T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-05-14T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/44793015"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/44793016"
+    }
+  ],
+  "featuredCharacters": [
+    "Aino",
+    "Ati",
+    "Beidou",
+    "Chevreuse",
+    "Clorinde",
+    "Dori",
+    "Fassbender",
+    "Fengyun",
+    "Gongmiao",
+    "Huoxiang",
+    "Ineffa",
+    "Jahoda",
+    "Lakkaberry (NPC)",
+    "Liben",
+    "Navia",
+    "Neb",
+    "Nefer",
+    "Nkrumah",
+    "Raya",
+    "Seahawk",
+    "Stone Stool",
+    "Wislawa",
+    "Yelan",
+    "Zhiyao"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Jahoda"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 970
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Jahoda",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 1040000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 44
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 32
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 91
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 18
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Elysium",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Moonlight",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Vagrancy",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Equity",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Justice",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Order",
+          "quantity": 2
+        },
+        {
+          "name": "Cooperative Engagement Early-Model Guizhong Ballista",
+          "quantity": 1
+        },
+        {
+          "name": "Pneuma-Ousia Waltzing Automaton",
+          "quantity": 1
+        },
+        {
+          "name": "\"Super Cannoneer\"",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Joint Exhibition Popularity",
+          "quantity": 1900
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VI"
+}

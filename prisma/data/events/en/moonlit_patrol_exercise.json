@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Moonlit Patrol Exercise",
+  "name": "Moonlit Patrol Exercise",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Edler of the Maison Gardiennage has traveled to Nod-Krai, hoping to draw on the region's unique traits to refine her wargame. However, while out in the wilderness, she found herself waylaid by an unexpected encounter...",
+  "timeKnown": true,
+  "startDate": "2026-02-09T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-02-23T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/43665848"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 260000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 34
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 8
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 6
+        },
+        {
+          "name": "Artful Device Replica",
+          "quantity": 6
+        },
+        {
+          "name": "Afterglow of Long Night Flint",
+          "quantity": 6
+        },
+        {
+          "name": "Unyielding Delusion of the Far-North Scions",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna IV"
+}

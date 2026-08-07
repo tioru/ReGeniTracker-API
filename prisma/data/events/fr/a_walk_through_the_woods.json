@@ -1,0 +1,50 @@
+{
+  "pageTitle": "A Walk Through the Woods",
+  "name": "Balade en forêt",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2022-09-29T13:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2022-10-07T11:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://x.com/twitter/status/1575349652123099136"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20220929-chess/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 60
+        },
+        {
+          "name": "Mora",
+          "quantity": 50000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 5
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 10
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.1"
+}

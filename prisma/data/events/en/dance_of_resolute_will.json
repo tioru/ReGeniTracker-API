@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Dance of Resolute Will",
+  "name": "Dance of Resolute Will",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "You and Paimon encounter a unique \"swordsmaster\" while wandering the Fontainian countryside. He is guarding the door to a mysterious Domain, searching for the meaning of battle...",
+  "timeKnown": true,
+  "startDate": "2024-01-10T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-01-22T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/24202247"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "item1",
+          "quantity": 0
+        },
+        {
+          "name": "item2",
+          "quantity": 0
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "currency1",
+          "quantity": 0
+        },
+        {
+          "name": "currency2",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.3"
+}

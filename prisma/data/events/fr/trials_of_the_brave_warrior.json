@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Trials of the Brave Warrior",
+  "name": "Les épreuves du brave guerrier",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "A group of expert fighters has gathered in Nod-Krai's Nasha Town to compete for the crown of the \"Technical Martial Challenge.\" While the competition is locked in a stalemate, the arrival of you and Paimon could be the key to deciding a winner...",
+  "timeKnown": true,
+  "startDate": "2026-06-08T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-06-18T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/45349300"
+    }
+  ],
+  "featuredCharacters": [
+    "Diminished Seventh Arpeggio",
+    "Gaumaru",
+    "Kaedehara Kazuha",
+    "Onyx Agate",
+    "Sieciech",
+    "Sumire"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 9
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 12
+        },
+        {
+          "name": "Guide de la Lune",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Élysium",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Errance",
+          "quantity": 4
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VII"
+}

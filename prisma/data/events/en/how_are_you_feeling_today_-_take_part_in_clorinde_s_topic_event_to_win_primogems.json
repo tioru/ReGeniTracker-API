@@ -1,0 +1,36 @@
+{
+  "pageTitle": "How Are You Feeling Today? - Take Part in Clorinde's Topic Event to Win Primogems!",
+  "name": "How Are You Feeling Today? - Take Part in Clorinde's Topic Event to Win Primogems!",
+  "type": "Web",
+  "groups": [
+    "Submission"
+  ],
+  "parentEvent": null,
+  "description": "\"It seems like something happened to you today. If you don't mind, you can tell me about it.\"",
+  "timeKnown": true,
+  "startDate": "2024-06-05T00:00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": "2024-06-11T23:59:59",
+  "endDateOffset": "UTC+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/123979"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 160
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.7"
+}

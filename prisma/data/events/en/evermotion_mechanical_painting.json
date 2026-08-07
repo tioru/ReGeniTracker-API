@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Evermotion Mechanical Painting",
+  "name": "Evermotion Mechanical Painting",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Félix Yogue, a person from the Court of Fontaine, seems to be having some problems...",
+  "timeKnown": true,
+  "startDate": "2022-08-12T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-08-22T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/6857289"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/22679"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 240000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 6
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 6
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 6
+        },
+        {
+          "name": "\"Evermotion Mechanical Painting\"",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.8"
+}

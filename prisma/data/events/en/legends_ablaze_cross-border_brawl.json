@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Legends Ablaze: Cross-Border Brawl",
+  "name": "Legends Ablaze: Cross-Border Brawl",
+  "type": "In-Game",
+  "groups": [
+    "Trial",
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "{{Description |title=30px Legends Ablaze: Cross-Border Brawl |Near the territory of the Children of Echoes, an artist named Vigee is pioneering the latest in \"crossover challenges\" with her innovative \"interactive woven scroll\" technology... |Map description",
+  "timeKnown": true,
+  "startDate": "2025-06-05T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-06-16T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/39121288"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 240000
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 4
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 12
+        },
+        {
+          "name": "Fine Enhancement Ore",
+          "quantity": 12
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Blazing Sacrificial Heart's Hesitance",
+          "quantity": 6
+        },
+        {
+          "name": "Delirious Desolation of the Sacred Lord",
+          "quantity": 6
+        },
+        {
+          "name": "Night-Wind's Mystic Premonition",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.6"
+}

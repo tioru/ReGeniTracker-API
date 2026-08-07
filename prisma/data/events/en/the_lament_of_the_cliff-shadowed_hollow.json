@@ -1,0 +1,36 @@
+{
+  "pageTitle": "The Lament of the Cliff-Shadowed Hollow",
+  "name": "The Lament of the Cliff-Shadowed Hollow",
+  "type": "In-Game",
+  "groups": [
+    "Exploration Mission"
+  ],
+  "parentEvent": null,
+  "description": "Climb the tower that stands unbroken from the pioneering age. Gaze upon the time-worn wilds — as the first Ratniki once did — and the mountains that have endured the passing years. The blood of bygone battles remains, and a quiet tale continues to resonate among the ruined walls of the lakeside palace. As old enemies regroup beneath the dark, leaden clouds, the restless north wind carries the marching songs of war once more.",
+  "timeKnown": true,
+  "startDate": "2026-01-14T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-04-07T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/43195151"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 400
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna IV"
+}

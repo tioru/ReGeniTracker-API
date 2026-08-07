@@ -1,0 +1,81 @@
+{
+  "pageTitle": "Arataki Blazing Armor Beetle Battle Boot Camp",
+  "name": "Le super entraînement éblouissant aux combats de scarabées d'Arataki",
+  "type": "In-Game",
+  "groups": [
+    "Beetle Battle"
+  ],
+  "parentEvent": null,
+  "description": "Your diet has been quite plain recently, and Paimon's been missing the spice of life in food... As such, you head over to Wanmin Restaurant, only to meet several old friends. Thus begins another wondrous round of \"training\"...",
+  "timeKnown": true,
+  "startDate": "2024-01-17T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-01-29T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/24357899"
+    }
+  ],
+  "featuredCharacters": [
+    "Arataki Itto",
+    "Yanfei",
+    "Paimon",
+    "Kuki Shinobu",
+    "Traveler",
+    "Xiangling",
+    "Grandmaster Hanakado",
+    "Guoba",
+    "Iron Tongue Tian",
+    "Changchang",
+    "Lan",
+    "Guoba"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 310000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 28
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 6
+        },
+        {
+          "name": "Astuces du voyageur",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 20
+        },
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 4
+        },
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Mercure karstique",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.3"
+}

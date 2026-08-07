@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Outland Gastronomy",
+  "name": "Outland Gastronomy",
+  "type": "In-Game",
+  "groups": [
+    "Login"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-03-17T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2021-04-01T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/9262"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 300
+        },
+        {
+          "name": "Mora",
+          "quantity": 50000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 8
+        },
+        {
+          "name": "Recipe: Golden Chicken Burger",
+          "quantity": 1
+        },
+        {
+          "name": "Recipe: Fragrant Mashed Potatoes",
+          "quantity": 1
+        },
+        {
+          "name": "Recipe: Golden Fried Chicken",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.4"
+}

@@ -1,0 +1,54 @@
+{
+  "pageTitle": "Slime Paradise",
+  "name": "Paradis des Blobs",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-01-22T00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": "2021-01-31T23:59",
+  "endDateOffset": "UTC+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/8247"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210122-slime/index.html?utm_source=official"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 120
+        },
+        {
+          "name": "Mora",
+          "quantity": 100000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 5
+        },
+        {
+          "name": "Minerai de renforcement raffiné",
+          "quantity": 25
+        },
+        {
+          "name": "Mora",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.2"
+}

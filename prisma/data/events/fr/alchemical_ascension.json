@@ -1,0 +1,187 @@
+{
+  "pageTitle": "Alchemical Ascension",
+  "name": "Ingéniosité alchimique",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "The Knights of Favonius are currently coming up with long-term plans to promote the achievements of alchemy. The person in charge, Lisa, seems to have a good idea and has invited you and Paimon to assist her.",
+  "timeKnown": true,
+  "startDate": "2024-03-14T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-04-01T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/25852855"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/122819"
+    }
+  ],
+  "featuredCharacters": [
+    "Deyou",
+    "Eula",
+    "Beidou",
+    "Diona",
+    "Venti",
+    "Diluc",
+    "Gorou",
+    "Kirara",
+    "Sucrose"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Dialogues of the Desert Sages"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 1000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 840000
+        },
+        {
+          "name": "Dialogues des sages du désert",
+          "quantity": 1
+        },
+        {
+          "name": "Terre suprême",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 88
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 40
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 36
+        },
+        {
+          "name": "Astuces du voyageur",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophie de la Liberté",
+          "quantity": 8
+        },
+        {
+          "name": "Philosophie de la Résistance",
+          "quantity": 8
+        },
+        {
+          "name": "Philosophie de la Poésie",
+          "quantity": 8
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment dispersé de Décarabian",
+          "quantity": 4
+        },
+        {
+          "name": "Croc fendu du Loup boréal",
+          "quantity": 4
+        },
+        {
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "quantity": 4
+        },
+        {
+          "name": "Mur abattu de Décarabian",
+          "quantity": 6
+        },
+        {
+          "name": "Croc brisé du Loup boréal",
+          "quantity": 6
+        },
+        {
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'émeraude nagadus",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 2
+        },
+        {
+          "name": "Plan de décoration : « Site d'amélioration stratégique »",
+          "quantity": 1
+        },
+        {
+          "name": "Plan de décoration : Cabinet raffiné « Organisation rigoureuse »",
+          "quantity": 1
+        },
+        {
+          "name": "Plan de décoration : Étagère raffinée « Stratagème de vente »",
+          "quantity": 1
+        },
+        {
+          "name": "Plan de décoration : Ustensile raffiné « Naissance d'amertume »",
+          "quantity": 1
+        },
+        {
+          "name": "Plan de décoration : Lumière du Lac de cidre",
+          "quantity": 1
+        },
+        {
+          "name": "Chaudron raffiné « Potion multi-stratégique »",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.5"
+}

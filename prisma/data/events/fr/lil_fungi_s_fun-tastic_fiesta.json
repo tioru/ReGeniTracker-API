@@ -1,0 +1,83 @@
+{
+  "pageTitle": "Lil' Fungi's Fun-Tastic Fiesta",
+  "name": "Fête fun-tastique des cham-p'tit-gnons",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "In a corner of the Quartier Lyonnais, an old friend has set up a booth, and is promoting an improved tabletop game \"Lil' Fungi's Fun-Tastic Fiesta.\" Among Fontainians, who rarely see Fungi, this game is quite novel indeed.",
+  "timeKnown": true,
+  "startDate": "2023-12-06T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-12-18T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/23386449"
+    }
+  ],
+  "featuredCharacters": [
+    "Souka",
+    "Kindlejoy",
+    "Bongo-Head",
+    "Paimon",
+    "Turenna",
+    "Traveler",
+    "Haniyyah",
+    "Miss Gardemetiquette"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 410000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 12
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 20
+        },
+        {
+          "name": "Guide de l'Équité",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Justice",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Ordre",
+          "quantity": 4
+        },
+        {
+          "name": "Chapitre d'un accord ancien",
+          "quantity": 6
+        },
+        {
+          "name": "Sublimation de rosée sacrée pure",
+          "quantity": 6
+        },
+        {
+          "name": "Gobelet à vin de la mer immaculée",
+          "quantity": 6
+        },
+        {
+          "name": "Gelées merveilleuses : Version améliorée de Fontaine",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.2"
+}

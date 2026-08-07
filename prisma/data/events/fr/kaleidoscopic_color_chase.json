@@ -1,0 +1,42 @@
+{
+  "pageTitle": "Kaleidoscopic Color Chase",
+  "name": "Poursuite aux couleurs kaléidoscopiques",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "You return to the Easybreeze Holiday Resort, where you run into an old friend together with some rather special Ashas...",
+  "timeKnown": true,
+  "startDate": "2026-06-18T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-06-29T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/45478500"
+    }
+  ],
+  "featuredCharacters": [
+    "Bennett",
+    "Minnie",
+    "Nepecha",
+    "Varesa",
+    "Xilonen"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VII"
+}

@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Fungus Mechanicus",
+  "name": "Théâtre fongique",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "In a corner of Port Ormos. you and Paimon encounter friends whom you made during inaugural Nilotpala Cup Beast Tamers Tournament. They are currently preparing for the next tournament, and to that effect have come up with a new game with which to advertise for the Beast Tamers Tournament...",
+  "timeKnown": true,
+  "startDate": "2023-03-23T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-04-03T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/17144800"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/17176675"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 300000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 16
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 28
+        },
+        {
+          "name": "Talisman en fer de la rosée",
+          "quantity": 6
+        },
+        {
+          "name": "Gentillesse du jardin d'oasis",
+          "quantity": 6
+        },
+        {
+          "name": "Éclat subsistant du pouvoir brûlant",
+          "quantity": 6
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.5"
+}

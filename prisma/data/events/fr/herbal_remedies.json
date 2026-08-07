@@ -1,0 +1,68 @@
+{
+  "pageTitle": "Herbal Remedies",
+  "name": "Remèdes en tout genre",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": "I hope that one day, birds would be the only visitors of Bubu Pharmacy. If that were to happen, I would know that all is well and everyone is healthy.",
+  "timeKnown": true,
+  "startDate": "2023-04-27T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2023-05-03T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/111225"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20230427baizhu-eyecio/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Baizhu",
+    "Changsheng",
+    "Uncle Tian",
+    "Master Lu",
+    "Hongdou",
+    "Shenhe",
+    "Xiangling",
+    "Yun Jin",
+    "Keqing",
+    "Xinyan",
+    "Xiao",
+    "Yelan",
+    "Ningguang",
+    "Yanfei",
+    "Qiqi"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'émeraude nagadus",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.6"
+}

@@ -1,0 +1,54 @@
+{
+  "pageTitle": "Mage Nicole's Tea Party",
+  "name": "Goûteron de la sorcière Nicole",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2026-05-20T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-06-02T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/45098985"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20260520invite-19ccy4/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme*~",
+          "quantity": 1
+        },
+        {
+          "name": "Mora*~",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros*~",
+          "quantity": 1
+        },
+        {
+          "name": "Baume sanctifiant*~",
+          "quantity": 1
+        },
+        {
+          "name": "Géode de recréation",
+          "quantity": 60
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VII"
+}

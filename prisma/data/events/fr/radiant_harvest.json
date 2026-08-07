@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Radiant Harvest",
+  "name": "Collecte luminescente",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Wondrous creatures that should have only existed in the laboratory have suddenly appeared all over Fontaine's waters. At the same time, you encounter a very anxious merchant near Romaritime Harbor...",
+  "timeKnown": true,
+  "startDate": "2023-09-28T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-10-09T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/21872780"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 260000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 16
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 8
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Mouvement d'un accord ancien",
+          "quantity": 3
+        },
+        {
+          "name": "Source de rosée sacrée pure",
+          "quantity": 3
+        },
+        {
+          "name": "Gobelet d'argent de la mer immaculée",
+          "quantity": 3
+        },
+        {
+          "name": "Majesté dans une sphère « Lueur chanceuse »",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.1"
+}

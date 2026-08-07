@@ -1,0 +1,82 @@
+{
+  "pageTitle": "Shadow of the Ancients",
+  "name": "Ombre des anciens",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Katheryne of the Adventurers' Guild seems to be having trouble dealing with a certain investigative commission. Helping her might just come with its benefits...",
+  "timeKnown": true,
+  "startDate": "2021-11-05T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-11-15T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16809"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16935"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 300000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Or",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Éphémère",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Élégance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Lumière",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.2"
+}

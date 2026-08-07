@@ -1,0 +1,166 @@
+{
+  "pageTitle": "The Exquisite Night Chimes",
+  "name": "The Exquisite Night Chimes",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Lantern Rite Festival",
+  "description": "As the year's end draws near, the bustling Lantern Rite is soon approaching. You and Paimon return to Liyue Harbor and find yourselves pleasantly surprised by many old friends, and guest a special guest from abroad.",
+  "timeKnown": true,
+  "startDate": "2023-01-19T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-02-06T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/15074939"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/105077"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Choose Character",
+    "options": [
+      "Beidou",
+      "Chongyun",
+      "Ningguang",
+      "Xiangling",
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei",
+      "Yaoyao",
+      "Yun Jin"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 970
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 1340000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 57
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 20
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 78
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 16
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 16
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 16
+        },
+        {
+          "name": "Between the Exquisite Throws of Her Enigmatic Dice",
+          "quantity": 1
+        },
+        {
+          "name": "Rainforest-Born Fungi",
+          "quantity": 1
+        },
+        {
+          "name": "Cliffbreaker's Banner Flutters in Drum Rolls",
+          "quantity": 1
+        },
+        {
+          "name": "Obliging Little Yuegui",
+          "quantity": 1
+        },
+        {
+          "name": "Inuzaka General's Friendly Helper",
+          "quantity": 1
+        },
+        {
+          "name": "That Fairly Effectual \"Advice\" Against Wine",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Propitious Screen: Instruments in the Distance",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Propitious Screen: Genuine Words Travel Far",
+          "quantity": 1
+        },
+        {
+          "name": "Between Moonlit Hills",
+          "quantity": 1
+        },
+        {
+          "name": "A Guest of Noble Character",
+          "quantity": 1
+        },
+        {
+          "name": "Piping-Hot Bamboo Shoot Soup",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Festive Fever (The Exquisite Night Chimes)",
+          "quantity": 1200
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.4"
+}

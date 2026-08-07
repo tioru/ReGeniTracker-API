@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Mondstadt Tourism Revitalization Project",
+  "name": "Mondstadt Tourism Revitalization Project",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": "\"Hello there, friend. It's been a while!\" \"Recently, I've been planning a big new venture called the 'Mondstadt Tourism Revitalization Project.' I've even invited three members of the Knights of Favonius as spokespeople to help spread the word.\" \"The project's currently running a limited-time pre-registration phase, so come check it out — I guarantee you won't be disappointed!\"",
+  "timeKnown": true,
+  "startDate": "2024-04-01",
+  "startDateOffset": null,
+  "endDate": "2024-04-03T23:59:59",
+  "endDateOffset": "UTC+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/26575761"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://hoyo.link/5hAiFLAL"
+    }
+  ],
+  "featuredCharacters": [
+    "Dvalin",
+    "Jean",
+    "Kaeya",
+    "Klee",
+    "Liben"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Mora",
+          "quantity": 20000
+        }
+      ]
+    },
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 40
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.5"
+}

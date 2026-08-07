@@ -1,0 +1,172 @@
+{
+  "pageTitle": "Homeward, He Who Caught the Wind",
+  "name": "Homeward, He Who Caught the Wind",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "{{Description |title = 30px Homeward, He Who Caught the Wind |One day, you and Paimon suddenly receive an invitation from the Knights of Favonius. And so, you return to Mondstadt to take part in a welcome ceremony that feels both familiar and just a little different... |Map description",
+  "timeKnown": true,
+  "startDate": "2026-02-27T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-03-16T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/43941713"
+    },
+    {
+      "label": "Event Description",
+      "url": "https://www.hoyolab.com/article/43957098"
+    }
+  ],
+  "featuredCharacters": [
+    "Dunkhas",
+    "Elishka",
+    "Ematol",
+    "Phonia",
+    "Huffman",
+    "Miles",
+    "Eija",
+    "Vesper",
+    "Valerina",
+    "Helene",
+    "Glenfidia",
+    "Horken",
+    "Hedwig"
+  ],
+  "specialReward": {
+    "type": "Weapon Appearance",
+    "options": [
+      "Phantasmal Gift: Star Omen"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 960
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Phantasmal Gift: Star Omen",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 1000000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 48
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 79
+        },
+        {
+          "name": "Sanctifying Essence",
+          "quantity": 2
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 18
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 10
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 10
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 10
+        },
+        {
+          "name": "Philosophies of Ballad",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Freedom",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Resistance",
+          "quantity": 2
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 6
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 6
+        },
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 2
+        },
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 2
+        },
+        {
+          "name": "Slumbering Rose",
+          "quantity": 1
+        },
+        {
+          "name": "Windborne Bouquet",
+          "quantity": 1
+        },
+        {
+          "name": "Seafoam Swordsong",
+          "quantity": 1
+        },
+        {
+          "name": "Leisuretime Lightning",
+          "quantity": 1
+        },
+        {
+          "name": "Dodoco's Duet",
+          "quantity": 1
+        },
+        {
+          "name": "Dodoco's Enchanted Candy",
+          "quantity": 1
+        },
+        {
+          "name": "Iron Wolf",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Windscape Splendor",
+          "quantity": 1220
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna V"
+}

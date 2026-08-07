@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Tracing Vanishing Trails",
+  "name": "Sur les traces de pistes évanescentes",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Summer is here, and on your way to Yilong Wharf for tea, you and Paimon run into Yelan. It's not long before you find yourselves embroiled in a special case...",
+  "timeKnown": true,
+  "startDate": "2025-08-14T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-08-25T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40504129"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 120000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Or",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Équité",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Justice",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Ordre",
+          "quantity": 4
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 12
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.8"
+}

@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Lepus Miles Chapter (Event)",
+  "name": "Lepus Miles Chapter",
+  "type": "In-Game",
+  "groups": [
+    "Story Quest"
+  ],
+  "parentEvent": null,
+  "description": "Some believe that the title of \"knight\" is a reflection of one's merit and glory, while the knight's blade is where their strength and conviction reside. Others have expressed the opinion that glory is but a hollow name and conviction, nothing more than idle talk, as they believe that raw power is the only thing that can protect what matters. When a mere mortal catches a glimpse of power capable of rewriting fate itself, should they prostrate themselves in resignation, or stand tall in defiance? The shadows of yore stir once more, and there is no escape from the imminent reckoning.",
+  "timeKnown": true,
+  "startDate": "2026-06-09T18:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-06-30T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/45316183"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 60
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 9
+        },
+        {
+          "name": "Prismatic Severed Tail",
+          "quantity": 6
+        },
+        {
+          "name": "Etherwing Moth",
+          "quantity": 30
+        },
+        {
+          "name": "Sharp Arrowhead",
+          "quantity": 12
+        },
+        {
+          "name": "Firm Arrowhead",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VII"
+}

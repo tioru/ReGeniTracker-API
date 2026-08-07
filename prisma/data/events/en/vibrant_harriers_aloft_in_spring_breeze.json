@@ -1,0 +1,179 @@
+{
+  "pageTitle": "Vibrant Harriers Aloft in Spring Breeze",
+  "name": "Vibrant Harriers Aloft in Spring Breeze",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Lantern Rite Festival",
+  "description": "As the year's end approaches, the annual Lantern Rite is about to begin. As is customary, you and Paimon return to Liyue Harbor once again, and as expected, you encounter some familiar faces...",
+  "timeKnown": true,
+  "startDate": "2024-02-05T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-02-26T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/24683838"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/122284"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Choose Character",
+    "options": [
+      "Beidou",
+      "Chongyun",
+      "Gaming",
+      "Ningguang",
+      "Xiangling",
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei",
+      "Yaoyao",
+      "Yun Jin"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1000
+        },
+        {
+          "name": "Mora",
+          "quantity": 840000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 57
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 12
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 90
+        },
+        {
+          "name": "Bamboo Rain",
+          "quantity": 1
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 20
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 12
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 12
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophies of Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Prosperity",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Gold",
+          "quantity": 2
+        },
+        {
+          "name": "Blueprint: Banquet Screen: Crying Swallows and Chirping Sparrows",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Banquet Screen: Dancing Butterflies and Leaping Fish",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Wushou Dance Costume: Roaring Suanni",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Wushou Dance Doll: Sleepy Suanni",
+          "quantity": 1
+        },
+        {
+          "name": "Recipe: Eight-Treasure Duck",
+          "quantity": 1
+        },
+        {
+          "name": "Brilliant Lantern: Peace and Joy",
+          "quantity": 1
+        },
+        {
+          "name": "\"Naught but Indignation for the People's Lot\"",
+          "quantity": 1
+        },
+        {
+          "name": "Special Furnishing Gift (I)",
+          "quantity": 1
+        },
+        {
+          "name": "Special Furnishing Gift (II)",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Festive Fever (Vibrant Harriers Aloft in Spring Breeze)",
+          "quantity": 1500
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.4"
+}

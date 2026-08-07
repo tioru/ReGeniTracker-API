@@ -1,0 +1,46 @@
+{
+  "pageTitle": "Trail of Footsteps",
+  "name": "Dans le sillage des premiers pas",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2026-04-08T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-04-21T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/44541720"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20260408land-gmdt0n/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 80
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Papillon à ailes d'éther",
+          "quantity": 9
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VI"
+}

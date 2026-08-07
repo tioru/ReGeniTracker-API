@@ -1,0 +1,81 @@
+{
+  "pageTitle": "Legend of the Vagabond Sword",
+  "name": "Légendes martiales du vent",
+  "type": "In-Game",
+  "groups": [
+    "Challenge",
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "The gate to an unknown domain has opened, and within it await powerful, heretofore unseen foes. Draw your sword and enact your legend with the fearless spirit of a wandering warrior!",
+  "timeKnown": true,
+  "startDate": "2021-06-25T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-07-08T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/475605"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/13588"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 360000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 24
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 32
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Or",
+          "quantity": 4
+        },
+        {
+          "name": "Thème Célébration - Chant guerrier",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.6"
+}

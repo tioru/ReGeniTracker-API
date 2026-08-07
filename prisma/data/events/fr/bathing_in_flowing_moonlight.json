@@ -1,0 +1,48 @@
+{
+  "pageTitle": "Bathing in Flowing Moonlight",
+  "name": "Réflectance lunaire",
+  "type": "In-Game",
+  "groups": [
+    "Login"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2023-09-29T04:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-10-16T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/21872779"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Pierre de la fatalité",
+          "quantity": 10
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 8
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Mora",
+          "quantity": 80000
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.1"
+}

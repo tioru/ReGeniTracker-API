@@ -1,0 +1,60 @@
+{
+  "pageTitle": "Heroic Clash: Saurian Brawl",
+  "name": "Heroic Clash: Saurian Brawl",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "Driven by the ambition to showcase their daring spirit, the warriors and their Saurian companions from every tribe yearn for spirited contests. Consequently, they stand ready to enter battle at any given moment.",
+  "timeKnown": true,
+  "startDate": "2025-12-29T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-01-07T05:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/42944610"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 12
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 16
+        },
+        {
+          "name": "Mora",
+          "quantity": 200000
+        },
+        {
+          "name": "Philosophies of Conflict",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophies of Kindling",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophies of Contention",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna III"
+}

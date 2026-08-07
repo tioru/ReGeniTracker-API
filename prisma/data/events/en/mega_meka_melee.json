@@ -1,0 +1,138 @@
+{
+  "pageTitle": "Mega Meka Melee",
+  "name": "Mega Meka Melee",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "In the Court of Fontaine, Leschots Clockwork Workshop is preparing for a major commission, but the staff seemed to have encountered difficulties... Help these talented craftspeople complete their masterpiece!",
+  "timeKnown": true,
+  "startDate": "2023-08-24T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-09-11T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/21050724"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/112775"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Bennett"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1000
+        },
+        {
+          "name": "Bennett",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 1410000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 12
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 57
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 36
+        },
+        {
+          "name": "Sanctifying Essence",
+          "quantity": 6
+        },
+        {
+          "name": "Toy Adventurers: Beatdance",
+          "quantity": 1
+        },
+        {
+          "name": "Guide to Equity",
+          "quantity": 12
+        },
+        {
+          "name": "Guide to Justice",
+          "quantity": 12
+        },
+        {
+          "name": "Guide to Order",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophies of Equity",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Justice",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Order",
+          "quantity": 2
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Enigmatic Copper Mainspring",
+          "quantity": 3340
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.0"
+}

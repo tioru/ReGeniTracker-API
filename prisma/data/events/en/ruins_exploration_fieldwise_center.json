@@ -1,0 +1,142 @@
+{
+  "pageTitle": "Ruins Exploration: Fieldwise Center",
+  "name": "Ruins Exploration: Fieldwise Center",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "Returning once more to Sumeru, you reunite with old friends and set out to investigate a strange incident deep within the desert...",
+  "timeKnown": true,
+  "startDate": "2025-11-07T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-11-24T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/42170224"
+    },
+    {
+      "label": "Scout Enemies, Solve Puzzles, Let Engagement Training Begin!",
+      "url": "https://www.hoyolab.com/article/42170305"
+    }
+  ],
+  "featuredCharacters": [
+    "Shevirme",
+    "Tamara",
+    "Taraneh"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Collei"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 960
+        },
+        {
+          "name": "Mora",
+          "quantity": 860000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Collei",
+          "quantity": 1
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 33
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 100
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 12
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 12
+        },
+        {
+          "name": "Guide to Elysium",
+          "quantity": 8
+        },
+        {
+          "name": "Guide to Moonlight",
+          "quantity": 8
+        },
+        {
+          "name": "Guide to Vagrancy",
+          "quantity": 8
+        },
+        {
+          "name": "Philosophies of Elysium",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Moonlight",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Vagrancy",
+          "quantity": 2
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Blueprint: Puzzlepal: \"Keep Calm and Carry On\"",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Prep Progress",
+          "quantity": 1305
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna II"
+}

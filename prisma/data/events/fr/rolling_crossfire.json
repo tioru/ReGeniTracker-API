@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Rolling Crossfire",
+  "name": "Feux croisés tournoyants",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "The \"Genius Inventor\" of the Gardes has created a new kind of remote cannon. In order to test its combat effectiveness, they are looking for professionals to participate in firing experiments...",
+  "timeKnown": true,
+  "startDate": "2024-04-01T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-04-11T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/26498562"
+    },
+    {
+      "label": "Gameplay Tips",
+      "url": "https://www.hoyolab.com/article/26536026"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 250000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 15
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 10
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 20
+        },
+        {
+          "name": "Chapitre d'un accord ancien",
+          "quantity": 6
+        },
+        {
+          "name": "Sublimation de rosée sacrée pure",
+          "quantity": 6
+        },
+        {
+          "name": "Gobelet à vin de la mer immaculée",
+          "quantity": 6
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 12
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.5"
+}

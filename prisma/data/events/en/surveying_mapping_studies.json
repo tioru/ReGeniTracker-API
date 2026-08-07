@@ -1,0 +1,86 @@
+{
+  "pageTitle": "Surveying & Mapping Studies",
+  "name": "Surveying & Mapping Studies",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "{{Description |title = 30px Surveying & Mapping Studies |For the purpose of exchanging surveying and mapping experience and making progress together, Mika from the Reconnaissance Company is working with excellent knights from other squads to conduct an interesting surveying and mapping exercise...",
+  "timeKnown": true,
+  "startDate": "2026-04-10T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-04-20T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/44541722"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 180000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 12
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 24
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 12
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 3
+        },
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 3
+        },
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 3
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 3
+        },
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 3
+        },
+        {
+          "name": "Calibration Beacon: \"Lionfang Knight\"",
+          "quantity": 1
+        },
+        {
+          "name": "Calibration Beacon: \"Invincible Northwind\"",
+          "quantity": 1
+        },
+        {
+          "name": "Calibration Beacon: \"Spindrift Knight\"",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VI"
+}

@@ -1,0 +1,55 @@
+{
+  "pageTitle": "Unlimited Throwing Simulation",
+  "name": "Simulation de lancers infinis",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2025-06-20T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-06-27T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/39482375"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://hoyo.link/bDfba6C6p/"
+    }
+  ],
+  "featuredCharacters": [
+    "Skirk",
+    "Tartaglia"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 60
+        },
+        {
+          "name": "Mora",
+          "quantity": 40000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 3
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.7"
+}

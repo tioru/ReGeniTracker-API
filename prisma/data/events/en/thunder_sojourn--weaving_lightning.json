@@ -1,0 +1,44 @@
+{
+  "pageTitle": "Thunder Sojourn/Weaving Lightning",
+  "name": "Weaving Lightning",
+  "type": "In-Game",
+  "groups": [
+    "Sub"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": null,
+  "startDateOffset": null,
+  "endDate": null,
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": "Sub Event",
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 210
+        },
+        {
+          "name": "Mora",
+          "quantity": 210000
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Thunder Pellet",
+          "quantity": 800
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.0"
+}

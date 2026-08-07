@@ -1,0 +1,88 @@
+{
+  "pageTitle": "Lightgleaner's Journey",
+  "name": "Lightgleaner's Journey",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "In this new land, Paimon has prepared a special gift just for you. Like a faithful pair of eyes, it wilt quietly capture fleeting sights and gently preserve the moments that stir your heart.",
+  "timeKnown": true,
+  "startDate": "2025-10-10T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-10-21T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/41609085"
+    }
+  ],
+  "featuredCharacters": [
+    "Aino",
+    "Dori",
+    "Flins",
+    "Ineffa",
+    "Lauma",
+    "Paimon",
+    "Traveler",
+    "Varesa"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 120000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 4
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 15
+        },
+        {
+          "name": "Guide to Elysium",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Moonlight",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Vagrancy",
+          "quantity": 4
+        },
+        {
+          "name": "Afterglow of Long Night Flint",
+          "quantity": 4
+        },
+        {
+          "name": "Artful Device Replica",
+          "quantity": 4
+        },
+        {
+          "name": "Unyielding Delusion of the Far-North Scions",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Memento Kamera",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna I"
+}

@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Emblem of Steadfast Valor",
+  "name": "Preuve d'une bravoure sans faille",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "A combat readiness liaison is awaiting your help outside the Stadium of the Sacred Flame's Speaker's Chamber. As distinguished heroes, your unmatched expertise will provide invaluable insights by which the warriors of Natlan's tribes may be honed...",
+  "timeKnown": true,
+  "startDate": "2025-01-09T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-01-20T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/36198250"
+    }
+  ],
+  "featuredCharacters": [
+    "Ajaw",
+    "Kinich",
+    "Xilonen"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 260000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 18
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 18
+        },
+        {
+          "name": "Guide de la Compétition",
+          "quantity": 4
+        },
+        {
+          "name": "Guide du Petit bois",
+          "quantity": 4
+        },
+        {
+          "name": "Guide du Conflit",
+          "quantity": 4
+        },
+        {
+          "name": "Preuve de bravoure",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.3"
+}

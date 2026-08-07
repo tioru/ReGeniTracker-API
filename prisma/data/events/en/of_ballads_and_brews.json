@@ -1,0 +1,208 @@
+{
+  "pageTitle": "Of Ballads and Brews",
+  "name": "Of Ballads and Brews",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Weinlesefest",
+  "description": "The harvest season is coming soon, and all of Mondstadt is abuzz with preparations for Weinlesefest. You and Paimon have also returned here on account of a commission from the Adventurers' Guild...",
+  "timeKnown": true,
+  "startDate": "2022-09-29T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-10-17T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/9331346"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/9402660"
+    }
+  ],
+  "featuredCharacters": [
+    "Clemens",
+    "Leah"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Missive Windspear"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Missive Windspear",
+          "quantity": 1
+        },
+        {
+          "name": "Plume of the Changing Winds",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 1720000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 40
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 18
+        },
+        {
+          "name": "Wanderer's Advice",
+          "quantity": 36
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 51
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 4
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Freedom",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 5
+        },
+        {
+          "name": "Philosophies of Resistance",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 5
+        },
+        {
+          "name": "Philosophies of Ballad",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 5
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 19
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 19
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 19
+        },
+        {
+          "name": "Recipe: Fruits of the Festival",
+          "quantity": 1
+        },
+        {
+          "name": "Favonian Goodies (Furnishing)",
+          "quantity": 1
+        },
+        {
+          "name": "Shop Frame: Valberry Red",
+          "quantity": 1
+        },
+        {
+          "name": "Shop Frame: Dandelion Green",
+          "quantity": 1
+        },
+        {
+          "name": "Shop Frame: Cider Lake Blue",
+          "quantity": 1
+        },
+        {
+          "name": "Storefront Furnishing: Please, Enjoy Your Meal",
+          "quantity": 1
+        },
+        {
+          "name": "Storefront Furnishing: Super Special Prices",
+          "quantity": 1
+        },
+        {
+          "name": "Storefront Furnishing: A Powerful Fragrance",
+          "quantity": 1
+        },
+        {
+          "name": "Landscape Accessory: Surprise Gift",
+          "quantity": 1
+        },
+        {
+          "name": "Landscape Accessory: Bright Aroma",
+          "quantity": 1
+        },
+        {
+          "name": "Landscape Accessory: Appropriately Sweetened",
+          "quantity": 1
+        },
+        {
+          "name": "Shop Ornament: Visible Flavor",
+          "quantity": 1
+        },
+        {
+          "name": "Shop Ornament: Orderly Queue",
+          "quantity": 1
+        },
+        {
+          "name": "Shop Ornament: Birdie the Waiter",
+          "quantity": 1
+        },
+        {
+          "name": "Shop Ornament: Just One Bite",
+          "quantity": 1
+        },
+        {
+          "name": "Shop Ornament: A Basket of Scents",
+          "quantity": 1
+        },
+        {
+          "name": "Shop Ornament: Welcome, Welcome!",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.1"
+}

@@ -1,0 +1,126 @@
+{
+  "pageTitle": "Traces of Artistry",
+  "name": "Traces d'art",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "At the \"Children of Echoes\" stage, a graffiti expert extends a grand invitation to you and Paimon, \"to travel around Natlan in search of inspiration\"...",
+  "timeKnown": true,
+  "startDate": "2024-08-28T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-09-16T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/32490642"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/125532"
+    }
+  ],
+  "featuredCharacters": [
+    "\"Dopey Dazzler\"",
+    "Kachina",
+    "Kinich",
+    "Mualani"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Ash-Graven Drinking Horn"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Corne à boire cendrée",
+          "quantity": 1
+        },
+        {
+          "name": "Ombre silencieuse de la mer",
+          "quantity": 4
+        },
+        {
+          "name": "Primo-gemme",
+          "quantity": 920
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 740000
+        },
+        {
+          "name": "Guide de la Compétition",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophie de la Compétition",
+          "quantity": 2
+        },
+        {
+          "name": "Guide du Petit bois",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophie du Petit bois",
+          "quantity": 2
+        },
+        {
+          "name": "Guide du Conflit",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophie du Conflit",
+          "quantity": 2
+        },
+        {
+          "name": "Hésitation du cœur sacrificiel flamboyant",
+          "quantity": 20
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 90
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 18
+        },
+        {
+          "name": "Désolation délirante du seigneur sacré",
+          "quantity": 20
+        },
+        {
+          "name": "Prémonition mystique du vent nocturne",
+          "quantity": 20
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 8
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 36
+        },
+        {
+          "name": "Notes sur les graffitis de l'Éblouissante idiote",
+          "quantity": 1
+        },
+        {
+          "name": "Daguerréotype-graffiti",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.0"
+}

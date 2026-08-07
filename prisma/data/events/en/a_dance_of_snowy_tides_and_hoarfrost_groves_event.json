@@ -1,0 +1,76 @@
+{
+  "pageTitle": "A Dance of Snowy Tides and Hoarfrost Groves (Event)",
+  "name": "A Dance of Snowy Tides and Hoarfrost Groves",
+  "type": "In-Game",
+  "groups": [
+    "Archon Quest"
+  ],
+  "parentEvent": null,
+  "description": "This is where the moon rises — an \"elysium\" for adventurers. The moon's radiance is distant, the snow-ashen groves are lush, and secrets echo throughout the land like an ancient song. Go forth now and listen to the melody beneath the moonlight.",
+  "timeKnown": true,
+  "startDate": "2025-09-10T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-10-21T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40952492"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 620
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 9
+        },
+        {
+          "name": "Lightbearing Scale-Feather",
+          "quantity": 6
+        },
+        {
+          "name": "Moonfall Silver",
+          "quantity": 30
+        },
+        {
+          "name": "Immaculate Warrant",
+          "quantity": 12
+        },
+        {
+          "name": "Tattered Warrant",
+          "quantity": 15
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 9
+        },
+        {
+          "name": "Precision Kuuvahki Stamping Die",
+          "quantity": 6
+        },
+        {
+          "name": "Frostlamp Flower",
+          "quantity": 30
+        },
+        {
+          "name": "Reinforced Drive Shaft",
+          "quantity": 12
+        },
+        {
+          "name": "Broken Drive Shaft",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna I"
+}

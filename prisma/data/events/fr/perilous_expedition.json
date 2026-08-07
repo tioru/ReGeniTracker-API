@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Perilous Expedition",
+  "name": "Prospection périlleuse",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "An adventurer from Liyue seems to have encountered some trouble while studying the geography and hydrology of Sumeru for the Adventurers' Guild. Help him explore the dangerous areas and complete the map!",
+  "timeKnown": true,
+  "startDate": "2023-07-27T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-08-07T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/20360979"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 30
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 56
+        },
+        {
+          "name": "Astuces du voyageur",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 25
+        },
+        {
+          "name": "Minerai de renforcement raffiné",
+          "quantity": 50
+        },
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Mercure karstique",
+          "quantity": 3
+        },
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Talisman en fer de la rosée",
+          "quantity": 3
+        },
+        {
+          "name": "Gentillesse du jardin d'oasis",
+          "quantity": 3
+        },
+        {
+          "name": "Éclat subsistant du pouvoir brûlant",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.8"
+}

@@ -1,0 +1,64 @@
+{
+  "pageTitle": "Of Thorns and Crowns",
+  "name": "Of Thorns and Crowns",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "In the nation of war, only the brave who achieve great feats can honor and accolades. The wisdom to various trials is the Cornerstone of greatness. Deftly your wisdom and strength, conquer all imaginary challenges, defeat your adversaries, and compose your own \"Canticle Of Crowns\"!",
+  "timeKnown": true,
+  "startDate": "2024-09-20T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-09-30T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/33358228"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 12
+        },
+        {
+          "name": "Mora",
+          "quantity": 200000
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 15
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 15
+        },
+        {
+          "name": "Blazing Sacrificial Heart's Hesitance",
+          "quantity": 6
+        },
+        {
+          "name": "Delirious Desolation of the Sacred Lord",
+          "quantity": 6
+        },
+        {
+          "name": "Night-Wind's Mystic Premonition",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.0"
+}

@@ -1,0 +1,68 @@
+{
+  "pageTitle": "Dance of Resolute Will",
+  "name": "Valse de volonté résolue",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "You and Paimon encounter a unique \"swordsmaster\" while wandering the Fontainian countryside. He is guarding the door to a mysterious Domain, searching for the meaning of battle...",
+  "timeKnown": true,
+  "startDate": "2024-01-10T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-01-22T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/24202247"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 410000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 27
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 6
+        },
+        {
+          "name": "Astuces du voyageur",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 20
+        },
+        {
+          "name": "Chapitre d'un accord ancien",
+          "quantity": 6
+        },
+        {
+          "name": "Sublimation de rosée sacrée pure",
+          "quantity": 6
+        },
+        {
+          "name": "Gobelet à vin de la mer immaculée",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.3"
+}

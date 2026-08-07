@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Suddenly the Rain Stops",
+  "name": "Averse passagère",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": "When the rain begins to fall, pedestrians hurry through the squall. But when it abruptly ceases, the sense of loneliness increases.",
+  "timeKnown": true,
+  "startDate": "2023-09-22T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2023-09-27T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/113059"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20230922neuvillette/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Aeife",
+    "Herbier",
+    "Moniotte",
+    "Neuvillette"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.0"
+}

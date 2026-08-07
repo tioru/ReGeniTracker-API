@@ -1,0 +1,34 @@
+{
+  "pageTitle": "Sightseeing With Friends",
+  "name": "Tourisme entre amis",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "{{Description |title = 30px Sightseeing With Friends |The two of you run into several familiar faces at Bayda Harbor in Sumeru. And so, a rather special sightseeing journey begins...",
+  "timeKnown": true,
+  "startDate": "2026-03-16T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-03-26T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/44179332"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna V"
+}

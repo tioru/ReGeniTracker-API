@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Mushroom Realm Mystery (Event)",
+  "name": "Le mystère du royaume fongique",
+  "type": "In-Game",
+  "groups": [
+    "Story Quest"
+  ],
+  "parentEvent": null,
+  "description": "A blazing volcano nurtures a people with spirits just as fiery, braving the odds to build themselves a prosperous home. It's easy to get lost in the warmth and peacefulness of countryside life, and nobody noticed that the seeds of calamity had already been planted. However, despite lurking in the shadows for a long time, those schemes never took root. It's all thanks to that girl — who didn't think, and just ate. Deception and derision? She'll scarf them all down.",
+  "timeKnown": true,
+  "startDate": "2025-03-26T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-04-15T17:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/37812870"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 60
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 9
+        },
+        {
+          "name": "Noyau inerte de statue",
+          "quantity": 6
+        },
+        {
+          "name": "Floraigemme brise-ciel",
+          "quantity": 30
+        },
+        {
+          "name": "Croc mature",
+          "quantity": 12
+        },
+        {
+          "name": "Croc juvénile",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.5"
+}

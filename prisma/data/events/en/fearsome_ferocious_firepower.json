@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Fearsome Ferocious Firepower",
+  "name": "Fearsome Ferocious Firepower",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Monsters have appeared among a long-deserted complex of ruins. In order to avert disaster, a certain \"Genius Inventor\" from the Gardes is using his new improved cannon to clear them out — and he's currently looking for a professional to operate it...",
+  "timeKnown": true,
+  "startDate": "2025-07-21T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-07-29T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40075549"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 15
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 15
+        },
+        {
+          "name": "Mora",
+          "quantity": 200000
+        },
+        {
+          "name": "Guide to Equity",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Justice",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Order",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.7"
+}

@@ -1,0 +1,99 @@
+{
+  "pageTitle": "Shadow of the Ancients",
+  "name": "Shadow of the Ancients",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Katheryne of the Adventurers' Guild seems to be having trouble dealing with a certain investigative commission. Helping her might just come with its benefits...",
+  "timeKnown": true,
+  "startDate": "2021-11-05T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-11-15T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16809"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16935"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 380000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 6
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 4
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 18
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Transience",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Elegance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Light",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Ayesha's Chaos Prospector",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.2"
+}

@@ -1,0 +1,85 @@
+{
+  "pageTitle": "Claw Convoy",
+  "name": "Claw Convoy",
+  "type": "In-Game",
+  "groups": [
+    "Animal Seeking"
+  ],
+  "parentEvent": null,
+  "description": "Put some spring in your step and put your \"discovery\" glasses on, it's time to say \"hi\" to our animal friends!",
+  "timeKnown": true,
+  "startDate": "2024-11-22T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-12-02T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/35053992"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 18
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 8
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 30
+        },
+        {
+          "name": "Mora",
+          "quantity": 220000
+        },
+        {
+          "name": "Companion Gift - \"Aesthetic Inspiration\"",
+          "quantity": 1
+        },
+        {
+          "name": "Companion Gift - \"Essential Skill\"",
+          "quantity": 1
+        },
+        {
+          "name": "Companion Gift - \"Freedom of Rock 'n' Roll\"",
+          "quantity": 1
+        },
+        {
+          "name": "Companion Gift - \"Joyful Tales\"",
+          "quantity": 1
+        },
+        {
+          "name": "Companion Gift - \"Playful and Lively\"",
+          "quantity": 1
+        },
+        {
+          "name": "Companion Gift - \"Resolve to Protect\"",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Inscribed Mirror (Claw Convoy)",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.2"
+}

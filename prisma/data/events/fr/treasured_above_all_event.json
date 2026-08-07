@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Treasured Above All (Event)",
+  "name": "Plus précieux que tout",
+  "type": "In-Game",
+  "groups": [
+    "Story Quest"
+  ],
+  "parentEvent": null,
+  "description": "A cake is a castle, daubed in paint and sculpted into a monument to genius. A cherry is a crown, crystalline and exquisite, a jewel festooning an extraordinary deed. But in the shadow of enhaloed brilliance do ordinary mortals struggle. The greater the yearning, the greater the regrets. The more beset with longing, the further one drifts.",
+  "timeKnown": true,
+  "startDate": "2025-05-07T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-05-27T17:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/38610999"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 60
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 9
+        },
+        {
+          "name": "Accumulateur d'air de source secrète",
+          "quantity": 6
+        },
+        {
+          "name": "Conque de béryl",
+          "quantity": 30
+        },
+        {
+          "name": "Engrenage à coupe droite",
+          "quantity": 12
+        },
+        {
+          "name": "Engrenage de maillage",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.6"
+}

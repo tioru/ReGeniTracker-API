@@ -1,0 +1,69 @@
+{
+  "pageTitle": "On the Trail of Behemoths",
+  "name": "Sur la piste des béhémoths",
+  "type": "In-Game",
+  "groups": [
+    "Challenge",
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "One day, while stopping by the Adventurers' Guild, you and Paimon receive a mysterious commission from an \"organization whose details may not be disclosed.\" It seems that this might just be a toughie...",
+  "timeKnown": true,
+  "startDate": "2025-01-14T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-01-27T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/36301798"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 180000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 4
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 40
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 36
+        },
+        {
+          "name": "Hésitation du cœur sacrificiel flamboyant",
+          "quantity": 4
+        },
+        {
+          "name": "Désolation délirante du seigneur sacré",
+          "quantity": 4
+        },
+        {
+          "name": "Prémonition mystique du vent nocturne",
+          "quantity": 4
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 8
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.3"
+}

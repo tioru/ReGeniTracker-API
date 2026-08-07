@@ -1,0 +1,56 @@
+{
+  "pageTitle": "A Prayer for Blessings, Told to Crested Peaks (Event)",
+  "name": "Prière de bénédiction sur les sommets dentelés",
+  "type": "In-Game",
+  "groups": [
+    "Story Quest"
+  ],
+  "parentEvent": null,
+  "description": "Pearls, gems, and gold &mdash; such are the bounty of the mountains. Their ancient, honored titles are the blessings of the past. It is within the furnaces of the Children of Echoes that all these blessings are brought to fruition. Yet when the hammer's inexorable blows are halted by hesitation, the echoes that ring out through the peaks also fall mute... Can the Name Engraver, who has the watchful eye of the mountains, hear that which the ridges tell of?",
+  "timeKnown": true,
+  "startDate": "2024-10-09T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-10-29T17:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/34010544"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 60
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 9
+        },
+        {
+          "name": "Noyau source aux motifs dorés secrets",
+          "quantity": 6
+        },
+        {
+          "name": "Branchie mousseplume",
+          "quantity": 30
+        },
+        {
+          "name": "Sifflet en métal de guerrier",
+          "quantity": 12
+        },
+        {
+          "name": "Chrysanthème brillant",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.1"
+}

@@ -1,0 +1,82 @@
+{
+  "pageTitle": "Energy Amplifier/2021-12-24",
+  "name": "Energy Amplifier Fruition",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "You meet with the Sumeru scholar Hosseini once more in Liyue. He has refocused his latest academic efforts on the Energy Amplifier...",
+  "timeKnown": true,
+  "startDate": "2021-12-24T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-01-03T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17553"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/17835"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 300000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 18
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 48
+        },
+        {
+          "name": "Wanderer's Advice",
+          "quantity": 48
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 24
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 4
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 4
+        },
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.3"
+}

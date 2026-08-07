@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Wind Chaser",
+  "name": "Chasse aux vents",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "You meet an adventurer named Honglang out in the wilds. He seems to be attempting to explore a strange Domain...",
+  "timeKnown": true,
+  "startDate": "2022-10-17T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-10-31T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/12425989"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/12440671"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 310000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 21
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 30
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.1"
+}

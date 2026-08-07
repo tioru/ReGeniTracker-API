@@ -1,0 +1,76 @@
+{
+  "pageTitle": "Springtime Charms",
+  "name": "Festival des lanternes/Talismans printaniers",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Lantern Rite Festival",
+  "description": "As the Lantern Rite approaches, you and Paimon arrive at Liyue Harbor, ready to enjoy the festival with old and new friends alike...",
+  "timeKnown": true,
+  "startDate": "2025-01-24T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-02-09T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/36526234"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/36555146"
+    }
+  ],
+  "featuredCharacters": [
+    "Weijin",
+    "Minglan",
+    "Yaolu",
+    "Amber",
+    "Eula",
+    "Cyno",
+    "Tighnari",
+    "Chiori",
+    "Xiangling",
+    "Lan Yan",
+    "Chongyun",
+    "Keqing",
+    "Ganyu",
+    "Ningguang",
+    "Beidou",
+    "Baizhu",
+    "Xiao",
+    "Zhongli",
+    "Yoimiya",
+    "Charlotte"
+  ],
+  "specialReward": {
+    "type": "Choose Character",
+    "options": [
+      "Beidou",
+      "Chongyun",
+      "Gaming",
+      "Lan Yan",
+      "Ningguang",
+      "Xiangling",
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei",
+      "Yaoyao",
+      "Yun Jin"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "delim = ;",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.3"
+}

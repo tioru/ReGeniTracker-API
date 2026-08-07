@@ -1,0 +1,52 @@
+{
+  "pageTitle": "When the Mists Fade",
+  "name": "Quand la brume se dissipe",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": "What are you standing there for? It's already over. Brush the dust off your pants and go back to look for your master. A divination? I'm heading out now. If it's not urgent, we can talk about it tomorrow. ... Ah—! I still have a ton of things to do before I leave, don't tell me the Traveler is already here!",
+  "timeKnown": true,
+  "startDate": "2024-12-25T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-12-31T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/35834537"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20241225citlali-4c8vwo/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.2"
+}

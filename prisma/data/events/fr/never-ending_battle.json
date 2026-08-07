@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Never-Ending Battle",
+  "name": "Guerre sans fin",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Enemies of unknown origin have come ashore the archipelago, intent on taking this seaborne paradise for themselves. Beat them back in one fell swoop!",
+  "timeKnown": true,
+  "startDate": "2021-07-09T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-07-19T03:59:00",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/13960"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 420000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Or",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.6"
+}

@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Memories Flowing With Color (Event)",
+  "name": "Memories Flowing With Color",
+  "type": "In-Game",
+  "groups": [
+    "Story Quest"
+  ],
+  "parentEvent": null,
+  "description": "The Masters of the Night-Wind have upheld an ancient custom for generations — using colorful woven scrolls to record the history of Natlan. It is precisely because of this tradition that you, who have come to the tribe quite by chance, have been entrusted with a mission. To fulfill this mission, you realize that you must unravel a mystery that has gone unanswered for over two hundred years. The key to solving it seems to lie in a mysterious \"color\"...",
+  "timeKnown": true,
+  "startDate": "2025-01-01T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-01-21T17:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/35948962"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 60
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 9
+        },
+        {
+          "name": "Talisman of the Enigmatic Land",
+          "quantity": 6
+        },
+        {
+          "name": "Quenepa Berry",
+          "quantity": 30
+        },
+        {
+          "name": "Seasoned Fang",
+          "quantity": 12
+        },
+        {
+          "name": "Juvenile Fang",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.3"
+}

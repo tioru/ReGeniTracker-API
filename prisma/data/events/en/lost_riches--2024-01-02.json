@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Lost Riches/2024-01-02",
+  "name": "Lost Riches 2024-01-02",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "In the countryside of Fontaine, Ulman is planning the future of his business enterprise...",
+  "timeKnown": true,
+  "startDate": "2024-01-02T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-01-15T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/23982298"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "item1",
+          "quantity": 0
+        },
+        {
+          "name": "item2",
+          "quantity": 0
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "currency1",
+          "quantity": 0
+        },
+        {
+          "name": "currency2",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.3"
+}

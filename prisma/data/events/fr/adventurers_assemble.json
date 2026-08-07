@@ -1,0 +1,42 @@
+{
+  "pageTitle": "Adventurers, Assemble!",
+  "name": "Rassemblez-vous, aventuriers !",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Dear Travelers~ The new event meticulously prepared by Paimon, \"Adventurers, Assemble!\", is about to begin! Participate in the event for the opportunity to win Mora, artifacts, Primogems and other rewards!<ref>Twitter: [https://x.com/GenshinImpact/status/1319488722157580289 Official Announcement]</ref>",
+  "timeKnown": true,
+  "startDate": "2020-10-28T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2020-11-27T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/65160"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20201028-invite-sea/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Mora",
+          "quantity": 100000
+        },
+        {
+          "name": "Primo-gemme",
+          "quantity": 180
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.0"
+}

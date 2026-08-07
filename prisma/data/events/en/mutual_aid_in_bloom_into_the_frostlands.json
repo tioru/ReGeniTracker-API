@@ -1,0 +1,42 @@
+{
+  "pageTitle": "Mutual Aid in Bloom: Into the Frostlands",
+  "name": "Mutual Aid in Bloom: Into the Frostlands",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "While traveling to Morepesok, you encounter a self-proclaimed powerhouse. At her enthusiastic invitation, you join the \"Mutual Aid Advancement Network\" to scout specific zones across the Snezhnayan wilds, sharing valuable insights with green but earnest members...",
+  "timeKnown": true,
+  "startDate": "2026-08-12T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-08-24T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "currency1",
+          "quantity": 0
+        },
+        {
+          "name": "currency2",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "7.0"
+}

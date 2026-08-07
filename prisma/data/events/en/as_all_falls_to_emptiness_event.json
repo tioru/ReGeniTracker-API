@@ -1,0 +1,56 @@
+{
+  "pageTitle": "As All Falls to Emptiness (Event)",
+  "name": "As All Falls to Emptiness",
+  "type": "In-Game",
+  "groups": [
+    "Archon Quest"
+  ],
+  "parentEvent": null,
+  "description": "People describe wisdom in many different ways: an eternal garden, an imperishable monument, an ancient tree that reaches the sky. And from these they extract what they most desire: a flower, a stone, a leaf... Wisdom also seeps into every dream, for better or for worse, flowing like a stream, projecting itself as the shadow of a tree over every corner of the world. Thus, the catastrophe that lurks in dreams manifests itself... Now, it is descending.",
+  "timeKnown": true,
+  "startDate": "2026-05-20T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-06-30T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/45076839"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 560
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 9
+        },
+        {
+          "name": "Remnant of the Dreadwing",
+          "quantity": 6
+        },
+        {
+          "name": "Pine Amber",
+          "quantity": 30
+        },
+        {
+          "name": "Tattered Warrant",
+          "quantity": 12
+        },
+        {
+          "name": "Immaculate Warrant",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VII"
+}

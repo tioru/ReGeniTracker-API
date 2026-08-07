@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Of Fading Flowers and Falling Feathers (Event)",
+  "name": "De fleurs fanées et de plumes tombantes",
+  "type": "In-Game",
+  "groups": [
+    "Story Quest"
+  ],
+  "parentEvent": null,
+  "description": "Winds stirred by Saurian wings, and warriors soaring through the heavens. Since ancient times, successive generations of the Flower-Feather Clan's elite have watched over their tribe, patrolling the skies with their Qucusaurus companions. Yet beneath this radiant sheen of glorious victory, shadows of loss and failure loom. Some Saurians are born with wings, just as some people come into this world endowed with innate talent. Others, however, can do naught else but spend their lives gazing up from the ground... Over time, such obsession builds, until eventually it piles up into towering ambition. But will this ever be enough to take them up to that distant, unattainable firmament?",
+  "timeKnown": true,
+  "startDate": "2024-11-20T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-12-10T17:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/35015714"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 60
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 9
+        },
+        {
+          "name": "Regard enchevêtrant",
+          "quantity": 6
+        },
+        {
+          "name": "Pourprinfleur fanée",
+          "quantity": 30
+        },
+        {
+          "name": "Croc mature",
+          "quantity": 12
+        },
+        {
+          "name": "Croc juvénile",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.2"
+}

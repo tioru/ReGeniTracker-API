@@ -1,0 +1,52 @@
+{
+  "pageTitle": "Great Expeditionist Challenge",
+  "name": "Great Expeditionist Challenge",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "As veteran adventurers, you and Paimon decided to take a proper look around to the Adventurers' Guild Headquarters in Snezhnaya. To your surprise, two top-tier peers were already waiting there for you. At their invitation, you participate in a unique tournament...",
+  "timeKnown": true,
+  "startDate": "2026-08-28T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-09-14T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Diona",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "currency1",
+          "quantity": 0
+        },
+        {
+          "name": "currency2",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "7.0"
+}

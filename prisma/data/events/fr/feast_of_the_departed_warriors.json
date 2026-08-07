@@ -1,0 +1,68 @@
+{
+  "pageTitle": "Feast of the Departed Warriors",
+  "name": "Liturgie des guerriers défunts",
+  "type": "In-Game",
+  "groups": [
+    "Challenge"
+  ],
+  "parentEvent": null,
+  "description": "The mysterious Domain has opened its doors, and beyond its threshold are treacherous and dangerous adversaries on the prowl. waiting for their moment to strike.",
+  "timeKnown": true,
+  "startDate": "2023-06-14T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-06-26T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/19277582"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 240000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 20
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 36
+        },
+        {
+          "name": "Minerai de renforcement raffiné",
+          "quantity": 64
+        },
+        {
+          "name": "Guide de la Liberté",
+          "quantity": 3
+        },
+        {
+          "name": "Guide de la Résistance",
+          "quantity": 3
+        },
+        {
+          "name": "Guide de la Poésie",
+          "quantity": 3
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.7"
+}

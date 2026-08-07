@@ -1,0 +1,44 @@
+{
+  "pageTitle": "Raiment Collection/2026-05-20",
+  "name": "Collection vestimentaire/20.05.2026",
+  "type": "In-Game",
+  "groups": [
+    "Miliastra Wonderland"
+  ],
+  "parentEvent": null,
+  "description": "After the Version \"Luna VII\" update, you can participate in the \"Raiment Collection: Convergent Tides\" event to progressively unlock with weekly missions and Elite cosmetic set, \"Splatter Artist\" (4-Star) of your choice!",
+  "timeKnown": true,
+  "startDate": "2026-05-20T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-07-01T05:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/45089379"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Éclaboussure artistique (Manekina)",
+          "quantity": 1
+        },
+        {
+          "name": "Éclaboussure artistique (Manekin)",
+          "quantity": 1
+        },
+        {
+          "name": "Géode de recréation",
+          "quantity": 1600
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VII"
+}

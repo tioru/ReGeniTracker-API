@@ -1,0 +1,140 @@
+{
+  "pageTitle": "Clink Clank Clash",
+  "name": "Clink Clank Clash",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "After familiarizing yourself with Nod-Krai, you and Paimon find yourselves with some time on your hands, but before you can kick back and relax, you discover that Ineffa and Aino have been dragged into a curious crisis...",
+  "timeKnown": true,
+  "startDate": "2025-09-12T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-09-29T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40984422"
+    },
+    {
+      "label": "It's Time for Clink Clank Clash!",
+      "url": "https://www.hoyolab.com/article/40984596"
+    }
+  ],
+  "featuredCharacters": [
+    "Letti"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Etherlight Spindlelute"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 990
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 640000
+        },
+        {
+          "name": "Wanderer's Advice",
+          "quantity": 20
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 10
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 26
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 48
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 24
+        },
+        {
+          "name": "Etherlight Spindlelute",
+          "quantity": 1
+        },
+        {
+          "name": "Golden Strings",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Elysium",
+          "quantity": 10
+        },
+        {
+          "name": "Guide to Moonlight",
+          "quantity": 10
+        },
+        {
+          "name": "Guide to Vagrancy",
+          "quantity": 10
+        },
+        {
+          "name": "Philosophies of Elysium",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Moonlight",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Vagrancy",
+          "quantity": 2
+        },
+        {
+          "name": "Artful Device Fragment",
+          "quantity": 12
+        },
+        {
+          "name": "Artful Device Replica",
+          "quantity": 24
+        },
+        {
+          "name": "Ember of Long Night Flint",
+          "quantity": 12
+        },
+        {
+          "name": "Afterglow of Long Night Flint",
+          "quantity": 24
+        },
+        {
+          "name": "Sundered Glory of the Far-North Scions",
+          "quantity": 12
+        },
+        {
+          "name": "Unyielding Delusion of the Far-North Scions",
+          "quantity": 24
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Legion Morale",
+          "quantity": 1320
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna I"
+}

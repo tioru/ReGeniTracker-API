@@ -1,0 +1,91 @@
+{
+  "pageTitle": "Travelers' Tales (Event)/2025-02-12",
+  "name": "Contes de voyage/12.02.2025",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "A new day in Teyvat is about to begin. As you set off on your journey once more, pay attention to the whispers on the wind. Perhaps the breeze might bring you tidings from your friends...",
+  "timeKnown": true,
+  "startDate": "2025-02-12T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-03-25T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/36971022"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/36952119"
+    }
+  ],
+  "featuredCharacters": [
+    "Amber",
+    "Diluc",
+    "Diona",
+    "Fischl",
+    "Kaedehara Kazuha",
+    "Keqing",
+    "Ningguang",
+    "Noelle",
+    "Qiqi",
+    "Rosaria",
+    "Sangonomiya Kokomi",
+    "Shenhe",
+    "Sucrose",
+    "Xiangling",
+    "Xianyun",
+    "Xingqiu",
+    "Yaoyao",
+    "Yun Jin",
+    "Zhongli",
+    "Traveler",
+    "Paimon",
+    "Biao",
+    "Decai",
+    "Mei",
+    "Wangfa",
+    "Madame Ping",
+    "Albert",
+    "Jack",
+    "Lambda",
+    "Stanley",
+    "Guoba",
+    "Jean",
+    "Victoria",
+    "Oz",
+    "Baizhu",
+    "Hu Tao",
+    "Freki",
+    "Geri",
+    "Su Er'niang",
+    "Venti"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 120
+        },
+        {
+          "name": "Mora",
+          "quantity": 120000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 12
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 12
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.4"
+}

@@ -1,0 +1,81 @@
+{
+  "pageTitle": "Invitation to Wonderland/2025-12-03",
+  "name": "Invitation au Paradisia/03.12.2025",
+  "type": "In-Game",
+  "groups": [
+    "Miliastra Wonderland",
+    "Indefinite"
+  ],
+  "parentEvent": null,
+  "description": "Wow! Look at this shiny Luminous Keystone! This is one of the rarest and most magical things in the Wonderlands. 1,600 of them... hmm, if Paimon's counting right, that's enough for 10 Event Odes!",
+  "timeKnown": true,
+  "startDate": "2025-12-03T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": null,
+  "endDateOffset": null,
+  "isIndefinite": true,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/42528495"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Pierre lumineuse",
+          "quantity": 1600
+        },
+        {
+          "name": "Géode de recréation",
+          "quantity": 1600
+        },
+        {
+          "name": "Point d'exclamation « Besoin d'aide »",
+          "quantity": 1
+        },
+        {
+          "name": "Matériaux étincelants : exceptionnels",
+          "quantity": 4
+        },
+        {
+          "name": "Promesse",
+          "quantity": 1
+        },
+        {
+          "name": "Refuser",
+          "quantity": 1
+        },
+        {
+          "name": "Prends ça",
+          "quantity": 1
+        },
+        {
+          "name": "Réflexion intense",
+          "quantity": 1
+        },
+        {
+          "name": "Déprime",
+          "quantity": 1
+        },
+        {
+          "name": "Mouvement timide de la tête",
+          "quantity": 1
+        },
+        {
+          "name": "Jouer",
+          "quantity": 1
+        },
+        {
+          "name": "Éteindre la lumière",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna III"
+}

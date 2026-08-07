@@ -1,0 +1,52 @@
+{
+  "pageTitle": "Dance of Gratitude",
+  "name": "Danse de la gratitude",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": "The web event for Genshin Impact's new character: Nilou is now available. Take part in the event to obtain Primogems! Everyone loves Nilou's performances, and she would like to present the most beautiful dance to everyone.",
+  "timeKnown": true,
+  "startDate": "2022-10-08T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2022-10-13T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/24527"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20221008nilou/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.1"
+}

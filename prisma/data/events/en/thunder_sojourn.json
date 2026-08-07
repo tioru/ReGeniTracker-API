@@ -1,0 +1,118 @@
+{
+  "pageTitle": "Thunder Sojourn",
+  "name": "Thunder Sojourn",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "Muzhen, the Chief Technical Officer of the Alcor, is searching for an important target and urgently needs the help of experienced adventurers.",
+  "timeKnown": true,
+  "startDate": "2021-07-22T10:00:00",
+  "startDateOffset": null,
+  "endDate": null,
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/573692"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Beidou"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 980
+        },
+        {
+          "name": "Mora",
+          "quantity": 1080000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 38
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 60
+        },
+        {
+          "name": "Beidou",
+          "quantity": 1
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Philosophies of Transience",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Transience",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Elegance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Elegance",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Light",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Light",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Thunder Pellet",
+          "quantity": 2680
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.0"
+}

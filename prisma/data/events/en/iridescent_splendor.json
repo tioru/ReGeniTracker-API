@@ -1,0 +1,81 @@
+{
+  "pageTitle": "Iridescent Splendor",
+  "name": "Iridescent Splendor",
+  "type": "In-Game",
+  "groups": [
+    "Login",
+    "Mail"
+  ],
+  "parentEvent": "Lantern Rite Gifts",
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2023-02-05T00:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-03-01T05:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/15074968"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Intertwined Fate",
+          "quantity": 3
+        },
+        {
+          "name": "Mora",
+          "quantity": 100000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 5
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 6
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 3
+        },
+        {
+          "name": "Bountiful Year",
+          "quantity": 5
+        },
+        {
+          "name": "Tianshu Meat",
+          "quantity": 5
+        },
+        {
+          "name": "Universal Peace",
+          "quantity": 5
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.4"
+}

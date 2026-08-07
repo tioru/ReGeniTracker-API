@@ -1,0 +1,151 @@
+{
+  "pageTitle": "Energy Amplifier/2021-04-30",
+  "name": "Energy Amplifier Initiation",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op",
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "In an effort to gather and research Irminsul Fruit Fragments, Sumeru researcher Hosseini has entrusted a mysterious ancient relic to you for a time: the Energy Amplifier. Help Hosseini to gather Irminsul Fruit Fragments and unleash their power with the Energy Amplifier.",
+  "timeKnown": true,
+  "startDate": "2021-04-30T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-05-17T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/329821"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/12467"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Diona"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 990
+        },
+        {
+          "name": "Mora",
+          "quantity": 1030000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 30
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 75
+        },
+        {
+          "name": "Diona",
+          "quantity": 1
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Celebration: Fruit of Wisdom",
+          "quantity": 1
+        },
+        {
+          "name": "Philosophies of Freedom",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Resistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Ballad",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Prosperity",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Gold",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Fractured Fruit Data",
+          "quantity": 11490
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.5"
+}

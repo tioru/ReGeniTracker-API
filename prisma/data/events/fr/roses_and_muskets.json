@@ -1,0 +1,145 @@
+{
+  "pageTitle": "Roses and Muskets",
+  "name": "Roses et mousquets",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Fontinalia Festival",
+  "description": "The Steambird reports that Fontainians have been in lively spirits lately. At Paimon's suggestion, you come to the festival venue, where you have a chance encounter with a certain acquaintance as the curtains rise on this wonderful experience...",
+  "timeKnown": true,
+  "startDate": "2023-12-21T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-01-08T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/23689256"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/114114"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "\"Ultimate Overlord's Mega Magic Sword\""
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 760
+        },
+        {
+          "name": "Mora",
+          "quantity": 440000
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "« Méga épée magique du suzerain ultime »",
+          "quantity": 1
+        },
+        {
+          "name": "Cristal magique scintillant super-méga invincible",
+          "quantity": 4
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 61
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 16
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 222
+        },
+        {
+          "name": "Guide de l'Équité",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de la Justice",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de l'Ordre",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de l'Équité",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de la Justice",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de l'Ordre",
+          "quantity": 2
+        },
+        {
+          "name": "Chapitre d'un accord ancien",
+          "quantity": 12
+        },
+        {
+          "name": "Sublimation de rosée sacrée pure",
+          "quantity": 12
+        },
+        {
+          "name": "Gobelet à vin de la mer immaculée",
+          "quantity": 12
+        },
+        {
+          "name": "Mouvement d'un accord ancien",
+          "quantity": 4
+        },
+        {
+          "name": "Source de rosée sacrée pure",
+          "quantity": 4
+        },
+        {
+          "name": "Gobelet d'argent de la mer immaculée",
+          "quantity": 4
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 48
+        },
+        {
+          "name": "Recette : Mousse fontinalienne",
+          "quantity": 1
+        },
+        {
+          "name": "Simulateur « Précision idéale »",
+          "quantity": 1
+        },
+        {
+          "name": "« Souvenir commémoratif du Studio mousquetairesque »",
+          "quantity": 1
+        },
+        {
+          "name": "Mécanisme de stabilisation « Siouplaît »",
+          "quantity": 1
+        },
+        {
+          "name": "Affiche de film « Les deux mousquetaires »",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.3"
+}

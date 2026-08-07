@@ -1,0 +1,46 @@
+{
+  "pageTitle": "Aloy's Exploration Journal",
+  "name": "Journal d'exploration d'Aloy",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-10-13T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2021-10-27T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Event Page",
+      "url": "https://webstatic-sea.mihoyo.com/ys/event/e20211013-aloy/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Aloy"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.2"
+}

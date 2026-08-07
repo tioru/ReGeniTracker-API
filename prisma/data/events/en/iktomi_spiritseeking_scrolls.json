@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Iktomi Spiritseeking Scrolls",
+  "name": "Iktomi Spiritseeking Scrolls",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "The Masters of the Night-Wind are unique among the tribes of Natlan, having mastered all kinds of mysterious methods and connections of the world. In this adventure about clairvoyance, perhaps you will be able to draw back the corner of the curtain...",
+  "timeKnown": true,
+  "startDate": "2024-11-28T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-12-16T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/35194805"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/35213297"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Calamity of Eshu"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Calamity of Eshu",
+          "quantity": 1
+        },
+        {
+          "name": "Shuttle of Odara",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "currency1",
+          "quantity": 0
+        },
+        {
+          "name": "currency2",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.2"
+}

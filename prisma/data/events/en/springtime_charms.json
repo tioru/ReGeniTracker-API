@@ -1,0 +1,181 @@
+{
+  "pageTitle": "Springtime Charms",
+  "name": "Springtime Charms",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Lantern Rite Festival",
+  "description": "As the Lantern Rite approaches, you and Paimon arrive at Liyue Harbor, ready to enjoy the festival with old and new friends alike...",
+  "timeKnown": true,
+  "startDate": "2025-01-24T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-02-09T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/36526234"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/36555146"
+    }
+  ],
+  "featuredCharacters": [
+    "Weijin",
+    "Minglan",
+    "Yaolu",
+    "Amber",
+    "Eula",
+    "Cyno",
+    "Tighnari",
+    "Chiori",
+    "Xiangling",
+    "Lan Yan",
+    "Chongyun",
+    "Keqing",
+    "Ganyu",
+    "Ningguang",
+    "Beidou",
+    "Baizhu",
+    "Xiao",
+    "Zhongli",
+    "Yoimiya",
+    "Charlotte"
+  ],
+  "specialReward": {
+    "type": "Choose Character",
+    "options": [
+      "Beidou",
+      "Chongyun",
+      "Gaming",
+      "Lan Yan",
+      "Ningguang",
+      "Xiangling",
+      "Xingqiu",
+      "Xinyan",
+      "Yanfei",
+      "Yaoyao",
+      "Yun Jin"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 880
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 780000
+        },
+        {
+          "name": "New Year's Cheer",
+          "quantity": 1
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 27
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 54
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Prosperity",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Diligence",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Gold",
+          "quantity": 2
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 27
+        },
+        {
+          "name": "Blueprint: Springtime Folding Screen: A Touch of Red",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Springtime Folding Screen: Fragrance Fills the Air",
+          "quantity": 1
+        },
+        {
+          "name": "Divine Remains, Left to Pacify the Nether",
+          "quantity": 1
+        },
+        {
+          "name": "Recipe: Drunken Plums in Snow",
+          "quantity": 1
+        },
+        {
+          "name": "Auspicious Mora: \"Splendid Bounty\"",
+          "quantity": 1
+        },
+        {
+          "name": "Plum Branch Arrangement: \"Boundless Spring\"",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Festive Fever (Springtime Charms)",
+          "quantity": 1900
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.3"
+}

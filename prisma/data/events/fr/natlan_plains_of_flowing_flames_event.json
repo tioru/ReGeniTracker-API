@@ -1,0 +1,36 @@
+{
+  "pageTitle": "Natlan: Plains of Flowing Flames (Event)",
+  "name": "Natlan : Plaine des flammes ardentes",
+  "type": "In-Game",
+  "groups": [
+    "Repertoire of Myriad Melodies Update"
+  ],
+  "parentEvent": null,
+  "description": "Repertoire of Myriad Melodies has a new album available to perform. Complete within the time limit to obtain limited-time rewards",
+  "timeKnown": true,
+  "startDate": "2025-07-30T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-09-09T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40226686"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 60
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.8"
+}

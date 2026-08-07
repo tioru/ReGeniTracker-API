@@ -1,0 +1,42 @@
+{
+  "pageTitle": "Underwater Treasure Hunt (Web Event)",
+  "name": "Chasse au trésor sous-marine",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2024-05-29T00:00:00",
+  "startDateOffset": "UTC+8",
+  "endDate": "2024-06-11T23:59:59",
+  "endDateOffset": "UTC+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://fxtwitter.com/GenshinImpact/status/1795666382677254652"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20240514promotion-4h9j6/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "item1",
+          "quantity": 0
+        },
+        {
+          "name": "item2",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.6"
+}

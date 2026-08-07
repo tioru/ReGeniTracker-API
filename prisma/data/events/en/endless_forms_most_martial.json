@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Endless Forms Most Martial",
+  "name": "Endless Forms Most Martial",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "The battlefield is constantly changing and never static. Only by grasping new opportunities as they arise can victory be guaranteed. Set up a suitable party based on the special characteristics and effects present, using the advantages they grant to secure your triumph!",
+  "timeKnown": true,
+  "startDate": "2024-06-25T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-07-01T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/30192615"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/124223"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Guide to Equity",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Justice",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Order",
+          "quantity": 4
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 160000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 24
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 24
+        },
+        {
+          "name": "Fine Enhancement Ore",
+          "quantity": 48
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.7"
+}

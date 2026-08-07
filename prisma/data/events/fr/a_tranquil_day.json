@@ -1,0 +1,67 @@
+{
+  "pageTitle": "A \"Tranquil\" Day",
+  "name": "Une journée paisible",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": "Dear Traveler, Come spend a \"tranquil\" day with Varesa and experience her daily life! Unlock all the daily activities to receive rewards including Primogems and Varesa's specialty dish!",
+  "timeKnown": true,
+  "startDate": "2025-03-26",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-04-08T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/37847767"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20250326newland-8y7p93/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Iansan",
+    "Varesa"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 80
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 5
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 3
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 3
+        },
+        {
+          "name": "Champi-mont (Portion individuelle)",
+          "quantity": 1
+        },
+        {
+          "name": "Noyau inerte de statue",
+          "quantity": 5
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.5"
+}

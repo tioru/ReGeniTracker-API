@@ -1,0 +1,128 @@
+{
+  "pageTitle": "Shutterflash Memory Hunt",
+  "name": "Shutterflash Memory Hunt",
+  "type": "In-Game",
+  "groups": [
+    "Kamera"
+  ],
+  "parentEvent": null,
+  "description": "A new Kamera is ready for field testing, but its timid operator requires a bit of help... And so the mantle of Teyvat's Special Guest Photographer falls once more across your shoulders. Travel across the land, visit old friends, and capture the moments that show off who they are!",
+  "timeKnown": true,
+  "startDate": "2026-01-16T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-01-26T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/43224970"
+    }
+  ],
+  "featuredCharacters": [
+    "Citlali",
+    "Cyno",
+    "Escoffier",
+    "Eula",
+    "Kachina",
+    "Kaedehara Kazuha",
+    "Nilou",
+    "Noelle",
+    "Skirk",
+    "Yae Miko"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 140000
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 8
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Transience",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Elegance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Light",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Admonition",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Ingenuity",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Praxis",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Equity",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Justice",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Order",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Contention",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Kindling",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Conflict",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "\"Shutterflash\" Kamera",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna IV"
+}

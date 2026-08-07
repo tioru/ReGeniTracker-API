@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Teyvat's Special Delivery",
+  "name": "Livraison spéciale de Teyvat",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": "With the festival approaching and a surge in deliveries, come and help Kirara deliver packages to share heartfelt wishes to everyone~ There's a special package waiting for you too!",
+  "timeKnown": true,
+  "startDate": "2024-09-27T10:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-10-07T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126112"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/20240927gift-delivery-xmyq9b/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Traveler",
+    "Paimon",
+    "Kirara"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 5
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 3
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 3
+        },
+        {
+          "name": "Nougat d'ajilenakh",
+          "quantity": 1
+        },
+        {
+          "name": "Macarons arc-en-ciel",
+          "quantity": 1
+        },
+        {
+          "name": "Branchie mousseplume",
+          "quantity": 3
+        },
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        },
+        {
+          "name": "Recette : Délices d'errances merveilleuses",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.0"
+}

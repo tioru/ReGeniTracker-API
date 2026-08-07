@@ -1,0 +1,60 @@
+{
+  "pageTitle": "Heroic Clash: Saurian Brawl",
+  "name": "Clash héroïque : Bagarre de sauriens",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "Driven by the ambition to showcase their daring spirit, the warriors and their Saurian companions from every tribe yearn for spirited contests. Consequently, they stand ready to enter battle at any given moment.",
+  "timeKnown": true,
+  "startDate": "2025-12-29T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2026-01-07T05:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/42944610"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 200000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 9
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 12
+        },
+        {
+          "name": "Philosophie de la Compétition",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophie du Petit bois",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophie de l'Errance",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna III"
+}

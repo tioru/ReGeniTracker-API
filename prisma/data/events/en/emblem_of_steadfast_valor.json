@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Emblem of Steadfast Valor",
+  "name": "Emblem of Steadfast Valor",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "A combat readiness liaison is awaiting your help outside the Stadium of the Sacred Flame's Speaker's Chamber. As distinguished heroes, your unmatched expertise will provide invaluable insights by which the warriors of Natlan's tribes may be honed...",
+  "timeKnown": true,
+  "startDate": "2025-01-09T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-01-20T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/36198250"
+    }
+  ],
+  "featuredCharacters": [
+    "Ajaw",
+    "Kinich",
+    "Xilonen"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Emblem of Valor",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 260000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 18
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 4
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 18
+        },
+        {
+          "name": "Guide to Contention",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Kindling",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Conflict",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.3"
+}

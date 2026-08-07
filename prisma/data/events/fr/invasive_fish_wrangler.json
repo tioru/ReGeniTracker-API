@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Invasive Fish Wrangler",
+  "name": "Chasse aux poissons invasifs",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "In waters south of Lumidouce Harbor, you encounter a rather peculiar individual who calls herself an \"Unchained Hunter.\" She's currently in the midst of doing everything she can to contain an impending ecological crisis...",
+  "timeKnown": true,
+  "startDate": "2025-03-05T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-03-17T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/37397966"
+    },
+    {
+      "label": "Gameplay Tips",
+      "url": "https://www.hoyolab.com/article/37418165"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 120000
+        },
+        {
+          "name": "Poissonicorne joyauté simulé (Ornemental)",
+          "quantity": 12
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 2
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 8
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 6
+        },
+        {
+          "name": "Chapitre d'un accord ancien",
+          "quantity": 6
+        },
+        {
+          "name": "Sublimation de rosée sacrée pure",
+          "quantity": 6
+        },
+        {
+          "name": "Gobelet à vin de la mer immaculée",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.4"
+}

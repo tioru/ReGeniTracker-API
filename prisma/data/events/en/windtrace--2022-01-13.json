@@ -1,0 +1,101 @@
+{
+  "pageTitle": "Windtrace/2022-01-13",
+  "name": "Windtrace 2022-01-13",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op"
+  ],
+  "parentEvent": null,
+  "description": "Windtrace, the classic game that hands down Mondstadt's history, is once again being held!",
+  "timeKnown": true,
+  "startDate": "2022-01-13T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-01-27T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18237"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/18601"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 550000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 12
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 4
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 16
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Transience",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Elegance",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Light",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Windtrace Coins",
+          "quantity": 6000
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.4"
+}

@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Starlight Reverie",
+  "name": "Starlight Reverie",
+  "type": "Web",
+  "groups": [
+    "Memory"
+  ],
+  "parentEvent": null,
+  "description": "Reminisce about the starlit journey together, and enjoy the beautiful sights of Teyvat~!",
+  "timeKnown": true,
+  "startDate": "2024-09-28T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-10-12T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/126173"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20240928review-k6pzqq/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "item1",
+          "quantity": 0
+        },
+        {
+          "name": "item2",
+          "quantity": 0
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "currency1",
+          "quantity": 0
+        },
+        {
+          "name": "currency2",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.0"
+}

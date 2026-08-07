@@ -1,0 +1,56 @@
+{
+  "pageTitle": "An Elegy for Faded Moonlight (Event)",
+  "name": "An Elegy for Faded Moonlight",
+  "type": "In-Game",
+  "groups": [
+    "Archon Quest"
+  ],
+  "parentEvent": null,
+  "description": "The howling coyotes seek the moon's fading trail, while shadows hang heavy upon every heart. Ancient memories resurface before our eyes, and the riddles left by history still drive countless souls to struggle onward in the torrent of fate.",
+  "timeKnown": true,
+  "startDate": "2025-10-22T13:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-12-02T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/41848206"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 560
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 9
+        },
+        {
+          "name": "Radiant Antler",
+          "quantity": 6
+        },
+        {
+          "name": "Moonfall Silver",
+          "quantity": 30
+        },
+        {
+          "name": "Immaculate Warrant",
+          "quantity": 12
+        },
+        {
+          "name": "Tattered Warrant",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna II"
+}

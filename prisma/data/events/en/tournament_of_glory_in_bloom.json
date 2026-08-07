@@ -1,0 +1,125 @@
+{
+  "pageTitle": "Tournament of Glory in Bloom",
+  "name": "Tournament of Glory in Bloom",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "Recently, everything has been peaceful and quiet. Upon returning to the Children of Echoes, you and Paimon discover a crowd gathering around an extraordinary young Tepetlisaurus...",
+  "timeKnown": true,
+  "startDate": "2025-03-28T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-04-14T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/37847453"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://www.hoyolab.com/article/37869932"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Ororon"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 960
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 680000
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 87
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 8
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 30
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 18
+        },
+        {
+          "name": "Ororon",
+          "quantity": 1
+        },
+        {
+          "name": "Guide to Conflict",
+          "quantity": 8
+        },
+        {
+          "name": "Guide to Contention",
+          "quantity": 8
+        },
+        {
+          "name": "Guide to Kindling",
+          "quantity": 8
+        },
+        {
+          "name": "Philosophies of Conflict",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophies of Contention",
+          "quantity": 4
+        },
+        {
+          "name": "Philosophies of Kindling",
+          "quantity": 4
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Nagadus Emerald Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 3
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.5"
+}

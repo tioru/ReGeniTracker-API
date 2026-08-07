@@ -1,0 +1,109 @@
+{
+  "pageTitle": "Thunder Sojourn",
+  "name": "Fracas du tonnerre",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "Muzhen, the Chief Technical Officer of the Alcor, is searching for an important target and urgently needs the help of experienced adventurers.",
+  "timeKnown": true,
+  "startDate": "2021-07-22T10:00:00",
+  "startDateOffset": null,
+  "endDate": null,
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/573692"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Beidou"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 980
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Beidou",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 1080000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 38
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 60
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 6
+        },
+        {
+          "name": "Guide de l'Éphémère",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de l'Éphémère",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de l'Élégance",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de l'Élégance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide de la Lumière",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophie de la Lumière",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.0"
+}

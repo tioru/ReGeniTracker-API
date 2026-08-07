@@ -1,0 +1,50 @@
+{
+  "pageTitle": "Adventurers' Guild on Twitch",
+  "name": "La guilde des aventuriers sur Twitch",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2021-11-25T01:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2021-12-08T23:59:00",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/1413459"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Ailes d'agapes",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 30000
+        },
+        {
+          "name": "Aumônières de jade",
+          "quantity": 1
+        },
+        {
+          "name": "Tonkotsu ramen",
+          "quantity": 2
+        },
+        {
+          "name": "Matsutake sautés au beurre",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.3"
+}

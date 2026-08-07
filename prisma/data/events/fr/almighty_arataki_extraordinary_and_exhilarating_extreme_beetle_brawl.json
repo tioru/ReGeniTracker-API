@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Almighty Arataki Extraordinary and Exhilarating Extreme Beetle Brawl",
+  "name": "L'extraordinaire et exaltante bagarre extrême de scarabées du sublime Arataki",
+  "type": "In-Game",
+  "groups": [
+    "Beetle Battle"
+  ],
+  "parentEvent": null,
+  "description": "In exceptional spirits, you and Paimon returned to Inazuma, only to run into the Arataki Gang, who greeted you with hands clasped and expressions grinning. They seem to be scheming to deal with a mighty foe...",
+  "timeKnown": true,
+  "startDate": "2023-02-16T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-02-27T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/15074939"
+    },
+    {
+      "label": "Combat Tips",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/105330"
+    }
+  ],
+  "featuredCharacters": [
+    "Grand Rook Sennichi",
+    "Pain-Grocer",
+    "The Cage-Maker",
+    "Wizard Moneybags"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 330000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 30
+        },
+        {
+          "name": "Conseils de l'aventurier",
+          "quantity": 4
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 20
+        },
+        {
+          "name": "Guide de l'Éphémère",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Élégance",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de la Lumière",
+          "quantity": 4
+        },
+        {
+          "name": "Coupon pour ramen d'origine inconnue",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.4"
+}

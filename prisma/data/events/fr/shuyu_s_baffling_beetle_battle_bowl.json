@@ -1,0 +1,83 @@
+{
+  "pageTitle": "Shuyu's Baffling Beetle Battle Bowl",
+  "name": "Chaotique castagne de scarabées de Shuyu",
+  "type": "In-Game",
+  "groups": [
+    "Beetle Battle"
+  ],
+  "parentEvent": null,
+  "description": "When you return to Mt. Aocang, a mysterious teapot domain appears before you and Paimon. Once inside, you are somehow able to control the Onikabuto-shaped gardening machine \"Bloom Pruner\" and face off against foes that defy common sense...",
+  "timeKnown": true,
+  "startDate": "2025-01-03T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-01-13T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/36006504"
+    },
+    {
+      "label": "Gameplay Tips",
+      "url": "https://www.hoyolab.com/article/36055292"
+    }
+  ],
+  "featuredCharacters": [
+    "Grandmaster Hanakado",
+    "Shuyu"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 100000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 6
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 15
+        },
+        {
+          "name": "Guide de la Prospérité",
+          "quantity": 3
+        },
+        {
+          "name": "Guide de la Diligence",
+          "quantity": 3
+        },
+        {
+          "name": "Guide de l'Or",
+          "quantity": 3
+        },
+        {
+          "name": "Roche lustrée de Guyun",
+          "quantity": 3
+        },
+        {
+          "name": "Mercure karstique",
+          "quantity": 3
+        },
+        {
+          "name": "Éclat d'aérosidérite noire",
+          "quantity": 3
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.3"
+}

@@ -1,0 +1,159 @@
+{
+  "pageTitle": "Waterborne Poetry",
+  "name": "Waterborne Poetry",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "People pass to and fro beneath the Stone Gate, and the scent of Dandelion Wine drifts in the air alongside laughter and cheer. The wending water and wafting winds greet the start of a adventure with friends.",
+  "timeKnown": true,
+  "startDate": "2023-10-12T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-10-30T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/22226101"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/113261"
+    }
+  ],
+  "featuredCharacters": [
+    "Jochen",
+    "Aunt Qiao",
+    "Pops Zhou",
+    "Huanxi"
+  ],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Ballad of the Boundless Blue"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 990
+        },
+        {
+          "name": "Mora",
+          "quantity": 1380000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Ballad of the Boundless Blue",
+          "quantity": 1
+        },
+        {
+          "name": "Dandelion Bookmark",
+          "quantity": 4
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 12
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 45
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 90
+        },
+        {
+          "name": "Heart of Clear Springs (Furnishing)",
+          "quantity": 1
+        },
+        {
+          "name": "Splendrous Night: Overflowing Light",
+          "quantity": 1
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 6
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 6
+        },
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 4
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 6
+        },
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Lustrous Stone from Guyun",
+          "quantity": 6
+        },
+        {
+          "name": "Relic from Guyun",
+          "quantity": 4
+        },
+        {
+          "name": "Mist Veiled Mercury Elixir",
+          "quantity": 6
+        },
+        {
+          "name": "Mist Veiled Gold Elixir",
+          "quantity": 4
+        },
+        {
+          "name": "Piece of Aerosiderite",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Poetry Gala Fervor",
+          "quantity": 1440
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.1"
+}

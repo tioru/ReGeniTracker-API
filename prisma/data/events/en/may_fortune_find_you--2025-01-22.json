@@ -1,0 +1,93 @@
+{
+  "pageTitle": "May Fortune Find You/2025-01-22",
+  "name": "May Fortune Find You: Spring's Premonition",
+  "type": "In-Game",
+  "groups": [
+    "Login",
+    "Mail"
+  ],
+  "parentEvent": "Lantern Rite Gifts",
+  "description": "It's that time of the year again! This year's Lantern Rite is sure to be super lively. Hehe, Paimon's so excited! Ahem! Then let Paimon be the one to say it: Traveler, how about we take a trip back to Liyue Harbor together? Who knows, we might just stumble upon something wonderful~",
+  "timeKnown": true,
+  "startDate": "2025-01-22T04:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-02-11T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/36471182"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1600
+        },
+        {
+          "name": "Intertwined Fate",
+          "quantity": 10
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Sanctifying Elixir",
+          "quantity": 1
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 11
+        },
+        {
+          "name": "Fragile Resin",
+          "quantity": 2
+        },
+        {
+          "name": "Mora",
+          "quantity": 130000
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 28
+        },
+        {
+          "name": "Guide to Diligence",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Gold",
+          "quantity": 3
+        },
+        {
+          "name": "Guide to Prosperity",
+          "quantity": 3
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 12
+        },
+        {
+          "name": "Bountiful Year",
+          "quantity": 5
+        },
+        {
+          "name": "Universal Peace",
+          "quantity": 5
+        },
+        {
+          "name": "Drunken Plums in Snow",
+          "quantity": 5
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.3"
+}

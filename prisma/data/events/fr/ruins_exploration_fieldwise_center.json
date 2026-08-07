@@ -1,0 +1,129 @@
+{
+  "pageTitle": "Ruins Exploration: Fieldwise Center",
+  "name": "Exploration des ruines : Centre sécuriterrain",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "Returning once more to Sumeru, you reunite with old friends and set out to investigate a strange incident deep within the desert...",
+  "timeKnown": true,
+  "startDate": "2025-11-07T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-11-24T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/42170224"
+    },
+    {
+      "label": "Scout Enemies, Solve Puzzles, Let Engagement Training Begin!",
+      "url": "https://www.hoyolab.com/article/42170305"
+    }
+  ],
+  "featuredCharacters": [
+    "Shevirme",
+    "Tamara",
+    "Taraneh"
+  ],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Collei"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 960
+        },
+        {
+          "name": "Couronne de la sagesse",
+          "quantity": 1
+        },
+        {
+          "name": "Mora",
+          "quantity": 800000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 92
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 30
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 12
+        },
+        {
+          "name": "Fragment de lazurite varunada",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment d'agate agnidus",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment d'améthyste vajrada",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment d'émeraude nagadus",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment de jade shivada",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 4
+        },
+        {
+          "name": "Fragment de topaze prithiva",
+          "quantity": 4
+        },
+        {
+          "name": "Guide de l'Élysium",
+          "quantity": 8
+        },
+        {
+          "name": "Guide de l'Errance",
+          "quantity": 8
+        },
+        {
+          "name": "Guide de la Lune",
+          "quantity": 8
+        },
+        {
+          "name": "Philosophie de l'Élysium",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de l'Errance",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophie de la Lune",
+          "quantity": 2
+        },
+        {
+          "name": "Plan de décoration : Compagnon-résolveur « Zen et efficace »",
+          "quantity": 1
+        },
+        {
+          "name": "Collei",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna II"
+}

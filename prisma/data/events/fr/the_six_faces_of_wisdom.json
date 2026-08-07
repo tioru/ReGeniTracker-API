@@ -1,0 +1,54 @@
+{
+  "pageTitle": "The Six Faces of Wisdom",
+  "name": "Six facettes de la sagesse",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": "Alhaitham recommended six books. Let's hope Paimon can understand everything this time.",
+  "timeKnown": true,
+  "startDate": "2023-01-13T13:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2023-01-18T03:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/105037"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20230113alhaitham-mayqbr/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Alhaitham"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'émeraude nagadus",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.3"
+}

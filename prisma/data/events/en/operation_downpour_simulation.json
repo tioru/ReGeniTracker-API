@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Operation Downpour Simulation",
+  "name": "Operation Downpour Simulation",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "{{Description |title = 30px Operation Downpour Simulation|In a corner of the Court of Fontaine, Turenna and Enghiene, members of the Special Security and Surveillance Patrol, have set up a new tabletop wargame. The stage is set for you to show off your tactical brilliance...",
+  "timeKnown": true,
+  "startDate": "2025-05-19T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-06-03T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/38831907"
+    }
+  ],
+  "featuredCharacters": [
+    "Enghiene",
+    "Turenna"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 240000
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 8
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 10
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 20
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 10
+        },
+        {
+          "name": "Guide to Equity",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Justice",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Order",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.6"
+}

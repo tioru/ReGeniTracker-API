@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Second Blooming",
+  "name": "Second Blooming",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "Re-encounter the Witch of Purple Rose in a land rich with her namesake.",
+  "timeKnown": true,
+  "startDate": "2023-01-31T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-02-13T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/15074939"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 300000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 21
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 2
+        },
+        {
+          "name": "Wanderer's Advice",
+          "quantity": 4
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 25
+        },
+        {
+          "name": "A Sobriquet Under Shade",
+          "quantity": 1
+        },
+        {
+          "name": "Iron Talisman of the Forest Dew",
+          "quantity": 5
+        },
+        {
+          "name": "Oasis Garden's Kindness",
+          "quantity": 5
+        },
+        {
+          "name": "Remnant Glow of Scorching Might",
+          "quantity": 5
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.4"
+}

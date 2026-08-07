@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Tapirus Somniator Chapter (Event)",
+  "name": "Tapirus Somniator",
+  "type": "In-Game",
+  "groups": [
+    "Story Quest"
+  ],
+  "parentEvent": null,
+  "description": "According to Inazuman folklore, as the day wanes and eyelids grow heavy, a chubby little creature may visit those blessed by fortune. Should this happen, you'd best set aside whatever it is you're doing and go to sleep immediately, for this cute critter is a baku — a youkai who feeds on nightmares. The current inhabitants of Inazuma, however, need not be particularly well-blessed to rid themselves of unpleasant dreams. All they need do is book an appointment at the Aisa Bathhouse in Inazuma City. Rumor has it that each of the bathhouse's therapists is a baku in the guise of a young woman, and that they have helped many a nightmare-plagued patient find release from their troubles. Nevertheless, the once-flourishing Aisa Bathhouse appears to be facing a financial crisis. To understand why, you must first rest your weary head and seek an encounter in the realm of dreams...",
+  "timeKnown": true,
+  "startDate": "2025-02-12T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-03-04T17:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/36971026"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 60
+        },
+        {
+          "name": "Fragment de turquoise vayuda",
+          "quantity": 9
+        },
+        {
+          "name": "Talisman d'une terre mystérieuse",
+          "quantity": 6
+        },
+        {
+          "name": "Ganoderma marin",
+          "quantity": 30
+        },
+        {
+          "name": "Garde-main kageuchi",
+          "quantity": 12
+        },
+        {
+          "name": "Garde-main ancien",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.4"
+}

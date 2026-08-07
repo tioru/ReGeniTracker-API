@@ -1,0 +1,126 @@
+{
+  "pageTitle": "Labyrinth Warriors",
+  "name": "Labyrinth Warriors",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "The great gates of the bizarre and unpredictable Mystic Onmyou Chamber imprison fierce monsters within them. Venture deep into this Domain by yourself and conquer the many perils within, assisting Shiki Taishou to retrieve the fragments of his memories, and you will be able to explore the past that has been sealed within the Domain &mdash; and obtain its various treasures in the meantime.",
+  "timeKnown": true,
+  "startDate": "2021-10-21T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2021-11-08T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16566"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/16582"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Character",
+    "options": [
+      "Xinyan"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 930
+        },
+        {
+          "name": "Mora",
+          "quantity": 740000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 74
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 20
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Shiki Koshou",
+          "quantity": 1
+        },
+        {
+          "name": "Xinyan",
+          "quantity": 1
+        },
+        {
+          "name": "Agnidus Agate Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Varunada Lazurite Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Vayuda Turquoise Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Shivada Jade Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Prithiva Topaz Fragment",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Transience",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Transience",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Elegance",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Elegance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Light",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Light",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Aged Token",
+          "quantity": 7200
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "2.2"
+}

@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Triumphant Frenzy",
+  "name": "Frénésie triomphale",
+  "type": "In-Game",
+  "groups": [
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "In the depths of a mysterious Domain, treacherous foes of even more mysterious origins are preparing for battle... Carefully analyze the opposing lineup and adapt to swiftly dispatch your foes!",
+  "timeKnown": true,
+  "startDate": "2024-02-15T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-02-26T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/24683799"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 450000
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 15
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 15
+        },
+        {
+          "name": "Minerai de renforcement raffiné",
+          "quantity": 30
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.4"
+}

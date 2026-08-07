@@ -1,0 +1,45 @@
+{
+  "pageTitle": "Stone Harbor Treasure Journal",
+  "name": "Découverte du trésor du port de pierre",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2020-11-13T04:00:00",
+  "startDateOffset": null,
+  "endDate": "2020-11-22T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/6682"
+    }
+  ],
+  "featuredCharacters": [
+    "Chef Mao",
+    "Licai",
+    "Paimon",
+    "Tartaglia",
+    "Traveler",
+    "Zhongli"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 200
+        },
+        {
+          "name": "Mora",
+          "quantity": 50000
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "1.1"
+}

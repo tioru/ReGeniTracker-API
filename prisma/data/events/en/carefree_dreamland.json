@@ -1,0 +1,50 @@
+{
+  "pageTitle": "Carefree Dreamland",
+  "name": "Carefree Dreamland",
+  "type": "Web",
+  "groups": [],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2022-11-25T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2022-12-04T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://x.com/GenshinImpact/status/1595983118753665024"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20221125aranara/index.html"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 120
+        },
+        {
+          "name": "Mora",
+          "quantity": 50000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 9
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 8
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.2"
+}

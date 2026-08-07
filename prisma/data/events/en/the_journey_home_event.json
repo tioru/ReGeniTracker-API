@@ -1,0 +1,56 @@
+{
+  "pageTitle": "The Journey Home (Event)",
+  "name": "The Journey Home",
+  "type": "In-Game",
+  "groups": [
+    "Archon Quest"
+  ],
+  "parentEvent": null,
+  "description": "Moonlight paves the path ahead, and a new journey is about to unfold. Yet before you cross the sea to Nod-Krai, an unexpected visitor arrives in Natlan... All things are but wayfarers in this world — no place is their home. A thousand years pass, yet all remain transient.",
+  "timeKnown": true,
+  "startDate": "2025-07-30T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-09-09T14:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40226685"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 60
+        },
+        {
+          "name": "Vajrada Amethyst Fragment",
+          "quantity": 9
+        },
+        {
+          "name": "Secret Source Airflow Accumulator",
+          "quantity": 6
+        },
+        {
+          "name": "Glowing Hornshroom",
+          "quantity": 30
+        },
+        {
+          "name": "Warrior's Metal Whistle",
+          "quantity": 12
+        },
+        {
+          "name": "Sentry's Wooden Whistle",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.8"
+}

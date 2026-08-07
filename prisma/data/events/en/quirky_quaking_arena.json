@@ -1,0 +1,86 @@
+{
+  "pageTitle": "Quirky Quaking Arena",
+  "name": "Quirky Quaking Arena",
+  "type": "In-Game",
+  "groups": [
+    "Co-Op",
+    "Trial"
+  ],
+  "parentEvent": null,
+  "description": "Countless experiences have proven that one's own skills are the most reliable adventuring \"tool.\" Honing various unique abilities in confrontations will undoubtedly benefit future exploits...",
+  "timeKnown": true,
+  "startDate": "2025-04-21T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-05-02T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/38322432"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 100000
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 8
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 14
+        },
+        {
+          "name": "Guide to Contention",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Kindling",
+          "quantity": 4
+        },
+        {
+          "name": "Guide to Conflict",
+          "quantity": 4
+        },
+        {
+          "name": "Blazing Sacrificial Heart's Hesitance",
+          "quantity": 6
+        },
+        {
+          "name": "Delirious Desolation of the Sacred Lord",
+          "quantity": 6
+        },
+        {
+          "name": "Night-Wind's Mystic Premonition",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "currency1",
+          "quantity": 0
+        },
+        {
+          "name": "currency2",
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.5"
+}

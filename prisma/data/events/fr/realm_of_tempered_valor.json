@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Realm of Tempered Valor",
+  "name": "Royaume de la vaillance tempérée",
+  "type": "In-Game",
+  "groups": [],
+  "parentEvent": null,
+  "description": "Just as a hero's conquests know no bounds, so too must their training forever go on. Hone your skills through endless challenges and never stop pushing your limits!",
+  "timeKnown": true,
+  "startDate": "2025-02-24T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2025-03-10T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/37225915"
+    },
+    {
+      "label": "Gameplay Tips",
+      "url": "https://www.hoyolab.com/article/37243428"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 420
+        },
+        {
+          "name": "Mora",
+          "quantity": 300000
+        },
+        {
+          "name": "Thème Célébration - Embrasement",
+          "quantity": 1
+        },
+        {
+          "name": "Leçons du héros",
+          "quantity": 30
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 15
+        },
+        {
+          "name": "Guide de la Compétition",
+          "quantity": 3
+        },
+        {
+          "name": "Guide du Petit bois",
+          "quantity": 3
+        },
+        {
+          "name": "Guide du Conflit",
+          "quantity": 3
+        },
+        {
+          "name": "Baume sanctifiant",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.4"
+}

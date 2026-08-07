@@ -1,0 +1,54 @@
+{
+  "pageTitle": "An Introduction to Perfumery",
+  "name": "Introduction à la parfumerie",
+  "type": "Web",
+  "groups": [
+    "Character Release"
+  ],
+  "parentEvent": null,
+  "description": "Elegant ladies and gentlemen each have their own approach to \"wearing\" perfume.",
+  "timeKnown": true,
+  "startDate": "2024-08-01T12:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2024-08-07T23:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/125079"
+    },
+    {
+      "label": "Event Page",
+      "url": "https://act.hoyoverse.com/ys/event/e20240801emilie-kryavl/index.html"
+    }
+  ],
+  "featuredCharacters": [
+    "Emilie"
+  ],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primo-gemme",
+          "quantity": 40
+        },
+        {
+          "name": "Mora",
+          "quantity": 20000
+        },
+        {
+          "name": "Minerai de renforcement mystique",
+          "quantity": 2
+        },
+        {
+          "name": "Fragment d'émeraude nagadus",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.8"
+}

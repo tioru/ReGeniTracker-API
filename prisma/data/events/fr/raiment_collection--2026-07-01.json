@@ -1,0 +1,44 @@
+{
+  "pageTitle": "Raiment Collection/2026-07-01",
+  "name": "Collection vestimentaire/01.07.2026",
+  "type": "In-Game",
+  "groups": [
+    "Miliastra Wonderland"
+  ],
+  "parentEvent": null,
+  "description": "After the Version \"Luna VIII\" update, you can participate in the \"Raiment Collection: Mellow Warmth\" event to progressively unlock with weekly missions and Elite cosmetic set, \"Dreamy Summer Leisure\" (4-Star) of your choice!",
+  "timeKnown": true,
+  "startDate": "2026-07-01T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2026-08-12T05:59:59",
+  "endDateOffset": "GMT+8",
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/45661496"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Été de farniente (Manekina)",
+          "quantity": 1
+        },
+        {
+          "name": "Été de farniente (Manekin)",
+          "quantity": 1
+        },
+        {
+          "name": "Géode de recréation",
+          "quantity": 1600
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "Luna VIII"
+}

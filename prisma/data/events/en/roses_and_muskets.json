@@ -1,0 +1,158 @@
+{
+  "pageTitle": "Roses and Muskets",
+  "name": "Roses and Muskets",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Fontinalia Festival",
+  "description": "The Steambird reports that Fontainians have been in lively spirits lately. At Paimon's suggestion, you come to the festival venue, where you have a chance encounter with a certain acquaintance as the curtains rise on this wonderful experience...",
+  "timeKnown": true,
+  "startDate": "2023-12-21T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2024-01-08T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/23689256"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/114114"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "\"Ultimate Overlord's Mega Magic Sword\""
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 960
+        },
+        {
+          "name": "Mora",
+          "quantity": 470000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "\"Ultimate Overlord's Mega Magic Sword\"",
+          "quantity": 1
+        },
+        {
+          "name": "Super-Duper Invincible Shining Sparkly Magic Crystal",
+          "quantity": 4
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 16
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 61
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 222
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 48
+        },
+        {
+          "name": "Guide to Equity",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Justice",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Order",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Equity",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Justice",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Order",
+          "quantity": 2
+        },
+        {
+          "name": "Chapter of an Ancient Chord",
+          "quantity": 12
+        },
+        {
+          "name": "Movement of an Ancient Chord",
+          "quantity": 4
+        },
+        {
+          "name": "Sublimation of Pure Sacred Dewdrop",
+          "quantity": 12
+        },
+        {
+          "name": "Spring of Pure Sacred Dewdrop",
+          "quantity": 4
+        },
+        {
+          "name": "Wine Goblet of the Pristine Sea",
+          "quantity": 12
+        },
+        {
+          "name": "Silver Goblet of the Pristine Sea",
+          "quantity": 4
+        },
+        {
+          "name": "Simulation Device: Ideal Accuracy",
+          "quantity": 1
+        },
+        {
+          "name": "Recipe: Fontinalia Mousse",
+          "quantity": 1
+        },
+        {
+          "name": "\"Musketeer Pictures Prize Commemoration\"",
+          "quantity": 1
+        },
+        {
+          "name": "Stabilization Mek: Pwetty Pwease",
+          "quantity": 1
+        },
+        {
+          "name": "Film Poster: The Two Musketeers",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Theater Tickets",
+          "quantity": 1600
+        },
+        {
+          "name": "Film for Fun",
+          "quantity": 2720
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "4.3"
+}

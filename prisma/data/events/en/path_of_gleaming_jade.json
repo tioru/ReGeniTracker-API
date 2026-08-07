@@ -1,0 +1,48 @@
+{
+  "pageTitle": "Path of Gleaming Jade",
+  "name": "Path of Gleaming Jade",
+  "type": "In-Game",
+  "groups": [
+    "Login"
+  ],
+  "parentEvent": null,
+  "description": null,
+  "timeKnown": true,
+  "startDate": "2022-10-14T04:00:00",
+  "startDateOffset": null,
+  "endDate": "2022-10-31T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/9331343"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": null,
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Intertwined Fate",
+          "quantity": 10
+        },
+        {
+          "name": "Mora",
+          "quantity": 80000
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 18
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 8
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.1"
+}

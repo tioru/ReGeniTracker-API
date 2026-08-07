@@ -1,0 +1,158 @@
+{
+  "pageTitle": "Windblume's Breath",
+  "name": "Windblume's Breath",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": "Windblume Festival",
+  "description": "The honeyed scents of the Windblume Festival are wafting upon the winds again. During this festival of unparalleled romance, why not come to the city upon the take for a spell and learn to follow the north fragrances riding the winds of freedom? From a note most accidentally discovered, embark again on a journey most fantastical.",
+  "timeKnown": true,
+  "startDate": "2023-03-03T10:00:00",
+  "startDateOffset": null,
+  "endDate": "2023-03-20T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/16631602"
+    },
+    {
+      "label": "Gameplay Details",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/105494"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Mailed Flower"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Mailed Flower",
+          "quantity": 1
+        },
+        {
+          "name": "Unfading Silky Grace",
+          "quantity": 4
+        },
+        {
+          "name": "Mora",
+          "quantity": 1600000
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 54
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 12
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 136
+        },
+        {
+          "name": "Philosophies of Freedom",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Freedom",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Resistance",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Resistance",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Ballad",
+          "quantity": 2
+        },
+        {
+          "name": "Guide to Ballad",
+          "quantity": 6
+        },
+        {
+          "name": "Fragment of Decarabian's Epic",
+          "quantity": 4
+        },
+        {
+          "name": "Debris of Decarabian's City",
+          "quantity": 12
+        },
+        {
+          "name": "Boreal Wolf's Broken Fang",
+          "quantity": 4
+        },
+        {
+          "name": "Boreal Wolf's Cracked Tooth",
+          "quantity": 12
+        },
+        {
+          "name": "Shackles of the Dandelion Gladiator",
+          "quantity": 4
+        },
+        {
+          "name": "Chains of the Dandelion Gladiator",
+          "quantity": 12
+        },
+        {
+          "name": "Blueprint: Ersatz Balloon: Whispering Breeze",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Ersatz Balloon: Spherical Squall",
+          "quantity": 1
+        },
+        {
+          "name": "Blueprint: Ersatz Balloon: Bumper Shroom",
+          "quantity": 1
+        },
+        {
+          "name": "Lazurite Swirl",
+          "quantity": 1
+        },
+        {
+          "name": "Collei's Windblume",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Festive Ticket",
+          "quantity": 3600
+        },
+        {
+          "name": "Floral Coupon",
+          "quantity": 2280
+        },
+        {
+          "name": "Windblume Kamera",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.5"
+}

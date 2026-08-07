@@ -1,0 +1,146 @@
+{
+  "pageTitle": "Sunspray Summer Resort (Event)",
+  "name": "Sunspray Summer Resort",
+  "type": "In-Game",
+  "groups": [
+    "Flagship"
+  ],
+  "parentEvent": null,
+  "description": "The sea breeze wipes away glistening sweat. Summer is the perfect season for adventure and a journey that unfolds accompanied by the scorching sun. Tenochtzitoc, a name unfamiliar until now, is destined to become a stroke of warm color in your memory.",
+  "timeKnown": true,
+  "startDate": "2025-07-30T11:00:00",
+  "startDateOffset": "GMT+8",
+  "endDate": "2025-08-18T03:59:59",
+  "endDateOffset": null,
+  "isIndefinite": false,
+  "links": [
+    {
+      "label": "Official Announcement",
+      "url": "https://www.hoyolab.com/article/40226688"
+    },
+    {
+      "label": "Event Details",
+      "url": "https://www.hoyolab.com/article/40273547"
+    }
+  ],
+  "featuredCharacters": [],
+  "specialReward": {
+    "type": "Weapon",
+    "options": [
+      "Flame-Forged Insight"
+    ]
+  },
+  "rewardGroups": [
+    {
+      "category": null,
+      "rewards": [
+        {
+          "name": "Primogem",
+          "quantity": 1080
+        },
+        {
+          "name": "Mora",
+          "quantity": 880000
+        },
+        {
+          "name": "Crown of Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Flame-Forged Insight",
+          "quantity": 1
+        },
+        {
+          "name": "Adventures in Blazing Hue",
+          "quantity": 1
+        },
+        {
+          "name": "Drifter's Crystal Marrow",
+          "quantity": 4
+        },
+        {
+          "name": "Hero's Wit",
+          "quantity": 51
+        },
+        {
+          "name": "Mystic Enhancement Ore",
+          "quantity": 90
+        },
+        {
+          "name": "Adventurer's Experience",
+          "quantity": 16
+        },
+        {
+          "name": "Sanctifying Essence",
+          "quantity": 6
+        },
+        {
+          "name": "Sanctifying Unction",
+          "quantity": 15
+        },
+        {
+          "name": "Blazing Sacrificial Heart's Hesitance",
+          "quantity": 12
+        },
+        {
+          "name": "Delirious Desolation of the Sacred Lord",
+          "quantity": 12
+        },
+        {
+          "name": "Night-Wind's Mystic Premonition",
+          "quantity": 12
+        },
+        {
+          "name": "Guide to Conflict",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Contention",
+          "quantity": 6
+        },
+        {
+          "name": "Guide to Kindling",
+          "quantity": 6
+        },
+        {
+          "name": "Philosophies of Conflict",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Contention",
+          "quantity": 2
+        },
+        {
+          "name": "Philosophies of Kindling",
+          "quantity": 2
+        },
+        {
+          "name": "\"Colorful Grand Gift Box\"",
+          "quantity": 1
+        },
+        {
+          "name": "\"Reminiscences of a Distant Journey\"",
+          "quantity": 1
+        },
+        {
+          "name": "Dance Speaker – \"Lightburst Shock\"",
+          "quantity": 1
+        },
+        {
+          "name": "Unyielding Master of Stone",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "category": "Event Items",
+      "rewards": [
+        {
+          "name": "Sunspray Spirit",
+          "quantity": 1800
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "5.8"
+}
