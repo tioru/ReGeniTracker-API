@@ -5,14 +5,14 @@
   "category": "RECOVERY_DISHES",
   "effectType": "Healing",
   "descriptions": {
-    "normal": "Grilled Fish doused in a delicious sauce. The fish is scored, stuffed with spices, then baked. Once cooked, a thick mint sauce is generously drizzled over the top. The refreshing aroma of the fish is enough to whet anyone's appetite.",
+    "normal": "Grilled Fish doused in delicious sauce. The fish is scored, stuffed with spices, then baked. Once cooked, a thick mint sauce is generously drizzled over the top. The refreshing aroma of the fish is enough to whet anyone's appetite.",
     "suspicious": "Grilled Fish doused in a delicious sauce. The thick sauce has all but drowned out the fish's natural flavors, and the strident taste of mint has all but wiped that of Grilled Fish out.",
     "delicious": "Grilled Fish doused in a delicious sauce. Crisp, fragrant fish skin, tender fish meat... Ordinary methods, extraordinary flavor."
   },
   "effectTexts": {
-    "normal": "Restores 9% of Max HP and an additional 1000 HP to the selected character.",
+    "normal": "Restores 9% of Max HP and an additional 1,000 HP to the selected character.",
     "suspicious": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
-    "delicious": "Restores 10% of Max HP and an additional 1200 HP to the selected character."
+    "delicious": "Restores 10% of Max HP and an additional 1,200 HP to the selected character."
   },
   "effectVariables": [
     {

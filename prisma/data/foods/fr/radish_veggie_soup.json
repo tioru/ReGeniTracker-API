@@ -10,9 +10,9 @@
     "delicious": "Une soupe avec du radis en ingrédient principal. Son goût simple et frais rappelle un doux après-midi de jeunesse."
   },
   "effectTexts": {
-    "normal": "Restaure 9 % des PV max du personnage sélectionné. Et restaure 260 PV toutes les 5 s pendant 30 s.",
-    "suspicious": "Restaure 8 % des PV max du personnage sélectionné. Et restaure 210 PV toutes les 5 s pendant 30 s.",
-    "delicious": "Restaure 10 % des PV max du personnage sélectionné. Et restaure 300 PV toutes les 5 s pendant 30 s."
+    "normal": "Restaure immédiatement 9 % des PV max, puis 260 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 8 % des PV max, puis 210 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 10 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné."
   },
   "effectVariables": [
     {

@@ -10,9 +10,9 @@
     "delicious": "Crispbread made from rye flour. The rich aroma of grain feels like a warm greeting from the rye fields, while the simple yet satisfying flavor offers a unique sense of comfort."
   },
   "effectTexts": {
-    "normal": "Increases all party members' DEF by 107 for 300s.",
-    "suspicious": "Increases all party members' DEF by 88 for 300s.",
-    "delicious": "Increases all party members' DEF by 126 for 300s."
+    "normal": "Increases all party members' DEF by 107 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' DEF by 88 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' DEF by 126 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

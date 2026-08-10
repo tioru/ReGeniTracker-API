@@ -5,14 +5,14 @@
   "category": "RECOVERY_DISHES",
   "effectType": "Healing",
   "descriptions": {
-    "normal": "A dish of fresh raw meat. Choice meat that has been minced and seasoned goes perfectly well with raw egg yolk. It is unknown who came up with the idea. It might be a starving adventurer's desperate attempt at keeping their belly full.",
-    "suspicious": "A dish of fresh meat that is served raw. The minced meat, which is rusty red and faintly sour, gives off an ominous aura. This dish doesn't seem suitable for human consumption. Hmmm... You probably shouldn't feed it to a security meka either, right?",
+    "normal": "A dish of fresh meat that is served raw. Choice meat that has been minced and seasoned goes perfectly well with raw egg yolk. It is unknown who came up with the idea. It might be a starving adventurer's desperate attempt at keeping their belly full.",
+    "suspicious": "A dish of fresh meat that is served raw. The minced meat, which is rusty red and faintly sour, gives off an ominous aura. This dish doesn't seem suitable for human consumption. Hmm... You probably shouldn't feed it to security meka either, right?",
     "delicious": "A fresh dish of raw meat. Tender meat that is minced properly and coated with egg yolk that tastes exceptionally juicy and sweet. The aromatic juice of the meat fills your mouth with euphoria, giving people an exceptionally pure and primitive gourmet delight."
   },
   "effectTexts": {
-    "normal": "Restores 32% of Max HP and an additional 1250 HP to the selected character.",
+    "normal": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
     "suspicious": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
-    "delicious": "Restores 34% of Max HP and an additional 1900 HP to the selected character."
+    "delicious": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
   },
   "effectVariables": [
     {

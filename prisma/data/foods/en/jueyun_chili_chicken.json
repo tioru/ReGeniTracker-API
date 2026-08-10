@@ -5,14 +5,14 @@
   "category": "ATK_BOOSTING_DISHES",
   "effectType": "CRIT Rate Up",
   "descriptions": {
-    "normal": "Chicken in a dressing, served cold. The way this dish has been prepared captures the succulence of the chicken perfectly. Beneath the glowing gold skin, the meat has a mildly hot flavor.",
+    "normal": "Chicken in a dressing, served cold. The way the dish has been prepared captures the succulence of the chicken perfectly. Beneath the glowing gold skin, the meat has a mildly hot flavor.",
     "suspicious": "Chicken in a dressing, served cold. The chicken probably isn't properly marinated, so it's only salty on the outside but bland on the inside. The taste reminds you of water-poached chicken breasts.",
     "delicious": "Chicken in a dressing, served cold. The chicken is extremely tender, juicy, and sweet. The delicious taste transports you to the realm of dreams."
   },
   "effectTexts": {
-    "normal": "Increases all party members' CRIT Rate by 9% for 300s.",
-    "suspicious": "Increases all party members' CRIT Rate by 6% for 300s.",
-    "delicious": "Increases all party members' CRIT Rate by 12% for 300s."
+    "normal": "Increases all party members' CRIT Rate by 9% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

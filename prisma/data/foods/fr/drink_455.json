@@ -5,13 +5,13 @@
   "category": "RECOVERY_DISHES",
   "effectType": "Revive",
   "descriptions": {
-    "normal": "Une boisson spécialement élaborée qui fait fureur ces derniers temps. Incroyablement rafraîchissante, cette boisson revigorante ressemble à une pluie après une longue sécheresse et vous débarrasse instantanément toute fatigue et toute agitation au sein de vous. « C'est comme si tout allait pour le mieux dans le meilleur des mondes ! », a déclaré un client après avoir terminé son verre.",
+    "normal": "Une boisson spécialement élaborée qui fait fureur ces derniers temps. Outre son goût doux et rafraîchissant, elle est connue pour restaurer l'énergie perdue lors d'efforts physiques prolongés. Pourquoi ne pas essayer lorsque vous sentez la soif vous assaillir ?",
     "suspicious": "Une boisson spécialement élaborée qui fait fureur ces derniers temps. Sauf que... vous ne savez pas s'il y a un problème avec la recette ou si vous n'avez pas assez mélangé les ingrédients. Les morceaux acides et sucrés ont un goût trop prononcé. De plus, le fait que pouvoir distinguer des « morceaux » dans une boisson liquide est probablement inquiétant...",
     "delicious": "Une boisson spécialement élaborée qui fait fureur ces derniers temps. Incroyablement rafraîchissante, cette boisson revigorante ressemble à une pluie après une longue sécheresse et vous débarrasse instantanément toute fatigue et toute agitation au sein de vous. « C'est comme si tout allait pour le mieux dans le meilleur des mondes ! », a déclaré un client après avoir terminé son verre."
   },
   "effectTexts": {
     "normal": "Réanime un personnage et restaure 1 200 PV.",
-    "suspicious": "éanime un personnage et restaure 900 PV.",
+    "suspicious": "Réanime un personnage et restaure 900 PV.",
     "delicious": "Réanime un personnage et restaure 1 500 PV."
   },
   "effectVariables": [
@@ -41,7 +41,7 @@
     }
   ],
   "region": null,
-  "recipeHint": "<ul><li>Nouvelles recettes Mail Événement</li><li>Genshin Impact x KFC - Codename K</li></ul>",
+  "recipeHint": "Nouvelles recettes Mail Événement; Genshin Impact x KFC - Codename K",
   "recipeSubtype": "COOKING",
   "ingredients": [
     {

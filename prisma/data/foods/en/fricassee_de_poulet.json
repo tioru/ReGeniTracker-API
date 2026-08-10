@@ -10,9 +10,9 @@
     "delicious": "A well-known Fontainian meat dish. The romantic rendezvous of cream and chicken instantly catalyzes a deep, rich aroma that lifts the spirits. It is said to be a favorite amongst Fontainians... One could feast on this fare for a lifetime and not fatigue of its fantastic flavor."
   },
   "effectTexts": {
-    "normal": "Increases all party members' ATK by 194 for 300s.",
-    "suspicious": "Increases all party members' ATK by 160 for 300s.",
-    "delicious": "Increases all party members' ATK by 228 for 300s."
+    "normal": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

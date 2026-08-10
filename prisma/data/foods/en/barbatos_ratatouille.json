@@ -10,9 +10,9 @@
     "delicious": "A simple chowder with a long history. After much careful stewing, the flavors of three different vegetables have been blended to perfection. Like this, it is not hard to imagine why someone once called it \"the best chowder I've ever tasted.\""
   },
   "effectTexts": {
-    "normal": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s.",
-    "suspicious": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s.",
-    "delicious": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s."
+    "normal": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

@@ -10,9 +10,9 @@
     "delicious": "A cake with a fascinating shape. Its golden sheen reminds you of the sunset in Villa Guiztli. Made in the jovial likeness of a Nanasian, you can't help but feel a sense of delight from just looking at it. Bathed in the sweet aroma of eggs and cream, you wish you could preserve those joyful moments spent with everyone in Villa Guiztli forever."
   },
   "effectTexts": {
-    "normal": "Increases all party members' ATK by 194 for 300s.",
-    "suspicious": "Increases all party members' ATK by 160 for 300s.",
-    "delicious": "Increases all party members' ATK by 228 for 300s."
+    "normal": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

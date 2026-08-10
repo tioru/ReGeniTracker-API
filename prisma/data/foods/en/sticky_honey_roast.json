@@ -10,9 +10,9 @@
     "delicious": "A meat dish in a sweet honey sauce. The warm honey draws out the flavor of the meat, creating a flavor explosion akin to bathing in the warm summer sun."
   },
   "effectTexts": {
-    "normal": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s.",
-    "suspicious": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s.",
-    "delicious": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s."
+    "normal": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

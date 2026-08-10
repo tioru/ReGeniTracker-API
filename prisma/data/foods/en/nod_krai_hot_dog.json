@@ -10,9 +10,9 @@
     "delicious": "Classic convenience food. Freshly cooked sausage paired with freshly baked bread. With each bite, the irresistible aroma of fat fills the palate. It's gone in a few quick bites, leaving you craving another."
   },
   "effectTexts": {
-    "normal": "Increases all party members' CRIT Rate by 9% for 300s.",
-    "suspicious": "Increases all party members' CRIT Rate by 6% for 300s.",
-    "delicious": "Increases all party members' CRIT Rate by 12% for 300s."
+    "normal": "Increases all party members' CRIT Rate by 9% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

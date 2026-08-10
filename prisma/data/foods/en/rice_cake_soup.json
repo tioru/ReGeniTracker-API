@@ -10,9 +10,9 @@
     "delicious": "Commonly-seen city cuisine. The freshness of light soup forms the perfect backdrop for the original flavor of the ingredients to stand out, giving you that ancient taste of Inazuma City. This back-to-basics cuisine is sure to make you feel warm inside when eaten on a snowy night as you travel alone."
   },
   "effectTexts": {
-    "normal": "Increases all party members' DEF by 200 for 300s.",
-    "suspicious": "Increases all party members' DEF by 165 for 300s.",
-    "delicious": "Increases all party members' DEF by 235 for 300s."
+    "normal": "Increases all party members' DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

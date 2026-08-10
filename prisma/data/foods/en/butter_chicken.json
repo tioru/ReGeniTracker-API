@@ -10,9 +10,9 @@
     "delicious": "A flavorful dish. Juicy chicken is saturated with silky sauce. Every bite orchestrates an \"elemental symphony of flavors\"... Oops, before you even knew it, you had already emptied the plate. Dip the flatbread in the sauce — every last drop of this must go!"
   },
   "effectTexts": {
-    "normal": "Increases all party members' ATK by 194 for 300s.",
-    "suspicious": "Increases all party members' ATK by 160 for 300s.",
-    "delicious": "Increases all party members' ATK by 228 for 300s."
+    "normal": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

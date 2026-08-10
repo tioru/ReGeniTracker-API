@@ -10,9 +10,9 @@
     "delicious": "A sour-and-spicy dish. The meat and mint are in exquisite equilibrium, tender and not greasy, delicate and not bitter. The spiciness awakens the twain's poetic balance with startling clarity as it leaps in your mouth, only to close with a sigh of perfection."
   },
   "effectTexts": {
-    "normal": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s.",
-    "suspicious": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s.",
-    "delicious": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s."
+    "normal": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

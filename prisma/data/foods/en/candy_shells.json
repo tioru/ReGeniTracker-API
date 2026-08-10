@@ -10,9 +10,9 @@
     "delicious": "Candies in a variety of different shapes. Their vibrant colors make them resemble gleaming gemstones resting majestically in an exquisite box, waiting to give their finder a sweet surprise. What could make someone happier than a trip to the Chevalmarin Film Fantasyland? Why, a trip to the Chevalmarin Film Fantasyland and a box of Candy Shells!"
   },
   "effectTexts": {
-    "normal": "Increases all party members' Shield Strength by 30% and DEF by 200 for 300s.",
-    "suspicious": "Increases all party members' Shield Strength by 25% and DEF by 165 for 300s.",
-    "delicious": "Increases all party members' Shield Strength by 36% and DEF by 235 for 300s."
+    "normal": "Increases all party members' Shield Strength by 30% and DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' Shield Strength by 25% and DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' Shield Strength by 35% and DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

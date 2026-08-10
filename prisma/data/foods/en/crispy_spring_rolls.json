@@ -10,9 +10,9 @@
     "delicious": "A deep-fried Liyue snack. With a crisp crack, the juicy filling bursts forth as you bite. Beneath the golden, flaky shell are not only layers of flavor, but the vibrant, bustling spirit of Liyue itself."
   },
   "effectTexts": {
-    "normal": "Increases all party members' DEF by 200 for 300s.",
-    "suspicious": "Increases all party members' DEF by 165 for 300s.",
-    "delicious": "Increases all party members' DEF by 235 for 300s."
+    "normal": "Increases all party members' DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

@@ -10,9 +10,9 @@
     "delicious": "A combo meal of meat and coffee. The special sauce emits an enticing aroma that swirls throughout the air as though diffused by the power of Anemo itself, while the succulent, delectably fresh shrimp dances on your tongue, each bite bursting with juicy, multi-layered bliss... Even as your belly grows full, you pray that this meat-lover's dream never ends!"
   },
   "effectTexts": {
-    "normal": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s.",
-    "suspicious": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s.",
-    "delicious": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s."
+    "normal": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

@@ -5,14 +5,14 @@
   "category": "ADVENTURER_S_DISHES",
   "effectType": "Stamina Reduction",
   "descriptions": {
-    "normal": "A steaming egg dish. The clear, gold colors of the egg custard have been embellished with several lotus roots. Regardless of whether it is breakfast or a post-meal snack, its superior nutritional value can greatly nourish the body.",
-    "suspicious": "A steaming egg dish. The lengthy steaming process has caused unusual honeycomb figure to appear on the surface of the egg custard. It goes without saying that there isn't hardly a hint of bitterness left in the lotus.",
-    "delicious": "A steaming egg dish. The succulent eggs melt right in your mouth, and before you know it, a smooth and subtle sweetness of newly sprung lotus flowers covers your tastebuds."
+    "normal": "A steamed egg dish. The clear, gold colors of the egg custard have been embellished with several lotus roots. Regardless of whether it is breakfast or a post-meal snack, its superior nutritional value can greatly nourish the body.",
+    "suspicious": "A steamed egg dish. The lengthy steaming process has caused unusual honeycomb figure to appear on the surface of the egg custard. It goes without saying that there isn't hardly a hint of bitterness left in the lotus.",
+    "delicious": "A steamed egg dish. The succulent eggs melt right in your mouth, and before you know it, a smooth and subtle sweetness of newly sprung lotus flowers covers your tastebuds."
   },
   "effectTexts": {
-    "normal": "Decreases all party members' sprinting Stamina consumption by 20% for 900s.",
-    "suspicious": "Decreases all party members' sprinting Stamina consumption by 15% for 900s.",
-    "delicious": "Decreases all party members' sprinting Stamina consumption by 25% for 900s."
+    "normal": "Decreases all party members' sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Decreases all party members' sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Decreases all party members' sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

@@ -10,9 +10,9 @@
     "delicious": "A traditional Fontainian dish. A perfect combination, with the sweet fragrance of the apples neutralizing the fat of the blood sausage. An enticing, slightly burnt smell wafts upwards from the plate, and the eyes of those who see it light up as they shout with joy and anticipation."
   },
   "effectTexts": {
-    "normal": "Decreases all party members' sprinting Stamina consumption by 20% for 900s.",
-    "suspicious": "Decreases all party members' sprinting Stamina consumption by 15% for 900s.",
-    "delicious": "Decreases all party members' sprinting Stamina consumption by 25% for 900s."
+    "normal": "Decreases all party members' sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Decreases all party members' sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Decreases all party members' sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

@@ -10,9 +10,9 @@
     "delicious": "A petite version of the famous Gateau Debord. The velvety sauce is like elusive silk, slipping between your fingers and alighting on your tongue, while the gentle melodies of afternoon tea circle in the air, enchanting your heart... Perhaps this little treat will appear before you again in your dreams tonight..."
   },
   "effectTexts": {
-    "normal": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s.",
-    "suspicious": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s.",
-    "delicious": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s."
+    "normal": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

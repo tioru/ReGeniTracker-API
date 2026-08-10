@@ -10,9 +10,9 @@
     "delicious": "A thick, orange-red soup. Its flavor is warm and rich, the perfect spiciness of the soup blending with sweet shrimp meat and vegetables. It's as though elemental energy is surging through your body, lifting your spirits in an instant."
   },
   "effectTexts": {
-    "normal": "Increases all party members' Healing Bonus by 17% for 300s.",
-    "suspicious": "Increases all party members' Healing Bonus by 15% for 300s.",
-    "delicious": "Increases all party members' Healing Bonus by 20% for 300s."
+    "normal": "Increases all party members' Healing Bonus by 17% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' Healing Bonus by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' Healing Bonus by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

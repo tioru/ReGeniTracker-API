@@ -388,6 +388,12 @@ function cleanWikitext(text: string): string {
   return text
     .replace(/<!--[\s\S]*?-->/g, '')
     .replace(/<br\s*\/?>/gi, ' ')
+    // <ul><li>A</li><li>B</li></ul> laissé tel quel par un éditeur (ex:
+    // "Drink 455"/"Boisson 455", champ `recette` FR) au lieu du texte brut
+    // habituel — converti en "A; B" plutôt que de laisser fuir les balises.
+    .replace(/<ul>\s*<li>/gi, '')
+    .replace(/<\/li>\s*<li>/gi, '; ')
+    .replace(/<\/li>\s*<\/ul>/gi, '')
     .replace(/\[\[([^\]|]*)\|([^\]]*)\]\]/g, '$2')
     .replace(/\[\[([^\]]*)\]\]/g, '$1')
     .replace(/'''''/g, '')

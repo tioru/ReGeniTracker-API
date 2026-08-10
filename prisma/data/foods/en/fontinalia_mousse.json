@@ -10,9 +10,9 @@
     "delicious": "A true blue Fontinalia Festival snack. Its crystalline coloration would not be ashamed if compared to the light scattering off the rippling waves. Its featherweight elegance is like that of falling petals, its airy texture like a snowflake melting in your throat. To eat such a delicacy must surely be the loveliest thing that could happen during the Festival!"
   },
   "effectTexts": {
-    "normal": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s.",
-    "suspicious": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s.",
-    "delicious": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s."
+    "normal": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

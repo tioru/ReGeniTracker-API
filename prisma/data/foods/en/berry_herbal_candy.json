@@ -10,9 +10,9 @@
     "delicious": "A Nod-Krai candy. The moment this translucent treat touches your tongue, waves of floral fragrance and sweet-tart berries fill your senses, fresh and delightfully sweet."
   },
   "effectTexts": {
-    "normal": "Increases all party members' Max HP by 22% for 300s.",
-    "suspicious": "Increases all party members' Max HP by 20% for 300s.",
-    "delicious": "Increases all party members' Max HP by 25% for 300s."
+    "normal": "Increases all party members' Max HP by 22% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' Max HP by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' Max HP by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

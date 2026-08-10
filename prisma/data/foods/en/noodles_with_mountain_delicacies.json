@@ -5,14 +5,14 @@
   "category": "ADVENTURER_S_DISHES",
   "effectType": "Stamina Increase",
   "descriptions": {
-    "normal": "Noodles in a meat-and-vegetable sauce. The sauce has a rustic flavor, and there's a generous amount of it mixed in with the noodles. A humble but enduringly popular dish.",
-    "suspicious": "Noodles in a meat-and-vegetable sauce. The moisture has been sucked right out of this dish, causing the noodles to become dry. You might choke on them even if you chew slowly.",
-    "delicious": "Noodles in a meat-and-vegetable sauce. The seemingly ordinary noodles has absorbed the essence of the mountainous delicacies. A single mouthful is enough to taste its extreme freshness."
+    "normal": "Noodles in a meat and vegetable sauce. The sauce has a rustic flavor, and there's a generous amount of it mixed in with the noodles. A humble but enduringly popular dish.",
+    "suspicious": "Noodles in a meat and vegetable sauce. The moisture has been sucked right out of this dish, causing the noodles to become dry. You might choke on them even if you chew slowly.",
+    "delicious": "Noodles in a meat and vegetable sauce. The seemingly ordinary noodles have absorbed the essence of the mountainous delicacies. A single mouthful is enough to taste its extreme freshness."
   },
   "effectTexts": {
-    "normal": "Restores 50 Stamina.",
-    "suspicious": "Restores 40 Stamina.",
-    "delicious": "Restores 60 Stamina."
+    "normal": "Restores 50 Stamina",
+    "suspicious": "Restores 40 Stamina",
+    "delicious": "Restores 60 Stamina"
   },
   "effectVariables": [
     {

@@ -10,9 +10,9 @@
     "delicious": "A dessert made from ground almonds. It has the exquisite look and texture of a piece of white jade, and could pass as an art piece — so much so that you could not entertain the idea of actually eating it."
   },
   "effectTexts": {
-    "normal": "Increases all party members' ATK by 81 for 300s.",
-    "suspicious": "Increases all party members' ATK by 66 for 300s.",
-    "delicious": "Increases all party members' ATK by 95 for 300s."
+    "normal": "Increases all party members' ATK by 81 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' ATK by 66 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' ATK by 95 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

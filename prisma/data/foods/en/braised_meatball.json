@@ -10,9 +10,9 @@
     "delicious": "A classic Liyue dish. Emerald green onions and the ruby red meatball complement each other perfectly, while exquisite and extraordinary knife skills make for a melt-in-your-mouth meatball, fatty but not greasy, guaranteed to have you praising it all week. Don't forget to clean your plate for good luck!"
   },
   "effectTexts": {
-    "normal": "Increases all party members' ATK by 194 for 300s.",
-    "suspicious": "Increases all party members' ATK by 160 for 300s.",
-    "delicious": "Increases all party members' ATK by 228 for 300s."
+    "normal": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

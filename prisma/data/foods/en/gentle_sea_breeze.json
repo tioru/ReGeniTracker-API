@@ -10,9 +10,9 @@
     "delicious": "A refreshing drink. The light and gentle bubbles dance on the tip of your tongue. The sweetness of the fruit juice and the salty flavor of the soda blend together in perfect harmony, as though you're stepping through waves in time with the breeze. Cheers and laughter from the resort fill the air..."
   },
   "effectTexts": {
-    "normal": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s.",
-    "suspicious": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s.",
-    "delicious": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s."
+    "normal": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

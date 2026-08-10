@@ -5,14 +5,14 @@
   "category": "DEF_BOOSTING_DISHES",
   "effectType": "DEF Up",
   "descriptions": {
-    "normal": "A Natlan drink made from Cacahuatl. Initially bitter, Cacahuatl was ground up and blended with various spices, creating the eponymous \"bitter water.\" Much evolution later, added sugar would transform the final product into something fragrant, delectable, and broadly popular, though the name indicating \"bitter water\" has never changed.",
+    "normal": "A Natlan drink made from Cacahuatl. Initially, bitter Cacahuatl was ground up and blended with various spices, creating the eponymous \"bitter water.\" Much evolution later, added sugar would transform the final product into something fragrant, delectable, and broadly popular, though the name indicating \"bitter water\" has never changed.",
     "suspicious": "A Natlan drink made from Cacahuatl. If you had to guess before you took a swig, you might assume it would taste either sweet or bitter, but never in a million years would you have expected the sourness that sets upon the tip of your tongue... Did someone add the wrong ingredients?",
     "delicious": "A Natlan drink made from Cacahuatl. The rich, deep fragrance of the Cacahuatl is infused with a pure creaminess, tenderly caressing your tongue with the softness of smooth silk, leaving behind a touch of sweetness that is more than enough to melt your heart."
   },
   "effectTexts": {
-    "normal": "Increases all party members' DEF by 200 for 300s.",
-    "suspicious": "Increases all party members' DEF by 165 for 300s.",
-    "delicious": "Increases all party members' DEF by 235 for 300s."
+    "normal": "Increases all party members' DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

@@ -10,9 +10,9 @@
     "delicious": "A fruity drink with a pleasantly sour taste. The redolence of tea carries your thoughts away. With one sip of this tea, you feel as if you are lazing in a flourishing orchard, tipsy in the gentle breeze that carries a fruity scent."
   },
   "effectTexts": {
-    "normal": "Increases all party members' ATK by 194 for 300s.",
-    "suspicious": "Increases all party members' ATK by 160 for 300s.",
-    "delicious": "Increases all party members' ATK by 228 for 300s."
+    "normal": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

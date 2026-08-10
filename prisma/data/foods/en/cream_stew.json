@@ -10,9 +10,9 @@
     "delicious": "A meat and vegetable stew. These warm, buttery ingredients are so good that you almost want to dive into the cream stew and cuddle up with them."
   },
   "effectTexts": {
-    "normal": "Decreases all party members' sprinting Stamina consumption by 20% for 900s.",
-    "suspicious": "Decreases all party members' sprinting Stamina consumption by 15% for 900s.",
-    "delicious": "Decreases all party members' sprinting Stamina consumption by 25% for 900s."
+    "normal": "Decreases all party members' sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Decreases all party members' sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Decreases all party members' sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

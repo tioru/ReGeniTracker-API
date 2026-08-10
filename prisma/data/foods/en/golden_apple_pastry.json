@@ -10,9 +10,9 @@
     "delicious": "A little dessert made from apples. The honey-sweet filling surges across your taste buds like a thread of golden light passing through the interlaced fingers of tree and leaf and warming your very heart. Ah, how could you ever stop at one of these?"
   },
   "effectTexts": {
-    "normal": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s.",
-    "suspicious": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s.",
-    "delicious": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s."
+    "normal": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

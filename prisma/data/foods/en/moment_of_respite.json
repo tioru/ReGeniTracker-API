@@ -5,12 +5,12 @@
   "category": "ADVENTURER_S_DISHES",
   "effectType": "Stamina Reduction",
   "descriptions": {
-    "normal": "Piled high with ingredients, few can resist the aroma of this dish. Even someone in the midst of an argument might find their anger turn to hunger at the mere whiff of it. Wait a moment, those Saurians who were rolling around in the distance just now... Why have they suddenly started looking this way too?",
+    "normal": "Chasca's specialty. Piled high with ingredients, few can resist the aroma of this dish. Even someone in the midst of an argument might find their anger turn to hunger at the mere whiff of it. Wait a moment, those Saurians who were rolling around in the distance just now... Why have they suddenly started looking this way too?",
     "suspicious": null,
     "delicious": null
   },
   "effectTexts": {
-    "normal": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 1800s.",
+    "normal": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 1800s. In Co-Op Mode, this effect only applies to your own character(s).",
     "suspicious": null,
     "delicious": null
   },

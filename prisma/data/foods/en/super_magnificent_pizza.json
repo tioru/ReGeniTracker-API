@@ -10,9 +10,9 @@
     "delicious": "An exceedingly sumptuous pizza. Amidst the heat that rises as it freshly exits the oven, give the crisp edges a gentle pull — a veritable waterfall of cheese gushes forth, wrapped up in the dense aroma of meat that satisfies the taste buds and gives a wondrous, hearty sense of fullness."
   },
   "effectTexts": {
-    "normal": "Increases all party members' Physical DMG by 35% and CRIT Rate by 8% for 300s.",
-    "suspicious": "Increases all party members' Physical DMG by 25% and CRIT Rate by 6% for 300s.",
-    "delicious": "Increases all party members' Physical DMG by 45% and CRIT Rate by 10% for 300s."
+    "normal": "Increases all party members' Physical DMG by 35% and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' Physical DMG by 25% and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' Physical DMG by 45% and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {

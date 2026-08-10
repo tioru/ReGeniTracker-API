@@ -10,9 +10,9 @@
     "delicious": "A famous Fontainian cuisine. Delicious juice locked inside the meat gives off a rich and layered aroma. This dish is considered a highly sought-after cuisine by many gourmets. After wolfing down the whole plate, one can't help but lick their lips, savoring the lingering scent. This exquisite cuisine is no doubt the crown jewel of Fontaine's gastronomy."
   },
   "effectTexts": {
-    "normal": "Increases all party members' Physical DMG by 35% and CRIT Rate by 8% for 300s.",
-    "suspicious": "Increases all party members' Physical DMG by 25% and CRIT Rate by 6% for 300s.",
-    "delicious": "Increases all party members' Physical DMG by 45% and CRIT Rate by 10% for 300s."
+    "normal": "Increases all party members' Physical DMG by 35% and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "suspicious": "Increases all party members' Physical DMG by 25% and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "delicious": "Increases all party members' Physical DMG by 45% and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "effectVariables": [
     {
