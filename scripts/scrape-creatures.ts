@@ -592,8 +592,17 @@ function writeCreatureFiles(creatures: CachedCreature[]) {
 
   for (const creature of creatures) {
     const filename = `${slugify(creature.en.name)}.json`;
-    fs.writeFileSync(path.join(enDir, filename), JSON.stringify(creature.en, null, 2), 'utf-8');
-    fs.writeFileSync(path.join(frDir, filename), JSON.stringify(creature.fr, null, 2), 'utf-8');
+    // Même clé que scrape-creature-images.ts (slugify(pageTitle)) : l'icône
+    // est indépendante de la langue, donc identique en/fr — matche
+    // directement le param :file de GET /assets/creatures/:file (sans
+    // extension, le controller essaie déjà .png/.webp/...). Le nom de
+    // fichier wiki brut calculé par parseEn*Infobox (ex: "Alpaca Icon.png")
+    // n'est qu'une étape intermédiaire : scrape-creature-images.ts le
+    // re-dérive lui-même depuis le wikitext (même pattern que
+    // scrape-material-images.ts, cf. sa NOTE).
+    const image = slugify(creature.pageTitle);
+    fs.writeFileSync(path.join(enDir, filename), JSON.stringify({ ...creature.en, image }, null, 2), 'utf-8');
+    fs.writeFileSync(path.join(frDir, filename), JSON.stringify({ ...creature.fr, image }, null, 2), 'utf-8');
   }
 
   console.log(`✅ Wrote ${creatures.length} creature files (en/ + fr/) to ${enDir} / ${frDir}`);
