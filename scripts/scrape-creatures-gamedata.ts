@@ -18,11 +18,21 @@
 // AnimalDescribe sans codex associé sont des variantes de modèle non
 // jouables/non pêchables, ignorées) donne le VRAI texte de description
 // (descTextMapHash) et une catégorie de jeu (subType : CODEX_SUBTYPE_AVIARY /
-// ANIMAL / FISH / CRITTER) — plus grossière que les champs `family`/`group`
-// du wiki, remontée à titre INFORMATIF seulement (gameCategory), jamais
-// comparée automatiquement à ces deux champs (cf. audit du 2026-08-10 :
-// family/group sont une classification inventée par le wiki, sans
-// équivalent texte dans le jeu — rien à valider dessus ici).
+// ANIMAL / FISH / CRITTER).
+//
+// `family` EST vérifiable via ce subType, mais PAS par traduction du texte du
+// jeu (il n'y en a pas) : par correspondance catégorielle. Sur les 204
+// créatures croisées le 2026-08-10, chaque subType correspond à un unique
+// libellé `family` déjà utilisé de façon cohérente par le wiki dans les deux
+// langues (AVIARY -> "Birds"/"Oiseaux", ANIMAL -> "Beasts"/"Animaux
+// terrestres", FISH -> "Fish"/"Animaux aquatiques", CRITTER -> "Other
+// Wildlife"/"Divers") — cf. FAMILY_BY_SUBTYPE. `--apply` comble donc aussi
+// les résidus `family` avec ce libellé canonique. `group`, lui, reste hors
+// de portée : le seul candidat trouvé côté jeu (nom d'espèce dans le
+// `modelPath` du codex, ex. "Codex_Animal_Falcon_01") est un nom de code dev
+// sans rapport avec la taxonomie du wiki (ex. "Abiding Angelfish" a pour
+// `group` wiki "Butterflyfish" mais pour `modelPath` "Fishable_Maritime_
+// Doryaspis" — aucune correspondance exploitable, vérifié).
 //
 // 206/210 créatures résolues par nom (98%) lors de la vérification initiale
 // — les 4 non résolues (Butterfly, Firefly, Moonglow Frostfin Whale, Puny
@@ -54,8 +64,12 @@
 // volontaire contre un homonyme réel côté matériaux/plats, vérifié à la
 // main sur les 6 noms divergents de l'audit du 2026-08-10 : seul
 // forest_boar.json — "Sanglier" -> "Sanglier des forêts" — correspond).
-// Ne touche jamais à `family`, `group`, `image`, `drops`, `location`,
-// `releaseVersion`, `bait` : hors du scope vérifiable par cette source.
+// Corrige aussi `family` sans condition dès qu'il diverge du libellé
+// canonique du subType (FAMILY_BY_SUBTYPE) — ici toute divergence est une
+// vraie erreur (résidu non traduit ou valeur générique), pas une ambiguïté
+// éditoriale comme pour `name`. Ne touche jamais à `group`, `image`,
+// `drops`, `location`, `releaseVersion`, `bait` : hors du scope vérifiable
+// par cette source.
 //
 // Usage :
 //   npx ts-node -r tsconfig-paths/register scripts/scrape-creatures-gamedata.ts
@@ -145,8 +159,28 @@ function buildNameIndex(
   return index;
 }
 
+// Libellé `family` canonique par subType du jeu, tel qu'utilisé de façon
+// cohérente par le wiki lui-même (pas une traduction du jeu — le jeu n'a pas
+// de texte pour ça). Vérifié sur les 204 créatures croisées le 2026-08-10 :
+// chaque subType ne correspond qu'à un seul libellé par langue dans les
+// fichiers déjà correctement traduits.
+const FAMILY_BY_SUBTYPE: Record<string, Record<string, string>> = {
+  en: {
+    CODEX_SUBTYPE_AVIARY: 'Birds',
+    CODEX_SUBTYPE_ANIMAL: 'Beasts',
+    CODEX_SUBTYPE_FISH: 'Fish',
+    CODEX_SUBTYPE_CRITTER: 'Other Wildlife',
+  },
+  fr: {
+    CODEX_SUBTYPE_AVIARY: 'Oiseaux',
+    CODEX_SUBTYPE_ANIMAL: 'Animaux terrestres',
+    CODEX_SUBTYPE_FISH: 'Animaux aquatiques',
+    CODEX_SUBTYPE_CRITTER: 'Divers',
+  },
+};
+
 interface FieldReport {
-  field: 'name' | 'description';
+  field: 'name' | 'description' | 'family';
   wiki: string | null;
   game: string | null;
   status: 'match' | 'differs' | 'filled_gap' | 'wiki_only' | 'game_only' | 'both_empty';
@@ -226,8 +260,12 @@ function processCreatureLanguage(
   const wikiName: string | null = langData.name ?? null;
   const wikiDesc: string | null = langData.description ?? null;
 
+  const wikiFamily: string | null = langData.family ?? null;
+  const gameFamily: string | null = FAMILY_BY_SUBTYPE[lang]?.[match.codex.subType] ?? null;
+
   const nameField: FieldReport = { field: 'name', wiki: wikiName, game: gameName, status: compareField(wikiName, gameName) };
   const descField: FieldReport = { field: 'description', wiki: wikiDesc, game: gameDesc, status: compareField(wikiDesc, gameDesc) };
+  const familyField: FieldReport = { field: 'family', wiki: wikiFamily, game: gameFamily, status: compareField(wikiFamily, gameFamily) };
 
   let modified = false;
 
@@ -248,6 +286,14 @@ function processCreatureLanguage(
     modified = true;
   }
 
+  // Contrairement à `name`, toute divergence sur `family` est une vraie
+  // erreur (résidu non traduit ou valeur générique) : pas d'ambiguïté
+  // éditoriale à filtrer, cf. FAMILY_BY_SUBTYPE.
+  if (apply && gameFamily !== null && familyField.status === 'differs') {
+    langData.family = gameFamily;
+    modified = true;
+  }
+
   if (modified) {
     fs.writeFileSync(langPath, JSON.stringify(langData, null, 2) + '\n', 'utf-8');
   }
@@ -257,7 +303,7 @@ function processCreatureLanguage(
     language: lang,
     gameCategory: match.codex.subType,
     gameIcon: match.describe.icon,
-    fields: [nameField, descField],
+    fields: [nameField, descField, familyField],
   };
 }
 
@@ -283,9 +329,10 @@ function printSummary(reports: CreatureReport[], unresolvedNames: string[], appl
   const differing = allFields.filter((f) => f.status === 'differs').length;
   const matching = allFields.filter((f) => f.status === 'match').length;
   const nameFixes = reports.flatMap((r) => r.fields.filter((f) => f.field === 'name')).filter((f) => isSafeNameTruncation(f.wiki, f.game)).length;
+  const familyFixes = reports.flatMap((r) => r.fields.filter((f) => f.field === 'family')).filter((f) => f.game !== null && f.status === 'differs').length;
   const applySuffix = apply
-    ? ` — descriptions divergentes écrasées avec le texte officiel, ${nameFixes} nom(s) tronqué(s) corrigé(s).`
-    : ` (relancer avec --apply pour écraser les descriptions divergentes et ${nameFixes} nom(s) tronqué(s)).`;
+    ? ` — descriptions divergentes écrasées avec le texte officiel, ${nameFixes} nom(s) tronqué(s) et ${familyFixes} family corrigé(s).`
+    : ` (relancer avec --apply pour écraser les descriptions divergentes, ${nameFixes} nom(s) tronqué(s) et ${familyFixes} family).`;
 
   console.log(`\n✅ Rapport écrit vers ${REPORT_PATH}`);
   console.log(`   ${unresolvedNames.length} créature(s) non résolue(s) dans les données minées : ${unresolvedNames.join(', ') || '(aucune)'}`);
