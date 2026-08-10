@@ -8,8 +8,19 @@ import * as path from 'node:path';
 const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
 const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
 
-const OUTPUT_DIR = (lang: 'en' | 'fr') => path.resolve(__dirname, `../prisma/data/food/${lang}`);
+const OUTPUT_DIR = (lang: 'en' | 'fr') => path.resolve(__dirname, `../prisma/data/foods/${lang}`);
 const CACHE_PATH = path.resolve(__dirname, './cache/food-raw-cache.json');
+
+// Aucune traduction FR possible pour ces pages : noms de désambiguïsation
+// inventés par le wiki pour une variante de quête/évènement, qui n'existent
+// pas tels quels dans les données minées du jeu non plus (contrairement aux
+// 7 autres plats sans page FR dédiée, comblés depuis le jeu le 2026-08-10 —
+// cf. scripts/scrape-food-gamedata.ts --create-missing-fr) : ni le wiki ni
+// le jeu ne peuvent combler ce trou, exclu plutôt que publié indéfiniment
+// avec un fichier fr/ manquant.
+const EXCLUDED_PAGE_TITLES = new Set<string>([
+  'Apple Cider (Mika: Deliver By Hand)',
+]);
 
 // ─────────────────────────────────────────────────────────────────────────────
 // NOTE
@@ -437,6 +448,18 @@ function toCategoryKey(name: string): string {
     .replace(/^_+|_+$/g, '');
 }
 
+// "ATK Up" -> "ATK_UP", "Pyro DMG Up" -> "PYRO_DMG_UP" — même transform que
+// toCategoryKey, vers l'enum FoodEffectType (food.prisma). Non traduit, donc
+// dérivé une seule fois côté EN et réutilisé tel quel côté FR (cf. NOTE en
+// tête de fichier et de food.prisma).
+function toEffectTypeKey(name: string): string {
+  return name
+    .trim()
+    .toUpperCase()
+    .replace(/[^A-Z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '');
+}
+
 // Une poignée de pages (ex: "Drink 455", "Harbor Fish Burger") ont un champ
 // `type` au singulier ("Recovery Dish") au lieu du pluriel utilisé partout
 // ailleurs ("Recovery Dishes") — incohérence du wiki lui-même, comme le
@@ -725,7 +748,7 @@ function parseFoodInfoboxEn(pageTitle: string, content: string, frTitle: string 
     title: cleanWikitext(fields['name'] ?? pageTitle) || pageTitle,
     rarity: Number.isNaN(rarity) ? 0 : rarity,
     category: toCategoryKey(normalizeFoodType(cleanWikitext(fields['type'] ?? ''))),
-    effectType: cleanWikitext(fields['effectType'] ?? ''),
+    effectType: toEffectTypeKey(cleanWikitext(fields['effectType'] ?? '')),
     descriptions,
     effectTexts,
     effectVariables,
@@ -1004,6 +1027,12 @@ async function main() {
 
     foods = await scrapeAll(pageTitles);
     saveCache(foods);
+  }
+
+  const excludedCount = foods.filter((f) => EXCLUDED_PAGE_TITLES.has(f.pageTitle)).length;
+  if (excludedCount > 0) {
+    foods = foods.filter((f) => !EXCLUDED_PAGE_TITLES.has(f.pageTitle));
+    console.log(`🚫 ${excludedCount} page(s) exclue(s) (cf. EXCLUDED_PAGE_TITLES).`);
   }
 
   writeFoodFiles(foods);

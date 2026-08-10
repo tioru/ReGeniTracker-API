@@ -1,4 +1,4 @@
-import { FoodCategory, FoodRecipeType } from "@prisma/client";
+import { FoodCategory, FoodEffectType, FoodRecipeType } from "@prisma/client";
 import { FoodTieredTextData } from "./foodTieredText";
 import { FoodEffectVariableData } from "./foodEffectVariable";
 import { FoodIngredientData } from "./foodIngredient";
@@ -11,7 +11,7 @@ export interface FoodData {
     name: string;
     rarity: number;
     category: FoodCategory;
-    effectType: string;
+    effectType: FoodEffectType | null;
     descriptions: FoodTieredTextData;
     effectTexts: FoodTieredTextData;
     effectVariables: FoodEffectVariableData[];

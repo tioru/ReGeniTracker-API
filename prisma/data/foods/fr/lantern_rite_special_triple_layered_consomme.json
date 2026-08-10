@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Lantern Rite Special Triple-Layered Consommé",
+  "name": "Pâté aux trois saveurs façon Festival des lanternes",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF_UP",
+  "descriptions": {
+    "normal": "Un plat traditionnel de Liyue que l'on cuisine lors du Festival des lanternes. Le jambon, la volaille et les pousses de bambou sont coupés en fines lanières de même longueur, mijotés à feu vif, placés au centre d'une assiette creuse et servis avec le bouillon. Le résultat est très savoureux.",
+    "delicious": null,
+    "suspicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente la force du bouclier de tous les personnages de l'équipe de 30 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": null,
+    "suspicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Shield Strength",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Yinian",
+      "currency": "Mora",
+      "cost": 7050,
+      "stock": 10,
+      "restock": "NEVER"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": "Pâté aux trois saveurs",
+  "assets": {
+    "NORMAL": "/assets/foods/lantern_rite_special_triple_layered_consomme/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

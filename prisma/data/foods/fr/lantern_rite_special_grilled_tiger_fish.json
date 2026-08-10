@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Lantern Rite Special Grilled Tiger Fish",
+  "name": "Poisson chihu grillé façon Festival des lanternes",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "HEALING",
+  "descriptions": {
+    "normal": "Un plat traditionnel de Liyue que l'on cuisine lors du Festival des lanternes. Le poisson qui vient d'être pêché au port, est légèrement mariné, puis grillé. La fraîcheur des ingrédients est le secret pour réussir ce plat dont le parfum attire les chats errants.",
+    "delicious": null,
+    "suspicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 10 % des PV max du personnage sélectionné et 1 200 PV supplémentaires.",
+    "delicious": null,
+    "suspicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Yinian",
+      "currency": "Mora",
+      "cost": 380,
+      "stock": 20,
+      "restock": "NEVER"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": "Poisson chihu grillé",
+  "assets": {
+    "NORMAL": "/assets/foods/lantern_rite_special_grilled_tiger_fish/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

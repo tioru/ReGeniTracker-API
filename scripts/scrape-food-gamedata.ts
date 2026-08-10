@@ -71,9 +71,25 @@
 // de garder la forme masculine). Un vrai bug de contenu wiki, détecté
 // seulement parce qu'une source indépendante (le jeu) existe pour comparer.
 //
+// `--create-missing-fr` : certains plats (récompenses de quête/évènement,
+// ex. "Lantern Rite Special Come and Get It") n'ont AUCUNE page wiki FR —
+// scrape-food.ts n'a donc jamais généré de fichier prisma/data/foods/fr/
+// pour eux (contrairement à Creatures/Enemies/Books, pas de repli
+// {{Other Languages}}, cf. onglet « Nourriture »). Mais le jeu, lui, n'a pas
+// cette limite : si le plat existe en jeu, sa traduction FR existe aussi.
+// Ce mode crée le fichier FR manquant à partir du texte officiel (nom,
+// descriptions, effets) plus une traduction du vendeur et du plat de base
+// via un index inversé texte→hash construit sur le TextMap EN (le même hash
+// numérique désigne la même ligne dans toutes les langues). Se limite
+// volontairement aux plats à la structure simple des cas rencontrés
+// (ingredients/sources vides, character nul) — un plat avec des champs non
+// couverts par cette traduction est signalé et ignoré plutôt que de générer
+// un fichier partiellement faux.
+//
 // Usage :
 //   npx ts-node -r tsconfig-paths/register scripts/scrape-food-gamedata.ts
 //   npx ts-node -r tsconfig-paths/register scripts/scrape-food-gamedata.ts --apply
+//   npx ts-node -r tsconfig-paths/register scripts/scrape-food-gamedata.ts --create-missing-fr
 
 import axios from 'axios';
 import * as https from 'node:https';
@@ -305,6 +321,128 @@ function processFoodLanguage(
   return fields;
 }
 
+// text -> hash, pour retrouver la traduction FR d'un champ libre (nom de
+// vendeur, nom d'ingrédient) qui partage sa ligne de texte avec un NPC/objet
+// déjà présent ailleurs dans le TextMap — pas seulement les noms de plats
+// couverts par buildNameIndex (qui, lui, ne garde que itemType=ITEM_MATERIAL).
+function buildReverseIndex(textMap: Record<string, string>): Map<string, string> {
+  const index = new Map<string, string>();
+  for (const [hash, text] of Object.entries(textMap)) {
+    if (text && !index.has(text)) index.set(text, hash);
+  }
+  return index;
+}
+
+function translateViaSharedHash(text: string, enReverseIndex: Map<string, string>, textMapFr: Record<string, string>): string | null {
+  const hash = enReverseIndex.get(text);
+  if (!hash) return null;
+  return cleanGameText(textMapFr[hash]);
+}
+
+// FR name du plat de base (ex: "Come and Get It" -> "Ramen Alézi") lu depuis
+// son propre fichier FR déjà scrapé — pas depuis le jeu : baseDish est une
+// relation vers un AUTRE plat, dont le nom affiché suit les conventions du
+// wiki (accents, titres localisés), pas celles du jeu.
+function resolveBaseDishFrName(enBaseDish: string): string | null {
+  const frPath = path.join(FOODS_ROOT_DIR, 'fr', `${slugify(enBaseDish)}.json`);
+  if (!fs.existsSync(frPath)) return null;
+  const data = JSON.parse(fs.readFileSync(frPath, 'utf-8'));
+  return data.name ?? null;
+}
+
+function slugify(title: string): string {
+  return title
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(new RegExp(`[${String.fromCodePoint(0x0300)}-${String.fromCodePoint(0x036f)}]`, 'g'), '')
+    .replace(/[^a-z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '');
+}
+
+// Ne crée le fichier que pour la structure simple effectivement rencontrée
+// (ingredients/sources vides, pas de character/recipeHint) : au-delà, une
+// traduction automatique risquerait de produire un fichier faux plutôt
+// qu'absent — signalé et laissé de côté pour une reprise manuelle.
+function canAutoTranslate(enData: any): string | null {
+  if (enData.ingredients?.length > 0) return 'ingredients non vides';
+  if (enData.sources?.length > 0) return 'sources non vides';
+  if (enData.character) return 'character renseigné';
+  if (enData.recipeHint) return 'recipeHint renseigné';
+  if (enData.specialDish) return 'specialDish renseigné';
+  return null;
+}
+
+function buildMissingFrData(
+  enData: any,
+  enTiers: Record<Tier, MaterialEntry | null>,
+  sources: GameDataSources,
+  enReverseIndex: Map<string, string>,
+): any {
+  const textMapFr = sources.textMaps.fr;
+  const normalEntry = enTiers.normal as MaterialEntry;
+
+  const descriptions: Record<Tier, string | null> = { normal: '', delicious: null, suspicious: null };
+  const effectTexts: Record<Tier, string | null> = { normal: '', delicious: null, suspicious: null };
+  for (const tier of TIERS) {
+    const entry = enTiers[tier];
+    if (!entry || enData.descriptions[tier] === null) continue;
+    descriptions[tier] = cleanGameText(textMapFr[String(entry.descTextMapHash)]);
+  }
+  for (const tier of TIERS) {
+    const entry = enTiers[tier];
+    if (!entry || enData.effectTexts[tier] === null) continue;
+    effectTexts[tier] = cleanGameText(textMapFr[String(entry.effectDescTextMapHash)]);
+  }
+
+  const sellers = (enData.sellers ?? []).map((seller: any) => ({
+    ...seller,
+    name: translateViaSharedHash(seller.name, enReverseIndex, textMapFr) ?? seller.name,
+  }));
+
+  return {
+    ...enData,
+    name: cleanGameText(textMapFr[String(normalEntry.nameTextMapHash)]) ?? enData.name,
+    descriptions,
+    effectTexts,
+    sellers,
+    baseDish: enData.baseDish ? (resolveBaseDishFrName(enData.baseDish) ?? enData.baseDish) : null,
+  };
+}
+
+function createMissingFrFiles(enDir: string, sources: GameDataSources): { created: number; skipped: string[] } {
+  const frDir = path.join(FOODS_ROOT_DIR, 'fr');
+  const enFiles = fs.readdirSync(enDir).filter((f) => f.endsWith('.json'));
+  const enReverseIndex = buildReverseIndex(sources.textMaps.en);
+
+  let created = 0;
+  const skipped: string[] = [];
+
+  for (const fileName of enFiles) {
+    const frPath = path.join(frDir, fileName);
+    if (fs.existsSync(frPath)) continue;
+
+    const enPath = path.join(enDir, fileName);
+    const enData = JSON.parse(fs.readFileSync(enPath, 'utf-8'));
+    if (!enData.pageTitle) continue;
+
+    const enTiers = resolveTierEntries(enData.pageTitle, sources.nameIndexes.en);
+    if (!enTiers.normal) continue; // pas résolu côté jeu non plus, rien à faire ici
+
+    const blocker = canAutoTranslate(enData);
+    if (blocker) {
+      skipped.push(`${fileName} (${blocker})`);
+      continue;
+    }
+
+    const frData = buildMissingFrData(enData, enTiers, sources, enReverseIndex);
+    fs.writeFileSync(frPath, JSON.stringify(frData, null, 2) + '\n', 'utf-8');
+    created++;
+    console.log(`✅ Créé : prisma/data/foods/fr/${fileName}`);
+  }
+
+  return { created, skipped };
+}
+
 function processFood(fileName: string, enDir: string, sources: GameDataSources, apply: boolean): FoodReport[] | null {
   const enData = JSON.parse(fs.readFileSync(path.join(enDir, fileName), 'utf-8'));
   const baseName: string | undefined = enData.pageTitle;
@@ -348,9 +486,21 @@ function printSummary(reports: FoodReport[], unresolvedCount: number, apply: boo
 
 async function main() {
   const apply = process.argv.includes('--apply');
+  const createMissingFr = process.argv.includes('--create-missing-fr');
   const sources = await loadGameDataSources();
 
   const enDir = path.join(FOODS_ROOT_DIR, 'en');
+
+  if (createMissingFr) {
+    const { created, skipped } = createMissingFrFiles(enDir, sources);
+    console.log(`\n✅ ${created} fichier(s) FR créé(s) depuis le texte officiel du jeu.`);
+    if (skipped.length > 0) {
+      console.log(`   ${skipped.length} plat(s) résolu(s) côté jeu mais ignoré(s) (structure non couverte) :`);
+      for (const s of skipped) console.log(`   - ${s}`);
+    }
+    return;
+  }
+
   const enFiles = fs.readdirSync(enDir).filter((f) => f.endsWith('.json'));
 
   const reports: FoodReport[] = [];

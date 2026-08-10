@@ -9,9 +9,14 @@
 //
 // `region`, `effectType` et `recipeSubtype` ne sont pas traduits (texte EN /
 // enum réutilisés tels quels côté FR par le scraper) : portés par Food, pas
-// par FoodTranslation. `effectType` reste une String plutôt qu'un enum : c'est
-// un gros ensemble ouvert (24 valeurs observées, un par élément × DMG/RES +
-// quelques effets spéciaux) amené à grandir à chaque région ajoutée au jeu.
+// par FoodTranslation. `effectType` est un enum depuis le 2026-08-10 (25
+// valeurs observées sur les 451 plats : les 7 éléments × DMG/RES Up, un jeu
+// complet et fermé depuis l'ajout de Dendro — plus quelques catégories non
+// élémentaires fixes). `SPECIAL_EFFECT` reste la valeur fourre-tout du wiki
+// lui-même pour tout effet qui ne rentre dans aucune des 24 autres — une
+// vraie 26e catégorie inédite (pas juste un nouvel élément) resterait à
+// ajouter à la main si le jeu introduisait un jour un type d'effet vraiment
+// nouveau, mais ce n'est jamais arrivé sur les 451 fichiers observés.
 //
 // `character`/`baseDish` modélisent la relation plat "de base" ↔ plat spécial
 // de personnage (ex: Almond Tofu ↔ "Sweet Dream" de Xiao) en relations
@@ -26,7 +31,7 @@ model Food {
   pageTitle     String          @unique
   rarity        Int
   category      FoodCategory
-  effectType    String?
+  effectType    FoodEffectType?
   region        String?
   recipeSubtype FoodRecipeType?
 
@@ -140,4 +145,32 @@ enum FoodCategory {
 enum FoodRecipeType {
   COOKING
   CRAFTING
+}
+
+enum FoodEffectType {
+  ATK_UP
+  ADVENTURE_RESTORE
+  ANEMO_DMG_UP
+  ANEMO_RES_UP
+  CRIT_RATE_UP
+  CRYO_DMG_UP
+  CRYO_RES_UP
+  DEF_UP
+  DENDRO_DMG_UP
+  DENDRO_RES_UP
+  ELECTRO_DMG_UP
+  ELECTRO_RES_UP
+  GEO_DMG_UP
+  GEO_RES_UP
+  HEALING
+  HYDRO_DMG_UP
+  HYDRO_RES_UP
+  PYRO_DMG_UP
+  PYRO_RES_UP
+  REGENERATION
+  REVIVE
+  SHEER_COLD_RESISTANCE
+  SPECIAL_EFFECT
+  STAMINA_INCREASE
+  STAMINA_REDUCTION
 }

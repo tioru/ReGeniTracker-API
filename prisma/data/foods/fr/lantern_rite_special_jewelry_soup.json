@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Lantern Rite Special Jewelry Soup",
+  "name": "Soupe aux perles et au jade façon Festival des lanternes",
+  "rarity": 2,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF_UP",
+  "descriptions": {
+    "normal": "Un plat traditionnel de Liyue que l'on cuisine lors du Festival des lanternes. Les gueules-de-loup, le tofu et les graines de lotus sont mijotés dans de l'eau bouillante. Ce plat a été nommé selon son apparence, et contrairement à ce qu'on pourrait croire, il s'agit une spécialité populaire.",
+    "delicious": null,
+    "suspicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente la DÉF de tous les personnages de l'équipe de 126 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": null,
+    "suspicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Yinian",
+      "currency": "Mora",
+      "cost": 1775,
+      "stock": 15,
+      "restock": "NEVER"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": "Soupe aux perles et au jade",
+  "assets": {
+    "NORMAL": "/assets/foods/lantern_rite_special_jewelry_soup/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

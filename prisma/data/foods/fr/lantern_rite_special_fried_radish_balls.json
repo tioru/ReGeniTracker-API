@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Lantern Rite Special Fried Radish Balls",
+  "name": "Boulettes de radis frites façon Festival des lanternes",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK_UP",
+  "descriptions": {
+    "normal": "Un plat traditionnel de Liyue que l'on cuisine lors du Festival des lanternes. Parfumées et croustillantes, mangez-les tant qu'elles sont chaudes !",
+    "delicious": null,
+    "suspicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 95 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": null,
+    "suspicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Yinian",
+      "currency": "Mora",
+      "cost": 2025,
+      "stock": 15,
+      "restock": "NEVER"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": "Boulettes de radis frites",
+  "assets": {
+    "NORMAL": "/assets/foods/lantern_rite_special_fried_radish_balls/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}
