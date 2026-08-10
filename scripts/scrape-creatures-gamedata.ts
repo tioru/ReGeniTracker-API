@@ -44,12 +44,18 @@
 // `both_empty`), plus la catégorie de jeu et l'icône officielle à titre
 // informatif.
 //
-// `--apply` : écrase UNIQUEMENT `description` avec le texte officiel du jeu
-// quand il est résolu et diverge du wiki (`filled_gap` ET `differs`) — même
+// `--apply` : écrase `description` avec le texte officiel du jeu quand il
+// est résolu et diverge du wiki (`filled_gap` ET `differs`) — même
 // politique que scrape-food-gamedata.ts (le jeu fait autorité sur le texte
-// descriptif). Ne touche jamais à `name`, `family`, `group`, `image`,
-// `drops`, `location`, `releaseVersion`, `bait` : hors du scope vérifiable
-// par cette source (cf. audit du 2026-08-10).
+// descriptif). Corrige aussi `name` mais UNIQUEMENT quand le nom wiki est
+// un préfixe strict du nom officiel (troncature, cf. isSafeNameTruncation)
+// — jamais quand le jeu est plus court que le wiki (le wiki peut avoir
+// ajouté un qualificatif ou un suffixe "(animal)" de désambiguïsation
+// volontaire contre un homonyme réel côté matériaux/plats, vérifié à la
+// main sur les 6 noms divergents de l'audit du 2026-08-10 : seul
+// forest_boar.json — "Sanglier" -> "Sanglier des forêts" — correspond).
+// Ne touche jamais à `family`, `group`, `image`, `drops`, `location`,
+// `releaseVersion`, `bait` : hors du scope vérifiable par cette source.
 //
 // Usage :
 //   npx ts-node -r tsconfig-paths/register scripts/scrape-creatures-gamedata.ts
@@ -161,6 +167,20 @@ function compareField(wiki: string | null, game: string | null): FieldReport['st
   return wiki === game ? 'match' : 'differs';
 }
 
+// Un nom wiki n'est corrigé QUE s'il est un préfixe strict du nom officiel
+// du jeu (le jeu ajoute un qualificatif que le wiki a coupé, ex. "Sanglier"
+// -> "Sanglier des forêts") — jamais dans l'autre sens (le wiki ajoute
+// quelque chose que le jeu n'a pas, ex. "Grenouille verte" -> "Grenouille"),
+// qui peut être un choix éditorial délibéré, et jamais quand le wiki AJOUTE
+// un suffixe de désambiguïsation type "(animal)" que le jeu, lui, n'a pas
+// besoin de porter (le jeu n'a pas de collision de nom entre ses propres
+// tables). Règle validée à la main sur les 6 cas de l'audit du 2026-08-10 :
+// ne sélectionne que forest_boar.json, écarte les 5 autres.
+function isSafeNameTruncation(wiki: string | null, game: string | null): boolean {
+  if (wiki === null || game === null || wiki === game) return false;
+  return game.length > wiki.length && game.startsWith(wiki);
+}
+
 interface GameDataSources {
   textMaps: Record<string, Record<string, string>>;
   nameIndexes: Record<string, Map<string, { describe: AnimalDescribeEntry; codex: AnimalCodexEntry }>>;
@@ -209,8 +229,26 @@ function processCreatureLanguage(
   const nameField: FieldReport = { field: 'name', wiki: wikiName, game: gameName, status: compareField(wikiName, gameName) };
   const descField: FieldReport = { field: 'description', wiki: wikiDesc, game: gameDesc, status: compareField(wikiDesc, gameDesc) };
 
+  let modified = false;
+
   if (apply && gameDesc !== null && (descField.status === 'filled_gap' || descField.status === 'differs')) {
     langData.description = gameDesc;
+    modified = true;
+  }
+
+  // Sur les 6 noms divergents relevés à l'audit du 2026-08-10, seul
+  // isSafeNameTruncation() décrit un vrai trou (nom wiki tronqué, ex.
+  // "Sanglier" -> "Sanglier des forêts") : les 4 autres ajoutent
+  // "(animal)" pour désambiguïser un homonyme réel avec un matériau/plat
+  // du même nom (vérifié à la main), et 1 (frog.json, "Grenouille verte"
+  // vs "Grenouille") est un ajout wiki qui peut être un choix éditorial —
+  // ni l'un ni l'autre n'est une troncature, donc jamais écrasé ici.
+  if (apply && isSafeNameTruncation(wikiName, gameName)) {
+    langData.name = gameName;
+    modified = true;
+  }
+
+  if (modified) {
     fs.writeFileSync(langPath, JSON.stringify(langData, null, 2) + '\n', 'utf-8');
   }
 
@@ -244,7 +282,10 @@ function printSummary(reports: CreatureReport[], unresolvedNames: string[], appl
   const gaps = allFields.filter((f) => f.status === 'filled_gap').length;
   const differing = allFields.filter((f) => f.status === 'differs').length;
   const matching = allFields.filter((f) => f.status === 'match').length;
-  const applySuffix = apply ? ' — descriptions divergentes écrasées avec le texte officiel.' : ' (relancer avec --apply pour écraser les descriptions divergentes).';
+  const nameFixes = reports.flatMap((r) => r.fields.filter((f) => f.field === 'name')).filter((f) => isSafeNameTruncation(f.wiki, f.game)).length;
+  const applySuffix = apply
+    ? ` — descriptions divergentes écrasées avec le texte officiel, ${nameFixes} nom(s) tronqué(s) corrigé(s).`
+    : ` (relancer avec --apply pour écraser les descriptions divergentes et ${nameFixes} nom(s) tronqué(s)).`;
 
   console.log(`\n✅ Rapport écrit vers ${REPORT_PATH}`);
   console.log(`   ${unresolvedNames.length} créature(s) non résolue(s) dans les données minées : ${unresolvedNames.join(', ') || '(aucune)'}`);
