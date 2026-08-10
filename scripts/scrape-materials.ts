@@ -154,6 +154,7 @@ interface MaterialSellerData {
 
 interface MaterialOutput {
   name: string;
+  image: string;
   rarity: number;
   categories: string[];
   description: string;
@@ -865,6 +866,11 @@ function buildMaterialOutput(
 
   return {
     name,
+    // Même clé que scrape-material-images.ts (slugify(pageTitle)) : l'icône
+    // est indépendante de la langue, donc identique en/fr — matche
+    // directement le param :file de GET /assets/materials/:file (sans
+    // extension, le controller essaie déjà .png/.webp/...).
+    image: slugify(raw.pageTitle),
     rarity: raw.rarity,
     categories: raw.categories,
     description,
