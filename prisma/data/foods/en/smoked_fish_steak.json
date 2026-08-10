@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Smoked Fish Steak",
+  "name": "Smoked Fish Steak",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "A large fish steak. The steak has been cured and placed on a wooden slat before smoking. Not only does the final product preserve the fish's physical integrity, but it also boasts a unique smoky flavor.",
+    "suspicious": "A large fish steak. The acrid scent of smoke triggers an immediate aversion. After taking a reluctant bite, the overpowering saltiness makes it impossible to savor, leaving no choice but to swallow it quickly to avoid waste.",
+    "delicious": "A large fish steak. The tender fish dissolves effortlessly on the tongue, combining savory notes with a hint of sweetness, while the smoky fragrance lingers, delivering a perfect finale to this flavorful delight."
+  },
+  "effectTexts": {
+    "normal": "Restores 9% of Max HP and an additional 1000 HP to the selected character.",
+    "suspicious": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+    "delicious": "Restores 10% of Max HP and an additional 1200 HP to the selected character."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 8,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 800,
+        "normal": 1000,
+        "delicious": 1200
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Complete The Chef's Tale",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Salt",
+      "quantity": 1
+    },
+    {
+      "item": "Fish",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Flins",
+    "name": "Long Night Alight"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/smoked_fish_steak/normal.png",
+    "DELICIOUS": "/assets/foods/smoked_fish_steak/delicious.png",
+    "SUSPICIOUS": "/assets/foods/smoked_fish_steak/suspicious.png"
+  }
+}

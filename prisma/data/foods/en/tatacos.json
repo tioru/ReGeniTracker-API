@@ -1,0 +1,85 @@
+{
+  "pageTitle": "Tatacos",
+  "name": "Tatacos",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Thin tacos with filling. Making Tatacos is a three-part process — you bake the tacos first, you add vegetables and grilled shrimp second, then finally, you drizzle sauce over the top. In Natlan, it's hard to say which is a more common sight — phlogiston or Tatacos.",
+    "suspicious": "Thin tacos with filling. The shell looks like thin fabric, but is in truth as cold and hard as iron. The filling's not bad, though, so laying the shell aside, could make for some decent grilled shrimp...",
+    "delicious": "Thin tacos with filling. When your tongue touches the piping-hot shell and its rich filling, a pleasant fragrance gushes out from within, reminding you of a saying from Natlan — \"Life might disappoint, but Tatacos, never!\""
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 1200 HP.",
+    "suspicious": "Revives a character and restores 900 HP.",
+    "delicious": "Revives a character and restores 1500 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Dialogue with Chanca",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Grainfruit",
+      "quantity": 3
+    },
+    {
+      "item": "Shrimp Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Cheese",
+      "quantity": 2
+    },
+    {
+      "item": "Onion",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Chanca",
+      "currency": "Mora",
+      "cost": 6300,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Citlali",
+    "name": "Secret Art"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/tatacos/normal.png",
+    "DELICIOUS": "/assets/foods/tatacos/delicious.png",
+    "SUSPICIOUS": "/assets/foods/tatacos/suspicious.png"
+  }
+}

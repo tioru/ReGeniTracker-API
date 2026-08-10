@@ -1,0 +1,76 @@
+{
+  "pageTitle": "Radish Veggie Soup",
+  "name": "Soupe de radis",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Une soupe avec du radis en ingrédient principal. Des morceaux de radis tendres se trouvent au fond de ce plat harmonieux et nourrissant.",
+    "suspicious": "Une soupe de légumes avec du radis en ingrédient principal. Les ingrédients de ce plat sont bien fades.",
+    "delicious": "Une soupe avec du radis en ingrédient principal. Son goût simple et frais rappelle un doux après-midi de jeunesse."
+  },
+  "effectTexts": {
+    "normal": "Restaure 9 % des PV max du personnage sélectionné. Et restaure 260 PV toutes les 5 s pendant 30 s.",
+    "suspicious": "Restaure 8 % des PV max du personnage sélectionné. Et restaure 210 PV toutes les 5 s pendant 30 s.",
+    "delicious": "Restaure 10 % des PV max du personnage sélectionné. Et restaure 300 PV toutes les 5 s pendant 30 s."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 8,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 210,
+        "normal": 260,
+        "delicious": 300
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Disponible dès le début du jeu",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Radish",
+      "quantity": 1
+    },
+    {
+      "item": "Mint",
+      "quantity": 1
+    }
+  ],
+  "sources": [
+    "Sold by Harris"
+  ],
+  "sellers": [
+    {
+      "name": "Harris",
+      "currency": "Mora",
+      "cost": 530,
+      "stock": 10,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/radish_veggie_soup/normal.png",
+    "DELICIOUS": "/assets/foods/radish_veggie_soup/delicious.png",
+    "SUSPICIOUS": "/assets/foods/radish_veggie_soup/suspicious.png"
+  }
+}

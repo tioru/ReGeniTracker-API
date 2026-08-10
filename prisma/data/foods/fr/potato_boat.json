@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Potato Boat",
+  "name": "Bateau-patate",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Une collation préparée au four. Les pommes de terre ont été lavées et cuites avec du fromage et des champignons sacramentaux. Ce plat est meilleur lorsqu'il est mangé chaud, ce qui explique pourquoi il est si populaire dans les rues de Sumeru. Il est toutefois nécessaire de faire attention à ne pas se brûler la langue lorsqu'on le déguste.",
+    "suspicious": "Une collation préparée au four. Les pommes de terre sont à moitié cuites, et il est même possible de voir des traces de saleté à leur surface. Même le puissant goût de fromage n'est pas en mesure de redonner vie à ce plat.",
+    "delicious": "Une collation préparée au four. Le fromage coulant dégage une odeur envoûtante et ressemble à une rivière dorée transportant de délicieux champignons sacramentaux et de succulentes pommes de terre fines. Une fois en bouche, on se sent flotter librement comme si l'on était à bord d'un bateau naviguant sur cette fameuse rivière. Si seulement ce voyage aux délices pouvait durer un peu plus longtemps..."
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 1 200 PV.",
+    "suspicious": "Réanime un personnage et restaure 900 PV.",
+    "delicious": "Réanime un personnage et restaure 1 500 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Vendu par Jahangir, après complétion de la quête Les Gourmets suprêmes : Rangement",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Potato",
+      "quantity": 4
+    },
+    {
+      "item": "Rukkhashava Mushrooms",
+      "quantity": 2
+    },
+    {
+      "item": "Cheese",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Jahangir",
+      "currency": "Mora",
+      "cost": 7125,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/potato_boat/normal.png",
+    "DELICIOUS": "/assets/foods/potato_boat/delicious.png",
+    "SUSPICIOUS": "/assets/foods/potato_boat/suspicious.png"
+  }
+}

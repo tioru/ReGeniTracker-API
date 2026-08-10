@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Tulumba",
+  "name": "Tulumba",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "A snack fried in oil. Shaped flour is lowered directly into the pot to be deep-fried until golden-brown before being fished out and dipped into syrup while piping hot. This treat is an inseparable companion to many in Sumeru.",
+    "suspicious": "A snack fried in oil. The fruit-shaped pieces of batter were not rescued from the oil-filled pot in time, and when you bite into it, your mouth practically overflows with grease, a predicament from which only a speedy chug of coffee can save you.",
+    "delicious": "A snack fried in oil. The radiant, golden fruit-shaped pieces wrapped up in tasty syrup are gone ever so quickly, one bite and one piece at a time. Hmm, there's still one thread of honey on the plate. Perhaps this sweetness can yet be made to last one second more..."
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s.",
+    "suspicious": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s.",
+    "delicious": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Gliding Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Sold By Enteka",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 2
+    },
+    {
+      "item": "Coffee Beans",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/tulumba/normal.png",
+    "DELICIOUS": "/assets/foods/tulumba/delicious.png",
+    "SUSPICIOUS": "/assets/foods/tulumba/suspicious.png"
+  }
+}

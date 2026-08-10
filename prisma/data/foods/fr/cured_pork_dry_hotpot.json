@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Cured Pork Dry Hotpot",
+  "name": "Cocotte de porc fumé",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Un plat sauté sur feu vif. Les matsutake et le jambon ont été coupés, sautés et accompagnés d'épices. La saveur du jambon forme une parfaite harmonie avec le croustillant des matsutake, qui ne fait que s'intensifier dans la bouche. La cuisson au wok permet au plat de conserver sa chaleur pendant une longue durée.",
+    "suspicious": "Un plat sauté sur feu vif. La texture de la viande de porc est acceptable, mais son goût est bien trop salé. Une bouchée et vous aurez l'impression de n'avoir rien d'autre que de la saumure dans la bouche, peu importe le nombre de gueules-de-loup ou de matsutake que vous mangerez après.",
+    "delicious": "Un plat sauté sur feu vif. La graisse fondue du jambon frit vient envelopper à merveille l'accompagnement, et sa saveur parfumée a profondément imprégné tout le plat. Sa brillance suffit à ouvrir l'appétit, et chaque bouchée est assurée d'évoquer les célébrations familiales pour tous ceux qui viennent de Liyue."
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 15 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 10,
+        "normal": 15,
+        "delicious": 20
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Licai",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Ham",
+      "quantity": 2
+    },
+    {
+      "item": "Matsutake",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 1
+    },
+    {
+      "item": "Pepper",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Licai",
+      "currency": "Mora",
+      "cost": 7275,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/cured_pork_dry_hotpot/normal.png",
+    "DELICIOUS": "/assets/foods/cured_pork_dry_hotpot/delicious.png",
+    "SUSPICIOUS": "/assets/foods/cured_pork_dry_hotpot/suspicious.png"
+  }
+}

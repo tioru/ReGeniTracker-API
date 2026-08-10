@@ -1,0 +1,85 @@
+{
+  "pageTitle": "Fruit Tandem Turnovers",
+  "name": "Roulés double-fruits",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Des pâtisseries aux baies. Après avoir étalé la pâte fermentée en longues bandes et y avoir ajouté du sucre et des baies, le tout est roulé pour la cuisson avant d'être parsemé de baies hachées. Généralement accompagnées d'un café, ces sucreries ont une place de choix au petit-déjeuner et au goûter.",
+    "suspicious": "Des pâtisseries aux baies. La sensation détrempée en bouche donne l'impression qu'elles ont été laissées sous la pluie, et la pâte collante et insuffisamment cuite s'accroche obstinément aux dents... C'est comme si c'était sorti d'un cauchemar.",
+    "delicious": "Des pâtisseries aux baies. Les roulés fraîchement sortis du four sont chauds et réconfortants. Lorsque vos dents percent leur croûte et s'enfoncent dans leur cœur moelleux, vous avez l'impression de vous faire envelopper dans une douce couverture en cachemire. La joie qui s'en dégage pourrait repousser même les vents les plus froids de l'hiver."
+  },
+  "effectTexts": {
+    "normal": "Restaure 32 % des PV max du personnage sélectionné et 1 250 PV supplémentaires.",
+    "suspicious": "Restaure 30 % des PV max du personnage sélectionné et 600 PV supplémentaires.",
+    "delicious": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 30,
+        "normal": 32,
+        "delicious": 34
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 600,
+        "normal": 1250,
+        "delicious": 1900
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Vendu par Limppu",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Midsommar Berry",
+      "quantity": 2
+    },
+    {
+      "item": "Lakkaberry",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Limppu",
+      "currency": "Mora",
+      "cost": 6075,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Jahoda",
+    "name": "Devoir d'après-cours"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/fruit_tandem_turnovers/normal.png",
+    "DELICIOUS": "/assets/foods/fruit_tandem_turnovers/delicious.png",
+    "SUSPICIOUS": "/assets/foods/fruit_tandem_turnovers/suspicious.png"
+  }
+}

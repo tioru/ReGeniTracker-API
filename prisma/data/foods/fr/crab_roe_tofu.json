@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Crab Roe Tofu",
+  "name": "Crabe au tofu",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Un plat à la texture tendre. Les œufs de crabe sont sautés jusqu'à ce que leur huile transpire avant de rejoindre le tofu et être aspergés de bouillon. Simple, mais merveilleusement frais.",
+    "suspicious": "Un plat à la texture tendre. Même les œufs de crabe les plus frais n'arrivent pas à masquer le goût du tofu vieilli. L'écraser avec vos baguettes pour le mélanger à du riz blanc est la seule chose que vous pouvez faire pour arriver à l'avaler.",
+    "delicious": "Un plat à la texture tendre. Le tofu est tellement moelleux qu'il pourrait se séparer rien qu'en soufflant dessus. Et les œufs de crabe sont tellement gonflés d'huile qu'elle ruisselle sur vos lèvres dès la première bouchée. Pas besoin de mâcher, ce plat descend sans effort le long de votre œsophage, ne laissant rien d'autre que le souvenir de ses saveurs merveilleuses."
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 400 PV.",
+    "suspicious": "Réanime un personnage et restaure 250 PV.",
+    "delicious": "Réanime un personnage et restaure 550 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 250,
+        "normal": 400,
+        "delicious": 550
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Chef Mao",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Crab Roe",
+      "quantity": 1
+    },
+    {
+      "item": "Tofu",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Yanfei",
+    "name": "« À ma façon »"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/crab_roe_tofu/normal.png",
+    "DELICIOUS": "/assets/foods/crab_roe_tofu/delicious.png",
+    "SUSPICIOUS": "/assets/foods/crab_roe_tofu/suspicious.png"
+  }
+}

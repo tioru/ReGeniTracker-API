@@ -1,0 +1,66 @@
+{
+  "pageTitle": "All-Weather Beauty",
+  "name": "Beauté de tout temps",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Kaedehara Kazuha. Fabriquée à partir de poisson séché pendant la nuit sur le navire. Kazuha prétend que ce sont des poissons ordinaires. Mais cette saveur... C'est sûrement ça le sens de la nature omniprésente, non ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 16 % de PV Max et 1 350 PV supplémentaires au personnage sélectionné.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 1
+    },
+    {
+      "item": "Salt",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Kaedehara Kazuha",
+  "baseDish": "Ayu grillé",
+  "assets": {
+    "NORMAL": "/assets/foods/all_weather_beauty/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

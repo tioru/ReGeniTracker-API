@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Sweet Shrimp Sushi",
+  "name": "Sweet Shrimp Sushi",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A fresh and sweet traditional dish. Cleanly bisected shrimp is laid over rice and shaped with your bare hands. The springy shrimp meat and the delicious rice highlight the flavor all the more.",
+    "suspicious": "A fresh and sweet traditional dish. The shrimp look a little shriveled, and a single bite leaves grains of rice stuck to your teeth. Note to self: best not to leave it out for so long next time...",
+    "delicious": "A fresh and sweet traditional dish. Crystal-clear shrimp reclines on the snow-white piles of rice. The sourness of the vinegared grains and sweetness of the meat intertwine upon your tongue like the gentle dance of lapping waves on white shores."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 100 HP.",
+    "suspicious": "Revives a character and restores 50 HP.",
+    "delicious": "Revives a character and restores 150 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 50,
+        "normal": 100,
+        "delicious": 150
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Sold by Shimura Kanbei",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Shrimp Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Rice",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/sweet_shrimp_sushi/normal.png",
+    "DELICIOUS": "/assets/foods/sweet_shrimp_sushi/delicious.png",
+    "SUSPICIOUS": "/assets/foods/sweet_shrimp_sushi/suspicious.png"
+  }
+}

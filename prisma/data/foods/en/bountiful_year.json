@@ -1,0 +1,68 @@
+{
+  "pageTitle": "Bountiful Year",
+  "name": "Bountiful Year",
+  "rarity": 4,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Luxurious and exquisite raw fish. The fish is sliced thinly and arranged in the shape of a flower before a ring of side dishes is set all around it. Normally, the side dishes will be mixed with the raw fish according to one's taste before consumption — this act is said to ensure that things will be smooth sailing in the coming days.",
+    "suspicious": "Luxurious and exquisite raw fish. The unevenly mixed fish and condiments are as bedraggled on the plate as any dejected sailor washed ashore by rolling waves, and they do not arouse your appetites at all. Yet it would be such a further waste of these ingredients if you did not eat them — ah, what a morbid dilemma.",
+    "delicious": "Luxurious and exquisite raw fish. The stacked raw fish is sliced as thin as cicada wings, and their taste is as light as mist, their pattern lines opal-white, like snow kissing the earth. One can hardly wait to dig in — the soft and smooth meat and myriad condiment flavors coalesce on the tongue, to the praise of all. Truly, this is the flavor experience to top them all!"
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s.",
+    "suspicious": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s.",
+    "delicious": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 224,
+        "normal": 272,
+        "delicious": 320
+      }
+    },
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 8,
+        "delicious": 10
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Fleeting Colors in Flight Event",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 4
+    },
+    {
+      "item": "Carrot",
+      "quantity": 4
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    },
+    {
+      "item": "Violetgrass",
+      "quantity": 1
+    }
+  ],
+  "sources": [
+    "By selling the Dragonbone Orb to Linlang (rewards 5 normal versions)"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/bountiful_year/normal.png",
+    "DELICIOUS": "/assets/foods/bountiful_year/delicious.png",
+    "SUSPICIOUS": "/assets/foods/bountiful_year/suspicious.png"
+  }
+}

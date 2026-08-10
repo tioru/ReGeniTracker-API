@@ -1,0 +1,108 @@
+{
+  "pageTitle": "Teyvat Fried Egg",
+  "name": "Teyvat Fried Egg",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "An egg fried on one side. The yolk flows out nicely when broken. So satisfying.",
+    "suspicious": "An egg fried on one side. A bit hard in the middle. One can only hope it still has its nutrients.",
+    "delicious": "An egg fried on one side. With a taste of the summer sun, it invigorates you from the first bite."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 100 HP.",
+    "suspicious": "Revives a character and restores 50 HP.",
+    "delicious": "Revives a character and restores 150 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 50,
+        "normal": 100,
+        "delicious": 150
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Available by default",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Benthem",
+      "currency": "Mora",
+      "cost": 200,
+      "stock": 10,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Chef Mao",
+      "currency": "Mora",
+      "cost": 200,
+      "stock": 5,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Frith",
+      "currency": "Mora",
+      "cost": 200,
+      "stock": 10,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Lambad",
+      "currency": "Mora",
+      "cost": 200,
+      "stock": 10,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Sara",
+      "currency": "Mora",
+      "cost": 200,
+      "stock": 5,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Shimura Kanbei",
+      "currency": "Mora",
+      "cost": 200,
+      "stock": 10,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Bennett",
+    "name": "Teyvat Charred Egg"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/teyvat_fried_egg/normal.png",
+    "DELICIOUS": "/assets/foods/teyvat_fried_egg/delicious.png",
+    "SUSPICIOUS": "/assets/foods/teyvat_fried_egg/suspicious.png"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Pass the Luck",
+  "name": "Transmission de chance",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Mualani. Les pieds sur sa planche de surf, son plat à la main, elle a fait non pas un, ni deux, mais trois tours autour de vous avant de placer le homard de taille imposante devant vous. « Tadam ! Super énorme et fraîchement pêché : un vrai coup de bol ! Et maintenant, je vous transmets cette chance ! » Ses mots joyeux donnent presque aux boules de haricots enroulées autour des crevettes une lueur dorée.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente la force du bouclier de tous les personnages de l'équipe de 35 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Shield Strength",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Glabrous Beans",
+      "quantity": 4
+    },
+    {
+      "item": "Flour",
+      "quantity": 4
+    },
+    {
+      "item": "Shrimp Meat",
+      "quantity": 3
+    },
+    {
+      "item": "Onion",
+      "quantity": 3
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Mualani",
+  "baseDish": "Boulettes haricots-crevettes",
+  "assets": {
+    "NORMAL": "/assets/foods/pass_the_luck/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

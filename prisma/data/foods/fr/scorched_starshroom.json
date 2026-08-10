@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Scorched Starshroom",
+  "name": "Champitoile calciné",
+  "rarity": 0,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Un champignon dont le chapeau ressemble à une étoile à cinq branches. Son apparence donne l'impression qu'il a été légèrement brûlé.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 1 PV au personnage sélectionné.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [
+    "Found in the wild"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/scorched_starshroom/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

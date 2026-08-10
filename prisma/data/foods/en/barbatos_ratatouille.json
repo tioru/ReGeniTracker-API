@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Barbatos Ratatouille",
+  "name": "Barbatos Ratatouille",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "A simple chowder with a long history. The ingredients are similarly traditional and simple. No matter where you are, a piping-hot chowder of this sort can always give you a sense of real and unsurpassed satisfaction.",
+    "suspicious": "A simple chowder with a long history. Though the Anemo Archon is said to symbolize freedom, perhaps this dish has been a bit too liberal in the making. Perhaps the name Stormy Stew might be more fitting here.",
+    "delicious": "A simple chowder with a long history. After much careful stewing, the flavors of three different vegetables have been blended to perfection. Like this, it is not hard to imagine why someone once called it \"the best chowder I've ever tasted.\""
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s.",
+    "suspicious": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s.",
+    "delicious": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Gliding Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Talk to Vind",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Carrot",
+      "quantity": 4
+    },
+    {
+      "item": "Potato",
+      "quantity": 4
+    },
+    {
+      "item": "Onion",
+      "quantity": 4
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Venti",
+    "name": "A Buoyant Breeze"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/barbatos_ratatouille/normal.png",
+    "DELICIOUS": "/assets/foods/barbatos_ratatouille/delicious.png",
+    "SUSPICIOUS": "/assets/foods/barbatos_ratatouille/suspicious.png"
+  }
+}

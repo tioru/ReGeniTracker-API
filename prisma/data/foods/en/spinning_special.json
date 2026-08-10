@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Spinning Special",
+  "name": "Spinning Special",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "\"This Spinning Special is a game only grown-ups in Nod-Krai get to play! Hehe, I'll show you how it works.\" With a smug little flourish, she sets a drink-filled spinning tray in front of you. The juices are bright and colorful, sweet and delicious, but the moment you see the tray itself, your mind jumps to the words \"Roulette Special\"... Wait. Did she get the name wrong?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 1500s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Climbing Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Lakkaberry",
+      "quantity": 3
+    },
+    {
+      "item": "Midsommar Berry",
+      "quantity": 3
+    },
+    {
+      "item": "Nocturnal Blossom",
+      "quantity": 2
+    },
+    {
+      "item": "Mint",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Prune",
+  "baseDish": "Roulette Special",
+  "assets": {
+    "NORMAL": "/assets/foods/spinning_special/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

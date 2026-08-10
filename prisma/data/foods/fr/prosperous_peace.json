@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Prosperous Peace",
+  "name": "Paix prospère",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Ganyu. L'image d'un Qilin au repos suffit à elle seule à calmer les esprits. Ganyu a cuisiné ce plat avec ses meilleures intentions et a également mis de côté l'une de ses fleurs de Qingxin préférées, rien que pour vous.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 40 % des PV max du personnage sélectionné et 2 350 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Rice",
+      "quantity": 4
+    },
+    {
+      "item": "Lotus Head",
+      "quantity": 2
+    },
+    {
+      "item": "Carrot",
+      "quantity": 2
+    },
+    {
+      "item": "Berry",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Ganyu",
+  "baseDish": "Paix universelle",
+  "assets": {
+    "NORMAL": "/assets/foods/prosperous_peace/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

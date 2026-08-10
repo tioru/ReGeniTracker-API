@@ -37,4 +37,19 @@ export class AssetsController {
     }
     throw new NotFoundException(`Asset ${file} not found for material`);
   }
+
+  @Get('foods/:slug/:file')
+  getFoodAsset(
+    @Param('slug') slug: string,
+    @Param('file') file: string,
+    @Res() res: Response,
+  ) {
+    for (const ext of EXTENSIONS) {
+      const filePath = path.join(ASSETS_DIR, 'foods', slug, `${file}.${ext}`);
+      if (fs.existsSync(filePath)) {
+        return res.sendFile(filePath);
+      }
+    }
+    throw new NotFoundException(`Asset ${file} not found for food ${slug}`);
+  }
 }

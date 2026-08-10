@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Crispy Spring Rolls",
+  "name": "Crispy Spring Rolls",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "A deep-fried Liyue snack. Shredded meat and vegetables are wrapped in a thin pancake, rolled into a tube, and then fried until golden. Crunchy on the outside, smooth on the inside, these little delicacies are cherished by old and young alike.",
+    "suspicious": "A deep-fried Liyue snack. The crust was supposed to be crisp, but somehow it ended up soft and soggy — how strange... Wait, could this be the oil paper used to wrap the food...?",
+    "delicious": "A deep-fried Liyue snack. With a crisp crack, the juicy filling bursts forth as you bite. Beneath the golden, flaky shell are not only layers of flavor, but the vibrant, bustling spirit of Liyue itself."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' DEF by 200 for 300s.",
+    "suspicious": "Increases all party members' DEF by 165 for 300s.",
+    "delicious": "Increases all party members' DEF by 235 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 165,
+        "normal": 200,
+        "delicious": 235
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Complete White Horse's Leisurely Journey",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 3
+    },
+    {
+      "item": "Bamboo Shoot",
+      "quantity": 2
+    },
+    {
+      "item": "Mushroom",
+      "quantity": 2
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Zibai",
+    "name": "Flavor of Spring"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/crispy_spring_rolls/normal.png",
+    "DELICIOUS": "/assets/foods/crispy_spring_rolls/delicious.png",
+    "SUSPICIOUS": "/assets/foods/crispy_spring_rolls/suspicious.png"
+  }
+}

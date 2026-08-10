@@ -1,0 +1,63 @@
+{
+  "pageTitle": "Blazed Meat Stew",
+  "name": "Ragoût enflammé",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Un ragoût de viande épicé. La viande crue est assaisonnée avec une gamme d'épices différentes, puis cuite lentement jusqu'à ce qu'elle soit tendre. Dès que vous ouvrez le couvercle, un arôme chaud et épicé vous accueille. Si vous ne savez pas quoi manger pour une célébration, ce plat ne sera jamais un mauvais choix !",
+    "suspicious": "Un ragoût de viande épicé. Le piquant excessif enflamme votre bouche... Et également votre estomac une fois que vous avez fait descendre la viande dans votre gosier endolorie. Si seulement il y avait un grand verre d'eau pour éteindre ces flammes...",
+    "delicious": "Un ragoût de viande épicé. Toutes sortes d'épices font ressortir le riche arôme de la viande. Un piquant bien dosé réveille vos papilles gustatives endormies lorsqu'elles touchent la viande, et lorsque cette dernière atteint vos dents, son jus riche se déverse, emplissant votre cœur d'une joie somptueuse. Pas une goutte, déclarez-vous, ne sera épargnée. Pas une seule goutte !"
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 15 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 10,
+        "normal": 15,
+        "delicious": 20
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Coffre Colline Huitztli",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Glabrous Beans",
+      "quantity": 3
+    },
+    {
+      "item": "Tomato",
+      "quantity": 3
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    }
+  ],
+  "sources": [
+    "Sold by Chanca"
+  ],
+  "sellers": [],
+  "specialDish": {
+    "character": "Kinich",
+    "name": "Récompense du chasseur de saurien"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/blazed_meat_stew/normal.png",
+    "DELICIOUS": "/assets/foods/blazed_meat_stew/delicious.png",
+    "SUSPICIOUS": "/assets/foods/blazed_meat_stew/suspicious.png"
+  }
+}

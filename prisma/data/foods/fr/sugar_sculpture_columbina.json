@@ -1,0 +1,34 @@
+{
+  "pageTitle": "Sugar Sculpture: Columbina",
+  "name": "Sculpture en sucre : Columbina",
+  "rarity": 2,
+  "category": "OTHER_DISHES",
+  "effectType": "Special Effect",
+  "descriptions": {
+    "normal": "Une sculpture en sucre conçue pour capturer l'essence d'une personne. Ses ornements capillaires légers et flottants évoquent Columbina, la Dame de la lune, dont la présence même est aussi aérienne qu'un doux chant.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "C'est joli et ça a bon goût, mais ça n'a pas vraiment d'effet.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [],
+  "region": "Nod-Krai",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [
+    "Hunajatta"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/sugar_sculpture_columbina/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

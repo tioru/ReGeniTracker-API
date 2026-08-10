@@ -1,0 +1,74 @@
+{
+  "pageTitle": "\"Seabird's Sojourn\"",
+  "name": "\"Seabird's Sojourn\"",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "He fled after leaving this pot of soup. The ingredients don't seem to come from shallow seas, which means he must've dived into the deep sea to catch them. You want to express your gratitude, but... where can you find him?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 4
+    },
+    {
+      "item": "Tomato",
+      "quantity": 2
+    },
+    {
+      "item": "Mint",
+      "quantity": 2
+    },
+    {
+      "item": "Marcotte",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Freminet",
+  "baseDish": "Poisson Seafood Soup",
+  "assets": {
+    "NORMAL": "/assets/foods/seabird_s_sojourn/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

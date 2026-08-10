@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Bulle Sauce Duck Breast",
+  "name": "Magret de canard en sauce bullée",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Un plat de viande aux arômes fruités. Après avoir fait cuire le magret de canard, vous devez le couper en tranches et arranger les morceaux dans une assiette avant de les arroser avec la sauce de fruit bullé. Une peau croustillante, une viande tendre et une sauce aigre-douce se réunissent dans un délice classique de Fontaine.",
+    "suspicious": "Un plat de viande aux arômes fruités. La sauce n'a absolument pas neutralisé le côté gras du canard. En fait, elle lui a plutôt donné un côté amer. L'appétit suscité en voyant un plat si joliment présenté semble disparaître tout aussi soudainement après la première bouchée...",
+    "delicious": "Un plat de viande aux arômes fruités. La saveur d'agrume confère au succulent canard une douceur fraîche et unique. C'est si irrésistiblement délicieux qu'on peut à peine s'empêcher de prendre le morceau suivant avant même d'avoir avalé le précédent. Même si la culture culinaire de Fontaine a évolué au fil des années, il n'est pas surprenant que ce plat ait toujours gardé sa place parmi les classiques."
+  },
+  "effectTexts": {
+    "normal": "Restaure 50 pts d'endurance.",
+    "suspicious": "Restaure 40 pts d'endurance.",
+    "delicious": "Restaure 60 pts d'endurance."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 40,
+        "normal": 50,
+        "delicious": 60
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Vendu par Sanguinetti",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bulle Fruit",
+      "quantity": 2
+    },
+    {
+      "item": "Fowl",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Clorinde",
+    "name": "« Gibier en sac »"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/bulle_sauce_duck_breast/normal.png",
+    "DELICIOUS": "/assets/foods/bulle_sauce_duck_breast/delicious.png",
+    "SUSPICIOUS": "/assets/foods/bulle_sauce_duck_breast/suspicious.png"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "pageTitle": "\"Snow on the Hearth\"",
+  "name": "« Neige sur la fournaise »",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Kamisato Ayaka. On dirait une véritable petite œuvre d'art exquise et charmante, enveloppée dans un mince manteau rouge pâle, qui recouvre l'amour secret de la jeune fille à ce moment. Si vous aviez l'honneur de savourer un tel plat en sirotant le thé avec une princesse aussi élégante et gracieuse qu'un héron blanc comme compagnie, vous aspireriez sûrement à ce que ce moment dure pour l'éternité.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 20 % des PV max, puis encore 1 500 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Rice",
+      "quantity": 4
+    },
+    {
+      "item": "Sugar",
+      "quantity": 2
+    },
+    {
+      "item": "Sakura Bloom",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Kamisato Ayaka",
+  "baseDish": "Mochis de fleur de cerisier",
+  "assets": {
+    "NORMAL": "/assets/foods/snow_on_the_hearth/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

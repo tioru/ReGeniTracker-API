@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Starshroom",
+  "name": "Starshroom",
+  "rarity": 0,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "A fungus with a cap that resembles a five-pointed star. It is quite hardy indeed. Once it matures, the center of the cap will split open.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 300 HP.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [
+    "Found in the wild"
+  ],
+  "sellers": [
+    {
+      "name": "Azalai",
+      "currency": "Mora",
+      "cost": 280,
+      "stock": 10,
+      "restock": "THREE_DAYS"
+    },
+    {
+      "name": "Lambad",
+      "currency": "Mora",
+      "cost": 240,
+      "stock": 10,
+      "restock": "THREE_DAYS"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/starshroom/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Tea Party Polyphony",
+  "name": "Ensemble du goûteron",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Sandrone. Sans crier gare en plein milieu du goûteron, voilà qu'apparaît un assortiment de pâtisseries à deux étages, d'une finesse exquise... Les aurait-elle vraiment préparées elle-même ? Avant même que votre surprise ne s'estompe, elle croise les bras, se tourne légèrement et relève le menton : « Hein ? Pourquoi cette mine ? Ce ne sont que des amuse-gueules. Rien de bien compliqué. » Une douce odeur sucrée flotte dans l'air, comme pour confirmer ses dires. Alors, mieux vaut ne pas les faire attendre !",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 25 % lors de l'escalade et du sprint pendant 1 500 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Climbing Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    },
+    {
+      "item": "Bulle Fruit",
+      "quantity": 1
+    },
+    {
+      "item": "Marcotte",
+      "quantity": 2
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Sandrone",
+  "baseDish": "Trio fruité",
+  "assets": {
+    "NORMAL": "/assets/foods/tea_party_polyphony/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

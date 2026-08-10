@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Mega-Meaty Sushi",
+  "name": "Mega-Meaty Sushi",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Sushi made using barbecued meat. Layer upon layer of meat, thin and tender, is piled up in the same way that earth and stone pack together to form a mountain, with the delicate radish paste forming its snow-capped peak. This dish is not only a feast for the eyes, but for the mouth also.",
+    "suspicious": "Sushi made using barbecued meat. The meat slices lean every which way, dry as firewood. To eat this is to climb peaks fraught with peril — an expedition for which retreating halfway might prove wise...",
+    "delicious": "Sushi made using barbecued meat. The tender meat bursting with rich juices quickly fills every nook and cranny of your mouth. Conquering the entire plate feels like you are standing atop a lofty summit, surveying the world below with pure satisfaction as contentment wells up from deep within."
+  },
+  "effectTexts": {
+    "normal": "Restores 32% of Max HP and an additional 1250 HP to the selected character.",
+    "suspicious": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+    "delicious": "Restores 34% of Max HP and an additional 1900 HP to the selected character."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 30,
+        "normal": 32,
+        "delicious": 34
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 600,
+        "normal": 1250,
+        "delicious": 1900
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "New Recipe Rewards Mail",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Rice",
+      "quantity": 3
+    },
+    {
+      "item": "Radish",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/mega_meaty_sushi/normal.png",
+    "DELICIOUS": "/assets/foods/mega_meaty_sushi/delicious.png",
+    "SUSPICIOUS": "/assets/foods/mega_meaty_sushi/suspicious.png"
+  }
+}

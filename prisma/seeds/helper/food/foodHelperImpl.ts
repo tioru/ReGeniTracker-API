@@ -18,6 +18,9 @@ export class FoodHelperImpl implements FoodHelper {
               effectType: foodData.effectType || null,
               region: foodData.region,
               recipeSubtype: foodData.recipeSubtype,
+              imgNormal: foodData.assets.NORMAL,
+              imgDelicious: foodData.assets.DELICIOUS,
+              imgSuspicious: foodData.assets.SUSPICIOUS,
             },
             create: {
               pageTitle: foodData.pageTitle,
@@ -26,6 +29,9 @@ export class FoodHelperImpl implements FoodHelper {
               effectType: foodData.effectType || null,
               region: foodData.region,
               recipeSubtype: foodData.recipeSubtype,
+              imgNormal: foodData.assets.NORMAL,
+              imgDelicious: foodData.assets.DELICIOUS,
+              imgSuspicious: foodData.assets.SUSPICIOUS,
             },
         });
     }

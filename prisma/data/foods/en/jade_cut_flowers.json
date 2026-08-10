@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Jade-Cut Flowers",
+  "name": "Jade-Cut Flowers",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Before you, a young girl lowers her head, focused on weaving something with great care... In no time at all, a delicate rattan bowl appears in your hands, holding exquisite silver swallows and fragrant pastries. The girl's sincere, innocent smile seems almost like a spell, urging you to take a bite, and as you do, the flavors linger delightfully on your plate.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 80 Stamina.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Qingxin",
+      "quantity": 1
+    },
+    {
+      "item": "Flour",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Lan Yan",
+  "baseDish": "Qingxin Flower Cake",
+  "assets": {
+    "NORMAL": "/assets/foods/jade_cut_flowers/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

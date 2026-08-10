@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Jade Parcels",
+  "name": "Aumônières de jade",
+  "rarity": 4,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Un plat à l'allure raffinée et au goût inoubliable. Enveloppé par les légumes et arrosé par un bouillon légèrement épicé, le jambon libère toute sa saveur à la première bouchée.",
+    "suspicious": "Un plat à l'allure raffinée. Les ingrédients dont la cuisson est loin d'être uniforme sont emballés dans des feuilles de chou fripées qui ont du mal à les contenir. Quel spectacle déprimant.",
+    "delicious": "Un plat à l'allure raffinée. En mordant dans la feuille de chou tendre, vous goûterez au jambon parfumé et aux graines de lotus craquantes. Le bouillon clair qui en ruissèle caresse votre palais."
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 272 pts et leur taux CRIT de 8 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente l'ATQ de tous les personnages de l'équipe de 224 pts et leur taux CRIT de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente l'ATQ de tous les personnages de l'équipe de 320 pts et leur taux CRIT de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 224,
+        "normal": 272,
+        "delicious": 320
+      }
+    },
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 8,
+        "delicious": 10
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Quête d'histoire de Xiangling",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Lotus Head",
+      "quantity": 3
+    },
+    {
+      "item": "Jueyun Chili",
+      "quantity": 2
+    },
+    {
+      "item": "Cabbage",
+      "quantity": 2
+    },
+    {
+      "item": "Ham",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/jade_parcels/normal.png",
+    "DELICIOUS": "/assets/foods/jade_parcels/delicious.png",
+    "SUSPICIOUS": "/assets/foods/jade_parcels/suspicious.png"
+  }
+}

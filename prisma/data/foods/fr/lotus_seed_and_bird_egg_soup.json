@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Lotus Seed and Bird Egg Soup",
+  "name": "Œufs et graines de lotus à la vapeur",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "Un plat à base d'œufs cuit à la vapeur. Les graines de lotus agrémentent la crème aux œufs. Ses valeurs nutritionnelles en font un mets idéal à consommer pour le petit déjeuner ou en tant qu'encas.",
+    "suspicious": "Un plat à base d'œufs cuit à la vapeur. La cuisson prolongée de la préparation a créé d'étranges trous sur la surface ; et ne parlons même pas de l'amertume des graines de lotus...",
+    "delicious": "Un plat à base d'œufs cuit à la vapeur. La crème d'œufs glisse de la bouche jusqu'à l'estomac et vous laisse une sensation de bien-être."
+  },
+  "effectTexts": {
+    "normal": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 20 % lors du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 15 % lors du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 25 % lors du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Gui l'herboriste",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Lotus Head",
+      "quantity": 1
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Yun Jin",
+    "name": "Jade de nuages"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/lotus_seed_and_bird_egg_soup/normal.png",
+    "DELICIOUS": "/assets/foods/lotus_seed_and_bird_egg_soup/delicious.png",
+    "SUSPICIOUS": "/assets/foods/lotus_seed_and_bird_egg_soup/suspicious.png"
+  }
+}

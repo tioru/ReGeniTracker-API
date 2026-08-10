@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Lantern Rite Special Noodles with Mountain Delicacies",
+  "name": "Lantern Rite Special Noodles with Mountain Delicacies",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Traditional cuisine made to celebrate Lantern Rite. The sauce has a rustic flavor, and there's a generous amount of it mixed in with the noodles. A humble but enduringly popular dish.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 60 Stamina.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Yi'nian",
+      "currency": "Mora",
+      "cost": 2150,
+      "stock": 15,
+      "restock": "NEVER"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": "Noodles with Mountain Delicacies",
+  "assets": {
+    "NORMAL": "/assets/foods/lantern_rite_special_noodles_with_mountain_delicacies/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

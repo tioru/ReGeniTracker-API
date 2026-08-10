@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Fish and Chips",
+  "name": "Poisson-frites",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Une collation frite. En enrobant les filets de poisson de pâte, puis en les faisant frire jusqu'à ce qu'ils soient dorés et croustillants avant d'ajouter quelques frites, vous obtenez une combinaison si miraculeuse que quelle que soit la sauce que vous choisissez, elle vous apportera toujours un sourire chaleureux.",
+    "suspicious": "Une collation frite. Tout Fontainois qui aurait eu la malchance d'avoir mangé ce plat porterait plainte au Palais Mermonia : ce poisson et ces frites ramollies devraient être légalement interdits avant que d'autres personnes n'en soient victimes !",
+    "delicious": "Une collation frite. Alors que les filets de poisson et les frites se prélassent dans l'huile chaude et grésillante, leurs arômes se fondent parfaitement avant d'imprégner la pièce... S'il y a quelque chose de plus agréable que de manger des frites, c'est bien de manger des frites tout en prenant une énorme bouchée d'un filet de poisson !"
+  },
+  "effectTexts": {
+    "normal": "Restaure 85 pts d'endurance.",
+    "suspicious": "Restaure 70 pts d'endurance.",
+    "delicious": "Restaure 100 pts d'endurance."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 70,
+        "normal": 85,
+        "delicious": 100
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Vendu par Louis",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Potato",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Salt",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Charlotte",
+    "name": "Scoop exclusif : Rubrique gourmande"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/fish_and_chips/normal.png",
+    "DELICIOUS": "/assets/foods/fish_and_chips/delicious.png",
+    "SUSPICIOUS": "/assets/foods/fish_and_chips/suspicious.png"
+  }
+}

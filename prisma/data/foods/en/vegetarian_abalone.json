@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Vegetarian Abalone",
+  "name": "Vegetarian Abalone",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A vegetarian dish with a rich flavor. The matsutake has been sliced thin and fried till golden before pouring the sauce. The matsutake meat is sumptuous and has flavor to match that of fresh abalone — almost enough to make you think it was the real thing.",
+    "suspicious": "A vegetarian dish with a rich flavor. The overly thick sauce has totally covered the freshness that the ingredients should have had, and the condiment leaves your mouth dry no matter how much you wash it down with water.",
+    "delicious": "A vegetarian dish with a rich flavor. With the aid of the sauce, the matsutake has achieved an excellent, elegant mouth-feel that so rivals scallop in tenderness and abalone in freshness that you can hardly tell them apart. If you left your customer guessing before revealing the truth later, you would be sure to earn their astonished praise."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 400 HP",
+    "suspicious": "Revives a character and restores 250 HP",
+    "delicious": "Revives a character and restores 550 HP"
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 250,
+        "normal": 400,
+        "delicious": 550
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Sold by Verr Goldet",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Matsutake",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Hu Tao",
+    "name": "Ghostly March"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/vegetarian_abalone/normal.png",
+    "DELICIOUS": "/assets/foods/vegetarian_abalone/delicious.png",
+    "SUSPICIOUS": "/assets/foods/vegetarian_abalone/suspicious.png"
+  }
+}

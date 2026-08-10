@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Lantern Rite Special Grilled Tiger Fish",
+  "name": "Lantern Rite Special Grilled Tiger Fish",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Traditional cuisine made to celebrate Lantern Rite. The fish is a fresh catch straight from the harbor, lightly seasoned and swiftly grilled. Its aroma attracts the street cats. Indeed, freshness is the secret of flavor.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 10% of Max HP and an additional 1,200 HP to the selected character.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Yi'nian",
+      "currency": "Mora",
+      "cost": 380,
+      "stock": 20,
+      "restock": "NEVER"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": "Grilled Tiger Fish",
+  "assets": {
+    "NORMAL": "/assets/foods/lantern_rite_special_grilled_tiger_fish/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

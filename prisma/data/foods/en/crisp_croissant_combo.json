@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Crisp Croissant Combo",
+  "name": "Crisp Croissant Combo",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "A small pastry-and-coffee combo. Roll and fold the dough, lather it in egg wash, and place the creation into the oven. Soon, it will have expanded into an exquisite pastry, piping hot as it triumphantly exits the oven. It is said that the act of brushing the egg wash on is like a baker's signature — and it seems this one has fine penmanship indeed.",
+    "suspicious": "A small pastry-and-coffee combo. The stony bread stands solid against your teeth, having seemingly been robbed of all moisture. The bitter drink stained with sourness is such that you'd be pardoned for thinking it some kind of medicinal concoction. The only saving grace is that this isn't the main course...",
+    "delicious": "A small pastry-and-coffee combo. The two pointy pieces of bread conceal fluffy softness within crispy crusts, and the aromatic butter dances in perfect harmony with the intense coffee aroma, a match made in heaven. Whether by early morning light or brief break hour, to partake of this lovely combo is to salve even the most exhausted soul."
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s.",
+    "suspicious": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s.",
+    "delicious": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Climbing Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "New Recipe Rewards Mail",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Butter",
+      "quantity": 2
+    },
+    {
+      "item": "Coffee Beans",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/crisp_croissant_combo/normal.png",
+    "DELICIOUS": "/assets/foods/crisp_croissant_combo/delicious.png",
+    "SUSPICIOUS": "/assets/foods/crisp_croissant_combo/suspicious.png"
+  }
+}

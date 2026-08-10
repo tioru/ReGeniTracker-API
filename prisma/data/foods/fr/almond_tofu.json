@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Almond Tofu",
+  "name": "Tofu aux amandes",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Un dessert à base d'amandes à la texture tendre et au goût intense. Le nom de « tofu » lui a été donné en raison de son apparence.",
+    "suspicious": "Un dessert à base d'amandes. Ces dernières ont été grossièrement moulues et leur lait n'a pas été filtré. La texture granulée de ce dessert le rend spécial... du moins, c'est ce que vous croyez.",
+    "delicious": "Un dessert à base d'amandes. Son apparence et sa texture sont aussi raffinées que de la porcelaine blanche. Ce serait presque du gâchis de manger un tel chef-d'œuvre..."
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 81 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente l'ATQ de tous les personnages de l'équipe de 66 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente l'ATQ de tous les personnages de l'équipe de 95 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 66,
+        "normal": 81,
+        "delicious": 95
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Sur une des tables de la cuisine de l'Auberge Wangshu.",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Milk",
+      "quantity": 3
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    },
+    {
+      "item": "Almond",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Verr Goldet",
+      "currency": "Mora",
+      "cost": 1550,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Xiao",
+    "name": "Beau songe"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/almond_tofu/normal.png",
+    "DELICIOUS": "/assets/foods/almond_tofu/delicious.png",
+    "SUSPICIOUS": "/assets/foods/almond_tofu/suspicious.png"
+  }
+}

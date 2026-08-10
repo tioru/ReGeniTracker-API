@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Grainfruit Chips",
+  "name": "Chips granifruitées",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Des chips triangulaires bien croustillantes. Après avoir été retirées de la marmite remplie d'huile, les chips frites sont arrosées de sauce, saupoudrées de fromage et enfin garnies de viande râpée : c'est ainsi que naît un copieux petit-déjeuner natlanois.",
+    "suspicious": "Des chips triangulaires bien croustillantes. Les morceaux huileux et croquants entrent en collision avec le fromage collant et écœurant pour créer une texture grasse qui peut être digérée une fois, mais plus jamais...",
+    "delicious": "Des chips triangulaires bien croustillantes. Comme les morceaux croustillent ! On ne peut s'empêcher d'associer ce plat à une sauce aigre-douce, à un fromage riche et parfumé, à une délicieuse viande effilochée... Impossible de s'arrêter : ce sont des combinaisons parfaites !"
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 20 % des PV max, puis 390 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 18 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 22 % des PV max, puis 470 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 18,
+        "normal": 20,
+        "delicious": 22
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 300,
+        "normal": 390,
+        "delicious": 470
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Chips granifruitées",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Grainfruit",
+      "quantity": 2
+    },
+    {
+      "item": "Fowl",
+      "quantity": 1
+    },
+    {
+      "item": "Cheese",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Kachina",
+    "name": "Organisation impeccable"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/grainfruit_chips/normal.png",
+    "DELICIOUS": "/assets/foods/grainfruit_chips/delicious.png",
+    "SUSPICIOUS": "/assets/foods/grainfruit_chips/suspicious.png"
+  }
+}

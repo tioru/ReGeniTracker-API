@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Puppy-Paw Hash Brown",
+  "name": "Galette papatte",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Razor. Cette galette a été soigneusement modelée en patte de loup. On peut voir qu'il s'en sort plutôt bien en cuisine humaine.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 40 % des PV max du personnage sélectionné et 2 350 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Pinecone",
+      "quantity": 2
+    },
+    {
+      "item": "Potato",
+      "quantity": 1
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Razor",
+  "baseDish": "Galette de pomme de terre mondstadtoise",
+  "assets": {
+    "NORMAL": "/assets/foods/puppy_paw_hash_brown/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

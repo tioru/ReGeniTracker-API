@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Rainbow Macarons",
+  "name": "Rainbow Macarons",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "Small, multi-colored round pastries. There's a saying in Fontaine that a dessert spread without macarons is like having the many waters bereft of their source. Never mind the dessert artists in Fontainian kitchens — even dessert dilettantes on the streets know this adage by heart.",
+    "suspicious": "Small, multi-colored round pastries. The first one feels empty, the second is slanted, the third uneven, and the fourth's a fickle mix... As expected of a Fontainian dessert dictated by dozens of details, this will take more work to master.",
+    "delicious": "Small, multi-colored round pastries. The crisp shell wraps a thick, soft filling, and all is right with the world. Try one, and it shall be as if a little kitten's nose is nuzzling against your chest. Surely no one could help but fall for such an experience."
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s.",
+    "suspicious": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s.",
+    "delicious": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Climbing Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Sold by Sanguinetti",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 3
+    },
+    {
+      "item": "Sugar",
+      "quantity": 2
+    },
+    {
+      "item": "Almond",
+      "quantity": 2
+    },
+    {
+      "item": "Bulle Fruit",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Navia",
+    "name": "\"Pick What You Like!\""
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/rainbow_macarons/normal.png",
+    "DELICIOUS": "/assets/foods/rainbow_macarons/delicious.png",
+    "SUSPICIOUS": "/assets/foods/rainbow_macarons/suspicious.png"
+  }
+}

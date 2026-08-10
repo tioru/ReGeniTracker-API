@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Tea Break Pancake",
+  "name": "Tea Break Pancake",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A stack of round pancakes. A staple originating from afternoon tea in manors. Only the best berries should be picked for this dish.",
+    "suspicious": "A stack of round pancakes. A burnt scent masks what you can only assume should be a sweet taste. The berries are the only thing saving this dish.",
+    "delicious": "A stack of round pancakes. Tender and fluffy, the sweet-smelling pancakes taste like clouds. A heavenly delicacy, no doubt."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 400 HP.",
+    "suspicious": "Revives a character and restores 250 HP.",
+    "delicious": "Revives a character and restores 550 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 250,
+        "normal": 400,
+        "delicious": 550
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Sold by Good Hunter",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Berry",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Noelle",
+    "name": "Lighter-Than-Air Pancake"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/tea_break_pancake/normal.png",
+    "DELICIOUS": "/assets/foods/tea_break_pancake/delicious.png",
+    "SUSPICIOUS": "/assets/foods/tea_break_pancake/suspicious.png"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Lucky Snow Delight",
+  "name": "Délice dans la neige",
+  "rarity": 4,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Un dessert liyuéen à base de riz. Les grains sont moulus en farine, mélangés à du sucre et de l'eau, pressés dans des moules, puis cuits à la vapeur pour obtenir un gâteau d'un blanc immaculé qui évoque la promesse d'une récolte riche et abondante.",
+    "suspicious": "Un dessert liyuéen à base de riz. Son goût est léger et ordinaire, si peu mémorable qu'il s'efface de votre esprit presque immédiatement après la dernière bouchée.",
+    "delicious": "Un dessert liyuéen à base de riz. Pur et blanc comme la neige fraîche, il fond dès qu'il touche la langue, pour laisser place à une douceur délicate et raffinée qui persiste comme un doux écho."
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 32 % des PV max, puis 730 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 30 % des PV max, puis 510 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 35 % des PV max, puis 930 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 30,
+        "normal": 32,
+        "delicious": 35
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 510,
+        "normal": 730,
+        "delicious": 930
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Quête Le royaume des gens",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Rice",
+      "quantity": 3
+    },
+    {
+      "item": "Lotus Head",
+      "quantity": 3
+    },
+    {
+      "item": "Qingxin",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/lucky_snow_delight/normal.png",
+    "DELICIOUS": "/assets/foods/lucky_snow_delight/delicious.png",
+    "SUSPICIOUS": "/assets/foods/lucky_snow_delight/suspicious.png"
+  }
+}

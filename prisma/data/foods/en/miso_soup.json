@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Miso Soup",
+  "name": "Miso Soup",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "A simple and unadorned soup dish. The ingredients use here are very common and it is made simply, but this small bowl of soup has the power to ensure that you shall not grow weary on your journey, even if you travel on foot.",
+    "suspicious": "A simple and unadorned soup dish. The wilted seagrass, the crushed little bits of tofu, and the overly thick flavor are a real hazard to one's mood if consumed first thing in the morning.",
+    "delicious": "A simple and unadorned soup dish. The flavorful soup gives off a leaven fragrance. One mouthful of this with rice will ensure the completeness of the entire meal."
+  },
+  "effectTexts": {
+    "normal": "Restores 9% of Max HP to the selected character and regenerates 260 HP every 5s for 30s.",
+    "suspicious": "Restores 8% of Max HP to the selected character and regenerates 210 HP every 5s for 30s.",
+    "delicious": "Restores 10% of Max HP to the selected character and regenerates 300 HP every 5s for 30s."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 8,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 210,
+        "normal": 260,
+        "delicious": 300
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Sold by Shimura Kanbei",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Tofu",
+      "quantity": 1
+    },
+    {
+      "item": "Seagrass",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Thoma",
+    "name": "\"Warmth\""
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/miso_soup/normal.png",
+    "DELICIOUS": "/assets/foods/miso_soup/delicious.png",
+    "SUSPICIOUS": "/assets/foods/miso_soup/suspicious.png"
+  }
+}

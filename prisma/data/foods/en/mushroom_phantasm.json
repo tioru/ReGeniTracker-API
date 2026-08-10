@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Mushroom Phantasm",
+  "name": "Mushroom Phantasm",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A bread with a sauteed vegetarian filling. The cooked mixture is folded into rye dough, allowed to rise, and baked. It resembles a real mushroom so closely that, if not for the shallow cuts on its \"cap,\" you'd almost mistake it for the real thing.",
+    "suspicious": "A bread with a sauteed vegetarian filling. After struggling through the charred crust, you finally get a taste, only to be hit with a muddy, earthy flavor. A few bites in, your head starts to spin... Could this be a new type of poisonous mushroom?",
+    "delicious": "A bread with a sauteed vegetarian filling. Its coarse, sturdy crust acts like a solid wall, sealing in the fragrant juices of the tender mushroom filling, creating a rustic yet satisfying taste that unfolds in your mouth."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 1200 HP.",
+    "suspicious": "Revives a character and restores 900 HP.",
+    "delicious": "Revives a character and restores 1500 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Complete A Memory of Warmth",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mushroom",
+      "quantity": 3
+    },
+    {
+      "item": "Rye Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    },
+    {
+      "item": "Midsommar Berry",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/mushroom_phantasm/normal.png",
+    "DELICIOUS": "/assets/foods/mushroom_phantasm/delicious.png",
+    "SUSPICIOUS": "/assets/foods/mushroom_phantasm/suspicious.png"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "pageTitle": "A Prize Catch",
+  "name": "A Prize Catch",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "It looks like a trapped beast floundering in an ocean of blood, its death throes an inaudible scream... But Tartaglia smiles and explains that this is something he fished out of the sea, with some products from his homeland on the side.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' DEF by 282 for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Crab",
+      "quantity": 4
+    },
+    {
+      "item": "Calla Lily",
+      "quantity": 1
+    },
+    {
+      "item": "Mint",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Tartaglia",
+  "baseDish": "Calla Lily Seafood Soup",
+  "assets": {
+    "NORMAL": "/assets/foods/a_prize_catch/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

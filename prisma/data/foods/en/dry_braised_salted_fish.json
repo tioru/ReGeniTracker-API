@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Dry-Braised Salted Fish",
+  "name": "Dry-Braised Salted Fish",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Dried fish that has been grilled slowly over a charcoal flame. Fish air-dried overnight have a tinge of the salty sea wind and give off a tantalizing flavor when grilled. Many Inazumans who dwell near the sea know this taste well indeed.",
+    "suspicious": "Dried fish that has been grilled slowly over a charcoal flame. Every last droplet of moisture within the fish has been drained away, leaving behind naught but a texture that can only be compared to chewing on timber. One can barely tell the difference between fish and bones here.",
+    "delicious": "Dried fish that has been grilled slowly over a charcoal flame. The rich fats ooze out as the fish meets the grill, and with those sizzling sounds, the fish is coated in a burnished golden coat. The meat is firm but delicious, and the mouthfeel is quite delicate. Such is the unsurpassed gift of the seas."
+  },
+  "effectTexts": {
+    "normal": "Restores 9% of Max HP and an additional 1000 HP to the selected character.",
+    "suspicious": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+    "delicious": "Restores 10% of Max HP and an additional 1200 HP to the selected character."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 8,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 800,
+        "normal": 1000,
+        "delicious": 1200
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Sold by Ryouko",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 1
+    },
+    {
+      "item": "Salt",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Ryouko",
+      "currency": "Mora",
+      "cost": 350,
+      "stock": 10,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Kaedehara Kazuha",
+    "name": "All-Weather Beauty"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/dry_braised_salted_fish/normal.png",
+    "DELICIOUS": "/assets/foods/dry_braised_salted_fish/delicious.png",
+    "SUSPICIOUS": "/assets/foods/dry_braised_salted_fish/suspicious.png"
+  }
+}

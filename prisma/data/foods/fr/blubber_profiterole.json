@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Blubber Profiterole",
+  "name": "Boudi-profiteroles",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Un dessert fourré à la crème. Son enrobage moelleux et feuilleté, renfermant une crème riche, est tout rond et presque potelé, aussi mignon que le ventre d'un boudiné. Peu de cœurs peuvent échapper au charme de la crème onctueuse et douce qu'il contient.",
+    "suspicious": "Un dessert fourré à la crème. Il est resté trop longtemps à l'air libre et sa croûte autrefois feuilletée est maintenant molle et pâteuse. C'est... bien différent de la texture croustillante que vous imaginiez. Après une seule bouchée, vous avez envie de faire le deuil de ce qui était autrefois un dessert...",
+    "delicious": "Un dessert fourré à la crème. Une fois que le premier morceau a passé vos lèvres, vous ne pouvez tout simplement pas vous empêcher d'enfourner le reste ! Même les restes de crème aux coins de votre bouche suffisent à inonder votre cœur de bonheur et de satisfaction. Si seulement chaque repas pouvait être suivi d'une telle perfection sucrée... Ah ! Comme cette vie aventureuse serait merveilleuse !"
+  },
+  "effectTexts": {
+    "normal": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 30 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 40 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Physical DMG Bonus",
+      "values": {
+        "suspicious": 20,
+        "normal": 30,
+        "delicious": 40
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Vendu par Arouet",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 4
+    },
+    {
+      "item": "Milk",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Cream",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/blubber_profiterole/normal.png",
+    "DELICIOUS": "/assets/foods/blubber_profiterole/delicious.png",
+    "SUSPICIOUS": "/assets/foods/blubber_profiterole/suspicious.png"
+  }
+}

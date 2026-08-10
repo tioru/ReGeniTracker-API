@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Woodland Dream",
+  "name": "Songe sylvestre",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire d'Albedo. Les fruits et légumes sont disposés comme de l'herbe et des arbres. Dans ce monde miniature recréé dans une assiette, vous passez les remparts tachetés de la ville, suivez des ruelles brunes et entrez dans le château orange clair. Un goût sucré et délicat s'empare alors de vous comme une fleur qui éclot. Vous ouvrez les yeux. Le prince aux cheveux blancs vous regarde avec un sourire dans les siens.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente la force du bouclier de tous les personnages de l'équipe de 35 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Shield Strength",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Butter",
+      "quantity": 3
+    },
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Salt",
+      "quantity": 1
+    },
+    {
+      "item": "Small Lamp Grass",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Albedo",
+  "baseDish": "Poisson grillé au beurre",
+  "assets": {
+    "NORMAL": "/assets/foods/woodland_dream/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Potato Boat",
+  "name": "Potato Boat",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A baked appetizer. The potato was washed clean and then baked together with cheese and Rukkhashava Mushrooms. The dish guarantees an unmatched experience when eaten hot. This explains its popularity on the streets of Sumeru. Still, be careful not to burn your tongue.",
+    "suspicious": "A baked appetizer. The undercooked potato even has dirt on it… A failed attempt at cooking, it seems, and even the cheese that usually goes well with any other ingredients will not be able to save the day.",
+    "delicious": "A baked appetizer. The oozing cheese flows forth like a golden river, carrying an alluring aroma into your mouth. Soon, you will be amazed by the freshness of the Rukkhashava Mushrooms and the softness of the potato. You can't help but wish that this leisurely and savory tour might last a little longer…"
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 1200 HP.",
+    "suspicious": "Revives a character and restores 900 HP.",
+    "delicious": "Revives a character and restores 1500 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Complete The Gourmet Supremos: Cleanup",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Potato",
+      "quantity": 4
+    },
+    {
+      "item": "Rukkhashava Mushrooms",
+      "quantity": 2
+    },
+    {
+      "item": "Cheese",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Jahangir",
+      "currency": "Mora",
+      "cost": 7125,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/potato_boat/normal.png",
+    "DELICIOUS": "/assets/foods/potato_boat/delicious.png",
+    "SUSPICIOUS": "/assets/foods/potato_boat/suspicious.png"
+  }
+}

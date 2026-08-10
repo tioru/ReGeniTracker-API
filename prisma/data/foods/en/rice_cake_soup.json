@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Rice Cake Soup",
+  "name": "Rice Cake Soup",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Commonly-seen city cuisine. The ingredients have gorged themselves on the soup, making them most enticing indeed. They say that in the first, this dish only had a scant few ingredients, but more were added as time passed, resulting in its present form.",
+    "suspicious": "Commonly-seen city cuisine. These ingredients have cooked for so long that they have gone crisp. The only way to tell the components apart is by trawling the mix, having a small spoonful, and initiating further analysis.",
+    "delicious": "Commonly-seen city cuisine. The freshness of light soup forms the perfect backdrop for the original flavor of the ingredients to stand out, giving you that ancient taste of Inazuma City. This back-to-basics cuisine is sure to make you feel warm inside when eaten on a snowy night as you travel alone."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' DEF by 200 for 300s.",
+    "suspicious": "Increases all party members' DEF by 165 for 300s.",
+    "delicious": "Increases all party members' DEF by 235 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 165,
+        "normal": 200,
+        "delicious": 235
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Reach Reputation Level 4 in Inazuma",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Sausage",
+      "quantity": 2
+    },
+    {
+      "item": "Tofu",
+      "quantity": 1
+    },
+    {
+      "item": "Fish",
+      "quantity": 1
+    },
+    {
+      "item": "Lavender Melon",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Kiminami Anna",
+      "currency": "Mora",
+      "cost": 7425,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/rice_cake_soup/normal.png",
+    "DELICIOUS": "/assets/foods/rice_cake_soup/delicious.png",
+    "SUSPICIOUS": "/assets/foods/rice_cake_soup/suspicious.png"
+  }
+}

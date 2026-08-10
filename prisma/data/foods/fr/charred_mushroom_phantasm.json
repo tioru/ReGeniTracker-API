@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Charred Mushroom Phantasm",
+  "name": "Fantôme de champignon (brûlé)",
+  "rarity": 3,
+  "category": "OTHER_DISHES",
+  "effectType": "Special Effect",
+  "descriptions": {
+    "normal": "Un pain fourré de légumes sautés. Cuit de manière hasardeuse sur un feu à peine maîtrisé, il ressemble à un champignon noir comme du charbon. Son apparence seule suffit à intimider, et y goûter pourrait s'avérer risqué...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Mieux vaut ne pas en manger !",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [],
+  "region": "Nod-Krai",
+  "recipeHint": "A Memory of Warmth",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mushroom",
+      "quantity": 3
+    },
+    {
+      "item": "Rye Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    },
+    {
+      "item": "Midsommar Berry",
+      "quantity": 2
+    }
+  ],
+  "sources": [
+    "Overcooking Mushroom Phantasm in Beryna's oven"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": "Mushroom Phantasm",
+  "assets": {
+    "NORMAL": "/assets/foods/charred_mushroom_phantasm/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

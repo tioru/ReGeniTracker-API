@@ -1,0 +1,81 @@
+{
+  "pageTitle": "Charcoal-Baked Ajilenakh Cake",
+  "name": "Charcoal-Baked Ajilenakh Cake",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A dark-colored pastry. The Ajilenakh Nuts were first roasted and powdered before being sieved, added to a batter, mixed evenly, and then baked. The final product by no means looks impressive, but it exudes the fresh aroma of Ajilenakh Nuts, and it tastes better still with some jam.",
+    "suspicious": "A dark-colored pastry. One look is all it takes to tell that this is a disaster dish and a half. Your immense courage in trying one bite is rewarded with a supremely dry, coarse mouthfeel... Is this some kind of mistake? Was the charcoal plated up instead of the cake?",
+    "delicious": "A dark-colored pastry. The pastry is fine, almost lustrous, and the fragrance of the Ajilenakh Nuts is both vivid and full of warmth. The cake is fluffy and delicate as it enters your mouth, exorcising exhaustion and muzzling misery. Ah, just as a book may not be judged by its cover, so too should a cake not be convicted by its crust."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 1200 HP.",
+    "suspicious": "Revives a character and restores 900 HP.",
+    "delicious": "Revives a character and restores 1500 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Sold by Lambad",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Ajilenakh Nut",
+      "quantity": 2
+    },
+    {
+      "item": "Flour",
+      "quantity": 1
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Lambad",
+      "currency": "Mora",
+      "cost": 6825,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Faruzan",
+    "name": "Traditionally-Made Charcoal-Baked Ajilenakh Cake"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/charcoal_baked_ajilenakh_cake/normal.png",
+    "DELICIOUS": "/assets/foods/charcoal_baked_ajilenakh_cake/delicious.png",
+    "SUSPICIOUS": "/assets/foods/charcoal_baked_ajilenakh_cake/suspicious.png"
+  }
+}

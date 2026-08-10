@@ -1,0 +1,59 @@
+{
+  "pageTitle": "Tea Party Prelude: Herbal Tea",
+  "name": "Prélude au goûteron : Tisane",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Une infusion florale à savourer sans modération. Douce et onctueuse, elle exhale un arôme floral subtil, à la fois élégant et riche. Sa tisane rouge orangé, telle une lueur rosée filtrant à travers les nuages, enveloppe le cœur d'une douce chaleur apaisante.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [
+    "Claim Daily Commissions with Sandrone in the party"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/tea_party_prelude_herbal_tea/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

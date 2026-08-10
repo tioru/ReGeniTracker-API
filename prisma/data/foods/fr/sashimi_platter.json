@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Sashimi Platter",
+  "name": "Assortiment de sashimis",
+  "rarity": 4,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Un plat de fruits de mer à base d'ingrédients frais. Les poissons et crustacés sont coupés en morceaux et soigneusement disposés. Les tranches ont un goût raffiné et tendre, offrant une nutrition riche et de haute qualité. L'arrière-goût sucré persistant est entièrement dérivé de la fraîcheur des ingrédients, et chaque bouchée est un plaisir qui vaut la peine de fermer les yeux et de savourer.",
+    "suspicious": "Un plat de fruits de mer à base d'ingrédients frais. Ça doit être un plat d'entraînement. La coupe avec couteau rouillé a gâché la saveur originale des ingrédients, et les écailles de poisson sur les tranches de sashimi n'ont pas été totalement nettoyées. Il n'est peut-être pas trop tard pour demander de l'aide à un professionnel...",
+    "delicious": "Un plat de fruits de mer à base d'ingrédients frais. L'assiette étalée devant vous est comme une œuvre d'art, presque trop belle pour être touchée. Le savoir-faire de la découpe a sublimé au maximum la sensation en bouche des ingrédients. La texture délicate, l'élasticité exquise, la douceur naturelle... c'est comme si quelque chose de vivant sautait dans votre bouche, directement de l'océan à votre cœur."
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 320 pts et leur taux CRIT de 8 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente l'ATQ de tous les personnages de l'équipe de 224 pts et leur taux CRIT de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente l'ATQ de tous les personnages de l'équipe de 320 pts et leur taux CRIT de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK Up",
+      "values": {
+        "suspicious": 224,
+        "normal": 272,
+        "delicious": 320
+      }
+    },
+    {
+      "label": "CRIT Rate Up",
+      "values": {
+        "suspicious": 6,
+        "normal": 8,
+        "delicious": 10
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Quête Les Gourmets suprêmes : l'importance d'un ventre repu",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 4
+    },
+    {
+      "item": "Shrimp Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Crab",
+      "quantity": 4
+    },
+    {
+      "item": "Radish",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/sashimi_platter/normal.png",
+    "DELICIOUS": "/assets/foods/sashimi_platter/delicious.png",
+    "SUSPICIOUS": "/assets/foods/sashimi_platter/suspicious.png"
+  }
+}

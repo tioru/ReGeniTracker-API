@@ -1,0 +1,58 @@
+{
+  "pageTitle": "\"Tagged and Bagged\"",
+  "name": "\"Tagged and Bagged\"",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "It consists of freshly caught Fowl that has been but only very slightly roasted. Your initial apprehension quickly vanishes after experiencing its tender texture and refreshing aftertaste for yourself. Anyway, Clorinde already took a bite herself. Surely your digestive system is as robust as a seasoned hunter's is... right?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 80 Stamina.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bulle Fruit",
+      "quantity": 2
+    },
+    {
+      "item": "Fowl",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Clorinde",
+  "baseDish": "Bulle Sauce Duck Breast",
+  "assets": {
+    "NORMAL": "/assets/foods/tagged_and_bagged/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

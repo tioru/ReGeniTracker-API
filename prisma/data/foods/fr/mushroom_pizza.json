@@ -1,0 +1,85 @@
+{
+  "pageTitle": "Mushroom Pizza",
+  "name": "Pizza aux champignons",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Une pizza couverte de champignons et de fromage fondant. Ce dernier s'étire quand la pizza est encore chaude. Quelques parts suffiront à satisfaire votre estomac.",
+    "suspicious": "Une pizza couverte de champignons et de fromage. La pâte est tellement dure qu'elle pourrait presque vous casser des dents... Enfin, c'est toujours mieux que de mourir de faim.",
+    "delicious": "Une pizza couverte de champignons et de fromage. Les ingrédients se complémentent à la perfection. C'est la fête dans votre bouche !"
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 28 % des PV max, puis 620 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 26 % des PV max, puis 450 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 30 % des PV max, puis 790 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 26,
+        "normal": 28,
+        "delicious": 30
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 450,
+        "normal": 620,
+        "delicious": 790
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Coffre",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mushroom",
+      "quantity": 4
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Cabbage",
+      "quantity": 2
+    },
+    {
+      "item": "Cheese",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Kiminami Anna",
+      "currency": "Mora",
+      "cost": 6075,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Jean",
+    "name": "Pizza revigorante"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/mushroom_pizza/normal.png",
+    "DELICIOUS": "/assets/foods/mushroom_pizza/delicious.png",
+    "SUSPICIOUS": "/assets/foods/mushroom_pizza/suspicious.png"
+  }
+}

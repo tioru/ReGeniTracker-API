@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Show Me the Mora",
+  "name": "Aboul'moras",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Dori. Après avoir déboursé une somme coquette, vous avez enfin la chance de goûter à la cuisine du seigneur Sangemah Bay. Un poulet ferme est recouvert d'une sauce soyeuse à la texture lisse. Avec son goût intense qui réussit à éveiller les cinq sens, ce plat donne envie de dépenser une autre fortune juste pour en déguster une autre bouchée.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 274 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 3
+    },
+    {
+      "item": "Tomato",
+      "quantity": 3
+    },
+    {
+      "item": "Butter",
+      "quantity": 1
+    },
+    {
+      "item": "Spice",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Dori",
+  "baseDish": "Poulet au beurre",
+  "assets": {
+    "NORMAL": "/assets/foods/show_me_the_mora/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Lantern Rite Special Fried Radish Balls",
+  "name": "Lantern Rite Special Fried Radish Balls",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Traditional cuisine made to celebrate Lantern Rite. Fragrant and crispy. Make sure to eat them while they're hot!",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 95 for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Yi'nian",
+      "currency": "Mora",
+      "cost": 2025,
+      "stock": 15,
+      "restock": "NEVER"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": "Fried Radish Balls",
+  "assets": {
+    "NORMAL": "/assets/foods/lantern_rite_special_fried_radish_balls/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

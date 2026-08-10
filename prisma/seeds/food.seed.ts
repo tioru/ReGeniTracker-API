@@ -6,7 +6,7 @@ import { FoodData } from "../../src/model/data/food/food";
 import { FoodHelper } from "./helper/food/foodHelper";
 import { DEFAULT_LANG } from "../../constants";
 
-const FOOD_DIR = "../data/food";
+const FOOD_DIR = "../data/foods";
 
 export async function seedFood(prisma: PrismaClient): Promise<void> {
   const foodHelper: FoodHelper = new FoodHelperImpl();

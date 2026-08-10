@@ -1,0 +1,84 @@
+{
+  "pageTitle": "Mora Meat",
+  "name": "Mora Meat",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A large hunk of minced meat packaged inside of a pastry. When you split the pastry in two, minced meat spills out. The taste of meat grease is all but gone, and the baking process has brought out the sweetness of the pastry. Such pastries are usually stamped with the word \"Mora,\" all the better to represent wealth and fortune.",
+    "suspicious": "A large hunk of minced meat packaged inside of a pastry. The tough pastry shell almost seems to sally out against your teeth as you bite into it. If you fight through the greasiness and only chew on the minced meat, you can sort of taste its flavor.",
+    "delicious": "A large hunk of minced meat packaged inside of a pastry. With a crispy crust and tender meat, this legendary delicacy is so succulent that not even Mora laid in front of you could distract you from enjoying it."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 100 HP.",
+    "suspicious": "Revives a character and restores 50 HP.",
+    "delicious": "Revives a character and restores 150 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 50,
+        "normal": 100,
+        "delicious": 150
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Complete step 2 of Custodian of Clouds",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 1
+    },
+    {
+      "item": "Flour",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Mr. Zhu",
+      "currency": "Mora",
+      "cost": 430,
+      "stock": 10,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Su Er'niang",
+      "currency": "Mora",
+      "cost": 430,
+      "stock": 10,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Ningguang",
+    "name": "Qiankun Mora Meat"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/mora_meat/normal.png",
+    "DELICIOUS": "/assets/foods/mora_meat/delicious.png",
+    "SUSPICIOUS": "/assets/foods/mora_meat/suspicious.png"
+  }
+}

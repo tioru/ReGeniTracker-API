@@ -1,0 +1,74 @@
+{
+  "pageTitle": "\"After-Class Practice\"",
+  "name": "\"After-Class Practice\"",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "After seeking advice on baking techniques from Ineffa for the sixth time, Jahoda finally presented her assignment — a handmade pastry. The shape is a bit wobbly, but the sweet scent of berries is irresistible, and the taste... well, it can't be too bad, right?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 40% of Max HP and an additional 2,350 HP to the selected character.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Midsommar Berry",
+      "quantity": 2
+    },
+    {
+      "item": "Lakkaberry",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Jahoda",
+  "baseDish": "Fruit Tandem Turnovers",
+  "assets": {
+    "NORMAL": "/assets/foods/after_class_practice/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Jade-Cut Flowers",
+  "name": "Fleurs taillées en jade",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Lan Yan. Une jeune fille à la tête baissée se tient devant vous, concentrée sur le tissage soigneux d'un objet... En peu de temps ensuite, un délicat bol en rotin apparaît dans vos mains, contenant d'exquises hirondelles d'argent et des pâtisseries parfumées. Le sourire sincère et innocent de la jeune fille ressemble presque à un sortilège, vous incitant à prendre une bouchée. Quand vous le faites, les saveurs restent sur votre palais.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 80 pts d'endurance.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Qingxin",
+      "quantity": 1
+    },
+    {
+      "item": "Flour",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Lan Yan",
+  "baseDish": "Gâteau aux fleurs de Qingxin",
+  "assets": {
+    "NORMAL": "/assets/foods/jade_cut_flowers/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

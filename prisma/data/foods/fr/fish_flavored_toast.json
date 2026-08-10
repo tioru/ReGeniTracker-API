@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Fish-Flavored Toast",
+  "name": "Toast au poisson",
+  "rarity": 2,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Klee. Depuis l'explosion de la rivière, Klee a préparé ce toast pour s'excuser auprès des pêcheurs sous les ordres de Jean. Grâce à ce délicieux plat nourrissant, la jeune fille n'a plus de petit creux même après avoir passé la journée à s'adonner à son passe-temps favori.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente la DÉF de tous les personnages de l'équipe de 151 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Tomato",
+      "quantity": 2
+    },
+    {
+      "item": "Onion",
+      "quantity": 1
+    },
+    {
+      "item": "Milk",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Klee",
+  "baseDish": "Toast du pêcheur",
+  "assets": {
+    "NORMAL": "/assets/foods/fish_flavored_toast/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

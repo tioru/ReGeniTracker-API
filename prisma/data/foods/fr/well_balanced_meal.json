@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Well-Balanced Meal",
+  "name": "Repas équilibré",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Sigewinne. « Il faut finir vite, ou le soufflé va s'effondrer ! » Face à un ton si inquiet et à un regard aussi sérieux, on se sent obligé de prendre son couteau et sa fourchette. Mais ensuite, la vue de ces morceaux de viande mystérieuse à l'apparence familière, combinée au souvenir encore frais de ses milkshakes nutritifs... Voilà que vous ne savez plus quoi faire...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 34 % des PV max, puis 980 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bulle Fruit",
+      "quantity": 3
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 2
+    },
+    {
+      "item": "Milk",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Sigewinne",
+  "baseDish": "Soufflé bullé",
+  "assets": {
+    "NORMAL": "/assets/foods/well_balanced_meal/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Cold Noodles with Mountain Delicacies",
+  "name": "Cold Noodles with Mountain Delicacies",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Though these springy noodles would be irresistible in the sweltering summer, Chongyun insists on dining on them even in the chattering cold of winter. What a guy.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 80 Stamina.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mushroom",
+      "quantity": 3
+    },
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Chongyun",
+  "baseDish": "Noodles with Mountain Delicacies",
+  "assets": {
+    "NORMAL": "/assets/foods/cold_noodles_with_mountain_delicacies/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

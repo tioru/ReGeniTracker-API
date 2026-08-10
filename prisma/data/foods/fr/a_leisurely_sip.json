@@ -1,0 +1,58 @@
+{
+  "pageTitle": "A Leisurely Sip",
+  "name": "Sirotage tranquille",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Lynette. C'était l'heure du thé de l'après-midi, et Lynette a préparé une collation spécialement pour vous. La jeune femme qui buvait de petites gorgées dans sa tasse et l'image du dessert en forme de chaton semblaient se superposer. Votre cœur était rempli de douceur, mais l'état des ustensiles de cuisine vous préoccupait tout de même...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente le bonus de soins de tous les personnages de l'équipe de 25 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Healing Improvement",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Butter",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Lynette",
+  "baseDish": "Madeleine de conque",
+  "assets": {
+    "NORMAL": "/assets/foods/a_leisurely_sip/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

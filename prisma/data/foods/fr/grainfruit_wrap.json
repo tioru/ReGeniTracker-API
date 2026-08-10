@@ -1,0 +1,50 @@
+{
+  "pageTitle": "Grainfruit Wrap",
+  "name": "Dolmas granifruités",
+  "rarity": 2,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Un plat principal enveloppé dans de grandes feuilles. Il existe un dicton simple à Natlan qui dit : quand vous cherchez une feuille pour envelopper votre granifruit, une feuille tombera. Ce dicton est utilisé pour exprimer l'idée que si les choses doivent arriver, elles arriveront.",
+    "suspicious": "Un plat principal enveloppé dans de grandes feuilles. En gros, ça a le même goût qu'un granifruit cru, ce qui soulève la question de savoir à quoi servait sa cuisson...",
+    "delicious": "Un plat principal enveloppé dans de grandes feuilles. Le léger arôme de granifruit s'élève de la garniture moelleuse qui l'accompagne. En fondant dans la bouche, les notes sucrées et épicées se combinent à une touche salée, pour une expérience gustative incroyablement riche."
+  },
+  "effectTexts": {
+    "normal": "Augmente la DÉF de tous les personnages de l'équipe de 107 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente la DÉF de tous les personnages de l'équipe de 88 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente la DÉF de tous les personnages de l'équipe de 126 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 88,
+        "normal": 107,
+        "delicious": 126
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Coffre à Natlan",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Grainfruit",
+      "quantity": 2
+    },
+    {
+      "item": "Fowl",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/grainfruit_wrap/normal.png",
+    "DELICIOUS": "/assets/foods/grainfruit_wrap/delicious.png",
+    "SUSPICIOUS": "/assets/foods/grainfruit_wrap/suspicious.png"
+  }
+}

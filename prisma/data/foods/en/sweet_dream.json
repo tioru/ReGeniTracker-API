@@ -1,0 +1,54 @@
+{
+  "pageTitle": "\"Sweet Dream\"",
+  "name": "\"Sweet Dream\"",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "His dream is very simple, and it is merely a lovely dream.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 114 for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Milk",
+      "quantity": 3
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    },
+    {
+      "item": "Almond",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Xiao",
+  "baseDish": "Almond Tofu",
+  "assets": {
+    "NORMAL": "/assets/foods/sweet_dream/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

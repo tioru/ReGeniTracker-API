@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Dinner of Judgment",
+  "name": "Dinner of Judgment",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "The seemingly dark thorns make it hard to know how to begin tucking in. After some effort, you managed to clear the ornamentation away... and to your surprise, the first taste of the tender chicken unveils a shockingly lovely taste. As Rosaria studies your reaction, she seems pleased.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 30% of Max HP and an additional 1,750 HP to the selected character.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 2
+    },
+    {
+      "item": "Sweet Flower",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Rosaria",
+  "baseDish": "Sweet Madame",
+  "assets": {
+    "NORMAL": "/assets/foods/dinner_of_judgment/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

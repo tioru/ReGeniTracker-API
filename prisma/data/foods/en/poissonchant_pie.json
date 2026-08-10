@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Poissonchant Pie",
+  "name": "Poissonchant Pie",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A fish pie. Mix the fillings and put the dough right on it. The key is to arrange the fish heads properly before baking. This way, when the dish is ready, every fish will gaze upward as if chanting in unison.",
+    "suspicious": "A fish pie. One can never fathom how each fish head ended up gazing in a different direction, turning their supposed \"Chanson\" into disorganized cries. A bite is enough to invite the sudden attack of a gamey taste, and your tastebuds are already admitting defeat. You seem to hear the fish wailing... Th—That must be hallucinations, right?",
+    "delicious": "A fish pie. Fish fat sizzles near the dancing flame and then drips into the dough as the crust becomes golden and crispy. No one can resist the temptation to immediately have a try once the dish is freshly out of the oven. It feels as if the fish were singing a romantic and savory paean on the tip of your tongue."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 1200 HP.",
+    "suspicious": "Revives a character and restores 900 HP.",
+    "delicious": "Revives a character and restores 1500 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Complete Poissonous Cuisine",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    },
+    {
+      "item": "Bacon",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/poissonchant_pie/normal.png",
+    "DELICIOUS": "/assets/foods/poissonchant_pie/delicious.png",
+    "SUSPICIOUS": "/assets/foods/poissonchant_pie/suspicious.png"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Victorious Legend",
+  "name": "Légende victorieuse",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Gorou. Les accompagnements sont empilés de telle manière qu'ils offrent un spectacle aussi impressionnant que la motivation de Gorou. Après avoir fini de manger les nouilles et la soupe d'une traite, vous vous tapotez le ventre d'un air satisfait et levez les yeux pour regarder Gorou... qui affiche un grand sourire tout en remuant la queue (sans s'en rendre compte)...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 40 % des PV max du personnage sélectionné et 2 350 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Bamboo Shoot",
+      "quantity": 2
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Gorou",
+  "baseDish": "Tonkotsu ramen",
+  "assets": {
+    "NORMAL": "/assets/foods/victorious_legend/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

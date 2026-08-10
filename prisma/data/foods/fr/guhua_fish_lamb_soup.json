@@ -1,0 +1,50 @@
+{
+  "pageTitle": "Guhua Fish & Lamb Soup",
+  "name": "Soupe de Guhua au poisson et à l'agneau",
+  "rarity": 2,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Un plat que les documents historiques les plus anciens mentionnent. Hélas, pas le temps de trop y penser, car le mouton et le poisson se disputent la domination de votre bouche. Vos pauvres papilles gustatives auront certainement besoin d'un bon rinçage après cette soupe...",
+    "suspicious": "Un plat que les documents historiques les plus anciens mentionnent. Hélas, pas le temps de trop y penser, car le mouton et le poisson se disputent la domination de votre bouche. Vos pauvres papilles gustatives auront certainement besoin d'un bon rinçage après cette soupe...",
+    "delicious": "Un plat que les documents historiques les plus anciens mentionnent. Alors que la soupe blanche et laiteuse glisse dans votre gorge, vous maudissez les divinités de ne pas vous avoir donné deux estomacs. Prenez-en un bol en hiver et vous souhaiterez en manger jusqu'au printemps suivant..."
+  },
+  "effectTexts": {
+    "normal": "Augmente la DÉF de tous les personnages de l'équipe de 107 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente la DÉF de tous les personnages de l'équipe de 88 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente la DÉF de tous les personnages de l'équipe de 126 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 88,
+        "normal": 107,
+        "delicious": 126
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Quête Héros caché dans la vallée secrète",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Fish",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/guhua_fish_lamb_soup/normal.png",
+    "DELICIOUS": "/assets/foods/guhua_fish_lamb_soup/delicious.png",
+    "SUSPICIOUS": "/assets/foods/guhua_fish_lamb_soup/suspicious.png"
+  }
+}

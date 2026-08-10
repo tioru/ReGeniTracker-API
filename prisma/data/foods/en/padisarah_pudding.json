@@ -1,0 +1,85 @@
+{
+  "pageTitle": "Padisarah Pudding",
+  "name": "Padisarah Pudding",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "A popular dessert in Sumeru. Juices are squeezed from the petals of Padisarahs and Sumeru Roses before being mixed with milk, gelatin, sugar, and other ingredients, and then left to solidify. Cute appearance and sweet flavor make it a common sight at celebratory events in Sumeru.",
+    "suspicious": "A popular dessert in Sumeru. A single bite yields a mix of milky and floral flavors... Which isn't bad, exactly, but remains a far cry from what you expected from this pudding. Did you get the ingredient proportions wrong or something?",
+    "delicious": "A popular dessert in Sumeru. The moment it enters your mouth, the springy mouthfeel makes you feel like you're wandering atop milk-flavored clouds. As you savor its flavors, the blended fragrance of Padisarah and Sumeru Rose fills the air. When you finally do reach that very last bite, it feels like something has been left unfinished. You cannot help but lick the back of your spoon, as if to savor the final sublime moments of enjoyment."
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s.",
+    "suspicious": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s.",
+    "delicious": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Climbing Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Sold by Enteka",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Padisarah",
+      "quantity": 2
+    },
+    {
+      "item": "Sumeru Rose",
+      "quantity": 1
+    },
+    {
+      "item": "Milk",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Enteka",
+      "currency": "Mora",
+      "cost": 6525,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Nilou",
+    "name": "Swirling Steps"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/padisarah_pudding/normal.png",
+    "DELICIOUS": "/assets/foods/padisarah_pudding/delicious.png",
+    "SUSPICIOUS": "/assets/foods/padisarah_pudding/suspicious.png"
+  }
+}

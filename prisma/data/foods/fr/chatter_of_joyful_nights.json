@@ -1,0 +1,74 @@
+{
+  "pageTitle": "\"Chatter of Joyful Nights\"",
+  "name": "Discussion joyeuse en soirée",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Dahlia. « J'ai reçu une révélation divine qui vous demande de goûter ceci », dit un certain diacre avec un clin d'œil, en présentant une assiette de friandises dorées. Vous remarquez son regard poli et... non dénué d'attentes, ainsi que l'arôme du cidre de pomme sucré. A-t-il vraiment reçu un ordre divin ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 34 % des PV max, puis 980 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mint",
+      "quantity": 4
+    },
+    {
+      "item": "Shrimp Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Potato",
+      "quantity": 3
+    },
+    {
+      "item": "Berry",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Dahlia",
+  "baseDish": "Croquants aux crevettes",
+  "assets": {
+    "NORMAL": "/assets/foods/chatter_of_joyful_nights/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

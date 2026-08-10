@@ -1,0 +1,54 @@
+{
+  "pageTitle": "Borderland Crispbread",
+  "name": "Borderland Crispbread",
+  "rarity": 2,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Crispbread made from rye flour. The pattern on the crispbread is created by pressing Icy Pebbles into it, while it's said that the hole in its center is also made in imitation of such. It contains barely any moisture, making it well-suited to long storage.",
+    "suspicious": "Crispbread made from rye flour. It is dry, hard, and cold — like frozen roof tiles. This bread is strong enough to test the hardness of teeth... Though it's probably best not to try.",
+    "delicious": "Crispbread made from rye flour. The rich aroma of grain feels like a warm greeting from the rye fields, while the simple yet satisfying flavor offers a unique sense of comfort."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' DEF by 107 for 300s.",
+    "suspicious": "Increases all party members' DEF by 88 for 300s.",
+    "delicious": "Increases all party members' DEF by 126 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 88,
+        "normal": 107,
+        "delicious": 126
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Exquisite Chest in Blue Amber Lake",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Rye Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Salt",
+      "quantity": 2
+    },
+    {
+      "item": "Icy Pebble",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/borderland_crispbread/normal.png",
+    "DELICIOUS": "/assets/foods/borderland_crispbread/delicious.png",
+    "SUSPICIOUS": "/assets/foods/borderland_crispbread/suspicious.png"
+  }
+}

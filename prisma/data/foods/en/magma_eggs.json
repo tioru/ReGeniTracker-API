@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Magma Eggs",
+  "name": "Magma Eggs",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "A jet-black egg, formed by absorbing the essence of flame and rock. Despite its obsidian appearance, it tastes just like a regular boiled egg — unless, of course, one were to go out of their way to cook it in an irregular fashion...",
+    "suspicious": "A jet-black egg with a crust that has trapped too much heat from overcooking. The ominous color of the shell makes you feel uneasy, and you can't help but fear that something horrible will happen if you take a bite!",
+    "delicious": "A jet-black egg, with a beautiful frosty sheen observable in its darkness. Like a chunk of black jade slumbering in the mist, it's no wonder there are rumors about how it can prolong one's lifespan. That said, one can only hope it doesn't have the opposite effect..."
+  },
+  "effectTexts": {
+    "normal": "Restores 9% of Max HP and an additional 1000 HP to the selected character.",
+    "suspicious": "Restores 0% of Max HP and an additional 0 HP to the selected character.",
+    "delicious": "Restores 10% of Max HP and an additional 1200 HP to the selected character."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 0,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 0,
+        "normal": 1000,
+        "delicious": 1200
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Complete Runtuma's challenge",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/magma_eggs/normal.png",
+    "DELICIOUS": "/assets/foods/magma_eggs/delicious.png",
+    "SUSPICIOUS": "/assets/foods/magma_eggs/suspicious.png"
+  }
+}

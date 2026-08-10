@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Birch-Steamed Pork Ribs",
+  "name": "Travers de porc à la vapeur de bouleau",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "Un plat à base de branches et de côtes. Les côtes sont marinées, séchées à l'air libre, puis disposées sur des branches de bouleau et cuites à la vapeur. Une fois servie, la viande est d'une tendreté exceptionnelle et dégage un arôme boisé caractéristique. C'est l'un des plats traditionnels des fêtes de Nod-Krai.",
+    "suspicious": "Un plat à base de branches et de côtes. Vous en prenez un morceau sans réfléchir, et vous découvrez qu'il est d'un brun rougeâtre profond, dû à un séchage trop prolongé à l'air libre, avec des lignes à sa surface qui rappellent les cernes d'un vieil arbre. Ajoutez à cela sa texture granuleuse, et... Attendez. Ce n'est tout de même pas une branche que vous auriez prise pour une côte ?",
+    "delicious": "Un plat à base de branches et de côtes. D'un simple coup de fourchette, la viande se détache de l'os comme la neige qui glisse d'une branche. Au contact de la langue, sa saveur riche et profonde se mêle au léger arôme boisé du bouleau cuit à la vapeur, pour finalement se fondre en une chaleur qui vous comble de bonheur."
+  },
+  "effectTexts": {
+    "normal": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 20 % lors du planage et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 15 % lors du planage et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 25 % lors du planage et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Gliding Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Sold by Katya",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Midsommar Berry",
+      "quantity": 2
+    },
+    {
+      "item": "Lakkaberry",
+      "quantity": 2
+    },
+    {
+      "item": "Potato",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/birch_steamed_pork_ribs/normal.png",
+    "DELICIOUS": "/assets/foods/birch_steamed_pork_ribs/delicious.png",
+    "SUSPICIOUS": "/assets/foods/birch_steamed_pork_ribs/suspicious.png"
+  }
+}

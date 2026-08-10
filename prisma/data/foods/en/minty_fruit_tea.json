@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Minty Fruit Tea",
+  "name": "Minty Fruit Tea",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "A cooling and refreshing drink. The invigorating tea and the sweet-sour taste of fruit blend together and energize your taste buds, and before you know it, you've already drained your entire cup.",
+    "suspicious": "A cooling and refreshing drink. The very first sip sends your teeth practically fleeing from the onslaught of the sour taste. The light sweetness has been utterly usurped by a tyrannical astringency. Is this really fruit tea?",
+    "delicious": "A cooling and refreshing drink. The sweet flavor of the tea combines with light, clear floral notes on one hand, and tangles with a dash of fruity on the other, filling your mouth and throat with their aroma. Wait a moment — why are there only ice cubes left in the cup?"
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' DEF by 200 for 300s.",
+    "suspicious": "Increases all party members' DEF by 165 for 300s.",
+    "delicious": "Increases all party members' DEF by 235 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 165,
+        "normal": 200,
+        "delicious": 235
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "New Recipe Rewards Mail",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mint",
+      "quantity": 3
+    },
+    {
+      "item": "Sunsettia",
+      "quantity": 3
+    },
+    {
+      "item": "Berry",
+      "quantity": 3
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/minty_fruit_tea/normal.png",
+    "DELICIOUS": "/assets/foods/minty_fruit_tea/delicious.png",
+    "SUSPICIOUS": "/assets/foods/minty_fruit_tea/suspicious.png"
+  }
+}

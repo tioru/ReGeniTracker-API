@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Black-Back Perch Stew",
+  "name": "Marmite de perche à dos noir",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Un plat à base de poisson cuit. Les morceaux de perche sont fermes et savoureux grâce au muguet bleu qui a été ajouté à l'huile de cuisson chaude. Son goût épicé est parfaitement calibré pour ne pas brûler le palais.",
+    "suspicious": "Un plat à base de poisson cuit. Le goût de la perche s'est noyé dans celui des piments. Seuls une poignée d'individus sont capables d'endurer ce supplice gustatif.",
+    "delicious": "Un plat à base de poisson cuit. Les morceaux de perche sont si tendres et savoureux qu'ils fondent dans la langue. On ne peut qu'en reprendre pour combler le vide dans notre bouche."
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 28 % des PV max, puis 620 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 26 % des PV max, puis 450 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 30 % des PV max, puis 790 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 26,
+        "normal": 28,
+        "delicious": 30
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 450,
+        "normal": 620,
+        "delicious": 790
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Chef Mao",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Jueyun Chili",
+      "quantity": 1
+    },
+    {
+      "item": "Salt",
+      "quantity": 1
+    },
+    {
+      "item": "Violetgrass",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Xiangling",
+    "name": "Poisson bouilli du Restaurant Wanmin"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/black_back_perch_stew/normal.png",
+    "DELICIOUS": "/assets/foods/black_back_perch_stew/delicious.png",
+    "SUSPICIOUS": "/assets/foods/black_back_perch_stew/suspicious.png"
+  }
+}

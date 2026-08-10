@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Fruity Skewers",
+  "name": "Brochette fruitée",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Kaeya. Une brochette caoutchouteuse au goût sucré, mais est-ce vraiment des fruits ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 16 % des PV max du personnage sélectionné et 1 350 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mushroom",
+      "quantity": 1
+    },
+    {
+      "item": "Fowl",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Kaeya",
+  "baseDish": "Brochette de poulet et de champignons",
+  "assets": {
+    "NORMAL": "/assets/foods/fruity_skewers/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

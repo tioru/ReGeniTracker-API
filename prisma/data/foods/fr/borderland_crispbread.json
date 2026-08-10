@@ -1,0 +1,54 @@
+{
+  "pageTitle": "Borderland Crispbread",
+  "name": "Galettes croquantes des confins",
+  "rarity": 2,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Des galettes croustillantes à base de farine de seigle. Leur motif est obtenu en y pressant des galets gelés, et les trous au centre réalisés afin d'imiter ces derniers. Elles contiennent très peu d'humidité, ce qui les rend idéales pour une longue conservation.",
+    "suspicious": "Des galettes croustillantes à base de farine de seigle. C'est sec, dur et froid, comme des tuiles gelées d'un toit. Ce pain est assez solide pour tester la dureté des dents... Mais il vaudrait mieux ne pas s'y risquer...",
+    "delicious": "Des galettes croustillantes à base de farine de seigle. L'arôme riche du grain ressemble à un accueil chaleureux des champs de seigle, tandis que la saveur simple mais satisfaisante offre une sensation de confort unique."
+  },
+  "effectTexts": {
+    "normal": "Augmente la DÉF de tous les personnages de l'équipe de 107 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente la DÉF de tous les personnages de l'équipe de 88 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente la DÉF de tous les personnages de l'équipe de 126 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 88,
+        "normal": 107,
+        "delicious": 126
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Coffre au Lac ambrazur",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Rye Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Salt",
+      "quantity": 2
+    },
+    {
+      "item": "Icy Pebble",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/borderland_crispbread/normal.png",
+    "DELICIOUS": "/assets/foods/borderland_crispbread/delicious.png",
+    "SUSPICIOUS": "/assets/foods/borderland_crispbread/suspicious.png"
+  }
+}

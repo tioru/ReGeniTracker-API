@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Mint Jelly",
+  "name": "Mint Jelly",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "A refreshing dessert. The steps to making this are quite simple indeed, and when it slides down your throat, the faint, fresh flavor of mint will leave you feeling reinvigorated for the rest of the day.",
+    "suspicious": "A refreshing dessert. Some little accidents occurred during the making of this dish, causing the jelly to emerge unevenly frozen. Well, it could still serve should you want to drink some mint cordial...",
+    "delicious": "A refreshing dessert. The perfect springiness makes for a lovely sight indeed when you strike it with the back of a small spoon. Taste that spoonful and that cool and refreshing feel will spread through your mouth instantly, dispelling any negative emotions you may harbor to the point where you feel like you've become a new person."
+  },
+  "effectTexts": {
+    "normal": "Restores 9% of Max HP and an additional 1000 HP to the selected character.",
+    "suspicious": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+    "delicious": "Restores 10% of Max HP and an additional 1200 HP to the selected character."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 8,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 800,
+        "normal": 1000,
+        "delicious": 1200
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Sold by Sara",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mint",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Aloy",
+    "name": "Satiety Gel"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/mint_jelly/normal.png",
+    "DELICIOUS": "/assets/foods/mint_jelly/delicious.png",
+    "SUSPICIOUS": "/assets/foods/mint_jelly/suspicious.png"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Sour Sauce Ceviche",
+  "name": "Sour Sauce Ceviche",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Raw pieces of fish with a fruity fragrance. The fish — which must be fresh — is first skinned and cut into thick chunks, then marinated in the sour sauce until the fish turns white, after which shredded vegetables are added for seasoning. A combination of sour and spicy flavors, it is one of Natlan's most classic flavors.",
+    "suspicious": "Raw pieces of fish with a fruity fragrance. Having not been marinated for nearly long enough, the fish lacks flavor. Fortunately, the fresh ingredients allow the dish as a whole to muddle through, albeit leaving a sense of regret behind.",
+    "delicious": "Raw pieces of fish with a fruity fragrance. The sheer fragrance bowls you over in the first wave, with sourness and spiciness bringing up the rear, granting this fish layers akin to the tides, with you the surfer on a sea of flavor. Even when the tumult has subsided, your yearning remains."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 81 for 300s.",
+    "suspicious": "Increases all party members' ATK by 66 for 300s.",
+    "delicious": "Increases all party members' ATK by 95 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 66,
+        "normal": 81,
+        "delicious": 95
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Complete A Saurian Lover's Ordinary Days",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 2
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    },
+    {
+      "item": "Tomato",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Ororon",
+    "name": "Honey-Glazed Ceviche"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/sour_sauce_ceviche/normal.png",
+    "DELICIOUS": "/assets/foods/sour_sauce_ceviche/delicious.png",
+    "SUSPICIOUS": "/assets/foods/sour_sauce_ceviche/suspicious.png"
+  }
+}

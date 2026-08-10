@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Iridescence Under the Tree's Shade",
+  "name": "Iridescence Under the Tree's Shade",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "A \"Lumi\" crafted from sour cream sits at the center, surrounded by fruits that look like crystallized rainbows. Its adorable appearance brings warmth to one's heart. Upon closer inspection, each fruit bears the signature of a different land... The care she took in traversing mountains and rivers to gather these speaks louder than a thousand words.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 130 Stamina.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Lakkaberry",
+      "quantity": 3
+    },
+    {
+      "item": "Midsommar Berry",
+      "quantity": 3
+    },
+    {
+      "item": "Rye Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Smetana",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Linnea",
+  "baseDish": "Lakkaberry Pie",
+  "assets": {
+    "NORMAL": "/assets/foods/iridescence_under_the_tree_s_shade/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

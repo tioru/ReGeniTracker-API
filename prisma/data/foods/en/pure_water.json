@@ -1,0 +1,76 @@
+{
+  "pageTitle": "\"Pure Water\"",
+  "name": "\"Pure Water\"",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "It is said to be the legacy of a genius potioneer. It can draw out the purest strength from within one's body.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 320, CRIT Rate by 10% and damage taken by 20% for 30s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Complete Villains",
+  "recipeSubtype": "CRAFTING",
+  "ingredients": [
+    {
+      "item": "Mora",
+      "quantity": 100
+    },
+    {
+      "item": "Wheat",
+      "quantity": 3
+    },
+    {
+      "item": "Pinecone",
+      "quantity": 2
+    },
+    {
+      "item": "Tidalga",
+      "quantity": 1
+    }
+  ],
+  "sources": [
+    "Alchemy"
+  ],
+  "sellers": [
+    {
+      "name": "Alvard",
+      "currency": "Mora",
+      "cost": 15,
+      "stock": 5,
+      "restock": "NEVER"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/pure_water/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

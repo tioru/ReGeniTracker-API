@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Egg Roll",
+  "name": "Egg Roll",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A fried egg dish. Beat eggs well, season and fry them slowly in a wok, roll up into a fixed shape. Pour in egg liquid again and continue until it has all reached a certain thickness, then get ready to plate up. This is a ordinary yet welcoming Inazuman delicacy.",
+    "suspicious": "A fried egg dish. It looks way too soft... and what do you know, it comes apart the instant it so much as touches chopsticks. Might as well use a spoon at this point.",
+    "delicious": "A fried egg dish. The shape of the dish as a whole, the golden color, the fluffy mouthfeel... a small piece of this may not fill your stomach, but it will fill you with warmth. Not to mention that sweetness that you can almost reach out and touch — simply irresistible."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 100 HP.",
+    "suspicious": "Revives a character and restores 50 HP.",
+    "delicious": "Revives a character and restores 150 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 50,
+        "normal": 100,
+        "delicious": 150
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Sold by Shimura Kanbei",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Ryouko",
+      "currency": "Mora",
+      "cost": 700,
+      "stock": 10,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Kujou Sara",
+    "name": "Faith Eternal"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/egg_roll/normal.png",
+    "DELICIOUS": "/assets/foods/egg_roll/delicious.png",
+    "SUSPICIOUS": "/assets/foods/egg_roll/suspicious.png"
+  }
+}

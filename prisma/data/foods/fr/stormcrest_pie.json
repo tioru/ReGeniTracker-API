@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Stormcrest Pie",
+  "name": "Tourte tempétueuse",
+  "rarity": 4,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire d'Eula. On ne sait pas si sa forme atypique est un pied de nez aux traditions ou l'illustration de sa philosophie « dent pour dent ». Des effluves salées et fumées s'échappent de la croûte dorée. Nul ne prépare ce plat aussi bien à Mondstadt. Mais passez-vous de le lui dire de peur de raviver d'anciennes rancunes...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente la force du bouclier de tous les personnages de l'équipe de 40 % et augmente leur DÉF de 282 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Shield Strength",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Butter",
+      "quantity": 3
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 4
+    },
+    {
+      "item": "Raw Meat",
+      "quantity": 4
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Eula",
+  "baseDish": "Tourte de lune",
+  "assets": {
+    "NORMAL": "/assets/foods/stormcrest_pie/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

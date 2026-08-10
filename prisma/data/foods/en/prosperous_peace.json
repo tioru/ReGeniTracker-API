@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Prosperous Peace",
+  "name": "Prosperous Peace",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "The image of a resting qilin is by itself enough to calm a person down. Ganyu has put her well-wishes for all that is lovely in this world into this dish — and she's saved some of her favorite Qingxin flowers for you, too.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 40% of Max HP and an additional 2,350 HP to the selected character.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Rice",
+      "quantity": 4
+    },
+    {
+      "item": "Lotus Head",
+      "quantity": 2
+    },
+    {
+      "item": "Carrot",
+      "quantity": 2
+    },
+    {
+      "item": "Berry",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Ganyu",
+  "baseDish": "Universal Peace",
+  "assets": {
+    "NORMAL": "/assets/foods/prosperous_peace/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

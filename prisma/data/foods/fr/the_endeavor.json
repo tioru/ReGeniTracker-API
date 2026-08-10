@@ -1,0 +1,82 @@
+{
+  "pageTitle": "The Endeavor",
+  "name": "La détermination",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Kaveh. Avec la croûte dorée des biscuits arrangée pour ressembler au Palais d'Alcazarzaray, le plat s'élève majestueusement dans un pâle étang de sauce au yaourt. Bien que son créateur ait déployé un effort monumental lors de sa création, il semble avoir oublié le fait que les biscuits devront être cassés pendant la dégustation...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 15 % des PV max, puis encore 550 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Glabrous Beans",
+      "quantity": 2
+    },
+    {
+      "item": "Milk",
+      "quantity": 2
+    },
+    {
+      "item": "Mint",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Kaveh",
+  "baseDish": "Fatteh",
+  "assets": {
+    "NORMAL": "/assets/foods/the_endeavor/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

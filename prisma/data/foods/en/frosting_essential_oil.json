@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Frosting Essential Oil",
+  "name": "Frosting Essential Oil",
+  "rarity": 3,
+  "category": "ESSENTIAL_OILS",
+  "effectType": "Cryo DMG Up",
+  "descriptions": {
+    "normal": "Grants greater affinity for Cryo, boosting Cryo DMG. It has a chilling sensation when applied, and helps one to better channel Cryo energy. It also helps to keep you cool-headed and calm.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Cryo DMG by 25% for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Cryo DMG Bonus",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Available by default",
+  "recipeSubtype": "CRAFTING",
+  "ingredients": [
+    {
+      "item": "Lizard Tail",
+      "quantity": 1
+    },
+    {
+      "item": "Mist Flower Corolla",
+      "quantity": 1
+    },
+    {
+      "item": "Mora",
+      "quantity": 100
+    }
+  ],
+  "sources": [
+    "Alchemy"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/frosting_essential_oil/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

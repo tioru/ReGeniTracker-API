@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Calla Lily Seafood Soup",
+  "name": "Calla Lily Seafood Soup",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "A balanced combination of seafood. The delicacy of crab and mint make for a clear soup, and the calla lily brings it a refreshing taste.",
+    "suspicious": "A balanced combination of seafood. The bitterness of the calla lily, the astringency of the mint, the fishiness of the crab... Getting all the negatives together like this takes skill.",
+    "delicious": "A balanced combination of seafood. The crab, mint and calla lily come together perfectly to dance on your tongue. It reminds you of playing barefoot by the lake in summer."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' DEF by 200 for 300s.",
+    "suspicious": "Increases all party members' DEF by 165 for 300s.",
+    "delicious": "Increases all party members' DEF by 235 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 165,
+        "normal": 200,
+        "delicious": 235
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Sold by Sara",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Crab",
+      "quantity": 4
+    },
+    {
+      "item": "Calla Lily",
+      "quantity": 1
+    },
+    {
+      "item": "Mint",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Tartaglia",
+    "name": "A Prize Catch"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/calla_lily_seafood_soup/normal.png",
+    "DELICIOUS": "/assets/foods/calla_lily_seafood_soup/delicious.png",
+    "SUSPICIOUS": "/assets/foods/calla_lily_seafood_soup/suspicious.png"
+  }
+}

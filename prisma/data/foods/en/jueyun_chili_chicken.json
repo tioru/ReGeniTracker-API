@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Jueyun Chili Chicken",
+  "name": "Jueyun Chili Chicken",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Chicken in a dressing, served cold. The way this dish has been prepared captures the succulence of the chicken perfectly. Beneath the glowing gold skin, the meat has a mildly hot flavor.",
+    "suspicious": "Chicken in a dressing, served cold. The chicken probably isn't properly marinated, so it's only salty on the outside but bland on the inside. The taste reminds you of water-poached chicken breasts.",
+    "delicious": "Chicken in a dressing, served cold. The chicken is extremely tender, juicy, and sweet. The delicious taste transports you to the realm of dreams."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' CRIT Rate by 9% for 300s.",
+    "suspicious": "Increases all party members' CRIT Rate by 6% for 300s.",
+    "delicious": "Increases all party members' CRIT Rate by 12% for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 9,
+        "delicious": 12
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Sold by Chef Mao",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 2
+    },
+    {
+      "item": "Jueyun Chili",
+      "quantity": 1
+    },
+    {
+      "item": "Pepper",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Verr Goldet",
+      "currency": "Mora",
+      "cost": 1925,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Xinyan",
+    "name": "Rockin' Riffin' Chicken!"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/jueyun_chili_chicken/normal.png",
+    "DELICIOUS": "/assets/foods/jueyun_chili_chicken/delicious.png",
+    "SUSPICIOUS": "/assets/foods/jueyun_chili_chicken/suspicious.png"
+  }
+}

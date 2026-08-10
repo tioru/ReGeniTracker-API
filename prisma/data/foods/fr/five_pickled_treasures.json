@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Five Pickled Treasures",
+  "name": "Cinq trésors marinés",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Des légumes en saumure. La fermentation donne aux aliments un goût plus prononcé et leur permet de se conserver plus longtemps. Au départ, il n'existait que quatre trésors, mais pour attirer la chance, les quatre légumes ont été mélangés lors du dressage et un autre trésor y a été ajouté, ce qui explique le nom de « Cinq trésors marinés ».",
+    "suspicious": "Des légumes en saumure. Enfin, c'est ce que c'est censé être, mais leur odeur ne devrait pas être aussi aigre. Si la texture tendre est acceptable, le goût trop acide est loin d'ouvrir l'appétit... Peut-être que ce plat pourrait plaire à un Brutoshaman ?",
+    "delicious": "Des légumes en saumure. Le processus de fermentation ajoute davantage de saveur au goût naturel des ingrédients. Ce plat est rafraîchissant en bouche et se marie à merveille avec du riz et du vin. Un vrai trésor !"
+  },
+  "effectTexts": {
+    "normal": "Restaure 85 pts d'endurance.",
+    "suspicious": "Restaure 70 pts d'endurance.",
+    "delicious": "Restaure 100 pts d'endurance."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 70,
+        "normal": 85,
+        "delicious": 100
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Vendu par Shimura Kanbei",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Radish",
+      "quantity": 2
+    },
+    {
+      "item": "Carrot",
+      "quantity": 2
+    },
+    {
+      "item": "Lavender Melon",
+      "quantity": 2
+    },
+    {
+      "item": "Seagrass",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/five_pickled_treasures/normal.png",
+    "DELICIOUS": "/assets/foods/five_pickled_treasures/delicious.png",
+    "SUSPICIOUS": "/assets/foods/five_pickled_treasures/suspicious.png"
+  }
+}

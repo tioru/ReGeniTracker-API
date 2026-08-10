@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Die Heilige Sinfonie",
+  "name": "Die Heilige Sinfonie",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "The exquisite presentation doth seem to communicate some incomprehensible enigma. When partaking, if one were to gaze upon Fischl, one might see her expectant gaze peek though the gaps of her fingers, which she is using to cover half her face... Is this also part of the mystery?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Physical DMG by 55% for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Physical DMG Bonus",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Ham",
+      "quantity": 1
+    },
+    {
+      "item": "Bacon",
+      "quantity": 1
+    },
+    {
+      "item": "Sausage",
+      "quantity": 1
+    },
+    {
+      "item": "Mint",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Fischl",
+  "baseDish": "Cold Cut Platter",
+  "assets": {
+    "NORMAL": "/assets/foods/die_heilige_sinfonie/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "pageTitle": "The Endeavor",
+  "name": "The Endeavor",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "The golden crust of the biscuit is arranged to resemble the Palace of Alcazarzaray, and the meal rises like a tower from a pure-white pond of yogurt sauce. Though the creator of the dish has placed a monumental amount of effort into its creation, he seems to have missed the fact that all the biscuits must be broken during the process of consumption.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Glabrous Beans",
+      "quantity": 2
+    },
+    {
+      "item": "Milk",
+      "quantity": 2
+    },
+    {
+      "item": "Mint",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Kaveh",
+  "baseDish": "Fatteh",
+  "assets": {
+    "NORMAL": "/assets/foods/the_endeavor/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

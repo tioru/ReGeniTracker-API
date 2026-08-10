@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Qingce Household Dish",
+  "name": "Plat maison de Qingce",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Yaoyao. Ne possédant pas le dressage élégant d'un grand restaurant, son apparence peut sembler assez sommaire, mais une seule bouchée est suffisante pour laisser un délicieux sentiment d'intimité et de chaleur qui reste inscrit dans la mémoire. Ce goût voyage du bout de la langue à la tête. Le secret de cette saveur se trouve sans doute dans l'affection de Yaoyao.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 274 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mushroom",
+      "quantity": 3
+    },
+    {
+      "item": "Lotus Head",
+      "quantity": 2
+    },
+    {
+      "item": "Jueyun Chili",
+      "quantity": 1
+    },
+    {
+      "item": "Cabbage",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Yaoyao",
+  "baseDish": "Délices rustiques de Qingce",
+  "assets": {
+    "NORMAL": "/assets/foods/qingce_household_dish/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

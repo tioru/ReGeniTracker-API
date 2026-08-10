@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Chocolate",
+  "name": "Chocolats assortis",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "De petites collations sphériques. On dit que l'endroit où le cacahuatl est cultivé a une influence décisive sur la saveur de son chocolat. Cela lui confère un goût tout à fait unique, qu'il s'agisse de nuances terreuses rugueuses ou de notes fruitées sucrées... On ne sait jamais sur quelle saveur on va tomber avec la prochaine bouchée.",
+    "suspicious": "De petites collations sphériques. La saveur unique du cacahuatl a été détruite par un déluge de sucre, ruinant les couches de saveurs et ne laissant rien d'autre qu'une douceur écœurante et collante... Vous pouvez toujours vous brosser les dents après, bien sûr, mais qu'en est-il des chocolats restants ?",
+    "delicious": "De petites collations sphériques. La texture est douce comme du duvet de cygne et, à mesure qu'il fond progressivement, le cacahuatl fait ressortir une certaine chaleur qui se mélange petit à petit avec une douceur légère, dont la touche finale magique laisse des sourires sur tous les visages."
+  },
+  "effectTexts": {
+    "normal": "Restaure 85 pts d'endurance.",
+    "suspicious": "Restaure 70 pts d'endurance.",
+    "delicious": "Restaure 100 pts d'endurance."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 70,
+        "normal": 85,
+        "delicious": 100
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Chocolats assortis",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Cacahuatl",
+      "quantity": 4
+    },
+    {
+      "item": "Milk",
+      "quantity": 3
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Xilonen",
+    "name": "Bonbons au lait goût fruit"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/chocolate/normal.png",
+    "DELICIOUS": "/assets/foods/chocolate/delicious.png",
+    "SUSPICIOUS": "/assets/foods/chocolate/suspicious.png"
+  }
+}

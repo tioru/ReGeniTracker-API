@@ -30,6 +30,13 @@ model Food {
   region        String?
   recipeSubtype FoodRecipeType?
 
+  // Chemins d'assets résolus par scripts/link-food-images.ts depuis
+  // assets/foods/<slug(pageTitle)>/{tier}.<ext> (cf. scripts/scrape-food-images.ts) :
+  // null quand le palier n'existe pas pour ce plat (qualité fixe, cf. NOTE plus haut).
+  imgNormal     String?
+  imgDelicious  String?
+  imgSuspicious String?
+
   character   Character? @relation(fields: [characterId], references: [id])
   characterId Int?
 

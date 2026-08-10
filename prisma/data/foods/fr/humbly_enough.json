@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Humbly Enough",
+  "name": "Humilité satisfaisante",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Un plat de tofu épicé. Le tofu est sauté avec de la sauce jusqu'à ce qu'il soit doré et prêt à servir. Malgré ses ingrédients ordinaires, le plat obtenu est particulièrement riche et aromatique et se marie parfaitement avec du riz. Certains le qualifient d'ailleurs affectueusement de « cuisine de grand-mère ».",
+    "suspicious": "Un plat de tofu épicé. Le tofu est beaucoup trop épicé pour être dégusté tel quel, mais si vous prenez le temps de rincer l'excédent d'assaisonnement, votre bouche pourra peut-être le supporter...",
+    "delicious": "Un plat de tofu épicé. Le tofu frit est élégamment accompagné d'une riche sauce de soja. Une seule bouchée et les épices et un soupçon d'arôme de viande bénissent délicieusement votre bouche de leur parfum doux et persistant."
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 28 % des PV max, puis 620 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 26 % des PV max, puis 450 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 30 % des PV max, puis 790 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 26,
+        "normal": 28,
+        "delicious": 30
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": 450,
+        "normal": 620,
+        "delicious": 790
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Événement Hôte d'exception",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Tofu",
+      "quantity": 2
+    },
+    {
+      "item": "Jueyun Chili",
+      "quantity": 2
+    },
+    {
+      "item": "Flour",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/humbly_enough/normal.png",
+    "DELICIOUS": "/assets/foods/humbly_enough/delicious.png",
+    "SUSPICIOUS": "/assets/foods/humbly_enough/suspicious.png"
+  }
+}

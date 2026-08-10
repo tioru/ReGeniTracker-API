@@ -1,0 +1,66 @@
+{
+  "pageTitle": "\"Warmth\"",
+  "name": "\"Warmth\"",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "The intricate appearance of this dish belies the simple ingredients used. But take a sip, and Thoma's sunshine smile comes straight to mind. Perhaps this is his special ability: warming the hearts of others using the simplest of ingredients.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 14% of Max HP to the selected character and regenerates 350 HP every 5s for 30s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Tofu",
+      "quantity": 1
+    },
+    {
+      "item": "Seagrass",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Thoma",
+  "baseDish": "Miso Soup",
+  "assets": {
+    "NORMAL": "/assets/foods/warmth/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

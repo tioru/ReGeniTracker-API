@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Summer Festival Fish",
+  "name": "Poissons du festival d'été",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Yoimiya. Vous admirez les feux d'artifice, les mains pleines des sucreries que Yoimiya vous a données, son rire insouciant et enfantin résonnant à vos oreilles tandis que la pyrotechnie éclate dans le ciel au-dessus de vous... Au milieu de cette symphonie unique de sons, on dirait que le poisson rouge dans vos mains peut se mettre à nager à tout moment...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 40 % des PV max du personnage sélectionné et 2 350 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Milk",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 2
+    },
+    {
+      "item": "Sakura Bloom",
+      "quantity": 2
+    },
+    {
+      "item": "Rice",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Yoimiya",
+  "baseDish": "Dango trois couleurs",
+  "assets": {
+    "NORMAL": "/assets/foods/summer_festival_fish/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

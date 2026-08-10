@@ -1,0 +1,64 @@
+{
+  "pageTitle": "Insulation Potion",
+  "name": "Potion de résistance Électro",
+  "rarity": 3,
+  "category": "POTIONS",
+  "effectType": "Electro RES Up",
+  "descriptions": {
+    "normal": "Une potion mystérieuse qui permet de résister aux chocs électriques et augmente la RÉS Électro. Cette potion laisse une sensation de picotement lorsqu'on l'ingère ; son principe repose sur l'utilisation d'électrons chargés négativement.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente la RÉS Électro de 25 % pour toute l'équipe pendant 300 s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Elemental RES",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Electro RES",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Available by default",
+  "recipeSubtype": "CRAFTING",
+  "ingredients": [
+    {
+      "item": "Butterfly Wings",
+      "quantity": 1
+    },
+    {
+      "item": "Electro Crystal",
+      "quantity": 1
+    },
+    {
+      "item": "Mora",
+      "quantity": 100
+    }
+  ],
+  "sources": [
+    "Alchemy"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/insulation_potion/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

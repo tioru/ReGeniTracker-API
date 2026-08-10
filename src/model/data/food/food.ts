@@ -4,6 +4,7 @@ import { FoodEffectVariableData } from "./foodEffectVariable";
 import { FoodIngredientData } from "./foodIngredient";
 import { FoodSellerData } from "./foodSeller";
 import { FoodSpecialDishData } from "./foodSpecialDish";
+import { FoodAssetsData } from "./foodAssets";
 
 export interface FoodData {
     pageTitle: string;
@@ -23,4 +24,5 @@ export interface FoodData {
     specialDish: FoodSpecialDishData | null;
     character: string | null;
     baseDish: string | null;
+    assets: FoodAssetsData;
 }

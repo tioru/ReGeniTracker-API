@@ -1,0 +1,62 @@
+{
+  "pageTitle": "BBQ Beef Heart Skewers",
+  "name": "Cœurs de bœuf en brochette",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Une brochette de barbecue que l'on trouve couramment dans les étals de rue. Les cœurs de bœuf marinés sont enfilés sur des brochettes avant d'être grillés au charbon de bois, ce qui leur confère un arôme alléchant et un lustre captivant. Ajoutez-y quelques pommes de terre et granifruits grillés et vous obtenez l'ensemble doré éternel de la scène culinaire des rues natlanoises !",
+    "suspicious": "Une brochette de barbecue que l'on trouve couramment dans les étals de rue. Le feu est devenu incontrôlable, brûlant l'extérieur en un instant, tandis qu'à l'intérieur, la viande est encore à moitié crue. Vous pouvez peut-être enlever les morceaux carbonisés pour remettre le reste sur le feu et essayer de la griller à nouveau, mais utilisez une flamme plus petite cette fois...",
+    "delicious": "Une brochette de barbecue que l'on trouve couramment dans les étals de rue. Les flammes crépitantes et les sons grésillants annoncent un festin imminent, attisant votre envie de cette première bouchée. La fermeté des gros morceaux de viande et l'abondance des jus savoureux qui jaillissent à chaque bouchée se complètent parfaitement dans une expérience culinaire que l'on pourrait appeler un délice."
+  },
+  "effectTexts": {
+    "normal": "Restaure 50 pts d'endurance.",
+    "suspicious": "Restaure 40 pts d'endurance.",
+    "delicious": "Restaure 60 pts d'endurance."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 40,
+        "normal": 50,
+        "delicious": 60
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Vendu par Cipac",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Potato",
+      "quantity": 2
+    },
+    {
+      "item": "Grainfruit",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/bbq_beef_heart_skewers/normal.png",
+    "DELICIOUS": "/assets/foods/bbq_beef_heart_skewers/delicious.png",
+    "SUSPICIOUS": "/assets/foods/bbq_beef_heart_skewers/suspicious.png"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Conch Madeleine",
+  "name": "Madeleine de conque",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Un dessert qui a de l'allure. On pense qu'il a été créé par un cuisinier travaillant pour une famille riche qui, afin de remonter le moral de son jeune maître, aurait confectionné un gâteau en forme de conque de béryl. Bien que l'authenticité de cette histoire ne puisse plus être vérifiée, le goût délicieux du gâteau ne fait aucun doute.",
+    "suspicious": "Un dessert qui a de l'allure. Il faudrait une imagination débridée pour associer ce gâteau à l'apparence étrange à une conque de béryl... Son goût passable, cependant, le sauve de la poubelle.",
+    "delicious": "Un dessert qui a de l'allure. Il y a un dicton à Fontaine : « Il n'existe que deux types de personnes : ceux qui aiment les madeleines de conque et ceux qui n'en ont jamais essayé. »... Tout le monde tomberait amoureux de ce gâteau en un instant !"
+  },
+  "effectTexts": {
+    "normal": "Augmente le bonus de soins de tous les personnages de l'équipe de 17 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente le bonus de soins de tous les personnages de l'équipe de 15 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente le bonus de soins de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Healing Improvement",
+      "values": {
+        "suspicious": 15,
+        "normal": 17,
+        "delicious": 20
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Vendu par Arouet",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Butter",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Arouet",
+      "currency": "Mora",
+      "cost": 6075,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Lynette",
+    "name": "Sirotage tranquille"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/conch_madeleine/normal.png",
+    "DELICIOUS": "/assets/foods/conch_madeleine/delicious.png",
+    "SUSPICIOUS": "/assets/foods/conch_madeleine/suspicious.png"
+  }
+}

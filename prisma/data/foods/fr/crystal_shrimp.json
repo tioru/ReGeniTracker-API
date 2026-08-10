@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Crystal Shrimp",
+  "name": "Crevettes cristallines",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "L'une des spécialités de Liyue. La couleur rose de la farce constituée à partir de chair de crevette fraîche est visible à travers la peau translucide. Prenez votre temps pour tout savourer.",
+    "suspicious": "L'une des spécialités de Liyue. La peau de ces raviolis est aussi fade que collante et la farce se révèle être sèche. Un vrai supplice pour vos papilles...",
+    "delicious": "L'une des spécialités de Liyue. La peau est aussi transparente que du cristal et vous seriez pardonné pour avoir pensé que la crevette était encore vivante au vu de sa fraîcheur. Le seul reproche qu'on pourrait faire à ces raviolis est qu'il n'y en a pas assez..."
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 20 % des PV max, puis 390 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 18 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 22 % des PV max, puis 470 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 18,
+        "normal": 20,
+        "delicious": 22
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 300,
+        "normal": 390,
+        "delicious": 470
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Chef Mao",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Rice",
+      "quantity": 3
+    },
+    {
+      "item": "Shrimp Meat",
+      "quantity": 3
+    },
+    {
+      "item": "Carrot",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Xingqiu",
+    "name": "Délices des rivages"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/crystal_shrimp/normal.png",
+    "DELICIOUS": "/assets/foods/crystal_shrimp/delicious.png",
+    "SUSPICIOUS": "/assets/foods/crystal_shrimp/suspicious.png"
+  }
+}

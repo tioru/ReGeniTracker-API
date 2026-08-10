@@ -1,0 +1,74 @@
+{
+  "pageTitle": "\"Pick What You Like!\"",
+  "name": "« À vous de choisir ! »",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "La spécialité de Navia. « Allez, à vous de choisir ! » Au son de cette voix familière et joyeuse, votre regard se pose sur l'étagère à desserts à deux étages, et sur les macarons soigneusement disposés dessus avec leurs différents motifs. Tout simplement merveilleux... Quelle tête ferait Navia si vous décidiez de tous les prendre ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 25 % lors de l'escalade et du sprint pendant 1 500 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Climbing Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bird Egg",
+      "quantity": 3
+    },
+    {
+      "item": "Sugar",
+      "quantity": 2
+    },
+    {
+      "item": "Almond",
+      "quantity": 2
+    },
+    {
+      "item": "Bulle Fruit",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Navia",
+  "baseDish": "Macarons arc-en-ciel",
+  "assets": {
+    "NORMAL": "/assets/foods/pick_what_you_like/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

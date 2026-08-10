@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Wanmin Restaurant's Boiled Fish",
+  "name": "Poisson bouilli du Restaurant Wanmin",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Xiangling. Le plat signature du Restaurant Wanmin revisité à la sauce Xiangling. Ceux qui auront la chance de le goûter apprécieront l'abondance de saveurs qui caractérise la haute gastronomie liyuéenne.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 34 % des PV max, puis 980 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Jueyun Chili",
+      "quantity": 1
+    },
+    {
+      "item": "Salt",
+      "quantity": 1
+    },
+    {
+      "item": "Violetgrass",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Xiangling",
+  "baseDish": "Marmite de perche à dos noir",
+  "assets": {
+    "NORMAL": "/assets/foods/wanmin_restaurant_s_boiled_fish/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

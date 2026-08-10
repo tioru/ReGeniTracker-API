@@ -1,0 +1,65 @@
+{
+  "pageTitle": "Qingxin Flower Cake",
+  "name": "Qingxin Flower Cake",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "A cake made from flowers. Prepared with Qingxin petals still glistening with their morning dew, the filling is wrapped in many layers consisting of two different types of pastry — a flaky crust and a buttery dough. Baked to perfection, Qingxin Flower Cakes are best enjoyed fresh from the oven.",
+    "suspicious": "A cake made from flowers. The dry, hard texture and bland flavor bear no resemblance to the delicate nature that flowers should possess. One can't help but wonder if the filling is actually made of scraps of paper...",
+    "delicious": "A cake made from flowers. With a gentle bite, the blossoms swaying in the mountains seem to bloom in your mouth, and the fragrance of flowers feels as if it seeps into your very soul. As you reluctantly finish the last bite, a faint, lingering scent remains on your fingers..."
+  },
+  "effectTexts": {
+    "normal": "Restores 50 Stamina.",
+    "suspicious": "Restores 40 Stamina.",
+    "delicious": "Restores 60 Stamina."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 40,
+        "normal": 50,
+        "delicious": 60
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Sold by Lianfang",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Qingxin",
+      "quantity": 1
+    },
+    {
+      "item": "Flour",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Lan Yan",
+    "name": "Jade-Cut Flowers"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/qingxin_flower_cake/normal.png",
+    "DELICIOUS": "/assets/foods/qingxin_flower_cake/delicious.png",
+    "SUSPICIOUS": "/assets/foods/qingxin_flower_cake/suspicious.png"
+  }
+}

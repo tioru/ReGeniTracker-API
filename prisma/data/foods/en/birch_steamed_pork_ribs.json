@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Birch-Steamed Pork Ribs",
+  "name": "Birch-Steamed Pork Ribs",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "A dish made with branches and ribs. The ribs are marinated, air-dried, then placed on birch branches and steamed. When served, the meat is fall-apart tender, with a distinctive woody aroma. It is one of Nod-Krai's traditional festive dishes.",
+    "suspicious": "A dish made with branches and ribs. You casually take a piece, only to find it deep reddish-brown from drying, with lines across its surface like the rings of an old tree. Add in that coarse texture, and... Hold on. Surely this is not a branch mistaken for a rib?",
+    "delicious": "A dish made with branches and ribs. With the lightest nudge of a fork, the meat falls from the bone like snow sliding from a branch. As it touches your tongue, its deep, savory richness mingles with the faint woodland aroma of steamed birch, finally melting into a warmth that leaves you wholly content."
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s.",
+    "suspicious": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s.",
+    "delicious": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Gliding Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Sold by Katya",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Midsommar Berry",
+      "quantity": 2
+    },
+    {
+      "item": "Lakkaberry",
+      "quantity": 2
+    },
+    {
+      "item": "Potato",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/birch_steamed_pork_ribs/normal.png",
+    "DELICIOUS": "/assets/foods/birch_steamed_pork_ribs/delicious.png",
+    "SUSPICIOUS": "/assets/foods/birch_steamed_pork_ribs/suspicious.png"
+  }
+}

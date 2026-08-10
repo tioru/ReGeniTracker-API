@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Miso Soup",
+  "name": "Soupe miso",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Une soupe sans prétention. Les ingrédients utilisés ici sont très courants et préparés simplement, mais ce petit bol de soupe vous redonne suffisamment de force pour que vous puissiez continuer votre voyage, fut-il à pied.",
+    "suspicious": "Une soupe sans prétention. Les herbes marines passées, les petits morceaux de tofu écrasés et la saveur trop forte du bouillon risquent sérieusement d'entamer votre humeur si vous consommez un bol de cette soupe tôt le matin.",
+    "delicious": "Une soupe sans prétention. Cette soupe parfumée dégage une douce odeur de levain. Il en suffit d'une cuillerée avec du riz et votre repas est complet."
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 9 % des PV max, puis 260 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 8 % des PV max, puis 210 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 10 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 8,
+        "normal": 9,
+        "delicious": 10
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 210,
+        "normal": 260,
+        "delicious": 300
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Vendu par Shimura Kanbei",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Tofu",
+      "quantity": 1
+    },
+    {
+      "item": "Seagrass",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Thoma",
+    "name": "« Chaleur »"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/miso_soup/normal.png",
+    "DELICIOUS": "/assets/foods/miso_soup/delicious.png",
+    "SUSPICIOUS": "/assets/foods/miso_soup/suspicious.png"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Bulle Souffle",
+  "name": "Soufflé bullé",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Un tout petit gâteau niché dans la peau d'un fruit bullé. Recette : versez des blancs d'œufs battus dans la peau d'un fruit bullé préalablement évidé et enfournez le tout jusqu'à ce que le soufflé soit bien gonflé. Le mot « bullé » ne fait pas partie du nom simplement parce que le fruit éponyme figure parmi les ingrédients, mais aussi parce que le produit fini permet à la langue de se délecter d'une douceur spongieuse semblable à une bulle.",
+    "suspicious": "Un tout petit gâteau niché dans la peau d'un fruit bullé. N'ayant pas pu résister à l'envie de jeter un coup d'œil pendant la cuisson, vous n'avez finalement que vu le soufflé s'effondrer rapidement... Il semble que la curiosité est non seulement un vilain défaut, mais qu'elle ruine aussi les gâteaux...",
+    "delicious": "Un tout petit gâteau niché dans la peau d'un fruit bullé. Tout commence par une glorieuse et moelleuse sensation en bouche. Viennent ensuite le riche arôme d'œuf et la saveur fruitée et fraîche qui imprègnent votre bouche, comme si vous aviez plongé la tête la première dans des nuages moelleux alors que l'air même chante avec une douceur subtile."
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 28 % des PV max, puis 620 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 26 % des PV max, puis 450 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 30 % des PV max, puis 790 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 26,
+        "normal": 28,
+        "delicious": 30
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 450,
+        "normal": 620,
+        "delicious": 790
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Vendu par Arouet",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bulle Fruit",
+      "quantity": 3
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 2
+    },
+    {
+      "item": "Milk",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Sigewinne",
+    "name": "Repas équilibré"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/bulle_souffle/normal.png",
+    "DELICIOUS": "/assets/foods/bulle_souffle/delicious.png",
+    "SUSPICIOUS": "/assets/foods/bulle_souffle/suspicious.png"
+  }
+}

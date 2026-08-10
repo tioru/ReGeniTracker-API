@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Nod-Krai Hot Dog",
+  "name": "Nod-Krai Hot Dog",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Classic convenience food. Put a sausage in some bread, sprinkle on some fried onions, a generous squirt of sauce... and there you go, a delicious, filling Nod-Krai Hot Dog!",
+    "suspicious": "Classic convenience food. The sausage is too dry, while the bread is too soft, giving the unpleasant impression of chewing on a sponge... If not for hunger, it would be hard not to throw it away...",
+    "delicious": "Classic convenience food. Freshly cooked sausage paired with freshly baked bread. With each bite, the irresistible aroma of fat fills the palate. It's gone in a few quick bites, leaving you craving another."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' CRIT Rate by 9% for 300s.",
+    "suspicious": "Increases all party members' CRIT Rate by 6% for 300s.",
+    "delicious": "Increases all party members' CRIT Rate by 12% for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 9,
+        "delicious": 12
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Sold by Katya",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 1
+    },
+    {
+      "item": "Onion",
+      "quantity": 1
+    },
+    {
+      "item": "Tomato",
+      "quantity": 1
+    },
+    {
+      "item": "Sausage",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Katya",
+      "currency": "Mora",
+      "cost": 2000,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/nod_krai_hot_dog/normal.png",
+    "DELICIOUS": "/assets/foods/nod_krai_hot_dog/delicious.png",
+    "SUSPICIOUS": "/assets/foods/nod_krai_hot_dog/suspicious.png"
+  }
+}

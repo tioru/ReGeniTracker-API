@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Cheesy Mushroom Skewer",
+  "name": "Brochette de champignons au fromage",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Une brochette recouverte de fromage. Les chapeaux des champibaies rouges ont été retirés, remplis d'une généreuse pincée de fromage, puis grillés à la perfection. L'arôme riche porte une légère note fruitée qui se déguste de préférence chaude.",
+    "suspicious": "Une brochette recouverte de fromage. L'odeur âcre qui s'en dégage indique que les champibaies rouges sont devenues des champibaies cramées. Son aspect est tellement affreux qu'on en vient à se demander si ces champignons inoffensifs ont été transformés en champignons vénéneux...",
+    "delicious": "Une brochette recouverte de fromage. Les champignons sont presque aussi épais qu'un steak. Leur odeur n'est pas comme celle de la viande, mais ils ont meilleur goût. Une seule bouchée suffit pour imprégner votre bouche des saveurs parfumées qu'ils renferment quand leur juteuse joie déborde en abondance."
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 9 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 12 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 9,
+        "delicious": 12
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Chronique tribale Repos au verger",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Red Berryshroom",
+      "quantity": 2
+    },
+    {
+      "item": "Grainfruit",
+      "quantity": 1
+    },
+    {
+      "item": "Cheese",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Varesa",
+    "name": "Champi-mont (Portion individuelle)"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/cheesy_mushroom_skewer/normal.png",
+    "DELICIOUS": "/assets/foods/cheesy_mushroom_skewer/delicious.png",
+    "SUSPICIOUS": "/assets/foods/cheesy_mushroom_skewer/suspicious.png"
+  }
+}

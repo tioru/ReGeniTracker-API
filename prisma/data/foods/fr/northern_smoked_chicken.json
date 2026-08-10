@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Northern Smoked Chicken",
+  "name": "Poulet fumé nordique",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "De la viande de poulet fumée accompagnée de légumes. Un plat classique que l'on sert aux invités chez toutes les familles dans le nord de Teyvat.",
+    "suspicious": "De la viande de poulet fumée accompagnée de légumes. Il aurait mieux fallu goûter ce plat avant de le servir... Peut-être qu'il n'est pas trop tard pour en refaire ?",
+    "delicious": "De la viande de poulet fumée accompagnée de légumes. Un plat digne d'être servi à un roi."
+  },
+  "effectTexts": {
+    "normal": "Restaure 50 pts d'endurance.",
+    "suspicious": "Restaure 40 pts d'endurance.",
+    "delicious": "Restaure 60 pts d'endurance."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 40,
+        "normal": 50,
+        "delicious": 60
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Vendu par Coffre",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Smoked Fowl",
+      "quantity": 1
+    },
+    {
+      "item": "Onion",
+      "quantity": 1
+    },
+    {
+      "item": "Cabbage",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Brook",
+      "currency": "Mora",
+      "cost": 1850,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Varka",
+    "name": "Hearty Indulgence"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/northern_smoked_chicken/normal.png",
+    "DELICIOUS": "/assets/foods/northern_smoked_chicken/delicious.png",
+    "SUSPICIOUS": "/assets/foods/northern_smoked_chicken/suspicious.png"
+  }
+}

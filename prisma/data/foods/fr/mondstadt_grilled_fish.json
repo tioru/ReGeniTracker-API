@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Mondstadt Grilled Fish",
+  "name": "Poisson grillé mondstadtois",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Poisson grillé à feu doux. Sa chair est ferme grâce à une cuisson maîtrisée, et le poivre fait ressortir toute sa saveur.",
+    "suspicious": "Poisson grillé à feu doux. En raison de sa trop longue cuisson, il est dur à mâcher et laisse un désagréable goût de brûlé en bouche.",
+    "delicious": "Poisson grillé à feu doux. Une délicate couche de graisse sépare la peau croustillante de la chair tendre. Une bouchée suffira à libérer son goût incroyable."
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 100 PV.",
+    "suspicious": "Réanime un personnage et restaure 50 PV.",
+    "delicious": "Réanime un personnage et restaure 150 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 50,
+        "normal": 100,
+        "delicious": 150
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Disponible dès le début du jeu",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 1
+    },
+    {
+      "item": "Pepper",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Diona",
+    "name": "Ceci n'est pas un apéritif"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/mondstadt_grilled_fish/normal.png",
+    "DELICIOUS": "/assets/foods/mondstadt_grilled_fish/delicious.png",
+    "SUSPICIOUS": "/assets/foods/mondstadt_grilled_fish/suspicious.png"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "pageTitle": "Tatacos",
+  "name": "Tacoloco",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Des tacos fins fourrés. La préparation du tacoloco est un processus en trois parties : vous faites d'abord cuire les tacos, vous ajoutez ensuite les légumes et les crevettes grillées, puis vous versez finalement de la sauce sur le dessus. À Natlan, il est difficile de dire ce qui est le plus courant : le phlogistique ou les tacolocos.",
+    "suspicious": "Des tacos fins fourrés. La coque ressemble à un tissu fin, mais est en réalité aussi froide et dure que du fer. La garniture n'est pas mauvaise, par contre. En mettant la coque de côté, ça pourrait faire de bonnes crevettes grillées...",
+    "delicious": "Des tacos fins fourrés. Lorsque votre langue touche la coque toute chaude et sa riche garniture, un parfum agréable jaillit de l'intérieur, vous rappelant un dicton natlanois : « La vie peut décevoir, mais le tacoloco, jamais ! »"
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 1 200 PV.",
+    "suspicious": "Réanime un personnage et restaure 900 PV.",
+    "delicious": "Réanime un personnage et restaure 1 500 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Dialogue avec Chanca",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Grainfruit",
+      "quantity": 3
+    },
+    {
+      "item": "Shrimp Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Cheese",
+      "quantity": 2
+    },
+    {
+      "item": "Onion",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Chanca",
+      "currency": "Mora",
+      "cost": 6300,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Citlali",
+    "name": "Art secret"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/tatacos/normal.png",
+    "DELICIOUS": "/assets/foods/tatacos/delicious.png",
+    "SUSPICIOUS": "/assets/foods/tatacos/suspicious.png"
+  }
+}

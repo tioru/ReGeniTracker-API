@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Gentle Sea Breeze",
+  "name": "Brise marine",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "Une boisson rafraîchissante. Son dégradé qui passe du bleu vif au blanc évoque les vagues déferlantes caressées par la brise marine. En déguster une gorgée pendant vos vacances vous comblera de bonheur.",
+    "suspicious": "Une boisson rafraîchissante. Une vague de salé vous submerge, sans la moindre trace de sucré dans le verre. S'agit-il simplement d'une saumure bleutée ?",
+    "delicious": "Une boisson rafraîchissante. Les bulles légères et délicates dansent sur le bout de la langue. La douceur du jus de fruits et la saveur salée du soda se marient en parfaite harmonie, comme si vous naviguiez au rythme de la brise. Les acclamations et les rires de la Station balnéaire emplissent l'air..."
+  },
+  "effectTexts": {
+    "normal": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 20 % lors de l'escalade et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 15 % lors de l'escalade et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 25 % lors de l'escalade et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Climbing Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Hayaq",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Quenepa Berry",
+      "quantity": 2
+    },
+    {
+      "item": "Mint",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/gentle_sea_breeze/normal.png",
+    "DELICIOUS": "/assets/foods/gentle_sea_breeze/delicious.png",
+    "SUSPICIOUS": "/assets/foods/gentle_sea_breeze/suspicious.png"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pageTitle": "Sugar Sculpture: Kuuhenki",
+  "name": "Sculpture en sucre : Kuuhenki",
+  "rarity": 2,
+  "category": "OTHER_DISHES",
+  "effectType": "Special Effect",
+  "descriptions": {
+    "normal": "Une sculpture en sucre représentant une mystérieuse créature. Sa forme éthérée est celle d'une kuuhenki qui dérive doucement au clair de lune.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "C'est joli et ça a bon goût, mais ça n'a pas vraiment d'effet.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [],
+  "region": "Nod-Krai",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [
+    "Hunajatta"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/sugar_sculpture_kuuhenki/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

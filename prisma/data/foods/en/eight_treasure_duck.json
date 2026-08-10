@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Eight-Treasure Duck",
+  "name": "Eight-Treasure Duck",
+  "rarity": 4,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "A dish that needs true skill to make. Eight kinds of meat and vegetables, known as the eight treasures, are stuffed into a deboned duck. This is then molded into the shape of a gourd, to represent good fortune and auspiciousness. Exquisite ingredients, superb cutting skills, and phenomenal timing are all needed, that the finished dish might be worthy of its place as the final course at any banquet.",
+    "suspicious": "A dish that needs true skills to make. Your eyes ache by the time you finish removing all the bones. It seems this dish has proved a test not only for your knife skills but also for your physical endurance and patience. Shame, then, that the duck, so carefully arranged, practically blew apart inside the pan... Forget about trying this again. Just close your eyes and take it easy for a bit.",
+    "delicious": "A dish that needs true skill to make. The plump and juicy lucky duck is irresistible as soon as it's out of the pot. Add fragrant gravy and a touch of rosy gloss, and this can be said to be the perfect combination of color, flavor, and shape, every bite a veritable flood of flavor with an enduring aftertaste."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Shield Strength by 30% and DEF by 200 for 300s.",
+    "suspicious": "Increases all party members' Shield Strength by 25% and DEF by 165 for 300s.",
+    "delicious": "Increases all party members' Shield Strength by 35% and DEF by 235 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 25,
+        "normal": 30,
+        "delicious": 35
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": 165,
+        "normal": 200,
+        "delicious": 235
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Paper Shadows A-Foraging",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 4
+    },
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Matsutake",
+      "quantity": 2
+    },
+    {
+      "item": "Ham",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/eight_treasure_duck/normal.png",
+    "DELICIOUS": "/assets/foods/eight_treasure_duck/delicious.png",
+    "SUSPICIOUS": "/assets/foods/eight_treasure_duck/suspicious.png"
+  }
+}

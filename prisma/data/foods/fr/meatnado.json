@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Meatnado",
+  "name": "Viande-tourbillon",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Adventure Restore",
+  "descriptions": {
+    "normal": "Un plat de viande très populaire. Le bacon et les autres garnitures sont placés sur de fines tranches de viande, qui sont ensuite enroulées et poêlées jusqu'à devenir dorées, puis mijotées dans un bouillon. Lorsque le plat fini est ouvert au couteau, les tranches de viande restent étroitement enroulées autour de la garniture, comme un tourbillon.",
+    "suspicious": "Un plat de viande très populaire. Au début, tout se passait plutôt bien, mais au moment final et crucial, le bacon roulé s'est soudainement effondré, donnant à la viande et aux plats d'accompagnement l'apparence des séquelles d'une violente tempête...",
+    "delicious": "Un plat de viande très populaire. Le parfum riche de la viande vous envahit, corps et âme, comblant ce que votre imagination voit pour une viande généreuse. Il n'est donc pas étonnant que ce plat trouve souvent sa place lors de tout rassemblement joyeux."
+  },
+  "effectTexts": {
+    "normal": "Restaure 20 pts d'endurance lorsqu'un personnage de l'équipe a éliminé un ennemi, cet effet pouvant être déclenché une fois toutes les 3 s et durant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Restaure 15 pts d'endurance lorsqu'un personnage de l'équipe a éliminé un ennemi, cet effet pouvant être déclenché une fois toutes les 3 s et durant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Restaure 25 pts d'endurance lorsqu'un personnage de l'équipe a éliminé un ennemi, cet effet pouvant être déclenché une fois toutes les 3 s et durant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Vendu par Sara",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Bacon",
+      "quantity": 2
+    },
+    {
+      "item": "Potato",
+      "quantity": 1
+    },
+    {
+      "item": "Onion",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/meatnado/normal.png",
+    "DELICIOUS": "/assets/foods/meatnado/delicious.png",
+    "SUSPICIOUS": "/assets/foods/meatnado/suspicious.png"
+  }
+}

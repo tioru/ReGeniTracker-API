@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Mixed Yakisoba",
+  "name": "Yakisoba",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Un plat typique d'Inazuma fait maison. Il suffit de faire sauter les nouilles et l'accompagnement uniformément avant de servir, ce qui en fait un plat rassasiant facile à préparer. Il n'est donc pas étonnant que ce plat soit si recherché chez les Inazumiens.",
+    "suspicious": "Un plat typique d'Inazuma fait maison. Les nouilles et l'accompagnement ont été brûlés, témoignant de la tragédie qui a dû se produire en cuisine.",
+    "delicious": "Un plat typique d'Inazuma fait maison. Les nouilles légèrement roulées et l'accompagnement ordinaire ont subi une technique d'assaisonnement particulière. Les nouilles sont lisses, souples, riches... La magie à l'œuvre dans l'assiette est telle qu'on ne se lasse pas de la nettoyer."
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 300 PV.",
+    "suspicious": "Réanime un personnage et restaure 400 PV.",
+    "delicious": "Réanime un personnage et restaure 550 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 250,
+        "normal": 400,
+        "delicious": 550
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Vendu par Shimura Kanbei",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Cabbage",
+      "quantity": 2
+    },
+    {
+      "item": "Raw Meat",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Arataki Itto",
+    "name": "Voie du puissant"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/mixed_yakisoba/normal.png",
+    "DELICIOUS": "/assets/foods/mixed_yakisoba/delicious.png",
+    "SUSPICIOUS": "/assets/foods/mixed_yakisoba/suspicious.png"
+  }
+}

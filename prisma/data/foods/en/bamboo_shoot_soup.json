@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Bamboo Shoot Soup",
+  "name": "Bamboo Shoot Soup",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "A soup dish that's been stewed for a good long while. The meat and ham have been diced into small pieces, and the soup has been kept on low heat till it turned milky white. The process has brought out the distinct flavors of both kinds of meat, making for an especially tasty soup.",
+    "suspicious": "A soup dish that's been stewed for a good long while. The inexpert heat control has caused the fresh meat to be a bit tough, and the salty ham has covered the expected taste. The bamboo shoots, which have absorbed the flavors of both meats, are probably the only acceptable part of this dish.",
+    "delicious": "A soup dish that's been stewed for a good long while. One whiff is enough to whet one's appetite greatly, and the concentrated flavors fill your body with every spoonful of soup. It is almost like spreading a pair of wings and walking on clouds."
+  },
+  "effectTexts": {
+    "normal": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+    "suspicious": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+    "delicious": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 26,
+        "normal": 28,
+        "delicious": 30
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 450,
+        "normal": 620,
+        "delicious": 790
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Sold by Verr Goldet",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Ham",
+      "quantity": 2
+    },
+    {
+      "item": "Bamboo Shoot",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Zhongli",
+    "name": "Slow-Cooked Bamboo Shoot Soup"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/bamboo_shoot_soup/normal.png",
+    "DELICIOUS": "/assets/foods/bamboo_shoot_soup/delicious.png",
+    "SUSPICIOUS": "/assets/foods/bamboo_shoot_soup/suspicious.png"
+  }
+}

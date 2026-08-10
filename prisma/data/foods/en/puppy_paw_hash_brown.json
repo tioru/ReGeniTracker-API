@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Puppy-Paw Hash Brown",
+  "name": "Puppy-Paw Hash Brown",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Carefully shaped to resemble a wolf's paw. You can really feel the effort he has put into trying human cooking.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 40% of Max HP and an additional 2,350 HP to the selected character.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Pinecone",
+      "quantity": 2
+    },
+    {
+      "item": "Potato",
+      "quantity": 1
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Razor",
+  "baseDish": "Mondstadt Hash Brown",
+  "assets": {
+    "NORMAL": "/assets/foods/puppy_paw_hash_brown/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

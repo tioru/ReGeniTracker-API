@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Boredom-Busting Bubblegum",
+  "name": "Boredom-Busting Bubblegum",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Seeing that you were bored, he handed you a few candies and grandly claimed they'd help pass the time. After only a few chews, he suddenly pulled out a mirror and flashed it in front of you, looking entirely too pleased with himself. Oh no — it was a setup all along! Your tongue was already dyed a bright blue-green... So by \"help pass the time,\" he meant his own?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 20% of Max HP, then restores an additional 1,500 HP.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mint",
+      "quantity": 2
+    },
+    {
+      "item": "Valberry",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Lohen",
+  "baseDish": "Mint Bubblegum",
+  "assets": {
+    "NORMAL": "/assets/foods/boredom_busting_bubblegum/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Sabz Meat Stew",
+  "name": "Ragoût de Sabz",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Un ragoût à la saveur particulière. Différents légumes verts sont mélangés et hachés ensemble, puis cuits avec des morceaux de viande dans une marmite. On y ajoute du citron, ce qui lui donne un goût chaud et légèrement amer. Les habitants de Sumeru apprécient généralement ce plat que l'on verse sur du riz.",
+    "suspicious": "Un ragoût à la saveur particulière. Son acidité agresse les narines, et rien que de le sentir fait penser à des choses fort peu agréables. Si on le laisse reposer un peu plus de temps, des champignons pourraient même pousser dessus...",
+    "delicious": "Un ragoût à la saveur particulière. Les ingrédients parfumés qu'il comporte se complètent parfaitement. De gros morceaux de viande fraîche sont cuits à l'étouffée jusqu'à ce qu'ils deviennent tendres et prennent un enrobage vert foncé, comme s'ils invitaient tous ceux qui les goûtent à une promenade tranquille dans la forêt."
+  },
+  "effectTexts": {
+    "normal": "Restaure 32 % des PV max du personnage sélectionné et 1 250 PV supplémentaires.",
+    "suspicious": "Restaure 30 % des PV max du personnage sélectionné et 600 PV supplémentaires.",
+    "delicious": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 30,
+        "normal": 32,
+        "delicious": 34
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 600,
+        "normal": 1250,
+        "delicious": 1900
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Vendu par Lambad",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 2
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    },
+    {
+      "item": "Spice",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Alhaitham",
+    "name": "Circonstance idéale"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/sabz_meat_stew/normal.png",
+    "DELICIOUS": "/assets/foods/sabz_meat_stew/delicious.png",
+    "SUSPICIOUS": "/assets/foods/sabz_meat_stew/suspicious.png"
+  }
+}

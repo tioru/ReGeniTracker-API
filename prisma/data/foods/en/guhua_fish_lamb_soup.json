@@ -1,0 +1,50 @@
+{
+  "pageTitle": "Guhua Fish & Lamb Soup",
+  "name": "Guhua Fish & Lamb Soup",
+  "rarity": 2,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "An ancient dish, long recorded throughout history. Fresh fish and mutton are stewed together, with the tenderness of the fish and the juiciness of the lamb blending transforming the dish into a true delicacy.",
+    "suspicious": "An ancient dish, long recorded throughout history. Alas, there's no time to worry about such matters, as the gamey mutton and rank fish vie for dominance within your mouth. Your poor taste buds sure could use an eternity of rinsing after that.",
+    "delicious": "An ancient dish, long recorded throughout history. As the milky white soup slides down the throat, you can only wish you had two stomachs. Eat a pot of this in winter, and you'll wish you were still eating it the following spring."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' DEF by 107 for 300s.",
+    "suspicious": "Increases all party members' DEF by 88 for 300s.",
+    "delicious": "Increases all party members' DEF by 126 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 88,
+        "normal": 107,
+        "delicious": 126
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Complete Shrouded Vale, Hidden Hero",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Fish",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/guhua_fish_lamb_soup/normal.png",
+    "DELICIOUS": "/assets/foods/guhua_fish_lamb_soup/delicious.png",
+    "SUSPICIOUS": "/assets/foods/guhua_fish_lamb_soup/suspicious.png"
+  }
+}

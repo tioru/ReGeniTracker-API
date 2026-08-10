@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Tasses Ragout",
+  "name": "Ragoût de Tasses",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Un ragoût de légumes. C'est un plat improvisé créé par les paysans fontainois pour célébrer les récoltes de légumes. Il n'y a pas de recette stricte quant à la quantité d'ingrédients ou la méthode de cuisson. Qu'il soit sauté ou cuit au four, ce plat ne manque jamais d'être un délice de simplicité.",
+    "suspicious": "Un ragoût de légumes. Ne vous inquiétez pas trop s'il vous manque un ingrédient ou si vous avez accidentellement ajouté quelque chose en plus : personne ne le remarquera, car la quantité excessive d'assaisonnements a déjà recouvert la saveur originale des légumes...",
+    "delicious": "Un ragoût de légumes. Il est dit que ce plat a jadis ému un fin gourmet de Fontaine après lui avoir rappelé son enfance. L'histoire peut être exagérée à certains égards... La qualité du plat reflétée dans cette anecdote, quant à elle, ne l'est pas..."
+  },
+  "effectTexts": {
+    "normal": "Restaure 22 % des PV max du personnage sélectionné et 1 200 PV supplémentaires.",
+    "suspicious": "Restaure 20 % des PV max du personnage sélectionné et 900 PV supplémentaires.",
+    "delicious": "Restaure 24 % des PV max du personnage sélectionné et 1 500 PV supplémentaires."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 20,
+        "normal": 22,
+        "delicious": 24
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Quête Sur un champ d'herbes fleuries",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Tomato",
+      "quantity": 3
+    },
+    {
+      "item": "Onion",
+      "quantity": 3
+    },
+    {
+      "item": "Salt",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/tasses_ragout/normal.png",
+    "DELICIOUS": "/assets/foods/tasses_ragout/delicious.png",
+    "SUSPICIOUS": "/assets/foods/tasses_ragout/suspicious.png"
+  }
+}

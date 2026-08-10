@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Halvamazd",
+  "name": "Halvamazd",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "It is said that \"mazd\" means \"wisdom\" in Sumeru, and such delicate \"wisdom\" is simply irresistible. There is a gentle smile in Nahida's eyes: \"The sea anemone has helped the little fish and witnessed its growth, so it's only natural for the little fish to give something back.\"",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' DEF by 282 for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "DEF Up",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Ajilenakh Nut",
+      "quantity": 4
+    },
+    {
+      "item": "Almond",
+      "quantity": 2
+    },
+    {
+      "item": "Butter",
+      "quantity": 2
+    },
+    {
+      "item": "Sumeru Rose",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Nahida",
+  "baseDish": "Candied Ajilenakh Nut",
+  "assets": {
+    "NORMAL": "/assets/foods/halvamazd/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

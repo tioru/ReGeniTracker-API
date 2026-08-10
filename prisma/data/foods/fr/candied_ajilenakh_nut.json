@@ -1,0 +1,76 @@
+{
+  "pageTitle": "Candied Ajilenakh Nut",
+  "name": "Nougat d'ajilenakh",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Un dessert riche. Tout d'abord, du sirop est bouilli jusqu'à ce qu'il soit clair, puis il est mélangé avec de la garniture et de la pâte de sésame de Sumeru. Enfin, l'ensemble est uniformément réparti avant d'être versé dans un moule pour le solidifier dans cette forme croquante. On dit que les terres froides de Snezhnaya abritent un plat similaire, avec quelques différences de saveur. Bien sûr, les deux nations croient fermement que leur recette est la version supérieure de tout Teyvat.",
+    "suspicious": "Un dessert riche. Les noix dures sont presque comme des pierres cachées dans les sables, attendant de frapper l'inattentionné. Le sucre apporte du bonheur, c'est un fait, mais la sensation de morceaux durs coincés entre les dents le gâche plutôt de moitié...",
+    "delicious": "Un dessert riche. Le sirop lui-même fond au contact du palais, révélant les noix comme des joyaux enveloppés de velours, menant couche après couche vers une joie immense. Une simple bouchée et c'est comme si vous étiez immergé(immergée) dans un bain de douceur soyeuse. Eh bien, vous devez vraiment, et je dis bien vraiment, en faire davantage la prochaine fois !"
+  },
+  "effectTexts": {
+    "normal": "Augmente la DÉF de tous les personnages de l'équipe de 200 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente la DÉF de tous les personnages de l'équipe de 165 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente la DÉF de tous les personnages de l'équipe de 235 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF Up",
+      "values": {
+        "suspicious": 165,
+        "normal": 200,
+        "delicious": 235
+      }
+    }
+  ],
+  "region": "Sumeru",
+  "recipeHint": "Vendu par Enteka",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Ajilenakh Nut",
+      "quantity": 4
+    },
+    {
+      "item": "Almond",
+      "quantity": 2
+    },
+    {
+      "item": "Butter",
+      "quantity": 2
+    },
+    {
+      "item": "Sumeru Rose",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Azalai",
+      "currency": "Mora",
+      "cost": 6600,
+      "stock": 2,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Enteka",
+      "currency": "Mora",
+      "cost": 6600,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Nahida",
+    "name": "Halvamazd"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/candied_ajilenakh_nut/normal.png",
+    "DELICIOUS": "/assets/foods/candied_ajilenakh_nut/delicious.png",
+    "SUSPICIOUS": "/assets/foods/candied_ajilenakh_nut/suspicious.png"
+  }
+}

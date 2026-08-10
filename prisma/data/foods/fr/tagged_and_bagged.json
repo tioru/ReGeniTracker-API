@@ -1,0 +1,58 @@
+{
+  "pageTitle": "\"Tagged and Bagged\"",
+  "name": "« Gibier en sac »",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Clorinde. Il s'agit de volaille fraîchement attrapée et légèrement rôtie. Votre appréhension initiale disparaît rapidement après avoir expérimenté par vous-même sa texture tendre et son arrière-goût rafraîchissant. Quoi qu'il en soit, Clorinde a déjà pris une bouchée. Votre système digestif est sûrement aussi robuste que celui d'une chasseuse chevronnée... Non ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 80 pts d'endurance.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bulle Fruit",
+      "quantity": 2
+    },
+    {
+      "item": "Fowl",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Clorinde",
+  "baseDish": "Magret de canard en sauce bullée",
+  "assets": {
+    "NORMAL": "/assets/foods/tagged_and_bagged/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

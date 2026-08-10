@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Bamboo Shoot Soup",
+  "name": "Soupe de porc aux pousses de bambou",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Un bouillon mijoté pendant longtemps. Les pousses de bambou fraîches, la viande et le jambon sont coupés en petits morceaux et cuits jusqu'à ce que la soupe devienne blanche. Les deux textures de viande apportent des saveurs différentes, et sont accompagnées d'un bouillon des plus savoureux.",
+    "suspicious": "Une soupe longuement mijotée. Un mauvais contrôle de la chaleur a rendu la viande fraîche un peu difficile à mâcher, et le jambon salé masque le goût attendu. Les pousses de bambou, qui ont absorbé les saveurs des deux viandes, sont probablement la seule partie acceptable de ce plat.",
+    "delicious": "Une soupe longuement mijotée. Une bouffée suffit à ouvrir l'appétit, et dès la première cuillerée, ses saveurs intenses vous emportent. C'est comme si vos ailes se déployaient et vous emportaient dans les airs."
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 28 % des PV max, puis 620 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 26 % des PV max, puis 450 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 30 % des PV max, puis 790 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 26,
+        "normal": 28,
+        "delicious": 30
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 450,
+        "normal": 620,
+        "delicious": 790
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Verr Goldet",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Ham",
+      "quantity": 2
+    },
+    {
+      "item": "Bamboo Shoot",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Zhongli",
+    "name": "Soupe mijotée au bambou"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/bamboo_shoot_soup/normal.png",
+    "DELICIOUS": "/assets/foods/bamboo_shoot_soup/delicious.png",
+    "SUSPICIOUS": "/assets/foods/bamboo_shoot_soup/suspicious.png"
+  }
+}

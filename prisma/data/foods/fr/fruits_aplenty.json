@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Fruits Aplenty",
+  "name": "Fruitée chargée",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Un jus de fruits frais et riche. Élaboré à partir d'ingrédients variés, ses propriétés revigorantes et saines en ont fait un favori parmi les membres tribaux obsédés par le fitness du Collectif de l'abondance, qui recommandent souvent d'en boire deux grands verres par jour.",
+    "suspicious": "Un jus de fruits frais et riche. Le cacahuatl aigre, le granifruit fibreux, les baies de quenettier amères et les œufs gluants... Tous se battent pour l'attention de vos papilles gustatives, mais vous n'avez pas la patience de les laisser terminer. Vous avez désespérément besoin de boire de l'eau pour les faire passer.",
+    "delicious": "Un jus de fruits frais et riche. Ce parfum d'un autre monde donne l'impression d'être immergé dans un verger, sous la douce lumière de l'aube. Ses fruits gorgés de rosée fondent sur la langue, cela vous remonte le moral et vous remplit d'énergie... Hum, pourquoi vos jambes vous mènent-elles vers la zone d'entraînement ?"
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 28 % des PV max, puis 620 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 26 % des PV max, puis 450 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 30 % des PV max, puis 790 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 26,
+        "normal": 28,
+        "delicious": 30
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 450,
+        "normal": 620,
+        "delicious": 790
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Machine à « Fruitée chargée », après la première utilisation",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Cacahuatl",
+      "quantity": 3
+    },
+    {
+      "item": "Grainfruit",
+      "quantity": 2
+    },
+    {
+      "item": "Quenepa Berry",
+      "quantity": 1
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/fruits_aplenty/normal.png",
+    "DELICIOUS": "/assets/foods/fruits_aplenty/delicious.png",
+    "SUSPICIOUS": "/assets/foods/fruits_aplenty/suspicious.png"
+  }
+}

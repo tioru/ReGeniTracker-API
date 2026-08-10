@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Heartstring Noodles",
+  "name": "Nouilles du cœur",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Shenhe. Cela vient peut-être de son désir de recréer une saveur qui n'existe que dans ses souvenirs, mais Shenhe a consacré beaucoup de temps et d'efforts à la préparation de ce plat. Les nouilles onctueuses et la soupe délicieuse font certes grande impression, mais l'aspect le plus marquant de ce plat est le dévouement et le cœur mis à l'ouvrage...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 274 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 4
+    },
+    {
+      "item": "Fowl",
+      "quantity": 2
+    },
+    {
+      "item": "Mushroom",
+      "quantity": 2
+    },
+    {
+      "item": "Ham",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Shenhe",
+  "baseDish": "Barbe à dragon",
+  "assets": {
+    "NORMAL": "/assets/foods/heartstring_noodles/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

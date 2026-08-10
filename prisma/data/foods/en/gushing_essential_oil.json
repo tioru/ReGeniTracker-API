@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Gushing Essential Oil",
+  "name": "Gushing Essential Oil",
+  "rarity": 3,
+  "category": "ESSENTIAL_OILS",
+  "effectType": "Anemo DMG Up",
+  "descriptions": {
+    "normal": "Grants greater affinity for Anemo, boosting Anemo DMG. It has a fragrant smell. It is said that using it during your travels will make you walk as if you're riding on the wind.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Anemo DMG by 25% for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Anemo DMG Bonus",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Available by default",
+  "recipeSubtype": "CRAFTING",
+  "ingredients": [
+    {
+      "item": "Lizard Tail",
+      "quantity": 1
+    },
+    {
+      "item": "Dandelion Seed",
+      "quantity": 1
+    },
+    {
+      "item": "Mora",
+      "quantity": 100
+    }
+  ],
+  "sources": [
+    "Alchemy"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/gushing_essential_oil/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

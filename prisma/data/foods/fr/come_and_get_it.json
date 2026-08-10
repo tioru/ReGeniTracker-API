@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Come and Get It",
+  "name": "Ramen Alézi",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Un plat aux ingrédients variés. Malgré sa préparation rudimentaire, il fait fureur pendant les festivals à Liyue et a été nommé ainsi, car la personne qui le commande pour toute la table dit toujours : « Allez-y, servez-vous. »",
+    "suspicious": "Un plat aux ingrédients variés qui ont grossièrement été cuits dans un wok. Le mélange des saveurs est désagréable, et... hum ? Est-ce du sable que j'ai dans la bouche ?",
+    "delicious": "Un plat aux ingrédients variés. La viande et les légumes se complètent parfaitement aussi bien dans l'assiette qu'en bouche. La moitié du plat est déjà partie avant qu'on ait pu inviter qui que ce soit à la table."
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 15 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 10,
+        "normal": 15,
+        "delicious": 20
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Chef Mao",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 3
+    },
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Rice",
+      "quantity": 3
+    },
+    {
+      "item": "Tofu",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Qiqi",
+    "name": "Sansespoir"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/come_and_get_it/normal.png",
+    "DELICIOUS": "/assets/foods/come_and_get_it/delicious.png",
+    "SUSPICIOUS": "/assets/foods/come_and_get_it/suspicious.png"
+  }
+}

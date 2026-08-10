@@ -1,0 +1,80 @@
+{
+  "pageTitle": "Steak",
+  "name": "Steak",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "A grilled steak. High heat has locked the juices in, giving one high expectations for when the meat is cut open.",
+    "suspicious": "A grilled steak. Its color is a little bleak, almost as if it feels sorry for itself for being a sorry excuse for a steak.",
+    "delicious": "A grilled steak. Juicy, flavorsome, fragrant steak. One bite and you feel yourself come alive."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 100 HP.",
+    "suspicious": "Revives a character and restores 50 HP.",
+    "delicious": "Revives a character and restores 150 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 50,
+        "normal": 100,
+        "delicious": 150
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Available by default",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Brook",
+      "currency": "Mora",
+      "cost": 530,
+      "stock": 10,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Harris",
+      "currency": "Mora",
+      "cost": 790,
+      "stock": 10,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Amber",
+    "name": "Outrider's Champion Steak!"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/steak/normal.png",
+    "DELICIOUS": "/assets/foods/steak/delicious.png",
+    "SUSPICIOUS": "/assets/foods/steak/suspicious.png"
+  }
+}

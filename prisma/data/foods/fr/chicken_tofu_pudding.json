@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Chicken Tofu Pudding",
+  "name": "Poulet façon tofu",
+  "rarity": 4,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Un plat exécuté avec soin et attention. Coupez les blancs en fine lamelle, mélangez, ajoutez du bouillon de viandes diverses, couvrez et laissez cuire à feu doux. Le résultat est une délicatesse d'une pure couleur blanche, dont la consistance rappelle en bouche celle du tofu. La viande est présentée à la façon d'un légume, un véritable art culinaire en soi à Liyue. « Savoir déguiser le poulet », comme on dit là-bas.",
+    "suspicious": "Un plat exécuté avec soin et attention. La soupe de base est bien trop salée et la sensation en bouche du pudding de tofu de poulet n'est pas suffisamment fine. Ce manque de technique amène le plat à avoir l'aspect mais pas la consistance de la recette originale.",
+    "delicious": "Un plat exécuté avec soin et attention. Constitué d'un seul bloc qui ne se sépare pas, on dirait vraiment un pudding de tofu. Sa tendresse exquise se dévoile sur la langue au moment où vous détachez un morceau avec la cuillère en porcelaine et que vous le déposez dans votre bouche, avec une fraîcheur si intense qu'elle pourrait emporter votre esprit en dehors de son enveloppe corporelle. Ce n'est pas seulement un plat qui se trouve devant vous, c'est un doux frisson, une brise fraîche, une caresse divine."
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 272 pts et leur taux CRIT de 8 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente l'ATQ de tous les personnages de l'équipe de 224 pts et leur taux CRIT de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente l'ATQ de tous les personnages de l'équipe de 320 pts et leur taux CRIT de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 224,
+        "normal": 272,
+        "delicious": 320
+      }
+    },
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 8,
+        "delicious": 10
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Quête Un plat au-delà de l'entendement mortel",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 4
+    },
+    {
+      "item": "Ham",
+      "quantity": 2
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/chicken_tofu_pudding/normal.png",
+    "DELICIOUS": "/assets/foods/chicken_tofu_pudding/delicious.png",
+    "SUSPICIOUS": "/assets/foods/chicken_tofu_pudding/suspicious.png"
+  }
+}

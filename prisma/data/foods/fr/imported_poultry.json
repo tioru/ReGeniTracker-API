@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Imported Poultry",
+  "name": "Volaille importée",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Un plat de viande arrosé de sauce. La volaille est marinée avant d'être recouverte de pâte et frite, et une sauce épaisse est versée dessus comme touche finale. Les légumes d'accompagnement sont des produits locaux, mais les méthodes de marinade et la sauce sont toutes importées, d'où le nom de « volaille importée ».",
+    "suspicious": "Un plat de viande arrosé de sauce. L'apparence semble aller, mais lorsque vous y goûtez, vous vous rendez compte à quel point c'est un échec. L'excès d'huile de la volaille n'a pas été filtré, ce qui la rend difficile à avaler, même accompagnée des légumes.",
+    "delicious": "Un plat de viande arrosé de sauce. Ayant été préalablement marinée, la volaille s'est enrichie de plusieurs couches de saveurs, gardant son onctuosité dans une parfaite modération. Mordez sur cette peau de farine croustillante et craquante, et sentez le jus riche de la volaille se précipiter dans votre bouche et aiguiser votre appétit."
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 15 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente le taux CRIT de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 10,
+        "normal": 15,
+        "delicious": 20
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Quête Contempler trois mille lieues au loin",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 4
+    },
+    {
+      "item": "Lavender Melon",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/imported_poultry/normal.png",
+    "DELICIOUS": "/assets/foods/imported_poultry/delicious.png",
+    "SUSPICIOUS": "/assets/foods/imported_poultry/suspicious.png"
+  }
+}

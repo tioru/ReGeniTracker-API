@@ -1,0 +1,43 @@
+{
+  "pageTitle": "Autumn Frost",
+  "name": "Gel automnal",
+  "rarity": 4,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Une création originale d'Escoffier. Des couches de crème de marrons dessinent les contours du Mont Automnéqui. Une couche de sucre glace tombe sur le sommet, comme le givre qui s'accroche aux montagnes. L'arôme puissant des marrons se mêle parfaitement à la crème légère et aérienne. Vous ne pouvez vous empêcher de vous lécher les babines. C'est digne d'une réalisation culinaire d'Escoffier.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 42 % des PV max du personnage sélectionné et 2 850 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [
+    "Constant Off-the-Cuff Cookery"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/autumn_frost/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

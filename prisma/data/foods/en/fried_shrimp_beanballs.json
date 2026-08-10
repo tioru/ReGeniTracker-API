@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Fried Shrimp Beanballs",
+  "name": "Fried Shrimp Beanballs",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "A deep-fried snack. First, deep fry the bean flour balls, then stuff them with fillings, fried shrimp, and sauce. Though they may be slightly complicated to prepare, the fact that they're so delicious makes it all worth it.",
+    "suspicious": "A deep-fried snack. The oil in the pot has mercilessly stripped the shrimp of moisture, resulting in a shriveled texture that could have been shown magnanimity if not for the jarring, hard mouthfeel. It's a good thing there are only two products... That makes dealing with them easy enough.",
+    "delicious": "A deep-fried snack. After experiencing the culinary magic known as deep-frying, this has gained a golden luster, with a crisp shell that tightly locks the juices in along with a crackling, satisfying toothsomeness. Alas, for there only being two per dish! Alas, for you desire more!"
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Shield Strength by 25% for 300s.",
+    "suspicious": "Increases all party members' Shield Strength by 20% for 300s.",
+    "delicious": "Increases all party members' Shield Strength by 30% for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "Shield Strength",
+      "values": {
+        "suspicious": 20,
+        "normal": 25,
+        "delicious": 30
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Exquisite Chest",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Glabrous Beans",
+      "quantity": 4
+    },
+    {
+      "item": "Flour",
+      "quantity": 4
+    },
+    {
+      "item": "Shrimp Meat",
+      "quantity": 3
+    },
+    {
+      "item": "Onion",
+      "quantity": 3
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Mualani",
+    "name": "Pass the Luck"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/fried_shrimp_beanballs/normal.png",
+    "DELICIOUS": "/assets/foods/fried_shrimp_beanballs/delicious.png",
+    "SUSPICIOUS": "/assets/foods/fried_shrimp_beanballs/suspicious.png"
+  }
+}

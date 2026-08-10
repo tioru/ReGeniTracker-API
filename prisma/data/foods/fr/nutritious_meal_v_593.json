@@ -1,0 +1,82 @@
+{
+  "pageTitle": "Nutritious Meal (V.593)",
+  "name": "Repas nº593",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Sucrose. Ce plat ressemble à un étrange produit alchimique au premier abord, mais la jeune fille vous assure qu'il est plein de bons nutriments après avoir conduit de nombreuses expériences. Un mélange de crème et de légumes lui donne une couleur verte... Quels légumes ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 20 % des PV max, puis 1 500 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Crab Roe",
+      "quantity": 1
+    },
+    {
+      "item": "Ham",
+      "quantity": 1
+    },
+    {
+      "item": "Cream",
+      "quantity": 1
+    },
+    {
+      "item": "Cabbage",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Sucrose",
+  "baseDish": "Gratin de crabe, jambon et légumes",
+  "assets": {
+    "NORMAL": "/assets/foods/nutritious_meal_v_593/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

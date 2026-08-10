@@ -1,0 +1,74 @@
+{
+  "pageTitle": "\"My Way\"",
+  "name": "« À ma façon »",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Yanfei. Du tofu aux œufs de crabe préparé avec une incroyable régularité dans la présentation. Les proportions et les saveurs suivent à la lettre les « lois du tofu aux œufs de crabe » citées dans la recette, sans la moindre omission.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 15 % des PV max, puis encore 550 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Tofu",
+      "quantity": 1
+    },
+    {
+      "item": "Crab Roe",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Yanfei",
+  "baseDish": "Crabe au tofu",
+  "assets": {
+    "NORMAL": "/assets/foods/my_way/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

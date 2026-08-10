@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Stuffed N' Mashed Potatoes",
+  "name": "Rondelles de patates farcies",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Un plat délicieusement coloré. Écrasez les pommes de terre jusqu'à ce qu'elles soient en bouillie, ajoutez diverses garnitures au milieu, puis arrosez le tout de sauce pour obtenir une dernière touche d'éclat... Le résultat final n'est pas bien différent d'un gâteau minutieusement préparé et constitue le plat préféré de nombreux habitants de Natlan.",
+    "suspicious": "Un plat délicieusement coloré. Les couleurs sont distinctes et la forme régulière, ce qui suscite une impatience qui est étouffée par la pomme de terre desséchée. S'agit vraiment de purée de pommes de terre et pas de jaunes d'œufs cuits à la vapeur ?",
+    "delicious": "Un plat délicieusement coloré. Les couleurs attrayantes et la texture douce et délicate contiennent des saveurs qui se chevauchent et qui se heurtent à vos papilles dans un feu d'artifice d'arômes. Un apéritif aussi parfait vous laisse dans une impatience inégalée pour le plat principal."
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 28 % des PV max, puis 620 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 26 % des PV max, puis 450 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 30 % des PV max, puis 790 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 26,
+        "normal": 28,
+        "delicious": 30
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 450,
+        "normal": 620,
+        "delicious": 790
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Natlan",
+  "recipeHint": "Coffre",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Potato",
+      "quantity": 4
+    },
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Fowl",
+      "quantity": 2
+    },
+    {
+      "item": "Onion",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/stuffed_n_mashed_potatoes/normal.png",
+    "DELICIOUS": "/assets/foods/stuffed_n_mashed_potatoes/delicious.png",
+    "SUSPICIOUS": "/assets/foods/stuffed_n_mashed_potatoes/suspicious.png"
+  }
+}

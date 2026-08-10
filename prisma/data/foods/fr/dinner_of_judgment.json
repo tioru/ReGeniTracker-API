@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Dinner of Judgment",
+  "name": "Dîner probatoire",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Rosalia. Les épines sombres rendent ce plat difficile à aborder. Après quelques efforts, vous arrivez à dégager la décoration et à votre surprise, la première bouchée de ce poulet tendre révèle une saveur incroyable. Rosalia semble satisfaite de votre réaction.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure 30 % des PV max du personnage sélectionné et 1 750 PV supplémentaires.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 2
+    },
+    {
+      "item": "Sweet Flower",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Rosalia",
+  "baseDish": "Poulet mariné aux fleurs sucrantes",
+  "assets": {
+    "NORMAL": "/assets/foods/dinner_of_judgment/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Vessie Chicken",
+  "name": "Vessie Chicken",
+  "rarity": 4,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "A famous Fontainian cuisine. \"Vessie\" means \"bladder\" in Fontaine. As the name suggests, the seasoned chicken meat is enclosed in a forest boar's bladder when being poached in a meat broth. The bladder will puff out during the process like a rotund Specter. People usually only eat the chicken meat inside.",
+    "suspicious": "A famous Fontainian cuisine. After a painstaking process of stuffing the chicken into the boar's bladder, you expectantly sample the dish that's finally ready... Ugh, what's the strange flavor? You begin to wonder if you're eating a boar or a chicken.",
+    "delicious": "A famous Fontainian cuisine. Delicious juice locked inside the meat gives off a rich and layered aroma. This dish is considered a highly sought-after cuisine by many gourmets. After wolfing down the whole plate, one can't help but lick their lips, savoring the lingering scent. This exquisite cuisine is no doubt the crown jewel of Fontaine's gastronomy."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Physical DMG by 35% and CRIT Rate by 8% for 300s.",
+    "suspicious": "Increases all party members' Physical DMG by 25% and CRIT Rate by 6% for 300s.",
+    "delicious": "Increases all party members' Physical DMG by 45% and CRIT Rate by 10% for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "Physical DMG Bonus",
+      "values": {
+        "suspicious": 25,
+        "normal": 35,
+        "delicious": 45
+      }
+    },
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 6,
+        "normal": 8,
+        "delicious": 10
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Reach Reputation Level 6 in Fontaine",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 4
+    },
+    {
+      "item": "Raw Meat",
+      "quantity": 4
+    },
+    {
+      "item": "Marcotte",
+      "quantity": 3
+    },
+    {
+      "item": "Fermented Juice",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/vessie_chicken/normal.png",
+    "DELICIOUS": "/assets/foods/vessie_chicken/delicious.png",
+    "SUSPICIOUS": "/assets/foods/vessie_chicken/suspicious.png"
+  }
+}

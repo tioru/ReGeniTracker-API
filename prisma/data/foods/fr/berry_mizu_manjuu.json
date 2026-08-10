@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Berry Mizu Manjuu",
+  "name": "Mizu manju aux baies",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Un encas clair comme du cristal. La peau transparente enveloppe la garniture jaune. Certains restaurateurs placent ces bouchées dans un petit bol en argile et les immergent avec de l'eau pour qu'elles gardent une température fraîche. Ce mets est aussi transparent que l'eau, mais ne se laisse pas emporter par elle... C'est ainsi que peut s'expliquer l'origine de son nom.",
+    "suspicious": "Un encas clair comme du cristal. Il ressemble à de l'eau, mais en a aussi le goût. Où vous êtes-vous trompé ?",
+    "delicious": "Un encas clair comme du cristal. Les boules régulières sont disposées sur l'assiette comme de l'eau condensée. La simple vue de ce mets suffit à donner du baume au cœur quand il fait chaud. Lorsque vous croquez dedans, le goût légèrement sucré qui s'en dégage fait s'évaporer toutes vos frustrations."
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 20 % des PV max, puis 390 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 18 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 22 % des PV max, puis 470 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 18,
+        "normal": 20,
+        "delicious": 22
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 300,
+        "normal": 390,
+        "delicious": 470
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Vendu par Kiminami Anna",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Rice",
+      "quantity": 2
+    },
+    {
+      "item": "Berry",
+      "quantity": 2
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/berry_mizu_manjuu/normal.png",
+    "DELICIOUS": "/assets/foods/berry_mizu_manjuu/delicious.png",
+    "SUSPICIOUS": "/assets/foods/berry_mizu_manjuu/suspicious.png"
+  }
+}

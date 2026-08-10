@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Gushing Essential Oil",
+  "name": "Huile essentielle Anémo",
+  "rarity": 3,
+  "category": "ESSENTIAL_OILS",
+  "effectType": "Anemo DMG Up",
+  "descriptions": {
+    "normal": "Un onguent qui a une forte affinité avec l'élément Anémo et peut augmenter les DGT infligés par l'élément Anémo. Elle dégage un parfum frais. On dit que le vent vous indique toujours la direction dans les plaines lors du voyage si vous appliquez ce médicament.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente les DGT Anémo de 25 % pour toute l'équipe pendant 300 s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Anemo DMG Bonus",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Available by default",
+  "recipeSubtype": "CRAFTING",
+  "ingredients": [
+    {
+      "item": "Lizard Tail",
+      "quantity": 1
+    },
+    {
+      "item": "Dandelion Seed",
+      "quantity": 1
+    },
+    {
+      "item": "Mora",
+      "quantity": 100
+    }
+  ],
+  "sources": [
+    "Alchemy"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/gushing_essential_oil/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

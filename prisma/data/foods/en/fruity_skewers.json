@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Fruity Skewers",
+  "name": "Fruity Skewers",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "A chewy skewer with a rich sweet aftertaste. Wait... Is this really the smell of fruit?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mushroom",
+      "quantity": 1
+    },
+    {
+      "item": "Fowl",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Kaeya",
+  "baseDish": "Chicken-Mushroom Skewer",
+  "assets": {
+    "NORMAL": "/assets/foods/fruity_skewers/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

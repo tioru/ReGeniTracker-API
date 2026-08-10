@@ -1,0 +1,84 @@
+{
+  "pageTitle": "Mora Meat",
+  "name": "Viande-mora",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Un plat de viande en croûte dont la généreuse garniture s'échappe lorsqu'on le coupe. Le goût graisseux de la viande a disparu grâce à une cuisson parfaite et la pâte feuilletée est croustillante à souhait. Le symbole du mora est généralement apposé sur chaque tranche pour porter chance à celui qui en mangera.",
+    "suspicious": "Un plat de viande en croûte dont la généreuse garniture s'échappe lorsqu'on le coupe. La pâte feuilletée est dure sous la dent et il faudra engloutir une quantité importante de gras avant de pouvoir savourer le goût de la viande.",
+    "delicious": "Un plat de viande en croûte. Tendre à souhait à l'intérieur et légèrement croustillante à l'extérieur, elle ne vous laissera pas . Même une pile de moras placée sous vos yeux ne vous empêchera pas de savourer ce plat."
+  },
+  "effectTexts": {
+    "normal": "Réanime un personnage et restaure 100 PV.",
+    "suspicious": "Réanime un personnage et restaure 50 PV.",
+    "delicious": "Réanime un personnage et restaure 150 PV."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 50,
+        "normal": 100,
+        "delicious": 150
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Coffre",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 1
+    },
+    {
+      "item": "Flour",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Mr. Zhu",
+      "currency": "Mora",
+      "cost": 430,
+      "stock": 10,
+      "restock": "DAILY"
+    },
+    {
+      "name": "Su Er'niang",
+      "currency": "Mora",
+      "cost": 430,
+      "stock": 10,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": {
+    "character": "Ningguang",
+    "name": "Viande-mora façon Caesor"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/mora_meat/normal.png",
+    "DELICIOUS": "/assets/foods/mora_meat/delicious.png",
+    "SUSPICIOUS": "/assets/foods/mora_meat/suspicious.png"
+  }
+}

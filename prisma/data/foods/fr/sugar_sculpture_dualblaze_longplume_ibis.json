@@ -1,0 +1,34 @@
+{
+  "pageTitle": "Sugar Sculpture: Dualblaze Longplume Ibis",
+  "name": "Sculpture en sucre : Ibis longplumé double-éclat",
+  "rarity": 2,
+  "category": "OTHER_DISHES",
+  "effectType": "Special Effect",
+  "descriptions": {
+    "normal": "Une sculpture en sucre représentant un animal. Avec les ailes déployées, il s'agit d'un ibis longplumé double-éclat planant dans le ciel.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "C'est joli et ça a bon goût, mais ça n'a pas vraiment d'effet.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [],
+  "region": "Nod-Krai",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [
+    "Hunajatta"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/sugar_sculpture_dualblaze_longplume_ibis/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Fruity Trio",
+  "name": "Trio fruité",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "Un dessert aux accents romantiques. Après avoir versé de la confiture et de la garniture à base de fruits bullés dans le fond des tartelettes, puis poché un peu de meringue sur le dessus avant de passer le tout au four, vous obtenez un plat qui offre trois arômes fruités en une seule bouchée. Un excellent choix de dessert après un bon repas !",
+    "suspicious": "Un dessert aux accents romantiques. La meringue a été cuite en une forme passable, après bien des tentatives infructueuses qui ont abouti à des grumeaux suspects et brûlés. Malheureusement, la cuisson a pris tellement de temps que les fruits bullés grimacent de frustration et n'ont plus de goût sucré.",
+    "delicious": "Un dessert aux accents romantiques. La tarte croustillante et feuilletée et la garniture aux fruits rafraîchissants fondent dans la bouche. La fusion harmonieuse des couleurs marron et blanc sur la meringue rappelle un nuage doré sous la chaleur du soleil. Une agréable surprise pour vos papilles !"
+  },
+  "effectTexts": {
+    "normal": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 20 % lors de l'escalade et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 15 % lors de l'escalade et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 25 % lors de l'escalade et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Climbing Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Réputation de Fontaine",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Jam",
+      "quantity": 1
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    },
+    {
+      "item": "Bulle Fruit",
+      "quantity": 1
+    },
+    {
+      "item": "Marcotte",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Sandrone",
+    "name": "Ensemble du goûteron"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/fruity_trio/normal.png",
+    "DELICIOUS": "/assets/foods/fruity_trio/delicious.png",
+    "SUSPICIOUS": "/assets/foods/fruity_trio/suspicious.png"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Mysterious Bolognese",
+  "name": "Pâtes à la bolognaise mystiques",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Lisa. Des pâtes nappées d'une sauce à la viande teintée d'une mystérieuse couleur. Tout le monde en raffole dès la première bouchée. Ce plat est-il enchanté ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 26 % des PV max, puis 570 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Flour",
+      "quantity": 2
+    },
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Tomato",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Lisa",
+  "baseDish": "Pâtes à la bolognaise enflammées",
+  "assets": {
+    "NORMAL": "/assets/foods/mysterious_bolognese/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

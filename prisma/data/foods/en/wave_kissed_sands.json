@@ -1,0 +1,59 @@
+{
+  "pageTitle": "Wave-Kissed Sands",
+  "name": "Wave-Kissed Sands",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "Escoffier's inspired creation. Flowing cream crashes onto the palate like surf on the crest of a breaking wave, revealing the silky, velvety broth beneath. The soft, rich texture of the soup is a testament to the chef's masterful arts — one imbued with a mystical warmth.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' sprinting and swimming Stamina consumption by 25% for 900 seconds.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Swimming Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [
+    "Constant Off-the-Cuff Cookery"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/wave_kissed_sands/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

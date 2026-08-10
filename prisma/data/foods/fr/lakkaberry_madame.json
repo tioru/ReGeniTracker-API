@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Lakkaberry Madame",
+  "name": "Poulet mariné aux lakkabaies",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Un plat de poulet haché. On dit qu'il a gagné en popularité à Nod-Krai, bien qu'il s'agisse d'une recette importée. Sa saveur aigre-douce est vraiment délicieuse. Une saveur différente, certes, mais à en juger par son nom... Serait-ce une variante du poulet mariné aux fleurs sucrantes ?",
+    "suspicious": "Un plat de poulet haché. L'acidité intense efface toute attente d'un repas agréable, faisant disparaître instantanément le sourire et plisser le visage d'inconfort... Ça ressemble plus à une farce qu'à un plat...",
+    "delicious": "Un plat de poulet haché. La sauce ambrée et éclatante enrobe uniformément chaque morceau de poulet, enveloppant la viande tendre et juteuse de sa saveur douce et sucrée. Quel que soit l'accompagnement, ce plat est un délice !"
+  },
+  "effectTexts": {
+    "normal": "Restaure 22 % des PV max du personnage sélectionné et 1 200 PV supplémentaires.",
+    "suspicious": "Restaure 20 % des PV max du personnage sélectionné et 900 PV supplémentaires.",
+    "delicious": "Restaure 24 % des PV max du personnage sélectionné et 1 500 PV supplémentaires."
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": 20,
+        "normal": 22,
+        "delicious": 24
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": 900,
+        "normal": 1200,
+        "delicious": 1500
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": "Vendu par Katya",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 2
+    },
+    {
+      "item": "Lakkaberry",
+      "quantity": 1
+    },
+    {
+      "item": "Smetana",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Katya",
+      "currency": "Mora",
+      "cost": 1425,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/lakkaberry_madame/normal.png",
+    "DELICIOUS": "/assets/foods/lakkaberry_madame/delicious.png",
+    "SUSPICIOUS": "/assets/foods/lakkaberry_madame/suspicious.png"
+  }
+}

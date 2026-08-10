@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Energizing Bento",
+  "name": "Bento énergisant",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Kirara. Une boîte-repas pour les humains que Kirara a préparée avec de grands efforts en observant les préférences des jeunes filles. Composée d'accompagnements équilibrés et de boules de riz en forme de chat, c'est comme un colis bien emballé... On pourrait en recevoir un tous les jours sans s'en lasser.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 34 % des PV max, puis 980 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 4
+    },
+    {
+      "item": "Raw Meat",
+      "quantity": 2
+    },
+    {
+      "item": "Rice",
+      "quantity": 1
+    },
+    {
+      "item": "Seagrass",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Kirara",
+  "baseDish": "Pâté miaou revigorant",
+  "assets": {
+    "NORMAL": "/assets/foods/energizing_bento/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

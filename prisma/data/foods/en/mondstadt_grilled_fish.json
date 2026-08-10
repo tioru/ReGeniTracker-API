@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Mondstadt Grilled Fish",
+  "name": "Mondstadt Grilled Fish",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Revive",
+  "descriptions": {
+    "normal": "Fish grilled thoroughly with moderate fire, making it completely dry and crispy. The sprinkled pepper on top brings out the freshness of the fish.",
+    "suspicious": "Fish grilled thoroughly with moderate fire. Sadly, it's a bit too well done. The charred smell and the dry texture are not too impressive.",
+    "delicious": "Fish grilled thoroughly with moderate fire, locking the delicious juices inside the meat under the crispy skin. A small bite is all that's needed to unlock its wondrous and delicious taste."
+  },
+  "effectTexts": {
+    "normal": "Revives a character and restores 100 HP.",
+    "suspicious": "Revives a character and restores 50 HP.",
+    "delicious": "Revives a character and restores 150 HP."
+  },
+  "effectVariables": [
+    {
+      "label": "Revive",
+      "values": {
+        "suspicious": 50,
+        "normal": 100,
+        "delicious": 150
+      }
+    },
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Available by default",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 1
+    },
+    {
+      "item": "Pepper",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Diona",
+    "name": "Definitely Not Bar Food!"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/mondstadt_grilled_fish/normal.png",
+    "DELICIOUS": "/assets/foods/mondstadt_grilled_fish/delicious.png",
+    "SUSPICIOUS": "/assets/foods/mondstadt_grilled_fish/suspicious.png"
+  }
+}

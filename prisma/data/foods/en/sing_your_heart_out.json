@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Sing Your Heart Out",
+  "name": "Sing Your Heart Out",
+  "rarity": 4,
+  "category": "OTHER_DISHES",
+  "effectType": "Special Effect",
+  "descriptions": {
+    "normal": "A cool-flavored throat lozenge. Said to be the Flower-Feather Clan's secret weapon for soothing their throats and protecting their vocal cords — so eat one and go sing your heart out! Just make sure you don't go overboard, as too much sugar can leave your throat feeling hoarse.",
+    "suspicious": "A cool-flavored throat lozenge. Its icy taste rushes through your mouth, setting your teeth chattering involuntarily and nearly half-freezing your heart. Forget about singing your heart out — even just making yourself understood is now a challenge...",
+    "delicious": "A cool-flavored throat lozenge. These exquisitely crafted candies seem to send a wave of coolness down your throat, relieving hoarseness like bubbling springwater spilling forth and cleansing parched earth. Your voice is left sounding as clear as a newly-fledged hatchling, eager to spread its wings and fly up into the sky."
+  },
+  "effectTexts": {
+    "normal": "A little surprise from the Flower-Feather Clan.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [],
+  "region": "Natlan",
+  "recipeHint": "Reputation Level 2 with Flower-Feather Clan",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Mint",
+      "quantity": 1
+    },
+    {
+      "item": "Embercore Flower",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/sing_your_heart_out/normal.png",
+    "DELICIOUS": "/assets/foods/sing_your_heart_out/delicious.png",
+    "SUSPICIOUS": "/assets/foods/sing_your_heart_out/suspicious.png"
+  }
+}

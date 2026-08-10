@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Der Weisheit Letzter Schluss (Life)",
+  "name": "Sagesse suprême",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Mona. Un grand plat pour une grande astromancienne ; il remplit l'estomac pour pas trop cher.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 16 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Cabbage",
+      "quantity": 2
+    },
+    {
+      "item": "Apple",
+      "quantity": 2
+    },
+    {
+      "item": "Bird Egg",
+      "quantity": 1
+    },
+    {
+      "item": "Potato",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Mona",
+  "baseDish": "Salade copieuse",
+  "assets": {
+    "NORMAL": "/assets/foods/der_weisheit_letzter_schluss_life/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

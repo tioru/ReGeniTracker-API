@@ -1,0 +1,66 @@
+{
+  "pageTitle": "No Tomorrow",
+  "name": "Sansespoir",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Qiqi. Les ingrédients de ce plat ont été soigneusement arrangés. D'après Baizhu, Qiqi a mis beaucoup de temps à le préparer, mais une fois qu'on connaît les goûts de la jeune fille, il est difficile de vouloir en manger.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT et les DGT CRIT de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "CRIT DMG",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Raw Meat",
+      "quantity": 3
+    },
+    {
+      "item": "Fish",
+      "quantity": 3
+    },
+    {
+      "item": "Rice",
+      "quantity": 3
+    },
+    {
+      "item": "Tofu",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Qiqi",
+  "baseDish": "Ramen Alézi",
+  "assets": {
+    "NORMAL": "/assets/foods/no_tomorrow/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

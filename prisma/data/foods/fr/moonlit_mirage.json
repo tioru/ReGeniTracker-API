@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Moonlit Mirage",
+  "name": "Mirage sous la lune",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Columbina. Ce bonbon translucide ressemble à une gouttelette de rosée recueillie au clair de lune. Sa délicate douceur apparaît et disparaît, comme pour vous attirer dans un beau rêve éphémère. On ne peut s'empêcher d'admirer l'habileté et le soin apportés à sa confection...",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente les PV max de tous les personnages de l'équipe de 30 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Increase",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Nocturnal Blossom",
+      "quantity": 2
+    },
+    {
+      "item": "Winter Icelea",
+      "quantity": 2
+    },
+    {
+      "item": "Midsommar Berry",
+      "quantity": 2
+    },
+    {
+      "item": "Lakkaberry",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Columbina",
+  "baseDish": "Bonbons aux herbes et aux baies",
+  "assets": {
+    "NORMAL": "/assets/foods/moonlit_mirage/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

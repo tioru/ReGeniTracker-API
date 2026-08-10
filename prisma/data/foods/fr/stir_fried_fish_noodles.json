@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Stir-Fried Fish Noodles",
+  "name": "Nouilles sautées au poisson",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "Un plat de résistance aux saveurs intenses. Pour le cuisiner, on fait sauter des nouilles de riz, du poisson mi-cuit et de nombreux accompagnements dans un wok au-dessus d'un feu vif. Les nouilles, qui ont absorbé le goût des autres ingrédients, sont souples et glissent en bouche. Elles sont très appréciées du public en général.",
+    "suspicious": "Un plat de résistance aux saveurs intenses. On peut à peine distinguer les nouilles de riz du poisson. La texture flasque en bouche est à peine supportable. Comment quelque chose qui a l'air aussi simple peut nécessiter autant de travail ?",
+    "delicious": "Un plat de résistance aux saveurs intenses. Son apparence suffit à mettre l'eau à la bouche, et une bouchée ne sera jamais assez. Les nouilles de riz sont onctueuses et le poisson tendre. Malgré sa simplicité, cette assiette a toute sa place à la table des plus fins gourmets."
+  },
+  "effectTexts": {
+    "normal": "Restaure immédiatement 20 % des PV max, puis 390 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "suspicious": "Restaure immédiatement 18 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "delicious": "Restaure immédiatement 22 % des PV max, puis 470 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": 18,
+        "normal": 20,
+        "delicious": 22
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": 300,
+        "normal": 390,
+        "delicious": 470
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Vendu par Yueshu",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 2
+    },
+    {
+      "item": "Rice",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Yueshu",
+      "currency": "Mora",
+      "cost": 1375,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/stir_fried_fish_noodles/normal.png",
+    "DELICIOUS": "/assets/foods/stir_fried_fish_noodles/delicious.png",
+    "SUSPICIOUS": "/assets/foods/stir_fried_fish_noodles/suspicious.png"
+  }
+}

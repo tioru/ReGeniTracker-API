@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Butter Crab",
+  "name": "Crabe au beurre",
+  "rarity": 4,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "Un plat de crabe grillé. Un contrôle approprié de la chaleur a permis à la chair de crabe de rester humide et grasse. Le beurre s'est infiltré dans la chair du crabe, produisant un arôme qui fait saliver même de loin.",
+    "suspicious": "Un plat de crabe grillé. Les pattes de crabe sont encore froides et ont une saveur crue et salée, c'est comme si on buvait la tasse quand on les mange.",
+    "delicious": "Un plat de crabe grillé. Les pattes de crabe imprégnées dans le beurre ont un arôme riche qui envahit les papilles de manière si séduisante que sans vous en rendre compte, vous avez tout mangé et vous vous retrouvez à siroter le reste du beurre dans la carapace du crabe, dans l'espoir de raviver la mémoire du plat."
+  },
+  "effectTexts": {
+    "normal": "Augmente la DÉF de tous les personnages de l'équipe de 261 pts et l'effet des soins de 8 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente la DÉF de tous les personnages de l'équipe de 215 pts et l'effet des soins de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente la DÉF de tous les personnages de l'équipe de 308 pts et l'effet des soins de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "DEF",
+      "values": {
+        "suspicious": 215,
+        "normal": 261,
+        "delicious": 308
+      }
+    },
+    {
+      "label": "Healing Improvement",
+      "values": {
+        "suspicious": 6,
+        "normal": 8,
+        "delicious": 10
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Réputation d'Inazuma",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Butter",
+      "quantity": 4
+    },
+    {
+      "item": "Crab",
+      "quantity": 4
+    },
+    {
+      "item": "Seagrass",
+      "quantity": 2
+    },
+    {
+      "item": "Matsutake",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/butter_crab/normal.png",
+    "DELICIOUS": "/assets/foods/butter_crab/delicious.png",
+    "SUSPICIOUS": "/assets/foods/butter_crab/suspicious.png"
+  }
+}

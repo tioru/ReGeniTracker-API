@@ -1,0 +1,64 @@
+{
+  "pageTitle": "Insulation Potion",
+  "name": "Insulation Potion",
+  "rarity": 3,
+  "category": "POTIONS",
+  "effectType": "Electro RES Up",
+  "descriptions": {
+    "normal": "A potion that boosts Electro RES and keeps one from getting electro-shocked. Induces a tingling sensation when drank. It is said to work by filling the body with inversely charged electrical energy, which counteracts the effect of Electro damage.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Electro RES by 25% for 300s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "Elemental RES",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "Electro RES",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": "Available by default",
+  "recipeSubtype": "CRAFTING",
+  "ingredients": [
+    {
+      "item": "Butterfly Wings",
+      "quantity": 1
+    },
+    {
+      "item": "Electro Crystal",
+      "quantity": 1
+    },
+    {
+      "item": "Mora",
+      "quantity": 100
+    }
+  ],
+  "sources": [
+    "Alchemy"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/insulation_potion/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Sangayaki",
+  "name": "Sangayaki",
+  "rarity": 2,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Reduction",
+  "descriptions": {
+    "normal": "A simple, humble fisherman's side dish. Freshly caught fish is de-skinned and sliced, minced together with Snapdragon, mixed with miso and salt to form a batter, and then finally grilled. The lovely scent enters your nose long before the food enters your mouth. Three servings later, and you're still raring to go for more.",
+    "suspicious": "A simple, humble fisherman's side dish. The overabundance of salt and rank smell of fish roll like a storm through your olfactory senses. Please keep your hands steady — please.",
+    "delicious": "A simple, humble fisherman's side dish. Full of nutrition and flavor. The lightly charred, yellowed exterior wraps the tender insides — providing two pleasures at once! Fish paste was already quite delectable raw, and the charcoal grilling only makes it better."
+  },
+  "effectTexts": {
+    "normal": "Decreases all party members' sprinting Stamina consumption by 20% for 900s.",
+    "suspicious": "Decreases all party members' sprinting Stamina consumption by 15% for 900s.",
+    "delicious": "Decreases all party members' sprinting Stamina consumption by 25% for 900s."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 15,
+        "normal": 20,
+        "delicious": 25
+      }
+    },
+    {
+      "label": "Sprinting Stamina",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Inazuma",
+  "recipeHint": "Sold by Shimura Kanbei",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 2
+    },
+    {
+      "item": "Salt",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/sangayaki/normal.png",
+    "DELICIOUS": "/assets/foods/sangayaki/delicious.png",
+    "SUSPICIOUS": "/assets/foods/sangayaki/suspicious.png"
+  }
+}

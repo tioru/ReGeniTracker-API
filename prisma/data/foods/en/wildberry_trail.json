@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Wildberry Trail",
+  "name": "Wildberry Trail",
+  "rarity": 2,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Regeneration",
+  "descriptions": {
+    "normal": "A layered drink of different colors — this one does not appear to contain any alcohol. Incorporating two of Nod-Krai's signature berries, its vibrant colors feel light and cheerful, as if you're strolling down a path through a fertile orchard.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Regen",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Nod-Krai",
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/wildberry_trail/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

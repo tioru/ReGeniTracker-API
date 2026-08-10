@@ -1,0 +1,59 @@
+{
+  "pageTitle": "Tea Party Prelude: Artful Latte",
+  "name": "Tea Party Prelude: Artful Latte",
+  "rarity": 3,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "A latte well worth savoring. Carefully ground from specially roasted coffee beans, it is finished with delicate foam art, soft and dense as mist. Its flavor is rich and mellow, with an unusually refined aroma that sets it apart.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 34% of Max HP and an additional 1,900 HP to the selected character.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "HP Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Percent",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "HP Restore Fixed",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": null,
+  "ingredients": [],
+  "sources": [
+    "Claim Daily Commissions with Sandrone in the party"
+  ],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/tea_party_prelude_artful_latte/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

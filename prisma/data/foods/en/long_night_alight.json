@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Long Night Alight",
+  "name": "Long Night Alight",
+  "rarity": 1,
+  "category": "RECOVERY_DISHES",
+  "effectType": "Healing",
+  "descriptions": {
+    "normal": "Delicate fish slices shimmer with a gemstonesque, translucent, orange-red glow. A woody, smoky aroma complements the freshness of the fish like the gentle strains of classical music. The precision in heat control reveals a mastery of the culinary arts — a true representation of Flins's abilities.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fish",
+      "quantity": 1
+    },
+    {
+      "item": "Salt",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Flins",
+  "baseDish": "Smoked Fish Steak",
+  "assets": {
+    "NORMAL": "/assets/foods/long_night_alight/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

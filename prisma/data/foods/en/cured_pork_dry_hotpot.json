@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Cured Pork Dry Hotpot",
+  "name": "Cured Pork Dry Hotpot",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "A dish fried over a great flame. Matsutake and Ham have been sliced up, stir-fried, and garnished with some spicy condiments. The flavor of the Ham is a match for the Matsutake's crispness, and the combination grows even lovelier and more addictive as you chew. The heat-conducting wok also serves to keep it piping hot for long periods.",
+    "suspicious": "A dish fried over a great flame. The quality of the pork is fair enough, but it is far too salty. Have a piece of this, and you will taste nothing but brine in your mouth no matter how many Snapdragons or Matsutake mushrooms you consume.",
+    "delicious": "A dish fried over a great flame. The rendered fat from the fried ham layers the side dishes perfectly, and the flavors have long permeated the whole dish. Its shine alone is enough to whet one's appetite, and every bite is sure to evoke memories of house, home, and celebration in anyone from Liyue."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' CRIT Rate by 15% for 300s.",
+    "suspicious": "Increases all party members' CRIT Rate by 10% for 300s.",
+    "delicious": "Increases all party members' CRIT Rate by 20% for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": 10,
+        "normal": 15,
+        "delicious": 20
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Ham",
+      "quantity": 2
+    },
+    {
+      "item": "Matsutake",
+      "quantity": 2
+    },
+    {
+      "item": "Snapdragon",
+      "quantity": 1
+    },
+    {
+      "item": "Pepper",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [
+    {
+      "name": "Licai",
+      "currency": "Mora",
+      "cost": 7275,
+      "stock": 2,
+      "restock": "DAILY"
+    }
+  ],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/cured_pork_dry_hotpot/normal.png",
+    "DELICIOUS": "/assets/foods/cured_pork_dry_hotpot/delicious.png",
+    "SUSPICIOUS": "/assets/foods/cured_pork_dry_hotpot/suspicious.png"
+  }
+}

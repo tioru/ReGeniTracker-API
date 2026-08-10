@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Sautéed Matsutake",
+  "name": "Sautéed Matsutake",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Sautéed slices of Matsutake. Cooked in butter, it's crisp outside yet tender inside. Eat it before someone steals it from you.",
+    "suspicious": "Sautéed slices of Matsutake. A shame that control of the fire was lost. Best you can do now is try to trick people who didn't see you cooking it into thinking they are just potato chips.",
+    "delicious": "Sautéed slices of Matsutake. So smooth and fragrant, eating them is like having the bursting vitality of spring absorbed into your stomach."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' ATK by 194 for 300s.",
+    "suspicious": "Increases all party members' ATK by 160 for 300s.",
+    "delicious": "Increases all party members' ATK by 228 for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 160,
+        "normal": 194,
+        "delicious": 228
+      }
+    }
+  ],
+  "region": "Mondstadt",
+  "recipeHint": "Sold by Sara",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Matsutake",
+      "quantity": 3
+    },
+    {
+      "item": "Flour",
+      "quantity": 3
+    },
+    {
+      "item": "Pinecone",
+      "quantity": 2
+    },
+    {
+      "item": "Butter",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/sauteed_matsutake/normal.png",
+    "DELICIOUS": "/assets/foods/sauteed_matsutake/delicious.png",
+    "SUSPICIOUS": "/assets/foods/sauteed_matsutake/suspicious.png"
+  }
+}

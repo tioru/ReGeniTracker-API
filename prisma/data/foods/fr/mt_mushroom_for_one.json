@@ -1,0 +1,54 @@
+{
+  "pageTitle": "Mt. Mushroom (For One)",
+  "name": "Champi-mont (Portion individuelle)",
+  "rarity": 2,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Varesa. La jeune femme aux cheveux couleur barbe à papa sert sans effort ce gigantesque plat d'une seule main. Le parfum des champignons se mêlant à celui du fromage vous pousse à saisir vos couverts avant même de vous en rendre compte. Euh, au fait... Est-il possible de manger autant de nourriture en une seule journée ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT de tous les personnages de l'équipe de 16 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Red Berryshroom",
+      "quantity": 2
+    },
+    {
+      "item": "Grainfruit",
+      "quantity": 1
+    },
+    {
+      "item": "Cheese",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Varesa",
+  "baseDish": "Brochette de champignons au fromage",
+  "assets": {
+    "NORMAL": "/assets/foods/mt_mushroom_for_one/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

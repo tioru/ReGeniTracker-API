@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Oncidium Tofu",
+  "name": "Tofu oncidium",
+  "rarity": 3,
+  "category": "ADVENTURER_S_DISHES",
+  "effectType": "Stamina Increase",
+  "descriptions": {
+    "normal": "Mets requérant un certain savoir-faire pour être préparé. L'ingrédient principal, aussi tendre que possible, est finement émincé, lavé et cuit dans le bouillon, pour un plat à la fraîcheur et au goût inimitables ornant plus d'un menu à Liyue.",
+    "suspicious": "Mets requérant un certain savoir-faire pour être préparé. Les ingrédients ont été coupés n'importe comment en raison d'une technique bancale. La texture en bouche résultant de ce travail bâclé suffit à désespérer quiconque. On devine que le tofu est l'ingrédient principal de ce plat seulement grâce au goût prononcé du soja.",
+    "delicious": "Mets requérant un certain savoir-faire pour être préparé. Le tofu, coupé aussi finement que des cheveux, flotte dans le bol comme la brume dans la forêt. Les pousses de bambou taillées ajoutent une touche végétale, et le bouillon, fort en volaille et en jambon, dégage un arôme incroyable. Une seule gorgée suffit pour vous enivrer de son parfum."
+  },
+  "effectTexts": {
+    "normal": "Restaure 85 pts d'endurance.",
+    "suspicious": "Restaure 70 pts d'endurance.",
+    "delicious": "Restaure 100 pts d'endurance."
+  },
+  "effectVariables": [
+    {
+      "label": "Stamina",
+      "values": {
+        "suspicious": 70,
+        "normal": 85,
+        "delicious": 100
+      }
+    },
+    {
+      "label": "Stamina Restore",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Événement Liesse au clair de lune",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Tofu",
+      "quantity": 4
+    },
+    {
+      "item": "Bamboo Shoot",
+      "quantity": 2
+    },
+    {
+      "item": "Ham",
+      "quantity": 1
+    },
+    {
+      "item": "Fowl",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/oncidium_tofu/normal.png",
+    "DELICIOUS": "/assets/foods/oncidium_tofu/delicious.png",
+    "SUSPICIOUS": "/assets/foods/oncidium_tofu/suspicious.png"
+  }
+}

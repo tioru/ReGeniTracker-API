@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Cubic Tricks",
+  "name": "Passe-passe cubique",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "CRIT Rate Up",
+  "descriptions": {
+    "normal": "Spécialité culinaire de Lyney. Il a recouvert le fruit que vous avez cueilli de velours, puis l'a découvert... Abracadabra ! C'est alors un assortiment coloré de bonbons gélifiés qui vous accueille. Après en avoir goûté un, vous avez immédiatement ressenti une humeur différente. Le grand magicien vous a-t-il jeté un enchantement alors que personne ne regardait ?",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectTexts": {
+    "normal": "Augmente le taux CRIT et les DGT CRIT de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": null,
+    "delicious": null
+  },
+  "effectVariables": [
+    {
+      "label": "CRIT Rate",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    },
+    {
+      "label": "CRIT DMG",
+      "values": {
+        "suspicious": null,
+        "normal": null,
+        "delicious": null
+      }
+    }
+  ],
+  "region": null,
+  "recipeHint": null,
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Bulle Fruit",
+      "quantity": 1
+    },
+    {
+      "item": "Jam",
+      "quantity": 1
+    },
+    {
+      "item": "Sugar",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": "Lyney",
+  "baseDish": "Pâte de fruits",
+  "assets": {
+    "NORMAL": "/assets/foods/cubic_tricks/normal.png",
+    "DELICIOUS": null,
+    "SUSPICIOUS": null
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "pageTitle": "Fricassee de Poulet",
+  "name": "Fricassée de poulet",
+  "rarity": 3,
+  "category": "ATK_BOOSTING_DISHES",
+  "effectType": "ATK Up",
+  "descriptions": {
+    "normal": "Un plat de viande fontainois bien connu. La viande est d'abord frite dans l'huile jusqu'à ce que la peau soit croustillante et délicieusement assombrie, puis sautée avec des oignons et d'autres condiments. Vient ensuite du jus de fruit fermenté et un peu de crème une fois le mélange épaissi. Lorsque le plat est prêt, chaque morceau de viande est enveloppé uniformément dans de la crème, lui donnant cette saveur chaleureuse et familière que les Fontainois adorent.",
+    "suspicious": "Un plat de viande fontainois bien connu. Quelque chose ne va pas : vous vous en êtes rendu compte le moment où c'est entré dans votre bouche. La crème onctueuse n'a aucun espoir de sauver la viande desséchée, jaunie et un peu amère, à tel point que votre appétit à l'instant si vorace s'est enfui la queue entre les jambes...",
+    "delicious": "Un plat de viande fontainois bien connu. Le rendez-vous romantique de la crème et du poulet crée instantanément un arôme profond et riche qui remonte le moral. On dit que c'est l'un des plats favoris des Fontainois... On pourrait même se régaler de ce plat toute une vie sans se lasser de sa saveur fantastique."
+  },
+  "effectTexts": {
+    "normal": "Augmente l'ATQ de tous les personnages de l'équipe de 194 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "suspicious": "Augmente l'ATQ de tous les personnages de l'équipe de 160 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "delicious": "Augmente l'ATQ de tous les personnages de l'équipe de 228 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur."
+  },
+  "effectVariables": [
+    {
+      "label": "ATK",
+      "values": {
+        "suspicious": 160,
+        "normal": 194,
+        "delicious": 228
+      }
+    }
+  ],
+  "region": "Fontaine",
+  "recipeHint": "Vendu par Sanguinetti",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Fowl",
+      "quantity": 4
+    },
+    {
+      "item": "Fermented Juice",
+      "quantity": 3
+    },
+    {
+      "item": "Onion",
+      "quantity": 3
+    },
+    {
+      "item": "Cream",
+      "quantity": 2
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": {
+    "character": "Emilie",
+    "name": "Festin aux fumets fragrants"
+  },
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/fricassee_de_poulet/normal.png",
+    "DELICIOUS": "/assets/foods/fricassee_de_poulet/delicious.png",
+    "SUSPICIOUS": "/assets/foods/fricassee_de_poulet/suspicious.png"
+  }
+}

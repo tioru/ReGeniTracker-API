@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Triple-Layered Consommé",
+  "name": "Triple-Layered Consommé",
+  "rarity": 3,
+  "category": "DEF_BOOSTING_DISHES",
+  "effectType": "DEF Up",
+  "descriptions": {
+    "normal": "A neatly arranged dish. The ham, fowl, and bamboo shoots have been sliced into threads of equal length, and they've been laid out neatly in the soup bowl after being steamed at high heat, before being covered in consommé. The layers are distinct, and the mouthfeel is salty yet fresh.",
+    "suspicious": "A neatly arranged dish. It certainly looks the part, but tasting it reveals the blandness of the consommé. Was it diluted too much, perhaps?",
+    "delicious": "A neatly arranged dish. The evenly-sized threads reveal exquisite knife-work. Rather than a dish, this seems more like a work of art. But once you work up the wherewithal to pick up those chopsticks and have at it, the delicious flavors will be utter bliss — leaving this as a mere work of art would be such a shame."
+  },
+  "effectTexts": {
+    "normal": "Increases all party members' Shield Strength by 25% for 300s.",
+    "suspicious": "Increases all party members' Shield Strength by 20% for 300s.",
+    "delicious": "Increases all party members' Shield Strength by 30% for 300s."
+  },
+  "effectVariables": [
+    {
+      "label": "Shield Strength",
+      "values": {
+        "suspicious": 20,
+        "normal": 25,
+        "delicious": 30
+      }
+    }
+  ],
+  "region": "Liyue",
+  "recipeHint": "Sold by Chef Mao",
+  "recipeSubtype": "COOKING",
+  "ingredients": [
+    {
+      "item": "Ham",
+      "quantity": 2
+    },
+    {
+      "item": "Fowl",
+      "quantity": 2
+    },
+    {
+      "item": "Bamboo Shoot",
+      "quantity": 1
+    },
+    {
+      "item": "Mushroom",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "sellers": [],
+  "specialDish": null,
+  "character": null,
+  "baseDish": null,
+  "assets": {
+    "NORMAL": "/assets/foods/triple_layered_consomme/normal.png",
+    "DELICIOUS": "/assets/foods/triple_layered_consomme/delicious.png",
+    "SUSPICIOUS": "/assets/foods/triple_layered_consomme/suspicious.png"
+  }
+}
