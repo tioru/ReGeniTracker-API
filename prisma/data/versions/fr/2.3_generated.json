@@ -11,19 +11,19 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/17278",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/17190",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210601blue_post/index.html?page_sn=630488a1549049f0",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://webstatic-sea.mihoyo.com/ys/event/e20211113pre/index.html",
-      "label": "Website"
+      "label": "VERSION_WEBSITE"
     }
   ],
   "images": [
@@ -72,13 +72,13 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2021-11-24)"
     ]
   },
   "mapExpansion": [],
   "newDomains": [],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -88,7 +88,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [
     "Coquille des rêves opulents",
     "Palourde aux teintes océaniques"
@@ -135,8 +135,14 @@
   "newFormulas": [],
   "newSpecialtyDishes": [],
   "newAchievements": [
-    "Added more to \"Wonders of the World\"",
-    "Added more to \"Memories of the Heart\""
+    {
+      "category": "Added more to \"Wonders of the World\"",
+      "achievements": []
+    },
+    {
+      "category": "Added more to \"Memories of the Heart\"",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Thème PB - Lyratum",
@@ -151,7 +157,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

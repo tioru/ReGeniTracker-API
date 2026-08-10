@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/124837",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/124763",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=c72abd9836ff4747#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20240706preview-5y4ic7/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/124539",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -81,7 +81,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2024-07-17)"
     ]
   },
   "mapExpansion": [],
@@ -90,7 +90,7 @@
     "Envisaged Echoes (Imaginarium Theater)",
     "Added \"Longer-Term Encounter Points\" (Adventure Encounters)"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -98,7 +98,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [],
@@ -244,14 +244,6 @@
       "Tada!"
     ]
   },
-  "otherAdditions": [
-    "Adds Set 33 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens.",
-    "New \"Hide UI\" function: You can enable/disable it in the \"Settings > Other\" menu (you can also enable/disable it using specific shortcuts on PC). When enabled, the main interface will hide UI elements such as map and party information.",
-    "New functions in the Dialogue Screen:",
-    "# \"Dialogue Review\": You can open the \"Dialogue Review\" interface while playing through the story to view the dialogue records for this segment of the story or listen to the voice-overs again.",
-    "# \"Hide Dialogue Screen\": You can hide the dialogue screen while playing through the story."
-  ],
   "imaginariumTheater": {
     "startDateRaw": null,
     "requiredElements": [

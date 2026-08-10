@@ -11,27 +11,27 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/14450",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=9fd204af957e4b13&mode=fullscreen",
-      "label": "Version 2.0 Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://www.hoyolab.com/article/567649",
-      "label": "Update Notice I"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://www.hoyolab.com/article/567638",
-      "label": "Update Notice II"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210715-prepage/index.html",
-      "label": "Version 2.0 Website"
+      "label": "VERSION_WEBSITE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/13803",
-      "label": "Developer's Discussion 6/30"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -86,7 +86,7 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2021-07-21)"
     ]
   },
   "mapExpansion": [
@@ -108,7 +108,7 @@
     "Domaine de formation"
   ],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Oni des mers - Menace de feu",
       "Oni des mers - Danse d'éclairs",
@@ -134,7 +134,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [
     "Emblème du destin brisé",
     "Réminiscence nostalgique"
@@ -149,7 +149,22 @@
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "2",
+        "chapterName": "Chapitre II",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Divinité impitoyable et euthymie éternelle"
+          },
+          {
+            "act": 2,
+            "name": "Stillness, the Sublimation of Shadow"
+          }
+        ]
+      }
+    ],
     "storyQuests": [
       {
         "chapter": "Grus Nivis",
@@ -235,12 +250,30 @@
   "newFormulas": [],
   "newSpecialtyDishes": [],
   "newAchievements": [
-    "Succès/Promenade dans le monde mortel - Partie II",
-    "Succès/Au défi ! - Partie IV",
-    "Succès/Rencontres dans un autre monde - Partie II",
-    "Succès/Plus qu'un royaume - Partie III",
-    "Succès/Inazuma : Archipel de la foudre éternelle - I",
-    "the Wonders of the World category"
+    {
+      "category": "Succès/Promenade dans le monde mortel - Partie II",
+      "achievements": []
+    },
+    {
+      "category": "Succès/Au défi ! - Partie IV",
+      "achievements": []
+    },
+    {
+      "category": "Succès/Rencontres dans un autre monde - Partie II",
+      "achievements": []
+    },
+    {
+      "category": "Succès/Plus qu'un royaume - Partie III",
+      "achievements": []
+    },
+    {
+      "category": "Succès/Inazuma : Archipel de la foudre éternelle - I",
+      "achievements": []
+    },
+    {
+      "category": "the Wonders of the World category",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Thème Inazuma - Cerisier sacré",
@@ -281,7 +314,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,
@@ -290,9 +322,18 @@
       "dealt by all party members increased by 60%."
     ],
     "floor12Disorder": [
-      "Energy Tides are present in this challenge. They will switch between Elemental High Tide and Elemental Low Tide in 10s cycles.",
-      "During High Tide, a large amount of Elemental Particles will be generated when a character's attack hits opponents, restoring 10 Elemental Energy. This effect can occur once every 2.8s.",
-      "During Low Tide, all characters in the party cannot gain Elemental Energy."
+      {
+        "FIRST_HALF": "Energy Tides are present in this challenge. They will switch between Elemental High Tide and Elemental Low Tide in 10s cycles.",
+        "SECOND_HALF": ""
+      },
+      {
+        "FIRST_HALF": "During High Tide, a large amount of Elemental Particles will be generated when a character's attack hits opponents, restoring 10 Elemental Energy. This effect can occur once every 2.8s.",
+        "SECOND_HALF": ""
+      },
+      {
+        "FIRST_HALF": "During Low Tide, all characters in the party cannot gain Elemental Energy.",
+        "SECOND_HALF": ""
+      }
     ],
     "blessingName": "Floor 9 Ley Line Disorder changed to:",
     "blessingEffect": "A Plasma Field will be generated at the edge of the challenge area once the challenge begins. While within the field, characters will be hit by a lightning strike once every 5s and take . The area covered by the field will gradually expand as the challenge proceeds."

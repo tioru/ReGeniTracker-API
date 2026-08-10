@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/123426",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://www.hoyolab.com/article/27518305",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=68d4658994104b5b#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20240413preview-pvtga2/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/123161",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -72,7 +72,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2024-04-24)"
     ]
   },
   "mapExpansion": [
@@ -99,7 +99,7 @@
     "Washer Octopus",
     "Wonderchime Flowers and Allochromatic Anemones"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [
       "Praetorian Golem"
@@ -113,7 +113,7 @@
       ]
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [
     "Unfinished Reverie",
     "Fragment of Harmonic Whimsy"
@@ -179,9 +179,18 @@
     "Hearthfire's Trail"
   ],
   "newAchievements": [
-    "Rhapsodia in the Ancient Sea",
-    "Challenger: Series IX",
-    "Wonders of the World"
+    {
+      "category": "Rhapsodia in the Ancient Sea",
+      "achievements": []
+    },
+    {
+      "category": "Challenger: Series IX",
+      "achievements": []
+    },
+    {
+      "category": "Wonders of the World",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Travel Notes: The Realms Rocked",
@@ -247,16 +256,6 @@
       "Rainbow Macarons"
     ]
   },
-  "otherAdditions": [
-    "Adds Set 31 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens.",
-    "Adds 17 World Quest-related avatars that will be unlocked after completing World Quests in accordance with the corresponding unlock criteria (Refer to \"Paimon Menu > Change Avatar\" in-game for the specific unlock criteria. For Travelers who have already completed the corresponding World Quests before the version update, the corresponding avatars will be automatically unlocked after the version update.)",
-    "Fountain of Lucine: Increase in the Level Cap of Fountain of Lucine to Level 50. After the Fountain of Lucine reaches its maximum level, Hydro Sigils can be exchanged with Mequignon at Bertin's House of Curiosities.",
-    "Adds the \"Focused Experience Mode\" function:",
-    "# This function can be enabled for certain quests in the \"Quest\" menu. Once enabled, Travelers can prevent locations and characters involved in said quest from being occupied by other quests, which improves the experience of the current quest.",
-    "# Function Access Unlock Criteria: Complete Archon Quest Prologue: Act III \"Song of the Dragon and Freedom\"",
-    "# In Version 4.6, the \"Focused Experience Mode\" function will be available for Arlecchino's Story Quest - Ignis Purgatorius Chapter: Act I \"When the Hearth-Flame Goes Out.\" The \"Focused Experience Mode\" function will gradually be made available for more quests in subsequent versions."
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

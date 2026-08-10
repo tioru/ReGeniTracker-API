@@ -11,19 +11,19 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/159349",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/159275",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=830a69a8c2164ed6#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_6UDde01Ygr/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     }
   ],
   "images": [
@@ -97,7 +97,7 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2025-09-10)"
     ]
   },
   "mapExpansion": [
@@ -136,7 +136,7 @@
     "Forger son caractère et son chemin",
     "Stella Fortuna orpheline"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Opritchniki Fatui : Troupier lame-de-feu",
       "Opritchniki Fatui : Canonnier grêleur",
@@ -175,7 +175,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Ibis longplumé double-éclat",
     "Macareux",
     "Chèvre du crépuscule",
@@ -249,7 +249,22 @@
     "Rayonnement doré des héritiers du grand nord"
   ],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "song_of_the_welkin_moon",
+        "chapterName": "Song of the Welkin Moon",
+        "acts": [
+          {
+            "act": 1,
+            "name": "A Dance of Snowy Tides and Hoarfrost Groves"
+          },
+          {
+            "act": 2,
+            "name": "Elegy of Dust and Lamplight"
+          }
+        ]
+      }
+    ],
     "storyQuests": [],
     "worldQuests": [
       "East of the Moon, West of the Sun quest series",
@@ -310,9 +325,18 @@
     "Coupe confiserie de Cling-clang"
   ],
   "newAchievements": [
-    "Succès/Nod-Krai : Élysium d'errances au clair de lune - I",
-    "Succès/Rencontres dans un autre monde - Partie VI",
-    "Succès/Merveilles du monde"
+    {
+      "category": "Succès/Nod-Krai : Élysium d'errances au clair de lune - I",
+      "achievements": []
+    },
+    {
+      "category": "Succès/Rencontres dans un autre monde - Partie VI",
+      "achievements": []
+    },
+    {
+      "category": "Succès/Merveilles du monde",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Thème Lauma - Bois ramifiés",
@@ -398,14 +422,6 @@
       "\"Revelrous Beats\""
     ]
   },
-  "otherAdditions": [
-    "Adds Set 43 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens.",
-    "Another 2 sets of Artifacts are available to exchange in the Mystic Offering system:",
-    "Artifact Strongbox: Scroll of the Hero of Cinder City",
-    "Artifact Strongbox: Obsidian Codex",
-    "After the Version Luna I update, \"Long-Term Encounter Points\" will be reset."
-  ],
   "imaginariumTheater": {
     "startDateRaw": "October 1, 2025",
     "requiredElements": [
@@ -435,10 +451,14 @@
       "All characters in the party gain a 60% Dendro DMG Bonus."
     ],
     "floor12Disorder": [
-      "First Half: Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%.",
-      "Second Half: Characters' Bloom DMG increased by 200% and Lunar-Bloom DMG increased by 75%.",
-      "First Half: Characters' Bloom DMG increased by 200% and Lunar-Bloom DMG increased by 75%.",
-      "Second Half: Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%."
+      {
+        "FIRST_HALF": "Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%.",
+        "SECOND_HALF": "Characters' Bloom DMG increased by 200% and Lunar-Bloom DMG increased by 75%."
+      },
+      {
+        "FIRST_HALF": "Characters' Bloom DMG increased by 200% and Lunar-Bloom DMG increased by 75%.",
+        "SECOND_HALF": "Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%."
+      }
     ],
     "blessingName": "Surging Moon",
     "blessingEffect": "When a character triggers Hydro-related reactions, a shockwave will be released at the opponent's position, dealing True DMG. This effect can be triggered once every 2s."

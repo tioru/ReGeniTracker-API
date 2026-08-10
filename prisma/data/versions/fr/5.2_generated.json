@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/126992",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/126956",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=614870cbd6764349#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_5kX9OCsTQR/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/126730",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -83,7 +83,7 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2024-11-20)"
     ]
   },
   "mapExpansion": [
@@ -111,7 +111,7 @@
     "Natlan Fishing Association",
     "Fishing Points and Radiant Spincrystals added to Natlan"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Qucusaure",
       "Iktomisaure",
@@ -139,7 +139,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Chèvre cacaua"
   ],
   "newArtifacts": [],
@@ -156,7 +156,18 @@
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "5",
+        "chapterName": "Chapitre V",
+        "acts": [
+          {
+            "act": 0,
+            "name": "All Fires Fuel the Flame"
+          }
+        ]
+      }
+    ],
     "storyQuests": [],
     "worldQuests": [
       "A Saurian Returns to the Nest",
@@ -199,9 +210,18 @@
     "Ceviche au miel"
   ],
   "newAchievements": [
-    "Succès/Natlan : Terre d'alliance du feu et de compétition - II",
-    "Succès/Duelliste - Partie II",
-    "the Wonders of the World"
+    {
+      "category": "Succès/Natlan : Terre d'alliance du feu et de compétition - II",
+      "achievements": []
+    },
+    {
+      "category": "Succès/Duelliste - Partie II",
+      "achievements": []
+    },
+    {
+      "category": "the Wonders of the World",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Thème Chasca - Chargée à bloc",
@@ -280,12 +300,6 @@
       "Gemmes étincelantes"
     ]
   },
-  "otherAdditions": [
-    "Adds Glowing Hornshroom Harvestable seeds to the Seed Dispensary.",
-    "Adds Set 36 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens.",
-    "Adds Natlan wildlife that can be captured by the Omni-Ubiquity Net."
-  ],
   "imaginariumTheater": {
     "startDateRaw": "December 1, 2024",
     "requiredElements": [

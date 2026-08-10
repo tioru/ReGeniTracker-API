@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/122141",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/122050",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=e77618c712a04029#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20240120preview/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/119426",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -91,7 +91,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2024-01-31)"
     ]
   },
   "mapExpansion": [
@@ -120,7 +120,7 @@
   "newSystems": [
     "Rainjade's Benediction"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [
       "Xuanwen Beast"
@@ -132,7 +132,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Fluff-Fleece Goat",
     "Malachitin Lumibug",
     "Redbill Pelican",
@@ -211,8 +211,14 @@
     "Yummy Yum Cha"
   ],
   "newAchievements": [
-    "Chenyu's Splendor",
-    "Wonders of the World"
+    {
+      "category": "Chenyu's Splendor",
+      "achievements": []
+    },
+    {
+      "category": "Wonders of the World",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Xianyun: White Clouds",
@@ -296,18 +302,6 @@
       "Sapwood Blade"
     ]
   },
-  "otherAdditions": [
-    "New Books:",
-    "Time Trekker",
-    "New Function: Fast Equip Artifacts",
-    "Quick Configuration: A set of Artifacts will be put together for your reference based on data from recently active players. When generating a configuration, it will only consider Artifacts not already equipped by other characters.",
-    "Custom Configuration: Custom Configuration data will be based on the settings laid out for each character. When using a Custom Configuration, you can configure based on conditions such as Artifact Main Affix, Set Type, and Minor Affixes and choose whether or not to use Artifacts that haven't already been equipped. The configuration created by Custom Configuration can be adjusted, with alternative Artifacts sorted based on the overall priority levels of their Artifact Set and Affixes. When \"Other Options\" > \"All\" is selected in Custom Configuration, when the configuration includes Artifacts already equipped by another character, the Artifacts will be removed and equipped to the target character.",
-    "Adds the \"Borderless Mode\" fullscreen option in \"Display Mode\" in \"Settings / Graphics\" interface on PC.",
-    "New Fishing Points and \"Radiant Spincrystals\" in Liyue.",
-    "New Fish: Jade Heartfeather Bass",
-    "Adds Set 29 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens"
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

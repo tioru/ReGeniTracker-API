@@ -11,19 +11,19 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/160521",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/160360",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=1aa56503e1c74306#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_df1bhOOLAB/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     }
   ],
   "images": [
@@ -80,7 +80,7 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2025-10-22)"
     ]
   },
   "mapExpansion": [],
@@ -94,7 +94,7 @@
     "Wonderland Level",
     "Lobby"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -104,7 +104,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [
@@ -113,7 +113,22 @@
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "song_of_the_welkin_moon",
+        "chapterName": "Song of the Welkin Moon",
+        "acts": [
+          {
+            "act": 3,
+            "name": "A Nation That Doesn't Exist"
+          },
+          {
+            "act": 4,
+            "name": "An Elegy for Faded Moonlight"
+          }
+        ]
+      }
+    ],
     "storyQuests": [],
     "worldQuests": [
       "A Small Venture",
@@ -143,7 +158,10 @@
     "Secret échangé"
   ],
   "newAchievements": [
-    "Wonders of the World category"
+    {
+      "category": "Wonders of the World category",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Thème Nefer - Secrets",
@@ -194,10 +212,6 @@
       "Vallon Chenyu"
     ]
   },
-  "otherAdditions": [
-    "Adds Set 44 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens."
-  ],
   "imaginariumTheater": {
     "startDateRaw": "November 1, 2025",
     "requiredElements": [
@@ -226,8 +240,14 @@
       "All party members have their Elemental Mastery increased by 200."
     ],
     "floor12Disorder": [
-      "First Half: Characters' Bloom DMG increased by 200% and Lunar-Bloom DMG increased by 75%.",
-      "Characters' Normal Attack Pyro DMG increased by 75%."
+      {
+        "FIRST_HALF": "Characters' Bloom DMG increased by 200% and Lunar-Bloom DMG increased by 75%.",
+        "SECOND_HALF": ""
+      },
+      {
+        "FIRST_HALF": "Characters' Normal Attack Pyro DMG increased by 75%.",
+        "SECOND_HALF": ""
+      }
     ],
     "blessingName": "Oathbound Moon",
     "blessingEffect": "When the active character's Bond of Life value increases or decreases, a shockwave will be unleashed, dealing True DMG to nearby opponents."

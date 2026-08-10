@@ -11,27 +11,27 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/112690",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/112650",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=42ba3f50708f4c6f#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20230805preview/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/111908",
-      "label": "Developer's Discussion 06/20"
+      "label": "DEVELOPERS_DISCUSSION"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/112476",
-      "label": "Developer's Discussion 08/02"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -101,7 +101,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2023-08-16)"
     ]
   },
   "mapExpansion": [
@@ -122,7 +122,7 @@
     "Fontaine Reputation System",
     "Fontaine Expeditions, Daily Commissions, and more"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Recon Log Mek",
       "Arithmetic Enhancer Mek",
@@ -162,7 +162,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Snow-Winged Goose",
     "Darkwing Goose",
     "Flatcrest Fulmar",
@@ -302,20 +302,29 @@
     "Fruity Smoothie",
     "Fruity Duet"
   ],
-  "newFormulas": [
-    "Sour Bait",
-    "Flashing Maintenance Mek Bait"
-  ],
+  "newFormulas": [],
   "newSpecialtyDishes": [
     "Cubic Tricks",
     "A Leisurely Sip",
     "\"Seabird's Sojourn\""
   ],
   "newAchievements": [
-    "Mortal Travails: Series IV",
-    "Meetings in Outrealm: Series IV",
-    "Fontaine: Dance of the Dew-White Springs (I)",
-    "Wonders of the World category"
+    {
+      "category": "Mortal Travails: Series IV",
+      "achievements": []
+    },
+    {
+      "category": "Meetings in Outrealm: Series IV",
+      "achievements": []
+    },
+    {
+      "category": "Fontaine: Dance of the Dew-White Springs (I)",
+      "achievements": []
+    },
+    {
+      "category": "Wonders of the World category",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Lyney: Pretense",
@@ -341,33 +350,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [
-    "Adds some of the Harvestable seeds from Fontaine to the Seed Dispensary.",
-    "Adds Set 25 of \"Paimon's Paintings\" chat emojis.",
-    "Introduction of the Multi-Layered Map function.",
-    "Added 5 new types of Battle Pass Weapons that can be selected from the BP Bounty.",
-    "Addition of Genius Invokation TCG Observe Duel Function.",
-    "Auto Add 4-Star Artifacts in destruction function.",
-    "Increased Artifact Inventory Limit from 1,500 to 1,800.",
-    "Added Fontaine-related text into Midlander Billet origin descriptions.",
-    "Added 8 Artifact Sets that can be exchanged to \"Mystic Offering\" in the Crafting Bench:",
-    "Artifact Strongbox: Tenacity of the Millelith",
-    "Artifact Strongbox: Pale Flame",
-    "Artifact Strongbox: Shimenawa's Reminiscence",
-    "Artifact Strongbox: Emblem of Severed Fate",
-    "Artifact Strongbox: Husk of Opulent Dreams",
-    "Artifact Strongbox: Ocean-Hued Clam",
-    "Artifact Strongbox: Vermillion Hereafter",
-    "Artifact Strongbox: Echoes of an Offering",
-    "New functions in the Party Setup Screen:",
-    "Characters' entrance and idle animations",
-    "Background of the Party Setup Screen will change based on your current region.",
-    "Support for Gyroscope controller on some platforms for:",
-    "PC：DualSense™ Wireless Controller, DUALSHOCK®4 Wireless Controller",
-    "PS4™：DUALSHOCK®4 Wireless Controller",
-    "PS5™：DualSense™ Wireless Controller, DualSense Edge™ Wireless Controller",
-    "Added Global Illumination on PlayStation® and PC"
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

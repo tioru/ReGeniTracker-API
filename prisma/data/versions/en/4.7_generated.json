@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/123975",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/123929",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=47004f0895264167#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20240525preview-d6s2mc/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/123758",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -88,7 +88,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2024-06-05)"
     ]
   },
   "mapExpansion": [],
@@ -96,7 +96,7 @@
   "newSystems": [
     "Imaginarium Theater"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -104,14 +104,25 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [],
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "4",
+        "chapterName": "Chapter IV",
+        "acts": [
+          {
+            "act": 6,
+            "name": "Bedtime Story"
+          }
+        ]
+      }
+    ],
     "storyQuests": [
       {
         "chapter": "Rapperia Chapter",
@@ -156,8 +167,14 @@
     "Super-Dee-Duper Delicious Meat Roll"
   ],
   "newAchievements": [
-    "Imaginarium Theater: The First Folio",
-    "Wonders of the World"
+    {
+      "category": "Imaginarium Theater: The First Folio",
+      "achievements": []
+    },
+    {
+      "category": "Wonders of the World",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Clorinde: Roleplay",
@@ -208,10 +225,6 @@
       "Water and Justice"
     ]
   },
-  "otherAdditions": [
-    "Adds Set 32 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens."
-  ],
   "imaginariumTheater": {
     "startDateRaw": null,
     "requiredElements": [

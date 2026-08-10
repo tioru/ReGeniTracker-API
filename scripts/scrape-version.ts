@@ -57,8 +57,42 @@ interface EnemiesData {
   };
 }
 
+// Les libellés de liens observés sur les pages de version varient énormément
+// d'une version à l'autre (numérotation, dates embarquées : "Developer's
+// Discussion 4/16", "Update Notice May 27"...) sans jamais changer de nature.
+// On les normalise donc en catégories fixes plutôt que de garder le texte
+// brut, OTHER servant de repli pour les libellés vraiment uniques (ex:
+// "Serenitea Pot System Details").
+enum LinkLabel {
+  PATCH_NOTES = 'PATCH_NOTES',
+  UPDATE_NOTICE = 'UPDATE_NOTICE',
+  VERSION_HIGHLIGHTS = 'VERSION_HIGHLIGHTS',
+  VERSION_WEBSITE = 'VERSION_WEBSITE',
+  PREVIEW_PAGE = 'PREVIEW_PAGE',
+  DEVELOPERS_DISCUSSION = 'DEVELOPERS_DISCUSSION',
+  SYSTEM_UPDATE_OVERVIEW = 'SYSTEM_UPDATE_OVERVIEW',
+  NEW_CONTENTS_DISPLAY_PAGE = 'NEW_CONTENTS_DISPLAY_PAGE',
+  PAIMONS_VERSION_UPDATE_NOTES = 'PAIMONS_VERSION_UPDATE_NOTES',
+  OTHER = 'OTHER',
+}
+
+function classifyLinkLabel(rawLabel: string): LinkLabel {
+  const clean = rawLabel.trim();
+  if (/^(Patch Notes|Update Details)$/i.test(clean)) return LinkLabel.PATCH_NOTES;
+  if (/^Version Highlights$/i.test(clean)) return LinkLabel.VERSION_HIGHLIGHTS;
+  if (/Update (Notice|Maintenance)/i.test(clean)) return LinkLabel.UPDATE_NOTICE;
+  if (/Preview Page$/i.test(clean)) return LinkLabel.PREVIEW_PAGE;
+  if (/Website$/i.test(clean)) return LinkLabel.VERSION_WEBSITE;
+  if (/Developer'?s Discussion/i.test(clean)) return LinkLabel.DEVELOPERS_DISCUSSION;
+  if (/System Update Overview/i.test(clean)) return LinkLabel.SYSTEM_UPDATE_OVERVIEW;
+  if (/New Contents Display Page/i.test(clean)) return LinkLabel.NEW_CONTENTS_DISPLAY_PAGE;
+  if (/Paimon'?s Version Update Notes/i.test(clean))
+    return LinkLabel.PAIMONS_VERSION_UPDATE_NOTES;
+  return LinkLabel.OTHER;
+}
+
 interface Link {
-  label: string;
+  label: LinkLabel;
   url: string;
 }
 
@@ -92,12 +126,22 @@ interface ImaginariumTheater {
   guestCharacters: string[];
 }
 
+interface Floor12DisorderPeriod {
+  FIRST_HALF: string;
+  SECOND_HALF: string;
+}
+
 interface SpiralAbyssSeason {
   startDateRaw: string | null;
   floor11Disorder: string[];
-  floor12Disorder: string[];
+  floor12Disorder: Floor12DisorderPeriod[];
   blessingName: string | null;
   blessingEffect: string | null;
+}
+
+interface AchievementCategory {
+  category: string;
+  achievements: string[];
 }
 
 interface QuestsData {
@@ -141,8 +185,8 @@ interface VersionData {
   mapExpansion: MapExpansion[];
   newDomains: string[];
   newSystems: string[];
-  newMonsters: EnemiesData;
-  newWildlife: string[];
+  newEnemies: EnemiesData;
+  newCreatures: string[];
 
   newArtifacts: string[];
   newMaterials: string[];
@@ -156,14 +200,13 @@ interface VersionData {
   newRecipes: string[];
   newFormulas: string[];
   newSpecialtyDishes: string[];
-  newAchievements: string[];
+  newAchievements: AchievementCategory[];
   newNamecards: string[];
   newGadgets: string[];
   newFurnishings: string[];
   newFurnishingSets: string[];
   newBooks: string[];
   newTcgCards: TcgCards;
-  otherAdditions: string[];
 
   imaginariumTheater: ImaginariumTheater | null;
   spiralAbyss: SpiralAbyssSeason | null;
@@ -352,8 +395,8 @@ function translateQuestsFr(quests: QuestsData, map: Map<string, string>): Quests
 //
 // Champs volontairement NON traduits (comme "effects" pour les armes /
 // artefacts ailleurs dans le projet) : les textes libres (banners.featured,
-// otherAdditions, imaginariumTheater/spiralAbyss hors noms de personnages,
-// requiredElements) n'ont pas de page wiki correspondante à résoudre via
+// imaginariumTheater/spiralAbyss hors noms de personnages, requiredElements)
+// n'ont pas de page wiki correspondante à résoudre via
 // langlinks — un vrai passage de traduction humaine ou un LLM serait
 // nécessaire, hors scope d'un scraper. Les noms d'éléments (Hydro, Pyro...)
 // restent identiques en FR dans le jeu, donc copiés tels quels.
@@ -393,19 +436,19 @@ async function buildFrVersionData(
     ...enData.newOutfits.flatMap((o) => [o.name, o.character]),
     ...Object.values(enData.newWeapons).flat(),
     ...enData.banners.characters.map((b) => b.name),
-    ...enData.banners.weapons,
+    ...enData.banners.weapons.map((w) => splitBannerNameDate(w).base),
     ...enData.newDomains,
     ...enData.newSystems,
-    ...enData.newWildlife,
+    ...enData.newCreatures,
     ...enData.newArtifacts,
     ...enData.newMaterials,
     ...enData.newMonsterDrops,
     ...enData.newTalentMaterials,
     ...enData.newWeaponAscensionMaterials,
-    ...enData.newMonsters.common,
-    ...enData.newMonsters.elite,
-    ...enData.newMonsters.boss.normal,
-    ...enData.newMonsters.boss.weekly,
+    ...enData.newEnemies.common,
+    ...enData.newEnemies.elite,
+    ...enData.newEnemies.boss.normal,
+    ...enData.newEnemies.boss.weekly,
     ...enData.mapExpansion.flatMap((m) => [m.mainRegion, ...m.subRegion]),
     ...enData.events,
     ...enData.newQuests.worldQuests,
@@ -415,7 +458,7 @@ async function buildFrVersionData(
     ...enData.newRecipes,
     ...enData.newFormulas,
     ...enData.newSpecialtyDishes,
-    ...enData.newAchievements,
+    ...enData.newAchievements.map((a) => a.category),
     ...enData.newNamecards,
     ...enData.newGadgets,
     ...enData.newFurnishings,
@@ -471,7 +514,10 @@ async function buildFrVersionData(
         ...b,
         name: translate(b.name, map),
       })),
-      weapons: translateList(enData.banners.weapons),
+      weapons: enData.banners.weapons.map((w) => {
+        const { base, date } = splitBannerNameDate(w);
+        return formatBannerNameWithDate(translate(base, map), date);
+      }),
     },
 
     mapExpansion: enData.mapExpansion.map((m) => ({
@@ -480,15 +526,15 @@ async function buildFrVersionData(
     })),
     newDomains: translateList(enData.newDomains),
     newSystems: translateList(enData.newSystems),
-    newMonsters: {
-      common: translateList(enData.newMonsters.common),
-      elite: translateList(enData.newMonsters.elite),
+    newEnemies: {
+      common: translateList(enData.newEnemies.common),
+      elite: translateList(enData.newEnemies.elite),
       boss: {
-        normal: translateList(enData.newMonsters.boss.normal),
-        weekly: translateList(enData.newMonsters.boss.weekly),
+        normal: translateList(enData.newEnemies.boss.normal),
+        weekly: translateList(enData.newEnemies.boss.weekly),
       },
     },
-    newWildlife: translateList(enData.newWildlife),
+    newCreatures: translateList(enData.newCreatures),
 
     newArtifacts: translateList(enData.newArtifacts),
     newMaterials: translateList(enData.newMaterials),
@@ -502,7 +548,10 @@ async function buildFrVersionData(
     newRecipes: translateList(enData.newRecipes),
     newFormulas: translateList(enData.newFormulas),
     newSpecialtyDishes: translateList(enData.newSpecialtyDishes),
-    newAchievements: translateList(enData.newAchievements),
+    newAchievements: enData.newAchievements.map((a) => ({
+      category: translate(a.category, map),
+      achievements: a.achievements,
+    })),
     newNamecards: translateList(enData.newNamecards),
     newGadgets: translateList(enData.newGadgets),
     newFurnishings: translateList(enData.newFurnishings),
@@ -512,7 +561,6 @@ async function buildFrVersionData(
       characterCards: translateList(enData.newTcgCards.characterCards),
       actionCards: translateList(enData.newTcgCards.actionCards),
     },
-    otherAdditions: enData.otherAdditions,
 
     imaginariumTheater: enData.imaginariumTheater && {
       startDateRaw: enData.imaginariumTheater.startDateRaw,
@@ -648,7 +696,7 @@ function parseTemplateFields(wikitext: string): TemplateFields {
     const raw = get(`link${i}`);
     if (!raw) continue;
     const match = raw.match(/\[(\S+)\s+([^\]]+)\]/);
-    if (match) links.push({ url: match[1], label: match[2].trim() });
+    if (match) links.push({ url: match[1], label: classifyLinkLabel(match[2]) });
   }
 
   const images: string[] = [];
@@ -832,15 +880,31 @@ function parseWeapons(section: string): VersionData['newWeapons'] {
   return weapons;
 }
 
+// "Epitome Invocation" revient à quasi chaque version sous le même nom : sans
+// distinction, impossible de savoir à quelle occurrence appartient une entrée
+// une fois toutes les versions rassemblées — même principe que le nommage
+// "Nom Date.png" des fichiers de bannières dans scrape-banners.ts. On
+// suffixe donc avec la date de sortie de la version. splitBannerNameDate fait
+// l'inverse pour retrouver le nom brut avant résolution des langlinks FR (le
+// nom suffixé ne correspond à aucun titre de page wiki).
+function formatBannerNameWithDate(name: string, releaseDate: string): string {
+  return releaseDate ? `${name} (${releaseDate})` : name;
+}
+
+function splitBannerNameDate(nameWithDate: string): { base: string; date: string } {
+  const match = nameWithDate.match(/^(.*) \((\d{4}-\d{2}-\d{2})\)$/);
+  return match ? { base: match[1], date: match[2] } : { base: nameWithDate, date: '' };
+}
+
 // Bannières : nettoyer les lignes [[File:...]] avant de parser, suivre le
 // "Phase I"/"Phase II" (niveau 1) pour associer chaque bannière (niveau 2) à
 // sa phase, et extraire le contenu entre parenthèses en tant que "featured"
 // (personnage vedette, ou libellé de wish partagée — pas toujours un nom de
 // personnage, cf. commentaire dans buildFrVersionData).
-function parseBanners(section: string): VersionData['banners'] {
+function parseBanners(section: string, releaseDate: string): VersionData['banners'] {
   const banners: VersionData['banners'] = {
     characters: [],
-    weapons: ['Epitome Invocation'],
+    weapons: [formatBannerNameWithDate('Epitome Invocation', releaseDate)],
   };
   let currentPhase: number | null = null;
 
@@ -866,7 +930,7 @@ function parseBanners(section: string): VersionData['banners'] {
       if (!bannerName) return;
 
       if (bannerName.toLowerCase().includes('epitome')) {
-        banners.weapons.push(bannerName);
+        banners.weapons.push(formatBannerNameWithDate(bannerName, releaseDate));
       } else {
         banners.characters.push({ name: bannerName, featured, phase: currentPhase });
       }
@@ -908,12 +972,54 @@ function parseQuests(section: string): QuestsData {
     const clean = cleanWikiLink(line.replace(/^\*+\s*/, ''));
     if (!clean) continue;
 
+    // Archon Quest tout-en-un : "Archon Quest Chapter III: Act VI - Caribert",
+    // ou même sans préfixe "Archon Quest " quand il est déjà sur une ligne
+    // d'en-tête séparée : "Chapter I: Act III - A New Star Approaches" (1.1).
+    // Ce cas doit être détecté AVANT la détection d'en-tête niveau 1
+    // ci-dessous : la plupart des versions numérotées écrivent le chapitre ET
+    // l'acte sur la MÊME ligne niveau 1 ("* Archon Quest Chapter III: Act VI
+    // - Caribert"), et l'en-tête, en interceptant la ligne la première pour
+    // n'en extraire que le nom de chapitre, ferait perdre l'acte qui n'existe
+    // sur aucune autre ligne.
+    // Le marqueur après le chapitre est presque toujours "Act N", mais
+    // certaines quêtes spéciales de milieu de chapitre l'écrivent "Prologue"
+    // ou "Interlude" à la place (1.6, 5.2) — traité comme acte 0.
+    const archonInlineMatch = clean.match(
+      /(?:Archon Quests?\s+)?(.*(?:Chapter\s+[IVX\d]+|Prologue|Interlude Chapter).*):\s*(?:Act\s+([IVX\d]+)|(Prologue|Interlude))\s*[-–]\s*(.+)/i,
+    );
+    if (archonInlineMatch) {
+      const chapterName = archonInlineMatch[1]
+        .replace(/^Archon Quests?\s*:?\s*/i, '')
+        .trim();
+      const actNum = archonInlineMatch[2] ? romanToInt(archonInlineMatch[2]) : 0;
+      const actName = archonInlineMatch[4].replace(/\(.*?\)/g, '').trim();
+
+      let chapter = result.archonQuests.find(
+        (q) => q.chapterName === chapterName,
+      );
+      if (!chapter) {
+        chapter = { chapter: chapterToKey(chapterName), chapterName, acts: [] };
+        result.archonQuests.push(chapter);
+      }
+      chapter.acts.push({ act: actNum, name: actName });
+      continue;
+    }
+
     // ── Détection des labels de section (niveau 1) ────────────────────────────
     if (depth === 1) {
       const lower = clean.toLowerCase();
       if (lower.includes('archon quest')) {
         currentSection = 'archon';
-        currentChapterName = '';
+        // Certaines pages (1.0, 2.0) combinent l'en-tête et le chapitre sur
+        // une seule ligne niveau 1 ("Archon Quests Chapter II", ou avec ":"
+        // comme séparateur sur 2.7 : "Archon Quests: Interlude Chapter") sans
+        // acte sur cette même ligne (l'acte suit alors en profondeur 2/3) —
+        // le cas où l'acte est aussi sur cette ligne est déjà couvert par
+        // archonInlineMatch ci-dessus.
+        const chapterInlineMatch = clean.match(
+          /Archon Quests?\s*:?\s*(Chapter\s+[IVX\d]+|Prologue|Interlude Chapter)/i,
+        );
+        currentChapterName = chapterInlineMatch ? chapterInlineMatch[1].trim() : '';
         continue;
       }
       if (lower.includes('story quest')) {
@@ -934,28 +1040,6 @@ function parseQuests(section: string): QuestsData {
     }
 
     // ── Format inline (3.5 et versions récentes) ──────────────────────────────
-
-    // Archon Quest inline : "Archon Quest Chapter III: Act VI - Caribert"
-    const archonInlineMatch = clean.match(
-      /(?:Archon Quest\s+)?(.+(?:Chapter\s+[IVX\d]+|Prologue|Interlude Chapter).*):\s*Act\s+([IVX\d]+)\s*[-–]\s*(.+)/i,
-    );
-    if (archonInlineMatch) {
-      const chapterName = archonInlineMatch[1]
-        .replace(/^Archon Quest\s+/i, '')
-        .trim();
-      const actNum = romanToInt(archonInlineMatch[2]);
-      const actName = archonInlineMatch[3].replace(/\(.*?\)/g, '').trim();
-
-      let chapter = result.archonQuests.find(
-        (q) => q.chapterName === chapterName,
-      );
-      if (!chapter) {
-        chapter = { chapter: chapterToKey(chapterName), chapterName, acts: [] };
-        result.archonQuests.push(chapter);
-      }
-      chapter.acts.push({ act: actNum, name: actName });
-      continue;
-    }
 
     // Story Quest inline : "Story Quest Xxx Chapter: Act I - Name (Character)"
     const storyInlineMatch = clean.match(
@@ -999,21 +1083,12 @@ function parseQuests(section: string): QuestsData {
     }
 
     // ── Format imbriqué version 2.0 ───────────────────────────────────────────
+    // (le chapitre inline niveau 1 "Archon Quests Chapter II" est déjà
+    // extrait par la détection d'en-tête plus haut, cf. currentChapterName)
 
-    // Niveau 1 section archon : "* Archon Quests Chapter II" (chapitre inline au niveau 1)
-    if (depth === 1 && currentSection === 'archon') {
-      const chapterInlineMatch = clean.match(
-        /Archon Quests?\s+(Chapter\s+[IVX\d]+|Prologue|Interlude Chapter)/i,
-      );
-      if (chapterInlineMatch) {
-        currentChapterName = chapterInlineMatch[1].trim();
-        continue;
-      }
-    }
-
-    // Niveau 2 section archon format 2.0 : "** Act I: Name" (deux-points, sans tiret)
+    // Niveau 2 section archon format 2.0 : "** Act I: Name" ou "** Act I - Name"
     if (depth === 2 && currentSection === 'archon' && currentChapterName) {
-      const actColonMatch = clean.match(/Act\s+([IVX\d]+):\s*(.+)/i);
+      const actColonMatch = clean.match(/Act\s+([IVX\d]+)\s*(?:[-–]|:)\s*(.+)/i);
       if (actColonMatch) {
         const actNum = romanToInt(actColonMatch[1]);
         const actName = actColonMatch[2].replace(/\(.*?\)/g, '').trim();
@@ -1036,17 +1111,18 @@ function parseQuests(section: string): QuestsData {
 
     // ── Format imbriqué version 3.0 ───────────────────────────────────────────
 
-    // Niveau 2 section archon : "** Chapter III" (chapitre seul)
-    if (depth === 2 && currentSection === 'archon') {
-      if (clean.match(/^(?:Chapter\s+[IVX\d]+|Prologue|Interlude Chapter)/i)) {
-        currentChapterName = clean.trim();
-        continue;
-      }
+    // Niveau 2 section archon : "** Chapter III" (chapitre seul, 3.0) ou nom
+    // d'arc narratif sans le mot "Chapter" (cycle Luna, ex: "Song of the
+    // Welkin Moon" — Luna I) : toute ligne niveau 2 qui n'est pas elle-même
+    // un Act sert de nom de chapitre/arc pour les lignes suivantes.
+    if (depth === 2 && currentSection === 'archon' && !/^Act\s+[IVX\d]+/i.test(clean)) {
+      currentChapterName = clean.trim();
+      continue;
     }
 
-    // Niveau 3 section archon : "*** Act I - Name"
+    // Niveau 3 section archon : "*** Act I - Name" ou "*** Act I: Name"
     if (depth === 3 && currentSection === 'archon' && currentChapterName) {
-      const actMatch = clean.match(/Act\s+([IVX\d]+)\s*[-–]\s*(.+)/i);
+      const actMatch = clean.match(/Act\s+([IVX\d]+)\s*(?:[-–]|:)\s*(.+)/i);
       if (actMatch) {
         const actNum = romanToInt(actMatch[1]);
         const actName = actMatch[2].replace(/\(.*?\)/g, '').trim();
@@ -1156,16 +1232,19 @@ function parseDomains(section: string): string[] {
     if (!clean) return;
 
     if (depth === 1) {
-      // Format "Domain of Forgery: Court of Flowing Sand" → garder seulement "Court of Flowing Sand"
-      const colonMatch = clean.match(
-        /^(?:Domain of [^:]+|One-Time Domains?):\s*(.+)/i,
-      );
+      // Format "Domain of Forgery: Court of Flowing Sand" ou "Trounce Domain:
+      // Confront Stormterror" (1.0) → garder seulement ce qui suit le ":".
+      // Le mot "Domain(s)" avant le ":" identifie un libellé de groupe plutôt
+      // qu'un nom de domaine à part entière.
+      const colonMatch = clean.match(/^.*\bDomains?\b.*?:\s*(.+)/i);
       if (colonMatch) {
         domains.push(colonMatch[1].trim());
         return;
       }
-      // Ignore les labels purs comme "One-Time Domains" (sans contenu après ":")
-      if (clean.match(/^(?:Domain of [^:]+|One-Time Domains?)$/i)) return;
+      // Ignore les labels purs comme "One-Time Domains" ou "Domain of
+      // Blessing:" (sans contenu après le ":", parfois suivi d'un ":" final
+      // quand les sous-domaines sont listés en profondeur 2 à la place — 1.0)
+      if (clean.match(/^.*\bDomains?\b.*?:?$/i)) return;
 
       domains.push(clean);
     } else if (depth === 2) {
@@ -1270,12 +1349,50 @@ function parseImaginariumTheater(section: string): ImaginariumTheater | null {
 // Phase"...) : on prend la première ligne suivant "Updated the monster
 // lineup" qui n'est pas une simple phrase de transition, quel que soit son
 // libellé exact.
+// Regroupe les lignes brutes de Floor 12 en périodes {FIRST_HALF, SECOND_HALF} :
+// une saison Abyss dure 2 périodes (ex: luna_i, 5.4, 5.6 ont 4 lignes = 2
+// paires First/Second Half, une par période). Une ligne "First Half:" ouvre
+// une nouvelle période ; "Second Half:" complète la période ouverte (ou en
+// ouvre une si aucune n'est en attente). Les anciennes versions dont le
+// disorder n'est pas scindé en deux moitiés (simple phrase libre) sont
+// conservées telles quelles dans FIRST_HALF, SECOND_HALF restant vide plutôt
+// que de perdre l'information.
+function buildFloor12Periods(lines: string[]): Floor12DisorderPeriod[] {
+  const periods: Floor12DisorderPeriod[] = [];
+  let pending: Floor12DisorderPeriod | null = null;
+
+  for (const line of lines) {
+    const firstMatch = line.match(/^First Half:\s*(.+)/i);
+    if (firstMatch) {
+      pending = { FIRST_HALF: firstMatch[1].trim(), SECOND_HALF: '' };
+      periods.push(pending);
+      continue;
+    }
+
+    const secondMatch = line.match(/^Second Half:\s*(.+)/i);
+    if (secondMatch) {
+      if (pending && !pending.SECOND_HALF) {
+        pending.SECOND_HALF = secondMatch[1].trim();
+      } else {
+        pending = { FIRST_HALF: '', SECOND_HALF: secondMatch[1].trim() };
+        periods.push(pending);
+      }
+      continue;
+    }
+
+    pending = { FIRST_HALF: line, SECOND_HALF: '' };
+    periods.push(pending);
+  }
+
+  return periods;
+}
+
 function parseSpiralAbyssSeason(section: string): SpiralAbyssSeason | null {
   if (!section.trim()) return null;
 
   const lines = section.split('\n').filter((l) => /^\*+\s*/.test(l));
   const floor11Disorder: string[] = [];
-  const floor12Disorder: string[] = [];
+  const floor12Lines: string[] = [];
   const blessingEffect: string[] = [];
   let blessingName: string | null = null;
   let dateRaw: string | null = null;
@@ -1301,7 +1418,7 @@ function parseSpiralAbyssSeason(section: string): SpiralAbyssSeason | null {
 
     if (mode) {
       if (mode === 'floor11') floor11Disorder.push(clean);
-      else if (mode === 'floor12') floor12Disorder.push(clean);
+      else if (mode === 'floor12') floor12Lines.push(clean);
       else if (mode === 'blessing') blessingEffect.push(clean);
       continue;
     }
@@ -1338,14 +1455,14 @@ function parseSpiralAbyssSeason(section: string): SpiralAbyssSeason | null {
     }
   }
 
-  if (!dateRaw && !floor11Disorder.length && !floor12Disorder.length && !blessingName) {
+  if (!dateRaw && !floor11Disorder.length && !floor12Lines.length && !blessingName) {
     return null;
   }
 
   return {
     startDateRaw: dateRaw,
     floor11Disorder,
-    floor12Disorder,
+    floor12Disorder: buildFloor12Periods(floor12Lines),
     blessingName,
     blessingEffect: blessingEffect.length ? blessingEffect.join(' ') : null,
   };
@@ -1378,13 +1495,34 @@ async function scrapeVersion(versionArg: string): Promise<VersionData> {
     }
   }
 
-  const newContentSection = extractMainSection(wikitext, 'New Content');
-  const sub = (label: string) => extractSubsection(newContentSection, label);
+  // La page de la version 1.0 (lancement du jeu) n'a pas de section "New
+  // Content" : tout le contenu de base est listé sous "Released Content",
+  // avec des libellés de sous-section eux aussi différents ("Playable
+  // Characters" au lieu de "New Characters", etc.) — cf. les alias passés à
+  // `sub` ci-dessous.
+  const newContentSection =
+    extractMainSection(wikitext, 'New Content') ||
+    extractMainSection(wikitext, 'Released Content');
+  // Essaie chaque libellé dans l'ordre et retourne le premier non-vide :
+  // gère les renommages de sous-section au fil des versions.
+  const sub = (...labels: string[]) => {
+    for (const label of labels) {
+      const result = extractSubsection(newContentSection, label);
+      if (result.trim()) return result;
+    }
+    return '';
+  };
 
-  // Classification des monstres en boss / monstres normaux
-  const allEnnemies = extractMonsterNames(sub('New Monsters'));
+  // Classification des monstres en boss / monstres normaux. Sur la 1.0,
+  // "Monsters" et "Bosses" sont deux sous-sections distinctes plutôt qu'une
+  // seule "New Monsters" imbriquée — la classification par page individuelle
+  // (fetchEnemyType) place chaque nom au bon endroit indépendamment de sa
+  // section d'origine, donc on peut simplement concaténer les deux.
+  const allEnnemies = extractMonsterNames(sub('New Monsters', 'Monsters')).concat(
+    extractMonsterNames(sub('Bosses')),
+  );
   console.log(`Classifying ${allEnnemies.length} monsters...`);
-  const newMonsters = await classifyEnnemies(allEnnemies);
+  const newEnemies = await classifyEnnemies(allEnnemies);
 
   return {
     number,
@@ -1399,27 +1537,28 @@ async function scrapeVersion(versionArg: string): Promise<VersionData> {
     links: tpl.links,
     images: tpl.images,
 
-    newCharacters: parseCharacters(sub('New Characters')),
+    newCharacters: parseCharacters(sub('New Characters', 'Playable Characters')),
     newOutfits: parseOutfits(sub('New Outfits')),
     newWeapons: mergeWeapons(
       // "New Equipment" : libellé utilisé sur les pages de version ~1.2-1.6,
-      // remplacé par "New Weapons" sur les versions plus récentes.
-      mergeWeapons(parseWeapons(sub('New Weapons')), parseWeapons(sub('New Equipment'))),
+      // "Weapons" sur la 1.0, remplacés par "New Weapons" ensuite.
+      mergeWeapons(
+        parseWeapons(sub('New Weapons', 'Weapons')),
+        parseWeapons(sub('New Equipment')),
+      ),
       parseWeapons(sub('New Forgeable Weapons')),
     ),
-    banners: parseBanners(sub('Event Wishes')),
+    banners: parseBanners(sub('Event Wishes'), tpl.date),
 
-    mapExpansion: parseMapExpansion(
-      sub('New Region') || sub('New Regions') || sub('New Areas'),
-    ),
-    newDomains: parseDomains(sub('New Domains')),
+    mapExpansion: parseMapExpansion(sub('New Region', 'New Regions', 'New Areas', 'Regions')),
+    newDomains: parseDomains(sub('New Domains', 'Domains')),
     newSystems: parseSimpleList(sub('New Systems')),
-    newMonsters,
-    newWildlife: parseSimpleList(sub('New Wildlife')),
+    newEnemies,
+    newCreatures: parseSimpleList(sub('New Wildlife')),
 
-    newArtifacts: parseSimpleList(sub('New Artifact Sets')).concat(
-      parseSimpleList(sub('New Artifacts')),
-    ),
+    newArtifacts: parseSimpleList(sub('New Artifact Sets'))
+      .concat(parseSimpleList(sub('New Artifacts')))
+      .concat(parseSimpleList(sub('Artifacts'))),
     newMaterials: parseSimpleList(sub('New Materials')),
     newMonsterDrops: parseSimpleList(sub('New Monster Drops')),
     newTalentMaterials: parseSimpleList(sub('New Talent Level-Up Materials')),
@@ -1427,24 +1566,28 @@ async function scrapeVersion(versionArg: string): Promise<VersionData> {
       sub('New Weapon Ascension Materials'),
     ),
 
-    newQuests: parseQuests(sub('New Quests')),
-    events: parseSimpleList(sub('New Events')).map((e) =>
+    newQuests: parseQuests(sub('New Quests', 'Quests')),
+    events: parseSimpleList(sub('New Events', 'Events')).map((e) =>
       e.replace(/\s*\(Permanent\)\s*$/i, '').trim(),
     ),
 
     newRecipes: parseSimpleList(sub('New Recipes')),
     newFormulas: parseSimpleList(sub('New Formula')),
     newSpecialtyDishes: parseSimpleList(sub('New Character Specialty Dishes')),
-    newAchievements: parseSimpleList(sub('New Achievements')).map((a) =>
-      a.replace(/^Additions to\s+/i, '').trim(),
-    ),
+    newAchievements: parseSimpleList(sub('New Achievements'))
+      .map((a) => a.replace(/^Additions to\s*:?\s*/i, '').trim())
+      // "* Additions to:" seul (2.7+) n'est qu'un label introduisant les
+      // catégories en profondeur 2 qui suivent — sans contenu propre une
+      // fois le préfixe retiré, à exclure plutôt qu'à garder comme catégorie
+      // vide.
+      .filter(Boolean)
+      .map((category) => ({ category, achievements: [] })),
     newNamecards: parseSimpleList(sub('New Namecards')),
     newGadgets: parseSimpleList(sub('New Gadgets')),
     newFurnishings: parseSimpleList(sub('New Furnishings')),
     newFurnishingSets: parseSimpleList(sub('New Furnishing Sets')),
     newBooks: parseSimpleList(sub('New Books')),
     newTcgCards: parseTcgCards(sub('New Genius Invokation TCG Cards')),
-    otherAdditions: parseSimpleList(sub('Other Additions')),
 
     imaginariumTheater: parseImaginariumTheater(sub('Imaginarium Theater')),
     spiralAbyss: parseSpiralAbyssSeason(sub('Spiral Abyss')),

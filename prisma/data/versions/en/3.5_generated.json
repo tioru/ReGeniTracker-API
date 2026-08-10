@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/105440",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/105414",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?page_sn=800dab08f99748a7#/update",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20230218preview-z6n9lj/index.html",
-      "label": "Website"
+      "label": "VERSION_WEBSITE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/105344",
-      "label": "Developers Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -81,13 +81,13 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2023-03-01)"
     ]
   },
   "mapExpansion": [],
   "newDomains": [],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [
       "Abyss Herald: Frost Fall",
@@ -98,14 +98,25 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [],
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "3",
+        "chapterName": "Chapter III",
+        "acts": [
+          {
+            "act": 6,
+            "name": "Caribert"
+          }
+        ]
+      }
+    ],
     "storyQuests": [],
     "worldQuests": [],
     "hangoutQuests": [
@@ -140,14 +151,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [
-    "Adds some prompts for loading screens.",
-    "Added Set 21 of \"Paimon's Paintings\" chat emojis.",
-    "The gadget \"Festive Drum\" can now be purchased from Mikoshi Genichirou, the owner of Inazuma's Netsuke no Gen Crafts.",
-    "You can directly teleport to the Mansion's location within the Serenitea Pot using the Map.",
-    "A guide to Archon Quests will be added to the \"Adventurer Handbook: Guide\" page. For each Archon Quest Act completed, Travelers can claim the corresponding rewards on this page.",
-    "New Heated Battle Mode in Genius Invokation TCG: The number of Elemental Dice required to play the first card from your hand every round will be reduced by two and the number of Elemental Dice required to use the first character skill each round Will be reduced by one."
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

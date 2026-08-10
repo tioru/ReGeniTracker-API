@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/162806",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/162712",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=a20865449b12434f#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_myGzVjTyki/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/162716",
-      "label": "System Update Overview"
+      "label": "SYSTEM_UPDATE_OVERVIEW"
     }
   ],
   "images": [
@@ -79,7 +79,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2026-02-25)"
     ]
   },
   "mapExpansion": [],
@@ -98,7 +98,7 @@
     "Frostmoon Prayers",
     "Mysterious White Star"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -108,7 +108,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [
@@ -141,7 +141,10 @@
     "Hearty Indulgence"
   ],
   "newAchievements": [
-    "Wonders of the World category"
+    {
+      "category": "Wonders of the World category",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Varka: Lead Wolf",
@@ -242,9 +245,6 @@
       "Elemental Transfiguration: Superconduct Blessing"
     ]
   },
-  "otherAdditions": [
-    "Adds Set 47 of \"Paimon's Paintings\" chat emojis."
-  ],
   "imaginariumTheater": {
     "startDateRaw": "March 1, 2026",
     "requiredElements": [
@@ -274,8 +274,10 @@
       "All party members receive a 60% Cryo DMG Bonus."
     ],
     "floor12Disorder": [
-      "First Half: Anemo DMG dealt by the active character increased by 75%.",
-      "Second Half: Characters' Normal Attack Cryo DMG increased by 75%."
+      {
+        "FIRST_HALF": "Anemo DMG dealt by the active character increased by 75%.",
+        "SECOND_HALF": "Characters' Normal Attack Cryo DMG increased by 75%."
+      }
     ],
     "blessingName": "Windlash Moon",
     "blessingEffect": "When a character triggers a Swirl reaction on an opponent, they gain 1 stack of Windlash, and when the stack count reaches 4, a shockwave is unleashed at the opponent's position, dealing True DMG and consuming all stacks of Windlash at the same time. Up to 1 stack of Windlash can be gained every 0.1s. A shockwave can be unleashed this way every 6s."

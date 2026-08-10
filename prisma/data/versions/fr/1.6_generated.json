@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/13423",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/13274",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210603prepage/index.html?utm_source=officialweb&utm_medium=news#/",
-      "label": "Version 1.6 Website"
+      "label": "VERSION_WEBSITE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/12469",
-      "label": "Developer's Discussion 4/29"
+      "label": "DEVELOPERS_DISCUSSION"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/12952",
-      "label": "May 24 Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -59,13 +59,13 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2021-06-09)"
     ]
   },
   "mapExpansion": [],
   "newDomains": [],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -75,14 +75,25 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [],
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "2",
+        "chapterName": "Chapitre II",
+        "acts": [
+          {
+            "act": 0,
+            "name": "\"Autumn Winds, Scarlet Leaves\""
+          }
+        ]
+      }
+    ],
     "storyQuests": [],
     "worldQuests": [
       "A Dish Beyond Mortal Ken",
@@ -121,7 +132,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [],
   "imaginariumTheater": null,
   "spiralAbyss": null
 }

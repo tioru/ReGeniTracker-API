@@ -13,39 +13,603 @@
     "Splashscreen Welcome To Teyvat.png",
     "Splashscreen Sparkling Steps.png"
   ],
-  "newCharacters": [],
+  "newCharacters": [
+    {
+      "name": "Voyageur",
+      "rarity": null,
+      "element": null,
+      "weaponType": null
+    },
+    {
+      "name": "Amber",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Kaeya",
+      "rarity": 4,
+      "element": "Cryo",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Lisa",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Barbara",
+      "rarity": 4,
+      "element": "Hydro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Noëlle",
+      "rarity": 4,
+      "element": "Geo",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Bennett",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Razor",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Beidou",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Fischl",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Xiangling",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Xingqiu",
+      "rarity": 4,
+      "element": "Hydro",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Chongyun",
+      "rarity": 4,
+      "element": "Cryo",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Ningguang",
+      "rarity": 4,
+      "element": "Geo",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Sucrose",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Venti",
+      "rarity": 5,
+      "element": "Anemo",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Klee",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Jean",
+      "rarity": 5,
+      "element": "Anemo",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Diluc",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Keqing",
+      "rarity": 5,
+      "element": "Electro",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Mona",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Qiqi",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Sword"
+    }
+  ],
   "newOutfits": [],
-  "newWeapons": {},
-  "banners": {
-    "characters": [],
-    "weapons": [
-      "Incarnation divine"
+  "newWeapons": {
+    "1Star": [
+      "Arc de chasse",
+      "Épée émoussée",
+      "Lance du débutant",
+      "Épée d'entraînement",
+      "Notes de l'apprenti"
+    ],
+    "2Star": [
+      "Arc de chasse aguerri",
+      "Épée en argent",
+      "Pointe de fer",
+      "Lame du mercenaire",
+      "Grimoire de poche"
+    ],
+    "3Star": [
+      "Messager",
+      "Arc du corbeau",
+      "Arc courbé",
+      "Serment de l'archer",
+      "Lance-pierres",
+      "Lame froide",
+      "Épée en fer noir",
+      "Couteau à filets",
+      "Messager de l'Aube",
+      "Épée céleste",
+      "Épée du voyageur",
+      "Pampille noire",
+      "Hallebarde",
+      "Pampille blanche",
+      "Épée sanglante",
+      "Épée de la raison",
+      "Ombre ferreuse",
+      "Grande épée céleste",
+      "Grande épée en fer blanc",
+      "Orbe jadien",
+      "Guide de magie",
+      "Conte d'un autre monde",
+      "Histoire des chasseurs de dragon",
+      "Néphrite jumelle"
+    ],
+    "4Star": [
+      "Arc de guerre de Rochenoire",
+      "Arc à poulies",
+      "Arc de chasse de Favonius",
+      "Lune paisible (prototype)",
+      "Arc royal",
+      "Arc rouillé",
+      "Arc rituel",
+      "Dernière corde",
+      "Arc de chasse verdoyant",
+      "Épée longue de Rochenoire",
+      "Épée de Favonius",
+      "Piqûre de fer",
+      "Rugissement du Lion",
+      "Tailleur de pierre (prototype)",
+      "Épée longue royale",
+      "Épée rituelle",
+      "Épée de la descente",
+      "Épée noire",
+      "Flûte",
+      "Lance de Rochenoire",
+      "Pique du croissant de lune",
+      "Scion de la victoire",
+      "Fléau du dragon",
+      "Lance de Favonius",
+      "Guisarme stellaire (prototype)",
+      "Trancheuse de Rochenoire",
+      "Espadon de Favonius",
+      "Espadon (prototype)",
+      "Fluorescence",
+      "Espadon royal",
+      "Espadon rituel",
+      "Ossature du dragon",
+      "Épée-horloge",
+      "Ombre immaculée",
+      "Agate de Rochenoire",
+      "Œil de la perception",
+      "Code de Favonius",
+      "Atlas des terres et des mers",
+      "Malice (prototype)",
+      "Grimoire royal",
+      "Mémoires de rituels",
+      "Perle solaire",
+      "Mouvement vagabond"
+    ],
+    "5Star": [
+      "Arc d'Amos",
+      "Ailes de la Voûte d'Azur",
+      "Épée du faucon",
+      "Lame de la Voûte d'Azur",
+      "Lance de jade ailée",
+      "Berge de la Voûte d'Azur",
+      "Fierté de la Voûte d'Azur",
+      "Mort-du-loup",
+      "L'origine des Quatre Vents",
+      "Atlas de la Voûte d'Azur"
     ]
   },
-  "mapExpansion": [],
-  "newDomains": [],
+  "banners": {
+    "characters": [
+      {
+        "name": "Ballade en pintes",
+        "featured": "Venti",
+        "phase": null
+      },
+      {
+        "name": "Foulées étincelantes",
+        "featured": "Klee",
+        "phase": null
+      }
+    ],
+    "weapons": [
+      "Incarnation divine (2020-09-28)"
+    ]
+  },
+  "mapExpansion": [
+    {
+      "mainRegion": "Mondstadt",
+      "subRegion": [
+        "Montagnes de Brillecouronne",
+        "Colline sifflante",
+        "Vallée Tombétoile",
+        "Hauts du Mornevent"
+      ]
+    },
+    {
+      "mainRegion": "Liyue",
+      "subRegion": [
+        "Sources de Jade",
+        "Lisha",
+        "Forêt de jade",
+        "Estuaire Qiongji",
+        "Mer de nuages"
+      ]
+    }
+  ],
+  "newDomains": [
+    "Lagunes et montagnes",
+    "Au-dessus des nuages",
+    "Palais secret de la Formule Zhou",
+    "Jardin estival",
+    "Vallée de la réminiscence",
+    "Pépinière de cécilias",
+    "Palais secret de Lianshan",
+    "Gorge de l'oubli",
+    "Manoir Taishan",
+    "Ruines abandonnées",
+    "Chemin sinueux",
+    "Porte du Faucon",
+    "Palais secret de Guizang",
+    "Temple du Faucon",
+    "Temple du Lion",
+    "Temple du Loup",
+    "Pénétrer dans l'Antre de Stormterror",
+    "Profondeurs spiralées"
+  ],
   "newSystems": [],
-  "newMonsters": {
-    "common": [],
-    "elite": [],
+  "newEnemies": {
+    "common": [
+      "Brutocollinus (ennemi)",
+      "Guerrier Brutocollinus",
+      "Arbalétrier Brutocollinus",
+      "Berserker Brutocollinus",
+      "Grenadier Brutocollinus Pyro",
+      "Brutoshaman Anémo",
+      "Arbalétrier Brutocollinus Pyro",
+      "Arbalétrier Brutocollinus Cryo",
+      "Arbalétrier Brutocollinus Électro",
+      "Brutoshaman Dendro",
+      "Brutoshaman Géo",
+      "Brutoshaman Hydro",
+      "Électroluciole",
+      "Hydroluciole",
+      "Slimes",
+      "Pilleurs de trésors",
+      "Brutocollinus avec bouclier de bois",
+      "Brutocollinus avec bouclier de pierre",
+      "Fatui Skirmishers",
+      "Whopperflowers",
+      "Oceanid"
+    ],
+    "elite": [
+      "Brutoviandu avec bouclier de bois",
+      "Brutoviandu avec hache Pyro",
+      "Brutoviandu avec bouclier de pierre",
+      "Mage électroluciole des Fatui",
+      "Usurier Pyro des Fatui",
+      "Gardien des ruines",
+      "Chasseur des ruines",
+      "Noyau de tempête",
+      "Jeune Géosaure"
+    ],
     "boss": {
-      "normal": [],
+      "normal": [
+        "Hypostase Anémo",
+        "Hypostase Électro",
+        "Hypostase Géo",
+        "Arbre enflammé",
+        "Arbre congelé"
+      ],
       "weekly": []
     }
   },
-  "newWildlife": [],
-  "newArtifacts": [],
+  "newCreatures": [],
+  "newArtifacts": [
+    "Initiate",
+    "Aventurier",
+    "Chanceux",
+    "Médecin itinérant",
+    "Cœur du Voyageur",
+    "Miracle",
+    "Berserker",
+    "Instructeur",
+    "Exilé",
+    "Cœur du Gardien",
+    "Cœur du Brave",
+    "Artiste martial",
+    "Parieur",
+    "Érudit",
+    "Sacrifieur Électro",
+    "Sacrifieur Hydro",
+    "Sacrifieur Pyro",
+    "Sacrifieur Cryo",
+    "Rideau du Gladiateur",
+    "Bande vagabonde",
+    "Ancien rituel royal",
+    "Chevalerie ensanglantée",
+    "Amour chéri",
+    "Ombre de la Verte Chasseuse",
+    "Roche ancienne",
+    "Météore inversé",
+    "Dompteur de foudre",
+    "Colère de tonnerre",
+    "Marcheur du feu",
+    "Sorcière des flammes ardentes"
+  ],
   "newMaterials": [],
   "newMonsterDrops": [],
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
-    "storyQuests": [],
-    "worldQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "prologue",
+        "chapterName": "Prologue",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Le voyageur qui attrapa le vent"
+          },
+          {
+            "act": 2,
+            "name": "Pour un avenir sans larmes"
+          },
+          {
+            "act": 3,
+            "name": "Chanson du dragon et de la liberté"
+          }
+        ]
+      },
+      {
+        "chapter": "1",
+        "chapterName": "Chapitre I",
+        "acts": [
+          {
+            "act": 1,
+            "name": "La terre mystique aux mille rochers"
+          },
+          {
+            "act": 2,
+            "name": "Adieu à l'Exuvia"
+          }
+        ]
+      }
+    ],
+    "storyQuests": [
+      {
+        "chapter": "Pavo Ocellus",
+        "character": "Kaeya",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Secret Pirate Treasure"
+          }
+        ]
+      },
+      {
+        "chapter": "Lepus",
+        "character": "Amber",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Wind, Courage, and Wings"
+          }
+        ]
+      },
+      {
+        "chapter": "Trulla",
+        "character": "Xiangling",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Mondstadt Gastronomy Trip"
+          }
+        ]
+      },
+      {
+        "chapter": "Tempus Fugit",
+        "character": "Lisa",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Tâche ingrate"
+          }
+        ]
+      },
+      {
+        "chapter": "Noctua",
+        "character": "Diluc",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Darknight Hero's Alibi"
+          }
+        ]
+      },
+      {
+        "chapter": "Lupus Minor",
+        "character": "Razor",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Meaning of Lupical"
+          }
+        ]
+      },
+      {
+        "chapter": "Fabulae Textile",
+        "character": "Xingqiu",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Bookworm Swordsman"
+          }
+        ]
+      },
+      {
+        "chapter": "Trifolium",
+        "character": "Klee",
+        "acts": [
+          {
+            "act": 1,
+            "name": "True Treasure"
+          }
+        ]
+      },
+      {
+        "chapter": "Leo Minor",
+        "character": "Jean",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Journée de repos pour la Grande Maîtresse"
+          }
+        ]
+      },
+      {
+        "chapter": "Carmen Dei",
+        "character": "Venti",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Should You Be Trapped in a Windless Land"
+          }
+        ]
+      },
+      {
+        "chapter": "Astrolabos",
+        "character": "Mona",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Beyond This World's Stars"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "...What Do Adventurers Do Again?",
+      "Élévation du Niveau d'aventure - 1",
+      "Élévation du Niveau d'aventure - 2",
+      "Élévation du Niveau d'aventure - 3",
+      "Élévation du Niveau d'aventure - 4",
+      "Une occasion unique ?",
+      "A Little Game",
+      "A Lone Ship In Guyun",
+      "A Provisional Arrangement",
+      "A Quiet Day in Liyue Harbor",
+      "Extraction post-tempête",
+      "An Adeptal Summons",
+      "And This Treasure Goes To...",
+      "Big Business",
+      "Blackcliff Woes",
+      "Book in the Woods",
+      "Les sceaux du Cimetière d'épées",
+      "Une Guilde bien occupée",
+      "Grand ménage (quête)",
+      "Collectionneuse de sceaux Anémo",
+      "Échange de bons procédés",
+      "Chaque jour est une aventure",
+      "Flora, les fleurs et le vent",
+      "Après-crise",
+      "Remise en état",
+      "Luhua Landscape",
+      "L'Archon Anémo et Mondstadt",
+      "Hors des sentiers battus",
+      "Neuf piliers",
+      "Savoir saisir sa chance",
+      "Old Tastes Die Hard",
+      "À plusieurs c'est plus facile",
+      "Pressing Deadlines",
+      "Quiz de l'Ordre",
+      "Effluve parfumée",
+      "À chacun son trésor",
+      "Préparatifs",
+      "Temple raider",
+      "Le secret d'une bonne cuisine",
+      "La bénédiction des Sept",
+      "The Chi of Yore",
+      "The Ocean Pearl",
+      "The Tree who Stands Alone",
+      "The Yaksha's Wish",
+      "Sus aux Pilleurs !",
+      "Le temps qu'on ne rattrape pas",
+      "Le temps et le vent",
+      "Trails in Tianqiu",
+      "Treasure Lost, Treasure Found",
+      "Bienvenue à la Guilde des aventuriers",
+      "Will of Stone",
+      "Problèmes logistiques",
+      "Sagesse des civilisations antiques",
+      "Alan a un souci",
+      "Livraison pour le Dr Édith",
+      "Livraison pour le Dr. Livingstone",
+      "Jack a un souci",
+      "La détresse de Lianne",
+      "La détresse de Lynn",
+      "La détresse de Margaret",
+      "Pallad a un souci",
+      "José aux six doigts a un souci"
+    ],
     "hangoutQuests": []
   },
-  "events": [],
+  "events": [
+    "Prédestination",
+    "Barbara entre en scène",
+    "Spiral Abyss Event - People's Choice",
+    "Seize the Day",
+    "Fourneau élémentaire",
+    "Merveilleuses marchandises"
+  ],
   "newRecipes": [],
   "newFormulas": [],
   "newSpecialtyDishes": [],
@@ -59,7 +623,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [],
   "imaginariumTheater": null,
   "spiralAbyss": null
 }

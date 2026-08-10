@@ -11,19 +11,19 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/22212",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/22074",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=c82261e0fe0f432d#/update",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20220703prev-wiz6/index.html",
-      "label": "Website"
+      "label": "VERSION_WEBSITE"
     }
   ],
   "images": [
@@ -58,13 +58,13 @@
   "banners": {
     "characters": [],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2022-07-13)"
     ]
   },
   "mapExpansion": [],
   "newDomains": [],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -72,7 +72,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [],
@@ -129,7 +129,10 @@
   "newFormulas": [],
   "newSpecialtyDishes": [],
   "newAchievements": [
-    "Memories of the Heart category"
+    {
+      "category": "Memories of the Heart category",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Thème Shikanoin Heizou - Temari",
@@ -156,12 +159,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [
-    "\"Adventurer Handbook - Guide\" page.",
-    "\"Adventurer Handbook - Embattle\" page.",
-    "Fragile Resin tutorial.",
-    "Some Loading Screen prompts."
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

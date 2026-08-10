@@ -11,15 +11,15 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/7632",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://webstatic-sea.mihoyo.com/ys/event/e20201216new/index.html",
-      "label": "Version 1.2 Website"
+      "label": "VERSION_WEBSITE"
     },
     {
       "url": "https://www.hoyolab.com/article/97951",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -66,7 +66,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2020-12-23)"
     ]
   },
   "mapExpansion": [
@@ -82,7 +82,7 @@
   "newSystems": [
     "\"Stellar Reunion\" Returnee Event"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Cryo Samachurl",
       "Ice Shield Hilichurl Guard",
@@ -100,7 +100,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [
     "Blizzard Strayer",
     "Heart of Depth"
@@ -156,7 +156,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [],
   "imaginariumTheater": null,
   "spiralAbyss": null
 }

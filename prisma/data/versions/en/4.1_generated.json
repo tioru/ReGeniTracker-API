@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/113142",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/113097",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=56075b48c1ec4dad#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20230916preview/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/112972",
-      "label": "Developer's Discussion 09/13"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -86,7 +86,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2023-09-27)"
     ]
   },
   "mapExpansion": [
@@ -104,7 +104,7 @@
     "Adventure Encounters",
     "Completing quests, participating in events, carrying out exploration, and collecting materials will reward Encounter Points. These points can be exchanged for the same rewards as from Daily Commissions. Encounter Points can be earned after reaching Adventure Rank 35 or completing Archon Quest Chapter II: Act III - Omnipresence Over Mortals."
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Experimental Field Generator",
       "Deepwater Assault Mek",
@@ -121,7 +121,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Subdetection Unit"
   ],
   "newArtifacts": [],
@@ -240,21 +240,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [
-    "Resounding Melodies Bundle",
-    "Adds Set 26 of \"Paimon's Paintings\" chat emojis.",
-    "Adds the \"Mute When Minimized\" function to the PC platform.",
-    "Fountain of Lucine: Increase in the Level Cap of Fountain of Lucine to Level 30.",
-    "The weekly Guest Challenge gameplay will be upgraded into the Sennight Gauntlet system:",
-    "# The Sennight Gauntlet system will unlock at Player Level 2.",
-    "# The rewards in the original \"Guest Challenge\" system will be issued in the \"Sennight Gauntlet\" system.",
-    "# Win Guest Challenges, matchmade Co-Op duels, or Arena of Champions matches to earn Sennight Gauntlet rewards, including Player EXP and Lucky Coins. Rewards will further increase as your Player Level increases.",
-    "# Player EXP and Lucky Coins earned from the Sennight Gauntlet are subject to the weekly limit, and the total rewards obtained through different game modes cannot exceed the limit.",
-    "# The Sennight Gauntlet Rewards will refresh each Monday, and the weekly rewards for the Sennight Gauntlet will be determined based on your Player Level at that time:<br>Player Level 1-4: Up to 2,400 Lucky Coins and 800 Player EXP<br>Player Level 5-6: Up to 3,600 Lucky Coins and 800 Player EXP<br>Player Level 7-9: Up to 4,800 Lucky Coins and 800 Player EXP<br>Player Level 10: Up to 6,000 Lucky Coins.",
-    "The Forge Realm's Temper is once again available. The theme of this edition is \"The Forge Realm's Temper: Clever Strategems\":",
-    "# During The Forge Realm's Temper: Clever Strategems, you can select the parameters for each stage. Parameters that may be set include: stage difficulty, enemy health, and the round limit for the match.",
-    "# After you complete the stage battle, you will gain a score and the corresponding rewards based on the highest score you got in the stage."
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

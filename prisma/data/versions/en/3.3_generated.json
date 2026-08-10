@@ -11,19 +11,19 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/27964",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/26079",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?page_sn=15efceb8cc5b4eb4#/update",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20221126prev-18kfmk/index.html",
-      "label": "Website"
+      "label": "VERSION_WEBSITE"
     }
   ],
   "images": [
@@ -77,7 +77,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2022-12-07)"
     ]
   },
   "mapExpansion": [],
@@ -85,7 +85,7 @@
     "City of Gold"
   ],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -93,7 +93,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [
     "Desert Pavilion Chronicle",
     "Flower of Paradise Lost"
@@ -103,9 +103,21 @@
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "interlude",
+        "chapterName": "Interlude Chapter",
+        "acts": [
+          {
+            "act": 3,
+            "name": "Inversion of Genesis"
+          }
+        ]
+      }
+    ],
     "storyQuests": [],
     "worldQuests": [
+      "Commission",
       "Battlefield of Dice, Cats, and Cards",
       "Ascension Challenge I",
       "Ascension Challenge II",
@@ -134,21 +146,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [
-    "Adds some prompts for loading screens.",
-    "Adds search function for Furnishings in Furnishing Creation interface and Serenitea Pot editing menu.",
-    "After Trust Rank reaches Level 10, the purchase limit cap of products in Realm Depot > Furnishings will be raised.",
-    "Adds the source of the Furnishing in the item description.",
-    "Adds Coral Butterfly to items sold by the Teapot Traveling Salesman.",
-    "Stellar Reunion Adjustments:",
-    "Interface Optimization: Adds access to Genius Invokation TCG to \"Returner's Journey.\"",
-    "Event Adjustment: Updates the completion conditions of certain \"Homeward Path\" missions.",
-    "Adds a new Battle Pass Mission in \"Battle Pass > Weekly Missions\": Complete Invokation TCG Weekly Guest Challenges 2 times.",
-    "Add Turkish and Italian Languages.",
-    "In the content updated in version 3.3, there are text errors for some English voice-over lines.",
-    "Akitsu Yuugen should be: Akitsu Yuugei",
-    "Akitsu Hazura should beAkitsu Haneasobi"
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": null
 }

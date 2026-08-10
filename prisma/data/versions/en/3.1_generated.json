@@ -11,19 +11,19 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/24282",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/24103",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=a3bd4ca104fa4b6d#/update",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20220917prev/index.html",
-      "label": "Website"
+      "label": "VERSION_WEBSITE"
     }
   ],
   "images": [
@@ -87,7 +87,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2022-09-28)"
     ]
   },
   "mapExpansion": [],
@@ -97,7 +97,7 @@
     "Altar of Mirages"
   ],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Eremite Galehunter",
       "Eremite Stone Enchanter",
@@ -119,7 +119,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Red Vulture",
     "Scorpion",
     "Desert Sumpter Beast",
@@ -222,18 +222,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [
-    "Adds some prompts for loading screens.",
-    "Clearing Floor 4 Chamber 3 of the Spiral Abyss will allow players to invite Collei in Curtain of Leaves.",
-    "Stellar Reunion Adjustments:",
-    "UI Optimizations: Adds the \"Returner's Journey\" tab which can be used to quickly view pages such as \"Teyvat Items of Interest,\" \"Adventure Handbook: Guide,\" \"Adventure Handbook: Embattle,\" \"Realm Within,\" among others.",
-    "Event Adjustments: Adjusts some \"Stellar Reunion\" rewards. For Travelers who activate \"Stellar Reunion\" after the Version 3.1 update, the reward for obtaining 400 points will be adjusted to \"Northlander Billet Trove.\"",
-    "When using the DualSense™ Wireless Controller on PC or PS5™, corresponding vibrations can be felt as each character unleashes their Elemental Burst.",
-    "Adds controller \"Graded Vibration Settings\" in the \"Settings > Controls\" interface. You can activate it completely, partially or deactivate it according to your preferences.",
-    "Adds controller \"Vibration Strength\" in the \"Settings > Controls\" interface.",
-    "On the Asia, Europe, America, and TW, HK, and MO servers, testing of the \"Past Quest Resource Management\" function has begun: Travelers can delete the audio and video resources corresponding to the completed Archon Quests and Story Quests on mobile, thus reducing the size of the game. The deleted audio resources can be re-downloaded after deletion. Travelers can do so in the \"Settings > Resources > Quest Resources\" interface.",
-    "The function is now being tested in the Irminsul Server. Function testing will commence on the Celestia Server in Version 3.2."
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

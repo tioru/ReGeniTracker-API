@@ -11,19 +11,19 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/25356",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/25244",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?page_sn=3f55a94e68c74458#/update",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20221024prev/index.html",
-      "label": "Website"
+      "label": "VERSION_WEBSITE"
     }
   ],
   "images": [
@@ -74,7 +74,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2022-11-02)"
     ]
   },
   "mapExpansion": [],
@@ -82,7 +82,7 @@
   "newSystems": [
     "Serenitea Pot System: \"Replication\""
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -94,14 +94,25 @@
       ]
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [],
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "3",
+        "chapterName": "Chapter III",
+        "acts": [
+          {
+            "act": 5,
+            "name": "Akasha Pulses, the Kalpa Flame Rises"
+          }
+        ]
+      }
+    ],
     "storyQuests": [
       {
         "chapter": "Sapientia Oromasdis Chapter",
@@ -140,11 +151,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [
-    "Adds some prompts for loading screens.",
-    "New Item: Nature's True Fruit.",
-    "New Serenitea Pot Realm Layout: \"Sublime Spicewood\"."
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

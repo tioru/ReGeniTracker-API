@@ -11,19 +11,19 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/165076",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/165001",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=ed504b9f27204b1e#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/164999",
-      "label": "Paimon's Version Update Notes"
+      "label": "PAIMONS_VERSION_UPDATE_NOTES"
     }
   ],
   "images": [
@@ -85,7 +85,7 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2026-07-01)"
     ]
   },
   "mapExpansion": [
@@ -113,7 +113,7 @@
     "Dovefeather Moondew",
     "Ancient Moon's Remnant"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Blob prismatique",
       "Mushteshir"
@@ -126,7 +126,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Baleine givreuse lunière",
     "Moonglow Jellyfish"
   ],
@@ -171,8 +171,14 @@
     "Ensemble du goûteron"
   ],
   "newAchievements": [
-    "Unfettered Crescent",
-    "Succès/Merveilles du monde"
+    {
+      "category": "Unfettered Crescent",
+      "achievements": []
+    },
+    {
+      "category": "Succès/Merveilles du monde",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Sandrone: Tea Break",
@@ -222,13 +228,6 @@
       "Tarte aux lakkabaies"
     ]
   },
-  "otherAdditions": [
-    "Adds Set 50 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens.",
-    "Souvenir Shop Available: After upgrading all 6 Meeting Points in the Nod-Krai region and the 2 Ancient Moon's Remnants in the Frost Moon area to their max level, Travelers can use Luna Sigils to purchase items from the Voynich Guild in Nod-Krai.",
-    "After the Version Luna VIII update, the weapons \"Cashflow Supervision\" (Catalyst) and \"Kagura's Verity\" (Catalyst) will gain new enhancement effects.",
-    "There will be new Fishing Points and \"Radiant Spincrystals\" in the new areas."
-  ],
   "imaginariumTheater": {
     "startDateRaw": "August 1, 2026",
     "requiredElements": [
@@ -258,8 +257,10 @@
       "All characters in the party gain a 60% Electro DMG Bonus."
     ],
     "floor12Disorder": [
-      "First Half: Characters' Superconduct DMG increased by 200% and Stellar-Conduct DMG increased by 75%.",
-      "Second Half: Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%."
+      {
+        "FIRST_HALF": "Characters' Superconduct DMG increased by 200% and Stellar-Conduct DMG increased by 75%.",
+        "SECOND_HALF": "Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%."
+      }
     ],
     "blessingName": "Ice-Surging Moon",
     "blessingEffect": "When the active character deals Cryo DMG to opponents with Charged Attacks, their attacks will unleash a shockwave at the opponent's position that deals True DMG. This can trigger once every 3s."

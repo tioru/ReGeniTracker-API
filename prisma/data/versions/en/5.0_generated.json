@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/125553",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/125458",
-      "label": "Update Maintenance Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=8c0399aea4d14c33#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20240817preview-6y2ic4/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/125238",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -93,7 +93,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2024-08-28)"
     ]
   },
   "mapExpansion": [
@@ -114,7 +114,7 @@
     "Tribe Reputation (Natlan Reputation)",
     "Tablet of Tona"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Koholasaurus",
       "Tepetlisaurus",
@@ -153,7 +153,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Red Flamingo",
     "Halberd-Crest Bird",
     "Thick-Feathered Ruffed Pheasant",
@@ -233,7 +233,22 @@
     "Night-Wind's Mystic Revelation"
   ],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "5",
+        "chapterName": "Chapter V",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Flowers Resplendent on the Sun-Scorched Sojourn"
+          },
+          {
+            "act": 2,
+            "name": "Black Stone Under a White Stone"
+          }
+        ]
+      }
+    ],
     "storyQuests": [],
     "worldQuests": [
       "Between Pledge and Forgettance Quest Chain",
@@ -296,11 +311,26 @@
     "Impeccably Organized"
   ],
   "newAchievements": [
-    "Meetings in Outrealm: Series V",
-    "Imaginarium Theater: The Second Folio",
-    "Natlan: The Land of Fire and Competition (I)",
-    "Duelist: Series I",
-    "Wonders of the World"
+    {
+      "category": "Meetings in Outrealm: Series V",
+      "achievements": []
+    },
+    {
+      "category": "Imaginarium Theater: The Second Folio",
+      "achievements": []
+    },
+    {
+      "category": "Natlan: The Land of Fire and Competition (I)",
+      "achievements": []
+    },
+    {
+      "category": "Duelist: Series I",
+      "achievements": []
+    },
+    {
+      "category": "Wonders of the World",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Mualani: Sharky",
@@ -389,24 +419,6 @@
       "Yumkasaurus"
     ]
   },
-  "otherAdditions": [
-    "Adds Set 34 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens.",
-    "Adds new Character Event Wish mechanic \"Capturing Radiance.\" For more information, please visit the \"Wish\" interface in the game.",
-    "Reduces the maximum amount of Fate Points required from 2 to 1 in the Weapon Event Wish \"Epitomized Path.\"",
-    "Adds new Artifact Salvage function. Artifacts that have not been enhanced and leveled up can be salvaged into Sanctifying Unction and Sanctifying Essence in Inventory > Artifacts.",
-    "Adds some new adjustments to the Artifacts system:",
-    "# Adds the gadget \"Artifact Transmuter,\" which can be obtained by completing the quests in \"Adventurer Handbook > Experience\" and can be used to extract and redeem Artifacts.",
-    "# Adds new Consumable \"Sanctifying Elixir\": Use the \"Artifact Transmuter\" to extract a certain number of 5-star Artifacts that have been enhanced to \"+4\" or above, and convert them into \"Sanctifying Elixir\" (You can convert Artifacts into 1 \"Sanctifying Elixir\" per version). You can also obtain \"Sanctifying Elixir\" by exploring the open world.",
-    "# You can exchange for certain components of certain Artifact sets by using the \"Sanctifying Elixir\" in the \"Artifact Transmuter.\" Apart from that, you can also determine the Main Affix and two Minor Affixes (Different Artifact components require different amounts of \"Sanctifying Elixir.\" The same set of Artifacts can only be exchanged once in each version).",
-    "Adds new event \"Turbo Twirly!\": Progress through Archon Quest Chapter V: Act I \"Flowers Resplendent on the Sun-Scorched Sojourn\" and invite the character \"Mottled Gold Yet Unsmelted\" Kachina (Geo).",
-    "Adds World Level 9. Upon reaching Adventure Rank 58, Travelers can complete corresponding World Level Ascension Quests to increase their World Level. After the World Level increases, the levels of monsters and bosses will increase, the challenge difficulty and the rewards dropped will also be increased (Travelers who have reached Adventure Rank 58 before the version update can complete Ascension Quests to increase their World Level after the version update).",
-    "Adds the Borderland Billet series.",
-    "Adds Borderland Billet Conversion for various Weapon types in \"Crafting Bench > Conversion\": Use Dream Solvent to convert Billets of other types to Borderland Billets for the same Weapon type, or change Borderland Billets to Billets of other types for the same Weapon type.",
-    "Adds another 8 sets of Artifacts available to exchange in the Mystic Offering system: Artifact Strongbox: Deepwood Memories, Artifact Strongbox: Gilded Dreams, Artifact Strongbox: Desert Pavilion Chronicle, Artifact Strongbox: Flower of Paradise Lost, Artifact Strongbox: Nymph's Dream, Artifact Strongbox: Vourukasha's Glow,Artifact Strongbox: Marechaussee Hunter, and Artifact Strongbox: Golden Troupe.",
-    "Adds some of the Harvestable seeds from Natlan to the Seed Dispensary.",
-    "You can use the Omni-Ubiquity Net to capture certain Natlan creatures."
-  ],
   "imaginariumTheater": {
     "startDateRaw": null,
     "requiredElements": [

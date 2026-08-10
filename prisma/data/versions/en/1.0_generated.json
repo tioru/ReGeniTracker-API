@@ -13,39 +13,603 @@
     "Splashscreen Welcome To Teyvat.png",
     "Splashscreen Sparkling Steps.png"
   ],
-  "newCharacters": [],
+  "newCharacters": [
+    {
+      "name": "Traveler",
+      "rarity": null,
+      "element": null,
+      "weaponType": null
+    },
+    {
+      "name": "Amber",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Kaeya",
+      "rarity": 4,
+      "element": "Cryo",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Lisa",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Barbara",
+      "rarity": 4,
+      "element": "Hydro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Noelle",
+      "rarity": 4,
+      "element": "Geo",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Bennett",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Razor",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Beidou",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Fischl",
+      "rarity": 4,
+      "element": "Electro",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Xiangling",
+      "rarity": 4,
+      "element": "Pyro",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Xingqiu",
+      "rarity": 4,
+      "element": "Hydro",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Chongyun",
+      "rarity": 4,
+      "element": "Cryo",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Ningguang",
+      "rarity": 4,
+      "element": "Geo",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Sucrose",
+      "rarity": 4,
+      "element": "Anemo",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Venti",
+      "rarity": 5,
+      "element": "Anemo",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Klee",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Jean",
+      "rarity": 5,
+      "element": "Anemo",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Diluc",
+      "rarity": 5,
+      "element": "Pyro",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Keqing",
+      "rarity": 5,
+      "element": "Electro",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Mona",
+      "rarity": 5,
+      "element": "Hydro",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Qiqi",
+      "rarity": 5,
+      "element": "Cryo",
+      "weaponType": "Sword"
+    }
+  ],
   "newOutfits": [],
-  "newWeapons": {},
-  "banners": {
-    "characters": [],
-    "weapons": [
-      "Epitome Invocation"
+  "newWeapons": {
+    "1Star": [
+      "Hunter's Bow",
+      "Dull Blade",
+      "Beginner's Protector",
+      "Waster Greatsword",
+      "Apprentice's Notes"
+    ],
+    "2Star": [
+      "Seasoned Hunter's Bow",
+      "Silver Sword",
+      "Iron Point",
+      "Old Merc's Pal",
+      "Pocket Grimoire"
+    ],
+    "3Star": [
+      "Messenger",
+      "Raven Bow",
+      "Recurve Bow",
+      "Sharpshooter's Oath",
+      "Slingshot",
+      "Cool Steel",
+      "Dark Iron Sword",
+      "Fillet Blade",
+      "Harbinger of Dawn",
+      "Skyrider Sword",
+      "Traveler's Handy Sword",
+      "Black Tassel",
+      "Halberd",
+      "White Tassel",
+      "Bloodtainted Greatsword",
+      "Debate Club",
+      "Ferrous Shadow",
+      "Skyrider Greatsword",
+      "White Iron Greatsword",
+      "Emerald Orb",
+      "Magic Guide",
+      "Otherworldly Story",
+      "Thrilling Tales of Dragon Slayers",
+      "Twin Nephrite"
+    ],
+    "4Star": [
+      "Blackcliff Warbow",
+      "Compound Bow",
+      "Favonius Warbow",
+      "Prototype Crescent",
+      "Royal Bow",
+      "Rust",
+      "Sacrificial Bow",
+      "The Stringless",
+      "The Viridescent Hunt",
+      "Blackcliff Longsword",
+      "Favonius Sword",
+      "Iron Sting",
+      "Lion's Roar",
+      "Prototype Rancour",
+      "Royal Longsword",
+      "Sacrificial Sword",
+      "Sword of Descension",
+      "The Black Sword",
+      "The Flute",
+      "Blackcliff Pole",
+      "Crescent Pike",
+      "Deathmatch",
+      "Dragon's Bane",
+      "Favonius Lance",
+      "Prototype Starglitter",
+      "Blackcliff Slasher",
+      "Favonius Greatsword",
+      "Prototype Archaic",
+      "Rainslasher",
+      "Royal Greatsword",
+      "Sacrificial Greatsword",
+      "Serpent Spine",
+      "The Bell",
+      "Whiteblind",
+      "Blackcliff Agate",
+      "Eye of Perception",
+      "Favonius Codex",
+      "Mappa Mare",
+      "Prototype Amber",
+      "Royal Grimoire",
+      "Sacrificial Fragments",
+      "Solar Pearl",
+      "The Widsith"
+    ],
+    "5Star": [
+      "Amos' Bow",
+      "Skyward Harp",
+      "Aquila Favonia",
+      "Skyward Blade",
+      "Primordial Jade Winged-Spear",
+      "Skyward Spine",
+      "Skyward Pride",
+      "Wolf's Gravestone",
+      "Lost Prayer to the Sacred Winds",
+      "Skyward Atlas"
     ]
   },
-  "mapExpansion": [],
-  "newDomains": [],
+  "banners": {
+    "characters": [
+      {
+        "name": "Ballad in Goblets",
+        "featured": "Venti",
+        "phase": null
+      },
+      {
+        "name": "Sparkling Steps",
+        "featured": "Klee",
+        "phase": null
+      }
+    ],
+    "weapons": [
+      "Epitome Invocation (2020-09-28)"
+    ]
+  },
+  "mapExpansion": [
+    {
+      "mainRegion": "Mondstadt",
+      "subRegion": [
+        "Brightcrown Mountains",
+        "Galesong Hill",
+        "Starfell Valley",
+        "Windwail Highland"
+      ]
+    },
+    {
+      "mainRegion": "Liyue",
+      "subRegion": [
+        "Bishui Plain",
+        "Lisha",
+        "Minlin",
+        "Qiongji Estuary",
+        "Sea of Clouds"
+      ]
+    }
+  ],
+  "newDomains": [
+    "Clear Pool and Mountain Cavern",
+    "Domain of Guyun",
+    "Hidden Palace of Zhou Formula",
+    "Midsummer Courtyard",
+    "Valley of Remembrance",
+    "Cecilia Garden",
+    "Hidden Palace of Lianshan Formula",
+    "Forsaken Rift",
+    "Taishan Mansion",
+    "Domain of Forsaken Ruins",
+    "Domain of the Wayward Path",
+    "Eagle's Gate",
+    "Hidden Palace of Guizang Formula",
+    "Temple of the Falcon",
+    "Temple of the Lion",
+    "Temple of the Wolf",
+    "Confront Stormterror",
+    "Spiral Abyss"
+  ],
   "newSystems": [],
-  "newMonsters": {
-    "common": [],
-    "elite": [],
+  "newEnemies": {
+    "common": [
+      "Hilichurl",
+      "Hilichurl Fighter",
+      "Hilichurl Shooter",
+      "Hilichurl Berserker",
+      "Hilichurl Grenadier",
+      "Anemo Samachurl",
+      "Pyro Hilichurl Shooter",
+      "Cryo Hilichurl Shooter",
+      "Electro Hilichurl Shooter",
+      "Dendro Samachurl",
+      "Geo Samachurl",
+      "Hydro Samachurl",
+      "Electro Cicin",
+      "Hydro Cicin",
+      "Slimes",
+      "Treasure Hoarders",
+      "Wooden Shield Hilichurl Guard",
+      "Rock Shield Hilichurl Guard",
+      "Fatui Skirmishers",
+      "Whopperflowers",
+      "Oceanid"
+    ],
+    "elite": [
+      "Wooden Shieldwall Mitachurl",
+      "Blazing Axe Mitachurl",
+      "Rock Shieldwall Mitachurl",
+      "Fatui Electro Cicin Mage",
+      "Fatui Pyro Agent",
+      "Ruin Guard",
+      "Ruin Hunter",
+      "Eye of the Storm",
+      "Geovishap Hatchling"
+    ],
     "boss": {
-      "normal": [],
+      "normal": [
+        "Anemo Hypostasis",
+        "Electro Hypostasis",
+        "Geo Hypostasis",
+        "Pyro Regisvine",
+        "Cryo Regisvine"
+      ],
       "weekly": []
     }
   },
-  "newWildlife": [],
-  "newArtifacts": [],
+  "newCreatures": [],
+  "newArtifacts": [
+    "Initiate",
+    "Adventurer",
+    "Lucky Dog",
+    "Traveling Doctor",
+    "Resolution of Sojourner",
+    "Tiny Miracle",
+    "Berserker",
+    "Instructor",
+    "The Exile",
+    "Defender's Will",
+    "Brave Heart",
+    "Martial Artist",
+    "Gambler",
+    "Scholar",
+    "Prayers for Wisdom",
+    "Prayers for Destiny",
+    "Prayers for Illumination",
+    "Prayers to Springtime",
+    "Gladiator's Finale",
+    "Wanderer's Troupe",
+    "Noblesse Oblige",
+    "Bloodstained Chivalry",
+    "Maiden Beloved",
+    "Viridescent Venerer",
+    "Archaic Petra",
+    "Retracing Bolide",
+    "Thundersoother",
+    "Thundering Fury",
+    "Lavawalker",
+    "Crimson Witch of Flames"
+  ],
   "newMaterials": [],
   "newMonsterDrops": [],
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
-    "storyQuests": [],
-    "worldQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "prologue",
+        "chapterName": "Prologue",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Outlander Who Caught the Wind"
+          },
+          {
+            "act": 2,
+            "name": "For a Tomorrow Without Tears"
+          },
+          {
+            "act": 3,
+            "name": "Song of the Dragon and Freedom"
+          }
+        ]
+      },
+      {
+        "chapter": "1",
+        "chapterName": "Chapter I",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Of the Land Amidst Monoliths"
+          },
+          {
+            "act": 2,
+            "name": "Farewell, Archaic Lord"
+          }
+        ]
+      }
+    ],
+    "storyQuests": [
+      {
+        "chapter": "Pavo Ocellus Chapter",
+        "character": "Kaeya",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Secret Pirate Treasure"
+          }
+        ]
+      },
+      {
+        "chapter": "Lepus Chapter",
+        "character": "Amber",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Wind, Courage, and Wings"
+          }
+        ]
+      },
+      {
+        "chapter": "Trulla Chapter",
+        "character": "Xiangling",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Mondstadt Gastronomy Trip"
+          }
+        ]
+      },
+      {
+        "chapter": "Tempus Fugit Chapter",
+        "character": "Lisa",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Troublesome Work"
+          }
+        ]
+      },
+      {
+        "chapter": "Noctua Chapter",
+        "character": "Diluc",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Darknight Hero's Alibi"
+          }
+        ]
+      },
+      {
+        "chapter": "Lupus Minor Chapter",
+        "character": "Razor",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Meaning of Lupical"
+          }
+        ]
+      },
+      {
+        "chapter": "Fabulae Textile Chapter",
+        "character": "Xingqiu",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Bookworm Swordsman"
+          }
+        ]
+      },
+      {
+        "chapter": "Trifolium Chapter",
+        "character": "Klee",
+        "acts": [
+          {
+            "act": 1,
+            "name": "True Treasure"
+          }
+        ]
+      },
+      {
+        "chapter": "Leo Minor Chapter",
+        "character": "Jean",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Master's Day Off"
+          }
+        ]
+      },
+      {
+        "chapter": "Carmen Dei Chapter",
+        "character": "Venti",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Should You Be Trapped in a Windless Land"
+          }
+        ]
+      },
+      {
+        "chapter": "Astrolabos Chapter",
+        "character": "Mona",
+        "acts": [
+          {
+            "act": 1,
+            "name": "Beyond This World's Stars"
+          }
+        ]
+      }
+    ],
+    "worldQuests": [
+      "...What Do Adventurers Do Again?",
+      "Adventure Rank Ascension 1",
+      "Adventure Rank Ascension 2",
+      "Adventure Rank Ascension 3",
+      "Adventure Rank Ascension 4",
+      "A Fine Opportunity?",
+      "A Little Game",
+      "A Lone Ship In Guyun",
+      "A Provisional Arrangement",
+      "A Quiet Day in Liyue Harbor",
+      "After the Storm",
+      "An Adeptal Summons",
+      "And This Treasure Goes To...",
+      "Big Business",
+      "Blackcliff Woes",
+      "Book in the Woods",
+      "Break the Sword Cemetery Seal",
+      "Busy Adventurers' Guild",
+      "Cleanup At Dawn",
+      "Collector of Anemo Sigils",
+      "Equivalent Exchange",
+      "Every Day a New Adventure",
+      "Flighty Flora... and Flora",
+      "In the Aftermath",
+      "Lingering Malady",
+      "Luhua Landscape",
+      "Mondstadt and its Archon",
+      "New Horizons of Adventure",
+      "Nine Pillars of Peace",
+      "Not to be Missed",
+      "Old Tastes Die Hard",
+      "Overstretched",
+      "Pressing Deadlines",
+      "Question and Answer",
+      "Scent on the Wind",
+      "Share Not Your Treasures",
+      "Sharpening the Axe Won't Hinder the Work",
+      "Solo Venture",
+      "The Art of Cooking",
+      "The Blessings of The Seven",
+      "The Chi of Yore",
+      "The Ocean Pearl",
+      "The Tree who Stands Alone",
+      "The Yaksha's Wish",
+      "Thief-Catcher",
+      "Time Waits For No Man",
+      "Time and Wind",
+      "Trails in Tianqiu",
+      "Treasure Lost, Treasure Found",
+      "Welcome to the Adventurers' Guild",
+      "Will of Stone",
+      "Windrise, Windfall",
+      "Wisdom of Ancient Civilizations",
+      "Allan's Dilemma",
+      "Dr. Edith's Transport Request",
+      "Dr. Livingstone's Transport Request",
+      "Explorer Jack's Dilemma",
+      "Lianne's Troubles",
+      "Lynn's Troubles",
+      "Margaret's Troubles",
+      "Pallad's Dilemma",
+      "Six-Fingered José's Dilemma"
+    ],
     "hangoutQuests": []
   },
-  "events": [],
+  "events": [
+    "Fate Foretold",
+    "Barbara's Shining Debut",
+    "Spiral Abyss Event - People's Choice",
+    "Seize the Day",
+    "Elemental Crucible",
+    "Marvelous Merchandise"
+  ],
   "newRecipes": [],
   "newFormulas": [],
   "newSpecialtyDishes": [],
@@ -59,7 +623,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [],
   "imaginariumTheater": null,
   "spiralAbyss": null
 }

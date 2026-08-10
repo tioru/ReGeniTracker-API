@@ -11,15 +11,15 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/8418",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210128warmup/index.html",
-      "label": "Version 1.3 Website"
+      "label": "VERSION_WEBSITE"
     },
     {
       "url": "https://www.hoyolab.com/article/142150",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -70,13 +70,13 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2021-02-03)"
     ]
   },
   "mapExpansion": [],
   "newDomains": [],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [
       "Geovishap"
@@ -88,7 +88,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [],
@@ -123,20 +123,62 @@
   "newFormulas": [],
   "newSpecialtyDishes": [],
   "newAchievements": [
-    "Transmutation Nuclide",
-    "Deflection!",
-    "You Can Have Those Back!",
-    "Penalty",
-    "\"...Lizard-Spock\"",
-    "A House Ill-Founded",
-    "None Stand Secure",
-    "Back With the Wind",
-    "Core Meltdown",
-    "Knockout",
-    "\"...Till Debt Do Us Part\"",
-    "\"Melting... Away...\"",
-    "And You Call Yourself One of the Four Winds",
-    "Touch and Go"
+    {
+      "category": "Transmutation Nuclide",
+      "achievements": []
+    },
+    {
+      "category": "Deflection!",
+      "achievements": []
+    },
+    {
+      "category": "You Can Have Those Back!",
+      "achievements": []
+    },
+    {
+      "category": "Penalty",
+      "achievements": []
+    },
+    {
+      "category": "\"...Lizard-Spock\"",
+      "achievements": []
+    },
+    {
+      "category": "A House Ill-Founded",
+      "achievements": []
+    },
+    {
+      "category": "None Stand Secure",
+      "achievements": []
+    },
+    {
+      "category": "Back With the Wind",
+      "achievements": []
+    },
+    {
+      "category": "Core Meltdown",
+      "achievements": []
+    },
+    {
+      "category": "Knockout",
+      "achievements": []
+    },
+    {
+      "category": "\"...Till Debt Do Us Part\"",
+      "achievements": []
+    },
+    {
+      "category": "\"Melting... Away...\"",
+      "achievements": []
+    },
+    {
+      "category": "And You Call Yourself One of the Four Winds",
+      "achievements": []
+    },
+    {
+      "category": "Touch and Go",
+      "achievements": []
+    }
   ],
   "newNamecards": [],
   "newGadgets": [
@@ -149,7 +191,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [],
   "imaginariumTheater": null,
   "spiralAbyss": null
 }

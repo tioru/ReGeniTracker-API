@@ -11,27 +11,27 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/14450",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=9fd204af957e4b13&mode=fullscreen",
-      "label": "Version 2.0 Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://www.hoyolab.com/article/567649",
-      "label": "Update Notice I"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://www.hoyolab.com/article/567638",
-      "label": "Update Notice II"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210715-prepage/index.html",
-      "label": "Version 2.0 Website"
+      "label": "VERSION_WEBSITE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/13803",
-      "label": "Developer's Discussion 6/30"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -86,7 +86,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2021-07-21)"
     ]
   },
   "mapExpansion": [
@@ -108,7 +108,7 @@
     "Formation Estate"
   ],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Kairagi: Fiery Might",
       "Kairagi: Dancing Thunder",
@@ -134,7 +134,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [
     "Emblem of Severed Fate",
     "Shimenawa's Reminiscence"
@@ -149,7 +149,22 @@
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "2",
+        "chapterName": "Chapter II",
+        "acts": [
+          {
+            "act": 1,
+            "name": "The Immovable God and the Eternal Euthymia"
+          },
+          {
+            "act": 2,
+            "name": "Stillness, the Sublimation of Shadow"
+          }
+        ]
+      }
+    ],
     "storyQuests": [
       {
         "chapter": "Grus Nivis Chapter",
@@ -235,12 +250,30 @@
   "newFormulas": [],
   "newSpecialtyDishes": [],
   "newAchievements": [
-    "Mortal Travails: Series II",
-    "Challenger: Series IV",
-    "Meetings in Outrealm: Series II",
-    "A Realm Beyond: Series III",
-    "Inazuma: The Islands of Thunder and Eternity - Series I",
-    "the Wonders of the World category"
+    {
+      "category": "Mortal Travails: Series II",
+      "achievements": []
+    },
+    {
+      "category": "Challenger: Series IV",
+      "achievements": []
+    },
+    {
+      "category": "Meetings in Outrealm: Series II",
+      "achievements": []
+    },
+    {
+      "category": "A Realm Beyond: Series III",
+      "achievements": []
+    },
+    {
+      "category": "Inazuma: The Islands of Thunder and Eternity - Series I",
+      "achievements": []
+    },
+    {
+      "category": "the Wonders of the World category",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Inazuma: Sacred Sakura",
@@ -281,7 +314,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,
@@ -290,9 +322,18 @@
       "dealt by all party members increased by 60%."
     ],
     "floor12Disorder": [
-      "Energy Tides are present in this challenge. They will switch between Elemental High Tide and Elemental Low Tide in 10s cycles.",
-      "During High Tide, a large amount of Elemental Particles will be generated when a character's attack hits opponents, restoring 10 Elemental Energy. This effect can occur once every 2.8s.",
-      "During Low Tide, all characters in the party cannot gain Elemental Energy."
+      {
+        "FIRST_HALF": "Energy Tides are present in this challenge. They will switch between Elemental High Tide and Elemental Low Tide in 10s cycles.",
+        "SECOND_HALF": ""
+      },
+      {
+        "FIRST_HALF": "During High Tide, a large amount of Elemental Particles will be generated when a character's attack hits opponents, restoring 10 Elemental Energy. This effect can occur once every 2.8s.",
+        "SECOND_HALF": ""
+      },
+      {
+        "FIRST_HALF": "During Low Tide, all characters in the party cannot gain Elemental Energy.",
+        "SECOND_HALF": ""
+      }
     ],
     "blessingName": "Floor 9 Ley Line Disorder changed to:",
     "blessingEffect": "A Plasma Field will be generated at the edge of the challenge area once the challenge begins. While within the field, characters will be hit by a lightning strike once every 5s and take . The area covered by the field will gradually expand as the challenge proceeds."

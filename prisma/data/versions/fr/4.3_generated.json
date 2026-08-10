@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/114101",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/114066",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=a83a337fc36f4981#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20231209preview-yh731z/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/113872",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -81,7 +81,7 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2023-12-20)"
     ]
   },
   "mapExpansion": [],
@@ -89,7 +89,7 @@
     "Ville des cascades"
   ],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -97,7 +97,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [
     "Murmure nocturne en forêt d'échos",
     "Chanson des jours d'antan"
@@ -144,7 +144,10 @@
     "Péché : Dont il est inutile de s'occuper"
   ],
   "newAchievements": [
-    "Succès/Merveilles du monde"
+    {
+      "category": "Succès/Merveilles du monde",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Thème Navia - Rosula",
@@ -226,17 +229,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [
-    "New Books:",
-    "The Two Musketeers",
-    "New Item:",
-    "\"Swirling Scene in a Bottle\".",
-    "New Serenitea Pot Realm Layout: \"Swirling Isles\".",
-    "Adds Set 28 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens.",
-    "New \"Recommended Sets\" function on characters' Artifacts screens, where recommended Artifact set information based on recently active players will now be shown as a reference to help Travelers when choosing Artifacts.",
-    "New \"Artifact Locking\" function, where you can add, set, and activate different Artifact settings by going into your Inventory > Artifacts > Artifact Auto-Lock menu. After you have activated \"Artifact Auto-Lock,\" you will automatically lock 5-star Artifacts that meet said settings upon gaining them."
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

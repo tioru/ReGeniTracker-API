@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/21303",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/21202",
-      "label": "Update Notice May 27"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=371e3e01de9a42b4#/update",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20220430-previ-xozn/index.html",
-      "label": "Version 2.7 Website"
+      "label": "VERSION_WEBSITE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/21052",
-      "label": "Update Notice May 19"
+      "label": "UPDATE_NOTICE"
     }
   ],
   "images": [
@@ -76,13 +76,13 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2022-05-31)"
     ]
   },
   "mapExpansion": [],
   "newDomains": [],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -90,14 +90,25 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [],
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "interlude",
+        "chapterName": "Interlude Chapitre",
+        "acts": [
+          {
+            "act": 2,
+            "name": "Sentier périlleux"
+          }
+        ]
+      }
+    ],
     "storyQuests": [
       {
         "chapter": "Umbrabilis Orchis",
@@ -140,9 +151,14 @@
   "newFormulas": [],
   "newSpecialtyDishes": [],
   "newAchievements": [
-    "Additions to:",
-    "Succès/Merveilles du monde",
-    "Succès/Souvenirs du cœur"
+    {
+      "category": "Succès/Merveilles du monde",
+      "achievements": []
+    },
+    {
+      "category": "Succès/Souvenirs du cœur",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Thème Yelan - Jet",
@@ -157,12 +173,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [
-    "Added \"Challenge Features\" descriptions to Domains of Blessing, Forgery, and Mastery with a high Recommended Party Level.",
-    "The gadget \"Floral Zither\" can now be purchased from the NPC Granny Shan in Liyue Harbor.",
-    "Added Sets 7–14 of Genshin Impact \"Paimon's Paintings\" chat emojis.",
-    "Added Character level-up guides: Travelers can check Characters' Talent recommendations and Artifact Main Attribute references."
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

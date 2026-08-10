@@ -11,19 +11,19 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/23268",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/23126",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=32a647eecbec4b37#/update",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20220814prev/index.html",
-      "label": "Website"
+      "label": "VERSION_WEBSITE"
     }
   ],
   "images": [
@@ -88,7 +88,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2022-08-24)"
     ]
   },
   "mapExpansion": [
@@ -115,7 +115,7 @@
     "The Dark Valley"
   ],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Floating Dendro Fungus",
       "Whirling Electro Fungus",
@@ -148,7 +148,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Spinocrocodile",
     "Rishboland Tiger",
     "Shaggy Sumpter Beast",
@@ -281,9 +281,7 @@
     "Ley Line Overflow"
   ],
   "newRecipes": [],
-  "newFormulas": [
-    "Sugardew Bait"
-  ],
+  "newFormulas": [],
   "newSpecialtyDishes": [],
   "newAchievements": [],
   "newNamecards": [],
@@ -302,7 +300,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

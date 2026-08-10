@@ -11,19 +11,19 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/15513",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/15383",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=c473a7d281024854&mode=fullscreen&lang=en#/update",
-      "label": "Version 2.1 Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210820-preview/index.html",
-      "label": "Version 2.1 Website"
+      "label": "VERSION_WEBSITE"
     }
   ],
   "images": [
@@ -88,14 +88,12 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2021-09-01)"
     ]
   },
   "mapExpansion": [],
   "newDomains": [
-    "Trounce Domain",
     "Tenshukaku, Île de Narukami",
-    "One Time Domain",
     "Palais de l'étang"
   ],
   "newSystems": [
@@ -112,7 +110,7 @@
     "Faiseur de vœux",
     "Fishing Point Map Pin"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -120,14 +118,25 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [],
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "2",
+        "chapterName": "Chapitre II",
+        "acts": [
+          {
+            "act": 3,
+            "name": "Omnipresence Over Mortals"
+          }
+        ]
+      }
+    ],
     "storyQuests": [
       {
         "chapter": "Imperatrix Umbrosa",
@@ -194,17 +203,21 @@
     "Étonnant stratagème",
     "Foi en l'éternité"
   ],
-  "newFormulas": [
-    "Appât de pâte de fruit",
-    "Ver factice",
-    "Appât fétide",
-    "Fausse mouche"
-  ],
+  "newFormulas": [],
   "newSpecialtyDishes": [],
   "newAchievements": [
-    "Succès/Guide de pêche en Teyvat - Partie I",
-    "Succès/Inazuma : Archipel de la foudre éternelle - II",
-    "Succès/Merveilles du monde"
+    {
+      "category": "Succès/Guide de pêche en Teyvat - Partie I",
+      "achievements": []
+    },
+    {
+      "category": "Succès/Inazuma : Archipel de la foudre éternelle - II",
+      "achievements": []
+    },
+    {
+      "category": "Succès/Merveilles du monde",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Thème PB - Désilune",
@@ -229,7 +242,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,
@@ -239,7 +251,10 @@
       "Corrosion lasts 10s and can stack. The duration of each stack is counted independently."
     ],
     "floor12Disorder": [
-      "For this floor only, the ley line flow will be normal."
+      {
+        "FIRST_HALF": "For this floor only, the ley line flow will be normal.",
+        "SECOND_HALF": ""
+      }
     ],
     "blessingName": "Phase I:",
     "blessingEffect": "Renewing Moon<br>After a character uses an Elemental Burst, all party members' ATK is increased by 6.5% for 15s. Maximum 7 stacks. When 7 stacks are reached, the active character's Normal Attacks will unleash a shockwave at the position of the opponent it hits, dealing AoE DMG. A shockwave can be unleashed in this manner once every 2s."

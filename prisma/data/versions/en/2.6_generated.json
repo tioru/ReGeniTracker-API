@@ -11,19 +11,19 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/20284",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/20184",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://webstatic-sea.hoyoverse.com/ys/event/e20210601blue_post/index.html?gamewebview=1&page_sn=494fb89914d6406b#/update",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://webstatic-sea.hoyoverse.com/ys/event/e20220319-previ-fd5q/index.html",
-      "label": "Website"
+      "label": "VERSION_WEBSITE"
     }
   ],
   "images": [
@@ -63,13 +63,13 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2022-03-30)"
     ]
   },
   "mapExpansion": [],
   "newDomains": [],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -77,7 +77,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Bluethunder Weasel",
     "Lucklight Fly"
   ],
@@ -90,7 +90,18 @@
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "2",
+        "chapterName": "Chapter II",
+        "acts": [
+          {
+            "act": 4,
+            "name": "Requiem of the Echoing Depths"
+          }
+        ]
+      }
+    ],
     "storyQuests": [],
     "worldQuests": [
       "The Chasm Delvers Quest Series",
@@ -131,9 +142,18 @@
   "newFormulas": [],
   "newSpecialtyDishes": [],
   "newAchievements": [
-    "Challenger: Series V",
-    "Chasmlighter",
-    "Wonders of the World"
+    {
+      "category": "Challenger: Series V",
+      "achievements": []
+    },
+    {
+      "category": "Chasmlighter",
+      "achievements": []
+    },
+    {
+      "category": "Wonders of the World",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Kamisato Ayato: Ripple",
@@ -152,15 +172,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [
-    "\"Radiant Spincrystals\" have been added to Mondstadt, Liyue, and Inazuma.",
-    "The Teapot Traveling Salesman has added some \"Radiant Spincrystals\" which can be purchased after obtaining and completing the corresponding World Quests in Inazuma.",
-    "After completing Raiden Shogun's Story Quest \"Imperatrix Umbrosa Chapter: Act II,\" Ritou will add a shop where you can purchase \"Sango Pearls,\" \"Unagi Meat,\" and 2-Star \"Lucky Dog\" Artifacts.",
-    "The redirect link to the \"Adventurer Handbook: Bosses\" screen has been added under the \"Sources\" for certain Development Items.",
-    "Adds a shortcut for opening the Party Setup Screen on mobile platforms: on the main interface, tap and hold the avatar of any character to quickly access the Party Setup Screen.",
-    "Adds some prompts for loading screens.",
-    "New Loot Drops from \"Abyss Heralds,\" and \"Abyss Lectors\": \"Gloomy Statuette,\" \"Dark Statuette,\" and \"Deathly Statuette.\""
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

@@ -11,15 +11,15 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/163454",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://www.hoyolab.com/article/44512349",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=a8dca8609c7346de#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     }
   ],
   "images": [
@@ -71,7 +71,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2026-04-08)"
     ]
   },
   "mapExpansion": [
@@ -88,7 +88,7 @@
   "newSystems": [
     "Temple of Space: Memory Core"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Churldric",
       "\"Prince Mahavasudeva-Yava\""
@@ -103,7 +103,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Windvigil Angler Gull",
     "Camelhorn Deer",
     "Etherwing Moth"
@@ -160,8 +160,14 @@
     "Iridescence Under the Tree's Shade"
   ],
   "newAchievements": [
-    "Demon Mountain's Breath",
-    "Wonders of the World"
+    {
+      "category": "Demon Mountain's Breath",
+      "achievements": []
+    },
+    {
+      "category": "Wonders of the World",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Linnea: Rattling Resonance",
@@ -218,11 +224,6 @@
       "The Chasm"
     ]
   },
-  "otherAdditions": [
-    "Adds Set 48 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens.",
-    "Adds new Fish: Cerulean Doppeldrake"
-  ],
   "imaginariumTheater": {
     "startDateRaw": "May 1, 2026",
     "requiredElements": [
@@ -252,10 +253,14 @@
       "All party members receive a 75% Pyro DMG Bonus."
     ],
     "floor12Disorder": [
-      "First Half: Lunar-Crystallize DMG is increased by 75%.",
-      "Second Half: Active characters' Normal and Charged Attack DMG is increased by 75%.",
-      "First Half: All party members receive a 75% Pyro DMG Bonus.",
-      "Second Half: Lunar-Bloom DMG is increased by 75%."
+      {
+        "FIRST_HALF": "Lunar-Crystallize DMG is increased by 75%.",
+        "SECOND_HALF": "Active characters' Normal and Charged Attack DMG is increased by 75%."
+      },
+      {
+        "FIRST_HALF": "All party members receive a 75% Pyro DMG Bonus.",
+        "SECOND_HALF": "Lunar-Bloom DMG is increased by 75%."
+      }
     ],
     "blessingName": "Rumbling Moon",
     "blessingEffect": "When \"Moondrift Harmony\" is triggered, a shockwave is unleashed at the character's position to deal True DMG to opponents. This effect can be triggered once every 4s."

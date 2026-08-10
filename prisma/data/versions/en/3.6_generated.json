@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/111044",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/111020",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/vert.html?page_sn=3eb66fc49d674891#/update",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://act.hoyoverse.com/puzzle/hk4e/e0406bluepostsubject_769/index.html",
-      "label": "New Contents Display Page"
+      "label": "NEW_CONTENTS_DISPLAY_PAGE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20230401preview-84u4sh/index.html",
-      "label": "Website"
+      "label": "VERSION_WEBSITE"
     }
   ],
   "images": [
@@ -78,7 +78,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2023-04-12)"
     ]
   },
   "mapExpansion": [
@@ -100,7 +100,7 @@
   "newSystems": [
     "The Gift of Amrita"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [
       "Anemo Hilichurl Rogue",
@@ -117,7 +117,7 @@
       ]
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Tent Tortoise"
   ],
   "newArtifacts": [
@@ -204,13 +204,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [
-    "New invitation duels and guest challenges added to the Player List.",
-    "New Duel Replay Function for Genius Invokation TCG",
-    "Tree of Dreams, Vanarana: Increase in the Level Cap of Tree of Dreams to Level 50. After the Tree of Dreams's Favor Level reaches its maximum, Dendro Sigils can be exchanged by approaching Khalid at Menakeri's Treasure Shop.",
-    "Added Set 22 of \"Paimon's Paintings\" chat emojis.",
-    "New Replication System Function: New Guest Authorization: Guests can generate Replicas upon obtaining approval from the Serenitea Pot's host."
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

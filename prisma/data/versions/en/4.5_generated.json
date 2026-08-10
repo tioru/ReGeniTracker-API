@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/122817",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/122785",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=3719b7221f4c4efc#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20230302preview-2hu94k/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/122658",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -80,13 +80,13 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2024-03-13)"
     ]
   },
   "mapExpansion": [],
   "newDomains": [],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -94,7 +94,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [],
@@ -142,7 +142,10 @@
     "\"Fashion Show\""
   ],
   "newAchievements": [
-    "Memories of the Heart category"
+    {
+      "category": "Memories of the Heart category",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Chiori: Spectacular Sleeves",
@@ -208,14 +211,6 @@
       "Day of Resistance: Moment of Shattered Dreams"
     ]
   },
-  "otherAdditions": [
-    "New Books:",
-    "Perinheri",
-    "Adds Set 30 of \"Paimon's Paintings\" chat emojis.",
-    "New \"Training Guide\" function:",
-    "# The \"Training Guide\" will provide character building recommendations for \"Character Level,\" \"Weapon,\" \"Artifacts,\" and \"Character Talents\" based on the data of recently active players as well as the maximum World Level unlocked. Additionally, for Travelers who have not yet unlocked World Level 6, when they fail a challenge (e.g.: open world battles where all party members fall in battle, Domains, Trounce Domains, and other challenges and domains where players are defeated), the game interface will display tips according to the current data of the party's characters. Travelers can follow the prompts and head to the \"Training Guide\" to view suggestions for building characters to boost their adventure prowess.",
-    "# Function Unlock Criteria: Reach Adventure Rank 12 or above and complete the World Quest \"Welcome to the Adventurers' Guild.\""
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

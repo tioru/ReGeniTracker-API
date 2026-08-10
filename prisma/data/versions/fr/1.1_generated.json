@@ -11,15 +11,15 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/6638",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/6526",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/6085",
-      "label": "Developers Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -77,7 +77,7 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2020-11-11)"
     ]
   },
   "mapExpansion": [],
@@ -118,7 +118,7 @@
     "Archive System",
     "Character Archive System"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Brutocollinus étrange"
     ],
@@ -128,14 +128,25 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [],
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "1",
+        "chapterName": "Chapitre I",
+        "acts": [
+          {
+            "act": 3,
+            "name": "Une étoile en approche"
+          }
+        ]
+      }
+    ],
     "storyQuests": [
       {
         "chapter": "Monoceros Caeli",
@@ -194,7 +205,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [],
   "imaginariumTheater": null,
   "spiralAbyss": null
 }

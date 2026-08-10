@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/18465",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/18271",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://webstatic-sea.mihoyo.com/ys/event/e20210601blue_post/index.html?page_sn=f7247cf0ab2c416b",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://webstatic-sea.mihoyo.com/ys/event/e20211227-pre/index.html",
-      "label": "Website"
+      "label": "VERSION_WEBSITE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/17850",
-      "label": "Developer's Discussion 12/24"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -77,13 +77,13 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2022-01-05)"
     ]
   },
   "mapExpansion": [],
   "newDomains": [],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -91,7 +91,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Deep Sea Unagi (Capturable)",
     "Raie flottante"
   ],
@@ -101,9 +101,21 @@
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "interlude",
+        "chapterName": "Interlude Chapitre",
+        "acts": [
+          {
+            "act": 1,
+            "name": "\"The Crane Returns on the Wind\""
+          }
+        ]
+      }
+    ],
     "storyQuests": [],
     "worldQuests": [
+      "Commissions",
       "The Still Water's Flow",
       "A Glimpse Into the Pale Night",
       "Au-delà : La piste de Pervases",
@@ -159,8 +171,14 @@
   "newFormulas": [],
   "newSpecialtyDishes": [],
   "newAchievements": [
-    "New Category The Light of Day",
-    "\"Wonders of the World\" and \"Memories of the Heart\"."
+    {
+      "category": "New Category The Light of Day",
+      "achievements": []
+    },
+    {
+      "category": "\"Wonders of the World\" and \"Memories of the Heart\".",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Thème PB - Teinte fluide",
@@ -185,16 +203,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [
-    "Gift Mail Box for Birthday Mail",
-    "Serenitea Pot Custom Grouping Furnishings",
-    "Sacred Sakura's Favor level has been increased to 50",
-    "Unlocks Netsuke no Gen Crafts Shop",
-    "New shortcut wheel customization function. You can customize the shortcut wheel's system function access on \"Settings > Controls\" (This feature will be available after you reach Adventure Rank 20 or higher).",
-    "Adds some prompts for loading screens",
-    "New controller compatibility function: press R3 to display a list of tracked objectives.",
-    "After completing the Story Quest \"Lupus Minor Chapter: Act I,\" Rifthound Whelps will appear in Mondstadt's Wolvendom and its vicinity."
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,
@@ -202,7 +210,10 @@
       "All party members' Normal Attack DMG increased by 50%."
     ],
     "floor12Disorder": [
-      "Certain opponents in this challenge possess the Honed Spirit effect, which grants them 10% Physical and All Elemental RES. When opponents with Honed Spirit take hits from attacks that are considered Normal Attack DMG, they will lose 3% Physical and All Elemental RES. A maximum of 30% of each may be lost this way. The RES lost this way will be reset every 20s."
+      {
+        "FIRST_HALF": "Certain opponents in this challenge possess the Honed Spirit effect, which grants them 10% Physical and All Elemental RES. When opponents with Honed Spirit take hits from attacks that are considered Normal Attack DMG, they will lose 3% Physical and All Elemental RES. A maximum of 30% of each may be lost this way. The RES lost this way will be reset every 20s.",
+        "SECOND_HALF": ""
+      }
     ],
     "blessingName": null,
     "blessingEffect": null

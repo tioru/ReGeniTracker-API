@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/155739",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/155716",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=82543e14bca04d72#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_vAmlTfcglR/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/155593",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -87,13 +87,13 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2025-05-07)"
     ]
   },
   "mapExpansion": [],
   "newDomains": [],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -105,7 +105,7 @@
       ]
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [
     "Ascended Sample: Knight",
@@ -117,7 +117,18 @@
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "interlude",
+        "chapterName": "Interlude Chapter",
+        "acts": [
+          {
+            "act": 4,
+            "name": "Paralogism"
+          }
+        ]
+      }
+    ],
     "storyQuests": [
       {
         "chapter": "Dulciaria Structura Chapter",
@@ -151,7 +162,10 @@
     "Emotional Support"
   ],
   "newAchievements": [
-    "Wonders of the World category"
+    {
+      "category": "Wonders of the World category",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Escoffier: Charm",
@@ -180,9 +194,6 @@
       "Sing Your Heart Out"
     ]
   },
-  "otherAdditions": [
-    "Adds Set 40 of \"Paimon's Paintings\" chat emojis."
-  ],
   "imaginariumTheater": {
     "startDateRaw": "June 1, 2025",
     "requiredElements": [
@@ -214,10 +225,14 @@
       "All party members gain a 60% Pyro DMG Bonus."
     ],
     "floor12Disorder": [
-      "First Half: Characters' Elemental Skill Cryo DMG increased by 75%.",
-      "Second Half: Characters' Elemental Skill Dendro DMG increased by 75%.",
-      "First Half: When characters have 0 Energy, DMG +75%.",
-      "Second Half: Characters' Normal Attack Cryo DMG increased by 75%."
+      {
+        "FIRST_HALF": "Characters' Elemental Skill Cryo DMG increased by 75%.",
+        "SECOND_HALF": "Characters' Elemental Skill Dendro DMG increased by 75%."
+      },
+      {
+        "FIRST_HALF": "When characters have 0 Energy, DMG +75%.",
+        "SECOND_HALF": "Characters' Normal Attack Cryo DMG increased by 75%."
+      }
     ],
     "blessingName": "Interwoven Moon",
     "blessingEffect": "When a character's Elemental Skill hits an opponent, it will be counted (1 count can be triggered every 0.9s). When the count reaches 3, a shockwave will be unleashed at the hit opponent's location, dealing True DMG and resetting the count."

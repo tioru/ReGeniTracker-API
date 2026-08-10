@@ -11,19 +11,19 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/162159",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/162081",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=6f51a15085c947f7#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_LwGS1oxt0J/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     }
   ],
   "images": [
@@ -95,7 +95,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2026-01-14)"
     ]
   },
   "mapExpansion": [
@@ -120,7 +120,7 @@
     "Favonius Keep",
     "Cliffwatch Camp"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "The Doctor",
       "Fishers of Hidden Depths"
@@ -138,7 +138,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Cinderneck Stork",
     "Crowned Eagle",
     "Thornback Gecko"
@@ -166,7 +166,22 @@
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "song_of_the_welkin_moon",
+        "chapterName": "Song of the Welkin Moon",
+        "acts": [
+          {
+            "act": 7,
+            "name": "A Traveler on a Winter's Night"
+          },
+          {
+            "act": 8,
+            "name": "True Moon"
+          }
+        ]
+      }
+    ],
     "storyQuests": [],
     "worldQuests": [
       "Nightingale's Song quest series",
@@ -210,9 +225,18 @@
     "Nightwatch Soup"
   ],
   "newAchievements": [
-    "Nod-Krai: An Elysium of Moonlight and Wanderings (II)",
-    "Mortal Travails: Series VI",
-    "Wonders of the World"
+    {
+      "category": "Nod-Krai: An Elysium of Moonlight and Wanderings (II)",
+      "achievements": []
+    },
+    {
+      "category": "Mortal Travails: Series VI",
+      "achievements": []
+    },
+    {
+      "category": "Wonders of the World",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Columbina: Someday",
@@ -284,14 +308,6 @@
       "Tonatiuh"
     ]
   },
-  "otherAdditions": [
-    "New Fishing Points in Nod-Krai.",
-    "New Radiant Spincrystals in Nod-Krai.",
-    "Adds Set 46 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens.",
-    "Adds Local Legends: Hexadecatonic Mandragora, Hiljetta, and \"The Homesick Lone Wolf\".",
-    "Adds some of the Harvestable seeds from Nod-Krai to the Seed Dispensary."
-  ],
   "imaginariumTheater": {
     "startDateRaw": "February 1, 2026",
     "requiredElements": [
@@ -323,10 +339,14 @@
       "All party members gain a 60% Hydro DMG Bonus."
     ],
     "floor12Disorder": [
-      "First half: The active character's Charged Attack DMG is increased by 75%.",
-      "Second half: Lunar Reaction DMG is increased by 75%.",
-      "First half: Lunar-Charged DMG is increased by 75%.",
-      "Second half: Lunar-Crystallize DMG is increased by 75%."
+      {
+        "FIRST_HALF": "The active character's Charged Attack DMG is increased by 75%.",
+        "SECOND_HALF": "Lunar Reaction DMG is increased by 75%."
+      },
+      {
+        "FIRST_HALF": "Lunar-Charged DMG is increased by 75%.",
+        "SECOND_HALF": "Lunar-Crystallize DMG is increased by 75%."
+      }
     ],
     "blessingName": "Surgestrike Moon",
     "blessingEffect": "When a character triggers a Lunar reaction (Lunar-Bloom, Lunar-Charged, or Lunar-Crystallize) on an opponent, a shockwave will be unleashed at the opponent's position, dealing True DMG. This effect can be triggered once every 3s."

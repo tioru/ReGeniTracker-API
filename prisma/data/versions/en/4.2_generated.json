@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/113561",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/113507",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=883d227dfc21476d#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20231028preview/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/113402",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -81,7 +81,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2023-11-08)"
     ]
   },
   "mapExpansion": [
@@ -98,7 +98,7 @@
   "newSystems": [
     "New Xenochromatic Creature: Xenochromatic Ball Octopus."
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -110,7 +110,7 @@
       ]
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [
     "Lakelight Lily",
@@ -120,7 +120,18 @@
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "4",
+        "chapterName": "Chapter IV",
+        "acts": [
+          {
+            "act": 5,
+            "name": "Masquerade of the Guilty"
+          }
+        ]
+      }
+    ],
     "storyQuests": [
       {
         "chapter": "Animula Choragi Chapter",
@@ -178,22 +189,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [
-    "New Fish:",
-    "Maintenance Mek: Gold Leader",
-    "New Books:",
-    "La Chanson d'Erinnyes",
-    "Tales of a Snow-Winged Goose",
-    "The Fall of the Faded Castle",
-    "Adds Set 27 of \"Paimon's Paintings\" chat emojis.",
-    "Increases custom marker limit to 200, and adds the batch marker deletion feature.",
-    "Adds the \"Trounce Domain: Quick Challenge\" function: once you reach Adventure Rank 40, you can Quick Challenge locked Trounce Domains through your Adventurer Handbook in Single Player Mode.",
-    "Adds the \"Lower Difficulty\" feature for Domains containing powerful enemies in quests: this feature can be activated by voluntarily leaving the Domain or after failing the challenge. The next time you start this challenge, you will start at the lower difficulty.",
-    "Fountain of Lucine: Increase in the Level Cap of Fountain of Lucine to Level 40.",
-    "Adds \"Deck Sharing Code\" feature: in the \"Edit\" or \"Preview Deck\" menu, you can view the share code of the current deck or use the share code to import a corresponding deck, create a new deck or overwrite the current deck.",
-    "The maximum number of decks in the \"Deck List\" will be increased to 20. The initial deck limit as well as the deck limit unlocked by increasing Player Level will be increased to 4.",
-    "Adds the \"Accelerate Duel\" function"
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

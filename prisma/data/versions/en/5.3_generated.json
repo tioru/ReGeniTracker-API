@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/127791",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/127655",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=b0f94ebdcdaf42cc#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_QaiBDjkyxb/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/127431",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -99,7 +99,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2025-01-01)"
     ]
   },
   "mapExpansion": [],
@@ -109,7 +109,7 @@
   "newSystems": [
     "Repertoire of Myriad Melodies"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -121,7 +121,7 @@
       ]
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [
@@ -133,7 +133,18 @@
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "5",
+        "chapterName": "Chapter V",
+        "acts": [
+          {
+            "act": 5,
+            "name": "Incandescent Ode of Resurrection"
+          }
+        ]
+      }
+    ],
     "storyQuests": [
       {
         "chapter": "Sol Invictus Chapter",
@@ -184,10 +195,22 @@
     "Jade-Cut Flowers"
   ],
   "newAchievements": [
-    "Mortal Travails: Series V",
-    "Challenger: Series X",
-    "Repertoire of Myriad Melodies",
-    "Wonders of the World"
+    {
+      "category": "Mortal Travails: Series V",
+      "achievements": []
+    },
+    {
+      "category": "Challenger: Series X",
+      "achievements": []
+    },
+    {
+      "category": "Repertoire of Myriad Melodies",
+      "achievements": []
+    },
+    {
+      "category": "Wonders of the World",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Mavuika: Sun-Crowned",
@@ -294,11 +317,6 @@
       "Puff Pops"
     ]
   },
-  "otherAdditions": [
-    "Adds Set 37 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens.",
-    "New Serenitea Pot Realm Layout: \"Tletl Ilhuicatl\": Unlocked after using the item \"Scroll of the Fiery Firmament.\""
-  ],
   "imaginariumTheater": {
     "startDateRaw": "February 1, 2025",
     "requiredElements": [
@@ -327,8 +345,10 @@
       "All party members receive a 75% Pyro DMG Bonus."
     ],
     "floor12Disorder": [
-      "First Half: Pyro DMG dealt by all party members' Normal Attacks increased by 75%.",
-      "Second Half: All party members' Nightsoul-aligned DMG increased by 75%."
+      {
+        "FIRST_HALF": "Pyro DMG dealt by all party members' Normal Attacks increased by 75%.",
+        "SECOND_HALF": "All party members' Nightsoul-aligned DMG increased by 75%."
+      }
     ],
     "blessingName": "Blessing of the Abyssal Moon:",
     "blessingEffect": "Scorching Moon: After a party member triggers a Pyro-related reaction, a shockwave will be unleashed at the character's position, dealing True DMG to nearby opponents. This effect can be triggered once every 3s."

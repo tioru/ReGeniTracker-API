@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/154285",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/129813",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=28d733e32540401d#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_mDZ7Xhhdj3/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/129560",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -75,13 +75,13 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2025-02-12)"
     ]
   },
   "mapExpansion": [],
   "newDomains": [],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -89,7 +89,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [],
@@ -161,9 +161,6 @@
       "Source toujours"
     ]
   },
-  "otherAdditions": [
-    "Adds Set 38 of \"Paimon's Paintings\" chat emojis."
-  ],
   "imaginariumTheater": {
     "startDateRaw": "March 1, 2025",
     "requiredElements": [
@@ -193,10 +190,14 @@
       "All characters in the party gain a 75% Electro DMG Bonus."
     ],
     "floor12Disorder": [
-      "First Half: Swirl DMG dealt by the active character increased by 600%.",
-      "Second Half: Characters' Charged Attack Cryo DMG increased by 75%.",
-      "First Half: Characters' Elemental Skill Hydro DMG increased by 75%.",
-      "Second Half: Characters' Plunging Attack DMG increased by 75%."
+      {
+        "FIRST_HALF": "Swirl DMG dealt by the active character increased by 600%.",
+        "SECOND_HALF": "Characters' Charged Attack Cryo DMG increased by 75%."
+      },
+      {
+        "FIRST_HALF": "Characters' Elemental Skill Hydro DMG increased by 75%.",
+        "SECOND_HALF": "Characters' Plunging Attack DMG increased by 75%."
+      }
     ],
     "blessingName": "Blessing of the Abyssal Moon:",
     "blessingEffect": "Stirring Moon: When a character receives healing, a shockwave will be unleashed at the character's position, dealing True DMG to nearby opponents. This effect can be triggered once every 3s."

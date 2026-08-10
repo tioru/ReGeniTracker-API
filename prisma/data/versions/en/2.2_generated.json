@@ -11,19 +11,19 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/16488",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/16369",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://webstatic-sea.mihoyo.com/ys/event/e20211004-preview/index.html?game_biz=hk4e_global&mhy_presentation_style=fullscreen&mhy_landscape=true",
-      "label": "Version 2.2 Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/16321",
-      "label": "Developer's Discussion 10/06"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -75,16 +75,15 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2021-10-13)"
     ]
   },
   "mapExpansion": [],
   "newDomains": [
-    "One Time Domain",
     "Moshiri Kara"
   ],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -92,7 +91,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [],
@@ -125,11 +124,26 @@
   "newFormulas": [],
   "newSpecialtyDishes": [],
   "newAchievements": [
-    "New Category",
-    "The Chronicles of the Sea of Fog",
-    "Additions",
-    "Wonders of the World",
-    "Memories of the Heart"
+    {
+      "category": "New Category",
+      "achievements": []
+    },
+    {
+      "category": "The Chronicles of the Sea of Fog",
+      "achievements": []
+    },
+    {
+      "category": "Additions",
+      "achievements": []
+    },
+    {
+      "category": "Wonders of the World",
+      "achievements": []
+    },
+    {
+      "category": "Memories of the Heart",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Travel Notes: Heavenly General",
@@ -156,7 +170,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/105081",
-      "label": "Patch Notes"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://www.hoyolab.com/article/15052123",
-      "label": "Update Notice"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/index.html?page_sn=b6472467bdcd440b#/update",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/e20230107preview-x2wqn1/index.html",
-      "label": "Website"
+      "label": "VERSION_WEBSITE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/28517",
-      "label": "Developers Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -87,7 +87,7 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2023-01-18)"
     ]
   },
   "mapExpansion": [],
@@ -96,7 +96,7 @@
     "Ville des défunts"
   ],
   "newSystems": [],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Lettrée incandescente des Érémites",
       "Pirouettière florale des Érémites"
@@ -113,7 +113,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [
+  "newCreatures": [
     "Serpent volant"
   ],
   "newArtifacts": [],
@@ -169,18 +169,6 @@
     "characterCards": [],
     "actionCards": []
   },
-  "otherAdditions": [
-    "A brand-new Battle Pass-exclusive Furnishing Blueprint as compensation to Travelers who have unlocked Version 3.3's Gnostic Chorus.",
-    "Adds some prompts for loading screens.",
-    "Added Sets 15–20 of \"Paimon's Paintings\" chat emojis.",
-    "New casual PvP \"Heated Battle Mode\" in Genius Invokation TCG that skips Roll Phase and go straight to getting 8 Omni Element Dice",
-    "Add Match History function to Genius Invokation TCG.",
-    "New invitation duels and guest challenges added to the Player List.",
-    "Adds markers for Teleport Waypoints and Domains in non-outdoor areas on the map.",
-    "The gadget \"Launch Tube\" and other fireworks can now be purchased from the NPC Granny Shan in Liyue Harbor.",
-    "Consecrated Scorpions and Scorpions are added to the area around the Serpent's Head in Yashiori Island.",
-    "Tree of Dreams, Vanarana: Increase in the Level Cap of Tree of Dreams to Level 40."
-  ],
   "imaginariumTheater": null,
   "spiralAbyss": {
     "startDateRaw": null,

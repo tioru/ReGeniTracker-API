@@ -11,23 +11,23 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/158026",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/157971",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=09cce4ccbe0e42f9#/indexindex",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     },
     {
       "url": "https://act.hoyoverse.com/puzzle/hk4e/pz_9LuGk_WEfM/index.html",
-      "label": "Preview Page"
+      "label": "PREVIEW_PAGE"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/157683",
-      "label": "Developer's Discussion"
+      "label": "DEVELOPERS_DISCUSSION"
     }
   ],
   "images": [
@@ -85,7 +85,7 @@
       }
     ],
     "weapons": [
-      "Epitome Invocation"
+      "Epitome Invocation (2025-07-30)"
     ]
   },
   "mapExpansion": [
@@ -111,7 +111,7 @@
     "Eternal Dreams of Serenity",
     "Adds new instrument \"Leaping Spirit Piano\" that can be purchased from the Djembe Studios."
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [
       "Bakunawa",
       "Pipilpan Idol"
@@ -122,7 +122,7 @@
       "weekly": []
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [],
   "newMaterials": [],
   "newMonsterDrops": [],
@@ -167,8 +167,14 @@
   "newFormulas": [],
   "newSpecialtyDishes": [],
   "newAchievements": [
-    "A Summer of Ash and Prickly Pears",
-    "Wonders of the World category."
+    {
+      "category": "A Summer of Ash and Prickly Pears",
+      "achievements": []
+    },
+    {
+      "category": "Wonders of the World category.",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Ineffa: Command",
@@ -246,11 +252,6 @@
       "Awesome, Bro"
     ]
   },
-  "otherAdditions": [
-    "Adds Set 42 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens.",
-    "Increase in the Level Cap of Tona's Flame's Restitution to Level 50. After Tona's Flame reaches its maximum level, Pyro Sigils can be exchanged with Siyah at Natlan's Saurian Relics Association."
-  ],
   "imaginariumTheater": {
     "startDateRaw": "August 1, 2025",
     "requiredElements": [
@@ -279,8 +280,10 @@
       "All characters in the party gain a 75% Electro DMG Bonus."
     ],
     "floor12Disorder": [
-      "First Half: Characters' Electro-Charged and Lunar-Charged DMG increased by 75%.",
-      "Second Half: Characters' Nightsoul-aligned DMG dealt to opponents increased by 75%."
+      {
+        "FIRST_HALF": "Characters' Electro-Charged and Lunar-Charged DMG increased by 75%.",
+        "SECOND_HALF": "Characters' Nightsoul-aligned DMG dealt to opponents increased by 75%."
+      }
     ],
     "blessingName": "Wavering Moon",
     "blessingEffect": "When a character triggers Hydro-related reactions (including Lunar-Charged), a shockwave will be released at the opponent's position, dealing True DMG. This effect can be triggered once every 3s."

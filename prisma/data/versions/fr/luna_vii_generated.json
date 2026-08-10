@@ -11,15 +11,15 @@
   "links": [
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/164256",
-      "label": "Update Details"
+      "label": "PATCH_NOTES"
     },
     {
       "url": "https://genshin.hoyoverse.com/en/news/detail/164213",
-      "label": "Update Maintenance Preview"
+      "label": "UPDATE_NOTICE"
     },
     {
       "url": "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=1365aaf7a87644f2#/index",
-      "label": "Version Highlights"
+      "label": "VERSION_HIGHLIGHTS"
     }
   ],
   "images": [
@@ -79,7 +79,7 @@
       }
     ],
     "weapons": [
-      "Incarnation divine"
+      "Incarnation divine (2026-05-20)"
     ]
   },
   "mapExpansion": [],
@@ -98,7 +98,7 @@
     "Forger son caractère et son chemin",
     "Tempered in Practice weekly rewards"
   ],
-  "newMonsters": {
+  "newEnemies": {
     "common": [],
     "elite": [],
     "boss": {
@@ -108,7 +108,7 @@
       ]
     }
   },
-  "newWildlife": [],
+  "newCreatures": [],
   "newArtifacts": [
     "Don céleste",
     "Désenchantement dans l'ombre profonde"
@@ -122,7 +122,22 @@
   "newTalentMaterials": [],
   "newWeaponAscensionMaterials": [],
   "newQuests": {
-    "archonQuests": [],
+    "archonQuests": [
+      {
+        "chapter": "song_of_the_welkin_moon",
+        "chapterName": "Song of the Welkin Moon",
+        "acts": [
+          {
+            "act": 9,
+            "name": "As All Falls to Emptiness"
+          },
+          {
+            "act": 10,
+            "name": "Of Myriad Paths, Flux, and Dissolution"
+          }
+        ]
+      }
+    ],
     "storyQuests": [
       {
         "chapter": "Lepus Miles",
@@ -158,7 +173,10 @@
     "Tournette spéciale"
   ],
   "newAchievements": [
-    "Succès/Merveilles du monde"
+    {
+      "category": "Succès/Merveilles du monde",
+      "achievements": []
+    }
   ],
   "newNamecards": [
     "Nicole: Heavenly Stairway",
@@ -192,13 +210,6 @@
       "The Other Side of the Frostmoon"
     ]
   },
-  "otherAdditions": [
-    "Adds Set 49 of \"Paimon's Paintings\" chat emojis.",
-    "Adds some prompts for loading screens.",
-    "Two new Artifacts available for redemption in the Mystic Offering system:",
-    "Artifact Strongbox: Long Night's Oath",
-    "Artifact Strongbox: Finale of the Deep Galleries"
-  ],
   "imaginariumTheater": {
     "startDateRaw": "June 1, 2026",
     "requiredElements": [
@@ -228,8 +239,10 @@
       "All party members gain a 60% Pyro DMG Bonus."
     ],
     "floor12Disorder": [
-      "First Half: Characters' Elemental Skill DMG increased by 75%.",
-      "Second Half: All party members receive a 75% Pyro DMG Bonus."
+      {
+        "FIRST_HALF": "Characters' Elemental Skill DMG increased by 75%.",
+        "SECOND_HALF": "All party members receive a 75% Pyro DMG Bonus."
+      }
     ],
     "blessingName": "Frost-Surging Moon",
     "blessingEffect": "When an off-field character triggers Cryo-related reactions to opponents, a shockwave will be released at the opponent's position, dealing True DMG. This effect can be triggered once every 3.5s."
