@@ -1,0 +1,4245 @@
+[
+  {
+    "fileName": "1000_years_of_loneliness.json",
+    "bookName": "1000 Years of Loneliness",
+    "fields": [
+      {
+        "field": "description",
+        "en": "The beginning of the Springvale Hunter's tragic fantasy journey. Where did misfortune first befall him? What marks the start and finish of the 1000-year journey of loneliness? Let this first volume of 1000 Years of Loneliness be your guide through the fantastical fog that is the life of Gothson.",
+        "frBefore": "Le commencement de la tragique histoire d'un chasseur de Deauclaire.",
+        "frAfter": "Le commencement de la tragique histoire d'un chasseur de Deauclaire.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Troublesome Work quest reward",
+        "frBefore": "Donné en récompense à la fin de la quête Livre perdu.",
+        "frAfter": "Donné en récompense à la fin de la quête Livre perdu.",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "along_with_divinity_prologue.json",
+    "bookName": "Along with Divinity: Prologue",
+    "fields": [
+      {
+        "field": "description",
+        "en": "\"Have you ever thought about what our lives would've been like without the archons?\" Come and join the author in an exploration of \"divinity\" with humor and logic.",
+        "frBefore": "À quoi nos vies ressembleraient sans présence divine ? Accompagnez l'auteur dans l'exploration du thème de la divinité avec objectivité et humour.",
+        "frAfter": "À quoi nos vies ressembleraient sans présence divine ? Accompagnez l'auteur dans l'exploration du thème de la divinité avec objectivité et humour.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Grand Master's Office",
+        "frBefore": "Grand Master's Office",
+        "frAfter": "Grand Master's Office",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "ancient_investigation_journal_part_i.json",
+    "bookName": "Ancient Investigation Journal: Part I",
+    "fields": [
+      {
+        "field": "description",
+        "en": "An investigation journal found in front of the ruins with a circular entrance. Its author seems to have been a member of the aristocracy that once ruled Mondstadt.",
+        "frBefore": "Un journal d'inspection retrouvé devant les ruines avec une entrée circulaire. Son auteur semble avoir été membre de l'aristocratie qui dirigeait autrefois Mondstadt.",
+        "frAfter": "Un journal d'inspection retrouvé devant les ruines avec une entrée circulaire. Son auteur semble avoir été membre de l'aristocratie qui dirigeait autrefois Mondstadt.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Found in a chest at the Entombed City - Ancient Palace cave door.",
+        "frBefore": "Quête Royaume sous les neiges",
+        "frAfter": "Quête Royaume sous les neiges",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "ancient_investigation_journal_part_ii.json",
+    "bookName": "Ancient Investigation Journal: Part II",
+    "fields": [
+      {
+        "field": "description",
+        "en": "An investigation journal found in the basement of the ice-covered ruins. Its author seems to have been a member of the aristocracy that once ruled Mondstadt.",
+        "frBefore": "Un journal d'inspection trouvé dans le sous-sol des ruines couvertes de glace. Son auteur semble avoir été membre de l'aristocratie qui dirigeait autrefois Mondstadt.",
+        "frAfter": "Un journal d'inspection trouvé dans le sous-sol des ruines couvertes de glace. Son auteur semble avoir été membre de l'aristocratie qui dirigeait autrefois Mondstadt.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Found in a chest beneath the ice lake puzzle left of Starglow Cavern.",
+        "frBefore": "Found in a chest beneath the ice lake puzzle left of Starglow Cavern.",
+        "frAfter": "Found in a chest beneath the ice lake puzzle left of Starglow Cavern.",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "ancient_investigation_journal_part_iii.json",
+    "bookName": "Ancient Investigation Journal: Part III",
+    "fields": [
+      {
+        "field": "description",
+        "en": "An investigation journal found in the camp on the sunny side of Dragonspine. Its author seems to have been a member of the aristocracy that once ruled Mondstadt.",
+        "frBefore": "Un journal d'inspection trouvé dans le camp du côté ensoleillé des Monts Dosdragon. Son auteur semble avoir été membre de l'aristocratie qui dirigeait autrefois Mondstadt.",
+        "frAfter": "Un journal d'inspection trouvé dans le camp du côté ensoleillé des Monts Dosdragon. Son auteur semble avoir été membre de l'aristocratie qui dirigeait autrefois Mondstadt.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Found on a shelf in a cellar from the left Teleport Waypoint of Starglow Cavern.",
+        "frBefore": "Found on a shelf in a cellar from the left Teleport Waypoint of Starglow Cavern.",
+        "frAfter": "Found on a shelf in a cellar from the left Teleport Waypoint of Starglow Cavern.",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "anecdota_septentrionalis.json",
+    "bookName": "Anecdota Septentrionalis",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Faded Castle: Lower Level, floating near books",
+        "frBefore": "Château fané",
+        "frAfter": "Château fané",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Faded Castle: Middle Level, floating near books",
+        "frBefore": "Château fané",
+        "frAfter": "Château fané",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Faded Castle: Middle Level, top of staircase mechanism",
+        "frBefore": "Château fané",
+        "frAfter": "Château fané",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "an_ode_to_khvarena.json",
+    "bookName": "An Ode to Khvarena",
+    "fields": [
+      {
+        "field": "description",
+        "en": "Lore reportedly passed down within a lost religious group in the desert. Someone has transcribed it into a script.",
+        "frBefore": "Ce chant aurait été transmis oralement de génération en génération par un ordre religieux du désert. On ignore qui l'a transcrit.",
+        "frAfter": "Ce chant aurait été transmis oralement de génération en génération par un ordre religieux du désert. On ignore qui l'a transcrit.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "On a table in the House of Daena",
+        "frBefore": "Sur une table du Foyer de Daena",
+        "frAfter": "Sur une table du Foyer de Daena",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "a_brief_history_of_the_pale_starborn.json",
+    "bookName": "A Brief History of the Pale Starborn",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Dhabit at Mimisbrunnr Books in Nasha Town",
+        "frBefore": "Vendu par Dhabit",
+        "frAfter": "Vendu par Dhabit",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "a_drunkard_s_tale.json",
+    "bookName": "A Drunkard's Tale",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Inside the Dawn Winery",
+        "frBefore": "À l'intérieur du Domaine de l'Aurore",
+        "frAfter": "À l'intérieur du Domaine de l'Aurore",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Mondstadt's Library",
+        "frBefore": "Bibliothèque de l'Ordre de Favonius",
+        "frAfter": "Bibliothèque de l'Ordre de Favonius",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Inside the Dawn Winery",
+        "frBefore": "À l'intérieur du Domaine de l'Aurore",
+        "frAfter": "À l'intérieur du Domaine de l'Aurore",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Mondstadt's Library",
+        "frBefore": "Bibliothèque de l'Ordre de Favonius",
+        "frAfter": "Bibliothèque de l'Ordre de Favonius",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "a_legend_of_sword.json",
+    "bookName": "A Legend of Sword",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Kuroda at the Yae Publishing House",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Kuroda at the Yae Publishing House",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Kuroda at the Yae Publishing House",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Sold by Kuroda at the Yae Publishing House",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Inside the left-hand room in the Yashiro Commission Headquarters",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Sold by Kuroda at the Yae Publishing House",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae.",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "a_nameless_adventurer_s_notes.json",
+    "bookName": "A Nameless Adventurer's Notes",
+    "fields": [
+      {
+        "field": "description",
+        "en": "Notes left by an adventurer of an unknown era. In them, they recorded their adventures in Ochkanatlan.",
+        "frBefore": "Notes left by an adventurer of an unknown era. In them, they recorded their adventures in Ochkanatlan.",
+        "frAfter": "Des notes laissées par un aventurier d'une époque inconnue. Dans ces dernières sont consignées ses aventures à Ochkanatlan.",
+        "status": "differs"
+      },
+      {
+        "field": "source",
+        "en": "Vaulting the Wall of Morning Mist",
+        "frBefore": "Vaulting the Wall of Morning Mist",
+        "frAfter": "Par-delà le mur de la brume matinale",
+        "status": "leftover_resolved"
+      }
+    ]
+  },
+  {
+    "fileName": "a_preliminary_study_of_sangonomiya_folk_belief.json",
+    "bookName": "A Preliminary Study of Sangonomiya Folk Belief",
+    "fields": [
+      {
+        "field": "description",
+        "en": "This paper was written by Shihab Purbiruni, a scholar of modern history from Sumeru, two years before the civil war in Inazuma. It details the folk beliefs of Watatsumi Island and the Sangonomiya people, and puts forward some relatively new academic propositions.",
+        "frBefore": "Un texte écrit par Shihab Purbiruni, un historien moderne de Sumeru, deux ans avant la guerre civile d'Inazuma. Il décrit en détail les croyances populaires de l'Île de Watatsumi et des habitants de Sangonomiya, en plus de proposer des positions novatrices d'un point de vue académique.",
+        "frAfter": "Un texte écrit par Shihab Purbiruni, un historien moderne de Sumeru, deux ans avant la guerre civile d'Inazuma. Il décrit en détail les croyances populaires de l'Île de Watatsumi et des habitants de Sangonomiya, en plus de proposer des positions novatrices d'un point de vue académique.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Found in Bourou Village, Watatsumi Island",
+        "frBefore": "Village de Bourou",
+        "frAfter": "Village de Bourou",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "a_thousand_nights.json",
+    "bookName": "A Thousand Nights",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Torn Page: A Thousand Nights (I)",
+        "frBefore": "Page déchirée de « Les mille nuits - I » (Désert de Hadramaveth)",
+        "frAfter": "Page déchirée de « Les mille nuits - I » (Désert de Hadramaveth)",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Torn Page: A Thousand Nights (II)",
+        "frBefore": "Page déchirée de « Les mille nuits - II » (Désert de Hadramaveth)",
+        "frAfter": "Page déchirée de « Les mille nuits - II » (Désert de Hadramaveth)",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Torn Page: A Thousand Nights (III)",
+        "frBefore": "Page déchirée de « Les mille nuits - III » (Désert de Hadramaveth)",
+        "frAfter": "Page déchirée de « Les mille nuits - III » (Désert de Hadramaveth)",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Torn Page: A Thousand Nights (IV)",
+        "frBefore": "Page déchirée de « Les mille nuits - IV » (Haut-Setekh/Bas-Setekh/Désert hypostyle)",
+        "frAfter": "Page déchirée de « Les mille nuits - IV » (Haut-Setekh/Bas-Setekh/Désert hypostyle)",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Torn Page: A Thousand Nights (V)",
+        "frBefore": "Page déchirée de « Les mille nuits - V » (Haut-Setekh/Bas-Setekh/Désert hypostyle)",
+        "frAfter": "Page déchirée de « Les mille nuits - V » (Haut-Setekh/Bas-Setekh/Désert hypostyle)",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Torn Page: A Thousand Nights (VI)",
+        "frBefore": "Page déchirée de « Les mille nuits - VI » (Haut-Setekh/Bas-Setekh/Désert hypostyle)",
+        "frAfter": "Page déchirée de « Les mille nuits - VI » (Haut-Setekh/Bas-Setekh/Désert hypostyle)",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "ballads_of_the_squire.json",
+    "bookName": "Ballads of the Squire",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Inside the Dawn Winery From Ellin in the City of Mondstadt",
+        "frBefore": "À l'intérieur du Domaine de l'Aurore Auprès d'Eileen, dans la Cité de Mondstadt",
+        "frAfter": "À l'intérieur du Domaine de l'Aurore Auprès d'Eileen, dans la Cité de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Inside the Dawn Winery",
+        "frBefore": "À l'intérieur du Domaine de l'Aurore",
+        "frAfter": "À l'intérieur du Domaine de l'Aurore",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "biography_of_gunnhildr.json",
+    "bookName": "Biography of Gunnhildr",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A history book on the life of the apical ancestor of the Gunnhildr Clan compiled by Eckhard Gunnhildr, a modern historian of Mondstadt. It consists of fragmented stories and legends from the aristocratic period.",
+        "frBefore": "L'historien mondstadtois Eckhart Gunnhildr dresse la biographie complète de son ancêtre à travers les légendes de l'époque aristocratique de Mondstadt.",
+        "frAfter": "L'historien mondstadtois Eckhart Gunnhildr dresse la biographie complète de son ancêtre à travers les légendes de l'époque aristocratique de Mondstadt.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Inside Dawn Winery",
+        "frBefore": "Inside Dawn Winery",
+        "frAfter": "Inside Dawn Winery",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "breeze_amidst_the_forest.json",
+    "bookName": "Breeze Amidst the Forest",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Mondstadt's Library From Six-Fingered José in Mondstadt",
+        "frBefore": "Bibliothèque de Mondstadt Donné par José aux six doigts à Mondsatdt",
+        "frAfter": "Bibliothèque de Mondstadt Donné par José aux six doigts à Mondsatdt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sparks Amongst the Pages",
+        "frBefore": "Donné par Lisa après avoir complété la quête Étincelles entre les pages",
+        "frAfter": "Donné par Lisa après avoir complété la quête Étincelles entre les pages",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "conch_echoes.json",
+    "bookName": "Conch Echoes",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Dhabit at Mimisbrunnr Books in Nasha Town",
+        "frBefore": "Vendu par Dhabit",
+        "frAfter": "Vendu par Dhabit",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Dhabit at Mimisbrunnr Books in Nasha Town",
+        "frBefore": "Vendu par Dhabit",
+        "frAfter": "Vendu par Dhabit",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "customs_of_liyue.json",
+    "bookName": "Customs of Liyue",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "On a shelf at Wanwen Bookhouse Reward from talking to Soraya",
+        "frBefore": "Sur une étagère de la Librairie Wanwen Obtenu en suivant une certaine ligne de dialogue avec Soraya",
+        "frAfter": "Sur une étagère de la Librairie Wanwen Obtenu en suivant une certaine ligne de dialogue avec Soraya",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "On Ningguang's desk in the Jade Chamber Found during Zhongli's story quest, Sal Flore",
+        "frBefore": "Sur le bureau de Ningguang dans la Chambre de Jade Obtenu durant la quête d'histoire de Zhongli, Sal Flore",
+        "frAfter": "Sur le bureau de Ningguang dans la Chambre de Jade Obtenu durant la quête d'histoire de Zhongli, Sal Flore",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "debates_on_the_viceroy_of_the_east.json",
+    "bookName": "Debates on the \"Viceroy of the East\"",
+    "fields": [
+      {
+        "field": "description",
+        "en": "The \"Viceroy of the East,\" or \"Touzannou\" sung of the Watatsumi folk tradition is also known as the \"Akuou\" all across Raiden's domains. He was the first vassal ruler of the Great Serpent Orobashi, and he was also the last.",
+        "frBefore": "Le « Vice-roi de l'Est » ou « Touzannou » chanté dans la balade folklorique de Watatsumi est également connu sous le nom d'« Akuou » dans tous les domaines de la Shogun. Il fut le premier roi vassal du Grand serpent Orobashi, et aussi le dernier...",
+        "frAfter": "Le « Vice-roi de l'Est » ou « Touzannou » chanté dans la balade folklorique de Watatsumi est également connu sous le nom d'« Akuou » dans tous les domaines de la Shogun. Il fut le premier roi vassal du Grand serpent Orobashi, et aussi le dernier...",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Found in Bourou Village, Watatsumi Island",
+        "frBefore": "Found in Bourou Village, Watatsumi Island",
+        "frAfter": "Found in Bourou Village, Watatsumi Island",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "diary_of_roald_the_adventurer.json",
+    "bookName": "Diary of Roald the Adventurer",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "In a tent on the western side of Sal Terrae",
+        "frBefore": "Dans une tente du coté ouest de Sal Terrae",
+        "frAfter": "Dans une tente du coté ouest de Sal Terrae",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "At a makeshift camp, southwest of Qingce Village, near the waterfall",
+        "frBefore": "Dans un camp au sud-ouest du Village de Qingce, près de la cascade",
+        "frAfter": "Dans un camp au sud-ouest du Village de Qingce, près de la cascade",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "West of Dihua Marsh across the river, in a camp site northwest from the Teleport Waypoint along the coast.",
+        "frBefore": "Dans une tente au nord-ouest du point de téléportation ouest du Marais Dihua, sur la côte",
+        "frAfter": "Dans une tente au nord-ouest du point de téléportation ouest du Marais Dihua, sur la côte",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "A camp east of Guili Plains teleport waypoint nearest to Luhua Pool",
+        "frBefore": "Dans un camp à l'est du point de téléportation du Lac Luhua",
+        "frAfter": "Dans un camp à l'est du point de téléportation du Lac Luhua",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Camp on hill southwest of Statue of The Seven at Yaoguang Shoal",
+        "frBefore": "Dans un camp à l'extrême nord des Bancs de Yaoguang",
+        "frAfter": "Dans un camp à l'extrême nord des Bancs de Yaoguang",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Directly east of Sea of Clouds' Statue of The Seven, in a camp site over seeing the coast on a cliff.",
+        "frBefore": "A l'est de la Statue des Sept de la Mer de nuages, près de la mer",
+        "frAfter": "A l'est de la Statue des Sept de la Mer de nuages, près de la mer",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[6].location",
+        "en": "A camp southeast of the Statue of The Seven in Qingyun Peak",
+        "frBefore": "Dans un camp au sud-est de la Statue des Sept au Pic Qingyun",
+        "frAfter": "Dans un camp au sud-est de la Statue des Sept au Pic Qingyun",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[7].location",
+        "en": "In a tent atop the mountains south of Qingxu Pool",
+        "frBefore": "Dans une tente au sommet des montagnes au sud de la Ravine Qingxu",
+        "frAfter": "Dans une tente au sommet des montagnes au sud de la Ravine Qingxu",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[8].location",
+        "en": "At a camp below the \"tsk\" in \"Entombed City - Outskirts\" in Dragonspine",
+        "frBefore": "Dans un camp à la dans la Périphérie de la Cité enfouie, aux Monts Dosdragon",
+        "frAfter": "Dans un camp à la dans la Périphérie de la Cité enfouie, aux Monts Dosdragon",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[9].location",
+        "en": "On a right-hand crate after stepping off the gangplank in Ritou",
+        "frBefore": "Sur une caisse à droite après avoir quitter le quai à Ritou",
+        "frAfter": "Sur une caisse à droite après avoir quitter le quai à Ritou",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[10].location",
+        "en": "Behind a rock near the eastern Waverider Waypoint on Tsurumi Island. Requires the completion of The Saga of Mr. Forgetful.",
+        "frBefore": "Derrière un rocher près du Téléporteur de barge à l'est de l'Île de Tsurumi",
+        "frAfter": "Derrière un rocher près du Téléporteur de barge à l'est de l'Île de Tsurumi",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "draft_hilichurl_ballads.json",
+    "bookName": "Draft Hilichurl Ballads",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Reward for successfully completing the commission Poetry Exchange",
+        "frBefore": "Compléter sans erreur la mission quotidienne Ballades communicantes.",
+        "frAfter": "Compléter sans erreur la mission quotidienne Ballades communicantes.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Unavailable",
+        "frBefore": "Indisponible",
+        "frAfter": "Indisponible",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Unavailable",
+        "frBefore": "Indisponible",
+        "frAfter": "Indisponible",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "dreams_of_the_ancient_capital.json",
+    "bookName": "Dreams of the Ancient Capital",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A book about a young woman named Lycia who sets out on a journey alone following the ruination of her homeland at the hands of a black dragon.",
+        "frBefore": "A book about a young woman named Lycia who sets out on a journey alone following the ruination of her homeland at the hands of a black dragon.",
+        "frAfter": "Un livre sur une jeune femme nommée Lycia qui entreprend seule un voyage après la ruine de son pays natal par un dragon noir.",
+        "status": "differs"
+      },
+      {
+        "field": "source",
+        "en": "Northernmost island in the Broken Sea",
+        "frBefore": "Northernmost island in the Broken Sea",
+        "frAfter": "Northernmost island in the Broken Sea",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "fables_de_fontaine.json",
+    "bookName": "Fables de Fontaine",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Court of Fontaine: Quartier Narbonnais, sold by Hubel",
+        "frBefore": "Vendu par Hubel à la Cour de Fontaine",
+        "frAfter": "Vendu par Hubel à la Cour de Fontaine",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Romaritime Harbor, next to Hermosa",
+        "frBefore": "Au Port Romaritime, près d'Hermosa",
+        "frAfter": "Au Port Romaritime, près d'Hermosa",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "In front of the Beaumont Workshop",
+        "frBefore": "Près de l'Atelier Beaumont",
+        "frAfter": "Près de l'Atelier Beaumont",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "fires_of_autumn_twilight.json",
+    "bookName": "Fires of Autumn Twilight",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Amazolli at Idukan's Trove",
+        "frBefore": "Vendu par Amazolli",
+        "frAfter": "Vendu par Amazolli",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Amazolli at Idukan's Trove",
+        "frBefore": "Vendu par Amazolli",
+        "frAfter": "Vendu par Amazolli",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Amazolli at Idukan's Trove",
+        "frBefore": "Vendu par Amazolli",
+        "frAfter": "Vendu par Amazolli",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "first_apprentice_of_guhua.json",
+    "bookName": "First Apprentice of Guhua",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A novel by Chang the Ninth. Its thickness and weight say much about the effort he put in.",
+        "frBefore": "A novel by Chang the Ninth. Its thickness and weight say much about the effort he put in.",
+        "frAfter": "Le roman écrit par Chang le Neuvième. Son épaisseur laisse penser qu'il a passé beaucoup de temps dessus.",
+        "status": "differs"
+      },
+      {
+        "field": "source",
+        "en": "This Novel Is Amazing!",
+        "frBefore": "This Novel Is Amazing!",
+        "frAfter": "Ce roman est génial !",
+        "status": "leftover_resolved"
+      }
+    ]
+  },
+  {
+    "fileName": "flowers_for_princess_fischl.json",
+    "bookName": "Flowers for Princess Fischl",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae, dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae, dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "gliding_instruction_manual.json",
+    "bookName": "Gliding Instruction Manual",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A guidebook for the ones new to using wind gliders. It also serves as a mandatory reading material to get a gliding license in Mondstadt. It contains all the necessary info any user must know.",
+        "frBefore": "Un guide préparé pour les débutants apprenant à utiliser le planeur de vent, lecture essentielle pour quiconque souhaitant obtenir le permis de planer. On y trouve les informations que tout utilisateur doit connaître.",
+        "frAfter": "Un guide préparé pour les débutants apprenant à utiliser le planeur de vent, lecture essentielle pour quiconque souhaitant obtenir le permis de planer. On y trouve les informations que tout utilisateur doit connaître.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Outrider Style Quest",
+        "frBefore": "Outrider Style Quest",
+        "frAfter": "Outrider Style Quest",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "glimpses_of_mysterious_inazuma.json",
+    "bookName": "Glimpses of Mysterious Inazuma",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Enchanted Tales of the Mikawa Festival Sold by Kuroda after the event.",
+        "frBefore": "*Mythes du Festival des mikawas *Vendu par Kuroda après l'événement",
+        "frAfter": "*Mythes du Festival des mikawas *Vendu par Kuroda après l'événement",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Enchanted Tales of the Mikawa Festival Sold by Kuroda after the event.",
+        "frBefore": "*Mythes du Festival des mikawas *Vendu par Kuroda après l'événement",
+        "frAfter": "*Mythes du Festival des mikawas *Vendu par Kuroda après l'événement",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "handy_handbook_of_hilichurlian.json",
+    "bookName": "Handy Handbook of Hilichurlian",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A handbook of Hilichurlian written by the folklorist Ella Musk, though its practical use has yet to be tested in the field.",
+        "frBefore": "Un manuel du Brutocollinus écrit par l'ethnologue Ella Musk. Son application pratique reste à tester sur le terrain.",
+        "frAfter": "Un manuel du Brutocollinus écrit par l'ethnologue Ella Musk. Son application pratique reste à tester sur le terrain.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Mimi Tomo Event: Mimi Tomo (Quest)",
+        "frBefore": "Mimi Tomo Event: Mimi Tomo (Quest)",
+        "frAfter": "Mimi Tomo Event: Mimi Tomo (Quest)",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "heart_of_clear_springs.json",
+    "bookName": "Heart of Clear Springs",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Outside the southeast house in Springvale",
+        "frBefore": "Au dehors de la maison située au sud-ouest de Deauclaire",
+        "frAfter": "Au dehors de la maison située au sud-ouest de Deauclaire",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "On a table outside Cat's Tail in Mondstadt",
+        "frBefore": "Sur une table devant La Queue de Chat",
+        "frAfter": "Sur une table devant La Queue de Chat",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Grand Master's Office in the Knights of Favonius Headquarters",
+        "frBefore": "Bureau du Grand Maître (QG de l'Ordre)",
+        "frAfter": "Bureau du Grand Maître (QG de l'Ordre)",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Inside the Dawn Winery, on a table by the stairs",
+        "frBefore": "À l'intérieur du Domaine de l'Aurore, sur une table près des escaliers",
+        "frAfter": "À l'intérieur du Domaine de l'Aurore, sur une table près des escaliers",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "heart_s_desire.json",
+    "bookName": "Heart's Desire",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Grand Master's Office in the Knights of Favonius Headquarters",
+        "frBefore": "Bureau du Grand Maître (QG de l'Ordre)",
+        "frAfter": "Bureau du Grand Maître (QG de l'Ordre)",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Grand Master's Office in the Knights of Favonius Headquarters",
+        "frBefore": "Bureau du Grand Maître (QG de l'Ordre)",
+        "frAfter": "Bureau du Grand Maître (QG de l'Ordre)",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Directly east of the northern waypoint in Liyue Harbor, next to the NPC called Bolai.",
+        "frBefore": "Directement à l'est de point de téléporttion situé au nord du Port de Liyue, près d'un PNJ appelé Bolai",
+        "frAfter": "Directement à l'est de point de téléporttion situé au nord du Port de Liyue, près d'un PNJ appelé Bolai",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "hex_hound.json",
+    "bookName": "Hex & Hound",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[6].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[7].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[8].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[9].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[10].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "hilichurl_ballad_selection.json",
+    "bookName": "Hilichurl Ballad Selection",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Library in the Knights of Favonius Headquarters",
+        "frBefore": "Bibliothèque de l'Ordre de Favonius",
+        "frAfter": "Bibliothèque de l'Ordre de Favonius",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Ella Musk",
+        "frBefore": "Bibliothèque de l'Ordre de Favonius, auprès d'Ella Musk",
+        "frAfter": "Bibliothèque de l'Ordre de Favonius, auprès d'Ella Musk",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "hilichurl_cultural_customs.json",
+    "bookName": "Hilichurl Cultural Customs",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Mondstadt's Library",
+        "frBefore": "Bibliothèque de l'Ordre de Favonius",
+        "frAfter": "Bibliothèque de l'Ordre de Favonius",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Mondstadt's Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Grand Master's Office in the Knights of Favonius Headquarters",
+        "frBefore": "Bureau du Grand Maître (QG de l'Ordre)",
+        "frAfter": "Bureau du Grand Maître (QG de l'Ordre)",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Mondstadt's Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "history_of_kings_and_clans_prologue.json",
+    "bookName": "History of Kings and Clans: Prologue",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A comprehensive history of Mondstadt edited and compiled by the Northland History Society.",
+        "frBefore": "L'histoire de Mondstadt dans un ouvrage complet rédigé par la Société des historiens du Nord.",
+        "frAfter": "L'Histoire de Mondstadt dans un ouvrage complet rédigé par la Société des historiens du Nord.",
+        "status": "differs"
+      },
+      {
+        "field": "source",
+        "en": "Grand Master's Office",
+        "frBefore": "Dans le bureau de la Grande Maîtresse (QG de l'Ordre).",
+        "frAfter": "Dans le bureau de la Grande Maîtresse (QG de l'Ordre).",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "humor_from_tianheng.json",
+    "bookName": "Humor From Tianheng",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A poetry collection by Pingshan, The Mystic. The quality of the poems is all over the place, but it has long been a reference book or young poets or poet-wannabes in Liyue.",
+        "frBefore": "Un recueil de poésie des mystiques du Mont Ping. Bien que la qualité littéraire des poèmes peut être parfois discutable, cet ouvrage a longtemps servi de référence aux apprentis poètes liyuéens.",
+        "frAfter": "Un recueil de poésie des mystiques du Mont Ping. Bien que la qualité littéraire des poèmes peut être parfois discutable, cet ouvrage a longtemps servi de référence aux apprentis poètes liyuéens.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "In front of Verr Goldet, Wangshu Inn",
+        "frBefore": "In front of Verr Goldet, Wangshu Inn",
+        "frAfter": "In front of Verr Goldet, Wangshu Inn",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "hymns_of_the_far_north.json",
+    "bookName": "Hymns of the Far North",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Near the Meeting Point: Frostmoon Enclave after upgrading it to level 5",
+        "frBefore": "Près d'Ehrnrooth après avoir élevé le Point de rassemblement : Enclave de givrelune au niv.5",
+        "frAfter": "Près d'Ehrnrooth après avoir élevé le Point de rassemblement : Enclave de givrelune au niv.5",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Near the Meeting Point: Frostmoon Enclave",
+        "frBefore": "Près d'Ehrnrooth après avoir élevé le Point de rassemblement : Enclave de givrelune au niv.3",
+        "frAfter": "Près d'Ehrnrooth après avoir élevé le Point de rassemblement : Enclave de givrelune au niv.3",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Near the Meeting Point: Frostmoon Enclave",
+        "frBefore": "Près d'Ehrnrooth",
+        "frAfter": "Près d'Ehrnrooth",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "king_of_invokations_book.json",
+    "bookName": "King of Invokations (Book)",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A light novel centered around the most popular card game in Teyvat — Genius Invokation TCG. The characters are unique and the story is exciting and full of twists, making it one of the hottest new works around.",
+        "frBefore": "A light novel centered around the most popular card game in Teyvat — Genius Invokation TCG. The characters are unique and the story is exciting and full of twists, making it one of the hottest new works around.",
+        "frAfter": "A light novel centered around the most popular card game in Teyvat — Genius Invokation TCG. The characters are unique and the story is exciting and full of twists, making it one of the hottest new works around.",
+        "status": "no_material"
+      },
+      {
+        "field": "source",
+        "en": "On a shelf in the Duel! The Summoners' Summit! area at Mondstadt",
+        "frBefore": "On a shelf in the Duel! The Summoners' Summit! area at Mondstadt",
+        "frAfter": "On a shelf in the Duel! The Summoners' Summit! area at Mondstadt",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "knights_of_favonius_handbook_5th_edition.json",
+    "bookName": "Knights of Favonius Handbook - 5th Edition",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A code of conduct covering language usage and behavioral norms for Mondstadt's Knights of Favonius, personally edited by Acting Grand Master Jean. All knights are expected to strictly abide by these rules and regulate their words and deeds accordingly.",
+        "frBefore": "Un ouvrage qui consigne toutes les règles de conduite de l'Ordre de Favonius, intégralement révisé par Jean, la Grande Maîtresse suppléante. Tous les chevaliers doivent s'y conformer.",
+        "frAfter": "Un ouvrage qui consigne toutes les règles de conduite de l'Ordre de Favonius, intégralement révisé par Jean, la Grande Maîtresse suppléante. Tous les chevaliers doivent s'y conformer.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Question and Answer quest reward",
+        "frBefore": "Question and Answer quest reward",
+        "frAfter": "Question and Answer quest reward",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "kompore_the_cunning.json",
+    "bookName": "Kompore the Cunning",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Amazolli at Idukan's Trove",
+        "frBefore": "Vendu par Amazolli au Trésor d'Idukan.",
+        "frAfter": "Vendu par Amazolli au Trésor d'Idukan.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Amazolli at Idukan's Trove",
+        "frBefore": "Vendu par Amazolli au Trésor d'Idukan.",
+        "frAfter": "Vendu par Amazolli au Trésor d'Idukan.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Amazolli at Idukan's Trove",
+        "frBefore": "Vendu par Amazolli au Trésor d'Idukan.",
+        "frAfter": "Vendu par Amazolli au Trésor d'Idukan.",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "la_chanson_d_erinnyes.json",
+    "bookName": "La Chanson d'Erinnyes",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Lumidouce Harbor, upper floor",
+        "frBefore": "Port de Lumidouce",
+        "frAfter": "Port de Lumidouce",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Hubel",
+        "frBefore": "Vendu par Hubel",
+        "frAfter": "Vendu par Hubel",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Lumidouce Harbor, upper floor",
+        "frBefore": "Port de Lumidouce",
+        "frAfter": "Port de Lumidouce",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "legend_of_the_lone_sword.json",
+    "bookName": "Legend of the Lone Sword",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Wanwen Bookhouse In front of Verr Goldet at Wangshu Inn",
+        "frBefore": "Librairie Wanwen Auberge Wangshu, en face de Verr Goldet",
+        "frAfter": "Librairie Wanwen Auberge Wangshu, en face de Verr Goldet",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "On a long table behind a vegetable stand in the main plaza of Qingce Village",
+        "frBefore": "Sur la place principale du Village de Qingce",
+        "frAfter": "Sur la place principale du Village de Qingce",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "On Su Er'niang's food stall in Liyue Harbor",
+        "frBefore": "Sur l'étal de Madame Su, au Port de Liyue",
+        "frAfter": "Sur l'étal de Madame Su, au Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang",
+        "frAfter": "Vendu par Jifang",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "legend_of_the_shattered_halberd.json",
+    "bookName": "Legend of the Shattered Halberd",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "On a table in front of Huachu and Jianqiu at Stone Gate",
+        "frBefore": "Sur une table devant Huachu et Jianqiu, à la Porte de Pierre",
+        "frAfter": "Sur une table devant Huachu et Jianqiu, à la Porte de Pierre",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "From Tea Master Liu Su in Liyue Harbor after listening to all of his stories. (Listen repeatedly several times)",
+        "frBefore": "Auprès du Maître de thé Liu Su, au Port de Liyue, après avoir écouté toutes ses histoires",
+        "frAfter": "Auprès du Maître de thé Liu Su, au Port de Liyue, après avoir écouté toutes ses histoires",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Received as a Quest Item from Xingqiu during the quest Bookworm Swordsman",
+        "frBefore": "Donné par Xingqiu en récompense de sa quête d'histoire Un combattant féru de lecture",
+        "frAfter": "Donné par Xingqiu en récompense de sa quête d'histoire Un combattant féru de lecture",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "let_s_go_dodoco.json",
+    "bookName": "Let's Go, Dodoco!",
+    "fields": [
+      {
+        "field": "description",
+        "en": "Message From the Editor: \"Let's Go, Dodoco!\" is the combined work of an older girl and a younger girl. Every chapter brims with their gentleness and good wishes, as the story is intended as a gift to our readers. I hope this book — in spite of its small volume — can bring you some simple joy after a long day of work.",
+        "frBefore": "Message de l'éditeur : « Allez, Dodoco ! » est une œuvre née de la collaboration entre deux filles dont l'une est plus jeune que l'autre. Leur gentillesse et leur bienveillance transparaissaient dans chaque chapitre, car cette histoire est un cadeau qu'elles offrent aux lecteurs. J'espère que ce livre vous fera retrouver le sourire après une longue journée de travail.",
+        "frAfter": "Message de l'éditeur : « Allez, Dodoco ! » est une œuvre née de la collaboration entre deux filles dont l'une est plus jeune que l'autre. Leur gentillesse et leur bienveillance transparaissent dans chaque chapitre, car cette histoire est un cadeau qu'elles offrent aux lecteurs. J'espère que ce livre vous fera sourire après une longue journée de travail.",
+        "status": "differs"
+      },
+      {
+        "field": "source",
+        "en": "A Story for You during the Hues of the Violet Garden Event",
+        "frBefore": "Festival Irodori",
+        "frAfter": "Festival Irodori",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "linling_s_anthology_of_selected_poetry.json",
+    "bookName": "Linling's Anthology of Selected Poetry",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A collection of poetry that Linling published at her own expense. It is her first publication, and she is very proud of it.",
+        "frBefore": "Une anthologie de poèmes que Linling a auto-publié. Ce premier ouvrage rassemble le meilleur de son œuvre.",
+        "frAfter": "Une anthologie de poèmes que Linling a auto-publié. Ce premier ouvrage rassemble le meilleur de son œuvre.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "So-Called Work quest reward",
+        "frBefore": "Problèmes au travail",
+        "frAfter": "Problèmes au travail",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "lost_adventure_notebook.json",
+    "bookName": "Lost Adventure Notebook",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A set of adventurer's notes that you picked in the ruins. It seems to contain a clue to unlocking these mechanisms.",
+        "frBefore": "Un carnet de notes trouvé au milieu de ruines. Il semble renfermer un indice pour l'activation des mécanismes.",
+        "frAfter": "Un carnet de notes trouvé au milieu de ruines. Il semble renfermer un indice pour l'activation des mécanismes.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Obtained from Expansive Eya",
+        "frBefore": "Obtained from Expansive Eya",
+        "frAfter": "Obtained from Expansive Eya",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "maawe_and_monetoo.json",
+    "bookName": "Maawe and Monetoo",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Under the east staircase of the main building at the \"People of the Springs\"",
+        "frBefore": "Peuple des Sources",
+        "frAfter": "Peuple des Sources",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "On some crates near Ezana at the Stadium of the Sacred Flame",
+        "frBefore": "Stade du sanctifeu",
+        "frAfter": "Stade du sanctifeu",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "On some crates near Ninan at the \"People of the Springs\"",
+        "frBefore": "Peuple des Sources",
+        "frAfter": "Peuple des Sources",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "meadow_of_gems.json",
+    "bookName": "Meadow of Gems",
+    "fields": [
+      {
+        "field": "description",
+        "en": "This scroll, which seems to be a part of a larger series, belongs to the Jade Chamber's invaluable collection of written works. This volume is a dissertation on Liyue Harbor's economic policy.",
+        "frBefore": "Ce rouleau fait partie de la collection inestimable de la Chambre de Jade. Ce volume parle de la politique économique de Liyue.",
+        "frAfter": "Ce rouleau fait partie de la collection inestimable de la Chambre de Jade. Ce volume parle de la politique économique de Liyue.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Obtained during the quest Return of the Jade Chamber?; Jade Chamber",
+        "frBefore": "Obtained during the quest Return of the Jade Chamber?; Jade Chamber",
+        "frAfter": "Obtained during the quest Return of the Jade Chamber?; Jade Chamber",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "men_of_lithin.json",
+    "bookName": "Men of Lithin",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Amazolli at Idukan's Trove",
+        "frBefore": "Vendu par Amazolli",
+        "frAfter": "Vendu par Amazolli",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Amazolli at Idukan's Trove",
+        "frBefore": "Vendu par Amazolli",
+        "frAfter": "Vendu par Amazolli",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Amazolli at Idukan's Trove",
+        "frBefore": "Vendu par Amazolli",
+        "frAfter": "Vendu par Amazolli",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "moongazer_s_engraving.json",
+    "bookName": "Moongazer's Engraving",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Obtained during Project Moongazer (Part 1)",
+        "frBefore": "Obtained during Project Moongazer (Part 1)",
+        "frAfter": "Obtained during Project Moongazer (Part 1)",
+        "status": "leftover_unresolved"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Picked up from an Edict Module in Lusalim's Laboratory",
+        "frBefore": "Picked up from an Edict Module in Lusalim's Laboratory",
+        "frAfter": "Picked up from an Edict Module in Lusalim's Laboratory",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "moonlit_bamboo_forest.json",
+    "bookName": "Moonlit Bamboo Forest",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "At Granny Ruoxin's home in Qingce Village",
+        "frBefore": "Chez Ruoxin, au Village de Qingce",
+        "frAfter": "Chez Ruoxin, au Village de Qingce",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Next to Verr Goldet at Wangshu Inn",
+        "frBefore": "À côté de Verr Goldet, à l'Auberge Wangshu",
+        "frAfter": "À côté de Verr Goldet, à l'Auberge Wangshu",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "mountainous_miscellany.json",
+    "bookName": "Mountainous Miscellany",
+    "fields": [
+      {
+        "field": "description",
+        "en": "This text contains all manner of strange legends about Mt. Tianheng's stones, including tales about many rare ores. It is said that if you stand in the middle of the lake south of Mt. Tianheng at dusk, you will find the legendary Subrosium.",
+        "frBefore": "Ce texte contient toutes sortes de légendes étranges sur les pierres des Monts Tianheng, y compris des histoires sur de nombreux minerais rares. Il est dit que si vous vous tenez au milieu du lac au sud des Monts Tianheng au crépuscule, vous trouverez du subrosium légendaire.",
+        "frAfter": "Ce texte contient toutes sortes de légendes étranges sur les pierres des Monts Tianheng, y compris des histoires sur de nombreux minerais rares. Il est dit que si vous vous tenez au milieu du lac au sud des Monts Tianheng au crépuscule, vous trouverez du subrosium légendaire.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Picked up during Bygones Times Like Dust Passing",
+        "frBefore": "Picked up during Bygones Times Like Dust Passing",
+        "frAfter": "Picked up during Bygones Times Like Dust Passing",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "mt_lingmeng_gossip.json",
+    "bookName": "Mt. Lingmeng Gossip",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang",
+        "frAfter": "Vendu par Jifang",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang",
+        "frAfter": "Vendu par Jifang",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang",
+        "frAfter": "Vendu par Jifang",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "new_chronicles_of_the_six_kitsune.json",
+    "bookName": "New Chronicles of the Six Kitsune",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "In the left-hand room of the Yashiro Commission Headquarters",
+        "frBefore": "Dans la salle à gauche du Siège de la Commission culturelle.",
+        "frAfter": "Dans la salle à gauche du Siège de la Commission culturelle.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "night_murmurs_from_the_far_border.json",
+    "bookName": "Night Murmurs From the Far Border",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Dhabit at Mimisbrunnr Books in Nasha Town",
+        "frBefore": "Vendu par Dhabit",
+        "frAfter": "Vendu par Dhabit",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "of_mountains_and_seas.json",
+    "bookName": "\"Of Mountains and Seas\"",
+    "fields": [
+      {
+        "field": "description",
+        "en": "Original: Notes penned by Leonard, an adventurer from the distant past. Clearly an ancient text, it has suffered much wear and tear. Most of the content has been lost to the ravages of time, with just a few fragments remaining. After decipering: Notes penned by Leonard, an adventurer from antiquity. Most ancient indeed. Mona has used her astrology to interpret its tattered contents and restore them.",
+        "frBefore": "Le journal de Léonard, un aventurier des temps anciens. Les ravages du temps ont eu raison de son contenu dont il ne reste que quelques bribes. ...",
+        "frAfter": "Le journal de Léonard, un aventurier des temps anciens. Les ravages du temps ont eu raison de son contenu dont il ne reste que quelques bribes.",
+        "status": "differs"
+      },
+      {
+        "field": "source",
+        "en": "Where Ancient Stars Align",
+        "frBefore": "Where Ancient Stars Align",
+        "frAfter": "Et s'alignent les anciennes étoiles",
+        "status": "leftover_resolved"
+      }
+    ]
+  },
+  {
+    "fileName": "onibudou.json",
+    "bookName": "Onibudou",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A standalone volume from the light novel series \"Onibudou,\" written by Junkichi, a writer with Yae Publishing House. This collection contains the first two major arcs in the story. The quality of the serialized version varies quite a bit, but it still enjoys a degree of popularity amongst readers.",
+        "frBefore": "A standalone volume from the light novel series \"Onibudou,\" written by Junkichi, a writer with Yae Publishing House. This collection contains the first two major arcs in the story. The quality of the serialized version varies quite a bit, but it still enjoys a degree of popularity amongst readers.",
+        "frAfter": "Un volume indépendant de la série de romans légers « Onibudo » écrite par Junkichi, un auteur de la Chambre Yae. Celui-ci contient les deux premiers arcs majeurs de l'histoire. La qualité des chapitres sérialisés varie, mais la série reste bien appréciée par les lecteurs.",
+        "status": "differs"
+      },
+      {
+        "field": "source",
+        "en": "On a cabinet to the right of Yae Publishing House",
+        "frBefore": "On a cabinet to the right of Yae Publishing House",
+        "frAfter": "On a cabinet to the right of Yae Publishing House",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "perinheri.json",
+    "bookName": "Perinheri",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Purchased from Hubel, Court of Fontaine: Quartier Narbonnais",
+        "frBefore": "Vendu par Hubel à la Cour de Fontaine",
+        "frAfter": "Vendu par Hubel à la Cour de Fontaine",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Purchased from Hubel, Court of Fontaine: Quartier Narbonnais",
+        "frBefore": "Vendu par Hubel à la Cour de Fontaine",
+        "frAfter": "Vendu par Hubel à la Cour de Fontaine",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "pharmacist_s_notebook_i.json",
+    "bookName": "Pharmacist's Notebook (I)",
+    "fields": [
+      {
+        "field": "description",
+        "en": "Notes left by Yasumoto. They still smell strongly of Naku Weed.",
+        "frBefore": "Notes left by Yasumoto. They still smell strongly of Naku Weed.",
+        "frAfter": "Des notes laissées par Yasumoto. Elles sentent encore fortement l'herbe à sanglots.",
+        "status": "differs"
+      },
+      {
+        "field": "source",
+        "en": "On top of some crates in the small campsite, to the north-west of the Fort Fujitou waypoint.",
+        "frBefore": "On top of some crates in the small campsite, to the north-west of the Fort Fujitou waypoint.",
+        "frAfter": "On top of some crates in the small campsite, to the north-west of the Fort Fujitou waypoint.",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "pharmacist_s_notebook_ii.json",
+    "bookName": "Pharmacist's Notebook (II)",
+    "fields": [
+      {
+        "field": "description",
+        "en": "Notes left by Yasumoto. It has been conscientiously protected from rain damage.",
+        "frBefore": "Notes left by Yasumoto. It has been conscientiously protected from rain damage.",
+        "frAfter": "Des notes laissées par Yasumoto. Elles ont été consciencieusement protégées des dommages causés par la pluie.",
+        "status": "differs"
+      },
+      {
+        "field": "source",
+        "en": "On top of a rock next to the trodden path, just before the Narukami Pillar east of Fort Fujitou.",
+        "frBefore": "On top of a rock next to the trodden path, just before the Narukami Pillar east of Fort Fujitou.",
+        "frAfter": "On top of a rock next to the trodden path, just before the Narukami Pillar east of Fort Fujitou.",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "pharmacist_s_notebook_iii.json",
+    "bookName": "Pharmacist's Notebook (III)",
+    "fields": [
+      {
+        "field": "description",
+        "en": "Notes left by Yasumoto. It shows some signs of blotching and water damage.",
+        "frBefore": "Notes left by Yasumoto. It shows some signs of blotching and water damage.",
+        "frAfter": "Des notes laissées par Yasumoto. Elles ont été légèrement abîmées par des taches et de l'eau.",
+        "status": "differs"
+      },
+      {
+        "field": "source",
+        "en": "East-Northeast of Yasumoto's house and south-east of the northernmost waypoint, under a tree.",
+        "frBefore": "East-Northeast of Yasumoto's house and south-east of the northernmost waypoint, under a tree.",
+        "frAfter": "East-Northeast of Yasumoto's house and south-east of the northernmost waypoint, under a tree.",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "pretty_please_kitsune_guuji.json",
+    "bookName": "Pretty Please, Kitsune Guuji?",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A popular light novel in Inazuma which tells the story of the \"good-for-nothing\" Shogun and the \"good-at-everything\" Kitsune Guuji. The novel is in the same collection as \"Shogun Almighty: Reborn as Raiden With Unlimited Power,\" but not by the same author. What they share in common, however, is their popularity.",
+        "frBefore": "Un roman léger qui connaît du succès à Inazuma. Il raconte l'histoire de la Shogun incapable et de la guuji Kitsune aux talents extraordinaires et se déroule dans le même univers que « Shogun toute-puissante — Comment j'ai été réincarnée en Raiden aux pouvoirs illimités ». Ces œuvres ont des auteurs différents, mais suscitent le même engouement.",
+        "frAfter": "Un roman léger qui connaît du succès à Inazuma. Il raconte l'histoire de la Shogun incapable et de la Guuji Kitsune aux talents extraordinaires et se déroule dans le même univers que « Shogun toute-puissante — Comment j'ai été réincarnée en Raiden aux pouvoirs illimités ». Ces œuvres ont des auteurs différents, mais suscitent le même engouement.",
+        "status": "differs"
+      },
+      {
+        "field": "source",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City; Sold by Murata at the Outlander Affairs Agency in Ritou during the Hues of the Violet Garden event",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae à la Cité d'Inazuma Vendu par Murata au Bureau des affaires étrangères à Ritou pendant l'événement \"Teintes du jardin violet\".",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae à la Cité d'Inazuma Vendu par Murata au Bureau des affaires étrangères à Ritou pendant l'événement \"Teintes du jardin violet\".",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "princess_mina_of_the_fallen_nation.json",
+    "bookName": "Princess Mina of the Fallen Nation",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Inside the left-hand room in the Yashiro Commission Headquarters",
+        "frBefore": "Dans la pièce de gauche en rentrant dans le Siège de la Commission culturelle.",
+        "frAfter": "Dans la pièce de gauche en rentrant dans le Siège de la Commission culturelle.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "ragged_notebook_bygones_times_like_dust_passing.json",
+    "bookName": "Ragged Notebook (Bygones Times Like Dust Passing)",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A ragged notebook you found in the village. It records the happenings of long ago, now buried by the passage of time.",
+        "frBefore": "Un journal décrépit que vous avez trouvé dans le village. Il raconte des événements qui ont eu lieu dans un passé lointain, enfoui dans les sables du temps.",
+        "frAfter": "Un journal décrépit que vous avez trouvé dans le village. Il raconte des événements qui ont eu lieu dans un passé lointain, enfoui dans les sables du temps.",
+        "status": "no_material"
+      },
+      {
+        "field": "source",
+        "en": "Picked up during Bygones Times Like Dust Passing",
+        "frBefore": "Picked up during Bygones Times Like Dust Passing",
+        "frAfter": "Picked up during Bygones Times Like Dust Passing",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "ragged_notebook_time_and_wind.json",
+    "bookName": "Ragged Notebook (Time and Wind)",
+    "fields": [
+      {
+        "field": "description",
+        "en": "Anonymously authored notes. They describe a place seemingly not far from here.",
+        "frBefore": "Un journal dont le contenu a un rapport avec cet endroit...",
+        "frAfter": "Un journal dont le contenu a un rapport avec cet endroit...",
+        "status": "no_material"
+      },
+      {
+        "field": "source",
+        "en": "In the breakable rock on the south-end of the Nameless Island",
+        "frBefore": "In the breakable rock on the south-end of the Nameless Island",
+        "frAfter": "In the breakable rock on the south-end of the Nameless Island",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "rangi_nui_s_end.json",
+    "bookName": "Rangi Nui's End",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Amazolli at Idukan's Trove",
+        "frBefore": "Vendu par Amazolli à Trésor d'Idukan.",
+        "frAfter": "Vendu par Amazolli à Trésor d'Idukan.",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "records_of_a_changing_village.json",
+    "bookName": "Records of a Changing Village",
+    "fields": [
+      {
+        "field": "description",
+        "en": "Documents announcing the villagers' migration. It states the village was forced to relocate due to a god's remains.",
+        "frBefore": "Des documents qui informent de la migration des villageois. Il annonce que le village a dû être déplacé en raison de la présence de restes d'une divinité déchue.",
+        "frAfter": "Des documents qui informent de la migration des villageois. Il annonce que le village a dû être déplacé en raison de la présence de restes d'une divinité déchue.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Picked up during Bygones Times Like Dust Passing",
+        "frBefore": "Picked up during Bygones Times Like Dust Passing",
+        "frAfter": "Picked up during Bygones Times Like Dust Passing",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "records_of_hanan_pacha.json",
+    "bookName": "Records of Hanan Pacha",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "On crates near where Yawar is patrolling, at the \"Scions of the Canopy\"",
+        "frBefore": "Êtres des canopées",
+        "frAfter": "Êtres des canopées",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Next to Amauta, at the \"Scions of the Canopy\"",
+        "frBefore": "Êtres des canopées",
+        "frAfter": "Êtres des canopées",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "In front of Battuta, at the Stadium of the Sacred Flame",
+        "frBefore": "Stade du sanctifeu",
+        "frAfter": "Stade du sanctifeu",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "records_of_jueyun.json",
+    "bookName": "Records of Jueyun",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "At Granny Ruoxin's home in Qingce Village Jifang Dialogue Reward",
+        "frBefore": "Chez Ruoxin, au Village de Qingce",
+        "frAfter": "Chez Ruoxin, au Village de Qingce",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Wuyuan Dialogue Reward Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Obtenu auprès de Wuyuan, non loin du Port de Liyue Vendu par Jifang à Librairie Wanwen, au le Port de Liyue",
+        "frAfter": "Obtenu auprès de Wuyuan, non loin du Port de Liyue Vendu par Jifang à Librairie Wanwen, au le Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Found on a restaurant table at Wangshu Inn where Huangshan sits.",
+        "frBefore": "Sur une table de restaurant de l'Auberge Wangshu où est assise Huangshan",
+        "frAfter": "Sur une table de restaurant de l'Auberge Wangshu où est assise Huangshan",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à Librairie Wanwen, au le Port de Liyue",
+        "frAfter": "Vendu par Jifang à Librairie Wanwen, au le Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à Librairie Wanwen, au le Port de Liyue",
+        "frAfter": "Vendu par Jifang à Librairie Wanwen, au le Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à Librairie Wanwen, au le Port de Liyue",
+        "frAfter": "Vendu par Jifang à Librairie Wanwen, au le Port de Liyue",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "records_of_the_gallant.json",
+    "bookName": "Records of the Gallant",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "On a table at Wanwen Bookhouse in Liyue Harbor Little Liu Dialogue Reward",
+        "frBefore": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "On the rooftop of Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Sur le toit de la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Sur le toit de la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "rex_incognito.json",
+    "bookName": "Rex Incognito",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "On a table in main plaza of Qingce Village",
+        "frBefore": "Sur une table sur la place principale du Village de Qingce",
+        "frAfter": "Sur une table sur la place principale du Village de Qingce",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "At the bottom layer on the north boat docks, on a table next to an elderly woman (not always there) near the flower shop in Liyue Harbor",
+        "frBefore": "Au Port de Liyue, au niveau inférieur des quais, sur une table à côté d'une femme âgée (pas toujours présente), et près du fleuriste.",
+        "frAfter": "Au Port de Liyue, au niveau inférieur des quais, sur une table à côté d'une femme âgée (pas toujours présente), et près du fleuriste.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Wangshu Inn",
+        "frBefore": "Auberge Wangshu",
+        "frAfter": "Auberge Wangshu",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "robben_versus_chesterton_iridescent_brooch.json",
+    "bookName": "Robben versus Chesterton: Iridescent Brooch",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Behind Vitruvia, Court of Fontaine: Fleuve Cendre",
+        "frBefore": "Derrière Vitruvia à la Cour de Fontaine : Fleuve cendré",
+        "frAfter": "Derrière Vitruvia à la Cour de Fontaine : Fleuve cendré",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Purchased from Hubel, Court of Fontaine: Quartier Narbonnais",
+        "frBefore": "Vendu par Hubel à la Cour de Fontaine : Quartier narbonnais",
+        "frAfter": "Vendu par Hubel à la Cour de Fontaine : Quartier narbonnais",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Purchased from Hubel, Court of Fontaine: Quartier Narbonnais",
+        "frBefore": "Vendu par Hubel à la Cour de Fontaine : Quartier narbonnais",
+        "frAfter": "Vendu par Hubel à la Cour de Fontaine : Quartier narbonnais",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "sacred_sakura_cleansing_summary.json",
+    "bookName": "Sacred Sakura Cleansing Summary",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A tattered scroll containing information related to the Sacred Sakura Cleansing Ritual. Some pages seem to bear the cinnabar seal of some shrine.",
+        "frBefore": "Un parchemin en lambeaux contenant des informations relatives au rituel de purification du cerisier sacré. Certaines pages semblent porter le sceau cinabre d'un sanctuaire.",
+        "frAfter": "Un parchemin en lambeaux contenant des informations relatives au rituel de purification du cerisier sacré. Certaines pages semblent porter le sceau cinabre d'un sanctuaire.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Sacrificial Offering",
+        "frBefore": "Sacrificial Offering",
+        "frAfter": "Sacrificial Offering",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "sangonomiya_chronicles.json",
+    "bookName": "Sangonomiya Chronicles",
+    "fields": [
+      {
+        "field": "description",
+        "en": "Historical annals written by the famous Shogunate historian Kujou Michizane, who was known as the \"Kujou Sanpitsu-Tou,\" or \"The Great Calligrapher.\" It chronicles the history of Watatsumi Island in broad strokes.",
+        "frBefore": "Annales historiques écrites par le célèbre historien du Shogunat Kujou Michizane, connu comme l'un des « Trois dignitaires Kujou » ou le « Grand calligraphe ». Il y relate brièvement l'histoire de l'Île de Watatsumi.",
+        "frAfter": "Annales historiques écrites par le célèbre historien du Shogunat Kujou Michizane, connu comme l'un des « Trois dignitaires Kujou » ou le « Grand calligraphe ». Il y relate brièvement l'histoire de l'Île de Watatsumi.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Found in Komore Teahouse",
+        "frBefore": "Trouvé dans le Salon de thé Komore",
+        "frAfter": "Trouvé dans le Salon de thé Komore",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "scroll_of_streaming_song.json",
+    "bookName": "Scroll of Streaming Song",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Found in House of Daena",
+        "frBefore": "Foyer de Daena",
+        "frAfter": "Foyer de Daena",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Found in House of Daena",
+        "frBefore": "Foyer de Daena",
+        "frAfter": "Foyer de Daena",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Found in House of Daena",
+        "frBefore": "Foyer de Daena",
+        "frAfter": "Foyer de Daena",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "shogun_almighty_reborn_as_raiden_with_unlimited_power.json",
+    "bookName": "Shogun Almighty: Reborn as Raiden With Unlimited Power",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A popular light novel in Inazuma which tells the story of a mere mortal suddenly turning into the Raiden Shogun. The story is well-received for its novel plot and has inspired many light novelists.",
+        "frBefore": "Un roman léger qui connaît du succès à Inazuma. Il raconte l'histoire d'un mortel qui se transforme soudainement en Shogun Raiden. Bien accueillie par la critique pour son intrigue novatrice, cette œuvre est devenue une source d'inspiration pour de nombreux autres auteurs de romans.",
+        "frAfter": "Un roman léger qui connaît du succès à Inazuma. Il raconte l'histoire d'un mortel qui se transforme soudainement en Shogun Raiden. Bien accueillie par la critique pour son intrigue novatrice, cette œuvre est devenue une source d'inspiration pour de nombreux autres auteurs de romans.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City; Sold by Murata at the Outlander Affairs Agency in Ritou during the Hues of the Violet Garden event",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae à la Cité d'Inazuma Vendu par Murata au Bureau des affaires étrangères à Ritou pendant l'événement « Teintes du jardin violet ».",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae à la Cité d'Inazuma Vendu par Murata au Bureau des affaires étrangères à Ritou pendant l'événement « Teintes du jardin violet ».",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "someone_s_diary.json",
+    "bookName": "Someone's Diary",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "On a table in front of Dongdong in Qingce Village",
+        "frBefore": "Sur une table en face de Dongdong au village de Qingce",
+        "frAfter": "Sur une table en face de Dongdong au village de Qingce",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "In a hilichurl camp on the west side of the archipelago (Yaoguang Shoal)",
+        "frBefore": "Dans un camp de Brutocollinus à l'ouest de l'archipel (Banc Yaoguang)",
+        "frAfter": "Dans un camp de Brutocollinus à l'ouest de l'archipel (Banc Yaoguang)",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "North of the southern Waypoint in Guili Plains, cross the square, drop down, in a tent on the left.",
+        "frBefore": "Dans une tente au nord-ouest du point de téléportation du Lac Luhua",
+        "frAfter": "Dans une tente au nord-ouest du point de téléportation du Lac Luhua",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "In a red tent north of Qingyun Peak Waypoint",
+        "frBefore": "Dans une tente rouge au nord du point de téléportation du Pic Qingyun",
+        "frAfter": "Dans une tente rouge au nord du point de téléportation du Pic Qingyun",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "At the bottom of a ladder in the dockyard of Liyue Harbor",
+        "frBefore": "Dans le port de Liyue au niveau du bateau en construction",
+        "frAfter": "Dans le port de Liyue au niveau du bateau en construction",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Near a metal cage in the north part of Jinren Island",
+        "frBefore": "Près d'une cage en métal dans la partie nord de Île de Jinren",
+        "frAfter": "Près d'une cage en métal dans la partie nord de Île de Jinren",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "somewhat_aged_copy_of_tequil_the_brave.json",
+    "bookName": "Somewhat Aged Copy of \"Tequil the Brave\"",
+    "fields": [
+      {
+        "field": "description",
+        "en": "Somewhat Aged Copy of \"Tequil the Brave.\"",
+        "frBefore": "Somewhat Aged Copy of \"Tequil the Brave.\"",
+        "frAfter": "Une copie un peu vieillie de « Tequil le brave ».",
+        "status": "differs"
+      },
+      {
+        "field": "source",
+        "en": "Threadlike Whispers",
+        "frBefore": "Threadlike Whispers",
+        "frAfter": "Threadlike Whispers",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "spanking_new_copy_of_tequil_the_brave.json",
+    "bookName": "Spanking New Copy of \"Tequil the Brave\"",
+    "fields": [
+      {
+        "field": "description",
+        "en": "Spanking New Copy of \"Tequil the Brave.\"",
+        "frBefore": "Spanking New Copy of \"Tequil the Brave.\"",
+        "frAfter": "Une copie complètement neuve de « Tequil le brave ».",
+        "status": "differs"
+      },
+      {
+        "field": "source",
+        "en": "Threadlike Whispers",
+        "frBefore": "Threadlike Whispers",
+        "frAfter": "Threadlike Whispers",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "springs_of_hidden_jade.json",
+    "bookName": "Springs of Hidden Jade",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang",
+        "frAfter": "Vendu par Jifang",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang",
+        "frAfter": "Vendu par Jifang",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "stone_tablet_compilations_vol_i.json",
+    "bookName": "Stone Tablet Compilations: Vol. I",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A history book compiled and translated from ancient stone tablets of Liyue by the historian Zichang. It contains various fragmented historical events.",
+        "frBefore": "Un ouvrage qui compile les traductions des inscriptions trouvées sur les anciennes tablettes de pierre liyuéennes par l'historien Zichang. Elles relatent certains événements historiques.",
+        "frAfter": "Un ouvrage qui compile les traductions des inscriptions trouvées sur les anciennes tablettes de pierre liyuéennes par l'historien Zichang. Elles relatent certains événements historiques.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "string_of_pearls.json",
+    "bookName": "String of Pearls",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Found at Third-Round Knockout in Liyue Harbor, on the table Jiangzhou sits at during nighttime.",
+        "frBefore": "Aux Trois Bolées du Port au Port de Liyue, sur la table à laquelle s'assoit Jiangzhou durant la nuit",
+        "frAfter": "Aux Trois Bolées du Port au Port de Liyue, sur la table à laquelle s'assoit Jiangzhou durant la nuit",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "On the rooftop of Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Sur le toit de la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Sur le toit de la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Next to Geri in Liyue Harbor",
+        "frBefore": "À côté de Geri au Port de Liyue",
+        "frAfter": "À côté de Geri au Port de Liyue",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "sundjatta_s_first_foray.json",
+    "bookName": "Sundjatta's First Foray",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Amazolli at Idukan's Trove",
+        "frBefore": "Vendu par Amazolli au Trésor d'Idukan.",
+        "frAfter": "Vendu par Amazolli au Trésor d'Idukan.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Amazolli at Idukan's Trove",
+        "frBefore": "Vendu par Amazolli au Trésor d'Idukan.",
+        "frAfter": "Vendu par Amazolli au Trésor d'Idukan.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Amazolli at Idukan's Trove",
+        "frBefore": "Vendu par Amazolli au Trésor d'Idukan.",
+        "frAfter": "Vendu par Amazolli au Trésor d'Idukan.",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "tales_carried_by_the_northwind.json",
+    "bookName": "Tales Carried by the Northwind",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "On a box near Kofitse in Piramida",
+        "frBefore": "À Piramida, près de Kofitse",
+        "frAfter": "À Piramida, près de Kofitse",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "tales_from_the_waves.json",
+    "bookName": "Tales From the Waves",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Wangshu Inn",
+        "frBefore": "Auberge Wangshu",
+        "frAfter": "Auberge Wangshu",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "On a table at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Jifang at Wanwen Bookhouse in Liyue Harbor",
+        "frBefore": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "frAfter": "Vendu par Jifang à la Librairie Wanwen, au Port de Liyue",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "tales_of_a_snow_winged_goose.json",
+    "bookName": "Tales of a Snow-Winged Goose",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Hubel",
+        "frBefore": "Vendu par Hubel",
+        "frAfter": "Vendu par Hubel",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Hubel",
+        "frBefore": "Vendu par Hubel",
+        "frAfter": "Vendu par Hubel",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Hubel",
+        "frBefore": "Vendu par Hubel",
+        "frAfter": "Vendu par Hubel",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "teyvat_travel_guide.json",
+    "bookName": "Teyvat Travel Guide",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Given by Lisa as a reward for completing the quest Lost Book.",
+        "frBefore": "Donné en récompense à la fin de la quête Livre perdu.",
+        "frAfter": "Donné en récompense à la fin de la quête Livre perdu.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Given by Chang the Ninth as a reward for completing the quest Justice Is Its Own Reward.",
+        "frBefore": "Donné par Chang le Neuvième en récompense de la quête Gloire et richesse importent peu.",
+        "frAfter": "Donné par Chang le Neuvième en récompense de la quête Gloire et richesse importent peu.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Kuroda and Murata after completing A Story for You in the Hues of the Violet Garden event. Sold by Kuroda after the Hues of the Violet Garden event.",
+        "frBefore": "Vendu par Kuroda et Murata après avoir complété Une histoire pour toi durant l'événement Teintes du jardin violet. Vendu par Kuroda après l'événement Teintes du jardin violet.",
+        "frAfter": "Vendu par Kuroda et Murata après avoir complété Une histoire pour toi durant l'événement Teintes du jardin violet. Vendu par Kuroda après l'événement Teintes du jardin violet.",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_boar_princess.json",
+    "bookName": "The Boar Princess",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Mondstadt's Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Mondstadt's Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Mondstadt's Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Mondstadt's Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Mondstadt's Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "(Requires the completion of Lost in the Snow) Investigate the backpack on the pathway in Dragonspine to the right of Wyrmrest Valley's teleport waypoint",
+        "frBefore": "(Requiert d'avoir d'abord complété la quête Richesses de Dosdragon) Dans le sac à dos sur le sentier des Monts Dosdragon à droite du point de téléportation de la Vallée Ronfledragon",
+        "frAfter": "(Requiert d'avoir d'abord complété la quête Richesses de Dosdragon) Dans le sac à dos sur le sentier des Monts Dosdragon à droite du point de téléportation de la Vallée Ronfledragon",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[6].location",
+        "en": "From Marla in Springvale before 19:00",
+        "frBefore": "Bibliothèque de Mondstadt Donné par Marla à Deauclaire avant 19 h 00",
+        "frAfter": "Bibliothèque de Mondstadt Donné par Marla à Deauclaire avant 19 h 00",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_byakuyakoku_collection.json",
+    "bookName": "The Byakuyakoku Collection",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Complete Collection of Dragons and Snakes",
+        "frBefore": "En complétant Recueils des dragons et serpents",
+        "frAfter": "En complétant Recueils des dragons et serpents",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Complete Collection of Dragons and Snakes",
+        "frBefore": "En complétant Recueils des dragons et serpents",
+        "frAfter": "En complétant Recueils des dragons et serpents",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Complete Collection of Dragons and Snakes",
+        "frBefore": "En complétant Recueils des dragons et serpents",
+        "frAfter": "En complétant Recueils des dragons et serpents",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Complete Collection of Dragons and Snakes",
+        "frBefore": "En complétant Recueils des dragons et serpents",
+        "frAfter": "En complétant Recueils des dragons et serpents",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Complete Collection of Dragons and Snakes",
+        "frBefore": "En complétant Recueils des dragons et serpents",
+        "frAfter": "En complétant Recueils des dragons et serpents",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_fall_of_the_faded_castle.json",
+    "bookName": "The Fall of the Faded Castle",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Inside next to the entrance",
+        "frBefore": "Le Timon rubigineux",
+        "frAfter": "Le Timon rubigineux",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Hubel",
+        "frBefore": "Vendu par Hubel",
+        "frAfter": "Vendu par Hubel",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Hubel",
+        "frBefore": "Vendu par Hubel",
+        "frAfter": "Vendu par Hubel",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_feline_firm.json",
+    "bookName": "The Feline Firm",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[6].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[7].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_folio_of_foliage.json",
+    "bookName": "The Folio of Foliage",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Found in House of Daena",
+        "frBefore": "Foyer de Daena",
+        "frAfter": "Foyer de Daena",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Found in House of Daena",
+        "frBefore": "Foyer de Daena",
+        "frAfter": "Foyer de Daena",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Found in House of Daena",
+        "frBefore": "Foyer de Daena",
+        "frAfter": "Foyer de Daena",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_fox_in_the_dandelion_sea.json",
+    "bookName": "The Fox in the Dandelion Sea",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Mondstadt Library From Flora in Mondstadt",
+        "frBefore": "Bibliothèque de Mondstadt Donné par Flora",
+        "frAfter": "Bibliothèque de Mondstadt Donné par Flora",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Inside the Dawn Winery",
+        "frBefore": "À l'intérieur du Domaine de l'Aurore",
+        "frAfter": "À l'intérieur du Domaine de l'Aurore",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[6].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[7].location",
+        "en": "On a barrel on the balcony above Dawn Winery entrance",
+        "frBefore": "Sur un tonneau placé sur le balcon au-dessus de l'entrée principale du Domaine de l'Aurore",
+        "frAfter": "Sur un tonneau placé sur le balcon au-dessus de l'entrée principale du Domaine de l'Aurore",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[8].location",
+        "en": "On a table on the right of Good Hunter",
+        "frBefore": "Sur une table à droite du Bon Chasseur",
+        "frAfter": "Sur une table à droite du Bon Chasseur",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[9].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[10].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_headless_coquitao.json",
+    "bookName": "The Headless Coquitao",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "On a crate by Xona in the \"Collective of Plenty\"",
+        "frBefore": "Collectif de l'abondance",
+        "frAfter": "Collectif de l'abondance",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "On a crate up the stairs to the right of Xona in the \"Collective of Plenty\"",
+        "frBefore": "Collectif de l'abondance",
+        "frAfter": "Collectif de l'abondance",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_history_of_the_decline_and_fall_of_remuria.json",
+    "bookName": "The History of the Decline and Fall of Remuria",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Purchased from Hubel, Court of Fontaine: Quartier Narbonnais",
+        "frBefore": "Vendu par Hubel à la Cour de Fontaine",
+        "frAfter": "Vendu par Hubel à la Cour de Fontaine",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Found in Palais Mermonia",
+        "frBefore": "Palais Mermonia",
+        "frAfter": "Palais Mermonia",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Purchased from Hubel, Court of Fontaine: Quartier Narbonnais",
+        "frBefore": "Vendu par Hubel à la Cour de Fontaine",
+        "frAfter": "Vendu par Hubel à la Cour de Fontaine",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_lay_of_al_ahmar.json",
+    "bookName": "The Lay of Al-Ahmar",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A story about an ancient god whose name has been lost to history. The story is told by a floating Jinni. The veracity of the story cannot be determined.",
+        "frBefore": "L'histoire d'une ancienne divinité oubliée. Elle est racontée par un djinn flottant dans les airs. Sa véracité ne peut être attestée.",
+        "frAfter": "L'histoire d'une ancienne divinité oubliée. Elle est racontée par un djinn flottant dans les airs. Sa véracité ne peut être attestée.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "On a table in the House of Daena",
+        "frBefore": "Sur une table du Foyer de Daena",
+        "frAfter": "Sur une table du Foyer de Daena",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_legends_of_reed_miller_thief_extraordinaire.json",
+    "bookName": "The Legends of Reed Miller, Thief Extraordinaire",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Dhabit at Mimisbrunnr Books in Nasha Town",
+        "frBefore": "Vendu par Dhabit",
+        "frAfter": "Vendu par Dhabit",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Dhabit at Mimisbrunnr Books in Nasha Town",
+        "frBefore": "Vendu par Dhabit",
+        "frAfter": "Vendu par Dhabit",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Dhabit at Mimisbrunnr Books in Nasha Town",
+        "frBefore": "Vendu par Dhabit",
+        "frAfter": "Vendu par Dhabit",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_legend_of_vennessa.json",
+    "bookName": "The Legend of Vennessa",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Grand Master's Office in the Knights of Favonius Headquarters From Dr. Edith at Windrise",
+        "frBefore": "Bureau du Grand Maître (QG de l'Ordre) Donné, de jour, par le Dr. Édith à Ventlevé.",
+        "frAfter": "Bureau du Grand Maître (QG de l'Ordre) Donné, de jour, par le Dr. Édith à Ventlevé.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Grand Master's Office in the Knights of Favonius Headquarters From Sayid at the Anemo Archon Statue plaza (daytime)",
+        "frBefore": "Bureau du Grand Maître (QG de l'Ordre) Donné, de jour, par Sayid sur la place de la cathédrale.",
+        "frAfter": "Bureau du Grand Maître (QG de l'Ordre) Donné, de jour, par Sayid sur la place de la cathédrale.",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_life_of_mouun_the_shrine_maiden.json",
+    "bookName": "The Life of Mouun the Shrine Maiden",
+    "fields": [
+      {
+        "field": "description",
+        "en": "For the people of Watatsumi, the legends of the Archon War are always filled with bitterness. Many of these millennia-old folksongs tell of a shrine maiden by the name of Mouun, who once rode upon the back of a sea monster, following the Great Serpent unto a tragic moving end.",
+        "frBefore": "Les légendes de la Guerre des Archons laissent encore un arrière-goût amer aux habitants de l'Île de Watatsumi. De nombreuses chansons vieilles de plus d'un millénaire racontent l'histoire d'une prêtresse nommée Mouun qui chevauchait une énorme bête marine pour se battre aux côtés du Grand serpent jusqu'à sa fin tragique.",
+        "frAfter": "Les légendes de la Guerre des Archons laissent encore un arrière-goût amer aux habitants de l'Île de Watatsumi. De nombreuses chansons vieilles de plus d'un millénaire racontent l'histoire d'une prêtresse nommée Mouun qui chevauchait une énorme bête marine pour se battre aux côtés du Grand serpent jusqu'à sa fin tragique.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Bourou Village, Watatsumi Island",
+        "frBefore": "Village de Bourou, Île de Watatsumi",
+        "frAfter": "Village de Bourou, Île de Watatsumi",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_little_witch_and_the_undying_fire.json",
+    "bookName": "The Little Witch and the Undying Fire",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[6].location",
+        "en": "Theater Lobby",
+        "frBefore": "Loge du théâtre",
+        "frAfter": "Loge du théâtre",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_mondstadt_tower.json",
+    "bookName": "The Mondstadt Tower",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "From Patchi the Curious in Thousand Winds Temple Grand Master's Office in the Knights of Favonius Headquarters",
+        "frBefore": "Bureau du Grand Maître (QG de l'Ordre) Parler à Patty la Curieuse au Temple des Mille Vents",
+        "frAfter": "Bureau du Grand Maître (QG de l'Ordre) Parler à Patty la Curieuse au Temple des Mille Vents",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_pale_princess_and_the_six_pygmies.json",
+    "bookName": "The Pale Princess and the Six Pygmies",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Automatically obtained during {{Quest|Lost Book",
+        "frBefore": "Donné en récompense de la quête Livre perdu",
+        "frAfter": "Donné en récompense de la quête Livre perdu",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Unknown",
+        "frBefore": "Inconnu",
+        "frAfter": "Inconnu",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Unknown",
+        "frBefore": "Inconnu",
+        "frAfter": "Inconnu",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Unknown",
+        "frBefore": "Inconnu",
+        "frAfter": "Inconnu",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Unknown",
+        "frBefore": "Inconnu",
+        "frAfter": "Inconnu",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Unknown",
+        "frBefore": "Inconnu",
+        "frAfter": "Inconnu",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[6].location",
+        "en": "Unknown",
+        "frBefore": "Inconnu",
+        "frAfter": "Inconnu",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_saga_of_hamavaran.json",
+    "bookName": "The Saga of Hamavaran",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_serpent_and_drakes_of_tokoyokoku.json",
+    "bookName": "The Serpent and Drakes of Tokoyokoku",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A novel based on Watatsumi Island's folktales. The original edition of this text was transcribed on Watatsumi Island and brought back to Narukami Island by a merchant while the former's serpent god yet lived. No one reads this ancient tome nowadays, its role supplanted by all the light novels on the market. This book describes the unique cosmological outlook of the Watatsumi people before they came to adopt aspects of Narukami culture, and a recent resurgence in traditional novel publishing has allowed it to see the light of day once more.",
+        "frBefore": "Un roman basé sur les contes populaires de l'Île de Watatsumi. L'édition originale de ce texte a été transcrite sur l'Île de Watatsumi et ramenée sur l'Île de Narukami par un marchand alors que l'ancienne divinité serpent vivait encore. Personne ne lit aujourd'hui ce vieux tome, supplanté depuis par tous les romans légers du marché. Ce livre décrit la perspective cosmologique unique des Watatsumiens avant qu'ils n'adoptent des aspects de la culture narukamienne. Une résurgence récente de l'édition de romans traditionnels lui a permis de voir le jour une fois de plus.",
+        "frAfter": "Un roman basé sur les contes populaires de l'Île de Watatsumi. L'édition originale de ce texte a été transcrite sur l'Île de Watatsumi et ramenée sur l'Île de Narukami par un marchand alors que l'ancienne divinité serpent vivait encore. Personne ne lit aujourd'hui ce vieux tome, supplanté depuis par tous les romans légers du marché. Ce livre décrit la perspective cosmologique unique des Watatsumiens avant qu'ils n'adoptent des aspects de la culture narukamienne. Une résurgence récente de l'édition de romans traditionnels lui a permis de voir le jour une fois de plus.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Après complétion de la quête Recueils des dragons et serpent",
+        "frAfter": "Après complétion de la quête Recueils des dragons et serpent",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_shepherd_and_the_magic_bottle.json",
+    "bookName": "The Shepherd and the Magic Bottle",
+    "fields": [
+      {
+        "field": "description",
+        "en": "The story of a shepherd who came across a magic bottle within which an unexpected being was confined.",
+        "frBefore": "L'histoire d'un berger qui trouve dans le désert une bouteille en argent dans laquelle est enfermé un personnage inattendu.",
+        "frAfter": "L'histoire d'un berger qui trouve dans le désert une bouteille en argent dans laquelle est enfermé un personnage inattendu.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Table in the House of Daena",
+        "frBefore": "Table du Foyer de Daena",
+        "frAfter": "Table du Foyer de Daena",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_tale_of_kuntur.json",
+    "bookName": "The Tale of Kuntur",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Kuntur's Pursuit",
+        "frBefore": "Falaise Quahuacan, Natlan",
+        "frAfter": "Falaise Quahuacan, Natlan",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_tale_of_qoyllor_and_ukuku.json",
+    "bookName": "The Tale of Qoyllor and Ukuku",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "To Wish Upon a Star",
+        "frBefore": "Quête du monde Un vœu aux étoiles.",
+        "frAfter": "Quête du monde Un vœu aux étoiles.",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_tale_of_shiruyeh_and_shirin.json",
+    "bookName": "The Tale of Shiruyeh and Shirin",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Found in House of Daena",
+        "frBefore": "Foyer de Daena",
+        "frAfter": "Foyer de Daena",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Found in House of Daena",
+        "frBefore": "Foyer de Daena",
+        "frAfter": "Foyer de Daena",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_two_musketeers.json",
+    "bookName": "The Two Musketeers",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "In a news stand across from Beaumont Workshop",
+        "frBefore": "Dans un kiosque à journaux près de l'Atelier Beaumont",
+        "frAfter": "Dans un kiosque à journaux près de l'Atelier Beaumont",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Hubel",
+        "frBefore": "Vendu par Hubel",
+        "frAfter": "Vendu par Hubel",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Hubel",
+        "frBefore": "Vendu par Hubel",
+        "frAfter": "Vendu par Hubel",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "the_volcano_lord_and_the_shadow_pins.json",
+    "bookName": "The Volcano Lord and the Shadow Pins",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Close to Pacal at the \"Children of Echoes\"",
+        "frBefore": "Enfants des échos",
+        "frAfter": "Enfants des échos",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "thick_notebook.json",
+    "bookName": "Thick Notebook",
+    "fields": [
+      {
+        "field": "description",
+        "en": "Notes written by Henry Morton. They describe a place seemingly not far from here.",
+        "frBefore": "Notes written by Henry Morton. They describe a place seemingly not far from here.",
+        "frAfter": "Le journal de Henry Morton. Son contenu a un rapport avec cet endroit...",
+        "status": "differs"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      }
+    ]
+  },
+  {
+    "fileName": "time_trekker.json",
+    "bookName": "Time Trekker",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Hubel",
+        "frBefore": "Vendu par Hubel",
+        "frAfter": "Vendu par Hubel",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Sold by Hubel",
+        "frBefore": "Vendu par Hubel",
+        "frAfter": "Vendu par Hubel",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Sold by Hubel",
+        "frBefore": "Vendu par Hubel",
+        "frAfter": "Vendu par Hubel",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "toki_alley_tales.json",
+    "bookName": "Toki Alley Tales",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Torn Page: Toki Alley Tales (Prologue), 10 scattered across Narukami Island",
+        "frBefore": "Page déchirée des « Contes de l'Allée Toki - Prologue »",
+        "frAfter": "Page déchirée des « Contes de l'Allée Toki - Prologue »",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Torn Page: Toki Alley Tales (I), 10 scattered across Kannazuka",
+        "frBefore": "Page déchirée des « Contes de l'Allée Toki - II »",
+        "frAfter": "Page déchirée des « Contes de l'Allée Toki - II »",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Torn Page: Toki Alley Tales (II), 10 scattered across Yashiori Island",
+        "frBefore": "Page déchirée des « Contes de l'Allée Toki - III »",
+        "frAfter": "Page déchirée des « Contes de l'Allée Toki - III »",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Torn Page: Toki Alley Tales (III), 10 scattered across Seirai Island",
+        "frBefore": "Page déchirée des « Contes de l'Allée Toki - IV »",
+        "frAfter": "Page déchirée des « Contes de l'Allée Toki - IV »",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Torn Page: Toki Alley Tales (IV), 10 scattered across Watatsumi Island",
+        "frBefore": "Page déchirée des « Contes de l'Allée Toki - V »",
+        "frAfter": "Page déchirée des « Contes de l'Allée Toki - V »",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Torn Page: Toki Alley Tales (V), 10 obtainable through Inazuma Fishing Points",
+        "frBefore": "Page déchirée des « Contes de l'Allée Toki - VI »",
+        "frAfter": "Page déchirée des « Contes de l'Allée Toki - VI »",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "treasured_tales_of_the_chouken_shinkageuchi.json",
+    "bookName": "Treasured Tales of the Chouken Shinkageuchi",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Sold by Kuroda at the Yae Publishing House in Inazuma City",
+        "frBefore": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "frAfter": "Vendu par Kuroda à la Chambre Yae dans la Cité d'Inazuma.",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "vera_s_melancholy.json",
+    "bookName": "Vera's Melancholy",
+    "fields": [
+      {
+        "field": "description",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "not_applicable"
+      },
+      {
+        "field": "source",
+        "en": null,
+        "frBefore": null,
+        "frAfter": null,
+        "status": "both_empty"
+      },
+      {
+        "field": "volumes[0].location",
+        "en": "Mondstadt Library From Tia at Wangshu Inn",
+        "frBefore": "Bibliothèque de Mondstadt Auprès de Tia à l'Auberge Wangshu",
+        "frAfter": "Bibliothèque de Mondstadt Auprès de Tia à l'Auberge Wangshu",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[1].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[2].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[3].location",
+        "en": "Northeastern side of Good Hunter, on the balcony",
+        "frBefore": "Sur le balcon de la façade nord-est du Bon Chasseur",
+        "frAfter": "Sur le balcon de la façade nord-est du Bon Chasseur",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[4].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[5].location",
+        "en": "Grand Master's Office in the Knights of Favonius Headquarters",
+        "frBefore": "Bureau du Grand Maître (QG de l'Ordre)",
+        "frAfter": "Bureau du Grand Maître (QG de l'Ordre)",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[6].location",
+        "en": "On a table behind Dawn Winery",
+        "frBefore": "Sur une table derrière le Domaine de l'Aurore",
+        "frAfter": "Sur une table derrière le Domaine de l'Aurore",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[7].location",
+        "en": "Inside Dawn Winery",
+        "frBefore": "À l'intérieur du Domaine de l'Aurore",
+        "frAfter": "À l'intérieur du Domaine de l'Aurore",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[8].location",
+        "en": "Mondstadt Library",
+        "frBefore": "Bibliothèque de Mondstadt",
+        "frAfter": "Bibliothèque de Mondstadt",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[9].location",
+        "en": "Grand Master's Office in the Knights of Favonius Headquarters",
+        "frBefore": "Bibliothèque de Mondstadt Bureau du Grand Maître (QG de l'Ordre)",
+        "frAfter": "Bibliothèque de Mondstadt Bureau du Grand Maître (QG de l'Ordre)",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[10].location",
+        "en": "Mahavaipulya Chamber: Library F4, Temple of Space",
+        "frBefore": "Chambre de Mahavaipulya (4e étage) au Temple de l'espace",
+        "frAfter": "Chambre de Mahavaipulya (4e étage) au Temple de l'espace",
+        "status": "already_translated"
+      },
+      {
+        "field": "volumes[11].location",
+        "en": "Mahavaipulya Chamber: Library F2, Temple of Space",
+        "frBefore": "Chambre de Mahavaipulya (2e étage) au Temple de l'espace",
+        "frAfter": "Chambre de Mahavaipulya (2e étage) au Temple de l'espace",
+        "status": "already_translated"
+      }
+    ]
+  },
+  {
+    "fileName": "verses_of_equilibrium.json",
+    "bookName": "Verses of Equilibrium",
+    "fields": [
+      {
+        "field": "description",
+        "en": "Legend has that it contains ancient incantations used to pay respects to Rex Lapis and the yaksha adepti. It also serves as a historical record of the ancient belief in the Geo Archon.",
+        "frBefore": "Cet ouvrage contient d'anciennes incantations adressées au Souverain de la Roche et aux Yakshas. Il s'agit également d'une archive des anciennes croyances religieuses à Liyue.",
+        "frAfter": "Cet ouvrage contient d'anciennes incantations adressées au Souverain de la Roche et aux Yakshas. Il s'agit également d'une archive des anciennes croyances religieuses à Liyue.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Wanwen Bookhouse",
+        "frBefore": "Wanwen Bookhouse",
+        "frAfter": "Wanwen Bookhouse",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "wind_courage_and_wings_book.json",
+    "bookName": "Wind, Courage, and Wings (Book)",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A book mistakenly taken by Amber... about fables?",
+        "frBefore": "Un ouvrage de fables qu'Amber a pris par erreur ?",
+        "frAfter": "Un ouvrage de fables qu'Amber a pris par erreur ?",
+        "status": "no_material"
+      },
+      {
+        "field": "source",
+        "en": "Glide With the Wind",
+        "frBefore": "Glide With the Wind",
+        "frAfter": "Glide With the Wind",
+        "status": "leftover_unresolved"
+      }
+    ]
+  },
+  {
+    "fileName": "yakshas_the_guardian_adepti.json",
+    "bookName": "Yakshas: The Guardian Adepti",
+    "fields": [
+      {
+        "field": "description",
+        "en": "A volume out of the 'Hidden Wonders and Folklore of Liyue' collection, which serves as Liyue's own version of 'Tour of the Land of Liyue,' an encyclopedia of folk beliefs and customs by Masudi, a scholar from Sumeru. Due to the archaic nature of the author's writing style, it was largely dismissed by the public and publishers alike. 'Yakshas, The Guardian Adepti' introduces the readers to the various yakshas who fought side-by-side with the Geo Archon.",
+        "frBefore": "Un volume de la collection « Folklore & merveilles de Liyue », qui est la version réservée à Liyue de la série « Un tour des terres de Liyue », rédigée par le chercheur Masudi de Sumeru. Son style obscur en rend le contenu difficilement compréhensible. « Les Yakshas, gardiens Adeptes » présente les différents Yakshas ayant combattu aux côtés de l'Archon Géo.",
+        "frAfter": "Un volume de la collection « Folklore & merveilles de Liyue », qui est la version réservée à Liyue de la série « Un tour des terres de Liyue », rédigée par le chercheur Masudi de Sumeru. Son style obscur en rend le contenu difficilement compréhensible. « Les Yakshas, gardiens Adeptes » présente les différents Yakshas ayant combattu aux côtés de l'Archon Géo.",
+        "status": "match"
+      },
+      {
+        "field": "source",
+        "en": "Obtained from Glimmers of the Vigilant Yaksha",
+        "frBefore": "Obtained from Glimmers of the Vigilant Yaksha",
+        "frAfter": "Obtained from Glimmers of the Vigilant Yaksha",
+        "status": "leftover_unresolved"
+      }
+    ]
+  }
+]
