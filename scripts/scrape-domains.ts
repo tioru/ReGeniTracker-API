@@ -647,6 +647,11 @@ async function fetchBatch(continueParams?: Record<string, string>): Promise<{
     if (!block) continue;
     const fields = parseInfoboxFields(block);
 
+    // Quest Domains (type=Quest) sont liés à une quête précise, pas
+    // farmables librement : hors périmètre du tracker, on les exclut dès
+    // la source plutôt que de les enrichir/écrire pour rien.
+    if ((fields['type'] ?? '').trim().toLowerCase() === 'quest') continue;
+
     const versionMatch = content.match(/\{\{Change History\|([^}|]+)/);
     const version = versionMatch ? versionMatch[1].trim() : '';
     const frTitle: string | null = page.langlinks?.[0]?.title
