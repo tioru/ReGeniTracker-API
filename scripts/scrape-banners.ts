@@ -50,7 +50,7 @@ function getBannerCategory(lang: string): string {
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
-interface CharacterBannerData {
+export interface CharacterBannerData {
   name: string;
   type: 'character';
   boostedCharacters: {
@@ -69,7 +69,7 @@ interface CharacterBannerData {
   endDate: string;
 }
 
-interface WeaponBannerData {
+export interface WeaponBannerData {
   name: string;
   type: 'weapon';
   releaseDate: string;
@@ -88,7 +88,7 @@ interface WeaponBannerData {
   };
 }
 
-interface ChronicledBannerData {
+export interface ChronicledBannerData {
   name: string;
   type: 'chronicled';
   mechanic: 'chronicled' | 'lightrace';
@@ -133,7 +133,7 @@ interface NoviceBannerData {
   releaseDate: string;
 }
 
-type BannerData =
+export type BannerData =
   | CharacterBannerData
   | WeaponBannerData
   | ChronicledBannerData
@@ -268,7 +268,7 @@ async function fetchRenderedHtml(
 // Format de date accepté dans les titres de page : AAAA-MM-JJ (en) ou JJ.MM.AAAA (fr)
 const PAGE_DATE_PATTERN = String.raw`(\d{4}-\d{2}-\d{2}|\d{2}\.\d{2}\.\d{4})`;
 
-async function fetchAllOccurrencesViaPrefix(
+export async function fetchAllOccurrencesViaPrefix(
   seriesName: string,
   lang: string,
 ): Promise<string[]> {
@@ -617,7 +617,7 @@ function detectBannerTypeEn(
   return 'unknown';
 }
 
-async function scrapeBannerOccurrenceEn(
+export async function scrapeBannerOccurrenceEn(
   pageTitle: string,
   lang: string,
 ): Promise<BannerData | null> {
@@ -919,7 +919,7 @@ const WEAPONS_DIR = path.resolve(__dirname, '../prisma/data/weapons');
 let weaponNameEnToFr: Map<string, string> | null = null;
 let weaponNamesFr: Set<string> | null = null;
 
-function loadWeaponNameMaps(): {
+export function loadWeaponNameMaps(): {
   enToFr: Map<string, string>;
   frNames: Set<string>;
 } {
@@ -1001,7 +1001,7 @@ async function buildStandardBannerFr(
 // lien interlangue MediaWiki (prop=langlinks) — fiable même quand les noms
 // diffèrent totalement (ex: "Prestance du héron" → "The Heron's Court") — et
 // on prend releaseDate/endDate directement dessus.
-async function fetchLanglinkTitle(
+export async function fetchLanglinkTitle(
   pageTitle: string,
   lang: string,
   targetLang: string,
@@ -1034,7 +1034,7 @@ async function fetchDatesFromEnCounterpart(
   return extractDatesEn(enWikitext);
 }
 
-async function scrapeBannerOccurrenceFr(
+export async function scrapeBannerOccurrenceFr(
   pageTitle: string,
   lang: string,
 ): Promise<BannerData | null> {
@@ -1226,4 +1226,6 @@ async function main() {
   }
 }
 
-main();
+if (require.main === module) {
+  main();
+}
