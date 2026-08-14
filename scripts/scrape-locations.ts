@@ -52,7 +52,7 @@ const CACHE_PATH = path.resolve(__dirname, './cache/locations-raw-cache.json');
 // les localisations récupérées dans ce run (pas de requête supplémentaire).
 // ─────────────────────────────────────────────────────────────────────────────
 
-type LocationType = 'Nation' | 'Subregion' | 'Area' | 'Subarea';
+export type LocationType = 'Nation' | 'Subregion' | 'Area' | 'Subarea';
 
 const CATEGORIES: { category: string; type: LocationType }[] = [
   { category: 'Category:Nations', type: 'Nation' },
@@ -61,14 +61,14 @@ const CATEGORIES: { category: string; type: LocationType }[] = [
   { category: 'Category:Subareas', type: 'Subarea' },
 ];
 
-const TYPE_LABELS_FR: Record<LocationType, string> = {
+export const TYPE_LABELS_FR: Record<LocationType, string> = {
   Nation: 'Nation',
   Subregion: 'Sous-région',
   Area: 'Région',
   Subarea: 'Zone',
 };
 
-interface RawLocation {
+export interface RawLocation {
   pageTitle: string;
   title: string;
   type: LocationType;
@@ -78,7 +78,7 @@ interface RawLocation {
   frTitle: string | null;
 }
 
-interface LocationOutput {
+export interface LocationOutput {
   name: string;
   type: string;
   parent: string | null;
@@ -92,7 +92,7 @@ interface LocationOutput {
 // reconstruire l'URL réelle sur le CDN Fandom, sensible à la casse) ;
 // "imageLocalName" en est une version normalisée (minuscules, espaces ->
 // "_") pour qui veut nommer un fichier téléchargé localement.
-function normalizeImageLocalName(image: string | null): string | null {
+export function normalizeImageLocalName(image: string | null): string | null {
   if (!image) return null;
   return image.toLowerCase().replace(/ /g, '_');
 }
@@ -174,7 +174,7 @@ function cleanWikitext(text: string): string {
     .trim();
 }
 
-function slugify(title: string): string {
+export function slugify(title: string): string {
   return title
     .toLowerCase()
     .normalize('NFD')
@@ -323,9 +323,36 @@ function parseLocationEn(content: string): {
 
 // ── Parsing FR ───────────────────────────────────────────────────────────────
 
-function parseNationFr(content: string): { name: string; description: string; image: string | null } | null {
-  const block = extractBracedBlock(content, '{{Pays');
+// Certaines pages FR (ex: Nod-Krai) mettent leur texte d'intro dans un
+// template {{Description|texte|source}} plutôt qu'en prose brute. cleanWikitext()
+// supprime tout template non géré (donc {{Description|...}} en entier, texte
+// compris) : il faut l'extraire *avant* nettoyage, comme pour parseNationDescriptionEn.
+function extractDescriptionTemplateText(raw: string): string | null {
+  const block = extractBracedBlock(raw, '{{Description');
   if (!block) return null;
+  const inner = block.slice('{{Description'.length, -2);
+  const parts = splitTopLevelPipe(inner);
+  return parts.length > 1 ? cleanWikitext(parts[1]) : null;
+}
+
+// Repli pour l'intro brute (texte libre après l'infobox, avant le premier
+// "==" ou "{{Description}}") : utilisé quand ni template ni champ dédié ne
+// fournit la description.
+function extractProseIntro(raw: string): string {
+  const stopMatch = raw.match(/\n==/);
+  const introRaw = stopMatch ? raw.slice(0, stopMatch.index) : raw;
+  return cleanWikitext(introRaw);
+}
+
+export function parseNationFr(content: string): { name: string; description: string; image: string | null } | null {
+  const block = extractBracedBlock(content, '{{Pays');
+  if (!block) {
+    // Certaines ex-nations/régions à part (ex: Khaenri'ah, qui n'est plus une
+    // des 7 nations canoniques) sont modélisées côté wiki FR avec l'infobox
+    // "lieu" générique plutôt que {{Pays}} : on retombe sur ce parsing-là.
+    const asLocation = parseLocationFr(content);
+    return asLocation ? { name: '', ...asLocation } : null;
+  }
   const fields = parseInfoboxFieldsAccented(block);
 
   const quoteBlock = extractBracedBlock(content, '{{Quote');
@@ -336,6 +363,15 @@ function parseNationFr(content: string): { name: string; description: string; im
     description = parts.length > 1 ? cleanWikitext(parts[1]) : '';
   }
 
+  // Certaines nations (ex: Snezhnaya) n'ont pas de {{Quote}} exploitable : la
+  // description réelle est soit dans un {{Description|...}} plus bas, soit en
+  // prose libre juste après l'infobox.
+  if (!description) {
+    const blockEnd = content.indexOf(block) + block.length;
+    const rest = content.slice(blockEnd);
+    description = extractDescriptionTemplateText(rest) || extractProseIntro(rest);
+  }
+
   return {
     name: cleanWikitext(fields['nom'] ?? ''),
     description,
@@ -343,18 +379,24 @@ function parseNationFr(content: string): { name: string; description: string; im
   };
 }
 
-function parseLocationFr(content: string): { description: string; image: string | null } | null {
-  const marker = content.includes('{{Infobox_Lieux') ? '{{Infobox_Lieux' : '{{Infobox Lieux';
+// Alias de template observés sur le wiki FR pour l'infobox d'un lieu
+// non-nation ; toutes ne sont pas documentées mais partagent la même
+// structure (infobox suivie d'une intro en prose ou en {{Description}}).
+const LOCATION_INFOBOX_MARKERS = ['{{Infobox_Lieux', '{{Infobox Lieux', '{{Région/Lieux', '{{Region/Lieux'];
+
+export function parseLocationFr(content: string): { description: string; image: string | null } | null {
+  const marker = LOCATION_INFOBOX_MARKERS.find((m) => content.includes(m));
+  if (!marker) return null;
   const block = extractBracedBlock(content, marker);
   if (!block) return null;
 
   const blockEnd = content.indexOf(block) + block.length;
   const rest = content.slice(blockEnd);
-  const stopMatch = rest.match(/\n==/);
-  const introRaw = stopMatch ? rest.slice(0, stopMatch.index) : rest;
+
+  const description = extractDescriptionTemplateText(rest) || extractProseIntro(rest);
 
   return {
-    description: cleanWikitext(introRaw),
+    description,
     image: extractFirstImage(block),
   };
 }
@@ -634,7 +676,7 @@ async function fetchFrWikitext(frTitle: string): Promise<string | null> {
 
 // ── Résolution de la page FR (langlink batché → langlink dédié → Other Languages) ──
 
-async function resolveFrTitleAndContent(
+export async function resolveFrTitleAndContent(
   loc: RawLocation,
 ): Promise<{ frTitle: string; frContent: string | null } | null> {
   let frTitle = loc.frTitle;
@@ -661,7 +703,7 @@ async function resolveFrTitleAndContent(
 
 // ── Construction des sorties ────────────────────────────────────────────────
 
-function buildLocationOutput(
+export function buildLocationOutput(
   loc: RawLocation,
   lang: 'en' | 'fr',
   name: string,
@@ -779,6 +821,7 @@ async function main() {
 
   let written = 0;
   let skippedFr = 0;
+  const emptyFrDescription: string[] = [];
 
   for (const loc of rawByPageTitle.values()) {
     const childrenTitles = childrenOf.get(loc.pageTitle) ?? [];
@@ -805,14 +848,19 @@ async function main() {
       if (loc.type === 'Nation') {
         const parsed = resolved.frContent ? parseNationFr(resolved.frContent) : null;
         frName = parsed?.name || resolved.frTitle;
-        frDescription = parsed?.description || loc.description;
+        // Ne JAMAIS retomber sur le texte EN : une page FR sans description
+        // exploitable (page introuvable, template non reconnu...) doit rester
+        // vide plutôt que d'afficher un résidu anglais qui a l'air traduit.
+        frDescription = parsed?.description || '';
         frImage = parsed?.image ?? loc.image;
       } else {
         const parsed = resolved.frContent ? parseLocationFr(resolved.frContent) : null;
         frName = resolved.frTitle;
-        frDescription = parsed?.description || loc.description;
+        frDescription = parsed?.description || '';
         frImage = parsed?.image ?? loc.image;
       }
+
+      if (!frDescription) emptyFrDescription.push(`${filename} (${frName})`);
 
       const frOutput = buildLocationOutput(
         loc,
@@ -835,7 +883,13 @@ async function main() {
   if (skippedFr > 0) {
     console.warn(`⚠️  ${skippedFr} localisation(s) sans page FR trouvée (fichier fr/ non écrit).`);
   }
+  if (emptyFrDescription.length > 0) {
+    console.warn(`⚠️  ${emptyFrDescription.length} localisation(s) avec description FR vide (page FR trouvée mais rien à en extraire — vrai manque côté wiki, candidat pour scripts/data/location-description-overrides.json) :`);
+    console.warn(emptyFrDescription.map((f) => `  - ${f}`).join('\n'));
+  }
   console.log(`✅ Wrote ${written} location files (en/) to ${enDir}`);
 }
 
-main();
+if (require.main === module) {
+  main();
+}
