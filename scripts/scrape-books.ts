@@ -186,13 +186,18 @@ function parseInfoboxFields(block: string): Record<string, string> {
   // ligne ne verrait alors jamais aucun champ (aucune ligne ne commence par
   // "|"). On repère donc chaque marqueur "|clé=" dans le bloc entier plutôt
   // que ligne par ligne, ce qui couvre les deux formats indifféremment.
+  // Un <ref>...</ref> inséré dans une valeur de champ (ex: author = [[Leucade]]
+  // <ref>{{Ref/NPC|Aratani||s = ...}}</ref>) peut contenir un "|clé=" interne
+  // qui, sinon retiré avant le scan des marqueurs, est pris à tort pour un
+  // nouveau champ et tronque la valeur légitime en cours.
+  const cleanedBlock = block.replace(/<ref[^>]*>[\s\S]*?<\/ref>/gi, '').replace(/<ref[^>]*\/>/gi, '');
   const fields: Record<string, string> = {};
-  const markers = [...block.matchAll(/\|\s*([\w' -]+?)\s*=\s*/g)];
+  const markers = [...cleanedBlock.matchAll(/\|\s*([\w' -]+?)\s*=\s*/g)];
   for (let i = 0; i < markers.length; i++) {
     const key = markers[i][1].trim();
     const valueStart = markers[i].index! + markers[i][0].length;
-    const valueEnd = i + 1 < markers.length ? markers[i + 1].index! : block.length;
-    const value = block
+    const valueEnd = i + 1 < markers.length ? markers[i + 1].index! : cleanedBlock.length;
+    const value = cleanedBlock
       .slice(valueStart, valueEnd)
       .replace(/\}\}\s*$/, '')
       .trim();
@@ -340,13 +345,34 @@ function extractFrDescriptionFallback(content: string, block: string): string | 
   // premier titre de section rencontré, quel que soit son nom, plutôt que de
   // chercher spécifiquement "Description" (ce qui faisait remonter le titre
   // "==Texte==" lui-même comme description sur les pages qui l'utilisent).
-  const headingMatch = after.match(/==+\s*[^=\n]+?\s*==+\s*\n+([\s\S]+?)(?:\n\s*\n|\n==|$)/);
-  const target = headingMatch ? headingMatch[1] : after.match(/^\s*([\s\S]+?)(?:\n\s*\n|\n==|$)/)?.[1];
+  //
+  // Exception : "==Historique==" ({{Historique|...}}, changelog de version)
+  // est présent en fin de page sur quasiment tous les articles du wiki. Sur
+  // les pages sans section de description dédiée (juste un paragraphe en
+  // italique après l'infobox, cf. ci-dessus), c'était alors le premier — et
+  // seul — titre rencontré dans la fenêtre de recherche, ce qui faisait
+  // remonter le changelog vide à la place du paragraphe italique déjà
+  // correct (ex: "Ancient Investigation Journal: Part II").
+  const headingMatch = [...after.matchAll(/==+\s*([^=\n]+?)\s*==+\s*\n+([\s\S]+?)(?:\n\s*\n|\n==|$)/g)].find(
+    (m) => m[1].trim().toLowerCase() !== 'historique',
+  );
+  const target = headingMatch ? headingMatch[2] : after.match(/^\s*([\s\S]+?)(?:\n\s*\n|\n==|$)/)?.[1];
   if (!target) return null;
   return cleanWikitext(target) || null;
 }
 
-function parseBookInfoboxFr(frTitle: string, content: string, en: BookOutput): BookOutput | null {
+// previousFr: dernière traduction FR connue (cache), utilisée en repli avant
+// l'EN quand le wiki FR a retiré le champ structuré (description/source/
+// tomeN) correspondant — cf. preserveKnownFields, même logique que pour
+// author/publisher/illustrator mais appliquée ici aux champs qui, sinon,
+// retombent silencieusement sur du texte anglais non traduit plutôt que sur
+// null (donc invisibles à preserveKnownFields, qui ne réagit qu'à null).
+function parseBookInfoboxFr(
+  frTitle: string,
+  content: string,
+  en: BookOutput,
+  previousFr: BookOutput | null | undefined,
+): BookOutput | null {
   const block =
     extractBracedBlock(content, '{{Infobox livre') ?? extractBracedBlock(content, '{{Infobox objet');
   if (!block) return null;
@@ -367,17 +393,24 @@ function parseBookInfoboxFr(frTitle: string, content: string, en: BookOutput): B
       en.category === 'BOOK'
         ? cleanWikitext(fields['description'] ?? '') ||
           extractFrDescriptionFallback(content, block) ||
+          previousFr?.description ||
           en.description
         : null,
     source:
       en.category === 'BOOK'
-        ? cleanWikitext(fields['source'] ?? '') || cleanOptionalField(fields['tome1']) || en.source
+        ? cleanWikitext(fields['source'] ?? '') ||
+          cleanOptionalField(fields['tome1']) ||
+          previousFr?.source ||
+          en.source
         : en.source,
     volumes:
       en.category === 'BOOK_COLLECTION'
         ? en.volumes.map((v) => ({
             number: v.number,
-            location: cleanWikitext(fields[`tome${v.number}`] ?? '') || v.location,
+            location:
+              cleanWikitext(fields[`tome${v.number}`] ?? '') ||
+              previousFr?.volumes.find((pv) => pv.number === v.number)?.location ||
+              v.location,
           }))
         : [],
   };
@@ -397,25 +430,44 @@ function extractOtherLanguagesFrName(content: string): string | null {
   return cleanOptionalField(fields['fr']);
 }
 
+// ── Repli auteur/éditeur/illustrateur: conserve la valeur déjà connue ──────
+// Le wiki retire parfois le champ author/publisher/illustrator d'une
+// infobox lors d'une réorganisation (l'info reste alors seulement noyée
+// dans le texte de description, ex: "written by the folklorist Ella Musk")
+// sans que la donnée soit fausse ou obsolète pour autant. Plutôt que de
+// tenter de la ré-extraire depuis la description en prose libre (peu
+// fiable, cf. NOTE en tête de fichier), on garde la dernière valeur connue
+// du cache tant que le nouveau scrape n'en fournit aucune.
+function preserveKnownFields(fresh: BookOutput, previous: BookOutput | undefined): BookOutput {
+  if (!previous) return fresh;
+  return {
+    ...fresh,
+    author: fresh.author ?? previous.author,
+    publisher: fresh.publisher ?? previous.publisher,
+    illustrator: fresh.illustrator ?? previous.illustrator,
+  };
+}
+
 // ── Pipeline: 1 livre ────────────────────────────────────────────────────
 
-async function scrapeBook(pageTitle: string): Promise<CachedBook | null> {
+async function scrapeBook(pageTitle: string, previous: CachedBook | undefined): Promise<CachedBook | null> {
   const { content, frTitle } = await fetchWikitextWithLanglink(pageTitle);
   if (!content) {
     console.warn(`⚠️  "${pageTitle}": page introuvable ou vide, ignorée.`);
     return null;
   }
 
-  const en = parseBookInfoboxEn(pageTitle, content);
+  let en = parseBookInfoboxEn(pageTitle, content);
   if (!en) {
     console.warn(`⚠️  "${pageTitle}": ni {{Book Infobox}} ni {{Book Collection Infobox}} trouvé, ignorée.`);
     return null;
   }
+  en = preserveKnownFields(en, previous?.en);
 
   let fr: BookOutput | null = null;
   if (frTitle) {
     const frContent = await fetchWikitext(FR_API_URL, frTitle);
-    fr = frContent ? parseBookInfoboxFr(frTitle, frContent, en) : null;
+    fr = frContent ? parseBookInfoboxFr(frTitle, frContent, en, previous?.fr) : null;
     if (!fr) {
       console.warn(`⚠️  "${pageTitle}": page FR "${frTitle}" trouvée mais infobox illisible — fichier fr/ non généré.`);
     }
@@ -427,16 +479,17 @@ async function scrapeBook(pageTitle: string): Promise<CachedBook | null> {
       console.warn(`⚠️  "${pageTitle}": pas de langlink FR ni de nom FR documenté — fichier fr/ non généré.`);
     }
   }
+  if (fr) fr = preserveKnownFields(fr, previous?.fr ?? undefined);
 
   return { pageTitle, en, fr };
 }
 
-async function scrapeAll(pageTitles: string[]): Promise<CachedBook[]> {
+async function scrapeAll(pageTitles: string[], cache: Map<string, CachedBook>): Promise<CachedBook[]> {
   const results: CachedBook[] = [];
 
   for (let i = 0; i < pageTitles.length; i++) {
     console.log(`Scraping "${pageTitles[i]}" (${i + 1}/${pageTitles.length})...`);
-    const book = await scrapeBook(pageTitles[i]);
+    const book = await scrapeBook(pageTitles[i], cache.get(pageTitles[i]));
     if (book) results.push(book);
     await sleep(300);
   }
@@ -568,13 +621,13 @@ async function main() {
       process.exit(1);
     }
 
-    const scraped = await scrapeAll(pageTitles);
-
     // Fusionne avec le cache existant par pageTitle plutôt que d'écraser le
     // fichier avec uniquement le lot du run en cours — un --fetch ciblé sur
     // quelques titres (ex: pour valider un correctif) ne doit pas effacer le
-    // reste du cache.
+    // reste du cache. Sert aussi de base à preserveKnownFields (author/
+    // publisher/illustrator) dans scrapeBook.
     const merged = new Map((loadCache() ?? []).map((b) => [b.pageTitle, b]));
+    const scraped = await scrapeAll(pageTitles, merged);
     for (const b of scraped) merged.set(b.pageTitle, b);
     books = [...merged.values()];
     saveCache(books);
