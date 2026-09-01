@@ -495,14 +495,40 @@ async function fetchFrWikitext(frTitle: string): Promise<string | null> {
   }
 }
 
-async function scrapeCreature(pageTitle: string): Promise<RawCreature | null> {
+// ── Repli sur la dernière valeur connue ────────────────────────────────────
+// Le wiki retire parfois un champ structuré d'une infobox lors d'une
+// réorganisation (le contenu reste alors seulement en prose libre juste en
+// dessous, ex: Bake-Danuki/Flying Serpent qui ont perdu leur champ
+// "description" tout en gardant un paragraphe d'intro équivalent) sans que
+// la donnée soit fausse ou obsolète pour autant. Plutôt que de tenter de la
+// ré-extraire depuis la prose (peu fiable, cf. NOTE en tête de fichier), on
+// garde la dernière valeur connue du cache tant que le nouveau scrape
+// retombe sur une valeur vide — même logique que preserveKnownFields dans
+// scrape-books.ts.
+function preserveKnownFields(fresh: CreatureOutput, previous: CreatureOutput | undefined): CreatureOutput {
+  if (!previous) return fresh;
+  return {
+    ...fresh,
+    family: fresh.family || previous.family,
+    group: fresh.group || previous.group,
+    location: fresh.location || previous.location,
+    description: fresh.description || previous.description,
+    bait: fresh.bait || previous.bait,
+  };
+}
+
+async function scrapeCreature(
+  pageTitle: string,
+  previous: CachedCreature | undefined,
+): Promise<RawCreature | null> {
   const { content, frTitle } = await withRetry(`fetch wikitext "${pageTitle}"`, () =>
     fetchWikitextWithLanglink(pageTitle),
   );
   if (!content) return null;
 
-  const en = parseEnCreaturePage(pageTitle, content);
+  let en = parseEnCreaturePage(pageTitle, content);
   if (!en) return null; // pas de {{Wildlife Infobox}} exploitable, ou page de groupe
+  en = preserveKnownFields(en, previous?.en);
 
   return {
     pageTitle,
@@ -512,12 +538,12 @@ async function scrapeCreature(pageTitle: string): Promise<RawCreature | null> {
   };
 }
 
-async function scrapeAll(pageTitles: string[]): Promise<RawCreature[]> {
+async function scrapeAll(pageTitles: string[], cache: Map<string, CachedCreature>): Promise<RawCreature[]> {
   const results: RawCreature[] = [];
   for (let i = 0; i < pageTitles.length; i++) {
     console.log(`Scraping "${pageTitles[i]}" (${i + 1}/${pageTitles.length})...`);
     try {
-      const creature = await scrapeCreature(pageTitles[i]);
+      const creature = await scrapeCreature(pageTitles[i], cache.get(pageTitles[i]));
       if (creature) results.push(creature);
     } catch (err) {
       console.warn(`⚠️  Échec du scraping de "${pageTitles[i]}": ${err}`);
@@ -527,7 +553,7 @@ async function scrapeAll(pageTitles: string[]): Promise<RawCreature[]> {
   return results;
 }
 
-async function enrichWithFrench(raw: RawCreature): Promise<CachedCreature> {
+async function enrichWithFrench(raw: RawCreature, previous: CachedCreature | undefined): Promise<CachedCreature> {
   const fallbackName = raw.otherLanguagesFrName || raw.en.name;
   const fallbackFr = (): CreatureOutput => ({ ...raw.en, name: fallbackName });
 
@@ -547,16 +573,17 @@ async function enrichWithFrench(raw: RawCreature): Promise<CachedCreature> {
     console.warn(`⚠️  "${raw.pageTitle}": aucune page FR trouvée, fichier fr/ écrit avec le nom "${fallbackName}".`);
     fr = fallbackFr();
   }
+  fr = preserveKnownFields(fr, previous?.fr);
 
   return { pageTitle: raw.pageTitle, en: raw.en, fr };
 }
 
-async function scrapeAndEnrichAll(pageTitles: string[]): Promise<CachedCreature[]> {
-  const raws = await scrapeAll(pageTitles);
+async function scrapeAndEnrichAll(pageTitles: string[], cache: Map<string, CachedCreature>): Promise<CachedCreature[]> {
+  const raws = await scrapeAll(pageTitles, cache);
   const enriched: CachedCreature[] = [];
   for (let i = 0; i < raws.length; i++) {
     console.log(`Fetching FR page for "${raws[i].pageTitle}" (${i + 1}/${raws.length})...`);
-    enriched.push(await enrichWithFrench(raws[i]));
+    enriched.push(await enrichWithFrench(raws[i], cache.get(raws[i].pageTitle)));
     await sleep(300);
   }
   return enriched;
@@ -641,7 +668,8 @@ async function main() {
       pageTitles = args.slice(1);
     }
 
-    creatures = await scrapeAndEnrichAll(pageTitles);
+    const cache = new Map((loadCache() ?? []).map((c) => [c.pageTitle, c]));
+    creatures = await scrapeAndEnrichAll(pageTitles, cache);
     saveCache(creatures);
   }
 

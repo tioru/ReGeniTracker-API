@@ -439,7 +439,7 @@
       "family": "Beasts",
       "group": "",
       "location": "Inazuma",
-      "description": "",
+      "description": "A carefree tanuki that comes and goes without leaving any trace, and that knows mystical arts passed down only amongst their kindred. It has the ability to transform into other objects, including humans. Although they often tangle with a mysterious organization under the Shogunate, the tanuki are not a wicked lot and only tease humans for fun. There is but one recorded exception: years ago, the bake-danuki who guarded Chinju Forest started a battle due to some conflict between their leader Ioroi and a kitsune. In the end, most of the bake-danuki were sealed within stone statues.",
       "image": "Wildlife Bake-Danuki Icon.png",
       "drops": [],
       "releaseVersion": "2.0"
@@ -1176,7 +1176,7 @@
       "family": "Animaux terrestres",
       "group": "Cerf",
       "location": "Dans la nature",
-      "description": "",
+      "description": "Un animal imposant, mais docile, dont les yeux semblent capables de tout percevoir. On le trouve dans les plaines et les lisières des forêts de Mondstadt. Il se nourrit de feuilles fraîches et de fruits. Au fil des saisons, son territoire s'adapte, tout en restant toujours proche des terres qu'il connaît le mieux. Agile et doté d'une ouïe fine, le cerf aux cornes camelées peut déceler le danger porté par la moindre brise. C'est pourquoi seuls les chasseurs expérimentés, capables de masquer leur odeur et leurs cris, ont une chance de l'approcher sans se faire remarquer.",
       "image": "Icône Cerf aux cornes camelées.png",
       "drops": [
         {
@@ -1306,7 +1306,7 @@
     "en": {
       "name": "Chic Badger",
       "family": "Beasts",
-      "group": "",
+      "group": "Badgers",
       "location": "Nod-Krai",
       "description": "Named for the two long stretches of mane that extend from their shoulders, that emit a soft glow when influenced by kuuvahki, as if this creature were cowled in moonlight. Though Chic Badgers look cute as they roll around on the ground, they are exceptional hunters. Stunningly quick while sprinting, anything that angers them will have little time to make its escape. They have developed the habit of storing food to last the winter season, but they coat said food in scent gland secretions to prevent the theft of their hard-earned stash. As such, if anyone were to claim that they \"survived by eating a Chic Badger's stash,\" they are either a liar or an entity who stands high atop the food chain — in force of will, certainly, if in nothing else...",
       "image": "Chic Badger Icon.png",
@@ -1643,7 +1643,7 @@
     "fr": {
       "name": "Scarabée cristallin",
       "family": "Divers",
-      "group": "Lucioles",
+      "group": "Scarabée",
       "location": "",
       "description": "Un coléoptère doté d'une personnalité vive et énergique qui porte un bloc de phlogistique solide semblable à du cristal. La magnifique apparence du scarabée cristallin peut attirer d'autres créatures de loin. S'ils se montrent amicaux, le scarabée cristallin joue avec ces derniers et, au fil du temps, ils peuvent devenir amis ; mais s'ils ont des arrière-pensées, alors le scarabée cristallin utilise son corps dur comme la pierre pour le leur faire regretter. On dit que les scarabées cristallins ont la capacité spéciale de percevoir certains minerais et minéraux. Certains mineurs des Enfants des échos mettent à profit cette incroyable faculté, se liant d'amitié avec quelques scarabées cristallins et leur demandant de leur donner un coup de « patte » lorsqu'ils descendent dans les mines...",
       "image": "Icône Scarabée cristallin.png",
@@ -1806,7 +1806,7 @@
       "name": "Desert Fox",
       "family": "Beasts",
       "group": "Foxes",
-      "location": "",
+      "location": "Sumeru",
       "description": "A sly animal as elusive as a fairy that often appears in folk stories, symbolizing unusual cunning and ancient memories. These animals call the vast desert home and are smaller than most of their kin, which is possibly how they evaded the ancient calamities. Their long ears are an adaptation that helps them better live in their hot and dry desert home.",
       "image": "Desert Fox Icon.png",
       "drops": [
@@ -1848,7 +1848,7 @@
     "fr": {
       "name": "Bête de somme du désert",
       "family": "Animaux terrestres",
-      "group": "",
+      "group": "Bête de somme",
       "location": "Sumeru",
       "description": "Les bêtes de somme sont les amies des humains. Ces créatures au cœur tendre sont des éléments indispensables à la production et au transport. Les bêtes de somme sont capables de s'adapter à tout type d'environnement naturel. Autrefois indispensables aux habitants du désert pour survivre, ces animaux travailleurs sont aujourd'hui les fidèles serviteurs des marchands de la forêt tropicale.",
       "image": "Icône Bête de somme du désert.png",
@@ -2156,7 +2156,7 @@
       "family": "Divers",
       "group": "",
       "location": "Pic Vent-repos, Mondstadt Temple de l'espace",
-      "description": "",
+      "description": "Une forme de vie singulière, scintillante d'une lumière dorée sacrée, qui plane comme un papillon de nuit dans l'interstice tout aussi mystérieux. La légende raconte que les papillons à ailes d'éther sont nés des plumes d'anges rebelles qui, jadis, s'opposèrent au seigneur des cieux et chutèrent sur terre. Cependant, cela n'explique pas leur présence dans le domaine de la stase éternelle. Peut-être, aux yeux d'une certaine divinité, revêtent-ils une valeur inestimable en tant que témoins préservés du châtiment des pécheurs.",
       "image": "Icône Papillon à ailes d'éther (animal).png",
       "drops": [
         {
@@ -2377,7 +2377,7 @@
       "family": "Beasts",
       "group": "",
       "location": "Sumeru",
-      "description": "",
+      "description": "A reptile with a limited ability to hover. Flying serpents do not truly possess the ability to fly; their ability to hover seems to derive from their bird-like hollow bones and the sparkle of Anemo that imbues them with a subtle influence over the wind. The desert is a far way from the nation of Anemo, but its lands are still ever-graced by gales intent on eroding everything. Everything, from cities to history, will eventually be razed to sand grains by the winnowing currents that drift over the Great Red Sand. Only creatures such as the flying serpents, which have learned to live with the wind, can continue to survive in the desert long after all has been reduced to dust.",
       "image": "Flying Serpent Icon.png",
       "drops": [
         {
@@ -3112,7 +3112,7 @@
       "family": "Animaux terrestres",
       "group": "Chien",
       "location": "Fontaine",
-      "description": "",
+      "description": "Le meilleur ami de l'homme ! Ces chiens de compagnie fontainois, faisant l'objet d'un toilettage et d'un peignage méticuleux et étant parés de vêtements sur mesure, sont adornés de protections métalliques, ce qui leur confère une allure proche des soldats. Pour la plupart des animaux ordinaires, et les bandits du dimanche, ce type de chien représente une intimidation égale à celle d'un garde du corps humain. Ainsi, certains marchands fortunés ont pris un intérêt particulier à posséder cette race d'animal, ajoutant à la fois originalité et sécurité à leur quotidien.",
       "image": "Icône Caniche de garde.png",
       "drops": [],
       "releaseVersion": "4.0"
@@ -4104,7 +4104,7 @@
       "name": "Pale-Furred Wolf",
       "family": "Beasts",
       "group": "",
-      "location": "Mondstadt Nod-Krai",
+      "location": "Mondstadt Nod-Krai Snezhnaya",
       "description": "Hunters of the wild plains and forests, as solemn and noble as the frozen tundra of the North. Unlike most other beasts, they value the advantages of living in a pack over solitary strength. They rarely initiate attacks, even when humans trespass on their territory. Instead, they first issue extended howls as an ominous caution to the strayed. Legend has it that the wolves seldom engage with humans due to the ancient rules decreed by their Wolf King, and consequently, records and research concerning them remain scarce. Yet, judging from the folk tales passed down across Teyvat, these wolves are believed to be rather tame creatures. In even older stories, the wolves that roam the land are descendants of the Northwind, guided across the wilderness by the Wolf King, a being once equal in stature to the gods of this world. Though the Wolf King has long passed on, its descendants — the wolves of today — continue their silent watch through the cold night, until the pale morning star rises once more.",
       "image": "Pale-Furred Wolf Icon.png",
       "drops": [],
@@ -4354,7 +4354,7 @@
       "name": "Pyro Crystalfly",
       "family": "Other Wildlife",
       "group": "Crystalflies",
-      "location": "Natlan",
+      "location": "Natlan, Snezhnaya",
       "description": "Pure elemental life-forms composed of drifting Pyro particles, as free and unbound as the butterflies they resemble. A glittering Pyro creature that is the product of rising and condensing elements, and which feeds off the ubiquitous power of Pyro. No matter what state the phlogiston is in, what the source of the flame is, or what degree of warmth it provides, it is all food for the Pyro Crystalfly. And the Pyro Crystalflies with their red-hot flames in turn carry the passion to struggle and strive throughout all of Natlan, completing the cycle of burning over and over again...",
       "image": "Pyro Crystalfly Icon.png",
       "drops": [
@@ -5057,7 +5057,7 @@
     "fr": {
       "name": "Bête de somme hirsute",
       "family": "Animaux terrestres",
-      "group": "",
+      "group": "Bête de somme",
       "location": "Sumeru",
       "description": "Les bêtes de somme sont les amies des humains. Ces créatures au cœur tendre sont des éléments indispensables à la production et au transport. À Sumeru, on mesure la richesse d'un homme au nombre de bêtes de somme qu'il possède. Les grandes caravanes de marchands et les Érémites possèdent généralement de nombreuses bêtes de somme, ce qui leur permet de transporter de grandes quantités de provisions et de marchandises à travers le désert et la forêt.",
       "image": "Icône Bête de somme hirsute.png",
@@ -5258,7 +5258,7 @@
       "name": "Snow Fox",
       "family": "Beasts",
       "group": "Foxes",
-      "location": "",
+      "location": "Mondstadt Snezhnaya",
       "description": "A sly animal as elusive as a fairy that often appears in folk stories, symbolizing unusual cunning and ancient memories. Its coat of thick, white fur helps conceal it amongst the snow. Living in harsh environments has sharpened both its wits and sense of smell.",
       "image": "Snow Fox Icon.png",
       "drops": [
@@ -5522,7 +5522,7 @@
       "family": "Divers",
       "group": "Lucioles",
       "location": "Fontaine",
-      "description": "",
+      "description": "Cette unité de détection, créée par l'Institut de recherche de Fontaine en utilisant de nouveaux modèles de composants artificiels, était à l'origine destinée au suivi des données environnementales. Ces unités étaient initialement gérées en coopération par le Département de recherche et développement des technologies artificielles avancées et le Département de surveillance des milieux naturels et écologiques : le premier était en charge de la fabrication et du déploiement des unités de détection tandis que le second était responsable de la collecte et du tri des données. Puisque ce second département a été dissous lors de l'accident précédent, seules les tâches du premier département sont désormais effectuées à l'Institut de recherche de Fontaine.",
       "image": "Icône Unité de sous-détection (animal).png",
       "drops": [],
       "releaseVersion": "4.1"
@@ -6122,7 +6122,7 @@
       "family": "Oiseaux",
       "group": "",
       "location": "Dans la nature",
-      "description": "",
+      "description": "Un oiseau de taille moyenne originaire de Mondstadt, reconnaissable à son plumage gris-blanc et doré. Bien que leur vol puisse paraître erratique, les goélands ichthyaètes de vigivent empruntent souvent des routes maritimes qui reprennent celles d'anciennes voies navigables. Portés par les vents saisonniers et les courants océaniques, ils arrivent avant les navires, comme s'ils pressentaient un mouvement lointain bien avant que les voiles ne soient hissées. Les marins du Port de Dornman considèrent donc leur présence comme un présage favorable. Dans les chants de marins transmis de génération en génération, ils sont décrits comme des messagers entre la mer et le ciel. Là où se rassemblent les goélands, de nouveaux visages et de nouvelles histoires ne sont jamais loin.",
       "image": "Icône Goéland ichthyaète de vigivent.png",
       "drops": [
         {
@@ -6131,6 +6131,489 @@
         }
       ],
       "releaseVersion": "Luna VI"
+    }
+  },
+  {
+    "pageTitle": "Charcoal Snowfin",
+    "en": {
+      "name": "Charcoal Snowfin",
+      "family": "Fish",
+      "group": "Snowfin",
+      "location": "",
+      "description": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\" The Charcoal Snowfin is the most common subspecies in this family. It is said that the fine, powdery scales contain special components. When dried and ground, and then mixed with the dried powder of Golden Fern roots, they can serve as a remarkably efficient fire starter, prized by many Snezhnayan adventurers.",
+      "image": "Item Charcoal Snowfin.png",
+      "drops": [],
+      "releaseVersion": "7.0",
+      "bait": "Glimmering Bait"
+    },
+    "fr": {
+      "name": "Neigeoire charbonnée",
+      "family": "Fish",
+      "group": "Snowfin",
+      "location": "",
+      "description": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\" The Charcoal Snowfin is the most common subspecies in this family. It is said that the fine, powdery scales contain special components. When dried and ground, and then mixed with the dried powder of Golden Fern roots, they can serve as a remarkably efficient fire starter, prized by many Snezhnayan adventurers.",
+      "image": "Item Charcoal Snowfin.png",
+      "drops": [],
+      "releaseVersion": "7.0",
+      "bait": "Glimmering Bait"
+    }
+  },
+  {
+    "pageTitle": "Cream Snowfin",
+    "en": {
+      "name": "Cream Snowfin",
+      "family": "Fish",
+      "group": "Snowfin",
+      "location": "",
+      "description": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\" The Cream Snowfin, thanks to its near-pure-white coloration and its scarcity, is considered the most precious of Snezhnayan fish. Legend has it that the moment its waters grow even slightly impure, other colors begin to leach into its body. Several fairy tales cast it as their protagonist, telling the dreamlike story of a gifted young angler-lad following one of these Snowfins to the \"Kingdom of Cream\" — a story that briefly caused a citywide cream shortage.",
+      "image": "Item Cream Snowfin.png",
+      "drops": [],
+      "releaseVersion": "7.0",
+      "bait": "Glimmering Bait"
+    },
+    "fr": {
+      "name": "Neigeoire crémée",
+      "family": "Fish",
+      "group": "Snowfin",
+      "location": "",
+      "description": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\" The Cream Snowfin, thanks to its near-pure-white coloration and its scarcity, is considered the most precious of Snezhnayan fish. Legend has it that the moment its waters grow even slightly impure, other colors begin to leach into its body. Several fairy tales cast it as their protagonist, telling the dreamlike story of a gifted young angler-lad following one of these Snowfins to the \"Kingdom of Cream\" — a story that briefly caused a citywide cream shortage.",
+      "image": "Item Cream Snowfin.png",
+      "drops": [],
+      "releaseVersion": "7.0",
+      "bait": "Glimmering Bait"
+    }
+  },
+  {
+    "pageTitle": "Fluffahog",
+    "en": {
+      "name": "Fluffahog",
+      "family": "Beasts",
+      "group": "",
+      "location": "Snezhnaya",
+      "description": "Beasts covered from head to toe in spikes save for their soft bellies. The Fluffahog is a gentle soul that enjoys sleeping. Indeed, they are skilled at making hidden nests using plants and leaves, so that they can have sweet dreams even in the winter cold. If their nests are discovered, they will curl into a ball, presenting their wall of tough spikes to the world, as though meaning to repel all threats this way. In Snezhnayan folk stories, the Fluffahog is the smartest amongst animals, knowing formulae for wondrous herbal remedies, comprehending the secrets to stemming the tides of weakening age, even knowing how to open a lock that has no key.",
+      "image": "Fluffahog Icon.png",
+      "drops": [],
+      "releaseVersion": "7.0"
+    },
+    "fr": {
+      "name": "Mouflisson",
+      "family": "Beasts",
+      "group": "",
+      "location": "Snezhnaya",
+      "description": "Beasts covered from head to toe in spikes save for their soft bellies. The Fluffahog is a gentle soul that enjoys sleeping. Indeed, they are skilled at making hidden nests using plants and leaves, so that they can have sweet dreams even in the winter cold. If their nests are discovered, they will curl into a ball, presenting their wall of tough spikes to the world, as though meaning to repel all threats this way. In Snezhnayan folk stories, the Fluffahog is the smartest amongst animals, knowing formulae for wondrous herbal remedies, comprehending the secrets to stemming the tides of weakening age, even knowing how to open a lock that has no key.",
+      "image": "Fluffahog Icon.png",
+      "drops": [],
+      "releaseVersion": "7.0"
+    }
+  },
+  {
+    "pageTitle": "Frostpetal Starbloom Fish",
+    "en": {
+      "name": "Frostpetal Starbloom Fish",
+      "family": "Fish",
+      "group": "Starbloom Fish",
+      "location": "",
+      "description": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The azure subspecies has coloration akin to the outer petal-edges of a Frostfairy Flower, and so was given the prefix \"Frostpetal.\" Compared to its kin, the Frostpetal Starbloom Fish has the keenest senses of the family, always able to detect danger from far off. And thanks to the propulsion advantage of its six fins, they are also quick to flee from said danger.",
+      "image": "Item Frostpetal Starbloom Fish.png",
+      "drops": [],
+      "releaseVersion": "7.0",
+      "bait": "Glimmering Bait"
+    },
+    "fr": {
+      "name": "Florastre céladon-fée",
+      "family": "Fish",
+      "group": "Starbloom Fish",
+      "location": "",
+      "description": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The azure subspecies has coloration akin to the outer petal-edges of a Frostfairy Flower, and so was given the prefix \"Frostpetal.\" Compared to its kin, the Frostpetal Starbloom Fish has the keenest senses of the family, always able to detect danger from far off. And thanks to the propulsion advantage of its six fins, they are also quick to flee from said danger.",
+      "image": "Item Frostpetal Starbloom Fish.png",
+      "drops": [],
+      "releaseVersion": "7.0",
+      "bait": "Glimmering Bait"
+    }
+  },
+  {
+    "pageTitle": "Fuzzbadger",
+    "en": {
+      "name": "Fuzzbadger",
+      "family": "Beasts",
+      "group": "Badgers",
+      "location": "Snezhnaya",
+      "description": "Close kin of the Chic Badgers, these animals make their dwelling in the Snezhnayan interior. Fuzzbadgers are clad in long, thick, and soft fur, allowing them to travel as they please, even in the coldest of climes. Despite their fluffy appearance, they possess a fierce temperament and never back down, even when facing massive foes. Such is the law of survival on the snowy plains: Do not tread upon the territory of a Fuzzbadger carelessly, lest they show their claws and swiftly make an example of any trespassers.",
+      "image": "Fuzzbadger Icon.png",
+      "drops": [
+        {
+          "name": "Raw Meat",
+          "quantity": 2
+        }
+      ],
+      "releaseVersion": "7.0"
+    },
+    "fr": {
+      "name": "Blaireau pelucheux",
+      "family": "Beasts",
+      "group": "Badgers",
+      "location": "Snezhnaya",
+      "description": "Close kin of the Chic Badgers, these animals make their dwelling in the Snezhnayan interior. Fuzzbadgers are clad in long, thick, and soft fur, allowing them to travel as they please, even in the coldest of climes. Despite their fluffy appearance, they possess a fierce temperament and never back down, even when facing massive foes. Such is the law of survival on the snowy plains: Do not tread upon the territory of a Fuzzbadger carelessly, lest they show their claws and swiftly make an example of any trespassers.",
+      "image": "Fuzzbadger Icon.png",
+      "drops": [
+        {
+          "name": "Raw Meat",
+          "quantity": 2
+        }
+      ],
+      "releaseVersion": "7.0"
+    }
+  },
+  {
+    "pageTitle": "Iridescent Starbloom Fish",
+    "en": {
+      "name": "Iridescent Starbloom Fish",
+      "family": "Fish",
+      "group": "Starbloom Fish",
+      "location": "",
+      "description": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The blue subspecies' scales have superb texture and coloration — under certain light, they look like rainbow-reflecting crystal, earning it the elegant prefix \"Iridescent.\" Thanks to this shimmering appearance, Iridescent Starbloom Fish are prized guests of Snezhnayan fish collectors. Indeed, some have even built expensive aquarium landscapes solely for this fish, only to find themselves unable to catch one for the longest time...",
+      "image": "Item Iridescent Starbloom Fish.png",
+      "drops": [],
+      "releaseVersion": "7.0",
+      "bait": "Glimmering Bait"
+    },
+    "fr": {
+      "name": "Florastre iri-cristalé",
+      "family": "Fish",
+      "group": "Starbloom Fish",
+      "location": "",
+      "description": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The blue subspecies' scales have superb texture and coloration — under certain light, they look like rainbow-reflecting crystal, earning it the elegant prefix \"Iridescent.\" Thanks to this shimmering appearance, Iridescent Starbloom Fish are prized guests of Snezhnayan fish collectors. Indeed, some have even built expensive aquarium landscapes solely for this fish, only to find themselves unable to catch one for the longest time...",
+      "image": "Item Iridescent Starbloom Fish.png",
+      "drops": [],
+      "releaseVersion": "7.0",
+      "bait": "Glimmering Bait"
+    }
+  },
+  {
+    "pageTitle": "Kristall Bug",
+    "en": {
+      "name": "Kristall Bug",
+      "family": "Other Wildlife",
+      "group": "",
+      "location": "Snezhnaya",
+      "description": "A beetle commonly found near mines. Its shell is hard, and its color and shape resemble that of Kresnik Kristall, hence its name. It is said that people first discovered the rich mineral deposits beneath these frozen lands by following the trails of Kristall Bugs, and from those riches built a great civilization amid the bitter cold.",
+      "image": "Kristall Bug Icon.png",
+      "drops": [
+        {
+          "name": "Iron Chunk",
+          "quantity": 1
+        }
+      ],
+      "releaseVersion": "7.0"
+    },
+    "fr": {
+      "name": "Coléoptère kristallin",
+      "family": "Other Wildlife",
+      "group": "",
+      "location": "Snezhnaya",
+      "description": "A beetle commonly found near mines. Its shell is hard, and its color and shape resemble that of Kresnik Kristall, hence its name. It is said that people first discovered the rich mineral deposits beneath these frozen lands by following the trails of Kristall Bugs, and from those riches built a great civilization amid the bitter cold.",
+      "image": "Kristall Bug Icon.png",
+      "drops": [
+        {
+          "name": "Iron Chunk",
+          "quantity": 1
+        }
+      ],
+      "releaseVersion": "7.0"
+    }
+  },
+  {
+    "pageTitle": "Ledobug",
+    "en": {
+      "name": "Ledobug",
+      "family": "Other Wildlife",
+      "group": "Fireflies",
+      "location": "Snezhnaya",
+      "description": "A flying insect commonly found near mines. Beneath its icy-blue fuzz lies a body that resembles Kristall. This creature is much beloved by many miners. With even the faintest light source, Ledobugs in the mines can reflect the light and illuminate the dark caverns.",
+      "image": "Ledobug Icon.png",
+      "drops": [
+        {
+          "name": "Luminescent Spine",
+          "quantity": 1
+        }
+      ],
+      "releaseVersion": "7.0"
+    },
+    "fr": {
+      "name": "Lédoptère",
+      "family": "Other Wildlife",
+      "group": "Fireflies",
+      "location": "Snezhnaya",
+      "description": "A flying insect commonly found near mines. Beneath its icy-blue fuzz lies a body that resembles Kristall. This creature is much beloved by many miners. With even the faintest light source, Ledobugs in the mines can reflect the light and illuminate the dark caverns.",
+      "image": "Ledobug Icon.png",
+      "drops": [
+        {
+          "name": "Luminescent Spine",
+          "quantity": 1
+        }
+      ],
+      "releaseVersion": "7.0"
+    }
+  },
+  {
+    "pageTitle": "Moonglow Jellyfish",
+    "en": {
+      "name": "Moonglow Jellyfish",
+      "family": "Other Wildlife",
+      "group": "",
+      "location": "Frost Moon",
+      "description": "A primitive animal with an exceedingly simple body structure. In the poetry of ancient Fontaine, jellyfish were often paired with butterflies as symbols of the soul. People of bygone times and Remurian philosophers alike embraced this idea: that the soul dwells within the body as a butterfly is born from a caterpillar; that the soul passes endlessly through all waters, or through melody itself, just as a jellyfish grants itself new life at the moment of its own death. As an aside, the followers of the Mistress of Many Waters, later known as the illustrious and noble Lochknights, denounced the Remurian philosophers' views with righteous fury, branding them heresy that had to be cast aside entirely. As for how those views differed from their own beliefs, that was apparently a much deeper matter of principle, and not one to be discussed lightly.",
+      "image": "Moonglow Jellyfish Icon.png",
+      "drops": [],
+      "releaseVersion": "Luna VIII"
+    },
+    "fr": {
+      "name": "Moonglow Jellyfish",
+      "family": "Other Wildlife",
+      "group": "",
+      "location": "Frost Moon",
+      "description": "A primitive animal with an exceedingly simple body structure. In the poetry of ancient Fontaine, jellyfish were often paired with butterflies as symbols of the soul. People of bygone times and Remurian philosophers alike embraced this idea: that the soul dwells within the body as a butterfly is born from a caterpillar; that the soul passes endlessly through all waters, or through melody itself, just as a jellyfish grants itself new life at the moment of its own death. As an aside, the followers of the Mistress of Many Waters, later known as the illustrious and noble Lochknights, denounced the Remurian philosophers' views with righteous fury, branding them heresy that had to be cast aside entirely. As for how those views differed from their own beliefs, that was apparently a much deeper matter of principle, and not one to be discussed lightly.",
+      "image": "Moonglow Jellyfish Icon.png",
+      "drops": [],
+      "releaseVersion": "Luna VIII"
+    }
+  },
+  {
+    "pageTitle": "Moonlight Snowfin",
+    "en": {
+      "name": "Moonlight Snowfin",
+      "family": "Fish",
+      "group": "Snowfin",
+      "location": "",
+      "description": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the Pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\" Folklore claims the Moonlight Snowfin has the strongest endurance and the best sense of direction of any Snezhnayan fish, its unusual coloration being a gift from moonlight — its ancestors, so the story goes, once traveled far to the waters of Nod-Krai and were baptized in moonbeams. Merchants returning from Nod-Krai deny the tale, and biologists point out that the color most likely comes from the underwater plants it favors as food. But since \"moonlight\" is such a pleasant and memorable prefix, the name has stuck to this day.",
+      "image": "Item Moonlight Snowfin.png",
+      "drops": [],
+      "releaseVersion": "7.0",
+      "bait": "Glimmering Bait"
+    },
+    "fr": {
+      "name": "Neigeoire lunée",
+      "family": "Fish",
+      "group": "Snowfin",
+      "location": "",
+      "description": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the Pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\" Folklore claims the Moonlight Snowfin has the strongest endurance and the best sense of direction of any Snezhnayan fish, its unusual coloration being a gift from moonlight — its ancestors, so the story goes, once traveled far to the waters of Nod-Krai and were baptized in moonbeams. Merchants returning from Nod-Krai deny the tale, and biologists point out that the color most likely comes from the underwater plants it favors as food. But since \"moonlight\" is such a pleasant and memorable prefix, the name has stuck to this day.",
+      "image": "Item Moonlight Snowfin.png",
+      "drops": [],
+      "releaseVersion": "7.0",
+      "bait": "Glimmering Bait"
+    }
+  },
+  {
+    "pageTitle": "Morozhound",
+    "en": {
+      "name": "Morozhound",
+      "family": "Beasts",
+      "group": "Dogs",
+      "location": "Snezhnaya",
+      "description": "Humanity's best friend! Morozhounds have stunning endurance and gentle personalities. And so, humans fitted them with harnesses and had them pull sleds, forming the first transport teams on the snowy plains. Today, dog-pulled sleds have slowly become more of a tourist attraction in small border towns, with a tiny minority who still respect sledding as a traditional competitive sport. Still, the people of the snowfields continue to regard Morozhounds as the closest of companions.",
+      "image": "Morozhound Icon.png",
+      "drops": [],
+      "releaseVersion": "7.0"
+    },
+    "fr": {
+      "name": "Morolimier",
+      "family": "Beasts",
+      "group": "Dogs",
+      "location": "Snezhnaya",
+      "description": "Humanity's best friend! Morozhounds have stunning endurance and gentle personalities. And so, humans fitted them with harnesses and had them pull sleds, forming the first transport teams on the snowy plains. Today, dog-pulled sleds have slowly become more of a tourist attraction in small border towns, with a tiny minority who still respect sledding as a traditional competitive sport. Still, the people of the snowfields continue to regard Morozhounds as the closest of companions.",
+      "image": "Morozhound Icon.png",
+      "drops": [],
+      "releaseVersion": "7.0"
+    }
+  },
+  {
+    "pageTitle": "Nochhornowl",
+    "en": {
+      "name": "Nochhornowl",
+      "family": "Birds",
+      "group": "",
+      "location": "Snezhnaya",
+      "description": "Birds that make Snezhnaya their home. They have a full-body covering of feathers that evoke the night sky, and their habit of hunting after sunset has earned them their name. As the most agile hunters to stalk the tundra, the Nochhornowl is skilled at the arts of disguise, observation, and rapid pursuit. Many hunters see them as a symbol of wisdom, believing them to have spirits and giving them due respect. In return, these owls sometimes guide hunters, sending them messages from the forest depths.",
+      "image": "Nochhornowl Icon.png",
+      "drops": [
+        {
+          "name": "Fowl",
+          "quantity": 2
+        }
+      ],
+      "releaseVersion": "7.0"
+    },
+    "fr": {
+      "name": "Noctibourne",
+      "family": "Birds",
+      "group": "",
+      "location": "Snezhnaya",
+      "description": "Birds that make Snezhnaya their home. They have a full-body covering of feathers that evoke the night sky, and their habit of hunting after sunset has earned them their name. As the most agile hunters to stalk the tundra, the Nochhornowl is skilled at the arts of disguise, observation, and rapid pursuit. Many hunters see them as a symbol of wisdom, believing them to have spirits and giving them due respect. In return, these owls sometimes guide hunters, sending them messages from the forest depths.",
+      "image": "Nochhornowl Icon.png",
+      "drops": [
+        {
+          "name": "Fowl",
+          "quantity": 2
+        }
+      ],
+      "releaseVersion": "7.0"
+    }
+  },
+  {
+    "pageTitle": "Polyarbear",
+    "en": {
+      "name": "Polyarbear",
+      "family": "Beasts",
+      "group": "",
+      "location": "Snezhnaya",
+      "description": "Animals that can survive even extreme cold, and that boast large bodies and thick fur. Despite their size, Polyarbears are actually quite agile, being able to leap between ice floes and pursue their prey without making a sound, making them the best hunters in the tundra. Skilled in combat, the Polyarbear is no tame beast, and will not submit to either beast or man easily. As such, they are regarded in some regions of Snezhnaya as a symbol of strength.",
+      "image": "Polyarbear Icon.png",
+      "drops": [
+        {
+          "name": "Raw Meat",
+          "quantity": 4
+        }
+      ],
+      "releaseVersion": "7.0"
+    },
+    "fr": {
+      "name": "Polarours",
+      "family": "Beasts",
+      "group": "",
+      "location": "Snezhnaya",
+      "description": "Animals that can survive even extreme cold, and that boast large bodies and thick fur. Despite their size, Polyarbears are actually quite agile, being able to leap between ice floes and pursue their prey without making a sound, making them the best hunters in the tundra. Skilled in combat, the Polyarbear is no tame beast, and will not submit to either beast or man easily. As such, they are regarded in some regions of Snezhnaya as a symbol of strength.",
+      "image": "Polyarbear Icon.png",
+      "drops": [
+        {
+          "name": "Raw Meat",
+          "quantity": 4
+        }
+      ],
+      "releaseVersion": "7.0"
+    }
+  },
+  {
+    "pageTitle": "Red-Bellied Plover",
+    "en": {
+      "name": "Red-Bellied Plover",
+      "family": "Birds",
+      "group": "",
+      "location": "Snezhnaya",
+      "description": "Small Snezhnayan flying birds named for their feathers. Red-Bellied Plovers occasionally call in slow, gentle, and even slightly mournful voices. As such, poets have written of them as singing about someone's tragedies. Of course, these are just romantic interpolations by humans. Red-Bellied Plovers are an innocent, even naive sort, agile in flight, and tough to boot. Forests, fruit orchards, and the water's edge can all serve as their habitats. And for this Plover species, there is likely no more critical activity in life than foraging.",
+      "image": "Red-Bellied Plover Icon.png",
+      "drops": [
+        {
+          "name": "Fowl",
+          "quantity": 1
+        }
+      ],
+      "releaseVersion": "7.0"
+    },
+    "fr": {
+      "name": "Pluvier à ventre roux",
+      "family": "Birds",
+      "group": "",
+      "location": "Snezhnaya",
+      "description": "Small Snezhnayan flying birds named for their feathers. Red-Bellied Plovers occasionally call in slow, gentle, and even slightly mournful voices. As such, poets have written of them as singing about someone's tragedies. Of course, these are just romantic interpolations by humans. Red-Bellied Plovers are an innocent, even naive sort, agile in flight, and tough to boot. Forests, fruit orchards, and the water's edge can all serve as their habitats. And for this Plover species, there is likely no more critical activity in life than foraging.",
+      "image": "Red-Bellied Plover Icon.png",
+      "drops": [
+        {
+          "name": "Fowl",
+          "quantity": 1
+        }
+      ],
+      "releaseVersion": "7.0"
+    }
+  },
+  {
+    "pageTitle": "Ruby Starbloom Fish",
+    "en": {
+      "name": "Ruby Starbloom Fish",
+      "family": "Fish",
+      "group": "Starbloom Fish",
+      "location": "",
+      "description": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The red subspecies is close in color to a red beet and was therefore given the prefix \"Ruby.\" That said, the prefix is only a description of appearance. Some scholars have found that the surface coloration serves mainly to intimidate predators, thereby protecting the fish. It is thus somewhat ironic that from a human perspective, this makes them look all the more delicious.",
+      "image": "Item Ruby Starbloom Fish.png",
+      "drops": [],
+      "releaseVersion": "7.0",
+      "bait": "Glimmering Bait"
+    },
+    "fr": {
+      "name": "Florastre rouge-sucré",
+      "family": "Fish",
+      "group": "Starbloom Fish",
+      "location": "",
+      "description": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The red subspecies is close in color to a red beet and was therefore given the prefix \"Ruby.\" That said, the prefix is only a description of appearance. Some scholars have found that the surface coloration serves mainly to intimidate predators, thereby protecting the fish. It is thus somewhat ironic that from a human perspective, this makes them look all the more delicious.",
+      "image": "Item Ruby Starbloom Fish.png",
+      "drops": [],
+      "releaseVersion": "7.0",
+      "bait": "Glimmering Bait"
+    }
+  },
+  {
+    "pageTitle": "Severelk",
+    "en": {
+      "name": "Severelk",
+      "family": "Beasts",
+      "group": "Deer",
+      "location": "Snezhnaya",
+      "description": "Tall and tame animals with a pair of eyes that seem to see through all things. The Severelk living on the snowy plains have thick fur and sturdy horns, yet their feet are light and fleet, and their sense of smell is so keen that they can forage for food even in the thickest snow, and they flee pursuit from predators swiftly. In old {{sic|Snezhanyan",
+      "image": "Severelk Icon.png",
+      "drops": [
+        {
+          "name": "Raw Meat",
+          "quantity": 2
+        }
+      ],
+      "releaseVersion": "7.0"
+    },
+    "fr": {
+      "name": "Severélan",
+      "family": "Beasts",
+      "group": "Deer",
+      "location": "Snezhnaya",
+      "description": "Tall and tame animals with a pair of eyes that seem to see through all things. The Severelk living on the snowy plains have thick fur and sturdy horns, yet their feet are light and fleet, and their sense of smell is so keen that they can forage for food even in the thickest snow, and they flee pursuit from predators swiftly. In old {{sic|Snezhanyan",
+      "image": "Severelk Icon.png",
+      "drops": [
+        {
+          "name": "Raw Meat",
+          "quantity": 2
+        }
+      ],
+      "releaseVersion": "7.0"
+    }
+  },
+  {
+    "pageTitle": "White Sumpter Beast",
+    "en": {
+      "name": "White Sumpter Beast",
+      "family": "Beasts",
+      "group": "Sumpter Beast",
+      "location": "Snezhnaya",
+      "description": "These white-furred quadrupeds are distant relatives of Sumeru's Sumpter Beasts. The White Sumpter Beasts are friendly to humans and resistant to the cold by nature, and they were once the most important mode of transport across the frozen fields. Even today, they remain good helpers to the Snezhnayan traveling merchant.",
+      "image": "White Sumpter Beast Icon.png",
+      "drops": [
+        {
+          "name": "Raw Meat",
+          "quantity": 3
+        }
+      ],
+      "releaseVersion": "7.0"
+    },
+    "fr": {
+      "name": "Bête de somme blanche",
+      "family": "Beasts",
+      "group": "Sumpter Beast",
+      "location": "Snezhnaya",
+      "description": "These white-furred quadrupeds are distant relatives of Sumeru's Sumpter Beasts. The White Sumpter Beasts are friendly to humans and resistant to the cold by nature, and they were once the most important mode of transport across the frozen fields. Even today, they remain good helpers to the Snezhnayan traveling merchant.",
+      "image": "White Sumpter Beast Icon.png",
+      "drops": [
+        {
+          "name": "Raw Meat",
+          "quantity": 3
+        }
+      ],
+      "releaseVersion": "7.0"
     }
   }
 ]
