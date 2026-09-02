@@ -189,6 +189,9 @@
               "BOSS": "Hydro Tulpa"
             },
             {
+              "BOSS": "Immortal Construct"
+            },
+            {
               "BOSS": "Jadeplume Terrorshroom"
             },
             {
@@ -243,6 +246,9 @@
             },
             {
               "BOSS": "Hydro Tulpa"
+            },
+            {
+              "BOSS": "Immortal Construct"
             },
             {
               "BOSS": "Jadeplume Terrorshroom"
@@ -349,6 +355,9 @@
               "BOSS": "Hydro Tulpa"
             },
             {
+              "BOSS": "Immortal Construct"
+            },
+            {
               "BOSS": "Champieffroi panaché"
             },
             {
@@ -403,6 +412,9 @@
             },
             {
               "BOSS": "Hydro Tulpa"
+            },
+            {
+              "BOSS": "Immortal Construct"
             },
             {
               "BOSS": "Champieffroi panaché"
@@ -832,6 +844,9 @@
               "BOSS": "Icewind Suite"
             },
             {
+              "BOSS": "Immortal Construct"
+            },
+            {
               "BOSS": "Iniquitous Baptist"
             },
             {
@@ -940,6 +955,9 @@
             },
             {
               "BOSS": "Icewind Suite"
+            },
+            {
+              "BOSS": "Immortal Construct"
             },
             {
               "BOSS": "Iniquitous Baptist"
@@ -1082,6 +1100,9 @@
               "BOSS": "Icewind Suite"
             },
             {
+              "BOSS": "Immortal Construct"
+            },
+            {
               "BOSS": "Iniquitous Baptist"
             },
             {
@@ -1190,6 +1211,9 @@
             },
             {
               "BOSS": "Icewind Suite"
+            },
+            {
+              "BOSS": "Immortal Construct"
             },
             {
               "BOSS": "Iniquitous Baptist"
@@ -1330,6 +1354,9 @@
               "BOSS": "Icewind Suite"
             },
             {
+              "BOSS": "Immortal Construct"
+            },
+            {
               "BOSS": "Iniquitous Baptist"
             },
             {
@@ -1447,6 +1474,9 @@
             },
             {
               "BOSS": "Icewind Suite"
+            },
+            {
+              "BOSS": "Immortal Construct"
             },
             {
               "BOSS": "Iniquitous Baptist"
@@ -1601,6 +1631,9 @@
               "BOSS": "Icewind Suite"
             },
             {
+              "BOSS": "Immortal Construct"
+            },
+            {
               "BOSS": "Iniquitous Baptist"
             },
             {
@@ -1718,6 +1751,9 @@
             },
             {
               "BOSS": "Icewind Suite"
+            },
+            {
+              "BOSS": "Immortal Construct"
             },
             {
               "BOSS": "Iniquitous Baptist"
@@ -3953,7 +3989,7 @@
       },
       "circletOfLogos": {
         "name": "Mocking Mask",
-        "description": "Since the stain of my compatriots' blood cannot be cleansed, I shall become The Jester, who laughs in the face of fate. Since my level of learning could not compare with the sages, I failed to earn the favor of the previous ruler. So too did I fail to stop them from tearing away the veil of sin, ushering in a tide of divine wrath, destruction, and foolishness... Then I shall become instead a fool, a Fatuus, and devote myself to Her Majesty, who understands my pain... My name is Pierro, The Jester. Please listen to the words I have to say: Proud Fatui comrades, I know your hearts harbor both the fires of rage and the cold of eternal winter. Each one of us has borne witness to the absurd callousness of the foundational principles of this world. So, let us don our masks in mockery of the world as we go forth and rewrite the rules of destiny."
+        "description": "Since the stain of my compatriots' blood cannot be cleansed, I shall become The Jester, who laughs in the face of fate. Since my level of learning could not compare with the sages,<ref group=\"Note\">In the original Chinese text, Pierro specifies , the title of Hroptatyr. Given the use of CJK brackets, Pierro's later emphasised rivalry with Hroptatyr, and a lack of any other notable sages on par nor associated with The Wise, the text is almost certainly refering to Hroptatyr specifically.</ref> I failed to earn the favor of the previous ruler. So too did I fail to stop them from tearing away the veil of sin, ushering in a tide of divine wrath, destruction, and foolishness... Then I shall become instead a fool, a Fatuus, and devote myself to Her Majesty, who understands my pain... My name is Pierro, The Jester. Please listen to the words I have to say: Proud Fatui comrades, I know your hearts harbor both the fires of rage and the cold of eternal winter. Each one of us has borne witness to the absurd callousness of the foundational principles of this world. So, let us don our masks in mockery of the world as we go forth and rewrite the rules of destiny."
       },
       "setBonuses": {
         "2pieces": "Physical DMG Bonus|link=1 +25%.",
@@ -4128,128 +4164,6 @@
           "Energy Recharge",
           "Elemental Burst DMG Increase",
           "DMG Bonus"
-        ]
-      },
-      "releaseVersion": "2.0"
-    }
-  },
-  {
-    "pageTitle": "Shimenawa's Reminiscence",
-    "releaseVersion": "2.0",
-    "en": {
-      "name": "Shimenawa's Reminiscence",
-      "obtaining": [
-        {
-          "rarity": 4,
-          "sources": [
-            {
-              "DOMAIN": "Momiji-Dyed Court"
-            }
-          ]
-        },
-        {
-          "rarity": 5,
-          "sources": [
-            {
-              "DOMAIN": "Momiji-Dyed Court"
-            },
-            {
-              "STRONGBOX": "Artifact Strongbox: Shimenawa's Reminiscence"
-            }
-          ]
-        }
-      ],
-      "flowerOfLife": {
-        "name": "Entangling Bloom",
-        "description": "An crafted using an art known as . It is said to have the power to bind wishes and the reasons for those wishes within itself. Once, I learned how to manage the affairs of the shrine under the tutelage of a mighty kitsune. Back then, I was just a young shrine maiden who had just arrived on Narukami from a small fishing village. I was duller than a teapot and had yet to lose the obstinate impulsiveness and curiosity of a child, I was always naively skeptical of the elegant but incomprehensible words of Lady Saiguu. \"Everything in the world is entangled. Hence, illusory visions were born out of concrete reality.\" \"The so-called omamori cannot make one's wishes come true at all, but they can make them eternal through this entanglement.\" Seeing my befuddled expression, a picture of complete confusion, Lady Kitsune couldn't help bursting into laughter, She cheerfully knocked my head with her pipe and sneakily changed the subject. \"I suppose you've met your fated one as well, Hibiki?\" \"What sort of 'fate' could there be with a rude and reckless brute like that!\" \"Oh, is that so? But darkness engulfed everything in the end. That \"fate,\" too, was no more."
-      },
-      "plumeOfDeath": {
-        "name": "Shaft of Remembrance",
-        "description": "A demon-slaying arrow used by the shrine for prayers and to drive away catastrophes, It is said to be capable of pursuing and destroying all demons. People often say that demon-slaying arrows can drive away evil, but evil is never an objective thing. Evil often stems from within our hearts, born out of delirious minds that have turned cold and ashen from terror. Lady Saiguu has been gone for a long time now, and I am no longer that young shrine maiden training at the Grand Narukami Shrine. Whenever I hold that empty smoking pipe, I can feel that emptiness and dull pain hover over me like a phantom. Having someone worth missing, losing someone whom I cannot help missing... And time keeps moving like a spinning wheel. Silent and tranquil, the Lady Kitsune's white form hidden in the deep darkness left a deep impression in the shrine maiden's dreams. The Great Tengu went into self-imposed exile, enraged at her own incompetence as the Lady Saiguu's protector, leaving Teruyo behind. Harunosuke left for another country amid the fury of his mourning, while Nagamasa joined the Shogunate to clear the Mikoshi name. As for the man who taught me archery in the sacred forest and patiently listened to my naïve promise under the scarlet sakura boughs, He will eventually return to me, even if he were to be blinded by splattered blood, or turned into a fierce beast by that dark defilement... I shall save him with our bow and arrows, to keep our promise, which ever veers towards breaking. I shall destroy evil with our bow and arrows, exorcising folly and needless obsession. \"Come see me, you idiotic problem gambler.\" \"And don't lose your way this time, Konbumaru.\" Still, who won the last throw of the dice... She touched the bow lightly while pondering such unimportant things."
-      },
-      "sandsOfEon": {
-        "name": "Morning Dew's Moment",
-        "description": "An elegant watch adorned with a shrine bell. The hands always point towards the wee hours of the morning. As the sky brightens, morning dew condenses and then disappears. As beautiful as this colorful scenery may be, it is still short-lived. I once enjoyed the chirping of cicadas and the moonlight with Lady Saiguu on a slope in the middle of an autumn night. Back then, I was just a shrine maiden from the country, young and stubborn. Like a chirping finch, noisily insisting on my own view. A faint smile that crossed the mouth of Lady Kitsune fascinated me, but her words were — and remain — incomprehensible: \"Trying to hold on to a moment's beauty is like foolishly trying to grasp the morning dew.\" \"Like the morning dew, I have already passed away. All you have seen of me is but a residual vision, born of your wishes.\" In that vague memory, she kept saying some incomprehensible things. Her expression as sorrowful as the eighth month's moon, and I suddenly... Then she rapped me over the head with her tobacco pipe, wearing her usual expression of rebuke and mockery: \"Hibiki, the sun's about to rise.\" \"We should head back.\""
-      },
-      "gobletOfEonothem": {
-        "name": "Hopeful Heart",
-        "description": "A special slip cylinder that the shrine uses for fortune-telling, It is supposedly infused with good fortune that the kitsune have imparted upon it. Fortune telling is born from the questions of lost people. Thus, be it good or bad fortune, it will help them navigate their future. In other words, there are only lost people, and no inaccurate fortunes. I've learned a lot while studying at the shrine. Now, even someone as dull-witted as I am has learned how to talk like a mighty kitsune. During this time, even someone as inhuman as the mighty Yougou Tengu has gotten a daughter. Even that leatherhead Konbumaru has also become one of the Shogun's own , and shall soon marry the daughter of a high-ranking samurai. \"Such a lovely kid. Even the great Yougou Tengu, who used to kill all day for fun, had the mother inside her brought out... just a little.\" \"Still... the shrine is always missing the liveliness of children. That's not good. Say, Hibiki, how would you like to be a kid again?\" The Lady Kitsune's joke was out of line as always, coming forth with the self-serving scent of sakura wine. \"Aw, Hibiki, why the long face? How about this then? I, the Lady Saiguu, shall tell your fortune for you!\" \"Haha, see? See, it's \"Great Fortune.\" \"Great Fortune\"! You know what that means?\" \"It means you took away all the bad fortune slips. Please stop mocking me, Lady Saiguu.\" \"No... it means that the person you're missing will be lucky enough to become a part of your memories forever.\" That's why you have to be strong and must live on for a long, long time. Even if all the people you cherish are gone, as long as you are still alive, The time you spent with them will never perish..."
-      },
-      "circletOfLogos": {
-        "name": "Capricious Visage",
-        "description": "A bright and elegant festival mask that once belonged to a certain miko. A faint smile curls the edges of the mask's lips, but there is no real light in its eyes. I've spent much time training at the Grand Shrine, and I must say that I've matured a lot. At the very least, I'm not as foolish as I was when I was young, and I'm more independent now. But for some reason, the more I grow, the more Lady Saiguu's face seems to fall under a shadow. What emerges on her face is not anxiety nor fear, but rather a sorrowful reluctance... \"Life is full of uncertainty. Love is fleeting, and even lasting memories may be lost.\" \"Losing one's memory is no different from losing one's life. It is like death amidst darkness eternal.\" This time, even a faint smile could not conceal her sorrow. Though this is a festive day, it seems more like a farewell. \"Right, then. Why don't you tell me about the idiot Konbumaru?\" \"What's wrong? Still afraid that an old hag like me will steal him from you?\""
-      },
-      "setBonuses": {
-        "2pieces": "ATK +18%.",
-        "4pieces": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration.",
-        "effects": [
-          "ATK Increase",
-          "Normal Attack DMG Increase",
-          "Charged Attack DMG Increase",
-          "Plunging Attack DMG Increase",
-          "Energy Decrease",
-          "Elemental Skill",
-          "DMG Bonus",
-          "Energy"
-        ]
-      },
-      "releaseVersion": "2.0"
-    },
-    "fr": {
-      "name": "Réminiscence nostalgique",
-      "obtaining": [
-        {
-          "rarity": 4,
-          "sources": [
-            {
-              "DOMAIN": "Cour Momiji"
-            }
-          ]
-        },
-        {
-          "rarity": 5,
-          "sources": [
-            {
-              "DOMAIN": "Cour Momiji"
-            },
-            {
-              "STRONGBOX": "Artifact Strongbox: Shimenawa's Reminiscence"
-            }
-          ]
-        }
-      ],
-      "flowerOfLife": {
-        "name": "Fleur d'enchevêtrement",
-        "description": "Un [https://fr.wikipedia.org/wiki/Omamori omamori] fabriqué selon un procédé faisant appel à des cordons de papier torsadé. Il est dit qu'il possède le pouvoir de lier les souhaits et leurs raisons en lui-même. Autrefois, j'ai appris à gérer les affaires du sanctuaire sous la tutelle d'une puissante Kitsune. À l'époque, je n'étais qu'une jeune prêtresse qui venait d'arriver sur Narukami après avoir quitté son petit village de pêcheurs. J'étais plus naïve qu'un Blob, et je n'avais pas encore perdu l'impulsivité et la curiosité d'un enfant. J'étais souvent sceptique face aux paroles élégantes, mais incompréhensibles, de dame Saiguu. « Tout dans le monde est enchevêtré. Ainsi, des visions illusoires sont nées de la réalité concrète. » « Les soi-disant omamori ne peuvent pas réaliser les souhaits, mais ils peuvent les rendre éternels grâce à cet enchevêtrement. » La dame Kitsune ne put s'empêcher d'éclater de rire en voyant mon expression désemparée. Elle m'a gentiment cogné la tête avec sa pipe, et a sournoisement changé de sujet. « Je suppose que tu as également rencontré ton destiné, Kanade ? » « Quel genre de « destin » pourrait-il y avoir avec une brute grossière et téméraire comme ça ! » « Oh, est-ce ainsi ? » Mais les ténèbres ont fini par tout engloutir... Et ce « destin », non plus, n'était plus..."
-      },
-      "plumeOfDeath": {
-        "name": "Flèche de nostalgie",
-        "description": "Une flèche tueuse de démons utilisée par les sanctuaires pour les prières et pour éloigner les catastrophes. Il est dit qu'elle est capable de poursuivre et de détruire tous les démons. Les gens disent souvent que les flèches tueuses de démons peuvent chasser le mal, mais le mal n'est jamais tangible. Le mal vient souvent de l'intérieur de nos cœurs, né d'esprits délirants devenus froids et cendrés par la terreur. Dame Saiguu est partie depuis longtemps maintenant, et je ne suis plus cette jeune prêtresse qui s'exerce au Sanctuaire de Narukami. Chaque fois que je tiens cette pipe vide dans mes mains, je peux sentir ce manque et cette douleur assourdissante planer au-dessus de moi comme un fantôme. Même si j'ai quelqu'un qui me manque, ou si je perds quelqu'un qui me manquera sûrement, le temps continue de passer aussi vite qu'un rouet. Silencieuse et sereine, la silhouette blanche de la Kitsune Saiguu cachée dans l'obscurité profonde a laissé une forte impression dans les rêves de la prêtresse. La grande Tengu s'est exilée, furieuse de sa propre incompétence en tant que protectrice de dame Saiguu, laissant Teruyo derrière elle. Rempli de chagrin et de colère, Harunosuke est parti pour un autre pays, tandis que Nagamasa a rejoint le Shogunat pour laver le nom des Mikoshi. Quant à l'homme qui m'a appris le tir à l'arc dans la forêt sacrée et a patiemment écouté ma promesse naïve sous les branches écarlates du cerisier... Il reviendra un jour à moi, même aveuglé par des éclaboussures de sang, ou transformé en une bête féroce par cette sombre corruption... Je le sauverai avec notre arc et nos flèches, pour tenir notre promesse, qui était destinée à être brisée. Je détruirai le mal avec notre arc et nos flèches, exorcisant la folie et l'obsession inutile. « Reviens me voir, idiot de parieur invétéré. » « Ne te perds pas cette fois, Konbumaru. » Mais qui avait gagné le dernier jet de dés... Elle toucha légèrement l'arc en réfléchissant à ces choses si insignifiantes..."
-      },
-      "sandsOfEon": {
-        "name": "Horloge de l'aube",
-        "description": "Une montre élégante, ornée d'une cloche de sanctuaire. Ses aiguilles pointent toujours vers les petites heures du matin. À mesure que le ciel s'éclaircit, la rosée du matin se condense et disparaît. Aussi belle que cette scène puisse être, elle n'est que fugace. Un jour, j'appréciais le chant des cigales et le clair de lune avec dame Saiguu sur une pente au milieu d'une nuit d'automne. À l'époque, je n'étais encore qu'une jeune prêtresse de campagne, jeune et têtue. J'étais semblable à un pinson qui gazouille, insistant bruyamment sur mes propres opinions. Le léger sourire qui illumina le visage de la dame Kitsune me fascina, mais ses paroles étaient – et restent toujours – incompréhensibles : « Tenter de s'accrocher à jamais à la beauté d'un moment, c'est comme essayer de saisir la rosée du matin. » « Telle la rosée matinale, je ne suis plus. Tout ce qu'il reste de moi n'est qu'une vision résiduelle, née de tes souhaits. » Dans ce vague souvenir, elle n'arrêtait pas de dire des choses incompréhensibles, avec une expression aussi triste que la lune du huitième mois, et puis... ... Et puis elle me cogna la tête avec sa pipe à tabac, avec son expression habituelle de reproche et de moquerie : « C'est presque l'aube, Kanade. » « Il est temps pour nous de rentrer. »"
-      },
-      "gobletOfEonothem": {
-        "name": "Cœur plein d'espoir",
-        "description": "Un cylindre spécial que les sanctuaires utilisent pour la divination. Il est censé être imprégné de la bonne fortune que les Kitsunes lui ont transmise. La divination est née des questions de personnes égarées. Ainsi, que ce soit une bonne ou une mauvaise fortune, cela les aidera à naviguer dans leur avenir. En d'autres termes, il n'y a que des personnes égarées, et pas de fortunes inexactes. J'ai beaucoup appris en étudiant au sanctuaire. Maintenant, même quelqu'un d'aussi stupide que moi a appris à parler comme un puissant Kitsune. Pendant ce temps, même quelqu'un d'aussi inhumain que la puissante Tengu de Yougou a eu une fille. Et même ce maladroit de Konbumaru est devenu l'un des hatamoto personnel de Son Excellence la Shogun, et il épousera bientôt la fille d'un samouraï de haut rang. « Une si belle enfant ! Même la Tengu, qui tuait toute la journée pour le plaisir, a développé un instinct maternel. » « Pourtant... Le sanctuaire manque toujours de la vitalité des enfants... Ce n'est pas bon. Dis-moi, Kanade, aimerais-tu redevenir une enfant ? » La blague de la Kitsune Saiguu était déplacée, comme toujours, et s'accompagnait de l'odeur d'un vin de cerise. « Oh, Kanade, pourquoi fais-tu cette tête ? Et comme ça, alors ? Moi, dame Saiguu, je vais te dire ta fortune ! » « Haha, tu vois ? Regarde, c'est une grande fortune. Une grande fortune ! Tu sais ce que ça veut dire ? » « Ça veut dire que vous avez enlevé tous les papiers de malchance. S'il vous plaît, arrêtez de vous moquer de moi, dame Saiguu. » « Mais non... Ça signifie que la personne qui vous manque aura la chance de faire partie de vos souvenirs pour toujours. » C'est pourquoi il faut être fort et vivre très, très longtemps. Même si toutes les personnes que l'on chérit sont parties, tant que l'on est encore en vie, le temps passé avec elles ne périra jamais..."
-      },
-      "circletOfLogos": {
-        "name": "Visage capricieux",
-        "description": "Un lumineux et élégant masque de festival qui appartenait autrefois à une certaine miko. Un léger sourire se dessine aux lèvres du masque, mais il n'y a pas de vraie lumière dans ses yeux. J'ai passé beaucoup de temps à m'exercer au sanctuaire, et je dois dire que j'ai beaucoup mûri. Du moins, je ne suis pas aussi stupide que lorsque j'étais jeune, et je suis plus indépendante également. Mais pour une raison quelconque, plus je grandis, plus le visage de dame Saiguu semble tomber dans l'ombre. Ce qui se dessine sur son visage n'est ni anxiété ni peur, mais plutôt une douloureuse réticence... « La vie est pleine d'incertitudes, l'amour est éphémère, et même les souvenirs durables peuvent être perdus. » « Perdre sa mémoire n'est pas différent de perdre sa vie. C'est comme une mort au milieu des ténèbres éternelles. » Cette fois, même un léger sourire ne pouvait cacher son chagrin. Bien que ce soit un jour de fête, cela ressemble plus à un adieu. « Bon, alors... Pourquoi ne pas parler de cet idiot de Konbumaru... » « Qu'est-ce qui ne va pas ? Peur qu'une vieille peau comme moi le vole ? »"
-      },
-      "setBonuses": {
-        "2pieces": "Augmente l'ATQ de 18 %.",
-        "4pieces": "Lorsque le personnage possède au minimum 15 pts d'énergie élémentaire, libérer une compétence élémentaire entraîne une perte de 15 pts d'énergie, mais les DGT infligés par son attaque normale, chargée et plongeante augmentent de 50 % pendant 10 s. Cet effet ne se déclenchera plus pendant cette durée.",
-        "effects": [
-          "ATK Increase",
-          "Normal Attack DMG Increase",
-          "Charged Attack DMG Increase",
-          "Plunging Attack DMG Increase",
-          "Energy Decrease",
-          "Elemental Skill",
-          "DMG Bonus",
-          "Energy"
         ]
       },
       "releaseVersion": "2.0"
@@ -4987,7 +4901,7 @@
       },
       "circletOfLogos": {
         "name": "Amethyst Crown",
-        "description": "In a bygone time of which only the Jinn sing, the Lord of Flowers once met the King of the Red Sands. In an age where kings vied against one another for power, King Deshret allowed his throne to be shared with two others. The Jinn bequeathed a throne inlaid with emeralds and rubies to celebrate the union between the three friends. In honor of the eternal oasis and the flourishing Padisarahs, the Lord of Flowers wore an amethyst crown. \"But 'eternity' is ultimately a lie. Intoxication and love could only grind memories down to broken dreams.\" \"You once asked me why I always sigh. Tonight, while the moon is bright, let me speak to you of things long past...\" \"It was a faraway time of calm and peace. Divine envoys spoke openly with the people then, bringing them the word from the heavens...\" \"But, in time, invaders descended from beyond the firmament, bringing with them destruction, overturning rivers, spreading plagues...\" \"And though the invaders brought war to my former kin, they also brought about illusions that could break through shackles to the land.\" \"But the master of the heavens, consumed by fear for the rising tide of delusion and breakthroughs, sent down the divine nails to mend the land, laying waste to the mortal realm...\" \"We then suffered the torment of exile. Stripped was our connection to heaven, to our powers of enlightenment...\" \"Since the disaster, I have long been cursed to never again look upon the heavens. It is my fortune that I have been able to maintain myself till now...\" \"But my home calls to me nigh-constantly, even as a disaster between the stars and the abyss grows ever emergent on the surface of the crystals.\" \"Heed my warnings: seek not the Master of the Four Shades, and inquire not of the mysteries of the sky and the abyss.\" \"Otherwise, as shown by the nail of retribution, certain calamity and sorrow shall follow.\" However, King Deshret disagreed with the warnings of his partner, silently swearing his intent to transgress. Wiping clean the tears of his companion beneath the moon's gaze, he spoke then of his own desires to the Goddess of Flowers..."
+        "description": "In a bygone time of which only the Jinn sing, the Lord of Flowers once met the King of the Red Sands. In an age where kings vied against one another for power, King Deshret allowed his throne to be shared with two others. The Jinn bequeathed a throne inlaid with emeralds and rubies to celebrate the union between the three friends. In honor of the eternal oasis and the flourishing Padisarahs, the Lord of Flowers wore an amethyst crown. \"But 'eternity' is ultimately a lie. Intoxication and love could only grind memories down to broken dreams.\" \"You once asked me why I always sigh. Tonight, while the moon is bright, let me speak to you of things long past...\" \"It was a faraway time of calm and peace. Divine envoys spoke openly with the people then, bringing them the word from the heavens...\" \"But, in time, invaders descended from beyond the firmament, bringing with them destruction, overturning rivers, spreading plagues...\" \"And though the invaders brought war to my former kin, they also brought about illusions that could break through shackles to the land.\" \"But the master of the heavens, consumed by fear for the rising tide of delusion and breakthroughs, sent down the divine nails to mend the land, laying waste to the mortal realm...\" \"We then suffered the torment of exile. Stripped was our connection to heaven, to our powers of enlightenment...\" \"Since the disaster, I have long been cursed to never again look upon the heavens. It is my fortune that I have been able to maintain myself till now...\" \"But my home calls to me nigh-constantly, even as a disaster between the stars and the abyss grows ever emergent on the surface of the crystals.\" \"Heed my warnings: seek not the Master of the Four Great Rulers, and inquire not of the mysteries of the sky and the abyss.\" \"Otherwise, as shown by the nail of retribution, certain calamity and sorrow shall follow.\" However, King Deshret disagreed with the warnings of his partner, silently swearing his intent to transgress. Wiping clean the tears of his companion beneath the moon's gaze, he spoke then of his own desires to the Goddess of Flowers..."
       },
       "setBonuses": {
         "2pieces": "Increases Elemental Mastery by 80.",
@@ -5642,6 +5556,9 @@
               "DOMAIN": "Sanctum of Rainbow Spirits"
             },
             {
+              "OTHER": "Tribal Secret Space"
+            },
+            {
               "STRONGBOX": "Artifact Strongbox: Obsidian Codex"
             }
           ]
@@ -5695,6 +5612,9 @@
           "sources": [
             {
               "DOMAIN": "Sanctuaire des esprits arc-en-ciel"
+            },
+            {
+              "OTHER": "Tribal Secret Space"
             },
             {
               "STRONGBOX": "Artifact Strongbox: Obsidian Codex"
@@ -6188,118 +6108,6 @@
     }
   },
   {
-    "pageTitle": "Silken Moon's Serenade",
-    "releaseVersion": "Luna I",
-    "en": {
-      "name": "Silken Moon's Serenade",
-      "obtaining": [
-        {
-          "rarity": 4,
-          "sources": [
-            {
-              "DOMAIN": "Frostladen Machinery"
-            }
-          ]
-        },
-        {
-          "rarity": 5,
-          "sources": [
-            {
-              "DOMAIN": "Frostladen Machinery"
-            }
-          ]
-        }
-      ],
-      "flowerOfLife": {
-        "name": "Crystal Tear of the Wanderer",
-        "description": "That was a time when the gentle frost-light still lingered, a silver mirror unbroken, even as the golden realm had already fallen. In a single night, the glorious golden tower fell like a fig tree. Across the frozen northern plain, From the holy citadel to the ancient capital, dark blue crystal nails annihilated every last city with even the most minuscule sign of life. The once-praised apostle and the gods' first messenger both vanished in the catastrophe. Those who survived by grace of being nowhere near the cities at the time could only cling to life amidst the freezing wind and snow. With no refuge left to them, they simply waited for destruction to find them in the hollow dark. This is the great extinction spoken of in later prayers. Halcyon prosperity turned to dust, And the gods remained silent, unmoved by cries, curses, or reproach. In the despair of that long night, only one celestial ruler shed tears for the mortals' pain. She was the mistress of the Frost Moon, queen of the celestial chariot and of light, a heavenly agent whose origin was one with that of the world. Moved by pity, and a deeper, unspoken wish, she heeded the survivors' prayers. According to legend, she spun gleaming threads from the silver glow to lead the displaced across the frozen plains. And where her tears, full of longing, fell upon the frost-covered soil of the far north, they blossomed into lilies that would stand eternal in the icy winds. The proud descendants of Hyperborea call themselves the \"Frostmoon Scions\" for this reason, To honor the divinity who, whatever her original intent, gave them a new lease on life."
-      },
-      "plumeOfDeath": {
-        "name": "Pristine Plume of the Blessed",
-        "description": "That was a time when frost's gentle light had long shattered like a silver mirror, but when the new moon had yet to rise. This is the story of two sisters who, born defective products, were never meant to be blessed. In the moonlight, an undisturbed sanctuary for strangers, the fragile souls shared a single breath. In the brief moments between agonies, moments that should have been filled with joy, they huddled together, drawing what little warmth they could from each another. They had never seen their parents, and nor had they ever heard the wind whispering through the groves. The two of them had only their grandmother, and the only way they'd seen the world was through the pages of a faded storybook. Its brittle, yellowed pages, torn and tattered, revealed to them a world they'd never seen: There it was, a single white bird, a streak of grace, gliding beneath a perfect moon. As they admired the free creatures of the fairy tales, the two children made a promise to each other... One day, the two of them would fly together like the white birds in the vast sky. \"Since the day we were born, it's always been just the two of us.\" \"When the day comes for us to leave, let's live the rest of our lives together.\" Many years later, one of them broke their promise, leaving for a faraway place alone. But alas, this was no flight toward a brighter future, but a fall into a much darker night. With her went half the dream, and half the pain meant for them both. Aila, later to become the first Moonchanter, began to endure twice the torment from that day on. \"So you lied to me all along as well... My older sister, the only one I ever truly trusted.\" \"But I won't resent you... I have long lost hope for the sky beyond.\""
-      },
-      "sandsOfEon": {
-        "name": "Frost Devotee's Delirium",
-        "description": "That was a time when frost's gentle light had long shattered like a silver mirror, but when the new moon had yet to rise. It was then that the great plan, carried through countless generations since the time of extinction, was on the verge of culmination. The bloodline, purified for over a thousand years, would at last give birth to the chosen one destined to reign over Elysium. The false sevenfold radiance of the high heavens would fall at her feet, and the bones of the earth would rise to follow her. For from her would spring union with the world, and from her would the first great cause be rebuilt. That was the sacrosanct duty that had been passed down to the daughters of the far north. So it should have been. So it should have been... But on a moonless, snowbound night, the girl chosen to bear the sacred heir met the boy from the northern realm, And in his eyes, as clear as a winter's day, she beheld a reflection of a self she had never known. This unfamiliar stirring was enough to make the holy woman turn her back on destiny for that young officer from afar. For this new feeling, this foolishness called love, she cut off her bloodstained antler-crown and cast it down upon the snowy earth. The fallen one, who had betrayed her own people, ultimately failed to fulfill her destined duty. She was captured by a spy sent by the mad monk and was soon to be returned to the homeland she was meant to love. But as she looked down at the officer by her feet, crimson pooling beneath him, she drew the dagger to her throat in one final, fatal kiss. And so, the woman who failed to bear the sacred heir was buried in haste, her death forestalling the prophecy. Fortunately, the leaders of every generation had long prepared for premature end of such a blessed lady. Lovia, the then-Archpriestess, swiftly turned to a lesser branch of the bloodline for spares. But the twin sisters born of this lineage were a pale shadow of the one they were meant to replace. Hundreds of years might now have to pass before another child of sufficient purity was born. Seeing the glory of the great endeavor slip from her grasp like dissipating dew, The antler-crowned Archpriestess, maddened by anguish and obsession, hatched a terrible scheme. Why wait for the thousand winds to sweep through several generations? If they were too impure, Their flesh and blood too weak to bear the radiance of true moonlight... Did the Frost Moon's boon not linger faintly in all ███? Then let ███ purify their ███! Thus, in the name of flawless moonlight, the priestess committed an act so profane, That even the mistress of the Frost Moon would recoil in horror at the blasphemy..."
-      },
-      "gobletOfEonothem": {
-        "name": "Joyous Glory of the Pure",
-        "description": "That was a time when frost's gentle light had long shattered like a silver mirror, but when the new moon had yet to rise. The descendants of the far north could no longer hear the divine teachings of the high heavens, and they were consumed by burning wrath, just like in the days of old. No one knew how to forge anew the marvel the apostle of the Golden City had revealed to their ancestors. Yet the ambitions of the exiled — the ambitions of mortals — were more unyielding than even those of the gods. Should one lose the reliquary that can overnight till ten thousand acres of fertile land upon the dark, misty sea of ice, Then pen wild oxen into the furrows so that one may conquer the tundra inch by inch with fire, hoe, and sickle. Should one lose the arrow that can strike down the gods and pierce even that false sky, Then forge the plowshare into sword and blade, and the sickle and hoe into spear and halberd, then let blood be the lantern that dispels the darkness. And should the authority of creation, gifted by the highest of angels, be broken, Then one must govern the proliferation of the countless generations that follow by the crudest, primordial means remaining, that is, through law. So it must remain, until blood thinned by disaster and exile is purified into holy seed, And mortal descendants are born as perfect beings, fully one with the world. The perseverance and determination of all living creatures would eventually overcome all calamity — or at least that is what they firmly believed. After all, those who have planned the future of their people rarely have to suffer the slings and arrows of their contempt. \"Here, drink this pure moonlight, my beloved child, my most cherished child!\" \"Let it weave into your flesh and blood, so that you too may be worthy of the gods' grace.\" \"Look to the apostle of the Golden City. How he drank bitter wine and fought for the freedom of his compatriots!\" \"Like him, you must embrace this joyous pain, for from it, perfection will one day be born.\" The two could no longer tell what filled the ancient silver goblet. But if the kindly grandmother said so, then it must also be the will of the gods. Yes, yes. All to sculpting perfection, to fulfill a wish that had endured a thousand years. For the sake of the prophesied Elysium and the king destined to descend upon the world, impurity and trial had first to be transcended..."
-      },
-      "circletOfLogos": {
-        "name": "Holy Crown of the Believer",
-        "description": "That was a time when frost's gentle light had long shattered like a silver mirror, but when the new moon had yet to rise. The gods' ancient blessing, like a lone spark on the vast tundra, eventually flickered out. As the heavenly moon passed from the sky, the earth that could not become the moon began to wither. The great deeds miracle workers did in years past had faded into vaporous prayers, and those prayers were now the silent worries of the masses. In those crumbling, moonless nights, even a holy woman of the purest blood, Was hard-pressed to weave the flowing light into a song that could move the world, as her ancestors once did. No matter how fervently the ancestors of the far north once vowed to follow their departed gods, Their descendants, mortals in this sublunary sphere, lived lives as fleeting as a flickering flame. In days long gone, when one could still behold holy women and Archpriestesses channeling the grace of the gods, People yet believed the new moon would one day arise from the shattered light. And so, when the last glimmer of grace had faded and miracles were no longer witnessed, The line between so-called faith and so-called lies in turn grew as thin and fragile as the morning mist. Legend has it that the antler crown of Moonchanters today was a gift from the Frost Moon at the moment of its obliteration. The silver tree was splintered, and bereft of white branches they might find, the priesthood pleaded for new coronals. Out of pity, the mistress of the moon wove holy crowns for them out of flawless moonlight, ones innate to their birth. That was why the last Archpriestess chose to forge her circlet from cold, pure iron. The young Lovia was just a priestess then, one who had never once witnessed a moonlit blessing, And she dreamed that such lies, that deceived others and oneself alike, could still bind the unfaithful believers together. Decades later, when the false antlered crown sank into the foul, corrupt blood, That which reflected in her eyes was still not the flawless moonlight, but the frigid night swallowed whole by her own shadow."
-      },
-      "setBonuses": {
-        "2pieces": "Energy Recharge +20%.",
-        "4pieces": "When dealing Elemental DMG, gain the Gleaming Moon: Devotion effect for 8s: Increases all party members' Elemental Mastery by 60/120 when the party's Moonsign is Nascent Gleam/Ascendant Gleam. The equipping character can trigger this effect while off-field. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack.",
-        "effects": [
-          "Energy Recharge",
-          "Elemental Mastery",
-          "Lunar Reaction DMG Increase",
-          "Lunar-Charged DMG Bonus",
-          "Lunar-Bloom DMG Bonus",
-          "Lunar-Crystallize DMG Bonus"
-        ]
-      },
-      "releaseVersion": "Luna I"
-    },
-    "fr": {
-      "name": "Sérénade de la lune soyeuse",
-      "obtaining": [
-        {
-          "rarity": 4,
-          "sources": [
-            {
-              "DOMAIN": "Machinerie givrée"
-            }
-          ]
-        },
-        {
-          "rarity": 5,
-          "sources": [
-            {
-              "DOMAIN": "Machinerie givrée"
-            }
-          ]
-        }
-      ],
-      "flowerOfLife": {
-        "name": "Larme cristalline de l'errante",
-        "description": "À l'époque où la douce lumière givrée demeurait encore, comme un miroir d'argent intact, malgré la déchéance du royaume doré, la tour dorée s'effondra comme un figuier en une seule nuit. Sur la plaine gelée du nord, de la cité sainte à l'ancienne capitale, des pics de cristal bleu foncé anéantirent chaque ville sans laisser aucune vie. Le saint dont on chantait autrefois les louanges et le premier messager des dieux disparurent tous les deux dans la catastrophe. Les survivants qui étaient loin des villes ne purent que s'accrocher à la vie au milieu de la neige et du vent glacial. Avec nulle part où aller, ils attendirent simplement que la destruction les trouve dans les ténèbres les plus misérables. C'était la grande extinction dont parlaient les prières dans les générations suivantes. La prospérité se transforma en poussière, et les dieux restèrent silencieux, insensibles aux cris, aux malédictions ou aux appels désespérés. Dans le désespoir de cette longue nuit, une seule souveraine céleste pleura la souffrance des mortels. C'était la maîtresse de la lune de givre, la reine du char céleste et de la lumière, un agent divin né de la source même du monde. Émue par la compassion et un désir plus profond et inexprimable, elle répondit aux prières des survivants. Selon une légende, elle tissa des fils brillants à partir de la lueur argentée pour guider les survivants à travers les plaines gelées. Lorsque ses larmes pleines de nostalgie tombèrent sur le sol recouvert de givre du nord, elles se transformèrent en lys bravant le vent glacial pour l'éternité. Les fiers héritiers de l'Hyperborée se nommaient les « Descendants de givrelune » pour cette raison, ainsi que pour honorer les dieux qui accordèrent une nouvelle vie à l'humanité, peu importe leur but originel."
-      },
-      "plumeOfDeath": {
-        "name": "Plume blanche de la privilégiée",
-        "description": "À l'époque où la lumière givrée s'était brisée comme un miroir d'argent et qu'une nouvelle lune ne s'était pas encore élevée, vivaient deux sœurs. Elles étaient des parias depuis la naissance qui n'auraient jamais dû être bénies. Voici leur histoire. Sous le clair de lune, un sanctuaire tranquille pour les étrangers, deux âmes fragiles partageaient le même souffle. Entre les moments de douleur, des moments qui auraient dû être joyeux, elles se blottissaient l'une contre l'autre pour ressentir la moindre once de chaleur possible. Elles n'avaient jamais vu leurs parents, ni entendu les murmures du vent traverser la forêt. Les deux filles n'avaient que leur grand-mère et ce n'était qu'à travers les pages aux couleurs estompées d'un livre de contes qu'elles voyaient le monde. Ses pages jaunies et fragiles décrivaient un monde qu'elles n'avaient jamais vu : il y avait un oiseau blanc qui s'envolait avec grâce sous le clair de lune immaculé. Les deux enfants se firent une promesse silencieuse pendant qu'elles admiraient les créatures libres des contes de fées. Un jour, elles voleraient ensemble dans le ciel comme des oiseaux blancs. « Depuis notre naissance, il n'y a jamais eu personne d'autre à nos côtés à part nous. » « Quand le moment sera venu de partir d'ici, on vivra ensemble pour toujours. » Des années passèrent, et l'une d'entre elles brisa la promesse. Elle partit seule vers un endroit lointain. Malheureusement, elle ne se dirigeait pas vers un meilleur avenir, mais plutôt dans des ténèbres plus sombres. Elle emporta la moitié du rêve et de la souffrance qui leur était destinée à elles deux. Aila, qui devint plus tard la première Émissaire de chantelune, commença à subir le double de la torture qu'on lui infligeait jusque-là. « Tu m'as menti depuis le début... ma grande sœur, la seule en qui j'avais confiance. » « Mais je ne t'en voudrai pas... J'ai depuis longtemps perdu espoir pour le ciel. »"
-      },
-      "sandsOfEon": {
-        "name": "Délire de la dévote du givre",
-        "description": "À l'époque où la lumière givrée s'était brisée comme un miroir d'argent et qu'une nouvelle lune ne s'était pas encore élevée, le grand plan mené à travers de nombreuses générations depuis l'extinction était sur le point de se concrétiser. La lignée, purifiée au fil des millénaires, donnerait naissance à l'élue destinée à régner sur l'Élysium de la prophétie. Les fausses septuples lueurs des cieux tomberaient à ses pieds et les os de la terre s'élèveraient pour la suivre. Elle unirait le monde, destinée à raviver la grande cause du commencement. Tel était le devoir sacré qui fut transmis aux filles du grand nord, ou du moins cela aurait dû être le cas... Dans une nuit enneigée sans lune, la jeune femme choisie pour porter l'héritière sacrée en elle, rencontra enfin le jeune homme du nord. Dans ses yeux aussi clairs qu'un lac gelé, elle vit un reflet d'elle-même qui lui était alors inconnu. Une seule pulsion inhabituelle suffit à ce que la jeune femme tourne le dos à son destin pour cet officier venu de loin. Elle coupa sa couronne de bois tachée de sang et l'abandonna sur la terre enneigée pour ce nouveau sentiment, cette folie qu'était l'amour. La traîtresse qui avait trahi son peuple échoua à accomplir son devoir. Elle fut capturée par un espion envoyé par le moine fou, et sur le point d'être ramenée sur la terre natale qu'elle aurait dû aimer. Mais en regardant l'officier gisant à ses pieds et la flaque écarlate sous son corps, elle plongea le poignard dans son cou. Ainsi, la jeune femme qui ne put porter l'héritière sacrée en elle fut enterrée en silence et à la va-vite. Sa mort retarda la réalisation de la prophétie. Heureusement, les dirigeants de chaque génération furent préparés depuis longtemps à la fin prématurée de la sainte bénie. Lovia, grande prêtresse à l'époque, se tourna vers une branche cadette de la lignée pour lui trouver une successeure. Mais les deux sœurs nées de cette lignée n'étaient pas à la hauteur de la sainte qu'elles étaient supposées remplacer. Cela signifiait qu'il faudrait peut-être attendre des siècles avant qu'une autre enfant assez pure voie le jour. La gloire qui était à sa portée lui échappa comme la rosée qui disparaissait après une nuit froide d'hiver. Folle d'angoisse, la grande prêtresse à la couronne de bois mit au point un plan terrible. Pourquoi attendre des générations ? Si elles n'étaient pas assez pures pour porter la radiance du véritable clair de lune, et s'il y avait une once de la bénédiction de la lune de givre tous les ███, alors pourquoi ne pas se servir des ███ pour purifier leur ███ ? Ainsi, la prêtresse commit un crime aussi impardonnable au nom du clair de lune immaculée, que la maîtresse de la lune de givre fut horrifiée par un tel blasphème."
-      },
-      "gobletOfEonothem": {
-        "name": "Gloire joyeuse de l'immaculée",
-        "description": "À l'époque où la lumière givrée s'était brisée comme un miroir d'argent et qu'une nouvelle lune ne s'était pas encore élevée, les descendants du grand nord ne pouvaient plus entendre l'enseignement divin des cieux. Ils furent consumés par une colère brûlante, comme par le passé. Personne ne savait comment forger à nouveau l'étrange objet que l'apôtre de la cité dorée avait révélé à leurs ancêtres. Cependant, les ambitions des exilés et celles des mortels étaient bien plus fermes que celles de divinités. Si le reliquaire qui pouvait labourer une grande surface de champs fertiles sur la mer de glace sombre et brumeuse en une nuit était perdu, il faudrait faire entrer les bisons dans les sillons pour conquérir la toundra par le feu, la houe et la faucille. Si la flèche capable de frapper les dieux et percer le faux ciel était perdue, il faudrait forger le soc de charrue en épée, la faucille et la houe en lance et en hallebarde pour que le sang soit la lanterne qui éclaire les ténèbres. Si le sceptre de la création, offert par le plus grand des anges, se cassait en deux, il faudrait se servir de moyens les plus grossiers et primitifs pour contrôler la reproduction chez des centaines de générations à travers la loi. Jusqu'à ce que le sang, clairsemé par la catastrophe et la fuite, soit purifié en une semence sacrée et que les descendants des mortels soient êtres parfaits à la naissance, en harmonie avec le monde. La persévérance et la détermination de tous les êtres vivants finirait par venir à bout de toutes les catastrophes, du moins ils en étaient fermement convaincus. Après tout, ceux qui avaient planifié l'avenir de leur peuple n'auraient jamais à souffrir de leur mépris. « Bois ce clair de lune pur, ma précieuse enfant, ma chérie ! » « Laisse le clair de lune devenir ta chair et ton sang, pour que tu deviennes digne de recevoir la grâce des dieux. » « Fais comme l'apôtre de la cité dorée qui ont bu du vin amer et qui s'est battu pour la liberté de ses êtres chers ! » « Comme eux, embrasse cette joyeuse douleur. Un jour, la perfection naîtra d'elle. » Les deux personnes ne pouvaient plus distinguer ce que le calice d'argent ancien contenait. Mais si la gentille grand-mère avait raison, c'était sûrement la volonté des dieux. Oui, tout était pour la perfection et la concrétisation d'un vœu qui a persisté pendant mille ans. Il fallait endurer la souillure et la souffrance pour l'Élysium de la prophétie et du roi destiné à arriver dans ce monde..."
-      },
-      "circletOfLogos": {
-        "name": "Sainte couronne de la croyante",
-        "description": "À l'époque où la lumière givrée s'était brisée comme un miroir d'argent et qu'une nouvelle lune ne s'était pas encore élevée, la bénédiction ancienne des dieux finit par s'éteindre comme une étincelle solitaire sur une vaste toundra. Alors que la lune vide disparaissait du ciel, la terre qui ne pouvait l'accueillir commença à se dessécher. Les exploits passés des faiseurs de miracles se transformèrent en prières vaporeuses, qui étaient désormais les inquiétudes silencieuses des gens. Dans une nuit putride sans lune, même une sainte au sang le plus pur ne pouvait tisser la lumière qui coule en un chant capable de faire bouger le monde, comme l'avaient fait autrefois ses ancêtres. Peu importe la ferveur avec laquelle les ancêtres du grand noir avaient autrefois juré de suivre leurs dieux déchus, leurs descendants, des mortels de la sphère sublunaire, vivaient des vies aussi éphémères d'une flamme qui vacille. Si, dans les temps anciens, on pouvait encore voir des saints et des prêtres invoquer la grâce des dieux, et si les gens croyaient encore que la nouvelle lune renaîtrait de la lumière brisée... Alors, lorsque la dernière once de grâce disparaîtrait et qu'il n'y aurait plus de miracles, la frontière entre la foi et les mensonges deviendrait aussi fine et fragile que la rosée du matin. La légende raconte que la couronne de bois que l'Émissaire de chantelune porte de nos jours était un cadeau de la lune de givre au moment de son extinction. L'arbre argenté fut brisé, ses branches blanches disparurent et les prêtres implorèrent une nouvelle couronne. Par pitié pour eux, la maîtresse de la lune leur fabriqua une couronne sainte avec la lumière immaculée de la lune. Ce fut pour cette raison même pour laquelle la dernière grande prêtresse choisit de forger sa couronne dans un fer froid et inflexible. La jeune Lovia n'était alors qu'une prêtresse et n'avait jamais vu la bénédiction de la lune et rêvait que ce mensonge réconfortant unisse encore les croyants infidèles. Ce ne fut que des décennies plus tard, lorsque la fausse couronne a sombré dans le sang ignoble et corrompu, qu'elle comprit enfin. Le reflet dans ses yeux n'était pas le clair de lune immaculé, mais la nuit glaciale complètement engloutie par sa propre ombre."
-      },
-      "setBonuses": {
-        "2pieces": "Augmente la recharge d'énergie de 20 %.",
-        "4pieces": "Infliger des DGT élémentaires accorde l'effet Lune étincelante « Dévotion » pendant 8 s : augmente la maîtrise élémentaire de tous les personnages de l'équipe de 60 pts ou de 120 pts lorsque la signelune de l'équipe est respectivement de type Lueur naissante ou ascendante. L'effet ci-dessus peut être déclenché même si le personnage équipé de l'artéfact n'est pas déployé. De plus, les DGT infligés par les réactions sélènes déclenchées par tous les personnages de l'équipe augmentent de 10 % pour chaque lune étincelante de type différent des personnages de l'équipe. Les bonus accordés par l'effet Lune étincelante ne se cumulent pas.",
-        "effects": [
-          "Energy Recharge",
-          "Elemental Mastery",
-          "Lunar Reaction DMG Increase",
-          "Lunar-Charged DMG Bonus",
-          "Lunar-Bloom DMG Bonus",
-          "Lunar-Crystallize DMG Bonus"
-        ]
-      },
-      "releaseVersion": "Luna I"
-    }
-  },
-  {
     "pageTitle": "Aubade of Morningstar and Moon",
     "releaseVersion": "Luna IV",
     "en": {
@@ -6724,6 +6532,117 @@
       },
       "releaseVersion": "Luna VII"
     }
+  },
+  {
+    "pageTitle": "Scarlet Proof",
+    "releaseVersion": "7.0",
+    "en": {
+      "name": "Scarlet Proof",
+      "obtaining": [
+        {
+          "rarity": 4,
+          "sources": [
+            {
+              "DOMAIN": "Inverted Glacier"
+            }
+          ]
+        },
+        {
+          "rarity": 5,
+          "sources": [
+            {
+              "DOMAIN": "Inverted Glacier"
+            }
+          ]
+        }
+      ],
+      "flowerOfLife": {
+        "name": "Honor to Your Devotion",
+        "description": "Miss Guillotin sits in Snezhnograd's central square, enjoying borscht outdoors and hot coffee spiked with liquor, just like a local. The coffee has barely been served before the frigid wind turns it cold, yet each sip still burns all the way from her throat to her stomach. Exceptionally perceptive as ever, Miss Guillotin immediately understands why the pointy-eared waiter recommended a double Fire-water. Getting from Fontaine to Snezhnaya takes Miss Guillotin no small amount of effort, with most of the journey spent crossing the snowfields. The weather is colder than she expects, though the roads themselves prove surprisingly manageable. It is this strange place that keeps slowing her down instead. She sees people leap bare-chested from trees over ten meters tall into snowdrifts, and children race across frozen lakes to see who can break through the ice and fall into the water first. Whoever suffers the worst luck wins, and is therefore the happiest of them all. She finds it even harder to understand than Alain's little stories about heroes slaying dragons. None of it seems to serve any purpose, yet everything feels wonderfully new. A few months earlier, she sat on a bench in the Court of Fontaine with a teacup in hand, watching through the damp, misty air as the building across the street was being renovated. She passed the time by pointing out flaws in the construction crew's work. Rather than taking offense, the man overseeing the project thanked her, leaving her with a favorable impression of him. She therefore allowed him to carry on with his unsolicited conversation. The man, who introduced himself as the president of some association branch, spoke in such a mild, measured tone that made her drowsy listening to him. Normally, it would have been a fine opportunity to rest. Unfortunately, since Alain's departure, she always had far too much time to sit idle and doze, and had grown accustomed to handling trivial matters unrelated to her research while only half awake. For instance, the Palais Mermonia granted her an enormous sum in compensation following the death of Duke Alain Guillotin. She had no intention of sitting on the Mora like some miser until she died of old age. For one thing, she obviously never would. Nor did she wish to become the subject of some horror story centuries later about a haunted doll lurking in a basement. She heard that the bank nearby offered some attractive investment plans, but a bank from a foreign nation seemed like a trap in and of itself. No matter how highly the branch president beside her praised the bank for its generous support, it was not enough to convince the ever-astute Miss Guillotin. Then there was the question of how bread could possibly be as bitter as black coffee, or how a drink could taste like bread. Alain had carefully equipped her with taste and thermal perception systems indistinguishable from a human's, so how was she supposed to test whether they could continue operating reliably under prolonged exposure to low temperatures? The overly friendly branch president continues to entertain her with tales of adventures in other nations, occasionally slipping in a compliment or two. He claims that even the most well-traveled adventurers would rarely encounter a lady of such insight, and that merely helping to correct flaws in a building's design is hardly a worthy use of her talents. And so, Miss Guillotin sets down her empty teacup and decides to go try the drink that tastes like bread. At a table amid the ice and snow, she met the Director of the Fatui. At the time, she was wondering just how old the Podvorye truly was as she watched a Volkodlak, clumsier even than Pulonia, struggle to keep an entire tray of overflowing glasses level. Against this precariously balanced backdrop, the masked man spoke to her of an ideal that sought to save the world. He said that a fate devoid of reason was a shackle meant to be broken, and that to destroy the old world was to save it. Fate and salvation were both familiar subjects to her, yet now they felt somewhat pointed. Oh, Alain... she thought. You gave me a free and exceptional soul, but did you ever wonder what I might choose to do with it? Then again, she immediately reflected, that was never Alain's question to answer. It was hers, a question she would have to confront in her own life. The hero who wielded the holy sword and the dragon he was meant to slay, whether it deserved to be slain or not, it was a story of the past. And yet, the world was still waiting to be saved. Not long after, she came to be known as Marionette, or Sandrone, and took on the responsibilities that came with the name. In her spare moments, she returned to that familiar seat and gazed across at the Adventurers' Guild window. Behind it stood a receptionist named Katheryne, poised and graceful, seemingly untouched by even the fiercest winter winds and snow. Someone pinned a theater program to the nearby noticeboard, followed by a Fatui recruitment poster. The latter bore a scarlet flower, brighter than the actresses' skirts. It was a medal promised to those who would devote themselves to the cause. Ever since Sandrone learned of the Adventurers' Guild's deeper purpose in Snezhnaya, none of this strikes her as unusual. The Fatui's grand ideal is a voracious beast, and both talent and intelligence are vital to its nourishment. Sometimes, she feels as though she too is part of it."
+      },
+      "plumeOfDeath": {
+        "name": "Glory to Your Legacy",
+        "description": "In theory, aside from the Belyi Tsar who accepted divine authority bestowed from on high, no other fae bears any responsibility to care for humans. Evidently, however, that has never stopped some among them from longing for human life. As though roaming freely across the tundra offered them no pleasure, and only bundling up in heavy coats and struggling to kindle a fire were truly worth enjoying. In truth, Mirko was indeed one of those who chose to enter the human world. But he would never claim to love or admire humanity. He would only say that it was a remarkably farsighted decision. He was fond of observing the world and drawing conclusions from what he saw. For instance, examining a group member by member could be a complicated affair, but generally speaking, they could be divided into three categories: the youngest, the oldest, and the hopeless lot in between. Young fae, or young creatures of any other kind, tend to be very adaptable. They are often molded by their surroundings, then call it discovering themselves and finding purpose. Full of youthful fervor, they enlist in the military or devote themselves to research, doing their part to magnify the glory of Her Majesty the Tsaritsa. Once they pass an absurdly high threshold of age, however, they tend to adopt a different sort of noncommittal, go-with-the-flow attitude. When the Tsaritsa ascended the throne, for example, one of the first letters of congratulations she received came from the uninhabited reaches of the far north. Had it not borne the name of one of the princes, one might well have wondered whether its sender was still among the living. As for those in between, perhaps they refused to believe that His Majesty had truly perished in the calamity, or perhaps they could not accept that the crown had passed beyond the hands of their own kind. Either way, their stubborn fury did manage to blaze rather fiercely, if only for a little while. Mocking one's own kin would generally be condemned as despicable, but Mirko simply could not help himself. There was little point denying it. After all, among the qualities by which politicians are judged, despicable is a remarkably mild one. Combine it with foresight, and it instead becomes the virtue known as knowing which way the wind is blowing. After giving it some thought, Mirko decided to apply to join the Fatui. In fact, he would be disappointed if the Tsaritsa failed to see through his intentions. Assuming, for the moment, that the witch still counted as human, this organization of self-proclaimed fools had yet to make room for a fae. Mirko had no intention of dressing up his motives as a struggle for the rights of all fae. He merely reasoned that, if a new world was soon to be born, he had no wish to find that it held no place for him. The Fatui's response to his application was rather concise. \"Mr. Mirko Radovidovich Veleshek,\" he read, \"Please report to the Mayor.\" Mayor Ioanna Ivanovna also served as Speaker of the Snezhnograd Veche, and different observers naturally drew different conclusions from the arrangement. To outsiders, compelling a fae to bow his head and become the pupil of a human was Her Majesty's warning to the old order. As for \"The Rooster,\" his willingness to endure such an indignity for a seat among the Fatui could be taken as either naked ambition or an admirable ability to swallow his pride. A far-sighted politician wouldn't rush to deny these interpretation. Ambition he certainly had, as evidenced by Speaker Ivanovna's high opinion of him making him a likely successor to her position. Indignities, meanwhile, he had suffered in no small measure. Ioanna Ivanovna was exceptionally skilled at weaving elaborate conspiracies while erasing every trace of her own involvement, and Pulcinella, perhaps on account of his short legs, initially struggled to keep up the pace. All things considered, Pulcinella had learned all manner of things from humans, useful and otherwise: loyalty and the sowing of discord, strategic mastery and the appearance of it, a foul temper and how best to conceal it. Thus was he able to preside calmly over the Veche while wishing he could drive a spear straight through Pantalone's calf. Admittedly, he had been outmaneuvered when it came to lobbying the Adventurers' Guild. That was only to be expected when most of his own work was confined to Snezhnaya. Just you wait, he thought. That grinning madman might be the Guild's nominal president, but Pulcinella would not allow all its wealth and influence to fall into his hands. Humans had also left their mark on some of the Domovoy gentleman's habits. After Ioanna Ivanovna's death, Pulcinella found himself considering who might one day succeed him. The thought was rather absurd, since with sufficient caution, he could probably live until the end of time. Perhaps one day he would grow weary of it all, weary of devising new ways to deal with his oddly assorted colleagues. Yet the ideal the Tsaritsa had once laid before them aligned with the greater vision he held in his own heart. He would have to endure at least until the day that ideal was fulfilled, would he not? Of course, putting the matter of a successor out of his mind did not prevent Pulcinella from taking notice of a certain young man many years later. Ajax plainly lacked every quality required of a politician. For one thing, he had already chosen his master and had no desire to become anyone else's pupil. And if someone had to guide him, The Captain was clearly far better suited to the role. And so, just as Ioanna Ivanovna had once watched him, Pulcinella watched \"Childe\" grow. After one morning meeting, he discreetly broached the subject with Capitano, who was preparing to depart for Natlan. The very next day, Pulcinella spotted Tartaglia's beaming smile from afar. \"Look! I just went to see The Captain off, and he gave me this...\" Pulcinella recognized the object in the box at once. It was one of the quill pens issued to soldiers during the Fatui's earliest recruitment. Its color had not faded even after several centuries, proof that it had been carefully preserved all this time. Pulcinella nodded with a kindly smile. Like the future, passed onward from one hand to the next, this too was part of his foresight."
+      },
+      "sandsOfEon": {
+        "name": "Time Gifted Unto You",
+        "description": "Almost as soon as recruitment posters began appearing on noticeboards across Snezhnaya, Pulcinella had several quiet, comfortable rooms prepared for use as counseling rooms. \"Counseling rooms\" was what they call them internally. To everyone else, they were usually known as \"meeting rooms\" or simply \"the little rooms,\" as though needing counseling were some shameful affliction best kept hidden. Then there was \"the dark room,\" a nickname of uncertain origin that Capitano categorically rejected. At first, the Fatui trained properly qualified counselors to deal with all manners of problems. In practice, however, many soldiers were reluctant to open up to strangers. They preferred to turn to someone they trusted and, somewhere they would not be disturbed, speak of things they didn't want brought into the light. Or simply break down and cry. So the considerate Pulcinella relaxed the rules to some degree. Once a booking was approved, anyone could spend a few hours inside talking with a companion of their choice. The Harbingers were naturally no exception. Capitano once saw Lohefalter coming out from one of the rooms, dabbing at her face with a powder puff, with Pulcinella close behind, holding up her handbag. He had no intention of prying into a lady's private affairs, and the Mayor was a man who knew how to keep a secret. Neither of them ever mentioned it again. On another occasion, Capitano saw Dottore and Pantalone leaving that floor together late one evening, both grinning from ear to ear. As expected, Pulcinella soon gave them a furious scolding (\"Those two could talk anywhere they wanted to! Did they really have to take up a shared facility?!\"). He then announced that measures would be taken to put a stop to such behavior (\"Tell whoever's in charge to reject those bastards' applications outright next time!\"). Unfortunately, neither of them ever booked a counseling room again. With no chance to deliver the punishment he had prepared, Pulcinella was left to stew in frustration all over again. Capitano didn't know what to say, either. Later, he bought Pulcinella a bottle of good wine, though he never asked whether he ever opened it. When it came to private lives, Capitano was practically invisible. Whether he was present or not made little difference to others' casual chatter, unless the conversation became too outrageous. Everyone agreed that The Captain would never tell on anyone. At times, he felt like a walking counseling room, silently taking in every whispered secret. The chatter didn't bother him. After all his years of training, his own heart could sometimes be louder than any of his colleagues. Sitting in the counseling room, he felt as though he were a little room enclosed within another, and then another still... until his soul was squeezed into the very center, hemmed in from above and below, front and back, left and right. The meeting room was small, with heavy curtains drawn across the windows. This was not because Pulcinella had been stingy, but because of a theory that people found it easier to trust one another in close, warm surroundings. Capitano had no idea where the theory came from. After giving it some thought, he removed his helmet and gently set it aside. At the time, his face was not yet so horrific. It looked merely marked by more scars than most, wounds that stubbornly refused to heal, and in the dim light, the sight was not quite horrifying. The man who invited him to talk was a former student of his who had joined a special operations unit after completing his training. Capitano knew what happened to the man's squad and therefore had some idea of what he wished to talk about. They were sent to a remote region to quell a disturbance. It should have been a relatively straightforward mission, yet every survivor who returned was left deeply shaken. In the end, with no other options remaining, they were forced to call in Dottore. Only then was the situation finally brought under control. Capitano was present at the time and, feeling responsible for the men, asked, \"What did you give them?\" \"This?\" Dottore produced another unopened glass vial on the spot and generously handed it to him. \"A potent sedative.\" The vial was still in his pocket. Hopefully, he would have no need for it today. The soldier across from him looked utterly exhausted. With his only remaining hand, he opened his pocket watch, closed it, then opened it again, as though checking that time was still passing. \"I know many still don't believe it, but I swear, everything in the report is true,\" the soldier said with a bitter smile. \"Those people never even heard of Her Majesty the Tsaritsa. They thought it's still the age of the Belyi Tsar. At first, they called us lackeys of the fae and four-eyed monsters. They threw water over us, claiming they would wash away our sins of apostasy and our false faith...\" \"Yeah, that was how absurd it all seemed at first! They didn't even have any proper weapons. Someone beside me were even laughing. Our squad leader approached them slowly and tried to reason with them. He told them that now is the age of humanity, that we no longer needed to...\" \"And then... then...\" Capitano read the report. It consisted of accounts recorded after the survivors regained consciousness, followed by several notes Dottore had added after examining them. The locals had long been suffering from a virus-induced form of mass hysteria brought on by cannibalism. That, at least, was how Dottore had summarized it. The soldiers sent to suppress the unrest developed the same symptoms after coming into contact with the contaminated water. Their infections were less severe, however, and they could still be saved. Dottore later produced a new course of treatment. As he stood with his hands clasped behind his back, observing its effects, he looked almost like a real doctor. Perfectly reasonable. The doctor adjusted his glasses. The way he narrowed his eyes made him look strangely like someone else. They lived in a place so isolated and inhospitable that one could hardly expect them to have anything else to eat. Capitano sighed. He had no desire to waste time arguing with reasoning so cold, yet so correct. But whose throat had been torn open? Whose arm had ended up in whose stomach? Was that really something the word \"reasonable\" could explain? \"Never mind.\" The soldier abruptly broke off, pulling Capitano from his memories as well. \"The counselor told me that if I could one day recount everything that happened without getting upset, it would mean I was recovering. What a load of bullocks... Forgive me.\" He immediately lowered his head in apology, then glanced at his pocket watch again. \"I only booked an hour. I don't want to take up too much of your time. The truth is... I came to say goodbye.\" After the soldier left, Capitano looked over the things he had left behind: a red flower medal, a quill and a bottle of liquor he had carried with him, a patched helmet that looked almost new, and a pocket watch that might have been left deliberately or simply forgotten. Capitano suspected that they weren't all belonged to the same person. They merely happened to be reunited here. \"I'd like you to keep these, my lord,\" the soldier, having already decided to retire, said. \"Or you could pass them on to those who come after me. I hope they'll be luckier than we were. Or perhaps... a little stronger.\" You shouldn't think that way, Capitano thought, though he never spoke the words aloud. In fact, those who can survive are already strong enough."
+      },
+      "gobletOfEonothem": {
+        "name": "Chalice of Your Blood and Sorrow",
+        "description": "On the first night, he stood with his hands behind his back in a birch forest swept by biting winds. Flecks of snow clinging to his glasses were slightly more of a nuisance than those landing on his face, so he took them off and slipped them into his coat pocket. Contrary to what others might have thought, Zandik understood humans very well. First, the typical human being has two hundred and six bones. Most use their brains to think and usually feel fear when startled or threatened. Second, to be precise, he carefully included qualifiers such as \"complete,\" \"most,\" and \"usually\" in his description, thereby avoiding any potential objections based on individual outliers. Ultimately, his deepest understanding of humanity lay in knowing that its possibilities were limitless. On the second night, he sat beside a feeble campfire, sharing a meal of plants mixed with scraps of animal flesh with several villagers. A black-haired woman with a deeply lined face prodded at the firewood, trying to coax the flames higher. Zandik was certain she had no idea why doing so made the flames suddenly leap higher. She did it only because those before her had done the same and got the result they wanted, and so this unwritten method had been passed down from generation to generation. Zandik further concluded that she must be younger than her appearance suggested, and that the same was true of the others. Harsh living conditions invariably caused premature aging and bred resentment. This time, their resentment was directed at the cold, hunger, the fae, the higher-ranking fae, and the debased humans who submitted to them. Zandik had already been warned that this place held an exceedingly antiquated view of the world, which spared him the step of being surprised. Curiously, neither illness nor death figured among the villagers' grievances. Perhaps people instinctively struggled for as long as they lived, whereas in death, they spared everyone the trouble. Under such circumstances, a stranger appearing out of nowhere would naturally be perceived as a threat and frighten the locals. Fortunately, well-versed in human nature, Zandik came prepared: the animal scraps were his contribution. What a perfect place. Ice and snow sealed away all outside interference, forming a world within a world, each enclosed in its own shell. Human behavior remained primitive, while history itself had ground to a halt. This place should have given rise to even more possibilities. And when Zandik spoke of humanity's possibilities, he by no means intended the word as praise. Setting aside its connections to the outside world, a human brain placed in a water tank is no different from one housed within a skull. So long as the appropriate signals can be simulated, it will produce the predetermined response. As Dottore poured the experimental materials into the tank, a child's voice came up nearby. He asked, \"Is that a butterfly on your bottle?\" This child must be very curious to venture out on a night cold enough to freeze a person to death just to watch him conduct his experiment. If he had been a little more curious and ventured a little farther, beyond the birch forest, perhaps he could have gone on to live a much better life. To reward the child's curiosity, Dottore tossed him the empty bottle and said, \"That isn't a butterfly. It's a four-eyed monster!\" The child took a frightened step back, and the bright red bottle fell into the snow. The boy's fear was entirely as expected, so Dottore quickly lost interest and went back to what he had been doing. On the tenth night, the food and water in his pack had noticeably dwindled, replaced by detailed records of his psychotropic drug trials. The results were exactly as he anticipated, drug-induced mental control could work in either direction. Stimulation and sedation each had their uses, and whether applied to interrogation or therapy, both appeared to offer considerable profit potential. The experiments yielded fantastic results, but that also meant Zandik's time as himself was drawing to a close. Soon, he would return to the castle of Fatuus, become Dottore once more, and attend to matters of a somewhat more humane nature. \"So far away,\" he thought with regret as he gazed in the direction of Snezhnograd. If only he could perform surgery on his own brain, then he could sit back and travel in comfort like everyone else."
+      },
+      "circletOfLogos": {
+        "name": "Testament to Your Faith",
+        "description": "Pantalone sits in the theater like a statue, with only his index finger showing any sign of life as it occasionally taps along to the music. Today's performance features neither a celebrated artist nor a renowned play, and plenty of seats below remain empty. Still, he comes and he sits alone. His doctor prefers him to spend his leisure time in public, where he has no opportunity to engage in anything detrimental to his health. Besides, in the private box reserved for the Fatui, he is unlikely to be attacked by anyone other than his colleagues. All things considered, it's nearly the best place he could be. The performers onstage sing of love and acceptance, but heartwarming tales rarely find much favor with audiences here. Not that the people of Snezhnaya dislike happy endings. Rather, before such an ending can be earned, the characters must endure trial after trial, giving voice to all that lies pent up in the hearts of those who inhabit these frozen lands. You must shatter the shackles of a decaying world and struggle onward, through forests and cold wind, before you can hope to glimpse the rooftops of a warmer world from afar. But that is not the end. This seemingly warm world is no home of yours, either. If you have no value and can do nothing but beg for compassion never meant for you, nothing will change. Even so, there is no turning back. That is the lesson he has learned: once the shackles seize you again, the chains only tighten. To break free a second time, all you can do is wait for an opening, even if it may lead you somewhere worse. He once touched on the subject in casual conversation. His birthplace sought to tame those who refused to comply through violence and confinement, while his friend's homeland chose exile instead. Even the same narrow-minded thinking could take different forms and give rise to different possibilities. At that, they both laughed, as though each took pleasure in the other's suffering. For the first twenty years of his life, happiness came only in fleeting moments, such as the day his mother sold him to debt collectors, or those times when he made a fortune off powerful officials and nobles and mistakenly believed he might have a chance to join their ranks. Make no mistake: he wasn't pleased with the price he fetched, nor with the fortune he made later. Rather, somewhere in his subconscious, he sensed his potential to appreciate in value (After all, how many people get sold twice in one lifetime? Ha). That woman finally found the chance to rid herself of the disobedient freak, but in doing so, she also gave him the chance to escape that frozen wasteland, a place even wild beasts wanted nothing to do with. From the makeshift life of his \"foster father,\" he learned money could be made to multiply. The nobles in league with the criminal underworld lured him into a trap with the illusion of profit, but at the bottom of that trap lay a path to powers greater than the nobility themselves. And since every one of these bizarre turns of fortune came only after he stopped praying to the heavens, he began to question the established rules of this world all the more. It was only after he abandoned his reverence for the gods and cast his lot with the world's outcasts that he became eligible to be recruited by those very gods. Whether audiences would condemn such a horror story is anyone’s guess. Fortunately, he has no intention of sharing it. As the final song of the performance rings out, someone pushes open the door without warning. Only one person would be inconsiderate enough to interrupt someone enjoying the ending. If the newest Harbinger were here, the ensuing barrage of curses would make the disturbance twice as bad. Speaking of his new colleague, Pantalone finds her very interesting. She begins voicing her displeasure with every manner of procedure the moment she arrives, perfectly embodying the rebellious spirit expected of a Harbinger. Pulcinella's attempt to use her to secure a share of the Adventurers' Guild's profits has plainly failed. The girl would never heed the honeyed words of that hypocritical politician. Besides, her creations have taken on the burden of all that tedious reception work. Though he cannot appear too willing, Pantalone has nevertheless ceded to Sandrone the share that is rightfully hers, and done so in complete sincerity. It is only fair exchange, a principle he fully approves. Pantalone has spent much of the performance lost in thought, so naturally, he has little interest in its ending. He rises and turns to Dottore, who has evidently only just returned to Snezhnograd, and reads from his expression that all has gone smoothly. Some time ago, Dottore proposed a new idea for an experiment, and Pantalone happened to know the perfect place for it. This, too, is part of a fair exchange, and he fully approves."
+      },
+      "setBonuses": {
+        "2pieces": "ATK increased by 18%.",
+        "4pieces": "Increases the equipping character's CRIT Rate by 16%, and their Stellar Swirl reaction dealt by 40%, for 10s after they trigger a Stellar Swirl reaction.",
+        "effects": [
+          "ATK",
+          "CRIT Rate",
+          "Stellar Swirl DMG Bonus"
+        ]
+      },
+      "releaseVersion": "7.0"
+    },
+    "fr": null
+  },
+  {
+    "pageTitle": "Heart of the Furnace",
+    "releaseVersion": "7.0",
+    "en": {
+      "name": "Heart of the Furnace",
+      "obtaining": [
+        {
+          "rarity": 4,
+          "sources": [
+            {
+              "DOMAIN": "Inverted Glacier"
+            }
+          ]
+        },
+        {
+          "rarity": 5,
+          "sources": [
+            {
+              "DOMAIN": "Inverted Glacier"
+            }
+          ]
+        }
+      ],
+      "flowerOfLife": {
+        "name": "Foundryman's Conjecture",
+        "description": "At that time, the pale emperor of the land of ice and snow had yet to be consumed by the black torrent. That distant day still lay far beyond the horizon. The young Domovoy, born in Kitezhgrad, knew nothing of the fate that awaited him. He departed the snowbound old capital aboard a beast-drawn sled that crossed the frozen land. He looked back toward his hometown beneath the winged peaks. The fleeting glimpse he caught between the cargo crates, as the sled carried him ever farther away, would be the last time he ever saw it. He carried a letter of recommendation bearing the signature of one of the most eminent among the Domovoy. With it, he passed through the gates of the ever-burning furnace core. The colossal machinery roared without pause. Its thunderous rhythm carried waves of heat that beat endlessly against his ears. Yet he felt neither awe nor fear. Excitement overwhelmed every other emotion. He knew the opportunity before him was extraordinary. It might well be the only chance in his life to change his destiny. By the Grand Dukes' benevolent decrees, the humans favored by the Crown were never expected to shoulder arduous labor. Nor could humans ever possess the strength of the fae folk, who could lift massive stones with ease. Neither could they match their deftness in every task. The young Domovoy seemed the perfect proof of those beliefs. His hearing was so keen that the sound of the furnace core alone told him where maintenance was needed. His movements were so nimble that he could race through the narrow iron conduits without breaking stride. As for regulating the city's energy supply, and mastering the workings of Kresnik Kristall... Those talents had earned him both recognition and recommendation in the first place. Perhaps, in time, he would become a supervisor. Once he had gained sufficient experience, he might even aspire to the office of the President, the one who oversaw the operation of the torches. Then, one night, everything changed. It happened at a private banquet hosted by the Domovoy Grand Duke. The elderly master of mining and energy gave him a command: \"A greater undertaking requires your service, Izmaylov. I need you to join a project of the utmost secrecy.\" \"I have watched you for a long time. Your talents reach far beyond this work. I need you to observe everyone... Every move they make.\""
+      },
+      "plumeOfDeath": {
+        "name": "Foundryman's Observation",
+        "description": "He had once heard rumors of a silver-haired young woman who appeared behind the palace curtains. Such stories were often exchanged beside the hearth. The young Domovoy first believed she was nothing more than an orphan the Tsar had raised within the palace. To him, she was a symbol of the Sovereign of the Pale Stars' mercy, displayed for the humans who knelt beneath the wind and snow. After joining the research institute known as Hvergelmir, he quickly realized how terribly mistaken he had been. Later, deep within the palace where white birches would come to grow, those who pursued forbidden knowledge salvaged relics from the world of shadows. They dismantled and studied every remnant of the golden age. They searched for every path. They sought every possibility that might yet save the world. Time and again, the young Domovoy would scarcely voice an idea before the silver-haired scholar responded. It was as though she had been waiting for him to speak. Before he could fully develop his thoughts, she had already prepared the guidance he needed. She praised gifts he had yet to discover within himself. She soothed his unease. She even understood the duty that compelled him to report everything to the Domovoy Grand Duke. When he first accompanied her into the world of shadows, he felt none of the excitement he had once known upon entering the heart of the furnace. That world lay beyond all reason. It nearly drove him to despair. Yet on that very day, she placed a pen in his hand. In that moment, every peaceful future he had once imagined for himself as a Domovoy slipped beyond his reach. He buried his fear beneath fervor. He became like a train racing headlong into an unknown land. He added his own stroke to the birth of the twisted painting. He drafted a small corner of the blueprint for the world within the egg. He dreamed the dreams of others within his own sleep. He drank deeply from the bitter sea, as though entranced. Yet on the eve of the dream's completion, before the vision born from nothingness could finally take shape, the sovereign of ice and snow fell amid a tide that swept away all things. With that, the research lost its purpose. A new monarch turned her cold gaze upon every corner of the frozen land. Those who had trespassed upon forbidden knowledge had lost their protector. It was impossible that they should receive her mercy. He should have sought another path for the silver-haired girl. Instead, the only news that reached him was the strange report of her death within the world of shadows..."
+      },
+      "sandsOfEon": {
+        "name": "Foundryman's Calculus",
+        "description": "Before a great power can gather and be born anew, it must first be divided into three. The young Domovoy understood this well. He also knew he had no right to lay claim to such power. The lady who could shape wind and snow with empty hands departed, carrying the heart with her. From that day onward, nothing concerned her but her own kin. The somber alchemist turned to the pursuit of eternal life. He began a long vigil, waiting for the reunion he believed would one day come. And what of the Domovoy Grand Duke who announced the silver-haired girl's death? Being a Domovoy himself, he immediately recognized the falsehood hidden within the Grand Duke's words. The young Domovoy had once obeyed his commands. On that day, however, he made his choice. With flawless courtesy, he declined the Grand Duke's invitation. Even as he spoke, his mind raced ahead. He refused to believe that the silver-haired scholar he called his teacher had truly perished within the world of shadows. He swore to cross that once-dreaded realm again and again. He would return countless times to the realm he had once feared. He would continue until both his strength and his life were spent, or until he found her cold and silent body. Whatever it might cost him, and whatever sacrifices it might demand... He would find a way to make everything hidden within the palace archives his own. News of Kitezhgrad's destruction by the dark tide had once filled him with grief. In that very instant, however, sorrow gave way to elation. He had found a chance to step beyond the game board. The Lord of Kitezhgrad, the Domovoy Grand Duke who governed the mines, would inevitably be consumed by the task of building the new capital. Hurry, hurry! He had to stand before the new sovereign upon the throne before anyone else could. Through the intercession of a fellow Domovoy in the Tsaritsa's service, he was finally granted an audience. What price he paid during that audience is known only to the handful who stood within the chamber. Thus, when Grand Duke Alvis returned from Novokitezhgrad, he discovered that the Energy Commission already had a new master. \"You have always been cautious. Her Majesty the Tsaritsa has been merciless toward the faes who once held true power in the old court...\" \"That is why you needed the construction of Novokitezhgrad to serve as the cornerstone of your standing in the new regime.\" \"But I... Izmaylov. Ordinary. Insignificant. A pitiful kinsman, looked down upon by you...\" \"To uncover what your lies have buried, I have never needed the luxury of such restraint.\""
+      },
+      "gobletOfEonothem": {
+        "name": "Foundryman's Magnanimity",
+        "description": "It is well known that the President of the Royal Energy Commission and Grand Duke Alvis were both Domovoy. Yet at every council session, they stood in fierce opposition, as though they were sworn enemies locked in an endless feud. Some claimed it was merely an elaborate performance between two members of the same race. Only those involved knew the truth. Behind every cordial toast lurked unseen blades; their malice was sweeter than honeyed wine, and far more deadly. After the railway across the frozen plains was completed, preparations began for the organization that would oversee its operation. Who should lead it? Who should command the trains that ran throughout the realm? The Domovoy Grand Duke believed only a fae of noble birth could bear such responsibility. Such a figure would command the respect of all. However, the Domovoy President had already learned the Tsaritsa's wishes. Every name on his list of nominees belonged to a human. Everyone expected another prolonged deadlock. They expected yet another struggle fought in the shadows. Instead, the Grand Duke suddenly took a step back. He relinquished his right to recommend the Director of the Transport Bureau. The reason soon became clear. At the time, the descendants of the purged old nobility had raised the banner of rebellion amid soot and ash. The Vila raiders known as the Burner of Cities used the railway to roam the frozen plains like a shadow. The Domovoy Grand Duke was himself one of the old nobility. His caution prevented him from acting openly. Instead, he waited in the shadows. He believed Izmaylov lacked the means to quell the uprising. When the opportunity came, he would intervene himself. He would cast down his detestable rival once and for all. By then, even the sovereign upon the icy throne would have no grounds to object. Yet the arrogant Grand Duke was proven wrong once again. The young Domovoy, far his junior in years, forged weapons for the heroes of Luchkins. Together, they crushed the Burner of Cities' scheme before it could ever take shape. Beneath torches that burned with the brilliance of bearfire, the leader of the heroes and the rebel were consumed by the same flames. The modest renown they had earned among the people was gathered into the young President's hands. There, within the narrow alleyways, he and the surviving heroes swore an oath. Thus was the High Table established. Amid soot and rust, all would henceforth live by the Law."
+      },
+      "circletOfLogos": {
+        "name": "Foundryman's Legacy",
+        "description": "Those were the years when all that had come before began to fade into the distant past. Memories grew dim. Their colors slowly bleached away. The great trees that had taken root in the Snowgrave had, unnoticed, grown into canopies that blotted out the sky. The fae folk were blessed with long lives. Even so, his countless journeys through the world of shadows exacted a heavy toll. At last, he saw her again. She was the girl he had brought back. She had escaped her prison within the world of shadows. The Shadow Realm had spared her from the ravages of time. He, however, had grown white-haired and frail with age. She asked him about everything she had missed while lost within the world of shadows. Just as she had once guided him, he had prepared every answer. When their conversation came to an end, he pushed himself up from his reclining chair. The aged Domovoy gently withdrew from the arm that supported him. Then, just as he had done in his days as an apprentice, he removed his hat and bowed. \"My honored one, my teacher, Aksinya. I have been fortunate beyond measure to see that your face remains unchanged.\" \"I was never more than an ordinary Domovoy. I never possessed the brilliance needed to avenge you, nor to carry on your will.\" \"The only thing I could do was to keep believing through these five hundred years. To believe that you, too, would never abandon either your dream or your life.\" \"Now, my greatest wish in this world has been fulfilled. My teacher, this is the last thing I can do for you.\" \"The only great aspiration of an otherwise unremarkable life has at last been realized.\" \"Now, I return the pen you once placed in my hand.\" \"I cast everything aside. I gave everything I had. I believe I have spent an entire lifetime repaying the brief dream you bestowed upon me.\" \"From this day on, neither of us owes the other anything. Go now, my honored one. My teacher. My...\" \"...Aksinya.\""
+      },
+      "setBonuses": {
+        "2pieces": "ATK increased by 18%.",
+        "4pieces": "Increases the equipping character's ATK by 12% for 12s when they trigger a Stellar Glimmer reaction or deal Stellar Glimmer reaction DMG. Also increases Stellar Glimmer reaction DMG dealt by all nearby party members by 50%. The above effects can trigger even when the equipping character is not on the field, and the DMG bonus from multiple Artifact Sets with the same name do not stack.",
+        "effects": [
+          "ATK",
+          "Stellar Glimmer Reaction DMG Increase"
+        ]
+      },
+      "releaseVersion": "7.0"
+    },
+    "fr": null
   },
   {
     "pageTitle": "Traveling Doctor",
@@ -7981,7 +7900,7 @@
       },
       "setBonuses": {
         "2pieces": "Anemo DMG Bonus +15%",
-        "4pieces": "Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.",
+        "4pieces": "Increases Swirl Reaction DMG dealt by 60%, and Stellar Swirl reaction DMG dealt by 20%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s. Upon triggering a Stellar Swirl in the opponent, will also decrease their Cryo RES by 40%. RES debuffs of the same elemental type do not stack.",
         "effects": [
           "Elemental DMG Bonus",
           "Anemo DMG Bonus",
@@ -7991,7 +7910,8 @@
           "Cryo RES Reduction",
           "Electro RES Reduction",
           "Hydro RES Reduction",
-          "Pyro RES Reduction"
+          "Pyro RES Reduction",
+          "Stellar Swirl DMG Bonus"
         ]
       },
       "releaseVersion": "1.0"
@@ -8041,7 +7961,7 @@
       },
       "setBonuses": {
         "2pieces": "Confère un bonus de DGT Anémo de 15 %.",
-        "4pieces": "Augmente les DGT infligés par Dispersion de 60 % ; la RÉS élémentaire des ennemis diminue de 40 % pendant 10 s selon le type élémentaire de Dispersion.",
+        "4pieces": "Augmente les DGT infligés par les réactions de Dispersion de 60 % et ceux des réactions d'Astrodispersion de 20 %, et diminue la RÉS de l'élément dispersé correspondant des ennemis de 40 % pendant 10 s. De plus, déclencher une réaction d'Astrodispersion sur un ennemi diminue également sa RÉS Cryo de 40 %, les diminutions de RÉS du même type élémentaire ne se cumulant pas.",
         "effects": [
           "Elemental DMG Bonus",
           "Anemo DMG Bonus",
@@ -8051,7 +7971,8 @@
           "Cryo RES Reduction",
           "Electro RES Reduction",
           "Hydro RES Reduction",
-          "Pyro RES Reduction"
+          "Pyro RES Reduction",
+          "Stellar Swirl DMG Bonus"
         ]
       },
       "releaseVersion": "1.0"
@@ -8301,6 +8222,128 @@
         ]
       },
       "releaseVersion": "1.5"
+    }
+  },
+  {
+    "pageTitle": "Shimenawa's Reminiscence",
+    "releaseVersion": "2.0",
+    "en": {
+      "name": "Shimenawa's Reminiscence",
+      "obtaining": [
+        {
+          "rarity": 4,
+          "sources": [
+            {
+              "DOMAIN": "Momiji-Dyed Court"
+            }
+          ]
+        },
+        {
+          "rarity": 5,
+          "sources": [
+            {
+              "DOMAIN": "Momiji-Dyed Court"
+            },
+            {
+              "STRONGBOX": "Artifact Strongbox: Shimenawa's Reminiscence"
+            }
+          ]
+        }
+      ],
+      "flowerOfLife": {
+        "name": "Entangling Bloom",
+        "description": "An crafted using an art known as . It is said to have the power to bind wishes and the reasons for those wishes within itself. Once, I learned how to manage the affairs of the shrine under the tutelage of a mighty kitsune. Back then, I was just a young shrine maiden who had just arrived on Narukami from a small fishing village. I was duller than a teapot and had yet to lose the obstinate impulsiveness and curiosity of a child, I was always naively skeptical of the elegant but incomprehensible words of Lady Saiguu. \"Everything in the world is entangled. Hence, illusory visions were born out of concrete reality.\" \"The so-called omamori cannot make one's wishes come true at all, but they can make them eternal through this entanglement.\" Seeing my befuddled expression, a picture of complete confusion, Lady Kitsune couldn't help bursting into laughter, She cheerfully knocked my head with her pipe and sneakily changed the subject. \"I suppose you've met your fated one as well, Hibiki?\" \"What sort of 'fate' could there be with a rude and reckless brute like that!\" \"Oh, is that so? But darkness engulfed everything in the end. That \"fate,\" too, was no more."
+      },
+      "plumeOfDeath": {
+        "name": "Shaft of Remembrance",
+        "description": "A demon-slaying arrow used by the shrine for prayers and to drive away catastrophes, It is said to be capable of pursuing and destroying all demons. People often say that demon-slaying arrows can drive away evil, but evil is never an objective thing. Evil often stems from within our hearts, born out of delirious minds that have turned cold and ashen from terror. Lady Saiguu has been gone for a long time now, and I am no longer that young shrine maiden training at the Grand Narukami Shrine. Whenever I hold that empty smoking pipe, I can feel that emptiness and dull pain hover over me like a phantom. Having someone worth missing, losing someone whom I cannot help missing... And time keeps moving like a spinning wheel. Silent and tranquil, the Lady Kitsune's white form hidden in the deep darkness left a deep impression in the shrine maiden's dreams. The Great Tengu went into self-imposed exile, enraged at her own incompetence as the Lady Saiguu's protector, leaving Teruyo behind. Harunosuke left for another country amid the fury of his mourning, while Nagamasa joined the Shogunate to clear the Mikoshi name. As for the man who taught me archery in the sacred forest and patiently listened to my naïve promise under the scarlet sakura boughs, He will eventually return to me, even if he were to be blinded by splattered blood, or turned into a fierce beast by that dark defilement... I shall save him with our bow and arrows, to keep our promise, which ever veers towards breaking. I shall destroy evil with our bow and arrows, exorcising folly and needless obsession. \"Come see me, you idiotic problem gambler.\" \"And don't lose your way this time, Konbumaru.\" Still, who won the last throw of the dice... She touched the bow lightly while pondering such unimportant things."
+      },
+      "sandsOfEon": {
+        "name": "Morning Dew's Moment",
+        "description": "An elegant watch adorned with a shrine bell. The hands always point towards the wee hours of the morning. As the sky brightens, morning dew condenses and then disappears. As beautiful as this colorful scenery may be, it is still short-lived. I once enjoyed the chirping of cicadas and the moonlight with Lady Saiguu on a slope in the middle of an autumn night. Back then, I was just a shrine maiden from the country, young and stubborn. Like a chirping finch, noisily insisting on my own view. A faint smile that crossed the mouth of Lady Kitsune fascinated me, but her words were — and remain — incomprehensible: \"Trying to hold on to a moment's beauty is like foolishly trying to grasp the morning dew.\" \"Like the morning dew, I have already passed away. All you have seen of me is but a residual vision, born of your wishes.\" In that vague memory, she kept saying some incomprehensible things. Her expression as sorrowful as the eighth month's moon, and I suddenly... Then she rapped me over the head with her tobacco pipe, wearing her usual expression of rebuke and mockery: \"Hibiki, the sun's about to rise.\" \"We should head back.\""
+      },
+      "gobletOfEonothem": {
+        "name": "Hopeful Heart",
+        "description": "A special slip cylinder that the shrine uses for fortune-telling, It is supposedly infused with good fortune that the kitsune have imparted upon it. Fortune telling is born from the questions of lost people. Thus, be it good or bad fortune, it will help them navigate their future. In other words, there are only lost people, and no inaccurate fortunes. I've learned a lot while studying at the shrine. Now, even someone as dull-witted as I am has learned how to talk like a mighty kitsune. During this time, even someone as inhuman as the mighty Yougou Tengu has gotten a daughter. Even that leatherhead Konbumaru has also become one of the Shogun's own , and shall soon marry the daughter of a high-ranking samurai. \"Such a lovely kid. Even the great Yougou Tengu, who used to kill all day for fun, had the mother inside her brought out... just a little.\" \"Still... the shrine is always missing the liveliness of children. That's not good. Say, Hibiki, how would you like to be a kid again?\" The Lady Kitsune's joke was out of line as always, coming forth with the self-serving scent of sakura wine. \"Aw, Hibiki, why the long face? How about this then? I, the Lady Saiguu, shall tell your fortune for you!\" \"Haha, see? See, it's \"Great Fortune.\" \"Great Fortune\"! You know what that means?\" \"It means you took away all the bad fortune slips. Please stop mocking me, Lady Saiguu.\" \"No... it means that the person you're missing will be lucky enough to become a part of your memories forever.\" That's why you have to be strong and must live on for a long, long time. Even if all the people you cherish are gone, as long as you are still alive, The time you spent with them will never perish..."
+      },
+      "circletOfLogos": {
+        "name": "Capricious Visage",
+        "description": "A bright and elegant festival mask that once belonged to a certain miko. A faint smile curls the edges of the mask's lips, but there is no real light in its eyes. I've spent much time training at the Grand Shrine, and I must say that I've matured a lot. At the very least, I'm not as foolish as I was when I was young, and I'm more independent now. But for some reason, the more I grow, the more Lady Saiguu's face seems to fall under a shadow. What emerges on her face is not anxiety nor fear, but rather a sorrowful reluctance... \"Life is full of uncertainty. Love is fleeting, and even lasting memories may be lost.\" \"Losing one's memory is no different from losing one's life. It is like death amidst darkness eternal.\" This time, even a faint smile could not conceal her sorrow. Though this is a festive day, it seems more like a farewell. \"Right, then. Why don't you tell me about the idiot Konbumaru?\" \"What's wrong? Still afraid that an old hag like me will steal him from you?\""
+      },
+      "setBonuses": {
+        "2pieces": "ATK +18%.",
+        "4pieces": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration.",
+        "effects": [
+          "ATK Increase",
+          "Normal Attack DMG Increase",
+          "Charged Attack DMG Increase",
+          "Plunging Attack DMG Increase",
+          "Energy Decrease",
+          "Elemental Skill",
+          "DMG Bonus",
+          "Energy"
+        ]
+      },
+      "releaseVersion": "2.0"
+    },
+    "fr": {
+      "name": "Réminiscence nostalgique",
+      "obtaining": [
+        {
+          "rarity": 4,
+          "sources": [
+            {
+              "DOMAIN": "Cour Momiji"
+            }
+          ]
+        },
+        {
+          "rarity": 5,
+          "sources": [
+            {
+              "DOMAIN": "Cour Momiji"
+            },
+            {
+              "STRONGBOX": "Artifact Strongbox: Shimenawa's Reminiscence"
+            }
+          ]
+        }
+      ],
+      "flowerOfLife": {
+        "name": "Fleur d'enchevêtrement",
+        "description": "Un [https://fr.wikipedia.org/wiki/Omamori omamori] fabriqué selon un procédé faisant appel à des cordons de papier torsadé. Il est dit qu'il possède le pouvoir de lier les souhaits et leurs raisons en lui-même. Autrefois, j'ai appris à gérer les affaires du sanctuaire sous la tutelle d'une puissante Kitsune. À l'époque, je n'étais qu'une jeune prêtresse qui venait d'arriver sur Narukami après avoir quitté son petit village de pêcheurs. J'étais plus naïve qu'un Blob, et je n'avais pas encore perdu l'impulsivité et la curiosité d'un enfant. J'étais souvent sceptique face aux paroles élégantes, mais incompréhensibles, de dame Saiguu. « Tout dans le monde est enchevêtré. Ainsi, des visions illusoires sont nées de la réalité concrète. » « Les soi-disant omamori ne peuvent pas réaliser les souhaits, mais ils peuvent les rendre éternels grâce à cet enchevêtrement. » La dame Kitsune ne put s'empêcher d'éclater de rire en voyant mon expression désemparée. Elle m'a gentiment cogné la tête avec sa pipe, et a sournoisement changé de sujet. « Je suppose que tu as également rencontré ton destiné, Kanade ? » « Quel genre de « destin » pourrait-il y avoir avec une brute grossière et téméraire comme ça ! » « Oh, est-ce ainsi ? » Mais les ténèbres ont fini par tout engloutir... Et ce « destin », non plus, n'était plus..."
+      },
+      "plumeOfDeath": {
+        "name": "Flèche de nostalgie",
+        "description": "Une flèche tueuse de démons utilisée par les sanctuaires pour les prières et pour éloigner les catastrophes. Il est dit qu'elle est capable de poursuivre et de détruire tous les démons. Les gens disent souvent que les flèches tueuses de démons peuvent chasser le mal, mais le mal n'est jamais tangible. Le mal vient souvent de l'intérieur de nos cœurs, né d'esprits délirants devenus froids et cendrés par la terreur. Dame Saiguu est partie depuis longtemps maintenant, et je ne suis plus cette jeune prêtresse qui s'exerce au Sanctuaire de Narukami. Chaque fois que je tiens cette pipe vide dans mes mains, je peux sentir ce manque et cette douleur assourdissante planer au-dessus de moi comme un fantôme. Même si j'ai quelqu'un qui me manque, ou si je perds quelqu'un qui me manquera sûrement, le temps continue de passer aussi vite qu'un rouet. Silencieuse et sereine, la silhouette blanche de la Kitsune Saiguu cachée dans l'obscurité profonde a laissé une forte impression dans les rêves de la prêtresse. La grande Tengu s'est exilée, furieuse de sa propre incompétence en tant que protectrice de dame Saiguu, laissant Teruyo derrière elle. Rempli de chagrin et de colère, Harunosuke est parti pour un autre pays, tandis que Nagamasa a rejoint le Shogunat pour laver le nom des Mikoshi. Quant à l'homme qui m'a appris le tir à l'arc dans la forêt sacrée et a patiemment écouté ma promesse naïve sous les branches écarlates du cerisier... Il reviendra un jour à moi, même aveuglé par des éclaboussures de sang, ou transformé en une bête féroce par cette sombre corruption... Je le sauverai avec notre arc et nos flèches, pour tenir notre promesse, qui était destinée à être brisée. Je détruirai le mal avec notre arc et nos flèches, exorcisant la folie et l'obsession inutile. « Reviens me voir, idiot de parieur invétéré. » « Ne te perds pas cette fois, Konbumaru. » Mais qui avait gagné le dernier jet de dés... Elle toucha légèrement l'arc en réfléchissant à ces choses si insignifiantes..."
+      },
+      "sandsOfEon": {
+        "name": "Horloge de l'aube",
+        "description": "Une montre élégante, ornée d'une cloche de sanctuaire. Ses aiguilles pointent toujours vers les petites heures du matin. À mesure que le ciel s'éclaircit, la rosée du matin se condense et disparaît. Aussi belle que cette scène puisse être, elle n'est que fugace. Un jour, j'appréciais le chant des cigales et le clair de lune avec dame Saiguu sur une pente au milieu d'une nuit d'automne. À l'époque, je n'étais encore qu'une jeune prêtresse de campagne, jeune et têtue. J'étais semblable à un pinson qui gazouille, insistant bruyamment sur mes propres opinions. Le léger sourire qui illumina le visage de la dame Kitsune me fascina, mais ses paroles étaient – et restent toujours – incompréhensibles : « Tenter de s'accrocher à jamais à la beauté d'un moment, c'est comme essayer de saisir la rosée du matin. » « Telle la rosée matinale, je ne suis plus. Tout ce qu'il reste de moi n'est qu'une vision résiduelle, née de tes souhaits. » Dans ce vague souvenir, elle n'arrêtait pas de dire des choses incompréhensibles, avec une expression aussi triste que la lune du huitième mois, et puis... ... Et puis elle me cogna la tête avec sa pipe à tabac, avec son expression habituelle de reproche et de moquerie : « C'est presque l'aube, Kanade. » « Il est temps pour nous de rentrer. »"
+      },
+      "gobletOfEonothem": {
+        "name": "Cœur plein d'espoir",
+        "description": "Un cylindre spécial que les sanctuaires utilisent pour la divination. Il est censé être imprégné de la bonne fortune que les Kitsunes lui ont transmise. La divination est née des questions de personnes égarées. Ainsi, que ce soit une bonne ou une mauvaise fortune, cela les aidera à naviguer dans leur avenir. En d'autres termes, il n'y a que des personnes égarées, et pas de fortunes inexactes. J'ai beaucoup appris en étudiant au sanctuaire. Maintenant, même quelqu'un d'aussi stupide que moi a appris à parler comme un puissant Kitsune. Pendant ce temps, même quelqu'un d'aussi inhumain que la puissante Tengu de Yougou a eu une fille. Et même ce maladroit de Konbumaru est devenu l'un des hatamoto personnel de Son Excellence la Shogun, et il épousera bientôt la fille d'un samouraï de haut rang. « Une si belle enfant ! Même la Tengu, qui tuait toute la journée pour le plaisir, a développé un instinct maternel. » « Pourtant... Le sanctuaire manque toujours de la vitalité des enfants... Ce n'est pas bon. Dis-moi, Kanade, aimerais-tu redevenir une enfant ? » La blague de la Kitsune Saiguu était déplacée, comme toujours, et s'accompagnait de l'odeur d'un vin de cerise. « Oh, Kanade, pourquoi fais-tu cette tête ? Et comme ça, alors ? Moi, dame Saiguu, je vais te dire ta fortune ! » « Haha, tu vois ? Regarde, c'est une grande fortune. Une grande fortune ! Tu sais ce que ça veut dire ? » « Ça veut dire que vous avez enlevé tous les papiers de malchance. S'il vous plaît, arrêtez de vous moquer de moi, dame Saiguu. » « Mais non... Ça signifie que la personne qui vous manque aura la chance de faire partie de vos souvenirs pour toujours. » C'est pourquoi il faut être fort et vivre très, très longtemps. Même si toutes les personnes que l'on chérit sont parties, tant que l'on est encore en vie, le temps passé avec elles ne périra jamais..."
+      },
+      "circletOfLogos": {
+        "name": "Visage capricieux",
+        "description": "Un lumineux et élégant masque de festival qui appartenait autrefois à une certaine miko. Un léger sourire se dessine aux lèvres du masque, mais il n'y a pas de vraie lumière dans ses yeux. J'ai passé beaucoup de temps à m'exercer au sanctuaire, et je dois dire que j'ai beaucoup mûri. Du moins, je ne suis pas aussi stupide que lorsque j'étais jeune, et je suis plus indépendante également. Mais pour une raison quelconque, plus je grandis, plus le visage de dame Saiguu semble tomber dans l'ombre. Ce qui se dessine sur son visage n'est ni anxiété ni peur, mais plutôt une douloureuse réticence... « La vie est pleine d'incertitudes, l'amour est éphémère, et même les souvenirs durables peuvent être perdus. » « Perdre sa mémoire n'est pas différent de perdre sa vie. C'est comme une mort au milieu des ténèbres éternelles. » Cette fois, même un léger sourire ne pouvait cacher son chagrin. Bien que ce soit un jour de fête, cela ressemble plus à un adieu. « Bon, alors... Pourquoi ne pas parler de cet idiot de Konbumaru... » « Qu'est-ce qui ne va pas ? Peur qu'une vieille peau comme moi le vole ? »"
+      },
+      "setBonuses": {
+        "2pieces": "Augmente l'ATQ de 18 %.",
+        "4pieces": "Lorsque le personnage possède au minimum 15 pts d'énergie élémentaire, libérer une compétence élémentaire entraîne une perte de 15 pts d'énergie, mais les DGT infligés par son attaque normale, chargée et plongeante augmentent de 50 % pendant 10 s. Cet effet ne se déclenchera plus pendant cette durée.",
+        "effects": [
+          "ATK Increase",
+          "Normal Attack DMG Increase",
+          "Charged Attack DMG Increase",
+          "Plunging Attack DMG Increase",
+          "Energy Decrease",
+          "Elemental Skill",
+          "DMG Bonus",
+          "Energy"
+        ]
+      },
+      "releaseVersion": "2.0"
     }
   },
   {
@@ -8755,6 +8798,118 @@
         ]
       },
       "releaseVersion": "4.6"
+    }
+  },
+  {
+    "pageTitle": "Silken Moon's Serenade",
+    "releaseVersion": "Luna I",
+    "en": {
+      "name": "Silken Moon's Serenade",
+      "obtaining": [
+        {
+          "rarity": 4,
+          "sources": [
+            {
+              "DOMAIN": "Frostladen Machinery"
+            }
+          ]
+        },
+        {
+          "rarity": 5,
+          "sources": [
+            {
+              "DOMAIN": "Frostladen Machinery"
+            }
+          ]
+        }
+      ],
+      "flowerOfLife": {
+        "name": "Crystal Tear of the Wanderer",
+        "description": "That was a time when the gentle frost-light still lingered, a silver mirror unbroken, even as the golden realm had already fallen. In a single night, the glorious golden tower fell like a fig tree. Across the frozen northern plain, From the holy citadel to the ancient capital, dark blue crystal nails annihilated every last city with even the most minuscule sign of life. The once-praised apostle and the gods' first messenger both vanished in the catastrophe. Those who survived by grace of being nowhere near the cities at the time could only cling to life amidst the freezing wind and snow. With no refuge left to them, they simply waited for destruction to find them in the hollow dark. This is the great extinction spoken of in later prayers. Halcyon prosperity turned to dust, And the gods remained silent, unmoved by cries, curses, or reproach. In the despair of that long night, only one celestial ruler shed tears for the mortals' pain. She was the mistress of the Frost Moon, queen of the celestial chariot and of light, a heavenly agent whose origin was one with that of the world. Moved by pity, and a deeper, unspoken wish, she heeded the survivors' prayers. According to legend, she spun gleaming threads from the silver glow to lead the displaced across the frozen plains. And where her tears, full of longing, fell upon the frost-covered soil of the far north, they blossomed into lilies that would stand eternal in the icy winds. The proud descendants of Hyperborea call themselves the \"Frostmoon Scions\" for this reason, To honor the divinity who, whatever her original intent, gave them a new lease on life."
+      },
+      "plumeOfDeath": {
+        "name": "Pristine Plume of the Blessed",
+        "description": "That was a time when frost's gentle light had long shattered like a silver mirror, but when the new moon had yet to rise. This is the story of two sisters who, born defective products, were never meant to be blessed. In the moonlight, an undisturbed sanctuary for strangers, the fragile souls shared a single breath. In the brief moments between agonies, moments that should have been filled with joy, they huddled together, drawing what little warmth they could from each another. They had never seen their parents, and nor had they ever heard the wind whispering through the groves. The two of them had only their grandmother, and the only way they'd seen the world was through the pages of a faded storybook. Its brittle, yellowed pages, torn and tattered, revealed to them a world they'd never seen: There it was, a single white bird, a streak of grace, gliding beneath a perfect moon. As they admired the free creatures of the fairy tales, the two children made a promise to each other... One day, the two of them would fly together like the white birds in the vast sky. \"Since the day we were born, it's always been just the two of us.\" \"When the day comes for us to leave, let's live the rest of our lives together.\" Many years later, one of them broke their promise, leaving for a faraway place alone. But alas, this was no flight toward a brighter future, but a fall into a much darker night. With her went half the dream, and half the pain meant for them both. Aila, later to become the first Moonchanter, began to endure twice the torment from that day on. \"So you lied to me all along as well... My older sister, the only one I ever truly trusted.\" \"But I won't resent you... I have long lost hope for the sky beyond.\""
+      },
+      "sandsOfEon": {
+        "name": "Frost Devotee's Delirium",
+        "description": "That was a time when frost's gentle light had long shattered like a silver mirror, but when the new moon had yet to rise. It was then that the great plan, carried through countless generations since the time of extinction, was on the verge of culmination. The bloodline, purified for over a thousand years, would at last give birth to the chosen one destined to reign over Elysium. The false sevenfold radiance of the high heavens would fall at her feet, and the bones of the earth would rise to follow her. For from her would spring union with the world, and from her would the first great cause be rebuilt. That was the sacrosanct duty that had been passed down to the daughters of the far north. So it should have been. So it should have been... But on a moonless, snowbound night, the girl chosen to bear the sacred heir met the boy from the northern realm, And in his eyes, as clear as a winter's day, she beheld a reflection of a self she had never known. This unfamiliar stirring was enough to make the holy woman turn her back on destiny for that young officer from afar. For this new feeling, this foolishness called love, she cut off her bloodstained antler-crown and cast it down upon the snowy earth. The fallen one, who had betrayed her own people, ultimately failed to fulfill her destined duty. She was captured by a spy sent by the mad monk and was soon to be returned to the homeland she was meant to love. But as she looked down at the officer by her feet, crimson pooling beneath him, she drew the dagger to her throat in one final, fatal kiss. And so, the woman who failed to bear the sacred heir was buried in haste, her death forestalling the prophecy. Fortunately, the leaders of every generation had long prepared for premature end of such a blessed lady. Lovia, the then-Archpriestess, swiftly turned to a lesser branch of the bloodline for spares. But the twin sisters born of this lineage were a pale shadow of the one they were meant to replace. Hundreds of years might now have to pass before another child of sufficient purity was born. Seeing the glory of the great endeavor slip from her grasp like dissipating dew, The antler-crowned Archpriestess, maddened by anguish and obsession, hatched a terrible scheme. Why wait for the thousand winds to sweep through several generations? If they were too impure, Their flesh and blood too weak to bear the radiance of true moonlight... Did the Frost Moon's boon not linger faintly in all ███? Then let ███ purify their ███! Thus, in the name of flawless moonlight, the priestess committed an act so profane, That even the mistress of the Frost Moon would recoil in horror at the blasphemy..."
+      },
+      "gobletOfEonothem": {
+        "name": "Joyous Glory of the Pure",
+        "description": "That was a time when frost's gentle light had long shattered like a silver mirror, but when the new moon had yet to rise. The descendants of the far north could no longer hear the divine teachings of the high heavens, and they were consumed by burning wrath, just like in the days of old. No one knew how to forge anew the marvel the apostle of the Golden City had revealed to their ancestors. Yet the ambitions of the exiled — the ambitions of mortals — were more unyielding than even those of the gods. Should one lose the reliquary that can overnight till ten thousand acres of fertile land upon the dark, misty sea of ice, Then pen wild oxen into the furrows so that one may conquer the tundra inch by inch with fire, hoe, and sickle. Should one lose the arrow that can strike down the gods and pierce even that false sky, Then forge the plowshare into sword and blade, and the sickle and hoe into spear and halberd, then let blood be the lantern that dispels the darkness. And should the authority of creation, gifted by the highest of angels, be broken, Then one must govern the proliferation of the countless generations that follow by the crudest, primordial means remaining, that is, through law. So it must remain, until blood thinned by disaster and exile is purified into holy seed, And mortal descendants are born as perfect beings, fully one with the world. The perseverance and determination of all living creatures would eventually overcome all calamity — or at least that is what they firmly believed. After all, those who have planned the future of their people rarely have to suffer the slings and arrows of their contempt. \"Here, drink this pure moonlight, my beloved child, my most cherished child!\" \"Let it weave into your flesh and blood, so that you too may be worthy of the gods' grace.\" \"Look to the apostle of the Golden City. How he drank bitter wine and fought for the freedom of his compatriots!\" \"Like him, you must embrace this joyous pain, for from it, perfection will one day be born.\" The two could no longer tell what filled the ancient silver goblet. But if the kindly grandmother said so, then it must also be the will of the gods. Yes, yes. All to sculpting perfection, to fulfill a wish that had endured a thousand years. For the sake of the prophesied Elysium and the king destined to descend upon the world, impurity and trial had first to be transcended..."
+      },
+      "circletOfLogos": {
+        "name": "Holy Crown of the Believer",
+        "description": "That was a time when frost's gentle light had long shattered like a silver mirror, but when the new moon had yet to rise. The gods' ancient blessing, like a lone spark on the vast tundra, eventually flickered out. As the heavenly moon passed from the sky, the earth that could not become the moon began to wither. The great deeds miracle workers did in years past had faded into vaporous prayers, and those prayers were now the silent worries of the masses. In those crumbling, moonless nights, even a holy woman of the purest blood, Was hard-pressed to weave the flowing light into a song that could move the world, as her ancestors once did. No matter how fervently the ancestors of the far north once vowed to follow their departed gods, Their descendants, mortals in this sublunary sphere, lived lives as fleeting as a flickering flame. In days long gone, when one could still behold holy women and Archpriestesses channeling the grace of the gods, People yet believed the new moon would one day arise from the shattered light. And so, when the last glimmer of grace had faded and miracles were no longer witnessed, The line between so-called faith and so-called lies in turn grew as thin and fragile as the morning mist. Legend has it that the antler crown of Moonchanters today was a gift from the Frost Moon at the moment of its obliteration. The silver tree was splintered, and bereft of white branches they might find, the priesthood pleaded for new coronals. Out of pity, the mistress of the moon wove holy crowns for them out of flawless moonlight, ones innate to their birth. That was why the last Archpriestess chose to forge her circlet from cold, pure iron. The young Lovia was just a priestess then, one who had never once witnessed a moonlit blessing, And she dreamed that such lies, that deceived others and oneself alike, could still bind the unfaithful believers together. Decades later, when the false antlered crown sank into the foul, corrupt blood, That which reflected in her eyes was still not the flawless moonlight, but the frigid night swallowed whole by her own shadow."
+      },
+      "setBonuses": {
+        "2pieces": "Energy Recharge +20%.",
+        "4pieces": "When dealing Elemental DMG, gain the Gleaming Moon: Devotion effect for 8s: Increases all party members' Elemental Mastery by 60/120 when the party's Moonsign is Nascent Gleam/Ascendant Gleam. The equipping character can trigger this effect while off-field. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack.",
+        "effects": [
+          "Energy Recharge",
+          "Elemental Mastery",
+          "Lunar Reaction DMG Increase",
+          "Lunar-Charged DMG Bonus",
+          "Lunar-Bloom DMG Bonus",
+          "Lunar-Crystallize DMG Bonus"
+        ]
+      },
+      "releaseVersion": "Luna I"
+    },
+    "fr": {
+      "name": "Sérénade de la lune soyeuse",
+      "obtaining": [
+        {
+          "rarity": 4,
+          "sources": [
+            {
+              "DOMAIN": "Machinerie givrée"
+            }
+          ]
+        },
+        {
+          "rarity": 5,
+          "sources": [
+            {
+              "DOMAIN": "Machinerie givrée"
+            }
+          ]
+        }
+      ],
+      "flowerOfLife": {
+        "name": "Larme cristalline de l'errante",
+        "description": "À l'époque où la douce lumière givrée demeurait encore, comme un miroir d'argent intact, malgré la déchéance du royaume doré, la tour dorée s'effondra comme un figuier en une seule nuit. Sur la plaine gelée du nord, de la cité sainte à l'ancienne capitale, des pics de cristal bleu foncé anéantirent chaque ville sans laisser aucune vie. Le saint dont on chantait autrefois les louanges et le premier messager des dieux disparurent tous les deux dans la catastrophe. Les survivants qui étaient loin des villes ne purent que s'accrocher à la vie au milieu de la neige et du vent glacial. Avec nulle part où aller, ils attendirent simplement que la destruction les trouve dans les ténèbres les plus misérables. C'était la grande extinction dont parlaient les prières dans les générations suivantes. La prospérité se transforma en poussière, et les dieux restèrent silencieux, insensibles aux cris, aux malédictions ou aux appels désespérés. Dans le désespoir de cette longue nuit, une seule souveraine céleste pleura la souffrance des mortels. C'était la maîtresse de la lune de givre, la reine du char céleste et de la lumière, un agent divin né de la source même du monde. Émue par la compassion et un désir plus profond et inexprimable, elle répondit aux prières des survivants. Selon une légende, elle tissa des fils brillants à partir de la lueur argentée pour guider les survivants à travers les plaines gelées. Lorsque ses larmes pleines de nostalgie tombèrent sur le sol recouvert de givre du nord, elles se transformèrent en lys bravant le vent glacial pour l'éternité. Les fiers héritiers de l'Hyperborée se nommaient les « Descendants de givrelune » pour cette raison, ainsi que pour honorer les dieux qui accordèrent une nouvelle vie à l'humanité, peu importe leur but originel."
+      },
+      "plumeOfDeath": {
+        "name": "Plume blanche de la privilégiée",
+        "description": "À l'époque où la lumière givrée s'était brisée comme un miroir d'argent et qu'une nouvelle lune ne s'était pas encore élevée, vivaient deux sœurs. Elles étaient des parias depuis la naissance qui n'auraient jamais dû être bénies. Voici leur histoire. Sous le clair de lune, un sanctuaire tranquille pour les étrangers, deux âmes fragiles partageaient le même souffle. Entre les moments de douleur, des moments qui auraient dû être joyeux, elles se blottissaient l'une contre l'autre pour ressentir la moindre once de chaleur possible. Elles n'avaient jamais vu leurs parents, ni entendu les murmures du vent traverser la forêt. Les deux filles n'avaient que leur grand-mère et ce n'était qu'à travers les pages aux couleurs estompées d'un livre de contes qu'elles voyaient le monde. Ses pages jaunies et fragiles décrivaient un monde qu'elles n'avaient jamais vu : il y avait un oiseau blanc qui s'envolait avec grâce sous le clair de lune immaculé. Les deux enfants se firent une promesse silencieuse pendant qu'elles admiraient les créatures libres des contes de fées. Un jour, elles voleraient ensemble dans le ciel comme des oiseaux blancs. « Depuis notre naissance, il n'y a jamais eu personne d'autre à nos côtés à part nous. » « Quand le moment sera venu de partir d'ici, on vivra ensemble pour toujours. » Des années passèrent, et l'une d'entre elles brisa la promesse. Elle partit seule vers un endroit lointain. Malheureusement, elle ne se dirigeait pas vers un meilleur avenir, mais plutôt dans des ténèbres plus sombres. Elle emporta la moitié du rêve et de la souffrance qui leur était destinée à elles deux. Aila, qui devint plus tard la première Émissaire de chantelune, commença à subir le double de la torture qu'on lui infligeait jusque-là. « Tu m'as menti depuis le début... ma grande sœur, la seule en qui j'avais confiance. » « Mais je ne t'en voudrai pas... J'ai depuis longtemps perdu espoir pour le ciel. »"
+      },
+      "sandsOfEon": {
+        "name": "Délire de la dévote du givre",
+        "description": "À l'époque où la lumière givrée s'était brisée comme un miroir d'argent et qu'une nouvelle lune ne s'était pas encore élevée, le grand plan mené à travers de nombreuses générations depuis l'extinction était sur le point de se concrétiser. La lignée, purifiée au fil des millénaires, donnerait naissance à l'élue destinée à régner sur l'Élysium de la prophétie. Les fausses septuples lueurs des cieux tomberaient à ses pieds et les os de la terre s'élèveraient pour la suivre. Elle unirait le monde, destinée à raviver la grande cause du commencement. Tel était le devoir sacré qui fut transmis aux filles du grand nord, ou du moins cela aurait dû être le cas... Dans une nuit enneigée sans lune, la jeune femme choisie pour porter l'héritière sacrée en elle, rencontra enfin le jeune homme du nord. Dans ses yeux aussi clairs qu'un lac gelé, elle vit un reflet d'elle-même qui lui était alors inconnu. Une seule pulsion inhabituelle suffit à ce que la jeune femme tourne le dos à son destin pour cet officier venu de loin. Elle coupa sa couronne de bois tachée de sang et l'abandonna sur la terre enneigée pour ce nouveau sentiment, cette folie qu'était l'amour. La traîtresse qui avait trahi son peuple échoua à accomplir son devoir. Elle fut capturée par un espion envoyé par le moine fou, et sur le point d'être ramenée sur la terre natale qu'elle aurait dû aimer. Mais en regardant l'officier gisant à ses pieds et la flaque écarlate sous son corps, elle plongea le poignard dans son cou. Ainsi, la jeune femme qui ne put porter l'héritière sacrée en elle fut enterrée en silence et à la va-vite. Sa mort retarda la réalisation de la prophétie. Heureusement, les dirigeants de chaque génération furent préparés depuis longtemps à la fin prématurée de la sainte bénie. Lovia, grande prêtresse à l'époque, se tourna vers une branche cadette de la lignée pour lui trouver une successeure. Mais les deux sœurs nées de cette lignée n'étaient pas à la hauteur de la sainte qu'elles étaient supposées remplacer. Cela signifiait qu'il faudrait peut-être attendre des siècles avant qu'une autre enfant assez pure voie le jour. La gloire qui était à sa portée lui échappa comme la rosée qui disparaissait après une nuit froide d'hiver. Folle d'angoisse, la grande prêtresse à la couronne de bois mit au point un plan terrible. Pourquoi attendre des générations ? Si elles n'étaient pas assez pures pour porter la radiance du véritable clair de lune, et s'il y avait une once de la bénédiction de la lune de givre tous les ███, alors pourquoi ne pas se servir des ███ pour purifier leur ███ ? Ainsi, la prêtresse commit un crime aussi impardonnable au nom du clair de lune immaculée, que la maîtresse de la lune de givre fut horrifiée par un tel blasphème."
+      },
+      "gobletOfEonothem": {
+        "name": "Gloire joyeuse de l'immaculée",
+        "description": "À l'époque où la lumière givrée s'était brisée comme un miroir d'argent et qu'une nouvelle lune ne s'était pas encore élevée, les descendants du grand nord ne pouvaient plus entendre l'enseignement divin des cieux. Ils furent consumés par une colère brûlante, comme par le passé. Personne ne savait comment forger à nouveau l'étrange objet que l'apôtre de la cité dorée avait révélé à leurs ancêtres. Cependant, les ambitions des exilés et celles des mortels étaient bien plus fermes que celles de divinités. Si le reliquaire qui pouvait labourer une grande surface de champs fertiles sur la mer de glace sombre et brumeuse en une nuit était perdu, il faudrait faire entrer les bisons dans les sillons pour conquérir la toundra par le feu, la houe et la faucille. Si la flèche capable de frapper les dieux et percer le faux ciel était perdue, il faudrait forger le soc de charrue en épée, la faucille et la houe en lance et en hallebarde pour que le sang soit la lanterne qui éclaire les ténèbres. Si le sceptre de la création, offert par le plus grand des anges, se cassait en deux, il faudrait se servir de moyens les plus grossiers et primitifs pour contrôler la reproduction chez des centaines de générations à travers la loi. Jusqu'à ce que le sang, clairsemé par la catastrophe et la fuite, soit purifié en une semence sacrée et que les descendants des mortels soient êtres parfaits à la naissance, en harmonie avec le monde. La persévérance et la détermination de tous les êtres vivants finirait par venir à bout de toutes les catastrophes, du moins ils en étaient fermement convaincus. Après tout, ceux qui avaient planifié l'avenir de leur peuple n'auraient jamais à souffrir de leur mépris. « Bois ce clair de lune pur, ma précieuse enfant, ma chérie ! » « Laisse le clair de lune devenir ta chair et ton sang, pour que tu deviennes digne de recevoir la grâce des dieux. » « Fais comme l'apôtre de la cité dorée qui ont bu du vin amer et qui s'est battu pour la liberté de ses êtres chers ! » « Comme eux, embrasse cette joyeuse douleur. Un jour, la perfection naîtra d'elle. » Les deux personnes ne pouvaient plus distinguer ce que le calice d'argent ancien contenait. Mais si la gentille grand-mère avait raison, c'était sûrement la volonté des dieux. Oui, tout était pour la perfection et la concrétisation d'un vœu qui a persisté pendant mille ans. Il fallait endurer la souillure et la souffrance pour l'Élysium de la prophétie et du roi destiné à arriver dans ce monde..."
+      },
+      "circletOfLogos": {
+        "name": "Sainte couronne de la croyante",
+        "description": "À l'époque où la lumière givrée s'était brisée comme un miroir d'argent et qu'une nouvelle lune ne s'était pas encore élevée, la bénédiction ancienne des dieux finit par s'éteindre comme une étincelle solitaire sur une vaste toundra. Alors que la lune vide disparaissait du ciel, la terre qui ne pouvait l'accueillir commença à se dessécher. Les exploits passés des faiseurs de miracles se transformèrent en prières vaporeuses, qui étaient désormais les inquiétudes silencieuses des gens. Dans une nuit putride sans lune, même une sainte au sang le plus pur ne pouvait tisser la lumière qui coule en un chant capable de faire bouger le monde, comme l'avaient fait autrefois ses ancêtres. Peu importe la ferveur avec laquelle les ancêtres du grand noir avaient autrefois juré de suivre leurs dieux déchus, leurs descendants, des mortels de la sphère sublunaire, vivaient des vies aussi éphémères d'une flamme qui vacille. Si, dans les temps anciens, on pouvait encore voir des saints et des prêtres invoquer la grâce des dieux, et si les gens croyaient encore que la nouvelle lune renaîtrait de la lumière brisée... Alors, lorsque la dernière once de grâce disparaîtrait et qu'il n'y aurait plus de miracles, la frontière entre la foi et les mensonges deviendrait aussi fine et fragile que la rosée du matin. La légende raconte que la couronne de bois que l'Émissaire de chantelune porte de nos jours était un cadeau de la lune de givre au moment de son extinction. L'arbre argenté fut brisé, ses branches blanches disparurent et les prêtres implorèrent une nouvelle couronne. Par pitié pour eux, la maîtresse de la lune leur fabriqua une couronne sainte avec la lumière immaculée de la lune. Ce fut pour cette raison même pour laquelle la dernière grande prêtresse choisit de forger sa couronne dans un fer froid et inflexible. La jeune Lovia n'était alors qu'une prêtresse et n'avait jamais vu la bénédiction de la lune et rêvait que ce mensonge réconfortant unisse encore les croyants infidèles. Ce ne fut que des décennies plus tard, lorsque la fausse couronne a sombré dans le sang ignoble et corrompu, qu'elle comprit enfin. Le reflet dans ses yeux n'était pas le clair de lune immaculé, mais la nuit glaciale complètement engloutie par sa propre ombre."
+      },
+      "setBonuses": {
+        "2pieces": "Augmente la recharge d'énergie de 20 %.",
+        "4pieces": "Infliger des DGT élémentaires accorde l'effet Lune étincelante « Dévotion » pendant 8 s : augmente la maîtrise élémentaire de tous les personnages de l'équipe de 60 pts ou de 120 pts lorsque la signelune de l'équipe est respectivement de type Lueur naissante ou ascendante. L'effet ci-dessus peut être déclenché même si le personnage équipé de l'artéfact n'est pas déployé. De plus, les DGT infligés par les réactions sélènes déclenchées par tous les personnages de l'équipe augmentent de 10 % pour chaque lune étincelante de type différent des personnages de l'équipe. Les bonus accordés par l'effet Lune étincelante ne se cumulent pas.",
+        "effects": [
+          "Energy Recharge",
+          "Elemental Mastery",
+          "Lunar Reaction DMG Increase",
+          "Lunar-Charged DMG Bonus",
+          "Lunar-Bloom DMG Bonus",
+          "Lunar-Crystallize DMG Bonus"
+        ]
+      },
+      "releaseVersion": "Luna I"
     }
   }
 ]

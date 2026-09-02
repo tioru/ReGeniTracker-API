@@ -43,7 +43,7 @@
   },
   "setBonuses": {
     "2pieces": "Confère un bonus de DGT Anémo de 15 %.",
-    "4pieces": "Augmente les DGT infligés par Dispersion de 60 % ; la RÉS élémentaire des ennemis diminue de 40 % pendant 10 s selon le type élémentaire de Dispersion.",
+    "4pieces": "Augmente les DGT infligés par les réactions de Dispersion de 60 % et ceux des réactions d'Astrodispersion de 20 %, et diminue la RÉS de l'élément dispersé correspondant des ennemis de 40 % pendant 10 s. De plus, déclencher une réaction d'Astrodispersion sur un ennemi diminue également sa RÉS Cryo de 40 %, les diminutions de RÉS du même type élémentaire ne se cumulant pas.",
     "effects": [
       "Elemental DMG Bonus",
       "Anemo DMG Bonus",
@@ -53,7 +53,8 @@
       "Cryo RES Reduction",
       "Electro RES Reduction",
       "Hydro RES Reduction",
-      "Pyro RES Reduction"
+      "Pyro RES Reduction",
+      "Stellar Swirl DMG Bonus"
     ]
   },
   "releaseVersion": "1.0"
