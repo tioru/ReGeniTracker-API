@@ -1,0 +1,192 @@
+{
+  "name": "Glacier inversé",
+  "domainType": "Domaine de bénédiction",
+  "location": {
+    "mainLocation": "Snezhnaya",
+    "subLocation": "Terre permagelée"
+  },
+  "description": "In the most ancient legends of the fae, the dead tundra was once blanketed in lush, vibrant greenery, and streams of sweet honey filled the placid frozen sea. Yet, not even the eldest among them had ever witnessed that mythical paradise. Wherever the eye turned, naught but suffering and blizzards endlessly grind down the solemn, somber earth, and the fragile yet unyielding souls who clung to it.",
+  "recommendedElements": [
+    "Cryo",
+    "Electro",
+    "Anemo"
+  ],
+  "releaseVersion": "7.0",
+  "rewards": [],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Glacier inversé I",
+      "teamLevelRecommanded": 59,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 1850
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 15
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 4 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Volkodlak Basher",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 4 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Volkodlak Basher",
+              "number": 2,
+              "level": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Glacier inversé II",
+      "teamLevelRecommanded": 69,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2025
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 5 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Glaciomancer",
+              "number": 3,
+              "level": 69
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 5 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Chimeric Winged Elephant",
+              "number": 2,
+              "level": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Glacier inversé III",
+      "teamLevelRecommanded": 80,
+      "rewards": [
+        {
+          "name": "EXP d'Aventure",
+          "quantity": 100
+        },
+        {
+          "name": "Mora",
+          "quantity": 2200
+        },
+        {
+          "name": "EXP d'affinité",
+          "quantity": 20
+        }
+      ],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 7 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Chimeric Burrowbeast",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Chimeric Armored Beast",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 7 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Chimeric Horned Bear",
+              "number": 1,
+              "level": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Glacier inversé IV",
+      "teamLevelRecommanded": 89,
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 4 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Glacial Warden",
+              "number": 1,
+              "level": 89
+            },
+            {
+              "name": "Glaciomancer",
+              "number": 1,
+              "level": 89
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 4 opponents within 300 seconds",
+          "enemies": [
+            {
+              "name": "Chimeric Horned Bear",
+              "number": 1,
+              "level": 89
+            },
+            {
+              "name": "Chimeric Armored Beast",
+              "number": 1,
+              "level": 89
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

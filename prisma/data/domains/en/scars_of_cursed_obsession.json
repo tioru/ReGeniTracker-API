@@ -1,18 +1,16 @@
 {
-  "name": "Ancienne tour de guet",
-  "domainType": "Domaine de forge",
+  "name": "Scars of Cursed Obsession",
+  "domainType": "Domain of Forgery",
   "location": {
-    "mainLocation": "Natlan",
-    "subLocation": "Montagne Coatepec"
+    "mainLocation": "Snezhnaya",
+    "subLocation": "Everfrozen Earth"
   },
-  "description": "Legend has it that in ancient times, the colossal beasts that roamed the land had a civilization of their own. After exploring the entirety of the land and surrounding sea, they built these structures in an attempt to cast their gaze upon the even wider world beyond. But these wise beasts have long since vanished, and in the present, no one now knows the true purpose of this place.",
+  "description": "It was an era of peace, when the conquests of the Belyi Tsar had faded into legend, and the turmoil of succession was reduced to mere tales in history books. Yet, the fae who had never lived through those bygone days still yearned to resurrect that ancient glory. A leaden dream was stained by the blood of countless souls, yet the dreamer remained unshaken, believing this was the only path to pave their honor. But at that road's end, there was no glory to be found, nor the old world of her dreams. There was only the blood that drowned her, blood grown cold, foul, and faded.",
   "recommendedElements": [
-    "Hydro",
-    "Electro",
-    "Pyro",
+    "Anemo",
     "Cryo"
   ],
-  "releaseVersion": "5.0",
+  "releaseVersion": "7.0",
   "rewards": [
     {
       "days": [
@@ -20,23 +18,23 @@
         "thursday",
         "sunday"
       ],
-      "name": "Ombres",
+      "name": "Cast Iron",
       "reward": [
         {
           "quality": 2,
-          "name": "Terreur du cœur sacrificiel flamboyant"
+          "name": "Rise of the Pale Star Army"
         },
         {
           "quality": 3,
-          "name": "Hésitation du cœur sacrificiel flamboyant"
+          "name": "Muster of the Pale Star Army"
         },
         {
           "quality": 4,
-          "name": "Résolution du cœur sacrificiel flamboyant"
+          "name": "Clarion of the Pale Star Army"
         },
         {
           "quality": 5,
-          "name": "Splendeur du cœur sacrificiel flamboyant"
+          "name": "Triumph of the Pale Star Army"
         }
       ]
     },
@@ -46,23 +44,23 @@
         "friday",
         "sunday"
       ],
-      "name": "Observation",
+      "name": "Chain Track",
       "reward": [
         {
           "quality": 2,
-          "name": "Décadence délirante du seigneur sacré"
+          "name": "Measured Pour of the Cellared Spiritual Nectar"
         },
         {
           "quality": 3,
-          "name": "Désolation délirante du seigneur sacré"
+          "name": "Intoxication of the Cellared Spiritual Nectar"
         },
         {
           "quality": 4,
-          "name": "Attitude délirante du seigneur sacré"
+          "name": "Exhilaration of the Cellared Spiritual Nectar"
         },
         {
           "quality": 5,
-          "name": "Divinité délirante du seigneur sacré"
+          "name": "Revelry of the Cellared Spiritual Nectar"
         }
       ]
     },
@@ -72,23 +70,23 @@
         "saturday",
         "sunday"
       ],
-      "name": "Estimation",
+      "name": "Severed Steel",
       "reward": [
         {
           "quality": 2,
-          "name": "Considération mystique du vent nocturne"
+          "name": "The Frost Emperor's Revival"
         },
         {
           "quality": 3,
-          "name": "Prémonition mystique du vent nocturne"
+          "name": "The Frost Emperor's Ceremony"
         },
         {
           "quality": 4,
-          "name": "Augure mystique du vent nocturne"
+          "name": "The Frost Emperor's Lament"
         },
         {
           "quality": 5,
-          "name": "Révélation mystique du vent nocturne"
+          "name": "The Frost Emperor's Farewell"
         }
       ]
     }
@@ -96,11 +94,11 @@
   "levels": [
     {
       "level": 1,
-      "name": "Ancienne tour de guet I",
+      "name": "Scars of Cursed Obsession I",
       "teamLevelRecommanded": 15,
       "rewards": [
         {
-          "name": "EXP d'Aventure",
+          "name": "Adventure EXP",
           "quantity": 100
         },
         {
@@ -108,33 +106,33 @@
           "quantity": 1125
         },
         {
-          "name": "EXP d'affinité",
+          "name": "Companionship EXP",
           "quantity": 10
         }
       ],
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Yumkasaur Whelp",
-              "number": 4,
+              "name": "Volkodlak Raider",
+              "number": 2,
+              "level": 15
+            },
+            {
+              "name": "Volkodlak Sharpshooter",
+              "number": 1,
               "level": 15
             }
           ]
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Yumkasaurus",
-              "number": 1,
-              "level": 15
-            },
-            {
-              "name": "Yumkasaur Whelp",
+              "name": "Volkodlak Lobber",
               "number": 2,
               "level": 15
             }
@@ -144,11 +142,11 @@
     },
     {
       "level": 2,
-      "name": "Ancienne tour de guet II",
+      "name": "Scars of Cursed Obsession II",
       "teamLevelRecommanded": 36,
       "rewards": [
         {
-          "name": "EXP d'Aventure",
+          "name": "Adventure EXP",
           "quantity": 100
         },
         {
@@ -156,38 +154,33 @@
           "quantity": 1550
         },
         {
-          "name": "EXP d'affinité",
+          "name": "Companionship EXP",
           "quantity": 15
         }
       ],
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Swiftstep Seeker",
+              "name": "Volkodlak Raider",
               "number": 2,
               "level": 36
             },
             {
-              "name": "Swiftstep Armed Courier",
-              "number": 2,
+              "name": "Volkodlak Sharpshooter",
+              "number": 1,
               "level": 36
             }
           ]
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Yumkasaurus Warrior: Whirling Leaves",
-              "number": 1,
-              "level": 36
-            },
-            {
-              "name": "Swiftstep Storm Scout",
+              "name": "Volkodlak Basher",
               "number": 2,
               "level": 36
             }
@@ -197,11 +190,11 @@
     },
     {
       "level": 3,
-      "name": "Ancienne tour de guet III",
+      "name": "Scars of Cursed Obsession III",
       "teamLevelRecommanded": 59,
       "rewards": [
         {
-          "name": "EXP d'Aventure",
+          "name": "Adventure EXP",
           "quantity": 100
         },
         {
@@ -209,39 +202,39 @@
           "quantity": 1850
         },
         {
-          "name": "EXP d'affinité",
+          "name": "Companionship EXP",
           "quantity": 15
         }
       ],
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "description": "Defeat 4 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Swiftstep Seeker",
+              "name": "Long-Eared Striker",
               "number": 1,
               "level": 59
             },
             {
-              "name": "Yumkasaur Whelp",
-              "number": 2,
+              "name": "Leomastiff Guard",
+              "number": 1,
               "level": 59
             }
           ]
         },
         {
           "wave": 2,
-          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "description": "Defeat 4 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Yumkasaurus Warrior: Flowing Skyfire",
+              "name": "Channel Contact",
               "number": 1,
               "level": 59
             },
             {
-              "name": "Yumkasaurus",
-              "number": 2,
+              "name": "Voywolf Hunter",
+              "number": 1,
               "level": 59
             }
           ]
@@ -250,11 +243,11 @@
     },
     {
       "level": 4,
-      "name": "Ancienne tour de guet IV",
+      "name": "Scars of Cursed Obsession IV",
       "teamLevelRecommanded": 80,
       "rewards": [
         {
-          "name": "EXP d'Aventure",
+          "name": "Adventure EXP",
           "quantity": 100
         },
         {
@@ -262,17 +255,22 @@
           "quantity": 2200
         },
         {
-          "name": "EXP d'affinité",
+          "name": "Companionship EXP",
           "quantity": 20
         }
       ],
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 1 opponent(s) within 300 second(s)",
+          "description": "Defeat 2 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Secret Source Automaton: Hunter-Seeker",
+              "name": "Voywolf Hunter",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Fanged Zealot",
               "number": 1,
               "level": 80
             }

@@ -3066,7 +3066,7 @@
             },
             {
               "quality": 5,
-              "name": "Splendeur du cœur sacrificiel flamboyant"
+              "name": "Révélation mystique du vent nocturne"
             }
           ]
         }
@@ -4244,7 +4244,7 @@
       "domainType": "Donjon de la conquête",
       "location": {
         "mainLocation": "Sumeru",
-        "subLocation": "Selve de Lokapala"
+        "subLocation": "Grotte de Chatrakam"
       },
       "description": "Irminsul, that tree that once sustained memory, is now doomed to be turned by the fires of calamity into nothing but ash and dust. And if the roots of the mortal world are the spared further corruption, then the self-proclaimed \"enlightened\" heretic must be confronted one last time...",
       "recommendedElements": [],
@@ -5477,208 +5477,6 @@
       "description": "These tournament grounds in Port Ormos have been reserved for the Nilotpala Cup Beast Tamers Tournament. You can view match progress and access the main arena via a secret passage near the match noticeboard to duke it out with your next opponent.<br>It is said that upon hearing that this location attracts the largest crowds, the organizers of the Nilotpala Cup put much effort into developing an abandoned Domain nearby and renovating it into the main tournament arena...",
       "recommendedElements": [],
       "releaseVersion": "3.2",
-      "rewards": [],
-      "levels": []
-    }
-  },
-  {
-    "pageTitle": "Fane of Panjvahe",
-    "releaseVersion": "3.4",
-    "en": {
-      "name": "Fane of Panjvahe",
-      "domainType": "One-Time",
-      "location": {
-        "mainLocation": "Sumeru",
-        "subLocation": "Desert of Hadramaveth"
-      },
-      "description": "The significance of oases lies in the embrace of the desert. The oasis dwellers have never been oblivious to this. Thus did the ancestors in Gurabad build the hermitage for the Lord of Desert. Through the sandstorm-shrouded past and present, this hermitage has become an asylum for countless desert dwellers, among whom are some bandits as well...",
-      "recommendedElements": [
-        "Dendro",
-        "Electro"
-      ],
-      "releaseVersion": "3.4",
-      "rewards": [],
-      "levels": [
-        {
-          "level": 1,
-          "name": "Fane of Panjvahe I",
-          "rewards": [],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat 12 opponent(s)",
-              "enemies": [
-                {
-                  "name": "Primal Construct: Prospector",
-                  "number": 1
-                },
-                {
-                  "name": "Primal Construct: Reshaper",
-                  "number": 1
-                }
-              ]
-            },
-            {
-              "wave": 2,
-              "description": "Defeat 12 opponent(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Desert Clearwater",
-                  "number": 1
-                },
-                {
-                  "name": "Eremite Daythunder",
-                  "number": 1
-                },
-                {
-                  "name": "Eremite Crossbow",
-                  "number": 2
-                }
-              ]
-            },
-            {
-              "wave": 3,
-              "description": "Defeat 12 opponent(s)",
-              "enemies": [
-                {
-                  "name": "Primal Construct: Repulsor",
-                  "number": 2
-                },
-                {
-                  "name": "Primal Construct: Reshaper",
-                  "number": 1
-                }
-              ]
-            },
-            {
-              "wave": 4,
-              "description": "Defeat 12 opponent(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Crossbow",
-                  "number": 2
-                },
-                {
-                  "name": "Eremite Galehunter",
-                  "number": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "fr": {
-      "name": "Palace de Panjvahe",
-      "domainType": "Domaine à usage unique",
-      "location": {
-        "mainLocation": "Sumeru",
-        "subLocation": "Désert de Hadramaveth"
-      },
-      "description": "The significance of oases lies in the embrace of the desert. The oasis dwellers have never been oblivious to this. Thus did the ancestors in Gurabad build the hermitage for the Lord of Desert. Through the sandstorm-shrouded past and present, this hermitage has become an asylum for countless desert dwellers, among whom are some bandits as well...",
-      "recommendedElements": [
-        "Dendro",
-        "Electro"
-      ],
-      "releaseVersion": "3.4",
-      "rewards": [],
-      "levels": [
-        {
-          "level": 1,
-          "name": "Palace de Panjvahe I",
-          "rewards": [],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat 12 opponent(s)",
-              "enemies": [
-                {
-                  "name": "Primal Construct: Prospector",
-                  "number": 1
-                },
-                {
-                  "name": "Primal Construct: Reshaper",
-                  "number": 1
-                }
-              ]
-            },
-            {
-              "wave": 2,
-              "description": "Defeat 12 opponent(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Desert Clearwater",
-                  "number": 1
-                },
-                {
-                  "name": "Eremite Daythunder",
-                  "number": 1
-                },
-                {
-                  "name": "Eremite Crossbow",
-                  "number": 2
-                }
-              ]
-            },
-            {
-              "wave": 3,
-              "description": "Defeat 12 opponent(s)",
-              "enemies": [
-                {
-                  "name": "Primal Construct: Repulsor",
-                  "number": 2
-                },
-                {
-                  "name": "Primal Construct: Reshaper",
-                  "number": 1
-                }
-              ]
-            },
-            {
-              "wave": 4,
-              "description": "Defeat 12 opponent(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Crossbow",
-                  "number": 2
-                },
-                {
-                  "name": "Eremite Galehunter",
-                  "number": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "pageTitle": "Fayz Trials/2023-06-21",
-    "releaseVersion": "3.7",
-    "en": {
-      "name": "Fayz Trials/2023-06-21",
-      "domainType": "Event",
-      "location": {
-        "mainLocation": "Liyue",
-        "subLocation": "Lisha"
-      },
-      "description": "A new research facility built using the Akademiya's funds. Certain nearby monsters can be lured here to be used as involuntary research subjects.",
-      "recommendedElements": [],
-      "releaseVersion": "3.7",
-      "rewards": [],
-      "levels": []
-    },
-    "fr": {
-      "name": "Conjectures de Fayz",
-      "domainType": "Domaine évènementiel",
-      "location": {
-        "mainLocation": "Liyue",
-        "subLocation": "Lisha"
-      },
-      "description": "A new research facility built using the Akademiya's funds. Certain nearby monsters can be lured here to be used as involuntary research subjects.",
-      "recommendedElements": [],
-      "releaseVersion": "3.7",
       "rewards": [],
       "levels": []
     }
@@ -7314,6 +7112,42 @@
       "description": "",
       "recommendedElements": [],
       "releaseVersion": "Luna VII",
+      "rewards": [],
+      "levels": []
+    },
+    "fr": null
+  },
+  {
+    "pageTitle": "Envisaged Echo/Childe",
+    "releaseVersion": "7.0",
+    "en": {
+      "name": "Envisaged Echo/Childe",
+      "domainType": "Envisaged Echo",
+      "location": {
+        "mainLocation": "",
+        "subLocation": ""
+      },
+      "description": "",
+      "recommendedElements": [],
+      "releaseVersion": "7.0",
+      "rewards": [],
+      "levels": []
+    },
+    "fr": null
+  },
+  {
+    "pageTitle": "Envisaged Echo/Vigilant Yaksha",
+    "releaseVersion": "7.0",
+    "en": {
+      "name": "Envisaged Echo/Vigilant Yaksha",
+      "domainType": "Envisaged Echo",
+      "location": {
+        "mainLocation": "",
+        "subLocation": ""
+      },
+      "description": "",
+      "recommendedElements": [],
+      "releaseVersion": "7.0",
       "rewards": [],
       "levels": []
     },
@@ -10384,118 +10218,6 @@
     }
   },
   {
-    "pageTitle": "Moshiri Kara",
-    "releaseVersion": "2.2",
-    "en": {
-      "name": "Moshiri Kara",
-      "domainType": "One-Time",
-      "location": {
-        "mainLocation": "Inazuma",
-        "subLocation": "Tsurumi Island"
-      },
-      "description": "A mansion that was set up somewhere outside the Sea of Fog. No one knows who built this place, but it seems clear that it is now nothing but a den of ravenous wolves.",
-      "recommendedElements": [
-        "Electro",
-        "Geo"
-      ],
-      "releaseVersion": "2.2",
-      "rewards": [],
-      "levels": [
-        {
-          "level": 1,
-          "name": "Moshiri Kara I",
-          "rewards": [],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat 22 opponents.",
-              "enemies": [
-                {
-                  "name": "Thundercraven Rifthound Whelp",
-                  "number": 7
-                },
-                {
-                  "name": "Thundercraven Rifthound",
-                  "number": 2
-                },
-                {
-                  "name": "Rockfond Rifthound Whelp",
-                  "number": 7
-                },
-                {
-                  "name": "Rockfond Rifthound",
-                  "number": 2
-                },
-                {
-                  "name": "Blazing Axe Mitachurl",
-                  "number": 2
-                },
-                {
-                  "name": "Rock Shieldwall Mitachurl",
-                  "number": 2
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "fr": {
-      "name": "Moshiri Kara",
-      "domainType": "Domaine à usage unique",
-      "location": {
-        "mainLocation": "Inazuma",
-        "subLocation": "Île de Tsurumi"
-      },
-      "description": "A mansion that was set up somewhere outside the Sea of Fog. No one knows who built this place, but it seems clear that it is now nothing but a den of ravenous wolves.",
-      "recommendedElements": [
-        "Electro",
-        "Geo"
-      ],
-      "releaseVersion": "2.2",
-      "rewards": [],
-      "levels": [
-        {
-          "level": 1,
-          "name": "Moshiri Kara I",
-          "rewards": [],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat 22 opponents.",
-              "enemies": [
-                {
-                  "name": "Thundercraven Rifthound Whelp",
-                  "number": 7
-                },
-                {
-                  "name": "Thundercraven Rifthound",
-                  "number": 2
-                },
-                {
-                  "name": "Rockfond Rifthound Whelp",
-                  "number": 7
-                },
-                {
-                  "name": "Rockfond Rifthound",
-                  "number": 2
-                },
-                {
-                  "name": "Blazing Axe Mitachurl",
-                  "number": 2
-                },
-                {
-                  "name": "Rock Shieldwall Mitachurl",
-                  "number": 2
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
     "pageTitle": "Fleeting Colors in Flight/Oceanic Defender",
     "releaseVersion": "2.4",
     "en": {
@@ -10681,6 +10403,178 @@
       "releaseVersion": "3.2",
       "rewards": [],
       "levels": []
+    }
+  },
+  {
+    "pageTitle": "Fane of Panjvahe",
+    "releaseVersion": "3.4",
+    "en": {
+      "name": "Fane of Panjvahe",
+      "domainType": "One-Time",
+      "location": {
+        "mainLocation": "Sumeru",
+        "subLocation": "Desert of Hadramaveth"
+      },
+      "description": "The significance of oases lies in the embrace of the desert. The oasis dwellers have never been oblivious to this. Thus did the ancestors in Gurabad build the hermitage for the Lord of Desert. Through the sandstorm-shrouded past and present, this hermitage has become an asylum for countless desert dwellers, among whom are some bandits as well...",
+      "recommendedElements": [
+        "Dendro",
+        "Electro"
+      ],
+      "releaseVersion": "3.4",
+      "rewards": [],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Fane of Panjvahe I",
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 12 opponent(s)",
+              "enemies": [
+                {
+                  "name": "Primal Construct: Prospector",
+                  "number": 1
+                },
+                {
+                  "name": "Primal Construct: Reshaper",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 12 opponent(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Desert Clearwater",
+                  "number": 1
+                },
+                {
+                  "name": "Eremite Daythunder",
+                  "number": 1
+                },
+                {
+                  "name": "Eremite Crossbow",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wave": 3,
+              "description": "Defeat 12 opponent(s)",
+              "enemies": [
+                {
+                  "name": "Primal Construct: Repulsor",
+                  "number": 2
+                },
+                {
+                  "name": "Primal Construct: Reshaper",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wave": 4,
+              "description": "Defeat 12 opponent(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Crossbow",
+                  "number": 2
+                },
+                {
+                  "name": "Eremite Galehunter",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "name": "Palace de Panjvahe",
+      "domainType": "Domaine à usage unique",
+      "location": {
+        "mainLocation": "Sumeru",
+        "subLocation": "Désert de Hadramaveth"
+      },
+      "description": "The significance of oases lies in the embrace of the desert. The oasis dwellers have never been oblivious to this. Thus did the ancestors in Gurabad build the hermitage for the Lord of Desert. Through the sandstorm-shrouded past and present, this hermitage has become an asylum for countless desert dwellers, among whom are some bandits as well...",
+      "recommendedElements": [
+        "Dendro",
+        "Electro"
+      ],
+      "releaseVersion": "3.4",
+      "rewards": [],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Palace de Panjvahe I",
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 12 opponent(s)",
+              "enemies": [
+                {
+                  "name": "Primal Construct: Prospector",
+                  "number": 1
+                },
+                {
+                  "name": "Primal Construct: Reshaper",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 12 opponent(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Desert Clearwater",
+                  "number": 1
+                },
+                {
+                  "name": "Eremite Daythunder",
+                  "number": 1
+                },
+                {
+                  "name": "Eremite Crossbow",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wave": 3,
+              "description": "Defeat 12 opponent(s)",
+              "enemies": [
+                {
+                  "name": "Primal Construct: Repulsor",
+                  "number": 2
+                },
+                {
+                  "name": "Primal Construct: Reshaper",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wave": 4,
+              "description": "Defeat 12 opponent(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Crossbow",
+                  "number": 2
+                },
+                {
+                  "name": "Eremite Galehunter",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -11120,6 +11014,36 @@
     }
   },
   {
+    "pageTitle": "Fayz Trials/2023-06-21",
+    "releaseVersion": "3.7",
+    "en": {
+      "name": "Fayz Trials/2023-06-21",
+      "domainType": "Event",
+      "location": {
+        "mainLocation": "Liyue",
+        "subLocation": "Lisha"
+      },
+      "description": "A new research facility built using the Akademiya's funds. Certain nearby monsters can be lured here to be used as involuntary research subjects.",
+      "recommendedElements": [],
+      "releaseVersion": "3.7",
+      "rewards": [],
+      "levels": []
+    },
+    "fr": {
+      "name": "Conjectures de Fayz",
+      "domainType": "Domaine évènementiel",
+      "location": {
+        "mainLocation": "Liyue",
+        "subLocation": "Lisha"
+      },
+      "description": "A new research facility built using the Akademiya's funds. Certain nearby monsters can be lured here to be used as involuntary research subjects.",
+      "recommendedElements": [],
+      "releaseVersion": "3.7",
+      "rewards": [],
+      "levels": []
+    }
+  },
+  {
     "pageTitle": "Joururi Workshop",
     "releaseVersion": "3.2",
     "en": {
@@ -11205,36 +11129,6 @@
       "description": "The various environmental factors in the Domain Jami sought out to validate the effects of the \"Long-Lasting Fayz Potion\" all benefit the potion's efficacy. You can try luring nearby creatures to it to collect materials for testing...",
       "recommendedElements": [],
       "releaseVersion": "4.5",
-      "rewards": [],
-      "levels": []
-    }
-  },
-  {
-    "pageTitle": "Mutual Security Enhancing Simulation",
-    "releaseVersion": "4.7",
-    "en": {
-      "name": "Mutual Security Enhancing Simulation",
-      "domainType": "Event",
-      "location": {
-        "mainLocation": "Liyue",
-        "subLocation": "Sea of Clouds"
-      },
-      "description": "A venue built by the General Staff of the Millelith for holding a joint wargaming exercise. As the wargaming is still in a trial phase, the budget is limited, in turn restricting the scale of the meeting. Not a Mora was wasted during the construction of the venue. The size is just right for this iteration's requirements, offering enough space for the delegations from each of the neighboring nations...",
-      "recommendedElements": [],
-      "releaseVersion": "4.7",
-      "rewards": [],
-      "levels": []
-    },
-    "fr": {
-      "name": "Simulation d'amélioration de sécurité mutuelle",
-      "domainType": "Domaine évènementiel",
-      "location": {
-        "mainLocation": "Liyue",
-        "subLocation": "Mer de nuages"
-      },
-      "description": "A venue built by the General Staff of the Millelith for holding a joint wargaming exercise. As the wargaming is still in a trial phase, the budget is limited, in turn restricting the scale of the meeting. Not a Mora was wasted during the construction of the venue. The size is just right for this iteration's requirements, offering enough space for the delegations from each of the neighboring nations...",
-      "recommendedElements": [],
-      "releaseVersion": "4.7",
       "rewards": [],
       "levels": []
     }
@@ -11602,7 +11496,7 @@
             "thursday",
             "sunday"
           ],
-          "name": "Reconversion",
+          "name": "Héritage sombre",
           "reward": [
             {
               "quality": 2,
@@ -11624,7 +11518,7 @@
             "friday",
             "sunday"
           ],
-          "name": "Illusions",
+          "name": "Perchoir renversé",
           "reward": [
             {
               "quality": 2,
@@ -12177,7 +12071,7 @@
             "thursday",
             "sunday"
           ],
-          "name": "Ombres",
+          "name": "Splendeur radieuse",
           "reward": [
             {
               "quality": 2,
@@ -12203,7 +12097,7 @@
             "friday",
             "sunday"
           ],
-          "name": "Observation",
+          "name": "Prières chantées",
           "reward": [
             {
               "quality": 2,
@@ -12229,7 +12123,7 @@
             "saturday",
             "sunday"
           ],
-          "name": "Estimation",
+          "name": "Oblation lunaire",
           "reward": [
             {
               "quality": 2,
@@ -12826,28 +12720,27 @@
     }
   },
   {
-    "pageTitle": "Moonchild's Treasures",
-    "releaseVersion": "Luna IV",
+    "pageTitle": "Inverted Glacier",
+    "releaseVersion": "7.0",
     "en": {
-      "name": "Moonchild's Treasures",
+      "name": "Inverted Glacier",
       "domainType": "Domain of Blessing",
       "location": {
-        "mainLocation": "Nod-Krai",
-        "subLocation": "Ashveil Peak"
+        "mainLocation": "Snezhnaya",
+        "subLocation": "Everfrozen Earth"
       },
-      "description": "In an age long forgotten by those who now dwell beneath the moon, the descendants of the far north once raised a tower upon this land. To the followers of the morning star, it served as a sign of their resolve to resist the decree of fate and the will of the gods, and it bore witness to a dream that once shone with radiant brilliance before the sky-fire reduced it to ash. Within this place, the priests of the Moonchildren concealed the last sparks of an ancient civilization's splendor and its long-lost miracles. Their hope was that, when the light of the Welkin Moon at last returned to the earth, it would lead the wandering and displaced back to their former paradise. Yet when the tower fell and its sacred Mekhaneikos were carried off by those with ill intent, the last generations of that distant era let even their hope fade from memory, and they drifted into the shadow of ignorance and confusion. Now, only the owls that remain among these ruins give voice to the dream that time has buried, lamenting what once was and what has long since been forgotten.",
+      "description": "In the most ancient legends of the fae, the dead tundra was once blanketed in lush, vibrant greenery, and streams of sweet honey filled the placid frozen sea. Yet, not even the eldest among them had ever witnessed that mythical paradise. Wherever the eye turned, naught but suffering and blizzards endlessly grind down the solemn, somber earth, and the fragile yet unyielding souls who clung to it.",
       "recommendedElements": [
-        "Hydro",
-        "Geo",
+        "Cryo",
         "Electro",
-        "Dendro"
+        "Anemo"
       ],
-      "releaseVersion": "Luna IV",
+      "releaseVersion": "7.0",
       "rewards": [],
       "levels": [
         {
           "level": 1,
-          "name": "Moonchild's Treasures I",
+          "name": "Inverted Glacier I",
           "teamLevelRecommanded": 59,
           "rewards": [
             {
@@ -12866,15 +12759,10 @@
           "waves": [
             {
               "wave": 1,
-              "description": "Defeat 7 opponents within 300 seconds",
+              "description": "Defeat 4 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Oprichniki Vanguard",
-                  "number": 2,
-                  "level": 59
-                },
-                {
-                  "name": "Force Recon Storm Landcruiser",
+                  "name": "Volkodlak Basher",
                   "number": 2,
                   "level": 59
                 }
@@ -12882,15 +12770,10 @@
             },
             {
               "wave": 2,
-              "description": "Defeat 7 opponents within 300 seconds",
+              "description": "Defeat 4 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Oprichniki Fireblade Shock Trooper",
-                  "number": 1,
-                  "level": 59
-                },
-                {
-                  "name": "Force Recon Ground Effect Landcruiser",
+                  "name": "Volkodlak Basher",
                   "number": 2,
                   "level": 59
                 }
@@ -12900,7 +12783,7 @@
         },
         {
           "level": 2,
-          "name": "Moonchild's Treasures II",
+          "name": "Inverted Glacier II",
           "teamLevelRecommanded": 69,
           "rewards": [
             {
@@ -12919,31 +12802,21 @@
           "waves": [
             {
               "wave": 1,
-              "description": "Defeat 7 opponents within 300 seconds",
+              "description": "Defeat 5 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Oprichniki Vanguard",
-                  "number": 2,
-                  "level": 69
-                },
-                {
-                  "name": "Force Recon Storm Landcruiser",
-                  "number": 2,
+                  "name": "Glaciomancer",
+                  "number": 3,
                   "level": 69
                 }
               ]
             },
             {
               "wave": 2,
-              "description": "Defeat 7 opponents within 300 seconds",
+              "description": "Defeat 5 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Oprichniki Fireblade Shock Trooper",
-                  "number": 1,
-                  "level": 69
-                },
-                {
-                  "name": "Force Recon Ground Effect Landcruiser",
+                  "name": "Chimeric Winged Elephant",
                   "number": 2,
                   "level": 69
                 }
@@ -12953,7 +12826,7 @@
         },
         {
           "level": 3,
-          "name": "Moonchild's Treasures III",
+          "name": "Inverted Glacier III",
           "teamLevelRecommanded": 80,
           "rewards": [
             {
@@ -12975,13 +12848,13 @@
               "description": "Defeat 7 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Oprichniki Vanguard",
-                  "number": 2,
+                  "name": "Chimeric Burrowbeast",
+                  "number": 1,
                   "level": 80
                 },
                 {
-                  "name": "Force Recon Storm Landcruiser",
-                  "number": 2,
+                  "name": "Chimeric Armored Beast",
+                  "number": 1,
                   "level": 80
                 }
               ]
@@ -12991,13 +12864,8 @@
               "description": "Defeat 7 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Oprichniki Fireblade Shock Trooper",
+                  "name": "Chimeric Horned Bear",
                   "number": 1,
-                  "level": 80
-                },
-                {
-                  "name": "Force Recon Ground Effect Landcruiser",
-                  "number": 2,
                   "level": 80
                 }
               ]
@@ -13006,42 +12874,39 @@
         },
         {
           "level": 4,
-          "name": "Moonchild's Treasures IV",
-          "teamLevelRecommanded": 90,
-          "rewards": [
-            {
-              "name": "Adventure EXP",
-              "quantity": 100
-            },
-            {
-              "name": "Mora",
-              "quantity": 2525
-            },
-            {
-              "name": "Companionship EXP",
-              "quantity": 20
-            }
-          ],
+          "name": "Inverted Glacier IV",
+          "teamLevelRecommanded": 89,
+          "rewards": [],
           "waves": [
             {
               "wave": 1,
-              "description": "Defeat 6 opponents within 300 seconds",
+              "description": "Defeat 4 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Fisher of Hidden Depths",
-                  "number": 3,
-                  "level": 90
+                  "name": "Glacial Warden",
+                  "number": 1,
+                  "level": 89
+                },
+                {
+                  "name": "Glaciomancer",
+                  "number": 1,
+                  "level": 89
                 }
               ]
             },
             {
               "wave": 2,
-              "description": "Defeat 6 opponents within 300 seconds",
+              "description": "Defeat 4 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Fisher of Hidden Depths",
-                  "number": 3,
-                  "level": 90
+                  "name": "Chimeric Horned Bear",
+                  "number": 1,
+                  "level": 89
+                },
+                {
+                  "name": "Chimeric Armored Beast",
+                  "number": 1,
+                  "level": 89
                 }
               ]
             }
@@ -13050,25 +12915,24 @@
       ]
     },
     "fr": {
-      "name": "Trésors des enfants-lunes",
+      "name": "Glacier inversé",
       "domainType": "Domaine de bénédiction",
       "location": {
-        "mainLocation": "Nod-Krai",
-        "subLocation": "Pic cendrévoile"
+        "mainLocation": "Snezhnaya",
+        "subLocation": "Terre permagelée"
       },
-      "description": "In an age long forgotten by those who now dwell beneath the moon, the descendants of the far north once raised a tower upon this land. To the followers of the morning star, it served as a sign of their resolve to resist the decree of fate and the will of the gods, and it bore witness to a dream that once shone with radiant brilliance before the sky-fire reduced it to ash. Within this place, the priests of the Moonchildren concealed the last sparks of an ancient civilization's splendor and its long-lost miracles. Their hope was that, when the light of the Welkin Moon at last returned to the earth, it would lead the wandering and displaced back to their former paradise. Yet when the tower fell and its sacred Mekhaneikos were carried off by those with ill intent, the last generations of that distant era let even their hope fade from memory, and they drifted into the shadow of ignorance and confusion. Now, only the owls that remain among these ruins give voice to the dream that time has buried, lamenting what once was and what has long since been forgotten.",
+      "description": "In the most ancient legends of the fae, the dead tundra was once blanketed in lush, vibrant greenery, and streams of sweet honey filled the placid frozen sea. Yet, not even the eldest among them had ever witnessed that mythical paradise. Wherever the eye turned, naught but suffering and blizzards endlessly grind down the solemn, somber earth, and the fragile yet unyielding souls who clung to it.",
       "recommendedElements": [
-        "Hydro",
-        "Geo",
+        "Cryo",
         "Electro",
-        "Dendro"
+        "Anemo"
       ],
-      "releaseVersion": "Luna IV",
+      "releaseVersion": "7.0",
       "rewards": [],
       "levels": [
         {
           "level": 1,
-          "name": "Trésors des enfants-lunes I",
+          "name": "Glacier inversé I",
           "teamLevelRecommanded": 59,
           "rewards": [
             {
@@ -13087,15 +12951,10 @@
           "waves": [
             {
               "wave": 1,
-              "description": "Defeat 7 opponents within 300 seconds",
+              "description": "Defeat 4 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Oprichniki Vanguard",
-                  "number": 2,
-                  "level": 59
-                },
-                {
-                  "name": "Force Recon Storm Landcruiser",
+                  "name": "Volkodlak Basher",
                   "number": 2,
                   "level": 59
                 }
@@ -13103,15 +12962,10 @@
             },
             {
               "wave": 2,
-              "description": "Defeat 7 opponents within 300 seconds",
+              "description": "Defeat 4 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Oprichniki Fireblade Shock Trooper",
-                  "number": 1,
-                  "level": 59
-                },
-                {
-                  "name": "Force Recon Ground Effect Landcruiser",
+                  "name": "Volkodlak Basher",
                   "number": 2,
                   "level": 59
                 }
@@ -13121,7 +12975,7 @@
         },
         {
           "level": 2,
-          "name": "Trésors des enfants-lunes II",
+          "name": "Glacier inversé II",
           "teamLevelRecommanded": 69,
           "rewards": [
             {
@@ -13140,31 +12994,21 @@
           "waves": [
             {
               "wave": 1,
-              "description": "Defeat 7 opponents within 300 seconds",
+              "description": "Defeat 5 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Oprichniki Vanguard",
-                  "number": 2,
-                  "level": 69
-                },
-                {
-                  "name": "Force Recon Storm Landcruiser",
-                  "number": 2,
+                  "name": "Glaciomancer",
+                  "number": 3,
                   "level": 69
                 }
               ]
             },
             {
               "wave": 2,
-              "description": "Defeat 7 opponents within 300 seconds",
+              "description": "Defeat 5 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Oprichniki Fireblade Shock Trooper",
-                  "number": 1,
-                  "level": 69
-                },
-                {
-                  "name": "Force Recon Ground Effect Landcruiser",
+                  "name": "Chimeric Winged Elephant",
                   "number": 2,
                   "level": 69
                 }
@@ -13174,7 +13018,7 @@
         },
         {
           "level": 3,
-          "name": "Trésors des enfants-lunes III",
+          "name": "Glacier inversé III",
           "teamLevelRecommanded": 80,
           "rewards": [
             {
@@ -13196,13 +13040,13 @@
               "description": "Defeat 7 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Oprichniki Vanguard",
-                  "number": 2,
+                  "name": "Chimeric Burrowbeast",
+                  "number": 1,
                   "level": 80
                 },
                 {
-                  "name": "Force Recon Storm Landcruiser",
-                  "number": 2,
+                  "name": "Chimeric Armored Beast",
+                  "number": 1,
                   "level": 80
                 }
               ]
@@ -13212,13 +13056,8 @@
               "description": "Defeat 7 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Oprichniki Fireblade Shock Trooper",
+                  "name": "Chimeric Horned Bear",
                   "number": 1,
-                  "level": 80
-                },
-                {
-                  "name": "Force Recon Ground Effect Landcruiser",
-                  "number": 2,
                   "level": 80
                 }
               ]
@@ -13227,78 +13066,45 @@
         },
         {
           "level": 4,
-          "name": "Trésors des enfants-lunes IV",
-          "teamLevelRecommanded": 90,
-          "rewards": [
-            {
-              "name": "EXP d'Aventure",
-              "quantity": 100
-            },
-            {
-              "name": "Mora",
-              "quantity": 2525
-            },
-            {
-              "name": "EXP d'affinité",
-              "quantity": 20
-            }
-          ],
+          "name": "Glacier inversé IV",
+          "teamLevelRecommanded": 89,
+          "rewards": [],
           "waves": [
             {
               "wave": 1,
-              "description": "Defeat 6 opponents within 300 seconds",
+              "description": "Defeat 4 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Fisher of Hidden Depths",
-                  "number": 3,
-                  "level": 90
+                  "name": "Glacial Warden",
+                  "number": 1,
+                  "level": 89
+                },
+                {
+                  "name": "Glaciomancer",
+                  "number": 1,
+                  "level": 89
                 }
               ]
             },
             {
               "wave": 2,
-              "description": "Defeat 6 opponents within 300 seconds",
+              "description": "Defeat 4 opponents within 300 seconds",
               "enemies": [
                 {
-                  "name": "Fisher of Hidden Depths",
-                  "number": 3,
-                  "level": 90
+                  "name": "Chimeric Horned Bear",
+                  "number": 1,
+                  "level": 89
+                },
+                {
+                  "name": "Chimeric Armored Beast",
+                  "number": 1,
+                  "level": 89
                 }
               ]
             }
           ]
         }
       ]
-    }
-  },
-  {
-    "pageTitle": "Spiral Abyss",
-    "releaseVersion": "1.0",
-    "en": {
-      "name": "Spiral Abyss",
-      "domainType": "Special",
-      "location": {
-        "mainLocation": "Mondstadt",
-        "subLocation": "Galesong Hill"
-      },
-      "description": "",
-      "recommendedElements": [],
-      "releaseVersion": "1.0",
-      "rewards": [],
-      "levels": []
-    },
-    "fr": {
-      "name": "Profondeurs spiralées",
-      "domainType": "Domaine spécial",
-      "location": {
-        "mainLocation": "Mondstadt",
-        "subLocation": "Mondstadt"
-      },
-      "description": "",
-      "recommendedElements": [],
-      "releaseVersion": "1.0",
-      "rewards": [],
-      "levels": []
     }
   },
   {
@@ -14318,6 +14124,118 @@
     }
   },
   {
+    "pageTitle": "Moshiri Kara",
+    "releaseVersion": "2.2",
+    "en": {
+      "name": "Moshiri Kara",
+      "domainType": "One-Time",
+      "location": {
+        "mainLocation": "Inazuma",
+        "subLocation": "Tsurumi Island"
+      },
+      "description": "A mansion that was set up somewhere outside the Sea of Fog. No one knows who built this place, but it seems clear that it is now nothing but a den of ravenous wolves.",
+      "recommendedElements": [
+        "Electro",
+        "Geo"
+      ],
+      "releaseVersion": "2.2",
+      "rewards": [],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Moshiri Kara I",
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 22 opponents.",
+              "enemies": [
+                {
+                  "name": "Thundercraven Rifthound Whelp",
+                  "number": 7
+                },
+                {
+                  "name": "Thundercraven Rifthound",
+                  "number": 2
+                },
+                {
+                  "name": "Rockfond Rifthound Whelp",
+                  "number": 7
+                },
+                {
+                  "name": "Rockfond Rifthound",
+                  "number": 2
+                },
+                {
+                  "name": "Blazing Axe Mitachurl",
+                  "number": 2
+                },
+                {
+                  "name": "Rock Shieldwall Mitachurl",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "name": "Moshiri Kara",
+      "domainType": "Domaine à usage unique",
+      "location": {
+        "mainLocation": "Inazuma",
+        "subLocation": "Île de Tsurumi"
+      },
+      "description": "A mansion that was set up somewhere outside the Sea of Fog. No one knows who built this place, but it seems clear that it is now nothing but a den of ravenous wolves.",
+      "recommendedElements": [
+        "Electro",
+        "Geo"
+      ],
+      "releaseVersion": "2.2",
+      "rewards": [],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Moshiri Kara I",
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 22 opponents.",
+              "enemies": [
+                {
+                  "name": "Thundercraven Rifthound Whelp",
+                  "number": 7
+                },
+                {
+                  "name": "Thundercraven Rifthound",
+                  "number": 2
+                },
+                {
+                  "name": "Rockfond Rifthound Whelp",
+                  "number": 7
+                },
+                {
+                  "name": "Rockfond Rifthound",
+                  "number": 2
+                },
+                {
+                  "name": "Blazing Axe Mitachurl",
+                  "number": 2
+                },
+                {
+                  "name": "Rock Shieldwall Mitachurl",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "pageTitle": "Mystic Onmyou Chamber",
     "releaseVersion": "2.2",
     "en": {
@@ -14776,542 +14694,6 @@
     }
   },
   {
-    "pageTitle": "Spire of Solitary Enlightenment",
-    "releaseVersion": "3.0",
-    "en": {
-      "name": "Spire of Solitary Enlightenment",
-      "domainType": "Domain of Blessing",
-      "location": {
-        "mainLocation": "Sumeru",
-        "subLocation": "Avidya Forest"
-      },
-      "description": "In ancient times, this was a great and beautiful place, seemingly made to bless the children of humanity. But the arrow of heaven would descend, making mountains out of flat land and burying the ancient capitol beneath the hills.",
-      "recommendedElements": [
-        "Electro",
-        "Cryo",
-        "Hydro"
-      ],
-      "releaseVersion": "3.0",
-      "rewards": [],
-      "levels": [
-        {
-          "level": 1,
-          "name": "Spire of Solitary Enlightenment I",
-          "teamLevelRecommanded": 59,
-          "rewards": [
-            {
-              "name": "Adventure EXP",
-              "quantity": 100
-            },
-            {
-              "name": "Mora",
-              "quantity": 1850
-            },
-            {
-              "name": "Companionship EXP",
-              "quantity": 15
-            }
-          ],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat 8 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Crossbow",
-                  "number": 1,
-                  "level": 59
-                },
-                {
-                  "name": "Eremite Sword-Dancer",
-                  "number": 2,
-                  "level": 59
-                },
-                {
-                  "name": "Eremite Ravenbeak Halberdier",
-                  "number": 1,
-                  "level": 59
-                }
-              ]
-            },
-            {
-              "wave": 2,
-              "description": "Defeat 8 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Crossbow",
-                  "number": 3,
-                  "level": 59
-                }
-              ]
-            },
-            {
-              "wave": 3,
-              "description": "Defeat 8 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Sunfrost",
-                  "number": 1,
-                  "level": 59
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "level": 2,
-          "name": "Spire of Solitary Enlightenment II",
-          "teamLevelRecommanded": 69,
-          "rewards": [
-            {
-              "name": "Adventure EXP",
-              "quantity": 100
-            },
-            {
-              "name": "Mora",
-              "quantity": 2025
-            },
-            {
-              "name": "Companionship EXP",
-              "quantity": 20
-            }
-          ],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat 11 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Crossbow",
-                  "number": 2,
-                  "level": 69
-                },
-                {
-                  "name": "Eremite Sword-Dancer",
-                  "number": 2,
-                  "level": 69
-                },
-                {
-                  "name": "Eremite Axe Vanguard",
-                  "number": 1,
-                  "level": 69
-                }
-              ]
-            },
-            {
-              "wave": 2,
-              "description": "Defeat 11 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Crossbow",
-                  "number": 2,
-                  "level": 69
-                },
-                {
-                  "name": "Eremite Daythunder",
-                  "number": 1,
-                  "level": 69
-                }
-              ]
-            },
-            {
-              "wave": 3,
-              "description": "Defeat 11 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Sword-Dancer",
-                  "number": 1,
-                  "level": 69
-                },
-                {
-                  "name": "Eremite Axe Vanguard",
-                  "number": 1,
-                  "level": 69
-                },
-                {
-                  "name": "Eremite Desert Clearwater",
-                  "number": 1,
-                  "level": 69
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "level": 3,
-          "name": "Spire of Solitary Enlightenment III",
-          "teamLevelRecommanded": 80,
-          "rewards": [
-            {
-              "name": "Adventure EXP",
-              "quantity": 100
-            },
-            {
-              "name": "Mora",
-              "quantity": 2200
-            },
-            {
-              "name": "Companionship EXP",
-              "quantity": 20
-            }
-          ],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat 7 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Daythunder",
-                  "number": 1,
-                  "level": 80
-                },
-                {
-                  "name": "Eremite Crossbow",
-                  "number": 2,
-                  "level": 80
-                },
-                {
-                  "name": "Eremite Linebreaker",
-                  "number": 1,
-                  "level": 80
-                },
-                {
-                  "name": "Eremite Ravenbeak Halberdier",
-                  "number": 1,
-                  "level": 80
-                }
-              ]
-            },
-            {
-              "wave": 2,
-              "description": "Defeat 7 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Desert Clearwater",
-                  "number": 1,
-                  "level": 80
-                },
-                {
-                  "name": "Eremite Sunfrost",
-                  "number": 1,
-                  "level": 80
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "level": 4,
-          "name": "Spire of Solitary Enlightenment IV",
-          "teamLevelRecommanded": 90,
-          "rewards": [
-            {
-              "name": "Adventure EXP",
-              "quantity": 100
-            },
-            {
-              "name": "Mora",
-              "quantity": 2525
-            },
-            {
-              "name": "Companionship EXP",
-              "quantity": 20
-            }
-          ],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat 3 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Daythunder/",
-                  "number": 1,
-                  "level": 90
-                },
-                {
-                  "name": "Eremite Desert Clearwater",
-                  "number": 1,
-                  "level": 90
-                },
-                {
-                  "name": "Eremite Sunfrost",
-                  "number": 1,
-                  "level": 90
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "fr": {
-      "name": "Tour de l'illumination",
-      "domainType": "Domaine de bénédiction",
-      "location": {
-        "mainLocation": "Sumeru",
-        "subLocation": "Forêt d'Avidya"
-      },
-      "description": "In ancient times, this was a great and beautiful place, seemingly made to bless the children of humanity. But the arrow of heaven would descend, making mountains out of flat land and burying the ancient capitol beneath the hills.",
-      "recommendedElements": [
-        "Electro",
-        "Cryo",
-        "Hydro"
-      ],
-      "releaseVersion": "3.0",
-      "rewards": [],
-      "levels": [
-        {
-          "level": 1,
-          "name": "Tour de l'illumination I",
-          "teamLevelRecommanded": 59,
-          "rewards": [
-            {
-              "name": "EXP d'Aventure",
-              "quantity": 100
-            },
-            {
-              "name": "Mora",
-              "quantity": 1850
-            },
-            {
-              "name": "EXP d'affinité",
-              "quantity": 15
-            }
-          ],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat 8 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Crossbow",
-                  "number": 1,
-                  "level": 59
-                },
-                {
-                  "name": "Eremite Sword-Dancer",
-                  "number": 2,
-                  "level": 59
-                },
-                {
-                  "name": "Eremite Ravenbeak Halberdier",
-                  "number": 1,
-                  "level": 59
-                }
-              ]
-            },
-            {
-              "wave": 2,
-              "description": "Defeat 8 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Crossbow",
-                  "number": 3,
-                  "level": 59
-                }
-              ]
-            },
-            {
-              "wave": 3,
-              "description": "Defeat 8 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Sunfrost",
-                  "number": 1,
-                  "level": 59
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "level": 2,
-          "name": "Tour de l'illumination II",
-          "teamLevelRecommanded": 69,
-          "rewards": [
-            {
-              "name": "EXP d'Aventure",
-              "quantity": 100
-            },
-            {
-              "name": "Mora",
-              "quantity": 2025
-            },
-            {
-              "name": "EXP d'affinité",
-              "quantity": 20
-            }
-          ],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat 11 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Crossbow",
-                  "number": 2,
-                  "level": 69
-                },
-                {
-                  "name": "Eremite Sword-Dancer",
-                  "number": 2,
-                  "level": 69
-                },
-                {
-                  "name": "Eremite Axe Vanguard",
-                  "number": 1,
-                  "level": 69
-                }
-              ]
-            },
-            {
-              "wave": 2,
-              "description": "Defeat 11 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Crossbow",
-                  "number": 2,
-                  "level": 69
-                },
-                {
-                  "name": "Eremite Daythunder",
-                  "number": 1,
-                  "level": 69
-                }
-              ]
-            },
-            {
-              "wave": 3,
-              "description": "Defeat 11 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Sword-Dancer",
-                  "number": 1,
-                  "level": 69
-                },
-                {
-                  "name": "Eremite Axe Vanguard",
-                  "number": 1,
-                  "level": 69
-                },
-                {
-                  "name": "Eremite Desert Clearwater",
-                  "number": 1,
-                  "level": 69
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "level": 3,
-          "name": "Tour de l'illumination III",
-          "teamLevelRecommanded": 80,
-          "rewards": [
-            {
-              "name": "EXP d'Aventure",
-              "quantity": 100
-            },
-            {
-              "name": "Mora",
-              "quantity": 2200
-            },
-            {
-              "name": "EXP d'affinité",
-              "quantity": 20
-            }
-          ],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat 7 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Daythunder",
-                  "number": 1,
-                  "level": 80
-                },
-                {
-                  "name": "Eremite Crossbow",
-                  "number": 2,
-                  "level": 80
-                },
-                {
-                  "name": "Eremite Linebreaker",
-                  "number": 1,
-                  "level": 80
-                },
-                {
-                  "name": "Eremite Ravenbeak Halberdier",
-                  "number": 1,
-                  "level": 80
-                }
-              ]
-            },
-            {
-              "wave": 2,
-              "description": "Defeat 7 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Desert Clearwater",
-                  "number": 1,
-                  "level": 80
-                },
-                {
-                  "name": "Eremite Sunfrost",
-                  "number": 1,
-                  "level": 80
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "level": 4,
-          "name": "Tour de l'illumination IV",
-          "teamLevelRecommanded": 90,
-          "rewards": [
-            {
-              "name": "EXP d'Aventure",
-              "quantity": 100
-            },
-            {
-              "name": "Mora",
-              "quantity": 2525
-            },
-            {
-              "name": "EXP d'affinité",
-              "quantity": 20
-            }
-          ],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat 3 opponent(s) within 360 second(s)",
-              "enemies": [
-                {
-                  "name": "Eremite Daythunder/",
-                  "number": 1,
-                  "level": 90
-                },
-                {
-                  "name": "Eremite Desert Clearwater",
-                  "number": 1,
-                  "level": 90
-                },
-                {
-                  "name": "Eremite Sunfrost",
-                  "number": 1,
-                  "level": 90
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
     "pageTitle": "Red Desert Threshold",
     "releaseVersion": "3.1",
     "en": {
@@ -15428,140 +14810,6 @@
                 },
                 {
                   "name": "Stonehide Lawachurl",
-                  "number": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "pageTitle": "Somalata Inland Sea",
-    "releaseVersion": "3.6",
-    "en": {
-      "name": "Somalata Inland Sea",
-      "domainType": "One-Time",
-      "location": {
-        "mainLocation": "Sumeru",
-        "subLocation": "Realm of Farakhkert"
-      },
-      "description": "The fragrant sea underneath the desert is still as luxuriant today as it has always been. Nobody knows when the marvelous sentient Fungi moved in and became part of the ecology of the underground ocean.",
-      "recommendedElements": [
-        "Hydro"
-      ],
-      "releaseVersion": "3.6",
-      "rewards": [],
-      "levels": [
-        {
-          "level": 1,
-          "name": "Somalata Inland Sea I",
-          "rewards": [],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat all enemies",
-              "enemies": [
-                {
-                  "name": "Stretchy Electro Fungus",
-                  "number": 2
-                },
-                {
-                  "name": "Floating Dendro Fungus",
-                  "number": 1
-                },
-                {
-                  "name": "Grounded Geoshroom",
-                  "number": 1
-                }
-              ]
-            },
-            {
-              "wave": 2,
-              "description": "Defeat all enemies",
-              "enemies": [
-                {
-                  "name": "Floating Anemo Fungus",
-                  "number": 2
-                },
-                {
-                  "name": "Winged Dendroshroom",
-                  "number": 1
-                }
-              ]
-            },
-            {
-              "wave": 3,
-              "description": "Defeat all enemies",
-              "enemies": [
-                {
-                  "name": "Consecrated Horned Crocodile",
-                  "number": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "fr": {
-      "name": "Mer intérieure de somalatas",
-      "domainType": "Domaine à usage unique",
-      "location": {
-        "mainLocation": "Sumeru",
-        "subLocation": "Royaume de Farakhkert"
-      },
-      "description": "The fragrant sea underneath the desert is still as luxuriant today as it has always been. Nobody knows when the marvelous sentient Fungi moved in and became part of the ecology of the underground ocean.",
-      "recommendedElements": [
-        "Hydro"
-      ],
-      "releaseVersion": "3.6",
-      "rewards": [],
-      "levels": [
-        {
-          "level": 1,
-          "name": "Mer intérieure de somalatas I",
-          "rewards": [],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat all enemies",
-              "enemies": [
-                {
-                  "name": "Stretchy Electro Fungus",
-                  "number": 2
-                },
-                {
-                  "name": "Floating Dendro Fungus",
-                  "number": 1
-                },
-                {
-                  "name": "Grounded Geoshroom",
-                  "number": 1
-                }
-              ]
-            },
-            {
-              "wave": 2,
-              "description": "Defeat all enemies",
-              "enemies": [
-                {
-                  "name": "Floating Anemo Fungus",
-                  "number": 2
-                },
-                {
-                  "name": "Winged Dendroshroom",
-                  "number": 1
-                }
-              ]
-            },
-            {
-              "wave": 3,
-              "description": "Defeat all enemies",
-              "enemies": [
-                {
-                  "name": "Consecrated Horned Crocodile",
                   "number": 1
                 }
               ]
@@ -16710,29 +15958,29 @@
     }
   },
   {
-    "pageTitle": "Spino Doubleblaster",
+    "pageTitle": "Mutual Security Enhancing Simulation",
     "releaseVersion": "4.7",
     "en": {
-      "name": "Spino Doubleblaster",
+      "name": "Mutual Security Enhancing Simulation",
       "domainType": "Event",
       "location": {
-        "mainLocation": "Fontaine",
-        "subLocation": "Belleau Region"
+        "mainLocation": "Liyue",
+        "subLocation": "Sea of Clouds"
       },
-      "description": "The engineer Brest is testing the Improved Crocomorph Vortex-Based Crocodilian-armored Heavy Naval Battleship-style Recreational Water Blasting Cannon on the outskirts of Fontaine. She is all too happy to let others experience the joys the Improved Crococannon can bring...",
+      "description": "A venue built by the General Staff of the Millelith for holding a joint wargaming exercise. As the wargaming is still in a trial phase, the budget is limited, in turn restricting the scale of the meeting. Not a Mora was wasted during the construction of the venue. The size is just right for this iteration's requirements, offering enough space for the delegations from each of the neighboring nations...",
       "recommendedElements": [],
       "releaseVersion": "4.7",
       "rewards": [],
       "levels": []
     },
     "fr": {
-      "name": "Doubles turbulences en plein air",
+      "name": "Simulation d'amélioration de sécurité mutuelle",
       "domainType": "Domaine évènementiel",
       "location": {
-        "mainLocation": "Fontaine",
-        "subLocation": "Région Belleau"
+        "mainLocation": "Liyue",
+        "subLocation": "Mer de nuages"
       },
-      "description": "The engineer Brest is testing the Improved Crocomorph Vortex-Based Crocodilian-armored Heavy Naval Battleship-style Recreational Water Blasting Cannon on the outskirts of Fontaine. She is all too happy to let others experience the joys the Improved Crococannon can bring...",
+      "description": "A venue built by the General Staff of the Millelith for holding a joint wargaming exercise. As the wargaming is still in a trial phase, the budget is limited, in turn restricting the scale of the meeting. Not a Mora was wasted during the construction of the venue. The size is just right for this iteration's requirements, offering enough space for the delegations from each of the neighboring nations...",
       "recommendedElements": [],
       "releaseVersion": "4.7",
       "rewards": [],
@@ -17175,6 +16423,1450 @@
                   "name": "Eroding Avatar of Lava",
                   "number": 3,
                   "level": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Moonchild's Treasures",
+    "releaseVersion": "Luna IV",
+    "en": {
+      "name": "Moonchild's Treasures",
+      "domainType": "Domain of Blessing",
+      "location": {
+        "mainLocation": "Nod-Krai",
+        "subLocation": "Ashveil Peak"
+      },
+      "description": "In an age long forgotten by those who now dwell beneath the moon, the descendants of the far north once raised a tower upon this land. To the followers of the morning star, it served as a sign of their resolve to resist the decree of fate and the will of the gods, and it bore witness to a dream that once shone with radiant brilliance before the sky-fire reduced it to ash. Within this place, the priests of the Moonchildren concealed the last sparks of an ancient civilization's splendor and its long-lost miracles. Their hope was that, when the light of the Welkin Moon at last returned to the earth, it would lead the wandering and displaced back to their former paradise. Yet when the tower fell and its sacred Mekhaneikos were carried off by those with ill intent, the last generations of that distant era let even their hope fade from memory, and they drifted into the shadow of ignorance and confusion. Now, only the owls that remain among these ruins give voice to the dream that time has buried, lamenting what once was and what has long since been forgotten.",
+      "recommendedElements": [
+        "Hydro",
+        "Geo",
+        "Electro",
+        "Dendro"
+      ],
+      "releaseVersion": "Luna IV",
+      "rewards": [],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Moonchild's Treasures I",
+          "teamLevelRecommanded": 59,
+          "rewards": [
+            {
+              "name": "Adventure EXP",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 1850
+            },
+            {
+              "name": "Companionship EXP",
+              "quantity": 15
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 7 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Oprichniki Vanguard",
+                  "number": 2,
+                  "level": 59
+                },
+                {
+                  "name": "Force Recon Storm Landcruiser",
+                  "number": 2,
+                  "level": 59
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 7 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Oprichniki Fireblade Shock Trooper",
+                  "number": 1,
+                  "level": 59
+                },
+                {
+                  "name": "Force Recon Ground Effect Landcruiser",
+                  "number": 2,
+                  "level": 59
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Moonchild's Treasures II",
+          "teamLevelRecommanded": 69,
+          "rewards": [
+            {
+              "name": "Adventure EXP",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 2025
+            },
+            {
+              "name": "Companionship EXP",
+              "quantity": 20
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 7 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Oprichniki Vanguard",
+                  "number": 2,
+                  "level": 69
+                },
+                {
+                  "name": "Force Recon Storm Landcruiser",
+                  "number": 2,
+                  "level": 69
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 7 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Oprichniki Fireblade Shock Trooper",
+                  "number": 1,
+                  "level": 69
+                },
+                {
+                  "name": "Force Recon Ground Effect Landcruiser",
+                  "number": 2,
+                  "level": 69
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Moonchild's Treasures III",
+          "teamLevelRecommanded": 80,
+          "rewards": [
+            {
+              "name": "Adventure EXP",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 2200
+            },
+            {
+              "name": "Companionship EXP",
+              "quantity": 20
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 7 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Oprichniki Vanguard",
+                  "number": 2,
+                  "level": 80
+                },
+                {
+                  "name": "Force Recon Storm Landcruiser",
+                  "number": 2,
+                  "level": 80
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 7 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Oprichniki Fireblade Shock Trooper",
+                  "number": 1,
+                  "level": 80
+                },
+                {
+                  "name": "Force Recon Ground Effect Landcruiser",
+                  "number": 2,
+                  "level": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Moonchild's Treasures IV",
+          "teamLevelRecommanded": 90,
+          "rewards": [
+            {
+              "name": "Adventure EXP",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 2525
+            },
+            {
+              "name": "Companionship EXP",
+              "quantity": 20
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 6 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Fisher of Hidden Depths",
+                  "number": 3,
+                  "level": 90
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 6 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Fisher of Hidden Depths",
+                  "number": 3,
+                  "level": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "name": "Trésors des enfants-lunes",
+      "domainType": "Domaine de bénédiction",
+      "location": {
+        "mainLocation": "Nod-Krai",
+        "subLocation": "Pic cendrévoile"
+      },
+      "description": "In an age long forgotten by those who now dwell beneath the moon, the descendants of the far north once raised a tower upon this land. To the followers of the morning star, it served as a sign of their resolve to resist the decree of fate and the will of the gods, and it bore witness to a dream that once shone with radiant brilliance before the sky-fire reduced it to ash. Within this place, the priests of the Moonchildren concealed the last sparks of an ancient civilization's splendor and its long-lost miracles. Their hope was that, when the light of the Welkin Moon at last returned to the earth, it would lead the wandering and displaced back to their former paradise. Yet when the tower fell and its sacred Mekhaneikos were carried off by those with ill intent, the last generations of that distant era let even their hope fade from memory, and they drifted into the shadow of ignorance and confusion. Now, only the owls that remain among these ruins give voice to the dream that time has buried, lamenting what once was and what has long since been forgotten.",
+      "recommendedElements": [
+        "Hydro",
+        "Geo",
+        "Electro",
+        "Dendro"
+      ],
+      "releaseVersion": "Luna IV",
+      "rewards": [],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Trésors des enfants-lunes I",
+          "teamLevelRecommanded": 59,
+          "rewards": [
+            {
+              "name": "EXP d'Aventure",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 1850
+            },
+            {
+              "name": "EXP d'affinité",
+              "quantity": 15
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 7 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Oprichniki Vanguard",
+                  "number": 2,
+                  "level": 59
+                },
+                {
+                  "name": "Force Recon Storm Landcruiser",
+                  "number": 2,
+                  "level": 59
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 7 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Oprichniki Fireblade Shock Trooper",
+                  "number": 1,
+                  "level": 59
+                },
+                {
+                  "name": "Force Recon Ground Effect Landcruiser",
+                  "number": 2,
+                  "level": 59
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Trésors des enfants-lunes II",
+          "teamLevelRecommanded": 69,
+          "rewards": [
+            {
+              "name": "EXP d'Aventure",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 2025
+            },
+            {
+              "name": "EXP d'affinité",
+              "quantity": 20
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 7 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Oprichniki Vanguard",
+                  "number": 2,
+                  "level": 69
+                },
+                {
+                  "name": "Force Recon Storm Landcruiser",
+                  "number": 2,
+                  "level": 69
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 7 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Oprichniki Fireblade Shock Trooper",
+                  "number": 1,
+                  "level": 69
+                },
+                {
+                  "name": "Force Recon Ground Effect Landcruiser",
+                  "number": 2,
+                  "level": 69
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Trésors des enfants-lunes III",
+          "teamLevelRecommanded": 80,
+          "rewards": [
+            {
+              "name": "EXP d'Aventure",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 2200
+            },
+            {
+              "name": "EXP d'affinité",
+              "quantity": 20
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 7 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Oprichniki Vanguard",
+                  "number": 2,
+                  "level": 80
+                },
+                {
+                  "name": "Force Recon Storm Landcruiser",
+                  "number": 2,
+                  "level": 80
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 7 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Oprichniki Fireblade Shock Trooper",
+                  "number": 1,
+                  "level": 80
+                },
+                {
+                  "name": "Force Recon Ground Effect Landcruiser",
+                  "number": 2,
+                  "level": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Trésors des enfants-lunes IV",
+          "teamLevelRecommanded": 90,
+          "rewards": [
+            {
+              "name": "EXP d'Aventure",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 2525
+            },
+            {
+              "name": "EXP d'affinité",
+              "quantity": 20
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 6 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Fisher of Hidden Depths",
+                  "number": 3,
+                  "level": 90
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 6 opponents within 300 seconds",
+              "enemies": [
+                {
+                  "name": "Fisher of Hidden Depths",
+                  "number": 3,
+                  "level": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Relics of the Fallen Grace",
+    "releaseVersion": "7.0",
+    "en": {
+      "name": "Relics of the Fallen Grace",
+      "domainType": "Domain of Mastery",
+      "location": {
+        "mainLocation": "Snezhnaya",
+        "subLocation": "Fellfrost Peak"
+      },
+      "description": "In a bygone era beyond mortal memory, ancient fae bereft of their homeland raised a secluded sanctuary here, yearning to soothe the agony of extinction through cold, solitary asceticism. Yet all things of flesh and blood must eventually fade like a dying ember. Across hundreds of epochs, the remnants who wept for the golden realm — and the countless followers who never knew its past glory — perished one after another like scattering snow. In the end, even the last hermit departed, leaving behind naught but a desolate, freezing silence.",
+      "recommendedElements": [
+        "Cryo",
+        "Electro"
+      ],
+      "releaseVersion": "7.0",
+      "rewards": [
+        {
+          "days": [
+            "monday",
+            "thursday",
+            "sunday"
+          ],
+          "name": "Contemplation",
+          "reward": [
+            {
+              "quality": 2,
+              "name": "Teachings of Charity"
+            },
+            {
+              "quality": 3,
+              "name": "Guide to Charity"
+            },
+            {
+              "quality": 4,
+              "name": "Philosophies of Charity"
+            }
+          ]
+        },
+        {
+          "days": [
+            "tuesday",
+            "friday",
+            "sunday"
+          ],
+          "name": "Hermitage",
+          "reward": [
+            {
+              "quality": 2,
+              "name": "Teachings of Fortitude"
+            },
+            {
+              "quality": 3,
+              "name": "Guide to Fortitude"
+            },
+            {
+              "quality": 4,
+              "name": "Philosophies of Fortitude"
+            }
+          ]
+        },
+        {
+          "days": [
+            "wednesday",
+            "saturday",
+            "sunday"
+          ],
+          "name": "Shared Vision",
+          "reward": [
+            {
+              "quality": 2,
+              "name": "Teachings of Glory"
+            },
+            {
+              "quality": 3,
+              "name": "Guide to Glory"
+            },
+            {
+              "quality": 4,
+              "name": "Philosophies of Glory"
+            }
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Relics of the Fallen Grace I",
+          "teamLevelRecommanded": 37,
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 6 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Volkodlak Raider",
+                  "number": 2,
+                  "level": 37
+                },
+                {
+                  "name": "Volkodlak Sharpshooter",
+                  "number": 1,
+                  "level": 37
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 6 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Volkodlak Sharpshooter",
+                  "number": 2,
+                  "level": 37
+                },
+                {
+                  "name": "Volkodlak Lobber",
+                  "number": 1,
+                  "level": 37
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Relics of the Fallen Grace II",
+          "teamLevelRecommanded": 53,
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 5 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Winged Soarer Knight",
+                  "number": 3,
+                  "level": 53
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 5 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Winged Halberd-Knight",
+                  "number": 2,
+                  "level": 53
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Relics of the Fallen Grace III",
+          "teamLevelRecommanded": 70,
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 9 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Juvenile Tree Segment",
+                  "number": 9,
+                  "level": 70
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Relics of the Fallen Grace IV",
+          "teamLevelRecommanded": 87,
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 6 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Rugged Elder Leshy",
+                  "number": 1,
+                  "level": 87
+                },
+                {
+                  "name": "Juvenile Tree Segment",
+                  "number": 2,
+                  "level": 87
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 6 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Rugged Elder Leshy",
+                  "number": 1,
+                  "level": 87
+                },
+                {
+                  "name": "Juvenile Tree Segment",
+                  "number": 2,
+                  "level": 87
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "name": "Relique de la grâce déchue",
+      "domainType": "Domaine de maîtrise",
+      "location": {
+        "mainLocation": "Snezhnaya",
+        "subLocation": "Cime de givrefuneste"
+      },
+      "description": "In a bygone era beyond mortal memory, ancient fae bereft of their homeland raised a secluded sanctuary here, yearning to soothe the agony of extinction through cold, solitary asceticism. Yet all things of flesh and blood must eventually fade like a dying ember. Across hundreds of epochs, the remnants who wept for the golden realm — and the countless followers who never knew its past glory — perished one after another like scattering snow. In the end, even the last hermit departed, leaving behind naught but a desolate, freezing silence.",
+      "recommendedElements": [
+        "Cryo",
+        "Electro"
+      ],
+      "releaseVersion": "7.0",
+      "rewards": [
+        {
+          "days": [
+            "monday",
+            "thursday",
+            "sunday"
+          ],
+          "name": "Contemplation",
+          "reward": [
+            {
+              "quality": 2,
+              "name": "Enseignement de la Charité"
+            },
+            {
+              "quality": 3,
+              "name": "Guide de la Charité"
+            },
+            {
+              "quality": 4,
+              "name": "Philosophie de la Charité"
+            }
+          ]
+        },
+        {
+          "days": [
+            "tuesday",
+            "friday",
+            "sunday"
+          ],
+          "name": "Ermitage",
+          "reward": [
+            {
+              "quality": 2,
+              "name": "Enseignement de la Persévérance"
+            },
+            {
+              "quality": 3,
+              "name": "Guide de la Persévérance"
+            },
+            {
+              "quality": 4,
+              "name": "Philosophie de la Persévérance"
+            }
+          ]
+        },
+        {
+          "days": [
+            "wednesday",
+            "saturday",
+            "sunday"
+          ],
+          "name": "Vision partagée",
+          "reward": [
+            {
+              "quality": 2,
+              "name": "Enseignement de la Gloire"
+            },
+            {
+              "quality": 3,
+              "name": "Guide de la Gloire"
+            },
+            {
+              "quality": 4,
+              "name": "Philosophie de la Gloire"
+            }
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Relique de la grâce déchue I",
+          "teamLevelRecommanded": 37,
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 6 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Volkodlak Raider",
+                  "number": 2,
+                  "level": 37
+                },
+                {
+                  "name": "Volkodlak Sharpshooter",
+                  "number": 1,
+                  "level": 37
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 6 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Volkodlak Sharpshooter",
+                  "number": 2,
+                  "level": 37
+                },
+                {
+                  "name": "Volkodlak Lobber",
+                  "number": 1,
+                  "level": 37
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Relique de la grâce déchue II",
+          "teamLevelRecommanded": 53,
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 5 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Winged Soarer Knight",
+                  "number": 3,
+                  "level": 53
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 5 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Winged Halberd-Knight",
+                  "number": 2,
+                  "level": 53
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Relique de la grâce déchue III",
+          "teamLevelRecommanded": 70,
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 9 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Juvenile Tree Segment",
+                  "number": 9,
+                  "level": 70
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Relique de la grâce déchue IV",
+          "teamLevelRecommanded": 87,
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 6 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Rugged Elder Leshy",
+                  "number": 1,
+                  "level": 87
+                },
+                {
+                  "name": "Juvenile Tree Segment",
+                  "number": 2,
+                  "level": 87
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 6 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Rugged Elder Leshy",
+                  "number": 1,
+                  "level": 87
+                },
+                {
+                  "name": "Juvenile Tree Segment",
+                  "number": 2,
+                  "level": 87
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pageTitle": "Scars of Cursed Obsession",
+    "releaseVersion": "7.0",
+    "en": {
+      "name": "Scars of Cursed Obsession",
+      "domainType": "Domain of Forgery",
+      "location": {
+        "mainLocation": "Snezhnaya",
+        "subLocation": "Everfrozen Earth"
+      },
+      "description": "It was an era of peace, when the conquests of the Belyi Tsar had faded into legend, and the turmoil of succession was reduced to mere tales in history books. Yet, the fae who had never lived through those bygone days still yearned to resurrect that ancient glory. A leaden dream was stained by the blood of countless souls, yet the dreamer remained unshaken, believing this was the only path to pave their honor. But at that road's end, there was no glory to be found, nor the old world of her dreams. There was only the blood that drowned her, blood grown cold, foul, and faded.",
+      "recommendedElements": [
+        "Anemo",
+        "Cryo"
+      ],
+      "releaseVersion": "7.0",
+      "rewards": [
+        {
+          "days": [
+            "monday",
+            "thursday",
+            "sunday"
+          ],
+          "name": "Cast Iron",
+          "reward": [
+            {
+              "quality": 2,
+              "name": "Rise of the Pale Star Army"
+            },
+            {
+              "quality": 3,
+              "name": "Muster of the Pale Star Army"
+            },
+            {
+              "quality": 4,
+              "name": "Clarion of the Pale Star Army"
+            },
+            {
+              "quality": 5,
+              "name": "Triumph of the Pale Star Army"
+            }
+          ]
+        },
+        {
+          "days": [
+            "tuesday",
+            "friday",
+            "sunday"
+          ],
+          "name": "Chain Track",
+          "reward": [
+            {
+              "quality": 2,
+              "name": "Measured Pour of the Cellared Spiritual Nectar"
+            },
+            {
+              "quality": 3,
+              "name": "Intoxication of the Cellared Spiritual Nectar"
+            },
+            {
+              "quality": 4,
+              "name": "Exhilaration of the Cellared Spiritual Nectar"
+            },
+            {
+              "quality": 5,
+              "name": "Revelry of the Cellared Spiritual Nectar"
+            }
+          ]
+        },
+        {
+          "days": [
+            "wednesday",
+            "saturday",
+            "sunday"
+          ],
+          "name": "Severed Steel",
+          "reward": [
+            {
+              "quality": 2,
+              "name": "The Frost Emperor's Revival"
+            },
+            {
+              "quality": 3,
+              "name": "The Frost Emperor's Ceremony"
+            },
+            {
+              "quality": 4,
+              "name": "The Frost Emperor's Lament"
+            },
+            {
+              "quality": 5,
+              "name": "The Frost Emperor's Farewell"
+            }
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Scars of Cursed Obsession I",
+          "teamLevelRecommanded": 15,
+          "rewards": [
+            {
+              "name": "Adventure EXP",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 1125
+            },
+            {
+              "name": "Companionship EXP",
+              "quantity": 10
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 5 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Volkodlak Raider",
+                  "number": 2,
+                  "level": 15
+                },
+                {
+                  "name": "Volkodlak Sharpshooter",
+                  "number": 1,
+                  "level": 15
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 5 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Volkodlak Lobber",
+                  "number": 2,
+                  "level": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Scars of Cursed Obsession II",
+          "teamLevelRecommanded": 36,
+          "rewards": [
+            {
+              "name": "Adventure EXP",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 1550
+            },
+            {
+              "name": "Companionship EXP",
+              "quantity": 15
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 5 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Volkodlak Raider",
+                  "number": 2,
+                  "level": 36
+                },
+                {
+                  "name": "Volkodlak Sharpshooter",
+                  "number": 1,
+                  "level": 36
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 5 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Volkodlak Basher",
+                  "number": 2,
+                  "level": 36
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Scars of Cursed Obsession III",
+          "teamLevelRecommanded": 59,
+          "rewards": [
+            {
+              "name": "Adventure EXP",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 1850
+            },
+            {
+              "name": "Companionship EXP",
+              "quantity": 15
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 4 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Long-Eared Striker",
+                  "number": 1,
+                  "level": 59
+                },
+                {
+                  "name": "Leomastiff Guard",
+                  "number": 1,
+                  "level": 59
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 4 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Channel Contact",
+                  "number": 1,
+                  "level": 59
+                },
+                {
+                  "name": "Voywolf Hunter",
+                  "number": 1,
+                  "level": 59
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Scars of Cursed Obsession IV",
+          "teamLevelRecommanded": 80,
+          "rewards": [
+            {
+              "name": "Adventure EXP",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 2200
+            },
+            {
+              "name": "Companionship EXP",
+              "quantity": 20
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 2 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Voywolf Hunter",
+                  "number": 1,
+                  "level": 80
+                },
+                {
+                  "name": "Fanged Zealot",
+                  "number": 1,
+                  "level": 80
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "name": "Cicatrice d'une obsession maudite",
+      "domainType": "Domaine de forge",
+      "location": {
+        "mainLocation": "Snezhnaya",
+        "subLocation": "Terre permagelée"
+      },
+      "description": "It was an era of peace, when the conquests of the Belyi Tsar had faded into legend, and the turmoil of succession was reduced to mere tales in history books. Yet, the fae who had never lived through those bygone days still yearned to resurrect that ancient glory. A leaden dream was stained by the blood of countless souls, yet the dreamer remained unshaken, believing this was the only path to pave their honor. But at that road's end, there was no glory to be found, nor the old world of her dreams. There was only the blood that drowned her, blood grown cold, foul, and faded.",
+      "recommendedElements": [
+        "Anemo",
+        "Cryo"
+      ],
+      "releaseVersion": "7.0",
+      "rewards": [
+        {
+          "days": [
+            "monday",
+            "thursday",
+            "sunday"
+          ],
+          "name": "Fer forgé",
+          "reward": [
+            {
+              "quality": 2,
+              "name": "Fragment d'appareil artistique"
+            },
+            {
+              "quality": 3,
+              "name": "Réplique d'appareil artistique"
+            },
+            {
+              "quality": 4,
+              "name": "Souhait d'appareil artistique"
+            },
+            {
+              "quality": 5,
+              "name": "Succession d'appareil artistique"
+            }
+          ]
+        },
+        {
+          "days": [
+            "tuesday",
+            "friday",
+            "sunday"
+          ],
+          "name": "Rails en chaîne",
+          "reward": [
+            {
+              "quality": 2,
+              "name": "Braise de silex de longue nuit"
+            },
+            {
+              "quality": 3,
+              "name": "Lueur de silex de longue nuit"
+            },
+            {
+              "quality": 4,
+              "name": "Flamme de silex de longue nuit"
+            },
+            {
+              "quality": 5,
+              "name": "Embrasement de silex de longue nuit"
+            }
+          ]
+        },
+        {
+          "days": [
+            "wednesday",
+            "saturday",
+            "sunday"
+          ],
+          "name": "Acier tranché",
+          "reward": [
+            {
+              "quality": 2,
+              "name": "Gloire brisée des héritiers du grand nord"
+            },
+            {
+              "quality": 3,
+              "name": "Illusion inflexible des héritiers du grand nord"
+            },
+            {
+              "quality": 4,
+              "name": "Oblation des héritiers du grand nord"
+            },
+            {
+              "quality": 5,
+              "name": "Rayonnement doré des héritiers du grand nord"
+            }
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Cicatrice d'une obsession maudite I",
+          "teamLevelRecommanded": 15,
+          "rewards": [
+            {
+              "name": "EXP d'Aventure",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 1125
+            },
+            {
+              "name": "EXP d'affinité",
+              "quantity": 10
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 5 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Volkodlak Raider",
+                  "number": 2,
+                  "level": 15
+                },
+                {
+                  "name": "Volkodlak Sharpshooter",
+                  "number": 1,
+                  "level": 15
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 5 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Volkodlak Lobber",
+                  "number": 2,
+                  "level": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Cicatrice d'une obsession maudite II",
+          "teamLevelRecommanded": 36,
+          "rewards": [
+            {
+              "name": "EXP d'Aventure",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 1550
+            },
+            {
+              "name": "EXP d'affinité",
+              "quantity": 15
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 5 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Volkodlak Raider",
+                  "number": 2,
+                  "level": 36
+                },
+                {
+                  "name": "Volkodlak Sharpshooter",
+                  "number": 1,
+                  "level": 36
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 5 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Volkodlak Basher",
+                  "number": 2,
+                  "level": 36
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Cicatrice d'une obsession maudite III",
+          "teamLevelRecommanded": 59,
+          "rewards": [
+            {
+              "name": "EXP d'Aventure",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 1850
+            },
+            {
+              "name": "EXP d'affinité",
+              "quantity": 15
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 4 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Long-Eared Striker",
+                  "number": 1,
+                  "level": 59
+                },
+                {
+                  "name": "Leomastiff Guard",
+                  "number": 1,
+                  "level": 59
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 4 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Channel Contact",
+                  "number": 1,
+                  "level": 59
+                },
+                {
+                  "name": "Voywolf Hunter",
+                  "number": 1,
+                  "level": 59
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cicatrice d'une obsession maudite IV",
+          "teamLevelRecommanded": 80,
+          "rewards": [
+            {
+              "name": "EXP d'Aventure",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 2200
+            },
+            {
+              "name": "EXP d'affinité",
+              "quantity": 20
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 2 opponent(s) within 300 second(s)",
+              "enemies": [
+                {
+                  "name": "Voywolf Hunter",
+                  "number": 1,
+                  "level": 80
+                },
+                {
+                  "name": "Fanged Zealot",
+                  "number": 1,
+                  "level": 80
                 }
               ]
             }
@@ -17769,6 +18461,36 @@
           ]
         }
       ]
+    }
+  },
+  {
+    "pageTitle": "Spiral Abyss",
+    "releaseVersion": "1.0",
+    "en": {
+      "name": "Spiral Abyss",
+      "domainType": "Special",
+      "location": {
+        "mainLocation": "Mondstadt",
+        "subLocation": "Galesong Hill"
+      },
+      "description": "",
+      "recommendedElements": [],
+      "releaseVersion": "1.0",
+      "rewards": [],
+      "levels": []
+    },
+    "fr": {
+      "name": "Profondeurs spiralées",
+      "domainType": "Domaine spécial",
+      "location": {
+        "mainLocation": "Mondstadt",
+        "subLocation": "Mondstadt"
+      },
+      "description": "",
+      "recommendedElements": [],
+      "releaseVersion": "1.0",
+      "rewards": [],
+      "levels": []
     }
   },
   {
@@ -18377,6 +19099,542 @@
       "releaseVersion": "2.8",
       "rewards": [],
       "levels": []
+    }
+  },
+  {
+    "pageTitle": "Spire of Solitary Enlightenment",
+    "releaseVersion": "3.0",
+    "en": {
+      "name": "Spire of Solitary Enlightenment",
+      "domainType": "Domain of Blessing",
+      "location": {
+        "mainLocation": "Sumeru",
+        "subLocation": "Avidya Forest"
+      },
+      "description": "In ancient times, this was a great and beautiful place, seemingly made to bless the children of humanity. But the arrow of heaven would descend, making mountains out of flat land and burying the ancient capitol beneath the hills.",
+      "recommendedElements": [
+        "Electro",
+        "Cryo",
+        "Hydro"
+      ],
+      "releaseVersion": "3.0",
+      "rewards": [],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Spire of Solitary Enlightenment I",
+          "teamLevelRecommanded": 59,
+          "rewards": [
+            {
+              "name": "Adventure EXP",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 1850
+            },
+            {
+              "name": "Companionship EXP",
+              "quantity": 15
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 8 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Crossbow",
+                  "number": 1,
+                  "level": 59
+                },
+                {
+                  "name": "Eremite Sword-Dancer",
+                  "number": 2,
+                  "level": 59
+                },
+                {
+                  "name": "Eremite Ravenbeak Halberdier",
+                  "number": 1,
+                  "level": 59
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 8 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Crossbow",
+                  "number": 3,
+                  "level": 59
+                }
+              ]
+            },
+            {
+              "wave": 3,
+              "description": "Defeat 8 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Sunfrost",
+                  "number": 1,
+                  "level": 59
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Spire of Solitary Enlightenment II",
+          "teamLevelRecommanded": 69,
+          "rewards": [
+            {
+              "name": "Adventure EXP",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 2025
+            },
+            {
+              "name": "Companionship EXP",
+              "quantity": 20
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 11 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Crossbow",
+                  "number": 2,
+                  "level": 69
+                },
+                {
+                  "name": "Eremite Sword-Dancer",
+                  "number": 2,
+                  "level": 69
+                },
+                {
+                  "name": "Eremite Axe Vanguard",
+                  "number": 1,
+                  "level": 69
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 11 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Crossbow",
+                  "number": 2,
+                  "level": 69
+                },
+                {
+                  "name": "Eremite Daythunder",
+                  "number": 1,
+                  "level": 69
+                }
+              ]
+            },
+            {
+              "wave": 3,
+              "description": "Defeat 11 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Sword-Dancer",
+                  "number": 1,
+                  "level": 69
+                },
+                {
+                  "name": "Eremite Axe Vanguard",
+                  "number": 1,
+                  "level": 69
+                },
+                {
+                  "name": "Eremite Desert Clearwater",
+                  "number": 1,
+                  "level": 69
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Spire of Solitary Enlightenment III",
+          "teamLevelRecommanded": 80,
+          "rewards": [
+            {
+              "name": "Adventure EXP",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 2200
+            },
+            {
+              "name": "Companionship EXP",
+              "quantity": 20
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 7 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Daythunder",
+                  "number": 1,
+                  "level": 80
+                },
+                {
+                  "name": "Eremite Crossbow",
+                  "number": 2,
+                  "level": 80
+                },
+                {
+                  "name": "Eremite Linebreaker",
+                  "number": 1,
+                  "level": 80
+                },
+                {
+                  "name": "Eremite Ravenbeak Halberdier",
+                  "number": 1,
+                  "level": 80
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 7 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Desert Clearwater",
+                  "number": 1,
+                  "level": 80
+                },
+                {
+                  "name": "Eremite Sunfrost",
+                  "number": 1,
+                  "level": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Spire of Solitary Enlightenment IV",
+          "teamLevelRecommanded": 90,
+          "rewards": [
+            {
+              "name": "Adventure EXP",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 2525
+            },
+            {
+              "name": "Companionship EXP",
+              "quantity": 20
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 3 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Daythunder/",
+                  "number": 1,
+                  "level": 90
+                },
+                {
+                  "name": "Eremite Desert Clearwater",
+                  "number": 1,
+                  "level": 90
+                },
+                {
+                  "name": "Eremite Sunfrost",
+                  "number": 1,
+                  "level": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "name": "Tour de l'illumination",
+      "domainType": "Domaine de bénédiction",
+      "location": {
+        "mainLocation": "Sumeru",
+        "subLocation": "Forêt d'Avidya"
+      },
+      "description": "In ancient times, this was a great and beautiful place, seemingly made to bless the children of humanity. But the arrow of heaven would descend, making mountains out of flat land and burying the ancient capitol beneath the hills.",
+      "recommendedElements": [
+        "Electro",
+        "Cryo",
+        "Hydro"
+      ],
+      "releaseVersion": "3.0",
+      "rewards": [],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Tour de l'illumination I",
+          "teamLevelRecommanded": 59,
+          "rewards": [
+            {
+              "name": "EXP d'Aventure",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 1850
+            },
+            {
+              "name": "EXP d'affinité",
+              "quantity": 15
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 8 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Crossbow",
+                  "number": 1,
+                  "level": 59
+                },
+                {
+                  "name": "Eremite Sword-Dancer",
+                  "number": 2,
+                  "level": 59
+                },
+                {
+                  "name": "Eremite Ravenbeak Halberdier",
+                  "number": 1,
+                  "level": 59
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 8 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Crossbow",
+                  "number": 3,
+                  "level": 59
+                }
+              ]
+            },
+            {
+              "wave": 3,
+              "description": "Defeat 8 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Sunfrost",
+                  "number": 1,
+                  "level": 59
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Tour de l'illumination II",
+          "teamLevelRecommanded": 69,
+          "rewards": [
+            {
+              "name": "EXP d'Aventure",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 2025
+            },
+            {
+              "name": "EXP d'affinité",
+              "quantity": 20
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 11 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Crossbow",
+                  "number": 2,
+                  "level": 69
+                },
+                {
+                  "name": "Eremite Sword-Dancer",
+                  "number": 2,
+                  "level": 69
+                },
+                {
+                  "name": "Eremite Axe Vanguard",
+                  "number": 1,
+                  "level": 69
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 11 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Crossbow",
+                  "number": 2,
+                  "level": 69
+                },
+                {
+                  "name": "Eremite Daythunder",
+                  "number": 1,
+                  "level": 69
+                }
+              ]
+            },
+            {
+              "wave": 3,
+              "description": "Defeat 11 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Sword-Dancer",
+                  "number": 1,
+                  "level": 69
+                },
+                {
+                  "name": "Eremite Axe Vanguard",
+                  "number": 1,
+                  "level": 69
+                },
+                {
+                  "name": "Eremite Desert Clearwater",
+                  "number": 1,
+                  "level": 69
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Tour de l'illumination III",
+          "teamLevelRecommanded": 80,
+          "rewards": [
+            {
+              "name": "EXP d'Aventure",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 2200
+            },
+            {
+              "name": "EXP d'affinité",
+              "quantity": 20
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 7 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Daythunder",
+                  "number": 1,
+                  "level": 80
+                },
+                {
+                  "name": "Eremite Crossbow",
+                  "number": 2,
+                  "level": 80
+                },
+                {
+                  "name": "Eremite Linebreaker",
+                  "number": 1,
+                  "level": 80
+                },
+                {
+                  "name": "Eremite Ravenbeak Halberdier",
+                  "number": 1,
+                  "level": 80
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 7 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Desert Clearwater",
+                  "number": 1,
+                  "level": 80
+                },
+                {
+                  "name": "Eremite Sunfrost",
+                  "number": 1,
+                  "level": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tour de l'illumination IV",
+          "teamLevelRecommanded": 90,
+          "rewards": [
+            {
+              "name": "EXP d'Aventure",
+              "quantity": 100
+            },
+            {
+              "name": "Mora",
+              "quantity": 2525
+            },
+            {
+              "name": "EXP d'affinité",
+              "quantity": 20
+            }
+          ],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat 3 opponent(s) within 360 second(s)",
+              "enemies": [
+                {
+                  "name": "Eremite Daythunder/",
+                  "number": 1,
+                  "level": 90
+                },
+                {
+                  "name": "Eremite Desert Clearwater",
+                  "number": 1,
+                  "level": 90
+                },
+                {
+                  "name": "Eremite Sunfrost",
+                  "number": 1,
+                  "level": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -19576,174 +20834,6 @@
     }
   },
   {
-    "pageTitle": "Under the Umbrella's Shade",
-    "releaseVersion": "3.0",
-    "en": {
-      "name": "Under the Umbrella's Shade",
-      "domainType": "One-Time",
-      "location": {
-        "mainLocation": "Sumeru",
-        "subLocation": "Lokapala Jungle"
-      },
-      "description": "The poets have it that spores, like trees, are connected to each other, and that all fungal beings in the world share a single dream. At the end of that dream, the spores would take on the forms of all things, and that all things would return to the beginning — return to being one — and that there would never again be boundaries. But the evolution of Fungi into sentient, locomotive beings was not something that happened in such primordial times. Regardless, this place has become fertile soil for Fungi to thrive.",
-      "recommendedElements": [
-        "Dendro",
-        "Electro"
-      ],
-      "releaseVersion": "3.0",
-      "rewards": [],
-      "levels": [
-        {
-          "level": 1,
-          "name": "Under the Umbrella's Shade I",
-          "rewards": [],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat all enemies.",
-              "enemies": [
-                {
-                  "name": "Floating Hydro Fungus",
-                  "number": 2
-                }
-              ]
-            },
-            {
-              "wave": 2,
-              "description": "Defeat 18 enemies. Time between kills cannot exceed 20 seconds.",
-              "enemies": [
-                {
-                  "name": "Floating Dendro Fungus",
-                  "number": 3
-                },
-                {
-                  "name": "Whirling Electro Fungus",
-                  "number": 3
-                },
-                {
-                  "name": "Whirling Cryo Fungus",
-                  "number": 3
-                },
-                {
-                  "name": "Stretchy Pyro Fungus",
-                  "number": 3
-                },
-                {
-                  "name": "Stretchy Anemo Fungus",
-                  "number": 3
-                },
-                {
-                  "name": "Stretchy Geo Fungus",
-                  "number": 3
-                }
-              ]
-            },
-            {
-              "wave": 3,
-              "description": "Defeat 3 enemies. Time between kills cannot exceed 40 seconds.",
-              "enemies": [
-                {
-                  "name": "Grounded Hydroshroom",
-                  "number": 1
-                },
-                {
-                  "name": "Winged Dendroshroom",
-                  "number": 1
-                },
-                {
-                  "name": "Winged Cryoshroom",
-                  "number": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "fr": {
-      "name": "Ombre du parasol",
-      "domainType": "Domaine à usage unique",
-      "location": {
-        "mainLocation": "Sumeru",
-        "subLocation": "Selve de Lokapala"
-      },
-      "description": "The poets have it that spores, like trees, are connected to each other, and that all fungal beings in the world share a single dream. At the end of that dream, the spores would take on the forms of all things, and that all things would return to the beginning — return to being one — and that there would never again be boundaries. But the evolution of Fungi into sentient, locomotive beings was not something that happened in such primordial times. Regardless, this place has become fertile soil for Fungi to thrive.",
-      "recommendedElements": [
-        "Dendro",
-        "Electro"
-      ],
-      "releaseVersion": "3.0",
-      "rewards": [],
-      "levels": [
-        {
-          "level": 1,
-          "name": "Ombre du parasol I",
-          "rewards": [],
-          "waves": [
-            {
-              "wave": 1,
-              "description": "Defeat all enemies.",
-              "enemies": [
-                {
-                  "name": "Floating Hydro Fungus",
-                  "number": 2
-                }
-              ]
-            },
-            {
-              "wave": 2,
-              "description": "Defeat 18 enemies. Time between kills cannot exceed 20 seconds.",
-              "enemies": [
-                {
-                  "name": "Floating Dendro Fungus",
-                  "number": 3
-                },
-                {
-                  "name": "Whirling Electro Fungus",
-                  "number": 3
-                },
-                {
-                  "name": "Whirling Cryo Fungus",
-                  "number": 3
-                },
-                {
-                  "name": "Stretchy Pyro Fungus",
-                  "number": 3
-                },
-                {
-                  "name": "Stretchy Anemo Fungus",
-                  "number": 3
-                },
-                {
-                  "name": "Stretchy Geo Fungus",
-                  "number": 3
-                }
-              ]
-            },
-            {
-              "wave": 3,
-              "description": "Defeat 3 enemies. Time between kills cannot exceed 40 seconds.",
-              "enemies": [
-                {
-                  "name": "Grounded Hydroshroom",
-                  "number": 1
-                },
-                {
-                  "name": "Winged Dendroshroom",
-                  "number": 1
-                },
-                {
-                  "name": "Winged Cryoshroom",
-                  "number": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
     "pageTitle": "The Coordinates of Sun and Rain",
     "releaseVersion": "3.0",
     "en": {
@@ -19811,6 +20901,140 @@
       "releaseVersion": "3.0",
       "rewards": [],
       "levels": []
+    }
+  },
+  {
+    "pageTitle": "Somalata Inland Sea",
+    "releaseVersion": "3.6",
+    "en": {
+      "name": "Somalata Inland Sea",
+      "domainType": "One-Time",
+      "location": {
+        "mainLocation": "Sumeru",
+        "subLocation": "Realm of Farakhkert"
+      },
+      "description": "The fragrant sea underneath the desert is still as luxuriant today as it has always been. Nobody knows when the marvelous sentient Fungi moved in and became part of the ecology of the underground ocean.",
+      "recommendedElements": [
+        "Hydro"
+      ],
+      "releaseVersion": "3.6",
+      "rewards": [],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Somalata Inland Sea I",
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat all enemies",
+              "enemies": [
+                {
+                  "name": "Stretchy Electro Fungus",
+                  "number": 2
+                },
+                {
+                  "name": "Floating Dendro Fungus",
+                  "number": 1
+                },
+                {
+                  "name": "Grounded Geoshroom",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat all enemies",
+              "enemies": [
+                {
+                  "name": "Floating Anemo Fungus",
+                  "number": 2
+                },
+                {
+                  "name": "Winged Dendroshroom",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wave": 3,
+              "description": "Defeat all enemies",
+              "enemies": [
+                {
+                  "name": "Consecrated Horned Crocodile",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "name": "Mer intérieure de somalatas",
+      "domainType": "Domaine à usage unique",
+      "location": {
+        "mainLocation": "Sumeru",
+        "subLocation": "Royaume de Farakhkert"
+      },
+      "description": "The fragrant sea underneath the desert is still as luxuriant today as it has always been. Nobody knows when the marvelous sentient Fungi moved in and became part of the ecology of the underground ocean.",
+      "recommendedElements": [
+        "Hydro"
+      ],
+      "releaseVersion": "3.6",
+      "rewards": [],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Mer intérieure de somalatas I",
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat all enemies",
+              "enemies": [
+                {
+                  "name": "Stretchy Electro Fungus",
+                  "number": 2
+                },
+                {
+                  "name": "Floating Dendro Fungus",
+                  "number": 1
+                },
+                {
+                  "name": "Grounded Geoshroom",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat all enemies",
+              "enemies": [
+                {
+                  "name": "Floating Anemo Fungus",
+                  "number": 2
+                },
+                {
+                  "name": "Winged Dendroshroom",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wave": 3,
+              "description": "Defeat all enemies",
+              "enemies": [
+                {
+                  "name": "Consecrated Horned Crocodile",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -19904,6 +21128,36 @@
     }
   },
   {
+    "pageTitle": "Spino Doubleblaster",
+    "releaseVersion": "4.7",
+    "en": {
+      "name": "Spino Doubleblaster",
+      "domainType": "Event",
+      "location": {
+        "mainLocation": "Fontaine",
+        "subLocation": "Belleau Region"
+      },
+      "description": "The engineer Brest is testing the Improved Crocomorph Vortex-Based Crocodilian-armored Heavy Naval Battleship-style Recreational Water Blasting Cannon on the outskirts of Fontaine. She is all too happy to let others experience the joys the Improved Crococannon can bring...",
+      "recommendedElements": [],
+      "releaseVersion": "4.7",
+      "rewards": [],
+      "levels": []
+    },
+    "fr": {
+      "name": "Doubles turbulences en plein air",
+      "domainType": "Domaine évènementiel",
+      "location": {
+        "mainLocation": "Fontaine",
+        "subLocation": "Région Belleau"
+      },
+      "description": "The engineer Brest is testing the Improved Crocomorph Vortex-Based Crocodilian-armored Heavy Naval Battleship-style Recreational Water Blasting Cannon on the outskirts of Fontaine. She is all too happy to let others experience the joys the Improved Crococannon can bring...",
+      "recommendedElements": [],
+      "releaseVersion": "4.7",
+      "rewards": [],
+      "levels": []
+    }
+  },
+  {
     "pageTitle": "Summertide Scales and Tales/Metropole Trials",
     "releaseVersion": "4.8",
     "en": {
@@ -19959,42 +21213,6 @@
       "description": "A giant stone tablet that has been erected in Natlan, upon which is etched the image of a new hero. Its real foundation was collective will, brought together in the cruicible of brutal battle. The silent carvings that stand here serve as a reminder to all — to forget neither the suffering and resolve of the fallen, nor the sacrifices and contributions of the brave.",
       "recommendedElements": [],
       "releaseVersion": "5.3",
-      "rewards": [],
-      "levels": []
-    }
-  },
-  {
-    "pageTitle": "Unresolved Chess Game",
-    "releaseVersion": "5.6",
-    "en": {
-      "name": "Unresolved Chess Game",
-      "domainType": "Trounce Domain",
-      "location": {
-        "mainLocation": "Mondstadt",
-        "subLocation": "Galesong Hill"
-      },
-      "description": "If you wish to earn the mages' approval, you must face up to the riddle at hand.",
-      "recommendedElements": [
-        "Cryo",
-        "Hydro"
-      ],
-      "releaseVersion": "5.6",
-      "rewards": [],
-      "levels": []
-    },
-    "fr": {
-      "name": "Partie d'échecs non terminée",
-      "domainType": "Donjon de la conquête",
-      "location": {
-        "mainLocation": "Mondstadt",
-        "subLocation": "Colline sifflante"
-      },
-      "description": "If you wish to earn the mages' approval, you must face up to the riddle at hand.",
-      "recommendedElements": [
-        "Cryo",
-        "Hydro"
-      ],
-      "releaseVersion": "5.6",
       "rewards": [],
       "levels": []
     }
@@ -21758,6 +22976,174 @@
     }
   },
   {
+    "pageTitle": "Under the Umbrella's Shade",
+    "releaseVersion": "3.0",
+    "en": {
+      "name": "Under the Umbrella's Shade",
+      "domainType": "One-Time",
+      "location": {
+        "mainLocation": "Sumeru",
+        "subLocation": "Lokapala Jungle"
+      },
+      "description": "The poets have it that spores, like trees, are connected to each other, and that all fungal beings in the world share a single dream. At the end of that dream, the spores would take on the forms of all things, and that all things would return to the beginning — return to being one — and that there would never again be boundaries. But the evolution of Fungi into sentient, locomotive beings was not something that happened in such primordial times. Regardless, this place has become fertile soil for Fungi to thrive.",
+      "recommendedElements": [
+        "Dendro",
+        "Electro"
+      ],
+      "releaseVersion": "3.0",
+      "rewards": [],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Under the Umbrella's Shade I",
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat all enemies.",
+              "enemies": [
+                {
+                  "name": "Floating Hydro Fungus",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 18 enemies. Time between kills cannot exceed 20 seconds.",
+              "enemies": [
+                {
+                  "name": "Floating Dendro Fungus",
+                  "number": 3
+                },
+                {
+                  "name": "Whirling Electro Fungus",
+                  "number": 3
+                },
+                {
+                  "name": "Whirling Cryo Fungus",
+                  "number": 3
+                },
+                {
+                  "name": "Stretchy Pyro Fungus",
+                  "number": 3
+                },
+                {
+                  "name": "Stretchy Anemo Fungus",
+                  "number": 3
+                },
+                {
+                  "name": "Stretchy Geo Fungus",
+                  "number": 3
+                }
+              ]
+            },
+            {
+              "wave": 3,
+              "description": "Defeat 3 enemies. Time between kills cannot exceed 40 seconds.",
+              "enemies": [
+                {
+                  "name": "Grounded Hydroshroom",
+                  "number": 1
+                },
+                {
+                  "name": "Winged Dendroshroom",
+                  "number": 1
+                },
+                {
+                  "name": "Winged Cryoshroom",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "name": "Ombre du parasol",
+      "domainType": "Domaine à usage unique",
+      "location": {
+        "mainLocation": "Sumeru",
+        "subLocation": "Selve de Lokapala"
+      },
+      "description": "The poets have it that spores, like trees, are connected to each other, and that all fungal beings in the world share a single dream. At the end of that dream, the spores would take on the forms of all things, and that all things would return to the beginning — return to being one — and that there would never again be boundaries. But the evolution of Fungi into sentient, locomotive beings was not something that happened in such primordial times. Regardless, this place has become fertile soil for Fungi to thrive.",
+      "recommendedElements": [
+        "Dendro",
+        "Electro"
+      ],
+      "releaseVersion": "3.0",
+      "rewards": [],
+      "levels": [
+        {
+          "level": 1,
+          "name": "Ombre du parasol I",
+          "rewards": [],
+          "waves": [
+            {
+              "wave": 1,
+              "description": "Defeat all enemies.",
+              "enemies": [
+                {
+                  "name": "Floating Hydro Fungus",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wave": 2,
+              "description": "Defeat 18 enemies. Time between kills cannot exceed 20 seconds.",
+              "enemies": [
+                {
+                  "name": "Floating Dendro Fungus",
+                  "number": 3
+                },
+                {
+                  "name": "Whirling Electro Fungus",
+                  "number": 3
+                },
+                {
+                  "name": "Whirling Cryo Fungus",
+                  "number": 3
+                },
+                {
+                  "name": "Stretchy Pyro Fungus",
+                  "number": 3
+                },
+                {
+                  "name": "Stretchy Anemo Fungus",
+                  "number": 3
+                },
+                {
+                  "name": "Stretchy Geo Fungus",
+                  "number": 3
+                }
+              ]
+            },
+            {
+              "wave": 3,
+              "description": "Defeat 3 enemies. Time between kills cannot exceed 40 seconds.",
+              "enemies": [
+                {
+                  "name": "Grounded Hydroshroom",
+                  "number": 1
+                },
+                {
+                  "name": "Winged Dendroshroom",
+                  "number": 1
+                },
+                {
+                  "name": "Winged Cryoshroom",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "pageTitle": "Warrior's Spirit",
     "releaseVersion": "3.4",
     "en": {
@@ -22412,5 +23798,41 @@
       "levels": []
     },
     "fr": null
+  },
+  {
+    "pageTitle": "Unresolved Chess Game",
+    "releaseVersion": "5.6",
+    "en": {
+      "name": "Unresolved Chess Game",
+      "domainType": "Trounce Domain",
+      "location": {
+        "mainLocation": "Mondstadt",
+        "subLocation": "Galesong Hill"
+      },
+      "description": "If you wish to earn the mages' approval, you must face up to the riddle at hand.",
+      "recommendedElements": [
+        "Cryo",
+        "Hydro"
+      ],
+      "releaseVersion": "5.6",
+      "rewards": [],
+      "levels": []
+    },
+    "fr": {
+      "name": "Partie d'échecs non terminée",
+      "domainType": "Donjon de la conquête",
+      "location": {
+        "mainLocation": "Mondstadt",
+        "subLocation": "Colline sifflante"
+      },
+      "description": "If you wish to earn the mages' approval, you must face up to the riddle at hand.",
+      "recommendedElements": [
+        "Cryo",
+        "Hydro"
+      ],
+      "releaseVersion": "5.6",
+      "rewards": [],
+      "levels": []
+    }
   }
 ]

@@ -1,0 +1,213 @@
+{
+  "name": "Relique de la grâce déchue",
+  "domainType": "Domaine de maîtrise",
+  "location": {
+    "mainLocation": "Snezhnaya",
+    "subLocation": "Cime de givrefuneste"
+  },
+  "description": "In a bygone era beyond mortal memory, ancient fae bereft of their homeland raised a secluded sanctuary here, yearning to soothe the agony of extinction through cold, solitary asceticism. Yet all things of flesh and blood must eventually fade like a dying ember. Across hundreds of epochs, the remnants who wept for the golden realm — and the countless followers who never knew its past glory — perished one after another like scattering snow. In the end, even the last hermit departed, leaving behind naught but a desolate, freezing silence.",
+  "recommendedElements": [
+    "Cryo",
+    "Electro"
+  ],
+  "releaseVersion": "7.0",
+  "rewards": [
+    {
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ],
+      "name": "Contemplation",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de la Charité"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de la Charité"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de la Charité"
+        }
+      ]
+    },
+    {
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ],
+      "name": "Ermitage",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de la Persévérance"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de la Persévérance"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de la Persévérance"
+        }
+      ]
+    },
+    {
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ],
+      "name": "Vision partagée",
+      "reward": [
+        {
+          "quality": 2,
+          "name": "Enseignement de la Gloire"
+        },
+        {
+          "quality": 3,
+          "name": "Guide de la Gloire"
+        },
+        {
+          "quality": 4,
+          "name": "Philosophie de la Gloire"
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Relique de la grâce déchue I",
+      "teamLevelRecommanded": 37,
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Volkodlak Raider",
+              "number": 2,
+              "level": 37
+            },
+            {
+              "name": "Volkodlak Sharpshooter",
+              "number": 1,
+              "level": 37
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Volkodlak Sharpshooter",
+              "number": 2,
+              "level": 37
+            },
+            {
+              "name": "Volkodlak Lobber",
+              "number": 1,
+              "level": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Relique de la grâce déchue II",
+      "teamLevelRecommanded": 53,
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Winged Soarer Knight",
+              "number": 3,
+              "level": 53
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Winged Halberd-Knight",
+              "number": 2,
+              "level": 53
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Relique de la grâce déchue III",
+      "teamLevelRecommanded": 70,
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 9 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Juvenile Tree Segment",
+              "number": 9,
+              "level": 70
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Relique de la grâce déchue IV",
+      "teamLevelRecommanded": 87,
+      "rewards": [],
+      "waves": [
+        {
+          "wave": 1,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Rugged Elder Leshy",
+              "number": 1,
+              "level": 87
+            },
+            {
+              "name": "Juvenile Tree Segment",
+              "number": 2,
+              "level": 87
+            }
+          ]
+        },
+        {
+          "wave": 2,
+          "description": "Defeat 6 opponent(s) within 300 second(s)",
+          "enemies": [
+            {
+              "name": "Rugged Elder Leshy",
+              "number": 1,
+              "level": 87
+            },
+            {
+              "name": "Juvenile Tree Segment",
+              "number": 2,
+              "level": 87
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

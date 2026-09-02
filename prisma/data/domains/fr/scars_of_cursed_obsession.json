@@ -1,18 +1,16 @@
 {
-  "name": "Cour lunaire perdue",
+  "name": "Cicatrice d'une obsession maudite",
   "domainType": "Domaine de forge",
   "location": {
-    "mainLocation": "Nod-Krai",
-    "subLocation": "Île de Hiisi"
+    "mainLocation": "Snezhnaya",
+    "subLocation": "Terre permagelée"
   },
-  "description": "There was a time when the moon did not rise in solitude as it does today. In those days, three moons caressed the earth with their silver light, and the lunar people knew the secrets of the lunar phases, being able to predict the tidal ebb and flow. Whatever they gently touched with their fingers would surge with moonlit might. Yet in the waning days, the moonlight dimmed, and the people, defenseless and leaderless, were scattered. Legend has it that the Frostmoon Scions constructed a lunar court in the border realms, summoning lost moonlight back to them. Today, that reflected light has disappeared from this forsaken altar. Where it once flowed through these stone carvings, there is now only frozen silence. Yet secrets unveiled in that quietude, perhaps the echoes of ancient oaths, still swirl about within the labyrinth of time.",
+  "description": "It was an era of peace, when the conquests of the Belyi Tsar had faded into legend, and the turmoil of succession was reduced to mere tales in history books. Yet, the fae who had never lived through those bygone days still yearned to resurrect that ancient glory. A leaden dream was stained by the blood of countless souls, yet the dreamer remained unshaken, believing this was the only path to pave their honor. But at that road's end, there was no glory to be found, nor the old world of her dreams. There was only the blood that drowned her, blood grown cold, foul, and faded.",
   "recommendedElements": [
-    "Dendro",
-    "Hydro",
-    "Electro",
-    "Pyro"
+    "Anemo",
+    "Cryo"
   ],
-  "releaseVersion": "Luna I",
+  "releaseVersion": "7.0",
   "rewards": [
     {
       "days": [
@@ -20,7 +18,7 @@
         "thursday",
         "sunday"
       ],
-      "name": "Splendeur radieuse",
+      "name": "Fer forgé",
       "reward": [
         {
           "quality": 2,
@@ -46,7 +44,7 @@
         "friday",
         "sunday"
       ],
-      "name": "Prières chantées",
+      "name": "Rails en chaîne",
       "reward": [
         {
           "quality": 2,
@@ -72,7 +70,7 @@
         "saturday",
         "sunday"
       ],
-      "name": "Oblation lunaire",
+      "name": "Acier tranché",
       "reward": [
         {
           "quality": 2,
@@ -96,7 +94,7 @@
   "levels": [
     {
       "level": 1,
-      "name": "Cour lunaire perdue I",
+      "name": "Cicatrice d'une obsession maudite I",
       "teamLevelRecommanded": 15,
       "rewards": [
         {
@@ -115,31 +113,26 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
+              "name": "Volkodlak Raider",
               "number": 2,
               "level": 15
             },
             {
-              "name": "Oprichniki Medic",
-              "number": 2,
+              "name": "Volkodlak Sharpshooter",
+              "number": 1,
               "level": 15
             }
           ]
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Thunderblitz Gvardiya",
-              "number": 1,
-              "level": 15
-            },
-            {
-              "name": "Oprichniki Medic",
+              "name": "Volkodlak Lobber",
               "number": 2,
               "level": 15
             }
@@ -149,7 +142,7 @@
     },
     {
       "level": 2,
-      "name": "Cour lunaire perdue II",
+      "name": "Cicatrice d'une obsession maudite II",
       "teamLevelRecommanded": 36,
       "rewards": [
         {
@@ -168,31 +161,26 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
+              "name": "Volkodlak Raider",
               "number": 2,
               "level": 36
             },
             {
-              "name": "Oprichniki Medic",
-              "number": 2,
+              "name": "Volkodlak Sharpshooter",
+              "number": 1,
               "level": 36
             }
           ]
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 5 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Thunderblitz Gvardiya",
-              "number": 1,
-              "level": 36
-            },
-            {
-              "name": "Oprichniki Medic",
+              "name": "Volkodlak Basher",
               "number": 2,
               "level": 36
             }
@@ -202,7 +190,7 @@
     },
     {
       "level": 3,
-      "name": "Cour lunaire perdue III",
+      "name": "Cicatrice d'une obsession maudite III",
       "teamLevelRecommanded": 59,
       "rewards": [
         {
@@ -221,32 +209,32 @@
       "waves": [
         {
           "wave": 1,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 4 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Line Trooper",
-              "number": 2,
+              "name": "Long-Eared Striker",
+              "number": 1,
               "level": 59
             },
             {
-              "name": "Oprichniki Medic",
-              "number": 2,
+              "name": "Leomastiff Guard",
+              "number": 1,
               "level": 59
             }
           ]
         },
         {
           "wave": 2,
-          "description": "Defeat 7 opponent(s) within 300 second(s)",
+          "description": "Defeat 4 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Oprichniki Thunderblitz Gvardiya",
+              "name": "Channel Contact",
               "number": 1,
               "level": 59
             },
             {
-              "name": "Oprichniki Medic",
-              "number": 2,
+              "name": "Voywolf Hunter",
+              "number": 1,
               "level": 59
             }
           ]
@@ -255,7 +243,7 @@
     },
     {
       "level": 4,
-      "name": "Cour lunaire perdue IV",
+      "name": "Cicatrice d'une obsession maudite IV",
       "teamLevelRecommanded": 80,
       "rewards": [
         {
@@ -277,8 +265,13 @@
           "description": "Defeat 2 opponent(s) within 300 second(s)",
           "enemies": [
             {
-              "name": "Cutting Edge All-Purpose Storm Landcruiser",
-              "number": 2,
+              "name": "Voywolf Hunter",
+              "number": 1,
+              "level": 80
+            },
+            {
+              "name": "Fanged Zealot",
+              "number": 1,
               "level": 80
             }
           ]

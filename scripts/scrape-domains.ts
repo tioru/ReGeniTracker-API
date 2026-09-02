@@ -79,6 +79,18 @@ const PARTY_LEVEL_REWARDS: Record<number, LevelReward> = {
   80: { adventureExp: 100, mora: 2200, companionshipExp: 20 },
   88: { adventureExp: 100, mora: 2375, companionshipExp: 20 },
   90: { adventureExp: 100, mora: 2525, companionshipExp: 20 },
+  // 37/53/70/87 (Relics of the Fallen Grace) et 89 (Inverted Glacier) :
+  // le champ recLevel de l'infobox de ces 2 pages est décalé de -1 par
+  // rapport au "PartyLevel" du tableau de récompenses officiel affiché sur
+  // la même page (confirmé : 38/54/71/88 et 90 respectivement, valeurs déjà
+  // ci-dessus) — coquille wiki isolée à ces 2 pages, pas un vrai palier
+  // supplémentaire. Alias plutôt que doublon de valeurs pour rester la
+  // source unique de vérité si ces valeurs venaient à changer.
+  37: { adventureExp: 100, mora: 1575, companionshipExp: 15 },
+  53: { adventureExp: 100, mora: 1800, companionshipExp: 15 },
+  70: { adventureExp: 100, mora: 2050, companionshipExp: 20 },
+  87: { adventureExp: 100, mora: 2375, companionshipExp: 20 },
+  89: { adventureExp: 100, mora: 2525, companionshipExp: 20 },
 };
 
 function getRewardForPartyLevel(
