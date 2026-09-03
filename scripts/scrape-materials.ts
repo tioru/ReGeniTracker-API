@@ -1,16 +1,23 @@
 // scripts/scrape-materials.ts
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-
-const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
-const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
+import {
+  EN_API_URL,
+  FR_API_URL,
+  HTTP_HEADERS,
+  httpsAgent,
+  sleep,
+  withRetry,
+  fetchCategoryMembers,
+  fetchWikitext,
+  fetchWikitextWithLanglink,
+  fetchHtml,
+} from './lib/wiki-fetch';
 
 const OUTPUT_DIR = (lang: 'en' | 'fr') =>
   path.resolve(__dirname, `../prisma/data/materials/${lang}`);
-const CACHE_PATH = path.resolve(__dirname, './cache/materials-raw-cache.json');
 const DOMAINS_DIR = (lang: 'en' | 'fr') =>
   path.resolve(__dirname, `../prisma/data/domains/${lang}`);
 
@@ -169,111 +176,6 @@ interface CachedMaterial {
   pageTitle: string;
   en: MaterialOutput;
   fr: MaterialOutput | null;
-}
-
-// ── HTTP ──────────────────────────────────────────────────────────────────────
-
-const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
-const httpsAgent = new https.Agent({ rejectUnauthorized: false });
-
-function sleep(ms: number) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-async function withRetry<T>(label: string, fn: () => Promise<T>, attempts = 3): Promise<T> {
-  let lastErr: unknown;
-  for (let i = 0; i < attempts; i++) {
-    try {
-      return await fn();
-    } catch (err) {
-      lastErr = err;
-      if (i < attempts - 1) {
-        console.warn(`⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`);
-        await sleep(800 * (i + 1));
-      }
-    }
-  }
-  throw lastErr;
-}
-
-async function fetchWikitext(apiUrl: string, pageTitle: string): Promise<string | null> {
-  try {
-    return await withRetry(`fetch wikitext "${pageTitle}"`, async () => {
-      const response = await axios.get(apiUrl, {
-        params: {
-          action: 'query',
-          titles: pageTitle,
-          prop: 'revisions',
-          rvprop: 'content',
-          rvslots: 'main',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return null;
-      return page.revisions?.[0]?.slots?.main?.content ?? null;
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext pour "${pageTitle}" après plusieurs tentatives: ${err}`);
-    return null;
-  }
-}
-
-async function fetchWikitextWithLanglink(
-  pageTitle: string,
-): Promise<{ content: string | null; frTitle: string | null }> {
-  try {
-    return await withRetry(`fetch wikitext+langlink EN "${pageTitle}"`, async () => {
-      const response = await axios.get(EN_API_URL, {
-        params: {
-          action: 'query',
-          titles: pageTitle,
-          prop: 'revisions|langlinks',
-          rvprop: 'content',
-          rvslots: 'main',
-          lllang: 'fr',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return { content: null, frTitle: null };
-      return {
-        content: page.revisions?.[0]?.slots?.main?.content ?? null,
-        frTitle: page.langlinks?.[0]?.title ?? null,
-      };
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext+langlink EN pour "${pageTitle}" après plusieurs tentatives: ${err}`);
-    return { content: null, frTitle: null };
-  }
-}
-
-async function fetchHtml(apiUrl: string, pageTitle: string): Promise<string> {
-  try {
-    return await withRetry(`fetch HTML "${pageTitle}"`, async () => {
-      const response = await axios.get(apiUrl, {
-        params: {
-          action: 'parse',
-          page: pageTitle,
-          prop: 'text',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      return response.data?.parse?.text ?? '';
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch HTML pour "${pageTitle}" après plusieurs tentatives: ${err}`);
-    return '';
-  }
 }
 
 // ── Wikitext helpers (repris à l'identique des autres scripts scrape-*) ────
@@ -918,7 +820,7 @@ async function scrapeMaterial(
     return null;
   }
 
-  const html = await fetchHtml(EN_API_URL, pageTitle);
+  const html = await fetchHtml(pageTitle);
   const droppedBy = parseDroppedByHtml(html);
   const usedIn = parseCraftUsageHtml(html);
   const ascensionUsage = parseAscensionUsageHtml(html);
@@ -940,7 +842,7 @@ async function scrapeMaterial(
 
   let fr: MaterialOutput | null = null;
   if (frTitle) {
-    const frContent = await fetchWikitext(FR_API_URL, frTitle);
+    const frContent = await fetchWikitext(frTitle, FR_API_URL);
     const frFields = frContent ? parseFrMaterialFields(frContent) : null;
     if (frFields && frFields.description) {
       fr = buildMaterialOutput(
@@ -985,53 +887,6 @@ async function scrapeAll(pageTitles: string[]): Promise<CachedMaterial[]> {
 // catégorisés séparément) : --category ne couvre donc qu'une famille à la
 // fois, à combiner en plusieurs runs si besoin.
 
-async function fetchCategoryMembers(category: string): Promise<string[]> {
-  const titles: string[] = [];
-  let continueParams: Record<string, string> | undefined;
-
-  do {
-    const response = await withRetry(`fetch category "${category}"`, () =>
-      axios.get(EN_API_URL, {
-        params: {
-          action: 'query',
-          list: 'categorymembers',
-          cmtitle: `Category:${category}`,
-          cmlimit: '500',
-          format: 'json',
-          formatversion: '2',
-          ...continueParams,
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      }),
-    );
-    for (const member of response.data?.query?.categorymembers ?? []) {
-      if (member.ns === 0) titles.push(member.title);
-    }
-    continueParams = response.data?.continue;
-    await sleep(300);
-  } while (continueParams);
-
-  return titles;
-}
-
-// ── Cache ─────────────────────────────────────────────────────────────────────
-
-function loadCache(): CachedMaterial[] | null {
-  if (!fs.existsSync(CACHE_PATH)) return null;
-  try {
-    return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
-  } catch {
-    return null;
-  }
-}
-
-function saveCache(data: CachedMaterial[]) {
-  fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
-  fs.writeFileSync(CACHE_PATH, JSON.stringify(data, null, 2), 'utf-8');
-  console.log(`✅ Cache saved (${data.length} entries)`);
-}
-
 // ── Output ────────────────────────────────────────────────────────────────────
 
 function writeMaterialFiles(materials: CachedMaterial[]) {
@@ -1066,37 +921,22 @@ function writeMaterialFiles(materials: CachedMaterial[]) {
 async function main() {
   const args = process.argv.slice(2);
 
-  if (args.length === 0 || !['--fetch', '--cache', '--fetch-category'].includes(args[0])) {
+  if (args.length === 0 || !['--fetch', '--fetch-category'].includes(args[0])) {
     console.error('Usage:');
     console.error('  Fetch une liste de pages   : npx ts-node ... scrape-materials.ts --fetch "Nom 1" "Nom 2"');
     console.error('  Fetch une catégorie entière: npx ts-node ... scrape-materials.ts --fetch-category "Ascension Gems"');
-    console.error('  Régénérer depuis le cache  : npx ts-node ... scrape-materials.ts --cache');
     process.exit(1);
   }
 
-  let materials: CachedMaterial[];
+  const pageTitles =
+    args[0] === '--fetch-category' ? await fetchCategoryMembers(args[1]) : args.slice(1);
 
-  if (args[0] === '--cache') {
-    const cached = loadCache();
-    if (!cached) {
-      console.error('❌ No cache found. Run with --fetch first.');
-      process.exit(1);
-    }
-    materials = cached;
-    console.log(`Loaded ${materials.length} materials from cache.`);
-  } else {
-    const pageTitles =
-      args[0] === '--fetch-category' ? await fetchCategoryMembers(args[1]) : args.slice(1);
-
-    if (pageTitles.length === 0) {
-      console.error('❌ Aucune page à scraper (liste vide).');
-      process.exit(1);
-    }
-
-    materials = await scrapeAll(pageTitles);
-    saveCache(materials);
+  if (pageTitles.length === 0) {
+    console.error('❌ Aucune page à scraper (liste vide).');
+    process.exit(1);
   }
 
+  const materials = await scrapeAll(pageTitles);
   writeMaterialFiles(materials);
 }
 

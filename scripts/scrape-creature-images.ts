@@ -1,12 +1,10 @@
 // scripts/scrape-creature-images.ts
 import axios from 'axios';
-import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import { EN_API_URL, HTTP_HEADERS, httpsAgent, sleep, withRetry, fetchWikitext } from './lib/wiki-fetch';
 
-const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
 const CREATURES_DATA_DIR = path.resolve(__dirname, '../prisma/data/creatures/en');
-const CACHE_PATH = path.resolve(__dirname, './cache/creatures-raw-cache.json');
 const OUTPUT_DIR = path.resolve(__dirname, '../assets/creatures');
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -23,62 +21,12 @@ const OUTPUT_DIR = path.resolve(__dirname, '../assets/creatures');
 // de fichier seul ne pointe vers rien : le CDN Fandom exige le chemin de
 // hash + cache-buster renvoyé par cette requête).
 //
-// pageTitle vient de scripts/cache/creatures-raw-cache.json (une entrée par
-// créature déjà scrapée par scrape-creatures.ts, écrasé/fusionné à chaque
-// run — cf. saveCache dans ce script), pas des fichiers en/*.json qui n'ont
-// pas de champ pageTitle dédié : le champ `name` de ces fichiers peut
-// diverger du pageTitle réel (ex: suffixe parenthétique de désambiguïsation
-// retiré, cf. parseEnCreatureName).
+// pageTitle vient du champ `pageTitle` de prisma/data/creatures/en/*.json
+// (ajouté par writeCreatureFiles dans scrape-creatures.ts) : le champ `name`
+// de ces fichiers peut diverger du pageTitle réel (ex: suffixe parenthétique
+// de désambiguïsation retiré, cf. parseEnCreatureName), donc pas fiable pour
+// re-requêter le wiki.
 // ─────────────────────────────────────────────────────────────────────────────
-
-const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
-const httpsAgent = new https.Agent({ rejectUnauthorized: false });
-
-function sleep(ms: number) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-async function withRetry<T>(label: string, fn: () => Promise<T>, attempts = 3): Promise<T> {
-  let lastErr: unknown;
-  for (let i = 0; i < attempts; i++) {
-    try {
-      return await fn();
-    } catch (err) {
-      lastErr = err;
-      if (i < attempts - 1) {
-        console.warn(`⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`);
-        await sleep(800 * (i + 1));
-      }
-    }
-  }
-  throw lastErr;
-}
-
-async function fetchWikitext(pageTitle: string): Promise<string | null> {
-  try {
-    return await withRetry(`fetch wikitext "${pageTitle}"`, async () => {
-      const response = await axios.get(EN_API_URL, {
-        params: {
-          action: 'query',
-          titles: pageTitle,
-          prop: 'revisions',
-          rvprop: 'content',
-          rvslots: 'main',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return null;
-      return page.revisions?.[0]?.slots?.main?.content ?? null;
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext pour "${pageTitle}" après plusieurs tentatives: ${err}`);
-    return null;
-  }
-}
 
 async function fetchImageUrl(fileName: string): Promise<string | null> {
   try {
@@ -233,16 +181,20 @@ async function scrapeCreatureImage(pageTitle: string): Promise<{ downloaded: num
   return { downloaded: 1, skipped: 0 };
 }
 
-// Toutes les créatures déjà scrapées par scrape-creatures.ts, via le cache
-// (seule source qui garde le pageTitle réel de chaque page, cf. NOTE en tête
-// de fichier).
-function readPageTitlesFromCache(): string[] {
-  if (!fs.existsSync(CACHE_PATH)) {
-    console.error(`❌ Cache introuvable: ${CACHE_PATH}. Lancer scrape-creatures.ts --fetch-category d'abord.`);
+// Toutes les créatures déjà scrapées par scrape-creatures.ts, via le champ
+// `pageTitle` de chaque fichier de sortie (cf. NOTE en tête de fichier).
+function readPageTitlesFromOutput(): string[] {
+  if (!fs.existsSync(CREATURES_DATA_DIR)) {
+    console.error(`❌ Dossier introuvable: ${CREATURES_DATA_DIR}. Lancer scrape-creatures.ts --fetch-category d'abord.`);
     process.exit(1);
   }
-  const cached = JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8')) as Array<{ pageTitle: string }>;
-  return cached.map((c) => c.pageTitle);
+  const pageTitles: string[] = [];
+  for (const filename of fs.readdirSync(CREATURES_DATA_DIR)) {
+    if (!filename.endsWith('.json')) continue;
+    const data = JSON.parse(fs.readFileSync(path.join(CREATURES_DATA_DIR, filename), 'utf-8')) as { pageTitle: string };
+    pageTitles.push(data.pageTitle);
+  }
+  return pageTitles;
 }
 
 async function main() {
@@ -255,14 +207,9 @@ async function main() {
     process.exit(1);
   }
 
-  const pageTitles = args[0] === '--fetch-all' ? readPageTitlesFromCache() : args.slice(1);
+  const pageTitles = args[0] === '--fetch-all' ? readPageTitlesFromOutput() : args.slice(1);
   if (pageTitles.length === 0) {
     console.error('❌ Aucune page à scraper (liste vide).');
-    process.exit(1);
-  }
-
-  if (args[0] === '--fetch-all' && !fs.existsSync(CREATURES_DATA_DIR)) {
-    console.error(`❌ Dossier introuvable: ${CREATURES_DATA_DIR}. Lancer scrape-creatures.ts --fetch-category d'abord.`);
     process.exit(1);
   }
 

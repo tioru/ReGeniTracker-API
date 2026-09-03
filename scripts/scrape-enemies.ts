@@ -1,15 +1,21 @@
 // scripts/scrape-enemies.ts
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import {
+  EN_API_URL,
+  FR_API_URL,
+  HTTP_HEADERS,
+  httpsAgent,
+  sleep,
+  withRetry,
+  fetchHtml,
+  fetchFrWikitext,
+} from './lib/wiki-fetch';
 
-const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
-const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
 const OUTPUT_DIR = (lang: 'en' | 'fr') =>
   path.resolve(__dirname, `../prisma/data/enemies/${lang}`);
-const CACHE_PATH = path.resolve(__dirname, './cache/enemies-raw-cache.json');
 
 // ─────────────────────────────────────────────────────────────────────────────
 // NOTE
@@ -685,52 +691,6 @@ function parseFrNameFromOtherLanguagesHtml(html: string): string | null {
 
 // ── API ───────────────────────────────────────────────────────────────────────
 
-const HTTP_HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)',
-};
-const httpsAgent = new https.Agent({ rejectUnauthorized: false });
-
-function sleep(ms: number) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-async function withRetry<T>(
-  label: string,
-  fn: () => Promise<T>,
-  attempts = 3,
-): Promise<T> {
-  let lastErr: unknown;
-  for (let i = 0; i < attempts; i++) {
-    try {
-      return await fn();
-    } catch (err) {
-      lastErr = err;
-      if (i < attempts - 1) {
-        console.warn(
-          `⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`,
-        );
-        await sleep(800 * (i + 1));
-      }
-    }
-  }
-  throw lastErr;
-}
-
-async function fetchEnemyHtml(pageTitle: string): Promise<string> {
-  const response = await axios.get(EN_API_URL, {
-    params: {
-      action: 'parse',
-      page: pageTitle,
-      prop: 'text',
-      format: 'json',
-      formatversion: '2',
-    },
-    headers: HTTP_HEADERS,
-    httpsAgent,
-  });
-  return response.data?.parse?.text ?? '';
-}
-
 // Titre de page FR équivalent (via langlink), résolu tel quel côté domains/
 // artifacts : requête dédiée par page, utilisée en repli quand le langlink
 // groupé de fetchBatch n'a rien donné.
@@ -755,34 +715,6 @@ async function fetchFrTitleDirect(pageTitle: string): Promise<string | null> {
   } catch (err) {
     console.warn(
       `⚠️  Échec du fetch langlink FR pour "${pageTitle}" après plusieurs tentatives: ${err}`,
-    );
-    return null;
-  }
-}
-
-async function fetchFrWikitext(frTitle: string): Promise<string | null> {
-  try {
-    return await withRetry(`fetch wikitext FR "${frTitle}"`, async () => {
-      const response = await axios.get(FR_API_URL, {
-        params: {
-          action: 'query',
-          titles: frTitle,
-          prop: 'revisions',
-          rvprop: 'content',
-          rvslots: 'main',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return null;
-      return page.revisions?.[0]?.slots?.main?.content ?? null;
-    });
-  } catch (err) {
-    console.warn(
-      `⚠️  Échec du fetch wikitext FR pour "${frTitle}" après plusieurs tentatives: ${err}`,
     );
     return null;
   }
@@ -902,12 +834,7 @@ async function fetchAllForCategory(
 async function enrichWithHtml(
   enemy: RawInfoboxEnemy,
 ): Promise<RawEnemy> {
-  let html = '';
-  try {
-    html = await fetchEnemyHtml(enemy.pageTitle);
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch HTML pour "${enemy.pageTitle}": ${err}`);
-  }
+  const html = await fetchHtml(enemy.pageTitle);
 
   const statsSection = html ? extractSectionHtml(html, 'Stats') : null;
   const statsPhases = statsSection ? parseStatsPhases(statsSection) : [];
@@ -1004,23 +931,6 @@ async function fetchAllInfoboxEnemies(): Promise<RawInfoboxEnemy[]> {
     }
   }
   return [...byPageTitle.values()];
-}
-
-// ── Cache ─────────────────────────────────────────────────────────────────────
-
-function loadCache(): CachedEnemy[] | null {
-  if (!fs.existsSync(CACHE_PATH)) return null;
-  try {
-    return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
-  } catch {
-    return null;
-  }
-}
-
-function saveCache(data: CachedEnemy[]) {
-  fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
-  fs.writeFileSync(CACHE_PATH, JSON.stringify(data, null, 2), 'utf-8');
-  console.log(`✅ Cache saved (${data.length} entries)`);
 }
 
 // ── Output ────────────────────────────────────────────────────────────────────
@@ -1257,38 +1167,21 @@ function writeEnemyFiles(enemies: CachedEnemy[], versionFilter?: string[]) {
 async function main() {
   const args = process.argv.slice(2);
 
-  if (args.length === 0 || !['--fetch', '--cache'].includes(args[0])) {
+  if (args.length === 0 || args[0] !== '--fetch') {
     console.error('Usage:');
     console.error(
       '  Fetch + générer tout    : npx ts-node ... scrape-enemies.ts --fetch',
     );
-    console.error(
-      '  Cache + générer tout     : npx ts-node ... scrape-enemies.ts --cache',
-    );
-    console.error('  Filtrer par version(s)   : ... --cache 2.3 3.0');
+    console.error('  Filtrer par version(s)   : ... --fetch 2.3 3.0');
     process.exit(1);
   }
 
-  const useCache = args[0] === '--cache';
   const versionFilter = args.slice(1);
 
-  let enemies: CachedEnemy[];
-
-  if (useCache) {
-    const cached = loadCache();
-    if (!cached) {
-      console.error('❌ No cache found. Run with --fetch first.');
-      process.exit(1);
-    }
-    enemies = cached;
-    console.log(`Loaded ${enemies.length} enemies from cache.`);
-  } else {
-    console.log(
-      'Fetching all enemies from wiki (this will take a few minutes)...',
-    );
-    enemies = await fetchAndEnrichAll();
-    saveCache(enemies);
-  }
+  console.log(
+    'Fetching all enemies from wiki (this will take a few minutes)...',
+  );
+  const enemies = await fetchAndEnrichAll();
 
   writeEnemyFiles(enemies, versionFilter.length ? versionFilter : undefined);
 }

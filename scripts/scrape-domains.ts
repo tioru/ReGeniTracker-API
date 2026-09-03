@@ -1,16 +1,22 @@
 // scripts/scrape-domains.ts
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-
-const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
-const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
+import {
+  EN_API_URL,
+  FR_API_URL,
+  HTTP_HEADERS,
+  httpsAgent,
+  sleep,
+  withRetry,
+  fetchWikitext as fetchEnWikitext,
+  fetchHtml as fetchEnHtml,
+  fetchFrWikitext,
+} from './lib/wiki-fetch';
 
 const OUTPUT_DIR = (lang: 'en' | 'fr') =>
   path.resolve(__dirname, `../prisma/data/domains/${lang}`);
-const CACHE_PATH = path.resolve(__dirname, './cache/domains-raw-cache.json');
 
 // ─────────────────────────────────────────────────────────────────────────────
 // NOTE
@@ -590,39 +596,6 @@ async function resolveFrNameViaOtherLanguages(
 
 // ── API ───────────────────────────────────────────────────────────────────────
 
-const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
-const httpsAgent = new https.Agent({ rejectUnauthorized: false });
-
-function sleep(ms: number) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-// Sur un run complet (~270 domaines x 1-2 requêtes), quelques requêtes
-// individuelles échouent de façon transitoire (timeout, hoquet réseau côté
-// Fandom) sans que ce soit un problème de logique — observé en pratique sur
-// des domaines dont la page FR se récupère pourtant sans problème en dehors
-// du run. On retente avant d'abandonner plutôt que de retomber sur le
-// fallback "Other Languages" (ou l'EN) pour une simple erreur transitoire.
-async function withRetry<T>(
-  label: string,
-  fn: () => Promise<T>,
-  attempts = 3,
-): Promise<T> {
-  let lastErr: unknown;
-  for (let i = 0; i < attempts; i++) {
-    try {
-      return await fn();
-    } catch (err) {
-      lastErr = err;
-      if (i < attempts - 1) {
-        console.warn(`⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`);
-        await sleep(800 * (i + 1));
-      }
-    }
-  }
-  throw lastErr;
-}
-
 async function fetchBatch(continueParams?: Record<string, string>): Promise<{
   results: RawDomain[];
   nextContinueParams?: Record<string, string>;
@@ -720,54 +693,6 @@ async function fetchAll(): Promise<RawDomain[]> {
   return Array.from(byPageTitle.values());
 }
 
-async function fetchEnWikitext(pageTitle: string): Promise<string | null> {
-  try {
-    return await withRetry(`fetch wikitext EN "${pageTitle}"`, async () => {
-      const response = await axios.get(EN_API_URL, {
-        params: {
-          action: 'query',
-          titles: pageTitle,
-          prop: 'revisions',
-          rvprop: 'content',
-          rvslots: 'main',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return null;
-      return page.revisions?.[0]?.slots?.main?.content ?? null;
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext EN pour "${pageTitle}" après plusieurs tentatives: ${err}`);
-    return null;
-  }
-}
-
-async function fetchEnHtml(pageTitle: string): Promise<string> {
-  try {
-    return await withRetry(`fetch HTML "${pageTitle}"`, async () => {
-      const response = await axios.get(EN_API_URL, {
-        params: {
-          action: 'parse',
-          page: pageTitle,
-          prop: 'text',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      return response.data?.parse?.text ?? '';
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch HTML pour "${pageTitle}" après plusieurs tentatives: ${err}`);
-    return '';
-  }
-}
-
 // Repli quand le langlink groupé (generator=categorymembers + prop=langlinks
 // dans le même appel, cf. fetchBatch) n'a pas été résolu pour une page
 // donnée : MediaWiki peut mêler la continuation de la pagination de
@@ -822,32 +747,6 @@ async function fetchSubLocationFr(enSubLocation: string): Promise<string | null>
   }
   subLocationTranslationCache.set(enSubLocation, result);
   return result;
-}
-
-async function fetchFrWikitext(frTitle: string): Promise<string | null> {
-  try {
-    return await withRetry(`fetch wikitext FR "${frTitle}"`, async () => {
-      const response = await axios.get(FR_API_URL, {
-        params: {
-          action: 'query',
-          titles: frTitle,
-          prop: 'revisions',
-          rvprop: 'content',
-          rvslots: 'main',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return null;
-      return page.revisions?.[0]?.slots?.main?.content ?? null;
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext FR pour "${frTitle}" après plusieurs tentatives: ${err}`);
-    return null;
-  }
 }
 
 // ── Construction des objets de sortie (EN et FR) ────────────────────────────
@@ -1048,23 +947,6 @@ async function fetchAndEnrichAll(): Promise<CachedDomain[]> {
   return enriched;
 }
 
-// ── Cache ─────────────────────────────────────────────────────────────────────
-
-function loadCache(): CachedDomain[] | null {
-  if (!fs.existsSync(CACHE_PATH)) return null;
-  try {
-    return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
-  } catch {
-    return null;
-  }
-}
-
-function saveCache(data: CachedDomain[]) {
-  fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
-  fs.writeFileSync(CACHE_PATH, JSON.stringify(data, null, 2), 'utf-8');
-  console.log(`✅ Cache saved (${data.length} entries)`);
-}
-
 // ── Output ────────────────────────────────────────────────────────────────────
 
 function writeDomainFiles(domains: CachedDomain[], versionFilter?: string[]) {
@@ -1112,38 +994,19 @@ function writeDomainFiles(domains: CachedDomain[], versionFilter?: string[]) {
 async function main() {
   const args = process.argv.slice(2);
 
-  if (args.length === 0 || !['--fetch', '--cache'].includes(args[0])) {
+  if (args.length === 0 || args[0] !== '--fetch') {
     console.error('Usage:');
     console.error(
       '  Fetch + générer tout    : npx ts-node ... scrape-domains.ts --fetch',
     );
     console.error(
-      '  Cache + générer tout     : npx ts-node ... scrape-domains.ts --cache',
-    );
-    console.error(
-      '  Filtrer par version(s)   : ... --cache "Luna I" "Luna II"',
+      '  Filtrer par version(s)   : ... --fetch "Luna I" "Luna II"',
     );
     process.exit(1);
   }
 
-  const useCache = args[0] === '--cache';
   const versionFilter = args.slice(1);
-
-  let domains: CachedDomain[];
-
-  if (useCache) {
-    const cached = loadCache();
-    if (!cached) {
-      console.error('❌ No cache found. Run with --fetch first.');
-      process.exit(1);
-    }
-    domains = cached;
-    console.log(`Loaded ${domains.length} domains from cache.`);
-  } else {
-    domains = await fetchAndEnrichAll();
-    saveCache(domains);
-  }
-
+  const domains = await fetchAndEnrichAll();
   writeDomainFiles(domains, versionFilter.length ? versionFilter : undefined);
 }
 

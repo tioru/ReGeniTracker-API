@@ -1,15 +1,16 @@
 // scripts/scrape-books.ts
-import axios from 'axios';
-import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-
-const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
-const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
+import {
+  FR_API_URL,
+  sleep,
+  fetchCategoryMembers,
+  fetchWikitext,
+  fetchWikitextWithLanglink,
+} from './lib/wiki-fetch';
 
 const OUTPUT_DIR = (lang: 'en' | 'fr') =>
   path.resolve(__dirname, `../prisma/data/books/${lang}`);
-const CACHE_PATH = path.resolve(__dirname, './cache/books-raw-cache.json');
 
 // ─────────────────────────────────────────────────────────────────────────────
 // NOTE
@@ -71,89 +72,6 @@ interface CachedBook {
   pageTitle: string;
   en: BookOutput;
   fr: BookOutput | null;
-}
-
-// ── HTTP (repris à l'identique de scrape-materials.ts) ──────────────────────
-
-const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
-const httpsAgent = new https.Agent({ rejectUnauthorized: false });
-
-function sleep(ms: number) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-async function withRetry<T>(label: string, fn: () => Promise<T>, attempts = 3): Promise<T> {
-  let lastErr: unknown;
-  for (let i = 0; i < attempts; i++) {
-    try {
-      return await fn();
-    } catch (err) {
-      lastErr = err;
-      if (i < attempts - 1) {
-        console.warn(`⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`);
-        await sleep(800 * (i + 1));
-      }
-    }
-  }
-  throw lastErr;
-}
-
-async function fetchWikitext(apiUrl: string, pageTitle: string): Promise<string | null> {
-  try {
-    return await withRetry(`fetch wikitext "${pageTitle}"`, async () => {
-      const response = await axios.get(apiUrl, {
-        params: {
-          action: 'query',
-          titles: pageTitle,
-          prop: 'revisions',
-          rvprop: 'content',
-          rvslots: 'main',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return null;
-      return page.revisions?.[0]?.slots?.main?.content ?? null;
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext pour "${pageTitle}" après plusieurs tentatives: ${err}`);
-    return null;
-  }
-}
-
-async function fetchWikitextWithLanglink(
-  pageTitle: string,
-): Promise<{ content: string | null; frTitle: string | null }> {
-  try {
-    return await withRetry(`fetch wikitext+langlink EN "${pageTitle}"`, async () => {
-      const response = await axios.get(EN_API_URL, {
-        params: {
-          action: 'query',
-          titles: pageTitle,
-          prop: 'revisions|langlinks',
-          rvprop: 'content',
-          rvslots: 'main',
-          lllang: 'fr',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return { content: null, frTitle: null };
-      return {
-        content: page.revisions?.[0]?.slots?.main?.content ?? null,
-        frTitle: page.langlinks?.[0]?.title ?? null,
-      };
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext+langlink EN pour "${pageTitle}" après plusieurs tentatives: ${err}`);
-    return { content: null, frTitle: null };
-  }
 }
 
 // ── Wikitext helpers (repris à l'identique de scrape-materials.ts) ─────────
@@ -448,9 +366,21 @@ function preserveKnownFields(fresh: BookOutput, previous: BookOutput | undefined
   };
 }
 
+// "previous" vient désormais du fichier de sortie déjà écrit en repo
+// (prisma/data/books/<lang>/*.json), pas d'un cache disposable.
+function readPreviousOutput(lang: 'en' | 'fr', name: string): BookOutput | undefined {
+  const filePath = path.join(OUTPUT_DIR(lang), `${slugify(name)}.json`);
+  if (!fs.existsSync(filePath)) return undefined;
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  } catch {
+    return undefined;
+  }
+}
+
 // ── Pipeline: 1 livre ────────────────────────────────────────────────────
 
-async function scrapeBook(pageTitle: string, previous: CachedBook | undefined): Promise<CachedBook | null> {
+async function scrapeBook(pageTitle: string): Promise<CachedBook | null> {
   const { content, frTitle } = await fetchWikitextWithLanglink(pageTitle);
   if (!content) {
     console.warn(`⚠️  "${pageTitle}": page introuvable ou vide, ignorée.`);
@@ -462,12 +392,12 @@ async function scrapeBook(pageTitle: string, previous: CachedBook | undefined): 
     console.warn(`⚠️  "${pageTitle}": ni {{Book Infobox}} ni {{Book Collection Infobox}} trouvé, ignorée.`);
     return null;
   }
-  en = preserveKnownFields(en, previous?.en);
+  en = preserveKnownFields(en, readPreviousOutput('en', en.name));
 
   let fr: BookOutput | null = null;
   if (frTitle) {
-    const frContent = await fetchWikitext(FR_API_URL, frTitle);
-    fr = frContent ? parseBookInfoboxFr(frTitle, frContent, en, previous?.fr) : null;
+    const frContent = await fetchWikitext(frTitle, FR_API_URL);
+    fr = frContent ? parseBookInfoboxFr(frTitle, frContent, en, readPreviousOutput('fr', frTitle)) : null;
     if (!fr) {
       console.warn(`⚠️  "${pageTitle}": page FR "${frTitle}" trouvée mais infobox illisible — fichier fr/ non généré.`);
     }
@@ -479,17 +409,17 @@ async function scrapeBook(pageTitle: string, previous: CachedBook | undefined): 
       console.warn(`⚠️  "${pageTitle}": pas de langlink FR ni de nom FR documenté — fichier fr/ non généré.`);
     }
   }
-  if (fr) fr = preserveKnownFields(fr, previous?.fr ?? undefined);
+  if (fr) fr = preserveKnownFields(fr, readPreviousOutput('fr', fr.name));
 
   return { pageTitle, en, fr };
 }
 
-async function scrapeAll(pageTitles: string[], cache: Map<string, CachedBook>): Promise<CachedBook[]> {
+async function scrapeAll(pageTitles: string[]): Promise<CachedBook[]> {
   const results: CachedBook[] = [];
 
   for (let i = 0; i < pageTitles.length; i++) {
     console.log(`Scraping "${pageTitles[i]}" (${i + 1}/${pageTitles.length})...`);
-    const book = await scrapeBook(pageTitles[i], cache.get(pageTitles[i]));
+    const book = await scrapeBook(pageTitles[i]);
     if (book) results.push(book);
     await sleep(300);
   }
@@ -501,63 +431,6 @@ async function scrapeAll(pageTitles: string[], cache: Map<string, CachedBook>): 
 // "Books" et "Book Collections" sont deux catégories distinctes sur le wiki
 // (cf. NOTE en tête de fichier) : --fetch-category ne couvre qu'une seule à
 // la fois, à lancer séparément pour couvrir l'ensemble de la page Book.
-
-async function fetchCategoryMembers(category: string): Promise<string[]> {
-  const titles: string[] = [];
-  let continueParams: Record<string, string> | undefined;
-
-  do {
-    const response = await withRetry(`fetch category "${category}"`, () =>
-      axios.get(EN_API_URL, {
-        params: {
-          action: 'query',
-          list: 'categorymembers',
-          cmtitle: `Category:${category}`,
-          cmlimit: '500',
-          format: 'json',
-          formatversion: '2',
-          ...continueParams,
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      }),
-    );
-    for (const member of response.data?.query?.categorymembers ?? []) {
-      if (member.ns === 0) titles.push(member.title);
-    }
-    continueParams = response.data?.continue;
-    await sleep(300);
-  } while (continueParams);
-
-  return titles;
-}
-
-// ── Cache ─────────────────────────────────────────────────────────────────
-
-function loadCache(): CachedBook[] | null {
-  if (!fs.existsSync(CACHE_PATH)) return null;
-  try {
-    return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
-  } catch {
-    return null;
-  }
-}
-
-// Fusionne par pageTitle avec le cache existant plutôt que d'écraser : un
-// --fetch-category "Books" suivi d'un --fetch-category "Book Collections"
-// (ou un --fetch ciblé sur quelques titres pour tester un correctif) doit
-// accumuler dans le même fichier, pas remplacer son contenu par le seul lot
-// du run en cours.
-function saveCache(newData: CachedBook[]) {
-  const existing = loadCache() ?? [];
-  const merged = new Map(existing.map((b) => [b.pageTitle, b]));
-  for (const book of newData) merged.set(book.pageTitle, book);
-  const data = [...merged.values()];
-
-  fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
-  fs.writeFileSync(CACHE_PATH, JSON.stringify(data, null, 2), 'utf-8');
-  console.log(`✅ Cache saved (${data.length} entries, ${newData.length} fetched this run)`);
-}
 
 // ── Output ────────────────────────────────────────────────────────────────
 
@@ -593,45 +466,23 @@ function writeBookFiles(books: CachedBook[]) {
 async function main() {
   const args = process.argv.slice(2);
 
-  if (args.length === 0 || !['--fetch', '--cache', '--fetch-category'].includes(args[0])) {
+  if (args.length === 0 || !['--fetch', '--fetch-category'].includes(args[0])) {
     console.error('Usage:');
     console.error('  Fetch une liste de pages   : npx ts-node ... scrape-books.ts --fetch "Nom 1" "Nom 2"');
     console.error('  Fetch une catégorie entière: npx ts-node ... scrape-books.ts --fetch-category "Books"');
     console.error('                               npx ts-node ... scrape-books.ts --fetch-category "Book Collections"');
-    console.error('  Régénérer depuis le cache  : npx ts-node ... scrape-books.ts --cache');
     process.exit(1);
   }
 
-  let books: CachedBook[];
+  const pageTitles =
+    args[0] === '--fetch-category' ? await fetchCategoryMembers(args[1]) : args.slice(1);
 
-  if (args[0] === '--cache') {
-    const cached = loadCache();
-    if (!cached) {
-      console.error('❌ No cache found. Run with --fetch first.');
-      process.exit(1);
-    }
-    books = cached;
-    console.log(`Loaded ${books.length} books from cache.`);
-  } else {
-    const pageTitles =
-      args[0] === '--fetch-category' ? await fetchCategoryMembers(args[1]) : args.slice(1);
-
-    if (pageTitles.length === 0) {
-      console.error('❌ Aucune page à scraper (liste vide).');
-      process.exit(1);
-    }
-
-    // Fusionne avec le cache existant par pageTitle plutôt que d'écraser le
-    // fichier avec uniquement le lot du run en cours — un --fetch ciblé sur
-    // quelques titres (ex: pour valider un correctif) ne doit pas effacer le
-    // reste du cache. Sert aussi de base à preserveKnownFields (author/
-    // publisher/illustrator) dans scrapeBook.
-    const merged = new Map((loadCache() ?? []).map((b) => [b.pageTitle, b]));
-    const scraped = await scrapeAll(pageTitles, merged);
-    for (const b of scraped) merged.set(b.pageTitle, b);
-    books = [...merged.values()];
-    saveCache(books);
+  if (pageTitles.length === 0) {
+    console.error('❌ Aucune page à scraper (liste vide).');
+    process.exit(1);
   }
+
+  const books = await scrapeAll(pageTitles);
 
   writeBookFiles(books);
 }

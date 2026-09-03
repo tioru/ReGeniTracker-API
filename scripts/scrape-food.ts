@@ -1,15 +1,17 @@
 // scripts/scrape-food.ts
-import axios from 'axios';
 import * as cheerio from 'cheerio';
-import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-
-const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
-const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
+import {
+  FR_API_URL,
+  sleep,
+  fetchCategoryMembers,
+  fetchWikitext,
+  fetchWikitextWithLanglink,
+  fetchHtml,
+} from './lib/wiki-fetch';
 
 const OUTPUT_DIR = (lang: 'en' | 'fr') => path.resolve(__dirname, `../prisma/data/foods/${lang}`);
-const CACHE_PATH = path.resolve(__dirname, './cache/food-raw-cache.json');
 
 // Aucune traduction FR possible pour ces pages : noms de désambiguïsation
 // inventés par le wiki pour une variante de quête/évènement, qui n'existent
@@ -161,142 +163,7 @@ interface CachedFood {
   fr: FoodOutput | null;
 }
 
-// ── HTTP ──────────────────────────────────────────────────────────────────────
-
-const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
-const httpsAgent = new https.Agent({ rejectUnauthorized: false });
-
-function sleep(ms: number) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-async function withRetry<T>(label: string, fn: () => Promise<T>, attempts = 3): Promise<T> {
-  let lastErr: unknown;
-  for (let i = 0; i < attempts; i++) {
-    try {
-      return await fn();
-    } catch (err) {
-      lastErr = err;
-      if (i < attempts - 1) {
-        console.warn(`⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`);
-        await sleep(800 * (i + 1));
-      }
-    }
-  }
-  throw lastErr;
-}
-
-async function fetchWikitextWithLanglink(
-  pageTitle: string,
-): Promise<{ content: string | null; frTitle: string | null }> {
-  try {
-    return await withRetry(`fetch wikitext+langlink EN "${pageTitle}"`, async () => {
-      const response = await axios.get(EN_API_URL, {
-        params: {
-          action: 'query',
-          titles: pageTitle,
-          prop: 'revisions|langlinks',
-          rvprop: 'content',
-          rvslots: 'main',
-          lllang: 'fr',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return { content: null, frTitle: null };
-      return {
-        content: page.revisions?.[0]?.slots?.main?.content ?? null,
-        frTitle: page.langlinks?.[0]?.title ?? null,
-      };
-    });
-  } catch (err) {
-    console.warn(
-      `⚠️  Échec du fetch wikitext+langlink EN pour "${pageTitle}" après plusieurs tentatives: ${err}`,
-    );
-    return { content: null, frTitle: null };
-  }
-}
-
-async function fetchWikitext(apiUrl: string, pageTitle: string): Promise<string | null> {
-  try {
-    return await withRetry(`fetch wikitext "${pageTitle}"`, async () => {
-      const response = await axios.get(apiUrl, {
-        params: {
-          action: 'query',
-          titles: pageTitle,
-          prop: 'revisions',
-          rvprop: 'content',
-          rvslots: 'main',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return null;
-      return page.revisions?.[0]?.slots?.main?.content ?? null;
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext pour "${pageTitle}" après plusieurs tentatives: ${err}`);
-    return null;
-  }
-}
-
-async function fetchHtml(pageTitle: string): Promise<string> {
-  try {
-    return await withRetry(`fetch HTML "${pageTitle}"`, async () => {
-      const response = await axios.get(EN_API_URL, {
-        params: {
-          action: 'parse',
-          page: pageTitle,
-          prop: 'text',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      return response.data?.parse?.text ?? '';
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch HTML pour "${pageTitle}" après plusieurs tentatives: ${err}`);
-    return '';
-  }
-}
-
-async function fetchCategoryMembers(category: string): Promise<string[]> {
-  const titles: string[] = [];
-  let continueParams: Record<string, string> | undefined;
-
-  do {
-    const response = await withRetry(`fetch category "${category}"`, () =>
-      axios.get(EN_API_URL, {
-        params: {
-          action: 'query',
-          list: 'categorymembers',
-          cmtitle: `Category:${category}`,
-          cmlimit: '500',
-          format: 'json',
-          formatversion: '2',
-          ...continueParams,
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      }),
-    );
-    for (const member of response.data?.query?.categorymembers ?? []) {
-      if (member.ns === 0) titles.push(member.title);
-    }
-    continueParams = response.data?.continue;
-    await sleep(300);
-  } while (continueParams);
-
-  return titles;
-}
+// ── HTTP (voir ./lib/wiki-fetch pour EN_API_URL/FR_API_URL/withRetry/etc.) ──
 
 // ── Wikitext helpers (repris à l'identique des autres scripts scrape-*) ────
 
@@ -902,7 +769,7 @@ async function scrapeFood(pageTitle: string): Promise<CachedFood | null> {
 
   let fr: FoodOutput | null = null;
   if (frTitle) {
-    const frContent = await fetchWikitext(FR_API_URL, frTitle);
+    const frContent = await fetchWikitext(frTitle, FR_API_URL);
     const frFields = frContent ? parseFrFoodFields(frContent) : null;
     if (frFields && frFields.descriptions.normal) {
       fr = buildFoodOutput(raw, 'fr', frTitle, frFields, sellers);
@@ -929,26 +796,6 @@ async function scrapeAll(pageTitles: string[]): Promise<CachedFood[]> {
     await sleep(300);
   }
   return results;
-}
-
-// ── Cache ─────────────────────────────────────────────────────────────────────
-
-function loadCache(): CachedFood[] | null {
-  if (!fs.existsSync(CACHE_PATH)) return null;
-  try {
-    return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
-  } catch {
-    return null;
-  }
-}
-
-function saveCache(newData: CachedFood[]) {
-  const existing = loadCache() ?? [];
-  const merged = new Map(existing.map((f) => [f.pageTitle, f]));
-  for (const food of newData) merged.set(food.pageTitle, food);
-  fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
-  fs.writeFileSync(CACHE_PATH, JSON.stringify([...merged.values()], null, 2), 'utf-8');
-  console.log(`✅ Cache saved (${merged.size} entries)`);
 }
 
 // ── Output ────────────────────────────────────────────────────────────────────
@@ -992,42 +839,28 @@ function writeFoodFiles(foods: CachedFood[]) {
 async function main() {
   const args = process.argv.slice(2);
 
-  if (args.length === 0 || !['--fetch', '--cache', '--fetch-category'].includes(args[0])) {
+  if (args.length === 0 || !['--fetch', '--fetch-category'].includes(args[0])) {
     console.error('Usage:');
     console.error('  Fetch une liste de pages    : npx ts-node -r tsconfig-paths/register scripts/scrape-food.ts --fetch "Almond Tofu" "\\"Sweet Dream\\""');
     console.error('  Fetch toute la catégorie     : npx ts-node -r tsconfig-paths/register scripts/scrape-food.ts --fetch-category');
-    console.error('  Régénérer depuis le cache    : npx ts-node -r tsconfig-paths/register scripts/scrape-food.ts --cache');
     process.exit(1);
   }
 
-  let foods: CachedFood[];
-
-  if (args[0] === '--cache') {
-    const cached = loadCache();
-    if (!cached) {
-      console.error('❌ No cache found. Run with --fetch or --fetch-category first.');
-      process.exit(1);
-    }
-    foods = cached;
-    console.log(`Loaded ${foods.length} food items from cache.`);
+  let pageTitles: string[];
+  if (args[0] === '--fetch-category') {
+    console.log('Fetching "Category:Food" members...');
+    pageTitles = await fetchCategoryMembers('Food');
+    console.log(`Found ${pageTitles.length} pages in category.`);
   } else {
-    let pageTitles: string[];
-    if (args[0] === '--fetch-category') {
-      console.log('Fetching "Category:Food" members...');
-      pageTitles = await fetchCategoryMembers('Food');
-      console.log(`Found ${pageTitles.length} pages in category.`);
-    } else {
-      pageTitles = args.slice(1);
-    }
-
-    if (pageTitles.length === 0) {
-      console.error('❌ Aucune page à scraper (liste vide).');
-      process.exit(1);
-    }
-
-    foods = await scrapeAll(pageTitles);
-    saveCache(foods);
+    pageTitles = args.slice(1);
   }
+
+  if (pageTitles.length === 0) {
+    console.error('❌ Aucune page à scraper (liste vide).');
+    process.exit(1);
+  }
+
+  let foods = await scrapeAll(pageTitles);
 
   const excludedCount = foods.filter((f) => EXCLUDED_PAGE_TITLES.has(f.pageTitle)).length;
   if (excludedCount > 0) {

@@ -1,23 +1,11 @@
 // scripts/scrape-achievements.ts
 import axios from 'axios';
-import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import { EN_API_URL, FR_API_URL, HTTP_HEADERS, httpsAgent, sleep, withRetry } from './lib/wiki-fetch';
 
 type Lang = 'en' | 'fr';
 const SUPPORTED_LANGS: ReadonlySet<Lang> = new Set(['en', 'fr']);
-
-const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
-const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
-
-const CACHE_PATH = path.resolve(
-  __dirname,
-  './cache/achievements-raw-cache.json',
-);
-const FR_CACHE_PATH = path.resolve(
-  __dirname,
-  './cache/achievements-fr-cache.json',
-);
 
 function outputDir(lang: Lang): string {
   return path.resolve(__dirname, `../prisma/data/achievements/${lang}`);
@@ -206,8 +194,8 @@ async function fetchRawPage(continueParams?: Record<string, string>): Promise<{
 
   const response = await axios.get(EN_API_URL, {
     params,
-    headers: { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' },
-    httpsAgent: new https.Agent({ rejectUnauthorized: false }),
+    headers: HTTP_HEADERS,
+    httpsAgent,
   });
 
   return {
@@ -271,37 +259,6 @@ function parseFrFields(pageTitle: string, content: string): FrFields | null {
     category: cleanWikitext(fields['catégorie'] ?? ''),
     requirements: cleanWikitext(fields['prérequis'] ?? ''),
   };
-}
-
-const HTTP_HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)',
-};
-const httpsAgent = new https.Agent({ rejectUnauthorized: false });
-
-function sleep(ms: number) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-async function withRetry<T>(
-  label: string,
-  fn: () => Promise<T>,
-  attempts = 3,
-): Promise<T> {
-  let lastErr: unknown;
-  for (let i = 0; i < attempts; i++) {
-    try {
-      return await fn();
-    } catch (err) {
-      lastErr = err;
-      if (i < attempts - 1) {
-        console.warn(
-          `⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`,
-        );
-        await sleep(800 * (i + 1));
-      }
-    }
-  }
-  throw lastErr;
 }
 
 async function fetchFrFieldsBatch(
@@ -530,25 +487,6 @@ async function fetchAllFrFields(
   return result;
 }
 
-// ── Cache ─────────────────────────────────────────────────────────────────────
-
-function loadJsonCache<T>(cachePath: string): T | null {
-  if (!fs.existsSync(cachePath)) return null;
-  try {
-    return JSON.parse(fs.readFileSync(cachePath, 'utf-8'));
-  } catch {
-    return null;
-  }
-}
-
-function saveJsonCache(cachePath: string, data: unknown, label: string) {
-  fs.writeFileSync(cachePath, JSON.stringify(data, null, 2), 'utf-8');
-  const count = Array.isArray(data)
-    ? data.length
-    : Object.keys(data as object).length;
-  console.log(`✅ ${label} cache saved (${count} entries)`);
-}
-
 // ── Output ────────────────────────────────────────────────────────────────────
 
 // Deux titres distincts peuvent se réduire au même slug une fois la ponctuation
@@ -683,23 +621,19 @@ function writeAchievementFiles(
 async function main() {
   const args = process.argv.slice(2);
 
-  if (args.length === 0 || !['--fetch', '--cache'].includes(args[0])) {
+  if (args.length === 0 || args[0] !== '--fetch') {
     console.error('Usage:');
     console.error(
       '  Fetch + générer tout (en)  : npx ts-node ... scrape-achievements.ts --fetch',
     );
+    console.error('  Filtrer par version(s)     : ... --fetch 1.0 2.1');
     console.error(
-      '  Cache + générer tout (en)  : npx ts-node ... scrape-achievements.ts --cache',
+      '  Générer dans une langue    : ... --fetch fr',
     );
-    console.error('  Filtrer par version(s)     : ... --cache 1.0 2.1');
-    console.error(
-      '  Générer dans une langue    : ... --cache fr           (ou --fetch fr)',
-    );
-    console.error('  Version(s) + langue        : ... --cache 1.0 2.1 fr');
+    console.error('  Version(s) + langue        : ... --fetch 1.0 2.1 fr');
     process.exit(1);
   }
 
-  const useCache = args[0] === '--cache';
   const rest = args.slice(1);
 
   let lang: Lang = 'en';
@@ -710,50 +644,20 @@ async function main() {
   }
   const versionFilter = rest;
 
-  let achievements: RawAchievement[];
-
-  if (useCache) {
-    const cached = loadJsonCache<RawAchievement[]>(CACHE_PATH);
-    if (!cached) {
-      console.error('❌ No cache found. Run with --fetch first.');
-      process.exit(1);
-    }
-    achievements = cached;
-    console.log(`Loaded ${achievements.length} achievements from cache.`);
-  } else {
-    console.log(
-      'Fetching all achievements from wiki (this will take a few minutes)...',
-    );
-    achievements = await fetchAll();
-    saveJsonCache(CACHE_PATH, achievements, 'EN');
-  }
+  console.log(
+    'Fetching all achievements from wiki (this will take a few minutes)...',
+  );
+  const achievements = await fetchAll();
 
   // Indexé par pageTitle EN (cf. fetchAllFrFields) : couvre à la fois le
   // chemin rapide (langlink groupé) et les repli pour les pages sans langlink
   // utilisable.
   let frFieldsByPageTitle = new Map<string, FrFields>();
   if (lang === 'fr') {
-    if (useCache) {
-      const cached = loadJsonCache<Record<string, FrFields>>(FR_CACHE_PATH);
-      if (!cached) {
-        console.error('❌ No FR cache found. Run with --fetch fr first.');
-        process.exit(1);
-      }
-      frFieldsByPageTitle = new Map(Object.entries(cached));
-      console.log(
-        `Loaded ${frFieldsByPageTitle.size} FR translations from cache.`,
-      );
-    } else {
-      console.log(
-        `Fetching FR translations for ${achievements.length} achievements from wiki (this will take a while)...`,
-      );
-      frFieldsByPageTitle = await fetchAllFrFields(achievements);
-      saveJsonCache(
-        FR_CACHE_PATH,
-        Object.fromEntries(frFieldsByPageTitle),
-        'FR',
-      );
-    }
+    console.log(
+      `Fetching FR translations for ${achievements.length} achievements from wiki (this will take a while)...`,
+    );
+    frFieldsByPageTitle = await fetchAllFrFields(achievements);
   }
 
   writeAchievementFiles(

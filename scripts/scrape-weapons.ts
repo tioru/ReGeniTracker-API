@@ -1,16 +1,21 @@
 // scripts/scrape-weapons.ts
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-
-const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
-const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
+import {
+  EN_API_URL,
+  FR_API_URL,
+  HTTP_HEADERS,
+  httpsAgent,
+  sleep,
+  withRetry,
+  fetchWikitext,
+  fetchHtml,
+} from './lib/wiki-fetch';
 
 const OUTPUT_DIR = (lang: 'en' | 'fr') =>
   path.resolve(__dirname, `../prisma/data/weapons/${lang}`);
-const CACHE_PATH = path.resolve(__dirname, './cache/weapons-raw-cache.json');
 
 // ─────────────────────────────────────────────────────────────────────────────
 // NOTE
@@ -135,60 +140,6 @@ interface CachedWeapon {
 }
 
 // ── HTTP ──────────────────────────────────────────────────────────────────────
-
-const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
-const httpsAgent = new https.Agent({ rejectUnauthorized: false });
-
-function sleep(ms: number) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-async function fetchHtml(apiUrl: string, pageTitle: string): Promise<string> {
-  try {
-    const response = await axios.get(apiUrl, {
-      params: {
-        action: 'parse',
-        page: pageTitle,
-        prop: 'text',
-        format: 'json',
-        formatversion: '2',
-      },
-      headers: HTTP_HEADERS,
-      httpsAgent,
-    });
-    return response.data?.parse?.text ?? '';
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch HTML pour "${pageTitle}": ${err}`);
-    return '';
-  }
-}
-
-async function fetchWikitext(
-  apiUrl: string,
-  pageTitle: string,
-): Promise<string | null> {
-  try {
-    const response = await axios.get(apiUrl, {
-      params: {
-        action: 'query',
-        titles: pageTitle,
-        prop: 'revisions',
-        rvprop: 'content',
-        rvslots: 'main',
-        format: 'json',
-        formatversion: '2',
-      },
-      headers: HTTP_HEADERS,
-      httpsAgent,
-    });
-    const page = response.data?.query?.pages?.[0];
-    if (!page || page.missing) return null;
-    return page.revisions?.[0]?.slots?.main?.content ?? null;
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext pour "${pageTitle}": ${err}`);
-    return null;
-  }
-}
 
 // ── Wikitext helpers (repris des autres scripts scrape-*) ───────────────────
 
@@ -1223,7 +1174,7 @@ async function filterOutQuestExclusiveWeapons(raw: RawWeaponEn[]): Promise<RawWe
 // ── Pipeline: enrichissement par arme (EN + FR) ──────────────────────────────
 
 async function enrichWeapon(raw: RawWeaponEn): Promise<CachedWeapon> {
-  const enHtml = await fetchHtml(EN_API_URL, raw.pageTitle);
+  const enHtml = await fetchHtml(raw.pageTitle);
   const enAscension = parseEnAscensionHtml(enHtml);
   const sellers = parseShopAvailabilityHtml(enHtml);
   const costsByRank = parseEnRefinementCostsHtml(enHtml);
@@ -1234,7 +1185,7 @@ async function enrichWeapon(raw: RawWeaponEn): Promise<CachedWeapon> {
   let frAscension: AscensionTier[] = [];
 
   if (raw.frTitle) {
-    const frContent = await fetchWikitext(FR_API_URL, raw.frTitle);
+    const frContent = await fetchWikitext(raw.frTitle, FR_API_URL);
     if (frContent) {
       frFields = parseFrWeaponPage(frContent);
       const stats = parseFrStatsTable(frContent);
@@ -1242,7 +1193,7 @@ async function enrichWeapon(raw: RawWeaponEn): Promise<CachedWeapon> {
       secondaryByLevel = stats.secondaryByLevel;
 
       await sleep(300);
-      const frHtml = await fetchHtml(FR_API_URL, raw.frTitle);
+      const frHtml = await fetchHtml(raw.frTitle, FR_API_URL);
       frAscension = parseFrElevationHtml(frHtml);
     }
   }
@@ -1380,23 +1331,6 @@ async function fetchAll(): Promise<CachedWeapon[]> {
   return enriched;
 }
 
-// ── Cache ─────────────────────────────────────────────────────────────────────
-
-function loadCache(): CachedWeapon[] | null {
-  if (!fs.existsSync(CACHE_PATH)) return null;
-  try {
-    return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
-  } catch {
-    return null;
-  }
-}
-
-function saveCache(data: CachedWeapon[]) {
-  fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
-  fs.writeFileSync(CACHE_PATH, JSON.stringify(data, null, 2), 'utf-8');
-  console.log(`✅ Cache saved (${data.length} entries)`);
-}
-
 // ── Output ────────────────────────────────────────────────────────────────────
 
 function writeWeaponFiles(weapons: CachedWeapon[], versionFilter?: string[]) {
@@ -1465,32 +1399,17 @@ function writeWeaponFiles(weapons: CachedWeapon[], versionFilter?: string[]) {
 async function main() {
   const args = process.argv.slice(2);
 
-  if (args.length === 0 || !['--fetch', '--cache'].includes(args[0])) {
+  if (args.length === 0 || args[0] !== '--fetch') {
     console.error('Usage:');
     console.error('  Fetch + générer tout    : npx ts-node ... scrape-weapons.ts --fetch');
-    console.error('  Cache + générer tout     : npx ts-node ... scrape-weapons.ts --cache');
-    console.error('  Filtrer par version(s)   : ... --cache 5.8 5.9');
+    console.error('  Filtrer par version(s)   : ... --fetch 5.8 5.9');
     process.exit(1);
   }
 
-  const useCache = args[0] === '--cache';
   const versionFilter = args.slice(1);
 
-  let weapons: CachedWeapon[];
-
-  if (useCache) {
-    const cached = loadCache();
-    if (!cached) {
-      console.error('❌ No cache found. Run with --fetch first.');
-      process.exit(1);
-    }
-    weapons = cached;
-    console.log(`Loaded ${weapons.length} weapons from cache.`);
-  } else {
-    console.log('Fetching all weapons from wiki (this will take a while)...');
-    weapons = await fetchAll();
-    saveCache(weapons);
-  }
+  console.log('Fetching all weapons from wiki (this will take a while)...');
+  const weapons = await fetchAll();
 
   writeWeaponFiles(weapons, versionFilter.length ? versionFilter : undefined);
 }

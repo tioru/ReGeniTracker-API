@@ -1,16 +1,22 @@
 // scripts/scrape-locations.ts
 import axios from 'axios';
-import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import * as cheerio from 'cheerio';
-
-const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
-const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
+import {
+  EN_API_URL,
+  FR_API_URL,
+  HTTP_HEADERS,
+  httpsAgent,
+  sleep,
+  withRetry,
+  fetchWikitext as fetchEnWikitext,
+  fetchHtml as fetchEnHtml,
+  fetchFrWikitext,
+} from './lib/wiki-fetch';
 
 const OUTPUT_DIR = (lang: 'en' | 'fr') =>
   path.resolve(__dirname, `../prisma/data/locations/${lang}`);
-const CACHE_PATH = path.resolve(__dirname, './cache/locations-raw-cache.json');
 
 // ─────────────────────────────────────────────────────────────────────────────
 // NOTE
@@ -403,29 +409,6 @@ export function parseLocationFr(content: string): { description: string; image: 
 
 // ── HTTP ──────────────────────────────────────────────────────────────────────
 
-const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
-const httpsAgent = new https.Agent({ rejectUnauthorized: false });
-
-function sleep(ms: number) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-async function withRetry<T>(label: string, fn: () => Promise<T>, attempts = 3): Promise<T> {
-  let lastErr: unknown;
-  for (let i = 0; i < attempts; i++) {
-    try {
-      return await fn();
-    } catch (err) {
-      lastErr = err;
-      if (i < attempts - 1) {
-        console.warn(`⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`);
-        await sleep(800 * (i + 1));
-      }
-    }
-  }
-  throw lastErr;
-}
-
 async function fetchCategoryBatch(
   category: string,
   type: LocationType,
@@ -537,54 +520,6 @@ async function fetchFrTitleDirect(pageTitle: string): Promise<string | null> {
   }
 }
 
-async function fetchEnWikitext(pageTitle: string): Promise<string | null> {
-  try {
-    return await withRetry(`fetch wikitext EN "${pageTitle}"`, async () => {
-      const response = await axios.get(EN_API_URL, {
-        params: {
-          action: 'query',
-          titles: pageTitle,
-          prop: 'revisions',
-          rvprop: 'content',
-          rvslots: 'main',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return null;
-      return page.revisions?.[0]?.slots?.main?.content ?? null;
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext EN pour "${pageTitle}": ${err}`);
-    return null;
-  }
-}
-
-async function fetchEnHtml(pageTitle: string): Promise<string> {
-  try {
-    return await withRetry(`fetch HTML "${pageTitle}"`, async () => {
-      const response = await axios.get(EN_API_URL, {
-        params: {
-          action: 'parse',
-          page: pageTitle,
-          prop: 'text',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      return response.data?.parse?.text ?? '';
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch HTML pour "${pageTitle}": ${err}`);
-    return '';
-  }
-}
-
 // Repli quand {{Location Intro}} n'a pas de paramètre "description" en clair
 // dans le wikitext : le template génère alors lui-même une phrase à partir
 // des champs de l'infobox (type/area/region/subregion, voire event pour les
@@ -648,32 +583,6 @@ async function resolveFrNameViaOtherLanguages(pageTitle: string, wikitext?: stri
   return html ? parseFrNameFromOtherLanguagesHtml(html) : null;
 }
 
-async function fetchFrWikitext(frTitle: string): Promise<string | null> {
-  try {
-    return await withRetry(`fetch wikitext FR "${frTitle}"`, async () => {
-      const response = await axios.get(FR_API_URL, {
-        params: {
-          action: 'query',
-          titles: frTitle,
-          prop: 'revisions',
-          rvprop: 'content',
-          rvslots: 'main',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return null;
-      return page.revisions?.[0]?.slots?.main?.content ?? null;
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext FR pour "${frTitle}": ${err}`);
-    return null;
-  }
-}
-
 // ── Résolution de la page FR (langlink batché → langlink dédié → Other Languages) ──
 
 export async function resolveFrTitleAndContent(
@@ -726,70 +635,42 @@ export function buildLocationOutput(
 async function main() {
   const args = process.argv.slice(2);
 
-  if (args.length === 0 || !['--fetch', '--cache'].includes(args[0])) {
+  if (args.length === 0 || args[0] !== '--fetch') {
     console.error('Usage:');
     console.error('  Fetch + générer tout : npx ts-node --project tsconfig.scripts.json scripts/scrape-locations.ts --fetch');
-    console.error('  Cache + générer tout  : npx ts-node --project tsconfig.scripts.json scripts/scrape-locations.ts --cache');
     process.exit(1);
   }
 
-  const useCache = args[0] === '--cache';
+  console.log('Fetching all locations from wiki (this will take a few minutes)...');
+  const rawByPageTitle = await fetchAllRaw();
+  console.log(`Found ${rawByPageTitle.size} locations. Resolving French pages...`);
 
-  let rawByPageTitle: Map<string, RawLocation>;
-  let frContentByPageTitle: Map<string, { frTitle: string; frContent: string | null } | null>;
+  const frContentByPageTitle = new Map<string, { frTitle: string; frContent: string | null } | null>();
+  let i = 0;
+  let renderedDescriptions = 0;
+  for (const loc of rawByPageTitle.values()) {
+    i++;
+    console.log(`  Enriching "${loc.pageTitle}" (${i}/${rawByPageTitle.size})...`);
 
-  if (useCache) {
-    if (!fs.existsSync(CACHE_PATH)) {
-      console.error('❌ No cache found. Run with --fetch first.');
-      process.exit(1);
-    }
-    const cached = JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
-    rawByPageTitle = new Map(cached.raw);
-    frContentByPageTitle = new Map(cached.fr);
-    console.log(`Loaded ${rawByPageTitle.size} locations from cache.`);
-  } else {
-    console.log('Fetching all locations from wiki (this will take a few minutes)...');
-    rawByPageTitle = await fetchAllRaw();
-    console.log(`Found ${rawByPageTitle.size} locations. Resolving French pages...`);
-
-    frContentByPageTitle = new Map();
-    let i = 0;
-    let renderedDescriptions = 0;
-    for (const loc of rawByPageTitle.values()) {
-      i++;
-      console.log(`  Enriching "${loc.pageTitle}" (${i}/${rawByPageTitle.size})...`);
-
-      // {{Location Intro}} sans description= en clair : on va chercher le
-      // texte généré au rendu (cf. parseIntroTextFromHtml) avant de
-      // résoudre la page FR, pour que loc.description soit déjà correct
-      // quand il sert de repli dans le bloc FR plus bas.
-      if (!loc.description.trim() && (loc.type === 'Area' || loc.type === 'Subarea')) {
-        const html = await fetchEnHtml(loc.pageTitle);
-        const rendered = parseIntroTextFromHtml(html);
-        if (rendered) {
-          loc.description = rendered;
-          renderedDescriptions++;
-        }
-        await sleep(300);
+    // {{Location Intro}} sans description= en clair : on va chercher le
+    // texte généré au rendu (cf. parseIntroTextFromHtml) avant de
+    // résoudre la page FR, pour que loc.description soit déjà correct
+    // quand il sert de repli dans le bloc FR plus bas.
+    if (!loc.description.trim() && (loc.type === 'Area' || loc.type === 'Subarea')) {
+      const html = await fetchEnHtml(loc.pageTitle);
+      const rendered = parseIntroTextFromHtml(html);
+      if (rendered) {
+        loc.description = rendered;
+        renderedDescriptions++;
       }
-
-      const frResolved = await resolveFrTitleAndContent(loc);
-      frContentByPageTitle.set(loc.pageTitle, frResolved);
       await sleep(300);
     }
-    console.log(`  ${renderedDescriptions} description(s) EN récupérée(s) via le rendu HTML (repli {{Location Intro}} sans description= en clair).`);
 
-    fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
-    fs.writeFileSync(
-      CACHE_PATH,
-      JSON.stringify({
-        raw: Array.from(rawByPageTitle.entries()),
-        fr: Array.from(frContentByPageTitle.entries()),
-      }, null, 2),
-      'utf-8',
-    );
-    console.log(`✅ Cache saved (${rawByPageTitle.size} entries)`);
+    const frResolved = await resolveFrTitleAndContent(loc);
+    frContentByPageTitle.set(loc.pageTitle, frResolved);
+    await sleep(300);
   }
+  console.log(`  ${renderedDescriptions} description(s) EN récupérée(s) via le rendu HTML (repli {{Location Intro}} sans description= en clair).`);
 
   // ── Nom EN → nom FR, pour traduire les références de parent côté FR ───────
   const enToFrName = new Map<string, string>();

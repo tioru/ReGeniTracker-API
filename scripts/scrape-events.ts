@@ -2,14 +2,17 @@
 import axios from 'axios';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import * as https from 'node:https';
-
-const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
-const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
+import {
+  EN_API_URL,
+  FR_API_URL,
+  HTTP_HEADERS,
+  httpsAgent,
+  sleep,
+  fetchWikitext,
+} from './lib/wiki-fetch';
 
 const OUTPUT_DIR = (lang: 'en' | 'fr') =>
   path.resolve(__dirname, `../prisma/data/events/${lang}`);
-const CACHE_PATH = path.resolve(__dirname, './cache/events-raw-cache.json');
 
 // ─────────────────────────────────────────────────────────────────────────────
 // NOTE
@@ -100,70 +103,6 @@ interface CachedEvent {
   pageTitle: string;
   en: EventOutput;
   fr: EventOutput | null;
-}
-
-// ── HTTP ──────────────────────────────────────────────────────────────────────
-
-const HTTP_HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)',
-};
-const httpsAgent = new https.Agent({ rejectUnauthorized: false });
-
-function sleep(ms: number) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-async function withRetry<T>(
-  label: string,
-  fn: () => Promise<T>,
-  attempts = 3,
-): Promise<T> {
-  let lastErr: unknown;
-  for (let i = 0; i < attempts; i++) {
-    try {
-      return await fn();
-    } catch (err) {
-      lastErr = err;
-      if (i < attempts - 1) {
-        console.warn(
-          `⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`,
-        );
-        await sleep(800 * (i + 1));
-      }
-    }
-  }
-  throw lastErr;
-}
-
-async function fetchWikitext(
-  apiUrl: string,
-  pageTitle: string,
-): Promise<string | null> {
-  try {
-    return await withRetry(`fetch wikitext "${pageTitle}"`, async () => {
-      const response = await axios.get(apiUrl, {
-        params: {
-          action: 'query',
-          titles: pageTitle,
-          prop: 'revisions',
-          rvprop: 'content',
-          rvslots: 'main',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return null;
-      return page.revisions?.[0]?.slots?.main?.content ?? null;
-    });
-  } catch (err) {
-    console.warn(
-      `⚠️  Échec du fetch wikitext pour "${pageTitle}" après plusieurs tentatives: ${err}`,
-    );
-    return null;
-  }
 }
 
 interface CategoryPage {
@@ -587,7 +526,7 @@ async function enrichEvent(page: CategoryPage): Promise<CachedEvent | null> {
 
   let fr: EventOutput | null = null;
   if (page.frTitle) {
-    const frContent = await fetchWikitext(FR_API_URL, page.frTitle);
+    const frContent = await fetchWikitext(page.frTitle, FR_API_URL);
     if (frContent) {
       fr = buildFrOutput(en, page.frTitle, frContent);
     } else {
@@ -625,23 +564,6 @@ async function fetchAndEnrichAll(): Promise<CachedEvent[]> {
     await sleep(300);
   }
   return enriched;
-}
-
-// ── Cache ─────────────────────────────────────────────────────────────────────
-
-function loadCache(): CachedEvent[] | null {
-  if (!fs.existsSync(CACHE_PATH)) return null;
-  try {
-    return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
-  } catch {
-    return null;
-  }
-}
-
-function saveCache(data: CachedEvent[]) {
-  fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
-  fs.writeFileSync(CACHE_PATH, JSON.stringify(data, null, 2), 'utf-8');
-  console.log(`✅ Cache saved (${data.length} entries)`);
 }
 
 // ── Output ────────────────────────────────────────────────────────────────────
@@ -695,38 +617,21 @@ function writeEventFiles(events: CachedEvent[], versionFilter?: string[]) {
 async function main() {
   const args = process.argv.slice(2);
 
-  if (args.length === 0 || !['--fetch', '--cache'].includes(args[0])) {
+  if (args.length === 0 || args[0] !== '--fetch') {
     console.error('Usage:');
     console.error(
       '  Fetch + générer tout   : npx ts-node -r tsconfig-paths/register scripts/scrape-events.ts --fetch',
     );
-    console.error(
-      '  Régénérer depuis cache : npx ts-node -r tsconfig-paths/register scripts/scrape-events.ts --cache',
-    );
-    console.error('  Filtrer par version(s) : ... --cache 5.0 5.1');
+    console.error('  Filtrer par version(s) : ... --fetch 5.0 5.1');
     process.exit(1);
   }
 
-  const useCache = args[0] === '--cache';
   const versionFilter = args.slice(1);
 
-  let events: CachedEvent[];
-
-  if (useCache) {
-    const cached = loadCache();
-    if (!cached) {
-      console.error('❌ No cache found. Run with --fetch first.');
-      process.exit(1);
-    }
-    events = cached;
-    console.log(`Loaded ${events.length} events from cache.`);
-  } else {
-    console.log(
-      'Fetching all events from wiki (this will take a while, ~1200 pages)...',
-    );
-    events = await fetchAndEnrichAll();
-    saveCache(events);
-  }
+  console.log(
+    'Fetching all events from wiki (this will take a while, ~1200 pages)...',
+  );
+  const events = await fetchAndEnrichAll();
 
   writeEventFiles(events, versionFilter.length ? versionFilter : undefined);
 }

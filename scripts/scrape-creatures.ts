@@ -1,14 +1,15 @@
 // scripts/scrape-creatures.ts
-import axios from 'axios';
-import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import {
+  fetchCategoryMembers,
+  fetchWikitextWithLanglink,
+  fetchFrWikitext,
+  sleep,
+} from './lib/wiki-fetch';
 
-const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
-const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
 const OUTPUT_DIR = (lang: 'en' | 'fr') =>
   path.resolve(__dirname, `../prisma/data/creatures/${lang}`);
-const CACHE_PATH = path.resolve(__dirname, './cache/creatures-raw-cache.json');
 
 // ─────────────────────────────────────────────────────────────────────────────
 // NOTE
@@ -85,6 +86,11 @@ interface Drop {
 }
 
 interface CreatureOutput {
+  // Titre de page wiki EN (indépendant de la langue, comme `image`) : source
+  // fiable pour re-scraper la page (ex: scrape-creature-images.ts) sans
+  // dépendre d'un cache — `name` peut diverger du pageTitle réel (suffixe
+  // parenthétique de désambiguïsation retiré).
+  pageTitle: string;
   name: string;
   family: string;
   group: string;
@@ -276,6 +282,7 @@ function parseEnWildlifeInfobox(pageTitle: string, content: string): CreatureOut
   const versionMatch = content.match(/\{\{Change History\|([^}|]+)/);
 
   return {
+    pageTitle,
     name: parseEnCreatureName(fields, pageTitle),
     family: cleanWikitext(fields['family'] ?? ''),
     group: cleanWikitext(fields['group'] ?? ''),
@@ -300,6 +307,7 @@ function parseEnFishInfobox(pageTitle: string, content: string): CreatureOutput 
   const versionMatch = content.match(/\{\{Change History\|([^}|]+)/);
 
   return {
+    pageTitle,
     name: parseEnCreatureName(fields, pageTitle),
     family: cleanWikitext(fields['lbFamily'] ?? ''),
     group: cleanWikitext(fields['lbGroup'] ?? ''),
@@ -343,6 +351,7 @@ function parseFrWildlifeInfobox(frTitle: string, content: string): CreatureOutpu
   const versionMatch = content.match(/\{\{Historique\|([^}|]+)/);
 
   return {
+    pageTitle: '', // overridé par parseFrCreaturePage (pageTitle EN, cf. plus bas)
     name: frTitle,
     family: cleanWikitext(fields['famille'] ?? ''),
     group: cleanWikitext(fields['groupe'] ?? ''),
@@ -369,6 +378,7 @@ function parseFrFishInfobox(
   const versionMatch = content.match(/\{\{Historique\|([^}|]+)/);
 
   return {
+    pageTitle: enFallback.pageTitle,
     name: frTitle,
     family: enFallback.family,
     group: enFallback.group,
@@ -386,113 +396,9 @@ function parseFrCreaturePage(
   content: string,
   enFallback: CreatureOutput,
 ): CreatureOutput | null {
-  return (
-    parseFrWildlifeInfobox(frTitle, content) ?? parseFrFishInfobox(frTitle, content, enFallback)
-  );
-}
-
-// ── HTTP ──────────────────────────────────────────────────────────────────────
-
-const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
-const httpsAgent = new https.Agent({ rejectUnauthorized: false });
-
-function sleep(ms: number) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-async function withRetry<T>(label: string, fn: () => Promise<T>, attempts = 3): Promise<T> {
-  let lastErr: unknown;
-  for (let i = 0; i < attempts; i++) {
-    try {
-      return await fn();
-    } catch (err) {
-      lastErr = err;
-      if (i < attempts - 1) {
-        console.warn(`⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`);
-        await sleep(800 * (i + 1));
-      }
-    }
-  }
-  throw lastErr;
-}
-
-async function fetchCategoryMembers(category: string): Promise<string[]> {
-  const titles: string[] = [];
-  let continueParams: Record<string, string> | undefined;
-  do {
-    const response = await withRetry(`fetch category "${category}"`, () =>
-      axios.get(EN_API_URL, {
-        params: {
-          action: 'query',
-          list: 'categorymembers',
-          cmtitle: `Category:${category}`,
-          cmlimit: '500',
-          format: 'json',
-          formatversion: '2',
-          ...continueParams,
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      }),
-    );
-    for (const member of response.data?.query?.categorymembers ?? []) {
-      if (member.ns === 0) titles.push(member.title);
-    }
-    continueParams = response.data?.continue;
-    await sleep(300);
-  } while (continueParams);
-  return titles;
-}
-
-async function fetchWikitextWithLanglink(
-  pageTitle: string,
-): Promise<{ content: string | null; frTitle: string | null }> {
-  const response = await axios.get(EN_API_URL, {
-    params: {
-      action: 'query',
-      titles: pageTitle,
-      prop: 'revisions|langlinks',
-      rvprop: 'content',
-      rvslots: 'main',
-      lllang: 'fr',
-      format: 'json',
-      formatversion: '2',
-    },
-    headers: HTTP_HEADERS,
-    httpsAgent,
-  });
-  const page = response.data?.query?.pages?.[0];
-  if (!page || page.missing) return { content: null, frTitle: null };
-  return {
-    content: page.revisions?.[0]?.slots?.main?.content ?? null,
-    frTitle: page.langlinks?.[0]?.title ?? null,
-  };
-}
-
-async function fetchFrWikitext(frTitle: string): Promise<string | null> {
-  try {
-    return await withRetry(`fetch wikitext FR "${frTitle}"`, async () => {
-      const response = await axios.get(FR_API_URL, {
-        params: {
-          action: 'query',
-          titles: frTitle,
-          prop: 'revisions',
-          rvprop: 'content',
-          rvslots: 'main',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return null;
-      return page.revisions?.[0]?.slots?.main?.content ?? null;
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext FR pour "${frTitle}" après plusieurs tentatives: ${err}`);
-    return null;
-  }
+  const result =
+    parseFrWildlifeInfobox(frTitle, content) ?? parseFrFishInfobox(frTitle, content, enFallback);
+  return result ? { ...result, pageTitle: enFallback.pageTitle } : null;
 }
 
 // ── Repli sur la dernière valeur connue ────────────────────────────────────
@@ -502,9 +408,11 @@ async function fetchFrWikitext(frTitle: string): Promise<string | null> {
 // "description" tout en gardant un paragraphe d'intro équivalent) sans que
 // la donnée soit fausse ou obsolète pour autant. Plutôt que de tenter de la
 // ré-extraire depuis la prose (peu fiable, cf. NOTE en tête de fichier), on
-// garde la dernière valeur connue du cache tant que le nouveau scrape
-// retombe sur une valeur vide — même logique que preserveKnownFields dans
-// scrape-books.ts.
+// garde la dernière valeur connue tant que le nouveau scrape retombe sur une
+// valeur vide — même logique que preserveKnownFields dans scrape-books.ts.
+// "previous" vient désormais du fichier de sortie déjà écrit en repo
+// (prisma/data/creatures/<lang>/*.json), pas d'un cache disposable : cf.
+// readPreviousOutput.
 function preserveKnownFields(fresh: CreatureOutput, previous: CreatureOutput | undefined): CreatureOutput {
   if (!previous) return fresh;
   return {
@@ -517,18 +425,23 @@ function preserveKnownFields(fresh: CreatureOutput, previous: CreatureOutput | u
   };
 }
 
-async function scrapeCreature(
-  pageTitle: string,
-  previous: CachedCreature | undefined,
-): Promise<RawCreature | null> {
-  const { content, frTitle } = await withRetry(`fetch wikitext "${pageTitle}"`, () =>
-    fetchWikitextWithLanglink(pageTitle),
-  );
+function readPreviousOutput(lang: 'en' | 'fr', name: string): CreatureOutput | undefined {
+  const filePath = path.join(OUTPUT_DIR(lang), `${slugify(name)}.json`);
+  if (!fs.existsSync(filePath)) return undefined;
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  } catch {
+    return undefined;
+  }
+}
+
+async function scrapeCreature(pageTitle: string): Promise<RawCreature | null> {
+  const { content, frTitle } = await fetchWikitextWithLanglink(pageTitle);
   if (!content) return null;
 
   let en = parseEnCreaturePage(pageTitle, content);
   if (!en) return null; // pas de {{Wildlife Infobox}} exploitable, ou page de groupe
-  en = preserveKnownFields(en, previous?.en);
+  en = preserveKnownFields(en, readPreviousOutput('en', en.name));
 
   return {
     pageTitle,
@@ -538,12 +451,12 @@ async function scrapeCreature(
   };
 }
 
-async function scrapeAll(pageTitles: string[], cache: Map<string, CachedCreature>): Promise<RawCreature[]> {
+async function scrapeAll(pageTitles: string[]): Promise<RawCreature[]> {
   const results: RawCreature[] = [];
   for (let i = 0; i < pageTitles.length; i++) {
     console.log(`Scraping "${pageTitles[i]}" (${i + 1}/${pageTitles.length})...`);
     try {
-      const creature = await scrapeCreature(pageTitles[i], cache.get(pageTitles[i]));
+      const creature = await scrapeCreature(pageTitles[i]);
       if (creature) results.push(creature);
     } catch (err) {
       console.warn(`⚠️  Échec du scraping de "${pageTitles[i]}": ${err}`);
@@ -553,7 +466,7 @@ async function scrapeAll(pageTitles: string[], cache: Map<string, CachedCreature
   return results;
 }
 
-async function enrichWithFrench(raw: RawCreature, previous: CachedCreature | undefined): Promise<CachedCreature> {
+async function enrichWithFrench(raw: RawCreature): Promise<CachedCreature> {
   const fallbackName = raw.otherLanguagesFrName || raw.en.name;
   const fallbackFr = (): CreatureOutput => ({ ...raw.en, name: fallbackName });
 
@@ -573,40 +486,20 @@ async function enrichWithFrench(raw: RawCreature, previous: CachedCreature | und
     console.warn(`⚠️  "${raw.pageTitle}": aucune page FR trouvée, fichier fr/ écrit avec le nom "${fallbackName}".`);
     fr = fallbackFr();
   }
-  fr = preserveKnownFields(fr, previous?.fr);
+  fr = preserveKnownFields(fr, readPreviousOutput('fr', fr.name));
 
   return { pageTitle: raw.pageTitle, en: raw.en, fr };
 }
 
-async function scrapeAndEnrichAll(pageTitles: string[], cache: Map<string, CachedCreature>): Promise<CachedCreature[]> {
-  const raws = await scrapeAll(pageTitles, cache);
+async function scrapeAndEnrichAll(pageTitles: string[]): Promise<CachedCreature[]> {
+  const raws = await scrapeAll(pageTitles);
   const enriched: CachedCreature[] = [];
   for (let i = 0; i < raws.length; i++) {
     console.log(`Fetching FR page for "${raws[i].pageTitle}" (${i + 1}/${raws.length})...`);
-    enriched.push(await enrichWithFrench(raws[i], cache.get(raws[i].pageTitle)));
+    enriched.push(await enrichWithFrench(raws[i]));
     await sleep(300);
   }
   return enriched;
-}
-
-// ── Cache ─────────────────────────────────────────────────────────────────────
-
-function loadCache(): CachedCreature[] | null {
-  if (!fs.existsSync(CACHE_PATH)) return null;
-  try {
-    return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
-  } catch {
-    return null;
-  }
-}
-
-function saveCache(newData: CachedCreature[]) {
-  const existing = loadCache() ?? [];
-  const merged = new Map(existing.map((c) => [c.pageTitle, c]));
-  for (const creature of newData) merged.set(creature.pageTitle, creature);
-  fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
-  fs.writeFileSync(CACHE_PATH, JSON.stringify([...merged.values()], null, 2), 'utf-8');
-  console.log(`✅ Cache saved (${merged.size} entries)`);
 }
 
 // ── Output ────────────────────────────────────────────────────────────────────
@@ -628,8 +521,9 @@ function writeCreatureFiles(creatures: CachedCreature[]) {
     // re-dérive lui-même depuis le wikitext (même pattern que
     // scrape-material-images.ts, cf. sa NOTE).
     const image = slugify(creature.pageTitle);
-    fs.writeFileSync(path.join(enDir, filename), JSON.stringify({ ...creature.en, image }, null, 2), 'utf-8');
-    fs.writeFileSync(path.join(frDir, filename), JSON.stringify({ ...creature.fr, image }, null, 2), 'utf-8');
+    const pageTitle = creature.pageTitle;
+    fs.writeFileSync(path.join(enDir, filename), JSON.stringify({ ...creature.en, image, pageTitle }, null, 2), 'utf-8');
+    fs.writeFileSync(path.join(frDir, filename), JSON.stringify({ ...creature.fr, image, pageTitle }, null, 2), 'utf-8');
   }
 
   console.log(`✅ Wrote ${creatures.length} creature files (en/ + fr/) to ${enDir} / ${frDir}`);
@@ -640,39 +534,23 @@ function writeCreatureFiles(creatures: CachedCreature[]) {
 async function main() {
   const args = process.argv.slice(2);
 
-  if (args.length === 0 || !['--fetch', '--cache', '--fetch-category'].includes(args[0])) {
+  if (args.length === 0 || !['--fetch', '--fetch-category'].includes(args[0])) {
     console.error('Usage:');
     console.error('  Fetch une liste de pages    : npx ts-node -r tsconfig-paths/register scripts/scrape-creatures.ts --fetch "Squirrel" "Crimson Fox"');
     console.error('  Fetch toute la catégorie     : npx ts-node -r tsconfig-paths/register scripts/scrape-creatures.ts --fetch-category');
-    console.error('  Régénérer depuis le cache    : npx ts-node -r tsconfig-paths/register scripts/scrape-creatures.ts --cache');
     process.exit(1);
   }
 
-  let creatures: CachedCreature[];
-
-  if (args[0] === '--cache') {
-    const cached = loadCache();
-    if (!cached) {
-      console.error('❌ No cache found. Run with --fetch or --fetch-category first.');
-      process.exit(1);
-    }
-    creatures = cached;
-    console.log(`Loaded ${creatures.length} creatures from cache.`);
+  let pageTitles: string[];
+  if (args[0] === '--fetch-category') {
+    console.log('Fetching "Category:Wildlife" members...');
+    pageTitles = await fetchCategoryMembers('Wildlife');
+    console.log(`Found ${pageTitles.length} pages in category.`);
   } else {
-    let pageTitles: string[];
-    if (args[0] === '--fetch-category') {
-      console.log('Fetching "Category:Wildlife" members...');
-      pageTitles = await fetchCategoryMembers('Wildlife');
-      console.log(`Found ${pageTitles.length} pages in category.`);
-    } else {
-      pageTitles = args.slice(1);
-    }
-
-    const cache = new Map((loadCache() ?? []).map((c) => [c.pageTitle, c]));
-    creatures = await scrapeAndEnrichAll(pageTitles, cache);
-    saveCache(creatures);
+    pageTitles = args.slice(1);
   }
 
+  const creatures = await scrapeAndEnrichAll(pageTitles);
   writeCreatureFiles(creatures);
 }
 

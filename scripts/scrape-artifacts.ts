@@ -1,16 +1,21 @@
 // scripts/scrape-artifacts.ts
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import * as https from 'node:https';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-
-const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
-const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
+import {
+  EN_API_URL,
+  FR_API_URL,
+  HTTP_HEADERS,
+  httpsAgent,
+  sleep,
+  withRetry,
+  fetchWikitext,
+  fetchHtml,
+} from './lib/wiki-fetch';
 
 const OUTPUT_DIR = (lang: 'en' | 'fr') =>
   path.resolve(__dirname, `../prisma/data/artifacts/${lang}`);
-const CACHE_PATH = path.resolve(__dirname, './cache/artifacts-raw-cache.json');
 
 // ─────────────────────────────────────────────────────────────────────────────
 // NOTE
@@ -161,79 +166,6 @@ interface CachedArtifactSet {
   releaseVersion: string;
   en: ArtifactSetOutput;
   fr: ArtifactSetOutput | null;
-}
-
-// ── HTTP ──────────────────────────────────────────────────────────────────────
-
-const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
-const httpsAgent = new https.Agent({ rejectUnauthorized: false });
-
-function sleep(ms: number) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-async function withRetry<T>(label: string, fn: () => Promise<T>, attempts = 3): Promise<T> {
-  let lastErr: unknown;
-  for (let i = 0; i < attempts; i++) {
-    try {
-      return await fn();
-    } catch (err) {
-      lastErr = err;
-      if (i < attempts - 1) {
-        console.warn(`⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`);
-        await sleep(800 * (i + 1));
-      }
-    }
-  }
-  throw lastErr;
-}
-
-async function fetchWikitext(apiUrl: string, pageTitle: string): Promise<string | null> {
-  try {
-    return await withRetry(`fetch wikitext "${pageTitle}"`, async () => {
-      const response = await axios.get(apiUrl, {
-        params: {
-          action: 'query',
-          titles: pageTitle,
-          prop: 'revisions',
-          rvprop: 'content',
-          rvslots: 'main',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return null;
-      return page.revisions?.[0]?.slots?.main?.content ?? null;
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext pour "${pageTitle}" après plusieurs tentatives: ${err}`);
-    return null;
-  }
-}
-
-async function fetchHtml(apiUrl: string, pageTitle: string): Promise<string> {
-  try {
-    return await withRetry(`fetch HTML "${pageTitle}"`, async () => {
-      const response = await axios.get(apiUrl, {
-        params: {
-          action: 'parse',
-          page: pageTitle,
-          prop: 'text',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      return response.data?.parse?.text ?? '';
-    });
-  } catch (err) {
-    console.warn(`⚠️  Échec du fetch HTML pour "${pageTitle}" après plusieurs tentatives: ${err}`);
-    return '';
-  }
 }
 
 // ── Wikitext helpers (repris des autres scripts scrape-*) ───────────────────
@@ -440,7 +372,7 @@ function extractSectionHtmlById(html: string, id: string): string | null {
 }
 
 async function fetchDroppedByBosses(pageTitle: string): Promise<{ name: string; linkTitle: string }[]> {
-  const html = await fetchHtml(EN_API_URL, pageTitle);
+  const html = await fetchHtml(pageTitle);
   const section = extractSectionHtmlById(html, 'Dropped_By');
   if (!section) return [];
 
@@ -839,7 +771,7 @@ async function enrichArtifactSet(raw: RawArtifactSetEn): Promise<CachedArtifactS
 
   let fr: ArtifactSetOutput | null = null;
   if (frTitle) {
-    const frContent = await fetchWikitext(FR_API_URL, frTitle);
+    const frContent = await fetchWikitext(frTitle, FR_API_URL);
     const frInfoboxBlock = frContent ? extractBracedBlock(frContent, '{{Infobox Artéfact') : null;
     const frFields = frInfoboxBlock ? parseInfoboxFieldsAccented(frInfoboxBlock) : {};
 
@@ -861,7 +793,7 @@ async function enrichArtifactSet(raw: RawArtifactSetEn): Promise<CachedArtifactS
       const key = PIECE_SLOT_KEYS[slot];
 
       if (bundle?.frTitle) {
-        const frPieceContent = await fetchWikitext(FR_API_URL, bundle.frTitle);
+        const frPieceContent = await fetchWikitext(bundle.frTitle, FR_API_URL);
         frPieces[key] = {
           name: bundle.frTitle,
           description: frPieceContent ? parsePieceFr(frPieceContent).description : enPieces[key].description,
@@ -918,23 +850,6 @@ async function fetchAndEnrichAll(): Promise<CachedArtifactSet[]> {
   return enriched;
 }
 
-// ── Cache ─────────────────────────────────────────────────────────────────────
-
-function loadCache(): CachedArtifactSet[] | null {
-  if (!fs.existsSync(CACHE_PATH)) return null;
-  try {
-    return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
-  } catch {
-    return null;
-  }
-}
-
-function saveCache(data: CachedArtifactSet[]) {
-  fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
-  fs.writeFileSync(CACHE_PATH, JSON.stringify(data, null, 2), 'utf-8');
-  console.log(`✅ Cache saved (${data.length} entries)`);
-}
-
 // ── Output ────────────────────────────────────────────────────────────────────
 
 function writeArtifactFiles(sets: CachedArtifactSet[], versionFilter?: string[]) {
@@ -974,7 +889,7 @@ function writeArtifactFiles(sets: CachedArtifactSet[], versionFilter?: string[])
 // Utilitaire de debug : enrichit un seul set (sans parcourir toute la
 // catégorie) et affiche le résultat sur stdout, sans écrire de fichier.
 async function runSingle(pageTitle: string) {
-  const content = await fetchWikitext(EN_API_URL, pageTitle);
+  const content = await fetchWikitext(pageTitle);
   if (!content) {
     console.error(`❌ Page EN introuvable : "${pageTitle}"`);
     process.exit(1);
@@ -1001,32 +916,16 @@ async function main() {
     return;
   }
 
-  if (args.length === 0 || !['--fetch', '--cache'].includes(args[0])) {
+  if (args.length === 0 || args[0] !== '--fetch') {
     console.error('Usage:');
     console.error('  Fetch + générer tout    : npx ts-node ... scrape-artifacts.ts --fetch');
-    console.error('  Cache + générer tout     : npx ts-node ... scrape-artifacts.ts --cache');
-    console.error('  Filtrer par version(s)   : ... --cache "1.2" "2.0"');
+    console.error('  Filtrer par version(s)   : ... --fetch "1.2" "2.0"');
     console.error('  Tester un seul set       : ... scrape-artifacts.ts --single "Heart of Depth"');
     process.exit(1);
   }
 
-  const useCache = args[0] === '--cache';
   const versionFilter = args.slice(1);
-
-  let sets: CachedArtifactSet[];
-
-  if (useCache) {
-    const cached = loadCache();
-    if (!cached) {
-      console.error('❌ No cache found. Run with --fetch first.');
-      process.exit(1);
-    }
-    sets = cached;
-    console.log(`Loaded ${sets.length} artifact sets from cache.`);
-  } else {
-    sets = await fetchAndEnrichAll();
-    saveCache(sets);
-  }
+  const sets = await fetchAndEnrichAll();
 
   writeArtifactFiles(sets, versionFilter.length ? versionFilter : undefined);
 }
