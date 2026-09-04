@@ -1,17 +1,3 @@
-// scripts/lib/wiki-fetch.ts
-//
-// Couche fetch partagée par tous les scrape-*.ts qui lisent le wiki
-// (genshin-impact.fandom.com). Auparavant dupliquée quasi à l'identique dans
-// chaque script (EN_API_URL/FR_API_URL, HTTP_HEADERS, httpsAgent, sleep,
-// withRetry, fetchCategoryMembers, fetchWikitext(WithLanglink), fetchFrWikitext,
-// fetchHtml) — centralisée ici pour éviter la dérive entre scripts (ex:
-// scrape-weapons.ts n'avait aucun retry avant ce refactor).
-//
-// Chaque fonction de fetch (fetchWikitext, fetchWikitextWithLanglink,
-// fetchFrWikitext, fetchHtml) applique déjà withRetry en interne et avale les
-// erreurs (retourne null/chaîne vide après épuisement des tentatives) : les
-// scripts appelants n'ont pas besoin de re-wrapper ces appels dans withRetry.
-
 import axios from 'axios';
 import * as https from 'node:https';
 
@@ -33,7 +19,7 @@ export async function withRetry<T>(label: string, fn: () => Promise<T>, attempts
     } catch (err) {
       lastErr = err;
       if (i < attempts - 1) {
-        console.warn(`⚠️  ${label} a échoué (tentative ${i + 1}/${attempts}), nouvel essai...`);
+        console.warn(`⚠️  ${label} failed (attempt ${i + 1}/${attempts}), retrying...`);
         await sleep(800 * (i + 1));
       }
     }
@@ -90,7 +76,7 @@ export async function fetchWikitext(pageTitle: string, apiUrl: string = EN_API_U
       return page.revisions?.[0]?.slots?.main?.content ?? null;
     });
   } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext pour "${pageTitle}" après plusieurs tentatives: ${err}`);
+    console.warn(`⚠️  Failed to fetch wikitext for "${pageTitle}" after several attempts: ${err}`);
     return null;
   }
 }
@@ -122,7 +108,7 @@ export async function fetchWikitextWithLanglink(
       };
     });
   } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext+langlink EN pour "${pageTitle}" après plusieurs tentatives: ${err}`);
+    console.warn(`⚠️  Failed to fetch wikitext+langlink EN for "${pageTitle}" after several attempts: ${err}`);
     return { content: null, frTitle: null };
   }
 }
@@ -148,7 +134,7 @@ export async function fetchFrWikitext(frTitle: string): Promise<string | null> {
       return page.revisions?.[0]?.slots?.main?.content ?? null;
     });
   } catch (err) {
-    console.warn(`⚠️  Échec du fetch wikitext FR pour "${frTitle}" après plusieurs tentatives: ${err}`);
+    console.warn(`⚠️  Failed to fetch wikitext FR for "${frTitle}" after several attempts: ${err}`);
     return null;
   }
 }
@@ -170,7 +156,7 @@ export async function fetchHtml(pageTitle: string, apiUrl: string = EN_API_URL):
       return response.data?.parse?.text ?? '';
     });
   } catch (err) {
-    console.warn(`⚠️  Échec du fetch HTML pour "${pageTitle}" après plusieurs tentatives: ${err}`);
+    console.warn(`⚠️  Failed to fetch HTML for "${pageTitle}" after several attempts: ${err}`);
     return '';
   }
 }
