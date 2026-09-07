@@ -55,25 +55,34 @@ export async function fetchCategoryMembers(category: string, apiUrl: string = EN
   return titles;
 }
 
+async function fetchPageRevision(
+  apiUrl: string,
+  pageTitle: string,
+  extraParams: Record<string, string> = {},
+): Promise<{ revisions?: { slots?: { main?: { content?: string } } }[]; langlinks?: { title: string }[] } | null> {
+  const response = await axios.get(apiUrl, {
+    params: {
+      action: 'query',
+      titles: pageTitle,
+      prop: 'revisions',
+      rvprop: 'content',
+      rvslots: 'main',
+      format: 'json',
+      formatversion: '2',
+      ...extraParams,
+    },
+    headers: HTTP_HEADERS,
+    httpsAgent,
+  });
+  const page = response.data?.query?.pages?.[0];
+  return page && !page.missing ? page : null;
+}
+
 export async function fetchWikitext(pageTitle: string, apiUrl: string = EN_API_URL): Promise<string | null> {
   try {
     return await withRetry(`fetch wikitext "${pageTitle}"`, async () => {
-      const response = await axios.get(apiUrl, {
-        params: {
-          action: 'query',
-          titles: pageTitle,
-          prop: 'revisions',
-          rvprop: 'content',
-          rvslots: 'main',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return null;
-      return page.revisions?.[0]?.slots?.main?.content ?? null;
+      const page = await fetchPageRevision(apiUrl, pageTitle);
+      return page?.revisions?.[0]?.slots?.main?.content ?? null;
     });
   } catch (err) {
     console.warn(`⚠️  Failed to fetch wikitext for "${pageTitle}" after several attempts: ${err}`);
@@ -86,56 +95,15 @@ export async function fetchWikitextWithLanglink(
 ): Promise<{ content: string | null; frTitle: string | null }> {
   try {
     return await withRetry(`fetch wikitext+langlink EN "${pageTitle}"`, async () => {
-      const response = await axios.get(EN_API_URL, {
-        params: {
-          action: 'query',
-          titles: pageTitle,
-          prop: 'revisions|langlinks',
-          rvprop: 'content',
-          rvslots: 'main',
-          lllang: 'fr',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return { content: null, frTitle: null };
+      const page = await fetchPageRevision(EN_API_URL, pageTitle, { prop: 'revisions|langlinks', lllang: 'fr' });
       return {
-        content: page.revisions?.[0]?.slots?.main?.content ?? null,
-        frTitle: page.langlinks?.[0]?.title ?? null,
+        content: page?.revisions?.[0]?.slots?.main?.content ?? null,
+        frTitle: page?.langlinks?.[0]?.title ?? null,
       };
     });
   } catch (err) {
     console.warn(`⚠️  Failed to fetch wikitext+langlink EN for "${pageTitle}" after several attempts: ${err}`);
     return { content: null, frTitle: null };
-  }
-}
-
-export async function fetchFrWikitext(frTitle: string): Promise<string | null> {
-  try {
-    return await withRetry(`fetch wikitext FR "${frTitle}"`, async () => {
-      const response = await axios.get(FR_API_URL, {
-        params: {
-          action: 'query',
-          titles: frTitle,
-          prop: 'revisions',
-          rvprop: 'content',
-          rvslots: 'main',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      const page = response.data?.query?.pages?.[0];
-      if (!page || page.missing) return null;
-      return page.revisions?.[0]?.slots?.main?.content ?? null;
-    });
-  } catch (err) {
-    console.warn(`⚠️  Failed to fetch wikitext FR for "${frTitle}" after several attempts: ${err}`);
-    return null;
   }
 }
 

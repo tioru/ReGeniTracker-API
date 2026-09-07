@@ -10,9 +10,9 @@ import {
   httpsAgent,
   sleep,
   withRetry,
+  fetchWikitext,
   fetchWikitext as fetchEnWikitext,
   fetchHtml as fetchEnHtml,
-  fetchFrWikitext,
 } from './lib/wiki-fetch';
 
 const OUTPUT_DIR = (lang: 'en' | 'fr') =>
@@ -883,7 +883,7 @@ async function enrichDomain(domain: RawDomain): Promise<CachedDomain> {
   let frTitle = domain.frTitle;
 
   if (frTitle) {
-    const frContent = await fetchFrWikitext(frTitle);
+    const frContent = await fetchWikitext(frTitle, FR_API_URL);
     if (frContent) {
       frPage = { ...parseFrDomainPage(frContent), title: frTitle };
     }
@@ -896,7 +896,7 @@ async function enrichDomain(domain: RawDomain): Promise<CachedDomain> {
   if (!frPage) {
     frTitle = await fetchFrTitleDirect(domain.pageTitle);
     if (frTitle) {
-      const frContent = await fetchFrWikitext(frTitle);
+      const frContent = await fetchWikitext(frTitle, FR_API_URL);
       if (frContent) {
         frPage = { ...parseFrDomainPage(frContent), title: frTitle };
       }
@@ -912,7 +912,7 @@ async function enrichDomain(domain: RawDomain): Promise<CachedDomain> {
   if (!frPage) {
     const frName = await resolveFrNameViaOtherLanguages(domain.pageTitle);
     if (frName) {
-      const frContent = await fetchFrWikitext(frName);
+      const frContent = await fetchWikitext(frName, FR_API_URL);
       frPage = frContent
         ? { ...parseFrDomainPage(frContent), title: frName }
         : { title: frName, subLocation: null, rotations: [], hasFullPage: false };

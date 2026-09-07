@@ -10,9 +10,9 @@ import {
   httpsAgent,
   sleep,
   withRetry,
+  fetchWikitext,
   fetchWikitext as fetchEnWikitext,
   fetchHtml as fetchEnHtml,
-  fetchFrWikitext,
 } from './lib/wiki-fetch';
 
 const OUTPUT_DIR = (lang: 'en' | 'fr') =>
@@ -591,19 +591,19 @@ export async function resolveFrTitleAndContent(
   let frTitle = loc.frTitle;
 
   if (frTitle) {
-    const content = await fetchFrWikitext(frTitle);
+    const content = await fetchWikitext(frTitle, FR_API_URL);
     if (content) return { frTitle, frContent: content };
   }
 
   frTitle = await fetchFrTitleDirect(loc.pageTitle);
   if (frTitle) {
-    const content = await fetchFrWikitext(frTitle);
+    const content = await fetchWikitext(frTitle, FR_API_URL);
     if (content) return { frTitle, frContent: content };
   }
 
   const frName = await resolveFrNameViaOtherLanguages(loc.pageTitle);
   if (frName) {
-    const content = await fetchFrWikitext(frName);
+    const content = await fetchWikitext(frName, FR_API_URL);
     return { frTitle: frName, frContent: content };
   }
 

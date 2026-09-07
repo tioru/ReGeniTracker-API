@@ -4,7 +4,8 @@ import * as path from 'node:path';
 import {
   fetchCategoryMembers,
   fetchWikitextWithLanglink,
-  fetchFrWikitext,
+  fetchWikitext,
+  FR_API_URL,
   sleep,
 } from './lib/wiki-fetch';
 
@@ -472,7 +473,7 @@ async function enrichWithFrench(raw: RawCreature): Promise<CachedCreature> {
 
   let fr: CreatureOutput;
   if (raw.frTitle) {
-    const frContent = await fetchFrWikitext(raw.frTitle);
+    const frContent = await fetchWikitext(raw.frTitle, FR_API_URL);
     const frPage = frContent ? parseFrCreaturePage(raw.frTitle, frContent, raw.en) : null;
     if (frPage) {
       fr = frPage;

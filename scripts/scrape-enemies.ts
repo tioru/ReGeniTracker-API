@@ -11,7 +11,7 @@ import {
   sleep,
   withRetry,
   fetchHtml,
-  fetchFrWikitext,
+  fetchWikitext,
 } from './lib/wiki-fetch';
 
 const OUTPUT_DIR = (lang: 'en' | 'fr') =>
@@ -1076,7 +1076,7 @@ async function enrichEnemy(enemy: RawInfoboxEnemy): Promise<CachedEnemy> {
 
   let fr: ReturnType<typeof buildOutput>;
   if (frTitle) {
-    const frContent = await fetchFrWikitext(frTitle);
+    const frContent = await fetchWikitext(frTitle, FR_API_URL);
     const frPage = frContent ? parseFrEnemyPage(frContent) : null;
     if (frPage) {
       const translation: EnemyTranslation = {
