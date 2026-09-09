@@ -4,8 +4,31 @@ import * as https from 'node:https';
 export const EN_API_URL = 'https://genshin-impact.fandom.com/api.php';
 export const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
 
+export const RETRY_BASE_DELAY_MS = 800;
+export const CATEGORY_PAGE_DELAY_MS = 300;
+
 export const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
-export const httpsAgent = new https.Agent({ rejectUnauthorized: false });
+export const httpsAgent = new https.Agent();
+
+const wikiClient = axios.create({ headers: HTTP_HEADERS, httpsAgent });
+
+interface MediaWikiPage {
+  missing?: boolean;
+  revisions?: { slots?: { main?: { content?: string } } }[];
+  langlinks?: { title: string }[];
+}
+
+interface MediaWikiQueryResponse {
+  query?: {
+    pages?: MediaWikiPage[];
+    categorymembers?: { ns: number; title: string }[];
+  };
+  continue?: Record<string, string>;
+}
+
+interface MediaWikiParseResponse {
+  parse?: { text?: string };
+}
 
 export function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
@@ -20,11 +43,20 @@ export async function withRetry<T>(label: string, fn: () => Promise<T>, attempts
       lastErr = err;
       if (i < attempts - 1) {
         console.warn(`⚠️  ${label} failed (attempt ${i + 1}/${attempts}), retrying...`);
-        await sleep(800 * (i + 1));
+        await sleep(RETRY_BASE_DELAY_MS * (i + 1));
       }
     }
   }
   throw lastErr;
+}
+
+async function fetchOrWarn<T>(label: string, fallback: T, fn: () => Promise<T>): Promise<T> {
+  try {
+    return await withRetry(label, fn);
+  } catch (err) {
+    console.warn(`⚠️  ${label} failed after several attempts: ${err}`);
+    return fallback;
+  }
 }
 
 export async function fetchCategoryMembers(category: string, apiUrl: string = EN_API_URL): Promise<string[]> {
@@ -32,7 +64,7 @@ export async function fetchCategoryMembers(category: string, apiUrl: string = EN
   let continueParams: Record<string, string> | undefined;
   do {
     const response = await withRetry(`fetch category "${category}"`, () =>
-      axios.get(apiUrl, {
+      wikiClient.get<MediaWikiQueryResponse>(apiUrl, {
         params: {
           action: 'query',
           list: 'categorymembers',
@@ -42,15 +74,13 @@ export async function fetchCategoryMembers(category: string, apiUrl: string = EN
           formatversion: '2',
           ...continueParams,
         },
-        headers: HTTP_HEADERS,
-        httpsAgent,
       }),
     );
     for (const member of response.data?.query?.categorymembers ?? []) {
       if (member.ns === 0) titles.push(member.title);
     }
     continueParams = response.data?.continue;
-    await sleep(300);
+    await sleep(CATEGORY_PAGE_DELAY_MS);
   } while (continueParams);
   return titles;
 }
@@ -59,8 +89,8 @@ async function fetchPageRevision(
   apiUrl: string,
   pageTitle: string,
   extraParams: Record<string, string> = {},
-): Promise<{ revisions?: { slots?: { main?: { content?: string } } }[]; langlinks?: { title: string }[] } | null> {
-  const response = await axios.get(apiUrl, {
+): Promise<MediaWikiPage | null> {
+  const response = await wikiClient.get<MediaWikiQueryResponse>(apiUrl, {
     params: {
       action: 'query',
       titles: pageTitle,
@@ -71,60 +101,64 @@ async function fetchPageRevision(
       formatversion: '2',
       ...extraParams,
     },
-    headers: HTTP_HEADERS,
-    httpsAgent,
   });
   const page = response.data?.query?.pages?.[0];
   return page && !page.missing ? page : null;
 }
 
-export async function fetchWikitext(pageTitle: string, apiUrl: string = EN_API_URL): Promise<string | null> {
-  try {
-    return await withRetry(`fetch wikitext "${pageTitle}"`, async () => {
-      const page = await fetchPageRevision(apiUrl, pageTitle);
-      return page?.revisions?.[0]?.slots?.main?.content ?? null;
-    });
-  } catch (err) {
-    console.warn(`⚠️  Failed to fetch wikitext for "${pageTitle}" after several attempts: ${err}`);
-    return null;
-  }
+export function fetchWikitext(pageTitle: string, apiUrl: string = EN_API_URL): Promise<string | null> {
+  return fetchOrWarn(`fetch wikitext "${pageTitle}"`, null, async () => {
+    const page = await fetchPageRevision(apiUrl, pageTitle);
+    return page?.revisions?.[0]?.slots?.main?.content ?? null;
+  });
 }
 
-export async function fetchWikitextWithLanglink(
+export function fetchWikitextWithLanglink(
   pageTitle: string,
 ): Promise<{ content: string | null; frTitle: string | null }> {
-  try {
-    return await withRetry(`fetch wikitext+langlink EN "${pageTitle}"`, async () => {
-      const page = await fetchPageRevision(EN_API_URL, pageTitle, { prop: 'revisions|langlinks', lllang: 'fr' });
-      return {
-        content: page?.revisions?.[0]?.slots?.main?.content ?? null,
-        frTitle: page?.langlinks?.[0]?.title ?? null,
-      };
-    });
-  } catch (err) {
-    console.warn(`⚠️  Failed to fetch wikitext+langlink EN for "${pageTitle}" after several attempts: ${err}`);
-    return { content: null, frTitle: null };
-  }
+  return fetchOrWarn(`fetch wikitext+langlink EN "${pageTitle}"`, { content: null, frTitle: null }, async () => {
+    const page = await fetchPageRevision(EN_API_URL, pageTitle, { prop: 'revisions|langlinks', lllang: 'fr' });
+    return {
+      content: page?.revisions?.[0]?.slots?.main?.content ?? null,
+      frTitle: page?.langlinks?.[0]?.title ?? null,
+    };
+  });
 }
 
-export async function fetchHtml(pageTitle: string, apiUrl: string = EN_API_URL): Promise<string> {
-  try {
-    return await withRetry(`fetch HTML "${pageTitle}"`, async () => {
-      const response = await axios.get(apiUrl, {
-        params: {
-          action: 'parse',
-          page: pageTitle,
-          prop: 'text',
-          format: 'json',
-          formatversion: '2',
-        },
-        headers: HTTP_HEADERS,
-        httpsAgent,
-      });
-      return response.data?.parse?.text ?? '';
+export function fetchHtml(pageTitle: string, apiUrl: string = EN_API_URL): Promise<string> {
+  return fetchOrWarn(`fetch HTML "${pageTitle}"`, '', async () => {
+    const response = await wikiClient.get<MediaWikiParseResponse>(apiUrl, {
+      params: {
+        action: 'parse',
+        page: pageTitle,
+        prop: 'text',
+        format: 'json',
+        formatversion: '2',
+      },
     });
-  } catch (err) {
-    console.warn(`⚠️  Failed to fetch HTML for "${pageTitle}" after several attempts: ${err}`);
-    return '';
-  }
+    return response.data?.parse?.text ?? '';
+  });
+}
+
+export function cleanWikitext(wikitext: string): string {
+  return wikitext
+    .replace(/<!--[\s\S]*?-->/g, '')
+    .replace(/<ref[^>]*\/>/gi, '')
+    .replace(/<ref[^>]*>[\s\S]*?<\/ref>/gi, '')
+    .trim();
+}
+
+export function cleanHtml(html: string): string {
+  return html
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#0*39;/g, "'")
+    .replace(/\s+/g, ' ')
+    .trim();
 }
