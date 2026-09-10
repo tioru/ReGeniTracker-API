@@ -6,6 +6,7 @@ export const FR_API_URL = 'https://genshin-impact.fandom.com/fr/api.php';
 
 export const RETRY_BASE_DELAY_MS = 800;
 export const CATEGORY_PAGE_DELAY_MS = 300;
+export const RETRY_ATTEMPTS = 3;
 
 export const HTTP_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ReGeniTracker/1.0)' };
 export const httpsAgent = new https.Agent();
@@ -34,7 +35,7 @@ export function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-export async function withRetry<T>(label: string, fn: () => Promise<T>, attempts = 3): Promise<T> {
+export async function withRetry<T>(label: string, fn: () => Promise<T>, attempts = RETRY_ATTEMPTS): Promise<T> {
   let lastErr: unknown;
   for (let i = 0; i < attempts; i++) {
     try {
@@ -50,7 +51,7 @@ export async function withRetry<T>(label: string, fn: () => Promise<T>, attempts
   throw lastErr;
 }
 
-async function fetchOrWarn<T>(label: string, fallback: T, fn: () => Promise<T>): Promise<T> {
+export async function fetchOrWarn<T>(label: string, fallback: T, fn: () => Promise<T>): Promise<T> {
   try {
     return await withRetry(label, fn);
   } catch (err) {
@@ -85,7 +86,7 @@ export async function fetchCategoryMembers(category: string, apiUrl: string = EN
   return titles;
 }
 
-async function fetchPageRevision(
+export async function fetchPageRevision(
   apiUrl: string,
   pageTitle: string,
   extraParams: Record<string, string> = {},
@@ -138,27 +139,4 @@ export function fetchHtml(pageTitle: string, apiUrl: string = EN_API_URL): Promi
     });
     return response.data?.parse?.text ?? '';
   });
-}
-
-export function cleanWikitext(wikitext: string): string {
-  return wikitext
-    .replace(/<!--[\s\S]*?-->/g, '')
-    .replace(/<ref[^>]*\/>/gi, '')
-    .replace(/<ref[^>]*>[\s\S]*?<\/ref>/gi, '')
-    .trim();
-}
-
-export function cleanHtml(html: string): string {
-  return html
-    .replace(/<script[\s\S]*?<\/script>/gi, '')
-    .replace(/<style[\s\S]*?<\/style>/gi, '')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#0*39;/g, "'")
-    .replace(/\s+/g, ' ')
-    .trim();
 }
