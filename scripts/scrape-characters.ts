@@ -1,14 +1,35 @@
-import { fetchOrWarn, fetchPageRevision } from "./lib/wiki-fetch";
+import { fetchCategoryMembers, fetchWikitext } from "./lib/wiki-fetch";
 
-const CHARACTERS_LIST_NAME_LINK = "https://genshin-impact.fandom.com/api.php?action=query&list=categorymembers&cmtitle=Category:Playable_Characters&cmlimit=500&format=json&formatversion=2"
+const PLAYABLE_CHARACTERS_CATEGORY = "Playable Characters"
+const SECTION_REGEX = /^===(?!=)\s*(.+?)\s*(?<!=)===$/gm;
 
-export function getCharactersName() : string[] {
-    return fetchOrWarn(`Fetch characters list names`, null, async () => {
-        const page = await fetchPageRevision(CHARACTERS_LIST_NAME_LINK, "characters list names");
-        return page?.revisions?.[0]?.slots?.main?.content ?? null;
-    });
+export function getCharactersName(): Promise<string[]> {
+    return fetchCategoryMembers(PLAYABLE_CHARACTERS_CATEGORY);
 }
 
-export function scrapeCharacter(characterName : string) : void {
-    
+export async function scrapeCharacter(characterName: string): Promise<string | null> {
+    return await fetchWikitext(characterName);
 }
+
+function splitWikitextSections(wikitext: string): Record<string, string> {
+  const sections: Record<string, string> = {};
+  const matches = [...wikitext.matchAll(SECTION_REGEX)];
+  for (let i = 0; i < matches.length; i++) {
+    const title = matches[i][1].trim();
+    const start = matches[i].index! + matches[i][0].length;
+    const end = matches[i + 1]?.index ?? wikitext.length;
+    sections[title] = wikitext.slice(start, end).trim();
+  }
+  return sections;
+}
+
+export async function scrapCharacters(): Promise<void> {
+    const charactersNames: string[] = await getCharactersName();
+
+    for (const name of charactersNames) {
+        const wikitext = await scrapeCharacter(name);
+        if (wikitext) console.log(splitWikitextSections(wikitext));
+    }
+}
+
+scrapCharacters()

@@ -60,7 +60,11 @@ export async function fetchOrWarn<T>(label: string, fallback: T, fn: () => Promi
   }
 }
 
-export async function fetchCategoryMembers(category: string, apiUrl: string = EN_API_URL): Promise<string[]> {
+export async function fetchCategoryMembers(
+  category: string,
+  authorizedNs: number[] = [0],
+  apiUrl: string = EN_API_URL,
+): Promise<string[]> {
   const titles: string[] = [];
   let continueParams: Record<string, string> | undefined;
   do {
@@ -78,7 +82,7 @@ export async function fetchCategoryMembers(category: string, apiUrl: string = EN
       }),
     );
     for (const member of response.data?.query?.categorymembers ?? []) {
-      if (member.ns === 0) titles.push(member.title);
+      if (authorizedNs.includes(member.ns)) titles.push(member.title);
     }
     continueParams = response.data?.continue;
     await sleep(CATEGORY_PAGE_DELAY_MS);
