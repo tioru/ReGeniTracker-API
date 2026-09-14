@@ -1,7 +1,7 @@
 import { fetchCategoryMembers, fetchWikitext } from "./lib/wiki-fetch";
 
 const PLAYABLE_CHARACTERS_CATEGORY = "Playable Characters"
-const SECTION_REGEX = /^===(?!=)\s*(.+?)\s*(?<!=)===$/gm;
+const SECTION_REGEX = new RegExp("<!--([\s\S]*?)-->");
 
 export function getCharactersName(): Promise<string[]> {
     return fetchCategoryMembers(PLAYABLE_CHARACTERS_CATEGORY);
@@ -32,4 +32,8 @@ export async function scrapCharacters(): Promise<void> {
     }
 }
 
-scrapCharacters()
+//scrapCharacters()
+scrapeCharacter("Amber").then((response) => {
+    console.log(response)
+    response ? console.log(splitWikitextSections(response)) : null;
+})
