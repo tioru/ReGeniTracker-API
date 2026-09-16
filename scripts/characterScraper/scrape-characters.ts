@@ -1,16 +1,23 @@
 import { fetchCategoryMembers, fetchWikitext } from "../lib/wiki-fetch";
-import { characterInformation } from "./models/characterInformation";
+import { PlayableCharacterInformation } from "./models/playableCharacterInformation";
+import { mapWeaponType } from "./mapper/weaponTypeMapper";
+import { mapElementType } from "./mapper/elementTypeMapper";
+import { CharacterInformation } from "./models/characterInformation";
+import { Unrevealed } from "./models/unrevealed";
+import { mapRegionType } from "./mapper/regionTypeMapper";
 
 const PLAYABLE_CHARACTERS_CATEGORY = "Playable Characters"
 const SECTION_REGEX = /<!--([\s\S]*?)-->/g;
-const CHARACTER_INFORMATION_KEY = "Playable Character Information"
+const PLAYABLE_CHARACTER_INFORMATION_KEY = "Playable Character Information"
+const CHARACTER_INFORMATION_KEY = "Character Information"
+const UNREVEALED_KEY = "Unrevealed"
 
 export function getCharactersName(): Promise<string[]> {
-    return fetchCategoryMembers(PLAYABLE_CHARACTERS_CATEGORY);
+  return fetchCategoryMembers(PLAYABLE_CHARACTERS_CATEGORY);
 }
 
 export async function scrapeCharacter(characterName: string): Promise<string | null> {
-    return await fetchWikitext(characterName);
+  return await fetchWikitext(characterName);
 }
 
 function splitWikitextSections(wikitext: string): Record<string, string> { // To simplify
@@ -35,30 +42,59 @@ function parseInfoboxFields(block: string): Record<string, string> {
 }
 
 export async function scrapCharacters(): Promise<void> {
-    const charactersNames: string[] = await getCharactersName();
+  const charactersNames: string[] = await getCharactersName();
 
-    for (const name of charactersNames) {
-        const wikitext = await scrapeCharacter(name);
-        if (wikitext) console.log(splitWikitextSections(wikitext));
-    }
+  for (const name of charactersNames) {
+    const wikitext = await scrapeCharacter(name);
+    if (wikitext) console.log(splitWikitextSections(wikitext));
+  }
 }
 
-export function parseCharacterInformation(rawCharacterInformation : Record<string, string>) : characterInformation {
-    return {
-      quality: Number(rawCharacterInformation["quality"]),
-      weapon: rawCharacterInformation["weapon"],
-      element: rawCharacterInformation["element"],
-      name: rawCharacterInformation["name"],
-    };
+export function parsePlayableCharacterInformation(rawPlayableCharacterInformation : Record<string, string>) : PlayableCharacterInformation {
+  return {
+    quality: Number(rawPlayableCharacterInformation["quality"]),
+    weapon: mapWeaponType(rawPlayableCharacterInformation["weapon"]),
+    element: mapElementType(rawPlayableCharacterInformation["element"]),
+    name: rawPlayableCharacterInformation["name"],
+  };
+}
+
+export function parseCharacterInformation(rawCharacterInformation : Record<string, string>) : CharacterInformation {
+  return {
+    realName: rawCharacterInformation["realname"],
+  };
+}
+
+export function parseUnrevealed(rawUnrevealed : Record<string, string>) : Unrevealed {
+  return {
+    birdthday: Date(rawUnrevealed["birthday"]),
+    constellation: rawUnrevealed["constellation"],
+    region: mapRegionType(rawUnrevealed["region"]),
+    affiliation: rawUnrevealed["affiliation"],
+    dish: rawUnrevealed["dish"],
+    namecard: rawUnrevealed["namecard"],
+    obtainType: rawUnrevealed["obtainType"],
+    obtain: rawUnrevealed["obtain"],
+    releaseDate: Date(rawUnrevealed["releaseDate"]),
+  };
 }
 
 //scrapCharacters()
 scrapeCharacter("Amber").then((response) => {
-    if (!response) throw new Error();
-    const characterSplitedSection = splitWikitextSections(response);
+  if (!response) throw new Error();
+  const characterSplitedSection = splitWikitextSections(response);
+  //console.log(characterSplitedSection)
 
-    const rawCharacterInformation = parseInfoboxFields(characterSplitedSection[CHARACTER_INFORMATION_KEY])
-    const characterInformation = parseCharacterInformation(rawCharacterInformation);
-    console.log(characterInformation.quality)
+  const rawPlayableCharacterInformation = parseInfoboxFields(characterSplitedSection[PLAYABLE_CHARACTER_INFORMATION_KEY]);
+  const playableCharacterInformation = parsePlayableCharacterInformation(rawPlayableCharacterInformation);
+  //console.log(playableCharacterInformation)
+
+  const rawCharacterInformation = parseInfoboxFields(characterSplitedSection[CHARACTER_INFORMATION_KEY]);
+  const characterInformation = parseCharacterInformation(rawCharacterInformation);
+  //console.log(characterInformation)
+
+  const rawUnrevealed = parseInfoboxFields(characterSplitedSection[UNREVEALED_KEY]);
+  const unrevealed = parseUnrevealed(rawUnrevealed);
+  console.log(unrevealed);
 })
 
