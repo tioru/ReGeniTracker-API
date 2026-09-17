@@ -1,7 +1,7 @@
 import { RegionType } from "./regionType";
 
 export interface Unrevealed {
-    birdthday : Date,
+    birthday : Date,
     constellation : string,
     region : RegionType,
     affiliation : string,

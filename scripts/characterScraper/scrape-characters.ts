@@ -8,6 +8,9 @@ import { mapRegionType } from "./mapper/regionTypeMapper";
 
 const PLAYABLE_CHARACTERS_CATEGORY = "Playable Characters"
 const SECTION_REGEX = /<!--([\s\S]*?)-->/g;
+const BIRTHDAY_REGEX = /^(\w+)\s+(\d+(?:st|nd|rd|th))$/;
+const BIRTHDAY_FALLBACK_YEAR = 2000;
+const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const PLAYABLE_CHARACTER_INFORMATION_KEY = "Playable Character Information"
 const CHARACTER_INFORMATION_KEY = "Character Information"
 const UNREVEALED_KEY = "Unrevealed"
@@ -65,9 +68,21 @@ export function parseCharacterInformation(rawCharacterInformation : Record<strin
   };
 }
 
+export function parseBirthday(birthday : string) : Date {
+  const birthdayMatch = birthday.match(BIRTHDAY_REGEX);
+  const month = birthdayMatch?.[1];
+  const day = birthdayMatch?.[2]?.slice(0, 2);
+  if (!month || !day) throw new Error(`Unparseable birthday: ${birthday}`);
+
+  const monthIndex = MONTH_NAMES.indexOf(month);
+  if (monthIndex === -1) throw new Error(`Unknown month: ${month}`);
+
+  return new Date(BIRTHDAY_FALLBACK_YEAR, monthIndex, Number(day));
+}
+
 export function parseUnrevealed(rawUnrevealed : Record<string, string>) : Unrevealed {
   return {
-    birdthday: Date(rawUnrevealed["birthday"]),
+    birthday: parseBirthday(rawUnrevealed["birthday"]),
     constellation: rawUnrevealed["constellation"],
     region: mapRegionType(rawUnrevealed["region"]),
     affiliation: rawUnrevealed["affiliation"],
@@ -75,7 +90,7 @@ export function parseUnrevealed(rawUnrevealed : Record<string, string>) : Unreve
     namecard: rawUnrevealed["namecard"],
     obtainType: rawUnrevealed["obtainType"],
     obtain: rawUnrevealed["obtain"],
-    releaseDate: Date(rawUnrevealed["releaseDate"]),
+    releaseDate: new Date(rawUnrevealed["releaseDate"]),
   };
 }
 
@@ -95,6 +110,7 @@ scrapeCharacter("Amber").then((response) => {
 
   const rawUnrevealed = parseInfoboxFields(characterSplitedSection[UNREVEALED_KEY]);
   const unrevealed = parseUnrevealed(rawUnrevealed);
+  console.log(rawUnrevealed);
   console.log(unrevealed);
 })
 
