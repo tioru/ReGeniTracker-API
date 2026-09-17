@@ -8,6 +8,6 @@ export interface Unrevealed {
     dish : string,
     namecard : string,
     obtainType : string,
-    obtain: string,
+    obtain: string[],
     releaseDate: Date
 }
