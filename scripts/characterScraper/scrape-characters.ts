@@ -23,6 +23,7 @@ const CHARACTER_INFORMATION_KEY = "Character Information"
 const UNREVEALED_KEY = "Unrevealed"
 const TITLES_KEY = "Titles"
 const VOICE_ACTORS_KEY = "Voice Actors"
+const ASCENSION_STATS_DATA_PAGE = "Module:Character Ascensions and Stats/data"
 
 export function getCharactersName(): Promise<string[]> {
   return fetchCategoryMembers(PLAYABLE_CHARACTERS_CATEGORY);
@@ -133,10 +134,10 @@ export function parseTitles(rawTitles : Record<string, string>) : Titles {
 
 export function parseVoiceActors(rawVoiceActors : Record<string, string>) : VoiceActors {
   return {
-    voiceCN: rawVoiceActors["voiceCN"],
-    voiceJP: rawVoiceActors["voiceJP"],
-    voiceEN: rawVoiceActors["voiceEN"],
-    voiceKR: rawVoiceActors["voiceKR"],
+    voiceCN: extractVoiceActorName(rawVoiceActors["voiceCN"]) ?? "",
+    voiceJP: extractVoiceActorName(rawVoiceActors["voiceJP"]) ?? "",
+    voiceEN: extractVoiceActorName(rawVoiceActors["voiceEN"]) ?? "",
+    voiceKR: extractVoiceActorName(rawVoiceActors["voiceKR"]) ?? "",
   }
 }
 
@@ -163,8 +164,39 @@ export function parseFamily(rawFamily : Record<string, string>) : Family {
   };
 }
 
+function extractVoiceActorName(raw: string | undefined): string | null {
+  if (!raw) return null;
+
+  const cleaned = raw
+    .replace(/<ref[^>]*\/>/gi, "")
+    .replace(/<ref[^>]*>[\s\S]*?<\/ref>/gi, "")
+    .trim();
+
+  let display: string;
+  let m: RegExpMatchArray | null;
+
+  if ((m = cleaned.match(/^\{\{w\|[^|]*\|([\s\S]+)\}\}$/))) {
+    display = m[1];
+  } else if ((m = cleaned.match(/^\[\[[^|]*\|([^\]]+)\]\]$/))) {
+    display = m[1];
+  } else if ((m = cleaned.match(/^\[https?:\/\/\S+\s+([^\]]+)\]$/))) {
+    display = m[1];
+  } else {
+    display = cleaned;
+  }
+
+  return display.replace(/\s*\([\s\S]*\)\s*$/, "").trim();
+}
+
+export async function fetchAscensionStatsTable(): Promise<string> {
+  const lua = await fetchWikitext(ASCENSION_STATS_DATA_PAGE);
+  if (!lua) throw new Error(`Failed to fetch ${ASCENSION_STATS_DATA_PAGE}`);
+
+  return lua
+}
+
 //scrapCharacters()
-scrapeCharacter("Amber").then((response) => {
+scrapeCharacter("Amber").then(async (response) => {
   if (!response) throw new Error();
   const characterSplitedSection = splitWikitextSections(response);
 
@@ -185,6 +217,9 @@ scrapeCharacter("Amber").then((response) => {
 
   const rawFamily = parseInfoboxFields(extractOtherLanguages(response));
   const family = parseFamily(rawFamily);
+
+  const ascensionStatsTable = await fetchAscensionStatsTable();
+  console.log(ascensionStatsTable)
 
   const generalDataCharacter = {
     playableCharacterInformation,
