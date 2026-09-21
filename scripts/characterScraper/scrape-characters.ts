@@ -8,6 +8,7 @@ import { mapRegionType } from "./mapper/regionTypeMapper";
 import { Titles } from "./models/titles";
 import { VoiceActors } from "./models/voiceActors";
 import { Family } from "./models/family";
+import { AscensionStats } from "./models/ascensionStats";
 
 const PLAYABLE_CHARACTERS_CATEGORY = "Playable Characters"
 const SECTION_REGEX = /<!--([\s\S]*?)-->/g;
@@ -25,11 +26,13 @@ const TITLES_KEY = "Titles"
 const VOICE_ACTORS_KEY = "Voice Actors"
 const ASCENSION_STATS_DATA_PAGE = "Module:Character Ascensions and Stats/data"
 
+const SELECTED_CHARACTER = "Amber"
+
 export function getCharactersName(): Promise<string[]> {
   return fetchCategoryMembers(PLAYABLE_CHARACTERS_CATEGORY);
 }
 
-export async function scrapeCharacter(characterName: string): Promise<string | null> {
+export async function fetchCharacter(characterName: string): Promise<string | null> {
   return await fetchWikitext(characterName);
 }
 
@@ -72,7 +75,7 @@ export async function scrapCharacters(): Promise<void> {
   const charactersNames: string[] = await getCharactersName();
 
   for (const name of charactersNames) {
-    const wikitext = await scrapeCharacter(name);
+    const wikitext = await fetchCharacter(name);
     if (wikitext) console.log(splitWikitextSections(wikitext));
   }
 }
@@ -188,38 +191,41 @@ function extractVoiceActorName(raw: string | undefined): string | null {
   return display.replace(/\s*\([\s\S]*\)\s*$/, "").trim();
 }
 
-export async function fetchAscensionStatsTable(): Promise<string> {
-  const lua = await fetchWikitext(ASCENSION_STATS_DATA_PAGE);
-  if (!lua) throw new Error(`Failed to fetch ${ASCENSION_STATS_DATA_PAGE}`);
+export async function fetchAscensionStats(): Promise<string | null> {
+  return await fetchWikitext(ASCENSION_STATS_DATA_PAGE);
+}
 
-  return lua
+function parseAscensionStats(rawAscensionStats : string | null) : AscensionStats {
+
 }
 
 //scrapCharacters()
-scrapeCharacter("Amber").then(async (response) => {
-  if (!response) throw new Error();
-  const characterSplitedSection = splitWikitextSections(response);
+const rawCharacter = await fetchCharacter(SELECTED_CHARACTER);
+if (!rawCharacter) throw new Error();
 
-  const rawPlayableCharacterInformation = parseInfoboxFields(characterSplitedSection[PLAYABLE_CHARACTER_INFORMATION_KEY]);
-  const playableCharacterInformation = parsePlayableCharacterInformation(rawPlayableCharacterInformation);
+const rawCharacterSplitedSection = splitWikitextSections(rawCharacter);
 
-  const rawCharacterInformation = parseInfoboxFields(characterSplitedSection[CHARACTER_INFORMATION_KEY]);
-  const characterInformation = parseCharacterInformation(rawCharacterInformation);
+const rawPlayableCharacterInformation = parseInfoboxFields(rawCharacterSplitedSection[PLAYABLE_CHARACTER_INFORMATION_KEY]);
+const playableCharacterInformation = parsePlayableCharacterInformation(rawPlayableCharacterInformation);
 
-  const rawUnrevealed = parseInfoboxFields(characterSplitedSection[UNREVEALED_KEY]);
-  const unrevealed = parseUnrevealed(rawUnrevealed);
+const rawCharacterInformation = parseInfoboxFields(rawCharacterSplitedSection[CHARACTER_INFORMATION_KEY]);
+const characterInformation = parseCharacterInformation(rawCharacterInformation);
 
-  const rawTitles = parseInfoboxFields(characterSplitedSection[TITLES_KEY]);
-  const titles = parseTitles(rawTitles);
+const rawUnrevealed = parseInfoboxFields(rawCharacterSplitedSection[UNREVEALED_KEY]);
+const unrevealed = parseUnrevealed(rawUnrevealed);
 
-  const rawVoiceActors = parseInfoboxFields(characterSplitedSection[VOICE_ACTORS_KEY]);
-  const voiceActors = parseVoiceActors(rawVoiceActors);
+const rawTitles = parseInfoboxFields(rawCharacterSplitedSection[TITLES_KEY]);
+const titles = parseTitles(rawTitles);
 
-  const rawFamily = parseInfoboxFields(extractOtherLanguages(response));
-  const family = parseFamily(rawFamily);
+const rawVoiceActors = parseInfoboxFields(rawCharacterSplitedSection[VOICE_ACTORS_KEY]);
+const voiceActors = parseVoiceActors(rawVoiceActors);
 
-  const ascensionStatsTable = await fetchAscensionStatsTable();
-  console.log(ascensionStatsTable)
+const rawFamily = parseInfoboxFields(extractOtherLanguages(rawCharacter));
+const family = parseFamily(rawFamily);
+
+const rawAscensionStats = await fetchAscensionStats();
+
+const ascensionStats = parseAscensionStats(rawAscensionStats[SELECTED_CHARACTER])
 
   const generalDataCharacter = {
     playableCharacterInformation,
@@ -230,6 +236,6 @@ scrapeCharacter("Amber").then(async (response) => {
     family
   };
 
-  console.log(generalDataCharacter);
+  //console.log(generalDataCharacter);
 })
 
