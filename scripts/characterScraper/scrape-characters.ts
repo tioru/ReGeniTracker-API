@@ -10,26 +10,34 @@ import { VoiceActors } from "./models/voiceActors";
 import { Family } from "./models/family";
 import { AscensionStats } from "./models/ascensionStats";
 
-const PLAYABLE_CHARACTERS_CATEGORY = "Playable Characters"
+const KEYS = {
+  PLAYABLE_CHARACTER_INFORMATION: "Playable Character Information",
+  CHARACTER_INFORMATION: "Character Information",
+  UNREVEALED: "Unrevealed",
+  TITLES: "Titles",
+  VOICE_ACTORS: "Voice Actors",
+};
+
+const PAGES = {
+  PLAYABLE_CHARACTERS: "Playable Characters",
+  ASCENSION_STATS_DATA: "Module:Character Ascensions and Stats/data"
+};
+
 const SECTION_REGEX = /<!--([\s\S]*?)-->/g;
 const INFOBOX_FIELD_REGEX = /^\|\s*([\w' -]+?)\s*=\s*(.*)$/;
 const BIRTHDAY_REGEX = /^(\w+)\s+(\d+(?:st|nd|rd|th))$/;
 const OBTAIN_ITEM_BULLET_REGEX = /^\*\s*/;
 const WIKILINK_BRACKETS_REGEX = /\[\[|\]\]/g;
 const OTHER_LANGUAGES_REGEX = /\{\{Other Languages\n([\s\S]*?)\n\}\}/;
+const LUA_BLOCK_START_REGEX = /\['([^']+)'\]\s*=\s*\{/g;
+const LUA_FIELD_REGEX = /\['(\w+)'\]\s*=\s*(.+)$/;
 const BIRTHDAY_FALLBACK_YEAR = 2000;
 const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-const PLAYABLE_CHARACTER_INFORMATION_KEY = "Playable Character Information"
-const CHARACTER_INFORMATION_KEY = "Character Information"
-const UNREVEALED_KEY = "Unrevealed"
-const TITLES_KEY = "Titles"
-const VOICE_ACTORS_KEY = "Voice Actors"
-const ASCENSION_STATS_DATA_PAGE = "Module:Character Ascensions and Stats/data"
 
 const SELECTED_CHARACTER = "Amber"
 
 export function getCharactersName(): Promise<string[]> {
-  return fetchCategoryMembers(PLAYABLE_CHARACTERS_CATEGORY);
+  return fetchCategoryMembers(PAGES.PLAYABLE_CHARACTERS);
 }
 
 export async function fetchCharacter(characterName: string): Promise<string | null> {
@@ -43,6 +51,24 @@ function splitWikitextSections(wikitext: string): Record<string, string> {
     const end = matches[i + 1]?.index ?? wikitext.length;
     return [match[1].trim(), wikitext.slice(start, end).trim()];
   }));
+}
+
+function splitLuaCharacterBlocks(lua: string): Record<string, string> {
+  const blocks: Record<string, string> = {};
+  const matches = lua.matchAll(LUA_BLOCK_START_REGEX);
+  for (const match of matches) {
+    const name = match[1];
+    let depth = 1;
+    let i = match.index! + match[0].length;
+    const start = i;
+    while (depth > 0 && i < lua.length) {
+      if (lua[i] === '{') depth++;
+      else if (lua[i] === '}') depth--;
+      i++;
+    }
+    blocks[name] = lua.slice(start, i - 1);
+  }
+  return blocks;
 }
 
 function extractOtherLanguages(wikitext: string): string {
@@ -192,40 +218,57 @@ function extractVoiceActorName(raw: string | undefined): string | null {
 }
 
 export async function fetchAscensionStats(): Promise<string | null> {
-  return await fetchWikitext(ASCENSION_STATS_DATA_PAGE);
+  return await fetchWikitext(PAGES.ASCENSION_STATS_DATA);
 }
 
-function parseAscensionStats(rawAscensionStats : string | null) : AscensionStats {
+function parseLuaValue(raw: string): number | string | string[] {
+  const value = raw.trim().replace(/,$/, '');
+  if (value.startsWith('{')) return [...value.matchAll(/'([^']*)'/g)].map(m => m[1]);
+  if (value.startsWith("'")) return value.slice(1, -1);
+  return Number(value);
+}
 
+function parseAscensionStats(rawBlock: string): AscensionStats {
+  const fields: Record<string, number | string | string[]> = {};
+  for (const line of rawBlock.split('\n')) {
+    const m = LUA_FIELD_REGEX.exec(line);
+    if (m) fields[m[1]] = parseLuaValue(m[2]);
+  }
+  return fields as unknown as AscensionStats;
 }
 
 //scrapCharacters()
-const rawCharacter = await fetchCharacter(SELECTED_CHARACTER);
-if (!rawCharacter) throw new Error();
+(async () => {
+  const rawCharacter = await fetchCharacter(SELECTED_CHARACTER);
+  if (!rawCharacter) throw new Error();
 
-const rawCharacterSplitedSection = splitWikitextSections(rawCharacter);
+  const rawCharacterSplitedSection = splitWikitextSections(rawCharacter);
 
-const rawPlayableCharacterInformation = parseInfoboxFields(rawCharacterSplitedSection[PLAYABLE_CHARACTER_INFORMATION_KEY]);
-const playableCharacterInformation = parsePlayableCharacterInformation(rawPlayableCharacterInformation);
+  const rawPlayableCharacterInformation = parseInfoboxFields(rawCharacterSplitedSection[KEYS.PLAYABLE_CHARACTER_INFORMATION]);
+  const playableCharacterInformation = parsePlayableCharacterInformation(rawPlayableCharacterInformation);
 
-const rawCharacterInformation = parseInfoboxFields(rawCharacterSplitedSection[CHARACTER_INFORMATION_KEY]);
-const characterInformation = parseCharacterInformation(rawCharacterInformation);
+  const rawCharacterInformation = parseInfoboxFields(rawCharacterSplitedSection[KEYS.CHARACTER_INFORMATION]);
+  const characterInformation = parseCharacterInformation(rawCharacterInformation);
 
-const rawUnrevealed = parseInfoboxFields(rawCharacterSplitedSection[UNREVEALED_KEY]);
-const unrevealed = parseUnrevealed(rawUnrevealed);
+  const rawUnrevealed = parseInfoboxFields(rawCharacterSplitedSection[KEYS.UNREVEALED]);
+  const unrevealed = parseUnrevealed(rawUnrevealed);
 
-const rawTitles = parseInfoboxFields(rawCharacterSplitedSection[TITLES_KEY]);
-const titles = parseTitles(rawTitles);
+  const rawTitles = parseInfoboxFields(rawCharacterSplitedSection[KEYS.TITLES]);
+  const titles = parseTitles(rawTitles);
 
-const rawVoiceActors = parseInfoboxFields(rawCharacterSplitedSection[VOICE_ACTORS_KEY]);
-const voiceActors = parseVoiceActors(rawVoiceActors);
+  const rawVoiceActors = parseInfoboxFields(rawCharacterSplitedSection[KEYS.VOICE_ACTORS]);
+  const voiceActors = parseVoiceActors(rawVoiceActors);
 
-const rawFamily = parseInfoboxFields(extractOtherLanguages(rawCharacter));
-const family = parseFamily(rawFamily);
+  const rawFamily = parseInfoboxFields(extractOtherLanguages(rawCharacter));
+  const family = parseFamily(rawFamily);
 
-const rawAscensionStats = await fetchAscensionStats();
+  const rawAscensionStats = await fetchAscensionStats();
+  if (!rawAscensionStats) throw new Error();
 
-const ascensionStats = parseAscensionStats(rawAscensionStats[SELECTED_CHARACTER])
+  const ascensionStatsBlocks = splitLuaCharacterBlocks(rawAscensionStats);
+  const ascensionStats = parseAscensionStats(ascensionStatsBlocks[SELECTED_CHARACTER]);
+
+  console.log(ascensionStats);
 
   const generalDataCharacter = {
     playableCharacterInformation,
@@ -237,5 +280,5 @@ const ascensionStats = parseAscensionStats(rawAscensionStats[SELECTED_CHARACTER]
   };
 
   //console.log(generalDataCharacter);
-})
+})();
 
