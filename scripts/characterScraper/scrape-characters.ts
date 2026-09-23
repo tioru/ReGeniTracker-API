@@ -23,14 +23,18 @@ const PAGES = {
   ASCENSION_STATS_DATA: "Module:Character Ascensions and Stats/data"
 };
 
-const SECTION_REGEX = /<!--([\s\S]*?)-->/g;
-const INFOBOX_FIELD_REGEX = /^\|\s*([\w' -]+?)\s*=\s*(.*)$/;
-const BIRTHDAY_REGEX = /^(\w+)\s+(\d+(?:st|nd|rd|th))$/;
-const OBTAIN_ITEM_BULLET_REGEX = /^\*\s*/;
-const WIKILINK_BRACKETS_REGEX = /\[\[|\]\]/g;
-const OTHER_LANGUAGES_REGEX = /\{\{Other Languages\n([\s\S]*?)\n\}\}/;
-const LUA_BLOCK_START_REGEX = /\['([^']+)'\]\s*=\s*\{/g;
-const LUA_FIELD_REGEX = /\['(\w+)'\]\s*=\s*(.+)$/;
+const REGEXS = {
+  SECTION : /<!--([\s\S]*?)-->/g,
+  INFOBOX_FIELD : /^\|\s*([\w' -]+?)\s*=\s*(.*)$/,
+  BIRTHDAY : /^(\w+)\s+(\d+(?:st|nd|rd|th))$/,
+  OBTAIN_ITEM_BULLET : /^\*\s*/,
+  WIKILINK_BRACKETS : /\[\[|\]\]/g,
+  OTHER_LANGUAGES : /\{\{Other Languages\n([\s\S]*?)\n\}\}/,
+  LUA_BLOCK_START : /\['([^']+)'\]\s*=\s*\{/g,
+  LUA_FIELD : /\['(\w+)'\]\s*=\s*(.+)$/,
+}
+
+
 const BIRTHDAY_FALLBACK_YEAR = 2000;
 const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
@@ -45,7 +49,7 @@ export async function fetchCharacter(characterName: string): Promise<string | nu
 }
 
 function splitWikitextSections(wikitext: string): Record<string, string> {
-  const matches = [...wikitext.matchAll(SECTION_REGEX)];
+  const matches = [...wikitext.matchAll(REGEXS.SECTION)];
   return Object.fromEntries(matches.map((match, i) => {
     const start = match.index! + match[0].length;
     const end = matches[i + 1]?.index ?? wikitext.length;
@@ -55,7 +59,7 @@ function splitWikitextSections(wikitext: string): Record<string, string> {
 
 function splitLuaCharacterBlocks(lua: string): Record<string, string> {
   const blocks: Record<string, string> = {};
-  const matches = lua.matchAll(LUA_BLOCK_START_REGEX);
+  const matches = lua.matchAll(REGEXS.LUA_BLOCK_START);
   for (const match of matches) {
     const name = match[1];
     let depth = 1;
@@ -72,7 +76,7 @@ function splitLuaCharacterBlocks(lua: string): Record<string, string> {
 }
 
 function extractOtherLanguages(wikitext: string): string {
-  return OTHER_LANGUAGES_REGEX.exec(wikitext)?.[1] ?? '';
+  return REGEXS.OTHER_LANGUAGES.exec(wikitext)?.[1] ?? '';
 }
 
 function parseInfoboxFields(block: string): Record<string, string> {
@@ -82,7 +86,7 @@ function parseInfoboxFields(block: string): Record<string, string> {
 
   const { fields } = lines.reduce(
     (acc, line) => {
-      const match = INFOBOX_FIELD_REGEX.exec(line);
+      const match = REGEXS.INFOBOX_FIELD.exec(line);
       if (match) {
         acc.currentKey = match[1].trim();
         acc.fields[acc.currentKey] = match[2].trim();
@@ -122,7 +126,7 @@ export function parseCharacterInformation(rawCharacterInformation : Record<strin
 }
 
 export function parseBirthday(birthday : string) : Date {
-  const birthdayMatch = BIRTHDAY_REGEX.exec(birthday);
+  const birthdayMatch = REGEXS.BIRTHDAY.exec(birthday);
   const month = birthdayMatch?.[1];
   const day = birthdayMatch?.[2]?.slice(0, 2);
   if (!month || !day) throw new Error(`Unparseable birthday: ${birthday}`);
@@ -136,7 +140,7 @@ export function parseBirthday(birthday : string) : Date {
 export function parseObtain(rawObtain: string): string[] {
   return rawObtain
     .split('\n')
-    .map(line => line.replace(OBTAIN_ITEM_BULLET_REGEX, '').replace(WIKILINK_BRACKETS_REGEX, '').trim())
+    .map(line => line.replace(REGEXS.OBTAIN_ITEM_BULLET, '').replace(REGEXS.WIKILINK_BRACKETS, '').trim())
     .filter(Boolean);
 }
 
@@ -231,7 +235,7 @@ function parseLuaValue(raw: string): number | string | string[] {
 function parseAscensionStats(rawBlock: string): AscensionStats {
   const fields: Record<string, number | string | string[]> = {};
   for (const line of rawBlock.split('\n')) {
-    const m = LUA_FIELD_REGEX.exec(line);
+    const m = REGEXS.LUA_FIELD.exec(line);
     if (m) fields[m[1]] = parseLuaValue(m[2]);
   }
   return fields as unknown as AscensionStats;
