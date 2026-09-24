@@ -9,6 +9,7 @@ import { Titles } from "./models/titles";
 import { VoiceActors } from "./models/voiceActors";
 import { Family } from "./models/family";
 import { AscensionStats } from "./models/ascensionStats";
+import { convertLua } from "../lib/tools";
 
 const KEYS = {
   PLAYABLE_CHARACTER_INFORMATION: "Playable Character Information",
@@ -30,8 +31,6 @@ const REGEXS = {
   OBTAIN_ITEM_BULLET : /^\*\s*/,
   WIKILINK_BRACKETS : /\[\[|\]\]/g,
   OTHER_LANGUAGES : /\{\{Other Languages\n([\s\S]*?)\n\}\}/,
-  LUA_BLOCK_START : /\['([^']+)'\]\s*=\s*\{/g,
-  LUA_FIELD : /\['(\w+)'\]\s*=\s*(.+)$/,
 }
 
 
@@ -49,30 +48,16 @@ export async function fetchCharacter(characterName: string): Promise<string | nu
 }
 
 function splitWikitextSections(wikitext: string): Record<string, string> {
+  //console.log("WIKITEXT", wikitext)
   const matches = [...wikitext.matchAll(REGEXS.SECTION)];
+  //console.log("MATCHES", matches)
+  //console.log("MATCHES LENGTH", matches.length)
+  console.log("MATCHES", matches[1])
   return Object.fromEntries(matches.map((match, i) => {
     const start = match.index! + match[0].length;
     const end = matches[i + 1]?.index ?? wikitext.length;
     return [match[1].trim(), wikitext.slice(start, end).trim()];
   }));
-}
-
-function splitLuaCharacterBlocks(lua: string): Record<string, string> {
-  const blocks: Record<string, string> = {};
-  const matches = lua.matchAll(REGEXS.LUA_BLOCK_START);
-  for (const match of matches) {
-    const name = match[1];
-    let depth = 1;
-    let i = match.index! + match[0].length;
-    const start = i;
-    while (depth > 0 && i < lua.length) {
-      if (lua[i] === '{') depth++;
-      else if (lua[i] === '}') depth--;
-      i++;
-    }
-    blocks[name] = lua.slice(start, i - 1);
-  }
-  return blocks;
 }
 
 function extractOtherLanguages(wikitext: string): string {
@@ -225,19 +210,7 @@ export async function fetchAscensionStats(): Promise<string | null> {
   return await fetchWikitext(PAGES.ASCENSION_STATS_DATA);
 }
 
-function parseLuaValue(raw: string): number | string | string[] {
-  const value = raw.trim().replace(/,$/, '');
-  if (value.startsWith('{')) return [...value.matchAll(/'([^']*)'/g)].map(m => m[1]);
-  if (value.startsWith("'")) return value.slice(1, -1);
-  return Number(value);
-}
-
-function parseAscensionStats(rawBlock: string): AscensionStats {
-  const fields: Record<string, number | string | string[]> = {};
-  for (const line of rawBlock.split('\n')) {
-    const m = REGEXS.LUA_FIELD.exec(line);
-    if (m) fields[m[1]] = parseLuaValue(m[2]);
-  }
+function parseAscensionStats(fields: Record<string, number | string | string[]>): AscensionStats {
   return fields as unknown as AscensionStats;
 }
 
@@ -269,10 +242,10 @@ function parseAscensionStats(rawBlock: string): AscensionStats {
   const rawAscensionStats = await fetchAscensionStats();
   if (!rawAscensionStats) throw new Error();
 
-  const ascensionStatsBlocks = splitLuaCharacterBlocks(rawAscensionStats);
-  const ascensionStats = parseAscensionStats(ascensionStatsBlocks[SELECTED_CHARACTER]);
+  const ascensionStatsTable = convertLua(rawAscensionStats);
+  const ascensionStats = parseAscensionStats(ascensionStatsTable[SELECTED_CHARACTER]);
 
-  console.log(ascensionStats);
+  //console.log(ascensionStats);
 
   const generalDataCharacter = {
     playableCharacterInformation,
