@@ -48,13 +48,9 @@ export async function fetchCharacter(characterName: string): Promise<string | nu
 }
 
 function splitWikitextSections(wikitext: string): Record<string, string> {
-  //console.log("WIKITEXT", wikitext)
   const matches = [...wikitext.matchAll(REGEXS.SECTION)];
-  //console.log("MATCHES", matches)
-  //console.log("MATCHES LENGTH", matches.length)
-  console.log("MATCHES", matches[1])
   return Object.fromEntries(matches.map((match, i) => {
-    const start = match.index! + match[0].length;
+    const start = match.index + match[0].length;
     const end = matches[i + 1]?.index ?? wikitext.length;
     return [match[1].trim(), wikitext.slice(start, end).trim()];
   }));
