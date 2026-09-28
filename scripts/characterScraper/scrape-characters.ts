@@ -61,6 +61,7 @@ function extractOtherLanguages(wikitext: string): string {
 }
 
 function parseInfoboxFields(block: string): Record<string, string> {
+  console.log(block)
   const allLines = block.split('\n');
   const closingIndex = allLines.findIndex(line => line.trim() === '}}');
   const lines = closingIndex === -1 ? allLines : allLines.slice(0, closingIndex);
