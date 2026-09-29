@@ -61,14 +61,16 @@ function extractOtherLanguages(wikitext: string): string {
 }
 
 function parseInfoboxFields(block: string): Record<string, string> {
-  console.log(block)
   const allLines = block.split('\n');
   const closingIndex = allLines.findIndex(line => line.trim() === '}}');
   const lines = closingIndex === -1 ? allLines : allLines.slice(0, closingIndex);
+  console.log(lines)
 
   const { fields } = lines.reduce(
     (acc, line) => {
+      console.log(acc.fields, ":", line)
       const match = REGEXS.INFOBOX_FIELD.exec(line);
+      console.log(match)
       if (match) {
         acc.currentKey = match[1].trim();
         acc.fields[acc.currentKey] = match[2].trim();
