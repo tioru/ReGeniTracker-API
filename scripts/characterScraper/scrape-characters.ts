@@ -31,6 +31,16 @@ const REGEXS = {
   OBTAIN_ITEM_BULLET : /^\*\s*/,
   WIKILINK_BRACKETS : /\[\[|\]\]/g,
   OTHER_LANGUAGES : /\{\{Other Languages\n([\s\S]*?)\n\}\}/,
+  REF_TAG_SELF_CLOSING : /<ref[^>]*\/>/gi,
+  REF_TAG_BLOCK : /<ref[^>]*>[\s\S]*?<\/ref>/gi,
+  // "{{w|Manaka Iwami|Iwami Manaka}}" -> "Iwami Manaka"
+  VA_TEMPLATE_LINK : /^\{\{w\|[^|]*\|(?<name>[\s\S]+)\}\}$/,
+  // "[[imdb:nm5726463|Kelly Baskin]]" -> "Kelly Baskin"
+  VA_WIKILINK : /^\[\[[^|]*\|(?<name>[^\]]+)\]\]$/,
+  // "[https://... Cai Shujin]" -> "Cai Shujin"
+  VA_EXTERNAL_LINK : /^\[https?:\/\/\S+\s+(?<name>[^\]]+)\]$/,
+  // Strips a trailing native-script parenthetical: "Iwami Manaka (石見舞菜香)" -> "Iwami Manaka"
+  VA_TRAILING_NATIVE_NAME : /\s*\([\s\S]*\)\s*$/,
 }
 
 
@@ -64,13 +74,10 @@ function parseInfoboxFields(block: string): Record<string, string> {
   const allLines = block.split('\n');
   const closingIndex = allLines.findIndex(line => line.trim() === '}}');
   const lines = closingIndex === -1 ? allLines : allLines.slice(0, closingIndex);
-  console.log(lines)
 
   const { fields } = lines.reduce(
     (acc, line) => {
-      console.log(acc.fields, ":", line)
       const match = REGEXS.INFOBOX_FIELD.exec(line);
-      console.log(match)
       if (match) {
         acc.currentKey = match[1].trim();
         acc.fields[acc.currentKey] = match[2].trim();
@@ -185,24 +192,17 @@ function extractVoiceActorName(raw: string | undefined): string | null {
   if (!raw) return null;
 
   const cleaned = raw
-    .replace(/<ref[^>]*\/>/gi, "")
-    .replace(/<ref[^>]*>[\s\S]*?<\/ref>/gi, "")
+    .replace(REGEXS.REF_TAG_SELF_CLOSING, "")
+    .replace(REGEXS.REF_TAG_BLOCK, "")
     .trim();
 
-  let display: string;
-  let m: RegExpMatchArray | null;
+  const display =
+    cleaned.match(REGEXS.VA_TEMPLATE_LINK)?.groups?.name ??
+    cleaned.match(REGEXS.VA_WIKILINK)?.groups?.name ??
+    cleaned.match(REGEXS.VA_EXTERNAL_LINK)?.groups?.name ??
+    cleaned;
 
-  if ((m = cleaned.match(/^\{\{w\|[^|]*\|([\s\S]+)\}\}$/))) {
-    display = m[1];
-  } else if ((m = cleaned.match(/^\[\[[^|]*\|([^\]]+)\]\]$/))) {
-    display = m[1];
-  } else if ((m = cleaned.match(/^\[https?:\/\/\S+\s+([^\]]+)\]$/))) {
-    display = m[1];
-  } else {
-    display = cleaned;
-  }
-
-  return display.replace(/\s*\([\s\S]*\)\s*$/, "").trim();
+  return display.replace(REGEXS.VA_TRAILING_NATIVE_NAME, "").trim();
 }
 
 export async function fetchAscensionStats(): Promise<string | null> {
@@ -244,7 +244,7 @@ function parseAscensionStats(fields: Record<string, number | string | string[]>)
   const ascensionStatsTable = convertLua(rawAscensionStats);
   const ascensionStats = parseAscensionStats(ascensionStatsTable[SELECTED_CHARACTER]);
 
-  //console.log(ascensionStats);
+  console.log(rawAscensionStats);
 
   const generalDataCharacter = {
     playableCharacterInformation,
