@@ -19,6 +19,19 @@ interface MediaWikiPage {
   langlinks?: { title: string }[];
 }
 
+interface MediaWikiFilePage {
+  title: string;
+  missing?: boolean;
+  imageinfo?: { url: string }[];
+}
+
+interface MediaWikiFileInfoResponse {
+  query?: {
+    normalized?: { from: string; to: string }[];
+    pages?: MediaWikiFilePage[];
+  };
+}
+
 interface MediaWikiQueryResponse {
   query?: {
     pages?: MediaWikiPage[];
@@ -127,6 +140,51 @@ export function fetchWikitextWithLanglink(
       content: page?.revisions?.[0]?.slots?.main?.content ?? null,
       frTitle: page?.langlinks?.[0]?.title ?? null,
     };
+  });
+}
+
+// MediaWiki accepts at most 50 titles per query.
+const FILE_INFO_BATCH_SIZE = 50;
+
+// Resolves wiki file names ("VO JA Amber Hello.ogg") to their download URL.
+// Missing files are simply absent from the returned record.
+export async function fetchFileUrls(fileNames: string[], apiUrl: string = EN_API_URL): Promise<Record<string, string>> {
+  const urls: Record<string, string> = {};
+  for (let i = 0; i < fileNames.length; i += FILE_INFO_BATCH_SIZE) {
+    const batch = fileNames.slice(i, i + FILE_INFO_BATCH_SIZE);
+    const response = await withRetry(`fetch file urls (${i}-${i + batch.length})`, () =>
+      wikiClient.get<MediaWikiFileInfoResponse>(apiUrl, {
+        params: {
+          action: 'query',
+          titles: batch.map((name) => `File:${name}`).join('|'),
+          prop: 'imageinfo',
+          iiprop: 'url',
+          format: 'json',
+          formatversion: '2',
+        },
+      }),
+    );
+    const query = response.data?.query;
+    // The API normalizes titles ("File:VO_Amber" -> "File:VO Amber"): map them back to the requested names.
+    const requestedByTitle = new Map(batch.map((name) => [`File:${name}`, name]));
+    for (const { from, to } of query?.normalized ?? []) {
+      const requested = requestedByTitle.get(from);
+      if (requested) requestedByTitle.set(to, requested);
+    }
+    for (const page of query?.pages ?? []) {
+      const url = page.imageinfo?.[0]?.url;
+      const requested = requestedByTitle.get(page.title);
+      if (url && requested && !page.missing) urls[requested] = url;
+    }
+    await sleep(CATEGORY_PAGE_DELAY_MS);
+  }
+  return urls;
+}
+
+export function downloadFile(url: string, label: string): Promise<Buffer | null> {
+  return fetchOrWarn(`download file "${label}"`, null, async () => {
+    const response = await wikiClient.get<ArrayBuffer>(url, { responseType: 'arraybuffer' });
+    return Buffer.from(response.data);
   });
 }
 

@@ -1,4 +1,6 @@
-import { fetchCategoryMembers, fetchWikitext } from "../lib/wiki-fetch";
+import * as fs from "node:fs";
+import * as path from "node:path";
+import { downloadFile, fetchCategoryMembers, fetchFileUrls, fetchWikitext } from "../lib/wiki-fetch";
 import { PlayableCharacterInformation } from "./models/playableCharacterInformation";
 import { mapWeaponType } from "./mapper/weaponTypeMapper";
 import { mapElementType } from "./mapper/elementTypeMapper";
@@ -10,6 +12,8 @@ import { VoiceActors } from "./models/voiceActors";
 import { Family } from "./models/family";
 import { AscensionStats } from "./models/ascensionStats";
 import { convertLua } from "../lib/tools";
+import { VoiceLanguage, VoiceLine } from "./models/voiceLine";
+import { GeneralDataCharacter } from "./models/generalDataCharacter";
 
 const KEYS = {
   PLAYABLE_CHARACTER_INFORMATION: "Playable Character Information",
@@ -21,7 +25,8 @@ const KEYS = {
 
 const PAGES = {
   PLAYABLE_CHARACTERS: "Playable Characters",
-  ASCENSION_STATS_DATA: "Module:Character Ascensions and Stats/data"
+  ASCENSION_STATS_DATA: "Module:Character Ascensions and Stats/data",
+  VOICE_OVERS_SUFFIX: "/Voice-Overs",
 };
 
 const REGEXS = {
@@ -41,6 +46,15 @@ const REGEXS = {
   VA_EXTERNAL_LINK : /^\[https?:\/\/\S+\s+(?<name>[^\]]+)\]$/,
   // Strips a trailing native-script parenthetical: "Iwami Manaka (石見舞菜香)" -> "Iwami Manaka"
   VA_TRAILING_NATIVE_NAME : /\s*\([\s\S]*\)\s*$/,
+  STORY_VO_BLOCK : /\{\{VO\/Story\n([\s\S]*?)\n\}\}/,
+  // "vo_02_01_title" -> id "02_01", field "title"
+  VOICE_LINE_FIELD : /^vo_(\d+_\d+)_(title|file|tx)$/,
+  // "[[Favonius Cathedral|Cathedral]]" -> "Cathedral", "[[Vision]]" -> "Vision"
+  WIKILINK : /\[\[(?:[^|\]]*\|)?([^\]]+)\]\]/g,
+  BR_TAG : /<br\s*\/?>/gi,
+  HTML_TAG : /<[^>]+>/g,
+  SLUG_INVALID_CHARS : /[^a-z0-9]+/g,
+  SLUG_EDGE_UNDERSCORES : /^_+|_+$/g,
 }
 
 
@@ -48,6 +62,23 @@ const BIRTHDAY_FALLBACK_YEAR = 2000;
 const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 const SELECTED_CHARACTER = "Amber"
+
+const ASSETS_DIR = path.resolve(__dirname, "../../assets");
+
+// Prefix inserted in place of "{language}" in voice-over file names (see Module:VO on the wiki).
+const VOICE_LANGUAGE_PREFIXES: Record<VoiceLanguage, string> = {
+  EN: "",
+  CN: "ZH_",
+  JP: "JA_",
+  KR: "KO_",
+};
+
+const HTML_ENTITIES: Record<string, string> = {
+  "&mdash;": "—",
+  "&ndash;": "–",
+  "&nbsp;": " ",
+  "&amp;": "&",
+};
 
 export function getCharactersName(): Promise<string[]> {
   return fetchCategoryMembers(PAGES.PLAYABLE_CHARACTERS);
@@ -213,6 +244,191 @@ function parseAscensionStats(fields: Record<string, number | string | string[]>)
   return fields as unknown as AscensionStats;
 }
 
+const ANIME_GAME_DATA_BASE = "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/main/ExcelBinOutput";
+// Obfuscated field name holding the actual multiplier value in AvatarCurveExcelConfigData.json.
+const CURVE_VALUE_KEY = "GGKIEIJLCJJ";
+
+interface AvatarGrowCurve {
+  growCurve: string;
+  type: string; // e.g. FIGHT_PROP_BASE_HP, FIGHT_PROP_BASE_ATTACK, FIGHT_PROP_BASE_DEFENSE
+}
+
+interface AvatarExcelEntry {
+  hpBase: number;
+  attackBase: number;
+  defenseBase: number;
+  propGrowCurves: AvatarGrowCurve[];
+}
+
+interface CurveInfo {
+  type: string;
+  arith: string;
+  [CURVE_VALUE_KEY]: number;
+}
+
+interface CurveLevelEntry {
+  level: number;
+  curveInfos: CurveInfo[];
+}
+
+export interface LevelStats {
+  level: number;
+  hp: number;
+  atk: number;
+  def: number;
+}
+
+async function fetchJson<T>(url: string): Promise<T> {
+  const response = await fetch(url);
+  return response.json() as Promise<T>;
+}
+
+function findAvatarEntry(avatars: AvatarExcelEntry[], stats: AscensionStats): AvatarExcelEntry {
+  const match = avatars.find(a =>
+    Math.abs(a.hpBase - stats.base_hp) < 0.01 &&
+    Math.abs(a.attackBase - stats.base_atk) < 0.01 &&
+    Math.abs(a.defenseBase - stats.base_def) < 0.01,
+  );
+  if (!match) throw new Error("No matching AnimeGameData avatar entry found for these base stats");
+  return match;
+}
+
+function computeLevelStats(avatar: AvatarExcelEntry, curveTable: CurveLevelEntry[]): LevelStats[] {
+  const curveNameByProp: Record<string, string> = {};
+  for (const c of avatar.propGrowCurves) curveNameByProp[c.type] = c.growCurve;
+
+  const baseByProp: Record<string, number> = {
+    FIGHT_PROP_BASE_HP: avatar.hpBase,
+    FIGHT_PROP_BASE_ATTACK: avatar.attackBase,
+    FIGHT_PROP_BASE_DEFENSE: avatar.defenseBase,
+  };
+
+  const multiplierFor = (curveInfos: CurveInfo[], prop: string): number => {
+    const curveName = curveNameByProp[prop];
+    const info = curveInfos.find(c => c.type === curveName);
+    return info ? info[CURVE_VALUE_KEY] : 1;
+  };
+
+  return curveTable.map(({ level, curveInfos }) => ({
+    level,
+    hp: baseByProp.FIGHT_PROP_BASE_HP * multiplierFor(curveInfos, 'FIGHT_PROP_BASE_HP'),
+    atk: baseByProp.FIGHT_PROP_BASE_ATTACK * multiplierFor(curveInfos, 'FIGHT_PROP_BASE_ATTACK'),
+    def: baseByProp.FIGHT_PROP_BASE_DEFENSE * multiplierFor(curveInfos, 'FIGHT_PROP_BASE_DEFENSE'),
+  }));
+}
+
+export async function fetchCharacterLevelStats(stats: AscensionStats): Promise<LevelStats[]> {
+  const [avatars, curveTable] = await Promise.all([
+    fetchJson<AvatarExcelEntry[]>(`${ANIME_GAME_DATA_BASE}/AvatarExcelConfigData.json`),
+    fetchJson<CurveLevelEntry[]>(`${ANIME_GAME_DATA_BASE}/AvatarCurveExcelConfigData.json`),
+  ]);
+  const avatar = findAvatarEntry(avatars, stats);
+  return computeLevelStats(avatar, curveTable);
+}
+
+interface RawVoiceLine {
+  title: string;
+  file: string; // still contains the "{language}" placeholder
+  tx?: string;
+}
+
+function slugify(value: string): string {
+  return value
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .replace(REGEXS.SLUG_INVALID_CHARS, "_")
+    .replace(REGEXS.SLUG_EDGE_UNDERSCORES, "");
+}
+
+function cleanWikitext(raw: string): string {
+  const withoutMarkup = raw
+    .replace(REGEXS.WIKILINK, "$1")
+    .replace(REGEXS.BR_TAG, "\n")
+    .replace(REGEXS.HTML_TAG, "");
+  return Object.entries(HTML_ENTITIES)
+    .reduce((text, [entity, char]) => text.replaceAll(entity, char), withoutMarkup)
+    .trim();
+}
+
+export function parseStoryVoiceLines(wikitext: string, characterName: string): RawVoiceLine[] {
+  const block = REGEXS.STORY_VO_BLOCK.exec(wikitext)?.[1];
+  if (!block) return [];
+
+  // Comments ("<!-- Chats -->") must go first, otherwise they get appended to the previous field.
+  const fields = parseInfoboxFields(block.replace(REGEXS.SECTION, ""));
+  const character = fields["character"] || characterName;
+  const name = fields["name"] || character;
+  const fullname = fields["fullname"] || name;
+  const replacePlaceholders = (value: string) => value
+    .replaceAll("{character}", character)
+    .replaceAll("{name}", name)
+    .replaceAll("{fullname}", fullname);
+
+  const voiceLinesById = new Map<string, Partial<RawVoiceLine>>();
+  for (const [key, value] of Object.entries(fields)) {
+    const match = REGEXS.VOICE_LINE_FIELD.exec(key);
+    if (!match) continue;
+    const id = match[1];
+    const field = match[2] as keyof RawVoiceLine;
+    const voiceLine = voiceLinesById.get(id) ?? {};
+    voiceLine[field] = replacePlaceholders(value);
+    voiceLinesById.set(id, voiceLine);
+  }
+
+  return [...voiceLinesById.values()].filter((v): v is RawVoiceLine => Boolean(v.title && v.file));
+}
+
+function voiceLineFileName(rawVoiceLine: RawVoiceLine, language: VoiceLanguage): string {
+  return rawVoiceLine.file.replaceAll("{language}", VOICE_LANGUAGE_PREFIXES[language]);
+}
+
+// Returns true when the file is available on disk (already there or freshly downloaded).
+async function saveAsset(url: string, relativePath: string): Promise<boolean> {
+  const destination = path.join(ASSETS_DIR, relativePath);
+  if (fs.existsSync(destination)) return true;
+
+  const buffer = await downloadFile(url, relativePath);
+  if (!buffer) return false;
+
+  fs.mkdirSync(path.dirname(destination), { recursive: true });
+  fs.writeFileSync(destination, buffer);
+  return true;
+}
+
+export async function fetchVoiceLines(characterName: string): Promise<VoiceLine[]> {
+  const wikitext = await fetchWikitext(characterName + PAGES.VOICE_OVERS_SUFFIX);
+  if (!wikitext) return [];
+
+  const rawVoiceLines = parseStoryVoiceLines(wikitext, characterName);
+  const languages = Object.keys(VOICE_LANGUAGE_PREFIXES) as VoiceLanguage[];
+  const urls = await fetchFileUrls(rawVoiceLines.flatMap(raw => languages.map(language => voiceLineFileName(raw, language))));
+
+  const characterSlug = slugify(characterName);
+  const voiceLines: VoiceLine[] = [];
+  for (const raw of rawVoiceLines) {
+    const title = cleanWikitext(raw.title);
+    const files: VoiceLine["files"] = {};
+
+    for (const language of languages) {
+      const fileName = voiceLineFileName(raw, language);
+      const url = urls[fileName];
+      if (!url) continue;
+
+      // Relative to assets/ so it maps directly to the ServeStatic URL.
+      const relativePath = path.posix.join("characters", characterSlug, "voicelines", language.toLowerCase(), slugify(title) + path.extname(fileName));
+      if (await saveAsset(url, relativePath)) files[language] = relativePath;
+    }
+
+    voiceLines.push({
+      title,
+      transcription: raw.tx ? cleanWikitext(raw.tx) : undefined,
+      files,
+    });
+  }
+  return voiceLines;
+}
+
 //scrapCharacters()
 (async () => {
   const rawCharacter = await fetchCharacter(SELECTED_CHARACTER);
@@ -244,15 +460,18 @@ function parseAscensionStats(fields: Record<string, number | string | string[]>)
   const ascensionStatsTable = convertLua(rawAscensionStats);
   const ascensionStats = parseAscensionStats(ascensionStatsTable[SELECTED_CHARACTER]);
 
-  console.log(rawAscensionStats);
+  const levelStats = await fetchCharacterLevelStats(ascensionStats);
+  console.log(levelStats.filter(s => [1, 20, 90].includes(s.level)));
 
-  const generalDataCharacter = {
+  const voiceLines = await fetchVoiceLines(SELECTED_CHARACTER)
+
+  const generalDataCharacter : GeneralDataCharacter = {
     playableCharacterInformation,
-    characterInformation,
     unrevealed,
     titles,
     voiceActors,
-    family
+    family,
+    voiceLines
   };
 
   //console.log(generalDataCharacter);
