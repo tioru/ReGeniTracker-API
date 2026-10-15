@@ -14,6 +14,7 @@ import { AscensionStats } from "./models/ascensionStats";
 import { convertLua } from "../lib/tools";
 import { VoiceLanguage, VoiceLine } from "./models/voiceLine";
 import { GeneralDataCharacter } from "./models/generalDataCharacter";
+import { LevelStats } from "./models/levelStats";
 
 const KEYS = {
   PLAYABLE_CHARACTER_INFORMATION: "Playable Character Information",
@@ -60,8 +61,6 @@ const REGEXS = {
 
 const BIRTHDAY_FALLBACK_YEAR = 2000;
 const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-const SELECTED_CHARACTER = "Amber"
 
 const ASSETS_DIR = path.resolve(__dirname, "../../assets");
 
@@ -271,18 +270,6 @@ interface CurveLevelEntry {
   curveInfos: CurveInfo[];
 }
 
-export interface LevelStats {
-  level: number;
-  hp: number;
-  atk: number;
-  def: number;
-}
-
-async function fetchJson<T>(url: string): Promise<T> {
-  const response = await fetch(url);
-  return response.json() as Promise<T>;
-}
-
 function findAvatarEntry(avatars: AvatarExcelEntry[], stats: AscensionStats): AvatarExcelEntry {
   const match = avatars.find(a =>
     Math.abs(a.hpBase - stats.base_hp) < 0.01 &&
@@ -431,7 +418,9 @@ export async function fetchVoiceLines(characterName: string): Promise<VoiceLine[
 
 //scrapCharacters()
 (async () => {
-  const rawCharacter = await fetchCharacter(SELECTED_CHARACTER);
+  const charactersName = await getCharactersName();
+  
+  const rawCharacter = await fetchCharacter(charactersName[0]);
   if (!rawCharacter) throw new Error();
 
   const rawCharacterSplitedSection = splitWikitextSections(rawCharacter);
@@ -458,12 +447,12 @@ export async function fetchVoiceLines(characterName: string): Promise<VoiceLine[
   if (!rawAscensionStats) throw new Error();
 
   const ascensionStatsTable = convertLua(rawAscensionStats);
-  const ascensionStats = parseAscensionStats(ascensionStatsTable[SELECTED_CHARACTER]);
+  const ascensionStats = parseAscensionStats(ascensionStatsTable[charactersName[0]]);
 
   const levelStats = await fetchCharacterLevelStats(ascensionStats);
   console.log(levelStats.filter(s => [1, 20, 90].includes(s.level)));
 
-  const voiceLines = await fetchVoiceLines(SELECTED_CHARACTER)
+  const voiceLines = await fetchVoiceLines(charactersName[0])
 
   const generalDataCharacter : GeneralDataCharacter = {
     playableCharacterInformation,
@@ -474,6 +463,10 @@ export async function fetchVoiceLines(characterName: string): Promise<VoiceLine[
     voiceLines
   };
 
-  //console.log(generalDataCharacter);
+  console.log(generalDataCharacter);
 })();
+
+function fetchJson<T>(arg0: string): any {
+  throw new Error("Function not implemented.");
+}
 

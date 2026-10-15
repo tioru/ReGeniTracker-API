@@ -202,3 +202,8 @@ export function fetchHtml(pageTitle: string, apiUrl: string = EN_API_URL): Promi
     return response.data?.parse?.text ?? '';
   });
 }
+
+async function fetchJson<T>(url: string): Promise<T> {
+  const response = await fetch(url);
+  return response.json() as Promise<T>;
+}
